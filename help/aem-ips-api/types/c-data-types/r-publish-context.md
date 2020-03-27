@@ -1,0 +1,61 @@
+---
+description: 会社の公開ターゲットを定義します。
+seo-description: 会社の公開ターゲットを定義します。
+seo-title: PublishContext
+solution: Experience Manager
+title: PublishContext
+topic: Scene7 Image Production System API
+uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
+translation-type: tm+mt
+source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+
+---
+
+
+# PublishContext{#publishcontext}
+
+会社の公開ターゲットを定義します。
+
+構文
+
+## パラメータ {#section-577d46cc75774c7c8fbdcff203a0d9ac}
+
+アセットは、パブリッシュ状態とコンテキストごとに個別のマーカーを保持します。 setAssetsContextStateを使用して、公開状態を設 [定します](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)。
+
+<table id="table_1165D5DDC89140CD8222E5A04B39048E">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 名前 </th>
+   <th colname="col2" class="entry"> 種類 </th>
+   <th colname="col3" class="entry"> 説明 </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
+   <td colname="col2"><span class="codeph"> xsd:string </span></td>
+   <td colname="col3"> パブリッシュコンテキストの処理。 </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
+   <td colname="col2"><span class="codeph"> xsd:string</span></td>
+   <td colname="col3"> パブリッシュコンテキストの名前。 </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
+   <td colname="col2"><span class="codeph"> xsd:string</span></td>
+   <td colname="col3">パブリッシュコンテキストのタイプ。 以下を含む： 
+    <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
+     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
+     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
+     <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> ビデオ</span></li>
+     <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> ServerDirectory</span></li>
+    </ul></td>
+  </tr>
+ </tbody>
+</table>
+
+>[!MORELIKETHIS]
+>
+>* [公開コンテキスト](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+
