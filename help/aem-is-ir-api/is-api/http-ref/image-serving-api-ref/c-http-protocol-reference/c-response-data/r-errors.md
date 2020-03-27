@@ -1,0 +1,37 @@
+---
+description: 要求が正常に完了しなかった場合、サーバーはエラーイメージまたは200以外のHTTP応答ステータスをエラーメッセージと共に返します。
+seo-description: 要求が正常に完了しなかった場合、サーバーはエラーイメージまたは200以外のHTTP応答ステータスをエラーメッセージと共に返します。
+seo-title: エラー
+solution: Experience Manager
+title: エラー
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a08f3f5a-3013-4d35-9612-25190a4c99fa
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# エラー{#errors}
+
+要求が正常に完了しなかった場合、サーバーはエラーイメージまたは200以外のHTTP応答ステータスをエラーメッセージと共に返します。
+
+応答ステータスの値は、エラーのタイプによって異なります。最も一般的なエラーは「403」です。 イメージ以外の要求タイプのエラー応答は、で指定された形式に準拠していま `req=`す。 （現時点では一貫して実装されていない可能性があります）。
+
+エラーメッセージに含まれる詳細の量は、を使用して設定できま `attribute::ErrorDetail`す。
+
+## エラー画像 {#section-92e9b20b2507433daa96923abc95f777}
+
+画像サービングは、画像にレンダリングされたエラーメッセージを返すように設定できます。
+
+詳しく [は、画像カタログ参照のattribute](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) ::ErrorImageを参照してください。
+
+エラー画像が正常に生成された場合、HTTP応答のステータスは200です。 エラー画像の処理中にエラーが発生した場合、標準のHTTPエラー応答とテキストメッセージがクライアントに返されます。
+
+## Default image {#section-66bf25fe6b434081bfae96d38d9be25e}
+
+画像サービングは、見つからない画像を初期設定の画像に置き換えるように設定できます。 デフォルトの画像は、またはコマンドを使用し `attribute::DefaultImage` て指定で `defaultImage=` きます。
+
+## 関連項目 {#section-e261d7f224ca4546bb64bf8cb909db08}
+
+[attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561)[,](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c)attribute::ErrorImage [,](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)attribute::DefaultImage [, defaultImage=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)
