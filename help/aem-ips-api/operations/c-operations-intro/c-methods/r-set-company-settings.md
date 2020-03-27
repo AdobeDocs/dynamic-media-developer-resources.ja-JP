@@ -1,0 +1,66 @@
+---
+description: 会社固有の様々な設定値を設定します。
+seo-description: 会社固有の様々な設定値を設定します。
+seo-title: setCompanySettings
+solution: Experience Manager
+title: setCompanySettings
+topic: Scene7 Image Production System API
+uuid: 5908082f-6743-4444-ba73-757ad4664890
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# setCompanySettings{#setcompanysettings}
+
+会社固有の様々な設定値を設定します。
+
+構文
+
+## 認証されたユーザータイプ {#section-41732fa7424b455cb458eec21a02259c}
+
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `TrialSiteAdmin`
+* `ImagePortalAdmin`
+
+## パラメータ {#section-a472da6c57c74a94a179dda081004888}
+
+**入力(setCompanySettingsParam)**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| ` *`overwriteMode`*` | `xsd:string` | いいえ | アセットの上書きモード。 |
+| ` *`retainPublishState`*` | `xsd:boolean` | いいえ | アセット `true` の再アップロード時に公開状態を保持する場合にに設定します。 |
+| ` *`defaultSourceProfileHandle`*` | `xsd:string` | いいえ | 初期設定のソースカラープロファイルとして使用するIccProfileアセット。 |
+| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | いいえ | 初期設定の表示カラープロファイルとして使用するIccProfileアセット。 |
+| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | いいえ | IPTCおよびEXIFメタデータをIPSメタデータフィールドにマッピングするために使用されるXSLアセット。 |
+| ` *`xmpMappingXsltHandle`*` | `xsd:string` | いいえ | XMPメタデータをIPSメタデータフィールドにマップするために使用されるXSLアセット。 |
+| ` *`diskSpaceWarningMin`*` | `xsd:int` | いいえ | 警告メッセージが送信される前に使用可能な最小空きディスク領域(KB)。 |
+| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | いいえ | アセットがごみ箱 `true` から空になると会社の管理者に通知を送信する場合に設定します。 |
+
+**出力(setCompanySettingsReturn)**
+
+IPS APIはこの操作に対する応答を返しません。
+
+## 例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
+
+このコード例では、会社の設定を設定します。
+
+**リクエスト**
+
+```java
+<ns1:setCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <ns1:companyHandle>c|6</ns1:companyHandle>
+   <ns1:overwriteMode>OverwriteFullName</ns1:overwriteMode>
+   <ns1:retainPublishState>true</ns1:retainPublishState>
+   <ns1:diskSpaceWarningMin>100000</ns1:diskSpaceWarningMin>
+   <ns1:emailTrashCleanupWarning>true</ns1:emailTrashCleanupWarning>
+</ns1:setCompanySettingsParam>
+```
+
+**応答**
+
+なし
