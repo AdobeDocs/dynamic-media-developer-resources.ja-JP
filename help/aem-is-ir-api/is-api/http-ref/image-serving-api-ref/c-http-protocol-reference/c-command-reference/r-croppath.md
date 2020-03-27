@@ -1,0 +1,42 @@
+---
+description: 埋め込まれた名前付きパスのバウンディングボックスに切り抜くことができます。 この切り抜きにより、画像のサイズが変更されます。
+seo-description: 埋め込まれた名前付きパスのバウンディングボックスに切り抜くことができます。 この切り抜きにより、画像のサイズが変更されます。
+seo-title: cropPathE
+solution: Experience Manager
+title: cropPathE
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# cropPathE{#croppathe}
+
+埋め込まれた名前付きパスのバウンディングボックスに切り抜くことができます。 この切り抜きにより、画像のサイズが変更されます。
+
+`cropPathE= *`pathNamepathName`*&#42;[, *``*]`
+
+<table id="table_598304852E844456AB3AC9FF1F178B71"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
+   <td colname="col2"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCIIのみ）。 </p> <p> <span class="codeph"><span class="varname"> pathNameは</span></span> 、レイヤーソース画像に埋め込まれたパスの名前です。 パスは、画像コンテンツとの相対的な位置揃えを維持するため、必要に応じて自動的に変換されます。 複数のpathNameを指定した場 <span class="codeph"><span class="varname"> 合</span></span> 、サーバーは各パスのバウンディングボックスを1つずつ切り抜きます。 ソース <span class="codeph"><span class="varname"> 画像で見つからな</span></span> いpathNameは無視されます。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## プロパティ {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
+
+レイヤー属性。 現在のレイヤーまたは合成画像（の場合）に適用されま `layer=comp`す。 エフェクトレイヤーでは無視されます。
+
+`cropPathE=` が無視されるのは、指定した名前のパスがレイヤーソース画像内に見つからない場合、またはレイヤーソースが画像でない場合です。
+
+## 初期設定 {#section-d1986aa31af14767aeb1b4a57add67f4}
+
+なし（レイヤーの切り抜きは不要）。
+
+## 関連項目 {#section-a60f6e37ebf14e458519fcc4d2cc911d}
+
+[切り抜き](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab)、 [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
