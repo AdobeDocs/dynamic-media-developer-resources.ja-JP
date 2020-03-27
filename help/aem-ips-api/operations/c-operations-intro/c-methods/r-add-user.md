@@ -1,0 +1,76 @@
+---
+description: ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
+seo-description: ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
+seo-title: addUser
+solution: Experience Manager
+title: addUser
+topic: Scene7 Image Production System API
+uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# addUser{#adduser}
+
+ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
+
+ユーザを複数の会社に追加する場合は、での会社の取り扱いによって会社を指定しま `companyHandleArray`す。 この操作は、追加したユーザーにハンドルを返します。
+
+## 認証されたユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
+
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `TrialSiteAdmin`
+* `ImagePortalAdmin`
+
+## パラメータ {#section-40390a512e314b8d80ecffbb7729f6fb}
+
+**入力(addUserParam)**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| ` *`firstName`*` | `xsd:string` | はい | ユーザーの名。 |
+| ` *`lastName`*` | `xsd:string` | はい | ユーザーの姓。 |
+| ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
+| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザの役割を設定します。 ただし、この役割は、他の会 `IpsAdmin` 社ごとの設定よりも優先されます。 |
+| ` *`パスワード`*` | `xsd:string` | はい | ユーザーのパスワードを設定します |
+| ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは、中央時間に調整されます。 |
+| ` *`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判定します。 |
+| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社のハンドルの配列。 |
+
+**出力(addUserParam)**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| ` *`userHandle`*` | `xsd:string` | はい | ユーザーのハンドル。 |
+
+## 例 {#section-2547cef622734b71919eef849960b5cb}
+
+IPS APIは、新しいユーザを指定するユーザハンドル要素を返します。
+
+**リクエスト**
+
+```java
+<ns1:addUserParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
+   <ns1:firstName>Joe</ns1:firstName>
+   <ns1:lastName>User</ns1:lastName>
+   <ns1:email>juser@adobe.com</ns1:email>
+   <ns1:defaultRole>TrialSiteUser</ns1:role>
+   <ns1:password>passw0rd</ns1:password>
+   <ns1:isValid>true</ns1:isValid>
+   <ns1:companyHandleArray>
+      <ns1:items>47</ns1:items>
+   </ns1:companyHandleArray>
+</ns1:addUserParam>
+```
+
+**応答**
+
+```java
+<ns1:addUserReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
+   <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
+</ns1:addUserReturn>
+```
+
