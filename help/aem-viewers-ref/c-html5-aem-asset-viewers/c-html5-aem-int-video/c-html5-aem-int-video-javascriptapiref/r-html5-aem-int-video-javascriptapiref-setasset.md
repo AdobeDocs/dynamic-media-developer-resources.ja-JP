@@ -1,0 +1,53 @@
+---
+description: インタラクティブビデオビューアのJavaScript APIリファレンス。
+seo-description: インタラクティブビデオビューアのJavaScript APIリファレンス。
+seo-title: setAsset
+solution: Experience Manager
+title: setAsset
+topic: Dynamic media
+uuid: 80c670a4-1251-47f5-a66b-8ba5019df1ce
+translation-type: tm+mt
+source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+
+---
+
+
+# setAsset{#setasset}
+
+インタラクティブビデオビューアのJavaScript APIリファレンス。
+
+`setAsset(asset[, data])`
+
+新しいアセットと、オプションで追加されるアセットデータを設定します。 このパラメーターは、いつでも、前でも後でも呼び出すことができま `init()`す。 後に呼び出した場合、ビュ `init()`ーアは実行時にアセットを入れ替えます。
+
+「 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)」も参照。
+
+<table id="table_896DFF34A68A403DB93A6D597461A573"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>}新しいアセットID。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> データ </span> </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> JSON </span>}次のオプションフィールドを持つJSONオブジェクト（大文字と小文字が区別されます）: </p> <p> 
+     <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
+      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> ポスタ </span> リメージ — ビデオの再生開始前の最初のフレームに表示する画像。 VideoPlayer.posterimageを参 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> 照してくださ </a>い。 </li> 
+      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> caption </span> — 新しいキャプションファイルの場所。 指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 </li> 
+      <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> navigation </span> - WebVTTナビゲーションコンテンツのURLまたはパス。 WebVTTファイルは、画像サービングで提供されます。 </li> 
+      <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData </span> - WebVTTインタラクティブデータコンテンツのURLまたはパス。 WebVTTファイルは、画像サービングから提供される必要があります。 </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+
+なし
+
+## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+
+```
+<instance>.setAsset("/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4")
+```
+
