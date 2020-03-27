@@ -1,0 +1,124 @@
+---
+description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
+seo-description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
+seo-title: ジョブログの種類
+solution: Experience Manager
+title: ジョブログの種類
+topic: Scene7 Image Production System API
+uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# ジョブログの種類{#job-log-types}
+
+JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
+
+構文
+
+## 値 {#section-0d0b5e32fbad41538b51fbb9a7319cbd}
+
+* [!DNL `BeginImageServingPublish`]
+* [!DNL `EndImageServingPublish`]
+* [!DNL `ImageServingPublishSuccess`]
+* [!DNL `ImageServingPublishError`]
+* [!DNL `ImageServingPublishWarning`]
+* [!DNL `BeginUpload`
+* [!DNL `EndUpload`]
+* [!DNL `UploadError`]
+* [!DNL `UploadSuccess`]
+* [!DNL `UploadWarning`]
+* [!DNL `BeginAssetMigration`]
+* [!DNL `EndAssetMigration`]
+* [!DNL `EndAssetMigration`]
+* [!DNL `AssetMigrationFailure`]
+* [!DNL `AssetMigrationSuccess`]
+* [!DNL `BeginDelete`]
+* [!DNL `EndDelete`]
+* [!DNL `BeginEmptyTrash`]
+* [!DNL `EndEmptyTrash`]
+* [!DNL `EmptyTrashSuccess`]
+* [!DNL `BeginGet`]
+* [!DNL `EndGet`]
+* [!DNL `GetFailure`]
+* [!DNL `ReturnSuccess`]
+* [!DNL `BeginImageRenderingPublish`
+* [!DNL `EndImageRenderingPublish`]
+* [!DNL `ImageRenderingPublishError`]
+* [!DNL `ImageRenderingPublishSuccess`]
+* [!DNL `BeginImageRenderingPublishCleanup`]
+* [!DNL `EndImageRenderingPublishCleanupFailure`]
+* [!DNL `ImageRenderingPublishCleanupsuccess`]
+* [!DNL `BeginMarkForPublish`]
+* [!DNL `EndMarkForPublish`]
+* [!DNL `MarkForPublishFailure`]
+* [!DNL `MarkForPublishSuccess`]
+* [!DNL `BeginMetadata`]
+* [!DNL `EndMetadata`]
+* [!DNL `MetadataFailure`]
+* [!DNL `MetadataSuccess`]
+* [!DNL `BeginPdfRip`]
+* [!DNL `PdfRipError`]
+* [!DNL `BeginImageServingPublishCleanup`]
+* [!DNL `EndImageServingPublishCleanup`]
+* [!DNL `ImageServingPublishCleanupFailure`]
+* [!DNL `ImageServingPublishCleanupSuccess`]
+* [!DNL `BeginPublishToCm`]
+* [!DNL `EndPublishToCm`]
+* [!DNL `PublishToCmError`]
+* [!DNL `PublishToCmSuccess`]
+* [!DNL `BeginServerDirectoryPublish`]
+* [!DNL `EndServerDirectoryPublish`]
+* [!DNL `ServerDirectoryPublishError`]
+* [!DNL `ServerDirectoryPublishSuccess`]
+* [!DNL `ServerDirectoryPublishWarning`]
+* [!DNL `BeginPublishToWc`]
+* [!DNL `PublishToWcSuccess`]
+* [!DNL `BeginReoptimize`]
+* [!DNL `endReoptimize`]
+* [!DNL `ReoptimizeSuccess`]
+* [!DNL `ReoptimizeFailure`]
+* [!DNL `BeginRestoreTrash`]
+* [!DNL `EndRestoreTrash`]
+* [!DNL `RestoreTrashSuccess`]
+* [!DNL `BeginTemplateMerge`]
+* [!DNL `EndTemplateMerge`]
+* [!DNL `TemplateMergeError`]
+* [!DNL `TemplateMergeSuccess`
+* [!DNL `BeginTrash`]
+* [!DNL `EndTrash`]
+* [!DNL `TrashFailure`]
+* [!DNL `TrashSuccess]`
+* [!DNL `TrashWarning`]
+* [!DNL `BeginUnmarkForPublish`]
+* [!DNL `EndUnmarkForPublish`]
+* [!DNL `UnmarkForPublishSuccess`]
+* [!DNL `BeginUploadUrls`]
+* [!DNL `EndUploadUrls`
+* [!DNL `BeginVideoPubl]ish`]
+* [!DNL `EndVideoPublish`]
+* [!DNL `VideoPublishError`]
+* [!DNL `VideoPubilshSuccess`]
+* [!DNL `VideoPublishWarning`]
+* [!DNL `BeginVideoPublishCleanup`]
+* [!DNL `EndVideoPublishCleanup`]
+* [!DNL `VideoPublishCleanupFailure`]
+* [!DNL `VideoPublishCleanupSuccess`]
+* [!DNL `DeleteFailure`]
+* [!DNL `DeleteSuccess`]
+* [!DNL `DuplicateSkipped`]
+* [!DNL `FatalError`]
+* [!DNL `FileBegin`]
+* [!DNL `FileCancel`]
+* [!DNL `FleEnd`]
+* [!DNL `FileProgress`]
+* [!DNL `FileUpdated`]
+* [!DNL `InitiatingJobName`]
+* [!DNL `JobClient`]
+* [!DNL `JobType`]
+* [!DNL `OriginalJobName`]
+* [!DNL `TotalFileCount`]
+* [!DNL `RecoverTrashSuccess`]
+
