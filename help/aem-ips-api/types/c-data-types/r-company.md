@@ -1,0 +1,29 @@
+---
+description: 会社を表します。
+seo-description: 会社を表します。
+seo-title: 会社名
+solution: Experience Manager
+title: 会社名
+topic: Scene7 Image Production System API
+uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# 会社{#company}
+
+会社を表します。
+
+構文
+
+## パラメータ {#section-0302e9238dbc4704914e938f42c881e6}
+
+| 名前 | 種類 | 説明 |
+|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 会社の担当。 |
+| ` *`name`*` | `xsd:string` | 会社名. |
+| ` *`rootPath`*` | `xsd:string` | 会社のルートパス。 |
+| ` *`expires`*` | `xsd:dateTime` | 会社の有効期限が切れる日時。 |
+
