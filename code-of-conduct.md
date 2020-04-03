@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
@@ -45,4 +45,4 @@ translation-type: tm+mt
 
 ## 属性
 
-この行動規範は、https://contributor-covenant.org/version/1/4で入手可能な [Contributor Covenant](https://contributor-covenant.org)、バージョン1.4から適用されてい [ます](https://contributor-covenant.org/version/1/4/)
+この行動規範は、https://contributor-covenant.org/version/1/4で入手可能な [Contributor Covenant](https://contributor-covenant.org)、バージョン1.4から適用されて [います](https://contributor-covenant.org/version/1/4/)。
