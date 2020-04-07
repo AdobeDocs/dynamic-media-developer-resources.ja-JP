@@ -7,7 +7,7 @@ title: 初めてのインストール
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    画像サービングまたは画像レンダリングのライセンスキーファイル（ファイルのサフィックスが付く）が使 [!DNL .sc8] 用可能な場合は、このフォルダにコピーします。 それ以外の場合は、インストールを続行し、後でライセンスキーをインストールします。
 1. 画像サービング配布用tarファイルを解凍し、解凍します。
 1. フォル [!DNL ./install-is]ダ内のを実行し、イ [!DNL Setup] ンストールウィザードを起動します。
+
    ライセンスキーが見つからない場合は、ライセンスファイルの取得方法を説明する手順が表示されます。 この時点でインストールを行うか、画像サービングのインストールを続行し、後でライセンスキーをインストールします。
 1. 使用許諾契約書(EULA)が表示されたら、使用許諾契約書を読み、入力して続行 `y` します。
 
@@ -63,7 +64,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    **重要：**root以外のアカウントを指定した場合は、Image Serverが読み取りおよび書き込みの必要があるすべてのファイルやフォルダのアクセス権限が、設定ファイルで再設定されたときに正しく設定されていることを確認する必要があります。
 >画像サービングがにインストールされまし [!DNL /usr/local/Scene7/ImageServing]た。 特定の画像レンダリングコンテンツがにインストールされま [!DNL /usr/local/Scene7/ImageRendering]す。
 >
->インストールが終了すると、インストールウィザードはImage Serverの起動を試みます。 有効なライセンスキーが見つからない場合、Image Serverを起動できません。 有効なライセンスがあり、Image Serverが起動していない場合は、ログファイルを参照してください。
+>インストールが終了すると、インストールウィザードはImage Serverの開始を試みます。 有効なライセンスキーが見つからない場合、Image Serverは開始できません。 有効なライセンスがあり、Image Serverが起動していない場合は、ログファイルを参照してください。
 >[!NOTE]
 Image Servingのインストール後にライセンスがインストールされる場合は、使用する前にImage Serverを手動で起動する必要があります。
 >
