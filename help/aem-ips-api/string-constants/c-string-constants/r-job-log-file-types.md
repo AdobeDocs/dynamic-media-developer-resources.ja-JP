@@ -7,7 +7,7 @@ title: ジョブログファイルの種類
 topic: Scene7 Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
 
 ---
 
@@ -23,7 +23,7 @@ JobLogDetial/assetTypeで使用されます。
 * [!DNL `NoType`]
 * [!DNL `PublishCatalog`]
 * [!DNL `OptimizedImage`]
-* [!DNL `MasterImage`]]
+* [!DNL `MasterImage`]
 * [!DNL `SealedImage`]
 * [!DNL `Mask`]
 * [!DNL `Vignette`]
