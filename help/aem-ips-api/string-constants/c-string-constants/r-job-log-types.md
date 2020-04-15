@@ -7,7 +7,7 @@ title: ジョブログの種類
 topic: Scene7 Image Production System API
 uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
 
 ---
 
@@ -25,7 +25,7 @@ JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 * [!DNL `ImageServingPublishSuccess`]
 * [!DNL `ImageServingPublishError`]
 * [!DNL `ImageServingPublishWarning`]
-* [!DNL `BeginUpload`
+* [!DNL `BeginUpload`]
 * [!DNL `EndUpload`]
 * [!DNL `UploadError`]
 * [!DNL `UploadSuccess`]
@@ -44,7 +44,7 @@ JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 * [!DNL `EndGet`]
 * [!DNL `GetFailure`]
 * [!DNL `ReturnSuccess`]
-* [!DNL `BeginImageRenderingPublish`
+* [!DNL `BeginImageRenderingPublish`]
 * [!DNL `EndImageRenderingPublish`]
 * [!DNL `ImageRenderingPublishError`]
 * [!DNL `ImageRenderingPublishSuccess`]
@@ -86,17 +86,17 @@ JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 * [!DNL `BeginTemplateMerge`]
 * [!DNL `EndTemplateMerge`]
 * [!DNL `TemplateMergeError`]
-* [!DNL `TemplateMergeSuccess`
+* [!DNL `TemplateMergeSuccess`]
 * [!DNL `BeginTrash`]
 * [!DNL `EndTrash`]
 * [!DNL `TrashFailure`]
-* [!DNL `TrashSuccess]`
+* [!DNL `TrashSuccess`]
 * [!DNL `TrashWarning`]
 * [!DNL `BeginUnmarkForPublish`]
 * [!DNL `EndUnmarkForPublish`]
 * [!DNL `UnmarkForPublishSuccess`]
 * [!DNL `BeginUploadUrls`]
-* [!DNL `EndUploadUrls`
+* [!DNL `EndUploadUrls`]
 * [!DNL `BeginVideoPubl]ish`]
 * [!DNL `EndVideoPublish`]
 * [!DNL `VideoPublishError`]
