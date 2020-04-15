@@ -7,7 +7,7 @@ title: カラースペース
 topic: Scene7 Image Production System API
 uuid: a703fccb-932d-4de8-84a1-bc0483013151
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
 
 ---
 
@@ -31,7 +31,7 @@ IccProfileFieldUpdate/colorSpaceおよびIccProfileFieldUpdate/pcsTypeで使用�
 * [!DNL `HLS`]
 * [!DNL `CMYK`]
 * [!DNL `2CLR`]
-* [!DNL `3CLR`
+* [!DNL `3CLR`]
 * [!DNL `4CLR`]
 * [!DNL `5CLR`]
 * [!DNL `6CLR`]
