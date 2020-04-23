@@ -7,14 +7,14 @@ title: カラー処理
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # カラー処理{#color-handling}
 
-RTF仕様では、\colortblで指定したRGBカラー値が許可されています。 各コンポーネントには、\red、\green、\blueの各コマンドが別々に用意されています。
+RTF仕様では、で指定したRGBカラー値が許可されま `\colortbl`す。 各コンポーネントには、、、およびの各コ `\red`マンド `\green`が別々に用意さ `\blue` れています。
 
 独自のRTF拡張コマンドを使用す `\cmykcolortbl` ると、CMYKカラーを指定できます。各カラーコンポーネントには、、、、およびの各コ `\cyan`マンド `\magenta`が付 `\yellow`属して `\black` います。
 
