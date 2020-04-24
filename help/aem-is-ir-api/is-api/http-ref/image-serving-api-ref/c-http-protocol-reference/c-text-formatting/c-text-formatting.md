@@ -7,7 +7,7 @@ title: テキストの書式設定
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 すべてのテキストコマンドは、RTF（リッチテキスト形式）仕様のサブセットに基づいて、形式設定されたテキストを受け付けます。 各テキストレイヤーには、異なるテキストコマンドを指定できます。
 
-次の表に、各テキストコマンドで使用できる主な機能を示します。
+次の表に、各テキストリストで使用できる主な機能を示します。
 
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
@@ -58,19 +58,19 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
    <td> <p>コピー継手 </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> コピー — 継手 <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> コピー — 継手 <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>テキストボックスの余白 </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> <p>\margl、\margr、\margt、\margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>段落全体の行揃え </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>最終行の位置揃え </p> </td> 
