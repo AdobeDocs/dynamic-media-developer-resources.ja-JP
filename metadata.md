@@ -7,24 +7,27 @@ getting-started-title: 使い始める前に
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: チュートリアル
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.ja-JP
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
 
-# 内部使用のためのメタデータ
+# 内部使用用のメタデータ
 
-metadata.mdファイルにはリポジトリ内のユーザガイドTOC.mdファイルに渡すリポジトリレベルのメタデータが含まれます。 任意のユーザガイドのmetadata.mdコンテンツを変更する場合は、任意のTOC.mdファイルで変更します。
+metadata.mdファイルには、リポジトリ内のユーザガイドTOC.mdファイルに渡されるリポジトリレベルのメタデータが含まれます。 ユーザガイドのmetadata.mdコンテンツを変更する場合は、任意のTOC.mdファイルで変更します。
 
-| メタデータ | 役割 |
+| メタデータ | 何をするか |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用 |
+| ソリューションタイトル | 記事のヘッダーにリンクとして使用 |
 | solution-hub-url | ヘルプハブページを開きます |
-| 溶液のアイコン | ソリューションタイトルの横にソリューションアイコンを表示します。 未実装 |
+| 解決策 | ソリューションタイトルの横にソリューションアイコンを表示します。 未実装 |
 | getting-started-url | ヘルプの「はじめに」ページへのリンク |
-| tutorials-url | ビデオチュートリアルへのリンク（ヘルプxチュートリアルまたはKTチュートリアル） |
-| ミニ目次レベル | 右側のレールに表示する見出しレベルの数を指定します。 デフォルトは2です。 |
-| ギットレポ | 内部で使用するマスターレポートの場所を指定します |
+| tutorials-url | ビデオチュートリアルへのリンク（ヘルプクリックスチュートリアルまたはKTチュートリアル） |
+| ミニ目次レベル | 右側のレールに表示される見出しレベルの数を指定します。 デフォルトは2です。 |
+| ギットレポ | 内部使用の主なソースレポートの場所を指定します |
