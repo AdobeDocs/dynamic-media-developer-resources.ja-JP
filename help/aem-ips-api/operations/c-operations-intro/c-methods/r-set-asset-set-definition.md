@@ -7,7 +7,10 @@ title: setAssetSetDefinition
 topic: Scene7 Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 認証済みユーザータイプ {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,17 +42,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(setAssetSetDefinitionReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
-## setDefinitionパラメータ：バージョン情報 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinitionパラメータ： バージョン情報 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition関数**
 
-置換関 `setDefinition` 数をインラインで指定します。 これらは、カタログ参照中またはパブリケーション時に解決されます。 置換文字列の形式は次の `${<substitution_func>}`とおりです。
+インラインで `setDefinition` 置換関数を指定する。 これらは、カタログ参照中またはパブリケーション上で解決されます。 置換文字列の形式は次の `${<substitution_func>}`とおりです。
 
 >[!NOTE]
 >
->パラメーターリスト内のハンドルリテラルは、角括弧で囲む必要がありま `([])`す。 置換文字列の外側のテキストは、解決時に出力文字列にコピーされます。
+>パラメーターリスト内のハンドルリテラルは、角括弧で囲む必要があり `([])`ます。 置換文字列の外側のテキストは、解決時に出力文字列にコピーされます。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -61,19 +64,19 @@ IPS APIはこの操作に対する応答を返しません。
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> マスターファイルのパス </td> 
+   <td colname="col2"> プライマリファイルのパス </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> カタログID。 </td> 
+   <td colname="col2"> カタログID </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>], [ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> メタデータ値。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> カタログID。 画像ベースのアセット（画像、調整されたビュー、レイヤービュー）に適用されます。 <p>その他のアセットの場合、サムアセットのカタログID（存在する場合）を返します。 サムアセットがアセットに関連付けられていない場合は、空の文字列を返します。 </p> </td> 
+   <td colname="col2"> カタログID 画像ベースのアセット(画像、調整された表示、レイヤー表示)に適用されます。 <p>その他のアセットの場合、サムアセットのカタログID（存在する場合）を返します。 サムアセットがアセットに関連付けられていない場合は、空の文字列を返します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +91,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-参照時または発行時に次のように解決されます。
+ルックアップ時またはパブリケーション時に次の値に解決されます。
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
