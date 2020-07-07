@@ -7,9 +7,9 @@ title: ビネットコンバータ
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL vntc] は、デフォルトで最大3 GBのメモリに制限されます。 Vntcがこの制限に到達すると、処理が停止し、エラーが発生します。 この制限は、を使用して変更でき `-maxmem`ます。
 
->[!NOTE] {class=&quot;- topic/note &quot;
+>[!NOTE]
 >
 >画像オーサリングのビネット更新ツールを使用して、画像レンダリング用のビネットを準備することもできます。 同様に、コンテンツオーサリングツールでは、画像レンダリングで使用するキャビネットスタイルのファイルを生成できます。 処理を自動化する [!DNL vntc] 場合に使用します。 画像オーサリングのツールにはグラフィカルユーザインターフェイスが含まれているので、通常、インタラクティブに使用しやすくなります。
 
