@@ -7,7 +7,10 @@ title: サーバーの設定と管理
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 この節では、Image Rendering Serverの設定と管理に役立つ情報を説明します。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->画像レンダリングを正しく機能させるには、画像サービングを適切に設定し、機能させる必要があります。
+>画像レンダリングが正しく機能するためには、画像サービングを適切に設定し、機能させる必要があります。
 
 詳しくは、『マテリアルカタログリファレンス』、『HTTPプロトコルリファレンス』、『リリースノート』、『画像サービングドキュメント』を参照してください。
