@@ -7,10 +7,10 @@ title: ReprocessAssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '484'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ PDFのリッピングや画像の最適化など、以前にアップロード�
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3">既存の切り抜き定義の保存を制御します。 初期設定は <span class="codeph"> trueです</span>。 </td> 
+   <td colname="col3"> <p>既存の切り抜き定義の保存を制御します。 初期設定は true。</p> <p>manualCropOptionsパラメーターと対応する値を指定した場合は、preserveCrop値に関係なく、新しい値（0,0,0,0を除く）がアセットに適用されます。</p><p>manualCropOptionsパラメータ <i>を指定しない場合</i> 、preserveCropの値は維持されます。 また、trueの場合は、既存のpreserveCrop値が保持されます。 falseの場合、preserveCrop値は削除されます。</p><p>例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;&lt;right&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;&lt;bottom&gt;120&lt;/bottom&gt;<br /><br />&lt;/manualCrop Options&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
