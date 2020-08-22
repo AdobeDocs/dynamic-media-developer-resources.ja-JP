@@ -7,24 +7,27 @@ title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`幅`*[; *`幅`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`幅`*]]`
 
 <table id="table_7DA232CB62134078B788B9AB1452F363"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントがサイズ変更時にメインビューとフライアウトビューの新しい画像を取得する方法を設定します。 </p> <p>0に設定す <span class="codeph"> ると、コ </span>ンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウトビューの画像解像度は変更されません。 </p> <p>1に設定す <span class="codeph"> ると、 </span> メインビューに読み込まれる画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。 </p> <p>0に設定すると、コンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウト表示の画像解像度は変わりません。 <span class="codeph"></span> </p> <p>1に設定すると、メ <span class="codeph"></span> イン表示にロードされる画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> breakpoint、 <span class="varname"> width </span>[; <span class="varname"> 幅 </span></span> </p> </td> 
-   <td colname="col2"> <p>メインビューに読み込まれる画像の幅のブレークポイント。 </p> <p>コンポーネントは、常に最初の荷重に最適なサイズを使用します。 サイズ変更後は、メインビューの画像が常に最も近い大きいブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> breakpoint, <span class="varname"> width </span>; <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col2"> <p>メイン表示に読み込まれる画像の幅のブレークポイント。 </p> <p>コンポーネントでは、常に最初の読み込みに最適なサイズが使用されます。 サイズ変更後は、メイン表示の画像が常に最も近い大きいほうのブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
