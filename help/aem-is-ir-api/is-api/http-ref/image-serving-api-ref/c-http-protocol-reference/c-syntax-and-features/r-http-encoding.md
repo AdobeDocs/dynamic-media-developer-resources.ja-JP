@@ -1,22 +1,25 @@
 ---
 description: コマンド値は、値文字列に予約文字「=」、「&」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
 seo-description: コマンド値は、値文字列に予約文字「=」、「&」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
-seo-title: 画像サービングHTTPエンコーディング
+seo-title: 画像サービングのHTTPエンコーディング
 solution: Experience Manager
-title: 画像サービングHTTPエンコーディング
+title: 画像サービングのHTTPエンコーディング
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 21%
 
 ---
 
 
-# 画像サービングHTTPエンコーディング{#image-serving-http-encoding}
+# 画像サービングのHTTPエンコーディング{#image-serving-http-encoding}
 
 コマンド値は、値文字列に予約文字「=」、「&amp;」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
 
-それ以外の場合は、標準のHTTPエンコーディングルールが適用されます。 HTTP仕様では、安全でない文字と、およびなどの制御文字のエンコードが必要 `<return>` です `<tab>`。 文字のURLエンコーディングは、「%」記号に続いて、その文字のISO-Latinコードポイントの2桁の16進表現（大文字と小文字を区別しない）が続きます。 安全でない文字とコードポイントは次のとおりです。
+それ以外の場合は、標準のHTTPエンコーディングルールが適用されます。 HTTP仕様では、安全でない文字と、およびなどの制御文字のエンコードが必要 `<return>` で `<tab>`す。 文字のURLエンコーディングは、「%」記号に続く、その文字のISO — ラテン語コードポイントの2桁の16進表現（大文字と小文字を区別しない）で構成されます。 安全でない文字とコードポイントは次のとおりです。
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -58,12 +61,12 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>{ </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>} </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,12 +91,12 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>[ </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>] </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
@@ -105,7 +108,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
  </tbody> 
 </table>
 
-予約文字もエンコードする必要があります。
+予約済みの文字もエンコードする必要があります。
 
 <table id="table_A6C808A05EA6420F8125186D3D5C9E33"> 
  <thead> 
@@ -173,14 +176,14 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 `…&$text=rate&weight=85% 27#&…`
 
-不明化を適用しない場合、上記の要求フラグメントは次のようにエンコードする必要があります。
+難読化を適用しない場合、上記のリクエストフラグメントは次のようにエンコードする必要があります。
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-不明化を適用した場合、エンコーディングでは、「=」、「&amp;」および「%」の文字を削除するように制限できます。
+不明化を適用した場合、エンコーディングでは、「=」、「&amp;」および「%」の文字を削除できるように制限できます。
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 関連項目 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[不明化の要求](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、 [HTTP/1.1仕様(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[要求の不明化](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、 [HTTP/1.1仕様(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
