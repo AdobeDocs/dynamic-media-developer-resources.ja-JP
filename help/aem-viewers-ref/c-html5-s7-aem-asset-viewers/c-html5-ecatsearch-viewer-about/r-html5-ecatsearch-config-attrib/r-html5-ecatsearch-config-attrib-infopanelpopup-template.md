@@ -7,9 +7,9 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: d90c469201fba228fa838e3538f47d44500ea7f6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,6 @@ ht-degree: 3%
 
 ## 例 {#section-16d184665c484964af9a22f79ff3f840}
 
-情報サーバの応答が製品名を変数[!DNL]として返し、製品イメージURL `$1$` を変数[!DNLとして返すと `$2$`します。
+情報サーバの応答が製品名を変数として返し、製品の画像URL `$1$` を変数として返すと仮定 `$2$`します。
 
-[!DNL `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`]
+`template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
