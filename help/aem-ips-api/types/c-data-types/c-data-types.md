@@ -7,7 +7,10 @@ title: データタイプ
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 4%
 
 ---
 
@@ -145,7 +148,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [PdfSettingsInfo](r-pdf-settings-info.md)
 + [権限](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
-+ [PermissonSet](r-permission-set.md)
++ [PermissionSet](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
@@ -190,7 +193,6 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [SystemFieldCondition](r-system-field-condition.md)
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TagCondition](r-tag-condition.md)
-+ [TagConditionArray](r-tag-condition-array.md)
 + [TagConditionArray](r-tag-condition-array.md)
 + [TagFieldValues](r-tag-field-values.md)
 + [TagFieldValuesArray](r-tag-field-values-array.md)
