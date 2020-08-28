@@ -4,20 +4,23 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 2%
 
 ---
 
 
-# ダイナミックメディアイメージ制作システムAPI {#image-production-api}
+# Dynamic Media Image Production System API {#image-production-api}
 
-+ [ダイナミックメディアデベロッパーリソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [ダイナミックメディアイメージ制作システムAPIについて](c-overview.md)
++ [ダイナミックメディア開発者向けリソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Image Production System APIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
-+ [IPS WebサービスのWSDLバージョン](c-wsdl-versions.md)
-+ 操作メソッド {#operation-methods}
++ [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
++ 操作のメソッド {#operation-methods}
    + [操作メソッド](operations/c-operations-intro/c-operations-intro.md)
-   + 操作パラメーター {#operation-parameters}
+   + 操作のパラメーター {#operation-parameters}
       + [操作パラメーターの概要](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -60,7 +63,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [deletePropertySet](operations/c-operations-intro/c-methods/r-delete-property-set.md)
       + [deletePropertySetType](operations/c-operations-intro/c-methods/r-delete-property-set-type.md)
       + [deleteTagFieldValues](operations/c-operations-intro/c-methods/r-delete-tag-field-values.md)
-      + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
+      + [deleteVignetPublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
       + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
@@ -308,7 +311,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [PdfSettingsInfo](types/c-data-types/r-pdf-settings-info.md)
    + [権限](types/c-data-types/r-permissions.md)
    + [PermissionArray](types/c-data-types/r-permission-array.md)
-   + [PermissonSet](types/c-data-types/r-permission-set.md)
+   + [PermissionSet](types/c-data-types/r-permission-set.md)
    + [PermissionSetArray](types/c-data-types/r-permission-set-array.md)
    + [PermissionUpdate](types/c-data-types/r-permission-update.md)
    + [PermissionUpdateArray](types/c-data-types/r-permission-update-array.md)
@@ -353,7 +356,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldCondition](types/c-data-types/r-system-field-condition.md)
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
@@ -401,7 +403,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
 + 文字列定数 {#sting-constants}
    + [文字列定数](string-constants/c-string-constants/c-string-constants.md)
    + [アクティブなジョブの状態](string-constants/c-string-constants/r-active-job-states.md)
-   + [Asset Search Systemフィールド](string-constants/c-string-constants/r-asset-search-system-fields.md)
+   + [Asset Search System Fields](string-constants/c-string-constants/r-asset-search-system-fields.md)
    + [アセットの上書きモード](string-constants/c-string-constants/r-asset-overwrite-modes.md)
    + [アセットの並べ替えフィールド](string-constants/c-string-constants/r-asset-sort-fields.md)
    + [アセットタイプ](string-constants/c-string-constants/r-asset-types.md)
@@ -410,23 +412,23 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [カラースペース](string-constants/c-string-constants/r-color-spaces.md)
    + [電子メール設定](string-constants/c-string-constants/r-email-settings.md)
    + [フォントスタイル](string-constants/c-string-constants/r-font-styles.md)
-   + [フォントタイプ](string-constants/c-string-constants/r-font-types.md)
+   + [フォントの種類](string-constants/c-string-constants/r-font-types.md)
    + [生成情報](string-constants/c-string-constants/r-generation-info.md)
    + [Illustratorプロセス](string-constants/c-string-constants/r-illustrator-processes.md)
    + [ジョブログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
    + [ジョブログの並べ替えフィールド](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [ジョブログの種類](string-constants/c-string-constants/r-job-log-types.md)
-   + [ジョブトリガーの状態](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [ジョブトリガー状態](string-constants/c-string-constants/r-job-trigger-states.md)
    + [ジョブタイプ](string-constants/c-string-constants/r-job-types.md)
    + [メタデータフィールドの種類](string-constants/c-string-constants/r-metadata-field-types.md)
    + [数値/日付比較演算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDFプロセス](string-constants/c-string-constants/r-pdf-processes.md)
-   + [権限のタイプ](string-constants/c-string-constants/r-permission-types.md)
+   + [権限の種類](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshopアンカーモード](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshopレイヤーの命名モード](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScriptカラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [プロファイルクラス](string-constants/c-string-constants/r-profile-classes.md)
-   + [公開状態](string-constants/c-string-constants/r-publish-state.md)
+   + [発行状態](string-constants/c-string-constants/r-publish-state.md)
    + [プロパティセットの種類](string-constants/c-string-constants/r-property-set-types.md)
    + [公開コンテキスト](string-constants/c-string-constants/r-publish-context.md)
    + [発行タイプ](string-constants/c-string-constants/r-publish-types.md)
@@ -436,8 +438,8 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [文字列比較演算子](string-constants/c-string-constants/r-string-comparison-operators.md)
    + [ごみ箱の状態](string-constants/c-string-constants/r-trash-state.md)
    + [ユーザー文字フィルターフィールド](string-constants/c-string-constants/r-user-char-filter-fields.md)
-   + [ユーザの役割](string-constants/c-string-constants/r-user-roles.md)
-   + [ユーザーによるフィールドの並べ替え](string-constants/c-string-constants/r-user-sort-fields.md)
+   + [ユーザーの役割](string-constants/c-string-constants/r-user-roles.md)
+   + [ユーザーの並べ替えフィールド](string-constants/c-string-constants/r-user-sort-fields.md)
    + [ビューアの種類](string-constants/c-string-constants/r-viewer-type.md)
 + 障害 {#faults}
    + [障害の概要](faults/c-faults/c-faults.md)
@@ -476,4 +478,4 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [操作：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
-+ [HTTP POSTを使用してアセットをUploadFileにアップロード中…](c-http-post.md)
++ [HTTP POSTを使用してUploadFileにアセットをアップロードする…](c-http-post.md)
