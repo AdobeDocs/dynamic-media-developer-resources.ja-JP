@@ -1,15 +1,15 @@
 ---
-description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題について考慮する必要があります。
-seo-description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題について考慮する必要があります。
+description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
+seo-description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
 seo-title: 制限事項と既知の問題
 solution: Experience Manager
 title: 制限事項と既知の問題
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 制限事項と既知の問題{#restrictions-and-known-issues}
 
-Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題について考慮する必要があります。
+Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
 
 ## ドキュメントのエラー {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -37,9 +37,9 @@ Scene7画像サービングを使用する場合は、いくつかの制限事�
 * テキストの最後の行が収まらない場合は、行全体が切り取り値として表示されるのではなく、切り捨てられます。
 * `\slmult` MS Wordとは `\sl` 動作が異なり、現在の段落と後続の段落で `text=`は動作が有効になります。
 
-* `\sb` は、MS WordとAdobe InDesignおよびPhotoshopの両方の最初の段落に適用され `text=`ますが、この処理は行われません。
+* `\sb` は、MS Wordと `text=`、Adobe InDesignとPhotoshopの両方の最初の段落に適用されます。
 
-* `\sa` は、MS WordとAdobe InDesignおよびPhotoshopの両方の最後の段落に適用され `text=`ますが、この処理は行われません。
+* `\sa` は、MS Wordと `text=`、Adobe InDesignとPhotoshopの両方の最後の段落に適用されます。
 
 ## 下位互換性 {#section-a76842f751944f4fb664af296d064122}
 
@@ -73,7 +73,7 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 * ポイントテキストと位置を指定したテキストパスがクリッピングを示す場合があります。
 * `text=` とは、段落 `\sa` ごとではなく、テキストブロック全体 `\sb` にのみ適用されます。
 
-* URLで定義された1つの会社と、 `src=` または `mask=` 修飾子で定義された別の会社を使用する場合、またはこのリクエスト形式を機能させるには、定義された会社にスラッシュを接頭辞として付ける必要があり `src=``mask=` ます。
+* URLで定義された1つの会社と `src=` 、または `mask=` 修飾子で定義された別の会社を使用する場合、またはこのリクエスト形式を機能させるには、定義された会社の前にスラッシュを付け `src=``mask=` る必要があります。
 
    *例*:
 
@@ -83,25 +83,25 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 
 * ピラミッド以外のTIFF要求またはビネット要求は、
 
-   *&quot;イメージ`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`に有効なDSFがなく、2.25MPixelの領域が最大2MPixelを超えています* 。
+   *&quot;Image`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`has no valid DSF, and area of 2.25MPixel exceeds of 2MPixel&quot;* .
 
    ベストプラクティスは、ティフとビネットのピラミッドを使用することです。 ピラミッド以外のタイフやビネットを使用する必要がある場合は、次の手順に従ってサイズ制限を増やします。
 
    *対策*:
 
-   ピラミッドビネット以外の画像レンダリングの場合は、[!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml]設定ファイルのIrMaxNonPyrVignetSizeのプロパティ値を大きくします。
+   画像レンダリングの非ピラミッドビネットの場合は、 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイルのIrMaxNonPyrVignetteSizeのプロパティ値を大きくします。
 
-   画像サービングの非ピラミッドTIFFの場合は、[!DNL `MaxNonDsfSize`*[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml]設定ファイルでののプロパティ値を増やします。
+   画像サービングのピラミッド以外のTIFFの場合は、 `MaxNonDsfSize`[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイルののプロパティ値を増やします。
 
-* Adobe Photoshop CS3では、レイヤー化されたPSDファイルは、初期設定では合成画像として保存されません。
+* Adobe PhotoshopCS3では、レイヤー化されたPSDファイルは、初期設定では合成画像として保存されません。
 
    *症状*:
 
-   Adobe Photoshop CS3レイヤーPSDファイルは、「このレイヤーのPhotoshopファイルは、合成画像と共に保存されませんでした」というテキストを含む黒で表示されます。 画像サービングの返信画像またはIPSの場合。
+   Adobe PhotoshopCS3のレイヤーPSDファイルは、「このレイヤーPhotoshopファイルは、合成画像と共に保存されませんでした。」というテキストを含む黒で表示されます。 画像サービングの返信画像またはIPSの場合。
 
    *回避策*：
 
-   「互換性を最大化」をオンにして、Adobe Photoshop CS3ファイルを保存します。
+   「互換性を最大化」をオンにして、Adobe PhotoshopCS3ファイルを保存します。
 
 * CMYK/JPEGの返信画像にICCプロファイルを割り当てると、一部のブラウザで色が反転する場合があります。*対策*:
 
@@ -119,8 +119,8 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 * 16bpc PNG画像はPhotoFontテキストではサポートされていません。
 * カラープロファイルが埋め込まれたPNG画像のカラー補正では、ハードコードされたオプションが使用されます。 レンダリングインテントが相対的な色域を保持し、PhotoFontテキストに対してブラックポイントの補正がオンになっている。
 * 会社 [!DNL ini] ファイルでロケール変換が有効になっている場合、ファイルベースの参照はサポートされません。
-* 画像サービングで、閉じていないPhotoshopのパスが正しく書き込まれません。
-* 画像サービングは、現在、Adobe Media Encoder 4.0.1以前を使用して書き出したTIFFファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere Pro CS4、After Effects CS4、Creative Suite 4 Production Premiumに含まれています。
+* 画像サービングで、閉じていないPhotoshopパスが正しく書き込まれません。
+* 画像サービングは、現在、Adobe Media Encoder4.0.1以前を使用して書き出したTIFFファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere ProCS4、After EffectsCS4、Creative Suite4 Production Premiumに含まれています。
 * レイヤーの自動サイズ調整 `text=` での使用は、行の位置揃えに複数の設定を使用するRTF文字列をサポートしません。
 
    *例*
@@ -135,7 +135,7 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 
    *対処方法*
 
-   プロパティ `svgProvider.fontRoot=` を[!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf]に設定します。
+   プロパティをに設定 `svgProvider.fontRoot=` し [!DNL install_root/ImageServing/conf/PlatformServer.conf] ます。
 
 * 新しく拡大した領域を塗りつぶすのでは `bgColor=` なく、現在切り抜きを使用し `color=` ています。
 
@@ -145,7 +145,7 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 ## 画像レンダリングにのみ適用される制限 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * デカルと壁の材料は取り外しできません。
-* テクスチャのサイズは、ビネット表示のサイズに対して制限されます。 まれに、表示サイズのデフォルトの制限である425%が、非常に大きな反復不可能なテクスチャを使用するアプリケーションの妨げになる場合があります。 アプリケーションやコンテンツが事前定義の制限内で機能するように変更できない場合は、次のように割合を増やすことができます。 テキストエディタを使用して、[!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml]を開き、新しいパーセンテージ値 `IrMaxTextureSizeFactor` を検索して入力します。 この変更は、Image Serverを再起動しなくてもすぐに反映されます。
+* テクスチャのサイズは、ビネット表示のサイズに対して制限されます。 まれに、表示サイズのデフォルトの制限である425%が、非常に大きな反復不可能なテクスチャを使用するアプリケーションの妨げになる場合があります。 アプリケーションやコンテンツが事前定義の制限内で機能するように変更できない場合は、次のように割合を増やすことができます。 テキストエディターを使用して、を開き [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]、新しいパーセンテージ値 `IrMaxTextureSizeFactor` を入力します。 この変更は、Image Serverを再起動しなくてもすぐに反映されます。
 
 * nocacheヘッダーが設定されている場合でも、NetscapeおよびOperaのJavaScriptエンジンは応答データをキャッシュします。 これは、ステートフル要求の正しい機能を妨げます。
 
