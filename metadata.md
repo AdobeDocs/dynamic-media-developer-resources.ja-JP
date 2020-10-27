@@ -1,5 +1,7 @@
 ---
 cloud: experience-cloud
+solution: Dynamic Media Classic
+type: Documentation
 solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
@@ -10,7 +12,7 @@ tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-vide
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.ja-JP
 index: true
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 2cf150382c04e5acf8e046e28eed26d684701458
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
