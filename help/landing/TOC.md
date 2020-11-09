@@ -1,10 +1,17 @@
 ---
-title: Adobe Dynamic Media開発者向けリソース
-seo-title: ビューア、画像サービング、画像レンダリングおよび画像制作用のAdobe Dynamic Media開発者リソースガイド
-description: Adobe Dynamic Media開発者向けリソース
-seo-description: ビューア、画像サービング、画像レンダリングおよび画像制作用のAdobe Dynamic Media開発者リソースガイド
+title: Adobeダイナミックメディア開発者向けリソース
+cloud: experience-cloud
+product: Adobe Dynamic Media Developer Resources
+audience: end-user
+user-guide-title: Adobeダイナミックメディア開発者向けリソース
+breadcrumb-title: ダイナミックメディア開発者向けリソース
+user-guide-description: ビューアリファレンスガイド、画像制作システムAPI、画像サービングとレンダリングAPI、以前のScene7のリリースノートなど、ダイナミックメディア開発者リソースにアクセスできます。
+index: y
 translation-type: tm+mt
-source-git-commit: 48efa6eabf127265f24ec5986a46893cf431a07d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 2%
 
 ---
 
