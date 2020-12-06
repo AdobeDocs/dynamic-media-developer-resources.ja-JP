@@ -7,9 +7,9 @@ title: 不明化のリクエスト
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->この機能を有効にする場合、使用には次のような制限があることに注意してください。<br>— ダイナミックメディアユーザーインターフェイスには、 **[!UICONTROL 最後に公開された]** フィールドの正しい詳細が表示されない場合があります。 ただし、この影響は投稿には影響しません。<br>— 現在、**[!UICONTROL 要求の不明化]**&#x200B;と **[!UICONTROL 要求のロックが有効な場合、HLSビデオストリーミングは機能しません]** 。
+>この機能を有効にする場合、使用には次のような制限があることに注意してください。<br>— ダイナミックメディアユーザーインターフェイスには、 **[!UICONTROL 最後に公開された]** フィールドの正しい詳細が表示されない場合があります。 ただし、この影響は投稿には影響しません。<br>— 現在、**[!UICONTROL 要求の不明化]**&#x200B;と **[!UICONTROL 要求のロックが有効な場合、HLSビデオストリーミングは機能しません]** 。<br>— 現在、 **[!UICONTROL 要求の不明化と要求のロックが有効になっていると、一部のダイナミックメディアビューアが機能しません]****** 。
 
 ## 例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
