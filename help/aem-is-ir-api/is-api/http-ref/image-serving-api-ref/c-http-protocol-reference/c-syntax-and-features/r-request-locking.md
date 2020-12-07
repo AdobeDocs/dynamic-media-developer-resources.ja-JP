@@ -7,9 +7,9 @@ title: 要求のロック
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ attribute::RequestLockが設定されている場合、ロック値をリクエ�
 
 >[!IMPORTANT]
 >
->この機能を有効にする場合、使用には次のような制限があることに注意してください。<br>— ダイナミックメディアユーザーインターフェイスには、 **[!UICONTROL 最後に公開された]** フィールドの正しい詳細が表示されない場合があります。 ただし、この影響は投稿には影響しません。<br>— 現在、「**[!UICONTROL 要求の不明化]**」と「 **[!UICONTROL 要求のロック]** 」が有効な場合、HLSビデオストリーミングは機能しません。
+>この機能を有効にする場合、使用には次のような制限があることに注意してください。<br>— ダイナミックメディアユーザーインターフェイスには、 **[!UICONTROL 最後に公開された]** フィールドの正しい詳細が表示されない場合があります。 ただし、この影響は投稿には影響しません。<br>— 現在、**[!UICONTROL 要求の不明化]**&#x200B;と **[!UICONTROL 要求のロックが有効な場合、HLSビデオストリーミングは機能しません]** 。<br>— 現在、 **[!UICONTROL 要求の不明化と要求のロックが有効になっていると、一部のダイナミックメディアビューアが機能しません]****** 。
 
 リクエストロック値を生成するC++サンプルコード：
 
