@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-c9fe7abb550e495f832234f845db7d6e}
+## 認証済みユーザータイプ{#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,31 +45,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 会社名</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>画像を含む会社のハンドル。 </p> </td> 
+   <td colname="col4"> <p>画像を含む会社へのハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>画像アセットのハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>画像をコピーするフォルダーのハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 名 <span class="varname"> 前</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>新しい画像の名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> url修飾子</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -87,7 +90,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>コピーした画像のハンドル。 </p> </td> 
@@ -97,7 +100,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-サンプルコードは、会社、アセット、フォルダハンドル、名前で指定された画像をコピーします。
+サンプルコードでは、会社、アセット、フォルダーハンドル、名前で指定された画像をコピーします。
 
 **リクエスト**
 
