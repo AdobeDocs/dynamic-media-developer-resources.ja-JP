@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 531b9119-1433-4856-aaeb-9ba31378a457
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切り替えると、スクロールボタンを押すと、スウォッチが自動的にページ全体の長さにジャンプします。 </p> <p>スウォッチが収まらない場合は、最後のページに余分な空白が表示されます。 また、最後のページのセル数は、前のページのセル数と同じです。 </p> <p>scrollstepは無視され、マウススクロールは完全なページでのみ止まります。 </p> </td> 
+   <td colname="col2"> <p> 切り替えた場合、スクロールボタンを押すと、スウォッチが自動的にページの長さ全体をジャンプします。 </p> <p>スウォッチが収まらない場合は、最後のページに余分な空白が表示されます。 また、最後のページのセル数は前のページと同じになります。 </p> <p>scrollstepは無視され、マウススクロールは完全なページでのみ止まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
