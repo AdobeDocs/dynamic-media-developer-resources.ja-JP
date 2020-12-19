@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a403d44d-d5b5-4d09-876e-39146585704f
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオが一時停止状態の場合に、ビデオの上部にIconEffectを表示することを有効にします。 一部のデバイスでは、ネイティブのコントロールが使用されます。 この場合、iconeffect修飾子は <span class="codeph"> 無視され</span> ます。 </p> </td> 
+   <td colname="col2"> <p> ビデオが一時停止状態の場合に、ビデオの上部にIconEffectを表示するようにします。 一部のデバイスでは、ネイティブのコントロールが使用されます。 このような場合、<span class="codeph"> iconeffect</span>修飾子は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> カウント</span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffectの表示と再表示の最大回数を指定します。 値が —1の場合、ア <span class="codeph"> イコンは</span> 無期限に再表示されます。 </p> </td> 
+   <td colname="col2"> <p> IconEffectの表示および再表示の最大回数を指定します。 <span class="codeph"> -1</span>の値は、アイコンが無限に再表示されることを示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
@@ -34,7 +37,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffectが完全に表示された状態で、自動非表示になるまでの秒数を設定します。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 自動非表示の動 <span class="codeph"> 作を無効</span> にするには、0に設定します。 </p> </td> 
+   <td colname="col2"> <p> IconEffectが完全に表示され、自動非表示になるまでの秒数を設定します。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーション開始までの時間を指定します。 <span class="codeph"> 0</span>に設定すると、自動非表示の動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
