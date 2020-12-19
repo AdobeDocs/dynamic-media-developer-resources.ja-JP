@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2646f61-24f4-4b15-b148-f8d615378fe0
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
 
-# Windowsでのインストール{#installing-on-windows}
+# Windows{#installing-on-windows}でのインストール
 
 画像サービングは64ビットWindowsにインストールできます。
 
