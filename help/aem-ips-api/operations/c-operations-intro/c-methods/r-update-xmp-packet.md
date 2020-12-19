@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-ee88a759f4774482a4734201a971f610}
+## 認証済みユーザータイプ{#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,19 +33,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-7a89621d441840faba639746b410a489}
 
-**Input (updateXMPPacketParam)**
+**入力(updateXMPPacketParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
 | ` *`compressedPacket`*` | `xsd:Base 64 binary` | はい | [!DNL zlib-compressed] 設定または更新するXMPパケット。 |
 
 **Output (updateXMPPacketReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`成功`*` | `xsd:boolean` | はい | パケット `true` が更新されたかどうかを返します。 |
+| ` *`成功`*` | `xsd:boolean` | はい | パケットが更新された場合は`true`を返します。 |
 
 ## 例 {#section-38b556b94e5044bf97a954519ff6c212}
 
