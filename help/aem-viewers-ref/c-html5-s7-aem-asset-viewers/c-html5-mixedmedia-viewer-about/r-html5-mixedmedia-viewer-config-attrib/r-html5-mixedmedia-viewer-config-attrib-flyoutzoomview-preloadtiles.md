@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 1に設定す <span class="codeph"> ると</span> 、ズームされた画像のプリロードが有効になります。 </p> <p>必要に応じてズ <span class="codeph"> ーム画像を</span> 増分的に読み込むには、0に設定します。 </p> <p> <p>注意： このオプションを有効にすると、ユーザがズーム操作を行わなくても、ズームされた画像全体を読み込む必要があるので、帯域幅の使用量が大幅に増加する可能性があります。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1</span>に設定すると、ズームされた画像のプリロードが有効になります。 </p> <p>必要に応じて、ズーム画像を増分的に読み込むには、<span class="codeph"> 0</span>に設定します。 </p> <p> <p>注意： このオプションを有効にすると、ユーザがズーム操作を行わなくても、ズームされた画像全体を読み込む必要があるので、帯域幅使用量が大幅に増加する可能性があることに注意してください。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
