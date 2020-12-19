@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 078508a7-8b06-4c40-9497-82b365b96fe2
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 ビデオサイズ 各ビデオレコードに関連付けられたサイズを指定できます。
 
-ビデオサイズデー `req=set` タの書き出しを要求する際に使用されます。
+`req=set`リクエストによってビデオサイズデータの書き出しに使用されます。
 
 ## プロパティ {#section-93a2631a57e2423ea6b40f68c55062a1}
 
@@ -28,4 +31,4 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 ## 関連項目 {#section-3b31280ec1c34091a1b38abf4a37e53a}
 
-[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) , [Media Set Requests](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) , [メディアセットの要求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
