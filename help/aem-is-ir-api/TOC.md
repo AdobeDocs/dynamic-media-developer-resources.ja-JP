@@ -2,8 +2,8 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: ダイナミックメディア画像サービングおよびレンダリングAPI
-breadcrumb-title: ダイナミックメディア画像サービングおよびレンダリングAPI
+user-guide-title: Dynamic Media画像サービングとレンダリングAPI
+breadcrumb-title: Dynamic Media画像サービングとレンダリングAPI
 translation-type: tm+mt
 source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
 workflow-type: tm+mt
@@ -13,10 +13,10 @@ ht-degree: 9%
 ---
 
 
-# ダイナミックメディア画像サービングおよびレンダリングAPI {#image-serving-api}
+# Dynamic Media画像サービングとレンダリングAPI {#image-serving-api}
 
-+ [ダイナミックメディア開発者向けリソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [ダイナミックメディア画像サービングおよび画像レンダリングAPIホーム](home.md)
++ [Dynamic Media開発者リソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media画像サービングおよび画像レンダリングAPIホーム](home.md)
 + [このリリースについて](r-about-this-release.md)
 + [必要システム構成と前提条件](r-requirements-and-prerequisites.md)
 + [ディスク容量の要件と推奨事項](r-disk-space-reqs.md)
@@ -28,18 +28,18 @@ ht-degree: 9%
    + [ライセンス](c-installation/c-licensing.md)
    + [コンテンツ](c-installation/c-contents.md)
    + [Install folder](c-installation/c-install-folder.md)
-   + Windowsでのインストール {#windows-install}
+   + Windowsでのインストール{#windows-install}
       + [Windowsでのインストール](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [初めてのインストール](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [管理者とは別のユーザーアカウントでのインストール](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [IS 4.7.4以降からの更新](c-installation/t-installing-on-windows/t-update-win.md)
       + [インストールの確認](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Linuxでのインストール {#linux-install}
+   + Linuxでのインストール{#linux-install}
       + [Linuxでのインストール](c-installation/c-installing-linux/c-installing-linux.md)
       + [初めてのインストール](c-installation/c-installing-linux/t-first-install-lin.md)
       + [IS 4.7.4以降からの更新](c-installation/c-installing-linux/t-update-lin.md)
       + [インストールの確認](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 画像サービングの開始と停止 {#start-stop-image-servicing}
+   + 画像サービングの開始と停止{#start-stop-image-servicing}
       + [画像サービングの開始と停止](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Windowsでの起動と停止](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Linuxでの起動と停止](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -47,9 +47,9 @@ ht-degree: 9%
    + [画像サービングAPI](is-api/image-serving-api-ref/c-is-home.md)
    + [対象オーディエンス](is-api/image-serving-api-ref/c-intended-audience.md)
    + [画像サービングコンポーネント](is-api/image-serving-api-ref/r-components.md)
-   + 設定と管理 {#config-admin}
+   + 構成と管理{#config-admin}
       + [設定と管理](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
-      + サービス設定ファイル {#server-config-files}
+      + サービス構成ファイル{#server-config-files}
          + [サーバー設定ファイル](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server-configuration-files.md)
          + [PlatformServer.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-platformserverconf.md)
          + [monitor.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-monitorconf.md)
@@ -57,13 +57,13 @@ ht-degree: 9%
          + [server.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server.md)
          + [ImageServerRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-imageserverregistry.md)
          + [SupervisorRegistry.xml](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md)
-      + データキャッシュ {#data-caches}
+      + データキャッシュ{#data-caches}
          + [データキャッシュの概要](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-data-caches.md)
          + [応答データキャッシュ](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md)
          + [応答キャッシュの検証](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-cache-validation.md)
          + [補助的なデータキャッシュ](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-auxiliary-data-caches.md)
          + [キャッシュクラスタリング](is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-cache-clustering.md)
-      + サーバー設定 {#server-settings}
+      + サーバー設定{#server-settings}
          + [サーバー設定](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/c-server-settings.md)
          + [一般](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-general.md)
          + [コンテンツデータフォルダー](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-content-data-folders.md)
@@ -85,16 +85,16 @@ ht-degree: 9%
       + [サーバ設定](is-api/image-serving-api-ref/c-configuration-and-administration/c-manual-server-configuration.md)
       + [SSL暗号の定義](is-api/image-serving-api-ref/c-configuration-and-administration/r-ssl-ciphers.md)
       + [サーバースーパーバイザ](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-supervisor.md)
-      + サーバーログ {#server-logging}
+      + サーバーログ{#server-logging}
          + [サーバーログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-server-logging.md)
          + [アクセスログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-access-log.md)
          + [トレースログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-trace-log.md)
          + [Image Serverログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-image-server-log.md)
-      + サーバーの監視 {#server-monitoring}
+      + サーバー監視{#server-monitoring}
          + [サーバーの監視](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [標準アラート](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [ヒープ領域の優先度の警告](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + コンテンツの管理 {#manage-content}
+      + コンテンツの管理{#manage-content}
          + [コンテンツの管理](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [画像カタログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [ソースデータ](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
@@ -102,16 +102,16 @@ ht-degree: 9%
          + [データファイルの削除または置換](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-deleting-or-replacing-data-files.md)
    + [静的な（画像以外の）コンテンツの提供](is-api/image-serving-api-ref/c-serving-static-nonimage-contents.md)
    + [トラブルシューティング](is-api/image-serving-api-ref/r-troubleshooting.md)
-   + HTTPプロトコルリファレンス {#http-protocol-reference}
+   + HTTPプロトコルリファレンス{#http-protocol-reference}
       + [HTTPプロトコルリファレンスの概要](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + HTTPプロトコルの概要 {#http-protocol-introduction}
+      + HTTPプロトコルの紹介{#http-protocol-introduction}
          + [はじめに](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [対象オーディエンス](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [ドキュメント規則](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
-      + 構文と機能 {#syntax-and-features}
+      + 構文と機能{#syntax-and-features}
          + [構文と機能](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [画像サービングHTTPプロトコルの基本構文](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + 画像サービングHTTPプロトコルコマンド {#image-serving-http}
+         + 画像サービングHTTPプロトコルコマンド{#image-serving-http}
             + [画像サービングHTTPプロトコルコマンドの概要](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [要求コマンド](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [表示コマンド](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
@@ -147,7 +147,7 @@ ht-degree: 9%
          + [透かし](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
          + [静的（画像以外の）コンテンツの提供](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [メディアセットの要求](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
-      + テキストの書式設定 {#text-formatting}
+      + テキストの形式設定{#text-formatting}
          + [テキストの書式設定の概要](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
          + [フォント処理](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-font-handling.md)
          + [カラー処理](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-color-handling.md)
@@ -155,7 +155,7 @@ ht-degree: 9%
          + [テキストレイヤー](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md)
          + [テキストの配置](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md)
          + [予約文字](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-reserved-characters.md)
-         + RTFサポート {#rtf-support}
+         + RTFサポート{#rtf-support}
             + [サポートされるRTFコマンドとキーワード](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
             + [ドキュメント（テキストボックス）のプロパティ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
             + [段落の書式設定](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-paragraph-formatting.md)
@@ -164,7 +164,7 @@ ht-degree: 9%
             + [特殊テキストエンティティ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-special-text-entities.md)
             + [文字エンコーディング](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-is-http-character-encoding.md)
          + [RTFエンコーディングの例](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-rtf-encoding-examples.md)
-      + データタイプ {#data-types}
+      + データ型{#data-types}
          + [データタイプの概要](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md)
          + [color](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
          + [共謀者](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coord.md)
@@ -172,7 +172,7 @@ ht-degree: 9%
          + [オブジェクト](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md)
          + [サイズ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md)
          + [sizeN](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-sizen.md)
-      + コマンドリファレンス {#command-reference}
+      + コマンドリファレンス{#command-reference}
          + [コマンドリファレンスの概要](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/c-command-reference.md)
          + [align](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md)
          + [アンカー](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
@@ -272,7 +272,7 @@ ht-degree: 9%
          + [type](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md)
          + [wid](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md)
          + [xmpEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md)
-      + 応答データ {#response-data}
+      + 応答データ{#response-data}
          + [応答データの概要](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-response-data.md)
          + [画像](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-images.md)
          + プロパティ {#properties}
@@ -282,7 +282,7 @@ ht-degree: 9%
             + [XMLプロパティ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-xml-properties.md)
             + [JSONPプロパティ](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-json-properties.md)
          + [エラー](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/r-errors.md)
-      + サーバーの動作 {#server-behavior}
+      + サーバービヘイビアー{#server-behavior}
          + [サーバーの動作に関する注意事項](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/c-notes-on-server-behavior.md)
          + [合成キャンバス](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-the-compositing-canvas.md)
          + [レイヤ変換](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-transforms.md)
@@ -296,11 +296,11 @@ ht-degree: 9%
          + [例A](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md)
          + [例B](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-b.md)
          + [例C](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-c.md)
-   + FXGサーバープロトコルリファレンス {#fxg-server-protocol-ref}
+   + FXGサーバープロトコルリファレンス{#fxg-server-protocol-ref}
       + [FXGサーバープロトコルリファレンス](is-api/image-serving-api-ref/c-is-fxg-server-protocol/c-is-fxg-server-protocol.md)
-      + FXGサーバープロトコル {#fxg-server-protocol}
+      + FXGサーバープロトコル{#fxg-server-protocol}
          + [FXGサーバープロトコル](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol.md)
-         + FXGサーバープロトコルリファレンス {#protocol-ref}
+         + FXGサーバープロトコルリファレンス{#protocol-ref}
             + [FXGサーバープロトコルリファレンスの概要](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/c-fxg-server-protocol-reference.md)
             + [薄い](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-bleedmargin.md)
             + [キャッシュ](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-cache.md)
@@ -321,10 +321,10 @@ ht-degree: 9%
             + [trimMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-trimmargin.md)
             + [wid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-wid.md)
          + [代替変数](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
-         + コマンドマクロ {#command-macros}
+         + コマンドマクロ{#command-macros}
             + [コマンドマクロの概要](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
             + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
-         + FXG DOM操作 {#fxg-dom-ops}
+         + FXG DOM操作{#fxg-dom-ops}
             + [FXG DOM操作](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/c-dom-manipulation-operations.md)
             + [appendElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-appendelement.md)
             + [deleteAttr](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-deleteattr.md)
@@ -333,7 +333,7 @@ ht-degree: 9%
             + [setAttr.rootElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setattr-rootelement.md)
             + [setElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setelement.md)
             + [setVal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setval.md)
-         + バッチ処理コマンド {#batch-process-commands}
+         + バッチ処理コマンド{#batch-process-commands}
             + [バッチ処理コマンド](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/c-batch-processing-commands.md)
             + [batchjobbreafstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
             + [batchjobdelete](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdelete.md)
@@ -342,12 +342,12 @@ ht-degree: 9%
             + [batchjobsubmit](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobsubmit.md)
             + [jobdata](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobdata.md)
             + [jobid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobid.md)
-   + 画像カタログ参照 {#image-catalog-reference}
+   + 画像カタログ参照{#image-catalog-reference}
       + [画像カタログ参照](is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md)
       + [概要](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
       + [画像カタログの更新](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
       + [初期設定のカタログ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
-      + カタログ属性 {#catalog-attributes}
+      + カタログ属性{#catalog-attributes}
          + [カタログ属性の概要](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)
          + [カタログ管理](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-catalog-management.md)
          + [要求属性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-request-attributes.md)
@@ -356,7 +356,7 @@ ht-degree: 9%
          + [共通のサムネール属性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
          + [カタログフィールドの初期設定](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-defaults-for-catalog-fields.md)
          + [ビデオ属性](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-video-attributes.md)
-      + カタログデータフィールド {#catalog-data-fields}
+      + カタログデータフィールド{#catalog-data-fields}
          + [カタログデータフィールド](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md)
          + [Image_SVGデータ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
          + [静的コンテンツデータ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-static-contents-data.md)
@@ -369,7 +369,7 @@ ht-degree: 9%
          + [カタログデータファイル](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-catalog-data-files.md)
          + [ルールセットファイル](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md)
          + [文字エンコーディング](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-is-cat-character-encoding.md)
-      + 一般的なデータ型 {#common-data-types}
+      + 一般的なデータ型{#common-data-types}
          + [一般的なデータ型](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/c-common-data-types.md)
          + [カラー](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-is-cat-color.md)
          + [フラグ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-flag.md)
@@ -378,7 +378,7 @@ ht-degree: 9%
          + [実数](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-real-number.md)
          + [テキスト文字列](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md)
          + [プロパティデータ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)
-   + Attributes {#attributes}
+   + 属性{#attributes}
       + [属性リファレンス](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/c-attributes-reference.md)
       + [AllowDirectAccess](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirectaccess.md)
       + [AllowDirectUrls](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirecturls.md)
@@ -449,9 +449,9 @@ ht-degree: 9%
       + [VideoBitRate](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md)
       + [VideoSize](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md)
       + [透かし](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
-   + 画像/SVGデータ参照 {#image-svg-ref}
+   + 画像/SVGデータ参照{#image-svg-ref}
       + [画像/SVGデータ参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-svg-data-reference.md)
-      + 画像データ参照 {#image-data-reference}
+      + 画像データ参照{#image-data-reference}
          + [画像データ参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/c-image-data-reference.md)
          + [アンカー](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md)
          + [AssetType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md)
@@ -473,23 +473,23 @@ ht-degree: 9%
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
          + [ユーザデータ](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
          + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
-      + SVGデータ参照 {#svg-data-reference}
+      + SVGデータ参照{#svg-data-reference}
          + [SVGデータ参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
          + [有効期限](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-id-svg.md)
          + [パス](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-path-svg.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md)
-      + 静的コンテンツデータ {#static-content-data}
+      + 静的コンテンツデータ{#static-content-data}
          + [静的コンテンツデータ参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/c-static-content-data-reference.md)
          + [有効期限](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md)
          + [ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-id-static.md)
          + [パス](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-path-static.md)
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md)
-   + マクロ定義 {#macro-definition}
+   + マクロ定義{#macro-definition}
       + [マクロ定義の参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md)
       + [名前](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-name-macro.md)
       + [定義](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md)
-   + フォントマップ {#font-map}
+   + フォントマップ{#font-map}
       + [フォントマップの参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md)
       + [太字](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md)
       + [FontPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md)
@@ -497,11 +497,11 @@ ht-degree: 9%
       + [MetricsPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md)
       + [名前](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
       + [PsName](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md)
-   + ICCプロファイルマップリファレンス {#icc-profile-map-reference}
+   + ICCプロファイルマップリファレンス{#icc-profile-map-reference}
       + [ICCプロファイルマップリファレンス](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md)
       + [名前](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md)
       + [ProfilePath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
-   + ルールセットの参照 {#rule-set-reference}
+   + ルールセット参照{#rule-set-reference}
       + [ルールセットの参照](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md)
       + [addressfilter](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-addressfilter-rule.md)
       + [式](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-expression-rule.md)
@@ -511,7 +511,7 @@ ht-degree: 9%
       + [置換](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [イメージサーバープロキシ](is-api/image-serving-api-ref/r-image-server-proxy.md)
    + [Image Serverの例](is-api/image-serving-api-ref/r-examples-is.md)
-   + レスポンシブな静的画像ライブラリ {#responsive-static-image-library}
+   + レスポンシブ静的画像ライブラリ{#responsive-static-image-library}
       + [レスポンシブな静的画像ライブラリ](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [レスポンシブ画像ライブラリの使用](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
       + [コマンドリファレンス — 設定属性](is-api/image-serving-api-ref/c-about-responsive-static-image-library/r-responsive-static-image-library-config-attrib.md)
@@ -522,15 +522,15 @@ ht-degree: 9%
       + [ライセンス](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [IR 3.x互換モジュールのセットアップと構成](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [画像レンダリングの設定と設定](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 画像レンダリングのアンインストール {#uninstalling-image-rendering}
+      + イメージレンダリングのアンインストール{#uninstalling-image-rendering}
          + [画像レンダリングのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [LinuxおよびSolarisでのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Windowsでのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
-   + サーバー管理 {#server-administration}
+   + サーバー管理{#server-administration}
       + [サーバー管理](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [サーバー管理のはじめに](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [サーバー管理の概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + サーバーの設定と管理 {#configuring-and-managing-the-server}
+      + サーバーの構成と管理{#configuring-and-managing-the-server}
          + [サーバーの設定と管理の概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [設定ファイル](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [サーバーの起動と停止](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -539,23 +539,23 @@ ht-degree: 9%
          + [メモリの考慮事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [ダイナミック・ディスク領域の考慮事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [ビネットサイズの制限](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + コンテンツの管理 {#managing-content}
+         + コンテンツの管理{#managing-content}
             + [コンテンツの管理](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [マテリアルカタログ](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [ソースデータ](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
             + [ソースデータファイルの削除または置換](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-deleting-or-replacing-source-data-files.md)
-      + 設定リファレンス {#configuration-settings-reference}
+      + 構成設定の参照{#configuration-settings-reference}
          + [構成設定リファレンスの概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md)
          + [カタログフォルダ(ir.catalogRootPath)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md)
          + [カタログキャッシュフォルダー(ir.catalogCacheRoot)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-cache-folder.md)
          + [リソースルートフォルダー(ir.resourceRootPaths)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md)
-   + HTTPプロトコルリファレンス {#http-protocol-reference}
+   + HTTPプロトコルリファレンス{#http-protocol-reference}
       + [HTTPプロトコルリファレンス](ir-api/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-ref.md)
       + [はじめに](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-introduction.md)
-      + HTTPプロトコルの構文と機能 {#http-protocol-syntax}
+      + HTTPプロトコル構文と機能{#http-protocol-syntax}
          + [HTTPプロトコルの構文と機能](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-protocol-syntax-and-features.md)
          + [イメージレンダリングHTTPプロトコルの基本構文](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
-         + イメージレンダリングHTTPプロトコルコマンドの概要 {#image-rendering-http-protocol-command-overview}
+         + イメージレンダリングHTTPプロトコルコマンドの概要{#image-rendering-http-protocol-command-overview}
             + [イメージレンダリングHTTPプロトコルコマンドの概要](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [表示属性](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [選択コマンド](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
@@ -565,7 +565,7 @@ ht-degree: 9%
             + [ビネット](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-vignettes.md)
             + [シーンの座標](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md)
             + [材料の解像度](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md)
-         + マテリアル {#materials}
+         + 材料{#materials}
             + [マテリアルの概要](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md)
             + [べた塗り](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-solid-colors.md)
             + [繰り返し可能なテクスチャ](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-repeatable-textures.md)
@@ -573,7 +573,7 @@ ht-degree: 9%
             + [デカル](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
             + [キャビネット](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
             + [ウィンドウカバリング](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
-         + 高度なレンダリング効果 {#advanced-render-effects}
+         + 高度なレンダリング効果{#advanced-render-effects}
             + [高度なレンダリング効果](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [複数の照明マップの使用](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [素材の色彩の統一](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
@@ -581,17 +581,17 @@ ht-degree: 9%
             + [反射](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [光沢効果](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [詳細レンダリング設定](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + リクエストのネストと埋め込み {#request-nesting-and-embedding}
+         + リクエストのネストと埋め込み{#request-nesting-and-embedding}
             + [リクエストのネストと埋め込み*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [埋め込みImage Serverの要求](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [ネストされた画像レンダリング要求](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
             + [外部画像ソース](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-foreign-image-sources.md)
             + [制限事項](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-restrictions.md)
-         + マテリアルカタログ {#material-catalogs}
+         + マテリアルカタログ{#material-catalogs}
             + [マテリアルカタログ*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
             + [セッションカタログ](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/r-ir-session-catalog.md)
          + [リクエストの前処理*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-pre-processing.md)
-         + Custom variables {#custom-variables}
+         + カスタム変数{#custom-variables}
             + [カスタム変数の概要](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md)
             + [ネストされたリクエストでの変数処理](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
             + [埋め込まれた外部要求での変数処理](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
@@ -601,7 +601,7 @@ ht-degree: 9%
          + [画像レンダリングのカラーマネジメント*](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md)
          + [カラー値](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-color-values.md)
          + [画像レンダリングのHTTPエンコーディング](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-encoding.md)
-      + HTTPプロトコルコマンドリファレンス {#http-protocol-command-reference}
+      + HTTPプロトコルコマンドリファレンス{#http-protocol-command-reference}
          + [HTTPプロトコルコマンドリファレンス](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/c-ir-http-protocol-command-reference.md)
          + [align](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md)
          + [アンカー](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md)
@@ -643,15 +643,15 @@ ht-degree: 9%
          + [type](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md)
          + [ビネット](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md)
          + [wid](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md)
-      + HTTPプロトコル応答データ {#http-protocol-response-data}
+      + HTTPプロトコル応答データ{#http-protocol-response-data}
          + [HTTPプロトコル応答データ](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-http-protocol-response-data.md)
          + [画像](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [プロパティ](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
          + [エラー](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-errors.md)
-   + 材料カタログ {#material-catalog}
+   + 材料カタログ{#material-catalog}
       + [材料カタログ](ir-api/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-catalog.md)
       + [はじめに](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-cat-ref-intro.md)
-      + 材料カタログの概要 {#material-catalog-overview}
+      + 材料カタログの概要{#material-catalog-overview}
          + [材料カタログの概要*](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-overview.md)
          + [マテリアル](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-materials.md)
          + [カタログ属性](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-catalog-attributes.md)
@@ -662,7 +662,7 @@ ht-degree: 9%
             + [カタログデータファイル](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-catalog-data-files.md)
             + [文字エンコーディング](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-character-encoding.md)
          + [一般的なデータ型](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-common-data-types.md)
-      + 属性リファレンス {#attributes-reference}
+      + 属性参照{#attributes-reference}
          + [属性リファレンス](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/c-ir-attributes-reference.md)
          + [AllowDirectURLs](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md)
          + [CacheValidationPolicy](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)
@@ -703,7 +703,7 @@ ht-degree: 9%
          + [TrustedDomains *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VignetMapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + 材料データ参照 {#material-data-reference}
+      + 材料データ参照{#material-data-reference}
          + [材料データ参照](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [行揃え](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [アンカー](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -723,7 +723,7 @@ ht-degree: 9%
          + [サイズ](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
          + [TimeStamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md)
          + [種類](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
-      + ビネットマップリファレンス {#vignette-map-reference}
+      + ビネットマップ参照{#vignette-map-reference}
          + [ビネットマップリファレンス](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md)
          + [有効期限](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
          + [ID](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md)
@@ -731,24 +731,24 @@ ht-degree: 9%
          + [パス](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md)
          + [TimeStamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md)
          + [ユーザデータ *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md)
-      + マクロ定義の参照 {#macro-definition-reference}
+      + マクロ定義参照{#macro-definition-reference}
          + [マクロ定義の参照](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [名前](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)
          + [定義](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
-      + ICCプロファイルマップリファレンス {#icc-profile-map-reference}
+      + ICCプロファイルマップリファレンス{#icc-profile-map-reference}
          + [ICCプロファイルマップリファレンス](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [名前](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
          + [ProfilePath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
-      + ルールセットの参照 {#rule-set-reference}
+      + ルールセット参照{#rule-set-reference}
          + [ルールセットの参照](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md)
          + [addressfilter](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-addressfilter.md)
          + [式](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md)
          + [ルール](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-rule.md)
          + [ルールセット](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-ruleset.md)
          + [置換](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
-+ ユーティリティ {#utilites}
++ ユーティリティ{#utilites}
    + [ユーティリティの概要](utilities/utilities.md)
-   + 画像サービングユーティリティ {#image-serving-utilities}
+   + 画像サービングユーティリティ{#image-serving-utilities}
       + [画像サービングユーティリティ](is-api/is-utils/utilities/c-utils-home.md)
       + [ユーティリティの場所](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [ic](is-api/is-utils/utilities/r-ic.md)
