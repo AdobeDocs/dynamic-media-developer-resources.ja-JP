@@ -1,6 +1,6 @@
 ---
-description: 指定したアセットに関連付けられたアセットと、その関係の詳細を取得します。
-seo-description: 指定したアセットに関連付けられたアセットと、その関係の詳細を取得します。
+description: 指定したアセットに関連付けられたアセットと、その関係に関する詳細を取得します。
+seo-description: 指定したアセットに関連付けられたアセットと、その関係に関する詳細を取得します。
 seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 7%
 
 ---
 
 
 # getAssociatedAssets{#getassociatedassets}
 
-指定したアセットに関連付けられたアセットと、その関係の詳細を取得します。
+指定したアセットに関連付けられたアセットと、その関係に関する詳細を取得します。
 
 構文
 
-## 認証されたユーザータイプ {#section-453cc706400345778713cda249bfac16}
+## 認証済みユーザータイプ{#section-453cc706400345778713cda249bfac16}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,28 +48,28 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>アセットを所有する会社に対するハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>アセットハンドル。 </p> </td> 
+   <td colname="col4"> <p>アセットハンドル </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 型：StringArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>必要な応答フィールドの配列。 「はじめに」のresponse- FieldArray/excludeFieldArrayを参照してください。 </p> </td> 
+   <td colname="col4"> <p>必要な応答フィールドの配列。 概要のresponse- FieldArray/excludeFieldArrayを参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> excludeFieldArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 型：StringArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>除外された応答フィールドの配列。 「はじめに」のresponse- FieldArray/excludeFieldArrayを参照してください。 </p> </td> 
+   <td colname="col4"> <p>除外された応答フィールドの配列。 概要のresponse- FieldArray/excludeFieldArrayを参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,61 +87,61 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AssetArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>指定したアセットを含むセットおよびテンプレートアセットの配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AssetArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>指定したセットまたはテンプレートアセットに含まれるアセットの配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AssetArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>レイヤーまたはテンプレートURLで参照されているアセットの配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AssetArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>指定したアセットを所有するアセットの配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AssetArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>指定したアセットの生成に使用されたアセットの配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>generatorArrayは <span class="codeph"></span> 、このアセットの作成方法を示します。 例えば、assetHandlerが <span class="codeph"> PDFの画像ページだった場合</span> 、PDFプロセッサツールが含まれ、PdfFileアセットが参照されます。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>リストは、このアセットの作成方法と同じです。 例えば、<span class="codeph"> assetHandler</span>がPDFの画像ページだった場合、PDFプロセッサツールが含まれ、PdfFileアセットが参照されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 生 <span class="varname"> 成配列</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>生成され <span class="codeph"> た配列は</span> 、このアセットの作成方法を反転します。 例えば、生成された <span class="codeph"> Arrayに</span> 、このassetHandlerから生成された画像のリストを含めることができます(PdfFileア <span class="codeph"> セットの場合</span> )。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span>は、このアセットの作成方法を反転します。 例えば、<span class="codeph"> generatedArray</span>には、PdfFileアセットの場合は、この<span class="codeph"> assetHandler</span>から生成されたリストの画像を含めることができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> thumbAsset <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：アセット</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>要求アセットに関連付けられているサムアセット情報です。 サムアセットが割り当てられていない場合、応答でフィールドは省略されます。 </p> </td> 
+   <td colname="col4"> <p>要求アセットに関連付けられているサムのアセット情報。 サムのアセットが割り当てられていない場合、このフィールドは応答で省略されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-パラメーターを使用するか、応 `responseFieldArray` 答サ `excludeFieldArray` イズを制限することができます。 特に、元のアセットレコ `GenerationInfo` ードと生成されたア `generatorArray` セットレコードの両方を含めるように、に返される項目また `generatedArray` はデフォルトの項目が返されます。 PDFアセットタイプの場合、この動作により、応答内の「元の」PDFアセットレコードの不要な複数のコピーが生成されます。 この問題は、を追加することで排除で `generatedArray/items/originator` きま `excludeFieldArray`す。 または、に含める応答フィールドの明示的なリストを指定できます `responseFieldArray`。
+`responseFieldArray`または`excludeFieldArray`パラメーターを使用して、応答サイズを制限できます。 特に、`generatorArray`または`generatedArray`に返される`GenerationInfo`項目には、発信者と生成されたアセットレコードの両方がデフォルトで含まれます。 PDFアセットタイプの場合、この動作により、「作成者」PDFアセットレコードの不要な複数コピーが応答に含まれます。 この問題は、`generatedArray/items/originator`を`excludeFieldArray`に追加することで解決できます。 または、`responseFieldArray`に含める応答フィールドの明示的なリストを指定できます。
 
 ## 例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-次の基本例は、PDFから抽出された画像のジェネレーターのハンドルの要求です。 PDFを含 `containerArray` む項目の長さ1が含ま `assetHandle` れます。
+次の基本的な例は、PDFから抽出された画像のジェネレーターのハンドルを要求するものです。 PDFの`assetHandle`を含む項目を持つ長さ1の`containerArray`が含まれます。
 
 **リクエスト**
 
@@ -253,7 +256,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 </soapenv:Envelope>
 ```
 
-次の例では、を使用して会社にグループを追加します `groupHandleArray`。 この例では、1つのグループのみを使用します。
+次の例では、`groupHandleArray`を持つ会社にグループが追加されます。 この例では、1つのグループのみを使用します。
 
 **リクエスト**
 
