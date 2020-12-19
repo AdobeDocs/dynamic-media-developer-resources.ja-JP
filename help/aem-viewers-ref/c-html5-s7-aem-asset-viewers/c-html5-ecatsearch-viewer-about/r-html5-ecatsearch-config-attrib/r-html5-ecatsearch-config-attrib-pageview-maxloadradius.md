@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e60603a5-06dc-43e3-a380-b4d97fc539f1
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p>-1に設定すると <span class="codeph"></span> 、アイドル状態のときにすべてのカタログフレームがプリロードされます。 </p> <p> 0に設定すると <span class="codeph"></span> 、コンポーネントは現在表示されているフレーム（前と次のフレーム）のみを読み込みます。 </p> <p>preloadnbrを設 <span class="codeph"><span class="varname"> 定して</span></span> 、現在表示されているフレームの周りにある非表示のフレームがアイドル状態でプリロードされる回数を定義します。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントはアイドル状態のときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>を設定して、現在表示されているフレームの前後の非表示のフレームを、アイドル状態でプリロードする数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
