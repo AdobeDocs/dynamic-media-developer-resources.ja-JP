@@ -1,6 +1,6 @@
 ---
-description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用し、以前に適用したマテリアルを削除できます。
-seo-description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用し、以前に適用したマテリアルを削除できます。
+description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
+seo-description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
 seo-title: sub
 solution: Experience Manager
 title: sub
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 6%
 
 ---
 
 
 # sub{#sub}
 
-下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用し、以前に適用したマテリアルを削除できます。
+下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
 
 `sub=0|1|2|3|4|5`
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>上の壁の境界領域を選択します。 </p> </td> 
+  <td class="stentry"> <p>上部の壁の境界領域を選択します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
@@ -45,9 +48,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-現在、壁オブジェクトに対してのみサポートされています。 前のMSSを終了し、指定したサブ選択に適用するマテリアルの新しいMSSを開始します。
+現在、壁オブジェクトに対してのみサポートされています。 前のMSSを終了し、指定したサブ開始に適用するマテリアルの新しいMSSを選択します。
 
-壁の残りの半分に対して別のマテリアルを指定しない限り、上または下の壁に対して指定したマテリアルが壁全体に適用されます。
+壁の残りの半分に別のマテリアルを指定しない限り、上または下の壁に指定したマテリアルが壁全体に適用されます。
 
 ## プロパティ {#section-b202139d6d0847cc8d520a154104ab9d}
 
