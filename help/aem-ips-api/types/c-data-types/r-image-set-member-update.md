@@ -1,6 +1,6 @@
 ---
-description: 'このタイプでは、pageResetフィールドは、RenderSetおよびCatalog画像アセットタイプに対して意味を持ちます。 '
-seo-description: 'このタイプでは、pageResetフィールドは、RenderSetおよびCatalog画像アセットタイプに対して意味を持ちます。 '
+description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
+seo-description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
 seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
 
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-このタイプでは、pageResetフィールドは、RenderSetおよびCatalog画像アセットタイプに対して意味を持ちます。
+このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して意味を持ちます。
 
-* の場合、 `RenderSet`新し `pageReset` いレンダリングビュー/スウォッチグループの開始を示します。
+* `RenderSet`の場合、`pageReset`は新しいレンダリング表示/スウォッチグループの開始を示します。
 
-* カタログの場合、 `pageReset` 新しいページビューの開始を示します。 通常、ページビューあたり2ページの画像がありますが、表示数は増減できます。
+* カタログの場合、`pageReset`は新しいページ表示の開始を示します。 通常、ページ表示あたり2ページの画像がありますが、画像の数は増減できます。
 
 ## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +35,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 画像セットのメンバ配列内のアセットハンドル。 </td> 
+   <td colname="col3"> 画像セットメンバ配列内のアセットハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">ページをリセットします。 <p>画像セットとスピンセットの設定は無視され、値が強制的に <span class="codeph"> trueにな</span> ります <span class="codeph"></span>。 </p></td> 
+   <td colname="col3">ページをリセットします。 <p><span class="codeph"> ImageSet</span>および<span class="codeph"> SpinSet</span>の設定は無視され、値が強制的にtrueになります。 </p></td> 
   </tr> 
  </tbody> 
 </table>
