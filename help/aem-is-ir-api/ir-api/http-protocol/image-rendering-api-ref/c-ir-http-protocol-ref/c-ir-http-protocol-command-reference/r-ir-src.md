@@ -36,19 +36,19 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span><span class="varname"></span>'&amp;rbrace;'foreign Req'&amp;brace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;brace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> ir&amp;brace</span>'&amp;rbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbracace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログID(<span class="codeph"> 属性：:RootId</span>) </p></td> 
+  <td class="stentry"> <p>マテリアルカタログID （<span class="codeph">属性：:RootId</span>） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログエントリ(<span class="codeph"> catalog::Id</span>) </p></td> 
+  <td class="stentry"> <p>マテリアルカタログエントリ（<span class="codeph">カタログ：:Id</span>） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>マテリアルスタイルファイル(<span class="filepath"> .vnc</span> 、 <span class="filepath"> .vnw</span>) </p></td> 
+  <td class="stentry"> <p>材料スタイルファイル（<span class="filepath"> .vnc</span>または<span class="filepath"> .vnw</span>） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -78,21 +78,21 @@ ht-degree: 2%
 
 繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1つのイメージが必要です。イメージは、ファイルまたは埋め込みリクエストとして指定できます。
 
-キャビネットマテリアルにはキャビネットスタイルのファイル( [!DNL .vnc])が必要で、ネストされた要求として指定できません。 テクスチャイメージファイルはキャビネットではオプションで、指定する場合はファイルまたは埋め込み要求のどちらかです。
+キャビネットマテリアルにはキャビネットスタイルのファイル([!DNL .vnc])が必要で、ネストされた要求として指定できません。 テクスチャイメージファイルはキャビネットではオプションで、指定する場合はファイルまたは埋め込み要求のどちらかです。
 
-窓カバリングマテリアルには窓カバリングスタイルファイル( [!DNL .vnw])が必要ですが、これはネストされた要求として指定できません。 テクスチャファイルはオプションで、指定する場合はファイルまたは埋め込み要求になります。
+窓カバリングマテリアルにはウィンドウカバリングスタイルファイル( [!DNL .vnw])が必要です。これはネストされた要求として指定できません。 テクスチャファイルはオプションで、指定する場合はファイルまたは埋め込み要求になります。
 
-画像レンダリングでは、マテリアルカタログ、カタログエントリ、データファイルを検索する場合に、画像サービングと同じ規則が使用されます。 詳しくは、画像サービングのドキュメントの *`object`* データ型の説明を参照してください。
+画像レンダリングでは、マテリアルカタログ、カタログエントリ、データファイルを検索する場合に、画像サービングと同じ規則が使用されます。 詳しくは、画像サービングのドキュメントの&#x200B;*`object`*&#x200B;データタイプの説明を参照してください。
 
 *`materialFile`* は、を基準とする相対パスで `attribute::RootPath`す。
 
-*`foreignReq`* は、を基準とする相対URL `attribute::RootUrl`か、が設定されている場合は絶対URL `attribute::AllowDirectUrls` です。
+*`foreignReq`* は、を基準とする相対URL `attribute::RootUrl`か、設定されている場合は絶対URL `attribute::AllowDirectUrls` です。
 
-指定しな *`catId`* かった場合は、セッションカタログが使用されます。
+*`catId`*&#x200B;を指定しない場合は、セッションカタログが使用されます。
 
 `srcE=` ビネットに埋め込まれたマテリアルにアクセスで `srcN=` きます。
 
-## サポートされるファイル形式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
+## サポートされるファイル形式{#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 画像レンダリングは、Scene7画像サービングと同じソース画像形式をサポートします。
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-レコード&#39; `'cat``12-3-2`&#39;のマテリアルカタログ&#39;に同じマテリアルを配置できます：
+レコード&#39; `12-3-2`&#39;のマテリアルカタログ`'cat`&#39;に同じマテリアルを配置できます。
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
