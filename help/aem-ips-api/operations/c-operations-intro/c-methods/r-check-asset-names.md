@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-8efcbb3f555f417a870219e4714374db}
+## 認証済みユーザータイプ{#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,14 +32,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## パラメータ {#section-9c75b00f2072453abea0bdefc6ad7c99}
+## パラメータ{#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **入力(checkAssetNamesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社のハンドル。 |
-| ` *`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列。 |
+| ` *`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
+| ` *`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列です。 |
 
 **出力(checkAssetNamesReturn)**
 
