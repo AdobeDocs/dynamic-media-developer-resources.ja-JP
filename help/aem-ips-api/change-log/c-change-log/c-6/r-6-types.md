@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 
 構文
 
-## 新しいタイプ {#section-71ba6954339e4ba899acdf8a3212d6f3}
+## 新しいタイプ{#section-71ba6954339e4ba899acdf8a3212d6f3}
 
 * `AssetContextStateUpdate`
 * `AssetContextStateUpdateArray`
@@ -36,39 +39,39 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 * `PublishContext`
 * `PublishContextArray`
 
-## 変更されたタイプ {#section-56b834b1a3b843279d8715b4a4f3890b}
+## 変更されたタイプ{#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **追加済み**
 
-* に追加さ `numUrls` れまし `UploadUrlsJob`た。
+* `numUrls`を`UploadUrlsJob`に追加しました。
 
-* 追加 `fileName` 先 `Asset.`
+* `fileName`を`Asset.`に追加
 
-* に追加さ `isHidden` れまし `MetadataField`た。
+* `isHidden`を`MetadataField`に追加しました。
 
-* に追加さ `taskState` れまし `TaskProgress`た。
+* `taskState`を`TaskProgress`に追加しました。
 
-* とに追 `exportJob` 加さ `ActiveJob` れまし `ScheduledJob`た。
+* `exportJob`を`ActiveJob`と`ScheduledJob`に追加しました。
 
-* とがに追 `optmizedPath` 加さ `optimizedFile` れまし `PsdInfo`た。
+* `optmizedPath`と`optimizedFile`を`PsdInfo`に追加しました。
 
-* 次に追 `contextHandle` 加：
+* `contextHandle`を次に追加：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 次のパラメーターをに追加しまし `Asset`た。
+* `Asset`に次のパラメーターを追加しました。
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**変更**
+**変更済み**
 
-* で、 `User`に変更 `role` しまし `defaultRole`た。
+* `User`で、`role`を`defaultRole`に変更しました。
 
-* で、 `Folder`に変更 `permissions` しまし `permissionsSetHandle`た。
+* `Folder`で、`permissions`を`permissionsSetHandle`に変更しました。
 
-* で、およ `AssetSummary`びはオ `type` プショ `name` ンになりました。
+* `AssetSummary`では、`type`と`name`はオプションになりました。
 
