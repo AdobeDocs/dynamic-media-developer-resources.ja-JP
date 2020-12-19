@@ -1,14 +1,17 @@
 ---
-title: Adobe Dynamic Media Classicリリースノート
-seo-title: Adobe Dynamic Media Classicリリースノート
-description: Adobe Dynamic Media Classicリリースノート
-seo-description: Adobe Dynamic Mediaリリースノート
+title: AdobeDynamic Mediaクラシックリリースノート
+seo-title: AdobeDynamic Mediaクラシックリリースノート
+description: AdobeDynamic Mediaクラシックリリースノート
+seo-description: AdobeDynamic Mediaリリースノート
 translation-type: tm+mt
 source-git-commit: 00791121b8c345c461d33067926424d5c2f2966b
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
 
-# ダイナミックメディアリリースノート{#dynamic-media-release-notes}
+# Dynamic Mediaリリースノート{#dynamic-media-release-notes}
 
-の一部のソリューシ [!DNL Adobe Dynamic Media Classic]ョンに関する最新 [!DNL Adobe Experience Manager] のリリースノー [!DNL Adobe Experience Cloud]ト。
+[!DNL Adobe Experience Cloud]内の[!DNL Adobe Experience Manager]ソリューションの[!DNL Adobe Dynamic Media Classic]部分に関する最新のリリースノートです。
