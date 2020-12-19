@@ -1,6 +1,6 @@
 ---
-description: アップロード時に指定されたオプション。 アップロードのカラーの管理方法に影響します。
-seo-description: アップロード時に指定されたオプション。 アップロードのカラーの管理方法に影響します。
+description: アップロード時に指定されたオプション。 アップロード時の色の管理方法に影響します。
+seo-description: アップロード時に指定されたオプション。 アップロード時の色の管理方法に影響します。
 seo-title: ColorManagementOptions
 solution: Experience Manager
 title: ColorManagementOptions
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
 # ColorManagementOptions{#colormanagementoptions}
 
-アップロード時に指定されたオプション。 アップロードのカラーの管理方法に影響します。
+アップロード時に指定されたオプション。 アップロード時の色の管理方法に影響します。
 
 構文
 
