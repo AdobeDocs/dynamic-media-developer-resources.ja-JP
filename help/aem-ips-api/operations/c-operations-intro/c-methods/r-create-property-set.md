@@ -1,6 +1,6 @@
 ---
-description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合、新しいセットで既存のセットが置き換えられます。
-seo-description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合、新しいセットで既存のセットが置き換えられます。
+description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
+seo-description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
 
 # createPropertySet{#createpropertyset}
 
-プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合、新しいセットで既存のセットが置き換えられます。
+プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
 
 構文
 
-## 認証されたユーザータイプ {#section-f9b6187ba636475787c997fc27bb192a}
+## 認証済みユーザータイプ{#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,20 +35,20 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`typeHandle`*` | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | はい | プロパティセットの主所有者のハンドル。 |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | いいえ | プロパティセットのセカンダリ所有者のハンドル。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | はい | プロパティの配列です。 |
+| ` *`primaryOwnerHandle`*` | `xsd:string` | はい | プロパティセットの主所有者へのハンドル。 |
+| ` *`secondaryOwnerHandle`*` | `xsd:string` | いいえ | プロパティセットのセカンダリ所有者へのハンドル。 |
+| ` *`propertyArray`*` | `types:PropertyArray` | はい | プロパティの配列。 |
 | ` *`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **出力(createPropertySetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | はい | 新しいプロパティセットのハンドル。 |
+| ` *`setHandle`*` | `xsd:string` | はい | 新しいプロパティセットへのハンドル。 |
 
 ## 例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-次のコード例では、プロパティの名前と値を含むプロパティセットを作成します。 応答は、新しいプロパティセットに対するハンドルを返します。
+次のコードのサンプルを使用すると、プロパティの名前と値を含むプロパティセットを作成できます。 応答は、新しいプロパティセットにハンドルを返します。
 
 **リクエスト**
 
