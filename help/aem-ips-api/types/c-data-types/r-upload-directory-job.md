@@ -85,7 +85,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>選択した画像の背景をマスクします。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 </p> <p>（オプション） </p> <p>KnockoutBackgroundOptionsを参照して <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col3"> <p>選択した画像の背景をマスクします。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 </p> <p>（オプション） </p> <p><a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -95,7 +95,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：MediaOptions</span> </td> 
-   <td colname="col3"> <p>ビデオのサムネール画像を設定するためのオプション。 </p> <p>MediaOptionsを参照して <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col3"> <p>ビデオのサムネール画像を設定するためのオプション。 </p> <p><a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 上書き</span> </span> </td> 
@@ -118,7 +118,7 @@ ht-degree: 1%
    <td colname="col3"> <p>ファイルのアップロード先のURL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>アップロードの完了後に実行される画像レンダリング公開ジョブの詳細です。 </p> </td> 
   </tr> 
@@ -175,12 +175,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>アップロードしたTAR/ZIPファイルの内容を抽出し、次のオプション設定で処理します。 </p> <p>UnCompressOptionsを参照して <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col3"> <p>アップロードしたTAR/ZIPファイルの内容を抽出し、次のオプション設定で処理します。 </p> <p><a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：UnsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p>UnsharpMaskOptionsを参照して <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> ください</a>。 </p> </td> 
+   <td colname="col3"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
@@ -192,13 +192,13 @@ ht-degree: 1%
 
 ## 説明 {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-の場合 `CropOptions`は、次のいずれかを選択できます。
+`CropOptions`の場合は、次のいずれかを選択できます。
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-の場合 `PublishJob`は、次のいずれかを選択できます。
+`PublishJob`の場合は、次のいずれかを選択できます。
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
