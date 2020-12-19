@@ -8,27 +8,30 @@ topic: Dynamic media
 uuid: 42bbef39-36b6-4f1d-a228-0aaf107600a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durationcountfade`*[, *``*][, *``*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 期 <span class="varname"> 間</span></span> </p> </td> 
-   <td colname="col2"> <p>ヒントテキストが非表示になるまでの秒数を指定します。 -1に設定すると <span class="codeph"></span>、ユーザがフライアウトをアクティブにしても、メッセージが常に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
+   <td colname="col2"> <p>ヒントテキストが非表示になるまでの表示秒数を指定します。 <span class="codeph"> -1</span>に設定した場合、ユーザーがフライアウトをアクティブにしても、メッセージは常に表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 数</span></span> </p> </td> 
-   <td colname="col2"> <p>セット内の新しい画像を表示する際に、テキストを表示する回数を指定します。 値が —1の場合、 <span class="codeph"> セット内の</span> 任意の画像を表示するときにテキストが常に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
+   <td colname="col2"> <p>セット内の新しい画像を表示するときに、テキストが表示される回数を指定します。 値<span class="codeph"> -1</span>は、セット内の任意の画像を表示するときに、テキストが常に表示されることを意味します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フェー <span class="varname"> ド</span></span> </p> </td> 
-   <td colname="col2"> <p>テキストの表示/非表示を切り替える際に行うフェードアニメーションの時間を指定します。 値が0の場合、フェ <span class="codeph"> ードトランジシ</span> ョンなしを意味します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span> </span> </p> </td> 
+   <td colname="col2"> <p>テキストを表示または非表示にするときに行うフェードアニメーションの時間を指定します。 <span class="codeph"> 0</span>の値は、フェードトランジションがないことを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
