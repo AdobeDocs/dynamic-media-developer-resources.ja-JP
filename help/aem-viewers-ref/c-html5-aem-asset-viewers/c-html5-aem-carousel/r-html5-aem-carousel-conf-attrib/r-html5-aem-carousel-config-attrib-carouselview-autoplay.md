@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> カルーセル内の各バナーの表示時間と、自動ループの方向をオン/オフで指定します。 </p> <p>自動ループをオ <span class="codeph"> フにする</span> には、0に設定します。 </p> <p>1をオ <span class="codeph"> ートループ</span> オンに設定し、トランジション時間を秒単位で時間で制御 <span class="codeph"> します</span>。 </p> <p>自動ループの方向は、方向で制御し <span class="codeph"> ます</span>。 方向 <span class="codeph"> は</span> 、右から左に1 <span class="codeph"> 、左から右</span> に0 <span class="codeph"></span> の範囲で指定します。 </p> </td> 
+   <td colname="col2"> <p> カルーセルに各バナーを表示するオン/オフ（時間）と、自動ループの方向を指定します。 </p> <p><span class="codeph"> 0</span>に設定すると、自動ループがオフになります。 </p> <p><span class="codeph"> 1</span>を、<span class="codeph"> duration</span>で制御されるトランジション時間（秒）で自動ループオンに設定します。 </p> <p>オートループの方向は<span class="codeph">方向</span>で制御します。 <span class="codeph">方向</span>は、<span class="codeph"> 1</span>右から左、<span class="codeph"> 0</span>左から右の範囲です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
