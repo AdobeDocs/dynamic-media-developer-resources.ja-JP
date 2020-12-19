@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> サムネール画像を基準にしてラベルを描画する場所を指定します。つまり、ラベルはサムネールを基準に指定した位置の中央に配置されます。 </p> <p>tooltipを指 <span class="codeph"> 定すると</span> 、ラベルのテキストがフローティングツールチップとしてサムネール画像の上に表示されます。 「なし」に設定す <span class="codeph"> ると</span> 、ラベルが無効になります。 </p> </td> 
+   <td> <p> サムネール画像を基準にしてラベルの表示位置を指定します。つまり、ラベルはサムネールに対して相対的に指定された位置の中央に配置されます。 </p> <p><span class="codeph"> tooltip</span>を指定した場合、ラベルのテキストはフローティングツールチップとしてサムネール画像の上に表示されます。 <span class="codeph"> none </span>に設定すると、ラベルが無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
