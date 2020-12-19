@@ -37,6 +37,6 @@ Image Serverは、Linuxデーモンとしてインストールされます。
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-応答で、「 `imageServer.`」で始まる項目が存在するかどうかを確認します。これは、PlatformサーバがImage Serverと正常に通信できたことを示します。
+応答で、「`imageServer.`」で始まる項目が存在するかどうかを確認します。これは、プラットフォームサーバーがImage Serverと正常に通信できたことを示します。
 >ドキュメントおよびDemoパッケージのサンプルページを使用して、追加の検証を行うことができます（インストールされている場合）。
 
