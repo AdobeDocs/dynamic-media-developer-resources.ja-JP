@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-d3eb923fcf5741b99967634db809e09e}
+## 認証済みユーザータイプ{#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,18 +33,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | フォルダハンドル |
-| ` *`setChildren`*` | `xsd:boolean` | はい | フォルダーに属する子の権限を設定します。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| ` *`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
+| ` *`setChildren`*` | `xsd:boolean` | はい | フォルダーに属する子に権限を設定します。 |
 | ` *`permissionArray`*` | `types:PermissionUpdateArray` | はい | 権限配列。 |
 
 **出力(setFolderPermissionsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-01730da4be874553ab44e3241cdf6357}
 
-このコード例では、会社のハンドル、フォルダハンドル、および権限配列を指定し、フォルダに関する詳細情報を指定します。 親フォルダーの子に同じ権限を適用します。
+このコードの例では、会社ハンドル、フォルダハンドル、権限配列を指定し、そのフォルダに関する詳細情報を示します。 親フォルダーの子に同じ権限を適用します。
 
 **リクエスト**
 
