@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 
 次のコマンドは、PlatformServerによって公開されるバッチ処理APIを構成します。
 
-これらは、次のように特別なリクエスト形式で指定します。 `?req=<command>`
+これらは、特別なリクエスト形式で次のように指定します。`?req=<command>`
 
-これらのコマンドの例では、架空の `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;とAcmeCorpという架空の会社を使用しています。 ジョブIDも架空のものです。
+これらのコマンドの例では、架空の`PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;とAcmeCorpという架空の会社を使用しています。 ジョブIDも架空のものです。
 
 * [batchjobbreafstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
+* [batchjobdetaildstatus](r-batchjobdetailedstatus.md)
 * [batchjobgetoutput](r-batchjobgetoutput.md)
 * [batchjobsubmit](r-batchjobsubmit.md)
 * [jobdata](r-jobdata.md)
