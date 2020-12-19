@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 構文
 
-## 認証されたユーザータイプ {#section-1c15a74c41194744a81f5ca86fe26585}
+## 認証済みユーザータイプ{#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 >[!NOTE]
 >
->ユーザーは、フォルダーとそのすべての子に対する読み取りおよび削除のアクセス権を持っている必要があります。
+>ユーザーは、フォルダーとそのすべての子に対する読み取りと削除のアクセス権を持っている必要があります。
 
 ## パラメータ {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
@@ -37,16 +40,16 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
 | ` *`folderHandle`*` | `xsd:string` | はい | 削除するフォルダーのハンドル。 |
 
 **出力(deleteFolderParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-このサンプルコードは、会社のルートからフォルダを削除します。 別の操作から取得する必要があるフォルダーハンドルが必要です。
+次のサンプルコードは、会社ーのルートからフォルダーを削除します。 フォルダーハンドルが必要です。このハンドルは、別の操作から取得する必要があります。
 
 **リクエスト**
 
