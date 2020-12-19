@@ -1,6 +1,6 @@
 ---
-description: カタログの属性とフィールドには、次のいずれかのタイプのデータを含めることができます。
-seo-description: カタログの属性とフィールドには、次のいずれかのタイプのデータを含めることができます。
+description: カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
+seo-description: カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
 seo-title: 一般的なデータ型
 solution: Experience Manager
 title: 一般的なデータ型
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 125a4044-7699-4c4f-9dea-a2934d919309
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
 
-# 一般的なデータ型{#common-data-types}
+# 共通のデータ型{#common-data-types}
 
-カタログの属性とフィールドには、次のいずれかのタイプのデータを含めることができます。
+カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
 
 * [カラー](r-is-cat-color.md)
 * [フラグ](r-flag.md)
