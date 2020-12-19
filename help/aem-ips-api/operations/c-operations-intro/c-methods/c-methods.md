@@ -1,13 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 操作パラメーター
+seo-title: 操作のパラメーター
 solution: Experience Manager
-title: 操作パラメーター
+title: 操作のパラメーター
 topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +58,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [deletePropertySet](r-delete-property-set.md)
 * [deletePropertySetType](r-delete-property-set-type.md)
 * [deleteTagFieldValues](r-delete-tag-field-values.md)
-* [deleteVignettePublishFormat](r-delete-vignette-publish-format.md)
+* [deleteVignetPublishFormat](r-delete-vignette-publish-format.md)
 * [deleteZoomTarget](r-delete-zoom-target.md)
 * [emptyAssetsFromTrash](r-empty-assets-from-trash.md)
 * [executeJob](r-execute-job.md)
