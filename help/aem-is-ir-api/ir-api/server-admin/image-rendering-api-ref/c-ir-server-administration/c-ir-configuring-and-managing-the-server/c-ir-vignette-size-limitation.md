@@ -19,9 +19,9 @@ ht-degree: 0%
 
 画像レンダリングでは、非ピラミッドビネットに対して2メガピクセルのサイズ制限が適用されます。
 
-アプリケーションで、この制限を超える画像領域（幅x高さ） `IrMaxNonPyrVignetteSize` を持つ非ピラミッドビネットをサポートする必要がある場合は、[!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf]の値を変更します。
+アプリケーションで、この制限を超える画像領域（幅x高さ）を持つピラミッド以外のビネットをサポートする必要がある場合、[!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf]の`IrMaxNonPyrVignetteSize`の値を変更します。
 
 >[!NOTE]
 >
->`attribute::MaxPix` また、応答画像のサイズが異常に大きくなるように調整する `IS::MaxMessageSize` 必要がある場合もあります。 詳しくは、画像サービングのドキュメントを参照してください。
+>`attribute::MaxPix` また、応答画像のサイズが異常に大きくなるように調整する `IS::MaxMessageSize` 必要がある場合もあります。詳しくは、画像サービングのドキュメントを参照してください。
 
