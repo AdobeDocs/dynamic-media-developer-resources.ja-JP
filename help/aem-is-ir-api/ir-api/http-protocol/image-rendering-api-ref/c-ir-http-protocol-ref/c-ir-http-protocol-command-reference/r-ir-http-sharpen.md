@@ -1,6 +1,6 @@
 ---
-description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像をwid=またはhei=に基づいて拡大・縮小した後に適用できます。
-seo-description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像をwid=またはhei=に基づいて拡大・縮小した後に適用できます。
+description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
+seo-description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
 seo-title: シャープ
 solution: Experience Manager
 title: シャープ
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0fc0b694-f332-4a16-9970-6b699528f165
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 8%
 
 ---
 
 
-# sharpen{#sharpen}
+# シャープ{#sharpen}
 
-返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像をwid=またはhei=に基づいて拡大・縮小した後に適用できます。
+返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
 
 `sharpen=0|1`
 
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>シャープなし。 </p></td> 
+  <td class="stentry"> <p>シャープなし </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -35,4 +38,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 関連項目 {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
