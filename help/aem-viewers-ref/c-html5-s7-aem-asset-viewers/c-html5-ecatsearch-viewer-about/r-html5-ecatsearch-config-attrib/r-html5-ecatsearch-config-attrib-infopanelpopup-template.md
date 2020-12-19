@@ -32,7 +32,7 @@ ht-degree: 3%
       ]&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは&lt; <span class="codeph"> info&gt;要素と開始する必要があります。この要素には、オプションでデフォルトの</span> &lt;var&gt; <span class="codeph"></span> 要素を含めることができます。 テンプレートのコンテンツ自体 <span class="codeph"> TEMPLATE_CONTENT</span> はHTMLテキストです。 また、コンテンツテンプレートには、変数名を <span class="codeph"> $</span> 文字で囲んで含めることができます。 これらの文字は、情報サーバが返す変数値または初期設定の値に置き換えられます。 </p> <p>テンプレートで定義される初期設定の変数は、グローバル変数（rollover属性が設定されていない場合）または特定のロールオーバーキーに固有の変数（rollover属性が存在する場合）にすることができます。 </p> <p>テンプレートの処理時に、ロールオーバーキーに固有の変数は、グローバル変数よりも優先されます。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは、<span class="codeph"> &lt;info&gt;</span>要素と開始する必要があります。この要素には、オプションのデフォルトの<span class="codeph"> &lt;var&gt;</span>要素を含めることができます。 テンプレートのコンテンツ自体<span class="codeph"> TEMPLATE_CONTENT</span>はHTMLテキストです。 また、コンテンツテンプレートには、<span class="codeph"> $</span>文字で囲まれた変数名を含めることができます。 これらの文字は、情報サーバが返す変数値または初期設定の値に置き換えられます。 </p> <p>テンプレートで定義される初期設定の変数は、グローバル変数（rollover属性が設定されていない場合）または特定のロールオーバーキーに固有の変数（rollover属性が存在する場合）にすることができます。 </p> <p>テンプレートの処理時に、ロールオーバーキーに固有の変数は、グローバル変数よりも優先されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +51,6 @@ ht-degree: 3%
 
 ## 例 {#section-16d184665c484964af9a22f79ff3f840}
 
-情報サーバの応答が製品名を変数として返し、製品の画像URL `$1$` を変数として返すと仮定 `$2$`します。
+情報サーバの応答が製品名を変数`$1$`として返し、製品の画像URLを変数`$2$`として返すとします。
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
