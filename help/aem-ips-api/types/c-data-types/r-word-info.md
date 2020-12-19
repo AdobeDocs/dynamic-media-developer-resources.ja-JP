@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 616c7006-a7fe-4dbe-9532-1b296e774107
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 21%
 
 ---
 
@@ -22,7 +25,7 @@ Wordファイルのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | ファイルパス。 |
+| ` *`originalPath`*` | `xsd:string` | ファイルパス |
 | ` *`originalFile`*` | `xsd:string` | ファイル名。 |
 | ` *`fileSize`*` | `xsd:int` | ファイルサイズ. |
 
