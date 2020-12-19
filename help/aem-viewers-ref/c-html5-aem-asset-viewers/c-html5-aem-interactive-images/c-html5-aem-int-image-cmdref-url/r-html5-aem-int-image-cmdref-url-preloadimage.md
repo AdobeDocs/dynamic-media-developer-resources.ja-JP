@@ -1,18 +1,21 @@
 ---
 description: ビデオ画像ビューアのURLコマンド。
 seo-description: ビデオ画像ビューアのURLコマンド。
-seo-title: 前画像
+seo-title: preloadimage
 solution: Experience Manager
-title: 前画像
+title: preloadimage
 topic: Dynamic media
 uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
 
-# 前画像{#preloadimage}
+# preloadimage{#preloadimage}
 
 ビデオ画像ビューアのURLコマンド。
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> プリロードイメージ機能を有効(1)または無効(0)にします。 </p> <p>詳しくは、イメ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> ージのプリロードを参照してくださ</a>い。 </p> </td> 
+   <td colname="col2"> <p> プリロードイメージ機能を有効(1)または無効(0)にします。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local">プリロード画像</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
