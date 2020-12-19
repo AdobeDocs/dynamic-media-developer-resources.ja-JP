@@ -1,6 +1,6 @@
 ---
-description: Flash Streaming Server URLプレフィックス。 req=mbrSetを使用してマルチビットレートf4m応答を生成する際に使用されるFlash Streaming ServerのURLプレフィックス。
-seo-description: Flash Streaming Server URLプレフィックス。 req=mbrSetを使用してマルチビットレートf4m応答を生成する際に使用されるFlash Streaming ServerのURLプレフィックス。
+description: FlashストリーミングサーバのURLプレフィックス req=mbrSetでマルチビットレートf4m応答を生成する際に使用されるFlashストリーミングサーバーのURLプレフィックス。
+seo-description: FlashストリーミングサーバのURLプレフィックス req=mbrSetでマルチビットレートf4m応答を生成する際に使用されるFlashストリーミングサーバーのURLプレフィックス。
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash Streaming Server URLプレフィックス。 req=mbrSetを使用してマルチビットレートf4m応答を生成する際に使用されるFlash Streaming ServerのURLプレフィックス。
+FlashストリーミングサーバのURLプレフィックス req=mbrSetでマルチビットレートf4m応答を生成する際に使用されるFlashストリーミングサーバーのURLプレフィックス。
 
 ## プロパティ {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-URLプレフィックスを表す文字列。 (例： `http://my.server.com/flash/streaming`)
+URLプレフィックスを表す文字列。 (例：`http://my.server.com/flash/streaming`)
 
 ## 初期設定 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 
