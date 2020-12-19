@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>タイムアウト間隔（ミリ秒）。 </p></td> 
+  <td class="stentry"> <p>タイムアウト間隔（ミリ秒） </p></td> 
  </tr> 
 </table>
 
@@ -45,25 +48,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr valign="top"> 
    <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p>ファイル作成時刻(1970年1月1日午前0時からのミリ秒数(UTC/GMT))。 </p> </td> 
+   <td> <p>ファイル作成時間（1970年1月1日午前0時からのミリ秒数）(UTC/GMT)。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> pixelsTotal</span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> 保存した画像のピクセル数。 </p> </td> 
+   <td> <p> 保存する画像のピクセル数。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> 列挙 </p> </td> 
-   <td> <p> <span class="codeph"> 成功した場合は</span> 、完了します。 </p> </td> 
+   <td> <p> <span class="codeph"> 成功した</span> 場合に実行します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-成功した場合はHTTP応答ステータス200を返し、失敗またはタイムアウトした場合は403を返します。 応答にMIMEタイプが含まれており、キャ `text/plain` ッシュできません。
+成功した場合はHTTP応答ステータス200を返し、失敗した場合またはタイムアウトした場合は403を返します。 応答のMIMEタイプが`text/plain`であり、キャッシュできません。
 
-重要ファイルへの保存は、にある既存の書き込み可能なフォルダーのパスを指定して有効にする必要がありま `attribute::SavePath`す。 `saveToFile=` が空の場合は失 `attribute::SavePath` 敗します。
+重要ファイルへの保存は、`attribute::SavePath`にある既存の書き込み可能なフォルダーへのパスを指定して有効にする必要があります。 `saveToFile=` が空の場合は失敗 `attribute::SavePath` します。
 
-*`file`* は必須で、と組み合わされる相対パスである必要がありま `attribute::SavePath`す。 画像サービングでは、フォルダは作成されません。 対象フォルダは、サーバ上に存在し、画像サービングでファイルを作成するための適切な権限設定を持っている必要があります。
+*`file`* は必須で、と組み合わされる相対パスである必要があり `attribute::SavePath`ます。画像サービングでは、フォルダーは作成されません。 ターゲットフォルダは、サーバに存在し、画像サービングがファイルを作成するための適切な権限設定を持っている必要があります。
 
-`timeout=` はオプションです。 デフォルトのタイムアウトは60,000ミリ秒です。どちらかの値を使用して設定する必要がありま `PS::SaveTimeout`す。
+`timeout=` はオプションです。デフォルトのタイムアウトは60,000ミリ秒、または`PS::SaveTimeout`で設定されたいずれかの値です。
