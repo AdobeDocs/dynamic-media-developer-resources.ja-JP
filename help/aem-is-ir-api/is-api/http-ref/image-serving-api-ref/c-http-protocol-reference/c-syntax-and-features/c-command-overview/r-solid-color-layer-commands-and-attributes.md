@@ -1,13 +1,16 @@
 ---
 description: これらのコマンドは、共通のレイヤーコマンドに加えて、べた塗りのレイヤーにも適用されます。
 seo-description: これらのコマンドは、共通のレイヤーコマンドに加えて、べた塗りのレイヤーにも適用されます。
-seo-title: べた塗りレイヤーコマンド
+seo-title: べた塗りレイヤーのコマンド
 solution: Experience Manager
-title: べた塗りレイヤーコマンド
+title: べた塗りレイヤーのコマンド
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
