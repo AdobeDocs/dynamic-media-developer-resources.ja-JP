@@ -1,6 +1,6 @@
 ---
-description: ズームインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
-seo-description: ズームインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
+description: ズームインジケーターは、メイン表示領域に重ねて表示されます。 画像がリセット状態の場合に表示されます。また、iconeffectパラメーターの設定によって表示されます。
+seo-description: ズームインジケーターは、メイン表示領域に重ねて表示されます。 画像がリセット状態の場合に表示されます。また、iconeffectパラメーターの設定によって表示されます。
 seo-title: アイコンエフェクト
 solution: Experience Manager
 title: アイコンエフェクト
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 113b2502-395d-4fd1-ab28-4995e8248593
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# アイコンエフェクト{#icon-effect}
 
-ズームインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
+ズームインジケーターは、メイン表示領域に重ねて表示されます。 画像がリセット状態の場合に表示されます。また、iconeffectパラメーターの設定によって表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,29 +38,29 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> ズームインジケーターのアートワーク。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>ズームインジケータの幅。 </p> </td> 
+   <td colname="col2"> <p>ズームインジケーターの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>ズームインジケータの高さ。 </p> </td> 
+   <td colname="col2"> <p>ズームインジケーターの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->アイコンエフェクトでは、 `media-type` 属性セレクターがサポートされます。このセレクターを使用して、デバイスごとに異なるアイコンエフェクトを適用できます。 特に、は、マウス入 `media-type='standard'` 力が通常使用されるデスクトップシステムに対応し、タッチ入力 `media-type='multitouch'` を使用するデバイスに対応します。
+>アイコンエフェクトでは、`media-type`属性セレクターがサポートされます。このセレクターを使用すると、デバイスごとに異なるアイコンエフェクトを適用できます。 特に、`media-type='standard'`はマウス入力が通常使用されるデスクトップシステムに対応し、`media-type='multitouch'`はタッチ入力のデバイスに対応します。
 
-例 — デスクトップシステムとタッチデバイスで異なるアートを使用する100 x 100ピクセルのズームインジケーターを設定するには、次のように記述します。
+例 — デスクトップシステムとタッチデバイスで別々のアートを使用する100 x 100ピクセルのズームインジケーターを設定するには、次のように記述します。
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect { 
