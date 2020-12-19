@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-ebcc67723663494db0562275b1873460}
+## 認証済みユーザータイプ{#section-ebcc67723663494db0562275b1873460}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,11 +34,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | はい | 削除するグループに属する会社のハンドル。 |
-| ` *`groupHandle`*` | `xsd:string` | はい | 削除するグループのハンドル。 |
+| ` *`groupHandle`*` | `xsd:string` | はい | 削除するグループへのハンドル。 |
 
 **出力(deleteGroupParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
