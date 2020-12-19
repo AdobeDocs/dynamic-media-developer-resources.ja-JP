@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 静的コンテンツカタログデータファイルのパス このカタログの静的コンテンツデータを含むファイルを指定します。
 
-静的コンテンツカタログデータファイルは、指定された順序で読み込まれます。 同じ値が複数のレ `static::Id` コード（同じカタログファイルまたは異なるカタログファイル）に存在する場合は、最後のインスタンスが使用されます。
+静的コンテンツカタログデータファイルは、指定された順序で読み込まれます。 同じ`static::Id`値が複数のレコード（同じカタログファイルまたは異なるカタログファイル）に存在する場合は、最後のインスタンスが使用されます。
 
 ## プロパティ {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
-コンマで区切った1つ以上のテキスト文字列値。 （オプション）各値は、絶対ファイルパスまたはカタログフォルダーからの相対パスで指定する必要があります。
+カンマで区切られた1つ以上のテキスト文字列値。 （オプション）各値は、絶対ファイルパスまたはカタログフォルダーを基準とした相対パスで指定する必要があります。
 
 ## 初期設定 {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
