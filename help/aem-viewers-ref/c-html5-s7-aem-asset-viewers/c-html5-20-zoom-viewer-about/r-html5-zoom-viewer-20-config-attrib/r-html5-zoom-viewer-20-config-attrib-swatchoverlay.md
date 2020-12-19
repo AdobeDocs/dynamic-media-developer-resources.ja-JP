@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: スワットチョーバー
+seo-title: スワットバーレイ
 solution: Experience Manager
-title: スワットチョーバー
+title: スワットバーレイ
 topic: Dynamic media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
 
-# スワットチョーバー{#swatchoverlay}
+# swatchoverlay{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>タッチ対応デバイスのビューアレイアウトを指定します。 このパラメータを1に設定する <span class="codeph"> と、デ </span>スクトップ上のメインビューの下にスウォッチが表示されます。タッチ対応デバイスでは、スウォッチはメインビューの上にオーバーレイ表示されます。 </p> <p>このパラメータを0に設定すると、すべてのデバ <span class="codeph"> イスタ </span>イプでメインビューの下にスウォッチがレンダリングされます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>タッチ対応デバイスのビューアレイアウトを指定します。 パラメータを<span class="codeph"> 1 </span>に設定すると、デスクトップではメイン表示の下にスウォッチが表示されます。タッチ対応デバイスでは、スウォッチはメイン表示の上にオーバーレイ表示されます。 </p> <p>パラメータを<span class="codeph"> 0 </span>に設定すると、すべてのデバイスタイプで、スウォッチがメイン表示の下にレンダリングされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
