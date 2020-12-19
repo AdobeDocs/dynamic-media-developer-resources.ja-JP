@@ -1,6 +1,6 @@
 ---
-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
-seo-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+seo-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 seo-title: 支援テクノロジーのサポート
 solution: Experience Manager
 title: 支援テクノロジーのサポート
@@ -8,28 +8,31 @@ topic: Dynamic media
 uuid: 525ab400-c022-4f33-a0e3-bafb6019f1a7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 0%
 
 ---
 
 
 # 支援テクノロジーのサポート{#assistive-technology-support}
 
-すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 
-最上位のビューア要素には、初期設定でビ `region` ューアの `aria-label` 名前に設定されている役割と属性があります。 ラベルは、ローカリゼーションシンボルを使用して `Container.LABEL` 制御できます。
+最上位レベルのビューア要素には、初期設定でビューア名に設定されているロール`region`と`aria-label`の属性があります。 ラベルはローカライゼーション記号`Container.LABEL`で制御できます。
 
-ボタンには、役割と、属性を `button` 持つ説明テキストが設定さ `aria-label` れます。 属性の値は、ボ `aria-label` タンのローカリゼーションシンボルの値から設定されます。 ボタンが無効になっている場合は、それに応じ `aria-disabled` て属性が設定されます。
+ボタンには、`button`という役割と、`aria-label`属性を持つ説明テキストが設定されています。 `aria-label`属性の値は、ボタンのローカライゼーション記号の値から設定されます。 ボタンが無効になると、`aria-disabled`属性がそれに応じて設定されます。
 
-メインビューにはロールがありま `application`す。 メインビューの簡単な説明は、対応するメインビ `aria-roledescription`ューコンポーネントのローカリゼーションシ `ROLE_DESCRIPTION` ンボルで定義された値と共ににに提供されます。 キーボードユーザーのナビゲーションヒントは、を使 `aria-describedby`用して提供されます。使用ヒントのテキストは、ローカリゼーションシンボル `USAGE_HINT` から取得されます。 アセットにUserDataフィールドで定義されたラベルが含まれている場合、 `aria-label` 属性にはそのラベルの値が設定されます。
+メイン表示は`application`の役割を持ちます。 メイン表示の簡単な説明は、`aria-roledescription`に記載され、対応するメイン表示コンポーネントの`ROLE_DESCRIPTION`ローカライゼーション記号で定義された値と共に記載されます。 キーボードユーザーのナビゲーションヒントは`aria-describedby`を使用して提供され、使用ヒントのテキストは`USAGE_HINT`ローカライゼーション記号から取得されます。 アセットのUserDataフィールドにラベルが定義されている場合、`aria-label`属性は、このラベルの値で設定されます。
 
-ホットスポット、領域および画像マップには、ロールと説明 `button` テキストが設定され、属性が設定さ `aria-label` れ、ホットスポットまたは画像マップのラベルの値が設定されます。 ユーザがホットスポットや画像マップにフォーカスすると、キーボードユーザのナビゲーションヒントが、ローカリゼーションシンボルからの使用 `aria-describedby`ヒントのテキストと共に、を使用して提 `USAGE_HINT` 供されます。
+ホットスポット、領域および画像マップには、`button`という役割と、`aria-label`属性を持つ説明テキストが設定され、ホットスポットまたは画像マップのラベルの値が設定されます。 ユーザーがホットスポットや画像マップにフォーカスすると、キーボードユーザーのナビゲーションヒントは`aria-describedby`を使用して提供され、使用ヒントのテキストは`USAGE_HINT`ローカライゼーションシンボルから取得されます。
 
-サムネールには、ローカリゼーショ `dialog` ンシンボル `aria-label` で制御される属性を持つ `ThumbnailGridView.LABEL` 役割があります。 個々のサムネールには役割があり `button`ます。 サムネールが選択されている場合は、属性がに設 `aria-selected` 定されていま `true`す。
+サムネールには、`ThumbnailGridView.LABEL`ローカライゼーション記号で制御される`aria-label`属性を持つ`dialog`ロールがあります。 個々のサムネールには`button`の役割があります。 サムネールが選択されると、`aria-selected`属性が`true`に設定されます。
 
-スウォッチを表示するコンポーネントには、そのコ `listbox` ンポーネ `aria-label` ントのローカリゼーションシンボルの値に設定さ `LABEL` れた属性を持つ役割が割り当てられます。 個々のスウォッチには、セット内のスウォ `option` ッチの `aria-setsize` 位置を示す `aria-posinset` 役割と属性が付いた、およびの属性があります。 スウォッチが選択されている場合は、属性がに設 `aria-selected` 定されていま `true`す。
+スウォッチを表示するコンポーネントには、`listbox`の役割(`aria-label`属性が、そのコンポーネントの`LABEL`ローカライゼーションシンボルの値に設定されています)が割り当てられます。 個々のスウォッチには、セット内のスウォッチの位置を示す役割`option`と`aria-setsize`属性と`aria-posinset`属性があります。 スウォッチを選択すると、`aria-selected`属性が`true`に設定されます。
 
-コンボボックスは、追加の属性がに設定され、実際のコンボボ `aria-haspopup` ックス要素を参照 `true` する属 `aria-controls` 性がに設定されたボタンによってアクティブになります。 ドロップダウンパネル自体には、役割を持つサ `menu` ブ要素を持つ役割が割り当てられま `menuitem`す。 各メニュー項目には属性が指定 `aria-label` されています。
+ドロップダウンリストは、追加の`aria-haspopup`属性が`true`に設定され、`aria-controls`属性が実際のドロップダウンパネル要素を参照するボタンによってアクティブになります。 ドロップダウンパネル自体には、役割`menu`があり、役割`menuitem`を持つサブ要素があります。 各メニュー項目には`aria-label`属性が指定されています。
 
-検索ユーザーインターフェイスは、ロールを持つ要素にグループ化されていま `search`す。 検索入力フィールドには役割があり、 `searchbox` 属性を持つローカリゼーションシンボルで制御さ `SearchPanel.INFO_PROMPT` れる情報ラベルを参 `aria-describedby` 照します。
+検索ユーザーインターフェイスは、`search`の役割を持つ要素にグループ化されています。 検索入力フィールドには`searchbox`という役割があり、`SearchPanel.INFO_PROMPT`ローカライゼーション記号で制御される情報ラベルを`aria-describedby`属性で参照します。
 
-モーダルダイアログボックスには役割がありま `dialog`す。 ダイアログボックスのヘッダー要素は、属性によって参照さ `aria-labelledby` れます。
+モーダルダイアログボックスには`dialog`の役割があります。 ダイアログボックスのヘッダー要素は`aria-labelledby`属性で参照されています。
