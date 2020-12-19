@@ -1,6 +1,6 @@
 ---
-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
-seo-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+seo-description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 seo-title: 支援テクノロジーのサポート
 solution: Experience Manager
 title: 支援テクノロジーのサポート
@@ -8,20 +8,23 @@ topic: Dynamic media
 uuid: e7090fb1-9458-4f97-a11f-5b0600a13db0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 
 # 支援テクノロジーのサポート{#assistive-technology-support}
 
-すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 
-最上位のビューア要素には、初期設定でビ `region` ューアの `aria-label` 名前に設定されている役割と属性があります。 ラベルは、ローカリゼーションシンボルを使用して `Container.LABEL` 制御できます。
+最上位レベルのビューア要素には、初期設定でビューア名に設定されているロール`region`と`aria-label`の属性があります。 ラベルはローカライゼーション記号`Container.LABEL`で制御できます。
 
-ボタンには、役割と、属性を `button` 持つ説明テキストが設定さ `aria-label` れます。 属性の値は、ボ `aria-label` タンのローカリゼーションシンボルの値から設定されます。 ボタンが無効になっている場合は、それ `aria-disabled` に応じて属性が設定されます。
+ボタンには、`button`という役割と、`aria-label`属性を持つ説明テキストが設定されています。 `aria-label`属性の値は、ボタンのローカライゼーション記号の値から設定されます。 ボタンが無効になると、`aria-disabled`属性がそれに応じて設定されます。
 
-スライダコンポーネントには、アトリビ `slider` ュート、および現在 `aria-valuenow`のスライダの位 `aria-valuemin``aria-valuemax` 置を示す役割があります。
+スライダコンポーネントには、現在のスライダ位置を示す`aria-valuenow`、`aria-valuemin`、`aria-valuemax`という属性を持つロール`slider`があります。
 
-コンボボックスは、実際のコンボボックス要素を参照する属性と、 `aria-haspopup` に追加の属性が設定さ `true` れたボ `aria-controls` タンによってアクティブになります。 ドロップダウンパネル自体には、役割を持つサ `menu` ブ要素を持つ役割が割り当てられま `menuitem`す。 各メニュー項目には属性が指定 `aria-label` されています。
+ドロップダウンリストは、追加の`aria-haspopup`属性が`true`および`aria-controls`属性に設定されたボタンによってアクティブになり、実際のドロップダウンパネル要素を参照します。 ドロップダウンパネル自体には、役割`menu`があり、役割`menuitem`を持つサブ要素があります。 各メニュー項目には`aria-label`属性が指定されています。
 
-モーダルダイアログボックスには役割がありま `dialog`す。 ダイアログボックスのヘッダー要素は、属性によって参照さ `aria-labelledby` れます。
+モーダルダイアログボックスには`dialog`の役割があります。 ダイアログボックスのヘッダー要素は`aria-labelledby`属性で参照されています。
