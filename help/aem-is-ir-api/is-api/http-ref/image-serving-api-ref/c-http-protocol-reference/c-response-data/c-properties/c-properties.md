@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # プロパティ{#properties}
 
-プロパティデータは、次のタイプに応じて返さ `req=` れます。
+プロパティデータは、次の`req=`型に応じて返されます。
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 応答は、の内容がプロパティの形式に従う場合にのみ、プ `catalog::UserData` ロパティとして形式設定されます。
+`userdata` 応答は、のコンテンツがプロパティの形式に `catalog::UserData` 従う場合にのみ、プロパティとして形式設定されます。
 
 * [テキスト(Java)プロパティ](r-text-java-properties.md)
 * [JavaScriptプロパティ](r-javascript-properties.md)
