@@ -39,9 +39,9 @@ ht-degree: 4%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>ZIPおよびTARアーカイブファイルの処理を制御します。 次の2つのオプションを提供します。 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> なし：</span> プライマリアセットとして処理 </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解凍：</span> コンテンツを抽出して処理します。 </li>
-     </ul><p>注意： 文字列定数では大文字と小文字が区別されます。 非圧縮 <span class="codeph"> (uncompress</span>)または非圧縮( <span class="codeph"> unCompress</span> )ではなく、非圧縮( <span class="codeph"> UnCompress)を使用します</span>。 </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> なし：プライマリアセット</span> として処理します。 </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解凍：内容を</span> 抽出して処理します。 </li>
+     </ul><p>注意：文字列定数では大文字と小文字が区別されます。 <span class="codeph"> uncompress</span>や<span class="codeph"> unCompress</span>ではなく、<span class="codeph"> UnCompress</span>を使用します。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +59,9 @@ ht-degree: 4%
     </complexType>
 ```
 
-## 使用者 {#section-b2a829cf5511412e968bb2000f85cc31}
+## {#section-b2a829cf5511412e968bb2000f85cc31}が使用
 
-この `unCompressionOptions` 型は次の方法で使用されます。
+`unCompressionOptions`型は次のユーザーが使用します。
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
