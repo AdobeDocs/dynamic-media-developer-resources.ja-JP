@@ -1,6 +1,6 @@
 ---
-description: マクロの定義。 1つ以上の完全なコマンドで構成され、「&」文字で区切られたレンダリングサービングプロトコルフラグメント。
-seo-description: マクロの定義。 1つ以上の完全なコマンドで構成され、「&」文字で区切られたレンダリングサービングプロトコルフラグメント。
+description: マクロ定義 1つ以上の完全なコマンドから成るレンダリングサービングプロトコルフラグメントで、各コマンドは「&」文字で区切られます。
+seo-description: マクロ定義 1つ以上の完全なコマンドから成るレンダリングサービングプロトコルフラグメントで、各コマンドは「&」文字で区切られます。
 seo-title: 定義
 solution: Experience Manager
 title: 定義
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 9%
 
 ---
 
 
 # 定義{#definition}
 
-マクロの定義。 1つ以上の完全なコマンドで構成され、「&amp;」文字で区切られたレンダリングサービングプロトコルフラグメント。
+マクロ定義 1つ以上の完全なコマンドから成るレンダリングサービングプロトコルフラグメントで、各コマンドは「&amp;」文字で区切られます。
 
 マクロ定義は他のマクロを参照できません。 マクロは、カスタム変数を定義して使用する場合があります。
 
