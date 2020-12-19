@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `removeGroupMembers`:グループから複数のユーザーを削除します。
 * `removeGroupMembership`:グループの配列から個々のユーザーを削除します。
 
-## 認証されたユーザータイプ {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## 認証済みユーザータイプ{#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,16 +36,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | いいえ | グループのメンバーシップを削除する会社のハンドル。 |
+| ` *`userHandle`*` | `xsd:string` | いいえ | グループメンバーシップを削除する会社のハンドル。 |
 | ` *`groupHandleArray`*` | `types:HandleArray` | はい | 会社を削除するグループへのハンドルの配列。 |
 
 **出力(removeGroupMembershipReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f8d4181170a243efb9faf5824ae96197}
 
-このコード例では、ユーザーをグループから削除します。
+このコードの例では、ユーザーをグループから削除します。
 
 **リクエスト**
 
