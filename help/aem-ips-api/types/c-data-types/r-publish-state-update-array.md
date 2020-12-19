@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5dc4102b-a89b-46c9-a057-51172752c5e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:PublishStateUpdate` | パブリッシュ状態の更新の配列。 |
+| ` *`商品`*` | `types:PublishStateUpdate` | 発行状態の更新の配列。 |
 
