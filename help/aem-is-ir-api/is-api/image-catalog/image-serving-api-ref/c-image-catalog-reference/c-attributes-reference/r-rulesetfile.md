@@ -1,6 +1,6 @@
 ---
-description: ルールセット定義のファイルパス。 この画像カタログのルールセット定義を含むファイルを指定します。
-seo-description: ルールセット定義のファイルパス。 この画像カタログのルールセット定義を含むファイルを指定します。
+description: ルールセット定義ファイルのパス。 この画像カタログのルールセット定義を含むファイルを指定します。
+seo-description: ルールセット定義ファイルのパス。 この画像カタログのルールセット定義を含むファイルを指定します。
 seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9393e197-450a-4b7d-90ad-a6ea0204ee26
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
 
 # RuleSetFile{#rulesetfile}
 
-ルールセット定義のファイルパス。 この画像カタログのルールセット定義を含むファイルを指定します。
+ルールセット定義ファイルのパス。 この画像カタログのルールセット定義を含むファイルを指定します。
 
 ## プロパティ {#section-e8449b2225294518a5f9ddb698f68360}
 
-テキスト文字列値。 カタログフォルダーを基準とした絶対ファイルパスまたは相対パス。
+テキスト文字列の値。 カタログフォルダーを基準とした絶対ファイルパスまたは相対パス。
 
 ## 初期設定 {#section-20a9d535d64347abaf0233595b2ad089}
 
