@@ -1,6 +1,6 @@
 ---
-description: 指定したPhotoshopパスを含む四辺形の座標を返します。
-seo-description: 指定したPhotoshopパスを含む四辺形の座標を返します。
+description: 指定したPhotoshopパスを囲む四辺形の座標を返します。
+seo-description: 指定したPhotoshopパスを囲む四辺形の座標を返します。
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
 
 # getPhotoshopPath{#getphotoshoppath}
 
-指定したPhotoshopパスを含む四辺形の座標を返します。
+指定したPhotoshopパスを囲む四辺形の座標を返します。
 
 構文
 
-## 認証されたユーザータイプ {#section-c417a287612847cb98dd0aa9c67fd78a}
+## 認証済みユーザータイプ{#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +30,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## パラメータ {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -35,7 +38,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 操作する画像を持つ会社に対して処理します。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 操作する画像が含まれる会社へのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | 画像アセットのハンドル。 |
 | ` *`pathName`*` | `xsd:string` | はい | 返すPhotoshopパスの名前。 |
 
@@ -43,7 +46,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | はい | パスに基づいて画像の座標を返します。 PerspectiveQuadを参照し [てください](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | はい | パスに基づく画像の座標を返します。 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)を参照してください。 |
 
 ## 例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
