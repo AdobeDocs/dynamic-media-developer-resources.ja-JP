@@ -1,6 +1,6 @@
 ---
-description: これらのコマンドは、共通のレイヤコマンドに加えて、イメージレイヤに適用されます。
-seo-description: これらのコマンドは、共通のレイヤコマンドに加えて、イメージレイヤに適用されます。
+description: これらのコマンドは、共通のレイヤーコマンドに加えて、画像レイヤーにも適用されます。
+seo-description: これらのコマンドは、共通のレイヤーコマンドに加えて、画像レイヤーにも適用されます。
 seo-title: 画像レイヤーのコマンド
 solution: Experience Manager
 title: 画像レイヤーのコマンド
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 
-# 画像レイヤーのコマンド{#image-layer-commands}
+# 画像レイヤーコマンド{#image-layer-commands}
 
-これらのコマンドは、共通のレイヤコマンドに加えて、イメージレイヤに適用されます。
+これらのコマンドは、共通のレイヤーコマンドに加えて、画像レイヤーにも適用されます。
 
 <table id="simpletable_F6799DA025A64970B95085FB9910E1EF"> 
  <tr class="strow"> 
