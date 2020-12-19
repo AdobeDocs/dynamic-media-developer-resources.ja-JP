@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
 
@@ -24,5 +27,5 @@ Scene7開発者のみが使用します。
 |---|---|---|
 | ` *`name`*` | `xsd:string` | 設定名。 |
 | ` *`value`*` | `xsd:string` | 設定値。 |
-| ` *`取り扱い`*` | `xsd:string` | 格納された設定のハンドル。 |
+| ` *`取り扱い`*` | `xsd:string` | 格納されている構成へのハンドル。 |
 
