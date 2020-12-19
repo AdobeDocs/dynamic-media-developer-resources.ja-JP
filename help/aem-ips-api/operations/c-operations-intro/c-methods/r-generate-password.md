@@ -21,7 +21,7 @@ ht-degree: 18%
 
 構文
 
-## 認証済みユーザータイプ {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 認証済みユーザータイプ{#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
