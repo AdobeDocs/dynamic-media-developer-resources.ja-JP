@@ -1,6 +1,6 @@
 ---
-description: アセットに関連付けられたユーザ定義のメタデータフィールドを取得します。
-seo-description: アセットに関連付けられたユーザ定義のメタデータフィールドを取得します。
+description: アセットに関連付けられているユーザ定義メタデータフィールドを取得します。
+seo-description: アセットに関連付けられているユーザ定義メタデータフィールドを取得します。
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
 
 # getMetadataFields{#getmetadatafields}
 
-アセットに関連付けられたユーザ定義のメタデータフィールドを取得します。
+アセットに関連付けられているユーザ定義メタデータフィールドを取得します。
 
 構文
 
-## 認証されたユーザータイプ {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 認証済みユーザータイプ{#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,11 +33,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-bac949e59c0546429c5786fe422d750d}
 
-**Input (getMetadataFieldsParam)**
+**入力(getMetadataFieldsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社が取り扱う。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル。 |
 | ` *`assetType`*` | `xsd:string` | はい | メタデータを取得するアセットタイプ。 |
 
 **出力(getMetadataFieldsParam)**
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-このコードサンプルを使用すると、指定したタイプおよび会社のメタデータアセットを返すことができます。 応答には、フィールド配列内のメタデータフィールドの配列が含まれます。 すべてのアセットが同じメタデータを持つわけではありません。 IPSユーザは、アセットのメタデータフィールドを定義します。
+このコードサンプルを使用すると、指定したタイプおよび会社のメタデータアセットを返すことができます。 応答には、フィールド配列内のメタデータフィールドの配列が含まれます。 すべてのアセットに同じメタデータがあるわけではありません。 IPSユーザは、アセットのメタデータフィールドを定義します。
 
 **リクエスト**
 
