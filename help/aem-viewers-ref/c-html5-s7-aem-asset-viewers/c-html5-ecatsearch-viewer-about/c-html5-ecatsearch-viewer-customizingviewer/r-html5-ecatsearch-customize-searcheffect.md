@@ -1,6 +1,6 @@
 ---
-description: ビューアは、メインビューに検索結果領域を表示して、カタログ内の単語またはフレーズをハイライトします。
-seo-description: ビューアは、メインビューに検索結果領域を表示して、カタログ内の単語またはフレーズをハイライトします。
+description: ビューアでは、メイン表示に検索結果領域が表示され、カタログ内の語句が強調表示されます。
+seo-description: ビューアでは、メイン表示に検索結果領域が表示され、カタログ内の語句が強調表示されます。
 seo-title: 検索効果
 solution: Experience Manager
 title: 検索効果
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
 # 検索効果{#search-effect}
 
-ビューアは、メインビューに検索結果領域を表示して、カタログ内の単語またはフレーズをハイライトします。
+ビューアでは、メイン表示に検索結果領域が表示され、カタログ内の語句が強調表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -33,8 +36,8 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p>検索結果領域の背景。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
+   <td colname="col2"> <p>検索結果領域の背景 </p> </td> 
   </tr> 
  </tbody> 
 </table>
