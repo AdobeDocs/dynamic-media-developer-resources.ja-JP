@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 935b35c3-edf2-4d05-ae21-7558f022ffbe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオチャプターラベルのタイトルバーを無効または有効にします。 タイトルバーが無効な場合、チャプターの開始時間は表示されません。 </p> </td> 
+   <td colname="col2"> <p> ビデオチャプターラベルのタイトルバーを無効または有効にします。 タイトルバーが無効な場合、チャプター開始時間は表示されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
