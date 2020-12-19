@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 6%
 
 ---
 
@@ -18,17 +21,17 @@ XMPメタデータ。 要求パスで指定された画像に関連付けられ�
 
 `req=xmp`
 
-その他のコマンドは無視されます。 UTF-8エンコーディングが適用されます。 応答はMIMEタイプがXML形式である `text/xml`。
+その他のコマンドは無視されます。 UTF-8エンコードが適用されます。 応答の形式は、MIMEタイプ`text/xml`のXMLです。
 
-The HTTP response is cacheable with the TTL based on `catalog::Expiration`.
+HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
 
 ## プロパティ {#section-0d26b6a56c844153ae5cea4880370d00}
 
-リクエスト属性。 現在のレイヤー設定に関係なく適用されます。
+要求属性。 現在のレイヤー設定に関係なく適用されます。
 
 ## 初期設定 {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-URLに画像パスまたは修飾子が含まれていない場合は、次のようになります。
+URLに画像パスまたは修飾子が含まれていない場合、次のようになります。
 
 ```
 #S7Z OK 
@@ -36,15 +39,15 @@ URLに画像パスまたは修飾子が含まれていない場合は、次の�
 copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserved.
 ```
 
-Otherwise, `req=img`
+それ以外の場合は`req=img`
 
 ## 例 {#section-34213692deab4a0f9037d5844132ee14}
 
-クエリーイメージファイルのプロパティ。
+クエリ画像ファイルのプロパティ。
 
 ` http:// *`server`*/myPath/myImage.tif?req=imageprops`
 
-画像カタログのプロパティのクエリ：
+クエリ画像カタログのプロパティ：
 
 ` http:// *`server`*/myRootId?req=catalogprops`
 
@@ -61,11 +64,11 @@ HTMLファイルに埋め込まれたクライアント側のJavaScriptから、
 </script>
 ```
 
-特定のカタログエントリのマスク画像を取得し、元のサイズの25%に拡大・縮小します。
+特定のカタログエントリのマスク画像を取得し、元のサイズの25%に合わせて拡大/縮小します。
 
 ` http:// *`server`*/myRootId/myImageId?req=mask&scale=0.25`
 
-8分の1のサイズで画像を要求します。
+画像を8分の1のサイズで要求します。
 
 ` http:// *`server`*/myRootId/myImageId?scl=8`
 
@@ -73,14 +76,14 @@ HTMLファイルに埋め込まれたクライアント側のJavaScriptから、
 
 ` http:// *`server`*/myRootId/myImageId?req=img&scl=8`
 
-画像のサムネールを要求し、画像カタログで指定されたサムネール属性を使用します。
+画像のサムネールを要求し、画像カタログで指定されているサムネール属性に依存します。
 
 ` http:// *`server`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
-サーバーログにテキストメッセージを送信します。
+サーバーログにテキストメッセージを送信する：
 
 ` http:// *`server`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## 関連項目 {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt= ,](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) catalog::UserCatalog [::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [Thumbnail Scaling](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Thumbnail Scaling](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), Properties [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)[Targets, Image Maps](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , catalog::ターゲット [, ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)catalog [::UserData, ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)Thumbnail Scaling [, Thumbnail Scaling, Properties, ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) [Image Maps,](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
