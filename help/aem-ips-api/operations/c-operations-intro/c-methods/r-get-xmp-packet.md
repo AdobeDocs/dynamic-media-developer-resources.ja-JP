@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 認証済みユーザータイプ{#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,14 +33,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Input (getXMPPacketParam)**
+**入力(getXMPPacketParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社は返すパケット(例： `c|656`)を処理します。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 返す会社のパケットハンドル（例：`c|656`）。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | XMPパケットを取得する必要があるアセット。 |
 
-**Output (getXMPPacketReturn)**
+**出力(getXMPPacketReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
