@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -29,11 +32,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `flags=0` （デフォルト）上部キャビネットをソリッドドアでレンダリングします。
 
-`flags=1` ビネットがガラスドアでオーサリングされている場合は、上部キャビネットをガラスドアでレンダリングします。
+`flags=1` は、ガラスのドアが付いた上部キャビネットをレンダリングします（ビネットがガラスのドアでオーサリングされている場合）。
 
 ## プロパティ {#section-a2b00d7bb15e449ea85178acb92d8285}
 
-マテリアル属性。 キャビネットの材料でない場合、またはターゲットのキャビネットオブジェクトでガラスのドアが許可されていない場合は無視されます。
+マテリアル属性 キャビネットマテリアル以外の場合、またはターゲットキャビネットオブジェクトでガラスのドアが許可されていない場合は無視されます。
 
 ## 初期設定 {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
