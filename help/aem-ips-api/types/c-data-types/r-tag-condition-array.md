@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9ee3b2c5-ba56-4df0-ae80-684d04455437
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
