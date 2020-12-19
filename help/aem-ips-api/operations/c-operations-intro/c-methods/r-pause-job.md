@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-f2bf306ab4574871bd21f9f7dd681033}
+## 認証済みユーザータイプ{#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,16 +38,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 | ` *`jobHandle`*` | `xsd:string` | はい | 一時停止するジョブの処理。 |
 
 **出力(PauseJobReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-このコードサンプルを使用すると、アクティブなジョブを一時停止できます。
+このコードのサンプルを使用すると、アクティブなジョブを一時停止できます。
 
 **リクエスト**
 
