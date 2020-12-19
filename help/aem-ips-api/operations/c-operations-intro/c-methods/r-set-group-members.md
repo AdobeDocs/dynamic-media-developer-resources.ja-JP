@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 特定の会社に属するユーザーのグループメンバーシップを設定します。
 
-この操作を実行する権限がない場合、操作によって認証エラーがスローされます。 これは、ユーザハンドル配列内のユーザの中に、会社のハンドルで指定された会社に属していないユーザがいる場合にも当てはまります。
+この操作を実行する権限を持たない場合、操作によって認証エラーがスローされます。 これは、会社ハンドル配列内のユーザーが、ユーザーハンドルで指定された会社に属していない場合にも当てはまります。
 
-## 認証されたユーザータイプ {#section-4523594039c24aa29c8d0d5c9c415391}
+## 認証済みユーザータイプ{#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +33,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| ` *`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを設定するユーザーのハンドルの配列。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| ` *`groupHandle`*` | `xsd:string` | はい | グループハンドル |
+| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを設定するユーザーのハンドルの配列です。 |
 
 **出力(setGroupMembesReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-このコードのサンプルでは、1人のユーザーのグループメンバーシップを設定します。
+このコードのサンプルを使用すると、1人のユーザーのグループメンバーシップを設定できます。
 
 **リクエスト**
 
