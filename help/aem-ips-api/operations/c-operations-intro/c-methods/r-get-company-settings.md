@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 認証済みユーザータイプ{#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -37,11 +40,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`設定`*` | `types:CompanySettings` | はい | 会社の設定 |
+| ` *`設定`*` | `types:CompanySettings` | はい | 会社設定 |
 
 ## 例 {#section-191f78995ecf473a95eadf7296204fd7}
 
-このコード例は、特定の会社のすべてのIPS設定を返します。
+このコードの例では、特定の会社のすべてのIPS設定を返します。
 
 **リクエスト**
 
