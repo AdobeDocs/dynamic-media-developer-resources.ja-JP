@@ -23,7 +23,7 @@ ht-degree: 14%
 
 新しいバージョンのImage Rendering Serverでは、ピラミッドビネットをサポートできるので、公開用に特定のビネット形式サイズを定義する必要がありません。
 
-## 認証済みユーザータイプ {#section-f5c563e3695c4dba8df41e2a965aace7}
+## 認証済みユーザータイプ{#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -52,67 +52,67 @@ ht-degree: 14%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> ビネット公開形式を識別する名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>生成されるビネット表示のターゲット幅をピクセル単位で指定します。 </p> <p>出力ビネットがプライマリビネットと同じサイズになるように、ゼロを使用します。 </p> </td> 
+   <td colname="col4"> <p>生成されるビネット表示のターゲット幅をピクセル単位で指定します。 </p> <p>ゼロを指定すると、出力ビネットはプライマリビネットと同じサイズになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 画像レンダリングサーバでのズーム処理に最適なピラミッドビネットを作成します。このオプションでは、1 つのビネット出力ファイルで複数サイズの表示を作成します。ターゲットビネットサイズフィールドで設定された最大サイズから作成を開始します。表示のサイズは、幅と高さが 128x128 ピクセル以内になるまで、1/2 ずつ縮小されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 生成される各サムネールの幅をピクセル単位で指定します。 この設定はオプションです。 サムネールファイルを作成しない場合は、ゼロのままにします。 </td> 
+   <td colname="col4"> 生成される各サムネールの幅をピクセル単位で指定します。この設定はオプションです。 サムネールファイルを作成しない場合は、ゼロのままにします。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 公開するビネットのファイル形式を指定します。 新しいバージョンの画像オーサリングとそれより古いバージョンの画像レンダリングサーバを指定する場合は、ImageRendering Serverが読み取ることのできるビネットバージョンを指定する必要があります。 より新しいバージョンを指定した場合、Image Rendering Serverは公開されたビネットを読み取れません。 最新バージョンでビネットを公開するには、ゼロに設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> ビネット名とその幅を示すサフィックスを区切る文字を指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> ビネット名とその幅を示すサフィックスを区切る文字を指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> シャープ</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 各画像ビネットサイズに対してメイン表示にシャープを適用します。シャープは、ビネッタを拡大・縮小したときにぼやけを補正できます。 </td> 
+   <td colname="col4"> 各公開ビネットサイズに対してメイン表示画像にシャープを適用します。シャープは、ビネッタを拡大・縮小したときにぼやけを補正できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> デジタルアンシャープマスクは、特にスキャン画像でシャープさを高める柔軟で強力な方法です。 これにより、各オーバーシュートの大きさ（エッジの境界線の暗さと明るさ）が制御されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 拡張するエッジのサイズやエッジの縁の幅に影響を与えるので、半径を小さくすると、より小さなスケールのディテールが向上します。 半径の値を大きくすると、エッジにハローが発生する場合があります。 細かいディテールは、同じサイズの小さいまたは半径より小さい細かいディテールが失われるので、小さい半径が必要です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> シャープを適用する明るさの最小値、またはフィルターが機能する前に隣接する階調値の間隔を制御します。 この設定により、より細かいエッジにシャープを適用し、より細かいエッジに手を加えないようにできます。 しきい値の許容範囲は0 ～ 255です。 </td> 
   </tr> 
