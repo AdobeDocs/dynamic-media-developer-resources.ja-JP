@@ -1,6 +1,6 @@
 ---
-description: コンポーネントがImage Serverからの画像の読み込みに使用する画像形式を指定します。
-seo-description: コンポーネントがImage Serverからの画像の読み込みに使用する画像形式を指定します。
+description: コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。
+seo-description: コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。
 seo-title: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 3%
 
 ---
 
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-コンポーネントがImage Serverからの画像の読み込みに使用する画像形式を指定します。
+コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定した形式が —alphaで終わる場合 <span class="codeph"></span>、画像は透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 </p> <p>デフォルトでは、コンポーネントの背景は白です。 したがって、完全に透明にするには、 <span class="codeph"> CSSプロパティbackground-color</span> をtransparentに設定 <span class="codeph"> します</span>。 </p> </td> 
+   <td colname="col2"> <p> 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 </p> <p>コンポーネントの背景色はデフォルトで白です。 したがって、完全に透明にするには、<span class="codeph"> background-color</span> CSSプロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
