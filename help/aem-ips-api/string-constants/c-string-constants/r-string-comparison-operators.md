@@ -1,6 +1,6 @@
 ---
-description: SystemFieldCondition/opおよびMetadataCondition/opで使用されます。
-seo-description: SystemFieldCondition/opおよびMetadataCondition/opで使用されます。
+description: SystemFieldCondition/opとMetadataCondition/opで使用されます。
+seo-description: SystemFieldCondition/opとMetadataCondition/opで使用されます。
 seo-title: 文字列比較演算子
 solution: Experience Manager
 title: 文字列比較演算子
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 980c3225-cf1d-43b5-8d99-83af8f0c82dd
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
 # 文字列比較演算子{#string-comparison-operators}
 
-SystemFieldCondition/opおよびMetadataCondition/opで使用されます。
+SystemFieldCondition/opとMetadataCondition/opで使用されます。
 
 構文
 
