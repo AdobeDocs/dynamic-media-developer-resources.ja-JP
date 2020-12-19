@@ -1,6 +1,6 @@
 ---
-description: ビネットオーサリングツール（Scene7 Image Authoringパッケージの一部）は、ビネットレンダリングエンジンの低レベルの要素を制御するメカニズムを提供します。
-seo-description: ビネットオーサリングツール（Scene7 Image Authoringパッケージの一部）は、ビネットレンダリングエンジンの低レベルの要素を制御するメカニズムを提供します。
+description: ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
+seo-description: ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
 seo-title: 詳細レンダリング設定
 solution: Experience Manager
 title: 詳細レンダリング設定
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 24%
 
 ---
 
 
 # 詳細レンダリング設定{#advanced-render-settings}
 
-ビネットオーサリングツール（Scene7 Image Authoringパッケージの一部）は、ビネットレンダリングエンジンの低レベルの要素を制御するメカニズムを提供します。
+ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
 
 >[!NOTE]
 >
->レンダリング設定は、画像レンダリングと画像オーサリングの高度な機能です。 レンダリング設定の使用に関するトレーニング、問い合わせ、またはその両方については、アドビテクニカルサポートまたはアドビのコンサルティング担当者にお問い合わせください。
+>レンダリング設定は、画像レンダリングと画像オーサリングの高度な機能です。 レンダリング設定の使用に関するトレーニング、問い合わせ、またはその両方については、AdobeテクニカルサポートまたはAdobeコンサルティング担当者にお問い合わせください。
 
-これらの設定は、画像オーサリングでインタラクティブに制御されます。 コマンドを使用して（または値を指定して）、イメージレンダリ `rs=` ングで同じ設定を適用するこ `catalog::RenderSettings` とができます。 このメカニズムを使用して、各マテリアルに異なるシャープの適用オプションを選択し、ハイライトの彩度やシャドウのコントラストの変化など、照明レンダリングアルゴリズムの動作を変更します。
+これらの設定は、画像オーサリングでインタラクティブに制御されます。 `rs=`コマンド（または`catalog::RenderSettings`値）を使用して、イメージレンダリングに同じ設定を適用できます。 このメカニズムは、各マテリアルに異なるシャープの適用オプションを選択し、ハイライトの彩度やシャドウのコントラストの変化など、照明レンダリングアルゴリズムの動作を変更する場合に使用します。
 
-## 詳細レンダリング設定(rs=)値 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## 詳細レンダリング設定(rs=)値{#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -47,11 +50,11 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
    <td colname="col2"> <p>USM （アンシャープマスク） </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>2 </p> </td> 
-   <td colname="col5"> <p>USMを使用するには、Uが0より大きい必要があります。 </p> </td> 
+   <td colname="col5"> <p>USMを使用するには、Uは0より大きい必要があります </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
-   <td colname="col2"> <p>USM金額(%)。 </p> </td> 
+   <td colname="col2"> <p>USM金額(%) </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -59,7 +62,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半径（ピクセル単位） </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,11 +76,11 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>サイズ変更モード </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
-      <li id="li_E7711C3678ED4DE09E710F7C430CEF42">ニアレストネイバー </li> 
+      <li id="li_E7711C3678ED4DE09E710F7C430CEF42">最寄りの隣接 </li> 
       <li id="li_CAE975B91C604DA0AA493F700AEBE199">バイリニア </li> 
       <li id="li_24E5A40B8A3F4C808A68686C27647CD5">バイキュービック法 </li> 
       <li id="li_42ACFCE65B4843ACAFA6A52255364642">スーパーサンプリング（デフォルト値） </li> 
@@ -86,13 +89,13 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   </tr> 
   <tr> 
    <td colname="col1"> <p>R </p> </td> 
-   <td colname="col2"> <p>再サンプルモード </p> </td> 
+   <td colname="col2"> <p>再サンプリングモード </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_FD4A9D73C32F47C3BF13776BB4D2818D"> 
       <li id="li_F08AD1D093D74059B60302374B472B52">初期設定 </li> 
-      <li id="li_FD4C859D975B44399475D4D93D6B05AB">ニアレストネイバー </li> 
+      <li id="li_FD4C859D975B44399475D4D93D6B05AB">最寄りの隣接 </li> 
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">バイリニア </li> 
       <li id="li_D334ACF969E749A89A464B21C96CE8A6">スーパーサンプリング </li> 
       <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">アダプティブ </li> 
@@ -115,7 +118,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
-   <td colname="col2"> <p>アダプティブサイズ変更：深さ。 </p> </td> 
+   <td colname="col2"> <p>アダプティブサイズ変更：奥行き。 </p> </td> 
    <td colname="col3"> <p>4 </p> </td> 
    <td colname="col4"> <p>8 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -130,7 +133,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>ポアソン：サンプル/ピクセル </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>初期設定は 1 です </p> </td> 
   </tr> 
@@ -178,14 +181,14 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   </tr> 
   <tr> 
    <td colname="col1"> <p>K </p> </td> 
-   <td colname="col2"> <p>シャドウの彩度。 </p> </td> 
+   <td colname="col2"> <p>シャドウの彩度 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>400 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>光沢ベースの外挿の強度。 </p> </td> 
+   <td colname="col2"> <p>光沢に基づく外挿の強さ。 </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
    <td colname="col4"> <p>600 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -195,7 +198,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
    <td colname="col2"> <p>明るさの補正（チェックボックス） </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p> </p> </td> 
-   <td colname="col5"> <p>初期設定はオン（空白）で、選択解除= F100G0です。 </p> </td> 
+   <td colname="col5"> <p>初期設定はon（空白）で、選択されていない= F100G0です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -275,7 +278,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
    <td colname="col5"> <p>形式の違い：u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>v &amp; t </p> </td> 
+   <td colname="col1"> <p>v&amp;t </p> </td> 
    <td colname="col2"> <p>ハイライトの色相シフト </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
@@ -290,7 +293,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
   </tr> 
   <tr> 
    <td colname="col1"> <p>g </p> </td> 
-   <td colname="col2"> <p>彩度を下げる。 </p> </td> 
+   <td colname="col2"> <p>低彩度のブースト。 </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p> </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -298,12 +301,12 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
  </tbody> 
 </table>
 
-## 詳細レンダリング設定のサンプル {#section-56528569eae44ecd997a289b211ff256}
+## アドバンスレンダリング設定のサンプル{#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>構成の設定 </p> </th> 
+   <th colname="col1" class="entry"> <p>組版の設定 </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr>
  </thead>
@@ -313,14 +316,14 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
    <td colname="col2"> <p>画像オーサリングの初期設定値。 
      <ul id="ul_AA7CF1A3E6984B318265BBE8FFFBB4EE">
       <li> USM1
-      <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 =明るいマテリアルのシャドウ(50 ～ 100)。 </li> 
+      <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 =明るいマテリアルのシャドウ(50 ～ 100) </li> 
       <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 =ハイライト(0 ～ 100) </li> 
-      <li id="li_376C275FDB3548958C09BD266C77318F">J10 =ハイライトの彩度(0 ～ 50)。 </li> 
-      <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 =シャドウの彩度(0 ～ 400)。 </li> 
-      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 =光沢ベースの外挿強度(100 ～ 600)。 </li> 
-      <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM（アンシャープマスク）(0-2) </li> 
+      <li id="li_376C275FDB3548958C09BD266C77318F">J10 =ハイライトの彩度(0 ～ 50) </li> 
+      <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 =シャドウの彩度(0 ～ 400) </li> 
+      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 =光沢ベースの外挿強度(100 ～ 600) </li> 
+      <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM （アンシャープマスク） (0-2) </li> 
       <li id="li_7CD4E3662A6C48F9B5895D133D28BA2A">V10 = USM半径（1 ～ 100ピクセル） </li> 
-      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = USM金額(1%～500%)。 </li> 
+      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = USM金額(1%～500%) </li> 
       <li id="li_F39D3834D4A2478D993E5E9C9B434CFE">X0 = USMしきい値（0 ～ 255レベル）。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -329,7 +332,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
    <td colname="col2"> <p> 
      <ul id="ul_C6E6DD90ECAB4D2B9284A25A29923DC6"> 
       <li id="li_7B7A8C43BCEB4CB58C7074974CAB0419">USM1 </li> 
-      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">最大値と明るさの補正はすべてオンです。 </li> 
+      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">最大と明るさの補正はすべてオンです。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -355,7 +358,7 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
       <li id="li_CC730580B54741FBBBFF507DE0FE1F15">H80 = USM金額 </li> 
       <li id="li_C2801B2C093444AC9401793BC571EC27">I70 =ハイライト </li> 
       <li id="li_518C6A690EC34614B0806A0C6BC535FF">J40 =ハイライトの彩度 </li> 
-      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 =光沢ベースの外挿強度 </li> 
+      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 =光沢に基づく外挿の強さ </li> 
       <li id="li_3F589F109AC94280911BD535C49E42E4">U1 = USM </li> 
       <li id="li_113FEC9B37D54511BAB3FEAC7C271858">V8 = USM半径 </li> 
       <li id="li_E1BA7406A76B476EB1A89D6EDD87930C">W80 =明るいマテリアルのシャドウ </li> 
@@ -371,10 +374,10 @@ source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
       <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">USM半径(0.6) </li> 
       <li id="li_793DAB145CE7469ABC1182BCBD324657">USMしきい値(5) </li> 
       <li id="li_B1954FEBE2084726828D64E8165DA4DA">サイズ変更（ランチョス） </li> 
-      <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">再サンプル（スーパーサンプリング、ランダム=ハーフ、レート=ハーフ） </li> 
+      <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">リサンプル（スーパーサンプリング、ランダム=ハーフ、レート=ハーフ） </li> 
       <li id="li_CCEE53544E7D48858398BF3168F1E87D">コントラスト（強） </li> 
-      <li id="li_EB0D25C095FB4D5798AC031AB759849B">彩度の調整（中央の1番目の頂点、エッジに沿った2番目の頂点、3番目の頂点の中点が低い） </li> 
-      <li id="li_5C2304DA4A4D4799AE5DCCCB1E2ECBB3">シャープ（3/4方向右） </li> 
+      <li id="li_EB0D25C095FB4D5798AC031AB759849B">彩度調整（中間の1番目の頂点、エッジに2番目の頂点、3番目の頂点の中間点、低い） </li> 
+      <li id="li_5C2304DA4A4D4799AE5DCCCB1E2ECBB3">シャープ（3/4右へ） </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
