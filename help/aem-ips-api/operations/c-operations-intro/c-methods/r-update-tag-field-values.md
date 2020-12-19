@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-0372b742b1344979b0668faacb36fcc6}
+## 認証済みユーザータイプ{#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,22 +42,22 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社の担当。 </td> 
+   <td colname="col4"> 会社ハンドル </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> タグフィールドハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：TagValueUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：TagValueUpdateArray</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4">更新するタグフィールド値の配列です。 <p>注意： タグ文字列値のみを更新します。 アセットの関連付けに影響しません。 </p> </td> 
+   <td colname="col4">更新するタグフィールド値の配列。 <p>注意： タグ文字列の値のみを更新します。 アセットの関連付けに影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,10 +67,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | はい | 正常に更新されたタグフィールドの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作でタグフィールドを更新しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作でタグフィールドの更新が試みられたときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作でタグフィールドの更新が試みられたときに警告が生成されたアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作でタグフィールドの更新が試みられたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| ` *`warningCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試みたときに生成された警告の数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試行したときに生成されたエラーの数です。 |
+| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みた際に警告を生成したアセットに関連付けられた詳細の配列です。 |
+| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みた際にエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
