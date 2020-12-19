@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 19%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 認証済みユーザータイプ{#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,8 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->* アセットを返すには、読み取りアクセス権が必要です。
->* すべてのユーザーが共有会社にアクセスできます。
+>* アセットを返すには、ユーザーに読み取りアクセス権が必要です。
+>* すべてのユーザーは共有会社ーにアクセスできます。
+
 >
 
 
@@ -51,16 +55,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社の取り扱い。 </td> 
+   <td colname="col4"> 会社へのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返す発行コンテキストのタイプ。 以下を含む： 
+   <td colname="col4">返す発行コンテキストのタイプ。 以下を含みます。 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
@@ -75,7 +79,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`publishContextArray`*` | タイプ：PublishContextArray | はい | 会社の公開コンテキストの配列。必要に応じてコンテキストタイプでフィルタリングされます。 |
+| ` *`publishContextArray`*` | 型：PublishContextArray | はい | 会社用の一連の公開コンテキスト。必要に応じてコンテキストタイプでフィルタリングされます。 |
 
 ## 例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
