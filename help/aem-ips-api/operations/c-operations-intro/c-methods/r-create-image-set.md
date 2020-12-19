@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 認証済みユーザータイプ{#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,11 +42,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | はい | 画像セットが属する会社のハンドル。 |
 | ` *`folderHandle`*` | `xsd:string` | はい | フォルダーのハンドル。 |
-| ` *`name`*` | `xsd:string` | はい | 画像セット名。 |
-| ` *`type`*` | `xsd:string` | はい | 画像セットの種類。 |
+| ` *`name`*` | `xsd:string` | はい | 画像セット名 |
+| ` *`type`*` | `xsd:string` | はい | 画像セットの種類 |
 | ` *`thumbAssetHandle`*` | `xsd:string` | いいえ | 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPSはセットが参照する最初の画像アセットを使用しようとします。 |
 
-**出力**
+**Output**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -51,7 +54,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-このコード例では、会社、フォルダ、名前、タイプで指定された画像セットを作成します。 応答は、新しく作成された画像セットのアセットハンドルです。
+このコードのサンプルを使用すると、会社、フォルダ、名前、種類で指定した画像セットを作成できます。 応答は、新しく作成された画像セットのアセットハンドルです。
 
 **リクエスト**
 
