@@ -1,6 +1,6 @@
 ---
-description: メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップでコンテナの幅にすべてのサムネールが収まらない場合にのみ表示されます。 モバイルデバイスでは、またはサムネールがコンテナの幅に収まる場合、スクロールボタンは表示されません。
-seo-description: メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップでコンテナの幅にすべてのサムネールが収まらない場合にのみ表示されます。 モバイルデバイスでは、またはサムネールがコンテナの幅に収まる場合、スクロールボタンは表示されません。
+description: メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
+seo-description: メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
 seo-title: メインスウォッチ
 solution: Experience Manager
 title: メインスウォッチ
@@ -8,15 +8,18 @@ topic: Dynamic media
 uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 2%
 
 ---
 
 
 # メインスウォッチ{#main-swatches}
 
-メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップでコンテナの幅にすべてのサムネールが収まらない場合にのみ表示されます。 モバイルデバイスでは、またはサムネールがコンテナの幅に収まる場合、スクロールボタンは表示されません。
+メインスウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 スクロールボタンは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
 
-スウォッチコンテナの外観は、CSSクラスセレクターを使用して制御します。
+スウォッチコンテナの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7swatches
@@ -32,7 +35,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>ビューアのコンテナを基準とした、スウォッチの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p>ビューアのコンテナを基準とする、スウォッチの垂直方向のオフセット。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +64,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の水平方向および垂直方向のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcellに設定された左右のマージンの合計になります </span>。 </p> </td> 
+   <td colname="col2"> <p> 各サムネール周囲の水平方向および垂直方向のマージンのサイズ。 実際のサムネールの間隔は、<span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +96,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>サムネールの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>サムネールの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -105,9 +108,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->サムネールでは、属性セ `state` レクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、はメイ `state="selected"` ンビューに現在表示されている画像のサムネールに対応し、残りのサムネールに対応し `state="default"` 、マウスカーソルを合わせ `state="over"` たときに使用されます。
+>サムネールでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 具体的には、`state="selected"`はメイン表示に現在表示されている画像のサムネールに対応し、`state="default"`はその他のサムネールに対応し、`state="over"`はマウスカーソルを合わせたときに使用されます。
 
-例 — 56 x 56ピクセルで、初期設定の境界線がライトグレーで、選択した境界線がダークグレーのサムネールを設定します。
+例 — 56 x 56ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定します。
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb { 
@@ -122,7 +125,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-アセットのタイプは、サムネール画像の上にオーバーレイされたアイコンとして表示され、以下のCSSクラスセレクターを使用して制御します。
+アセットのタイプがサムネール画像の上にオーバーレイされたアイコンとして表示されます。このアイコンは、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay`
 
@@ -135,17 +138,17 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>アイコンオーバーレイの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>アイコンオーバーレイの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-オーバーレイでは、次の値で `type` 属性セレクターを使用できます。 `image` （単一の画像の場合）、 `swatchset` （スウォッチセットの場合）、 `spinset` （スピンセットの場合）および(単一のビデオまたはアダプテ `video` ィブビデオセットの場合)
+オーバーレイでは、`type`属性セレクターが次の値でサポートされます。`image`（1つの画像の場合）、`swatchset`（スウォッチセットの場合）、`spinset`（スピンセットの場合）、`video`（1つのビデオまたはアダプティブビデオセットの場合）。
 
 例 — スピンセット、スウォッチセットおよびビデオのアイコンオーバーレイを設定するには、次のように記述します。
 
@@ -167,7 +170,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-CSS、およびプロパティを使用してスクロールボタンを配 `top`置するこ `left`とは `bottom`でき `right` ません。 ビューアのロジックによって自動的に配置が決まります。
+CSS `top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 ビューアのロジックによって自動的に配置が決まります。
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -178,31 +181,31 @@ CSS、およびプロパティを使用してスクロールボタンを配 `top
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 `up`、 `down`、、 `over`および `disabled`。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および`disabled`。
 
-ボタンのツールヒントをローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールヒントをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-例 — 56 x 56ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定します。
+例 — 56 x 56ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 
