@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 32bfd041-e44c-4a78-a923-896a85d8f75f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> ページ画像に適用される画像サービングコマンド文字列。 URLで指定する場合、 <span class="codeph"> &amp;と</span> =のすべては <span class="codeph"> %26</span> と%3DのそれぞれにHTTPエンコード <span class="codeph"></span><span class="codeph"></span>します。 </p> <p> <p>注意： 画像サイズ変更の操作コマンドはサポートされていません。 </p> </p> </td> 
+   <td colname="col2"> <p> ページ画像に適用される画像サービングコマンド文字列です。 URLで指定する場合、すべての<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>を<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTPエンコードする必要があります。 </p> <p> <p>注意： 画像サイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
