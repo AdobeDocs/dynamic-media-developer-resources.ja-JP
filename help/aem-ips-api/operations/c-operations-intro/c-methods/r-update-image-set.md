@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 19%
 
 ---
 
@@ -24,8 +27,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 変更する画像セットを含む会社のハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | 変更する画像セットのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 変更する会社セットが含まれる画像へのハンドル。 |
+| ` *`assetHandle`*` | `xsd:string` | Ys | 変更する画像セットのハンドル。 |
 | ` *`memberArray`*` | `types:ImageSetMemberUpdateArray` | いいえ | 画像セットのメンバをリセットします。 |
 | ` *`thumbAssetHandle`*` | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
 
