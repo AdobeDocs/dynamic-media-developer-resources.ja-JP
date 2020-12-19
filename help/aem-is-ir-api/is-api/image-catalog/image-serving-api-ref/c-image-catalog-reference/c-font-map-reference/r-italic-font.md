@@ -1,6 +1,6 @@
 ---
-description: 斜体フラグ。
-seo-description: 斜体フラグ。
+description: イタリックス国旗。
+seo-description: イタリックス国旗。
 seo-title: 斜体
 solution: Experience Manager
 title: 斜体
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 14%
 
 ---
 
 
 # 斜体{#italic}
 
-斜体フラグ。
+イタリックス国旗。
 
-RTF斜体( `\i`)コマンドで要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+RTFイタリック(`\i`)コマンドが要求した場合に、このフォントマップレコードで参照するフォントファイルを使用するかどうかを指定します。
 
 ## プロパティ {#section-607e76490e87418496d1c6763018a14f}
 
-フラグ。 フォントマップの3番目のインデックスキー（オプション）。
+フラグ。 フォントマップ用の3番目のインデックスキー（オプション）。
 
 ## 初期設定 {#section-0b88057d00ce4160929c23fbf138b309}
 
