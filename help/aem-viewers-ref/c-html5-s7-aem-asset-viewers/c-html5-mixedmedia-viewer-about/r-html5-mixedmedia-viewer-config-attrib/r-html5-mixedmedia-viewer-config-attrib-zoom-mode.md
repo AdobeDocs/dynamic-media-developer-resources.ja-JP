@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fdbe7ab6-47db-46cf-8a0d-085c66d4b0f8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> continuousを使 </span> 用すると、クラシックズームが有効になり、メインビューでクリック、ダブルタップまたはピンチアウトすると、画像が徐々にズームインします。 最初のビューに戻るには、明示的にズームアウトするか、ズーム状態をリセットする必要があります。 </p> <p> <span class="codeph"> inlineを使 </span> 用すると、インスタントズームが有効になり、デスクトップでメインビューにカーソルを合わせたとき、またはタッチデバイスでタッチ&amp;ホールドしたときに、ズームされた画像が即座に表示されます。ビューからマウスを移動するか、指を離すと、画像が自動的に初期状態に戻ります。 インラインモードでは、ネ <span class="codeph"> ストさ </span> れた画像セットは統合され、個々のサムネールとして表示されます。 <span class="codeph"> autoを指定する </span> と、デスクトップではインラインモードがアクティブになり、タッチデバイスでは連続モードがアクティブになります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> continuousを </span> 使用すると、従来のズーム機能が有効になり、メイン表示でクリック、重複タップまたはピンチアウトすると、画像が徐々にズームインします。最初の表示に戻るには、明示的にズームアウトするか、ズーム状態をリセットする必要があります。 </p> <p> <span class="codeph"> inline </span> を指定すると、インスタントズームが有効になり、デスクトップでメイン表示にマウスを合わせたときやタッチデバイスでタッチ&amp;ホールドしたときに、ズームされた画像が即座に表示されます。マウスを表示から移動するか、指を離すと、画像が自動的に初期状態に戻ります。<span class="codeph">インライン</span>モードでは、ネストされた画像セットは統合され、個々のサムネールとして表示されます。 <span class="codeph"> autoは、デスクトップではインラインモードを、タッチデバイスでは連続モードを </span> アクティブにします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
