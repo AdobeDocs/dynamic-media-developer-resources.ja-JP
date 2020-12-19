@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ビデオビューアの設定属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`widthheightwidthheight`*, *``*[,0|1][; *``*, *`height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-埋め込み共有モーダルダイアログボックスのサイズコンボボックスの埋め込みサイズのリストを指定します。
+埋め込み共有モーダルダイアログボックス内のサイズコンボボックス用の埋め込みサイズのリストを指定します。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択する必要があるかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
