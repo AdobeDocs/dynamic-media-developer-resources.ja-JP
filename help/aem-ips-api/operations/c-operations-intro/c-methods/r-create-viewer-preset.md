@@ -1,6 +1,6 @@
 ---
-description: ユーザが何を表示できるかを決定するプリセットビューを作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセットビューは、アセットが公開されるときに適用されます。
-seo-description: ユーザが何を表示できるかを決定するプリセットビューを作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセットビューは、アセットが公開されるときに適用されます。
+description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
+seo-description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
 
 # createViewerPreset{#createviewerpreset}
 
-ユーザが何を表示できるかを決定するプリセットビューを作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセットビューは、アセットが公開されるときに適用されます。
+ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
 
 構文
 
-## 認証されたユーザータイプ {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 認証済みユーザータイプ{#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,11 +44,11 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル。 |
+| ` *`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル |
 
 ## 例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-このコードサンプルを使用して、ビデオプレーヤープリセットを作成します。 応答はプリセットのハンドルを返します。
+このコードサンプルを使用して、ビデオプレーヤープリセットを作成します。 応答は、プリセットにハンドルを返します。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
