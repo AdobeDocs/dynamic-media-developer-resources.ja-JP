@@ -1,6 +1,6 @@
 ---
-description: このボタンをクリックまたはタップすると、含まれるWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
-seo-description: このボタンをクリックまたはタップすると、含まれるWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+description: このボタンをクリックまたはタップすると、そのボタンを含むWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+seo-description: このボタンをクリックまたはタップすると、そのボタンを含むWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 seo-title: 閉じるボタン
 solution: Experience Manager
 title: 閉じるボタン
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: d30e1bdf-31a9-463f-99f7-a978acb50ebc
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 2%
 
 ---
 
 
-# Close button{#close-button}
+# 閉じるボタン{#close-button}
 
-このボタンをクリックまたはタップすると、含まれるWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+このボタンをクリックまたはタップすると、そのボタンを含むWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -44,7 +47,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -59,21 +62,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 — 32 x 32ピクセルで、ビューアの上および右端から6ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示する閉じるボタンを設定します。
 
