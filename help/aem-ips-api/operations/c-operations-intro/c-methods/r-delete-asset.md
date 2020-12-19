@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-e913be43b684491daf02bc73211e4290}
+## 認証済みユーザータイプ{#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,16 +40,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | 削除するアセットのハンドル。 |
 
 **出力(deleteAssetParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d5657289f5234bb0a613dcf691507958}
 
-このサンプルコードは、特定の会社から任意の種類のアセットを削除します。 別の操作から取得する必要があるアセットハンドルが必要です。
+このサンプルコードは、特定の会社から任意のタイプのアセットを削除します。 アセットハンドルが必要です。このハンドルは、別の操作から取得する必要があります。
 
 **リクエスト**
 
