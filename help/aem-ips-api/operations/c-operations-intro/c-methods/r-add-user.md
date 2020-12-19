@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 12%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
 
-ユーザを複数の会社に追加する場合は、での会社の取り扱いによって会社を指定しま `companyHandleArray`す。 この操作は、追加したユーザーにハンドルを返します。
+ユーザーを複数の会社に追加する場合は、`companyHandleArray`の会社ハンドルでそれらの会社を指定します。 この操作は、追加したユーザーにハンドルを返します。
 
-## 認証されたユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 認証済みユーザータイプ{#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,11 +37,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | はい | ユーザーの名。 |
 | ` *`lastName`*` | `xsd:string` | はい | ユーザーの姓。 |
 | ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
-| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザの役割を設定します。 ただし、この役割は、他の会 `IpsAdmin` 社ごとの設定よりも優先されます。 |
+| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
 | ` *`パスワード`*` | `xsd:string` | はい | ユーザーのパスワードを設定します |
-| ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは、中央時間に調整されます。 |
+| ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 |
 | ` *`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判定します。 |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社のハンドルの配列。 |
+| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
 
 **出力(addUserParam)**
 
