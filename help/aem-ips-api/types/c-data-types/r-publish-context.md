@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 ## パラメータ {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-アセットは、パブリッシュ状態とコンテキストごとに個別のマーカーを保持します。 setAssetsContextStateを使用して、公開状態を設 [定します](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)。
+アセットは、パブリッシュ状態とコンテキストごとに個別のマーカーを保持します。 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)を使用して発行状態を設定します。
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -34,7 +37,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> パブリッシュコンテキストの処理。 </td>
+   <td colname="col3"> パブリッシュコンテキストへの処理。 </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
@@ -44,7 +47,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">パブリッシュコンテキストのタイプ。 以下を含む： 
+   <td colname="col3">パブリッシュコンテキストのタイプ。 以下を含みます。 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
      <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
