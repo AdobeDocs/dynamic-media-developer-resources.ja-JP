@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
+## 認証済みユーザータイプ{#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,17 +29,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**Input (updateAssetPermissionsParam)**
+**入力(updateAssetPermissionsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
 
-**出力(updateAssetPermissionsReturn)**
+**Output (updateAssetPermissionsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
