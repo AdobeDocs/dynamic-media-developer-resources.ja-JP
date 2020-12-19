@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p>-1に設定すると <span class="codeph"></span>、コンポーネントの初期化時またはアセットの変更時に、すべてのサムネールが同時に読み込まれます。 </p> <p>0に設定すると、表 <span class="codeph"> 示されてい</span>るサムネールのみが読み込まれます。 </p> <p> preloadnbrに設定すると <span class="codeph"><span class="varname"></span></span>、表示領域の周りに表示されない行をいくつプリロードするかを指定できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定した場合、コンポーネントの初期化時またはアセットの変更時に、すべてのサムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>に設定した場合、表示領域の周囲にある非表示の行をいくつプリロードするかを指定できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
