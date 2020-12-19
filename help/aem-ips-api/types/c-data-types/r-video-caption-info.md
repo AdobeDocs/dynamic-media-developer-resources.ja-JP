@@ -6,6 +6,9 @@ title: VideoCaptionInfo
 uuid: affd5019-9916-421d-8c4b-676d48bf010c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
