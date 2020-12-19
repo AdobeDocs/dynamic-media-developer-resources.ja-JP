@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 認証済みユーザータイプ{#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,11 +38,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(deletePropertySetTypeParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-次のコード例では、プロパティセットの種類を削除するために、IPS Webサー `deletePropertySetTypeParam` バに送信されるのフィールドとして、種類のハンドルを使用します。
+このコードの例では、プロパティセットの種類を削除するために、IPS Webサービスサーバーに送信される`deletePropertySetTypeParam`内のフィールドとして、種類のハンドルを使用します。
 
 **リクエスト**
 
