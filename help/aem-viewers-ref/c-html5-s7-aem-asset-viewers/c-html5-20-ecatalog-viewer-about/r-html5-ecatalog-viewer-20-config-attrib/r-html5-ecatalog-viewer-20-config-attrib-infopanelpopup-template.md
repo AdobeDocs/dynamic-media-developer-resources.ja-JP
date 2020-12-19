@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> テンプレート</span></span> </p> </td> 
-   <td> <p>情報サーバから返されたデータの結合先のコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、次のDTDに続くXMLです。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>情報サーバから返されたデータの結合先となるコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、次のDTDに続くXMLです。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
@@ -29,14 +32,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
       ]&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは&lt; <span class="codeph"> info&gt;要素で始まる必要があります</span> 。この要素には、オプションのデフォルトの <span class="codeph"> &lt;var&gt;要素を含めることができます</span> 。 テンプレートのコンテンツ <span class="codeph"> TEMPLATE_CONTENTは</span> HTMLテキストです。 また、コンテンツテンプレートには、変数名を <span class="codeph"> $</span> ($)で囲み、情報サーバが返す変数値またはデフォルトの変数値に置き換えることができます。 </p> <p>テンプレートで定義される初期設定の変数は、グローバル変数（rollover属性が設定されていない場合）または特定のロールオーバーキーに固有の変数（rollover属性が存在する場合）のいずれかです。 </p> <p>テンプレートの処理時に、ロールオーバーキーに固有の変数がグローバル変数よりも優先されます。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは、<span class="codeph"> &lt;info&gt;</span>要素と開始する必要があります。この要素には、オプションのデフォルトの<span class="codeph"> &lt;var&gt;</span>要素を含めることができます。 テンプレートのコンテンツ自体<span class="codeph"> TEMPLATE_CONTENT</span>はHTMLテキストです。 また、コンテンツテンプレートには、<span class="codeph"> $</span>で囲まれた変数名を含めることができます。これらの変数名は、情報サーバが返す変数値またはデフォルトの変数値に置き換えられます。 </p> <p>テンプレートで定義される初期設定の変数は、グローバル変数（rollover属性が設定されていない場合）または特定のロールオーバーキーに固有の変数（rollover属性が存在する場合）にすることができます。 </p> <p>テンプレートの処理時に、ロールオーバーキーに固有の変数は、グローバル変数よりも優先されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->情報パネルポップアップを設定すると、情報パネルに渡されるHTMLコードとJavaScriptコードがクライアントのコンピューター上で実行されることに注意してください。 したがって、このようなHTMLコードとJavaScriptコードが安全であることを確認してください。
+>情報パネルポップアップを設定する場合、情報パネルに渡されるHTMLコードとJavaScriptコードは、クライアントのコンピューター上で実行されます。 したがって、このようなHTMLコードとJavaScriptコードが安全であることを確認してください。
 
 ## プロパティ {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -48,6 +51,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-16d184665c484964af9a22f79ff3f840}
 
-情報サーバの応答が製品名を変数として返し、製品 `$1$` 画像のURLを変数として返す場合 `$2$`。
+情報サーバの応答が製品名を変数`$1$`として返し、製品の画像URLを変数`$2$`として返すとします。
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
