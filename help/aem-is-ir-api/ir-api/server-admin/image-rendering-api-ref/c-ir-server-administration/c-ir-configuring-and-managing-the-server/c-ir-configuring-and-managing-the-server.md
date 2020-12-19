@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# サーバーの設定と管理{#configuring-and-managing-the-server}
+# サーバの構成と管理{#configuring-and-managing-the-server}
 
 この節では、Image Rendering Serverの設定と管理に役立つ情報を説明します。
 
