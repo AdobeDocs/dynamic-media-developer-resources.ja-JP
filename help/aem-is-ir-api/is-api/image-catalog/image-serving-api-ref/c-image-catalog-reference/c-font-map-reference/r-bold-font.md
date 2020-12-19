@@ -1,6 +1,6 @@
 ---
-description: 太字旗 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
-seo-description: 太字旗 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+seo-description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 seo-title: 太字
 solution: Experience Manager
 title: 太字
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 7%
 
 ---
 
 
 # 太字{#bold}
 
-太字旗 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 
 ## プロパティ {#section-f2727dd66f7c41ee9602872a104d25b1}
 
