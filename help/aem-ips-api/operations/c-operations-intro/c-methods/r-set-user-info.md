@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-6c28db5d15b3449492a73749e4f981ac}
+## 認証済みユーザータイプ{#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,14 +38,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | はい | 名。 |
 | ` *`lastName`*` | `xsd:string` | はい | 姓。 |
 | ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メール。 |
-| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザの役割を設定します。 ただし、この役割は、他の会 `IpsAdmin` 社ごとの設定よりも優先されます。 |
+| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
 | ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 |
-| ` *`isValid`*` | `xsd:boolean` | はい | ユーザが有効なIPSユーザかどうかを判定します。 |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社のハンドルの配列。 |
+| ` *`isValid`*` | `xsd:boolean` | はい | ユーザが有効なIPSユーザであるかどうかを判定します。 |
+| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
 
 **出力(setUserInfoReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-272c103076fb4de0a53729e2f6bfb895}
 
