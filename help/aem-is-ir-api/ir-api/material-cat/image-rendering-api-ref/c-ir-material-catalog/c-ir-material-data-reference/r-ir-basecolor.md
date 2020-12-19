@@ -1,6 +1,6 @@
 ---
-description: 主要な画像の色。 減法色。テクスチャの色付けに使用します。 テクスチャイメージの平均の優先カラーにする必要があります。
-seo-description: 主要な画像の色。 減法色。テクスチャの色付けに使用します。 テクスチャイメージの平均の優先カラーにする必要があります。
+description: 主要な画像の色。 減法色。テクスチャの色彩付けに使用します。 テクスチャイメージの平均主要カラーにする必要があります。
+seo-description: 主要な画像の色。 減法色。テクスチャの色彩付けに使用します。 テクスチャイメージの平均主要カラーにする必要があります。
 seo-title: BaseColor
 solution: Experience Manager
 title: BaseColor
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
 
 # BaseColor{#basecolor}
 
-主要な画像の色。 減法色。テクスチャの色付けに使用します。 テクスチャイメージの平均の優先カラーにする必要があります。
+主要な画像の色。 減法色。テクスチャの色彩付けに使用します。 テクスチャイメージの平均主要カラーにする必要があります。
 
-テクスチャのないテク `BaseColor`スチャマテリアルが、テクスチャのないビネットオブジェクトに適用さ `catalog::Color` れる場合は、塗りのカラーとしても使用できます。
+`BaseColor`を含まないテクスチャマテリアルをテクスチャ化できないビネットオブジェクトに適用する場合は、塗りのカラーとして&lt;a0/>を使用することもできます。`catalog::Color`
 
 ## プロパティ {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
