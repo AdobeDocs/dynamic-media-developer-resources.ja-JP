@@ -1,20 +1,23 @@
 ---
-description: この節では、編集可能なすべての設定について、関心領域別にグループ化して説明します。
-seo-description: この節では、編集可能なすべての設定について、関心領域別にグループ化して説明します。
-seo-title: サーバーの設定
+description: この節では、編集可能なすべての設定について説明します。これらの設定は、関心領域ごとにグループ化されています。
+seo-description: この節では、編集可能なすべての設定について説明します。これらの設定は、関心領域ごとにグループ化されています。
+seo-title: サーバー設定
 solution: Experience Manager
-title: サーバーの設定
+title: サーバー設定
 topic: Scene7 Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
 
-# サーバーの設定{#server-settings}
+# サーバー設定{#server-settings}
 
-この節では、編集可能なすべての設定について、関心領域別にグループ化して説明します。
+この節では、編集可能なすべての設定について説明します。これらの設定は、関心領域ごとにグループ化されています。
 
 * [一般](r-general.md)
 * [コンテンツデータフォルダー](r-content-data-folders.md)
@@ -30,4 +33,4 @@ source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
 * [監視と警告システム](r-monitoring-and-alerting-system.md)
 * [アラートしきい値](r-alert-thresholds.md)
 * [SVG](r-svg.md)
-* [メディアセットの回答](r-media-set-responses.md)
+* [メディアセットの応答](r-media-set-responses.md)
