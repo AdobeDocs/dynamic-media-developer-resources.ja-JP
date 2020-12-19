@@ -1,6 +1,6 @@
 ---
-description: 権限の割り当てに使用される名前付きユーザーのセット。
-seo-description: 権限の割り当てに使用される名前付きユーザーのセット。
+description: 権限の割り当てに使用される名前付きユーザーのセットです。
+seo-description: 権限の割り当てに使用される名前付きユーザーのセットです。
 seo-title: グループ
 solution: Experience Manager
 title: グループ
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 17%
 
 ---
 
 
 # グループ{#group}
 
-権限の割り当てに使用される名前付きユーザーのセット。
+権限の割り当てに使用される名前付きユーザーのセットです。
 
 構文
 
@@ -22,8 +25,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | グループハンドル。 |
-| ` *`companyHandle`*` | `xsd:string` | 会社の担当。 |
+| ` *`groupHandle`*` | `xsd:string` | グループハンドル |
+| ` *`companyHandle`*` | `xsd:string` | 会社ハンドル |
 | ` *`name`*` | `xsd:string` | グループ名。 |
-| ` *`がSystemDefinedである`*` | `xsd:string` | グループがシステムによって定義されているかどうか。 |
+| ` *`はSystemDefined`*` | `xsd:string` | グループがシステムによって定義されているかどうか。 |
 
