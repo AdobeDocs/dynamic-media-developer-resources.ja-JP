@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7c64551a-71e2-4725-bf35-cbaeaaa45a40
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 2%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral </span> </p> </td> 
-   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> up、down、leftまたはrightに設 <span class="codeph"> 定すると、パ </span>ネルは指 <span class="codeph"> 定した方 </span><span class="codeph"></span><span class="codeph"></span>向にロールアウトされ、追加の境界チェックは行われません。 この動作により、外部のコンテナによってパネルが切り取られる場合があります。 </p> <p>fit-verticalを設定す <span class="codeph"></span>ると、コンポーネントは、まずパネルの基本の位置をSocialShareの下部に移動し、その基本の場所から、下、右、左のいずれかからパネルをロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかを確認します。 すべての試行が失敗した場合、パネルの基本の位置を上に移動し、上、右、左の方向からロールアウト試行を繰り返します。 </p> <p>fit-lateralを設定すると、コンポーネントはfit-verticalと同じロジックを使用しますが、代わりに、ベースを右から順、下、上方向へと移動し、ベースを左、下、上方向へ移動し、左、下、上方向へ移動します。 <span class="codeph"></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral  </span> </p> </td> 
+   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up </span> 、 <span class="codeph"> down </span> 、 <span class="codeph"> left </span> 、または<span class="codeph"> right </span>に設定すると、追加の境界チェックなしで、パネルは指定した方向にロールアウトします。 この動作により、外側のコンテナでパネルが切り取られる場合があります。 </p> <p><span class="codeph"> fit-vertical </span>に設定した場合、コンポーネントでは、まずパネルの基本の位置をSocialShareの下部に移動し、その基本の場所から見て、下、右、左のいずれかから、パネルをロールアウトしようとします。 試行のたびに、外側のコンテナでパネルが切り取られているかどうかを確認します。 すべての試行が失敗すると、パネルの基本の位置を上に移動して、上、右、左の方向からロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral </span>に設定した場合、コンポーネントはfit-verticalと同じロジックを使用しますが、ベースを右から順に右、下、上方向に移動し、ベースを左に移動し、左、下、上方向にロールアウトします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
