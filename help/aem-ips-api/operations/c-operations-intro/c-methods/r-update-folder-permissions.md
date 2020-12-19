@@ -1,6 +1,6 @@
 ---
-description: フォルダの権限を更新します。
-seo-description: フォルダの権限を更新します。
+description: フォルダーの権限を更新します。
+seo-description: フォルダーの権限を更新します。
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-フォルダの権限を更新します。
+フォルダーの権限を更新します。
 
 構文
 
-## 認証されたユーザータイプ {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 認証済みユーザータイプ{#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,18 +29,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**Input (updateFolderPermissionsParam)**
+**入力(updateFolderPermissionsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | フォルダハンドル |
-| ` *`updateChildren`*` | `xsd:boolean` | はい | 最上位フォルダーの権限が設定された子を更新するかどうかを指定します。 |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | はい | フォルダに適用する権限の更新の配列です。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| ` *`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
+| ` *`updateChildren`*` | `xsd:boolean` | はい | 最上位フォルダーの権限セットを持つ子を更新するかどうかを指定します。 |
+| ` *`updateArray`*` | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列です。 |
 
 **出力(updateFolderPermissionsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-c3fe4d4388674870a3856c35ef66b631}
 
