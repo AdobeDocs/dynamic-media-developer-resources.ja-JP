@@ -21,7 +21,7 @@ ht-degree: 6%
 
 構文
 
-## 認証済みユーザータイプ {#section-d670d3af552147199b65c7eb847544a3}
+## 認証済みユーザータイプ{#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,38 +45,38 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> アセットセットを含む会社へのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 新しいアセットセットを作成するフォルダーのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> アセット名。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> クライアントによって作成された、アセットセットタイプの一意の識別子。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> セット定義文字列内のパラメーター。 <p>これらは、ターゲットビューアで指定されている形式に解決される必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPSはセットが参照する最初の画像アセットを使用しようとします。 </td> 
   </tr> 
@@ -85,11 +85,11 @@ ht-degree: 6%
 
 **setDefinitionの代替関数**
 
-カタログの参照中またはパブリケーション中に解決される行に置換関数を指定できます。 置換文字列の形式は次のとおりで `${<substitution_func>}`す。 使用可能な関数は次のとおりです。
+カタログの参照中またはパブリケーション中に解決される行に置換関数を指定できます。 置換文字列の形式は`${<substitution_func>}`です。 使用可能な関数は次のとおりです。
 
 >[!NOTE]
 >
->パラメーターリストのハンドルリテラルは、角括弧で囲む必要があり `([])`ます。 置換文字列以外のすべてのテキストは、解決時に字句ごとに出力文字列にコピーされます。
+>パラメーターリスト内のハンドルリテラルは、角括弧`([])`で囲む必要があります。 置換文字列以外のすべてのテキストは、解決時に字句ごとに出力文字列にコピーされます。
 
 | **置換関数** | **戻り値** |
 |---|---|
