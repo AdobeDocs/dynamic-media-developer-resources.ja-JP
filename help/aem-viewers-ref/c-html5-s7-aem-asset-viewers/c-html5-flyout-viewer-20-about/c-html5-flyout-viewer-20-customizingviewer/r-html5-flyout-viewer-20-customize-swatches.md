@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-スクロールボタンは、デスクトップでコンテナの幅にすべてのサムネールが収まらない場合にのみ表示されます。 モバイルデバイスでは、またはサムネールがコンテナの幅に収まる場合、スクロールボタンは表示されません。
+スクロールボタンは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
 
 **スウォッチのCSSプロパティ**
 
@@ -46,7 +49,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> ビューアのコンテナを基準とした、スウォッチの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p> ビューアのコンテナを基準とする、スウォッチの垂直方向のオフセット。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +63,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**サムネールのスウォッチ間隔のCSSプロパティ**
+**スウォッチサムネールの間隔のCSSプロパティ**
 
 スウォッチサムネールの間隔は、CSSクラスセレクターを使用して制御します。
 
@@ -78,7 +81,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の水平方向および垂直方向のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcellに設定された左右のマージンの合計になります </span>。 </p> </td> 
+   <td colname="col2"> <p> 各サムネール周囲の水平方向および垂直方向のマージンのサイズ。 実際のサムネールの間隔は、<span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +111,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> サムネールスウォッチの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>サムネールスウォッチの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -124,9 +127,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->サムネールでは、属性セ `state` レクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用されます。 特に、はメイ `state="selected"` ンビューに現在表示されている画像のサムネールに対応し、残りのサムネールに対応し `state="default"` 、マウスカーソルを合わせたとき `state="over"` に使用されます。
+>サムネールでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用されます。 具体的には、`state="selected"`はメイン表示に現在表示されている画像のサムネールに対応し、`state="default"`はその他のサムネールに対応し、`state="over"`はマウスカーソルを合わせたときに使用されます。
 
-例 — 56 x 56ピクセルで、初期設定の境界線がライトグレーで、選択した境界線がダークグレーのサムネールを設定するには、次のように記述します。
+例 — 56 x 56ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,7 +153,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-CSS、およびプロパティを使用してスクロールボタンを配 `top`置するこ `left`とは `bottom`でき `right` ません。 ビューアのロジックによって自動的に配置が決まります。
+CSS `top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 ビューアのロジックによって自動的に配置が決まります。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,29 +164,29 @@ CSS、およびプロパティを使用してスクロールボタンを配 `top
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> スクロールボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セ `state` レクターがサポートされます。このセレクターは、ボタンの状態、 `up`、および `down`に異なるスキン `over`を適用しま `disabled`す。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態`up`、`down`、`over`、`disabled`に異なるスキンを適用するのに使用されます。
 
-ボタンのツールヒントをローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
+ボタンのツールヒントをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)を参照してください。
 
 例 — 56 x 56ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
 
