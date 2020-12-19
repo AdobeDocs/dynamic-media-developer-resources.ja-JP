@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
 
-# Permission{#permission}
+# 権限{#permission}
 
 アセットに対するアクセス、変更、作成または削除の権限をグループ別に管理します。
 
@@ -22,9 +25,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | グループハンドル。 |
+| ` *`groupHandle`*` | `xsd:string` | グループハンドル |
 | ` *`groupName`*` | `xsd:string` | グループ名。 |
-| ` *`permissionType`*` | `xsd:string` | 権限タイプの選択。 |
+| ` *`permissionType`*` | `xsd:string` | 権限の種類の選択。 |
 | ` *`isAllowed`*` | `xsd:boolean` | 権限を許可するかどうかを指定します。 |
 | ` *`isOverride`*` | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |
 
