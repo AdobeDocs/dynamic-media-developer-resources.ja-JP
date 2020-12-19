@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3e7cdb44-4366-4e84-a6c7-c1cf1f5e6344
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> devicePixelRatioが <span class="codeph"> 1を超えるデバイス（iPhone4など高密度ディスプレイのデバイス）の最適化の有効化、制限</span><span class="codeph"></span>、無効化を行います。 アクティブにすると、デバイスのピクセル比が <span class="codeph"> 1の場合と同じように、コンポーネントはISイメージリクエストのサイズを制限し</span> 、帯域幅が減少します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイのデバイス）の最適化の有効化、制限または無効化を行います。 有効にすると、デバイスのピクセル率が<span class="codeph"> 1</span>のみであるかのようにコンポーネントでIS画像リクエストのサイズが制限され、帯域幅が減少します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
-   <td colname="col2"> <p> limit設定を使用する <span class="codeph"> と</span> 、指定した制限までの高ピクセル密度が有効になります。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> limit </span>設定を使用すると、指定した制限値までの高ピクセル密度が有効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
