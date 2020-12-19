@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: AEM AssetsおよびDynamic Media Classicのビューア
+seo-title: AEM AssetsおよびDynamic Mediaクラシックの閲覧者
 solution: Experience Manager
-title: AEM AssetsおよびDynamic Media Classicのビューア
+title: AEM AssetsおよびDynamic Mediaクラシックの閲覧者
 topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 12%
 
 ---
 
 
-# AEM AssetsおよびDynamic Media Classicのビューア{#viewers-for-aem-assets-and-dynamic-media-classic}
+# AEM AssetsとDynamic Mediaクラシックのビューア{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-次のビューアは、Adobe Experience Manager AssetsおよびDynamic Media Classicでも機能します。
+以下のビューアは、Adobe Experience ManagerアセットおよびDynamic Mediaクラシックで動作します。
 
 * [基本ズーム](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
