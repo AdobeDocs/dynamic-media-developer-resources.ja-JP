@@ -1,6 +1,6 @@
 ---
-description: 指定した画像のPhotoshopパス名の配列を返します。
-seo-description: 指定した画像のPhotoshopパス名の配列を返します。
+description: 渡されたイメージのPhotoshopパス名の配列を返します。
+seo-description: 渡されたイメージのPhotoshopパス名の配列を返します。
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-指定した画像のPhotoshopパス名の配列を返します。
+渡されたイメージのPhotoshopパス名の配列を返します。
 
 構文
 
-## 認証されたユーザータイプ {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 認証済みユーザータイプ{#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,14 +37,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 操作する画像を含む会社に対する処理。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 操作する画像が含まれる会社へのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | 画像アセットのハンドル。 |
 
 **出力(getPhotoshopPathNamesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | はい | 画像内のPhotoshopパス名の配列です。 |
+| ` *`pathNameArray`*` | `types:StringArray` | はい | イメージ内のPhotoshopパス名の配列。 |
 
 ## 例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
