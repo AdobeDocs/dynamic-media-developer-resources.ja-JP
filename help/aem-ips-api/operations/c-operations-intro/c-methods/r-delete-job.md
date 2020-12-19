@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-1b959679dc8147c291126ddf7e061742}
+## 認証済みユーザータイプ{#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,13 +41,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandle`*` | `xsd:string` | はい | ジョブが属する会社のハンドル。 |
 | ` *`jobHandle`*` | `xsd:string` | はい | 削除するジョブのハンドル。 |
 
-**出力**
+**Output**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-このコード例では、実行中のジョブ、またはIPSで実行するようにスケジュールされているジョブを削除します。 別の操作から取得する必要があるジョブハンドルが必要です。
+このコードサンプルを使用すると、実行中のジョブ、またはIPSで実行するようにスケジュールされているジョブを削除できます。 別の操作から取得する必要があるジョブハンドルが必要です。
 
 **リクエスト**
 
