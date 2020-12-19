@@ -1,6 +1,6 @@
 ---
-description: アセットのメタデータ値を削除します。 メタデータの削除の配列を使用して、値をバッチで設定します。
-seo-description: アセットのメタデータ値を削除します。 メタデータの削除の配列を使用して、値をバッチで設定します。
+description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
+seo-description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
 seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-アセットのメタデータ値を削除します。 メタデータの削除の配列を使用して、値をバッチで設定します。
+アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
 
 構文
 
-## 認証済みユーザータイプ {#section-e913be43b684491daf02bc73211e4290}
+## 認証済みユーザータイプ{#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>フォルダーが属する会社のハンドル。 </p> </td> 
+   <td colname="col4"> <p>フォルダーが属する会社ーのハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
@@ -65,7 +68,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>アセットから削除するメタデータの配列。 </p> </td> 
   </tr> 
@@ -74,7 +77,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(deleteAssetMetadataParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d5657289f5234bb0a613dcf691507958}
 
