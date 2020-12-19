@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 構文
 
-## 認証されたユーザータイプ {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 認証済みユーザータイプ{#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +47,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 ## 例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-このコード例では、ハンドルで指定された会社 `ApiTestProject` 内でという名前のプロジェクトを作成します。 応答は、ハンドルをプロジェクトに返します。
+次のコードのサンプルを使用すると、ハンドルで指定された会社に`ApiTestProject`という名前のプロジェクトが作成されます。 応答がハンドルをプロジェクトに返します。
 
 **リクエスト**
 
