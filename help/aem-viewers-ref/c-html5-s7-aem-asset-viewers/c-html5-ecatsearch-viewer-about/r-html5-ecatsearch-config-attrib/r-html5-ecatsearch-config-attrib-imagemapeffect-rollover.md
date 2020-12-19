@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>情報パネルを表示するタイミングを指定します。 </p> <p>1に設定した場 <span class="codeph"> 合</span>、マウスが画像マップ領域に入ると情報パネルが表示されます(画像マップに空でない <span class="codeph"> rollover_key</span> 属性が含まれる場合)。 </p> <p>0に設定すると <span class="codeph"> 、画像マップがクリックされたときに情報パネルがトリガーされます(画像マップに空でない</span> rollover_key <span class="codeph"> 属性と空の</span><span class="codeph"></span> href属性がある場合)。 </p> <p> タッチ対応デスクトップシステムを含むタッチデバイスでは無視され、自動的に0に設定さ <span class="codeph"> れます</span>。 </p> </td> 
+   <td colname="col2"> <p>情報パネルを表示するタイミングを指定します。 </p> <p><span class="codeph"> 1</span>に設定した場合、マウスが画像マップ領域に入ると情報パネルが表示されます（画像マップに空でない<span class="codeph"> rollover_key</span>属性が含まれている場合）。 </p> <p><span class="codeph"> 0</span>に設定した場合、画像マップをクリックすると情報パネルがトリガされます（画像マップに空でない<span class="codeph"> rollover_key</span>があり、空の<span class="codeph"> href</span>属性がある場合）。 </p> <p> タッチ対応デスクトップシステムを含むタッチデバイスでは無視され、自動的に<span class="codeph"> 0</span>に設定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
