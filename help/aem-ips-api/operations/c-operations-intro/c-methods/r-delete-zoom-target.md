@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
 source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
 
 ズームターゲットを削除します。
 
-## 認証されたユーザータイプ {#section-09ca82bc817e49048271c5cba545702e}
+## 認証済みユーザータイプ{#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,11 +43,11 @@ source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
 
 **出力(deleteZoomTargetParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-このコードサンプルを使用すると、会社からズームターゲットを削除できます。
+このコードのサンプルを使用すると、会社からズームターゲットを削除できます。
 
 **リクエスト**
 
