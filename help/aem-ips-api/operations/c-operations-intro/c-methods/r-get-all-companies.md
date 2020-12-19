@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-773db3753b4842e5a4623ad810176508}
+## 認証済みユーザータイプ{#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`includeExpired`*` | `xsd:boolean` | はい | 期限切れの会社と期限切れでない会社を返す場合は、trueに設定します。 |
+| ` *`includeExpired`*` | `xsd:boolean` | はい | 期限切れの会社と期限切れでないユーザーを返す場合はtrueに設定します。 |
 
 **Output (getAllCompaniesReturn)**
 
@@ -38,7 +41,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-このコード例は、IPS内のすべての会社を配列で返します。 簡潔にするため、サンプル応答は切り捨てられます。
+このコードの例では、配列内のIPS内のすべての会社を返します。 ただし、サンプルの応答は簡潔にするために切り捨てられます。
 
 **リクエスト**
 
