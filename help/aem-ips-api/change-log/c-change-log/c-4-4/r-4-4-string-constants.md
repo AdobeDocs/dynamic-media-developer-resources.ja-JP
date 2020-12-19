@@ -1,6 +1,6 @@
 ---
-description: IPS APIバージョン4.4の新しいデータタイプと変更されたデータタイプについて説明します。
-seo-description: IPS APIバージョン4.4の新しいデータタイプと変更されたデータタイプについて説明します。
+description: IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
+seo-description: IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
 seo-title: 文字列定数の新規および変更
 solution: Experience Manager
 title: 文字列定数の新規および変更
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: f27779d8-6774-4c6f-978b-0ec4490c1f36
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 1%
 
 ---
 
 
 # 文字列定数：新規および変更済み{#string-constants-new-and-modified}
 
-IPS APIバージョン4.4の新しいデータタイプと変更されたデータタイプについて説明します。
+IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
 
 構文
 
-## 新しい定数 {#section-658a2d48955f4de59c674474b9498ffd}
+## 新しい定数{#section-658a2d48955f4de59c674474b9498ffd}
 
 * `AssetSet`
 * `MasterVideo`
