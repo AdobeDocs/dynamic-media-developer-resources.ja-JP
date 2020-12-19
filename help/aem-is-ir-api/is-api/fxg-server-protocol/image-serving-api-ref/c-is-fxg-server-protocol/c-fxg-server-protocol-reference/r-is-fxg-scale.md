@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 因子</span></span> </p> </td> 
-  <td class="stentry"> <p>スケール係数（実数、&gt;0） </p></td> 
+  <td class="stentry"> <p>尺度係数（実数、&gt;0） </p></td> 
  </tr> 
 </table>
 
 ## 初期設定 {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-指定しなかった場合、画像は拡大・縮小せずに使用されます。
+指定しなかった場合、画像は拡大・縮小されずに使用されます。
 
 ## 例 {#section-d5526953d6434c58bb2388bd936c13b5}
 
