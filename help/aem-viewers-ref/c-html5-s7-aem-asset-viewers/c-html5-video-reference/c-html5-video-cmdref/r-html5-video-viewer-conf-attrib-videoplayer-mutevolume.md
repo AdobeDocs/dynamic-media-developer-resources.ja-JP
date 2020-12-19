@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8e32b005-cf7f-4078-896c-14497340fad7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 1に設定した場 <span class="codeph"> 合、ボ </span> リュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 読み込み時にビデオの再生をミュートする特定のデバイスでも、ビデオを自動再生できます。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生用のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定した場合、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 特定のデバイスで、読み込み時にビデオの再生をミュートすると、ビデオが自動再生されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
