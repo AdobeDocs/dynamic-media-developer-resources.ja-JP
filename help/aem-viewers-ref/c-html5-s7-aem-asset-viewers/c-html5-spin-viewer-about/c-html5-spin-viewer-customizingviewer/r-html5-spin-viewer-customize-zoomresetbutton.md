@@ -1,6 +1,6 @@
 ---
-description: このボタンをクリックまたはタップすると、メインビューの画像がリセットされます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
-seo-description: このボタンをクリックまたはタップすると、メインビューの画像がリセットされます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+description: このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+seo-description: このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 seo-title: ズームリセットボタン
 solution: Experience Manager
 title: ズームリセットボタン
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 63331843-1d77-40f4-a87f-6ff73a8f0f32
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
 
 # ズームリセットボタン{#zoom-reset-button}
 
-このボタンをクリックまたはタップすると、メインビューの画像がリセットされます。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -44,7 +47,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -59,21 +62,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p>CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98)を参照してください。
 
 例 — 32 x 32ピクセルで、ビューアの上および右端から6ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示するズームリセットボタンを設定します。
 
