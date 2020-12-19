@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## 認証済みユーザータイプ{#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +34,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | いいえ | 削除するメンバーシップを持つユーザーのハンドル。 |
+| ` *`userHandle`*` | `xsd:string` | いいえ | 削除するメンバーシップを持つユーザーへのハンドル。 |
 | ` *`companyHandleArray`*` | `types:HandleArray` | はい | ユーザーを削除する会社のハンドル。 |
 
-**Output (removeCompanyMembershipReturn)**
+**出力(removeCompanyMembershipReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-このコード例では、会社からユーザーを削除します。 オプションのユーザーハンドルを省略し、会社ハンドル配列で指定された会社からすべてのユーザーを削除します。
+このコードの例では、会社からユーザーを削除します。 会社ハンドルの配列で指定された会社からすべてのユーザーを削除するには、オプションのユーザーハンドルを省略します。
 
 **リクエスト**
 
