@@ -8,27 +8,30 @@ topic: Dynamic media
 uuid: 803df8d4-6fb9-49ef-a097-c883d4115fad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
 
 # ControlBar.transition{#controlbar-transition}
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohideduration`*[, *``*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
 
 <table id="table_76B7F064B9CD46BA86931A9C841F777B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 </p> <p>「なし」を <span class="codeph"> 使用す</span> ると、すぐに表示/非表示が切り替わります。 徐々にフェ <span class="codeph"> ードイン</span> /フェードアウトする効果を適用するには、fadeを使用します。 </p> <p>フェードは、Internet Explorer 8ではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 </p> <p>すぐに表示/非表示にするには、<span class="codeph"> none</span>を使用します。 徐々にフェードイン/フェードアウトするには、<span class="codeph"> fade</span>を使用します。 </p> <p>fadeはInternet Explorer 8ではサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーが最後に登録し、コントロールバーが非表示になるマウス/タッチイベントの間隔を秒単位で指定します。 </p> <p> -1に設定すると <span class="codeph"></span> 、コンポーネントの自動非表示の効果はトリガーされず、常に画面に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
+   <td colname="col2"> <p>コントロールバーによって記録される最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1</span>に設定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 期 <span class="varname"> 間</span></span> </p> </td> 
-   <td colname="col2"> <p>フェードインおよびフェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
+   <td colname="col2"> <p>フェードイン/フェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
