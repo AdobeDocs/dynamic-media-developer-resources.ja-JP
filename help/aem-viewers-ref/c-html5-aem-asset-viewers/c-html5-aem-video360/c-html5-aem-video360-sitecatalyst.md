@@ -1,24 +1,27 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Analyticsの追跡のサポート
+seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
-title: Adobe Analyticsの追跡のサポート
+title: Adobe Analyticsトラッキングのサポート
 topic: Dynamic media
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 
-# Adobe Analyticsの追跡のサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analyticsトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-初期設定では、ビューアは、ビューアのタイプとバージョン情報と共に、設定済みのImage Serverに単一の追跡HTTP要求を送信します。
+初期設定では、ビューアは、ビューアのタイプとバージョン情報と共に、設定済みのImage Serverに1つの追跡HTTP要求を送信します。
 
-## カスタム追跡 {#section-cda48fc9730142d0bb3326bac7df3271}
+## カスタムトラッキング{#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、ビューアのコールバックをリッスンし、必要に応じ `trackEvent` てコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、`trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -49,12 +52,12 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 });
 ```
 
-ビューアは、次のSDKユーザーイベントを追跡します。
+ビューアは、以下のSDKユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
+   <th colname="col1" class="entry"> <p>SDKのユーザーイベント </p> </th> 
    <th colname="col2" class="entry"> <p>送信済み… </p> </th> 
   </tr> 
  </thead>
@@ -65,11 +68,11 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset() <span class="codeph"></span> APIを使用してビューア内でアセットが入れ替えられた場合。 </p> </td> 
+   <td colname="col2"> <p>を返します。<span class="codeph"></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>再生が開始したとき。 </p> </td> 
+   <td colname="col2"> <p>再生開始時。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -81,11 +84,11 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%または100%。 </p> </td> 
+   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%または100%です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
-   <td colname="col2"> <p>ユーザがインタラクティブスウォッチをクリックするたびに、 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
+   <td colname="col2"> <p>ユーザがインタラクティブスウォッチをクリックするたびに表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
