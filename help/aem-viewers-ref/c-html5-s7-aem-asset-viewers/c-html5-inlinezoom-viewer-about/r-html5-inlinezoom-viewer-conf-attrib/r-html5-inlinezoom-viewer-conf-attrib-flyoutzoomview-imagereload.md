@@ -23,10 +23,10 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。 </p> <p>0に設定すると、コンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウト表示の画像解像度は変わりません。 <span class="codeph"></span> </p> <p>1に設定すると、メ <span class="codeph"></span> イン表示にロードされる画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。 </p> <p><span class="codeph"> 0 </span>に設定すると、コンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウト表示の画像解像度は変更されません。 </p> <p><span class="codeph"> 1 </span>に設定すると、メイン表示にロードする画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> breakpoint, <span class="varname"> width </span>; <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> breakpoint,  <span class="varname"> width  </span>; <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p>メイン表示に読み込まれる画像の幅のブレークポイント。 </p> <p>コンポーネントでは、常に最初の読み込みに最適なサイズが使用されます。 サイズ変更後は、メイン表示の画像が常に最も近い大きいほうのブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
   </tr> 
  </tbody> 
