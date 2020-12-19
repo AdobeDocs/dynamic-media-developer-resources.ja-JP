@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2a41d489-5a35-4f60-a492-e6403bcf31dc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,w<span class="codeph"></span><span class="codeph"> ,h</span> </p> </td> 
-   <td colname="col2"> <p> 正規化された座標の初期関心領域。 このオプションを指定しない場合、画像全体が最初のビューポート内に収まります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> 正規化された座標の初期関心領域。 これを指定しない場合、画像全体が最初のビューポート内に収まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
