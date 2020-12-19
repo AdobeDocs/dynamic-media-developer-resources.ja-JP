@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-41732fa7424b455cb458eec21a02259c}
+## 認証済みユーザータイプ{#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,23 +34,23 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
 | ` *`overwriteMode`*` | `xsd:string` | いいえ | アセットの上書きモード。 |
-| ` *`retainPublishState`*` | `xsd:boolean` | いいえ | アセット `true` の再アップロード時に公開状態を保持する場合にに設定します。 |
+| ` *`retainPublishState`*` | `xsd:boolean` | いいえ | アセットが再アップロードされたときに公開状態を保持するには、`true`に設定します。 |
 | ` *`defaultSourceProfileHandle`*` | `xsd:string` | いいえ | 初期設定のソースカラープロファイルとして使用するIccProfileアセット。 |
 | ` *`defaultDisplayProfileHandle`*` | `xsd:string` | いいえ | 初期設定の表示カラープロファイルとして使用するIccProfileアセット。 |
 | ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | いいえ | IPTCおよびEXIFメタデータをIPSメタデータフィールドにマッピングするために使用されるXSLアセット。 |
 | ` *`xmpMappingXsltHandle`*` | `xsd:string` | いいえ | XMPメタデータをIPSメタデータフィールドにマップするために使用されるXSLアセット。 |
 | ` *`diskSpaceWarningMin`*` | `xsd:int` | いいえ | 警告メッセージが送信される前に使用可能な最小空きディスク領域(KB)。 |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | いいえ | アセットがごみ箱 `true` から空になると会社の管理者に通知を送信する場合に設定します。 |
+| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | いいえ | アセットがごみ箱から空になるたびに会社管理者に通知を送信するには、`true`に設定します。 |
 
-**出力(setCompanySettingsReturn)**
+**Output (setCompanySettingsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-このコード例では、会社の設定を設定します。
+このコードのサンプルは、会社の設定を設定します。
 
 **リクエスト**
 
