@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ MetadataField/type、saveMetadataFieldParam/fieldTypeおよびcreateMetadataFiel
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]:との値に初期化さ [!DNL `SingleFixedTag`] れた変更不可能なディクショナリを使用する場合の [!DNL `True`] 特例で [!DNL `False`]す。
+* [!DNL `BooleanTag`]:との特殊なケースで、値 [!DNL `SingleFixedTag`] とに初期化された変更不可のディクショナリを [!DNL `True`] 使用し [!DNL `False`]ます。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +33,9 @@ MetadataField/type、saveMetadataFieldParam/fieldTypeおよびcreateMetadataFiel
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]:閉じたディクショナリから0個以上の文字列値。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `MultiFixedTag`]:閉じたディクショナリから0個以上の文字列値を取得します。辞書を変更できるのは管理者ユーザーのみです。
 * [!DNL `MultiTag`]:0個以上の文字列値。
-* [!DNL `SingleFixedTag`]:閉じたディクショナリからの単一の文字列値。 また `setAssetMetadata` はが `batchSetAssetMetadata` ディクショナリにない値で呼び出された場合、エラーが返されます。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `SingleFixedTag`]:閉じたディクショナリからの単一の文字列値。`setAssetMetadata`または`batchSetAssetMetadata`が、ディクショナリにない値で呼び出されると、エラーが返されます。 辞書を変更できるのは管理者ユーザーのみです。
 
 * [!DNL `SingleTag`]:任意の1つの文字列値。
 * [!DNL `String`]
