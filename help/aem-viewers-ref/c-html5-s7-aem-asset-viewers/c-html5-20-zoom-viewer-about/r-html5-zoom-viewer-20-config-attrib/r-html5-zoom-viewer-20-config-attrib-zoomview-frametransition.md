@@ -8,27 +8,30 @@ topic: Dynamic media
 uuid: 28e283ca-51d8-4d6c-9b8a-d16da21f4da1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 5%
 
 ---
 
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`間隔(`*[, *`長)`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *``*[, *`durationspacing`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 <span class="codeph"> noneを指定す </span> ると、トランジションなし、フレーム変更が即座に行われます。 <span class="codeph"> fadeは、前の </span> フレームと次のフレームの間のクロスフェードトランジションを意味します。 <span class="codeph"> slideは、前 </span> のフレームがビューからスライドアウトし、新しいフレームがスライドインするトランジションをアクティブにします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|slide  </span> </p> </td> 
+   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 <span class="codeph"> none </span> はトランジションなしを表し、フレーム変更は即座に発生します。<span class="codeph"> fadeは、前のフレームと次のフレームの間にクロスフェードトランジションを適用する </span> ことを意味します。<span class="codeph"> slideは、前のフレームを表示からスライドアウトし、新しいフレームをスライドインするトランジションを </span> アクティブにします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 期 </span> 間 </span> </p> </td> 
-   <td colname="col2"> <p>フェードまたはスライドのトランジション効果の時 <span class="codeph"> 間（秒） </span> を <span class="codeph"> 指定 </span> します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> fade </span>または<span class="codeph"> slide </span>トランジション効果の時間を秒単位で指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 間 </span> 隔 </span> </p> </td> 
-   <td colname="col2"> <p>スライドトランジションで隣接す <span class="codeph"> るフ </span> レーム間の間隔。0 ～ <span class="codeph"> 1 </span> の範 <span class="codeph"> 囲で、コンポーネ </span> ントの幅に対する相対値を指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing  </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">スライド</span>トランジション内の隣接するフレーム間の間隔。<span class="codeph"> 0 </span> ～ <span class="codeph"> 1 </span>の範囲を持ち、コンポーネントの幅を基準にして指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
