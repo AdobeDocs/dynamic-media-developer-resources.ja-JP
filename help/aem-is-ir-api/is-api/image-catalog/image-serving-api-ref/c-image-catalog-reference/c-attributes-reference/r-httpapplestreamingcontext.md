@@ -1,6 +1,6 @@
 ---
-description: AppleストリーミングサーバのURLプレフィックス。 req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックス。
-seo-description: AppleストリーミングサーバのURLプレフィックス。 req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックス。
+description: AppleストリーミングサーバのURLプレフィックス req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックスです。
+seo-description: AppleストリーミングサーバのURLプレフィックス req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックスです。
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-AppleストリーミングサーバのURLプレフィックス。 req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックス。
+AppleストリーミングサーバのURLプレフィックス req=mbrSetを使用してマルチビットレートm3u8応答を生成する際に使用されるApple Streaming ServerのURLプレフィックスです。
 
 ## プロパティ {#properties}
 
-URLプレフィックスを表す文字列。 (例： `http://my.server.com/apple/streaming`)
+URLプレフィックスを表す文字列。 (例：`http://my.server.com/apple/streaming`)
 
 ## 初期設定 {#section-bdd70081d50844c295f0de0154c1d738}
 
