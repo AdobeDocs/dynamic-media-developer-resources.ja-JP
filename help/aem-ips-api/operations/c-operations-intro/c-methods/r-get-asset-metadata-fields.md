@@ -1,6 +1,6 @@
 ---
-description: アセットタイプ別にグループ化されたすべてのメタデータフィールドを返します。
-seo-description: アセットタイプ別にグループ化されたすべてのメタデータフィールドを返します。
+description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
+seo-description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
 seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 20%
 
 ---
 
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-アセットタイプ別にグループ化されたすべてのメタデータフィールドを返します。
+アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
 
 構文
 
-## 認証されたユーザータイプ {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 認証済みユーザータイプ{#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -56,7 +59,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->簡潔にするために切り捨てられました。
+>簡潔にするために切り捨てられます。
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
