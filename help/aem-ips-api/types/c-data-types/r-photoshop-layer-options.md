@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +25,9 @@ Photoshop画像レイヤーのオプション
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`layerNaming`*` | `xsd:string` | Photoshopのレイヤーの命名モードの選択 |
-| ` *`アンカー`*` | `xsd:string` | Photoshopのアンカーモードの選択 |
+| ` *`layerNaming`*` | `xsd:string` | Photoshopレイヤーの命名モードの選択 |
+| ` *`アンカー`*` | `xsd:string` | Photoshopアンカーモードの選択」を参照してください。 |
 | ` *`createTemplate`*` | `xsd:boolean` | Photoshopレイヤーからテンプレートを作成するかどうか。 |
 | ` *`extractText`*` | `xsd:boolean` | テキストをテキストレイヤーとして抽出するかどうか。 |
-| ` *`extendLayers`*` | `xsd:boolean` | レイヤーを背景のフルサイズに拡張するかどうか。 |
+| ` *`extendLayers`*` | `xsd:boolean` | レイヤーを背景のフルサイズに拡張するかどうかを指定します。 |
 
