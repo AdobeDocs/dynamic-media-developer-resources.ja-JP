@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-通常、プリント解像度は、カタログエ `catalog::PrintResolution` ントリの場合はによって定義され、それ以外の場合は、ソース画像に埋め込まれたプリント解像度の値によって定義されます。 テンプレートまたはレイヤー化された合成画像の場合、応答ファイルに埋め込まれる初期設定のプリント解像度は、レイヤー番号が最も小さいレイヤー画像のプリント解像度です。
+通常、プリント解像度はカタログエントリの場合は`catalog::PrintResolution`で定義され、それ以外の場合はソース画像に埋め込まれたプリント解像度の値で定義されます。 テンプレートまたはレイヤー化された複合画像の場合、応答ファイルに埋め込まれる初期設定のプリント解像度は、最も低いレイヤー番号を持つレイヤー画像のプリント解像度です。
 
 プリント解像度を設定しても、返信画像のピクセルサイズは変更されません。
 
 ## プロパティ {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-リクエスト属性。 現在のレイヤー設定に関係なく適用されます。
+要求属性。 現在のレイヤー設定に関係なく適用されます。
 
 ## 初期設定 {#section-d7d89fd235cc418fb381014612530f00}
 
