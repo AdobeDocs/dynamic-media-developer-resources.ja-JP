@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
@@ -18,7 +21,7 @@ Zipファイルのデータを返します。
 
 構文
 
-## 認証されたユーザータイプ {#section-33a3f03ba8a14086922397619ce12ab8}
+## 認証済みユーザータイプ{#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +39,8 @@ Zipファイルのデータを返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | Zipファイルを含む会社のハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | Zipファイルのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | Zipファイルを含む会社へのハンドル。 |
+| ` *`assetHandle`*` | `xsd:string` | はい | ZIPファイルへのハンドル。 |
 
 **出力(getZipEntriesReturn)**
 
@@ -47,7 +50,7 @@ Zipファイルのデータを返します。
 
 ## 例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-このコード例は、圧縮サイズと非圧縮サイズを含むZipファイル情報を返します。
+このコードのサンプルを使用すると、圧縮サイズと非圧縮サイズを含むZipファイル情報を返すことができます。
 
 **リクエスト**
 
