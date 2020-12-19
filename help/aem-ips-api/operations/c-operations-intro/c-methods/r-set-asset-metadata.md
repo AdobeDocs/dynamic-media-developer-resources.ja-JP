@@ -1,6 +1,6 @@
 ---
-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
-seo-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
+description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
+seo-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
 
 # setAssetMetadata{#setassetmetadata}
 
-アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
+アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
 
 構文
 
-## 認証されたユーザータイプ {#section-9dcacb0c924044648f8324bfed183dca}
+## 認証済みユーザータイプ{#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,11 +46,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(setAssetMetadataReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-このコードサンプルでは、メタデータの更新の配列を使用して、指定したアセットのメタデータを設定します。
+このコードのサンプルでは、メタデータの更新の配列を使用して、指定したアセットのメタデータを設定します。
 
 **リクエスト**
 
