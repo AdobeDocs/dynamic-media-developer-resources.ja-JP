@@ -1,6 +1,6 @@
 ---
-description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとしてフォーマットされ、標準のXMLパーサーで解析できます。
-seo-description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとしてフォーマットされ、標準のXMLパーサーで解析できます。
+description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとして形式設定され、標準のXMLパーサーで解析できます。
+seo-description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとして形式設定され、標準のXMLパーサーで解析できます。
 seo-title: XMLプロパティ
 solution: Experience Manager
 title: XMLプロパティ
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
 
 # XMLプロパティ{#xml-properties}
 
-応答形式としてxmlを指定した場合、応答データはXMLドキュメントとしてフォーマットされ、標準のXMLパーサーで解析できます。
+応答形式としてxmlを指定した場合、応答データはXMLドキュメントとして形式設定され、標準のXMLパーサーで解析できます。
 
 一般的なプロパティ応答ドキュメントの構造は次のとおりです。
 
@@ -38,9 +41,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 </prop-group>
 ```
 
-要素は `<prop-group>` 最も外側のコンテナとして、またプロパティのグループ化に使用されます。 グループ名が付けられている場合、その名前はJava/JavaScriptのオブジェクト名に対応します。
+`<prop-group>`要素は、最も外側のコンテナとして、また、プロパティのグループ化に使用されます。 グループに名前を付けた場合、名前はJava/JavaScriptのオブジェクト名に対応します。
 
 >[!NOTE]
 >
->文字エンコーディングは、一部のタイプに対して指定で `req=` きます。 詳しくは、特定のコマンドの説明を `req=`参照してください。
+>一部の`req=`型に対して文字エンコーディングを指定できます。 詳しくは、特定の`req=`コマンドの説明を参照してください。
 
