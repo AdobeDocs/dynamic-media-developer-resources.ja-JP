@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 6ca5c5b2-9fb1-4ba2-b981-f1912231512c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | ファイルパス。 |
+| ` *`originalPath`*` | `xsd:string` | ファイルパス |
 | ` *`originalFile`*` | `xsd:string` | ファイル名。 |
 | ` *`fileSize`*` | `xsd:int` | ファイルサイズ. |
 | ` *`imagePath`*` | `xsd:string` | 画像の相対パス。 |
