@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-11bec77e50b24461bb8c8aacf016eec8}
+## 認証済みユーザータイプ{#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,19 +48,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社の取っ手。 </td> 
+   <td colname="col4"> 会社へのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> アセットハンドル。 </td> 
+   <td colname="col4"> アセットハンドル </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4">使用可能な状態： 
@@ -67,21 +70,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> contextHandleArray <span class="varname"></span></span> </td> 
-   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力**
+**Output**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-c31ead6d0e594317a12c120509527792}
 
-次のコード例は、を使用してアセットのパブリケーション状態を設定しま `NotMarkedForPublish`す。
+次のコードのサンプルを使用すると、`NotMarkedForPublish`を使用してアセットのパブリケーション状態を設定できます。
 
 **リクエスト**
 
