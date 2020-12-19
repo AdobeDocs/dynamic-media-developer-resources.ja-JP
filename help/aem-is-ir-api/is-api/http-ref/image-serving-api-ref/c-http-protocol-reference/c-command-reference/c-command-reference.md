@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
@@ -16,21 +19,21 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 この節では、HTTPプロトコルのコマンドについて説明します。
 
-**AEMのダイナミックメディアの場合のみ**:ユーザーインターフェイスで使用できる基本的な画像設定以外に、AEM( [!DNL Dynamic Media][!DNL Adobe Experience Manager])では、「画像修飾子」フィールドで指定できる多数の高度な画像変更がサ **ポートされます** 。 これらのパラメーターは以下のとおりです。 ただし、次の機能はAEMのダイナミックメディアではサポートされていません。
+**AEMのDynamic Mediaのみ**:ユーザインターフェイスで使用できる基本的な画像設定の他に、AEM [!DNL Dynamic Media] ( [!DNL Adobe Experience Manager])では、「 **画像** 修飾子」フィールドで指定できる多数の高度な画像変更をサポートしています。これらのパラメーターは次のように定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
 
-* カラー補正コマンド： `icc=` と `iccEmbed=`
-* 基本のテンプレートおよびテキストレンダリングコマンド： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` と `textPs=`
-* ローカリゼーションコマンド： `locale=` と `req=xlate`
-* `req=set` は一般的な使用には使用できません。
+* カラー補正コマンド：`icc=`と`iccEmbed=`。
+* 基本的なテンプレート化およびテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`と`textPs=`。
+* ローカライゼーションコマンド：`locale=`と`req=xlate`。
+* `req=set` は一般的な使用方法には使用できません。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非コアダイナミックメディアサービス：SVG、画像レンダリング、Web-to-Print。
+* 非コアDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5ドキュメントの「ダイナミ [ックメディア画像プリセット](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) 」オプションも参照してください。
+AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options)も参照してください。
 
 * [align](r-align.md)
 * [アンカー](r-anchor.md)
@@ -45,7 +48,7 @@ AEM 6.5ドキュメントの「ダイナミ [ックメディア画像プリセ�
 * [切り抜き](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
-* [効果](r-effect.md)
+* [effect](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [延長する](r-extend.md)
 * [フィット](r-fit.md)
@@ -58,7 +61,7 @@ AEM 6.5ドキュメントの「ダイナミ [ックメディア画像プリセ�
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [層](r-layer.md)
+* [layer](r-layer.md)
 * [locale](r-locale.md)
 * [マップ](r-map.md)
 * [mask](r-mask.md)
@@ -79,7 +82,7 @@ AEM 6.5ドキュメントの「ダイナミ [ックメディア画像プリセ�
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [起源](r-origin.md)
+* [接触チャネル](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [視点](r-perspective.md)
