@@ -1,6 +1,6 @@
 ---
-description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorでPDFとして保存オプションダイアログに生成されたファイル、またはInDesignのPDFプリセットです。
-seo-description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorでPDFとして保存オプションダイアログに生成されたファイル、またはInDesignのPDFプリセットです。
+description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
+seo-description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
 seo-title: joboption
 solution: Experience Manager
 title: joboption
@@ -8,24 +8,27 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
 # joboption{#joboption}
 
-PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorでPDFとして保存オプションダイアログに生成されたファイル、またはInDesignのPDFプリセットです。
+PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 値</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>ジョブオプションファイルのIPSID。 </p></td> 
  </tr> 
 </table>
 
-ジョブオプションファイルは、IPS/SPSでアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFの生成時に使用されます。
+ジョブオプションファイルは、IPS/SPSでアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFが生成されるときに使用されます。
 
 現在、次のオプションがサポートされています。
 
@@ -36,7 +39,7 @@ PDFジョブのオプションを適用します。 ジョブオプションフ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>画像 </p></td> 
-  <td class="stentry"> <p> ダウンサンプル、カラー、グレーおよびモノラルの解像度、しきい値、圧縮 </p> </td> 
+  <td class="stentry"> <p> ダウンサンプル、カラー、グレー、モノラルの解像度、しきい値、圧縮 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>フォント </p></td> 
@@ -77,7 +80,7 @@ PDFジョブのオプションを適用します。 ジョブオプションフ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>規格 </p></td> 
-  <td class="stentry"> <p>準拠規格。 </p></td> 
+  <td class="stentry"> <p>準拠基準。 </p></td> 
  </tr> 
 </table>
 
