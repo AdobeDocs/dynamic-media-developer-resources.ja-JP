@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12391b8b-532f-4e68-ad60-4dbcc86d9e58
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p>-1を指定すると <span class="codeph"></span> 、コンポーネントの初期化時またはアセットの変更時に、すべてのスウォッチが同時に読み込まれます。 </p> <p>0に設定すると、表示され <span class="codeph"> ている</span> スウォッチのみが読み込まれます。 </p> <p>preloadnbrに設定 <span class="codeph"><span class="varname"> すると</span></span> 、表示領域の周りに表示されない行/列がプリロードされる数を定義できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントの初期化時またはアセットの変更時に、すべてのスウォッチが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているスウォッチのみが読み込まれます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>に設定して、表示されている領域の周りにある非表示の行/列を、いくつプリロードするかを定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
