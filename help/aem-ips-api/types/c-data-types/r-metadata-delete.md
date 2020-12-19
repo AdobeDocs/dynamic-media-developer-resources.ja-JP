@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>削除するメタデータパラメータ。 </p> </td> 
+   <td colname="col3"> <p>削除するメタデータパラメーター。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
