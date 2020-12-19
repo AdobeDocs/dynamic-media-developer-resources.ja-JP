@@ -1,13 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: PermissonSet
+seo-title: PermissionSet
 solution: Experience Manager
-title: PermissonSet
+title: PermissionSet
 topic: Scene7 Image Production System API
 uuid: d77d8fbd-ff41-4312-8c0d-f2d846149e3f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '21'
+ht-degree: 23%
 
 ---
 
@@ -20,6 +23,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`PermissionSetHandle`*` | `xsd:string` | 権限セットの処理。 |
-| ` *`permissionArray`*` | `types:PermissionArray` | 権限の配列。 |
+| ` *`PermissionSetHandle`*` | `xsd:string` | 権限セットへのハンドル。 |
+| ` *`permissionArray`*` | `types:PermissionArray` | 一連の権限。 |
 
