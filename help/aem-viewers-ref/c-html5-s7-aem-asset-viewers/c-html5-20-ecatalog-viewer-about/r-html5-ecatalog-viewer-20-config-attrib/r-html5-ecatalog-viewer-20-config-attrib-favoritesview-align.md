@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: お気に入りビュー。整列
+seo-title: FavoritesView.align
 solution: Experience Manager
-title: お気に入りビュー。整列
+title: FavoritesView.align
 topic: Dynamic media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
 
-# お気に入りビュー。整列{#favoritesview-align}
+# FavoritesView.align{#favoritesview-align}
 
 `[FavoritesView.|<containerId>_favoritesView.]align=left|center|right,top|center|bottom`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の配置（アンカー）を指定します。 </p> <p>お気に入りビューでは、サムネールが整数だけ表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の位置揃え（アンカー）を指定します。 </p> <p>お気に入りビューでは、サムネールが整数の数だけ表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子では、コンポーネント内での内部サムネールコンテナの水平位置を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
