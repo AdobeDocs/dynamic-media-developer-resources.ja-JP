@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-設定に基づいて、カタログ内に存在するすべてのページ、または明示的なラベルが定義されたページのみをリストに含めることができます。 デスクトップシステムでは、リストが画面の空き領域より長い場合、右側にスクロールバーが表示されます。
+設定に基づいて、リストには、カタログ内に存在するすべてのページを含めることも、明示的なラベルが定義されているページのみを含めることもできます。 デスクトップシステムでは、リストが使用可能な画面のスペースより長い場合、右側にスクロールバーが表示されます。
 
-ビューアのユーザインターフェイスでの目次ボタンの位置とサイズは、以下のCSSクラスセレクターを使用して制御します。
+ビューアユーザインターフェイス内の目次ボタンの位置とサイズは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogviewer .s7tableofcontents
@@ -31,12 +34,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> コントロールバーの上端からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまたは行の最初のボタンの場合はコントロールバーの左側への距離です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col2"> <p> 左側の次のボタンまでの距離、または行の最初のボタンの場合はコントロールバーの左側までの距離です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,21 +50,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p> 目次ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — メインコントロールバーの下から4ピクセル、左から43ピクセルの位置に配置する目次ボタンを設定します。サイズは28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像が表示されます。
 
@@ -96,15 +99,15 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> ドロップダウンパネルの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> パネルの境界とコンテンツとの間の内部オフセット。 </p> </td> 
+   <td colname="col2"> <p> パネルの境界とコンテンツの間の内部オフセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p> パネル周囲のドロップシャドウ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -112,7 +115,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->CSSからドロップダウンパネルのサイズや位置を制御することはできません。コンポーネントのレイアウトはプログラムによって管理されます。
+>CSSからドロップダウンパネルのサイズや位置を制御することはできません。コンポーネントは、そのレイアウトをプログラムで管理します。
 
 例 — 背景色が半透明の黒で、コンテンツの周囲のマージンが5ピクセルで、ドロップシャドウのあるドロップダウンパネルを設定します。
 
@@ -135,29 +138,29 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>フォント名。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>フォント名 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>項目の高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p>内部パディング。 </p> </td> 
+   <td colname="col2"> <p>内部のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->コンボボックス項目では、属性セレクターがサポ `state` ートされます。このセレクターは、項目にカーソルを合わせたときと選択したときの状態ごとに異なるスキンを適用するのに使用できます。
+>ドロップダウンリスト項目では、`state`属性セレクターがサポートされます。このセレクターは、項目にカーソルを合わせた状態や選択した状態ごとに異なるスキンを適用するのに使用できます。
 
-例 — フォントがHelvetica 14ピクセルで、高さが19ピクセルのドロップダウン項目を設定します。 項目の背景色は、カーソルを合わせたときはダークグレー、選択したときはライトグレーです。
+例 — フォントがHelvetica 14ピクセル、高さが19ピクセルのドロップダウン項目を設定します。 項目の背景色は、カーソルを合わせたときに濃いグレーになり、選択したときに薄いグレーになります。
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,25 +187,25 @@ background-color: rgb(178, 178, 178);
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
    <td colname="col2"> <p> 要素の幅の最小値。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
    <td colname="col2"> <p> 要素の幅の最大値。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
-   <td colname="col2"> <p> ページインデックスとページラベルの間の距離。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
+   <td colname="col2"> <p> ページインデックスとページラベルの間隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->CSSクラスを設定することで、ページインデックス全体を非表 `display:none` 示にするこ `s7index` とができます。
+>`s7index` CSSクラスに`display:none`を設定すると、ページインデックスを完全に非表示にできます。
 
-例1 — 最小幅が40ピクセル、最大幅が70ピクセル、右側に5ピクセルのマージンがあるページインデックスを設定します。
+例1 — 幅の最小値が40ピクセル、最大値が70ピクセルで、右側に5ピクセルのマージンがあるページインデックスを設定します。
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -220,7 +223,7 @@ display: none;
 }
 ```
 
-ページのラベルは、以下のCSSクラスセレクターを使用して制御します。
+ページラベルは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7label
@@ -231,11 +234,11 @@ display: none;
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
    <td colname="col2"> <p> 要素の幅の最小値。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
    <td colname="col2"> <p> 要素の幅の最大値。 </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +253,7 @@ max-width: 240px;
 }
 ```
 
-ドロップダウンパネル内で垂直方向に収まらない項目があり、システムがデスクトップの場合、パネルの右側に垂直方向のスクロールバーがレンダリングされます。 スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+ドロップダウンパネル内の垂直方向に収まらないアイテムが多く、システムがデスクトップの場合は、パネルの右側に垂直方向のスクロールバーが表示されます。 スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -261,7 +264,7 @@ max-width: 240px;
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> スクロールバーの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -290,7 +293,7 @@ max-width: 240px;
 }
 ```
 
-スクロールバートラックは、上下のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 トラックは、以下のCSSクラスセレクターを使用して制御します。
+スクロールバートラックは、上下のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 このトラックは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
@@ -301,11 +304,11 @@ max-width: 240px;
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>トラックの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>トラックの背景色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -320,7 +323,7 @@ max-width: 240px;
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 その垂直方向の位置は、コンポーネントのロジックで制御します。 ただし、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さなどの外観は、以下のCSSクラスセレクターを使用して設定できます。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 その垂直方向の位置は、コンポーネントのロジックによって制御されます。 一方、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。 サムの高さや、その他の外観は、以下のCSSクラスセレクターを使用して設定できます。
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
@@ -331,35 +334,35 @@ max-width: 240px;
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>サムの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>サムの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p> トラックの上端との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p>トラックの下端との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> サムの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> サムの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、属性セ `state` レクターがサポートされます。このセレクターは、サムの状態、サムの状態 `up`ごとに異な `down`るスキンを適 `over`用す `disabled` るのに使用できます。
+>サムでは、`state`属性セレクターがサポートされます。このセレクターは、`up`、`down`、`over`および`disabled`のサムの状態ごとに異なるスキンを適用するのに使用できます。
 
 例 — 28 x 45ピクセルで、上下に10ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定します。
 
@@ -396,36 +399,36 @@ max-width: 240px;
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS、、およびプロパティを使用してスクロールボタンを配 `top`置するこ `left`とは `bottom`できま `right` せん。ビューアのロジックによって自動的に配置されます。
+CSS `top`、`left`、`bottom`、`right`の各プロパティを使用してスクロールボタンを配置することはできません。ビューアのロジックによって自動的に配置が決まります。
 
 **上スクロールボタンと下スクロールボタンのCSSプロパティ**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->ボタンでは、属性セ `state` レクターがサポートされます。このセレクターは、ボタン、 `up`ボタン、 `down`ボタンの状 `over`態ごとに異なるスキンを `disabled` 適用できます。
+>ボタンでは、`state`属性セレクターがサポートされます。このセレクターは、`up`、`down`、`over`および`disabled`の各ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定します。
 
