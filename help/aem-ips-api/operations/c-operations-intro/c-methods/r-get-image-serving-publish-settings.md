@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-49b7b277ba1748499121a0e90996458c}
+## 認証済みユーザータイプ{#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,10 +34,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像サービングの公開設定を持つ会社のハンドル。 |
-| ` *`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストの処理。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 画像サービングの公開設定を含む会社へのハンドル。 |
+| ` *`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
 
-**出力**
+**Output**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
