@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fbff46d7-f947-40ae-9a0c-7d2496a343f6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> ユーザがマウスを使用して、またはタッチジェスチャを使用して、スウォッチをスクロールする機能を有効または無効にします </p> </td> 
+   <td> <p> マウスまたはタッチジェスチャを使用してスウォッチをスクロールする機能を有効または無効にします </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td> <p> 0 ～ 1の範 <span class="codeph"> 囲内の関数 </span> です。 実際の速度 <span class="codeph"> の誤 </span> った方向への移動に対する%値です。 1に設定した場合、マ <span class="codeph"> ウス </span>と共に移動します。 0に設定した場合、 <span class="codeph"> 正し </span>くない方向にはまったく移動できません。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> 0-1 </span>の範囲内の関数。 実際の速度の誤った方向に移動する場合は、<span class="codeph"> % </span>の値です。 <span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 <span class="codeph"> 0 </span>に設定した場合、正しくない方向には一切動かせません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
