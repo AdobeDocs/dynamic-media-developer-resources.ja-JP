@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証済みユーザータイプ {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 認証済みユーザータイプ{#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -42,13 +45,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>アセットが属する会社のハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 型：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>削除するアセットの配列。 </p> </td> 
@@ -69,41 +72,41 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>正常に削除されたアセットの数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>操作が警告を削除しようとしたときに警告を生成したアセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>操作が削除を試みたときにエラーが発生したアセット。 </p> </td> 
+   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> warningDetailArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>操作がアセットを削除しようとしたときに警告を生成した、アセットに関連付けられた詳細の配列です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> errorDetailArray <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>操作がアセットの削除を試みたときにエラーが発生した、アセットに関連付けられた詳細の配列です。 </p> </td> 
+   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-このコードサンプルを使用すると、ハンドルを会社に送信し、リクエスト内のアセットハンドルの配列をWebサ `deleteAssetsParam` ービスサーバに送信することができます。 `deleteAssetsReturn` は、2の成功数を返し、両方のアセットが削除されたことを示します。
+このコードのサンプルを使用すると、Webサービスサーバーに対して、`deleteAssetsParam`要求内のハンドルとアセットハンドルの配列を会社に送信できます。 `deleteAssetsReturn` は、成功カウント2を返し、両方のアセットが削除されたことを示します。
 
 **リクエスト**
 
