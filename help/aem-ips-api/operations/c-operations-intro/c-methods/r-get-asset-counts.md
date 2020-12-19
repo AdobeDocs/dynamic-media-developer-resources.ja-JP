@@ -1,6 +1,6 @@
 ---
-description: 特定の会社に関連付けられているアセットとアセットの数を取得します。
-seo-description: 特定の会社に関連付けられているアセットとアセットの数を取得します。
+description: 特定の会社に関連付けられているアセットとアセット数を取得します。
+seo-description: 特定の会社に関連付けられているアセットとアセット数を取得します。
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
@@ -8,18 +8,21 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
 
 # getAssetCounts{#getassetcounts}
 
-特定の会社に関連付けられているアセットとアセットの数を取得します。
+特定の会社に関連付けられているアセットとアセット数を取得します。
 
-返され `countArray` る値は、 `assetTypes` (データ型 `xsd:string`)の配列で構成され、それぞれに独自のカウントフィールド(データ型 `xsd:int`)があり、配列の要素ごとに複数のアセット型を表現できます。
+返される`countArray`は、`assetTypes` （データ型`xsd:string`）の配列で構成され、それぞれに独自のカウントフィールド（データ型`xsd:int`）があり、配列の要素ごとに複数のアセット型を表現できます。
 構文
 
-## 認証されたユーザータイプ {#section-6234754722184e828352f10eb18fbce9}
+## 認証済みユーザータイプ{#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,17 +40,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | カウントするアセットを含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | カウントするアセットを含む会社へのハンドル。 |
 
 **出力(getAssetCountsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | いいえ | アセットタイプの配列。各アセットタイプには独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
+| ` *`countArray`*` | `types:AssetCountArray` | いいえ | アセットタイプの配列。それぞれに独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
 
 ## 例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-このコード例では、会社のハンドルをIPS Webサービスサーバに送信する `getAssetCountsParam` フィールドとして使用し、アセット数を取得します。
+このコードのサンプルでは、会社のハンドルをIPS Webサービスサーバに送信される`getAssetCountsParam`のフィールドとして使用し、アセット数を取得します。
 
 **リクエスト**
 
