@@ -1,18 +1,21 @@
 ---
 description: getUsersParam/sortByで使用されます。
 seo-description: getUsersParam/sortByで使用されます。
-seo-title: ユーザーによるフィールドの並べ替え
+seo-title: ユーザーの並べ替えフィールド
 solution: Experience Manager
-title: ユーザーによるフィールドの並べ替え
+title: ユーザーの並べ替えフィールド
 topic: Scene7 Image Production System API
 uuid: df7fb1be-ab5e-4d0d-a000-ce29b45ac41f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 
 
-# ユーザーによるフィールドの並べ替え{#user-sort-fields}
+# ユーザー並べ替えフィールド{#user-sort-fields}
 
 getUsersParam/sortByで使用されます。
 
