@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 30%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 プリンタマークを表示します。 プリンタマークの表示方法を指定します。
 
-` printerMark= *`trim marksbleed`*, *`marksregistration markscolor`*, *`barspage`*, *`informationstyleline`*, *`weightlayer埋め込`*, *``*, *``*, *`みマーク`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`marksregistration `*, *`markscolor `*, *`barspage `*, *``*, *`informationstyleline `*, *`weightlayer embed`*`
 
-異なるマークのオフ/オンを切り替えることができます。 プリンタマークのスタイルも制御できます。
+異なるマークは、オフまたはオンにすることができます。 プリンタマークのスタイルも制御できます。
 
 有効な値は次のとおりです。
 
@@ -51,11 +54,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>初期設定 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>デフォルトはDefault </p></td> 
+  <td class="stentry"> <p>初期設定はDefaultです。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>線の太さ= </p></td> 
-  <td class="stentry"> <p>0.125 ～ 2.0の範囲の任意の値（両方の値を含む）。 </p></td> 
+  <td class="stentry"> <p>行重み付け= </p></td> 
+  <td class="stentry"> <p>0.125 ～ 2.0の範囲の任意の値。両方の値を含みます。 </p></td> 
   <td class="stentry"> <p>初期設定は 0.25 です </p></td> 
  </tr> 
  <tr class="strow"> 
