@@ -1,18 +1,21 @@
 ---
 description: searchAssetsParam/publishState、setAssetPublishStateParam/publishStateおよびContextStateUpdate/publishStateで使用されます。
 seo-description: searchAssetsParam/publishState、setAssetPublishStateParam/publishStateおよびContextStateUpdate/publishStateで使用されます。
-seo-title: 公開状態
+seo-title: 発行状態
 solution: Experience Manager
-title: 公開状態
+title: 発行状態
 topic: Scene7 Image Production System API
 uuid: cebc16ed-ffee-47a5-a9c7-6d61da07e03f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
 
-# 公開状態{#publish-state}
+# 発行状態{#publish-state}
 
 searchAssetsParam/publishState、setAssetPublishStateParam/publishStateおよびContextStateUpdate/publishStateで使用されます。
 
