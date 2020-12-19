@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 認証済みユーザータイプ{#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +37,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
-| ` *`fieldHandle`*` | `xsd:string` | いいえ | メタデータフィールドのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| ` *`fieldHandle`*` | `xsd:string` | いいえ | メタデータフィールドへのハンドル。 |
 
 **出力(getUniqueMetadataValuesReturn)**
 
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-このコードサンプルでは、フィールドハンドルを使用して特定のメタデータ値を返します。
+このコードのサンプルでは、フィールドハンドルを使用して特定のメタデータ値を返します。
 
 **リクエスト**
 
