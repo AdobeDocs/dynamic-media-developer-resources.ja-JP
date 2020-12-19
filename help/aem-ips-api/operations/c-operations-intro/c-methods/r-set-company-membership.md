@@ -1,6 +1,6 @@
 ---
-description: 1つ以上の会社のユーザーのメンバーシップを設定します。
-seo-description: 1つ以上の会社のユーザーのメンバーシップを設定します。
+description: 1つ以上の会社のメンバーシップを設定します。
+seo-description: 1つ以上の会社のメンバーシップを設定します。
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
 
 # setCompanyMembership{#setcompanymembership}
 
-1つ以上の会社のユーザーのメンバーシップを設定します。
+1つ以上の会社のメンバーシップを設定します。
 
 構文
 
-## 認証されたユーザータイプ {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 認証済みユーザータイプ{#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,13 +37,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`userHandle`*` | `xsd:sting` | いいえ | ユーザーハンドル。 |
 | ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社の配列。 |
 
-**出力(setCompanyMembershipParam)**
+**Output (setCompanyMembershipParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-このコード例では、ユーザを会社に追加します。 必要に応じて、会社の複数の会社がアレイを取り扱うように指定します。
+このコードの例では、会社にユーザーを追加します。 必要に応じて、会社ハンドル配列に複数の会社を指定します。
 
 **リクエスト**
 
