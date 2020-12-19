@@ -1,6 +1,6 @@
 ---
-description: 1つ以上のアセットの公開状態を設定または更新します。 会社の公開コンテキストごとに個別の公開状態を設定できます。
-seo-description: 1つ以上のアセットの公開状態を設定または更新します。 会社の公開コンテキストごとに個別の公開状態を設定できます。
+description: 1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
+seo-description: 1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 9%
 
 ---
 
 
 # setAssetsContextState{#setassetscontextstate}
 
-1つ以上のアセットの公開状態を設定または更新します。 会社の公開コンテキストごとに個別の公開状態を設定できます。
+1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
 
-## 認証されたユーザータイプ {#section-815eb031f85143278c1560c18c5e3431}
+## 認証済みユーザータイプ{#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->アセットを返すには、読み取りアクセス権が必要です。
+>アセットを返すには、ユーザーに読み取りアクセス権が必要です。
 
 ## パラメータ {#section-009b9006de8e4c16ad657c47f28ace9f}
 
@@ -38,21 +41,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットと新しい公開状態の配列。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列です。 |
 
-**出力(setAssetsContextStateReturn)**
+**出力(setAssetsContexStateReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | はい | 正常に変更されたアセットの数。 |
 | ` *`warningCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作でアセットの変更が試みられたときに生成されたエラーの数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数です。 |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が変更を試みたときにアセットによって生成されたエラーの配列です。 |
 
 ## 例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-次のコード例は、を使用してアセットのパブリケーション状態を設定しま `NotMarkedForPublish`す。
+次のコードのサンプルを使用すると、`NotMarkedForPublish`を使用してアセットのパブリケーション状態を設定できます。
 
 **リクエスト**
 
