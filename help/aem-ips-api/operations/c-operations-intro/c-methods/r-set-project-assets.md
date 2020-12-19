@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 認証済みユーザータイプ{#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | はい | 会社の担当。 |
+| ` *`companyName`*` | `xsd:string` | はい | 会社ハンドル |
 | ` *`projectHandle`*` | `xsd:string` | はい | プロジェクトハンドル |
 | ` *`assetHandleArray`*` | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
 
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-このコードサンプルを使用すると、プロジェクトにアセットを割り当てることができます。 リクエストは1の成功数を返します。
+このコードのサンプルを使用すると、プロジェクトにアセットを割り当てることができます。 リクエストは、1の成功数を返します。
 
 **リクエスト**
 
