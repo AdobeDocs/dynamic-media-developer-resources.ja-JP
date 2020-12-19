@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フライアウトがアクティブな場合のメインビューのハイライトの外観を制御します。 0に設定すると、フライアウトウィンドウに現在表示されている領域は、.s7highlight <span class="codeph"> CSSまたは</span>.s7cursor <span class="codeph"> CSSクラス名(修飾子のhighlightmodeの値に応じて</span> )で提供されるスタイルを使用してハイライトさ <span class="codeph"></span><span class="codeph"></span> れます。 1に設定すると、現在の表示領域が <span class="codeph"> transparent(highlightmodeがfully</span> highlight <span class="codeph"> )、cursor</span> with.s7lightname( <span class="codeph"> highlightnameは.s7cursor</span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> highlightname)css(.s7highlightnameは.csscs)で埋め込まれた領域がCSSクラスである。 </p> </td> 
+   <td colname="col2"> <p> フライアウトがアクティブな場合のメイン表示のハイライトの外観を制御します。 <span class="codeph"> 0</span>に設定した場合、フライアウトウィンドウに現在表示されている領域は、<span class="codeph"> .s7highlight</span>または<span class="codeph"> .s7cursor</span> CSSクラス名（<span class="codeph"> highlightmode</span>修飾子の値に応じて異なります）でハイライトされます。 <span class="codeph"> 1</span>コンポーネントを「逆」モードにする場合は、現在表示されている領域が完全に透明（<span class="codeph"> highlightmode</span>が<span class="codeph"> highlightmode</span>に設定されている場合）、または<span class="codeph"> .s7cursor</span> CSSクラス名（ケース<span class="codeph"> highlightmode</span>）です。は<span class="codeph"> cursor</span>に設定されますが、周囲の領域は<span class="codeph"> .s7overlay</span> CSSクラス名で提供されるスタイルを使用して塗りつぶされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
