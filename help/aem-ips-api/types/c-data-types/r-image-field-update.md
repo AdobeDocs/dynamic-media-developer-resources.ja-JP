@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | アセットハンドル。 |
-| ` *`解像度`*` | `xsd:double` | 画像解像度（ピクセル/インチ）。 |
+| ` *`assetHandle`*` | `xsd:string` | アセットハンドル |
+| ` *`resolution`*` | `xsd:double` | 画像解像度（ピクセル/インチ）。 |
 | ` *`anchorX`*` | `xsd:int` | X軸の画像アンカー |
 | ` *`anchorY`*` | `xsd:int` | Y軸の画像アンカー |
-| ` *`ユーザデータ`*` | `xsd:string` | 画像サービン `userData` グのユーザデータカタログフィールドに発行されるメタデータフィールドの値。 |
+| ` *`ユーザデータ`*` | `xsd:string` | `userData`メタデータフィールドの値。画像サービングのユーザデータカタログフィールドに発行されます。 |
 
