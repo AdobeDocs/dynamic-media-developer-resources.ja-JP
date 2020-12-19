@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | ユーザーの名。 |
 | ` *`lastName`*` | `xsd:string` | ユーザーの姓。 |
 | ` *`電子メール`*` | `xsd:string` | 電子メールアドレス。 |
-| ` *`defaultRole`*` | `xsd:string` | 所属する各会社のユーザの役割を設定します。 ただし、ユーザーの役割は他のユー `IpsAmin` ザーの役割より優先されます。 |
+| ` *`defaultRole`*` | `xsd:string` | 所属する各会社のユーザーの役割を設定します。 ただし、ユーザーロール`IpsAmin`は、他のユーザーロールよりも優先されます。 |
 | ` *`isValid`*` | `xsd:boolean` | ユーザーが有効かどうかを判定します。 |
 | ` *`passwordExpires`*` | `xsd:dateTime` | パスワードの有効期限を設定します。 |
 
