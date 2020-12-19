@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオの再生中など、各メディアトランジションと共にインタラクティブスウォッチが自動的にスクロールする機能を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> ビデオ再生中など、インタラクティブスウォッチが各メディアトランジションと共に自動的にスクロールする機能を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
