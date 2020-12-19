@@ -1,6 +1,6 @@
 ---
-description: スピンインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
-seo-description: スピンインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
+description: スピンインジケーターは、メイン表示領域に重ねて表示されます。 これは画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によって表示されます。
+seo-description: スピンインジケーターは、メイン表示領域に重ねて表示されます。 これは画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によって表示されます。
 seo-title: アイコンエフェクト
 solution: Experience Manager
 title: アイコンエフェクト
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# アイコンエフェクト{#icon-effect}
 
-スピンインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によっても表示されます。
+スピンインジケーターは、メイン表示領域に重ねて表示されます。 これは画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によって表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,25 +38,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> スピンインジケーターのアートワーク。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>スピンインジケータの幅。 </p> </td> 
+   <td colname="col2"> <p>スピンインジケーターの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>スピンインジケータの高さ。 </p> </td> 
+   <td colname="col2"> <p>スピンインジケーターの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-スピンインジケータ `state` ーは、属性セレクターをサポートします。このセ `spin_1D` レクターは、1次元スピンセットの場合はに、複数次元ス `spin_2D` ピンセットの場合はに設定されます。
+スピンインジケーターでは、`state`属性セレクターがサポートされます。このセレクターは、1次元のスピンセットの場合は`spin_1D`に、複数次元のスピンセットの場合は`spin_2D`に設定されます。
 
 例 — 100 x 100ピクセルのズームインジケーターを設定するには、次のように記述します。
 
