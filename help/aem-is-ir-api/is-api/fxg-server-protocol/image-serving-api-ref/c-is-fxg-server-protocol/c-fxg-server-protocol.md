@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 translation-type: tm+mt
 source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +19,14 @@ source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
 
 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 
-基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。参照点は，,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, `northWest``north``northEast``west``center``east``southWest``south``southeast`例えば、center 基準点を使用すると、基準点を中心にグラフィックを 45 度回転させることができます。以下の図は、基準点の位置、グラフィック、`northWest` 基準点から 20 度回転させた状態、`east` 基準点から 20 度回転させた状態を示しています。
+基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は、`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast`です。 例えば、center 基準点を使用すると、基準点を中心にグラフィックを 45 度回転させることができます。以下の図は、基準点の位置、グラフィック、`northWest` 基準点から 20 度回転させた状態、`east` 基準点から 20 度回転させた状態を示しています。
 
 ![](assets/wp_ref_points.png)
 
 * A.基準点の位置
-* B.グラフィック
-* C. The graphic rotated 20 degrees from its `northWest` reference point
-* D. The graphic rotated 20 degrees from its `east` reference point
+* ロ。図
+* C.グラフィックを`northWest`基準点から20度回転させた状態
+* D.グラフィックを`east`基準点から20度回転させた状態
 
 構文を次に示します。
 
