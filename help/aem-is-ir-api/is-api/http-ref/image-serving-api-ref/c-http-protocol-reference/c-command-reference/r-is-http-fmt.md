@@ -41,7 +41,7 @@ ht-degree: 4%
 | `swf` | AdobeAS2 swfファイルに埋め込まれた非可逆圧縮JPEG |
 | `swf-alpha` | 非可逆圧縮JPEGおよびAdobeAS2 swfファイルに埋め込まれたデフレート圧縮マスク |
 | `swf3` | AdobeAS3 swfファイルに埋め込まれた非可逆圧縮JPEG |
-| `swf3-alpha` | 非可逆圧縮JPEGと、AdobeAS3 swfファイルに埋め込まれた圧縮マスク。 **注意**:swfおよびswf-alpha形式は、ActionScript2アプリケーション(Flash Player8以前)に最適です。 actionscript3アプリケーション(Flash Player9以降)には、swf3およびswf3-alphaを使用することをお勧めします。 |
+| `swf3-alpha` | 非可逆圧縮JPEGと、AdobeAS3 swfファイルに埋め込まれた圧縮マスク。 **注意**:swfおよびswf-alpha形式は、ActionScript2アプリケーション(Flash Player8以前)に最適です。actionscript3アプリケーション(Flash Player9以降)には、swf3およびswf3-alphaを使用することをお勧めします。 |
 | `m3u8` | Apple Streaming Serverマニフェスト形式 |
 | `f4m` | Flashストリーミングサーバのマニフェスト形式 |
 | `webp` | 非可逆圧縮WebP |
@@ -70,17 +70,17 @@ ht-degree: 4%
 | `lossless` | WebP、JPEG 2000、およびJPEG XR圧縮（可逆圧縮） |
 
 * *`format`* クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。
-* *`pixelType`* を指定しない場合は、出力のカラースペース変換を行うた `icc=` めに使用できます。
+* *`pixelType`* を指定しない場合は、出力カラースペースの変換を行うた `icc=` めに使用できます。
 
-   に対応するデフォルトのカラープロファイル *`pixelType`* が適用されます。 カラーマネジメントが無効になっている場合は、純粋な変換が適用されます。 *`pixelType`* を指定した場合は無視され `icc=` 、出力ピクセルのタイプが決まります。
+   *`pixelType`*&#x200B;に対応するデフォルトのカラープロファイルが適用されます。 カラーマネジメントが無効になっている場合は、純粋な変換が適用されます。 *`pixelType`* を指定した場合は無視され `icc=` 、出力ピクセルタイプが決定されます。
 
-* *`compression`* は、 `tif`、、、 `tif-alpha`、 `pdf`、、、、、 `webp`、 `webp-alpha`、 `jpeg2000`、 `jpeg2000-alpha`、 `jpegxr``jpegxr-alpha`*`format`*、、、、または、と指定された場合にのみ使用できます。 これらの画像形式でサポートされる圧縮オプションについては、次の表を参照してください。
+* *`compression`* は、 `tif`、、、 `tif-alpha`、 `pdf`、 `webp`、、、 `webp-alpha` `jpeg2000`、 `jpeg2000-alpha`、 `jpegxr`、 `jpegxr-alpha` 、 *`format`*、、、、や、、を、として指定した場合にのみ使用できます。これらの画像形式でサポートされる圧縮オプションについては、次の表を参照してください。
 
-を使用して、次 `qlt=` の形式のJPEGエンコーディングオプションを設定できます。JPEG、TIFF（JPEG圧縮時）、PDF（JPEG圧縮時）およびSWF。 WebP、JPEG 2000、JPEG XRも使用しますが、値によっ `qlt=` て、形式ごとに異なるクォリティが得られます。 ifまたは `quantize=` を使用 `fmt=gif` し `fmt=gif-alpha`ます。 詳細については、コマンドの説明を参照してください。 その他の形式では、設定可能なオプションはありません。
+`qlt=`を使用して、次の形式のJPEGエンコーディングオプションを設定できます。JPEG、TIFF（JPEG圧縮時）、PDF（JPEG圧縮時）およびSWF。 WebP、JPEG 2000、およびJPEG XRでも`qlt=`が使用されますが、値によって、形式ごとに異なるクォリティが得られます。 `fmt=gif`または`fmt=gif-alpha`の場合は`quantize=`を使用します。 詳細については、コマンドの説明を参照してください。 その他の形式では、設定可能なオプションはありません。
 
-すべての *`formats`* および（GIFの場合は8 bits/pixelコンポーネント）に対して8 bits/pixelコンポーネントが返され *`pixelTypes`* ます。
+すべての&#x200B;*`formats`*&#x200B;と&#x200B;*`pixelTypes`*&#x200B;に対して、8ビット/ピクセルコンポーネントが返されます（GIFの場合は8ビット/ピクセル）。
 
-次の表に、*`format`andの有効な組み合わせ、対応するHTTP応答のMIMEタイプ、ICCプロファイルを埋め込めるかどうか(iccEmbed= *`pixelType`*[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e))、および適用できる形式固有のオプションを示します。
+次の表は、*`format`*と&#x200B;*`pixelType`*&#x200B;の有効な組み合わせ、対応するHTTP応答のMIMEタイプ、ICCプロファイルを埋め込めるかどうか（[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)を参照）、および適用できる形式固有のオプションをリストしています。
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
@@ -96,77 +96,77 @@ ht-degree: 4%
   <tr valign="top"> 
    <td colname="col1"> <p> jpeg、jpg、pjpeg </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>、 <span class="codeph"> pscan= </span>、qlt= <span class="codeph"> 、 </span><span class="codeph"> xmpEmbed= </span> </p> <p>pscan= <span class="codeph"></span> パラメーターは、pjpeg形式にのみ適用されます。 </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span>、 <span class="codeph"> pscan=  </span>、 <span class="codeph"> qlt=  </span>、 <span class="codeph"> xmpEmbed=  </span> </p> <p><span class="codeph"> pscan= </span>パラメーターは、pjpeg形式にのみ適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> png、png-alpha </p> </td> 
    <td colname="col2"> <p>rgb、グレー </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;画像/png&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
    <td colname="col2"> <p>rgb </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;画像/png&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> tif、tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>'tiff'のみ「tiff-alpha」はjpeg圧縮をサポートしていません。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 圧縮 </span> が <span class="varname"> jpegに設定されていない場合、qlt= </span> は無視され <span class="codeph"></span>ます。 </p> <p>, pathEmbed=、xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮  </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>'tiff'のみ「tiff-alpha」はjpeg圧縮をサポートしていません。 </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> 圧縮 </span> が <span class="varname"> jpegに設定されていない場合、qlt= </span> は無視され <span class="codeph">  </span>ます。 </p> <p>, pathEmbed=、xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf, swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb、グレー </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
    <td colname="col4"> <p>いいえ </p> <p> <p>注意： AdobeFlash Playerは、埋め込まれたICCプロファイルを無視します。 </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>、 <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>、 <span class="codeph"> attribute::TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> PDF </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>、 <span class="codeph"> qlt=) </span> </p> <p> <span class="codeph"> 圧縮を </span> jpegに設定しない限り、qlt= <span class="codeph"> は無視され <span class="varname"></span></span><span class="codeph"></span>ます。 </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮  </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>)、<span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 圧縮 </span> が <span class="codeph"> <span class="varname"> jpegに設定されていない場合、qlt= </span> </span> は無視され <span class="codeph">  </span>ます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> gif、gif-alpha </p> </td> 
    <td colname="col2"> <p>rgb、グレー </p> <p>グレーまたはRGBに変換したデータはパレットに変換されます。 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;イメージ/gif&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>いいえ </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> 量子化= </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> 量子化=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>web、webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;イメージ/webp&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>いいえ </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> (非可逆 </span> 、 <span class="codeph"> 非可逆 </span><span class="codeph"></span>) </p> <p> <span class="codeph"> qlt= </span> は <span class="codeph"> 可逆圧縮では無視され </span>ます。 </p> <p>WebP形式のクロミナンスダウンサンプリングの概念がないので、 <span class="codeph"> qltで2番目の値 </span> (例えば、qlt=80,1 <span class="codeph"> )を使用すると、2番目の値( </span>1 <span class="codeph"></span>)は無視されます。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> ( <span class="codeph"> 非可逆、 </span>非可逆 <span class="codeph">  </span>) </p> <p> <span class="codeph"> qlt= </span> は <span class="codeph"> 可逆圧縮では無視され </span>ます。 </p> <p>WebP形式のクロミナンスダウンサンプリングの概念がないので、<span class="codeph"> qlt </span>で2番目の値を使用する場合（例えば、<span class="codeph"> qlt=80,1 </span>）、2番目の値(<span class="codeph"> 1 </span>)は無視されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000、jpeg2000-alpha </p> </td> 
    <td> <p>rgb、グレー </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>いいえ </p> </td> 
    <td> <p>上記と同じ。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpegxr、jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>いいえ </p> </td> 
    <td> <p>上記と同じ。 </p> </td> 
   </tr> 
@@ -175,13 +175,13 @@ ht-degree: 4%
 
 ## プロパティ {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-要求属性。 現在のレイヤー設定( `req=img` （デフォルト）または `req=mask`;それ以外の場合は無視されます。
+要求属性。 `req=img`（デフォルト）または`req=mask`の場合は、現在のレイヤー設定に関係なく適用されます。それ以外の場合は無視されます。
 
 *`type`* を指定した場合は無視 `iccProfile=` されます。
 
 ## 初期設定 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`。この場合、 *`defaultType`* は次のように処理されます。を指定 `icc=` した場合、は指定したICCプロファイルのピクセルタイプに *`defaultType`* 対応します。 を指定 `icc=` しなかった場合は、 *`defaultType`* が `gray` if、それ以外の場合は `req=mask`そ `rgb`れです。
+` fmt=jpeg, *`defaultType`*,none`。この場合、 *`defaultType`* は次のように処理されます。を指定 `icc=` した場合、は指定したICCプロファイルのピクセルタイプ *`defaultType`* に対応します。`icc=`を指定しない場合、*`defaultType`*&#x200B;は`gray` if `req=mask`、それ以外の場合は`rgb`です。
 
 ## 例 {#section-b93222e652df404a84c69025247f07df}
 
@@ -243,4 +243,4 @@ ht-degree: 4%
 
 ## 関連項目 {#section-fce8d69c74234bf48cf814d799409541}
 
-[lt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) q [untize=, quantize=,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)quantize=req=, [quantize=req=, icc, iccEmbed=, icc](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)pathEmbed=ped, pscan pscan [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)leq
+[lt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) q [untize=, quantize=, quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)req=,  [quantize=req=, icc, iccEmbed=, icc ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)pathEmbed=ped, pscan pscan  [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)leq
