@@ -22,24 +22,24 @@ HTML5ビューアの必要システム構成。
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## サーバのハードウェアとソフトウェア {#section-05099146f1f0418988c196635110bee6}
+## サーバのハードウェアとソフトウェア{#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic画像サービング6.7.1以降。
+* Dynamic Mediaクラシック画像サービング6.7.1以降。
 * HTML5ビューアは、SDK JavaScriptサーバー側ライブラリ3.9.1以降を必要とします。
 * 「友達への電子メール」ソーシャル機能を使用するには、s7ondemand 5.0.7以降が必要です。
 * eCatalogビューア — 情報パネルのサポートには情報サーバ2.1.8以降が必要です。
 * 検索機能コンポーネントにはs7search 2.3.0以降が必要です。
 
-## ビューアの必要システム構成 {#section-cc72b1e209524d038b4d5b92b35e998e}
+## ビューアの必要システム構成{#section-cc72b1e209524d038b4d5b92b35e998e}
 
 **コンポーネントビューアに対するクライアントブラウザーの最小要件**
 
-* Microsoft® Windows® 7以降 macOS X 10.12以降。
-* Firefox 69、Safari 11（macOSのみ）、Chrome 75(または最新バージョン。 Chromeの最新バージョンへの自動アップデート)、Internet Explorer 11、Microsoft Edge。
+* Microsoft® Windows® 7以降macOS X 10.12以降。
+* Firefox 69、Safari 11（macOSのみ）、Chrome 75(または最新バージョン。Chromeの最新バージョンへの自動アップデート)、Internet Explorer 11、Microsoft Edge。
 * iOS 6以降。
 * iPhone 3GS以降およびiPad 2以降（SafariおよびChromeブラウザーのみ）で認定。
 * Android OS 4.x以降。
-* BlackBerry 10以降； ネイティブブラウザーのみ。 ビデオの再生は、現時点でのみサポートされています。
+* BlackBerry 10以降；ネイティブブラウザーのみ。 ビデオの再生は、現時点でのみサポートされています。
 * モバイルデバイス上のInternet Explorerは、現時点ではサポートされていません。
 * パノラマビューアは、iOS 10以降、Firefox 69、Chrome 75、Safari 11以降、Internet Explorer 11以降、Microsoft Edge、Android 4.4以降（電話端末のみ）でサポートされます。
 * ビデオ360ビューワとディメンションビューアは、iOS12以降、Firefox 69、Chrome 75、Safari 12以降、Microsoft Edge、Android 5以降（電話端末のみ）に対応しています。
@@ -49,7 +49,7 @@ HTML5ビューアの必要システム構成。
 
 >[!NOTE]
 >
->2018年9月30日以降、Adobe Dynamic Media Classicビューアは、Transport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Media Classicは、TLS 1.0をサポートする次のブラウザーまたはプラットフォームでのビューアをサポートしなくなりました。 （アドビシステムズ社では、TLS 1.2以降を使用することをお勧めします）。
+>2018年9月30日より、AdobeDynamic MediaクラシックビューアはTransport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Mediaクラシックでは、TLS 1.0をサポートする次のブラウザーまたはプラットフォームのビューアをサポートしなくなりました。 (Adobe SystemsではTLS 1.2以降の使用を推奨)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ HTML5ビューアの必要システム構成。
 
 >[!NOTE]
 >
->FLASHビューアの提供終了 — 2017年1月31日、Adobe Scene7 Publishing Systemは、Flashビューアプラットフォームのサポートを正式に終了しました。 この重要な変更について詳しくは、次のFAQ Webサイトを参照してください。
+>FLASH版VIEWERの提供終了 — 2017年1月31日、Adobe Scene7版Publishing SystemはFlash版Viewerプラットフォームのサポートを正式に終了しました。 この重要な変更について詳しくは、次のFAQ Webサイトを参照してください。
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
