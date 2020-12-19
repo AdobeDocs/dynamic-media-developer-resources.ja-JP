@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
+## 認証済みユーザータイプ{#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,8 +36,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社に対する処理。 |
-| ` *`projectHandle`*` | `xsd:string` | はい | プロジェクトのハンドル。 |
+| ` *`companyName`*` | `xsd:string` | はい | 名前を変更するプロジェクトの会社に対する処理。 |
+| ` *`projectHandle`*` | `xsd:string` | はい | プロジェクトへのハンドル。 |
 | ` *`projectName`*` | `xsd:string` | はい | 新しいプロジェクト名。 |
 
 **出力(renameProjectParam)**
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-次のコード例は、プロジェクトの名前を変更し、プロジェクトハンドルを返します。
+次のコードサンプルは、プロジェクトの名前を変更し、プロジェクトハンドルを返します。
 
 **リクエスト**
 
