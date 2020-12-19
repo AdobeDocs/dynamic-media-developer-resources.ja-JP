@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | ` *`setHandle`*` | `xsd:string` | プロパティセットハンドル |
-| ` *`typeHandle`*` | `xsd:string` | プロパティセットタイプのハンドル。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | 名前と値のペア。 0項目を含めることができます。 |
+| ` *`typeHandle`*` | `xsd:string` | プロパティセットタイプへのハンドル。 |
+| ` *`propertyArray`*` | `types:PropertyArray` | 名前と値のペア。 0個の項目を含めることができます。 |
 
