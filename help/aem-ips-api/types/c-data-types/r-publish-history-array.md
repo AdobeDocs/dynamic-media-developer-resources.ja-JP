@@ -1,6 +1,6 @@
 ---
-description: 発行履歴の配列。
-seo-description: 発行履歴の配列。
+description: 一連の発行履歴。
+seo-description: 一連の発行履歴。
 seo-title: PublishHistoryArray
 solution: Experience Manager
 title: PublishHistoryArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: ce925322-43d7-4e29-bfdb-7c29eabb3ef0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
 
 # PublishHistoryArray{#publishhistoryarray}
 
-発行履歴の配列。
+一連の発行履歴。
 
 構文
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:PublishHistory` | パブリッシュヒストリー配列。 |
+| ` *`商品`*` | `types:PublishHistory` | パブリッシュ履歴配列。 |
 
