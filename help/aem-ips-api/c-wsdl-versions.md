@@ -1,48 +1,51 @@
 ---
-description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットによってサポートされます。 各IPS APIリリースには、バージョン付きのターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 以前のWSDL名前空間バージョンも、既存のアプリケーションとの後方互換性を保つためにサポートされていました。
-seo-description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットによってサポートされます。 各IPS APIリリースには、バージョン付きのターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 以前のWSDL名前空間バージョンも、既存のアプリケーションとの後方互換性を保つためにサポートされていました。
-seo-title: IPS WebサービスのWSDLバージョン
+description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットでサポートされています。 各IPS APIリリースには、バージョン付きターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 WSDLの以前の名前空間版もサポートされ、既存のアプリケーションとの下位互換性を確保します。
+seo-description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットでサポートされています。 各IPS APIリリースには、バージョン付きターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 WSDLの以前の名前空間版もサポートされ、既存のアプリケーションとの下位互換性を確保します。
+seo-title: IPS Web Service WSDLバージョン
 solution: Experience Manager
-title: IPS WebサービスのWSDLバージョン
+title: IPS Web Service WSDLバージョン
 topic: Scene7 Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
 
-# IPS WebサービスのWSDLバージョン{#ips-web-service-wsdl-versions}
+# IPS Web Service WSDLバージョン{#ips-web-service-wsdl-versions}
 
-IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットによってサポートされます。 各IPS APIリリースには、バージョン付きのターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 以前のWSDL名前空間バージョンも、既存のアプリケーションとの後方互換性を保つためにサポートされていました。
+IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットでサポートされています。 各IPS APIリリースには、バージョン付きターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 WSDLの以前の名前空間版もサポートされ、既存のアプリケーションとの下位互換性を確保します。
 
-## WSDLアクセス {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
+## WSDLアクセス{#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-次に示すように、Scene7 WSDLにアクセスします。
+以下に示すように、Scene7WSDLにアクセスします。
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-のデフォルト値 `<IPS_webapp>` はです `scene7`。
+`<IPS_webapp>`のデフォルト値は`scene7`です。
 
 **サービスの場所**
 
-サービスURLは、IPS Web Service WSDLドキュメントのサービスセクションで指定されます。 サービスURLは、通常次の形式で指定します。
+サービスURLは、IPS Web Service WSDLドキュメントのサービスセクションで指定します。 サービスのURLは、通常次の形式です。
 
 ```
 https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/ 
 services/IpsApiService 
 ```
 
-**Scene7領域のURLへのアクセス**
+**Scene7地域のアクセスURL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>地理的な場所 </p> </th> 
-   <th colname="col2" class="entry"> <p>実稼働URL </p> </th> 
+   <th colname="col1" class="entry"> <p>地理的位置 </p> </th> 
+   <th colname="col2" class="entry"> <p>実稼動URL </p> </th> 
    <th colname="col3" class="entry"> <p>ステージングURL（実稼働前の開発およびテストに使用） </p> </th> 
   </tr> 
  </thead>
@@ -67,7 +70,7 @@ services/IpsApiService
 
 ## サポートされるWSDL {#section-ebbba69880f94e9c823f1147974eb404}
 
-最新バージョンのIPS APIの機能を使用する場合は、コードの変更が必要になる場合があります。 IPS APIは、次のバージョンのWSDLをサポートします。
+最新バージョンのIPS APIで機能を使用する場合は、コードの変更が必要になる場合があります。 IPS APIは、次のバージョンのWSDLをサポートしています。
 
 <table id="table_6FABCC4E7786448CB56C343E3C0B36CA"> 
  <thead> 
@@ -80,70 +83,70 @@ services/IpsApiService
  <tbody> 
   <tr> 
    <td colname="col1"> <p>6.8/2014R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.6/2013R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.0/2012R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.4 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.2 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4.0より前 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-新機能を使用するために変更する必要がある既存のアプリケーションは、最新のAPIバージョンにアップグレードする必要があり、既存のコードを変更する必要がある場合があります。 詳しくは、変更ログを参照してください。
+新しい機能を使用するために変更する必要がある既存のアプリケーションは、最新のAPIバージョンにアップグレードする必要があり、場合によっては既存のコードを変更する必要があります。 詳しくは、変更ログを参照してください。
 
 ## SOAP {#section-51e7ecbd1d7f451b9e4f6bf7e1579cae}
 
 **連結**
 
-IPS API Webサービスは、SOAPバインディングのみをサポートします。
+IPS API Webサービスは、SOAPバインディングのみをサポートしています。
 
-**サポートされる輸送**
+**サポートされるトランスポート**
 
-IPS API SOAPバインディングは、HTTPトランスポートのみをサポートします。 HTTPS POSTメソッドを使用して、すべてのSOAP要求を作成します。
+IPS API SOAPバインディングは、HTTPトランスポートのみをサポートします。 HTTPSPOSTを使用して、すべてのSOAP要求を行います。
 
 **SOAPアクションヘッダー**
 
-リクエストを処理するには、SOAPAction HTTPヘッダーをリクエストされた操作の名前に設定します。 「WSDL連結」セクションの操作名属性で名前を指定します。
+リクエストを処理するには、SOAPAction HTTPヘッダーを、リクエストされた操作の名前に設定します。 「WSDL連結」セクションの操作名属性で名前を指定します。
 
 **メッセージの形式**
 
-document/literalスタイルは、XMLスキーマ定義言語( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))に基づき、WSDLファイルで指定された型を持つすべての入力および出力メッセージに使用されます。 すべての型で、WSDLファイルで指定されたターゲット名前空間の値を使用して修飾名が必要です。
+ドキュメント/リテラルスタイルは、XMLスキーマ定義言語([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))に基づく型を持ち、WSDLファイルで指定されているすべての入力および出力メッセージに使用されます。 すべての型には、WSDLファイルで指定されたターゲット名前空間の値を使用した修飾名が必要です。
 
 **認証の要求**
 
-API要求で認証資格情報を渡すには、IPS API WSDLで定義されている要 `authHeader` 素を使用する方法をお勧めします。
+認証資格情報をAPI要求に渡す場合は、IPS API WSDLで定義されている`authHeader`要素を使用することをお勧めします。
 
 ```
 <element name="authHeader"> 
@@ -173,7 +176,7 @@ API要求で認証資格情報を渡すには、IPS API WSDLで定義されて�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ユーザ </span> </p> </td> 
-   <td colname="col2"> <p> 有効なIPSユーザの電子メール。 </p> </td> 
+   <td colname="col2"> <p> 有効なIPSユーザ電子メール。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パスワード </span> </p> </td> 
@@ -181,30 +184,30 @@ API要求で認証資格情報を渡すには、IPS API WSDLで定義されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> リクエストのオプションのロケール。 See <b>Locale</b> for details. </p> </td> 
+   <td colname="col2"> <p> 要求のオプションのロケール。 詳しくは、<b>ロケール</b>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
-   <td colname="col2"> <p> 呼び出し元のアプリケーション名。 このパラメーターはオプションですが、すべてのリクエストに含めることをお勧めします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
+   <td colname="col2"> <p> アプリケーション名を呼び出しています。 このパラメーターはオプションですが、すべてのリクエストに含めることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
    <td colname="col2"> <p> アプリケーションのバージョンを呼び出しています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
    <td colname="col2"> <p> 応答XMLのgzip圧縮を有効または無効にするオプションのフラグ。 デフォルトでは、HTTP Accept-Encodingヘッダーがgzipのサポートを示している場合、応答はgzip圧縮されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 障害応答のHTTPステータスコードを上書きするオプションのパラメーター。 デフォルトでは、障害応答はHTTPステータスコード500（内部サーバーエラー）を返します。 Adobe Flashを含む一部のクライアントプラットフォームは、ステータスコードが200(OK)に返されない限り、応答本文を読み取れません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode  </span> </p> </td> 
+   <td colname="col2"> <p> フォルト応答のHTTPステータスコードを上書きするオプションのパラメーター。 デフォルトでは、フォルト応答はHTTPステータスコード500を返します（内部サーバーエラー）。 AdobeFlashを含む一部のクライアントプラットフォームは、200(OK)のステータスコードが返されない限り、応答本文を読み取れません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-APIのバ `authHeader` ージョンに関係なく、要素は常 `http://www.scene7.com/IpsApi/xsd`に名前空間で定義されます。
+`authHeader`要素は、APIのバージョンに関係なく、常に名前空間`http://www.scene7.com/IpsApi/xsd`で定義されます。
 
-次に、要求SOAPヘッダーで要素を使 `authHeader` 用する例を示します。
+次に、要求SOAPヘッダーで`authHeader`要素を使用する例を示します。
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +222,17 @@ APIのバ `authHeader` ージョンに関係なく、要素は常 `http://www.sc
 
 **その他の要求認証方法**
 
-何らかの理由でクライアントアプリケーションが `authHeader` SOAPヘッダーを渡せない場合、API要求はHTTP基本認証（RFC 2617で指定）を使用して秘密鍵証明書も指定できます。
+何らかの理由でクライアントアプリケーションが`authHeader` SOAPヘッダーを渡すことができない場合、API要求はHTTP基本認証（RFC 2617で指定）を使用して秘密鍵証明書も指定できます。
 
-HTTP基本認証の場合、各SOAP POST要求のHTTPヘッダーセクションには、次のフォームのヘッダーが含まれている必要があります。
+HTTP基本認証の場合、各SOAPPOST要求のHTTPヘッダーセクションには、次の形式のヘッダーを含める必要があります。
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-は、 `base64()` 標準Base64エンコーディングを適 `<IPS_user_email>` 用します。は、有効なIPSユーザの電子メールアドレスで、は `<password>` ユーザのパスワードです。
+`base64()`は標準のBase64エンコーディングを適用し、`<IPS_user_email>`は有効なIPSユーザの電子メールアドレス、`<password>`はユーザのパスワードです。
 
-最初の要求で、事前に認証ヘッダーを送信します。 認証資格情報が要求に含まれていない場合、 `IpsApiService` はのステータスコードで応答しませ `401 (Unauthorized)`ん。 代わりに、のステータスコードが、要 `500 (Internal Server Error)` 求を認証できなかったことを示すSOAP障害本体と共に返されます。
+最初の要求を先に入力して、承認ヘッダーを送信します。 認証資格情報が要求に含まれていない場合、`IpsApiService`はステータスコード`401 (Unauthorized)`で応答しません。 代わりに、`500 (Internal Server Error)`のステータスコードがSOAP障害本体と共に返され、要求が認証できなかったことを示します。
 
-IPS 3.8より前は、SOAPヘッダを介した認証は、名前空間の要素と要素を `AuthUser` 使用し `AuthPassword` て実装されていまし `http://www.scene7.com/IpsApi`た。 例：
+IPS 3.8より前は、SOAPヘッダを介した認証は、名前空間`http://www.scene7.com/IpsApi`の`AuthUser`要素と`AuthPassword`要素を使用して実装されていました。 例：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +241,15 @@ IPS 3.8より前は、SOAPヘッダを介した認証は、名前空間の要素
 </soap:Header>
 ```
 
-このスタイルは、後方互換性のために引き続きサポートされていますが、この要素を優先して廃止され `authHeader` ました。
+このスタイルは後方互換性のために引き続きサポートされていますが、`authHeader`要素を使用するために廃止されました。
 
-**認証の要求**
+**承認の要求**
 
-呼び出し元の資格情報が認証された後、要求はチェックされ、呼び出し元が要求された操作を実行する権限を持っていることが確認されます。 認証は、呼び出し元のユーザーの役割に基づいて行われます。また、ターゲットとなる会社、ターゲットとなるユーザー、その他の操作パラメーターの確認が必要な場合もあります。 また、Image Portalユーザは、特定のフォルダおよびアセットの操作を実行するために必要な権限を持つグループに属している必要があります。 「操作の参照」セクションでは、各操作の認証要件の詳細を説明しています。
+呼び出し元の資格情報が認証された後、要求は確認され、要求された操作を実行する権限が呼び出し元にあるかどうかが確認されます。 認証は、呼び出し元のユーザーの役割に基づいて行われ、ターゲット会社、ターゲットユーザー、その他の操作パラメーターの確認が必要になる場合があります。 さらに、Image Portalのユーザは、特定のフォルダおよびアセット操作を実行するために必要な権限を持つグループに属している必要があります。 「操作の参照」セクションでは、各操作の認証要件の詳細を説明しています。
 
-**SOAPリクエストと応答の例**
+**SOAP要求と応答の例**
 
-次の例は、HTTPヘッダーを含む完 `addCompany` 全な操作を示しています。
+次の例は、HTTPヘッダーを含む完全な`addCompany`操作を示しています。
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -273,7 +276,7 @@ Content-Type: text/xml; charset=UTF-8
  </soapenv:Envelope>
 ```
 
-そして対応する応答：
+そして対応する回答：
 
 ```
 HTTP/1.1 200 OK 
@@ -300,7 +303,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP障害**
 
-操作が例外条件を検出すると、通常の応答の代わりにSOAPエラーがSOAPメッセージの本文として返されます。 例えば、管理者以外のユーザーが以前のリクエストを送信しようとす `addCompany` ると、次の応答が返されます。
+操作が例外条件を検出すると、SOAPエラーが通常の応答の代わりにSOAPメッセージの本文として返されます。 例えば、管理者以外のユーザーが以前の`addCompany`リクエストの送信を試みた場合、次の応答が返されます。
 
 ```
 HTTP/1.1 500 Internal Server Error 
