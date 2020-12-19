@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span></span> </p> </td> 
-   <td colname="col2"> <p>カスタムCSSファイル、クローズドキャプションコンテンツ、またはナビゲーションコンテンツのベースパスを指定します。 </p> <p>パスの先頭に/がない場 <span class="filepath"> 合は、</span>ビューアのHTMLページからの相対パスになります。 パスの先頭に/がある場 <span class="filepath"> 合は、</span>同じサーバの絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、初期設定のCSSファイルの読み込みに影響しません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>カスタムCSSファイル、クローズドキャプションコンテンツまたはナビゲーションコンテンツへの基本パスを指定します。 </p> <p>パスの先頭に<span class="filepath"> /</span>がない場合、ビューアのHTMLページからの相対パスになります。 パスの先頭に<span class="filepath"> /</span>がある場合、同じサーバの絶対パスになります。 </p> <p> スタイルコマンドを指定しない場合、初期設定のCSSファイルの読み込みに影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
