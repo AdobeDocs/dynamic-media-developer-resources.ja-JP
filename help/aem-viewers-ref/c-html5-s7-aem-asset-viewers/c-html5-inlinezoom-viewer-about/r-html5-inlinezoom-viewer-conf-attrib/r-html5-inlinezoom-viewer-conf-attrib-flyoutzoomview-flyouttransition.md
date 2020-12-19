@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0b94956d-9ee6-409e-9b52-29c888932a0e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 3%
 
 ---
 
@@ -19,24 +22,24 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span></span> </p> </td> 
-   <td colname="col2"> <p> フライアウトビューの表示/非表示時に適用する効果のタイプを指定します。 なしの場 <span class="codeph"> 合、フラ </span>イアウト画像はアクティブ化され、準備が整ったらすぐに表示されます。 <span class="codeph"> slide </span> は、スライドアニメーションを左から右の方向に再生します。fadeは、フ <span class="codeph"></span> ライアウト画像にアルファトランジションを適用します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade  </span> </span> </p> </td> 
+   <td colname="col2"> <p> フライアウト表示を表示または非表示にするときに適用する効果のタイプを指定します。 <span class="codeph"> none </span>を指定すると、フライアウト画像はアクティブ化され、準備が整ったらすぐに表示されます。<span class="codeph"> slide </span>は、左から右の方向にスライドアニメーションを再生します。<span class="codeph"> fade </span>は、フライアウト画像にアルファトランジションを適用します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ショー </span> 時間 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
    <td colname="col2"> <p> アニメーションの表示が完了するまでの秒数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span></span> </p> </td> 
-   <td colname="col2"> <p> アニメーションの表示を開始するユーザアクションと、アニメーションの表示を開始する操作の間の遅延（秒単位）です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay  </span> </span> </p> </td> 
+   <td colname="col2"> <p> アニメーションの表示を開始するユーザーアクションから、アニメーションの表示を開始するまでの遅延時間（秒）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 隠れ </span> 時 </span> </p> </td> 
-   <td colname="col2"> <p> 非表示アニメーションの完了に要する秒数。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime  </span> </span> </p> </td> 
+   <td colname="col2"> <p> 非表示アニメーションが完了するまでの秒数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span></span> </p> </td> 
-   <td colname="col2"> <p> アニメーションの非表示を開始するユーザアクションと、アニメーション自体の非表示の開始との間の遅延（秒単位）です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay  </span> </span> </p> </td> 
+   <td colname="col2"> <p> アニメーションの非表示を開始するユーザーアクションから、アニメーション自体の非表示を開始するまでの遅延時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
