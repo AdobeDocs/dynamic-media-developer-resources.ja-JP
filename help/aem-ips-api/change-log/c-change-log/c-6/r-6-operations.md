@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 構文
 
-## 新しい操作 {#section-088502a0746945f28a5ea100cd655bc6}
+## 新しい操作{#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -27,27 +30,29 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 * `updateAssetSet`
 * `updateImageSet`
 
-## 変更された操作 {#section-f4e8755527444266ae806e3f4c851ae6}
+## 変更された操作{#section-f4e8755527444266ae806e3f4c851ae6}
 
 **追加済み**
 
-* 追加 `isHidden` 先と追 `initialTagValue` 加先：
+* `isHidden`と`initialTagValue`を次の場所に追加：
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 次に追 `thumbAssetHandle` 加：
+* `thumbAssetHandle`を次に追加：
 
    * `createImageSet`
    * `createAssetSet`
-   次に追 `companyHandle` 加：
+
+   `companyHandle`を次に追加：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
-   次に追 `contextHandle` 加：
+
+   `contextHandle`を次に追加：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -61,28 +66,28 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
    * `getUsers` をクリックします。
    * `getUserChars` をクリックします。
 
-* に追加さ `permissionArray` れまし `createPropertySet`た。
+* `permissionArray`を`createPropertySet`に追加しました。
 
-* に追加さ `exportJob` れまし `submitJob`た。
+* `exportJob`を`submitJob`に追加しました。
 
-**変更**
+**変更済み**
 
-* とで、 `addUser` に変 `setUser`更しま `role` した `defaultRole`。
+* `addUser`と`setUser`で、`role`を`defaultRole`に変更しました。
 
-* で、 `getCompanyMembers`に変更 `userArray` しまし `memberArray`た。
+* `getCompanyMembers`で、`userArray`を`memberArray`に変更しました。
 
-* で、 `getCompanyMembership`に変更 `companyArray` しまし `membershipArray`た。
+* `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
 
-* で、お `addUser`よび `setCompanyMembership`がに変 `addCompanyMembership`更され `membershipArray` まし `companyHandleArray`た。
+* `addUser`、`setCompanyMembership`、`addCompanyMembership`で、`membershipArray`を`companyHandleArray`に変更しました。
 
-* で、 `getCompanyMembership`に変更 `companyArray` しまし `membershipArray`た。
+* `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
 
-* では、がオ `getUserChars`プショ `includeInvalid` ンになりました。
+* `getUserChars`では、`includeInvalid`はオプションになりました。
 
 **削除**
 
-* から削 `renameFiles` 除されま `renameAsset`した。
+* `renameFiles`を`renameAsset`から削除しました。
 
-* Removed `getXMPPanelViewDefinition`.
-* とを削 `searchAssetsByFulltext` 除しま `searchAssetsBySimilarity`した。
+* `getXMPPanelViewDefinition`を削除しました。
+* `searchAssetsByFulltext`と`searchAssetsBySimilarity`を削除しました。
 
