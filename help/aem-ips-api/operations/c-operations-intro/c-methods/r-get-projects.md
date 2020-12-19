@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-337649866b1f4098844d1974ed7ab5d0}
+## 認証済みユーザータイプ{#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 
 **出力(getProjectsReturn)**
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-このコード例は、プロジェクト配列内のすべてのプロジェクトハンドルを返します。
+次のコード例は、プロジェクト配列内のすべてのプロジェクトハンドルを返します。
 
 **リクエスト**
 
