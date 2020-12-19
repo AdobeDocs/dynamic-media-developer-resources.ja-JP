@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -25,8 +28,8 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
    <td colname="col2"> <p> マウスまたはタッチジェスチャを使用してスウォッチをスクロールする機能を有効または無効にします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> が0 ～ 1の範 <span class="codeph"> 囲にあ </span> り、実際の速度の誤った方向への移動のパーセント値です。 </p> <p>1に設定すると、 <span class="codeph"> マウス </span> と共に移動します。 </p> <p>0に設定した場 <span class="codeph"> 合、 </span> 間違った方向に移動することはできません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> が<span class="codeph"> 0-1 </span>の範囲にあり、実際の速度の誤った方向への移動のパーセント値です。 </p> <p><span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 </p> <p><span class="codeph"> 0 </span>に設定した場合、間違った方向に移動することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
