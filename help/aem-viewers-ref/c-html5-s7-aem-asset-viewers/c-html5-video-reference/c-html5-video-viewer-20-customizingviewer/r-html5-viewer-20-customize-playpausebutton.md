@@ -1,6 +1,6 @@
 ---
-description: 再生/一時停止ボタンは、ユーザーがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
-seo-description: 再生/一時停止ボタンは、ユーザーがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
+description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
+seo-description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
 seo-title: 再生/一時停止ボタン
 solution: Experience Manager
 title: 再生/一時停止ボタン
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: b910a837-07ba-4e06-aee8-c22619ed0a92
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 
 # 再生/一時停止ボタン{#play-pause-button}
 
-再生/一時停止ボタンは、ユーザーがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
+再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7videoviewer .s7playpausebutton
 ```
 
-## 再生/一時停止ボタンのCSSプロパティ {#css-properties-of-the-play-pause-button}
+## 再生/一時停止ボタン{#css-properties-of-the-play-pause-button}のCSSプロパティ
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -40,7 +43,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -55,27 +58,27 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、、、および `state`属性セ `selected`レクターの `replay` 両方がサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、は「 `selected='true'` 再生」状態に対応し、「 `selected='false'` 一時停止」状態に対応します。
+>このボタンでは、`state`、`selected`および`replay`属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「再生」の状態に対応し、`selected='false'`は「一時停止」の状態に対応します。
 >
 >`replay='true'` は、ビデオが最後に到達し、ボタンをクリックすると、最初から再生が再開されるときに設定されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。コントロールバーの上端と左端から6ピクセルの位置に配置され、選択時または未選択時のボタンの4つの状態ごとに異なる画像が表示されます。
+32 x 32ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。コントロールバーの上および左端から6ピクセルの位置に配置され、選択時または未選択時のボタンの4つの状態ごとに異なる画像が表示されます。
 
 ```
 .s7videoviewer .s7playpausebutton { 
