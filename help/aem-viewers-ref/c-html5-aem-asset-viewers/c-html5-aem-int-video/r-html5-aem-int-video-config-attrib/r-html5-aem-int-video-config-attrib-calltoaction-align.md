@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の配置（アンカー）を指定します。 </p> <p>誘い文句（CTA：コールトゥアクション）では、サムネールが整数だけ表示されるように、内部のサムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向揃え（またはアンカー）を指定します。 </p> <p>誘い文句（CTA：コールトゥアクション）では、サムネールが整数の数だけ表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子では、コンポーネント内での内部サムネールコンテナの水平位置を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
