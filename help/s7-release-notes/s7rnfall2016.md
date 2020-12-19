@@ -1,9 +1,9 @@
 ---
-description: Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一部であるAdobe Scene7 Fall 2016の最新のリリースノートです。
-seo-description: Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一部であるAdobe Scene7 Fall 2016の最新のリリースノートです。
-seo-title: Scene7 Fall 2016リリース
+description: Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
+seo-description: Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
+seo-title: Scene7秋2016年リリース
 solution: Experience Manager
-title: Scene7 Fall 2016リリース
+title: Scene7秋2016年リリース
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
@@ -15,53 +15,53 @@ ht-degree: 0%
 ---
 
 
-# Scene7 Fall 2016リリース{#scene-fall-release}
+# Scene7秋2016リリース{#scene-fall-release}
 
-Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一部であるAdobe Scene7 Fall 2016の最新のリリースノートです。
+Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
 
-## Scene7 Fall 2016リリース {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7秋2016リリース{#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-内の [!DNL Adobe Scene7] ソリューションの2016年秋のリリースノートの最新リリース [!DNL Adobe Experience Manager] 部分 [!DNL Adobe Marketing Cloud]です。
+[!DNL Adobe Marketing Cloud]の[!DNL Adobe Scene7] Fall 2016リリースパート&lt;a2/>の最新のリリースノートです。[!DNL Adobe Experience Manager]
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [ビューア（画像サービング5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [ビューア（画像サービング5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [ビューア（画像サービング5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5ビューアSDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Scene7HTML5ビューアSDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
 * [Scene7画像サービング6.3.2および画像レンダリング6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-パフォーマンスが向上したという全体的な利点と共に、コンテンツのHTTP/2配信の可用性が発表されます。
+Adobeは、パフォーマンスが向上したという全体的な利点と共に、コンテンツのHTTP/2配信の可用性を発表します。
 
-コンテンツの [FAQの](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)HTTP2配信を参照してください。
+[HTTP2配信のコンテンツFAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)を参照してください。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-完全なドキュメントについては、https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.htmlを参照して [ください。](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+完全なドキュメントについては、[https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)を参照してください。
 
 **新機能、機能強化およびバグ修正**
 
-* 再編集ビデオ機能がユーザーインター [!DNL Adobe Scene7 Publishing System] フェイスから削除されました。
-* 必要に応じて、可能な限り、すべてのScene7サーブレットに認証を追加しました。
+* 再編集ビデオ機能を[!DNL Adobe Scene7 Publishing System]ユーザーインターフェイスから削除しました。
+* 必要に応じて可能な限り、すべてのScene7サーブレットに認証を追加。
 * ごみ箱のリスト表示に関するバグ修正。
-* セキュリティ上の問題があるため、User Managementから **SPSAdmin** ユーザーの作成機能を削除しました。
+* セキュリティ上の問題から、**SPSAdmin**&#x200B;ユーザー機能をUser Managementから削除しました。
 * FTP WebAdminでOKTA認証がサポートされるようになりました。
 * 新しいMedia Portalユーザ用に作成されたデフォルトのパスワード機能が削除されました。
 * 新しいユーザーが追加されたときに生成された一時パスワードに関するバグ修正です。 パスワードが必要なパスワード要件を満たしていません。
 * WebAdminのルートディスクがいっぱいになる問題が解決しました。
 * ユーザーの無効化がユーザーインターフェイスに直ちに反映されないというバグ修正。
 * 後でユーザーを再作成できなかったユーザーの削除に関するバグ修正。
-* 特定の設定を制御するための認証が含まれていない新しいScene7ユーザに送信されるお知らせメールに関するバグ修正。
+* 特定の設定を制御するための認証を含まない新しいScene7ユーザーに送信されるご案内の電子メールに関するバグ修正。
 * 名前に特殊文字が含まれているフォルダがある場合にFTPフォルダリストの取得に失敗するバグ修正。
 * Scene7環境用のOKTAサービスプロバイダーを設定します。
-* ViewerAnalyticsでのMarketing Cloud組織IDのサポートが追加されました。
-* Scene7 SAMLコンシューマを実装しました。
+* ビューア分析でのMarketing Cloud組織IDのサポートを追加しました。
+* Scene7SAMLコンシューマーを実装しました。
 
 ## ビューア（画像サービング5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-完全なドキュメントについては、『 [ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.3のバグ修正**
 
@@ -71,7 +71,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 ## ビューア（画像サービング5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-完全なドキュメントについては、『 [ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.2のバグ修正**
 
@@ -80,23 +80,23 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 ## ビューア（画像サービング5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-完全なドキュメントについては、『 [ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.1の新機能、機能強化およびバグ修正**
 
 * 検索機能を備えたHTML5 eCatalogビューア
-* ほとんどのデスクトップシステムで、初期設定のビデオ配信方法として、HLSストリーミングビデオ再生が追加されました。 別の再生オプションとして、FlashベースのHDSビデオストリーミングを引き続き使用できます。
+* ほとんどのデスクトップシステムで、初期設定のビデオ配信方法として、HLSストリーミングビデオ再生が追加されました。 Flash・ベースのHDSビデオ・ストリーミングは、別の再生オプションとして引き続き使用できます。
 * Chromeブラウザーを実行するマウス入力とタッチ入力の両方を使用するデバイスのサポートが追加されました。
-* Marketing Cloud組織IDのサポートがAnalytics統合に追加されました。
+* Marketing Cloud組織IDのサポートをAnalytics統合に追加しました。
 * AppMeasurement JavaScriptライブラリをバージョン1.6.1に更新しました。
 * eCatalogビューアで、右から左に記述する向きのサポートが追加されました。
-* 範囲外のエラー `tip=0,-1,0` が発生する問題を修正しました。
+* `tip=0,-1,0`が範囲外のエラーを引き起こす問題を修正しました。
 
 **互換性に関する注意**
 
 * Blackberry
 
-   * 古いAVSセットとは互換性がありません。 クライアントは、AVSセットを再アップロードして再生を許可する必要がある場合があります。
+   * 古いAVSセットとは互換性がありません。 クライアントは、AVSセットを再度アップロードして再生する必要がある場合があります。
 
 * 一般
 
@@ -129,8 +129,8 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * HTML5ビデオ
 
-   * Internet Explorer 9: カスタムのポスター画像は表示されません。
-   * `IntialBitRate` 修飾子は、ソフトウェアHLSおよびFlash HDS再生でのみサポートされます。 ネイティブプレーヤーを使用して再生している場合は機能しません。
+   * Internet Explorer 9:カスタムのポスター画像は表示されません。
+   * `IntialBitRate` 修飾子は、ソフトウェアHLSとFlashHDSの再生でのみサポートされます。ネイティブプレーヤーを使用して再生している場合は機能しません。
    * OGGおよびWebMのプログレッシブ再生は、現時点ではサポートされていません。
    * ブラウザーを拡大縮小すると、ビデオプレーヤーが正しくないサイズで表示される場合があります（Windows OSコントロールパネルの「ディスプレイ」設定を含む）。
    * SafariでのHLSストリーミングを使用したビデオシークに一貫性がない場合があります。
@@ -148,32 +148,32 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * Safari
 
-   * Safari 6.1以降： インターネットプラグインの設定により、Flashビデオを再生できない場合があります。
+   * Safari 6.1以降：インターネットプラグインの設定により、Flashのビデオを再生できない場合があります。
    * SafariでHLSストリーミングを使用するビデオ「シーク」に一貫性がない場合があります。
    * HLSストリーミングを使用してSafari 6でビデオの最後までシークできません。
 
 **既知の問題と制限事項**
 
-* からの画像サービング修飾子 `iscommands` は、設計上、 `req=set` 要求に追加されません。 画像表示にのみ影響する修飾子は問題なく機能します。 サイズに影響する修飾子は、複雑なアセットで使用する必要があります。 以下に例を挙げます。
+* `iscommands`からの画像サービング修飾子は、設計上、`req=set`要求に追加されません。 画像表示にのみ影響する修飾子は問題なく機能します。 サイズに影響する修飾子は、複雑なアセットで使用する必要があります。 以下に例を挙げます。
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Flyout] IE9は、マウスをオフにしても画面に残ることがあります。
+* [] FlyoutIE9は、マウスをオフにした後も画面に残ることがあります。
 * ブラウザーの拡大/縮小により、サイズ変更が誤って行われます。
-* iPad 2: iOSで大きなeCatalogアセットがSafariをクラッシュする。
+* iPad 2:iOSで大きなeCatalogアセットがSafariをクラッシュする。
 * すべてのビューア
 
    * ウォーターマーク、難読化、ロックはサポートされていません。
    * 画像プリセットはサポートされていません。
-   * CSSを使用したDOMへのビューアの追加または削除、または親ノードからのビューアのダイナミックなデタッチは、現時点ではサポートされていません。 `display:none`
+   * `display:none` CSSを使用したDOMへのビューアの追加または削除、または親ノードからのビューアの動的な切り離しは、現時点ではサポートされていません。
 
 * HTML5すべてのビューア
 
    * テーブルにビューアを埋め込むと、ネイティブ以外のフルスクリーンモードで、ビューアのサイズや配置が正しくない場合があります。 代わりにDIVを使用することをお勧めします。
-   * コード内のパラメーターでインスタンス名が明示的に指定されている場合は、URL内のインスタンス名も上書きする必要があります(例： `zoomView.iconfeffect=0`)。
+   * コード内のパラメーターでインスタンス名が明示的に指定されている場合は、URL内のインスタンス名も上書きする必要があります（例：`zoomView.iconfeffect=0`）。
    * 現時点では、画像サービングコマンドの切り抜きはサポートされていません。
    * 閉じるボタンは、ビューアが子ウィンドウで開いている場合にのみ機能します。
-   * この `iscommands` 修飾子は、画像サイズに影響する画像サービング修飾子をサポートしていません。
+   * `iscommands`修飾子は、画像サイズに影響する画像サービング修飾子をサポートしていません。
 
 * HTML5 eCatalog
 
@@ -189,13 +189,13 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * HTML5 Social
 
-   * 送信電子メールでサムネールを適切にレンダリングするには、 `serverurl` 修飾子に絶対URLが必要です。
+   * 送信電子メールでサムネールを適切にレンダリングするには、`serverurl`修飾子に絶対URLが必要です。
 
 * HTML5ビデオ
 
    * ポスター画像で「最大サイズ」のエラーが発生する場合があります。 会社は、画像サービング公開の制限値の引き上げが必要な場合があります。
-   * HTMLページをホストしている場合、（Scene7サーバではなく）外部サーバからHTMLページが提供されると、ビデオキャプションには会社のルールセットが必要です。 アドビサポートにお問い合わせください。
-   * Analyticsトラッキングで、バッファリングが原因で、再生の割合が正しく報告されない場合がある
+   * HTMLページをホストしているサーバーが(Scene7サーバーではなく)外部サーバーから供給される場合、ビデオキャプションには会社のルールセットが必要です。 Adobeサポートにお問い合わせください。
+   * Analyticsの追跡で、バッファリングが原因で、再生の割合が正しくレポートされない場合がある
    * iPadまたはAndroidデバイスで、ポスター画像の代わりに黒いフレームが表示される場合があります。
    * iPadまたはAndroidデバイスで、ビューアの読み込み中に画面に黒いフレームが点滅する場合があります。
    * iPadデバイスで背景が白/透明に設定されている場合、VideoPlayerコンポーネントの横に黒の境界線が表示されます。
@@ -204,20 +204,20 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
    * ポスター画像がMicrosoft Edgeブラウザーで初めての訪問者で表示されない場合があります。
    * プログレッシブ再生を使用している場合、Internet Explorer 9でビデオが読み込まれた後にポスター画像が非表示になる場合があります。
 
-## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7HTML5ビューアSDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-ユーザーガイドは、クライアントインストールのAdobe HTML5ビューアSDKフォルダーにあります。 コンポーネントAPIドキュメントは、クライアントインストールのdocsサブフォルダーにあります。
+ユーザーガイドは、クライアントインストールのAdobeHTML5ビューアSDKフォルダーにあります。 コンポーネントAPIドキュメントは、クライアントインストールのdocsサブフォルダーにあります。
 
 **3.0.2のバグ修正**
 
 * VideoPlayer — ビデオをWindows 7上のInternet Explorer 11で再生できませんでした
-* 目次 — HTML5 eCatalogビューアのモバイルデバイスの縦置きモードに `initialframe` 影響しませんでした。
+* TableOfContents - `initialframe`は、HTML5 eCatalogビューアのモバイルデバイスの縦置きモードに影響しませんでした。
 
 **3.0.1の新機能、機能強化およびバグ修正**
 
 * 一般
 
-   * ほとんどのデスクトップシステムで、初期設定のビデオ配信方法として、HLSストリーミングビデオ再生が追加されました。 別の再生オプションとして、FlashベースのHDSビデオストリーミングを引き続き使用できます。
+   * ほとんどのデスクトップシステムで、初期設定のビデオ配信方法として、HLSストリーミングビデオ再生が追加されました。 Flash・ベースのHDSビデオ・ストリーミングは、別の再生オプションとして引き続き使用できます。
    * eCatalogビューアの新しい検索機能をサポートするSearchManager、SearchPanel、SearchEffectおよびSearchButtonコンポーネントが追加されました。
    * Chromeブラウザーでマウス入力とタッチ入力の両方を実行するデバイスのサポートが追加されました。
    * Androidのバージョン検出をリファクタリングし、OSの将来のバージョンをサポートするようにしました。
@@ -229,7 +229,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * FlyoutzoomView
 
-   * 範囲外のエラー `tip=0,-1,0` が発生する問題を修正しました。
+   * `tip=0,-1,0`が範囲外のエラーを引き起こす問題を修正しました。
 
 **互換性に関する注意**
 
@@ -282,7 +282,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * タッチデバイス
 
-   * フルスクリーンモードは、デバイスの画面全体を占有するのではなく、単にブラウザーウィンドウのサイズに合わせてアプリケーションのサイズを変更するだけです。
+   * フルスクリーンモードは、デバイスの画面全体を占有するのではなく、単にブラウザーウィンドウのサイズに合わせてアプリケーションのサイズが変更されるだけです。
    * カスタムカーソルはタッチデバイスでは機能しません。
    * タッチデバイスでのページの拡大/縮小は、現時点ではサポートされていません。 HTML5ビューアの埋め込みには、適切な設定のビューポートメタタグが必要です。
 
@@ -294,9 +294,9 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * すべてのコンポーネント
 
-   * バージョン2.7.2以前では、一部のコンポーネントは、 `insertBefore()` APIを使用してDOMに追加されていました。 その結果、他のコンポーネントに対してコンポーネントインスタンスを作成した場合でも、このようなコンポーネントは重ね順の一番下に配置されます。 2.8.1リリースでは、すべてのコンポーネントで `appendChild()` APIが使用されるようになりました。つまり、コンポーネントの重ね順がインスタンス作成の順序と一致します。
+   * バージョン2.7.2以前では、一部のコンポーネントは`insertBefore()` APIを使用してDOMに追加されました。 その結果、他のコンポーネントに対してコンポーネントインスタンスを作成した場合でも、このようなコンポーネントは重ね順の一番下に配置されます。 2.8.1リリースでは、すべてのコンポーネントが`appendChild()` APIを使用するようになりました。つまり、コンポーネントの積み重ね順序がインスタンス作成の順序と一致します。
 
-   * 修飾子を使用した画像アルファチャネル形式の設定はサポートされていません。 `iscommand` 代わりに、コンポーネント `FMT` パラメーターを使用します。
+   * `iscommand`修飾子を使用して画像のアルファチャネル形式を設定することはできません。 代わりに、コンポーネント`FMT`パラメータを使用してください。
    * 現時点では、CSSの変換プロパティはサポートされていません。
 
 * タッチデバイス
@@ -305,7 +305,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * コンテナ
 
-   * コンテナ上の境界線、パディング、マージンはサポートされていません。 親DIVへのスタイル要素の追加を推奨します。
+   * コンテナ上の境界線、パディング、マージンはサポートされていません。 親DIVへのスタイル要素の追加を提案するAdobe。
    * コンテナサイズを明示的に設定する必要があります。設定しないと、コンポーネントのサイズが正しく設定される場合があります。
 
 * 印刷コンポーネント
@@ -314,7 +314,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * IconEffectコンポーネント
 
-   * が無効の場合（に設定されている場合）、IconEffectはInternet Explorerでスクリプトエラー `autohide` を生成し `0`ます。
+   * `autohide`が無効な場合（`0`に設定されている場合）、IconEffectはInternet Explorerでスクリプトエラーを生成します。
 
 * ImageMapEffectコンポーネント
 
@@ -330,7 +330,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 
 * PageScrubberコンポーネント
 
-   * iPhone 5では、PageScrubberの吹き出しをtextに設定すると、ボタンをトラックに沿ってスライドしたときにアーティファクトが表示されます。 スタイル `-webkit-background-clip: content;` での使用は問題を回避します。
+   * iPhone 5では、PageScrubberの吹き出しをtextに設定すると、ボタンをトラックに沿ってスライドしたときにアーティファクトが表示されます。 スタイルで`-webkit-background-clip: content;`を使用すると問題は解決します。
 
 * SpinViewコンポーネント
 
@@ -339,7 +339,7 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
 * スウォッチコンポーネント
 
    * 範囲外のスウォッチを選択すると、2つのハイライトが表示されます。
-   * メソッドを使用した自動スクロールが正しく機能しない問題を修正しました。 `selectSwatch()`
+   * `selectSwatch()`メソッドによる自動スクロールが正しく機能しません。
 
 * VideoPlayer
 
@@ -348,8 +348,8 @@ Adobe Marketing Cloud内のAdobe Experience Managerソリューションの一�
    * ポスター画像がMicrosoft Edgeブラウザーで初めての訪問者で表示されない場合があります。
    * プログレッシブ再生を使用している場合、Internet Explorer 9でビデオが読み込まれた後にポスター画像が非表示になる場合があります。
 
-## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Scene7画像サービング6.3.2および画像レンダリング6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* 導入コンサルタントユーティリティ — `downsample2x2` フラグはサポートされなくなりました。 このフラグは、2x2ダウンサンプラーの品質が低く、IPSでは使用されなくなりました。
-* CORSヘッダー — 現在、CORSヘッダーはリク `/is/content/` エスト用に設定されています。
+* ICユーティリティ — `downsample2x2`フラグはサポートされなくなりました。 このフラグは、2x2ダウンサンプラーの品質が低く、IPSでは使用されなくなりました。
+* CORSヘッダー — 現在、CORSヘッダーは`/is/content/`リクエスト用に設定されています。
 
