@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 20b14257-da2f-4557-a732-b14421b0eb7e
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> スクロールバーの使用を有効にします。 </p> </td> 
+   <td colname="col2"> <p> スクロールバーの使用を有効にする。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
