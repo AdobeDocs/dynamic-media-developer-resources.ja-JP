@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-239058fdb4454e519ac327e621cb3abc}
+## 認証済みユーザータイプ{#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +33,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | 権限を削除するアセットのハンドル。 |
 
 **出力(removeAssetPermissionsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-このコードのサンプルを使用すると、アセットから権限を削除できます。
+このコードのサンプルを使用することで、アセットから権限を削除することができます。
 
 **リクエスト**
 
