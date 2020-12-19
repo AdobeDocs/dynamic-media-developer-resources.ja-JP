@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -16,12 +19,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 画像セットに属するアセット。
 
-ページのリセットとは、が新しいペ [!DNL eCatalog] ージを開始することを意味します。 `RenderSet` は、スウォッチの一部であることを示し `RenderSet` ます。 この値は、に対して強制的に設定 `true` され `eCatalog` 、設定さ `RenderSet` れます。
+ページのリセットとは、[!DNL eCatalog]が新しいページを開始する必要があることを意味します。 `RenderSet` は、そのスウォッチが `RenderSet` スウォッチの一部であることを示します。`eCatalog`と`RenderSet`セットの値は強制的に`true`になります。
 
 ## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | ` *`asset`*` | `type:Asset` | 画像セット配列内のアセット。 |
-| ` *`pageReset`*` | `xsd:boolean` | 新しいページを開始します。 設定は無視され、値は強制的にとセ `true` ットに `eCatalog` 設定さ `RenderSet` れます。 |
+| ` *`pageReset`*` | `xsd:boolean` | 新しいページを開始します。 設定は無視され、`eCatalog`と`RenderSet`のセットの値は強制的に`true`に設定されます。 |
 
