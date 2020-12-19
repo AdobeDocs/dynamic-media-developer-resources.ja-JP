@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ジョブの出力を削除します。
 
-ジョブが現在実行中の場合、ジョブは直ちに停止され、そのすべての処理情報が削除されます。 ジョブが正常に完了した場合、出力ファイルは削除されます。
+ジョブが現在実行中の場合、ジョブは直ちに停止され、そのすべての処理情報が削除されます。 ジョブが正常に完了した場合は、出力ファイルが削除されます。
 
-このパラメータ：
+このパラメーター：
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 戻り値：
 
-削除要求を受け取った時点のジョブのステータス。無効な場合、またはジョ `jobid` ブが既に削除されている場合はエラーです。
+削除要求を受け取った時点のジョブのステータス。`jobid`が無効な場合、またはジョブが既に削除されている場合はエラー。
 
 ## 例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
