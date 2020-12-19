@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザーの種類 {#section-823cd9f0557045bca51da66768b5ba74}
+## 認証済みユーザータイプ{#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,25 +36,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを持つ会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを含む会社へのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | ズームターゲットのハンドル。 |
 | ` *`zoomTargetHandle`*` | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
 | ` *`name`*` | `xsd:string` | はい | ズームターゲット名 |
-| ` *`xPosition`*` | `xsd:int` | はい | 左のピクセル位置。 |
-| ` *`yPosition`*` | `xsd:int` | はい | 上のピクセル位置。 |
-| ` *`width`*` | `xsd:int` | はい | ズームターゲットの幅。 |
+| ` *`xPosition`*` | `xsd:int` | はい | 左ピクセルの位置 |
+| ` *`yPosition`*` | `xsd:int` | はい | 上部のピクセル位置。 |
+| ` *`width`*` | `xsd:int` | はい | ズームターゲットの幅 |
 | ` *`height`*` | `xsd:int` | はい | ズームターゲットの高さ |
-| ` *`ユーザデータ`*` | `xsd:string` | はい | お客様固有の情報を参照してください。 任意の種類のデータを含めることができます。 |
+| ` *`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意の種類のデータを含めることができます。 |
 
 **出力(saveZoomTargetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットのハンドル。 |
+| ` *`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットのハンドル |
 
 ## 例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-このコード例では、ズームターゲットを保存します。 応答は、ズームターゲットハンドルを返します。
+このコードのサンプルを使用して、ズームターゲットを保存します。 応答は、ズームターゲットハンドルを返します。
 
 **リクエスト**
 
