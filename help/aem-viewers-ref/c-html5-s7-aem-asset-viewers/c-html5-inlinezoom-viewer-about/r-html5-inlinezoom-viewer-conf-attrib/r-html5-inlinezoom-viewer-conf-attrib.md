@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0813c334-37b7-43af-b39d-bec66658ad58
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 フライアウトビューアの設定属性ドキュメント
 
-URLには、任意の設定コマンドを設定できます。 または、APIメソッド、APIメソッド、 `setParam()`またはそ `setParams()`の両方を使用できます。 サーバー側の設定レコードで任意の設定属性を指定することもできます。
+設定コマンドはURL内に設定できます。 または、`setParam()`、`setParams()`、または両方のAPIメソッドを使用できます。 サーバー側の設定レコードに任意の設定属性を指定することもできます。
 
-一部の設定コマンドの先頭に、対応するビューアSDKコンポーネントのクラス名またはインスタンス名のプレフィックスが付けられます。 コンポーネントのインスタンス名は動的で、 `setContainerId()` APIメソッドに渡されるビューアのコンテナのDOM要素のIDに依存します。 このようなコマンドのオプションのプレフィックスがドキュメントに含まれています。 例えば、このコマンドは次のよ `zoomfactor` うに記載されています。
+一部の設定コマンドの先頭に、対応するビューアSDKコンポーネントのクラス名またはインスタンス名のプレフィックスが付けられます。 コンポーネントのインスタンス名は動的で、`setContainerId()` APIメソッドに渡されるビューアコンテナのDOM要素のIDに依存します。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例えば、`zoomfactor`コマンドは次のように記載されています。
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 
@@ -26,6 +29,6 @@ URLには、任意の設定コマンドを設定できます。 または、API�
 
 * `zoomfactor` （短い構文）
 * `FlyoutZoomView.zoomfactor` （コンポーネントのクラス名で修飾）
-* `cont_flyout.zoomfactor` (コンポーネントIDで修飾、これ `cont` がコンテナ要素のIDと仮定)
+* `cont_flyout.zoomfactor` (コンテナ要素のIDと仮定して、コンポーネントID `cont` で修飾)
 
-すべてのビューアに共 [通のコマンドリファレンス — 設定属性も参照してください。](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+[すべてのビューアに共通のコマンドリファレンス — 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
