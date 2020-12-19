@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5a461da2-4b08-4854-9bdc-98de208dc0fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Scene7 OnDemand電子メールサービスのベースURLを指定します。 </p> </td> 
+   <td colname="col2"> <p> Scene7 OnDemandの電子メールサービスのベースURLを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
