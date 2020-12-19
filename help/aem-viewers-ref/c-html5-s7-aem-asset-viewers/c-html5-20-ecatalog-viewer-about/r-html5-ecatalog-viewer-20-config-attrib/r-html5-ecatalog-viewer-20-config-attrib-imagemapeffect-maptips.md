@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5466368f-3ee6-4030-ae8e-55d9e3ad5bc5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 個々のマップ領域要素に対してツールヒントを有効にするかどうかを指定します。 </p> <p> タッチ操作対応デスクトップシステムを含むタッチデバイスでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> 個々のマップ領域要素に対してツールヒントを有効にするかどうかを指定します。 </p> <p> タッチ対応デスクトップシステムを含むタッチデバイスでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
