@@ -15,7 +15,7 @@ ht-degree: 6%
 ---
 
 
-# ジョブタイプ{#job-types}
+# ジョブの種類{#job-types}
 
 ActiveJob/typeおよびScheduledJob/typeで使用されます。
 
