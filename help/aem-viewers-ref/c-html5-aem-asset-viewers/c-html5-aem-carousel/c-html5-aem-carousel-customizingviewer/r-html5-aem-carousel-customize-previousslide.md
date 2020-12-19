@@ -1,6 +1,6 @@
 ---
-description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスでは表示されません。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
-seo-description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスでは表示されません。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスには表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+seo-description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスには表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 seo-title: 前のスライド
 solution: Experience Manager
 title: 前のスライド
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
 # 前のスライド{#previous-slide}
 
-このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスでは表示されません。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+このボタンをクリックまたはタップすると、カルーセルセットの前のスライドに戻ります。 このボタンは、タッチデバイスには表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -57,25 +60,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>カーソルのタイプ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col2"> <p>カーソルの種類 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
 例 — 60 x 60ピクセルで、ビューアの左の境界線から10ピクセルの位置に配置し、垂直方向に中央揃えし、ボタンの4つの状態ごとに異なる画像を表示する前のスライドボタンを設定します。
 
