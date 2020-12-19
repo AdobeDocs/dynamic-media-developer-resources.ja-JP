@@ -1,6 +1,6 @@
 ---
-description: このドキュメントでは、FXGサーバープロトコルとその構文に関する情報を提供します。
-seo-description: このドキュメントでは、FXGサーバープロトコルとその構文に関する情報を提供します。
+description: このドキュメントでは、FXGサーバープロトコルとその構文について説明します。
+seo-description: このドキュメントでは、FXGサーバープロトコルとその構文について説明します。
 seo-title: FXGサーバープロトコルリファレンス
 solution: Experience Manager
 title: FXGサーバープロトコルリファレンス
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
 
 # FXGサーバープロトコルリファレンス{#fxg-server-protocol-reference}
 
-このドキュメントでは、FXGサーバープロトコルとその構文に関する情報を提供します。
+このドキュメントでは、FXGサーバープロトコルとその構文について説明します。
 
-* [余裕の](r-bleedmargin.md)
+* [薄い](r-bleedmargin.md)
 * [キャッシュ](r-is-fxg-cache.md)
 * [convertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
