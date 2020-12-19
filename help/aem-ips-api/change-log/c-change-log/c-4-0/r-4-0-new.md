@@ -21,91 +21,91 @@ IPS API v4.0の新しい変更と実装された変更について説明しま�
 
 WSDLとスキーマの名前空間が別々に用意された、並べておけるAPIバージョンを実装。
 
-* 以前のAPIバージョン： `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
-* SPS 4.0バージョン： `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
+* 以前のAPIバージョン：`IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
+* SPS 4.0バージョン：`IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
-フィールドを追加 `PostScriptOptions/alpha` しました。
+`PostScriptOptions/alpha`フィールドを追加しました。
 
-`VideoRootUrl``SwfRootUrl``getProperty` 操作のプロパティとプロパティを追加しました。
+`getProperty`操作に`VideoRootUrl`および`SwfRootUrl`プロパティを追加しました。
 
-呼び出し元のアプリケーション `appName` を追跡するためのオプションおよび `appVersion` パラメ `authHeader` ーターを追加しました。 にログを追加し `ipsApiService.log`ました。
+呼び出し元のアプリケーションを追跡するために、オプションの`appName`パラメーターと`appVersion`パラメーターを`authHeader`に追加しました。 `ipsApiService.log`にログを追加しました。
 
-WSDL生成サーブレットにオプションの `serviceUrl` パラメーターが追加されました。 これは、デバッグプロキシに特に便利です。 例：`http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+オプションの`serviceUrl`パラメーターがWSDL生成サーブレットに追加されました。 これは、デバッグプロキシに特に便利です。 例：`http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
-操作を実装 `getZipEntries` しました。
+`getZipEntries`操作を実装しました。
 
 システムフィールド条件に対して検索範囲と入力された比較値を実装。
 
-主にアセット間のメタデータフィールドを許可するために、 `'Asset'` アセットタイプ文字列定数を追加しました。
+主にアセット間のメタデータフィールドを許可するために、`'Asset'`アセットタイプの文字列定数を追加しました。
 
-の `trashState` パラメーターを実装 `searchAssets`しました。
+`searchAssets`に`trashState`パラメーターを実装しました。
 
-操作を実装 `getAssetPublishHistory` しました。
+`getAssetPublishHistory`操作を実装しました。
 
-Flexでの障害処理を有効にするオプションの `faultHttpStatusCode` SOAPヘッダーを追加しました。 Flexの場合は、を使用し `<faultHttpStatusCode>200</faultHttpStatusCode>`ます。 フォルト応答のデフォルトのステータスコードはで `500 (Internal Server Error)`す。
+オプションの`faultHttpStatusCode` SOAPヘッダを追加し、Flexでの障害処理を有効にしました。 Flexの場合は、`<faultHttpStatusCode>200</faultHttpStatusCode>`を使用します。 フォルト応答のデフォルトのステータスコードは`500 (Internal Server Error)`です。
 
 ごみ箱からアセットを復元し、ごみ箱からアセットを空にする操作を追加しました。
 
 CRUD操作を実装しました。
 
-有効なフラグを `ImageMap` タイプと `saveImageMap` 操作に追加。
+有効なフラグを`ImageMap`型と`saveImageMap`操作に追加しました。
 
 残りのファイルを最適化ジョブのサポートを追加しました。
 
-一括公開状態 `setAssetsPublishState` の更新を追加しました。
+一括発行状態の更新のために`setAssetsPublishState`を追加しました。
 
-Added `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
+`ImageServingPublishSettings`、`getImageServingPublishSettings`、`setImageServingPublishSettings`を追加しました。
 
-新しい操作と操作を優先する `saveMetadataField` ための非推奨 `createMetadataField` の `updateMetadataField` 操作です。
+`saveMetadataField`操作が廃止され、新しい`createMetadataField`操作と`updateMetadataField`操作が使用されるようになりました。
 
-バッチ `deleteAssetsParam` 削除操作を実装しました。
+`deleteAssetsParam`バッチ削除操作を実装しました。
 
-バッチ `moveAssetsParam` 移動操作を実装しました。
+`moveAssetsParam`バッチ移動操作を実装しました。
 
-操作を実装 `deleteMetadataField` しました。
+`deleteMetadataField`操作を実装しました。
 
-実装 `get/setImageRenderingPublishSettings`、 `get/set/create/updateVignettePublishFormat` 操作。
+`get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat`操作を実装。
 
-Implemented `getAssetCounts`.
+`getAssetCounts`を実装。
 
-アセットにメンバ `setImageSetMembers` ーを含めるためのサポ `RenderSet` ートが追加され `ImageSet` ました。
+`setImageSetMembers`に、`ImageSet`アセットに`RenderSet`メンバーを含めるサポートを追加しました。
 
-操作を追加 `replaceImage` しました。
+`replaceImage`操作を追加しました。
 
-操作を追加 `copyImage` しました。
+`copyImage`操作を追加しました。
 
-、およびの `setUrlModifier` 操作と `urlModifier/urlPostApplyModifier` フィールド `LayerViewInfo`を追加しました `TemplateInfo``WatermarkInfo`。
+`LayerViewInfo`、`TemplateInfo`、`WatermarkInfo`に`setUrlModifier`演算と`urlModifier/urlPostApplyModifier`フィールドを追加しました。
 
-操作を追加 `createDerivedAsset` しました。 現在、は画像アセットを参照する `ownerHandle` 必要があります。タイプは `AdjustedView` またはのいずれかです `LayerView`。
+`createDerivedAsset`操作を追加しました。 現在、`ownerHandle`は画像アセットを参照する必要があり、タイプは`AdjustedView`または`LayerView`です。
 
-操作を追加 `createTemplate` しました。 現在、このメソッドを呼び出して、テンプレートアセットまたは透かしアセットを作成できます。
+`createTemplate`操作を追加しました。 現在、このメソッドを呼び出して、テンプレートアセットまたは透かしアセットを作成できます。
 
-IPS会社設定、 `CompanySettings`WebサービスAPIに移植された設定。
+IPS会社設定`CompanySettings`、WebサービスAPIに移植されます。
 
-操作に `excludeByproducts` フィルターフラグを追加し `searchAssets` ました。 このフラグをtrueに設定すると、画像とPDFのリップ画像が実行され `PSDlayer` ます。
+`excludeByproducts`フィルターフラグを`searchAssets`操作に追加しました。 このフラグをtrueに設定すると、`PSDlayer`画像とPDFのリップ画像が実行されます。
 
-操作を追加 `getGenerationInfo` しました。
+`getGenerationInfo`操作を追加しました。
 
-操作に `SystemMessage` プロパティ名を追加し `getProperty` ました。
+`SystemMessage`プロパティ名を`getProperty`操作に追加しました。
 
-アセットタイプの文字列定数の一部を、対応するアセット情報フィールドに一致するように変更しました。
+アセットタイプ文字列定数の一部を、対応するアセット情報フィールドに一致するように変更しました。
 
-* WordDoc: Word
-* ExcelDoc: Excel
-* PowerPointDoc: PowerPoint
-* RTFDoc: Rtf
+* WordDoc:Word
+* ExcelDoc:Excel
+* PowerPointDoc:PowerPoint
+* RTFDoc:Rtf
 
 成功、警告およびエラーを要約するために、バッチ操作の結果の形式を変更しました。
 
-バッチメタデータ `batchSetAssetMetadata` 操作を実装しました。
+`batchSetAssetMetadata`バッチメタデータ操作を実装しました。
 
 アプリ固有のデータのサポートを実装しました。
 
-Photoshop処理のプロセスを制御するために、 `createTemplate`、 `extendLayers`およびアップロードジョブ `extractText` のブール型フラグのサポートを実装しました（ファイルの追加アップロードの変更と同様）。
+`createTemplate`、`extendLayers`、`extractText`のブール型フラグのサポートを実装し、Photoshop処理の処理を制御します（追加ファイルのアップロードの変更と同様）。
 
-実装 `setImageMaps` と `setZoomTargets` 操作
+`setImageMaps`操作と`setZoomTargets`操作を実装しました。
 
-操作を実装 `ViewerPreset` しました。 認識される型は次のとおりです。
+`ViewerPreset`操作を実装しました。 認識される型は次のとおりです。
 
 * `VideoPlayer` （ビデオはこれらのビューアのみを公開します）。
 * `Brochure`
@@ -114,15 +114,15 @@ Photoshop処理のプロセスを制御するために、 `createTemplate`、 `e
 * `Spin`
 * `Custom types`
 
-ビューアのスキンでは、次の2つのパラメータがサポートされています。 `skinFg` と `skinBg`。 バックエンドコードは、下位互換性を維持するために必要なすべての処理を行います。
+ビューアのスキンでは、次の2つのパラメータがサポートされています。`skinFg`と`skinBg`。 バックエンドコードは、下位互換性を維持するために必要なすべての処理を行います。
 
-操作を実装 `getAssociatedAssets` しました。
+`getAssociatedAssets`操作を実装しました。
 
-PDFのリッピングや画像の再最適化など、以前にアップロードしたプライマリソースファイルの再処理を許可するジョブの種類が追加されました。 `ReprocessAssets`
+PDFのリッピングや画像の再最適化など、以前にアップロードしたプライマリソースファイルの再処理を許可する`ReprocessAssets`ジョブタイプが追加されました。
 
-フィールド `PropertySetType` タイプの名前をに変更し `propertyType`ました。 これは、 `createPropertySetType` パラメーターと `getPropertySetType/getPropertySetTypes` 応答に影響します。
+`PropertySetType`フィールドタイプの名前を`propertyType`に変更しました。 これは`createPropertySetType`パラメーターと`getPropertySetType/getPropertySetTypes`応答に影響します。
 
-画像ユーザデータおよびその他の編集可能な画像フィールドの設定をサポートする `batchSetImageFields` 操作を実装しました。
+`batchSetImageFields`操作を導入し、画像ユーザーデータおよびその他の編集可能な画像フィールドの設定をサポートしました。
 
 47様々なアセット情報タイプにfileSizeフィールドを追加しました。
 
@@ -153,53 +153,53 @@ PDFのリッピングや画像の再最適化など、以前にアップロー�
 * `PowerPointInfo`
 * `RTFInfo`
 
-操作を実装 `getActivePublishContexts` しました。 この操作は、指定された会社のアクティブなパブリッシュサーバを持つパブリッシュコンテキスト名の配列を返します。 現在のパブリッシュコンテキスト名は次のとおりです。
+`getActivePublishContexts`操作を実装しました。 この操作は、指定された会社のアクティブなパブリッシュサーバを持つパブリッシュコンテキスト名の配列を返します。 現在のパブリッシュコンテキスト名は次のとおりです。
 
 * `ImageServing`
 * `ImageRendering`
 * `Video`
 
-操作を実装 `getSearchStrings` しました。 渡されたアセットの検索文字列の配列を返します。
+`getSearchStrings`操作を実装しました。 渡されたアセットの検索文字列の配列を返します。
 
-ジョブのロケールパラメーターと、API操作のロケールを設定するメカニズムを追加しました。 ロケール文字列は、次の形式で指定する必要があり `<language_code>[-<country_code>]`ます。 言語コードは、ISO-639で指定された小文字の2文字のコードで、オプションの国コードは、ISO-3166で指定された大文字の2文字のコードです。
+ジョブのロケールパラメーターと、API操作のロケールを設定するメカニズムを追加しました。 ロケール文字列は`<language_code>[-<country_code>]`の形式にする必要があります。 言語コードは、ISO-639で指定された小文字の2文字のコードで、オプションの国コードは、ISO-3166で指定された大文字の2文字のコードです。
 
-API操作のロケールを設定するために、 `authHeader` SOAPヘッダーにオプションのロケールパラメーターを追加しました。 このパラメーターが存在しない場合は、HTTPヘッダー `Accept-Language` が使用されます。 このヘッダも存在しない場合は、IPSサーバの既定のロケールが使用されます。
+API操作のロケールを設定するために、`authHeader` SOAPヘッダーにオプションのロケールパラメーターを追加しました。 このパラメーターが存在しない場合は、HTTPヘッダー`Accept-Language`が使用されます。 このヘッダも存在しない場合は、IPSサーバの既定のロケールが使用されます。
 
 厳密に型指定されたメタデータフィールドの取得/設定のサポートを追加しました。
 
-gzip応答制御用にSOAPおよびHTTPヘッダのサポートを実装。
+gzip応答制御用にSOAPおよびHTTPヘッダーのサポートを実装。
 
-に `gzipResponse` フラグを追加し `authHeader`ました。 これが存在しない場合、APIはHTTP `Accept-Encoding` ヘッダもチェックします。
+`gzipResponse`フラグを`authHeader`に追加しました。 存在しない場合は、APIはHTTP `Accept-Encoding`ヘッダもチェックします。
 
 searchAssetsで、厳密に型指定されたメタデータフィールドの条件のサポートが追加されました。
 
-* すべてのフィールドの種類に対して、文字列比較演算子( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)を使用して値を渡すことができます。
-* ブール値フィールドの場合、はopと共 `boolVal` に渡すことができ `Equals` ます。
-* Intフィールドの場合、数値比較演算子( `longVal` )で渡すことも、数値範囲演算( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)で渡すこ `minLong/maxLong``Between, NotBetween`ともできます。
-* 浮動小数点数フィールドの場合は、数値比較演算子( `doubleVal` )で渡すこ `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`とも、数値範囲演算( `minDouble/maxDouble``Between, NotBetween`)で渡すこともできます。
-* 日付フィールドでは、数値比較演算子( `dateVal` )で渡すことも、数値範囲演算( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals``Between, NotBetween`)でminDate/maxDateを渡すこともできます。
+* すべてのフィールドタイプに対して、文字列比較演算子(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)を使用して値を渡すことができます。
+* ブール型フィールドの場合は、`boolVal`を`Equals`操作と共に渡すことができます。
+* Intフィールドの場合、`longVal`は数値比較演算子(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)で渡すことも、`minLong/maxLong`は数値範囲演算(`Between, NotBetween`)で渡すこともできます。
+* 浮動小数点数フィールドの場合、`doubleVal`は数値比較演算子(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)で渡すか、`minDouble/maxDouble`は数値範囲演算(`Between, NotBetween`)で渡すことができます。
+* 日付フィールドでは、`dateVal`を数値比較演算子(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)で渡すか、minDate/maxDateを数値範囲演算(`Between, NotBetween`)で渡すことができます。
 
-説明、 `jobSubType`および `originalJobName` フィールドを `JobLog` 入力に追加しました。
+`JobLog`型に説明、`jobSubType`、`originalJobName`フィールドを追加しました。
 
 * `originalJobName` は、に送信されるジョブ名 `submitJob` です（一意のサフィックスやフォローオンジョブ名は含まれません）。
-* `jobSubType` は、現在、 `ImageServingPublishJob` ジョブ(またはのいずれかである `full`)でのみ使用され `increment, fullwithsearch,``fulloverride`ています。
+* `jobSubType` は、現在、 `ImageServingPublishJob` ジョブ（またはのいずれかである）でのみ使用され `full`ています `increment, fullwithsearch,`  `fulloverride`。
 * `description` は、現在、すべてのジョブタイプに対して空の文字列ですが、最終的には、アップロードパスなどの概要ジョブ情報が含まれます。
 
-また、次のフィールドは、との両方には含まれ `getJobLogs` ていません `getJobLogDetails`。 以前のバージョンでは、でのみ使用可能でした `getJobLogDetails`。
+さらに、次のフィールドは`getJobLogs`と`getJobLogDetails`の両方に含まれていません。 以前のバージョンでは、`getJobLogDetails`でのみ利用可能でした。
 
 * `endDate` （ジョブが完了している場合）。
 * `fileDuplicateCount` (以前は常に次 `0` と一緒でした `getJobLogs`)
-* `fileUpdateCount` (以前は常に、に含ま `0` れ `getJobLogs` ていました `fileSuccessCount`。 現在は、別々のフィールドに分割されています)。
+* `fileUpdateCount` (以前は、常ににに含ま `0` れ `getJobLogs` ていました `fileSuccessCount`。現在は、別々のフィールドに分割されています)。
 
-タイプにassetHandleフィールドを追加し `JobLogDetail` ました。
+assetHandleフィールドを`JobLogDetail`タイプに追加しました。
 
-オプションで説明パラメーターがに追加され `submitJob`ました。 これは、、、およびでの取得のために渡 `getScheduledJobs`さ `getActiveJobs`れ `getJobLogs`ます。
+オプションで`submitJob`に説明パラメーターを追加しました。 これは`getScheduledJobs`、`getActiveJobs`、`getJobLogs`での取得のために渡されます。
 
-「SKUシステム」フィールドが非推奨となりました。 フィールドをに渡す場合、このフィールドは無視 `SystemFieldCondition` され `searchAssets`ます。
+「SKUシステム」フィールドが非推奨となりました。 フィールドを`SystemFieldCondition`として`searchAssets`に渡すと、無視されます。
 
-に `excludeAssetTypeArray` フィルターを追加し `searchAssets`ました。
+`excludeAssetTypeArray`フィルターを`searchAssets`に追加しました。
 
-に `MaskInfo` タイプを追加し `Asset`ました。
+`MaskInfo`型を`Asset`に追加しました。
 
 IPSによる管理用に、新しいアセットタイプを追加しました。
 
@@ -220,25 +220,25 @@ IPSによる管理用に、新しいアセットタイプを追加しました�
    <td colname="col2"> <p>EPSファイルとPostScriptファイル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> WordDoc  </span> </p> </td> 
    <td colname="col2"> <p>.docで終わるファイルのMicrosoft Wordドキュメント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ExcelDoc  </span> </p> </td> 
    <td colname="col2"> <p>.xlsで終わるファイルのMicrosoft Excelドキュメント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PowerPointDoc  </span> </p> </td> 
    <td colname="col2"> <p>.pptで終わるファイルのMicrosoft PowerPointドキュメント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RTFDoc  </span> </p> </td> 
    <td colname="col2"> <p>.rtfで終わるファイルをアップロードする場合のRTFファイル </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` を個別に制御するためのオプションが、および `UploadUrlsJob` に追加されました。 既存のジョブは、3つの処理パイプラインのそれぞれに必要なパラメータを提供し、現在のジョブと同じように機能します。 元の `PostScriptOptions` ブロックは、IllustratorファイルとEPS/PSファイルの処理を設定するために使用されます。 オプションで、処理を指定するために特定のファイルオプションブロックを指定できます。 変更のリストには、次のものが含まれます。
+`UploadDirectoryJob`と`UploadUrlsJob`に、Postscript、Illustrator、PDFファイルの処理を個別に制御するオプションを追加しました。 既存のジョブは、3つの処理パイプラインのそれぞれに必要なパラメータを提供し、現在のジョブと同じように機能します。 元の`PostScriptOptions`ブロックは、IllustratorファイルとEPS/PSファイルの処理を設定するために使用されます。 オプションで、処理を指定するために特定のファイルオプションブロックを指定できます。 変更のリストには、次のものが含まれます。
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -251,7 +251,7 @@ Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> プロセス </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
@@ -270,7 +270,7 @@ Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` �
    <td colname="col4"> <p>ファイルを画像にラスタライズするときに有効になります。 元のファイルがこのように定義されている場合、ロゴのオーバーレイに対して透明な背景が作成されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> プロセス </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
@@ -284,22 +284,22 @@ Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` �
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> resolution  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;整数&gt; </span> </p> </td> 
    <td colname="col4"> <p>解像度のラスタライズ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> カラースペース </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>レンダリング用のTargetカラースペース。 </p> </td> 
+   <td colname="col4"> <p>レンダリング用のターゲットカラースペース。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>（オプション） </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha  </span> </p> <p>（オプション） </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>ファイルを画像にラスタライズするときに影響を受けます。 オーバーレイロゴを作成する際に元のファイルがこのように定義されている場合、透明な背景を作成します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions </span> </p> </td> 
+   <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> プロセス </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
@@ -313,31 +313,31 @@ Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` �
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> resolution  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;整数&gt; </span> </p> </td> 
    <td colname="col4"> <p>解像度のラスタライズ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> カラースペース </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>レンダリング用のTargetカラースペース。 </p> </td> 
+   <td colname="col4"> <p>レンダリング用のターゲットカラースペース。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> pdfCatalog  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;ブール&gt; </span> </p> </td> 
    <td colname="col4"> <p>レンダリング後に複数ページのPDFをeCatalogに結合するかどうかを定義します（初期設定はtrue）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> extractSearchWords  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;ブール&gt; </span> </p> </td> 
    <td colname="col4"> <p>後で検索サーバーに供給するために、PDFの単語をDBに抽出するかどうかを定義します（デフォルトはfalse）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-また、からクエリすることもでき `getScheduledJobs`ます。
+`getScheduledJobs`からクエリすることもできます。
 
-設定プロパティが次のいずれかの値を取るように変更されました。 `webservice.gzip.response`
+`webservice.gzip.response`設定プロパティが次のいずれかの値になるように変更されました。
 
 <table id="table_FCBBF1643DC84F5CBF81DCA6B552E0C4"> 
  <thead> 
@@ -361,7 +361,7 @@ Postscript、IllustratorおよびPDFファイルの処理 `UploadDirectoryJob` �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> いつも </span> </p> </td> 
-   <td colname="col2"> <p>ヘッダー値に関係なく、常にgzip応答。 この値は、デバッグ目的でのみ使用します。 </p> </td> 
+   <td colname="col2"> <p>ヘッダーの値に関係なく、常にgzip応答です。 この値は、デバッグ目的でのみ使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
