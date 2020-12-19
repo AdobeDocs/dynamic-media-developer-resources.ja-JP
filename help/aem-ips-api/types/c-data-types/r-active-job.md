@@ -63,7 +63,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブと共に送信された <span class="codeph"> ActiveJob</span> 型の元の名前。 </td> 
+   <td colname="col3">ジョブと共に送信された<span class="codeph"> ActiveJob</span>型の元の名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブログの詳細と電子メールローカライゼーションのロケール。 <p>ロケールは <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>（言語コードはISO-639で指定された小文字の2文字のコードで、オプションの国コードはISO-3166で指定された大文字の2文字のコードです）と指定します。 例えば、英語（米国）のロケール文字列は次のようになります。 <span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">ジョブログの詳細と電子メールローカライゼーションのロケール。 <p>ロケールは<span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>と指定します。言語コードはISO-639で指定された小文字の2文字のコードで、オプションの国コードはISO-3166で指定された大文字の2文字のコードです。 例えば、英語（米国）のロケール文字列は次のようになります。<span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブの説明は、最初はsubmitJob <span class="codeph"> で指定されています</span>。 </td> 
+   <td colname="col3">ジョブの説明は、最初は<span class="codeph"> submitJob</span>で指定されています。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -108,7 +108,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 進行状況</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> ジョブの進行状況（ジョブが完了するまでの間隔など） </td> 
+   <td colname="col3"> ジョブの進行状況（ジョブが完了するまでの間隔など）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -173,7 +173,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ExportJob</span> </td> 
-   <td colname="col3">以前にアップロードされたファイルの承認されたエクスポートを許可します。 詳しくは、 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> ジョブの書き出し</a>を参照してください。 </td> 
+   <td colname="col3">以前にアップロードされたファイルの承認されたエクスポートを許可します。 「<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">ジョブの書き出し</a>」を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>
