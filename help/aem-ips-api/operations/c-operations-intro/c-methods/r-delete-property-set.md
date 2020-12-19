@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-b54aa8c854de400a989b4957412ff42c}
+## 認証済みユーザータイプ{#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,11 +38,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(deletePropertySetParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-このコード例では、セットのハンドルをIPS Webサービスサーバに送信され `deletePropertySetParam` るフィールドとして使用し、プロパティセットを削除します。
+このコードの例では、プロパティセットを削除するために、セットのハンドルをIPS Webサービスサーバーに送信される`deletePropertySetParam`内のフィールドとして使用します。
 
 **リクエスト**
 
