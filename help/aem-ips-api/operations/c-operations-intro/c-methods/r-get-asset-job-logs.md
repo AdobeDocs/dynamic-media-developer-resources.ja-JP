@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## 認証済みユーザータイプ{#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | はい | ジョブログの配列。 |
+| ` *`jobLogArray`*` | `types:AssetJobLogArray` | はい | ジョブログ配列。 |
 
 ## 例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
