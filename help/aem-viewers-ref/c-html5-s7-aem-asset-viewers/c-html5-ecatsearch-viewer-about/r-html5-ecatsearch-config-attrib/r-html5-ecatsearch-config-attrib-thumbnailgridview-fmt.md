@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 62ec1b74-2a2b-4195-b2aa-ea27cd50fae6
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>コンポーネントがImage Serverからの画像の読み込みに使用する画像形式を指定します。 Image Serverおよびクライアントブラウザーでサポートされる任意の値を指定できます。 指定した形式が —alphaで終わる場合 <span class="codeph"></span>、画像は透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として処理されます。 </p> </td> 
+   <td> <p>コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 値は、Image Serverおよびクライアントブラウザーでサポートされる任意の値です。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
