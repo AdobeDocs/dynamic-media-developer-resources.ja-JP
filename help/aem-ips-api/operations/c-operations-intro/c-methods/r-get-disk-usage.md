@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 会社の構造（ファイル数など）に関する情報を返します。
 
-## 認証されたユーザータイプ {#authorized-user-types}
+## 認証済みユーザータイプ{#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,11 +38,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`diskUsageArray`*` | `types:DiskUsageArray` | はい | 会社のディスク使用のアレイ。 |
+| ` *`diskUsageArray`*` | `types:DiskUsageArray` | はい | 会社ディスク使用の配列。 |
 
 ## 例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-この要求の名前は誤った名前になります。 会社が使用しているディスク容量を反映するスカラー値を返すのではなく、会社の構造に関するその他の情報も取得します。
+この要求の名前は誤った結果になります。 会社が使用しているディスク領域の量を反映するスカラ値を返すのではなく、会社の構造に関するその他の情報も取得します。
 
 **リクエスト**
 
