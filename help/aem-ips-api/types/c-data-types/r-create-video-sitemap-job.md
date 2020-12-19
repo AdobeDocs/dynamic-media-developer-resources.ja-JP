@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">trueに設定した場合にサイトマップを生成 <span class="codeph"> します</span>。 <p><p>注意：サイトマップ生成設定が手動に設定され、forceUpdate <span class="codeph"></span> が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
+   <td colname="col3"><span class="codeph"> true</span>に設定されている場合にサイトマップを生成します。 <p><p>注意：サイトマップ生成設定が手動に設定され、<span class="codeph"> forceUpdate</span>が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>
