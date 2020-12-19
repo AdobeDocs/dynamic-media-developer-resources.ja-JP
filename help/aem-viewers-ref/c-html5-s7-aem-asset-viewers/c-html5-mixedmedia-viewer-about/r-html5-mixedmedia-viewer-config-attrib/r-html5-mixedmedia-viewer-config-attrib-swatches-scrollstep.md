@@ -8,22 +8,25 @@ topic: Dynamic media
 uuid: c7a9d85b-df3e-457c-9386-b6188a4aa4d4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 11%
 
 ---
 
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`HStepvStep`*, *``*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
    <td> <p>水平方向のステップ。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> vStep</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
    <td> <p>垂直方向のステップ。 </p> </td> 
   </tr> 
  </tbody> 
