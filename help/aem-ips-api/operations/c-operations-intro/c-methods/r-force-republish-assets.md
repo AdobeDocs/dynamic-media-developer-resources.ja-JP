@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-3d5a3e3afea748d69845de5c8c376448}
+## 認証済みユーザータイプ{#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,25 +45,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>リセットするアセットを含む会社に対する処理。 </p> </td> 
+   <td colname="col4"> <p>リセットするアセットを含む会社ーを処理します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>アセットのファイルを配信サーバに再公開することを指定します。 デフォルトは <span class="codeph"> trueです</span>。 </p> </td> 
+   <td colname="col4"> <p>アセットのファイルが配信サーバに再公開されることを指定します。 デフォルトは<span class="codeph"> true</span>です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>アセットを提供するために使用するカタログメタデータを同期して、最新のアセットであることを保証することを指定します。 このパラメーターは、同じレコードに対するほぼ同時更新で発生する可能性のある競合条件を解決するために使用されます。 デフォルトは <span class="codeph"> falseです</span>。 </p> </td> 
+   <td colname="col4"> <p>アセットを提供するために使用されるカタログメタデータが、現在のアセットであることを保証するために同期されることを指定します。 このパラメーターは、同じレコードに対するほぼ同時更新時に発生する可能性のある競合条件を解決するために使用されます。 デフォルトは<span class="codeph"> false</span>です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>発行ステータスがリセットされるアセットへのハンドルの配列。 </p> </td> 
@@ -81,8 +84,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> publishStateUpdateArray <span class="varname"></span></span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：PublishStateUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 種類：PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>パブリッシュ状態の更新の配列。 </p> </td> 
   </tr> 
