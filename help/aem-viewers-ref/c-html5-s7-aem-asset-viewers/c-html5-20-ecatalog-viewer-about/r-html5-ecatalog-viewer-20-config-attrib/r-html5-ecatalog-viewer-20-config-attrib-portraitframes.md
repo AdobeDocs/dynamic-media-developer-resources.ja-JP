@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: dd3777e1-4369-4f7e-a055-970b8eb3b018
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>splitを設定す <span class="codeph"> ると</span> 、ビューアをモバイルデバイスで縦置きの場合に、見開き2ページを別のページとして表示します。 デバイスの向き <span class="codeph"> に関係なく</span> 、見開き2ページを常にベタ画像として表示する場合は、solidに設定します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">split</span>に設定すると、モバイルデバイスを縦置きにして使用した場合に、重複ページが別のページとしてビューアに表示されます。 デバイスの向きに関係なく常に重複ページの見開きをベタ画像として表示する場合は、<span class="codeph"> solid</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
