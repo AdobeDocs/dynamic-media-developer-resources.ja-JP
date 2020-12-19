@@ -1,6 +1,6 @@
 ---
-description: フォルダーパスから始まるすべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
-seo-description: フォルダーパスから始まるすべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
+description: フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
+seo-description: フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
@@ -8,20 +8,23 @@ topic: Scene7 Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 8%
 
 ---
 
 
 # getFolders{#getfolders}
 
-フォルダーパスから始まるすべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
+フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
 
-## フォルダの目的 {#section-66e344d5333f42f1b060a0cba25935c3}
+## フォルダの目的{#section-66e344d5333f42f1b060a0cba25935c3}
 
-フォルダを使用すると、サブフォルダとアセットを整理できます。 すべてのフォルダとアセット名は一意である必要があります。 同じ名前を共有するフォルダーとアセットは、異なるフォルダー階層にある場合でも、名前空間の競合の原因となります。
+フォルダーを使用すると、サブフォルダーとアセットを整理できます。 すべてのフォルダーとアセット名は一意である必要があります。 同じ名前を共有するフォルダーとアセットが、異なるフォルダー階層にある場合でも、名前空間の競合を引き起こします。
 構文
 
-## 認証されたユーザータイプ {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## 認証済みユーザータイプ{#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,18 +38,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->ユーザーは、フォルダー上のデータを返すために、フォルダーへの読み取りアクセス権を持っている必要があります。
+>ユーザーがフォルダーにデータを返すには、フォルダーへの読み取りアクセス権が必要です。
 
 ## パラメータ {#section-0c1976503eaa418a9226b51667901176}
 
-**Input (getFoldersParam)**
+**入力(getFoldersParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 | ` *`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーを装うために使用します。 |
 | ` *`accessGroupHandle`*` | `xsd:string` | いいえ | 特定のグループでフィルターします。 |
-| ` *`folderPath`*` | `xsd:string` | いいえ | リーフレベルのフォルダーとすべてのサブフォルダーを取得するルートフォルダーです。 除外した場合は、会社のルートが使用されます。 |
+| ` *`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
 | ` *`assetTypeArray`*` | `types:StringArray` | いいえ | 指定したアセットタイプのみを含むフォルダを返します。 |
 | ` *`responseFieldArray`*` | `types:StringArray` | いいえ | 応答に含めるフィールドのリストが含まれます。 |
 | ` *`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答から除外するフィールドのリストが含まれます。 |
@@ -60,7 +63,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-このコードの例は、会社のすべてのフォルダと各フォルダに関する特定の情報を含む配列を返します。
+次のコードの例は、会社のすべてのフォルダと各フォルダに関する特定の情報を含む配列を返します。
 
 **リクエスト**
 
