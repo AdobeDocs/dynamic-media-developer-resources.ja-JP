@@ -1,6 +1,6 @@
 ---
-description: ノードの前後にXMLを設定します。
-seo-description: ノードの前後にXMLを設定します。
+description: ノードの前または後にXMLを設定します。
+seo-description: ノードの前または後にXMLを設定します。
 seo-title: insertBefore,insertAfter
 solution: Experience Manager
 title: insertBefore,insertAfter
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
-ノードの前後にXMLを設定します。
+ノードの前または後にXMLを設定します。
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-FXGノード要素が定義されている場合、こ `s7:elementID` のコマンドを使用して、そのノードの前または後にXMLフラグメントを追加できます。
+FXGノード要素に`s7:elementID`が定義されている場合、このコマンドを使用して、そのノードの前または後にXMLフラグメントを追加できます。
 
 ## 例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-次のようなグループタグがある場合：
+次のようなGroupタグがある場合：
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
