@@ -1,6 +1,6 @@
 ---
-description: 会社のジョブログの詳細を取得します。
-seo-description: 会社のジョブログの詳細を取得します。
+description: 会社ジョブログの詳細を取得します。
+seo-description: 会社ジョブログの詳細を取得します。
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 11%
 
 ---
 
 
 # getJobLogDetails{#getjoblogdetails}
 
-会社のジョブログの詳細を取得します。
+会社ジョブログの詳細を取得します。
 
-応答フィ `logMessage` ールドは、フィールドに基づいてローカライズさ `authHeader` れてい `locale` ます。
+`logMessage`応答フィールドは、`authHeader` `locale`フィールドに基づいてローカライズされます。
 
-## 認証されたユーザータイプ {#section-6f720a7baad64eb3805868c88af9a960}
+## 認証済みユーザータイプ{#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,52 +47,52 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> ジョブログが属する会社のハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> アクティブまたは完了したジョブのハンドル。 </td> 
+   <td colname="col4"> アクティブなジョブまたは完了したジョブのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 元 <span class="varname"> の名</span> 前 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> ジョブログの元の名前。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 1つ以上のログタイプ定数。 存在する場合は、指定したログタイプのみが返されます。 デフォルトでは、すべてのログタイプが返されます。 </td> 
+   <td colname="col4"> 1つ以上のログタイプ定数。 存在する場合は、指定したログタイプのみが返されます。 デフォルトでは、すべてのログの種類が返されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> recordsPerPage <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返すdetailArray項 <span class="codeph"> 目の</span> 最大数。 最大値とデフォルト値は1000です。 </td> 
+   <td colname="col4">返す<span class="codeph"> detailArray</span>項目の最大数。 最大値とデフォルト値は1000です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返すPerPage <span class="codeph"></span>-resultsのレコードのページ数。 デフォルト値は 1 です。 </td> 
+   <td colname="col4">返す<span class="codeph"> recordsPerPage</span>-resultsのページ番号。 デフォルト値は 1 です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 並べ <span class="varname"> 替え</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>Job Detail Sort Field定数値（DateまたはLogType）の1つ。 デフォルト値は「日付」です。 </p> </td> 
+   <td colname="col4"> <p>Job Detail Sort Field定数値の1つ（DateまたはLogType）。 デフォルト値は「日付」です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 並べ替 <span class="varname"> え方向</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>並べ替え方向の文字列定数の1つ。 デフォルト値は昇順です。 </p> </td> 
+   <td colname="col4"> <p>Sort Direction文字列定数の1つ。 デフォルト値は昇順です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +105,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-このコード例は、特定の会社のジョブログの詳細をすべて返します。 最初のアレイには、標準のジョブログの詳細が含まれます。 埋め込み配列は、ジョブに関する追加情報を返します。
+このコードのサンプルを使用すると、特定の会社のすべてのジョブログの詳細が返されます。 最初の配列には、標準ジョブログの詳細が含まれます。 埋め込み配列は、ジョブに関する追加情報を返します。
 
 **リクエスト**
 
