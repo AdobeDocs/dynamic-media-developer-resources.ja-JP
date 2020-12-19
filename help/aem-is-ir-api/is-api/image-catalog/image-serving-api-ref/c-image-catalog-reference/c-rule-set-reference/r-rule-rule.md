@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 6%
 
 ---
 
 
 # ルール{#rule}
 
-リクエストルール要素。 要素内の1つ以上のルールはオプション `<ruleset>` です。
+リクエストルール要素。 `<ruleset>`要素では、1つ以上のルールがオプションです。
 
-## Attributes {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
+## 属性{#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
 `OnMatch = "break" | "continue" | "error"`: オプション. 初期設定は「break」です。
 
 `Replace = "first" | "all"`: オプション. 初期設定は「first」です。
 
-`RequestType` = *&quot;`types`&quot;*:オプション。 ルールを適用する入力コンテキストを指定します。 *`types`* は、次の表に示す1つ以上のトークンを含むコンマ区切りリストです。 を指定しな `RequestType` い場合、サポートされているすべてのコンテキストで受け取ったリクエストにルールが適用されます。
+`RequestType` =  *&quot;`types`&quot;*:オプション。ルールを適用する入力コンテキストを指定します。 *`types`* はコンマ区切りのリストで、次の表に示す1つ以上のトークンを含めることができます。`RequestType`を指定しない場合は、サポートされているすべてのコンテキストで受信した要求にルールが適用されます。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -36,7 +39,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
   <tr> 
    <td> <p> <span class="codeph"> is</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
-   <td> <p>画像サービングの要求に適用 </p> </td> 
+   <td> <p>画像サービング要求に適用 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
@@ -51,14 +54,14 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
  </tbody> 
 </table>
 
-**`Name = "text"`**: オプション. デバッグログおよびエラーメ `<rule>` ッセージの要素を識別するために使用します。
+**`Name = "text"`**: オプション. デバッグログとエラーメッセージの`<rule>`要素を識別するために使用します。
 
-`  *`属性`* ="value"`:オプション。 `<rule>` 要素は、任意の組み合わせで次の属性を定義できます。 指定した場合、ルールが正しく一致すると、このリクエストの対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
+`  *`属性`* ="value"`:オプション。`<rule>` 要素は、任意の組み合わせで次の属性を定義できます。指定した場合、ルールが正しく一致すると、このリクエストの対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> 属 </span> 性 </b> </th> 
+   <th class="entry"> <b> <span class="varname"> 属性  </span> </b> </th> 
    <th class="entry"> <p>対応する画像カタログ属性 </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +80,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix  </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,17 +107,17 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 詳しくは、対応する画像カタログ属性の説明を参照してください。
 
-有効期限属性は、デフォルトの属性値のみを上書きします。 特定の値がリクエストに適用される場合、上 `catalog::Expiration` 書きは無視されます。
+有効期限属性は、デフォルトの属性値のみを上書きします。 特定の`catalog::Expiration`値が要求に適用される場合、上書きは無視されます。
 
 ## データ {#section-8fce013a4c724da58af3fee4e7a90e72}
 
 <table id="simpletable_4F1C03671DA942A3A332B2C686A63C52"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;式&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;expression&gt;</span> </p></td> 
   <td class="stentry"> <p>オプション </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;置換&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;substitution&gt;</span> </p></td> 
   <td class="stentry"> <p>オプション </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -129,10 +132,10 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 ## 説明 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-との両方を指 `<expression>` 定し、 `<substitution>` 取得したサブ文字列が使用されない場合、一致した最初のサブ文字列がに置換されま `<substitution>`す。
+`<expression>`と`<substitution>`の両方が指定され、取得したサブ文字列が使用されない場合、一致した最初のサブ文字列が`<substitution>`に置き換えられます。
 
-を指 `<expression>` 定しない場合、パスは一致し、 `<substitution>` パスの末尾に追加されます。
+`<expression>`を指定しない場合、すべてのパスは一致し、`<substitution>`がパスの末尾に追加されます。
 
-を指定 `<substitution>` しない場合、パスまたはクエリー変換は行われませんが、指定したカタログ属性は上書きされます。 が空の場 `<substitution>` 合、一致したサブ文字列が削除されます。
+`<substitution>`を指定しない場合、パスやクエリの変換は行われませんが、指定したカタログ属性はすべて上書きされます。 `<substitution>`が空の場合、一致したサブ文字列は削除されます。
 
-は、一 `<addressfilter>` 致が発生した場合、およびクエリルールが適用される前にのみ適用されます。
+`<addressfilter>`は、一致が発生した場合、およびクエリルールが適用される前にのみ適用されます。
