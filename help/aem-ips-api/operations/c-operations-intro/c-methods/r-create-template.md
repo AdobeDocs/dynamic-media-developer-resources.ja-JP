@@ -1,6 +1,6 @@
 ---
-description: 複数のテキストおよび画像レイヤーを含むことができるレイヤー画像を作成します。
-seo-description: 複数のテキストおよび画像レイヤーを含むことができるレイヤー画像を作成します。
+description: 複数のテキストと画像レイヤーを含めることができるレイヤー画像を作成します。
+seo-description: 複数のテキストと画像レイヤーを含めることができるレイヤー画像を作成します。
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
 
 
 # createTemplate{#createtemplate}
 
-複数のテキストおよび画像レイヤーを含むことができるレイヤー画像を作成します。
+複数のテキストと画像レイヤーを含めることができるレイヤー画像を作成します。
 
-このパラ `urlModifier` メータは、URL上でユーザが指定したコマンドの前に適用されるImage Serverカタログに格納されるImage Serverプロトコルコマンドを指定します。 このパラメ `urlPostApplyModifier` ーターは、URLコマンドの後に適用されるプロトコルコマンドを指定します。このコマンドは、ユーザーが指定した設定の競合を上書きします。
+`urlModifier`パラメータは、URL上でユーザが指定したコマンドの前に適用するImage Serverカタログに保存されるImage Serverプロトコルコマンドを指定します。 `urlPostApplyModifier`パラメーターは、URLコマンドの後に適用するプロトコルコマンドを指定します。これにより、ユーザーが入力した設定の競合が上書きされます。
 
-## 認証されたユーザータイプ {#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 認証済みユーザータイプ{#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,9 +38,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandle`*` | `xsd:string` | はい | テンプレートが属する会社。 |
 | ` *`folderHandle`*` | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドルです。 |
 | ` *`name`*` | `xsd:string` | はい | テンプレート名。 |
-| ` *`type`*` | `xsd:string` | はい | テンプレートタイプ。 |
-| ` *`urlModifier`*` | `xsd:string` | はい | URL上でユーザが指定したコマンドの前に適用される、ISカタログに保存されたImage Serverコマンドを指定します。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。このコマンドは、ユーザーが指定した設定の競合を上書きします。 |
+| ` *`type`*` | `xsd:string` | はい | テンプレートの種類。 |
+| ` *`urlModifier`*` | `xsd:string` | はい | URLでユーザが指定したコマンドの前に適用する、ISカタログに格納されたImage Serverコマンドを指定します。 |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。ユーザーが入力した設定に矛盾がある場合は、このコマンドによって上書きされます。 |
 
 **出力(createTemplateParam)**
 
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-このコード例では、ハンドルで指定されたフォルダーに、名前が、、、およびのテンプ `APIcreateTemplate`レートを作 `urlModifier`成していま `urlPostApplyModifier`す。 応答は、新しく作成されたテンプレートにハンドルを返します。
+このコードのサンプルを使用すると、ハンドル名`APIcreateTemplate`、`urlModifier`、および`urlPostApplyModifier`を持つ、指定されたフォルダーにテンプレートを作成できます。 応答は、新しく作成されたテンプレートにハンドルを返します。
 
 **リクエスト**
 
