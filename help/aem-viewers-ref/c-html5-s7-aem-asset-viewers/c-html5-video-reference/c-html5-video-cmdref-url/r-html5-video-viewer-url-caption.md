@@ -1,24 +1,27 @@
 ---
-description: ビデオビューアのURLコマンド。
-seo-description: ビデオビューアのURLコマンド。
-seo-title: キャプション
+description: ビデオビューアのURLコマンド
+seo-description: ビデオビューアのURLコマンド
+seo-title: caption
 solution: Experience Manager
-title: キャプション
+title: caption
 topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 8%
 
 ---
 
 
 # caption{#caption}
 
-ビデオビューアのURLコマンド。
+ビデオビューアのURLコマンド
 
 ` caption= *`ファイル`*[,0|1]`
 
-Viewerは、ホストされているWebVTTファイルを使用したクローズドキャプションをサポートします。 キューと領域の重なりはサポートされていません。 次のキュー位置演算子がサポートされています。
+ビューアでは、ホストされているWebVTTファイルを使用したクローズドキャプションがサポートされます。 キューと領域の重なりはサポートされていません。 サポートされるキュー位置の演算子は次のとおりです。
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -33,31 +36,31 @@ Viewerは、ホストされているWebVTTファイルを使用したクロー�
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>テキストの整列 </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> テキストの整列を制御します。 </p> <p>初期設定は <span class="codeph"> middleです</span>。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> left|right|middle|開始|end</span> </p> </td> 
+   <td colname="col4"> <p> テキストの整列方法を制御します。 </p> <p>初期設定は<span class="codeph"> middle</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>テキスト位置 </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> キャプションテキストの先頭に対するVideoPlayerコンポーネントへのインセットの割合。 </p> <p>初期設定は0%です。 </p> </td> 
+   <td colname="col3"> <p> 0% ～ 100% </p> </td> 
+   <td colname="col4"> <p> VideoPlayerコンポーネント内でキャプションテキストの先頭に挿入される領域の割合。 </p> <p>初期設定は0%です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>行サイズ </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0% ～ 100% </p> </td> 
    <td colname="col4"> <p> キャプションに使用するビデオの幅の割合。 </p> <p>初期設定は100%です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>行位置 </p> </td> 
+   <td colname="col2"> <p>行の位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> ページ上の行の位置を指定します。 </p> <p>整数（パーセント記号なし）で表した場合は、テキストが表示される上端からの行数です。 </p> <p>パーセント値（最後の文字がパーセント記号）の場合、キャプションテキストは表示領域からその割合だけ下に表示されます。 </p> <p>初期設定は100%です。 </p> </td> 
+   <td colname="col4"> <p> ページ上の行の位置を決定します。 </p> <p>整数値（パーセント記号なし）で表した場合は、テキスト表示位置の上端からの行数になります。 </p> <p>割合（末尾の文字がパーセント記号）の場合は、キャプションテキストは表示領域からその割合だけ下の位置に表示されます。 </p> <p>初期設定は100%です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTTファイルに存在するその他のWebVTT機能はサポートされていませんが、キャプションが妨げられることはありません。
+WebVTTファイルに存在するその他のWebVTT機能はサポートされませんが、キャプション設定に影響を及ぼすことはありません。
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
@@ -67,7 +70,7 @@ WebVTTファイルに存在するその他のWebVTT機能はサポートされ�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> デフォルトのキャプション状態を指定します(有効な場合は1 <span class="codeph"></span>)。 </p> </td> 
+   <td colname="col2"> <p> 初期設定のキャプション状態を指定します（有効な場合は<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
