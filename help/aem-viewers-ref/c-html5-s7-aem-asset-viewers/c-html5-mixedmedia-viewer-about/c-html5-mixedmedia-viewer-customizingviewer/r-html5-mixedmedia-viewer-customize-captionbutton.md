@@ -1,6 +1,6 @@
 ---
-description: クローズドキャプションの表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
-seo-description: クローズドキャプションの表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
+description: クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
+seo-description: クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
 seo-title: キャプションボタン
 solution: Experience Manager
 title: キャプションボタン
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
 
-# Caption button{#caption-button}
+# キャプションボタン{#caption-button}
 
-クローズドキャプションの表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
+クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -44,7 +47,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -59,21 +62,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレク `state` ターと選択された属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、はキャプシ `selected='true'` ョンが表示されている状態に対応し、キャプションが非表 `selected='false'` 示の場合に使用されます。
+>このボタンでは、`state`属性セレクターとselected属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`はキャプションが表示されている場合の状態に対応し、`selected='false'`はキャプションが非表示の場合に使用されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 — 28 x 28ピクセルで、コントロールバーの上から4ピクセルおよび右端から68ピクセルの位置に配置し、選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示するクローズドキャプションボタンを設定します。
 
