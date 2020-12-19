@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 397c1af0-f806-4555-83fa-ec7548b59a60
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 1%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_C6F4C663099F40698874731590A22924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> highlight|cursor </span> </p> </td> 
-   <td colname="col2"> <p> 使用するナビゲーションフレームの種類を指定します。 cursorに設定すると、 <span class="codeph"> コンポ </span>ーネントは固定サイズの参照カーソルを使用します。 デスクトップシステムとタッチデバイスでは、異なるカーソルアートを使用できます。これは、.s7cursor <span class="codeph"> CSSクラスと </span> input=mouse|touch属性セレクターを使用して制御 <span class="codeph"></span> します。 デスクトップシステムでは、アンカーポイントはカーソル領域の中央に設定され、タッチデバイスでは、アンカーはカーソルの下中央に配置されます。 highlightに設定すると、コ <span class="codeph"> ンポ </span>ーネントは可変サイズのナビゲーションフレームを使用します。フレームのサイズと形状は、ズーム率とフライアウトビューのサイズによって異なります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> highlight|cursor  </span> </p> </td> 
+   <td colname="col2"> <p> 使用するナビゲーションフレームの種類を指定します。 <span class="codeph">カーソル</span>に設定した場合、コンポーネントは固定サイズの参照カーソルを使用します。 デスクトップシステムとタッチデバイスには、異なるカーソルアートを持つことができます。これは、<span class="codeph"> .s7cursor </span> CSSクラスと<span class="codeph"> input=mouse|touch </span>属性セレクターを使用して制御します。 デスクトップシステムでは、アンカーポイントはカーソル領域の中央に設定され、タッチデバイスでは、アンカーはカーソルの下中央に配置されます。 <span class="codeph"> highlight </span>に設定すると、コンポーネントは可変サイズのナビゲーションフレームを使用します。フレームのサイズと形状は、ズーム率とフライアウト表示のサイズに応じて異なります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ショー </span> 時間 </span> </p> </td> 
-   <td colname="col2"> <p> ユーザーがアクティブにした後に、ハイライトまたはカーソルがフェードインするまでの時間（秒）を設定します。 フェードインはタッチデバイスにのみ適用されます。デスクトップシステムでは、コンポーネントでは無視されます。 </p> <p>フェードインは、次のUI要素に適用されます。ハイライトフレーム、固定カーソル、オーバーレイ(オーバーレ <span class="codeph"> イパラ </span> メータが1に設定され <span class="codeph"> ている場 </span>合)。 フライアウトビューのアニメーションは、ハイライト/カーソルのフェードインアニメーションが完了した後にのみ開始されます。 フェードアウトアニメーションはありません。 ユーザがフライアウトを非アクティブにすると、対応するUI要素（カーソル、ハイライト、オーバーレイ）が即座に非表示になります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
+   <td colname="col2"> <p> ユーザーがアクティブにした後に、ハイライトまたはカーソルのフェードインにかかる時間（秒）を設定します。 フェードインはタッチデバイスにのみ適用されます。デスクトップシステムでは、コンポーネントでは無視されます。 </p> <p>フェードインが次のUI要素に適用されます。ハイライトフレーム、固定カーソル、オーバーレイ（<span class="codeph"> overlay </span>パラメーターが<span class="codeph"> 1 </span>に設定されている場合） フライアウト表示のアニメーションは、ハイライト/カーソルのフェードインアニメーションが完了した後にのみ開始します。 フェードアウトアニメーションはありません。 ユーザがフライアウトを無効にすると、対応するUI要素（カーソル、ハイライト、オーバーレイ）は即座に非表示になります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 
-   <td colname="col2"> <p> ナビゲーションフレームの位置を制御します。 </p> <p>onimageに設定した場 <span class="codeph"> 合、ナ </span> ビゲーションフレームは、メインビュー内の実際の画像領域内にのみ配置できます。 </p> <p>freeを設定すると、ユ <span class="codeph"> ーザは </span> 画像コンテンツの外部にあっても、論理メインビュー領域の任意の場所にナビゲーションフレームを移動できます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
+   <td colname="col2"> <p> ナビゲーションフレームの位置を制御します。 </p> <p>image </span>の<span class="codeph">に設定した場合、ナビゲーションフレームはメイン表示内の実際の画像領域内にのみ配置できます。 </span></p> <p><span class="codeph"> free </span>に設定すると、ユーザは、論理的なメイン表示領域内の任意の場所（画像コンテンツの外部も含む）にナビゲーションフレームを移動できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
