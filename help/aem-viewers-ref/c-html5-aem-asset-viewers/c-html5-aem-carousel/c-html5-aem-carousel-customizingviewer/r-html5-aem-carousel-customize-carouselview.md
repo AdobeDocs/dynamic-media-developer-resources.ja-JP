@@ -1,20 +1,23 @@
 ---
-description: メインビューは、バナーの画像で構成されます。
-seo-description: メインビューは、バナーの画像で構成されます。
-seo-title: カルーセルビュー
+description: メイン表示は、バナーの画像で構成されます。
+seo-description: メイン表示は、バナーの画像で構成されます。
+seo-title: カルーセル表示
 solution: Experience Manager
-title: カルーセルビュー
+title: カルーセル表示
 topic: Dynamic media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
 
-# カルーセルビュー{#carousel-view}
+# カルーセル表示{#carousel-view}
 
-メインビューは、バナーの画像で構成されます。
+メイン表示は、バナーの画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 — メイン表示を透明にするには、次のように記述します。
 
 ```
 .s7carouselviewer .s7carouselview { 
