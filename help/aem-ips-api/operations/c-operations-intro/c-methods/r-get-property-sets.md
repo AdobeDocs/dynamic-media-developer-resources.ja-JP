@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-da858360b72941bfa8d9558b4da7d4da}
+## 認証済みユーザータイプ{#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`typeHandle`*` | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | はい | データベースオブジェクトに連結されたデータのプライマリ所有者です。 |
+| ` *`primaryOwnerHandle`*` | `xsd:string` | はい | データベースオブジェクトに連結されたデータの主所有者です。 |
 | ` *`secondaryOwnerHandle`*` | `xsd:string` | いいえ | データのセカンダリ所有者（オプション）。 |
 
 **出力(getPropertySetsReturn)**
@@ -48,7 +51,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-1358af974eab4259864910337a6f0bd2}
 
-このコードサンプルは、タイプハンドルで指定された、主所有者のプロパティセットを返します。
+このコードサンプルは、型ハンドルで指定された、主所有者のプロパティセットを返します。
 
 **リクエスト**
 
