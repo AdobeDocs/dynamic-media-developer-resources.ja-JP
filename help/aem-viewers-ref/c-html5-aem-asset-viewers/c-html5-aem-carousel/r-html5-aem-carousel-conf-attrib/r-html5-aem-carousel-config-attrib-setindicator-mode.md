@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cfb549c2-e0cf-46c3-b5b7-219c8c1bee94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> 設定インジケータのレンダリングスタイルを設定します。 </p> <p>「dotted」に設定すると <span class="codeph"></span> 、コンポーネントはすべてのページに対して同じインジケータをレンダリングします。 </p> <p>numericに設定すると <span class="codeph"></span> 、各インジケーター要素内に1から始まるページ番号が配置されます。 </p> <p>数値操 <span class="codeph"> 作モード</span> は、タッチ入力が可能なデバイスではサポートされていません。 その代わりに、このようなデバイスでは <span class="codeph"> 点線</span> が使用されます。 </p> </td> 
+   <td colname="col2"> <p> 設定インジケーターのレンダリングスタイルを設定します。 </p> <p><span class="codeph"> dotted</span>に設定すると、コンポーネントはすべてのページに対して同じインジケーターをレンダリングします。 </p> <p><span class="codeph"> numeric</span>に設定すると、各インジケーター要素内に1から始まるページ番号が配置されます。 </p> <p><span class="codeph">数値</span>操作モードは、タッチ入力が可能なデバイスではサポートされません。 その代わりに、コンポーネントはこのようなデバイスで<span class="codeph"> dotted</span>を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
