@@ -1,28 +1,31 @@
 ---
-description: メインビューは、静的な画像、フライアウトビューで表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-description: メインビューは、静的な画像、フライアウトビューで表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-title: フライアウトズームビュー
+description: メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
+seo-description: メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
+seo-title: フライアウトズーム表示
 solution: Experience Manager
-title: フライアウトズームビュー
+title: フライアウトズーム表示
 topic: Dynamic media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
 
-# Flyout zoom view{#flyout-zoom-view}
+# フライアウトズーム表示{#flyout-zoom-view}
 
-メインビューは、静的な画像、フライアウトビューで表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
+メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-表示中の画像の寸法がフライアウトズームビューの寸法と一致しない場合、画像コンテンツはフライアウトズームビューの長方形の表示領域の中央に配置されます。
+表示中の画像の寸法がフライアウトズーム表示の寸法と一致しない場合、画像コンテンツはフライアウトズーム表示の矩形の表示領域内に中央配置されます。
 
-**メインビューのCSSプロパティ**
+**メイン表示のCSSプロパティ**
 
-メインビューの外観は、以下のCSSクラスセレクターを使用して制御します。
+メイン表示の外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -37,13 +40,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> メイン表示の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 — メイン表示を透明にするには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -51,9 +54,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**フライアウトビューのCSSプロパティ**
+**フライアウト表示のCSSプロパティ**
 
-フライアウトビューの外観は、以下のCSSクラスセレクターを使用して制御します。
+フライアウト表示の外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom
@@ -69,28 +72,28 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの左上隅を基準とした、フライアウトビューの水平方向の位置。 </p> </td> 
+   <td colname="col2"> <p> メイン表示の左上隅を基準とした、フライアウト表示の水平方向の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの左上隅を基準とした、フライアウトビューの垂直方向の位置。 </p> </td> 
+   <td colname="col2"> <p> メイン表示の左上隅を基準とする、フライアウト表示の垂直方向の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> フライアウトビューの幅。 </p> </td> 
+   <td colname="col2"> <p> フライアウト表示の幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フライアウトビューの高さ。 </p> </td> 
+   <td colname="col2"> <p>フライアウト表示の高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>フライアウトビューの境界線。 </p> </td> 
+   <td colname="col2"> <p>フライアウト表示の境界線。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 600 x 400ピクセルで、前の例に示した512 x 288のメインビューの右に100ピクセルのオフセットで表示するフライアウトビューを設定するには、次のように記述します。
+例 — 600 x 400ピクセルにフライアウト表示を設定し、前の例に示す512 x 288のメイン表示の右から100ピクセルオフセットして表示するには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -101,15 +104,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**メインビューでのハイライトのCSSプロパティ**
+**メイン表示でのハイライトのCSSプロパティ**
 
-メインビューでのハイライトの外観は、以下のCSSクラスセレクターを使用して制御します。
+メイン表示でのハイライトの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-CSSを使用して、背景、境界線、透明度および類似の属性を制御できます。 ただし、ハイライトのDOM要素のサイズと位置は、ビューアのロジックで管理されます。 CSSによる上書きはサポートされていません。
+CSSを使用して、背景、境界線、透明度および同様の属性を制御できます。 ただし、ハイライトのDOM要素のサイズと位置は、ビューアのロジックに管理されます。 CSSでの上書きはサポートされていません。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -120,12 +123,12 @@ CSSを使用して、背景、境界線、透明度および類似の属性を�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> ハイライトのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p> ハイライトの不透明度 </p> <p>Internet Explorer 8の場合は、 <span class="codeph"> filter:alpha(opacity-...) )；を使用します。 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
+   <td colname="col2"> <p> ハイライトの不透明度 </p> <p>Internet Explorer 8の場合は、<span class="codeph"> filter:alpha(opacity-...) )；を使用します。</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
@@ -147,7 +150,7 @@ CSSを使用して、背景、境界線、透明度および類似の属性を�
 
 **カーソルのCSSプロパティ**
 
-parameterをに設 `highlightmode` 定すると、メ `cursor`インビューのハイライトは固定サイズのカーソルアートワークに置き換えられ、これはCSSクラスセレクターを使用して制御します。
+`highlightmode`パラメーターを`cursor`に設定すると、メイン表示内のハイライトは、固定サイズのカーソルのアートワークに置き換えられます。これは、CSSクラスセレクターで制御します。
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -156,7 +159,7 @@ parameterをに設 `highlightmode` 定すると、メ `cursor`インビューの
 
 CSSを使用して、背景の画像とサイズを制御できます。
 
-適用可能なCSSプロパティは次のとおりです。
+適用できるCSSプロパティは次のとおりです。
 
 <table id="table_A86F1E4DE9E84E11AF47373ADC63A459"> 
  <thead> 
@@ -167,27 +170,27 @@ CSSを使用して、背景の画像とサイズを制御できます。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>カーソルのアートワーク。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>カーソルの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>カーソルの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col2"> <p>カーソルの高さ </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->カーソルは、属性セレ `input` クターをサポートします。このセレクターは、デバイスごとに異なるカーソルのアートワークとサイズを適用するのに使用できます。 特に、はデスクトップ `input="mouse"` システムに対応し、タッチデバ `input="touch"` イスに対応しています。
+>カーソルでは、`input`属性セレクターがサポートされます。このセレクターは、デバイスごとに異なるカーソルのアートワークとサイズを適用するのに使用できます。 特に、`input="mouse"`はデスクトップシステムに対応し、`input="touch"`はタッチデバイスに対応する。
 
 **オーバーレイのCSSプロパティ**
 
-このパラメ `overlay` ーターをに設定す `1`ると、ハイライトフレームまたはカーソル画像の周囲の領域は、CSSクラスセレクターを使用して制御します。
+`overlay`パラメーターを`1`に設定した場合、ハイライトフレームまたはカーソル画像の周囲の領域は、CSSクラスセレクターを使用して制御します。
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,25 +206,25 @@ CSSを使用して、背景の画像とサイズを制御できます。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>オーバーレイのカラー </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
    <td colname="col2"> <p>オーバーレイの不透明度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**ヒントメッセージのCSSプロパティ**
+**チップメッセージのCSSプロパティ**
 
-ヒントメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
+チップメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-CSSを使用して、フォントスタイル、サイズの外観、垂直方向のオフセットを設定できます。 ただし、水平方向の位置揃えは、ビューアのロジックで管理されます。 またはプロパティを使用したCSS `left` からの `right` 上書きはサポートされていません。
+フォントスタイル、サイズの外観、および垂直方向のオフセットは、CSSで設定できます。 ただし、水平方向の位置揃えはビューアのロジックに管理されます。 `left`プロパティまたは`right`プロパティを使用したCSSからの上書きはサポートされていません。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -233,18 +236,18 @@ CSSを使用して、フォントスタイル、サイズの外観、垂直方�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>メインビューの下端からのオフセット。 </p> </td> 
+   <td colname="col2"> <p>メイン表示の下端からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>テキストの色。 </p> </td> 
+   <td colname="col2"> <p>テキストカラー </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>フォント名。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>フォント名 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
@@ -252,23 +255,23 @@ CSSを使用して、フォントスタイル、サイズの外観、垂直方�
    <td colname="col2"> <p>メッセージテキストの周囲のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>メッセージテキストの背景の塗りのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>メッセージテキストの背景の境界線の半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8の場合は、 <span class="codeph"> filter:alpha(opacity-...) )を使用します。 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
+   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8の場合は、<span class="codeph"> filter:alpha(opacity-...) ) </span>を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヒントメッセージはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
+ヒントメッセージはローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)を参照してください。
 
-例 — 半透明のチップメッセージを、白のArial 12pxフォント、メインビューの下端から50ピクセルのオフセット、パディングおよび角丸の境界線で設定するには、次のように記述します。
+例 — 半透明のチップメッセージを、白のArial 12pxフォント、メイン表示の下端から50ピクセルのオフセット、パディングおよび角丸付きの境界線付きで設定するには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
