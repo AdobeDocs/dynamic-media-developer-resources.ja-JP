@@ -1,6 +1,6 @@
 ---
-description: アセットの公開状態の更新に使用されるパラメータ。
-seo-description: アセットの公開状態の更新に使用されるパラメータ。
+description: アセットの公開状態を更新するために使用されるパラメータ。
+seo-description: アセットの公開状態を更新するために使用されるパラメータ。
 seo-title: PublishStateUpdate
 solution: Experience Manager
 title: PublishStateUpdate
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: b08acff6-2861-41aa-8e25-cecf7e36ad53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
 
 # PublishStateUpdate{#publishstateupdate}
 
-アセットの公開状態の更新に使用されるパラメータ。
+アセットの公開状態を更新するために使用されるパラメータ。
 
 構文
 
@@ -22,6 +25,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | アセットハンドル。 |
-| ` *`publishState`*` | `xsd:string` | 新しい公開状態。 |
+| ` *`assetHandle`*` | `xsd:string` | アセットハンドル |
+| ` *`publishState`*` | `xsd:string` | 新しい発行状態。 |
 
