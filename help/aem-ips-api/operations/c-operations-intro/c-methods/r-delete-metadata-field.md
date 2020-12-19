@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-63e7d17f4b434995a872838bfff7f9ff}
+## 認証済みユーザータイプ{#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +33,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除するメタデータフィールドを含む会社のハンドル。 |
-| ` *`fieldHandle`*` | `xsd:string` | はい | 削除するメタデータフィールドのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 削除するメタデータフィールドを含む会社へのハンドル。 |
+| ` *`fieldHandle`*` | `xsd:string` | はい | 削除するメタデータフィールドへのハンドル。 |
 
 **出力(deleteMetadataFieldParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-このコードサンプルを使用すると、会社のメタデータフィールドを削除できます。 この操作は、会社のハンドルとメタデータハンドルを、IPS Webサー `deleteMetadataFieldParam` バに渡されるフィールドとして使用して実行されます。
+このコードサンプルは、会社のメタデータフィールドを削除します。 この操作は、IPS Webサービスサーバに渡される`deleteMetadataFieldParam`内のフィールドとして、会社ハンドルとメタデータハンドルを使用して、この操作を実行します。
 
 **リクエスト**
 
