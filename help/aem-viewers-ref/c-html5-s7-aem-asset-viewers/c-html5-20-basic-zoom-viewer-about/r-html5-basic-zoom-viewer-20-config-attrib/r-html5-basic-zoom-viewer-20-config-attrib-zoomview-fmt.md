@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b118e441-f128-4dfd-a82e-62ec4d1ebf84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントがImage Serverからの画像の読み込みに使用する画像形式を指定します。 指定した形式が「 —alpha」で終わる場合、画像は透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として処理されます。 コンポーネントの背景色はデフォルトで白です。 したがって、透明にするには、CSSプロパティbackground-colorをtransparentに設定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 末尾が「 —alpha」の形式を指定すると、画像が透明のコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 コンポーネントの背景はデフォルトで白になります。 したがって、透明にするには、CSSプロパティbackground-colorをtransparentに指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
