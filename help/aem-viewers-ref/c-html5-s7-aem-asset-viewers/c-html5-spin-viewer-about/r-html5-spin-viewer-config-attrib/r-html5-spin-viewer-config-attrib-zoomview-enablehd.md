@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6d9541be-d46c-47a7-b75d-879fbba8c7e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> devicePixelRatioが <span class="codeph"> 1を超えるデバイス(iPhone4など高密度ディスプレイを搭載したデバイス</span><span class="codeph"></span>)の最適化の有効化、制限または無効化を行います。 アクティブにすると、デバイスのピクセル比が <span class="codeph"> 1の場合と同じように、コンポーネントはISイメージリクエストのサイズを制限し</span> 、帯域幅を削減します。 </p> <p>以下の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイのデバイス）の最適化の有効化、制限または無効化を行います。 有効にすると、デバイスのピクセル率が<span class="codeph"> 1</span>のみであるかのようにコンポーネントでIS画像リクエストのサイズが制限され、帯域幅が減少します。 </p> <p>以下の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
-   <td colname="col2"> <p> limit設定を使用すると、指定した制限までの高ピクセル密度のみが有効になります。 </p> <p>以下の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> limit設定を使用すると、指定した制限値までの高ピクセル密度が有効になります。 </p> <p>以下の例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 
-ビューアでこの設定属性を使用し、ビューアのサイズが1000 x 1000の場合、次の結果が期待されます。
+ビューアでこの設定属性を使用し、ビューアサイズが1000 x 1000の場合、次のような結果が予測されます。
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 
@@ -63,12 +66,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>ピクセル密度は常に1を使用し、デバイスのHD機能は無視されます。 したがって、要求される画像は常に1000 x 1000です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> limit&lt;数値&gt;</span> </p> </td> 
-   <td colname="col2"> <p>デバイスのピクセル密度は、結果の画像が指定された制限を下回る場合にのみ要求され、提供されます。 </p> <p>制限値は、幅または高さの寸法に適用されます。 </p> <p> 
+   <td colname="col1"> <p><span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
+   <td colname="col2"> <p>デバイスのピクセル密度が要求され、提供されるのは、結果の画像が指定された制限を下回る場合のみです。 </p> <p>制限値は、幅または高さのどちらかに適用されます。 </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>制限値が1600で、ピクセル密度が1.5の場合、1500 x 1500の画像が提供されます。 </p> </li> 
-      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>制限値が1600で、ピクセル密度が2の場合は、2000 x 2000の画像が制限を超えるので、1000 x 1000の画像が提供されます。 </p> </li> 
-     </ul> </p> <p><b>ベストプラクティス</b>:この制限値は、画像の最大サイズに関する会社の設定と組み合わせて使用する必要があります。 したがって、制限値を会社の最大画像サイズの設定と同じに設定します。 </p> </td> 
+      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>制限値が1600で、ピクセル密度が2の場合、1000 x 1000の画像が提供されます。これは、2000 x 2000の画像が制限を超えているからです。 </p> </li> 
+     </ul> </p> <p><b>ベストプラクティス</b>:この制限値は、画像の最大サイズに対する会社設定と組み合わせて使用する必要があります。したがって、制限値は、会社の最大画像サイズ設定と同じに設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
