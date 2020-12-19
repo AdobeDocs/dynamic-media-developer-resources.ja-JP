@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 3%
 
 ---
 
@@ -22,16 +25,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 会社の担当。 |
+| ` *`companyHandle`*` | `xsd:string` | 会社ハンドル |
 | ` *`jobHandle`*` | `xsd:string` | ジョブハンドル。 |
 | ` *`jobName`*` | `xsd:string` | ジョブ名. |
-| ` *`originalJobName`*` | `xsd:string` | ジョブに送信された元の名前 `submitJob`。 |
+| ` *`originalJobName`*` | `xsd:string` | `submitJob`を持つジョブに対して送信された元の名前。 |
 | ` *`submitUserEmail`*` | `xsd:string` | ジョブを送信したユーザーの電子メールアドレス。 |
-| ` *`logType`*` | `xsd:string` | ジョブのログタイプの選択。 |
+| ` *`logType`*` | `xsd:string` | ジョブログタイプの選択。 |
 | ` *`jobSubType`*` | `xsd:string` | 追加のジョブ情報。 |
-| ` *`startDate`*` | `xsd:dateTime` | ジョブの開始日、時刻、およびタイムゾーン。 |
-| ` *`endDate`*` | `xsd:dateTime` | ジョブの終了日、時刻、およびタイムゾーン。 |
-| ` *`説明`*` | `xsd:string` | で最初に指定されたジョブの説明 `submitJob`。 |
+| ` *`startDate`*` | `xsd:dateTime` | ジョブの開始日、時刻およびタイムゾーン。 |
+| ` *`endDate`*` | `xsd:dateTime` | ジョブの終了日、時刻およびタイムゾーン。 |
+| ` *`description`*` | `xsd:string` | `submitJob`で最初に指定されたジョブの説明。 |
 | ` *`fileSuccessCount`*` | `xsd:int` | 正常に処理されたファイルの数。 |
 | ` *`fileErrorCount`*` | `xsd:int` | エラーの原因となったファイルの数。 |
 | ` *`fileWarningCount`*` | `xsd:int` | 警告を生成したファイルの数。 |
@@ -42,6 +45,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`transferErrorCount`*` | `xsd:int` | 転送エラーの数。 |
 | ` *`transferWarningCount`*` | `xsd:int` | 転送の警告の数。 |
 | ` *`fatalError`*` | `xsd:boolean` | ジョブが致命的なエラーを生成したかどうか。 |
-| ` *`detailTotalRows`*` | `xsd:int` | クエリに一致する行の合計数。ページサイズの制限により、のサイズより大き `detailArray` い場合があります。 |
-| ` *`detailArray`*` | `types:JobLogDetailArray` | ログに記録されたジョブの詳細の配列です。 |
+| ` *`detailTotalRows`*` | `xsd:int` | クエリに一致する行の合計数です。ページサイズの制限により、`detailArray`のサイズよりも大きい場合があります。 |
+| ` *`detailArray`*` | `types:JobLogDetailArray` | ログに記録されたジョブに関する詳細の配列です。 |
 
