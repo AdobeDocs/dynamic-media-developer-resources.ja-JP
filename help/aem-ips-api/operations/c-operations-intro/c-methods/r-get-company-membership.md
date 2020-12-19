@@ -1,6 +1,6 @@
 ---
-description: 会社の配列内のユーザーのメンバーシップを取得します。
-seo-description: 会社の配列内のユーザーのメンバーシップを取得します。
+description: 会社配列内のユーザーのメンバーシップを取得します。
+seo-description: 会社配列内のユーザーのメンバーシップを取得します。
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 16%
 
 ---
 
 
 # getCompanyMembership{#getcompanymembership}
 
-会社の配列内のユーザーのメンバーシップを取得します。
+会社配列内のユーザーのメンバーシップを取得します。
 
 構文
 
-## 認証されたユーザータイプ {#section-f8bba547e1f648648be99dc48fd72b5d}
+## 認証済みユーザータイプ{#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,11 +46,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`membershipArray`*` | `types:CompanyMembershipArray` | はい | 会社のメンバーシップの配列。 |
+| ` *`membershipArray`*` | `types:CompanyMembershipArray` | はい | 会社メンバーシップの配列。 |
 
 ## 例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-このコード例では、ユーザーが処理し、すべてのユーザーの会社メンバーシップを配列で取得します。 応答は簡潔にするために切り捨てられました。
+このコードの例では、ユーザーハンドルを使用して、配列内のユーザーの会社メンバーシップをすべて取得します。 応答は簡潔にするために切り捨てられました。
 
 **リクエスト**
 
