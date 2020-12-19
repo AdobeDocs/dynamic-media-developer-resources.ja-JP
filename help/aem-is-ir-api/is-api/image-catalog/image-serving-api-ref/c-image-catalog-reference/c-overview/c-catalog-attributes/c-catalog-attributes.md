@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d5b12e71-0a60-4bff-b169-d07171d5d64d
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 
 * [カタログ管理](r-catalog-management.md)
 * [要求属性](r-request-attributes.md)
-* [デフォルトのリクエスト属性](r-default-request-attributes.md)
+* [デフォルトの要求属性](r-default-request-attributes.md)
 * [カラーマネジメント属性](r-color-management-attributes.md)
 * [共通のサムネール属性](r-common-thumbnail-attributes.md)
-* [カタログフィールドのデフォルト](r-defaults-for-catalog-fields.md)
+* [カタログフィールドの初期設定](r-defaults-for-catalog-fields.md)
 * [ビデオ属性](r-video-attributes.md)
