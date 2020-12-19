@@ -21,7 +21,7 @@ ht-degree: 6%
 
 構文
 
-## 認証済みユーザータイプ {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 認証済みユーザータイプ{#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,15 +44,15 @@ ht-degree: 6%
 
 IPS APIは、この操作に対する応答を返しません。
 
-## setDefinitionパラメータ： バージョン情報 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinitionパラメータ：{#section-f88e066bf5294b4f8c12d5d652a5c94c}について
 
 **setDefinition関数**
 
-インラインで `setDefinition` 置換関数を指定する。 これらは、カタログ参照中またはパブリケーション上で解決されます。 置換文字列の形式は次の `${<substitution_func>}`とおりです。
+`setDefinition`置換関数をインラインで指定します。 これらは、カタログ参照中またはパブリケーション上で解決されます。 置換文字列の形式は`${<substitution_func>}`で、次が含まれます。
 
 >[!NOTE]
 >
->パラメーターリスト内のハンドルリテラルは、角括弧で囲む必要があり `([])`ます。 置換文字列の外側のテキストは、解決時に出力文字列にコピーされます。
+>パラメーターリスト内のハンドルリテラルは、角括弧`([])`で囲む必要があります。 置換文字列の外側のテキストは、解決時に出力文字列にコピーされます。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ IPS APIは、この操作に対する応答を返しません。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> プライマリファイルのパス </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> カタログID </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> メタデータ値。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> カタログID 画像ベースのアセット(画像、調整された表示、レイヤー表示)に適用されます。 <p>その他のアセットの場合、サムアセットのカタログID（存在する場合）を返します。 サムアセットがアセットに関連付けられていない場合は、空の文字列を返します。 </p> </td> 
   </tr> 
  </tbody> 
