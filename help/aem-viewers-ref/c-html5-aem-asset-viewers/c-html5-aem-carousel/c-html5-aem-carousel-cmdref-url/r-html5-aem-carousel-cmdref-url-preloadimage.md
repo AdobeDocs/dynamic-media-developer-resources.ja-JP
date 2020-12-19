@@ -1,6 +1,6 @@
 ---
-description: カルーセルビューアのURLコマンド。
-seo-description: カルーセルビューアのURLコマンド。
+description: カルーセルビューアのURLコマンド
+seo-description: カルーセルビューアのURLコマンド
 seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
 
 # preloadimage**{#preloadimage}
 
-カルーセルビューアのURLコマンド。
+カルーセルビューアのURLコマンド
 
 `preloadImage=0|1`
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> プリロード<span class="codeph"> 画像機能を有効(</span>1<span class="codeph"> )または無効(</span>0)にします。 </p> <p>詳しくは、イメ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> ージのプリロードを参照してくださ</a>い。 </p> </td> 
+   <td colname="col2"> <p> プリロードイメージ機能を有効(<span class="codeph"> 1</span>)または無効(<span class="codeph"> 0</span>)にします。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local">プリロード画像</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
