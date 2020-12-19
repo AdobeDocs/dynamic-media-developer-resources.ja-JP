@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
 
-# サーバー設定ファイル{#server-configuration-files}
+# サーバ構成ファイル{#server-configuration-files}
 
 すべての設定ファイルはinstall_folder/confにあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要な場合があります。
 
 >[!NOTE]
 >
->ほとんどのサーバー設定ファイルには、このドキュメントで説明していない追加のプロパティと値が含まれています。 このようなプロパティは内部サーバでの使用を目的としており、Scene7テクニカルサポートの指示がない限り、変更しないでください。
+>ほとんどのサーバ設定ファイルには、このドキュメントでは説明していない追加のプロパティと値が含まれています。 このプロパティは内部サーバー使用に関するもので、Scene7テクニカルサポートから特に指示がない限り、変更してはなりません。
 
 このドキュメントでは、次の設定ファイルの設定について説明します。
 
