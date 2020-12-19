@@ -19,7 +19,7 @@ ht-degree: 6%
 
 getActiveJobsを使用してデスクトップアップロードを追跡します。
 
-詳しくは、HTTP POSTを使用したアセットのアップロードを参照して [ください。](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+[HTTP POSTを使用したアセットのアップロードを参照してください…](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ getActiveJobsを使用してデスクトップアップロードを追跡しま�
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：KnockoutBackgroundOptions</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>選択した画像の背景をマスクします。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 （オプション） </p> <p>KnockoutBackgroundOptionsを参照してください<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col4"> <p>選択した画像の背景をマスクします。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 （オプション） </p> <p>「<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -101,7 +101,7 @@ getActiveJobsを使用してデスクトップアップロードを追跡しま�
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：MediaOptions</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>ビデオのサムネール画像を設定するためのオプション。 </p> <p>MediaOptionsを参照して <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col4"> <p>ビデオのサムネール画像を設定するためのオプション。 </p> <p><a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 上書き</span> </span> </td> 
@@ -137,7 +137,7 @@ getActiveJobsを使用してデスクトップアップロードを追跡しま�
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>既存の切り抜き定義の保存を制御します。 初期設定は true。</p> <p>manualCropOptionsパラメーターと対応する値を指定した場合は、preserveCrop値に関係なく、新しい値（0,0,0,0を除く）がアセットに適用されます。</p><p>manualCropOptionsパラメータ <i>を指定しない場合</i> 、preserveCropの値は維持されます。 また、trueの場合は、既存のpreserveCrop値が保持されます。 falseの場合、preserveCrop値は削除されます。</p><p>例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;&lt;right&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;&lt;bottom&gt;120&lt;/bottom&gt;<br /><br />&lt;/manualCrop Options&gt;</p></td> 
+   <td colname="col4"> <p>既存の切り抜き定義の保存を制御します。 初期設定は true。</p> <p>manualCropOptionsパラメーターと対応する値を指定した場合は、preserveCrop値に関係なく、新しい値（0,0,0,0を除く）がアセットに適用されます。</p><p>manualCropOptionsパラメーターを<i>指定しない</i>場合、preserveCropの値は維持されます。 また、trueの場合は、既存のpreserveCrop値が保持されます。falseの場合、preserveCrop値は削除されます。</p><p>例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -161,13 +161,13 @@ getActiveJobsを使用してデスクトップアップロードを追跡しま�
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：UnCompressOptions</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>アップロードしたTAR/ZIPファイルの内容を抽出し、次のオプション設定で処理します。 </p> <p>UnCompressOptionsを参照して <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col4"> <p>アップロードしたTAR/ZIPファイルの内容を抽出し、次のオプション設定で処理します。 </p> <p><a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p>UnsharpMaskOptionsを参照して <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> ください</a>。 </p> </td> 
+   <td colname="col4"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p><a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 
