@@ -1,6 +1,6 @@
 ---
-description: 「次へ」スライドボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
-seo-description: 「次へ」スライドボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
+description: 「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
+seo-description: 「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
 seo-title: 次のスライド
 solution: Experience Manager
 title: 次のスライド
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
 
 # 次のスライド{#next-slide}
 
-「次へ」スライドボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
+「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-このボタンは、タッチデバイスでは表示されません。 CSSを使用して、このボタンのサイズ、スキン、位置を設定できます。
+このボタンは、タッチデバイスには表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 
 **メインビューア領域のCSSプロパティ**
 
@@ -59,25 +62,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>カーソルのタイプ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col2"> <p>カーソルの種類 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
 例 — 60 x 60ピクセルで、ビューアの右の境界線から10ピクセルの位置に配置し、垂直方向に中央揃えし、ボタンの4つの状態ごとに異なる画像を表示する前のスライドボタンを設定します。
 
