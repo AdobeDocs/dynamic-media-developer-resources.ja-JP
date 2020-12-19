@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1e8dcafb-33ef-42ea-8636-b3b7de81dfbd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>FlyoutZoomViewのメイン画像とズームインされたビューに適用される画像サービングコマンド文字列。 URLで指定する場合は、&amp;と=のすべてを <span class="codeph"></span> %26 <span class="codeph"></span><span class="codeph"> 、</span> %3D <span class="codeph"></span>としてHTTPエンコードします。 </p> <p> <p>注意： 画像サイズ変更の操作コマンドはサポートされていません。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>FlyoutZoomViewのメイン画像とズームインされた表示に適用される画像サービングコマンド文字列。 URL内で指定する場合は、<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>をすべて<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTPエンコードしてください。 </p> <p> <p>注意： 画像サイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
