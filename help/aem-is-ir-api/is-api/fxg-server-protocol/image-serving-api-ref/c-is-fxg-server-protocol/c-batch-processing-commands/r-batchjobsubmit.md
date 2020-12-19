@@ -23,7 +23,7 @@ ht-degree: 2%
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
   <td class="stentry"> <p>完全なジョブデータのXMLスニペット。 </p> </td> 
  </tr> 
 </table>
