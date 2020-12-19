@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eda844e5-8ad2-4617-b38a-da0f7e981f68
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオ再生の終了時に、ビューアに「誘い文句（CTA：コールトゥアクション）」パネルが表示されるかどうかを示します。 </p> </td> 
+   <td colname="col2"> <p> ビデオ再生の終了時に、ビューアに「行動喚起」パネルが表示されるかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
