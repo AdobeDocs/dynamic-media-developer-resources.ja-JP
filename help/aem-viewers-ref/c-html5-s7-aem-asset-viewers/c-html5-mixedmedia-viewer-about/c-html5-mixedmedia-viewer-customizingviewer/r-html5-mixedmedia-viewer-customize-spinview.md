@@ -1,20 +1,23 @@
 ---
-description: 現在のアセットがスピンセットの場合、メインビューはスピン画像で構成されます。
-seo-description: 現在のアセットがスピンセットの場合、メインビューはスピン画像で構成されます。
-seo-title: スピンビュー
+description: 現在のアセットがスピンセットの場合、メイン表示はスピン画像で構成されます。
+seo-description: 現在のアセットがスピンセットの場合、メイン表示はスピン画像で構成されます。
+seo-title: スピン表示
 solution: Experience Manager
-title: スピンビュー
+title: スピン表示
 topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# スピン表示{#spin-view}
 
-現在のアセットがスピンセットの場合、メインビューはスピン画像で構成されます。
+現在のアセットがスピンセットの場合、メイン表示はスピン画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> スピンビューの16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> スピン表示の16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — スピンビューを透明にするには、次のように記述します。
+例 — スピン表示を透明にするには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7spinview { 
