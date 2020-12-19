@@ -1,6 +1,6 @@
 ---
-description: この節では、HTTPプロトコルの構文と、Scene7の画像レンダリングの特徴について説明します。
-seo-description: この節では、HTTPプロトコルの構文と、Scene7の画像レンダリングの特徴について説明します。
+description: この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
+seo-description: この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
 seo-title: HTTPプロトコルの構文と機能
 solution: Experience Manager
 title: HTTPプロトコルの構文と機能
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
 
-# HTTPプロトコルの構文と機能{#http-protocol-syntax-and-features}
+# HTTPプロトコル構文と機能{#http-protocol-syntax-and-features}
 
-この節では、HTTPプロトコルの構文と、Scene7の画像レンダリングの特徴について説明します。
+この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
 
 * [イメージレンダリングHTTPプロトコルの基本構文](r-ir-basic-syntax.md)
 * [イメージレンダリングHTTPプロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
@@ -28,4 +31,4 @@ source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
 * [コマンドマクロ*](c-ir-command-macros.md)
 * [画像レンダリングのカラーマネジメント*](c-ir-color-management.md)
 * [カラー値](r-ir-color-values.md)
-* [画像レンダリングHTTPエンコーディング](c-ir-http-encoding.md)
+* [画像レンダリングのHTTPエンコーディング](c-ir-http-encoding.md)
