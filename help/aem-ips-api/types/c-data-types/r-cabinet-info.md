@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | 元のキャビネットへの相対パス。 |
+| ` *`originalPath`*` | `xsd:string` | 元のキャビネットの相対パス。 |
 | ` *`originalFile`*` | `xsd:string` | キャビネット名。 |
 | ` *`fileSize`*` | `xsd:int` | キャビネットサイズ |
 | ` *`imagePath`*` | `xsd:string` | ビネットに関連付けられているキャビネットの相対パス。 |
