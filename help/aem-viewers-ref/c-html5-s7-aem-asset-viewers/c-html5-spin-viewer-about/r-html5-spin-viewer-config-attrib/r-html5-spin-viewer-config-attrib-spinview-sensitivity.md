@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 82cf1f26-3af0-494f-b918-fdc318959c75
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 3%
 
 ---
 
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`XSensitivitySensitivity`*[, *``*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *``*[, *`xSensitivitySensitivity`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> マウスのドラッグまたはスワイプで実行される水平および垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> xSensitivityは</span> 、ユーザがマウスをビューの一方の側から他方の側へ水平にドラッグした場合に、水平方向に回転する回数を設定します。 例えば、3は、1回のフルドラッグジェスチャで3回の完全回転が表示されることを意味します。 </p> <p>同様に、 <span class="codeph"> ySensitivityは</span> 、垂直方向のスピンの感度を制御します。 値が1の場合、垂直方向の1回のドラッグまたはスワイプで、表示角度が最上位のスピン平面から最下位のスピン平面（またはその逆）に変更されます。 </p> <p>ySensitivityに負の値を設定すると <span class="codeph"></span> 、垂直方向のスピンの方向が逆になります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> マウスのドラッグまたはスワイプで実行される水平スピンと垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> xSensitivity</span> は、マウスを表示の一方の側から他方の側へ水平にドラッグした場合に、水平方向に回転する回数を設定します。例えば、3は、1回のフルドラッグジェスチャで、3回の完了スピンが表示されることを意味します。 </p> <p>同様に、<span class="codeph"> ySensitivity</span>で、垂直方向のスピンの感度を制御します。 値を1に設定した場合、垂直方向の1回のドラッグまたはスワイプによって、表示角度が一番上のスピン平面から一番下（またはその逆）に変わります。 </p> <p><span class="codeph"> ySensitivity</span>に負の値を設定すると、垂直方向のスピンの向きが逆になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
