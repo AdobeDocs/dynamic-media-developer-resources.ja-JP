@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> アセットの変更時にメインビューに適用する効果のタイプを指定します。 </p> <p><span class="codeph"> noneを指定すると</span> 、トランジションなし（メインビューの変更は即座に行われます）。 </p> <p><span class="codeph"> fadeは、</span> クロスフェードトランジションを有効にし、古い画像をフェードアウトし、新しい画像をフェードインします。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> アセットの変更時にメイン表示に適用する効果のタイプを指定します。 </p> <p><span class="codeph"> トランジション</span> を行わないと、メイン表示の変更が即座に発生します。 </p> <p><span class="codeph"> fadeを指定すると、クロスフェードトランジションが有効になります。この画像では、古い画像がフェードアウトし、新しい画像がフェードインします。</span>  </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p> アニメーションの完了に要する秒数。 </p> </td> 
+   <td colname="col2"> <p> アニメーションが完了するまでの秒数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
