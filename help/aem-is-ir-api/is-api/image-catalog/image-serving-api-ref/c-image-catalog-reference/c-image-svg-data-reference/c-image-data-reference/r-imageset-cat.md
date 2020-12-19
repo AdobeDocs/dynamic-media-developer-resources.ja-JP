@@ -21,7 +21,7 @@ ht-degree: 2%
 
 画像セットは、項目のカンマ区切りの並べ替えリストで構成され、各項目は1つ以上のサブ項目（画像ID、スウォッチID、メディアファイルのパス、ラベルなど）で構成され、セミコロンやコロンで区切られます。
 
-中括弧 `{ }``( )` と括弧は、特定の内容（色の値など）を区切ったり、ネストされたセットを示したりするために使用できます。 この方法で使用する中括弧または丸括弧は、エンコードしないで、常に一致するペアとして表示する必要があります。それ以外の場合は、カタログ解析エラーが発生します。
+中括弧`{ }`と括弧`( )`を使用して、特定の内容（色値など）を区切ったり、ネストされたセットを示したりできます。 この方法で使用する中括弧または丸括弧は、エンコードしないで、常に一致するペアとして表示する必要があります。それ以外の場合は、カタログ解析エラーが発生します。
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 画像セットの構造と使用について詳しくは、画像サービングビューアのドキュメントを参照してください。
 
-サーバーは、 `req=imageset` 要求に対して変更を加えることなく、このフィールドの内容を返します。
+`req=imageset`リクエストに対して、サーバは変更を加えることなく、このフィールドの内容を返します。
 
-## 標準セット {#section-5ecc8ffee7224668b63f601383665564}
+## 標準セット{#section-5ecc8ffee7224668b63f601383665564}
 
-次のセット定義は画像サービングでネイティブにサポートされており、特定のビューアでのアクセスには、サーバ側での解析、検証、セットの処理が含まれます。 各セットタイプは、対応する値をで指定することで識別でき `catalog::AssetType`ます。
+次のセット定義は画像サービングでネイティブにサポートされており、特定のビューアでのアクセスには、サーバ側での解析、検証、セットの処理が含まれます。 各セットタイプは、対応する値を`catalog::AssetType`で指定することで識別できます。
 
 **基本的なスウォッチセット**
 
@@ -119,9 +119,9 @@ ht-degree: 2%
 
 ## プロパティ {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-テキスト文字列。 値のカンマ区切りリスト、Image Serverの絶対ファイルパスまたはを基準とするファイルパス `catalog::Id``attribute::RootPath`。 セット内で同じ画像を複数回参照できます。 定義するカタログレコードは、セット内の任意の場所に表示できます。
+テキスト文字列。 `catalog::Id`値のコンマ区切りリスト、Image Serverの絶対ファイルパス、または`attribute::RootPath`を基準とするファイルパス。 セット内で同じ画像を複数回参照できます。 定義するカタログレコードは、セット内の任意の場所に表示できます。
 
-このフィールドは、テキスト文字列ローカライゼーションに関与します。 ローカライゼーショントークンが少なくとも1つ含まれる場合、 *`label`* 文字列(一部 *`solidColorSpecifier`*)に加えて、すべての区切りフィールドがローカライズされ `^loc=…^`ます。 詳しくは、『 [HTTPプロトコルリファレンス](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 』の「 *テキスト文字列ローカライゼーション* 」を参照してください。
+このフィールドは、テキスト文字列ローカライゼーションに関与します。 ローカライゼーショントークンが少なくとも1つ含まれる場合、*`label`*&#x200B;文字列（*`solidColorSpecifier`*&#x200B;の一部）に加えて、すべての区切りフィールドがローカライズされます。 `^loc=…^`詳しくは、『*HTTPプロトコルリファレンス*』の[テキスト文字列ローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)を参照してください。
 
 ## 初期設定 {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +129,4 @@ ht-degree: 2%
 
 ## 関連トピック {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) , [Text Stringローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，画像サービングビューアドキュメント
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md),  [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ,  [Text Stringローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，画像サービングビューアドキュメント
