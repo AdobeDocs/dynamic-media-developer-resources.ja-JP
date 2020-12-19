@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 33%
 
 ---
 
@@ -22,8 +25,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 会社の担当。 |
+| ` *`companyHandle`*` | `xsd:string` | 会社ハンドル |
 | ` *`name`*` | `xsd:string` | 会社名. |
 | ` *`rootPath`*` | `xsd:string` | 会社のルートパス。 |
-| ` *`expires`*` | `xsd:dateTime` | 会社の有効期限が切れる日時。 |
+| ` *`expires`*` | `xsd:dateTime` | 会社の有効期限が切れる日時です。 |
 
