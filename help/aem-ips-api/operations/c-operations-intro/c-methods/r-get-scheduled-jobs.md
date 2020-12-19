@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 認証済みユーザータイプ{#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +38,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 | ` *`jobHandle`*` | `xsd:string` | いいえ | ジョブハンドル。 |
-| ` *`originalName`*` | `xsd:string` | いいえ | で指定された名前 `submitJob`。 |
+| ` *`originalName`*` | `xsd:string` | いいえ | `submitJob`で指定された名前。 |
 
 **出力(getScheduledJobsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`jobArray`*` | `types:ScheduledJobArray` | はい | スケジュールされたジョブの配列。 |
+| ` *`jobArray`*` | `types:ScheduledJobArray` | はい | スケジュール済みジョブの配列。 |
 
 ## 例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-このコード例では、ジョブ配列内のすべてのスケジュール済みジョブを返します。 配列自体には、ジョブに関する詳細な情報が含まれます。
+このコードのサンプルを使用すると、ジョブ配列内のすべてのスケジュール済みジョブが返されます。 配列自体には、ジョブに関する詳細情報が含まれます。
 
 **リクエスト**
 
