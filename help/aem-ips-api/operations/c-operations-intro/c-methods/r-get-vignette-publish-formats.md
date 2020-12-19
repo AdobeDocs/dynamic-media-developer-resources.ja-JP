@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証済みのユーザータイプ {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 承認されたユーザータイプ{#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 
 **出力(getVignettePublishFormatsReturn)**
 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-このコードサンプルを使用すると、特定の会社に関連付けられた2つのビネット公開形式を返すことができます。 情報は配列で返され、簡潔にするために切り捨てられます。
+次のコードのサンプルを使用すると、特定の会社に関連付けられた2つのビネット公開形式を返すことができます。 情報は配列で返され、簡潔にするために切り捨てられます。
 
 **リクエスト**
 
