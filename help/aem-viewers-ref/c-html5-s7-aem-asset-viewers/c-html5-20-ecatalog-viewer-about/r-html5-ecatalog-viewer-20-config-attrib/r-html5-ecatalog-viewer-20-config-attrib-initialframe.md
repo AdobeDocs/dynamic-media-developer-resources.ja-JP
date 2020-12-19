@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの読み込み時に表示する、0を基準とする見開きのインデックスを指定します。 このインデックスは、横置きモードの見開きのインデックスと一致します。 ビューアを回転して縦長にすると、frameIdxで指定された見開きの左端のページが表示され <span class="codeph"> ます</span>。 </p> </td> 
+   <td colname="col2"> <p> ビューアの読み込み時に表示する、0を基準とする見開きのインデックスを指定します。 このインデックスは、横置きモードでの見開きのインデックスと一致します。 ビューアを縦長に回転すると、<span class="codeph"> frameIdx</span>が指す見開きの左端のページが表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
