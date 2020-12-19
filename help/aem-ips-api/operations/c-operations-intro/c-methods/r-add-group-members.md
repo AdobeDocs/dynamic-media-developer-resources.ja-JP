@@ -1,6 +1,6 @@
 ---
-description: 特定の会社のユーザーを特定のグループに追加します。
-seo-description: 特定の会社のユーザーを特定のグループに追加します。
+description: 特定の会社から特定のグループにユーザーを追加します。
+seo-description: 特定の会社から特定のグループにユーザーを追加します。
 seo-title: addGroupMembers
 solution: Experience Manager
 title: addGroupMembers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 
 
 # addGroupMembers{#addgroupmembers}
 
-特定の会社のユーザーを特定のグループに追加します。
+特定の会社から特定のグループにユーザーを追加します。
 
 構文
 
-## 認証されたユーザータイプ {#section-b4406c54ed7c4827be4c1acc957e0057}
+## 認証済みユーザータイプ{#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +33,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
 | ` *`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーのハンドルの配列です。 |
+| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列です。 |
 
 **出力(addGroupMembersParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-この例では、 ` *`addGroupMembersParamを使用して`*` 、ユーザーを1つの会社に追加します。 IPS APIはこの操作に対する応答を返しません。
+この例では、` *`addGroupMembersParam`*`を使用して、1人の会社に1人のユーザーを追加します。 IPS APIは、この操作に対する応答を返しません。
 
 **リクエスト**
 
