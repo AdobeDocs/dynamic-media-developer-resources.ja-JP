@@ -1,6 +1,6 @@
 ---
-description: このボタンをクリックまたはタップすると、メインビューで画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用すると、このボタンは非表示になります。 CSSを使用して、ボタンのサイズ、スキン、位置を設定できます。
-seo-description: このボタンをクリックまたはタップすると、メインビューで画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用すると、このボタンは非表示になります。 CSSを使用して、ボタンのサイズ、スキン、位置を設定できます。
+description: このボタンをクリックまたはタップすると、メイン表示の画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
+seo-description: このボタンをクリックまたはタップすると、メイン表示の画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 seo-title: 右へスピンボタン
 solution: Experience Manager
 title: 右へスピンボタン
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
 
-# Spin right button{#spin-right-button}
+# 右へスピンボタン{#spin-right-button}
 
-このボタンをクリックまたはタップすると、メインビューで画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用すると、このボタンは非表示になります。 CSSを使用して、ボタンのサイズ、スキン、位置を設定できます。
+このボタンをクリックまたはタップすると、メイン表示の画像が右方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **スピンボタンのCSSプロパティ**
 
-ボタンが内部コンテナ(DIV)に追加されます。このコンテナは、CSSクラスセレクターを使用して制御します。
+ボタンが内部コンテナ(DIV)に追加されます。この内部セレクターは、CSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7spinbuttons
@@ -44,7 +47,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -61,7 +64,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-コンテナ内のこのボタンの外観は、CSSクラスセレクターを使用して制御します。
+コンテナ内でのこのボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panrightbutton
@@ -85,36 +88,36 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
    <td colname="col2"> <p>パディングを含む下の境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールヒントをローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールヒントをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 — 28 x 28ピクセルで、内側のコンテナの右端に配置し、ボタンの4つの状態ごとに異なる画像を表示する右へスピンボタンを設定するには、次のように記述します。
 
