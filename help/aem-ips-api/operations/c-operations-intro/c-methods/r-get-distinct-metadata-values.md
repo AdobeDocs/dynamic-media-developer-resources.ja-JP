@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 認証済みユーザータイプ{#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | データを取得する会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | データを取得する会社へのハンドル。 |
 | ` *`metadataKey`*` | `xsd:string` | はい | ドット表記のメタデータキー。 |
 
 **出力(getDistinctMetadataValuesReturn)**
