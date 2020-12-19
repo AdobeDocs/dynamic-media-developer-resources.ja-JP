@@ -1,20 +1,23 @@
 ---
-description: メインビューは、スピン画像で構成されます。
-seo-description: メインビューは、スピン画像で構成されます。
-seo-title: スピンビュー
+description: メイン表示は、スピン画像で構成されます。
+seo-description: メイン表示は、スピン画像で構成されます。
+seo-title: スピン表示
 solution: Experience Manager
-title: スピンビュー
+title: スピン表示
 topic: Dynamic media
 uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# スピン表示{#spin-view}
 
-メインビューは、スピン画像で構成されます。
+メイン表示は、スピン画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 — メイン表示を透明にするには、次のように記述します。
 
 ```
 .s7spinviewer .s7spinview { 
