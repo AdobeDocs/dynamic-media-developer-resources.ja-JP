@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-ae926c7672984be79f6102748accab72}
+## 認証済みユーザータイプ{#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +34,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | いいえ | 追加するメンバーシップのユーザーのハンドル。 |
+| ` *`userHandle`*` | `xsd:string` | いいえ | メンバーシップを追加するユーザーのハンドルです。 |
 | ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | ユーザーを追加する会社の配列。 |
 
 **Output (addCompanyMembershipReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-5469f88bac7047cca131faa6b021e437}
 
-この例では、 ` *`companyHandleArrayを使用して`*` 、1つの会社にユーザーを追加します。
+この例では、` *`companyHandleArray`*`を使用して、1人の会社に1人のユーザを追加しています。
 
 **リクエスト**
 
