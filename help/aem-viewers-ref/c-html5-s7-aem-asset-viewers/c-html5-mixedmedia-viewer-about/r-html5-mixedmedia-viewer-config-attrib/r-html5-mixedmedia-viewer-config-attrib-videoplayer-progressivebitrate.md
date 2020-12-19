@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 94de31cd-2b4e-4247-b181-26666767f065
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> 現在のシステムでアダプティブビデオの再生がサポートされていない場合に、アダプティブビデオセットから再生するビデオのビットレート（キロビット/秒またはkbps）を指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし、超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定値より高い場合、ロジックは最も低い画質のビットレートを選択します。 </p> </td> 
+   <td colname="col2"> <p> 現在のシステムがアダプティブビデオの再生をサポートしていない場合に、アダプティブビデオセットから再生するビデオのビットレートをキロビット/秒(kbps)単位で指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームが指定された値より高い画質を持つ場合、最も低い画質のビットレートが選択されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
