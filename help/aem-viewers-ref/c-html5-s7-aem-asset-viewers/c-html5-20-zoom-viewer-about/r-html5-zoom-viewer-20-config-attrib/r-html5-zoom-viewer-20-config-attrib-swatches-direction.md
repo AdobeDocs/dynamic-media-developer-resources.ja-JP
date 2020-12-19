@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ea7dc440-52a6-4601-809c-6c187c24eb91
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> ビュー内でのスウォッチの表示方法を指定します。 </p> <p> <span class="codeph"> leftは左 </span> から右への入力順序を設定します。 </p> <p> <span class="codeph"> rightを指 </span> 定すると順序が逆になり、右から左、上から下の順に表示されます。 </p> <p>autoが設 <span class="codeph"> 定され </span> ている場合、ロケールがjaに設定され <span class="codeph"> てい </span> るときにrightモードが適用さ <span class="codeph"></span>れます。それ以外の場合は、leftが使用されます。 </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td> <p> 表示内でのスウォッチの塗りつぶし方法を指定します。 </p> <p> <span class="codeph"> left </span> は、左から右に並べる塗りの順序を設定します。 </p> <p> <span class="codeph"> right </span> を指定すると順序が逆になり、右から左、上から下に表示が入力されます。 </p> <p><span class="codeph"> auto </span>が設定されている場合、ロケールが<span class="codeph"> ja </span>に設定されているときに、コンポーネントは<span class="codeph"> right </span>モードを適用します。それ以外の場合は、leftが使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
