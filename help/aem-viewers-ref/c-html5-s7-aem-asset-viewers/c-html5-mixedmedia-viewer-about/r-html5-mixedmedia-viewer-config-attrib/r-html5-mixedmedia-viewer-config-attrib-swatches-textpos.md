@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> スウォッチサムネール画像を基準にしてラベルを描画する場所を指定します。 つまり、ラベルはスウォッチサムネールを基準にして指定した位置の中央に配置されます。 tooltipを指 <span class="codeph"> 定した場合</span> 、ラベルは表示されません。 </p> </td> 
+   <td> <p> スウォッチサムネール画像を基準にしてラベルの表示位置を指定します。 つまり、ラベルはスウォッチサムネールに対して相対的に指定された位置の中央に配置されます。 <span class="codeph"> tooltip</span>を指定した場合、ラベルは表示されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
