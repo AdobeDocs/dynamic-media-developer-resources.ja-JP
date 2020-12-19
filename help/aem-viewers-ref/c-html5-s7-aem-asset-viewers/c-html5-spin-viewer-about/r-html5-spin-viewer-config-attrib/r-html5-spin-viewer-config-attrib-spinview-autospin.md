@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最高の自動スピンエクスペリエンスを得るには、maxloadradiusを —1に設定してすべてのフレームをプリロ <span class="codeph"> ードす</span> ることを <span class="codeph"> お勧めします</span>。 ただし、この結果、読み込み時間が長くなり、帯域幅使用量が増えます。 </p> </td> 
+   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最適な自動スピン操作を実現するには、<span class="codeph"> maxloadradius</span>を<span class="codeph"> -1</span>に設定して、すべてのフレームをプリロードすることをお勧めします。 ただし、この結果、読み込み時間が長くなり、帯域幅使用量が増えます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> スピンの方向( <span class="codeph"> 0は東向き</span> 、1は西向き <span class="codeph"></span> )です。 </p> </td> 
+   <td colname="col2"> <p> スピンの方向は、東向きは<span class="codeph"> 0</span>、西向きは<span class="codeph"> 1</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンが停止する前に行われた完全な回転数。 数値は浮動小数点数です。 無限の自動ス <span class="codeph"> ピンの場合</span> 、-1に設定します。 </p> </td> 
+   <td colname="col2"> <p> 自動スピンが停止する前に行われた完全な回転数。 数値は浮動小数点数です。 無限の自動スピンの場合は、<span class="codeph"> -1</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
