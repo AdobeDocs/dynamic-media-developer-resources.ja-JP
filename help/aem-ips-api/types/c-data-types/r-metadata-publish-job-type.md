@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公 <span class="varname"> 開</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">すべてのデータを <span class="codeph"> 再度メ</span> タデータ <i></i> ・サーバに発行する場合は、Trueに設定します。 <p>注意： データの量によっては、数分から数時間かかる場合があります。 </p><p>新しいまたは変更されたメタデータのみを公開する場合は、このパラメーターを設定しないでください。 </p></td> 
+   <td colname="col3"><span class="codeph"> True</span>に設定すると、<i>すべての</i>データが再度メタデータサーバに発行されます。 <p>注意： データの量によっては、処理に数分から数時間かかる場合があります。 </p><p>新規または変更したメタデータのみを公開する場合は、このパラメータを設定しないでください。 </p></td> 
   </tr> 
  </tbody> 
 </table>
