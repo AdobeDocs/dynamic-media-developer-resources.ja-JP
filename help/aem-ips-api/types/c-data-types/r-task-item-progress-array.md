@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:TaskItemProgress` | タスク項目の進行状況の配列。 最小オカレンスは0です。 最大値は無制限です。 |
+| ` *`商品`*` | `types:TaskItemProgress` | タスク項目の進行状況の配列。 最小オカレンスは0です。 最大値は無限です。 |
 
