@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 認証済みユーザータイプ{#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,13 +43,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> includeInvalid <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4">次に設定： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 無効なユーザー</span> を含める場合はtrue。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> falseを指定すると</span> 、無効なユーザーは省略されます。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 無効なユーザーを</span> 含めることをtrueに設定します。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false無効なユーザーを省略します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +64,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-9c9a2d335513478da20652c1b1443731}
 
-このコードサンプルを使用すると、すべてのユーザーが返されます。 応答は簡潔にするために切り捨てられます。
+このコードサンプルを使用すると、すべてのユーザーが返されます。 応答が短くなるため切り捨てられます。
 
 **リクエスト**
 
