@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +33,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> videoEncodingPresetsArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
-   <td colname="col3">PropertySetの配列は、ビデオのトランスコ <span class="codeph"> ード用の</span> 、ビデオエンコーディングプリセットを参照する処理を行います。 </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>の配列は、ビデオのトランスコード用のビデオエンコーディングプリセットを参照します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> サムネ <span class="varname"> ールの生成</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> trueの場合、ビデオの最初のフレームが抽出され、サムネール画像として使用されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> サムネ <span class="varname"> ールオプション</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 種類：ThumbnailOptions</span> </td> 
-   <td colname="col3">（オプション）サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間（ビデオ開始からのミリ秒）を渡します。 値の範囲は0 ～ビデオの最後です。 <p>注意：時間を正しく指定しなかった場合、generateThumbnailのデフォ <span class="codeph"> ルト値は</span> trueです。 </p></p><p>ThumbnailOptionsを参照し <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> てください</a>。 </p></td> 
+   <td colname="col3">（オプション）サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間(ビデオ開始からの経過時間（ミリ秒）)を渡します。 値の範囲は0 ～ビデオの最後です。 <p>注意：時間を正しく指定しなかった場合、<span class="codeph"> generateThumbnail</span>はデフォルトでtrueに設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>を参照してください。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +62,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
+## {#section-87cb83407198432c95eaa2db9f12f9db}が使用
 
-タイプ `mediaOptions` は次の方法で使用されます。
+`mediaOptions`型は次のユーザーが使用します。
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
