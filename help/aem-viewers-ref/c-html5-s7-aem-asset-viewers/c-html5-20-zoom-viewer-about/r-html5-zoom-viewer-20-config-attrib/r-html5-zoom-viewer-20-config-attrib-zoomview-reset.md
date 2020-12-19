@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 97b99aa0-5ef2-4769-a02d-24d815efb472
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フレーム（画像）が変更された場合にビューポートをリセットします。 0に設定すると <span class="codeph"></span> 、新しく設定した画像の縦横比を保ちつつ、現在のビューポートができる限り適切に合うように保持されます。 </p> </td> 
+   <td colname="col2"> <p> フレーム（画像）が変更された場合に、表示ポートをリセットします。 <span class="codeph"> 0</span>に設定した場合、新たに設定された表示の縦横比を保ちながら、できる限り適切に合うように現在の画像ポートが保持されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
