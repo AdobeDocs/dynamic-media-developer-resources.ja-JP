@@ -1,6 +1,6 @@
 ---
-description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの使用可能なロケール固有のバージョンのリストを返します。
-seo-description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの使用可能なロケール固有のバージョンのリストを返します。
+description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
+seo-description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
 seo-title: xlate
 solution: Experience Manager
 title: xlate
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
 
 # xlate{#xlate}
 
-ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの使用可能なロケール固有のバージョンのリストを返します。
+ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,16 +28,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-詳しくは、オ [ブジェクトIDの変換を参照してくださ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414)い。
+[オブジェクトIDの変換](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414)を参照してください。
 
 例：
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-The HTTP response is cacheable with the TTL based on `catalog::Expiration`.
+HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
 
-JSONP応答形式をサポートするリクエストを使用すると、次のパラメーターの拡張構文を使用してJSコールバックハンドラーの名前を指定で `req=` きます。
+JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。 a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
+`<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
