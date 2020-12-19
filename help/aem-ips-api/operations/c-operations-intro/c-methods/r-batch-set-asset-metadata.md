@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-5310d9fd00604cbf9756944900378855}
+## 認証済みユーザータイプ{#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,11 +43,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたメタデータの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がメタデータを設定しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がメタデータを設定しようとしたときに生成されたエラーの数です。 |
+| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたメタデータの数です。 |
+| ` *`warningCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成された警告の数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成されたエラーの数です。 |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとした場合に警告を生成するアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成するアセットに関連付けられた詳細の配列です。 |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成する、アセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-2de798ac920e4b47b971b1729a64395b}
 
