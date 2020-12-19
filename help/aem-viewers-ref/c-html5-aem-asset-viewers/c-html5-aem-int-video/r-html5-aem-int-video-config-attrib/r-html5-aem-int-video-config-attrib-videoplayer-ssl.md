@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b4929e14-8712-4923-b9b1-62aa6721fc99
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->この設定属性は、 [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) がインストールされているAEM 6.2と、 [Feature Pack NPR-15011がインストールされているAEM 6.1にのみ適用されます](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)。
+>この設定属性は、[Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)がインストールされているAEM 6.2と、[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)がインストールされているAEM 6.1にのみ適用されます。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]ssl=auto|on`
 
@@ -26,7 +29,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)または安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p>autoに設定すると <span class="codeph"></span> 、ビデオ配信プロトコルは埋め込みWebページのプロトコルから継承されます。 WebページがHTTPS経由で読み込まれる場合、ビデオはHTTPS経由でも配信され、逆も同様です。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p>onに設定すると、ビ <span class="codeph"> デオ配信は</span>、Webページのプロトコルに関係なく、常に安全な接続を介して行われます。 </p> <p>発行されたビデオ配信にのみ影響し、作成者モードでのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)または安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルは埋め込みWebページのプロトコルから継承されます。 WebページがHTTPS経由で読み込まれる場合、ビデオはHTTPS経由でも配信されます。ビデオページがHTTPS経由で読み込まれる場合も同様です。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定した場合、ビデオ配信は常に、Webページのプロトコルに関係なく、安全な接続を介して発生します。 </span></p> <p>は、公開されたビデオ配信にのみ影響し、作成者モードのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +50,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-セキュアビデオ配 [信も参照してください](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)。
+[セキュアビデオ配信](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)も参照してください。
