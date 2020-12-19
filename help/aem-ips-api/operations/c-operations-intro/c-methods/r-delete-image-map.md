@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-41fd188af16a40d4b07923165bcf15d8}
+## 認証済みユーザータイプ{#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,12 +40,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像マップを含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像マップを含む会社へのハンドル。 |
 | ` *`imageMapHandle`*` | `xsd:string` | はい | 削除する画像マップのハンドル。 |
 
 **出力(deleteImageMapParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
