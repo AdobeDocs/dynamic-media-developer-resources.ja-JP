@@ -1,6 +1,6 @@
 ---
-description: メインビューの上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
-seo-description: メインビューの上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
+description: メイン表示の上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
+seo-description: メイン表示の上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
 seo-title: お気に入りエフェクト
 solution: Experience Manager
 title: お気に入りエフェクト
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 
 # お気に入りエフェクト{#favorites-effect}
 
-メインビューの上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
+メイン表示の上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,12 +32,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> アイコンに対して表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> アイコンに表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,26 +60,26 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-デスクトップシステムでは、コンポーネントは、 `cursortype` クラスに適用できる属性セレクターをサポートし、選択し `.s7favoriteseffect` たユーザーアクションに基づいてカーソルのタイプを制御します。 The following `cursortype` values are supported:
+デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7favoriteseffect`クラスに適用でき、選択したユーザー操作に基づいてカーソルのタイプを制御します。 次の`cursortype`値がサポートされています。
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
-   <td colname="col2"> <p>表示されたユーザが新しいお気に入りアイコンを追加しようとしています。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
+   <td colname="col2"> <p>新しいお気に入りアイコンを追加しようとしていると表示される。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>表示されたユーザーが既存のお気に入りアイコンを削除しています。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
+   <td colname="col2"> <p>既存のお気に入りアイコンを削除しようとしています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>お気に入りの編集がアクティブでない場合に、通常の操作モードで表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_表示  </span> </p> </td> 
+   <td colname="col2"> <p>お気に入りの編集がアクティブでない場合、通常の操作モードで表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — コンポーネントの状態のタイプごとに異なるマウスカーソルを使用します。
+例 — コンポーネント状態のタイプごとに異なるマウスカーソルを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect[cursortype="mode_add"] { 
