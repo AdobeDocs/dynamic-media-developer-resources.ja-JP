@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 44057e10-98b6-4316-bf6c-9bf569be6a50
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 輪郭 </span> </p> </td> 
-   <td colname="col2"> <p>フォーカスのハイライトのスタイル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> outline  </span> </p> </td> 
+   <td colname="col2"> <p>フォーカスのハイライトのスタイル </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — ビューアのすべてのユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、次のCSSセレクターをビューアのスタイルシートに追加します。
+例 — ビューアのすべてのユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、ビューアのスタイルシートに次のCSSセレクターを追加します。
 
 ```
 .s7interactivevideoviewer *:focus { 
