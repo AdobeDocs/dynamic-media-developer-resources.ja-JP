@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>1に設定す <span class="codeph"> ると、 </span> 閉じるボタンの表示が有効になります。 または、0に設定すると、閉 <span class="codeph"> じるボ </span> タンが非表示になります。 </p> <p>閉じるボタンは、タッチデバイスでのみサポートされます。デスクトップシステムでは表示できません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 1 </span>に設定すると、閉じるボタンが表示されます。 または、<span class="codeph"> 0 </span>に設定すると、閉じるボタンが非表示になります。 </p> <p>閉じるボタンは、タッチデバイスでのみサポートされます。デスクトップシステムでは表示できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
