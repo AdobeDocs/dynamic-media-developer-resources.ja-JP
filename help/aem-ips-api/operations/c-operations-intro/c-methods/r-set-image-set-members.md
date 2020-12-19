@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 画像セットに関連付けられているアセットのリストを設定します。
 
-この操作では、のパラメ `pageReset` ーターは無 `ImageSets` 視され、 `SpinSets` 値が強制的にtrueに設定されます。
+この操作では、`ImageSets`と`SpinSets`の`pageReset`パラメーターが無視され、値がtrueに設定されます。
 
-## 認証されたユーザータイプ {#section-8968d6a39a344cfc8521020d92ae8916}
+## 認証済みユーザータイプ{#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->ユーザは、画像セットアセットに対する読み取りおよび書き込みアクセス権と、各メンバアセットに対する読み取りアクセス権を持っている必要があります。
+>ユーザは、画像セットアセットに対する読み取りおよび書き込みアクセス権と、各メンバアセットに対する読み取りアクセス権が必要です。
 
 ## パラメータ {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -46,20 +49,20 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>会社の担当。 </p> </td> 
+   <td colname="col4"> <p>会社ハンドル </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 画像セットハンドル </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 画像セットに属するアセットメンバの配列。 </td> 
   </tr> 
@@ -68,7 +71,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(setImageSetMembersReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-7b87219034464aa98524178ccee27738}
 
