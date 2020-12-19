@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '3073'
+ht-degree: 1%
 
 ---
 
@@ -37,25 +40,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-CSSクラスでCSSプロパティを設定することで、ソーシャル共有パネルからボ `display:none` タンを削除できます。
+CSSクラスに`display:none` CSSプロパティを設定すると、ソーシャル共有パネルからボタンを削除できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像を表示する電子メール共有ボタンを設定します。
+例 — 28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像を表示する電子メール共有ボタンを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emailshare { 
@@ -76,7 +79,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-ダイアログがアクティブな場合にWebページをカバーする背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログがアクティブな場合のWebページをカバーする背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay
@@ -87,17 +90,17 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
    <td colname="col2"> <p> 背景オーバーレイの不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>背景オーバーレイのカラー </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 不透明度が70 %のグレーの背景オーバーレイを設定するには、次のように記述します。
+例 — 不透明度70 %のグレーの背景オーバーレイを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay { 
@@ -106,7 +109,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-デフォルトでは、モーダルダイアログはデスクトップシステムの画面の中央に表示され、タッチデバイスのWebページ領域全体が表示されます。 どのような場合でも、ダイアログボックスの位置とサイズはコンポーネントによって管理されます。 ダイアログは、以下のCSSクラスセレクターを使用して制御します。
+デフォルトでは、モーダルなダイアログがデスクトップシステムでは画面中央に表示され、タッチデバイスではWebページ領域全体に表示されます。 どのような場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 ダイアログは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialog
@@ -117,19 +120,19 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザーウィンドウ全体に表示されない場合） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> ダイアログボックスの背景色； </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定しないか、100 %に設定する必要があります（タッチデバイスではこのモードを推奨）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定しないか、100 %に設定する必要があります（タッチデバイスではこのモードを推奨）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -145,13 +148,13 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび閉じるボタンで構成されます。 ヘッダーコンテナは、以下のCSSクラスセレクターを使用して制御します
+ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび閉じるボタンで構成されます。 ヘッダーのコンテナは、以下のCSSクラスセレクターを使用して制御します
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader
 ```
 
-**ダイアログボックスのヘッダーのCSSプロパティ**
+**ダイアログボックスヘッダーのCSSプロパティ**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
@@ -162,13 +165,13 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-アイコンとタイトルテキストは、追加のコンテナにまとめられます。このコンテナは、
+アイコンとタイトルテキストは、追加のコンテナにまとめられます。このアイコンは、
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
 ```
 
-**ダイアログの行のCSSプロパティ**
+**ダイアログの線のCSSプロパティ**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -179,7 +182,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ヘッダーアイコンは、以下のCSSクラスセレクターを使用して制御します。
+ヘッダーのアイコンは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadericon
@@ -190,20 +193,20 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>アイコンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>アイコンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>アイコン画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,20 +222,20 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>フォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p>テキストの内部パディング。 </p> </td> 
+   <td colname="col2"> <p>テキストの内部のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -249,18 +252,18 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナを基準とした垂直方向のボタン位置。 </p> </td> 
+   <td colname="col2"> <p> ヘッダーのコンテナを基準とした垂直方向のボタン位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナを基準とした水平方向のボタン位置。 </p> </td> 
+   <td colname="col2"> <p> ヘッダーのコンテナを基準とした水平方向のボタン位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -268,23 +271,23 @@ background-color: #ffffff;
    <td colname="col2"> <p>ボタンの内側のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>状態ごとのボタン画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-閉じるボタンのツールチップとダイアログボックスのタイトルをローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+「閉じる」ボタンのツールチップとダイアログボックスのタイトルをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — パディング、24 x 17ピクセルのアイコン、太字の16ポイントのタイトル、28 x 28ピクセルの閉じるボタンを、ダイアログボックスのコンテナの上から2ピクセル、右から2ピクセルの位置に配置するには、次のように記述します。
+例 — パディング、24 x 17ピクセルのアイコン、太字の16ポイントのタイトル、28 x 28ピクセルの閉じるボタンを設定し、ダイアログボックスのコンテナの上から2ピクセル、右から2ピクセルの位置に配置するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
@@ -324,7 +327,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログフッターは、「キャンセル」ボタンと「電子メールを送信」ボタンで構成されます。 フッターコンテナは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログフッターは、「キャンセル」ボタンと「電子メールを送信」ボタンで構成されます。 フッターのコンテナは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter
@@ -336,7 +339,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p> フッターとダイアログボックスの他の部分とを視覚的に区切るために使用できる境界線。 </p> </td> 
+   <td colname="col2"> <p> フッターとダイアログボックスのそれ以外の部分を視覚的に区切るために使用できる境界線。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -369,29 +372,29 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
+   <td colname="col2"> <p> 状態ごとのボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 状態ごとのボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-電子メールの送信ボタンは、以下のCSSクラスセレクターを使用して制御します。
+「電子メールを送信」ボタンは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogactionbutton
@@ -402,29 +405,29 @@ background-color: #ffffff;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p> 状態ごとのボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 状態ごとのボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-また、両方のボタンは、他のダイアログボックスのボタンと同じCSS設定を含むことができる、同じ共通のCSSクラスを共有します。
+さらに、両方のボタンは同じCSSクラスを共有します。このCSSクラスには、他のダイアログボックスのボタンと同じCSS設定を含めることができます。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter .s7button
@@ -435,35 +438,35 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンのフォント重み付け。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置に影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向揃えに影響します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>ドロップシャドウ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの右余白。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの右マージン。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-このボタンのツールヒントはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+このボタンのツールヒントはローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 64 x 34の「キャンセル」ボタンと82 x 34の「電子メールを送信」ボタンを持ち、テキストカラーと背景色がボタンの状態ごとに異なるダイアログボックスのフッターを設定するには、次のように記述します。
+例 — 64 x 34の「キャンセル」ボタンと82 x 34の「電子メールを送信」ボタンを含み、テキストカラーと背景色がボタンの状態ごとに異なるダイアログボックスフッターを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter { 
@@ -523,22 +526,22 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログのメイン領域（ヘッダーとフッターの間）には、スクロール可能なダイアログのコンテンツと右側のスクロールパネルが含まれています。 どのような場合でも、コンポーネントがこの領域の幅を管理するので、CSSで設定することはできません。 ダイアログのメイン領域は、以下のCSSクラスセレクターを使用して制御します。
+ダイアログのメイン領域（ヘッダーとフッターの間）には、スクロール可能なダイアログコンテンツが含まれ、右側にはスクロールパネルがあります。 どのような場合でも、コンポーネントがこの領域の幅を管理するので、CSSで設定することはできません。 ダイアログのメイン領域は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**表示領域のダイアログボックスのCSSプロパティ**
+**ダイアログボックスの表示領域のCSSプロパティ**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスのメイン領域の高さ。 ダイアログボックスがデスクトップモードで動作する場合にのみ指定します。 ダイアログボックスがブラウザーウィンドウ全体を占めるようにサイズ設定されている場合は、適用できません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスのメイン領域の高さ。 ダイアログボックスがデスクトップモードで動作する場合にのみ指定します。 ダイアログボックスがブラウザーウィンドウ全体を占めるようにサイズ設定される場合は適用されません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>ダイアログボックスのメイン領域の背景色。 </p> </td> 
   </tr> 
   <tr> 
@@ -550,9 +553,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->ダイアログボックスのメイン領域では、オプションの属性セレクター `state` がサポートされます。 電子メールフォームが送 `sendsuccess` 信され、ダイアログボックスに確認メッセージが表示される時に設定されます。 確認メッセージが小さい限り、この属性セレクターを使用して、確認メッセージが表示される際のダイアログボックスの高さを小さくすることができます。
+>ダイアログボックスのメイン領域では、オプションの`state`属性セレクターがサポートされます。 電子メールフォームが送信され、ダイアログボックスに確認メッセージが表示されるときに、`sendsuccess`に設定されます。 確認メッセージが小さい限り、この属性セレクターを使用して、確認メッセージが表示される際のダイアログボックスの高さを低くできます。
 
-例 — 最初の高さが300ピクセルで、確認メッセージが表示されたときの高さが100ピクセルで、マージンが10ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
+例 — 初期の高さが300ピクセル、確認メッセージが表示される際の高さが100ピクセルで、マージンが10ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea { 
@@ -565,13 +568,13 @@ background-color: #ffffff;
 }
 ```
 
-すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に配置され、以下のCSSクラスセレクターを使用して制御します。
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に配置します。このコンテンツは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody
 ```
 
-このコンテナの高さがダイアログボックスのメイン領域よりも大きく見える場合は、垂直方向のスクロールがコンポーネントによって自動的に有効になります。
+このコンテナの高さがダイアログボックスのメイン領域よりも大きく表示される場合は、垂直方向のスクロールがコンポーネントによって自動的に有効になります。
 
 **ダイアログボックスの本体のCSSプロパティ**
 
@@ -592,7 +595,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのフォームは1行ずつ入力されます。各行は、フォームコンテンツの一部（ラベルやテキスト入力フィールドなど）を保持します。 単一のフォーム行は、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスのフォームは1行ずつ入力されます。各行は、フォームコンテンツの一部（ラベルやテキスト入力フィールドなど）を担います。 フォームの1行は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
@@ -617,40 +620,40 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスフォーム内のすべての静的ラベルは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスのフォーム内の静的なラベルはすべて、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel
 ```
 
-このクラスは、ラベルのサイズや位置の制御には適していません。これは、フォームのユーザーインターフェイスの様々な場所のテキストに適用できるからです。
+このクラスは、ラベルのサイズや位置の制御には適していません。このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるからです。
 
 **ダイアログボックスのラベルのCSSプロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントの太さ </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>ラベルのフォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントファミリ </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのテキストの色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのテキストカラー </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ダイアログボックスのラベルはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ダイアログボックスのラベルをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — グレー、太字、9ピクセルのフォントのすべてのラベルを設定するには、次のように記述します。
+例 — グレー、太字、9ピクセルのフォントとなるようにすべてのラベルを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel { 
@@ -660,7 +663,7 @@ background-color: #ffffff;
 }
 ```
 
-フォームの入力フィールドの左側に表示されるすべての静的ラベルは、次を使用して制御します。
+フォームの入力フィールドの左側に表示されるすべての静的ラベルは、以下を使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel
@@ -671,15 +674,15 @@ background-color: #ffffff;
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>静的ラベルの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>テキストの水平方向揃え。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>静的ラベルのマージン。 </p> </td> 
   </tr> 
   <tr> 
@@ -689,7 +692,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-例 — 幅が50ピクセルで、右揃えで、パディングが10ピクセルで、右側に10ピクセルのマージンがある入力フィールドのラベルを設定するには、次のように記述します。
+例 — 幅が50ピクセルで、右揃え、10ピクセルのパディングがあり、右側に10ピクセルのマージンがある入力フィールドのラベルを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel { 
@@ -700,7 +703,7 @@ background-color: #ffffff;
 }
 ```
 
-各フォーム入力フィールドはコンテナにまとめられ、入力フィールドの周囲にカスタムの境界線を適用できます。 これは、以下のCSSクラスセレクターを使用して制御します。
+フォームの各入力フィールドはコンテナにまとめられます。これにより、入力フィールドの周囲にカスタムの境界線を適用できます。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer
@@ -712,7 +715,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>入力フィールドコンテナの周囲の境界線。 </p> </td> 
+   <td colname="col2"> <p>入力フィールドコンテナ周囲の境界線。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
@@ -723,9 +726,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->入力フィールドコンテナでは、オプションの属性セレク `state` ターがサポートされます。 これは、ユーザーが入力デ `verifyerror` ータ形式で誤りを犯し、インライン検証に失敗した場合に設定されます。 この属性セレクターを使用して、フォーム内の誤ったユーザー入力を強調表示できます。
+>入力フィールドのコンテナでは、オプションの`state`属性セレクターがサポートされます。 ユーザーが誤った入力データ形式でデータを入力し、インライン検証に失敗した場合、`verifyerror`に設定されます。 この属性セレクターを使用して、フォーム内の誤ったユーザー入力をハイライト表示できます。
 
-左側のラベルからダイアログボックスの本文の右端まで広がる入力フィールド（「送信者」フィールドと「メッセージ」フィールドを含む）のほとんどは、以下のCSSクラスセレクターを使用して制御します。
+左側のラベルからダイアログボックスの本体（「送信者」フィールドと「メッセージ」フィールドを含む）の右端にまで及ぶ入力フィールドのほとんどは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputwide
@@ -736,7 +739,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -748,18 +751,18 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**ダイアログボックスの短い入力フィールドのCSSプロパティ**
+**ダイアログボックスの入力用の短いフィールドのCSSプロパティ**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 1ピクセルのグレーの境界線を持ち、すべての入力フィールドの周囲に9ピクセルのパディングがあるフォームを設定するには、次のように記述します。検証に失敗したフィールドに対して赤で同じ境界線を表示し、250ピクセルの幅を持ち、残りの入力フィールドの幅を300ピクセルにするには、次のように記述します。
+例 — 1ピクセルのグレーの境界線を持つフォームを設定し、すべての入力フィールドの周囲に9ピクセルのパディングを持つようにします。検証に失敗したフィールドと同じ境界線を赤で表示し、幅を250ピクセルにし、残りの入力フィールドの幅を300ピクセルにするには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -777,30 +780,30 @@ background-color: #ffffff;
 }
 ```
 
-電子メールメッセージの入力フィールドは、以下を使用して追加で制御します。
+電子メールメッセージ入力フィールドは、さらに以下を使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-このクラスを使用すると、基になる要素の特定のプロパティを設定 `TEXTAREA` できます。
+このクラスを使用すると、基になる`TEXTAREA`要素に特定のプロパティを設定できます。
 
-**ダイアログボックスメッセージのCSSプロパティ**
+**ダイアログボックスのメッセージのCSSプロパティ**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>メッセージの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ワードラップ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> word-wrap  </span> </p> </td> 
    <td colname="col2"> <p>折り返しのスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 高さが50ピクセルで、ワードラップを使用する電子メールメッセージを設定するに `break-word` は、次のように記述します。
+例 — 高さが50ピクセルで、`break-word`ワードラップを使用する電子メールメッセージを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -809,7 +812,7 @@ background-color: #ffffff;
 }
 ```
 
-「別の電子メールアドレスを追加」ボタンを使用すると、電子メールフォームに複数のアドレスを追加できます。 これは、以下のCSSクラスセレクターを使用して制御します。
+別追加の「電子メールアドレス」ボタンを使用して、電子メールフォームに複数のアドレスを追加できます。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton
@@ -820,39 +823,39 @@ background-color: #ffffff;
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>各状態のボタンのテキストカラー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p>状態ごとのボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>状態ごとのボタン画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>ボタン領域内のボタン画像の位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンのフォント重み付け。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>ボタン内のテキストの高さ。 垂直方向の位置に影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col2"> <p>ボタン内のテキストの高さ。 垂直方向揃えに影響します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>テキストの水平方向揃え。 </p> </td> 
   </tr> 
   <tr> 
@@ -864,11 +867,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 高さが25ピクセルで、12ポイントの太字フォントと右揃え、状態ごとに異なるテキストカラーと画像を使用する「別の電子メールアドレスを追加」ボタンを設定するには、次のように記述します。
+例 — 高さが25ピクセルで、追加12ポイントの太字フォント、右揃え、状態ごとに異なるテキストカラーと画像を使用する「別の電子メールアドレス」ボタンを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton { 
@@ -899,7 +902,7 @@ background-color: #ffffff;
 }
 ```
 
-「削除」ボタンを使用すると、電子メールフォームから余分なアドレスを削除できます。 これは、以下のCSSクラスセレクターを使用して制御します。
+「削除」ボタンを使用すると、電子メールフォームから不要なアドレスを削除できます。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton
@@ -910,29 +913,29 @@ background-color: #ffffff;
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>状態ごとのボタン画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — 25 x 25ピクセルで、状態ごとに異なる画像を使用する「削除」ボタンを設定するには、次のように記述します。
 
@@ -955,7 +958,7 @@ background-color: #ffffff;
 }
 ```
 
-共有されるコンテンツは、ダイアログボックスの本文の下部に表示され、サムネール、タイトル、元のURLおよび説明が含まれます。 このコンテナは、以下のCSSクラスセレクターを使用して制御するコンテナにまとめられます。
+共有されるコンテンツは、ダイアログボックスの本文の下部に表示され、サムネール、タイトル、接触チャネルのURLおよび説明が含まれます。 このコンテナは、以下のCSSクラスセレクターを使用して制御するフォルダーにまとめられます。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent
@@ -991,23 +994,23 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-プロパテ `background-image` ィはコンポーネントのロジックによって設定されます。
+`background-image`プロパティは、コンポーネントのロジックによって設定されます。
 
 **ダイアログボックスのサムネール画像のCSSプロパティ**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの幅 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>サムネールの高さ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>垂直方向の配置のサムネール。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col2"> <p>垂直方向の位置を示すサムネール。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
@@ -1016,7 +1019,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-例 — 90 x 60ピクセルで、上揃えで10ピクセルのパディングを使用するサムネールを設定するには、次のように記述します。
+例 — 90 x 60ピクセルで、上揃えで、10ピクセルのパディングがあるサムネールを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail { 
@@ -1027,7 +1030,7 @@ background-color: #ffffff;
 }
 ```
 
-コンテンツのタイトル、元の情報および説明は、さらにコンテンツサムネールの右側のパネルにグループ化されます。 これは、以下のCSSクラスセレクターを使用して制御します。
+コンテンツのタイトル、接触チャネルおよび説明は、さらにコンテンツのサムネールの右側にあるパネルにグループ化されます。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginfopanel
@@ -1038,7 +1041,7 @@ background-color: #ffffff;
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>パネルの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1063,19 +1066,19 @@ background-color: #ffffff;
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>外側のマージン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>フォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1090,36 +1093,36 @@ background-color: #ffffff;
 }
 ```
 
-コンテンツの元の情報は、以下のCSSクラスセレクターを使用して制御します。
+コンテンツの接触チャネルは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin
 ```
 
-**ダイアログボックスのコンテンツの元のCSSプロパティ**
+**ダイアログボックスのコンテンツ接触チャネルのCSSプロパティ**
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>外側のマージン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>フォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 10ピクセルのマージンがあるコンテンツの元の場所を設定するには、次のように記述します。
+例 — 10ピクセルのマージンがあるコンテンツ接触チャネルを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin { 
@@ -1138,25 +1141,25 @@ background-color: #ffffff;
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p>外側のマージン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>フォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 10ピクセルのマージンを持ち、9ポイントのフォントを使用するコンテンツの説明を設定するには、次のように記述します。
+例 — 10ピクセルのマージンがあり、9ポイントのフォントを使用するコンテンツの説明を設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogdescription { 
@@ -1165,7 +1168,7 @@ background-color: #ffffff;
 }
 ```
 
-ユーザーが誤った入力データを入力し、インライン検証に失敗した場合、またはフォームの送信時にエラーまたは確認メッセージをダイアログボックスでレンダリングする必要がある場合、ダイアログボックスの本文の上部にメッセージが表示されます。 これは、以下のCSSクラスセレクターを使用して制御します。
+ユーザーが誤った入力データを入力し、インライン検証に失敗した場合、またはフォームの送信時にダイアログボックスでエラーまたは確認メッセージをレンダリングする必要がある場合は、ダイアログボックスの本文の上部にメッセージが表示されます。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
@@ -1176,32 +1179,32 @@ background-color: #ffffff;
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> エラーアイコン 初期設定は感嘆符です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> エラーアイコン 初期設定は、感嘆符です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> メッセージ領域内のエラーアイコンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>メッセージのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p>メッセージのテキストカラー </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
+   <td colname="col2"> <p>フォント重み付け </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p> メッセージ内のテキストの高さ。 垂直方向の位置に影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col2"> <p> メッセージ内のテキストの高さ。 垂直方向揃えに影響します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
@@ -1212,9 +1215,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->このメッセージでは、次の値を `state` 持つ属性セレクターがサポートされています。 `verifyerror`、、 `senderror`および `sendsuccess`。 `verifyerror` は、インライン入力の検証エラーが原因でメッセージが表示される場合に設定されます。が設定さ `senderror` れるのは、バックエンド電子メールサービスがエラーを報告したときです。は、電 `sendsuccess` 子メールが正常に送信されたときに設定されます。 この方法を使用すると、ダイアログボックスの状態に応じてメッセージのスタイルを変更できます。
+>このメッセージでは、`state`属性セレクターがサポートされ、次の値を指定できます。`verifyerror`、`senderror`、および`sendsuccess`。 `verifyerror` は、インライン入力の検証エラーが原因でメッセージが表示された場合に設定されます。 `senderror` は、バックエンド電子メールサービスがエラーを報告したときに設定されます。 `sendsuccess` は、電子メールが正常に送信されたときに設定されます。これにより、ダイアログボックスの状態に応じて異なるスタイルをメッセージに設定できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — 10ポイントの太字フォントを使用し、行の高さが25ピクセル、左側のパディングが20ピクセルで、感嘆符アイコンを使用し、エラーの場合は赤、成功の場合はアイコンと緑のテキストを使用しないメッセージを設定するには、次のように記述します。
 
@@ -1240,7 +1243,7 @@ background-color: #ffffff;
 }
 ```
 
-垂直方向のスクロールが必要な場合、ダイアログの右端近くのパネルにスクロールバーがレンダリングされます。このスクロールバーは、以下のCSSクラスセレクターを使用して制御します。
+垂直方向のスクロールが必要な場合、ダイアログの右端近くのパネル内にスクロールバーがレンダリングされます。このスクロールバーは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogscrollpanel
@@ -1251,7 +1254,7 @@ background-color: #ffffff;
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>スクロールパネルの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1276,7 +1279,7 @@ background-color: #ffffff;
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> スクロールバーの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -1305,7 +1308,7 @@ background-color: #ffffff;
 }
 ```
 
-スクロールバートラックは、上下のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 トラックは、以下のCSSクラスセレクターを使用して制御します。
+スクロールバートラックは、上下のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 このトラックは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack
@@ -1316,11 +1319,11 @@ background-color: #ffffff;
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>トラックの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>トラックの背景色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1335,7 +1338,7 @@ background-color: #B2B2B2;
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 サムの垂直方向の位置は、コンポーネントのロジックによって完全に制御されますが、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。 サムの高さなどの外観は、以下のCSSクラスセレクターを使用して設定できます。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 サムの垂直方向の位置は、コンポーネントのロジックによって完全に制御されます。一方、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。 サムの高さや、その他の外観は、以下のCSSクラスセレクターを使用して設定できます。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb
@@ -1346,35 +1349,35 @@ background-color: #B2B2B2;
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>サムの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>サムの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p> トラックの上端との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p> トラックの下端との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>サムの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>サムの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、属性セレ `state` クターがサポートされます。このセレクターは、サムの状態ごとに異なるスキンを適用するのに使用できます。 `up`、 `down`、、 `over`および `disabled`。
+>サムでは、`state`属性セレクターがサポートされます。このセレクターは、サムの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および`disabled`。
 
 例 — 28 x 45ピクセルで、上下に10ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定するには、次のように記述します。
 
@@ -1409,36 +1412,36 @@ background-color: #B2B2B2;
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS、およびプロパティを使用してスクロールボタンを配 `top`置するこ `left`とは `bottom`でき `right` ません。 ビューアのロジックによって自動的に配置が決まります。
+CSS `top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 ビューアのロジックによって自動的に配置が決まります。
 
 **上下のスクロールボタンのCSSプロパティ**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>特定のボタンの状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライトも参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 照してくださ </a>い。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->次のボタンでは、属性セレ `state` クターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 `up`、 `down`、、 `over`および `disabled`。
+>次のボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および`disabled`。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
 
