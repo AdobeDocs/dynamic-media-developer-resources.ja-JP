@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 会社の担当。 |
+| ` *`companyHandle`*` | `xsd:string` | 会社ハンドル |
 | ` *`companyName`*` | `xsd:string` | 会社名. |
 | ` *`imageCount`*` | `xsd:int` | 保存されている画像の数。 |
 | ` *`diskSpaceUsage`*` | `xsd:long` | ファイル側の合計(KB)。 |
-| ` *`lastModified`*` | `xsd:dateTime` | タイプが最後に変更された日 `DiskUsage` 付、時刻、タイムゾーン。 |
+| ` *`lastModified`*` | `xsd:dateTime` | `DiskUsage`型の日付、時刻、およびタイムゾーンが最後に変更されました。 |
 
