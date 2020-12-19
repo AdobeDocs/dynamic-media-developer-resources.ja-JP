@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 03e7ceb2-afc4-4ec1-b43b-c170c9872619
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 このドキュメントでは、Scene7画像サービングのHTTPプロトコルについて説明します。
 
-プロトコルの公開された側面のみが記述されます。 サーバは、Scene7クライアントソフトウェアが使用するために予約されている追加のコマンドをサポートする場合があります。
+プロトコルの公開された側面のみが説明されます。 サーバは、追加のコマンドをサポートする場合があります。これは、Scene7クライアントソフトウェアで使用するために予約されています。
