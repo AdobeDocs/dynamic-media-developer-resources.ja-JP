@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3b852317-af42-423e-a065-92192f0065db
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 日</span></span> </p> </td> 
-   <td colname="col2"> <p> お気に入りのコレクションが期限切れになる前にクライアントのシステムに保持される日数。 ユーザーがカタログを訪問し、お気に入りに変更（追加や削除など）を加えるたびに、有効期限のタイマーがリセットされます。 </p> </td> 
+   <td colname="col2"> <p> お気に入りのコレクションが期限切れになるまでクライアントのシステムに保持される日数。 ユーザーがカタログを訪問し、お気に入りに変更（追加または削除など）を加えるたびに、有効期限タイマーがリセットされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
