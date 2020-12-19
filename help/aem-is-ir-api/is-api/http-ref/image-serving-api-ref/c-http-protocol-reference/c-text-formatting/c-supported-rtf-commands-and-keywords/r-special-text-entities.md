@@ -39,22 +39,22 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>バックスラッシュ。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>中括弧開き </p> </td> 
    <td> <p>括弧はHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
    <td> <p>中括弧。 </p> </td> 
    <td> <p>括弧はHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \～  </span> </td> 
    <td> <p>区切りなしスペース。 </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 3%
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>オプションのハイフン。 </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
