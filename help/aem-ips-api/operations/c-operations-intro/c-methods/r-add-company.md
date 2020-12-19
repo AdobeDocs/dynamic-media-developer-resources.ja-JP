@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 会社をシステムに追加します。
 
-システムに追加する会社の名前を送信します。また、会社の有効期限が切れるかどうかを送信することもできます。
+システムに追加する会社の名前を送信します。また、会社の有効期限が切れたかどうかを送信することもできます。
 
-この操作を呼び出すと、会社のハンドルと ` *`説明フィールドを含むcompanyInfo`*` 型が取得されます。 要求された会社名が既にシステムに存在する場合は、がスローされま `ipsApiFault`す。
+この操作を呼び出すと、会社ハンドルと説明フィールドを含む` *`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`をスローします。
 
-## 認証されたユーザータイプ {#section-ae926c7672984be79f6102748accab72}
+## 認証済みユーザータイプ{#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 会社名</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>追加する会社の名前。 </p> </td> 
@@ -50,7 +53,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>会社の有効期限。 このフィールドの要求をタイムゾーンに指定します。 タイムゾーンは、中央時間に調整されます。 </p> </td> 
+   <td colname="col4"> <p>会社の有効期限。 このフィールドに対する要求でタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +71,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>新しい会社の名前、ルートパス、有効期限、および時刻を取り扱います。 </p> </td> 
@@ -78,7 +81,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-この例は、IPSシステムに会社を追加する要求と、他の操作を実行するために必要な追加された会社に関する情報の詳細を示す応答を示しています。
+この例は、IPSシステムに会社を追加する要求と、他の操作を実行するために必要な追加会社に関する情報の詳細を示す応答を示しています。
 
 **リクエスト**
 
