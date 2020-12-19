@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 8384f1d7-8566-4dd6-a5b5-be20971b7aba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +25,7 @@ ACOアセットのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `originalPath` | `xsd:string` | ACOファイルパス |
-| `originalFile` | `xsd:string` | ACOファイル名。 |
-| `fileSize` | `xsd:int` | ACOファイルのサイズ |
+| `originalPath` | `xsd:string` | ACOファイルのパス |
+| `originalFile` | `xsd:string` | ACOファイル名 |
+| `fileSize` | `xsd:int` | ACOファイルサイズ |
 
