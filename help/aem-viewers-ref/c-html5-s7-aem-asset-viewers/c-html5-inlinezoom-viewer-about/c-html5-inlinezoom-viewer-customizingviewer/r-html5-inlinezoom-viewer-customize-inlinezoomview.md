@@ -1,26 +1,29 @@
 ---
-description: メインビューは、静的な画像、フライアウトビューで静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-description: メインビューは、静的な画像、フライアウトビューで静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-title: フライアウトズームビュー
+description: メイン表示は、静的な画像、フライアウト表示で静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
+seo-description: メイン表示は、静的な画像、フライアウト表示で静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
+seo-title: フライアウトズーム表示
 solution: Experience Manager
-title: フライアウトズームビュー
+title: フライアウトズーム表示
 topic: Dynamic media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 
 
-# Flyout zoom view{#flyout-zoom-view}
+# フライアウトズーム表示{#flyout-zoom-view}
 
-メインビューは、静的な画像、フライアウトビューで静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
+メイン表示は、静的な画像、フライアウト表示で静的な画像の上に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューのCSSプロパティ**
+**メイン表示のCSSプロパティ**
 
-メインビューの外観は、以下のCSSクラスセレクターを使用して制御します。
+メイン表示の外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> メイン表示の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 — メイン表示を透明にするには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -49,15 +52,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**ヒントメッセージのCSSプロパティ**
+**チップメッセージのCSSプロパティ**
 
-ヒントメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
+チップメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-CSSを使用して、フォントスタイル、サイズの外観、垂直方向のオフセットを設定できます。 ただし、水平方向の位置揃えは、ビューアのロジックで管理されます。 またはプロパティを使用したCSS `left` からの `right` 上書きはサポートされていません。
+フォントスタイル、サイズの外観、および垂直方向のオフセットは、CSSで設定できます。 ただし、水平方向の位置揃えはビューアのロジックに管理されます。 `left`プロパティまたは`right`プロパティを使用したCSSからの上書きはサポートされていません。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -69,18 +72,18 @@ CSSを使用して、フォントスタイル、サイズの外観、垂直方�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>メインビューの下端からのオフセット。 </p> </td> 
+   <td colname="col2"> <p>メイン表示の下端からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>テキストの色。 </p> </td> 
+   <td colname="col2"> <p>テキストカラー </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>フォント名。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>フォント名 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
@@ -88,25 +91,25 @@ CSSを使用して、フォントスタイル、サイズの外観、垂直方�
    <td colname="col2"> <p>メッセージテキストの周囲のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>メッセージテキストの背景の塗りのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>メッセージテキストの背景の境界線の半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8の場合は、 <span class="codeph"> filter:alpha(opacity-...) )を使用します。 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
+   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8の場合は、<span class="codeph"> filter:alpha(opacity-...) ) </span>を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヒントメッセージはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
+ヒントメッセージはローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)を参照してください。
 
 .
 
-例 — 半透明のチップメッセージを、白のArial 12pxフォント、メインビューの下端から50ピクセルのオフセット、パディングおよび角丸の境界線で設定するには、次のように記述します。
+例 — 半透明のチップメッセージを、白のArial 12pxフォント、メイン表示の下端から50ピクセルのオフセット、パディングおよび角丸付きの境界線付きで設定するには、次のように記述します。
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
