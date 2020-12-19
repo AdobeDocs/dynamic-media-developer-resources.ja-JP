@@ -1,20 +1,23 @@
 ---
-description: 設定インジケーターは、タッチデバイスでビューアを使用した場合に、スウォッチの上にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
-seo-description: 設定インジケーターは、タッチデバイスでビューアを使用した場合に、スウォッチの上にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
-seo-title: インジケータの設定
+description: 設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+seo-description: 設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+seo-title: 設定インジケーター
 solution: Experience Manager
-title: インジケータの設定
+title: 設定インジケーター
 topic: Dynamic media
 uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
 
-# インジケータの設定{#set-indicator}
+# インジケータを設定{#set-indicator}
 
-設定インジケーターは、タッチデバイスでビューアを使用した場合に、スウォッチの上にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +38,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>設定インジケーターの16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 白の背景を持つインジケーターを設定するには、次のように記述します。
+例 — 白の背景でインジケーターを設定するには、次のように記述します。
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,7 +52,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-個々の設定インジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。
+個々の設定インジケーターのドットの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -70,27 +73,27 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>設定インジケーターのドットの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p>左余白（ピクセル単位） </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col2"> <p>左余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>上余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>右余白（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col2"> <p>右マージン（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>下余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>境界線の半径（ピクセル単位） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +101,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->設定インジケーターのドットでは、属 `state` 性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、はサムネ `state="selected"` ールの現在のページに対応し、はデフォ `state="unselected"` ルトのドットの状態に対応します。
+>設定インジケーターのドットでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はサムネールの現在のページに対応し、`state="unselected"`はデフォルトのドットの状態に対応します。
 
-例 — 15 x 15ピクセルで、2ピクセルの水平マージン、5ピクセルの上マージン、1ピクセルの下マージン、12ピクセルの半径、#D5D3D3の初期設定の色および#939393アクティブカラーを設定するには、次のように記述します。
+例 — 15 x 15ピクセルで、水平方向のマージンが2ピクセル、上マージンが5ピクセル、下マージンが1ピクセル、半径が12ピクセル、#D5D3D3のデフォルトカラーおよびアクティブカラーが#939393であるインジケーターのドットを設定するには、次のように記述します。
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 
