@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 連続|セグメント</span> </p> </td> 
-   <td colname="col2"> <p> セグメントの境界や境界に関係なく、インタラクティブスウォッチに連続的にサムネールを埋め込みます。これにより、空のスペースにセグメントの境界を書き留めることができます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continuous|segment</span> </p> </td> 
+   <td colname="col2"> <p> セグメントの境界やセグメントの境界に関係なく、インタラクティブスウォッチに連続的にサムネールが表示されます。この場合、空の領域にセグメントの境界が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
