@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2eb19ab7-fc9f-45c1-b7a3-d06a02f8b6aa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>再生が完了した後にメディアを再生するかどうかを示します。 </p> </td> 
+   <td colname="col2"> <p>再生の完了後にメディアを再生するかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
