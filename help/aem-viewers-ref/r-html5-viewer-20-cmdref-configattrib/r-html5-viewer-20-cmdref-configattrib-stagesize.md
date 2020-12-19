@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -18,13 +21,13 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 >
 >この属性は、ズームビューア、ビデオビューア、スピンビューア、インタラクティブ画像ビューア、インタラクティブビデオビューアおよびカルーセルビューアに適用されます。
 
-`stageSize= *`幅の`*, *`高さ`*`
+`stageSize= *``*, *`widthheight`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,height<span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの全体の幅と高さ。 値が0,0の場 <span class="codeph"> 合</span> 、ビューアはCSSルールとWebページのレイアウトに従ってサイズ設定されます。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
+   <td colname="col2"> <p> ビューアの全体的な幅と高さ。 <span class="codeph"> 0,0</span>の値は、CSSルールとWebページのレイアウトに従ってビューアのサイズが設定されることを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
