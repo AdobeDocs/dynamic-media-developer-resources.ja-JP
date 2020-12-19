@@ -23,11 +23,11 @@ ht-degree: 8%
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-派生アセットは、所有者画像の表現を変更するImage Serverプロトコルコマンドを指定します。 派生タイプは、1つの画像に単純な変更を適用する場合（切り抜き長方形を指定する場合など）に役立ちます。また、は、テキストや追加の画像を含むマルチレイヤー表示の作成に役立ちます。 `AdjustedView``LayerView`
+派生アセットは、所有者画像の表現を変更するImage Serverプロトコルコマンドを指定します。 `AdjustedView`派生型は、単一の画像に単純な変更を適用する場合（切り抜き長方形を指定する場合など）に役立ちます。`LayerView`は、テキストや追加の表示を含むマルチレイヤー画像の作成に役立ちます。
 
-画像コピー( [copyImageを参照](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0))とは異なり、派生した画像は所有者画像にリンクされます。 所有者の画像を変更すると、関連付けられた派生アセットが変更されます。 所有者画像を削除すると、関連付けられた派生画像はすべて削除されます。
+イメージコピー（[copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)を参照）とは異なり、派生イメージは所有者イメージにリンクされます。 所有者の画像を変更すると、関連付けられた派生アセットが変更されます。 所有者画像を削除すると、関連付けられた派生画像はすべて削除されます。
 
-## 認証済みユーザータイプ {#authorized-user-types}
+## 認証済みユーザータイプ{#authorized-user-types}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,9 +46,9 @@ ht-degree: 8%
 | ` *`ownerHandle`*` | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
 | ` *`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットを作成するフォルダーへのハンドル。 |
 | ` *`name`*` | `xsd:string` | はい | 派生したアセットの名前。 |
-| ` *`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ。 `AdjustedView` または `LayerView`。 |
-| ` *`urlModifier`*` | `xsd:string` | いいえ | 要求またはコマンドの *前に適用される画像サービングまたは画像レンダリングプロトコルコマンド*`urlPostApplyModifier` 。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求またはコマンドの *後に適用される画像サービングまたは画像レンダリングプロトコルコマンド*`urlPostApplyModifier` 。 |
+| ` *`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ。`AdjustedView`または`LayerView`。 |
+| ` *`urlModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの前に&#x200B;*適用された画像サービングまたは画像レンダリングプロトコルコマンド。* |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドに&#x200B;*後ろに*&#x200B;適用された画像サービングまたは画像レンダリングプロトコルコマンド。 |
 
 **出力(createDerivedAssetParam)**
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 ## 例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-サンプルコードは、表示を調整し、任意の値を持つ派生アセットを作成 `urlModifier` し `urlPostApplyModifier` ます。 応答は、新しく生成されたアセットにハンドルを返します。
+サンプルコードは、表示を調整し、任意の値を持つ`urlModifier`と`urlPostApplyModifier`を持つ派生アセットを作成します。 応答は、新しく生成されたアセットにハンドルを返します。
 
 **リクエスト**
 
