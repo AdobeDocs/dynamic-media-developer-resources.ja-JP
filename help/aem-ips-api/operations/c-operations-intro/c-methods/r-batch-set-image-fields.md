@@ -1,6 +1,6 @@
 ---
-description: 1つ以上の画像アセットの画像固有のフィールドを設定します。
-seo-description: 1つ以上の画像アセットの画像固有のフィールドを設定します。
+description: 1つ以上の画像アセットに対して、画像固有のフィールドを設定します。
+seo-description: 1つ以上の画像アセットに対して、画像固有のフィールドを設定します。
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
 
 # batchSetImageFields{#batchsetimagefields}
 
-1つ以上の画像アセットの画像固有のフィールドを設定します。
+1つ以上の画像アセットに対して、画像固有のフィールドを設定します。
 
 構文
 
-## 認証されたユーザータイプ {#section-6b087bdcb7874c13acf76e113a093054}
+## 認証済みユーザータイプ{#section-6b087bdcb7874c13acf76e113a093054}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +32,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## パラメータ {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**Input (batchSetImageFields)**
+**入力(batchSetImageFields)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像アセットを含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 画像アセットを含む会社へのハンドル。 |
 | ` *`updateArray`*` | `types:ImageFieldUpdateArray` | はい | 画像フィールドの配列が更新されます。 |
 
 **出力(batchSetImageFields)**
@@ -41,14 +44,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | はい | 正常に設定された画像フィールドの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試みたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試みたときに生成されたエラーの数。 |
+| ` *`warningCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成された警告の数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成されたエラーの数。 |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-次の例では、更新配列の2つのイメージのフィールドにデータを設定します。 この配列では、画像はアセットハンドルによって指定され、解像度（ピクセル単位）、x位置およびy位置のアンカー座標、およびユーザデータが含まれます。 この応答は、両方の画像のフィールドが正常に設定されたことを示します。
+次の使用例は、更新配列内の2つのイメージのフィールドにデータを設定します。 この配列では、画像はアセットハンドルによって指定され、ピクセル単位の解像度、x位置とy位置のアンカー座標、およびユーザデータを含みます。 この応答は、両方の画像のフィールドが正常に設定されたことを示します。
 
 **リクエスト**
 
