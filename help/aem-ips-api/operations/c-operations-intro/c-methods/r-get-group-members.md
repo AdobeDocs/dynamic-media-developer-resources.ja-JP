@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-08a73460d122480292205bb8f2df9220}
+## 認証済みユーザータイプ{#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,8 +33,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
-| ` *`groupHandle`*` | `xsd:string` |  | グループのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| ` *`groupHandle`*` | `xsd:string` |  | グループへのハンドル。 |
 
 **出力(getGroupMembersReturn)**
 
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-このコード例は、特定のグループに属するすべてのユーザーを含むユーザーハンドル配列を返します。
+次のコードの例は、特定のグループに属するすべてのユーザーを含むユーザーハンドルの配列を返します。
 
 **リクエスト**
 
