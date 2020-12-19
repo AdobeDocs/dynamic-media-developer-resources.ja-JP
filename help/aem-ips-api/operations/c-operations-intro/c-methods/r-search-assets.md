@@ -21,19 +21,19 @@ ht-degree: 7%
 
 構文
 
-## searchAssets: バージョン情報 {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets:{#section-4ad74f12eb754768bf85bd235a7e25f0}について
 
-`searchAssets` は、IPSアセットを取得する主な方法です。 このメソッドは、フォルダー階層の参照や、特定のアセットの名前による検索など、様々な目的に使用します。
+`searchAssets` は、IPSアセットを取得する主な方法です。このメソッドは、フォルダー階層の参照や、特定のアセットの名前による検索など、様々な目的に使用します。
 
 **応答サイズ**
 
-`searchAssets` 1回の呼び出しで最大1000個のアセットを返します。 1回の呼び出しで最大10,000個のアセットを返すには、応答データを、、、、、、および `totalRows`各フィールドのサブセットに制限し `name``handle``type``subType` ます。 より大きいセットを返すには、 `resultPage` パラメーターを使用してページングを設定します。
+`searchAssets` 1回の呼び出しで最大1000個のアセットを返します。1回の呼び出しで最大10,000個のアセットを返すには、応答データを`totalRows`、`name`、`handle`、`type`、`subType`の各フィールドのサブセットに制限します。 より大きいセットを返すには、`resultPage`パラメータを使用してページングを設定します。
 
 **responseFieldArrayまたはexcludeFieldArrayによる結果ファイルサイズの制限**
 
-またはの `responseFieldArray``excludFieldArray` パラメーターを使用して、データセットのサイズを制限します。 これらのパラメーターは、メモリの使用量と帯域幅を削減し、サーバーの応答時間を改善するのに役立ちます。
+`responseFieldArray`または`excludFieldArray`パラメーターを使用して、データセットのサイズを制限します。 これらのパラメーターは、メモリの使用量と帯域幅を削減し、サーバーの応答時間を改善するのに役立ちます。
 
-## 認証済みユーザータイプ {#section-9c4bc41bb8b4493982197eb13c7cdc55}
+## 認証済みユーザータイプ{#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -93,7 +93,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">サブフォルダを検索する場合は <span class="codeph"> true</span> に設定します。 </td> 
+   <td colname="col4">サブフォルダーを検索するには、<span class="codeph"> true</span>に設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -105,25 +105,25 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">ごみ箱状態の選択 初期設定は <span class="codeph"> NotInTrash</span>です。 </td> 
+   <td colname="col4">ごみ箱状態の選択 初期設定は<span class="codeph"> NotInTrash</span>です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>keywordArrayの結果を組み合わせるための検索一致モードの選択 <span class="codeph"></span>、 </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>、 <span class="codeph"> metadataConditionArray</span>。 初期設定は <span class="codeph"> MatchAll</span>。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> keywordArray</span>の結果を組み合わせるための検索一致モードの選択、 </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>、 <span class="codeph"> metadataConditionArray</span>。初期設定は<span class="codeph"> MatchAll</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p> <p>注意：  非推奨パラメーター。 使用しないことをお勧めします。 </p> </p> <p>一致するキーワードの文字列配列。 </p> </td> 
+   <td colname="col4"> <p> <p>注意： 非推奨パラメーター。 使用しないことをお勧めします。 </p> </p> <p>一致するキーワードの文字列配列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>systemFieldConditionが一致する場合の組み合わせに使用する検索一致モードの選択 <span class="codeph"> 。</span> 初期設定は <span class="codeph"> MatchAllです</span> </p>. </td> 
+   <td colname="col4"> <p><span class="codeph"> systemFieldCondition</span>の一致を組み合わせるための検索一致モードの選択。 デフォルトは<span class="codeph"> MatchAll</span>です </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -135,19 +135,19 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">検索一致モードの文字列定数。 デフォルト値は <span class="codeph"> MatchAll</span>です。 </td> 
+   <td colname="col4">検索一致モードの文字列定数。 デフォルトは<span class="codeph"> MatchAll</span>です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：TagConditionArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>タグフィールド検索述語の配列。 </p> <p>述部は、 <span class="codeph"> tagMatchMode</span> 設定に従って結合され、次に <span class="codeph"> キーワード配列内の任意の語句と結合されます。</span>システムフィールド条件配列 <span class="codeph"> 、メタデータ条件配列、メタデータ</span>配列 <span class="codeph"> の</span><span class="codeph"></span> 配列一致モードの設定 </p> </td> 
+   <td colname="col4"> <p>タグフィールド検索述語の配列。 </p> <p>述部は、<span class="codeph"> tagMatchMode</span>設定に従って結合され、次に、<span class="codeph"> keywordArray</span>、<span class="codeph"> systemFieldConditionArray</span>、<span class="codeph"> metadataConditionArray</span>の条件に従って結合されます。モード</span>の設定。<span class="codeph"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">metadataConditionが一致する場合を組み合わせるための検索一致 <span class="codeph"> モード</span> 。 初期設定は <span class="codeph"> MatchAll</span>。 </td> 
+   <td colname="col4"><span class="codeph"> metadataCondition</span>の一致を組み合わせるための検索一致モード 初期設定は<span class="codeph"> MatchAll</span>です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -177,7 +177,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">true <span class="codeph"> でassetSubTypeArray</span> が空でない場合 <span class="codeph"> 、setSubTypeArray</span><span class="codeph"></span> にサブタイプが含まれているアセットのみが返されます。 false <span class="codeph"> (デフォルト</span> )の場合、サブタイプが定義されていないアセットが返されます。 </td> 
+   <td colname="col4"><span class="codeph"> true</span>および<span class="codeph"> assetSubTypeArray</span>が空でない場合、<span class="codeph"> assetSubTypeArray</span>にサブタイプが含まれるアセットのみが返されます。 <span class="codeph"> false</span>（デフォルト）の場合、サブタイプが定義されていないアセットが返されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -207,7 +207,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">recordsPerPage <span class="codeph"></span> ページサイズに基づいて、返す結果のページを指定します。 </td> 
+   <td colname="col4"><span class="codeph"> recordsPerPage</span>ページサイズに基づいて、返す結果のページを指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
