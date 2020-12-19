@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2f10c080-f21d-4021-b10c-cd83f731db65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `getComponent(componentId)`
 
-ビューアで使用されるビューアSDKコンポーネントへの参照を返します。 Webページでは、このメソッドを使用して、標準搭載のビューアの動作を拡張またはカスタマイズできます。 このメソッドは、ビューアのコールバッ `initComplete` クの実行後にのみ呼び出します。呼び出さないと、ビューアのロジックによってコンポーネントがまだ作成されていない可能性があります。
+ビューアで使用されているビューアSDKコンポーネントへの参照を返します。 Webページでは、このメソッドを使用して、標準搭載のビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete`ビューアのコールバックを実行した後でのみ呼び出してください。呼び出さないと、ビューアのロジックによってコンポーネントがまだ作成されていない場合があります。
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` - `{String}` ビューアで使用されるビューアSDKコンポーネントのID。 このビューアは、次のコンポーネントIDをサポートしています。
+` *`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,75 +36,75 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.コンテナ  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> video360Player </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.Video360Player </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> video360Player  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.Video360Player  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mutableVolume </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mutableVolume  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> playPauseButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> playPauseButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoScrubber </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoScrubber  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoTime </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoTime  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> コントロール </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> socialShare  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> twitterShare  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> facebookShare  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linkShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linkShare  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> embedShare </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sk.share.EmbedShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> embedShare  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sk.share.EmbedShare  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-SDK APIを使用する場合は、ビューアSDK名前空間で説明されているように、正しい完全修飾SDK名前空間を使 [用することが重要です](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)。
+SDK APIを使用する場合、[ビューアSDKの名前空間](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)で説明されているとおり、正しい完全修飾SDK名前空間を使用することが重要です。
 
-特定のコンポ *ーネントについて詳しくは、* HTML5ビューアSDK APIのドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、*HTML5ビューアSDK API*&#x200B;のドキュメントを参照してください。
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
 
-`{Object}` ビューアSDKコンポーネントへの参照。 このメソッドは、がサ `null` ポートさ `componentId` れているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合に返されます。
+`{Object}` ビューアSDKコンポーネントへのリファレンス。`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合は、`null`が返されます。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
