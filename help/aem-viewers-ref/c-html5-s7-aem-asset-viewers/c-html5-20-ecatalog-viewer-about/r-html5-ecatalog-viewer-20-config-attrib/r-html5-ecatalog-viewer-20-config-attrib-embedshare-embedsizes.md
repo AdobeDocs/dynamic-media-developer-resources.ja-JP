@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 13a93677-5221-48d9-bea8-d291f8612f09
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
 
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`widthheightwidthheight`*, *``*[,0|1][; *``*, *`height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択する必要があるかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
