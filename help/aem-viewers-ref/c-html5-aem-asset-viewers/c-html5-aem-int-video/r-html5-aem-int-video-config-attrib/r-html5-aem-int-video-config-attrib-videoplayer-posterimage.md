@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6b21179c-a227-4194-8640-0fcf73ee80e9
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 2%
 
 ---
 
@@ -22,12 +25,12 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> ビデオの再生開始前に最初のフレームに表示する画像で、serverurlを基準に解決さ <span class="codeph"> れます</span>。 URLで指定する場合は、次をHTTPエンコードします。 </p> <p> 
+   <td colname="col2"> <p> 再生中のビデオ開始の前の最初のフレームに表示する画像です。<span class="codeph"> serverurl</span>を基準に解決されます。 URLで指定する場合、次の内容をHTTPエンコードします。 </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> % <span class="codeph"> 3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> %</span> 26と <span class="codeph"> して(&amp;A)</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>image_idの値を <span class="codeph"><span class="varname"> 省略すると</span></span> 、コンポーネントはそのアセットの初期設定のポスター画像を使用しようとします。 </p> <p>ビデオをパスとして指定すると、初期設定のポスター画像カタログIDは、ビデオパスから <span class="codeph"> catalog_id/image_id</span> ( <span class="codeph"></span><span class="codeph"></span> catalog_idはパス内の最初のトークンに対応し、image_idは拡張子が削除されたビデオの名前)になります。 そのIDの画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の <span class="codeph"> 値に</span> 「なし」を指定します。 isCommandsのみを指定し <span class="codeph"><span class="varname"> た場合</span></span> 、画像が表示される前に、初期設定のポスター画像にコマンドが適用されます。 </p> </td> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span>の値を省略すると、コンポーネントは、そのアセットの初期設定のポスター画像を代わりに使用しようとします。 </p> <p>ビデオをパスとして指定した場合、初期設定のポスター画像カタログIDは、ビデオパスから<span class="codeph">カタログID/画像ID</span>ペアに派生します。<span class="codeph">カタログID</span>はパス内の最初のトークンに対応し、<span class="codeph">画像_id</span>は拡張子が削除されたビデオの名前です。 そのIDの画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値として<span class="codeph"> none</span>を指定します。 <span class="codeph"><span class="varname"> isCommands</span></span>のみを指定した場合、画像が表示される前に、初期設定のポスター画像にコマンドが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
