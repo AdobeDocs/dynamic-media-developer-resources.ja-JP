@@ -1,6 +1,6 @@
 ---
-description: searchAssetsから返されるメタデータフィールド。
-seo-description: searchAssetsから返されるメタデータフィールド。
+description: searchAssetsによって返されるメタデータフィールド。
+seo-description: searchAssetsによって返されるメタデータフィールド。
 seo-title: メタデータ
 solution: Experience Manager
 title: メタデータ
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
 
 # メタデータ{#metadata}
 
-searchAssetsから返されるメタデータフィールド。
+searchAssetsによって返されるメタデータフィールド。
 
 構文
 
@@ -24,8 +27,8 @@ searchAssetsから返されるメタデータフィールド。
 |---|---|---|
 | ` *`name`*` | `xsd:string` | メタデータ名。 |
 | ` *`value`*` | `xsd:string` | メタデータ値。 |
-| ` *`boolVal`*` | `xsd:boolean` | ブール型メタデータ値（ブール型フィールドのみ）。 |
-| ` *`longVal`*` | `xsd:long` | 長いメタデータ値（整数型フィールドのみ）。 |
-| ` *`doubleVal`*` | `xsd:double` | 二重のメタデータ値（浮動小数点型フィールドのみ）。 |
-| ` *`dateVal`*` | `xsd:dateTime` | 日付メタデータ値（日付を入力したフィールドのみ）。 |
+| ` *`boolVal`*` | `xsd:boolean` | ブール型メタデータ値（ブール型フィールドのみ） |
+| ` *`longVal`*` | `xsd:long` | 長いメタデータ値（整数型フィールドのみ） |
+| ` *`doubleVal`*` | `xsd:double` | 重複のメタデータ値（浮動小数点数型のフィールドのみ） |
+| ` *`dateVal`*` | `xsd:dateTime` | 日付メタデータ値（日付を入力したフィールドのみ） |
 
