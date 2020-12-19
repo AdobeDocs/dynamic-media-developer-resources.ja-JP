@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 認証済みユーザータイプ{#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +36,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | フォルダハンドル |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| ` *`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
 | ` *`destFolderHandle`*` | `xsd:string` | はい | 宛先フォルダーへのハンドル。 |
 
 **出力(moveFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | はい | 移動したフォルダーのハンドル。 |
+| ` *`folderHandle`*` | `xsd:string` | はい | 移動したフォルダーへのハンドル。 |
 
 ## 例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
