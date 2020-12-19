@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4929884e-b072-4177-83c3-1f9b4e5df569
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 
@@ -18,22 +21,22 @@ eCatalogビューアのJavaScript APIリファレンス。
 
 [!DNL ` setParams( *`params`*)`]
 
-1つ以上のパラメーターを指定された値に設定します。 メソッドの引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアをで区切って表します [!DNL `&`]。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードされます。 を呼び出す前に、こ [!DNL `init()`]のパラメーターを呼び出す必要があります。
+1つ以上のパラメーターに特定の値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを[!DNL `&`]で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードします。 [!DNL `init()`]を呼び出す前に、このパラメーターを呼び出す必要があります。
 
-ビューアの設定情報が [!DNL `config`] JSONオブジェクトと共にコンストラクターに渡される場合、このメソッドはオプションです。
+ビューアの設定情報が[!DNL `config`] JSONオブジェクトを使用して渡される場合は、このメソッドはオプションです。
 
-「 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)」も参照。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを <span class="codeph"> &amp;で区切</span>る。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを <span class="codeph"> &amp;で区切ります</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
 
 なし
 
