@@ -1,6 +1,6 @@
 ---
-description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
-seo-description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
+seo-description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 10%
 
 ---
 
 
 # getJobLogs{#getjoblogs}
 
-選択した会社の指定したジョブログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
 
 構文
 
-## 認証されたユーザータイプ {#section-9df82972265d44c9ad91504a17c3ffa6}
+## 認証済みユーザータイプ{#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,12 +39,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | 会社が取り扱う。 |
+| ` *`companyHandle`*` | `xsd:string` | いいえ | 会社ハンドル。 |
 | ` *`userHandle`*` | `xsd:string` | いいえ | 特定のユーザーが送信したジョブのログを取得します。 |
 | ` *`sortBy`*` | `xsd:string` | いいえ | フィールドの並べ替えを選択できます。 |
-| ` *`sortDirection`*` | `xsd:string` | いいえ | 並べ替え順（昇順または降順）。 |
-| ` *`startDate`*` | `xsd:dateTime` | いいえ | ジョブログの開始日時。 このフィールドの要求をタイムゾーンに指定します。 |
-| ` *`endDate`*` | `xsd:dateTime` | いいえ | ジョブログの終了日時。 このフィールドの要求をタイムゾーンに指定します。 |
+| ` *`sortDirection`*` | `xsd:string` | いいえ | 並べ替え順（昇順または降順） |
+| ` *`startDate`*` | `xsd:dateTime` | いいえ | ジョブログの開始の日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
+| ` *`endDate`*` | `xsd:dateTime` | いいえ | ジョブログが終了した日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
 | ` *`numRows`*` | `xsd:int` | いいえ | 返す行の最大数。 |
 
 **出力(getJobLogsReturn)**
@@ -52,7 +55,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-35871c94b4a44559912577efddbc46a6}
 
-このコード例は、特定の会社のIPSジョブログを返します。 また、特定のユーザー、会社、およびユーザーのジョブログを返す場合にも使用できます。
+このコードのサンプルを使用すると、特定の会社のIPSジョブログを返すことができます。 また、特定のユーザー、会社、ユーザーのジョブログを返す場合にも使用できます。
 
 **リクエスト**
 
