@@ -1,6 +1,6 @@
 ---
-description: 画像をディレート/侵食します。 形態学的なディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
-seo-description: 画像をディレート/侵食します。 形態学的なディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
+description: 画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
+seo-description: 画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
 seo-title: op_growMaskR
 solution: Experience Manager
 title: op_growMaskR
@@ -8,28 +8,31 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
 
 # op_growMaskR{#op-growmaskr}
 
-画像をディレート/侵食します。 形態学的なディレート（半径> 0）または侵食（半径&lt; 0）をマスクデータに適用します。
+画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径&lt; 0）をマスクデータに適用します。
 
 `op_growMaskR= *`radiusR`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>マスクがダウンサンプルされているかどうかに関係なく <span class="codeph"><span class="varname"></span></span> 、radiusRが適用されるピクセル単位で半径を拡大/縮小します（整数 —100 ～ 100）。 </p></td> 
+  <td class="stentry"> <p>マスクがダウンサンプルされているかどうかに関係なく、<span class="codeph"><span class="varname"> radiusR</span></span>がそのまま適用されるピクセル単位のディレート/エロード半径（整数 —100 ～ 100）。 </p></td> 
  </tr> 
 </table>
 
-主に、マスクの端の周りに生じるアーチファクトを避けるために、マスクを少し拡大または縮小する目的で使用します。
+主に、マスクのエッジの周囲に生じるアーチファクトを回避するために、マスクを少し拡大または縮小するために使用します。
 
 ## プロパティ {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-現在のレイヤーまたはレイヤー（の場合）に適 `0` 用されま `layer=comp`す。
+現在の画層に適用されます。または、`layer=comp`の場合は画層`0`に適用されます。
 
 ## 初期設定 {#section-14c908bb87cb42acbea709effea2f964}
 
