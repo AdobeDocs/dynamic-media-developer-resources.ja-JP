@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 16%
 
 ---
 
@@ -33,31 +36,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>ひし形タイリング。 </p> </td> 
+  <td class="stentry"> <p>ひし形のタイリング。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>壁紙が垂れ下がる </p> </td> 
+  <td class="stentry"> <p>壁紙が四分の一滴下になる。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>3滴目の壁紙がぶら下がる。 </p> </td> 
+  <td class="stentry"> <p>3滴目の壁紙が掛かる。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>壁紙を半滴で張る。 </p> </td> 
+  <td class="stentry"> <p>壁紙を半ドロップで掛ける。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>5滴目の壁紙がぶら下がる。 </p> </td> 
+  <td class="stentry"> <p>5滴目の壁紙が掛かる。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>壁紙を裏返しにします。 </p> </td> 
+  <td class="stentry"> <p>壁紙を反転して貼り付けます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>ランダムな壁紙がハングする。 </p> </td> 
+  <td class="stentry"> <p>ランダムな壁紙がハングします。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -65,7 +68,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>ランダム。 </p> </td> 
+  <td class="stentry"> <p>ランダムに横切る。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -73,19 +76,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>鏡像化(bookmatch) </p> </td> 
+  <td class="stentry"> <p>鏡像（ブックマッチ） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>標準のランダム化 </p> </td> 
+  <td class="stentry"> <p>標準のランダム化機能 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>高周波のランダム化 </p> </td> 
+  <td class="stentry"> <p>高周波ランダム化器 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>低周波のランダム化 </p> </td> 
+  <td class="stentry"> <p>低周波のランダム化器 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
@@ -101,15 +104,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-ランダムキルティングモード(14...18)は、容易に繰り返しが可能でない画像からテクスチャを合成するために使用できる。アルゴリズムは、元のイメージに基づいて、完全にランダムまたは部分的にランダムなテクスチャを作成します。
+ランダムキルティングモード(14...18)は、容易に繰り返しが可能でないイメージからテクスチャを合成するのに使用できる。アルゴリズムは、元のイメージに基づいて、完全にランダムなテクスチャまたは部分的にランダムなテクスチャを作成します。
 
 ## プロパティ {#section-262bf540930d4890b678ea00cefe1909}
 
-マテリアル属性。 ソリッドカラー、デカル、キャビネットのマテリアルでは無視されます。
+マテリアル属性 ソリッドカラー、デカール、キャビネットのマテリアルでは無視されます。
 
 ## 初期設定 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`に基づくマテリアルの場合は、カタログエントリに基づくマテリアルの場合は、それ以外の場合は `0` （まっすぐな繰り返し）。
+`catalog::Repeat`材料がカタログエントリを基にしている場合は、それ以外の場合 `0` （直線的な繰り返し）。
 
 ## 関連項目 {#section-ac99113b64654d75a3a86e41db546269}
 
