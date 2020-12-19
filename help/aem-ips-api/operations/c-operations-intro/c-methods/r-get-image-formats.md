@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 構文
 
-## 認証されたユーザータイプ {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 認証済みユーザータイプ{#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -30,11 +33,11 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 ## パラメータ {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**Input (getImageFormatsParam)**
+**入力(getImageFormatsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 取得する画像形式を持つ会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 取得する会社形式を持つ画像へのハンドル。 |
 
 **出力(getImageFormatsParam)**
 
@@ -44,7 +47,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 ## 例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
-このコードサンプルを使用すると、指定した会社のすべての画像形式を返すことができます。
+次のコードのサンプルを使用すると、指定した会社のすべての画像形式を返すことができます。
 
 **リクエスト**
 
