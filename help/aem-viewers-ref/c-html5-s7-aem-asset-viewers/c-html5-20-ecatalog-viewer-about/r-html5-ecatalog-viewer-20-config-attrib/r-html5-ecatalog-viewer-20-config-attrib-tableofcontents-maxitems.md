@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>ドロップダウン目次の最大項目数。 </p> <p>また、外側のコンテナによってドロップダウンが切り抜かれる場合に備えて、ドロップダウンの表示項目数を減らすこともできます。 </p> <p>0に設定すると <span class="codeph"></span> 、追加先のコンテナに対して、そのコンポーネントは可能な限り多くの項目を表示します。 </p> </td> 
+   <td> <p>ドロップダウン目次の最大項目数です。 </p> <p>また、外側のコンテナでドロップダウンが切り抜かれる場合に備えて、ドロップダウンの表示項目数を減らすこともできます。 </p> <p><span class="codeph"> 0</span>に設定した場合、コンポーネントは、追加先のコンテナに対して、可能な限り多くの項目を表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
