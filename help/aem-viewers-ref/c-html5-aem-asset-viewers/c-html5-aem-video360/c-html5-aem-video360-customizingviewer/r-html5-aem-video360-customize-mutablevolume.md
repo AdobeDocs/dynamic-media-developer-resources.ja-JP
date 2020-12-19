@@ -1,6 +1,6 @@
 ---
-description: ミュート可能ボリュームコントロールは、最初は、ビデオプレーヤーの音をミュートまたはミュート解除するボタンとして表示されます。
-seo-description: ミュート可能ボリュームコントロールは、最初は、ビデオプレーヤーの音をミュートまたはミュート解除するボタンとして表示されます。
+description: ミュート可能ボリュームコントロールは、最初はボタンとして表示され、ユーザがビデオプレーヤーの音をミュートまたはミュート解除できます。
+seo-description: ミュート可能ボリュームコントロールは、最初はボタンとして表示され、ユーザがビデオプレーヤーの音をミュートまたはミュート解除できます。
 seo-title: ミュート可能ボリューム
 solution: Experience Manager
 title: ミュート可能ボリューム
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 6ac8f777-11d8-4a20-b7ed-23f947426cdf
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 2%
 
 ---
 
 
-# Mutable volume{#mutable-volume}
+# ミュート可能ボリューム{#mutable-volume}
 
-ミュート可能ボリュームコントロールは、最初は、ビデオプレーヤーの音をミュートまたはミュート解除するボタンとして表示されます。
+ミュート可能ボリュームコントロールは、最初はボタンとして表示され、ユーザがビデオプレーヤーの音をミュートまたはミュート解除できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ユーザがボタンの上に移動すると、スライダが表示され、ユーザがボリュームを設定できます。 ミュート可能ボリュームコントロールは、CSSを使用して、そのコントロールを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
+ユーザーがボタンをロールオーバーすると、スライダーが表示され、ボリュームを設定できます。 ミュート可能ボリュームコントロールは、CSSを使用して、このコントロールを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
 
 ミュート可能ボリューム領域の外観は、以下のCSSクラスセレクターを使用して制御します。
 
@@ -47,7 +50,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>ミュート可能ボリュームコントロールの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> ミュート可能ボリュームコントロールのカラー。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,26 +62,26 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7video360viewer .s7mutablevolume .s7mutebutton
 ```
 
-各ボタンの状態の背景画像を制御できます。 ボタンのサイズは、ボリュームコントロールのサイズから継承されます。
+ボタンの状態ごとに背景画像を制御できます。 ボタンのサイズは、ボリュームコントロールのサイズから継承されます。
 
 **ボタン画像のCSSプロパティ**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、属性セレクターと属 `state` 性セレク `selected` ターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、は「ミュ `selected='true'` ート済み」の状態に対応し、「ミ `selected='false'` ュートされていない」の状態に対応します。
+>このボタンでは、`state`と`selected`の属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「ミュート」状態に対応し、`selected='false'`は「ミュート解除」状態に対応します。
 
 垂直ボリュームバー領域は、以下のCSSクラスセレクターを使用して制御します。
 
@@ -91,15 +94,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームの背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームの高さ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +120,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームコントロールの背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>垂直ボリュームコントロールの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>垂直ボリュームコントロールの高さ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -142,19 +145,19 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームコントロールノブのアートワーク。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p>CSSスプライ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> トを参照してくだ </a>さい。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>垂直ボリュームコントロールノブの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>垂直ボリュームコントロールノブの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -164,9 +167,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザインターフェイス要素のローカリゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例** - 32 x 32ピクセルで、コントロールバーの上から6ピクセル、右端から38ピクセルの位置に配置するミュートボタンを設定するには、次のように記述します。 選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示します。
+**例** - 32 x 32ピクセルで、コントロールバーの上から6ピクセル、右端から38ピクセルの位置に配置するミュートボタンを設定します。選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示します。
 
 ```
 .s7video360viewer .s7mutablevolume { 
@@ -201,7 +204,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-ミュート可能ボリュームコントロール内のボリュームスライダのスタイルを設定する例を次に示します。
+ミュート可能ボリュームコントロール内のボリュームスライダのスタイル設定の例を以下に示します。
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume { 
