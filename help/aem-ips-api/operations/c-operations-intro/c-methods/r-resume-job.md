@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-eab49f4b6d1041179000326a10fee889}
+## 認証済みユーザータイプ{#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,12 +38,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 再開するジョブを持つ会社へのハンドル。 |
-| ` *`jobHandle`*` | `xsd:string` | はい | 一時停止したジョブのハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 再起動するジョブを持つ会社へのハンドル。 |
+| ` *`jobHandle`*` | `xsd:string` | はい | 一時停止したジョブへのハンドル。 |
 
-**Output (resumeJobReturn)**
+**出力(resumeJobReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d0524e031f1f43d89430eade19526162}
 
