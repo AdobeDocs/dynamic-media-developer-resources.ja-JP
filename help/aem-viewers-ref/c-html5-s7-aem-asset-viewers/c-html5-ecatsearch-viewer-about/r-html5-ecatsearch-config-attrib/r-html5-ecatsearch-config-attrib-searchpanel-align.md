@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 769ae5e4-23ee-435a-9a56-d84a32004b00
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の配置（アンカー）を指定します。 </p> <p>SearchPanelでは、サムネールが整数だけ表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の位置揃え（アンカー）を指定します。 </p> <p>検索パネルでは、サムネールが整数の数だけ表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子では、コンポーネント内での内部サムネールコンテナの水平位置を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
