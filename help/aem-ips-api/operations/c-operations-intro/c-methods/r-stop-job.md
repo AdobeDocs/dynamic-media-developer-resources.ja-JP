@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-b222f561143747f6ad089aadc0b274d8}
+## 認証済みユーザータイプ{#section-b222f561143747f6ad089aadc0b274d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,12 +38,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
 | ` *`jobHandle`*` | `xsd:string` | はい | 停止するジョブの処理。 |
 
-**出力(stopJobReturn0)**
+**出力(stopJobReturn0**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
