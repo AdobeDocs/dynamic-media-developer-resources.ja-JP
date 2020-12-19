@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c0dae056-3c26-4b8e-9069-c63a8a1b719f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:TagValueUpdateFault` | タグ値の更新エラー（エラーメッセージ）の配列。 |
+| ` *`商品`*` | `types:TagValueUpdateFault` | タグ値の更新エラーの配列（エラーメッセージ）。 |
 
