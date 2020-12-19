@@ -23,7 +23,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 形式は、Image Serverおよびクライアントブラウザーでサポートされる任意の値です。 </p> <p>画像形式の末尾が <span class="codeph"> -alphaの場合</span>、画像は透明のコンテンツとしてレンダリングされます。 その他の画像形式の値の場合、画像は不透明として扱われます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 形式は、Image Serverおよびクライアントブラウザーでサポートされる任意の値です。 </p> <p>画像形式の末尾が<span class="codeph"> -alpha</span>の場合、画像は透明のコンテンツとしてレンダリングされます。 その他の画像形式の値の場合、画像は不透明として扱われます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
