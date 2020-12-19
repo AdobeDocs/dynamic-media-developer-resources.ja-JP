@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 11426516-8336-4186-84b4-15ce5ec7e764
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_6B56976AEADA440A9A6BC9C4F65D4ADA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 価 </span> 値 </span> </p> </td> 
-   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用するビデオのビットレート(kbps)を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートのビデオを開始します。 </p> <p>0に設定すると、ビ <span class="codeph"> デオプレ </span> ーヤーは最も低いビットレートから開始されます。 HTML5 HLSビデオ（Windows 10のFirefox、Chrome、Internet Explorer 11の各ブラウザー）をネイティブでサポートしていないシステムで、再生モードが自動に設定されている場合にのみ適用され <span class="codeph"> ます </span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
+   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用する、ビデオのビットレート（キロビット/秒、kbps）を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートを持つビデオを開始します。 </p> <p><span class="codeph"> 0 </span>に設定した場合、ビデオプレーヤー開始は最も低いビットレートから取得されます。 HTML5 HLSビデオ（Windows 10のFirefox、Chrome、Internet Explorer 11ブラウザー）をネイティブサポートしていないシステム、および再生モードが<span class="codeph"> auto </span>に設定されている場合にのみ適用できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
