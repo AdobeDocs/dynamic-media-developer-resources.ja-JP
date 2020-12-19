@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 07576390-dd17-4a28-b372-7bba207bdebe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> ビューアが読み込み時にビデオの再生を開始するかどうかを示します。 一部のモバイルデバイスなど、一部のシステムでは自動再生がサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> ビューアの開始が読み込み時にビデオを再生するかどうかを示します。 一部のモバイルデバイスなど、一部のシステムでは自動再生がサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
