@@ -8,27 +8,30 @@ topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durationcountfade`*[, *``*][, *``*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p> ヒントテキストが非表示になるまでの秒数を指定します。 -1に設定すると <span class="codeph"></span>、ユーザがフライアウトをアクティブにしても、メッセージが常に表示されます。 </p> </td> 
+   <td colname="col2"> <p> ヒントテキストが非表示になるまでの表示秒数を指定します。 <span class="codeph"> -1</span>に設定した場合、ユーザーがフライアウトをアクティブにしても、メッセージは常に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> カウント</span></span> </p> </td> 
-   <td colname="col2"> <p> セット内の新しい画像を表示する際に、テキストを表示する回数を指定します。 値が —1の場合、 <span class="codeph"> セット内の</span> 任意の画像を表示するときにテキストが常に表示されます。 </p> </td> 
+   <td colname="col2"> <p> セット内の新しい画像を表示するときに、テキストが表示される回数を指定します。 値<span class="codeph"> -1</span>は、セット内の任意の画像を表示するときに、テキストが常に表示されることを意味します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
-   <td colname="col2"> テキストの表示/非表示を切り替える際に行うフェードアニメーションの時間を指定します。 値が0の場合、フェ <span class="codeph"> ードトランジ</span> ションはありません。 </td> 
+   <td colname="col2"> テキストを表示または非表示にするときに行うフェードアニメーションの時間を指定します。 <span class="codeph"> 0</span>の値は、フェードトランジションがないことを示します。 </td> 
   </tr> 
  </tbody> 
 </table>
