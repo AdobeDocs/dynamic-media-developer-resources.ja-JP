@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 認証済みユーザータイプ{#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,17 +39,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | はい | プロパティセットのハンドル。 |
-| ` *`replaceProperties`*` | `xsd:string` | いいえ | プロパティを置 `true` き換える場合に設定します。 |
+| ` *`setHandle`*` | `xsd:string` | はい | プロパティセットへのハンドル。 |
+| ` *`replaceProperties`*` | `xsd:string` | いいえ | プロパティを置き換えるには、`true`に設定します。 |
 | ` *`propertyArray`*` | `types:PropertyArray` | はい | プロパティセットの更新されたプロパティの配列。 |
 
 **出力(updatePropertySetReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-次のコード例では、プロパティ配列内のプロパティを使用してプロパティセットを更新します。
+次のコードの例では、プロパティ配列内のプロパティを使用してプロパティセットを更新します。
 
 **リクエスト**
 
