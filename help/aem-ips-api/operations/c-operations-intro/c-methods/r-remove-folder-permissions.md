@@ -1,6 +1,6 @@
 ---
-description: フォルダの権限を削除します。
-seo-description: フォルダの権限を削除します。
+description: フォルダーの権限を削除します。
+seo-description: フォルダーの権限を削除します。
 seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 11%
 
 ---
 
 
 # removeFolderPermissions{#removefolderpermissions}
 
-フォルダの権限を削除します。
+フォルダーの権限を削除します。
 
 構文
 
-## 認証されたユーザータイプ {#section-bfa745624f9b43aaba6c226ac6700fe7}
+## 認証済みユーザータイプ{#section-bfa745624f9b43aaba6c226ac6700fe7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,25 +42,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 削除する権限を持つフォルダを持つ会社のハンドル。 </td> 
+   <td colname="col4"> 権限を削除する会社ーを持つフォルダーへのハンドルです。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> フォルダーのハンドル。 </td> 
+   <td colname="col4"> フォルダーへのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>trueの <span class="codeph"> 場合</span>: 
+   <td colname="col4"> <p><span class="codeph"> true</span>の場合： 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">権限の削除は、すべてのフォルダー権限の操作を通じて反映されます。 </li> 
-     </ul> </p> <p>falseの <span class="codeph"> 場合</span>: 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">権限の削除は、すべてのフォルダー権限操作を通じて伝播されます。 </li> 
+     </ul> </p> <p><span class="codeph"> false</span>の場合： 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">この操作は、指定したフォルダーにのみ影響します。 </li> 
      </ul> </p> </td> 
@@ -67,11 +70,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **出力(removeFolderPermissionsReturn)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-次のコード例では、フォルダーとそのサブフォルダーから権限を削除します。 親フォ `updateChildren` ルダーか `false` らのみ権限を削除する必要がある場合は、に設定します。
+このコードの例では、フォルダーとそのサブフォルダーから権限を削除します。 親フォルダーからのみ権限を削除する必要がある場合は、`updateChildren`を`false`に設定します。
 
 **リクエスト**
 
