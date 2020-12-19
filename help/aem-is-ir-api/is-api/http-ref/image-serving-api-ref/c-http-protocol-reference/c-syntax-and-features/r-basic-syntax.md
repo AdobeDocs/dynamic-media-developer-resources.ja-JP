@@ -8,72 +8,75 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 1%
 
 ---
 
 
-# 画像サービングHTTPプロトコルの基本構文{#image-serving-http-protocol-basic-syntax}
+# 画像サービングHTTPプロトコル基本構文{#image-serving-http-protocol-basic-syntax}
 
 HTTPプロトコルの基本構文は次のとおりです。
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 要 <span class="varname"> 求</span></span> </p> </td> 
-  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> 修飾子</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> リクエスト</span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> modifiers</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> サーバ </span> ー </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> server  </span> </span> </p></td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address</span>[:<span class="varname"> port</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 物 <span class="varname"> 体</span></span> </p></td> 
-  <td class="stentry"> <p>ソースオブジェクト指定子（画像パスまたは画像カタログエントリ）。 </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> object</span> </span> </p></td> 
+  <td class="stentry"> <p>ソースオブジェクト指定子（画像パスまたは画像カタログエントリ） </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 修飾 <span class="varname"> 子</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifiers</span> </span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier</span>*[&amp;<span class="varname"> modifier</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 修飾 <span class="varname"> 子</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier</span> </span> </p></td> 
   <td class="stentry"> <p><span class="codeph">command|{$<span class="varname"> macro</span>$}|{.<span class="varname"> comment</span>}</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 指 <span class="varname"> 令</span></span> </p> </td> 
-  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> command</span> </span> </p> </td> 
+  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> マク <span class="varname"> ロ</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
   <td class="stentry"> <p>コマンドマクロの名前。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> コメ <span class="varname"> ント</span></span> </p></td> 
-  <td class="stentry"> <p>コメント文字列（サーバーでは無視）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> コメント</span> </span> </p></td> 
+  <td class="stentry"> <p>コメント文字列（サーバーでは無視されます）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
   <td class="stentry"> <p>サポートされているコマンド名または属性名の1つ。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
   <td class="stentry"> <p>カスタム変数の名前。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 値</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
   <td class="stentry"> <p>コマンドまたは変数の値。 </p></td> 
  </tr> 
 </table>
 
-*`server_address`*、、およ *`cmdName`*&#x200B;びは大 *`macro`*&#x200B;文字と小 *`var`* 文字が区別されません。 サーバーは、他のすべての文字列値の大文字と小文字の区別を保持します。
+*`server_address`*、、 *`cmdName`*、 *`macro`*&#x200B;およびは大文字と小文字が区別されま *`var`* せん。サーバーは、大文字と小文字を区別し、他の文字列値もすべて保持します。
 
-*`value`* はコマンド固有で、1つ以上の値をコンマで区切って指定できます。 詳しくは、各コマンドの説明を参照してください。
+*`value`* はコマンド固有で、1つ以上の値をコンマで区切って構成できます。詳しくは、個々のコマンドの説明を参照してください。
 
-## サーバー識別子 {#section-926ae55ddba14b8d952147a5fd701e14}
+## サーバー識別子{#section-926ae55ddba14b8d952147a5fd701e14}
 
-画像サー [!DNL /is/image] ビングへのすべてのHTTP要求には、ルートコンテキストが必要です。
+[!DNL /is/image]ルートコンテキストは、画像サービングへのすべてのHTTP要求に必要です。
 
-## HTTPデコード {#section-20922baccd804d2d986b44ce9a183a7d}
+## HTTPデコード{#section-20922baccd804d2d986b44ce9a183a7d}
 
-画像サービングは、最初に、受 *`object`* 信要求 *`modifiers`* から抽出されます。 *`object`* が個別にHTTPデコードされるパス要素に分割されます。 文字列 *`modifiers`* は、 *`command`*=のペアに分けら *`value`* れ、コマ *`value`* ンド固有の処理の前にHTTPデコードされます。
+画像サービングは、最初に、受信要求から&#x200B;*`object`*&#x200B;と&#x200B;*`modifiers`*&#x200B;を抽出します。 *`object`* は、個別にHTTPデコードされるパス要素に分割されます。*`modifiers`*&#x200B;文字列は&#x200B;*`command`*= *`value`*&#x200B;ペアに区切られ、*`value`*&#x200B;はコマンド固有の処理の前にHTTPデコードされます。
 
 >[!NOTE]
 >
@@ -81,7 +84,7 @@ HTTPプロトコルの基本構文は次のとおりです。
 
 ## コメント {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-コメントは、任意の場所でリクエスト文字列に埋め込むことができ、ピリオド(.)で識別されます。コマンド区切り文字(&amp;)の直後。 コメントは、次に（エンコードされていない）コマンド区切り文字が出現するたびに終了します。 この機能は、タイムスタンプ、データベースIDなど、画像サービングで使用されない情報を要求に追加する場合に使用します。
+コメントはリクエスト文字列のどこにでも埋め込むことができ、ピリオド(.)で識別します。 コマンドseparator(&amp;)の直後にあります。 コメントは、（エンコードされていない）コマンドの区切り文字が次に出現するたびに終了します。 この機能は、タイムスタンプ、データベースIDなど、画像サービングで使用されない情報を要求に追加する場合に使用します。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
