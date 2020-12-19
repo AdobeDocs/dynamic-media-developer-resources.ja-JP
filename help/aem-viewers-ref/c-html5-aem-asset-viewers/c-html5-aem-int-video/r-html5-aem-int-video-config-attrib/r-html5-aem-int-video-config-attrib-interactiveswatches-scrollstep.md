@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 手順</span></span> </p> </td> 
-   <td colname="col2"> <p>対応するスクロールボタンをタップするたびにスクロールするスウォッチの数を指定します。 </p> <p>指定した値が表示されているインタラクティブスウォッチの数より大きい場合、各タップは表示されているスウォッチの数だけスクロールし、スウォッチが省略されないようにします。 </p> </td> 
+   <td colname="col2"> <p>対応するスクロールボタンをタップするたびにスクロールするスウォッチの数を指定します。 </p> <p>指定した値が、表示されているインタラクティブスウォッチの数より大きい場合、各タップは、表示されているスウォッチの数だけスクロールし、スウォッチの表示が省略されないようにします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
