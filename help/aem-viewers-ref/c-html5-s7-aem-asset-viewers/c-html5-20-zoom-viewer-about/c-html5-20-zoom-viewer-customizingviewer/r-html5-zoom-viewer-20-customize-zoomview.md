@@ -1,20 +1,23 @@
 ---
-description: メインビューは、ズーム可能な画像で構成されます。
-seo-description: メインビューは、ズーム可能な画像で構成されます。
-seo-title: ズームビュー
+description: メイン表示は、ズーム可能な画像で構成されます。
+seo-description: メイン表示は、ズーム可能な画像で構成されます。
+seo-title: ズーム表示
 solution: Experience Manager
-title: ズームビュー
+title: ズーム表示
 topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# ズーム表示{#zoom-view}
 
-メインビューは、ズーム可能な画像で構成されます。
+メイン表示は、ズーム可能な画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,17 +38,17 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>メインビューの上に表示されるカーソル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col2"> <p>メイン表示上に表示されるカーソル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 — メイン表示を透明にするには、次のように記述します。
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,11 +56,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-デスクトップシステムでは、コンポーネン `cursortype` トは、クラスに適用できる属性セレクターをサポート `.s7zoomview` します。 コンポーネントの状態とユーザーアクションに基づいて、カーソルのタイプを制御します。 The following `cursortype` values are supported:
+デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7zoomview`クラスに適用できます。 コンポーネントの状態とユーザー操作に基づいて、カーソルの種類を制御します。 次の`cursortype`値がサポートされています。
 
 * `default`
 
-   画像の解像度が低い、またはコンポーネントの設定、あるいはその両方が原因で画像がズーム可能でない場合に表示されます。
+   画像解像度が低い、コンポーネントの設定、またはその両方が原因で画像がズーム可能でない場合に表示されます。
 
 * `zoomin`
 
@@ -65,13 +68,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 * `reset`
 
-   画像が最大ズームレベルで、初期状態にリセット可能な場合に表示されます。
+   画像が最大ズームレベルに達し、初期状態にリセット可能な場合に表示されます。
 
 * `drag`
 
-   ユーザがズームイン状態の画像をパンしたときに表示されます。
+   ユーザーがズームイン状態の画像をパンした場合に表示されます。
 
 * `slide`
 
-   ユーザーが水平スワイプまたはフリックを実行して画像の入れ替えを実行した場合に表示されます。
+   ユーザーが水平スワイプまたはフリックで画像の入れ替えを実行した場合に表示されます。
 
