@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 認証済みユーザータイプ{#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,8 +35,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->* アセットを返すには、読み取りアクセス権が必要です。
->* すべてのユーザーが共有会社にアクセスできます。
+>* アセットを返すには、ユーザーに読み取りアクセス権が必要です。
+>* すべてのユーザーは共有会社ーにアクセスできます。
+
 >
 
 
@@ -44,8 +48,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリーを実行するアセットのリスト。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストにクエリするアセットのリスト。 |
 
 **出力(batchGetAssetPublishContextsReturn)**
 
