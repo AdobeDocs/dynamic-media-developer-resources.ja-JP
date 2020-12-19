@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 3%
 
 ---
 
 
-# 属性リファレンス{#attributes-reference}
+# 属性参照{#attributes-reference}
 
 catalog::RootIdを除く、すべてのカタログ属性はオプションです。
 
-すべての属性は、デフォルトのカタログ属性ファイル( [!DNL default.ini])で必要です。
+すべての属性は、デフォルトのカタログ属性ファイル([!DNL default.ini])に必要です。
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
