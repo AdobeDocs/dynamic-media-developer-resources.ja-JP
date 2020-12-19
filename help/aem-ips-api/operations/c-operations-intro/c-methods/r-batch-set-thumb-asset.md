@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 13%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## サムネールのアセットタイプ {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## サムネールアセットタイプ{#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-使用できるサムネールアセットの種類は、次のとおりです。
+使用できるサムネールアセットタイプは、次のとおりです。
 
 * 画像
 * 調整済みのビュー
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * テンプレート
 * PsdTemplate
 
-## 認証されたユーザータイプ {#section-5fc988e3d6384968b86fd9fe363658c0}
+## 認証済みユーザータイプ{#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->ユーザーは、ターゲットアセットに対する読み取り/書き込みアクセス権と、サムアセットに対する読み取りアクセス権を持っている必要があります。
+>ユーザーは、ターゲットアセットに対する読み取り/書き込みアクセス権と、サムアセットに対する読み取りアクセス権を持つ必要があります。
 
 ## パラメータ {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -47,16 +50,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットを含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | アセットを含む会社へのハンドル。 |
 | ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | はい | 更新の配列です。 |
 
 **出力(batchSetThumbAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作でサムネールの設定が試行されたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作でサムネールの設定が試みられたときに生成されたエラーの数です。 |
+| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数です。 |
+| ` *`warningCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成された警告の数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成されたエラーの数です。 |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
