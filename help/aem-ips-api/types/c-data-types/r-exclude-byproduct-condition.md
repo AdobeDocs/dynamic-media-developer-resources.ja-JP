@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70581512-7b26-4319-b12b-27fbb205d871
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -23,5 +26,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | ` *`エンジン`*` | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、生成情報を参照してください。 |
-| ` *`generatedAssetType`*` | `xsd:string` | 除外されたアセットタイプ。 値については、アセットタイプを参照してください。 |
+| ` *`generatedAssetType`*` | `xsd:string` | 除外されるアセットタイプ。 値については、アセットタイプを参照してください。 |
 
