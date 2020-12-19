@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 67cee2f7-82c1-4c0a-b583-13f8be46b972
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> スウォッチが部分的に表示されている（スクロールが揃えられていない）場合に、コンポーネントでスクロールを停止できるかどうかを指定します。 推奨値は <span class="codeph"> false</span> または <span class="codeph"> 0です</span>。 </p> </td> 
+   <td> <p> スウォッチが部分的に表示されている（スクロールが揃えられていない）場合に、コンポーネントでスクロールを停止できるかどうかを指定します。 推奨値は<span class="codeph"> false</span>または<span class="codeph"> 0</span>です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
