@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3c163157-cd0d-4887-a1f0-7941d96c36f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 
 構文
 
-## 新しい操作 {#section-c4d34a58f8194d548fbe26ab3764ea58}
+## 新しい操作{#section-c4d34a58f8194d548fbe26ab3764ea58}
 
 * `moveAsset`
 * `renameAsset`
@@ -36,19 +39,19 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 * `executeJob`
 * `deleteJob`
 
-## 変更された操作 {#section-596ea55a371e4c2ab5531e21ea9d8090}
+## 変更された操作{#section-596ea55a371e4c2ab5531e21ea9d8090}
 
 **searchAsset**
 
-* パラメータを削 `name` 除しました。
-* Added `excludeFieldArray`.
+* `name`パラメーターを削除しました。
+* `excludeFieldArray`を追加しました。
 
 **getFolders**
 
-* Added `excludeFieldArray`.
+* `excludeFieldArray`を追加しました。
 
 **getFolderTree**
 
-* とを追加 `excludeFieldArray` しまし `getUniqueMetadataValues`た。
-* 必須パラ `fieldHandle` メータを作成。
+* `excludeFieldArray`と`getUniqueMetadataValues`を追加しました。
+* `fieldHandle`を必須パラメータにしました。
 
