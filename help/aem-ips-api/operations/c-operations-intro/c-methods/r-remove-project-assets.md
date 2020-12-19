@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## 認証済みユーザータイプ{#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
@@ -34,21 +37,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | はい | 移動するアセットを含む会社へのハンドル。 |
 | ` *`projectHandle`*` | `xsd:string` | はい | 移動するプロジェクトアセットのハンドル。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | はい | 移動するアセットのハンドルの配列。 |
+| ` *`assetHandleArray`*` | `types:HandleArray` | はい | 移動するアセットに対するハンドルの配列。 |
 
 **出力(removeProjectAssetsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | はい | アセット数が正常に削除されました。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作でプロジェクトからアセットを削除しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作でプロジェクトからアセットを削除しようとしたときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でプロジェクトから警告を削除しようとしたときに生成された、警告に関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でプロジェクトから削除しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| ` *`warningCount`*` | `xsd:int` | はい | 操作がプロジェクトからアセットを削除しようとしたときに生成された警告の数です。 |
+| ` *`errorCount`*` | `xsd:int` | はい | 操作がプロジェクトからアセットを削除しようとしたときに生成されたエラーの数です。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でプロジェクトから警告を削除しようとしたときに生成された、アセットに関連付けられた詳細の配列です。 |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がプロジェクトからアセットを削除しようとしたときにエラーが発生した、アセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-このコード例では、プロジェクトから2つのアセットを削除します（プロジェクトハンドルで指定）。
+次のコードのサンプルを使用すると、プロジェクトから2つのアセットを削除できます（プロジェクトハンドルで指定）。
 
 **リクエスト**
 
