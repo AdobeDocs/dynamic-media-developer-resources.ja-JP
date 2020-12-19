@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>バーチャルリアリティレンダリングモードを有効にするかどうかを指定します。 VRヘッドセットでは無視されます。 </p> </td> 
+   <td colname="col2"> <p>仮想リアリティレンダリングモードを有効にするかどうかを指定します。 VRヘッドセットでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
