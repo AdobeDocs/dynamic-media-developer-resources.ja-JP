@@ -1,6 +1,6 @@
 ---
-description: サーバーディレクトリに公開する準備ができたとマークされたすべての画像、テンプレートおよびスピンセットを公開します。
-seo-description: サーバーディレクトリに公開する準備ができたとマークされたすべての画像、テンプレートおよびスピンセットを公開します。
+description: サーバーディレクトリに公開する準備ができたとマークされているすべての画像、テンプレートおよびスピンセットを公開します。
+seo-description: サーバーディレクトリに公開する準備ができたとマークされているすべての画像、テンプレートおよびスピンセットを公開します。
 seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
-サーバーディレクトリに公開する準備ができたとマークされたすべての画像、テンプレートおよびスピンセットを公開します。
+サーバーディレクトリに公開する準備ができたとマークされているすべての画像、テンプレートおよびスピンセットを公開します。
 
 構文
 
