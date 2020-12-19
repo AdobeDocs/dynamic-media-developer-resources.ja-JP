@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 認証済みユーザータイプ{#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->画像およびメンバセットアセットへの読み取りアクセス権が必要です。
+>画像およびメンバセットのアセットに対する読み取りアクセス権が必要です。
 
 ## パラメータ {#section-a67ba98095574533980997c83ceaa316}
 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像セットを含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 画像セットを含む会社へのハンドル。 |
 | ` *`assetHandle`*` | `xsd:string` | はい | 画像セットのアセットハンドル。 |
 
 **出力(getImageSetMembersReturn)**
@@ -50,7 +53,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 例 {#section-888a9a78033346f39b171229de93dfa0}
 
-このコード例は、特定の画像セットメンバを返します。 応答は空の配列を返します。
+このコードのサンプルを使用すると、特定の画像セットメンバーを返すことができます。 応答は空の配列を返します。
 
 **リクエスト**
 
