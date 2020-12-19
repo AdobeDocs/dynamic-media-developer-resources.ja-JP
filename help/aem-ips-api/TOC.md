@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media画像制作システムAPI
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 2%
 ---
 
 
-# Dynamic Media Image Production System API {#image-production-api}
+# Dynamic Mediaイメージ制作システムAPI {#image-production-api}
 
-+ [ダイナミックメディア開発者向けリソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Dynamic Media Image Production System APIについて](c-overview.md)
++ [Dynamic Media開発者リソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Mediaイメージ制作システムAPIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
 + [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
-+ 操作のメソッド {#operation-methods}
++ 操作メソッド{#operation-methods}
    + [操作メソッド](operations/c-operations-intro/c-operations-intro.md)
-   + 操作のパラメーター {#operation-parameters}
+   + 操作パラメーター{#operation-parameters}
       + [操作パラメーターの概要](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -178,7 +178,7 @@ ht-degree: 2%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ データタイプ {#data-types}
++ データ型{#data-types}
    + [データタイプ](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -400,7 +400,7 @@ ht-degree: 2%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 文字列定数 {#sting-constants}
++ 文字列定数{#sting-constants}
    + [文字列定数](string-constants/c-string-constants/c-string-constants.md)
    + [アクティブなジョブの状態](string-constants/c-string-constants/r-active-job-states.md)
    + [Asset Search System Fields](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -441,39 +441,39 @@ ht-degree: 2%
    + [ユーザーの役割](string-constants/c-string-constants/r-user-roles.md)
    + [ユーザーの並べ替えフィールド](string-constants/c-string-constants/r-user-sort-fields.md)
    + [ビューアの種類](string-constants/c-string-constants/r-viewer-type.md)
-+ 障害 {#faults}
++ 障害{#faults}
    + [障害の概要](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ 変更ログ {#change-log}
++ 変更ログ{#change-log}
    + [変更ログ](change-log/c-change-log.md)
-   + Version 6.0 {#version-6-0}
+   + バージョン6.0 {#version-6-0}
       + [バージョン6.0](change-log/c-change-log/c-6/c-6.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-6/r-6-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-6/r-6-types.md)
-   + Version 4.5 {#version-4-5}
+   + バージョン4.5 {#version-4-5}
       + [バージョン4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [使用制限](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + Version 4.4 {#version-4-4}
+   + バージョン4.4 {#version-4-4}
       + [バージョン4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + Version 4.2 {#version-4-2}
+   + バージョン4.2 {#version-4-2}
       + [バージョン4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + Version 4.0 {#version-4-0}
+   + バージョン4.0 {#version-4-0}
       + [バージョン4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新しい追加と変更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + Version 3.8 {#version-3-8}
+   + バージョン3.8 {#version-3-8}
       + [バージョン3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + Version 3.7 {#version-3-7}
+   + バージョン3.7 {#version-3-7}
       + [バージョン3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-types.md)
