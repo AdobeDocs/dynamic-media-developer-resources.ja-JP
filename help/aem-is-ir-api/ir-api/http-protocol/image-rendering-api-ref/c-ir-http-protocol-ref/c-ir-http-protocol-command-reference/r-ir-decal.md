@@ -1,6 +1,6 @@
 ---
-description: デカルのマテリアルセレクタ 繰り返し不可能なデカル材料の材料仕様セグメント(MSS)を開始します。
-seo-description: デカルのマテリアルセレクタ 繰り返し不可能なデカル材料の材料仕様セグメント(MSS)を開始します。
+description: デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
+seo-description: デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
 seo-title: デカル
 solution: Experience Manager
 title: デカル
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
-# decal{#decal}
+# デカール{#decal}
 
-デカルのマテリアルセレクタ 繰り返し不可能なデカル材料の材料仕様セグメント(MSS)を開始します。
+デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>無視。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p>無視されます。 </p> </td> 
  </tr> 
 </table>
 
