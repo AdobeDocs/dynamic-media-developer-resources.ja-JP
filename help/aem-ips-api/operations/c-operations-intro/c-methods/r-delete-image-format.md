@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 構文
 
-## 認証されたユーザータイプ {#section-827e24a3019543418b0a635d46c1edfd}
+## 認証済みユーザータイプ{#section-827e24a3019543418b0a635d46c1edfd}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,16 +34,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像形式を含む会社のハンドル。 |
+| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像形式が含まれる会社へのハンドルです。 |
 | ` *`imageFormatHandle`*` | `xsd:string` | はい | 削除する画像形式のハンドル。 |
 
 **出力(deleteImageFormatParam)**
 
-IPS APIはこの操作に対する応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-このコードサンプルを使用すると、会社から画像形式を削除できます。 別の操作から画像形式のハンドルを取得します。
+このコードサンプルを使用すると、会社から画像形式を削除できます。 別の操作から画像形式ハンドルを取得します。
 
 **リクエスト**
 
