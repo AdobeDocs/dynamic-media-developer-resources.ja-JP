@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 71e7f14b-f305-4703-bb43-d6ad027fd37e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 20%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> 閉じるボタン <span class="codeph"> の表示を</span> 有効にするには1に設定し、閉じるボタンを非表示にするには <span class="codeph"> 0</span> に設定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p> 閉じるボタンの表示を有効にするには<span class="codeph"> 1</span>に設定し、閉じるボタンを非表示にするには<span class="codeph"> 0</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
