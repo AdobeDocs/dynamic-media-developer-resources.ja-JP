@@ -1,6 +1,6 @@
 ---
-description: 画像出力設定の非構造化名前付きセット。
-seo-description: 画像出力設定の非構造化名前付きセット。
+description: 非構造化名前付き画像出力設定。
+seo-description: 非構造化名前付き画像出力設定。
 seo-title: ImageFormat
 solution: Experience Manager
 title: ImageFormat
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: d3ad7058-781e-4b5b-84b5-7da6bcc77cd8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
 
 # ImageFormat{#imageformat}
 
-画像出力設定の非構造化名前付きセット。
+非構造化名前付き画像出力設定。
 
 アセットタイプではありません。
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | 画像形式ハンドル。 |
+| ` *`imageFormatHandle`*` | `xsd:string` | 画像形式ハンドル |
 | ` *`name`*` | `xsd:string` | 画像形式名。 |
-| ` *`urlModifier`*` | `xsd:string` | 画像形式を表すImage ServerのURL。 |
+| ` *`urlModifier`*` | `xsd:string` | 画像形式を表すImage Server URL。 |
 
