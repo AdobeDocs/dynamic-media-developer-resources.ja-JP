@@ -7,10 +7,10 @@ title: HTTP POSTを使用したUploadFileサーブレットへのアセットの
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -66,22 +66,22 @@ https://<server>/scene7/UploadFile
 >
 >アップロードジョブに対するすべてのPOST要求は、同じIPアドレスから送信される必要があります。
 
-| HTTPPOSTフォームパーツ|説明|
-|-|-|
-|`auth` |  必須。 認証とクライアント情報を指定するXML authHeaderドキュメント。 「[SOAP](/help/aem-ips-api/c-wsdl-versions.md)の下の&#x200B;**認証を要求**」を参照してください。 |
-|`file params` |  オプション. POST要求ごとに、アップロードするファイルを1つ以上含めることができます。 `uploadPostParams/fileName`パラメータが指定されていない場合、各ファイルパーツにはContent-Dispositionヘッダにfilenameパラメータを含めることができます。このパラメータは、IPSでターゲットファイル名として使用されます。 |
+|  HTTPPOSTフォーム部分  |  説明  |
+|---|---|
+| `auth`  |   必須. 認証とクライアント情報を指定するXML authHeaderドキュメント。 「[SOAP](/help/aem-ips-api/c-wsdl-versions.md)の下の&#x200B;**認証を要求**」を参照してください。 |
+| `file params`  |   オプション. POST要求ごとに、アップロードするファイルを1つ以上含めることができます。 `uploadPostParams/fileName`パラメータが指定されていない場合、各ファイルパーツにはContent-Dispositionヘッダにfilenameパラメータを含めることができます。このパラメータは、IPSでターゲットファイル名として使用されます。 |
 
-| HTTPPOSTフォームパーツ  | uploadPostParams要素名  |タイプ  |説明  |
-|-|-|-|-|
-|`uploadParams` (必須。 (アップロードパラメータを指定するXML `uploadParams`ドキュメント)  |  `companyHandle` | `xsd:string` |必須。 ファイルのアップロード先の会社へのハンドル。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`jobName` | `xsd:string` | `jobName`または`jobHandle`が必要です。 アップロードジョブの名前。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`jobHandle` | `xsd:string` | `jobName`または`jobHandle`が必要です。 以前の要求で開始されたアップロードジョブへのハンドル。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`locale` | `xsd:string` |オプションです。 ローカライゼーションの言語および国コード。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`description` | `xsd:string` |オプションです。 ジョブの説明。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`destFolder` | `xsd:string` |オプションです。 ファイル名プロパティのプレフィックスにするターゲットフォルダーのパス。特に、ファイル名のフルパスをサポートしていないブラウザーや他のクライアントの場合に使用します。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`fileName` | `xsd:string` |オプションです。 ターゲットファイルの名前。 filenameプロパティを上書きします。 |
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`endJob` | `xsd:boolean` |オプションです。 初期設定は false。|
-|`uploadParams` (必須. アップロードパラメーターを指定するXML `uploadParams`ドキュメント)|`uploadParams` | `types:UploadPostJob` |既存のアクティブなジョブに対する後続の要求の場合はオプションです。 既存のジョブがある場合、`uploadParams`は無視され、既存のジョブアップロードパラメーターが使用されます。 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)を参照 |
+|  HTTPPOSTフォーム部分   |  uploadPostParams要素名   |  種類   |  説明   |
+|---|---|---|---|
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント)   |   `companyHandle`  |  `xsd:string`  | 必須。ファイルのアップロード先の会社へのハンドル。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `jobName`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 アップロードジョブの名前。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `jobHandle`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 以前の要求で開始されたアップロードジョブへのハンドル。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `locale`  |  `xsd:string`  | （オプション）ローカライゼーションの言語および国コード。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `description`  |  `xsd:string`  | （オプション）ジョブの説明。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `destFolder`  |  `xsd:string`  | （オプション）ファイル名プロパティのプレフィックスにするターゲットフォルダーのパス。特に、ファイル名のフルパスをサポートしていないブラウザーや他のクライアントの場合に使用します。  |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `fileName`  |  `xsd:string`  | （オプション）ターゲットファイルの名前。 filenameプロパティを上書きします。 |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `endJob`  |  `xsd:boolean`  | （オプション）初期設定は false。 |
+| `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `uploadParams`  |  `types:UploadPostJob`  | 既存のアクティブなジョブに対する後続の要求の場合はオプションです。 既存のジョブがある場合、`uploadParams`は無視され、既存のジョブアップロードパラメーターが使用されます。 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)を参照 |
 
 `<uploadPostParams>`ブロック内には`<uploadParams>`ブロックがあり、含まれるファイルの処理を指定します。
 
