@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.singleclick
+description: ZoomView.singleclick
 solution: Experience Manager
 title: ZoomView.singleclick
 topic: Dynamic media
 uuid: 42327f03-269b-4d4e-a35d-2537ca3ba071
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
