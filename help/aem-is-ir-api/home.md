@@ -1,11 +1,11 @@
 ---
-seo-title: AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム
+description: AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム
 solution: Experience Manager
 title: AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37d90173-2e56-47fa-b0ef-2b99b521502c
 translation-type: tm+mt
-source-git-commit: 00791121b8c345c461d33067926424d5c2f2966b
+source-git-commit: dfb2f1d5ab4d84e78938264b19b5aaf55238c99f
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
