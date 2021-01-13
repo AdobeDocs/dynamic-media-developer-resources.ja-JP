@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: VideoScrubber.timepattern
+description: VideoScrubber.timepattern
 solution: Experience Manager
 title: VideoScrubber.timepattern
 topic: Dynamic media
 uuid: 6034dc22-c1d4-4a37-93de-42a88b99234a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
