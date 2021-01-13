@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PageView.zoomstep
+description: PageView.zoomstep
 solution: Experience Manager
 title: PageView.zoomstep
 topic: Dynamic media
 uuid: 11458300-4a1b-4623-8ea1-db804daab3cf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 7%
 
 ---
