@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomTargetDefinitionArray
+description: ZoomTargetDefinitionArray
 solution: Experience Manager
 title: ZoomTargetDefinitionArray
 topic: Scene7 Image Production System API
 uuid: 681b323e-fe00-4d9e-9201-7fb46080d041
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 35%
+source-wordcount: '15'
+ht-degree: 40%
 
 ---
 
