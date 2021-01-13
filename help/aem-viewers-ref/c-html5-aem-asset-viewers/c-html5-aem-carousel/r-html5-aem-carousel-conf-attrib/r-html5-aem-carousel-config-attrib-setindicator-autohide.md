@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SetIndicator.autohide
+description: SetIndicator.autohide
 solution: Experience Manager
 title: SetIndicator.autohide
 topic: Dynamic media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 6%
 
 ---
