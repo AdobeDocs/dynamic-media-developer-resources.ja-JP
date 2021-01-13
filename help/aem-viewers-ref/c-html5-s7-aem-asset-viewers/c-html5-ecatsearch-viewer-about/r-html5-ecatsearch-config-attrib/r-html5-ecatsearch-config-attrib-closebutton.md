@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 閉じるボタン
+description: 閉じるボタン
 solution: Experience Manager
 title: 閉じるボタン
 topic: Dynamic media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
