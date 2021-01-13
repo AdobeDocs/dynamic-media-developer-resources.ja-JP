@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: InfoPanelPopup.template
+description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
