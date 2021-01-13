@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.zoomfactor
+description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
 title: FlyoutZoomView.zoomfactor
 topic: Dynamic media
 uuid: 58d49de7-4828-46ae-b2e7-eb9398e98a99
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
