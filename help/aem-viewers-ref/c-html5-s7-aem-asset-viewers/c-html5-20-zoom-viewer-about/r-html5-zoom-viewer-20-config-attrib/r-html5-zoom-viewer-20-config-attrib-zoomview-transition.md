@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.transition
+description: ZoomView.transition
 solution: Experience Manager
 title: ZoomView.transition
 topic: Dynamic media
 uuid: 1d58d230-f056-4cd8-a36f-b0f5d43483a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
