@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ImageMapEffect.mapTips
+description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
 topic: Dynamic media
 uuid: 8ed79fd8-e265-4cfb-b235-f4c0d657a3f5
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
