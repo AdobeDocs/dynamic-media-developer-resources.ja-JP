@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Print.printquality
+description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
 topic: Dynamic media
 uuid: fbecd11f-e7c6-4c70-9ff3-eef8e323d5f3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
 
