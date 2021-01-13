@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: TableOfContents.maxitems
+description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
 topic: Dynamic media
 uuid: 823a70b8-0f05-4b8a-8011-39f17c047018
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
