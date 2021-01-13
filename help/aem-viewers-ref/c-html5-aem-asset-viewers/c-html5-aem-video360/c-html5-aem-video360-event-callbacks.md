@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: イベントコールバック
+description: イベントコールバック
 solution: Experience Manager
 title: イベントコールバック
 topic: Dynamic media
 uuid: c347f178-254e-45da-b06d-394098064693
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -23,8 +21,8 @@ ht-degree: 0%
 
 サポートされるビューアイベントは次のとおりです。
 
-* `initComplete`  — ビューアの初期化が完了し、すべての内部コンポーネントが作成され、 `getComponent()` APIを使用できるようになったときにトリガーされます。このコールバックハンドラーは引数を取りません。
-* `trackEvent` -Adobe Analyticsなどのイベントトラッキングシステムで処理できるイベントがビューア内で発生するたびにトリガーされます。このコールバックハンドラーは次の引数を取ります。
+* `initComplete`  — ビューアの初期化が完了し、すべての内部コンポーネントが作成されたときにトリガーが発生し、 `getComponent()` APIを使用できるようになります。このコールバックハンドラーは引数を取りません。
+* `trackEvent` -Adobe Analyticsなどのイベントトラッキングシステムで処理できるイベントがビューア内で発生するたびにトリガーが発生します。このコールバックハンドラーは次の引数を取ります。
 
    * `objID {String}` 現在は使用されていません。
    * `compClass {String}` 現在は使用されていません。
