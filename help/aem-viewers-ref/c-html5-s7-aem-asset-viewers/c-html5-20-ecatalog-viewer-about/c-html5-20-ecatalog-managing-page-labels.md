@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ページラベルの管理
+description: ページラベルの管理
 solution: Experience Manager
 title: ページラベルの管理
 topic: Dynamic media
 uuid: ab3df37d-113b-4762-ba9c-b92ffc41f1a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
