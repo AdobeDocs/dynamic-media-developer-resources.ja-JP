@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.tip
+description: FlyoutZoomView.tip
 solution: Experience Manager
 title: FlyoutZoomView.tip
 topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 6%
 
 ---
