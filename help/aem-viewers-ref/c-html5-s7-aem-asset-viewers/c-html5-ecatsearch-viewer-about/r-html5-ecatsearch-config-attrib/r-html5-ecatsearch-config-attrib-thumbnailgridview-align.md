@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ThumbnailGridView.align
+description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
 topic: Dynamic media
 uuid: b0cdc9ee-4399-4783-99ec-cd9d03f262b1
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
