@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ホットスポットのサポート
+description: ホットスポットのサポート
 solution: Experience Manager
 title: ホットスポットのサポート
 topic: Dynamic media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 0%
 
 ## クイック表示ホットスポット{#section-cda48fc9730142d0bb3326bac7df3271}
 
-この種のホットスポットは、AEM AssetsのDynamic Mediaにある「クイック表示」アクションタイプを使用してオンデマンドで作成する必要があります。 ユーザーがこのようなホットスポットをアクティブにすると、ビューアは`quickViewActivate` JavaScriptコールバックを実行し、ホットスポットデータを渡します。 埋め込み先のWebページは、このコールバックをリッスンする必要があります。 ページがトリガーされると、独自のクイック表示実装が開きます。
+この種のホットスポットは、AEM AssetsのDynamic Mediaにある「クイック表示」アクションタイプを使用してオンデマンドで作成する必要があります。 ユーザーがこのようなホットスポットをアクティブにすると、ビューアは`quickViewActivate` JavaScriptコールバックを実行し、ホットスポットデータを渡します。 埋め込み先のWebページは、このコールバックをリッスンする必要があります。 ページをトリガーすると、独自のクイック表示実装が開きます。
 
 ## 外部Webページにリダイレクト{#section-ef820c71251e4215800bb99c0c9ebe16}
 
