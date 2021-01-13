@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.frametransition
+description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
 topic: Dynamic media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 11%
 
 ---
