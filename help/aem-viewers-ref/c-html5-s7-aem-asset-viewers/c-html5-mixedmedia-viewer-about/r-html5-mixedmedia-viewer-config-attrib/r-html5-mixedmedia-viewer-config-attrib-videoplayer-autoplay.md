@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: VideoPlayer.autoplay
+description: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
 topic: Dynamic media
 uuid: 07576390-dd17-4a28-b372-7bba207bdebe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
