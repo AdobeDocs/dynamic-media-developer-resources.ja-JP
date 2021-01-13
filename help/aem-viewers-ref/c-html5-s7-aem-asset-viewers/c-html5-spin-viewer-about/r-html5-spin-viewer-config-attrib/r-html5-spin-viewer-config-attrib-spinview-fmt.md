@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.fmt
+description: SpinView.fmt
 solution: Experience Manager
 title: SpinView.fmt
 topic: Dynamic media
 uuid: 6004d8ab-7dc7-451d-b0e2-4f6d308203d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
