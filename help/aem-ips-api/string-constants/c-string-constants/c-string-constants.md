@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 文字列定数
+description: 文字列定数
 solution: Experience Manager
 title: 文字列定数
 topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 7%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 7%
 * [ジョブログファイルの種類](r-job-log-file-types.md)
 * [ジョブログの並べ替えフィールド](r-job-log-sort-fields.md)
 * [ジョブログの種類](r-job-log-types.md)
-* [ジョブトリガー状態](r-job-trigger-states.md)
+* [ジョブトリガーの状態](r-job-trigger-states.md)
 * [ジョブタイプ](r-job-types.md)
 * [メタデータフィールドの種類](r-metadata-field-types.md)
 * [数値/日付比較演算子](r-numeric-date-comparison-operators.md)
