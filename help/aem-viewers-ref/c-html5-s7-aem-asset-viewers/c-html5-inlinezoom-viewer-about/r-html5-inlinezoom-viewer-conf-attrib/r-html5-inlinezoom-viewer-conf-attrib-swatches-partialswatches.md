@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.partialswatches
+description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
 topic: Dynamic media
 uuid: 67cee2f7-82c1-4c0a-b583-13f8be46b972
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
