@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.rgnN
+description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
 topic: Dynamic media
 uuid: 2a41d489-5a35-4f60-a492-e6403bcf31dc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
