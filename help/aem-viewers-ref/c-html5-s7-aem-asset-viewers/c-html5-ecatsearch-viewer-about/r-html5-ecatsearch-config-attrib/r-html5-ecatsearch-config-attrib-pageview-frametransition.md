@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PageView.frametransition
+description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
 topic: Dynamic media
 uuid: 12595a89-bad5-4224-aeff-52ce6bb615ee
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 5%
 
 ---
