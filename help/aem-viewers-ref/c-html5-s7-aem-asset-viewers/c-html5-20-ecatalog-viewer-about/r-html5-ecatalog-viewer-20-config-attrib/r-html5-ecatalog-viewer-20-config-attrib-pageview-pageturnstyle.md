@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PageView.pageturnstyle
+description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
 topic: Dynamic media
 uuid: 3192d810-fb30-44ae-9939-98e890c76e5c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 3%
 
 ---
