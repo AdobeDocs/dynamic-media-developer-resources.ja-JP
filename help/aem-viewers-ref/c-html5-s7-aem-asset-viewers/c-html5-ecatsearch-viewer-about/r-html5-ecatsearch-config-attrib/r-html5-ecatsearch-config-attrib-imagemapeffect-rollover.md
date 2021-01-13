@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ImageMapEffect.rollover
+description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
 topic: Dynamic media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 6%
 
 ---
