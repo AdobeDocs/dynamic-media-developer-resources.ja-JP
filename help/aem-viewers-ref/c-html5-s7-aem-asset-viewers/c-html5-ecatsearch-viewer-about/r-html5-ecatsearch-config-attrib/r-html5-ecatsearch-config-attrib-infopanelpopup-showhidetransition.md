@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: InfoPanelPopup.showhidetransition
+description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
 title: InfoPanelPopup.showhidetransition
 topic: Dynamic media
 uuid: ddd78693-e8f3-473c-91b3-8038e99c8ff1
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
