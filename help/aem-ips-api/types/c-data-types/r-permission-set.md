@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PermissionSet
+description: PermissionSet
 solution: Experience Manager
 title: PermissionSet
 topic: Scene7 Image Production System API
 uuid: d77d8fbd-ff41-4312-8c0d-f2d846149e3f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 23%
+source-wordcount: '19'
+ht-degree: 26%
 
 ---
 
