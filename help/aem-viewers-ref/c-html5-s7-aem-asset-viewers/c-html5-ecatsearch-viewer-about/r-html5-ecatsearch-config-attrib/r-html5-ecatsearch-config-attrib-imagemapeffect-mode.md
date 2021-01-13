@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ImageMapEffect.mode
+description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
 topic: Dynamic media
 uuid: af2f11a8-a452-49d6-9e8f-d4a5f05b73d2
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 5%
 
 ---
