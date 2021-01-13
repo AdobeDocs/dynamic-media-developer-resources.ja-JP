@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.iconeffect
+description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
 topic: Dynamic media
 uuid: f568a98d-1b34-4a85-bd2f-e67a34b3a3e9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
