@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: VideoPlayer.posterimage
+description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
 topic: Dynamic media
 uuid: 28663f44-11cb-4522-bd12-d6bec17b4173
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
