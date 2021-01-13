@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.enableHD
+description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
 topic: Dynamic media
 uuid: 1d64e161-761e-4f43-bb05-3a0edc5a3c60
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
