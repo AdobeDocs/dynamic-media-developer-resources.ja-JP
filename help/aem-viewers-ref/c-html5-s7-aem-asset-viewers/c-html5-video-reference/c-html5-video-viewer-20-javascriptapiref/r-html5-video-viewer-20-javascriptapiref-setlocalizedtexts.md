@@ -1,11 +1,11 @@
 ---
-seo-title: setLocalizedTexts
+description: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
 topic: Dynamic media
 uuid: df94044f-7f09-4645-8a6b-6dc58751ddcc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: dfb2f1d5ab4d84e78938264b19b5aaf55238c99f
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
