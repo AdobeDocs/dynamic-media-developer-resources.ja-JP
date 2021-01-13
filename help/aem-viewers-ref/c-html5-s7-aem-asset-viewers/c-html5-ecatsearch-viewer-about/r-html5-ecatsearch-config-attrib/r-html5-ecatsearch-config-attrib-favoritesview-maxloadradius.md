@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FavoritesView.maxloadradius
+description: FavoritesView.maxloadradius
 solution: Experience Manager
 title: FavoritesView.maxloadradius
 topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
