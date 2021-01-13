@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.buttonsnapmode
+description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
 topic: Dynamic media
 uuid: 5d2e4d94-4e24-482e-891a-34ee21f97121
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
