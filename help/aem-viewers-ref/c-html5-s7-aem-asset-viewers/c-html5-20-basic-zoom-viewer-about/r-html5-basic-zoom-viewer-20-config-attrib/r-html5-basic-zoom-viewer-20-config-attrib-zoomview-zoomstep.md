@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.zoomstep
+description: ZoomView.zoomstep
 solution: Experience Manager
 title: ZoomView.zoomstep
 topic: Dynamic media
 uuid: 948b154a-250c-41a8-967b-d199ddb6e5e1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
