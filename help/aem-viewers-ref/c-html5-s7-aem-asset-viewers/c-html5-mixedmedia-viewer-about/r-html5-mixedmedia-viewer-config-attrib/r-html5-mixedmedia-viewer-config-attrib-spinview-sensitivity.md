@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.sensitivity
+description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
 topic: Dynamic media
 uuid: 7c63a7c5-ac75-485d-94ac-d1e133fbe44f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
