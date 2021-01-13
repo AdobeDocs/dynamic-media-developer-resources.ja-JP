@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PageView.enableHD
+description: PageView.enableHD
 solution: Experience Manager
 title: PageView.enableHD
 topic: Dynamic media
 uuid: dcfb202d-6ed8-4cb9-9254-b8dcfe99cd00
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
