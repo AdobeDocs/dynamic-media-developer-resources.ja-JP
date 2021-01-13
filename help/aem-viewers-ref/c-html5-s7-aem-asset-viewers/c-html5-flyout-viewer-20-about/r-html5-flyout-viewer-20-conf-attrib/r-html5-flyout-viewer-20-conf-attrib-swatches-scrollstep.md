@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.scrollstep
+description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
 topic: Dynamic media
 uuid: 27cbf5b5-eb11-48e4-9047-f6d0ce0e6298
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 11%
+source-wordcount: '32'
+ht-degree: 12%
 
 ---
 
