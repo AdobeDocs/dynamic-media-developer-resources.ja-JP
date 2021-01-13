@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: HTTPSビデオ配信
+description: HTTPSビデオ配信
 solution: Experience Manager
 title: HTTPSビデオ配信
 topic: Dynamic media
 uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
