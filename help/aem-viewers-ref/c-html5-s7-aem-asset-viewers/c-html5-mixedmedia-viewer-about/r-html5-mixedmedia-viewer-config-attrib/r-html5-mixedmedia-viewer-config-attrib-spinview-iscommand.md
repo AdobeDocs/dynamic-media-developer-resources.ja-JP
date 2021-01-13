@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.iscommand
+description: SpinView.iscommand
 solution: Experience Manager
 title: SpinView.iscommand
 topic: Dynamic media
 uuid: e2c86ec3-0f8a-42eb-98a1-689f083fa20c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 8%
 
 ---
