@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.align
+description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
 topic: Dynamic media
 uuid: 272e4416-4b2f-4f6e-bb04-584d3aad29f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
