@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.enableHD
+description: SpinView.enableHD
 solution: Experience Manager
 title: SpinView.enableHD
 topic: Dynamic media
 uuid: 3e7cdb44-4366-4e84-a6c7-c1cf1f5e6344
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 7%
 
 ---
