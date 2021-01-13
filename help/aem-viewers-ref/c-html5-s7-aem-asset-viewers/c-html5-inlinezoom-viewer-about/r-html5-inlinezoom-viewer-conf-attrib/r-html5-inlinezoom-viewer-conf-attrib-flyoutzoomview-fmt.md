@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.fmt
+description: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
 topic: Dynamic media
 uuid: 570a9cca-17fa-44d5-b3bb-66ec19453cbc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 5%
 
 ---
