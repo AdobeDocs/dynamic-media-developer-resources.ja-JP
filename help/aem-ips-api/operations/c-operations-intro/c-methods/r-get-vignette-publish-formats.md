@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: getVignettePublishFormats
+description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
 topic: Scene7 Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 23%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
