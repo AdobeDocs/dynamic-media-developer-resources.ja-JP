@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.maxloadradius
+description: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
 topic: Dynamic media
 uuid: 8f475fa8-92d1-4663-bc12-1e65b76076ba
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
