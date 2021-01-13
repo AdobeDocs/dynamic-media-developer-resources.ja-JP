@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.direction
+description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
 topic: Dynamic media
 uuid: cbe63f57-28d2-4cfa-8a7f-1b4ec01beb80
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
