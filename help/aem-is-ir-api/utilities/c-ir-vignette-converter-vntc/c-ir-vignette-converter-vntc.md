@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ビネットコンバータ(vntc)
+description: ビネットコンバータ(vntc)
 solution: Experience Manager
 title: ビネットコンバータ(vntc)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 3%
 
 ---
