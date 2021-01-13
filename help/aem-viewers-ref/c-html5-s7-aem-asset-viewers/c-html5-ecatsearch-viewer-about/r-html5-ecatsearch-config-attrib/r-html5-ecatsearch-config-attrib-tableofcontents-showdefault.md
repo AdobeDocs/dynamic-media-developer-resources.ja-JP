@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: TableOfContents.showdefault
+description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
 topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
