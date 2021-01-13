@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.iscommand
+description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
 topic: Dynamic media
 uuid: b5dfb326-fbd8-4220-a44c-0d4f80b2a8fa
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
