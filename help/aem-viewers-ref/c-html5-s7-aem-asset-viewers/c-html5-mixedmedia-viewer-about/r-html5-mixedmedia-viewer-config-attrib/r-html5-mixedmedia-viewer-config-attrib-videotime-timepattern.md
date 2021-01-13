@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: VideoTime.timepattern
+description: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
 topic: Dynamic media
 uuid: 57c86b63-7495-4f6f-bd30-8c4ebf017e36
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
