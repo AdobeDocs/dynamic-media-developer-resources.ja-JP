@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: TimeStamp
+description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3148cc25-3b9a-499a-b0da-1ebe9ae99f69
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
