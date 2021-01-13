@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ID
+description: ID
 solution: Experience Manager
 title: ID
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 45a79636-3fa9-4f2a-98bb-a46c9b627dd4
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
