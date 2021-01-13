@@ -1,16 +1,14 @@
 ---
-description: 'null'
+description: ビデオビューアのカスタマイズ
 keywords: responsive
-seo-description: 'null'
-seo-title: ビデオビューアのカスタマイズ
 solution: Experience Manager
 title: ビデオビューアのカスタマイズ
 topic: Dynamic media
 uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 0%
 
 ---
@@ -44,7 +42,7 @@ CSSでは、様々なデバイスをターゲットして、ユーザーのデ�
 
 レスポンシブデザインCSSの作成に役立つように、ビューアでは、CSSマーカーがサポートされています。このCSSマーカーは、実行時のビューアサイズと現在のデバイスで使用されている入力タイプに基づいて、最上位のビューアコンテナ要素に動的に割り当てられます。
 
-CSSマーカーの最初のグループには、`.s7size_large`、`.s7size_medium`、`.s7size_small`の各クラスが含まれます。 これらは、ビューアコンテナの実行時の領域に基づいて適用されます。 つまり、ビューアの領域が一般的なデスクトップモニター`.s7size_large`と同じかそれ以上である場合、領域のサイズが一般的なタブレットデバイス`.s7size_medium`に近い場合は、&lt;a1/>が割り当てられます。 携帯電話の画面に似た領域に対しては`.s7size_small`が設定される。 これらのCSSマーカーの主な目的は、画面やビューアサイズごとに異なるユーザインターフェイスレイアウトを作成することです。
+CSSマーカーの最初のグループには、`.s7size_large`、`.s7size_medium`、`.s7size_small`の各クラスが含まれます。 これらは、ビューアコンテナの実行時の領域に基づいて適用されます。 つまり、ビューアの領域が一般的なデスクトップモニター`.s7size_large`と同じかそれ以上である場合、領域のサイズが一般的なタブレットデバイス`.s7size_medium`に近い場合は、が割り当てられます。 携帯電話の画面に似た領域に対しては`.s7size_small`が設定される。 これらのCSSマーカーの主な目的は、画面やビューアサイズごとに異なるユーザインターフェイスレイアウトを作成することです。
 
 CSSマーカーの2番目のグループには、`.s7mouseinput`と`.s7touchinput`が含まれます。 `.s7touchinput` は、現在のデバイスにタッチ入力機能がある場合に設定されます。それ以外の場合 `.s7mouseinput` は、が使用されます。これらのマーカーは、入力タイプごとに異なる画面サイズを持つユーザーインターフェイス入力要素を作成することを目的としています。通常は、タッチ入力にはより多くの要素が必要なためです。 デバイスにマウス入力機能とタッチ機能の両方がある場合は、`.s7touchinput`が設定され、ビューアはタッチに対応したユーザーインターフェイスをレンダリングします。
 
