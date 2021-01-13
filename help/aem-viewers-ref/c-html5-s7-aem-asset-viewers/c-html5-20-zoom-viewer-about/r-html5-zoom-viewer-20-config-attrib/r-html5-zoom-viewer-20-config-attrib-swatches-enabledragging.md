@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.enabledragging
+description: Swatches.enabledragging
 solution: Experience Manager
 title: Swatches.enabledragging
 topic: Dynamic media
 uuid: 0bfd7275-59c7-446f-b056-93ed79352462
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 6%
 
 ---
