@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: パス
+description: パス
 solution: Experience Manager
 title: パス
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 6%
 
 ---
