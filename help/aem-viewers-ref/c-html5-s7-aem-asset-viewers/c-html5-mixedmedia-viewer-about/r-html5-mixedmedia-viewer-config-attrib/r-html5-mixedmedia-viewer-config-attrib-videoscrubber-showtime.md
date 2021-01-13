@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: VideoScrubber.showtime
+description: VideoScrubber.showtime
 solution: Experience Manager
 title: VideoScrubber.showtime
 topic: Dynamic media
 uuid: fe4e7327-5f2e-4eb4-a3ea-57a901fec1ca
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 23%
+source-wordcount: '19'
+ht-degree: 26%
 
 ---
 
