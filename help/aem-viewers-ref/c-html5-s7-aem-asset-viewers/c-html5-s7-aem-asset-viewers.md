@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: AEM AssetsおよびDynamic Mediaクラシックの閲覧者
+description: AEM AssetsおよびDynamic Mediaクラシックの閲覧者
 solution: Experience Manager
 title: AEM AssetsおよびDynamic Mediaクラシックの閲覧者
 topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 13%
 
 ---
 
