@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FavoritesView.textpos
+description: FavoritesView.textpos
 solution: Experience Manager
 title: FavoritesView.textpos
 topic: Dynamic media
 uuid: 851e3631-0fd9-4ed5-bef9-af5dca6e7646
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 6%
 
 ---
