@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.zoomstep
+description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
 topic: Dynamic media
 uuid: 103097e9-7e6d-413c-a6a8-b8a15665348c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 7%
 
 ---
