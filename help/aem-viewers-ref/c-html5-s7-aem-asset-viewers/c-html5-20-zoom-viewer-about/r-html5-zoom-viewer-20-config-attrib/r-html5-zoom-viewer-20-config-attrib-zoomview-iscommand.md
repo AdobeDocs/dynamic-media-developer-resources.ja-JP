@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.iscommand
+description: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
 topic: Dynamic media
 uuid: 35c40a49-5b8e-443e-947a-5d91286ae214
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 8%
 
 ---
