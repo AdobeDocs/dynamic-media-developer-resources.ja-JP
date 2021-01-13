@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ControlBar.transition
+description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
 topic: Dynamic media
 uuid: 30f133bd-09c7-4d70-bcc4-d961bb028e55
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -27,7 +25,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーによって記録される最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントは自動非表示の効果をトリガせず、常に画面上に表示されます。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーによって記録される最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
