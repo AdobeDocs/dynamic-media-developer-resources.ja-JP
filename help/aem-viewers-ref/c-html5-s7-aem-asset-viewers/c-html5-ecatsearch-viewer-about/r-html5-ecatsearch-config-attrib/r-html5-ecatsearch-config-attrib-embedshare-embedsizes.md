@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: EmbedShare.embedsizes
+description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: ffac9833-a048-4629-902f-832963431ae4
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 21%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
