@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 有効期限
+description: 有効期限
 solution: Experience Manager
 title: 有効期限
 topic: Scene7 Image Serving - Image Rendering API
 uuid: a727bbfc-940b-4d65-96d6-b2159b70bac1
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
