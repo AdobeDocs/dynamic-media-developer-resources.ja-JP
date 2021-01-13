@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: AEM Assetsのみのビューア
+description: AEM Assetsのみのビューア
 solution: Experience Manager
 title: AEM Assetsのみのビューア
 topic: Dynamic media
 uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 6%
 
 ---
