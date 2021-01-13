@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FavoritesView.align
+description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
 topic: Dynamic media
 uuid: 4ff25cb3-3383-4ef2-90db-660fa774e109
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
