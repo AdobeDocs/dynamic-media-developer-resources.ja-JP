@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: InitialFrame
+description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
 topic: Dynamic media
 uuid: 3f805ef8-f5c4-42a1-952e-a21a0854446e
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '58'
 ht-degree: 10%
 
 ---
