@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ビューアSDKの名前空間
+description: ビューアSDKの名前空間
 solution: Experience Manager
 title: ビューアSDKの名前空間
 topic: Dynamic media
 uuid: a236ecba-e4ae-4235-937f-cde7746c1261
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
