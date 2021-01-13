@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SearchPanel.fmt
+description: SearchPanel.fmt
 solution: Experience Manager
 title: SearchPanel.fmt
 topic: Dynamic media
 uuid: 58b88cc9-e07a-47aa-a0d2-c81428ca4d1e
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
