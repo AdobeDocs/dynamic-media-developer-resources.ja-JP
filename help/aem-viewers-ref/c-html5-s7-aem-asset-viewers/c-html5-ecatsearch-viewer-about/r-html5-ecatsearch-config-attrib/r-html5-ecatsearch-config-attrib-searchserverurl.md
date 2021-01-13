@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: searchServerUrl
+description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
 topic: Dynamic media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 
