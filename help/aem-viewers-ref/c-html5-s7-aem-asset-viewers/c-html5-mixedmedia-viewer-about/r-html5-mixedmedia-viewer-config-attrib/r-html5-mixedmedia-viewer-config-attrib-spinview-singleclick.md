@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: SpinView.singleclick
+description: SpinView.singleclick
 solution: Experience Manager
 title: SpinView.singleclick
 topic: Dynamic media
 uuid: 188a4e65-a93e-46c4-89b4-02e745ecf5eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
