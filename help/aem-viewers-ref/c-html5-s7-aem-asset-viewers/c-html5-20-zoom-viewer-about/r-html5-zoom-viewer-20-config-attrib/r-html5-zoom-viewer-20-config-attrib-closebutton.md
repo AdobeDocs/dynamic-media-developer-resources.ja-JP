@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: closebutton
+description: closebutton
 solution: Experience Manager
 title: closebutton
 topic: Dynamic media
 uuid: 71e7f14b-f305-4703-bb43-d6ad027fd37e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 20%
+source-wordcount: '22'
+ht-degree: 22%
 
 ---
 
