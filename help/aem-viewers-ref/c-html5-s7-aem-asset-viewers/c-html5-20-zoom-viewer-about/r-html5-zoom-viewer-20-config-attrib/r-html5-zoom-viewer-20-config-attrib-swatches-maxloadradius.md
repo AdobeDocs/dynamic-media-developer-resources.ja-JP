@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.maxloadradius
+description: Swatches.maxloadradius
 solution: Experience Manager
 title: Swatches.maxloadradius
 topic: Dynamic media
 uuid: cff2e7a4-ba88-4248-8e9f-ed1a3b628924
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
