@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: PageView.singleclick
+description: PageView.singleclick
 solution: Experience Manager
 title: PageView.singleclick
 topic: Dynamic media
 uuid: 608700d2-5be4-4b96-b026-b12a3ade68ee
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
