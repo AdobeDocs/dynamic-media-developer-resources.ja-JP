@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: InfoPanelPopup.infoServerUrl
+description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
 topic: Dynamic media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
