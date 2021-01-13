@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.iconeffect
+description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
 topic: Dynamic media
 uuid: 38350e3d-515b-454c-bc85-39b91ad06e8b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
