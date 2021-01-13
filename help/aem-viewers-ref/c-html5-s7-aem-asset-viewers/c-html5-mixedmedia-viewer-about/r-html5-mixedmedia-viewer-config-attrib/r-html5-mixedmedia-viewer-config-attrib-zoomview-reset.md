@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.reset
+description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
 topic: Dynamic media
 uuid: 5fd6c6c5-5fa5-498c-877a-1f50f710bf7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
