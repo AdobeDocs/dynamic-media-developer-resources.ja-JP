@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Swatches.pagemode
+description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
 topic: Dynamic media
 uuid: 116aef33-b31a-48d9-91bb-f068a02ca75a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 7%
 
 ---
