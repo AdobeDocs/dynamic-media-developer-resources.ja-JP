@@ -1,14 +1,14 @@
 ---
-description: title
+description: titleコマンド
 solution: Experience Manager
 title: title
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 21%
 
 ## 初期設定 {#section-79a827f7a3bb4f36b3d72c309155059e}
 
-`Adobe Dynamic Media Classic Video` または `Adobe Scene7 eCatalog`
+`Adobe Dynamic Media Video` または `Adobe Dynamic Media Classic eCatalog`
 
 ## プロパティ {#section-f8a0c032979047a38041abfce3f7a70b}
 
