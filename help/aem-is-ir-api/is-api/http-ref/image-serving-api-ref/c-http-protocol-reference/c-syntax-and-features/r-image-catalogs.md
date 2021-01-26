@@ -4,10 +4,10 @@ seo-description: この節では、画像カタログの機能と構文につい
 seo-title: 画像カタログ
 solution: Experience Manager
 title: 画像カタログ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * 画像と特定のメタデータおよび修飾子コマンドとの永続的な関連付けを許可します。
 
-   画像カタログ内のエントリは、ショートカット表記` *`rootId/objId`*`を使用して参照されます。ここで` *`rootId`*`は画像カタログを、` *`objId`*`はカタログ内のデータレコードを示します。
+   画像カタログ内のエントリは、ショートカット表記`*`rootId/objId`*`を使用して参照されます。ここで`*`rootId`*`は画像カタログを、`*`objId`*`はカタログ内のデータレコードを示します。
 * JPEG画質や透かしを適用するかどうかなど、特定の要求属性のデフォルトを指定します。
 * フォント、ICCプロファイル、マクロ定義、および要求テンプレートの管理
 
 特定の画像カタログが定義されていない場合でも、画像カタログのすべての機能は、初期設定のカタログ([!DNL default.ini])を介して使用できます。
 
-リクエストのURLパス内の` *`rootId`*`が特定の画像カタログの`attribute::RootId`と一致する場合、そのカタログがこのリクエストのメインカタログになります。 メインカタログには、リクエスト全体のデフォルトの属性と設定が表示されます。 一致が見つからない場合は、代わりにデフォルトのカタログが使用されます。
+リクエストのURLパス内の`*`rootId`*`が特定の画像カタログの`attribute::RootId`と一致する場合、そのカタログがこのリクエストのメインカタログになります。 メインカタログには、リクエスト全体のデフォルトの属性と設定が表示されます。 一致が見つからない場合は、代わりにデフォルトのカタログが使用されます。
 
 `src=`または`mask=`コマンドで識別されるカタログは、次のカタログ属性とデータを現在の画層に提供します。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 `icc=`コマンドで識別されるカタログは、カタログのICCプロファイルテーブルからエントリを検索する目的でのみ使用されます。 他のカタログ属性やデータは関係しません。
 
-` *`rootId`*`がカタログに解決され、` *`objId`*`がこのカタログ内の`catalog::Id`と一致する場合、` *`rootId/objId`*`は、次のようなカタログエントリに効果的に置き換えられます。
+`*`rootId`*`がカタログに解決され、`*`objId`*`がこのカタログ内の`catalog::Id`と一致する場合、`*`rootId/objId`*`は、次のようなカタログエントリに効果的に置き換えられます。
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
