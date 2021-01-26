@@ -4,10 +4,10 @@ seo-description: 初期設定のカタログでは、すべての画像カタロ
 seo-title: 初期設定のカタログ
 solution: Experience Manager
 title: 初期設定のカタログ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
