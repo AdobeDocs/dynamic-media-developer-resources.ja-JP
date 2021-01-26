@@ -4,10 +4,10 @@ seo-description: JobLogDetial/assetTypeで使用されます。
 seo-title: ジョブログファイルの種類
 solution: Experience Manager
 title: ジョブログファイルの種類
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 translation-type: tm+mt
-source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 7%
