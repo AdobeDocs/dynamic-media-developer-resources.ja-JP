@@ -4,10 +4,10 @@ seo-description: アセットの公開コンテキスト状態を更新します
 seo-title: ContextStateUpdate
 solution: Experience Manager
 title: ContextStateUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 8%
