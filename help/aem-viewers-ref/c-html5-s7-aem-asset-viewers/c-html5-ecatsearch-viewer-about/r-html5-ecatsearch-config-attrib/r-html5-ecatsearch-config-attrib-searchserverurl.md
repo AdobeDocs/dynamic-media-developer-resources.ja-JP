@@ -2,10 +2,10 @@
 description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 14%
