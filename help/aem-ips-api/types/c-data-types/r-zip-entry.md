@@ -4,10 +4,10 @@ seo-description: ZIPファイル内のエントリ。
 seo-title: ZipEntry
 solution: Experience Manager
 title: ZipEntry
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 05aac11b-249c-4c44-943d-fa6bf35d3637
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 12%
@@ -25,9 +25,9 @@ ZIPファイル内のエントリ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | 参加者名。 |
-| ` *`isDirectory`*` | `xsd:boolean` | エントリがディレクトリかどうかを判定します。 |
-| ` *`lastModified`*` | `xsd:dateTime` | 最終変更日時。 |
-| ` *`compressedSize`*` | `xsd:long` | 圧縮サイズ |
-| ` *`uncompressedSize`*` | `xsd:long` | 非圧縮サイズ |
+| `*`name`*` | `xsd:string` | 参加者名。 |
+| `*`isDirectory`*` | `xsd:boolean` | エントリがディレクトリかどうかを判定します。 |
+| `*`lastModified`*` | `xsd:dateTime` | 最終変更日時。 |
+| `*`compressedSize`*` | `xsd:long` | 圧縮サイズ |
+| `*`uncompressedSize`*` | `xsd:long` | 非圧縮サイズ |
 
