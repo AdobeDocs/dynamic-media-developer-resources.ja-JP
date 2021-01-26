@@ -2,10 +2,10 @@
 description: style
 solution: Experience Manager
 title: style
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 8%
