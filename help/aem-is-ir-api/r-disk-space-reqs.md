@@ -1,15 +1,12 @@
 ---
 description: 'ソフトウェアのインストールに必要な領域に加えて、画像サービングには次のディスク領域の要件があります '
-seo-description: 'ソフトウェアのインストールに必要な領域に加えて、画像サービングには次のディスク領域の要件があります '
-seo-title: ディスク容量の要件と推奨事項
 solution: Experience Manager
 title: ディスク容量の要件と推奨事項
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ ht-degree: 0%
 
 ## ソースイメージのディスク領域の要件{#section-317da75099ad480d9a461c7e706d4f1c}
 
-Image Converterコマンドラインツール(IC)を使用して、すべてのソース画像をピラミッド型TIFFファイル形式(PTIFF)に変換することをお勧めします。 この変換により、すべてのアプリケーションに対して画像サービングの最適なランタイムパフォーマンスが確保されます。 Image Serverは、ICが受け入れるすべてのソースファイル形式を処理できますが、Scene7は、このような用途をサポートしていません。
+Image Converterコマンドラインツール(IC)を使用して、すべてのソース画像をピラミッド型TIFFファイル形式(PTIFF)に変換することをお勧めします。 この変換により、すべてのアプリケーションに対して画像サービングの最適なランタイムパフォーマンスが確保されます。 Image Serverは、ICが受け入れるすべてのソースファイル形式を処理できますが、Dynamic Mediaは、このような用途をサポートしていません。
 
 PTIFFファイルを使用する場合は、次のサム規則に従って容量の要件を決定できます。
 
