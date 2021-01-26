@@ -1,15 +1,15 @@
 ---
-description: このドキュメントでは、Scene7イメージレンダリングのHTTPプロトコルについて説明します。
-seo-description: このドキュメントでは、Scene7イメージレンダリングのHTTPプロトコルについて説明します。
+description: このドキュメントでは、Dynamic MediaイメージレンダリングのHTTPプロトコルについて説明します。
+seo-description: このドキュメントでは、Dynamic MediaイメージレンダリングのHTTPプロトコルについて説明します。
 seo-title: HTTPプロトコルリファレンス
 solution: Experience Manager
 title: HTTPプロトコルリファレンス
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: efa23fad-b232-4a5b-b594-a0b668279aad
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -17,5 +17,5 @@ ht-degree: 0%
 
 # HTTPプロトコルリファレンス{#http-protocol-reference}
 
-このドキュメントでは、Scene7イメージレンダリングのHTTPプロトコルについて説明します。
+このドキュメントでは、Dynamic MediaイメージレンダリングのHTTPプロトコルについて説明します。
 
