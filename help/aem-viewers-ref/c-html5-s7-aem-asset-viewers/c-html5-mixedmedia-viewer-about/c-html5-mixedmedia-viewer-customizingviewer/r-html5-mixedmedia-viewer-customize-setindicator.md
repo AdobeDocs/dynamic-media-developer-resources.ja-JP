@@ -4,10 +4,10 @@ seo-description: 設定インジケーターは、タッチデバイスでビュ
 seo-title: 設定インジケーター
 solution: Experience Manager
 title: 設定インジケーター
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
