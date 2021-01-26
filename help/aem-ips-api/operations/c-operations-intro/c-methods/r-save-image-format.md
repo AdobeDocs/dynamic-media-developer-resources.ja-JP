@@ -4,10 +4,10 @@ seo-description: 画像形式を作成します。
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%
@@ -36,16 +36,16 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 操作する画像形式を持つ会社へのハンドル。 |
-| ` *`imageFormatHandle`*` | `xsd:string` | いいえ | 保存する画像形式ハンドル。 |
-| ` *`name`*` | `xsd:string` | はい | 画像形式名。 |
-| ` *`urlModifier`*` | `xsd:string` | はい | IPSプロトコルクエリ文字列を指定できます。 URL修飾子を生成する最も簡単な方法は、IPSユーザインターフェイスを使用してURL修飾子を作成し、クエリ文字列を切り取って貼り付けることです。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 操作する画像形式を持つ会社へのハンドル。 |
+| `*`imageFormatHandle`*` | `xsd:string` | いいえ | 保存する画像形式ハンドル。 |
+| `*`name`*` | `xsd:string` | はい | 画像形式名。 |
+| `*`urlModifier`*` | `xsd:string` | はい | IPSプロトコルクエリ文字列を指定できます。 URL修飾子を生成する最も簡単な方法は、IPSユーザインターフェイスを使用してURL修飾子を作成し、クエリ文字列を切り取って貼り付けることです。 |
 
 **出力(saveImageFormatReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | はい | 画像形式へのハンドル。 |
+| `*`imageFormatHandle`*` | `xsd:string` | はい | 画像形式へのハンドル。 |
 
 ## 例 {#section-c7bd733212ef494297a97093f3af193f}
 
