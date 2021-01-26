@@ -4,10 +4,10 @@ seo-description: 画像カタログは、画像に関する情報と、フォン
 seo-title: 画像カタログ参照
 solution: Experience Manager
 title: 画像カタログ参照
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 1%
