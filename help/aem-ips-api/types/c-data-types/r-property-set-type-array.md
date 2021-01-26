@@ -4,10 +4,10 @@ seo-description: プロパティセットの種類の配列。
 seo-title: PropertySetTypeArray
 solution: Experience Manager
 title: PropertySetTypeArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: a35e55fe-7e61-4060-b0c2-93b551ad757d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 23%
@@ -25,5 +25,5 @@ ht-degree: 23%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:PropertySetType` | プロパティセット型の配列。 |
+| `*`商品`*` | `types:PropertySetType` | プロパティセット型の配列。 |
 
