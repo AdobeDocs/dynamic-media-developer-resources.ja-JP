@@ -4,10 +4,10 @@ seo-description: 埋め込みツールは、ソーシャル共有パネルに追
 seo-title: 埋め込み共有
 solution: Experience Manager
 title: 埋め込み共有
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04fec93c-68e5-442d-b3ce-2b4012ae4687
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 2%
