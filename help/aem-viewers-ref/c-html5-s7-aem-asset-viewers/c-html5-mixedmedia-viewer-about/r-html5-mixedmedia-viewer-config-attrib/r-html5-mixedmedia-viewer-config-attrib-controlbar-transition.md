@@ -2,10 +2,10 @@
 description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 803df8d4-6fb9-49ef-a097-c883d4115fad
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 3%
