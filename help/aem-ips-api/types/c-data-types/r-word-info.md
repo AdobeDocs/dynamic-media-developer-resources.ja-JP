@@ -4,10 +4,10 @@ seo-description: Wordファイルのプロパティ。
 seo-title: WordInfo
 solution: Experience Manager
 title: WordInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 616c7006-a7fe-4dbe-9532-1b296e774107
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 21%
@@ -25,7 +25,7 @@ Wordファイルのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | ファイルパス |
-| ` *`originalFile`*` | `xsd:string` | ファイル名。 |
-| ` *`fileSize`*` | `xsd:int` | ファイルサイズ. |
+| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalFile`*` | `xsd:string` | ファイル名。 |
+| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
 
