@@ -2,10 +2,10 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9eab6cb2-92a3-41d2-999a-254a7109d6b6
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 5%
