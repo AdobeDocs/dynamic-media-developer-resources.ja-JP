@@ -4,10 +4,10 @@ seo-description: 初期設定のJPEGエンコーディング画質。 JPEGでエ
 seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 4%
