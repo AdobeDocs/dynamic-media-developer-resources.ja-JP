@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアのJavaScript APIリファレンス。
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c7e13968-253c-4574-89e3-f3afc0f55df5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 2%
