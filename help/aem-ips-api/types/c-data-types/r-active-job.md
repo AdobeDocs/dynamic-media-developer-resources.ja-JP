@@ -4,10 +4,10 @@ seo-description: サーバー上で実行するジョブ。 また、これは�
 seo-title: ActiveJob
 solution: Experience Manager
 title: ActiveJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 1%
