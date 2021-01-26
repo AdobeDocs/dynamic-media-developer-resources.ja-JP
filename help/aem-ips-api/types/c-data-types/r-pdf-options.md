@@ -4,10 +4,10 @@ seo-description: PDFファイルのオプション
 seo-title: PDFOptions
 solution: Experience Manager
 title: PDFOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7558b6b5-ad32-4baf-896b-f4e2bd48f2ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 9%
@@ -25,10 +25,10 @@ PDFファイルのオプション
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`プロセス`*` | `xsd:string` | 「PDFプロセス」の選択 |
-| ` *`resolution`*` | `xsd:double` | ファイルの解像度。 |
-| ` *`カラースペース`*` | `xsd:string` | ポストスクリプトカラースペースモードの選択 |
-| ` *`pdfCatalog`*` | `xsd:boolean` | レンダリング後に複数ページのPDFをeCatalogに結合するかどうか（デフォルトはtrue）。 |
-| ` *`extractSearchWords`*` | `xsd:boolean` | PDFファイルから検索語を抽出するかどうか。 |
-| ` *`extractLinks`*` | `xsd:boolean` | IPS内のラスタライズページに割り当てられた画像マップにPDFリンクを抽出するかどうか。 |
+| `*`プロセス`*` | `xsd:string` | 「PDFプロセス」の選択 |
+| `*`resolution`*` | `xsd:double` | ファイルの解像度。 |
+| `*`カラースペース`*` | `xsd:string` | ポストスクリプトカラースペースモードの選択 |
+| `*`pdfCatalog`*` | `xsd:boolean` | レンダリング後に複数ページのPDFをeCatalogに結合するかどうか（デフォルトはtrue）。 |
+| `*`extractSearchWords`*` | `xsd:boolean` | PDFファイルから検索語を抽出するかどうか。 |
+| `*`extractLinks`*` | `xsd:boolean` | IPS内のラスタライズページに割り当てられた画像マップにPDFリンクを抽出するかどうか。 |
 
