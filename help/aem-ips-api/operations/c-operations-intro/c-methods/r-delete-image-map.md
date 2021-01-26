@@ -4,10 +4,10 @@ seo-description: 画像マップを削除します。
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 12%
@@ -40,8 +40,8 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像マップを含む会社へのハンドル。 |
-| ` *`imageMapHandle`*` | `xsd:string` | はい | 削除する画像マップのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 削除する画像マップを含む会社へのハンドル。 |
+| `*`imageMapHandle`*` | `xsd:string` | はい | 削除する画像マップのハンドル。 |
 
 **出力(deleteImageMapParam)**
 
