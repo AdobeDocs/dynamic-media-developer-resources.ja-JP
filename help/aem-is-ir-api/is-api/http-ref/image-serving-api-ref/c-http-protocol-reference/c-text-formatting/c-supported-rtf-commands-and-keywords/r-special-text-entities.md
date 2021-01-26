@@ -4,10 +4,10 @@ seo-description: テキストの書式設定には、次の特殊エンティテ
 seo-title: 特殊テキストエンティティ
 solution: Experience Manager
 title: 特殊テキストエンティティ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 3%
