@@ -2,10 +2,10 @@
 description: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 57c86b63-7495-4f6f-bd30-8c4ebf017e36
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 3%
