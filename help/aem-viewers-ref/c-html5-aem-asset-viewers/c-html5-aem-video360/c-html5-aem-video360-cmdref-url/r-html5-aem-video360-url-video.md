@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアのURLコマンド。
 seo-title: ビデオ
 solution: Experience Manager
 title: ビデオ
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 17%
