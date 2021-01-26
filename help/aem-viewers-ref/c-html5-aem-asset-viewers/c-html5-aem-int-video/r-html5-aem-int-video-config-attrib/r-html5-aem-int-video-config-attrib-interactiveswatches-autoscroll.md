@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: InteractiveSwatches.autoscroll
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 10%
