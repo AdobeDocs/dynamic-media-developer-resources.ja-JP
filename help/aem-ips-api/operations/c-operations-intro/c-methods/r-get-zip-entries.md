@@ -4,10 +4,10 @@ seo-description: Zipファイルのデータを返します。
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 21%
@@ -39,14 +39,14 @@ Zipファイルのデータを返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | Zipファイルを含む会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | ZIPファイルへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | Zipファイルを含む会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | ZIPファイルへのハンドル。 |
 
 **出力(getZipEntriesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | はい | Zipファイル内のエントリの配列。 |
+| `*`zipArray`*` | `types:ZipEntryArray` | はい | Zipファイル内のエントリの配列。 |
 
 ## 例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
