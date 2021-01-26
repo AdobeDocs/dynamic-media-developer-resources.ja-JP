@@ -2,10 +2,10 @@
 description: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8f475fa8-92d1-4663-bc12-1e65b76076ba
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
