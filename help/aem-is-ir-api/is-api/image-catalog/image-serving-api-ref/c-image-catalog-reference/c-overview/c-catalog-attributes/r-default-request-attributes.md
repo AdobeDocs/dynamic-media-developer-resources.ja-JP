@@ -4,10 +4,10 @@ seo-description: カタログ属性ファイルは、これらのデフォルト
 seo-title: デフォルトの要求属性
 solution: Experience Manager
 title: デフォルトの要求属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 1%
