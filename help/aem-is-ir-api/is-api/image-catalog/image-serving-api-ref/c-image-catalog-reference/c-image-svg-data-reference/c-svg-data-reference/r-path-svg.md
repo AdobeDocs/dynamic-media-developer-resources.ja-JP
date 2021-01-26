@@ -2,12 +2,12 @@
 description: パス
 solution: Experience Manager
 title: パス
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 サポートされているイメージファイル形式の完全なリストについては、Image Converter(IC)ユーティリティの説明を参照してください。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7ピラミッドTIFF(PTIFF)マルチ解像度形式を使用する場合に最適です。 ICユーティリティは、サポートされている任意の画像形式からPTIFF画像を作成する場合に使用します。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic MediaピラミッドTIFF(PTIFF)マルチ解像度形式を使用する場合に最適です。 ICユーティリティは、サポートされている任意の画像形式からPTIFF画像を作成する場合に使用します。
 
 ## 初期設定 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
