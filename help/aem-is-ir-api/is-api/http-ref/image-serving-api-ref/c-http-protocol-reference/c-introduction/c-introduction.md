@@ -1,22 +1,22 @@
 ---
-description: このドキュメントでは、Scene7画像サービングのHTTPプロトコルについて説明します。
-seo-description: このドキュメントでは、Scene7画像サービングのHTTPプロトコルについて説明します。
+description: このドキュメントでは、Dynamic Media画像サービングのHTTPプロトコルについて説明します。
+seo-description: このドキュメントでは、Dynamic Media画像サービングのHTTPプロトコルについて説明します。
 seo-title: はじめに
 solution: Experience Manager
 title: はじめに
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03e7ceb2-afc4-4ec1-b43b-c170c9872619
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 5%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
 
 # はじめに{#introduction}
 
-このドキュメントでは、Scene7画像サービングのHTTPプロトコルについて説明します。
+このドキュメントでは、Dynamic Media画像サービングのHTTPプロトコルについて説明します。
 
-プロトコルの公開された側面のみが説明されます。 サーバは、追加のコマンドをサポートする場合があります。これは、Scene7クライアントソフトウェアで使用するために予約されています。
+プロトコルの公開された側面のみが説明されます。 サーバは、追加のコマンドをサポートする場合があります。これは、Dynamic Mediaクライアントソフトウェアで使用するために予約されています。
