@@ -2,10 +2,10 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
