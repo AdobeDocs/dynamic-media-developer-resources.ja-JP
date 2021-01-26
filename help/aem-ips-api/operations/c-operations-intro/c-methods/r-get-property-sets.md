@@ -4,10 +4,10 @@ seo-description: タイプハンドルに関連付けられたプロパティセ
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 17%
@@ -39,15 +39,15 @@ ht-degree: 17%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | はい | データベースオブジェクトに連結されたデータの主所有者です。 |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | いいえ | データのセカンダリ所有者（オプション）。 |
+| `*`typeHandle`*` | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
+| `*`primaryOwnerHandle`*` | `xsd:string` | はい | データベースオブジェクトに連結されたデータの主所有者です。 |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | いいえ | データのセカンダリ所有者（オプション）。 |
 
 **出力(getPropertySetsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | はい | プロパティセットの配列。 |
+| `*`setArray`*` | `types:PropertySetArray` | はい | プロパティセットの配列。 |
 
 ## 例 {#section-1358af974eab4259864910337a6f0bd2}
 
