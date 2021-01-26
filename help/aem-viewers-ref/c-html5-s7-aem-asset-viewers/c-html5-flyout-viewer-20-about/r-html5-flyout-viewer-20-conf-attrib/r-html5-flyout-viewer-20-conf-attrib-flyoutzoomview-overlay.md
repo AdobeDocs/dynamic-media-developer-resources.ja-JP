@@ -2,10 +2,10 @@
 description: FlyoutZoomView.overlay
 solution: Experience Manager
 title: FlyoutZoomView.overlay
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
