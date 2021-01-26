@@ -4,10 +4,10 @@ seo-description: 複数の画像レイヤーを合成する要求や、rtf形式
 seo-title: テンプレート
 solution: Experience Manager
 title: テンプレート
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
