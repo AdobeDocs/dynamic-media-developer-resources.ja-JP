@@ -4,10 +4,10 @@ seo-description: 要求に対する改ざんの機会を低減するために、
 seo-title: 要求のロック
 solution: Experience Manager
 title: 要求のロック
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
