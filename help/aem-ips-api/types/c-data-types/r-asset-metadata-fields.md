@@ -4,10 +4,10 @@ seo-description: 指定されたアセットタイプのメタデータフィー
 seo-title: AssetMetadataFields
 solution: Experience Manager
 title: AssetMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: aefb734c-7609-4227-ae2c-48a1469740ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 8%
@@ -25,6 +25,6 @@ ht-degree: 8%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`assetType`*` | `xsd:string` | フィールド定義に関連付けられているアセットタイプ（値については、「アセットタイプ」を参照）。 |
-| ` *`fieldArray`*` | `types:MetadataFieldArray` | `assetType`で指定されたアセットタイプに関連付けられたメタデータフィールド定義の配列。 |
+| `*`assetType`*` | `xsd:string` | フィールド定義に関連付けられているアセットタイプ（値については、「アセットタイプ」を参照）。 |
+| `*`fieldArray`*` | `types:MetadataFieldArray` | `assetType`で指定されたアセットタイプに関連付けられたメタデータフィールド定義の配列。 |
 
