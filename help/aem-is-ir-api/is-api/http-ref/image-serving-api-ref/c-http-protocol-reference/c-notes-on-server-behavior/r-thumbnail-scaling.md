@@ -4,10 +4,10 @@ seo-description: 画像レイヤー変換の手順2は、サムネールに対�
 seo-title: サムネールの拡大縮小
 solution: Experience Manager
 title: サムネールの拡大縮小
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: df935d40-84c6-4018-9e41-faef4653ff1f
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
