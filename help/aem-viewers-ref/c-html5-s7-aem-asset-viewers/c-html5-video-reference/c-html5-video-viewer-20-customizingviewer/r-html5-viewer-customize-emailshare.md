@@ -4,10 +4,10 @@ seo-description: 電子メール共有ツールは、ソーシャル共有パネ
 seo-title: 電子メール共有
 solution: Experience Manager
 title: 電子メール共有
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '3020'
 ht-degree: 2%
