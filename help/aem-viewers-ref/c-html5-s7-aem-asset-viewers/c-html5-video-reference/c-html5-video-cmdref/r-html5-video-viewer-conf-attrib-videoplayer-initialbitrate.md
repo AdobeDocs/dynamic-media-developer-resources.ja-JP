@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: VideoPlayer.initialbitrate
 solution: Experience Manager
 title: VideoPlayer.initialbitrate
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b2dde5f4-0449-4cad-a1f2-e336027f92c6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 3%
