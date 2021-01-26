@@ -4,10 +4,10 @@ seo-description: このボタンをクリックまたはタップすると、メ
 seo-title: ズームアウトボタン
 solution: Experience Manager
 title: ズームアウトボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2e95855a-c3af-4a79-a33a-f27d88dc14a4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
