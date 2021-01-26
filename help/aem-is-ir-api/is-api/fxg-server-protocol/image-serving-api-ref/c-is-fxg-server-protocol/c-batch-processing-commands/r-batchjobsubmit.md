@@ -4,10 +4,10 @@ seo-description: 新しいバッチジョブを送信します。
 seo-title: batchjobsubmit
 solution: Experience Manager
 title: batchjobsubmit
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb695666-fcaf-40bc-8b56-452819f058d2
 translation-type: tm+mt
-source-git-commit: 65cf517cb75d35cbd3761397ee99d1d8ec074ad6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
