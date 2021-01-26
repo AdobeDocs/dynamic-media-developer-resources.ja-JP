@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: callToActionRecap
 solution: Experience Manager
 title: callToActionRecap
-topic: Dynamic media
+topic: Dynamic Media
 uuid: eda844e5-8ad2-4617-b38a-da0f7e981f68
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 12%
