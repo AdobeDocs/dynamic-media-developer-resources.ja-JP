@@ -4,12 +4,12 @@ seo-description: 応答形式としてjsonpを指定した場合、応答デー�
 seo-title: JSONPプロパティ
 solution: Experience Manager
 title: JSONPプロパティ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
 
 `<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
 
-Scene7画像サービングビューアパッケージには、画像サービングからJSONP形式のデータを要求し、解析するユーティリティが含まれています。
+Dynamic Media画像サービングビューアパッケージには、画像サービングからJSONP形式のデータを要求し、解析するユーティリティが含まれています。
 
 JSONP形式について詳しくは、[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)を参照してください。
 
