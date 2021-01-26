@@ -2,10 +2,10 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1b0c5b5d-2a25-4899-8831-40fd0f364f42
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 10%
