@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアのURLコマンド
 seo-title: caption
 solution: Experience Manager
 title: caption
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 8%
