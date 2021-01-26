@@ -4,10 +4,10 @@ seo-description: 画像サービングのインストールフォルダ(install_
 seo-title: Install folder
 solution: Experience Manager
 title: Install folder
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3e3a5077-f165-42e0-806b-c2cc97aa4f9a
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
