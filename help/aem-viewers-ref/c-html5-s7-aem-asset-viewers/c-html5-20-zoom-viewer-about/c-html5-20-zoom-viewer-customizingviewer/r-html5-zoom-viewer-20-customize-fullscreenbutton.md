@@ -4,10 +4,10 @@ seo-description: ユーザーがクリックすると、ビューアのフルス
 seo-title: フルスクリーンボタン
 solution: Experience Manager
 title: フルスクリーンボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 58bea34f-357e-4d9b-a22d-7d0f177d8215
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 2%
