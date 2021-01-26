@@ -4,10 +4,10 @@ seo-description: ユーザーハンドルを指定するかどうかに応じて
 seo-title: setPassword
 solution: Experience Manager
 title: setPassword
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 5%
