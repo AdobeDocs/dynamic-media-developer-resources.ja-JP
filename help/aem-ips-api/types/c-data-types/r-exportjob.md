@@ -4,10 +4,10 @@ seo-description: 以前にアップロードされたファイルの承認され
 seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 10%
