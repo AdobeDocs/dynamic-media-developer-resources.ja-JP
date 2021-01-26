@@ -2,10 +2,10 @@
 description: SpinView.transition
 solution: Experience Manager
 title: SpinView.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d7ea421-9892-4276-8f22-3e1099f91f2f
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
