@@ -4,10 +4,10 @@ seo-description: ビデオ画像ビューアのJavaScript APIリファレンス�
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f1486f82-28dd-4321-a0e5-9e5696f6bbf7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 3%
