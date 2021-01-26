@@ -4,10 +4,10 @@ seo-description: メイン表示の上に、ユーザが最初に追加した場
 seo-title: お気に入りエフェクト
 solution: Experience Manager
 title: お気に入りエフェクト
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
