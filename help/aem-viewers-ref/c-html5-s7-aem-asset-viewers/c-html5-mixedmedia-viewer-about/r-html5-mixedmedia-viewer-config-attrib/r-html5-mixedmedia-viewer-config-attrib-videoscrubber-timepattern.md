@@ -2,10 +2,10 @@
 description: VideoScrubber.timepattern
 solution: Experience Manager
 title: VideoScrubber.timepattern
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6034dc22-c1d4-4a37-93de-42a88b99234a
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 3%
