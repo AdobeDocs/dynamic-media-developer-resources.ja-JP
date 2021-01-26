@@ -4,10 +4,10 @@ seo-description: 材料の解像度 繰り返し可能なテクスチャイメ�
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
