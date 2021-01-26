@@ -2,10 +2,10 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b5dfb326-fbd8-4220-a44c-0d4f80b2a8fa
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 8%
