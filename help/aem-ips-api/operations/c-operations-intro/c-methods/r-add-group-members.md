@@ -1,16 +1,13 @@
 ---
 description: 特定の会社から特定のグループにユーザーを追加します。
-seo-description: 特定の会社から特定のグループにユーザーを追加します。
-seo-title: addGroupMembers
 solution: Experience Manager
 title: addGroupMembers
-topic: Scene7 Image Production System API
-uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 11%
+source-wordcount: '101'
+ht-degree: 12%
 
 ---
 
@@ -33,9 +30,9 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
+| `*`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列です。 |
 
 **出力(addGroupMembersParam)**
 
@@ -43,7 +40,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-この例では、` *`addGroupMembersParam`*`を使用して、1人の会社に1人のユーザーを追加します。 IPS APIは、この操作に対する応答を返しません。
+この例では、`*`addGroupMembersParam`*`を使用して、1人の会社に1人のユーザーを追加します。 IPS APIは、この操作に対する応答を返しません。
 
 **リクエスト**
 
