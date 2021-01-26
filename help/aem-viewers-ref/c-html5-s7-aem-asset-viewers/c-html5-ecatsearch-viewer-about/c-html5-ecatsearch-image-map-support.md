@@ -4,10 +4,10 @@ seo-description: eCatalog検索ビューアでは、メイン表示の上にあ�
 seo-title: 画像マップのサポート
 solution: Experience Manager
 title: 画像マップのサポート
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
