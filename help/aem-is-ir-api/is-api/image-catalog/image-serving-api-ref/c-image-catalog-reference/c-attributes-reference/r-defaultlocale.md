@@ -4,10 +4,10 @@ seo-description: デフォルトのロケールID リクエストでlocale=が�
 seo-title: DefaultLocale
 solution: Experience Manager
 title: DefaultLocale
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 3%
