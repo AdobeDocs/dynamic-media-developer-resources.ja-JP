@@ -4,10 +4,10 @@ seo-description: このボタンをクリックまたはタップすると、カ
 seo-title: 前のページボタン
 solution: Experience Manager
 title: 前のページボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6ba16329-ce24-4a06-970e-cfcd35a8b2f0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
