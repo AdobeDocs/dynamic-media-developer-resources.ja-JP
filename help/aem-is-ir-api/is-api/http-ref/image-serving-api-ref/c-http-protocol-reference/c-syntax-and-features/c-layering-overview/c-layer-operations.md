@@ -4,10 +4,10 @@ seo-description: レイヤ0に対するサイズ(size=)と位置(pos=)のレイ�
 seo-title: レイヤーの操作
 solution: Experience Manager
 title: レイヤーの操作
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9ef4199-cfa2-480e-a4de-8a0b9064a649
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
