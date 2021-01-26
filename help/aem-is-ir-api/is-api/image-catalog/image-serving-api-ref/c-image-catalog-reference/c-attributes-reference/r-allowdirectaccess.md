@@ -4,10 +4,10 @@ seo-description: パスベースのアセットへの直接アクセスを許可
 seo-title: AllowDirectAccess
 solution: Experience Manager
 title: AllowDirectAccess
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * `IS`と`STATIC``AllowDirectAccess=exclude:IS,STATIC`を除くすべてのオブジェクトタイプで直接アクセスを許可する
 
-* **&#x200B;オブジェクトタイプの&lt;a0/>への直接アクセスを許可する（つまり、何も含めない）
+* **&#x200B;オブジェクトタイプのへの直接アクセスを許可する（つまり、何も含めない）
 
    `AllowDirectAccess=include:`
 
