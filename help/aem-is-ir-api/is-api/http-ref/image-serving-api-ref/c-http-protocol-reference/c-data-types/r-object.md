@@ -4,12 +4,12 @@ seo-description: ソースオブジェクト指定子 画像、SVG、ICCプロ�
 seo-title: オブジェクト
 solution: Experience Manager
 title: オブジェクト
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ソースオブジェクト指定子 画像、SVG、ICCプロファイルオブジェクトは、画像カタログエントリまたは相対ファイルパスとして指定できます
 
-` *`objectrootIdobjIdpath`*[/]{[ *``*/] *``*}| *``*`
+`*`objectrootIdobjIdpath`*[/]{[ *``*/] *``*}| *``*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 *`rootId`*&#x200B;と&#x200B;*`objId`*&#x200B;の両方で、大文字と小文字が区別されます。 *`path`* は、UNIXでのみ大文字と小文字が区別されます。
 
-先頭に「/」を指定した場合は、メインカタログではなくデフォルトのカタログが検索されます。 これは、明示的なパスに`default::RootPath`が必要な場合に主に役立ちます。メインカタログの`attribute::RootPath`ではなく、&lt;a0/>が必要な場合にも便利ですが、これ以外の場合は、メインカタログのエントリによって上書きされます。
+先頭に「/」を指定した場合は、メインカタログではなくデフォルトのカタログが検索されます。 これは、明示的なパスに`default::RootPath`が必要な場合に主に役立ちます。メインカタログの`attribute::RootPath`ではなく、が必要な場合にも便利ですが、これ以外の場合は、メインカタログのエントリによって上書きされます。
 
 *`path`*&#x200B;を物理ファイルパスに変換する方法の詳細については、『*サーバ設定ガイド*』の「*コンテンツの管理*」を参照してください。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 サポートされるファイル形式の完全なリストについては、IC(Image Converter)ユーティリティの説明を参照してください。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7ピラミッドTIFF(PTIF)マルチ解像度形式を使用する場合に最適です。 ICユーティリティは、サポートされている任意の画像形式からPTIF画像を作成する場合に使用します。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic MediaピラミッドTIFF(PTIF)マルチ解像度形式を使用する場合に最適です。 ICユーティリティは、サポートされている任意の画像形式からPTIF画像を作成する場合に使用します。
 
 ## 例 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
