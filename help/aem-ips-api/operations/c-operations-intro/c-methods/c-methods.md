@@ -2,10 +2,9 @@
 description: 操作のパラメーター
 solution: Experience Manager
 title: 操作のパラメーター
-topic: Scene7 Image Production System API
-uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
