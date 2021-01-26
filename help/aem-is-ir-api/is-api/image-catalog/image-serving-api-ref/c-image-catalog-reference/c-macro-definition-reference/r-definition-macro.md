@@ -4,10 +4,10 @@ seo-description: マクロ定義 完全な1つ以上のコマンドから成る�
 seo-title: 定義
 solution: Experience Manager
 title: 定義
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 5%
