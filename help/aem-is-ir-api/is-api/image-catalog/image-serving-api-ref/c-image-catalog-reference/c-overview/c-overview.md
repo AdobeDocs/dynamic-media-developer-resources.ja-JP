@@ -4,12 +4,12 @@ seo-description: 画像カタログは、画像に関する情報や、サポー
 seo-title: 概要
 solution: Experience Manager
 title: 概要
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 カタログ属性ファイルには[!DNL .ini]ファイルのサフィックスが必要で、プラットフォームサーバーのカタログフォルダー(`PlatformServer::catalog.rootPath`)内に置く必要があります。 カタログデータファイルは、同じフォルダーに置くことも、プラットフォームサーバーからアクセス可能なその他のフォルダーに置くこともできます。
 
-このドキュメントでは、Scene7画像サービングシステムの画像カタログファイル形式を説明します。 対象となるオーディエンスは、Webまたはカスタムアプリケーション用にScene7画像サービングを利用したい経験豊富なプログラマーやWebサイト開発者です。
+このドキュメントでは、Dynamic Media画像サービングシステムの画像カタログファイル形式を説明します。 対象となるオーディエンスは、Webまたはカスタムアプリケーション用にDynamic Media画像サービングを利用したい経験豊富なプログラマーやWebサイト開発者です。
 
-読者は、Scene7画像サービングシステム、一般的なHTTPプロトコル標準および表記、基本的な画像処理用語に精通していると想定されています。
+読者は、Dynamic Media画像サービングシステム、一般的なHTTPプロトコル標準および表記、基本的な画像処理用語に精通していると想定されています。
