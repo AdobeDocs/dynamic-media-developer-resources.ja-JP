@@ -4,13 +4,13 @@ seo-description: エラーメッセージの詳細。 HTTP経由で返される�
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 * 一般にアクセスできるライブサーバーにはレベル0をお勧めします。
 * ステージング、品質保証およびアプリケーション開発サーバーには、レベル2が推奨されます。
-* レベル3の情報は、Scene7テクニカルサポートにレポートが問題を起こした場合に役立ちます。
+* レベル3の情報は、Dynamic Mediaのテクニカルサポートに対するレポートの問題が発生した場合に役立ちます。
 
 ## プロパティ {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
