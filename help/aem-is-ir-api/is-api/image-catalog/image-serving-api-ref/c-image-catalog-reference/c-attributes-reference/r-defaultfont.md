@@ -4,10 +4,10 @@ seo-description: 初期設定のフォント名 text=要求でフォントが指
 seo-title: Ryo Gothic PlusN L
 solution: Experience Manager
 title: Ryo Gothic PlusN L
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0d1ada8d-2ffe-4799-b771-8f9113e04661
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
