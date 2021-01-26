@@ -4,10 +4,10 @@ seo-description: フォントメトリクスのファイルパス フォント�
 seo-title: MetricsPath
 solution: Experience Manager
 title: MetricsPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
