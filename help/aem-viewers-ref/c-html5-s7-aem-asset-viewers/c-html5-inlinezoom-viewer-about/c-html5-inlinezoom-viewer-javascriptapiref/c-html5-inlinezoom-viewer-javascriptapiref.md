@@ -4,10 +4,10 @@ seo-description: インラインズームビューアのメインクラスはFly
 seo-title: インラインズームビューアのJavaScript APIリファレンス
 solution: Experience Manager
 title: インラインズームビューアのJavaScript APIリファレンス
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
