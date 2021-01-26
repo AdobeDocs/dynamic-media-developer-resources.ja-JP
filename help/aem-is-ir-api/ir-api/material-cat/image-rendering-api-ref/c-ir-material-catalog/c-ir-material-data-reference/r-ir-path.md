@@ -4,12 +4,12 @@ seo-description: 画像ファイルのパス テクスチャまたはデカー�
 seo-title: パス *
 solution: Experience Manager
 title: パス *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 3%
 
 ## サポートされるファイル形式{#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-画像レンダリングは、Scene7画像サービングと同じソース画像形式をサポートします。
+画像レンダリングは、Dynamic Media画像サービングと同じソース画像形式をサポートします。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7ピラミッドTIFF(PTIFF)マルチ解像度形式を使用する場合に最適です。 画像サービングには、サポートされている任意の形式からPTIFF画像を作成するImage Converter(IC)ユーティリティが含まれています。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic MediaピラミッドTIFF(PTIFF)マルチ解像度形式を使用する場合に最適です。 画像サービングには、サポートされている任意の形式からPTIFF画像を作成するImage Converter(IC)ユーティリティが含まれています。
 
 サポートされるファイル形式の完全なリストについては、画像サービングのドキュメントのICユーティリティの説明を参照してください。
 
