@@ -4,10 +4,10 @@ seo-description: カルーセルビューアのJavaScript APIリファレンス�
 seo-title: getComponent**
 solution: Experience Manager
 title: getComponent**
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b5449564-c01c-4bb3-b265-b8d70e5f1b54
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
