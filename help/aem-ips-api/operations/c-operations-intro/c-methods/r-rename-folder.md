@@ -4,10 +4,10 @@ seo-description: フォルダの名前を変更します。
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 21%
@@ -40,15 +40,15 @@ ht-degree: 21%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 名前を変更する会社ーを処理します。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | フォルダーへのハンドル。 |
-| ` *`folderName`*` | `xsd:string` | はい | 新しいフォルダー名。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 名前を変更する会社ーを処理します。 |
+| `*`folderHandle`*` | `xsd:string` | はい | フォルダーへのハンドル。 |
+| `*`folderName`*` | `xsd:string` | はい | 新しいフォルダー名。 |
 
 **出力(renameFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | はい | 名前を変更したフォルダーへのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 名前を変更したフォルダーへのハンドル。 |
 
 ## 例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
