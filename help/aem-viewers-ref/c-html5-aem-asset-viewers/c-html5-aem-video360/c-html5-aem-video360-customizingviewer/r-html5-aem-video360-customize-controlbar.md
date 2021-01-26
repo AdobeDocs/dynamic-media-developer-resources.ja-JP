@@ -4,10 +4,10 @@ seo-description: コントロールバーは、再生/一時停止ボタン、�
 seo-title: コントロールバー
 solution: Experience Manager
 title: コントロールバー
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 1%
