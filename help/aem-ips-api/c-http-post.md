@@ -1,15 +1,12 @@
 ---
 description: アセットをScene7プロダクションシステムにアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためにジョブを設定する1つ以上のHTTPPOST要求が必要です。
-seo-description: アセットをScene7プロダクションシステムにアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためにジョブを設定する1つ以上のHTTPPOST要求が必要です。
-seo-title: HTTP POSTを使用したUploadFileサーブレットへのアセットのアップロード
 solution: Experience Manager
 title: HTTP POSTを使用したUploadFileサーブレットへのアセットのアップロード
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >アップロードジョブに対するすべてのPOST要求は、同じIPアドレスから送信される必要があります。
 
-**Scene7地域のアクセスURL**
+**Dynamic Media地域のアクセスURL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
