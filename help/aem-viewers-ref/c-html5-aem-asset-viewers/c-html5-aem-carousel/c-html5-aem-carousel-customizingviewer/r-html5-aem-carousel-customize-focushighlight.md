@@ -4,10 +4,10 @@ seo-description: フォーカスされたビューアのユーザインターフ
 seo-title: フォーカスハイライト
 solution: Experience Manager
 title: フォーカスハイライト
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3eee3e59-d926-4a7c-ba2b-a3b9b8522f9c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 1%
