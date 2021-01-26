@@ -4,10 +4,10 @@ seo-description: 現在のジョブまたはスケジュール済みのジョブ
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 12%
@@ -38,8 +38,8 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | ジョブが属する会社のハンドル。 |
-| ` *`jobHandle`*` | `xsd:string` | はい | 削除するジョブのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | ジョブが属する会社のハンドル。 |
+| `*`jobHandle`*` | `xsd:string` | はい | 削除するジョブのハンドル。 |
 
 **Output**
 
