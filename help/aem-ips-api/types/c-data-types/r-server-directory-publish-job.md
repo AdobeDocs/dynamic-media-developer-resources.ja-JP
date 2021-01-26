@@ -4,10 +4,10 @@ seo-description: サーバーディレクトリに公開する準備ができた
 seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 6%
@@ -25,6 +25,6 @@ ht-degree: 6%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`emailSettings`*` | `xsd:string` | 電子メールの設定の選択。 |
-| ` *`httpCompletionUrl`*` | `xsd:string` | 完了通知を送信するURL。 |
+| `*`emailSettings`*` | `xsd:string` | 電子メールの設定の選択。 |
+| `*`httpCompletionUrl`*` | `xsd:string` | 完了通知を送信するURL。 |
 
