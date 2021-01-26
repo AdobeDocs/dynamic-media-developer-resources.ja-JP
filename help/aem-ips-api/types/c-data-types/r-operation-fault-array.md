@@ -4,10 +4,10 @@ seo-description: CDN無効化要求で提供されるURLの1つに応答する�
 seo-title: OperationFaultArray
 solution: Experience Manager
 title: OperationFaultArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 5%
