@@ -7,9 +7,9 @@ title: Scene7秋2016年リリース
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ Adobe Scene7秋の2016年リリースの最新リリースノートです。Adob
 
 ## Scene7秋2016リリース{#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-[!DNL Adobe Marketing Cloud]の[!DNL Adobe Scene7] Fall 2016リリースパート&lt;a2/>の最新のリリースノートです。[!DNL Adobe Experience Manager]
+[!DNL Adobe Marketing Cloud]の[!DNL Adobe Scene7] Fall 2016リリースパート[!DNL Adobe Experience Manager]の最新のリリースノートです。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [ビューア（画像サービング5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [ビューア（画像サービング5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [ビューア（画像サービング5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7HTML5ビューアSDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7画像サービング6.3.2および画像レンダリング6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5ビューアSDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media画像サービング6.3.2および画像レンダリング6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
    * iPadデバイスで背景が白/透明に設定されている場合、VideoPlayerコンポーネントの横に黒の境界線が表示されます。
    * iOS 7を使用しているiPadで、ビデオの最後のフレームがゆがむ場合があります。
    * Chrome、FirefoxおよびInternet ExplorerブラウザーでのHLSストリーミングモードでのビデオシーク中に、マクロブロッキングがときどき発生する場合があります。
-   * ポスター画像がMicrosoft Edgeブラウザーで初めての訪問者で表示されない場合があります。
-   * プログレッシブ再生を使用している場合、Internet Explorer 9でビデオが読み込まれた後にポスター画像が非表示になる場合があります。
+      * ポスター画像がMicrosoft Edgeブラウザーで初めての訪問者で表示されない場合があります。
+      * プログレッシブ再生を使用している場合、Internet Explorer 9でビデオが読み込まれた後にポスター画像が非表示になる場合があります。
 
 ## Scene7HTML5ビューアSDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
    * ポスター画像がMicrosoft Edgeブラウザーで初めての訪問者で表示されない場合があります。
    * プログレッシブ再生を使用している場合、Internet Explorer 9でビデオが読み込まれた後にポスター画像が非表示になる場合があります。
 
-## Scene7画像サービング6.3.2および画像レンダリング6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media画像サービング6.3.2および画像レンダリング6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * ICユーティリティ — `downsample2x2`フラグはサポートされなくなりました。 このフラグは、2x2ダウンサンプラーの品質が低く、IPSでは使用されなくなりました。
 * CORSヘッダー — 現在、CORSヘッダーは`/is/content/`リクエスト用に設定されています。
