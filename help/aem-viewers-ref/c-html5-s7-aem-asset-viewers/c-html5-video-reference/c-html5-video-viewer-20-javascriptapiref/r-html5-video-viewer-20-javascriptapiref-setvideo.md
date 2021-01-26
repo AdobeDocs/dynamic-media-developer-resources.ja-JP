@@ -4,10 +4,10 @@ seo-description: ビデオビューアのJavaScript APIリファレンス
 seo-title: setVideo
 solution: Experience Manager
 title: setVideo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0a1b3caa-ded6-4020-962c-41c3ece0a865
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
