@@ -4,10 +4,10 @@ seo-description: コマンドマクロは、コマンドのセットに名前付
 seo-title: コマンドマクロ
 solution: Experience Manager
 title: コマンドマクロ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-` *``*` 名前は大文字と小文字が区別されず、ASCII文字、数字、「 — 」、「_」、「。」の任意の組み合わせで構成できます。文字.
+`*``*` 名前は大文字と小文字が区別されず、ASCII文字、数字、「 — 」、「_」、「。」の任意の組み合わせで構成できます。文字.
 
 マクロは、リクエストの中で&#39;?&#39;の後の任意の場所、および`catalog::Modifier`や`catalog::PostModifier`フィールド内の任意の場所で呼び出すことができます。 マクロは、1つ以上の完全な画像サービングコマンドのみを表すことができ、他のコマンドとは「&amp;」区切り文字で区切る必要があります。
 
