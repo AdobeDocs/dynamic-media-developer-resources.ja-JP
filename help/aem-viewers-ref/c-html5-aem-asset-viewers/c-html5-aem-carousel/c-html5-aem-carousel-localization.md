@@ -4,10 +4,10 @@ seo-description: カルーセルビューアに表示されるコンテンツに
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO  </span> </p> </td> 
-   <td colname="col2"> <p> 前のスライドボタンと次のスライドボタンのツールチップとARIAラベル。 </p> <p>次の2つの置換トークンを受け入れます。現在のスライドインデックスの場合は$CURRENT_FRAME$ <span class="codeph">、スライドの総数の場合は</span> $TOTAL_FRAMES$ <span class="codeph">です。</span> </p> </td> 
+   <td colname="col2"> <p> 前のスライドボタンと次のスライドボタンのツールチップとARIAラベル。 </p> <p>次の2つの置換トークンを受け入れます。現在のスライドインデックスの場合は$CURRENT_FRAME$ </span>、スライドの総数の場合は<span class="codeph"> $TOTAL_FRAMES$ </span>です。<span class="codeph"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> コンテナ.LABEL  </span> </p> </td> 
