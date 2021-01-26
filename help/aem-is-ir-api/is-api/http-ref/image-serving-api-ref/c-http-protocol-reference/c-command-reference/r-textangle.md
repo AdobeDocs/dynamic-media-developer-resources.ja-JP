@@ -4,10 +4,10 @@ seo-description: テキストのレンダリング方向 textPs=で指定した�
 seo-title: textAngle
 solution: Experience Manager
 title: textAngle
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ac54c186-1fc5-479a-89f2-ff2da5e7999a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 4%
