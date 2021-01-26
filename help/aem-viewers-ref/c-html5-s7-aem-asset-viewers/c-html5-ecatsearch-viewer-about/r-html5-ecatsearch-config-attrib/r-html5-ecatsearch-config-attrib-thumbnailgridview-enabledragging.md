@@ -2,10 +2,10 @@
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
 title: ThumbnailGridView.enabledragging
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 31575fa3-8cc4-468e-b590-77edc3b148d4
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 6%
