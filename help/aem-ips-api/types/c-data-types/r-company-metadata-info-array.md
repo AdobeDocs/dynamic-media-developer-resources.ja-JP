@@ -4,10 +4,10 @@ seo-description: CompanyMetadataInfo要素の配列。
 seo-title: CompanyMetadataInfoArray
 solution: Experience Manager
 title: CompanyMetadataInfoArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 41b816ce-c19a-49fa-9c12-5773bd3ea634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 18%
@@ -25,6 +25,6 @@ CompanyMetadataInfo要素の配列。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`コードフレーズ`*` | `Code Phrase` |  |
-| ` *`コードフレーズ`*` | `Code Phrase` |  |
+| `*`コードフレーズ`*` | `Code Phrase` |  |
+| `*`コードフレーズ`*` | `Code Phrase` |  |
 
