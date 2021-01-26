@@ -1,15 +1,12 @@
 ---
 description: すべての設定ファイルはinstall_folder/confにあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要な場合があります。
-seo-description: すべての設定ファイルはinstall_folder/confにあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要な場合があります。
-seo-title: サーバー設定ファイル
 solution: Experience Manager
 title: サーバー設定ファイル
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ほとんどのサーバ設定ファイルには、このドキュメントでは説明していない追加のプロパティと値が含まれています。 このプロパティは内部サーバー使用に関するもので、Scene7テクニカルサポートから特に指示がない限り、変更してはなりません。
+>ほとんどのサーバ設定ファイルには、このドキュメントでは説明していない追加のプロパティと値が含まれています。 このプロパティは内部サーバーでの使用に関するもので、Dynamic Mediaのテクニカルサポートから特に指示がない限り、変更しないでください。
 
 このドキュメントでは、次の設定ファイルの設定について説明します。
 
