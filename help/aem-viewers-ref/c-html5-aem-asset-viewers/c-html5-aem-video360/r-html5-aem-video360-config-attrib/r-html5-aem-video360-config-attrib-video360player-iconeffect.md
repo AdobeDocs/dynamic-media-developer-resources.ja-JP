@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
