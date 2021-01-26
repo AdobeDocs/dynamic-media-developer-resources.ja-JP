@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.vrrender
 solution: Experience Manager
 title: Video360Player.vrrender
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 28%
