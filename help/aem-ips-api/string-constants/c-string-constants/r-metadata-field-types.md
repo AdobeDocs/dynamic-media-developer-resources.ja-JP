@@ -4,10 +4,10 @@ seo-description: MetadataField/type、saveMetadataFieldParam/fieldTypeおよびc
 seo-title: メタデータフィールドの種類
 solution: Experience Manager
 title: メタデータフィールドの種類
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
