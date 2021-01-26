@@ -4,10 +4,10 @@ seo-description: タグフィールドの辞書からタグフィールドの値
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
-source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 12%
@@ -31,9 +31,9 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
-| ` *`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
-| ` *`valueArray`*` | `types:StringArray` | はい | フィールドのディクショナリから削除するタグ値の配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
+| `*`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
+| `*`valueArray`*` | `types:StringArray` | はい | フィールドのディクショナリから削除するタグ値の配列。 |
 
 **出力(deleteTagFieldValuesParam)**
 
