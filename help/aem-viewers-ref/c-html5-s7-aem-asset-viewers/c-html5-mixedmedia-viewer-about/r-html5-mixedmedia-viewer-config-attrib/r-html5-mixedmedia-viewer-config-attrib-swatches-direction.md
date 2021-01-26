@@ -2,10 +2,10 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 56190b1e-c69a-4296-8e91-adbce0801401
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 7%
