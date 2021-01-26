@@ -2,10 +2,10 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a95d4051-7bc1-4b3f-8478-c5b7ab28fa61
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 10%
