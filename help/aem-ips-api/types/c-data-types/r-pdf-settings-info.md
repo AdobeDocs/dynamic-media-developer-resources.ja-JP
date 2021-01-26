@@ -4,10 +4,10 @@ seo-description: PDF設定ファイルアセットのプロパティ。
 seo-title: PdfSettingsInfo
 solution: Experience Manager
 title: PdfSettingsInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: abbcf82d-5b6e-4f2c-8940-88ea8651aa40
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 17%
@@ -25,7 +25,7 @@ PDF設定ファイルアセットのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | ファイルパス |
-| ` *`originalFile`*` | `xsd:string` | ファイル名。 |
-| ` *`fileSize`*` | `xsd:int` | ファイルサイズ. |
+| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalFile`*` | `xsd:string` | ファイル名。 |
+| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
 
