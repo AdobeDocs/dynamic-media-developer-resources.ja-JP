@@ -4,10 +4,10 @@ seo-description: この手順では、Linuxで初めて画像サービングを�
 seo-title: 初めてのインストール
 solution: Experience Manager
 title: 初めてのインストール
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
