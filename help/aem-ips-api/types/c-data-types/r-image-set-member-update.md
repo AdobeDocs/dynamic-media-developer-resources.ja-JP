@@ -4,10 +4,10 @@ seo-description: 'このタイプでは、pageResetフィールドは、RenderSe
 seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 3%
