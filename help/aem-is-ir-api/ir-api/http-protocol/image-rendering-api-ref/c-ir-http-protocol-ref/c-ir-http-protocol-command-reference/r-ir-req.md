@@ -4,10 +4,10 @@ seo-description: リクエストのタイプ。 要求されたデータの種�
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 4%
@@ -229,7 +229,7 @@ URLパスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td> <p> <span class="codeph"> image.pixType  </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> 「CMYK」、「RGB」または「BW」（グレースケール画像の場合）の「返信画像の種類」 </p> </td> 
+   <td> <p> 「CMYK」、「RGB」または「BW」（グレースケール画像の場合）のいずれかの返信画像タイプ </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
