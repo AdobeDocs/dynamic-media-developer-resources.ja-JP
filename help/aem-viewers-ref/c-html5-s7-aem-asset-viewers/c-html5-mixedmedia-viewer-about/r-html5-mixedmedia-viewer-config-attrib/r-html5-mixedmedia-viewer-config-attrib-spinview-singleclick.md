@@ -2,10 +2,10 @@
 description: SpinView.singleclick
 solution: Experience Manager
 title: SpinView.singleclick
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 188a4e65-a93e-46c4-89b4-02e745ecf5eb
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
