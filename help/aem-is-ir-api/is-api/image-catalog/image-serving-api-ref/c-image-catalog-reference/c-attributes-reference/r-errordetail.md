@@ -1,16 +1,13 @@
 ---
 description: エラーメッセージの詳細。 HTTP経由で返されるエラーメッセージの詳細レベルをerror.message値として指定します。
-seo-description: エラーメッセージの詳細。 HTTP経由で返されるエラーメッセージの詳細レベルをerror.message値として指定します。
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完全なデバッグ情報。 該当する場合にJavaスタックトレースを追加します。 エラーイメージにはスタックトレースが含まれず、代わりに<span class="codeph"> $error.message</span>にレベル2の情報が返されます。 この情報は、Scene7テクニカルサポートにレポートが問題を起こした場合に役立ちます。 </p></td> 
+  <td class="stentry"> <p>完全なデバッグ情報。 該当する場合にJavaスタックトレースを追加します。 エラーイメージにはスタックトレースが含まれず、代わりに<span class="codeph"> $error.message</span>にレベル2の情報が返されます。 この情報は、Dynamic Mediaのテクニカルサポートにレポートが問題を起こした場合に役立ちます。 </p></td> 
  </tr> 
 </table>
 
