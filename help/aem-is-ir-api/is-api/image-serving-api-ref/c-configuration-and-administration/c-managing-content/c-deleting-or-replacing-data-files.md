@@ -4,10 +4,10 @@ seo-description: 新しいデータファイルの追加は簡単で簡単です
 seo-title: データファイルの削除または置換
 solution: Experience Manager
 title: データファイルの削除または置換
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
