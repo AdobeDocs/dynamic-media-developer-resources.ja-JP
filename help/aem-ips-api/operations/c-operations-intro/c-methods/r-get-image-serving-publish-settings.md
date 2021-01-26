@@ -4,10 +4,10 @@ seo-description: 内部でのみ使用します。 ユーザは、「画像サ�
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -34,12 +34,12 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像サービングの公開設定を含む会社へのハンドル。 |
-| ` *`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 画像サービングの公開設定を含む会社へのハンドル。 |
+| `*`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
 
 **Output**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`publishSettingArray`*` | `xsd:string` | はい | Image Server公開設定の配列。 |
+| `*`publishSettingArray`*` | `xsd:string` | はい | Image Server公開設定の配列。 |
 
