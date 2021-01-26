@@ -4,10 +4,10 @@ seo-description: 置換変数は、要求URLの値を、イメージカタログ
 seo-title: 代替変数
 solution: Experience Manager
 title: 代替変数
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 事前定義されたパス変数{#section-930d0dd12e8f49499becc9fe8df24092}
 
-要求パスで指定された&#x200B;*`object`*&#x200B;は、事前定義の変数` *`$object`*`に割り当てられます。 &#39; ` $ *`object`*$`&#39;は、リクエスト内、リクエストが参照するテンプレート内、または`src=`と`mask=`の値、入れ子/埋め込みリクエストのパスなど、そのようなオブジェクトが許可される入れ子/埋め込みリクエスト内の任意の場所に配置できます。
+要求パスで指定された&#x200B;*`object`*&#x200B;は、事前定義の変数`*`$object`*`に割り当てられます。 &#39; ` $ *`object`*$`&#39;は、リクエスト内、リクエストが参照するテンプレート内、または`src=`と`mask=`の値、入れ子/埋め込みリクエストのパスなど、そのようなオブジェクトが許可される入れ子/埋め込みリクエスト内の任意の場所に配置できます。
 
 例えば、次のリクエストは、パスで指定された画像をネストされたリクエスト内のレイヤーのソースとして再利用します。
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-` *`$object`*`の定義は、` $ *`object`*=`を目的の値で明示的に指定することで上書きできます。
+`*`$object`*`の定義は、` $ *`object`*=`を目的の値で明示的に指定することで上書きできます。
 
 定義済みのパス変数は、通常`template=`と組み合わせて使用されます。
 
 ## 初期設定 {#section-b02483d15529444586a2e9504805b155}
 
-なし. サーバは、定義済みの変数のみを置き換えます（事前定義のパス変数$objectを除き、常に置き換えられます）。 ` $ *`var`*$`は、` *`var`*`が既存の変数定義と一致しない場合、リテラルのままです。
+なし. サーバは、定義済みの変数のみを置き換えます（事前定義のパス変数$objectを除き、常に置き換えられます）。 ` $ *`var`*$`は、`*`var`*`が既存の変数定義と一致しない場合、リテラルのままです。
 
 ## 例 {#section-fba9393df6984247b7e30b3f93992e86}
 
