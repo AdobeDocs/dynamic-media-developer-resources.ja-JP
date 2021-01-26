@@ -1,16 +1,13 @@
 ---
 description: 公開用にマークされたアセットの公開コンテキストを返します。
-seo-description: 公開用にマークされたアセットの公開コンテキストを返します。
-seo-title: batchGetAssetPublishContexts
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -48,14 +45,14 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストにクエリするアセットのリスト。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストにクエリするアセットのリスト。 |
 
 **出力(batchGetAssetPublishContextsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされる公開コンテキストの配列。 |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされる公開コンテキストの配列。 |
 
 ## 例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
