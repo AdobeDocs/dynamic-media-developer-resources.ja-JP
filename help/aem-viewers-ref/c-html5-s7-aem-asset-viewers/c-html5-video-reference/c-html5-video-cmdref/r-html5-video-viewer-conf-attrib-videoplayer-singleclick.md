@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: VideoPlayer.singleclick
 solution: Experience Manager
 title: VideoPlayer.singleclick
-topic: Dynamic media
+topic: Dynamic Media
 uuid: df669b2e-31da-4de0-b480-e54402c9545c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
