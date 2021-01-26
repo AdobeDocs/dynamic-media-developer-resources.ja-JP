@@ -4,10 +4,10 @@ seo-description: このボタンをクリックまたはタップすると、メ
 seo-title: 左スピンボタン
 solution: Experience Manager
 title: 左スピンボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
