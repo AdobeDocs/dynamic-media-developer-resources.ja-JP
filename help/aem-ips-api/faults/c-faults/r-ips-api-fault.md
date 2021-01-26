@@ -2,10 +2,10 @@
 description: ipsApiFault
 solution: Experience Manager
 title: ipsApiFault
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 010814a8-1d29-4b02-8449-cb26e4335e07
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 36%
