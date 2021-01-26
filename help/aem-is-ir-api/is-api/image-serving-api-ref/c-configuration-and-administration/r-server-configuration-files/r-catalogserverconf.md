@@ -4,10 +4,10 @@ seo-description: 画像カタログの管理に関する設定が含まれます
 seo-title: catalog-server.conf
 solution: Experience Manager
 title: catalog-server.conf
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 797a43d2-18f5-4735-8b19-da231952b1a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
