@@ -2,10 +2,10 @@
 description: ダウンロード
 solution: Experience Manager
 title: ダウンロード
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0a6c2362-6c2a-42cc-b274-377aa507a557
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
