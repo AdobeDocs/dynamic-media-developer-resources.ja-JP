@@ -4,10 +4,10 @@ seo-description: 特定の会社（ハンドルで識別）、電子メールア
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 11%
@@ -41,15 +41,15 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
-| ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
-| ` *`パスワード`*` | `xsd:string` | はい | ユーザーのパスワード。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
+| `*`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
+| `*`パスワード`*` | `xsd:string` | はい | ユーザーのパスワード。 |
 
 **出力(checkLoginParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`status`*` | `xsd:string` | はい | ユーザーのログイン状態。 |
+| `*`status`*` | `xsd:string` | はい | ユーザーのログイン状態。 |
 
 ## 例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
