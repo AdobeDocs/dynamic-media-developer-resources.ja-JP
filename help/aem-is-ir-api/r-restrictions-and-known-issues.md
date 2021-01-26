@@ -1,15 +1,15 @@
 ---
-description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
-seo-description: Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
+description: Dynamic Media画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
+seo-description: Dynamic Media画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
 seo-title: 制限事項と既知の問題
 solution: Experience Manager
 title: 制限事項と既知の問題
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 制限事項と既知の問題{#restrictions-and-known-issues}
 
-Scene7画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
+Dynamic Media画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
 
 ## ドキュメントのエラー{#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
