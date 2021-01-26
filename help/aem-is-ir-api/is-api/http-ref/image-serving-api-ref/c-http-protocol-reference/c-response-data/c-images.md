@@ -4,10 +4,10 @@ seo-description: リクエストが正常に完了し、リクエストにreq=�
 seo-title: 画像
 solution: Experience Manager
 title: 画像
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
