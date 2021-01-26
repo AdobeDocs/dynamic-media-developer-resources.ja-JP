@@ -4,10 +4,10 @@ seo-description: スケジュール済みジョブの配列。
 seo-title: ScheduledJobArray
 solution: Experience Manager
 title: ScheduledJobArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ef186476-d356-4516-b0c5-91e568e122cb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 21%
@@ -25,5 +25,5 @@ ht-degree: 21%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:ScheduledJobs` | スケジュール済みジョブの配列。 |
+| `*`商品`*` | `types:ScheduledJobs` | スケジュール済みジョブの配列。 |
 
