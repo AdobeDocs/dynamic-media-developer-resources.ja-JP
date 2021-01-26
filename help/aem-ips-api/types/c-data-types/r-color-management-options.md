@@ -4,10 +4,10 @@ seo-description: アップロード時に指定されたオプション。 ア�
 seo-title: ColorManagementOptions
 solution: Experience Manager
 title: ColorManagementOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 8%
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`colorManagement`*` | `xsd:string` | カラーマネジメントモードの選択 |
-| ` *`sourceProfileHandle`*` | `xsd:string` | ソースプロファイルハンドル |
-| ` *`outputProfileHandle`*` | `xsd:string` | 出力プロファイルハンドル |
+| `*`colorManagement`*` | `xsd:string` | カラーマネジメントモードの選択 |
+| `*`sourceProfileHandle`*` | `xsd:string` | ソースプロファイルハンドル |
+| `*`outputProfileHandle`*` | `xsd:string` | 出力プロファイルハンドル |
 
