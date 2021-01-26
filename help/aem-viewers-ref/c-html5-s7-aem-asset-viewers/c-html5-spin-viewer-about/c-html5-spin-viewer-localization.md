@@ -4,10 +4,10 @@ seo-description: スピンビューアに表示されるコンテンツには、
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic media
+topic: Dynamic Media
 uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
