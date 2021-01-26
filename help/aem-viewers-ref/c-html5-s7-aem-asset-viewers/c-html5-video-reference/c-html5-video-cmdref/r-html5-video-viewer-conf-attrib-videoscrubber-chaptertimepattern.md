@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: VideoScrubber.chaptertimepattern
 solution: Experience Manager
 title: VideoScrubber.chaptertimepattern
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 75338fa6-83ab-4cb8-babf-e958f97c1b6e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
