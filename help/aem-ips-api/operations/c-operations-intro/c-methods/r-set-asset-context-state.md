@@ -4,10 +4,10 @@ seo-description: 1つ以上のアセットの公開状態を設定または更�
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 9%
@@ -41,17 +41,17 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列です。 |
 
 **出力(setAssetsContexStateReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に変更されたアセットの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が変更を試みたときにアセットによって生成されたエラーの配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に変更されたアセットの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数です。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が変更を試みたときにアセットによって生成されたエラーの配列です。 |
 
 ## 例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
