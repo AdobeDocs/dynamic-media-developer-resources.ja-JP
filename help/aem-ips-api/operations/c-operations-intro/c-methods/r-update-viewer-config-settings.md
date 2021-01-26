@@ -4,10 +4,10 @@ seo-description: SWFビューアの設定を更新します。
 seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 13%
@@ -34,9 +34,9 @@ SWFビューアの設定を更新します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | はい | ビューアに適用する設定の配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | はい | ビューアに適用する設定の配列。 |
 
 **出力(updateViewerConfigSettingsReturn)**
 
