@@ -4,10 +4,10 @@ seo-description: 様々な入力パラメーターで使用される値を示し
 seo-title: アセットタイプ
 solution: Experience Manager
 title: アセットタイプ
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 translation-type: tm+mt
-source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 14%
