@@ -2,10 +2,10 @@
 description: closebutton
 solution: Experience Manager
 title: closebutton
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 474ee727-8afc-4f5e-9bad-0d0e5da998ef
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 22%
