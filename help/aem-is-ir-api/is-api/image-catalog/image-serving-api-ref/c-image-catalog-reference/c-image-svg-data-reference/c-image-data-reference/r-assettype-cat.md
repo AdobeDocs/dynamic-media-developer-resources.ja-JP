@@ -4,10 +4,10 @@ seo-description: アセットタイプ. カタログ画像セットに公開す�
 seo-title: AssetType
 solution: Experience Manager
 title: AssetType
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9e0d7e0-0429-4949-aafa-0ac7032fdfe5
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 14%
