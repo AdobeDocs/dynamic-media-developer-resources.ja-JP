@@ -4,10 +4,10 @@ seo-description: このボタンをクリックまたはタップすると、カ
 seo-title: 次の大きいページボタン
 solution: Experience Manager
 title: 次の大きいページボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c10edce3-ea01-4c8b-bb43-c2aafed08a39
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
