@@ -4,10 +4,10 @@ seo-description: 初期設定のレンダリングイメージサイズ リク�
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 27574811-a920-4e54-8635-5a643b8655ef
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
