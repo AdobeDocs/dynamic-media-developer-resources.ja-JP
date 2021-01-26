@@ -4,10 +4,10 @@ seo-description: 返信画像の高さ。 返信画像の高さが指定した�
 seo-title: hei
 solution: Experience Manager
 title: hei
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 `wid=`と`hei=`の両方を指定し、幅/高さが画像の縦横比と異なる場合、画像は埋め込まれません。
 
-`wid=` サーバから返される画像のサイズを定義する作業を `hei=` 一緒に行います。URL内で`scl=`が`wid=`または`hei=`の後に来る場合、&lt;a0/>はこれらのコマンドをキャンセルし、`scl=`はサーバーから返される画像のサイズを定義します。
+`wid=` サーバから返される画像のサイズを定義する作業を `hei=` 一緒に行います。URL内で`scl=`が`wid=`または`hei=`の後に来る場合、はこれらのコマンドをキャンセルし、`scl=`はサーバーから返される画像のサイズを定義します。
 
 ただし、URL内で`wid=`または`hei=`が`scl=`の後に来る場合、`scl=`と`wid=`/ `hei=`はキャンセルされ、サーバから返される画像のサイズを定義します。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-6cbc6acd37c847beab84c896ac25280c}
 
-リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`、または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`や`hei=`の後に&lt;a0/>がある場合は無視されます。`wid=`
+リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`、または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`や`hei=`の後に`wid=`がある場合は無視されます。
 
 ## 初期設定 {#section-61043f6c1f5d450883ff9e5eafd95955}
 
