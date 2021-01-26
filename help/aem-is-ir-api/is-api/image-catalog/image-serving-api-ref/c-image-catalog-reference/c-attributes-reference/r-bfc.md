@@ -4,10 +4,10 @@ seo-description: ブラウザーフォーマットの変換を参照してくだ
 seo-title: Bfc
 solution: Experience Manager
 title: Bfc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea27f001-6d7d-4df4-b88c-60859a92e096
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 1%
