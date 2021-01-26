@@ -4,10 +4,10 @@ seo-description: 渡されたパラメーターに基づいて、2つの異な�
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 8%
@@ -39,18 +39,18 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`コードフレーズ`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`コードフレーズ`*` | `xsd:string` | いいえ | その世代で使用されたエンジン。 フォントスタイルを参照してください。 |
-| ` *`コードフレーズ`*` | `xsd:string` | いいえ | 生成されたアセットのクエリに対するアセットのハンドル。 |
-| ` *`コードフレーズ`*` | `xsd:string` | いいえ | アセットの生成に使用されるアセットとエンジンに対するクエリに対するアセットのハンドル。 |
-| ` *`コードフレーズ`*` | `xsd:StringArray` | いいえ | 操作に含まれるプロパティ。 |
-| ` *`コードフレーズ`*` | `xsd:StringArray` | いいえ | 操作から除外されるプロパティ。 |
+| `*`コードフレーズ`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`コードフレーズ`*` | `xsd:string` | いいえ | その世代で使用されたエンジン。 フォントスタイルを参照してください。 |
+| `*`コードフレーズ`*` | `xsd:string` | いいえ | 生成されたアセットのクエリに対するアセットのハンドル。 |
+| `*`コードフレーズ`*` | `xsd:string` | いいえ | アセットの生成に使用されるアセットとエンジンに対するクエリに対するアセットのハンドル。 |
+| `*`コードフレーズ`*` | `xsd:StringArray` | いいえ | 操作に含まれるプロパティ。 |
+| `*`コードフレーズ`*` | `xsd:StringArray` | いいえ | 操作から除外されるプロパティ。 |
 
 **出力(getGenerationInfoReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | はい | 生成情報の配列。 |
+| `*`generationArray`*` | `types:GenerationInfoArray` | はい | 生成情報の配列。 |
 
 ## 例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
