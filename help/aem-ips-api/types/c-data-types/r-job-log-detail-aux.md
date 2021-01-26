@@ -4,10 +4,10 @@ seo-description: メインジョブログメッセージ(JobDetail)に関連付�
 seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`logMessage`*` | `xsd:string` | 補助メッセージ。 |
-| ` *`logType`*` | `xsd:string` | ログの種類：`IPSJobLog.gcUploadWarning`または`IPSJobLog.gcUploadError`。 |
-| ` *`dateCreated`*` | `xsd:dateTime` | 補助的なジョブログ作成日。 |
+| `*`logMessage`*` | `xsd:string` | 補助メッセージ。 |
+| `*`logType`*` | `xsd:string` | ログの種類：`IPSJobLog.gcUploadWarning`または`IPSJobLog.gcUploadError`。 |
+| `*`dateCreated`*` | `xsd:dateTime` | 補助的なジョブログ作成日。 |
 
