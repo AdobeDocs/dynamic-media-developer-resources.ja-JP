@@ -7,7 +7,7 @@ title: 画像マップのサポート
 topic: Dynamic media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -53,7 +53,7 @@ eCatalog検索ビューアでは、メイン表示の上にある画像マップ
 
 ` href=target: *`idx`*`
 
-` *`idx`*`は、カタログ見開きの0を基準とするインデックスです。
+`*`idx`*`は、カタログ見開きの0を基準とするインデックスです。
 
 eCatalog内の3D見開きを指す画像マップの`href`属性の例を次に示します。
 
