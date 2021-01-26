@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6cc91f08-fff1-4b93-9807-5435335c8df5
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 13%
