@@ -4,12 +4,12 @@ seo-description: Image Serverの設定が含まれます。
 seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Image Serverの設定が含まれます。
 
 このXMLファイルを変更する場合は、有効なXML構文を維持するように注意する必要があります。そうしないと、Image Serverで開始が失敗する場合があります。
 
-変更を有効にするには、このファイルを編集した後でImage Serverを再起動します。 変更できるのは、次に示す要素の値のみです。 このファイルの他の内容は、Scene7テクニカルサポートの指示に従う場合にのみ編集してください。
+変更を有効にするには、このファイルを編集した後でImage Serverを再起動します。 変更できるのは、次に示す要素の値のみです。 このファイルの他の内容は、Dynamic Mediaテクニカルサポートの指示に従う場合にのみ編集してください。
 
 >[!NOTE]
 >
