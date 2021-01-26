@@ -4,10 +4,10 @@ seo-description: これらのコマンドは、ビネットグループ、オブ
 seo-title: 選択コマンド
 solution: Experience Manager
 title: 選択コマンド
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
