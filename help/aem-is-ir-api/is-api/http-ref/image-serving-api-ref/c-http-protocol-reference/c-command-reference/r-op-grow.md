@@ -4,10 +4,10 @@ seo-description: 画像をディレート/エロードします。 画像デー�
 seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-` *`合成画像を基準としたピクセル単位の`*` 半径。画像がカラーの場合、各コンポーネントは独立して処理されます。
+`*`合成画像を基準としたピクセル単位の`*` 半径。画像がカラーの場合、各コンポーネントは独立して処理されます。
 
 主に、レイヤー効果のサイズを変更するために使用します。 また、テキストレイヤーやマスク付きべた塗りレイヤーに特殊効果を適用する場合にも便利です。
 
