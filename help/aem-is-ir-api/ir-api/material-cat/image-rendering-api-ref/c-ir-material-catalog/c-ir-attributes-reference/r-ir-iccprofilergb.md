@@ -4,10 +4,10 @@ seo-description: RGB初期設定の出力カラープロファイル icc=で出�
 seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fe63607-c328-468a-aa55-0c4d16cf9f0f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%
