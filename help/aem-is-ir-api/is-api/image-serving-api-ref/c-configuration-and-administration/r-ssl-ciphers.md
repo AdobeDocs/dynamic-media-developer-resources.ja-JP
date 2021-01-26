@@ -4,10 +4,10 @@ seo-description: server.xmlのConnectorタグでは、SSL接続用に選択で�
 seo-title: SSL暗号の定義
 solution: Experience Manager
 title: SSL暗号の定義
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
