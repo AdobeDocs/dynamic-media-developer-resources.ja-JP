@@ -4,10 +4,10 @@ seo-description: すべてのビューアコンポーネントは、ARIA(Accessi
 seo-title: 支援テクノロジーのサポート
 solution: Experience Manager
 title: 支援テクノロジーのサポート
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8565383e-5c13-4af0-9b6e-2d583c18f19c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
