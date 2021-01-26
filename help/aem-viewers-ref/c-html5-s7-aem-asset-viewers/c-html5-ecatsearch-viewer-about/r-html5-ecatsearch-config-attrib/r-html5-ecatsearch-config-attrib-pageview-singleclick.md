@@ -2,10 +2,10 @@
 description: PageView.singleclick
 solution: Experience Manager
 title: PageView.singleclick
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b08b605e-5ffc-42cc-931d-d67750a8dca8
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
