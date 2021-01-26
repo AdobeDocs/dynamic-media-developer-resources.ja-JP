@@ -4,10 +4,10 @@ seo-description: カルーセルビューアは、ズーム可能でないバナ
 seo-title: カルーセル
 solution: Experience Manager
 title: カルーセル
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1978'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ビューアでは、バナー画像の上にホットスポットや領域をレンダリングして、製品のインタラクティブ領域を示すことができます。
 
-ホットスポットまたは領域をクリックまたはタップすると、オーサリング時にそのホットスポットに関連付けられたアクションがトリガーされます。 アクションは、Webサイト上の別のページにリダイレクトされる場合や、製品情報をWebページロジックに渡す場合があります。その場合、関連する製品コンテンツと共にクイックビューがトリガーされます。
+ホットスポットまたは領域をクリックまたはタップすると、オーサリング時にそのホットスポットに関連付けられたアクションがトリガーされます。 アクションは、Webサイト上の別のページにリダイレクトされる場合や、製品情報をWebページのロジックに渡す場合があります。また、Webページのロジックから、関連する製品コンテンツとクイックビューをトリガーできます。
 
 ビューアは完全にキーボードでアクセスできます。
 
