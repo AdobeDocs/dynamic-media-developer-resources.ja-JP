@@ -4,10 +4,10 @@ seo-description: ビデオビューアのJavaScript APIリファレンス
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a2b073ab-d8a7-43cc-9cc8-80dd05a386f0
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 1%
