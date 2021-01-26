@@ -4,10 +4,10 @@ seo-description: 1つ以上のアセットのサムネール画像を設定し�
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 13%
@@ -50,18 +50,18 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットを含む会社へのハンドル。 |
-| ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | はい | 更新の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセットを含む会社へのハンドル。 |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | はい | 更新の配列です。 |
 
 **出力(batchSetThumbAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数です。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数です。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成されたエラーの数です。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-6de69a8680c24c1486c5f01488393381}
 
