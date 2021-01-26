@@ -4,10 +4,10 @@ seo-description: ビューアが再生開始の前にビデオコンテンツの
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d080465d-7349-4671-aaa4-c49e549d1f64
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
