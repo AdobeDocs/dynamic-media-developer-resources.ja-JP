@@ -4,10 +4,10 @@ seo-description: 画像の拡大・縮小 最大解像度の画像を基準に�
 seo-title: scale
 solution: Experience Manager
 title: scale
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 5%
