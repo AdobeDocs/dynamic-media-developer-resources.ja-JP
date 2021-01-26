@@ -4,10 +4,10 @@ seo-description: サムネールの種類 この画像のサムネールの生�
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b737b5a4-ad6d-4a9c-b48f-81cf170dd210
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
