@@ -2,10 +2,10 @@
 description: CompanyMembershipArray
 solution: Experience Manager
 title: CompanyMembershipArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa0a9171-d5bc-4a6f-a1c5-7b4f26531901
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '9'
 ht-degree: 66%
@@ -21,5 +21,5 @@ ht-degree: 66%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:CompanyMembership` |  |
+| `*`商品`*` | `types:CompanyMembership` |  |
 
