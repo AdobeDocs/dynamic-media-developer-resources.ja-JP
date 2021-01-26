@@ -4,10 +4,10 @@ seo-description: ビューアはフルスクリーン操作モードをサポー
 seo-title: フルスクリーンのサポート
 solution: Experience Manager
 title: フルスクリーンのサポート
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 30bc2a4a-35ef-4047-88b6-0250b3e3139b
 translation-type: tm+mt
-source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
