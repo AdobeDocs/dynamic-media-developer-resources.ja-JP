@@ -4,10 +4,10 @@ seo-description: 会社、グループ、およびユーザーの役割ハンド
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -29,22 +29,22 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
-| ` *`includeInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含める/除外できます。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社で結果をフィルターします。 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | いいえ | 結果をグループでフィルターします。 |
-| ` *`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割で結果をフィルターします。 |
-| ` *`charFilterField`*` | `xsd:string` | いいえ | フィールドの文字列プレフィックスで結果をフィルタします（[!DNL Trash State).]を参照） |
-| ` *`charFilter`*` | `xsd:string` | いいえ | 特定の文字で結果をフィルタリングします。 |
-| ` *`sortBy`*` | `xsd:string` | いいえ | ユーザーによる並べ替えフィールドの選択 |
-| ` *`recordsPerPage`*` | `xsd:int` | いいえ | 1ページに指定した数のレコードを返します。 |
-| ` *`resultsPage`*` | `xsd:int` | いいえ | 結果ページ |
+| `*`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
+| `*`includeInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含める/除外できます。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社で結果をフィルターします。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | 結果をグループでフィルターします。 |
+| `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割で結果をフィルターします。 |
+| `*`charFilterField`*` | `xsd:string` | いいえ | フィールドの文字列プレフィックスで結果をフィルタします（[!DNL Trash State).]を参照） |
+| `*`charFilter`*` | `xsd:string` | いいえ | 特定の文字で結果をフィルタリングします。 |
+| `*`sortBy`*` | `xsd:string` | いいえ | ユーザーによる並べ替えフィールドの選択 |
+| `*`recordsPerPage`*` | `xsd:int` | いいえ | 1ページに指定した数のレコードを返します。 |
+| `*`resultsPage`*` | `xsd:int` | いいえ | 結果ページ |
 
 **Output (getUsersReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | はい | 一連のユーザー。 |
+| `*`userArray`*` | `types:UserArray` | はい | 一連のユーザー。 |
 
 ## 例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
