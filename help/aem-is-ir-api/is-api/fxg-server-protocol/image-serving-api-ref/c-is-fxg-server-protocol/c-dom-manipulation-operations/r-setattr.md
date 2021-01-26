@@ -4,10 +4,10 @@ seo-description: 指定したs7 elementIDの任意の属性を設定します。
 seo-title: setAttr
 solution: Experience Manager
 title: setAttr
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 968f7496-3cd4-4670-96fc-53127bba9a83
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
