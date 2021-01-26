@@ -4,10 +4,10 @@ seo-description: フォルダを作成します。
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 20%
@@ -44,14 +44,14 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社のハンドル |
-| ` *`folderPath`*` | `xsd:string` | はい | リーフレベルのフォルダーとすべてのサブフォルダーを取得するために使用するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社のハンドル |
+| `*`folderPath`*` | `xsd:string` | はい | リーフレベルのフォルダーとすべてのサブフォルダーを取得するために使用するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
 
 **出力(createFolderParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | はい | 新しいフォルダーのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 新しいフォルダーのハンドル。 |
 
 ## 例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
