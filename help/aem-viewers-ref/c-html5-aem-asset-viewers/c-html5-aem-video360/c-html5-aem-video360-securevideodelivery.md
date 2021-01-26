@@ -2,10 +2,10 @@
 description: HTTPSビデオ配信
 solution: Experience Manager
 title: HTTPSビデオ配信
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 68984ba1-2802-496a-8ad0-ba46b59514ad
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
