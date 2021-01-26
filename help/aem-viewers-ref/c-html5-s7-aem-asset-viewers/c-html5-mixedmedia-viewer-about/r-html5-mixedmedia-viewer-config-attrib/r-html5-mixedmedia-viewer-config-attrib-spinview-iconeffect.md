@@ -2,10 +2,10 @@
 description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f568a98d-1b34-4a85-bd2f-e67a34b3a3e9
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 5%
