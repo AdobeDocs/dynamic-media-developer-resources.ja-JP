@@ -4,12 +4,12 @@ seo-description: 背景色. カラー付け可能なテクスチャとデカー�
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 イメージレンダリングのテクスチャの色彩化アルゴリズムは非常に単純です。テクスチャピクセルの成分値から`bgc=`の成分値が減算され、`color=`が加算され、最後に`0,0,0`と`255,255,255`にクリップされます。
 
-テクスチャの色彩付けを一般的に使用する場合、`bgc=`の値は、テクスチャイメージ内で最も重要または主要な色になります。 Scene7イメージオーサリングは、テクスチャイメージから適切な`bgc=`色の値を抽出する半自動ツールを提供します。
+テクスチャの色彩付けを一般的に使用する場合、`bgc=`の値は、テクスチャイメージ内で最も重要または主要な色になります。 Dynamic Mediaイメージオーサリングは、テクスチャイメージから適切な`bgc=`色の値を抽出する半自動ツールを提供します。
 
 テクスチャマテリアルがテクスチャ不可能なビネットオブジェクトに適用されている場合、`color=`が指定されていないと、`bgc=`が前景色として適用されます。
 
