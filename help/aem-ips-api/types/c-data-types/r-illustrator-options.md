@@ -4,10 +4,10 @@ seo-description: Adobe Illustratorファイルのオプション。
 seo-title: IllustratorOptions
 solution: Experience Manager
 title: IllustratorOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 87b38464-33db-4512-aa16-607b96a40673
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 10%
@@ -25,8 +25,8 @@ Adobe Illustratorファイルのオプション。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`プロセス`*` | `xsd:string` | Illustratorプロセスの選択。 |
-| ` *`resolution`*` | `xsd:string` | ファイルの解像度。 |
-| ` *`colorSpace`*` | `xsd:string` | ターゲットのカラースペース |
-| ` *`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうかを指定します。 透明な背景を作成する場合は、元のファイルがこのように定義されていて、オーバーレイロゴを作成する場合に使用します。 |
+| `*`プロセス`*` | `xsd:string` | Illustratorプロセスの選択。 |
+| `*`resolution`*` | `xsd:string` | ファイルの解像度。 |
+| `*`colorSpace`*` | `xsd:string` | ターゲットのカラースペース |
+| `*`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうかを指定します。 透明な背景を作成する場合は、元のファイルがこのように定義されていて、オーバーレイロゴを作成する場合に使用します。 |
 
