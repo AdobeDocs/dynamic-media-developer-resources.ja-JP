@@ -4,10 +4,10 @@ seo-description: 優先度アラートは、Javaのガベージ収集サイク�
 seo-title: ヒープ領域の優先度の警告
 solution: Experience Manager
 title: ヒープ領域の優先度の警告
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
