@@ -2,10 +2,10 @@
 description: ZoomView.singleclick
 solution: Experience Manager
 title: ZoomView.singleclick
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 42327f03-269b-4d4e-a35d-2537ca3ba071
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
