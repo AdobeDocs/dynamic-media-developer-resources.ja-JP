@@ -2,10 +2,10 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 748adb73-bfb6-4fce-aa6a-4216184edabb
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
