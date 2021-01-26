@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアのJavaScript APIリファレンス
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e6c8afb3-576a-4536-a7a0-416a21de85dc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 3%
