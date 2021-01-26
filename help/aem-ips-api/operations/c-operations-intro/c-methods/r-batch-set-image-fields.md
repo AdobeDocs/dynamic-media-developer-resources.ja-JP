@@ -4,10 +4,10 @@ seo-description: 1つ以上の画像アセットに対して、画像固有の�
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 9%
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像アセットを含む会社へのハンドル。 |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | はい | 画像フィールドの配列が更新されます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 画像アセットを含む会社へのハンドル。 |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | はい | 画像フィールドの配列が更新されます。 |
 
 **出力(batchSetImageFields)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定された画像フィールドの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成されたエラーの数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定された画像フィールドの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作が画像フィールドの設定を試行したときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
