@@ -2,10 +2,10 @@
 description: 有効期限
 solution: Experience Manager
 title: 有効期限
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f51e45fc-fcea-4df6-8c47-e772a1b70a3a
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
