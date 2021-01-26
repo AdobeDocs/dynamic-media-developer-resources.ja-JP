@@ -4,10 +4,10 @@ seo-description: アセットに対するアクセス、変更、作成または
 seo-title: 権限
 solution: Experience Manager
 title: 権限
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -25,9 +25,9 @@ ht-degree: 7%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | グループハンドル |
-| ` *`groupName`*` | `xsd:string` | グループ名。 |
-| ` *`permissionType`*` | `xsd:string` | 権限の種類の選択。 |
-| ` *`isAllowed`*` | `xsd:boolean` | 権限を許可するかどうかを指定します。 |
-| ` *`isOverride`*` | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |
+| `*`groupHandle`*` | `xsd:string` | グループハンドル |
+| `*`groupName`*` | `xsd:string` | グループ名。 |
+| `*`permissionType`*` | `xsd:string` | 権限の種類の選択。 |
+| `*`isAllowed`*` | `xsd:boolean` | 権限を許可するかどうかを指定します。 |
+| `*`isOverride`*` | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |
 
