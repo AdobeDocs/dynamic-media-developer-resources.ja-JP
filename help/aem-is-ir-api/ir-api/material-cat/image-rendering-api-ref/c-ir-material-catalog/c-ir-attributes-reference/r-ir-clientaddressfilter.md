@@ -4,10 +4,10 @@ seo-description: クライアントIPアドレスフィルタ。 1つ以上のIP
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
