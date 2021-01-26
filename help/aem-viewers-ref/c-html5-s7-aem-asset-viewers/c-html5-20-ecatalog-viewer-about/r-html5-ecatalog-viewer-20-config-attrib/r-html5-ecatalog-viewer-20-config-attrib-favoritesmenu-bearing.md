@@ -4,10 +4,10 @@ seo-description: ボタンコンテナのスライドアニメーションの方
 seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-topic: Dynamic media
+topic: Dynamic Media
 uuid: badc02ef-2724-41bb-9b00-c65966be8577
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 2%
