@@ -1,15 +1,15 @@
 ---
-description: Linux上のScene7画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-description: Linux上のScene7画像サービングをアップグレードする場合は、次の手順を実行します。
+description: Linux上のDynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
+seo-description: Linux上のDynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
 seo-title: IS 4.7.4以降からの更新
 solution: Experience Manager
 title: IS 4.7.4以降からの更新
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # IS 4.7.4以降からの更新{#updating-from-is-or-later}
 
-Linux上のScene7画像サービングをアップグレードする場合は、次の手順を実行します。
+Linux上のDynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
 
 古いバージョンの画像サービングからアップグレードする場合は、適切なプロセスについてサポートにお問い合わせください。
 
