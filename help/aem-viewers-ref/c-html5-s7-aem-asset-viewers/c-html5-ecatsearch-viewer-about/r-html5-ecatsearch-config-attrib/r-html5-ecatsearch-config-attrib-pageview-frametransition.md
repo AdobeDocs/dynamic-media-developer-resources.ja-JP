@@ -2,10 +2,10 @@
 description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 12595a89-bad5-4224-aeff-52ce6bb615ee
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 5%
