@@ -4,10 +4,10 @@ seo-description: 「お気に入りを削除」ボタンの位置は、お気に
 seo-title: お気に入りを削除ボタン
 solution: Experience Manager
 title: お気に入りを削除ボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
