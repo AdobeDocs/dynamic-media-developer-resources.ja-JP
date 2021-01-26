@@ -4,10 +4,10 @@ seo-description: 送信されたジョブの出力を取得します。
 seo-title: batchjobgetoutput
 solution: Experience Manager
 title: batchjobgetoutput
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c2d49cc2-3223-4f0f-8ba7-4f74a5f76789
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 1%
