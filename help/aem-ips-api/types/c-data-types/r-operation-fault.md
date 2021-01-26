@@ -4,10 +4,10 @@ seo-description: CDN無効化リクエストで提供されるURLに応答する
 seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 9%
@@ -27,6 +27,6 @@ CDN無効化リクエストで提供されるURLに応答する詳細メッセ�
 
 | ** 名前** | ** 種類** | ** 説明** |
 |---|---|---|
-| ` *`コード`*` | `xsd:int` | CDNから提供されるエラーコード |
-| ` *`理由`*` | `xsd:string` | CDNから返されたエラーメッセージ |
+| `*`コード`*` | `xsd:int` | CDNから提供されるエラーコード |
+| `*`理由`*` | `xsd:string` | CDNから返されたエラーメッセージ |
 
