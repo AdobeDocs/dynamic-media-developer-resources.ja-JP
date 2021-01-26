@@ -2,10 +2,9 @@
 description: 変更ログ
 solution: Experience Manager
 title: 変更ログ
-topic: Scene7 Image Production System API
-uuid: 0aea43c5-7971-4c1b-8636-008750294e07
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '13'
 ht-degree: 0%
