@@ -4,10 +4,10 @@ seo-description: このボタンをクリックまたはタップすると、カ
 seo-title: 最後のページボタン
 solution: Experience Manager
 title: 最後のページボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
