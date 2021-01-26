@@ -4,10 +4,10 @@ seo-description: 再生/一時停止ボタンは、ユーザがクリックし�
 seo-title: 再生/一時停止ボタン
 solution: Experience Manager
 title: 再生/一時停止ボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a02499da-e2d9-465f-b198-4b2221f3502b
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
