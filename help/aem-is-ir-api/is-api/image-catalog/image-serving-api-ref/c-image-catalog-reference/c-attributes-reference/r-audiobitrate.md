@@ -4,10 +4,10 @@ seo-description: オーディオビットレート. ビデオアセットのオ�
 seo-title: AudioBitRate
 solution: Experience Manager
 title: AudioBitRate
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cdcfd6b9-e0ce-4a00-b80b-4bfc4fad4b9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 17%
