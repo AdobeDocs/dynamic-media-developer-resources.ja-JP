@@ -4,10 +4,10 @@ seo-description: setAssetMetadataで使用される特定のアセットのメ�
 seo-title: MetadataUpdate
 solution: Experience Manager
 title: MetadataUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
