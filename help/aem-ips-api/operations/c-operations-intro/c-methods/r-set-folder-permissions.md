@@ -4,10 +4,10 @@ seo-description: フォルダの権限を設定します。
 seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 14%
@@ -33,10 +33,10 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
-| ` *`setChildren`*` | `xsd:boolean` | はい | フォルダーに属する子に権限を設定します。 |
-| ` *`permissionArray`*` | `types:PermissionUpdateArray` | はい | 権限配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
+| `*`setChildren`*` | `xsd:boolean` | はい | フォルダーに属する子に権限を設定します。 |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | はい | 権限配列。 |
 
 **出力(setFolderPermissionsReturn)**
 
