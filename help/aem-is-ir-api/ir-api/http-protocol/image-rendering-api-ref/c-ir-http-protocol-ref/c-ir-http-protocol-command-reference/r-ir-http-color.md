@@ -4,10 +4,10 @@ seo-description: 前景色. べた塗りマテリアルのカラー、または�
 seo-title: color
 solution: Experience Manager
 title: color
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 15%
