@@ -4,10 +4,10 @@ seo-description: 指定した条件に基づいてアセットを検索します
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 7%
@@ -240,8 +240,8 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | いいえ | ページあたりのレコード数に制限がない場合に検索で返される行数。 |
-| ` *`assetArray`*` | `types:AssetArray` | いいえ | 検索で返されるアセット。 |
+| `*`totalRows`*` | `xsd:int` | いいえ | ページあたりのレコード数に制限がない場合に検索で返される行数。 |
+| `*`assetArray`*` | `types:AssetArray` | いいえ | 検索で返されるアセット。 |
 
 ## 例 {#section-725484cc09b54772a838ad2cc930b94b}
 
