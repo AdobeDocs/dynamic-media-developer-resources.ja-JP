@@ -2,10 +2,10 @@
 description: 文字列定数
 solution: Experience Manager
 title: 文字列定数
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 7%
