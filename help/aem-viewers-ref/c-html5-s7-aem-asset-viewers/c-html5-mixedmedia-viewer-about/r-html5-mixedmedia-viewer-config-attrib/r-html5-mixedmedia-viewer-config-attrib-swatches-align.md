@@ -2,10 +2,10 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 272e4416-4b2f-4f6e-bb04-584d3aad29f2
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
