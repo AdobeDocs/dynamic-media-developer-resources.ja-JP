@@ -4,10 +4,10 @@ seo-description: メタデータの更新の配列。
 seo-title: MetadataUpdateArray
 solution: Experience Manager
 title: MetadataUpdateArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2d79e7a0-b8bd-4746-a5d7-b742913ebc20
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '28'
 ht-degree: 21%
@@ -25,5 +25,5 @@ ht-degree: 21%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`商品`*` | `types:MetadataUpdate` | メタデータの更新の配列。 |
+| `*`商品`*` | `types:MetadataUpdate` | メタデータの更新の配列。 |
 
