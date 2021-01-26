@@ -4,10 +4,10 @@ seo-description: 新しい画像マップを作成するか、既存のマップ
 seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 8%
@@ -109,7 +109,7 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`imageMapHandle`*` | `xsd:string` | はい | 新しいまたは編集した画像マップのハンドル。 |
+| `*`imageMapHandle`*` | `xsd:string` | はい | 新しいまたは編集した画像マップのハンドル。 |
 
 ## 例 {#section-fdac488b640f427c8aa3d549c5032851}
 
