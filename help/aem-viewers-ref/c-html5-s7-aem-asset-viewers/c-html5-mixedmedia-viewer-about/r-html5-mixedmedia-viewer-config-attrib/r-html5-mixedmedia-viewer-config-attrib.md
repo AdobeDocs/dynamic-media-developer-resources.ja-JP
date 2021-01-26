@@ -4,10 +4,10 @@ seo-description: 混在メディアビューアの設定属性ドキュメント
 seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c0f09a05-f024-4cf0-a65f-0bfee015f635
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
