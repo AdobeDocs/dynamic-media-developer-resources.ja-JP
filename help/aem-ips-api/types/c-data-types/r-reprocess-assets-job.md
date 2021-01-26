@@ -4,10 +4,10 @@ seo-description: PDFのリッピングや画像の最適化など、以前にア
 seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 2%
