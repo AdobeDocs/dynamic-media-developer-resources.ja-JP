@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 5%
