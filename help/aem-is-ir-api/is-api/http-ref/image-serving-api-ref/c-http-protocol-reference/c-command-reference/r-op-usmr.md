@@ -4,10 +4,10 @@ seo-description: アンシャープマスク layer=compの場合、すべての�
 seo-title: op_usmR
 solution: Experience Manager
 title: op_usmR
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98afd83c-097e-40b4-b0a6-647f70b95fae
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
