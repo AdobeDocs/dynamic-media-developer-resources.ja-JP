@@ -2,10 +2,10 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5b15b367-a643-4a4a-9ed5-91c1da3169be
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 14%
