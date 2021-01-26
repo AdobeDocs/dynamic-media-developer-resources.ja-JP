@@ -4,10 +4,10 @@ seo-description: IPSのごみ箱からアセットを削除します。
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ IPSのごみ箱からアセットを削除します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットを所有する会社へのハンドル。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | はい | ごみ箱から空にする項目を表すハンドルの配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセットを所有する会社へのハンドル。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | はい | ごみ箱から空にする項目を表すハンドルの配列です。 |
 
 **出力(emptyAssetsFromTrashParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | はい | ごみ箱から正常に空にされたアセットの数です。 |
-| ` *`warningCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成される警告の数です。 |
-| ` *`errorCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でごみ箱から削除しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でアセットをごみ箱から削除しようとしたときにエラーが発生した、アセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:Int` | はい | ごみ箱から正常に空にされたアセットの数です。 |
+| `*`warningCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成される警告の数です。 |
+| `*`errorCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成されたエラーの数です。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でごみ箱から削除しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でアセットをごみ箱から削除しようとしたときにエラーが発生した、アセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
