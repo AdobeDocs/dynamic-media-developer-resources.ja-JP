@@ -4,10 +4,10 @@ seo-description: 最終変更応答ヘッダーを有効にする。 画像サ�
 seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9dae4f15-4323-4f68-917f-6d72ae52c753
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
