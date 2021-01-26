@@ -2,10 +2,10 @@
 description: スワットバーレイ
 solution: Experience Manager
 title: スワットバーレイ
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2226a368-5db5-42a1-94be-b219560e3891
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 8%
