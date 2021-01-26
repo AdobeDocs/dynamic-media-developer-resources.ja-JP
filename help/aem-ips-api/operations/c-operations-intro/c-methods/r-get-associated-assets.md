@@ -4,10 +4,10 @@ seo-description: 指定したアセットに関連付けられたアセットと
 seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 7%
