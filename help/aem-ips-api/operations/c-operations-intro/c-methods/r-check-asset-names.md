@@ -4,10 +4,10 @@ seo-description: アセット名と会社の画像サービング/画像レン�
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 10%
@@ -38,14 +38,14 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
-| ` *`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
+| `*`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列です。 |
 
 **出力(checkAssetNamesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`inUseNameArray`*` | `types:StringArray` | はい | 使用中のアセット名の配列。 |
+| `*`inUseNameArray`*` | `types:StringArray` | はい | 使用中のアセット名の配列。 |
 
 ## 例 {#section-bc5d120d74614a63a425ca3acc337219}
 
