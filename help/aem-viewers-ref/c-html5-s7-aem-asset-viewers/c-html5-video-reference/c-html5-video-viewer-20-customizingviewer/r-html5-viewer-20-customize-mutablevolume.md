@@ -4,10 +4,10 @@ seo-description: ミュート可能ボリュームコントロールは、最初
 seo-title: ミュート可能ボリューム
 solution: Experience Manager
 title: ミュート可能ボリューム
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 2%
