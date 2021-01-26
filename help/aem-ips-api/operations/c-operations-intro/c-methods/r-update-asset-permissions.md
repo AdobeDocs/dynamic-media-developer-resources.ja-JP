@@ -4,10 +4,10 @@ seo-description: アセットの権限を更新します。
 seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 22%
@@ -33,9 +33,9 @@ ht-degree: 22%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
 
 **Output (updateAssetPermissionsReturn)**
 
