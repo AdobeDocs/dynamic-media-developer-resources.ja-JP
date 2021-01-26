@@ -4,10 +4,10 @@ seo-description: 解像度. 「現実の」画像解像度。通常はピクセ�
 seo-title: 解像度
 solution: Experience Manager
 title: 解像度
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 8%
