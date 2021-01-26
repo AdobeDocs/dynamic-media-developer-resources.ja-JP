@@ -4,10 +4,10 @@ seo-description: アセットのメタデータ値を設定します。 メタ�
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 9%
@@ -40,9 +40,9 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 更新するアセットを含む会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
-| ` *`updateArray`*` | `types:MetadataUpdateArray` | はい | メタデータ更新配列の更新。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 更新するアセットを含む会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | はい | メタデータ更新配列の更新。 |
 
 **出力(setAssetMetadataReturn)**
 
