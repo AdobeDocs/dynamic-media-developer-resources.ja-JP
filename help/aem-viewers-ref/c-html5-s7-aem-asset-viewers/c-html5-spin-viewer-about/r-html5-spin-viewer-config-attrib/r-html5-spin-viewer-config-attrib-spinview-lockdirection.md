@@ -2,10 +2,10 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-topic: Dynamic media
+topic: Dynamic Media
 uuid: adea34ca-adbe-465e-8991-f39a7a81d611
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 4%
