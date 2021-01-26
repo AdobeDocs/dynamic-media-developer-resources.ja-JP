@@ -4,10 +4,10 @@ seo-description: メイン表示領域はビデオで占められます。 サ�
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f395b22d-55b8-4422-9aa4-9dd4b7a24063
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 2%
