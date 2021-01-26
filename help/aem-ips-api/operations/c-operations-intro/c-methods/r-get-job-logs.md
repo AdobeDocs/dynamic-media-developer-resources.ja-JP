@@ -4,10 +4,10 @@ seo-description: 選択した会社の指定したジョブログを取得しま
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 10%
@@ -39,19 +39,19 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | 会社ハンドル。 |
-| ` *`userHandle`*` | `xsd:string` | いいえ | 特定のユーザーが送信したジョブのログを取得します。 |
-| ` *`sortBy`*` | `xsd:string` | いいえ | フィールドの並べ替えを選択できます。 |
-| ` *`sortDirection`*` | `xsd:string` | いいえ | 並べ替え順（昇順または降順） |
-| ` *`startDate`*` | `xsd:dateTime` | いいえ | ジョブログの開始の日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
-| ` *`endDate`*` | `xsd:dateTime` | いいえ | ジョブログが終了した日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
-| ` *`numRows`*` | `xsd:int` | いいえ | 返す行の最大数。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社ハンドル。 |
+| `*`userHandle`*` | `xsd:string` | いいえ | 特定のユーザーが送信したジョブのログを取得します。 |
+| `*`sortBy`*` | `xsd:string` | いいえ | フィールドの並べ替えを選択できます。 |
+| `*`sortDirection`*` | `xsd:string` | いいえ | 並べ替え順（昇順または降順） |
+| `*`startDate`*` | `xsd:dateTime` | いいえ | ジョブログの開始の日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
+| `*`endDate`*` | `xsd:dateTime` | いいえ | ジョブログが終了した日時。 このフィールドに対する要求でタイムゾーンを指定します。 |
+| `*`numRows`*` | `xsd:int` | いいえ | 返す行の最大数。 |
 
 **出力(getJobLogsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | はい | ジョブログの配列。 |
+| `*`jobLogArray`*` | `types: JobLogArray` | はい | ジョブログの配列。 |
 
 ## 例 {#section-35871c94b4a44559912577efddbc46a6}
 
