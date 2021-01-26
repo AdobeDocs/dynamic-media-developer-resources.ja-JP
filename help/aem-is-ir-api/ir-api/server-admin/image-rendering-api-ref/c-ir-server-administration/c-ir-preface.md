@@ -1,15 +1,15 @@
 ---
-description: このドキュメントでは、サーバー管理の問題を説明し、Scene7イメージレンダリングの設定について説明します。
-seo-description: このドキュメントでは、サーバー管理の問題を説明し、Scene7イメージレンダリングの設定について説明します。
+description: このドキュメントでは、サーバー管理の問題を説明し、Dynamic Mediaイメージレンダリングの設定について説明します。
+seo-description: このドキュメントでは、サーバー管理の問題を説明し、Dynamic Mediaイメージレンダリングの設定について説明します。
 seo-title: サーバー管理のはじめに
 solution: Experience Manager
 title: サーバー管理のはじめに
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # サーバ管理のはじめに{#server-administration-preface}
 
-このドキュメントでは、サーバー管理の問題を説明し、Scene7イメージレンダリングの設定について説明します。
+このドキュメントでは、サーバー管理の問題を説明し、Dynamic Mediaイメージレンダリングの設定について説明します。
 
 **対象オーディエンス**
 
-このドキュメントは、Scene7イメージレンダリングのインストール、設定、管理を必要とするシステム管理者およびWebマスターを対象としています。
+このドキュメントは、Dynamic Mediaイメージレンダリングのインストール、設定、管理を必要とするシステム管理者およびWebマスターを対象としています。
 
 **ドキュメント規則**
 
