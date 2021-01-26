@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
+`*`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -126,7 +126,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK APIを使用する場合、ユーザーインターフェイス要素[のローカライゼーションで説明されているとおり、正しく完全修飾されたSDK名前空間を使用することが重要です。](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)
+SDK APIを使用する場合、ユーザーインターフェイス要素](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)のローカライゼーションで説明されているとおり、正しく完全修飾されたSDK名前空間を使用することが重要です。[
 
 特定のコンポーネントについて詳しくは、ビューアSDK APIドキュメントを参照してください。
 
