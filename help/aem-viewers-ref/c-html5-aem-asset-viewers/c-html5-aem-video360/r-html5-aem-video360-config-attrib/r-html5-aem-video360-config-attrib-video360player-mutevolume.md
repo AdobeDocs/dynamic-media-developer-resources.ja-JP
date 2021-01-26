@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.mutevolume
 solution: Experience Manager
 title: Video360Player.mutevolume
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 17%
