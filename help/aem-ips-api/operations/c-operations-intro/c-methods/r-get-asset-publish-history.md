@@ -4,10 +4,10 @@ seo-description: アセットの公開ヒストリーを返します。
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 16%
@@ -39,14 +39,14 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセット公開ヒストリーを含む会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | 調査する公開ヒストリーを持つアセット。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセット公開ヒストリーを含む会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 調査する公開ヒストリーを持つアセット。 |
 
 **出力(getAssetPublishHistoryReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | はい | アセットの公開ヒストリー。 |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | はい | アセットの公開ヒストリー。 |
 
 ## 例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
