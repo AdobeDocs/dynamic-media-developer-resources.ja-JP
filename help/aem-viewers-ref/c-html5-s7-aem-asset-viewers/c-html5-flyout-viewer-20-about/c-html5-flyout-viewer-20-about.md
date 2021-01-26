@@ -1,16 +1,13 @@
 ---
 description: フライアウトビューアは画像ビューアです。 ユーザーがアクティブにするフライアウト表示に表示されるズームされたバージョンで、静的な画像を表示します。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 keywords: responsive
-seo-description: フライアウトビューアは画像ビューアです。 ユーザーがアクティブにするフライアウト表示に表示されるズームされたバージョンで、静的な画像を表示します。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-seo-title: フライアウト
 solution: Experience Manager
 title: フライアウト
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-ビューアをAdobe Scene7サーバの1つにデプロイし、同じドメインから供給している場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobe Scene7サーバーの1つへのフルパスを指定します。
+ビューアがAdobeのDynamic Mediaサーバの1つにデプロイされ、同じドメインから供給されている場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobeDynamic Mediaサーバの1つへのフルパスを指定します。
 
 相対パスは次のようになります。
 
