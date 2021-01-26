@@ -2,10 +2,10 @@
 description: 閉じるボタン
 solution: Experience Manager
 title: 閉じるボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 12%
