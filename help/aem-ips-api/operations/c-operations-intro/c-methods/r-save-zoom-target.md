@@ -4,10 +4,10 @@ seo-description: ズームターゲットを作成または編集します。
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 20%
@@ -36,21 +36,21 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを含む会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | ズームターゲットのハンドル。 |
-| ` *`zoomTargetHandle`*` | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
-| ` *`name`*` | `xsd:string` | はい | ズームターゲット名 |
-| ` *`xPosition`*` | `xsd:int` | はい | 左ピクセルの位置 |
-| ` *`yPosition`*` | `xsd:int` | はい | 上部のピクセル位置。 |
-| ` *`width`*` | `xsd:int` | はい | ズームターゲットの幅 |
-| ` *`height`*` | `xsd:int` | はい | ズームターゲットの高さ |
-| ` *`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意の種類のデータを含めることができます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを含む会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | ズームターゲットのハンドル。 |
+| `*`zoomTargetHandle`*` | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
+| `*`name`*` | `xsd:string` | はい | ズームターゲット名 |
+| `*`xPosition`*` | `xsd:int` | はい | 左ピクセルの位置 |
+| `*`yPosition`*` | `xsd:int` | はい | 上部のピクセル位置。 |
+| `*`width`*` | `xsd:int` | はい | ズームターゲットの幅 |
+| `*`height`*` | `xsd:int` | はい | ズームターゲットの高さ |
+| `*`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意の種類のデータを含めることができます。 |
 
 **出力(saveZoomTargetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットのハンドル |
+| `*`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットのハンドル |
 
 ## 例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
