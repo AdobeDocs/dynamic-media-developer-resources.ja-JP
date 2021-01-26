@@ -4,10 +4,10 @@ seo-description: 正規式パターン要素。 <rule>要素のオプション�
 seo-title: 式
 solution: Experience Manager
 title: 式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 3%
