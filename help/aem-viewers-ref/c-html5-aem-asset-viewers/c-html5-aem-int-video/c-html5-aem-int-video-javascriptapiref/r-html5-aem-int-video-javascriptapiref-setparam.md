@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアのJavaScript API�
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c8c40e88-530f-4af8-be9a-2e88addd6907
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 3%
