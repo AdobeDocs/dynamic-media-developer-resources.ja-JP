@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1ba6f24a-77bb-41ef-a831-a7ac817abd73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 4%
