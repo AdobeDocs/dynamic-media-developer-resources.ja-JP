@@ -4,12 +4,12 @@ seo-description: 詳細レンダリング設定 現在の選択範囲をレン�
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-レンダリングの外観を微調整するために使用します。 ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)のレンダリング機能を使用して、レンダリング設定文字列を作成します。
+レンダリングの外観を微調整するために使用します。 ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)のレンダリング機能を使用して、レンダリング設定文字列を作成します。
 
 ## プロパティ {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 ## 例 {#section-47e4811882574441a4d517e42a35f352}
 
-画像オーサリングで何度か実験を行った後、アンシャープマスク(USM)は、特定のアプリケーションとマテリアルに対して適切な量のシャープを適用できると判断されます。 USMを設定するレンダリング設定文字列は、次のマテリアルで使用する`rs=`コマンドにコピーされます。
+画像オーサリングで何度か実験を行った後、アンシャープマスク(USM)は、特定のアプリケーションとマテリアルに対して適切な量のシャープを適用すると判断されます。 USMを設定するレンダリング設定文字列は、次のマテリアルで使用する`rs=`コマンドにコピーされます。
 
 `…&rs=U2V20W50X2&…`
 
