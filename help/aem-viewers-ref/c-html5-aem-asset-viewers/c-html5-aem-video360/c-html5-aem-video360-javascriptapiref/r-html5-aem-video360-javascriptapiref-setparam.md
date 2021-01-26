@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアのJavaScript APIリファレンス。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c8c40e88-530f-4af8-be9a-2e88addd6907
 translation-type: tm+mt
-source-git-commit: 9abcdc9a45a19ea9c761eef6aef68abac33b9655
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 3%
