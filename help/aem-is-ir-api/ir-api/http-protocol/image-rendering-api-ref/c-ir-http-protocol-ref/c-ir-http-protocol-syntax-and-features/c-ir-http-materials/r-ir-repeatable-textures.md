@@ -4,10 +4,10 @@ seo-description: 繰り返し可能なテクスチャには、布地（衣料と
 seo-title: 繰り返し可能なテクスチャ
 solution: Experience Manager
 title: 繰り返し可能なテクスチャ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 3%
