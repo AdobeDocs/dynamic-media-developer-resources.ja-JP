@@ -4,12 +4,12 @@ seo-description: キャッシュエントリは、CacheValidationPolicy属性（
 seo-title: 応答キャッシュの検証
 solution: Experience Manager
 title: 応答キャッシュの検証
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Scene7ピラミッドTIFF(PTIFF)画像は、検証のためにファイルヘッダー内にファイルの日付を内部的に保持します。 ファイルシステムによって保持されるファイル変更時間は、非PTIFFファイルが変更されたかどうかを確認するために使用されます。
+>Dynamic MediaピラミッドTIFF(PTIFF)画像は、検証のためにファイルヘッダー内にファイルの日付を内部的に保持します。 ファイルシステムによって保持されるファイル変更時間は、非PTIFFファイルが変更されたかどうかを確認するために使用されます。
 
 キャッシュの検証プロセスに関与するのは画像ファイルのみです。 フォントファイルやICCプロファイルファイルを変更しても、キャッシュエントリは自動的に無効になりません。
