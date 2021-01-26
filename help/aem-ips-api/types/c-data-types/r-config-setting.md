@@ -1,23 +1,20 @@
 ---
-description: Scene7開発者のみが使用します。
-seo-description: Scene7開発者のみが使用します。
-seo-title: ConfigSetting
+description: Dynamic Media開発者のみが使用します。
 solution: Experience Manager
 title: ConfigSetting
-topic: Scene7 Image Production System API
-uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
 
 # ConfigSetting{#configsetting}
 
-Scene7開発者のみが使用します。
+Dynamic Media開発者のみが使用します。
 
 構文
 
@@ -25,7 +22,7 @@ Scene7開発者のみが使用します。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | 設定名。 |
-| ` *`value`*` | `xsd:string` | 設定値。 |
-| ` *`取り扱い`*` | `xsd:string` | 格納されている構成へのハンドル。 |
+| `*`name`*` | `xsd:string` | 設定名。 |
+| `*`value`*` | `xsd:string` | 設定値。 |
+| `*`取り扱い`*` | `xsd:string` | 格納されている構成へのハンドル。 |
 
