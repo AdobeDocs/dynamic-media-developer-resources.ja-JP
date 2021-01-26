@@ -4,10 +4,10 @@ seo-description: 既存のアセットセットのセット定義を更新しま
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 6%
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットが設定されている会社のハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットセットハンドル |
-| ` *`setDefinition`*` | `xsd:string` | はい | 定義文字列。 以下を参照。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセットが設定されている会社のハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットセットハンドル |
+| `*`setDefinition`*` | `xsd:string` | はい | 定義文字列。 以下を参照。 |
 
 **出力(setAssetSetDefinitionReturn)**
 
