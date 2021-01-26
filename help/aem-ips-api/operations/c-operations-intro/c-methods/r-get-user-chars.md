@@ -4,10 +4,10 @@ seo-description: 特定のフィールドで使用されている文字のリス
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 11%
@@ -34,19 +34,19 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を指定します。 |
-| ` *`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
-| ` *`includInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルターします。 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | いいえ | フィルターは、グループに基づいて結果を返します。 |
-| ` *`userRoleArray`*` | `types:StringArray` | いいえ | フィルターの役割に基づく結果です。 |
-| ` *`numChars`*` | `xsd:int` | いいえ | >1文字を有効にします。 |
+| `*`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を指定します。 |
+| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
+| `*`includInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルターします。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | フィルターは、グループに基づいて結果を返します。 |
+| `*`userRoleArray`*` | `types:StringArray` | いいえ | フィルターの役割に基づく結果です。 |
+| `*`numChars`*` | `xsd:int` | いいえ | >1文字を有効にします。 |
 
 **出力(getUserCharsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | はい | 文字プリフィックスの配列。 |
+| `*`userCharsArray`*` | `types:StringArray` | はい | 文字プリフィックスの配列。 |
 
 ## 例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
