@@ -4,12 +4,12 @@ seo-description: ズームターゲットデータ なしまたはそれ以上�
 seo-title: ターゲット
 solution: Experience Manager
 title: ターゲット
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Target. *`num`*.rectは、各ズームターゲットに必要で、画像内に
 
 スピンビューアおよびパンフレットビューアのクライアントが関与するアプリケーションの場合、ズームターゲットは、画像セットを定義しているのと同じカタログレコードで定義する必要があります。 画像セットのメンバのカタログレコードに含まれるズームターゲット定義は、ビューアでは無視されます。
 
-Scene7の閲覧者は、`catalog::Modifier`のコマンドで調整済みの最大解像度の画像の座標にズームターゲットが必要になります。
+Dynamic Mediaの閲覧者は、`catalog::Modifier`のコマンドで調整済みの最大解像度の画像の座標にズームターゲットが必要になります。
 
 ## プロパティ {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
