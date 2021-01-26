@@ -1,16 +1,13 @@
 ---
 description: インラインズームビューアは画像ビューアです。 静的な画像を表示し、ユーザーがメイン表示をロールオーバーまたはタッチすると、ズームされたバージョンでその静的な画像の上に表示されます。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 keywords: responsive
-seo-description: インラインズームビューアは画像ビューアです。 静的な画像を表示し、ユーザーがメイン表示をロールオーバーまたはタッチすると、ズームされたバージョンでその静的な画像の上に表示されます。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-seo-title: インラインズーム
 solution: Experience Manager
 title: インラインズーム
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-ビューアをAdobe Scene7サーバの1つにデプロイし、同じドメインから供給している場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobe Scene7サーバーの1つへのフルパスを指定します。
+ビューアがAdobeのDynamic Mediaサーバの1つにデプロイされ、同じドメインから供給されている場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobeDynamic Mediaサーバの1つへのフルパスを指定します。
 
 相対パスは次のようになります。
 
