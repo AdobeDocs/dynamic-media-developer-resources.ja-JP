@@ -2,10 +2,10 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ce5e42e-573a-4e1c-97d4-98888e16ca56
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Java形式の日付/時間値。 値は、午前0時からのミリ秒の整数�
 
 *`offset`* は、GMTを基準とした、時間単位または時 `hours:minutes`間単位のタイムゾーンオフセットです。例えば、「PDT」は「GMT -7」と同じです。
 
-日付/時間形式の文字列値の要素はすべて存在する必要があります。 日付/時刻値の形式が正しくない場合、この値は無視され、代わりに` *`カタログ`*.ini`ファイルの変更時刻が使用されます。
+日付/時間形式の文字列値の要素はすべて存在する必要があります。 日付/時刻値の形式が正しくない場合、この値は無視され、代わりに`*`カタログ`*.ini`ファイルの変更時刻が使用されます。
 
 ## 初期設定 {#section-0cbf801401ff4857bdda168fd12358af}
 
