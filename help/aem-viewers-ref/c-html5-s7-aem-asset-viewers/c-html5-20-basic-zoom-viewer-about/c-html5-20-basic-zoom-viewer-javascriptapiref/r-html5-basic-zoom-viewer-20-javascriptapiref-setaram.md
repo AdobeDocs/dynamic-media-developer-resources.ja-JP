@@ -4,10 +4,10 @@ seo-description: 基本ズームビューアのJavaScript APIリファレンス�
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e3fa66f-2817-4969-9532-99cd75b3e22a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
