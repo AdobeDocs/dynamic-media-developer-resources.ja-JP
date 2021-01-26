@@ -2,10 +2,10 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5fd6c6c5-5fa5-498c-877a-1f50f710bf7a
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 12%
