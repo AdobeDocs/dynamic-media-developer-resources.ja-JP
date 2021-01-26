@@ -2,10 +2,10 @@
 description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
