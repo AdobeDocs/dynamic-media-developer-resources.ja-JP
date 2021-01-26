@@ -2,10 +2,10 @@
 description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5ed92338-d6d4-4f59-b2b9-5c0caceef6a4
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '18'
 ht-degree: 33%
