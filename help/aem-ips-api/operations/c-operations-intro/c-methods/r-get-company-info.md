@@ -4,10 +4,10 @@ seo-description: 会社ハンドル、会社名、ルートパス、有効期限
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 6%
