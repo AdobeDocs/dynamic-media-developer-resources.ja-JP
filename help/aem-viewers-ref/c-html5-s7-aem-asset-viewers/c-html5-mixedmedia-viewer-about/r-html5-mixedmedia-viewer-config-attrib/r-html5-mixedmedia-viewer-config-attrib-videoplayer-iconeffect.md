@@ -2,10 +2,10 @@
 description: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8e112f3c-8fa6-4c77-94c5-5027275225e7
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 4%
