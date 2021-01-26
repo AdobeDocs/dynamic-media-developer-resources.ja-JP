@@ -4,10 +4,10 @@ seo-description: 複数のテキストと画像レイヤーを含めることが
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 10%
@@ -35,18 +35,18 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | テンプレートが属する会社。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドルです。 |
-| ` *`name`*` | `xsd:string` | はい | テンプレート名。 |
-| ` *`type`*` | `xsd:string` | はい | テンプレートの種類。 |
-| ` *`urlModifier`*` | `xsd:string` | はい | URLでユーザが指定したコマンドの前に適用する、ISカタログに格納されたImage Serverコマンドを指定します。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。ユーザーが入力した設定に矛盾がある場合は、このコマンドによって上書きされます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | テンプレートが属する会社。 |
+| `*`folderHandle`*` | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドルです。 |
+| `*`name`*` | `xsd:string` | はい | テンプレート名。 |
+| `*`type`*` | `xsd:string` | はい | テンプレートの種類。 |
+| `*`urlModifier`*` | `xsd:string` | はい | URLでユーザが指定したコマンドの前に適用する、ISカタログに格納されたImage Serverコマンドを指定します。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。ユーザーが入力した設定に矛盾がある場合は、このコマンドによって上書きされます。 |
 
 **出力(createTemplateParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | はい | テンプレートのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | テンプレートのハンドル。 |
 
 ## 例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
