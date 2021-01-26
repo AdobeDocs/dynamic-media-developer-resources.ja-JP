@@ -1,15 +1,15 @@
 ---
-description: ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
-seo-description: ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
+description: ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
+seo-description: ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
 seo-title: 詳細レンダリング設定
 solution: Experience Manager
 title: 詳細レンダリング設定
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # 詳細レンダリング設定{#advanced-render-settings}
 
-ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
+ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金額(%) </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>スーパーサンプリング：ランダムレート。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>初期設定は 5 です </p> </td> 
   </tr> 
