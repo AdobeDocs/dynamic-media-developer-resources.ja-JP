@@ -4,12 +4,12 @@ seo-description: 画像サービングでは、画像サービング要求の無
 seo-title: リクエストのネストと埋め込み
 solution: Experience Manager
 title: リクエストのネストと埋め込み
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 埋め込み画像レンダリング要求{#section-69c5548db930412b9b90d9b2951a6969}
 
-サーバで[Scene7イメージレンダリング]が有効になっている場合、src=（またはmask=）コマンドでレンダリング要求を指定することで、レイヤソースとしてレンダリング要求を使用できます。 次の構文を使用します。
+サーバで[Dynamic Mediaイメージレンダリング]が有効になっている場合、src=（またはmask=）コマンドでレンダリング要求を指定することで、レイヤソースとしてレンダリング要求を使用できます。 次の構文を使用します。
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ FXGグラフィックスレンダラー([!DNL AGMServer])がインストール�
 
 >[!NOTE]
 >
->FXGグラフィックスレンダリングは、Scene7のホスト環境でのみ使用でき、追加のライセンスが必要な場合があります。 詳しくは、Scene7サポートにお問い合わせください。
+>FXGグラフィックスレンダリングは、Dynamic Mediaのホスト環境でのみ使用でき、追加のライセンスが必要な場合があります。 詳細については、Dynamic Mediaテクニカルサポートにお問い合わせください。
 
 *[!DNL renderRequest]* は、通常のFXGレンダリング要求です（HTTPルートパスは除く） ` http:// *[!DNL server]*/agm/render/`。
 
@@ -152,9 +152,9 @@ FXGグラフィックスレンダラー([!DNL AGMServer])がインストール�
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Scene7画像レンダリングのリクエストの埋め込み**
+**Dynamic Media画像レンダリングのリクエストの埋め込み**
 
-[!DNL myCatalog/myTemplate]に保存されたテンプレートを使用する；[Scene7イメージレンダリング]を使用して、テンプレートのlayer2のイメージを生成します。
+[!DNL myCatalog/myTemplate]に保存されたテンプレートを使用する；[Dynamic Mediaイメージレンダリング]を使用して、テンプレートのlayer2のイメージを生成します。
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
