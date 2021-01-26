@@ -5,10 +5,10 @@ seo-description: ズームビューアは、1つのズーム可能な画像を�
 seo-title: ズーム
 solution: Experience Manager
 title: ズーム
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
