@@ -4,10 +4,10 @@ seo-description: ビデオスクラバは、水平方向のスライダコント
 seo-title: ビデオスクラバー
 solution: Experience Manager
 title: ビデオスクラバー
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c68d3693-3772-470a-893a-b701ddec3414
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
