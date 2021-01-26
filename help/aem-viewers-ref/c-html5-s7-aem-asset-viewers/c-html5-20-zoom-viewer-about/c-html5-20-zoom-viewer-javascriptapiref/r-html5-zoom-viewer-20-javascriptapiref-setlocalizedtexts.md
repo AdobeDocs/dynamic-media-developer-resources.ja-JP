@@ -4,10 +4,10 @@ seo-description: ビデオビューアのJavaScript APIリファレンス。
 seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-topic: Dynamic media
+topic: Dynamic Media
 uuid: af1844bb-1af2-4efb-9824-2371ec91b342
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 2%
