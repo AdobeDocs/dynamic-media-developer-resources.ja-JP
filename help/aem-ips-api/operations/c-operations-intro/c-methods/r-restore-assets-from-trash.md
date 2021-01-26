@@ -4,10 +4,10 @@ seo-description: ごみ箱からアセットを元に戻します。
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 12%
@@ -36,18 +36,18 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 復元するアセットを含む会社へのハンドル。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | はい | 復元するアセットのハンドルの配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 復元するアセットを含む会社へのハンドル。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | はい | 復元するアセットのハンドルの配列。 |
 
 **出力(restoreAssetsFromTrashReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常にごみ箱から削除されたアセットの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がごみ箱からアセットを復元しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | ごみ箱からアセットを復元しようとしたときに発生したエラーの数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常にごみ箱から削除されたアセットの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がごみ箱からアセットを復元しようとしたときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | ごみ箱からアセットを復元しようとしたときに発生したエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
