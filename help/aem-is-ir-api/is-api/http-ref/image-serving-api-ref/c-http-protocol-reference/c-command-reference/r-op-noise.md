@@ -4,10 +4,10 @@ seo-description: 追加ノイズ 前景画像データまたはエフェクト�
 seo-title: op_noise
 solution: Experience Manager
 title: op_noise
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 1%
