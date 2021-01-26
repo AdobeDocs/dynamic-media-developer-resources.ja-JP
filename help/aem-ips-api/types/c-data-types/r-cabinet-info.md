@@ -4,10 +4,10 @@ seo-description: キャビネットアセットのプロパティ。
 seo-title: CabinetInfo
 solution: Experience Manager
 title: CabinetInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 7%
@@ -25,11 +25,11 @@ ht-degree: 7%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | 元のキャビネットの相対パス。 |
-| ` *`originalFile`*` | `xsd:string` | キャビネット名。 |
-| ` *`fileSize`*` | `xsd:int` | キャビネットサイズ |
-| ` *`imagePath`*` | `xsd:string` | ビネットに関連付けられているキャビネットの相対パス。 |
-| ` *`imageFile`*` | `xsd:string` | ビネットに関連付けられているキャビネットのファイル名。 |
-| ` *`optimizedPath`*` | `xsd:string` | IPSに最適化されたキャビネットへのパス。 |
-| ` *`optimizedFile`*` | `xsd:string` | IPS用に最適化されたキャビネットファイル。 |
+| `*`originalPath`*` | `xsd:string` | 元のキャビネットの相対パス。 |
+| `*`originalFile`*` | `xsd:string` | キャビネット名。 |
+| `*`fileSize`*` | `xsd:int` | キャビネットサイズ |
+| `*`imagePath`*` | `xsd:string` | ビネットに関連付けられているキャビネットの相対パス。 |
+| `*`imageFile`*` | `xsd:string` | ビネットに関連付けられているキャビネットのファイル名。 |
+| `*`optimizedPath`*` | `xsd:string` | IPSに最適化されたキャビネットへのパス。 |
+| `*`optimizedFile`*` | `xsd:string` | IPS用に最適化されたキャビネットファイル。 |
 
