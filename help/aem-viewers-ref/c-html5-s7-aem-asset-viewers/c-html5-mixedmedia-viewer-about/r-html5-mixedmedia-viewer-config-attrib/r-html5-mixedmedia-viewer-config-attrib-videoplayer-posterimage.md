@@ -2,10 +2,10 @@
 description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 28663f44-11cb-4522-bd12-d6bec17b4173
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
