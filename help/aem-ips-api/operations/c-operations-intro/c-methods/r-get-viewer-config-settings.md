@@ -4,10 +4,10 @@ seo-description: 指定したアセットに関連付けられているビュー
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 18%
@@ -34,13 +34,13 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
 
 **出力(getViewerConfigSettingsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`type`*` | `xsd:string` | はい | 設定が適用されるビューアタイプ。 |
-| ` *`configSettingsArray`*` | `types:ConfigSettingsArray` | はい | ビューア設定の配列。 |
+| `*`type`*` | `xsd:string` | はい | 設定が適用されるビューアタイプ。 |
+| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | はい | ビューア設定の配列。 |
 
