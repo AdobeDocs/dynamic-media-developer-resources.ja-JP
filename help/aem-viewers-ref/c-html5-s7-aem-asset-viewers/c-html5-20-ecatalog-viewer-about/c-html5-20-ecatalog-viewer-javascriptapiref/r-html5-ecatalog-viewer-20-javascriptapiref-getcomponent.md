@@ -4,10 +4,10 @@ seo-description: eCatalogビューアのJavaScript APIリファレンス
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e06e2943-d2cc-4eaf-9fd4-4225bb7a7469
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
