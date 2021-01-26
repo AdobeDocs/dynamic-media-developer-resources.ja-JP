@@ -4,10 +4,10 @@ seo-description: 不透明度. マテリアルの不透明度を指定します�
 seo-title: opac
 solution: Experience Manager
 title: opac
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f5b11f0-af65-4abd-947e-7a28cb8de263
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 4%
