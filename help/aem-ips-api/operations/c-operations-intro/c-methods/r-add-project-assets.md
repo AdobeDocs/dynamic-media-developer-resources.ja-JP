@@ -1,15 +1,12 @@
 ---
 description: プロジェクトに1つ以上のアセットを追加します。
-seo-description: プロジェクトに1つ以上のアセットを追加します。
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社に対するハンドル。 |
-| ` *`projectHandle`*` | `xsd:string` | はい | アセットを追加するプロジェクトの処理。 |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | はい | 現在のプロジェクトに追加するアセットの配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社に対するハンドル。 |
+| `*`projectHandle`*` | `xsd:string` | はい | アセットを追加するプロジェクトの処理。 |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | はい | 現在のプロジェクトに追加するアセットの配列。 |
 
 **出力(addProjectAssetsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数です。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成されたエラーの数です。 |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成された警告の配列です。 |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成されたエラーの配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数です。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成されたエラーの数です。 |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成された警告の配列です。 |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成されたエラーの配列です。 |
 
 ## 例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
