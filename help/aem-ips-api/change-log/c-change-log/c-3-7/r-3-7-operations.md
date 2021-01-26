@@ -1,16 +1,13 @@
 ---
 description: IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
-seo-description: IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
-seo-title: 新規および変更された操作
 solution: Experience Manager
 title: 新規および変更された操作
-topic: Scene7 Image Production System API
-uuid: 3c163157-cd0d-4887-a1f0-7941d96c36f9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 1%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
