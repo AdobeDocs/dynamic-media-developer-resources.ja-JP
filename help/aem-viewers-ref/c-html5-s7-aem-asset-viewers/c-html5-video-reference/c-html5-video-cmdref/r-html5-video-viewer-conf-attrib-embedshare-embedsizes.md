@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 11%
