@@ -4,10 +4,10 @@ seo-description: カルーセルビューアの設定属性。
 seo-title: CarouselView.autoplay
 solution: Experience Manager
 title: CarouselView.autoplay
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 5%
