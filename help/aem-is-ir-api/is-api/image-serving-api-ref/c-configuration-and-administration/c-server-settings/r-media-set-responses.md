@@ -4,10 +4,10 @@ seo-description: この節の設定は、req=set修飾子で取得されたメ�
 seo-title: メディアセットの応答
 solution: Experience Manager
 title: メディアセットの応答
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9fa6a38a-cd1f-499b-a2b6-e1a9a6c69ed0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
