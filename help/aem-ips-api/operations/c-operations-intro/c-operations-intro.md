@@ -1,15 +1,12 @@
 ---
-description: この節では、IPS Web Service APIで処理される一般的な操作パラメータについて説明します。
-seo-description: この節では、IPS Web Service APIで処理される一般的な操作パラメータについて説明します。
-seo-title: 操作メソッド
+description: IPS Web Service APIで処理される一般的な操作パラメータについて説明します。
 solution: Experience Manager
 title: 操作メソッド
-topic: Scene7 Image Production System API
-uuid: 713646a7-1108-4f93-bec2-3fbe7e548515
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
