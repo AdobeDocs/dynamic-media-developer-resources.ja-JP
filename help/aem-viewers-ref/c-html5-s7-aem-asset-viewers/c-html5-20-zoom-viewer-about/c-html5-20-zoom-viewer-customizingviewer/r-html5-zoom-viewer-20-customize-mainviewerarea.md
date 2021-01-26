@@ -4,10 +4,10 @@ seo-description: メイン表示領域は、ズーム画像とスウォッチが
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
