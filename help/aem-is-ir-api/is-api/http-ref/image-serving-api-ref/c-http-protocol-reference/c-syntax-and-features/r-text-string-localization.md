@@ -4,10 +4,10 @@ seo-description: テキスト文字列ローカライゼーションを使用す
 seo-title: テキスト文字列ローカライゼーション
 solution: Experience Manager
 title: テキスト文字列ローカライゼーション
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 変換マップの各&#x200B;*`locale`*&#x200B;に複数の&#x200B;*`locId`*&#x200B;値を関連付けることができます。 これにより、選択&#x200B;*`stringElements`*&#x200B;に対して、国固有または地域固有のバリエーション（米国英語と英国英語など）をサポートしながら、一般的なベースロケール（国際英語など）でほとんどのコンテンツを処理できます。
 
-この例では、時折使用される代替スペルをサポートするために、米国固有の英語(` *`locId`* EUS`)と英国固有の英語(` *`locId`* EUK`)のサポートを追加します。 EUKまたはEUSが存在しない場合は、Eに戻ります。同様に、必要に応じてオーストリア独自のドイツのバリアント(`DAT`)が利用可能になり、ほとんどの場合、一般的なドイツ語&#x200B;*`localizedStrings`* （`D`でマーク）が返されます。
+この例では、時折使用される代替スペルをサポートするために、米国固有の英語(`*`locId`* EUS`)と英国固有の英語(`*`locId`* EUK`)のサポートを追加します。 EUKまたはEUSが存在しない場合は、Eに戻ります。同様に、必要に応じてオーストリア独自のドイツのバリアント(`DAT`)が利用可能になり、ほとんどの場合、一般的なドイツ語&#x200B;*`localizedStrings`* （`D`でマーク）が返されます。
 
 `attribute::LocaleStrMap` 次のようになります。
 
