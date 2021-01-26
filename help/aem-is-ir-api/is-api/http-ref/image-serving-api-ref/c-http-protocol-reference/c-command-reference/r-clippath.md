@@ -4,10 +4,10 @@ seo-description: レイヤークリップパス 現在のレイヤのクリッ�
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 `clipPath=`で定義された領域の外側にあるレイヤーの部分は、すべて透明にレンダリングされます。
 
-` *`pathNameは、レイヤーソース画像に埋め込まれたパスの名前です。`*` パスは、画像コンテンツとの相対的な位置揃えを維持するように自動的に変換されます。 複数の` *`pathName`*`を指定した場合、サーバはこれらのパスの交点に画像をクリップします。 ソース画像で` *`pathName`*`が見つからない場合は無視されます。
+`*`pathNameは、レイヤーソース画像に埋め込まれたパスの名前です。`*` パスは、画像コンテンツとの相対的な位置揃えを維持するように自動的に変換されます。 複数の`*`pathName`*`を指定した場合、サーバはこれらのパスの交点に画像をクリップします。 ソース画像で`*`pathName`*`が見つからない場合は無視されます。
 
 >[!NOTE]
 >
->` *`pathName`*`に対しては、ASCII文字列のみがサポートされています。
+>`*`pathName`*`に対しては、ASCII文字列のみがサポートされています。
 
-` *`pathDefinitionを使用すると、レイヤーのピクセル座標に明示的なパスデータを指定できます。`*` 
+`*`pathDefinitionを使用すると、レイヤーのピクセル座標に明示的なパスデータを指定できます。`*` 
 
 `size=`を指定し、0,0を指定しない場合は、レイヤーのサイズが事前に設定されます。 この場合、パスの座標はレイヤーの長方形の左上隅を基準とした相対位置であり、レイヤーは`origin=`またはその初期設定に基づいて配置されます。 レイヤーの長方形の外側にあるパスの領域はすべて透明のままです。
 
@@ -52,9 +52,9 @@ ht-degree: 1%
 >
 >`scale=`、 `rotate=`および `anchor=` コマンドは、ソリッドカラーレイヤーの自己サイズ調整には使用できません。
 
-` *`pathDefinitionには、SVG`*` 要素の `d=`  `<path>` 属性の値に類似した文字列を指定できます。ただし、値を区切る際にスペースの代わりにコンマが使用される点が異なります。` *`pathDefinitionには、1つ以上の閉ループサブパスを含めることができます。`*` 
+`*`pathDefinitionには、SVG`*` 要素の `d=`  `<path>` 属性の値に類似した文字列を指定できます。ただし、値を区切る際にスペースの代わりにコンマが使用される点が異なります。`*`pathDefinitionには、1つ以上の閉ループサブパスを含めることができます。`*` 
 
-` *`pathDefinition`*`では、次のパスコマンドがサポートされています。
+`*`pathDefinition`*`では、次のパスコマンドがサポートされています。
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
