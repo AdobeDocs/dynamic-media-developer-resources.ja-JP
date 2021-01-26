@@ -4,10 +4,10 @@ seo-description: Twitter共有ツールは、ソーシャル共有パネルに�
 seo-title: Twitter共有
 solution: Experience Manager
 title: Twitter共有
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 75b8eab1-74fd-4c18-8556-c3cb17011cde
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
