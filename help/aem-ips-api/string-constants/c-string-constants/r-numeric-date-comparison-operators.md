@@ -4,10 +4,10 @@ seo-description: SystemFieldCondition/opで使用されます。
 seo-title: 数値/日付比較演算子
 solution: Experience Manager
 title: 数値/日付比較演算子
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 95f923df-ba72-4926-a5a4-51cea6d39495
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 7%
