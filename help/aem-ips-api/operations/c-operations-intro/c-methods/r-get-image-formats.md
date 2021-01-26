@@ -4,10 +4,10 @@ seo-description: PDF、EPS、SWFなどの画像形式を返します。
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 17%
@@ -37,13 +37,13 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 取得する会社形式を持つ画像へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 取得する会社形式を持つ画像へのハンドル。 |
 
 **出力(getImageFormatsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`imageFormatArray`*` | `types:ImageFormatArray` | はい | 画像形式の配列。 |
+| `*`imageFormatArray`*` | `types:ImageFormatArray` | はい | 画像形式の配列。 |
 
 ## 例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
