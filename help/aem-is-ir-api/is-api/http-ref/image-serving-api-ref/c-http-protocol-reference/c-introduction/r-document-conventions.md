@@ -4,10 +4,10 @@ seo-description: このドキュメントでは、次の規則を使用します
 seo-title: ドキュメント規則
 solution: Experience Manager
 title: ドキュメント規則
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
