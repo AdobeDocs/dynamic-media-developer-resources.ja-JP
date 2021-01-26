@@ -4,10 +4,10 @@ seo-description: 画像サービングのソースデータファイルには、
 seo-title: ソースデータ
 solution: Experience Manager
 title: ソースデータ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 すべてのソースデータファイルは、Image Serverからアクセスできる必要があります。 画像サービングには、データファイルの場所を指定するための様々な代替オプションが用意されています。
 
-` *`install_`*/ *``*/ *`folderrootPathfilePath`*`
+`*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
 <table id="simpletable_26686444C7EF46D6BC4C0490C8010BF9"> 
  <tr class="strow"> 
@@ -44,9 +44,9 @@ ht-degree: 0%
 
 サーバは、絶対ファイルパスが確立されるまで、右から左へのパスセグメントを組み合わせます。
 
-すべての` *`rootPath`*`セグメントは、空、相対、または絶対パスセグメントにすることができます。
+すべての`*`rootPath`*`セグメントは、空、相対、または絶対パスセグメントにすることができます。
 
-` *``*` catalog絶対パスまたは相対ファイルパス/名前を指定します。` *`requestPathは、相対ファイルパスまたはファイル名で指定する必要があります。`*` 
+`*``*` catalog絶対パスまたは相対ファイルパス/名前を指定します。`*`requestPathは、相対ファイルパスまたはファイル名で指定する必要があります。`*` 
 
 `Multiple IS::RootPath` の値は、ImageServerRegistry.xmlで（または管理インターフェイスを使用して）定義できます。これにより、ソース・データ・ファイルを複数のファイル・システムに分散できます。 Image Serverは、データファイルが見つかるまで、指定された順序で代替パスを試します。
 
