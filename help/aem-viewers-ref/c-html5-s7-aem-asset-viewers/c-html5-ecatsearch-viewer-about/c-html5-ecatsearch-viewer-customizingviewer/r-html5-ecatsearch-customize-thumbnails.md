@@ -4,10 +4,10 @@ seo-description: サムネールは、サムネール画像のグリッドと、
 seo-title: サムネール
 solution: Experience Manager
 title: サムネール
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 2%
