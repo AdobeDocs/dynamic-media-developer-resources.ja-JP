@@ -5,10 +5,10 @@ seo-description: スピンビューアは、360°の画像を提供する表示�
 seo-title: Spin
 solution: Experience Manager
 title: スピン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
