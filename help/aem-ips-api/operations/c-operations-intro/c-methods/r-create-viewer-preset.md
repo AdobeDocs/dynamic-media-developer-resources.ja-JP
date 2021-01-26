@@ -4,10 +4,10 @@ seo-description: ユーザが何を表示できるかを決定するプリセッ
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | ビューアプリセットとアセットを含む会社のハンドル。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | アセットを含むフォルダーのハンドル。 |
-| ` *`name`*` | `xsd:string` | はい | ビューア名 |
-| ` *`type`*` | `xsd:string` | はい | ビューアタイプ. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | いいえ | プリセットを適用する画像の名前、値、ハンドルを含む配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | ビューアプリセットとアセットを含む会社のハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | アセットを含むフォルダーのハンドル。 |
+| `*`name`*` | `xsd:string` | はい | ビューア名 |
+| `*`type`*` | `xsd:string` | はい | ビューアタイプ. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | いいえ | プリセットを適用する画像の名前、値、ハンドルを含む配列。 |
 
 **出力(createViewerPresetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル |
+| `*`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル |
 
 ## 例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
