@@ -4,10 +4,10 @@ seo-description: キャッシュ制御 クライアント側のキャッシュ�
 seo-title: キャッシュ
 solution: Experience Manager
 title: キャッシュ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-` *`cacheControl`*`値を1つだけ指定した場合、その値はクライアントキャッシュとサーバーキャッシュの両方に適用されます。
+`*`cacheControl`*`値を1つだけ指定した場合、その値はクライアントキャッシュとサーバーキャッシュの両方に適用されます。
 
 `validate`キーワードを使用すると、画像ファイルが変更された後にキャッシュエントリを更新できます。キャッシュエントリが自動的に期限切れになるのを待つ必要はありません。 クライアントのキャッシュは、このコマンドの影響を受けません。
 
