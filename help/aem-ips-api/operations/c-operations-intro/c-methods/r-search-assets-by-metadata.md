@@ -4,10 +4,10 @@ seo-description: 指定した検索用語のメタデータインデックスリ
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 7%
@@ -127,8 +127,8 @@ null値を返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | いいえ | 一致の数。 |
-| ` *`assetArray`*` | `types:AssetArray` | いいえ | 検索によって返されるアセットの配列。 |
+| `*`totalRows`*` | `xsd:int` | いいえ | 一致の数。 |
+| `*`assetArray`*` | `types:AssetArray` | いいえ | 検索によって返されるアセットの配列。 |
 
 ## metadataConditionArrayの詳細{#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
