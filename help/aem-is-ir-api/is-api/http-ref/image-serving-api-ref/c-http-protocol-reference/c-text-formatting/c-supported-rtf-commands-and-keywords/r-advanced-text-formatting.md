@@ -4,12 +4,12 @@ seo-description: 高度なテキストの書式設定には、次のコマンド
 seo-title: 高度なテキストの書式設定
 solution: Experience Manager
 title: 高度なテキストの書式設定
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>垂直方向の文字の拡大/縮小 </p> </td> 
-   <td> <p>正または負の割合；初期設定は100;Scene7拡張。 </p> <p> <span class="codeph"> \charscaley </span> も、 <span class="codeph"> text=を適用した場合に行間隔を拡大・縮小 </span>します。<span class="codeph"> textPs=では、垂直方向の文字の拡大/縮小の量に関係なく、 </span> 常に行間が保持されます。 </p> </td> 
+   <td> <p>正または負の割合；初期設定は100;Dynamic Media拡張。 </p> <p> <span class="codeph"> \charscaley </span> も、 <span class="codeph"> text=を適用した場合に行間隔を拡大・縮小 </span>します。<span class="codeph"> textPs=では、垂直方向の文字の拡大/縮小の量に関係なく、 </span> 常に行間が保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>「サイズ調整」を有効にし、許可されるフォントサイズを最大に設定 </p> </td> 
-   <td> <p>フォントサイズ（半分ポイント）<span class="codeph"> textPs= </span>のみ；Scene7拡張。 </p> </td> 
+   <td> <p>フォントサイズ（半分ポイント）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>コピーフィット線の最大数（ソフトリミット） </p> </td> 
-   <td> <p>0（行制限なし）<span class="codeph"> textPs= </span>のみ；Scene7拡張。 </p> </td> 
+   <td> <p>0（行制限なし）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>コピーフィットの最大行数（切り捨て） </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;Scene7拡張。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;Dynamic Media拡張。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
