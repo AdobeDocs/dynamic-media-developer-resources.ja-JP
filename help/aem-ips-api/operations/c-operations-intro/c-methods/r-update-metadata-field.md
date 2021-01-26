@@ -4,10 +4,10 @@ seo-description: フィールドメタデータを更新します。
 seo-title: updateMetadataField
 solution: Experience Manager
 title: updateMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 12%
@@ -90,7 +90,7 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | はい | メタデータフィールドハンドル。 |
+| `*`fieldHandle`*` | `xsd:string` | はい | メタデータフィールドハンドル。 |
 
 ## 例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
