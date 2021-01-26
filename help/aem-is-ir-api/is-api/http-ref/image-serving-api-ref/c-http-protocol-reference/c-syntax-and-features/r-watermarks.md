@@ -1,15 +1,12 @@
 ---
 description: 画像サービングには、シンプルな視覚的な透かし機能が実装されています。
-seo-description: 画像サービングには、シンプルな視覚的な透かし機能が実装されています。
-seo-title: 透かし
 solution: Experience Manager
 title: 透かし
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 1%
 
 透かしは、`attribute::Watermark`を有効なカタログエントリに設定すると有効になります。このカタログエントリには透かしの画像またはテンプレートが含まれます。 名前付きカタログに`attribute::Watermark`が設定されている場合、サーバーは要求URL内のカタログIDを参照するすべての画像要求に透かしを追加します。 `default::Watermark`が設定されている場合（初期設定のカタログ[!DNL default.ini]内）、カタログを参照しているかどうかに関係なく、すべての画像要求に透かしが適用されます。
 
-サムネールの要求(`req=tmb`)およびScene7の閲覧者からの特定の要求に応じて返される画像には、透かしは適用されません。
+サムネールの要求(`req=tmb`)およびDynamic Mediaの閲覧者からの特定の要求に応じて返される画像には、透かしは適用されません。
 
 ## スケールと位置合わせ{#section-89ef9e5926ae438abbd8e70332749b76}
 
