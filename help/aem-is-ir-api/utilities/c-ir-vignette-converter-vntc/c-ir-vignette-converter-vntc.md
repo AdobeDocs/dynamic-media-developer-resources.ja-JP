@@ -2,10 +2,10 @@
 description: ビネットコンバータ(vntc)
 solution: Experience Manager
 title: ビネットコンバータ(vntc)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 3%
