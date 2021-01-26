@@ -2,10 +2,10 @@
 description: ZoomView.zoomstep
 solution: Experience Manager
 title: ZoomView.zoomstep
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 914091e0-f026-423c-8c33-86a0284ac600
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 7%
