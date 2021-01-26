@@ -1,15 +1,12 @@
 ---
 description: Windows上のImage ServerとPlatform Serverの開始/停止には、いくつかのメカニズムがあります
-seo-description: Windows上のImage ServerとPlatform Serverの開始/停止には、いくつかのメカニズムがあります
-seo-title: Windowsでの起動と停止
 solution: Experience Manager
 title: Windowsでの起動と停止
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 79b7690a-cea1-4c5e-99d6-60febf0e85f5
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -21,6 +18,6 @@ Windows上のImage ServerとPlatform Serverの開始/停止には、いくつか
 
 1. 次のいずれかを選択して、画像サービングを開始または停止します。
 
-* WindowsサービスCampaign コントロールパネルは、「Scene7画像サービング」サービスの開始、停止、再起動、状態の検証に使用できます。
-* **[!UICONTROL 開始メニュー]**> **[!UICONTROL プログラム]**> **[!UICONTROL Scene7]**>画像サービング>すべての **** **** 制御Scene7画像サービスの開始、停止、再起動のコマンドを提供します。
+* WindowsサービスCampaign コントロールパネルは、「Dynamic Media画像サービング」サービスの開始、停止、再起動、状態の検証に使用できます。
+* **[!UICONTROL 開始メニュー]**>すべてのプログラム **[!UICONTROL >]** Dynamic Media(Scene7) **[!UICONTROL >]** **** **** サービングサービス>サービングサービス>制御開始サービスは、Dynamic Media画像サービスの、停止、再起動のコマンドを提供します。
 
