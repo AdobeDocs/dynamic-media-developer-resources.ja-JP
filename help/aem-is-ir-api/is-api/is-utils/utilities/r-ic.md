@@ -4,10 +4,10 @@ seo-description: 画像変換ユーティリティ。
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ## 使用方法 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -256,7 +256,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> （Windowsビットマップ） </p> </td> 
    <td> <p> RGB |インデックス付き </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> 未圧縮 | RLE </p> </td> 
    <td> <p> 5/6ビット/チャネルは、16ビットRGB (5-5-5および5-6-5ビット/チャネル)のサポートを示します。 </p> </td> 
   </tr> 
@@ -291,7 +291,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gray | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 未圧縮 |圧縮済み </p> </td> 
    <td> <p> 結合された画像のみ；レイヤーと余分なチャネルは無視されます。 </p> </td> 
   </tr> 
@@ -312,7 +312,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gray | grayA |インデックス付き </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 未圧縮 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 |パックビット </p> </td> 
    <td> <p> 最初に関連付けられたアルファチャネルを除き、余分なチャネルは無視されます。 </p> </td> 
   </tr> 
