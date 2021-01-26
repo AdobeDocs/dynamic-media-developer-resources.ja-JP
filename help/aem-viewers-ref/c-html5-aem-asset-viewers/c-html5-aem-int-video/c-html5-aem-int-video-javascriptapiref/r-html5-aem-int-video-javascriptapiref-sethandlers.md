@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアのJavaScript API�
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f33df5a9-e323-4dff-b792-88d778332c75
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 3%
