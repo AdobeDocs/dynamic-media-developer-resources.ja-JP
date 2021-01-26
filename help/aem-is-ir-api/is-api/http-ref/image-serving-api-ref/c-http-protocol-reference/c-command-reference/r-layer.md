@@ -4,10 +4,10 @@ seo-description: '[画層]を選択します。 画層を選択し、コマン�
 seo-title: layer
 solution: Experience Manager
 title: layer
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
