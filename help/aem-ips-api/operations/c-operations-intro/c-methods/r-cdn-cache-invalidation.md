@@ -1,15 +1,12 @@
 ---
-description: 提供されたURLのリストをScene7CDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
-seo-description: 提供されたURLのリストをScene7CDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
-seo-title: cdnCacheInvalidation
+description: 提供されたURLのリストをDynamic MediaCDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 3%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-提供されたURLのリストをScene7CDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
+提供されたURLのリストをDynamic MediaCDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
 
 ## cdnCacheInvalidation:{#section-4f70d2bc79d64288b961836ab17e9690}について
 
-CDNキャッシュの無効化は、CDNネットワークを介して処理された後、これらのURLに対するすべてのHTTP要求を、Scene7ネットワーク上の現在の公開済みデータに対して再検証するように強制します。 会社の作成時に割り当てられたScene7サービスのURL構造に接続されていないURLで、Scene7会社のルートIDと直接一致するURLは、リクエスト全体のAPIエラーになります。 CDNがサポートしない無効なURLで、無効と見なすものは、リクエスト全体のAPIエラーにもなります。
+CDNキャッシュの無効化は、CDNネットワークを介して処理された後、これらのURLに対するすべてのHTTP要求を、Dynamic Mediaネットワーク上の現在公開されているデータに対して強制的に再検証します。 会社の作成時に割り当てられたDynamic MediaサービスのURL構造に接続されていないURLで、Dynamic Media会社のルートIDと直接一致するURLは、リクエスト全体のAPIエラーになります。 CDNがサポートしない無効なURLで、無効と見なすものは、リクエスト全体のAPIエラーにもなります。
 
 **使用頻度：ルール**
 
-この機能の使用頻度を制御するルールは、Scene7のCDNパートナーが制御します。 CDNは、これらの無効化の応答性を低下させ、ユーザーに対するサービスの最適なパフォーマンスを維持するための裁量を保持します。 この機能の過度の使用をScene7に通知した場合は、会社ごとに、または全体を通じて、この機能を無効にする必要があります。
+この機能の使用頻度を制御するルールは、ダイナミックメディアのCDNパートナーが制御します。 CDNは、これらの無効化の応答性を低下させ、ユーザーに対するサービスの最適なパフォーマンスを維持するための裁量を保持します。 この機能の過度の使用をDynamic Mediaに通知した場合は、会社ごとに、または全体を通じて、この機能を無効にする必要があります。
 
 **確認電子メール**
 
-Scene7CDNパートナーからの確認電子メールは、リストの作成者に送信するか、他の5つまでの電子メールアドレスに送信できます。 APIは、電子メール内で参照されているURLがクリアされたことをCDNネットワーク全体に通知された場合に、確認を送信します。 `cdnCacheInvalidation`への1回の呼び出しで、1回の通知でScene7がCDNパートナーに配信できるURL数を超えた場合に、複数の電子メールを送信できます。 現在、リクエストが100個を超えるが、CDNパートナーのリクエストに基づいて変更される可能性がある場合、この問題を修正しました。
+Dynamic MediaCDNパートナーからの確認電子メールは、リストの作成者に送信するか、他の5つまでの電子メールアドレスに送信できます。 APIは、電子メール内で参照されているURLがクリアされたことをCDNネットワーク全体に通知された場合に、確認を送信します。 `cdnCacheInvalidation`への1回の呼び出しで、1回の通知でDynamic MediaがCDNパートナーに配信できるURL数を超えた場合に、複数の電子メールを送信できます。 現在、リクエストが100個を超えるが、CDNパートナーのリクエストに基づいて変更される可能性がある場合、この問題を修正しました。
 
 **次の日付でサポート**
 
@@ -64,7 +61,7 @@ Scene7CDNパートナーからの確認電子メールは、リストの作成�
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 型：UrlArray</span> </p> </td> 
    <td> <p> はい </p> </td> 
-   <td> <p> CDNキャッシュから無効にするURLを最大1,000個リストします。 無効にするScene7会社のルートIDは、すべてのURLに含まれている必要があります。 </p> </td> 
+   <td> <p> CDNキャッシュから無効にするURLを最大1,000個リストします。 無効にするDynamic Media会社のルートIDは、すべてのURLに含まれている必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
