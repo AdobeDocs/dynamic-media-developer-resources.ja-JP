@@ -4,10 +4,10 @@ seo-description: 会社ハンドルで指定された会社のユーザーを返
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 15%
@@ -34,14 +34,14 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | メンバーを取得する会社のハンドル。 |
-| ` *`includeInvalid`*` | `xsd:boolean` | はい | 無効な会社を含めます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | メンバーを取得する会社のハンドル。 |
+| `*`includeInvalid`*` | `xsd:boolean` | はい | 無効な会社を含めます。 |
 
 **出力(getCompanyMembersReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`memberArray`*` | `types:CompanyMemberArray` | はい | ユーザーメンバーシップの配列。 |
+| `*`memberArray`*` | `types:CompanyMemberArray` | はい | ユーザーメンバーシップの配列。 |
 
 ## 例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
