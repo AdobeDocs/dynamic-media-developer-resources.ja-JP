@@ -2,10 +2,10 @@
 description: CarouselView.enableHD
 solution: Experience Manager
 title: CarouselView.enableHD
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 17df4a68-a251-427c-a3c4-1e0679e3f8f1
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 6%
