@@ -4,10 +4,10 @@ seo-description: アセットのジョブログを取得します。 配列に�
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 8%
@@ -39,14 +39,14 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | 取得するジョブログを含むアセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 取得するジョブログを含むアセットのハンドル。 |
 
 **出力(getAssetJobLogsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | はい | ジョブログ配列。 |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | はい | ジョブログ配列。 |
 
 ## 例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
