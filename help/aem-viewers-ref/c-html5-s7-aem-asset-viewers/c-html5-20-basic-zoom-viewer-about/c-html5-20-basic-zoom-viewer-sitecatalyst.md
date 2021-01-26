@@ -4,10 +4,10 @@ seo-description: 基本ズームビューアでは、Adobe Analyticsの追跡機
 seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
