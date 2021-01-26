@@ -4,10 +4,10 @@ seo-description: 文字列変換マップ。 任意の数のinternalLocIdにマ�
 seo-title: LocaleStrMap
 solution: Experience Manager
 title: LocaleStrMap
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44207916-80a6-42cb-8bf1-fcf0f5194c6d
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 文字列変換マップ。 任意の数のinternalLocIdにマップできるlocIdを参照します。
 
-` *``*&#42;['|' *`itemitem`*]`
+`*``*&#42;['|' *`itemitem`*]`
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
