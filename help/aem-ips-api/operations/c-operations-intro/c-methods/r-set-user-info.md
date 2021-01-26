@@ -4,10 +4,10 @@ seo-description: ユーザー属性（名前、電子メール、役割など）
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 16%
@@ -34,14 +34,14 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | いいえ | ユーザーハンドル。 |
-| ` *`firstName`*` | `xsd:string` | はい | 名。 |
-| ` *`lastName`*` | `xsd:string` | はい | 姓。 |
-| ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メール。 |
-| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
-| ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 |
-| ` *`isValid`*` | `xsd:boolean` | はい | ユーザが有効なIPSユーザであるかどうかを判定します。 |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
+| `*`userHandle`*` | `xsd:string` | いいえ | ユーザーハンドル。 |
+| `*`firstName`*` | `xsd:string` | はい | 名。 |
+| `*`lastName`*` | `xsd:string` | はい | 姓。 |
+| `*`電子メール`*` | `xsd:string` | はい | ユーザーの電子メール。 |
+| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
+| `*`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 |
+| `*`isValid`*` | `xsd:boolean` | はい | ユーザが有効なIPSユーザであるかどうかを判定します。 |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
 
 **出力(setUserInfoReturn)**
 
