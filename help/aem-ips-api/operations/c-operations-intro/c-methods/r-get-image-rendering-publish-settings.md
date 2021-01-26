@@ -4,10 +4,10 @@ seo-description: 内部でのみ使用します。 詳しくは、「画像レ�
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 14%
@@ -34,12 +34,12 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 画像レンダリング公開設定を取得する会社のハンドル。 |
-| ` *`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 画像レンダリング公開設定を取得する会社のハンドル。 |
+| `*`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
 
 **出力(getImageRenderingPublishSettingsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | はい | 画像レンダリングの公開設定 |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | はい | 画像レンダリングの公開設定 |
 
