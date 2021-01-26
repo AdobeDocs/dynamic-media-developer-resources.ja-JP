@@ -4,10 +4,10 @@ seo-description: Digimarc画像情報 Digimarc埋め込みを有効にし、透�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 12%
@@ -23,9 +23,9 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
 
 カンマで区切られた4つの整数値。
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`typeenables Digimarc埋め込みを有効にし、透かしの種類を次のように指定します。`*` 
+`*`typeenables Digimarc埋め込みを有効にし、透かしの種類を次のように指定します。`*` 
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
  </tbody> 
 </table>
 
-` *``*` フラグは、3つの値を持つビットフィールドです。ビット0はコピー保護されたコンテンツを示し、ビット1は制限付きコンテンツを示し、ビット2は成人向けコンテンツを示します。
+`*``*` フラグは、3つの値を持つビットフィールドです。ビット0はコピー保護されたコンテンツを示し、ビット1は制限付きコンテンツを示し、ビット2は成人向けコンテンツを示します。
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +73,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>コピー保護。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>制限付き </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>コピー保護、制限。 </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
  </tbody> 
 </table>
 
-` *`val1`*`と` *`val2`*`の解釈は、` *`type`*`に依存します。
+`*`val1`*`と`*`val2`*`の解釈は、`*`type`*`に依存します。
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -130,7 +130,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>トランザクションID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
