@@ -1,16 +1,13 @@
 ---
 description: ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
-seo-description: ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | はい | ユーザーの名。 |
-| ` *`lastName`*` | `xsd:string` | はい | ユーザーの姓。 |
-| ` *`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
-| ` *`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
-| ` *`パスワード`*` | `xsd:string` | はい | ユーザーのパスワードを設定します |
-| ` *`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 |
-| ` *`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判定します。 |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
+| `*`firstName`*` | `xsd:string` | はい | ユーザーの名。 |
+| `*`lastName`*` | `xsd:string` | はい | ユーザーの姓。 |
+| `*`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
+| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
+| `*`パスワード`*` | `xsd:string` | はい | ユーザーのパスワードを設定します |
+| `*`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 |
+| `*`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判定します。 |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
 
 **出力(addUserParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | はい | ユーザーのハンドル。 |
+| `*`userHandle`*` | `xsd:string` | はい | ユーザーのハンドル。 |
 
 ## 例 {#section-2547cef622734b71919eef849960b5cb}
 
