@@ -2,10 +2,10 @@
 description: 検索ボタン
 solution: Experience Manager
 title: 検索ボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
