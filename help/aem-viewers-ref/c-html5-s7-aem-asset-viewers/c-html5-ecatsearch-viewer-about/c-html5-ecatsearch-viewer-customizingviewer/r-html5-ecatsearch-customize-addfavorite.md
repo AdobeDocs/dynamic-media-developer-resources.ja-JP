@@ -4,10 +4,10 @@ seo-description: お気に入りボタンの位置は、お気に入りメニュ
 seo-title: 追加お気に入りボタン
 solution: Experience Manager
 title: 追加お気に入りボタン
-topic: Dynamic media
+topic: Dynamic Media
 uuid: decde7d1-d7d1-4056-815c-2b6571110d9f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
