@@ -4,10 +4,10 @@ seo-description: 画像を回転 画像、テキスト、またはべた塗り�
 seo-title: 循環
 solution: Experience Manager
 title: 循環
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 4%
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-`size=`と`hei=`を使用する代わりに、レイヤ0に&lt;a0/>を適用して表示サイズを設定します。 `wid=`これにより、`myImageId`の最終的なサイズを変更せずに`labelImage`のサイズを変更できます。 また、`scl=1`を指定する必要があります。指定しないと、合成画像が`attribute::DefaultPix`に縮小される場合があります（0,0に設定されていない場合）。 `color=` 回転前に、テキストボックスに半透明の背景色を追加します。
+`size=`と`hei=`を使用する代わりに、レイヤ0に`wid=`を適用して表示サイズを設定します。 これにより、`myImageId`の最終的なサイズを変更せずに`labelImage`のサイズを変更できます。 また、`scl=1`を指定する必要があります。指定しないと、合成画像が`attribute::DefaultPix`に縮小される場合があります（0,0に設定されていない場合）。 `color=` 回転前に、テキストボックスに半透明の背景色を追加します。
 
 両方のレイヤーの接触チャネルは、左上隅に設定され、目的の位置に合わせます。 レイヤー1の接触チャネル点は、回転後に`labelImage`に適用されます。
 
