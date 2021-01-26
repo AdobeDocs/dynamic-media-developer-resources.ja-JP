@@ -4,10 +4,10 @@ seo-description: フォルダを削除します。
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 11%
@@ -40,8 +40,8 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | 削除するフォルダーのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 削除するフォルダーのハンドル。 |
 
 **出力(deleteFolderParam)**
 
