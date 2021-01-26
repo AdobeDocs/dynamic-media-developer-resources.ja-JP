@@ -4,10 +4,10 @@ seo-description: 画像の一部をマスクします。 マスクは常に画�
 seo-title: マスク
 solution: Experience Manager
 title: マスク
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 12%
@@ -25,9 +25,9 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`maskHandle`*` | `xsd:string` | マスクハンドル |
-| ` *`name`*` | `xsd:string` | マスク名。 |
-| ` *`maskPath`*` | `xsd:string` | マスクの相対パス。 |
-| ` *`maskFile`*` | `xsd:string` | マスクファイル. |
-| ` *`lastModified`*` | `types:dateTime` | マスクが最後に変更された日付、時刻およびタイムゾーン。 |
+| `*`maskHandle`*` | `xsd:string` | マスクハンドル |
+| `*`name`*` | `xsd:string` | マスク名。 |
+| `*`maskPath`*` | `xsd:string` | マスクの相対パス。 |
+| `*`maskFile`*` | `xsd:string` | マスクファイル. |
+| `*`lastModified`*` | `types:dateTime` | マスクが最後に変更された日付、時刻およびタイムゾーン。 |
 
