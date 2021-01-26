@@ -2,10 +2,10 @@
 description: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b4512555-edab-4818-86c0-e224775ecb2c
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%
