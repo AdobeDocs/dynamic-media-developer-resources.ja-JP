@@ -4,10 +4,10 @@ seo-description: 次のreq=タイプの画像propとpropに応答して、プロ
 seo-title: プロパティ
 solution: Experience Manager
 title: プロパティ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 5%
