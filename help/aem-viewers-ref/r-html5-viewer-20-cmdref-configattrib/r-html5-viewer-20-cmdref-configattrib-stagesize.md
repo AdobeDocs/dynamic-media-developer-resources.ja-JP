@@ -2,10 +2,10 @@
 description: stageSize
 solution: Experience Manager
 title: stageSize
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
