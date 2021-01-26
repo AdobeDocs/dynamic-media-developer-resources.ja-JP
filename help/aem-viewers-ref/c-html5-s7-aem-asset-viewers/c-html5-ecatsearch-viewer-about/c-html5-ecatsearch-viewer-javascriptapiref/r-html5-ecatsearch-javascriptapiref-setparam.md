@@ -4,10 +4,10 @@ seo-description: eCatalogビューアのJavaScript APIリファレンス。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a732461f-1b34-4ebe-9dfd-69175762e574
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 2%
