@@ -4,10 +4,10 @@ seo-description: 特定の会社に属するユーザーのグループメンバ
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`groupHandle`*` | `xsd:string` | はい | グループハンドル |
-| ` *`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを設定するユーザーのハンドルの配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル |
+| `*`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを設定するユーザーのハンドルの配列です。 |
 
 **出力(setGroupMembesReturn)**
 
