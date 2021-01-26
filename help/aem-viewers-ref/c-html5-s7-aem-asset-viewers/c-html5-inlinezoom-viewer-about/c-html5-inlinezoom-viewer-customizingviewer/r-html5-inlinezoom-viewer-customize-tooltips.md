@@ -4,10 +4,10 @@ seo-description: デスクトップシステムでは、ボタンなど一部の
 seo-title: ツールチップ
 solution: Experience Manager
 title: ツールチップ
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 726eb6c1-378b-499e-b4c4-c293db8fdc71
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
