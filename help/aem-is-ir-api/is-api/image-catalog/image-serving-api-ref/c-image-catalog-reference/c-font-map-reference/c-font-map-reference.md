@@ -4,10 +4,10 @@ seo-description: 画像カタログにフォントマップが必要な場合、
 seo-title: フォントマップの参照
 solution: Experience Manager
 title: フォントマップの参照
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
