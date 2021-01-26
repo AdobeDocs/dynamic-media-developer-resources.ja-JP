@@ -1,15 +1,12 @@
 ---
 description: すべてのログファイルは、TCディレクトリで指定された同じログフォルダに書き込まれます。
-seo-description: すべてのログファイルは、TCディレクトリで指定された同じログフォルダに書き込まれます。
-seo-title: サーバーログ
 solution: Experience Manager
 title: サーバーログ
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -25,7 +22,7 @@ ht-degree: 1%
 
 プラットフォームサーバとImage Serverは、以下に示す3種類のログファイルを作成します。
 
-その他の画像サービングコンポーネントや、Scene7ビューアなどの特定のScene7パッケージでも、同じフォルダーにログファイルが作成される場合があります。 これらのログファイルはScene7社内での使用を目的としており、トラブルシューティングの目的でScene7サポートに依頼する場合があります。
+その他の画像サービングコンポーネントや、Dynamic Mediaビューアなどの特定のDynamic Mediaパッケージでも、同じフォルダーにログファイルが作成される場合があります。 これらのログファイルはDynamic Media社内での使用を目的としており、トラブルシューティングの目的で、Dynamic Mediaのテクニカルサポートに依頼する場合があります。
 
 * [アクセスログ](c-access-log.md)
 * [トレースログ](c-trace-log.md)
