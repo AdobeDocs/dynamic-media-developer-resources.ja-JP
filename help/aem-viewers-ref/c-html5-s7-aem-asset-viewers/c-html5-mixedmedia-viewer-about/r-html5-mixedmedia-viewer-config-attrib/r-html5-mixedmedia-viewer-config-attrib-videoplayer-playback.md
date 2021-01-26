@@ -4,10 +4,10 @@ seo-description: 混在メディアビデオビューアの設定属性。
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 7016d414-aa93-4854-8f95-24e94082b5ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 3%
