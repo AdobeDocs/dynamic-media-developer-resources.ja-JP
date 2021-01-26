@@ -1,15 +1,15 @@
 ---
-description: 画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Scene7画像サービング」と表示)であるサーバスーパバイザによって管理されます。
-seo-description: 画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Scene7画像サービング」と表示)であるサーバスーパバイザによって管理されます。
+description: 画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Dynamic Media画像サービング」と表示)であるサーバスーパバイザによって管理されます。
+seo-description: 画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Dynamic Media画像サービング」と表示)であるサーバスーパバイザによって管理されます。
 seo-title: サーバースーパーバイザ
 solution: Experience Manager
 title: サーバースーパーバイザ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # サーバのスーパーバイザ{#server-supervisor}
 
-画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Scene7画像サービング」と表示)であるサーバスーパバイザによって管理されます。
+画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Dynamic Media画像サービング」と表示)であるサーバスーパバイザによって管理されます。
 
 サーバスーパーバイザは、他の画像サービングコンポーネントの起動と停止に加え、他のコンポーネントの正常性を確保する役割を担います。 コンポーネントがクラッシュした場合は、サービスの中断を最小限に抑えるために自動的に再起動されます。
 
