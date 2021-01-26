@@ -4,10 +4,10 @@ seo-description: 名前でオブジェクトを選択します。 指定した�
 seo-title: obj
 solution: Experience Manager
 title: obj
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 5%
