@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: InteractiveSwatches.maxloadradius
 solution: Experience Manager
 title: InteractiveSwatches.maxloadradius
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 12391b8b-532f-4e68-ad60-4dbcc86d9e58
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
