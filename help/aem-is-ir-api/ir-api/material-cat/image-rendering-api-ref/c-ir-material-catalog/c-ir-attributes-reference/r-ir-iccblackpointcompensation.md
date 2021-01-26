@@ -4,10 +4,10 @@ seo-description: ブラックポイントの補正。 icc=で明示的な選択�
 seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 4%
