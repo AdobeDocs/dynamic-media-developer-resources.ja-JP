@@ -4,10 +4,10 @@ seo-description: 階層ツリー構造のフォルダとサブフォルダを返
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 8%
@@ -41,21 +41,21 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーを装うためにのみ使用します。 |
-| ` *`accessGroupHandle`*` | `xsd:string` | いいえ | 会社が属するグループを含む、特定のグループでフィルターするために使用します。 |
-| ` *`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
-| ` *`深さ`*` | `xsd:int` | はい | 値が0の場合、最上位フォルダーが取得されます。 その他の値は、木に降りる深さを指定します。 |
-| ` *`assetTypeArray`*` | `types:StringArray` | いいえ | 指定したアセットタイプのみを含むフォルダを返します。 |
-| ` *`responseFieldArray`*` | `types:StringArray` | いいえ | 応答に含めるフィールドのリストが含まれます。 |
-| ` *`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答から除外するフィールドのリストが含まれます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーを装うためにのみ使用します。 |
+| `*`accessGroupHandle`*` | `xsd:string` | いいえ | 会社が属するグループを含む、特定のグループでフィルターするために使用します。 |
+| `*`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
+| `*`深さ`*` | `xsd:int` | はい | 値が0の場合、最上位フォルダーが取得されます。 その他の値は、木に降りる深さを指定します。 |
+| `*`assetTypeArray`*` | `types:StringArray` | いいえ | 指定したアセットタイプのみを含むフォルダを返します。 |
+| `*`responseFieldArray`*` | `types:StringArray` | いいえ | 応答に含めるフィールドのリストが含まれます。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答から除外するフィールドのリストが含まれます。 |
 
 **出力(getFolderTreeReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`フォルダ`*` | `types:folders` | いいえ | ツリー構造内のフォルダの階層。 応答は最大100,000個のフォルダーに制限されます。 |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`フォルダ`*` | `types:folders` | いいえ | ツリー構造内のフォルダの階層。 応答は最大100,000個のフォルダーに制限されます。 |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
