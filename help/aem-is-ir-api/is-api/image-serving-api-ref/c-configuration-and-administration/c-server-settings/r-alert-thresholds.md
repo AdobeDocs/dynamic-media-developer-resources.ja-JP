@@ -4,10 +4,10 @@ seo-description: これらのサーバー設定を使用して、アラートし
 seo-title: アラートしきい値
 solution: Experience Manager
 title: アラートしきい値
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
