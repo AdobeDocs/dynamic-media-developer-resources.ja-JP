@@ -4,10 +4,10 @@ seo-description: 初期設定のDigimarc画像情報 カタログDigimarcInfoの
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 6%
