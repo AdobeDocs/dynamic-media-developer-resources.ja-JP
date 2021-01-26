@@ -2,10 +2,10 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 8%
