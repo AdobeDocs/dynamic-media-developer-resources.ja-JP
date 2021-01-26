@@ -1,15 +1,12 @@
 ---
-description: HTML5 Video360ビューアは、Scene7パブリッシングシステムまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
-seo-description: HTML5 Video360ビューアは、Scene7パブリッシングシステムまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
-seo-title: ビデオ360
+description: HTML5 Video360ビューアは、Dynamic MediaクラシックまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
 solution: Experience Manager
 title: ビデオ360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # ビデオ360{#video}
 
-HTML5 Video360ビューアは、Scene7パブリッシングシステムまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
+HTML5 Video360ビューアは、Dynamic Media ClassicまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
 
 360度ビデオ（イマーシブビデオまたは球状ビデオとも呼ばれる）は、あらゆる方向の表示を同時に記録し、全方位カメラまたはカメラの集まりを使用して撮影したビデオ録画です。 単一のビデオとアダプティブビデオセットの両方がサポートされています。 ビューアでは、外部の場所にホストされているプログレッシブビデオおよびHLSストリームの操作もサポートされています。
 
