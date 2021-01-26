@@ -4,10 +4,10 @@ seo-description: ICCプロファイルメタデータフィールドを設定し
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 13%
@@ -36,18 +36,18 @@ ICCプロファイルメタデータフィールドを設定します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | ICCプロファイルを含む会社へのハンドル。 |
-| ` *`更新配列`*` | `xsd:string` | はい | ICCプロファイルの更新の配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | ICCプロファイルを含む会社へのハンドル。 |
+| `*`更新配列`*` | `xsd:string` | はい | ICCプロファイルの更新の配列。 |
 
 **出力(batchSetIccProfileFields)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたICCプロファイルフィールドの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | ICCプロファイルフィールドの設定が試行されたときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | ICCプロファイルフィールドの設定を試行したときに生成されたエラーの数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたICCプロファイルフィールドの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | ICCプロファイルフィールドの設定が試行されたときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | ICCプロファイルフィールドの設定を試行したときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
