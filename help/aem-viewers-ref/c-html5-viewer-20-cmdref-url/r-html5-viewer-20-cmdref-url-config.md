@@ -4,10 +4,10 @@ seo-description: すべてのビューアに共通のパラメータ。
 seo-title: config
 solution: Experience Manager
 title: config
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 3%
@@ -99,7 +99,7 @@ config=/etc/dam/presets/viewer/Shoppable_Banner
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## 例5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## 例4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
 `Shoppable_Video_Dark`という名前のビューアプリセットには、次のデータが含まれています。
 
