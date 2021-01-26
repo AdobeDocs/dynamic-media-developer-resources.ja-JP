@@ -1,15 +1,12 @@
 ---
 description: レスポンシブ画像ライブラリをWebページに追加し、ライブラリを使用して既存の画像を管理するには、次の手順を実行します。
-seo-description: レスポンシブ画像ライブラリをWebページに追加し、ライブラリを使用して既存の画像を管理するには、次の手順を実行します。
-seo-title: レスポンシブ画像ライブラリの使用
 solution: Experience Manager
 title: レスポンシブ画像ライブラリの使用
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ ht-degree: 0%
 
 **スマート切り抜きの使用**
 
-AEM 6.4およびScene7ビューア5.9では、次の2つのスマート切り抜きモードを使用できます。
+AEM 6.4およびDynamic Mediaビューア5.9では、次の2つのスマート切り抜きモードを使用できます。
 
 * **手動**  — ユーザー定義のブレークポイントおよび対応する画像サービスコマンドは、画像要素の属性内で定義されます。
 * **スマート切り抜き** ：計算済みのスマート切り抜きレンディションは、配信サーバから自動的に取得されます。最適なレンディションは、画像要素の実行時のサイズを使用して選択されます。
