@@ -4,10 +4,10 @@ seo-description: ビデオビューアのJavaScript APIリファレンス。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c1bc5271-2444-4f6b-8bed-5df88ecd59f8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 2%
