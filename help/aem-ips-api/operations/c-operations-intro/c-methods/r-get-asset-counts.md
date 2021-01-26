@@ -4,10 +4,10 @@ seo-description: 特定の会社に関連付けられているアセットとア
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -40,13 +40,13 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | カウントするアセットを含む会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | カウントするアセットを含む会社へのハンドル。 |
 
 **出力(getAssetCountsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | いいえ | アセットタイプの配列。それぞれに独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
+| `*`countArray`*` | `types:AssetCountArray` | いいえ | アセットタイプの配列。それぞれに独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
 
 ## 例 {#section-6052a503eb3843f6adb99e200fdba280}
 
