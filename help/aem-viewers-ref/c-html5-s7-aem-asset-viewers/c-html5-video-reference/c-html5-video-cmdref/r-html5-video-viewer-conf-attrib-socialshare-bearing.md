@@ -4,10 +4,10 @@ seo-description: ビデオビューアの設定属性。
 seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7d92d63-a4c2-4bd9-b0fd-fdfd47504a39
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
