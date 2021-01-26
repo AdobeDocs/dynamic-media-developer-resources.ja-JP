@@ -4,10 +4,10 @@ seo-description: 特定のアセットに関連付けられているジョブロ
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 5%
