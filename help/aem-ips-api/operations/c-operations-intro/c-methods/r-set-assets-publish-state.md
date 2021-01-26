@@ -4,10 +4,10 @@ seo-description: アセットのバッチを発行する準備ができている
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -40,18 +40,18 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | はい | アセットの公開状態値の配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | はい | アセットの公開状態値の配列。 |
 
 **出力(setAssetsPublishStateParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に更新されたアセットの数。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作が更新を試みたときに警告を生成したアセットの数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がアセットを削除しようとしたときにエラーが発生したアセットの数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 警告を生成したアセットの更新に関連付けられた詳細。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | エラーを生成したアセットの更新に関連付けられた詳細。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に更新されたアセットの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作が更新を試みたときに警告を生成したアセットの数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がアセットを削除しようとしたときにエラーが発生したアセットの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 警告を生成したアセットの更新に関連付けられた詳細。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | エラーを生成したアセットの更新に関連付けられた詳細。 |
 
 ## 例 {#section-38cfdd3436214a06a1bae16875501d51}
 
