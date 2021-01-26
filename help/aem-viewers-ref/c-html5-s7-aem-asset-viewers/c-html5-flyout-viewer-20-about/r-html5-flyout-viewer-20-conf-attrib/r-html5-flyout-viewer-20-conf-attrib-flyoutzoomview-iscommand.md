@@ -2,10 +2,10 @@
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
 title: FlyoutZoomView.iscommand
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1e8dcafb-33ef-42ea-8636-b3b7de81dfbd
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 7%
