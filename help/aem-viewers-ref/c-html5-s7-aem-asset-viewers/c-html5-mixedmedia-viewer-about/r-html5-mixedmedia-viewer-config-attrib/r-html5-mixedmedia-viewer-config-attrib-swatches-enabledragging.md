@@ -2,10 +2,10 @@
 description: Swatches.enabledragging
 solution: Experience Manager
 title: Swatches.enabledragging
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 6%
