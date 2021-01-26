@@ -4,10 +4,10 @@ seo-description: スピンビューアのJavaScript APIリファレンス。
 seo-title: SpinViewer
 solution: Experience Manager
 title: SpinViewer
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e9048f17-7a2a-4eae-a5a0-df14f16aebc5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 3%
