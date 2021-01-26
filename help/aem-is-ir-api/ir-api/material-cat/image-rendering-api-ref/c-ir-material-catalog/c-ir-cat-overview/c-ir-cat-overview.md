@@ -4,10 +4,10 @@ seo-description: マテリアルカタログは、ビネット、マテリアル
 seo-title: 材料カタログの概要*
 solution: Experience Manager
 title: 材料カタログの概要*
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **マテリアルカタログを更新する**
 
-サーバは、カタログフォルダを継続的に監視し、メインカタログ属性ファイルが変更されたことを検出すると、関連するカタログデータファイルを含むマテリアルカタログを自動的に再ロードします。 したがって、サーバ上のマテリアルカタログを更新するには、まず変更する必要のあるすべてのカタログデータファイルを置き換えてから、カタログ属性ファイルを置き換えて（「タッチ」）、カタログの再読み込みを行います。
+サーバは、カタログフォルダを継続的に監視し、メインカタログ属性ファイルが変更されたことを検出すると、関連するカタログデータファイルを含むマテリアルカタログを自動的に再ロードします。 したがって、サーバ上のマテリアルカタログを更新するには、まず変更する必要のあるすべてのカタログデータファイルを置き換えてから、カタログ属性ファイルを置き換えて（「タッチ」）、カタログの再読み込みをトリガーします。
 
 **初期設定のカタログ**
 
