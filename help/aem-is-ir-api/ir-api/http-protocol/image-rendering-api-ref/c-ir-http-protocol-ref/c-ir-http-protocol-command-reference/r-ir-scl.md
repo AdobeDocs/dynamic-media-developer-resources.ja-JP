@@ -4,10 +4,10 @@ seo-description: スケール表示 最大解像度のビネットを基準に�
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-URL内で`scl=`が`wid=`または`hei=`の後に来る場合、&lt;a0/>はこれらのコマンドをキャンセルし、`scl=`はサーバーから返される画像のサイズを定義します。
+URL内で`scl=`が`wid=`または`hei=`の後に来る場合、はこれらのコマンドをキャンセルし、`scl=`はサーバーから返される画像のサイズを定義します。
 
 ただし、URL内で`wid=`または`hei=`が`scl=`の後に来る場合、`scl=`と`wid=`/ `hei=`はキャンセルされ、サーバから返される画像のサイズを定義します。
 
