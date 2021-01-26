@@ -4,10 +4,10 @@ seo-description: すべてのビューアに共通のパラメータ。
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef9870f9-599b-449d-b713-66abafb80311
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
