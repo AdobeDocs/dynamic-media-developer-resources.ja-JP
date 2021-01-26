@@ -4,12 +4,12 @@ seo-description: 一般的なサーバー設定
 seo-title: 一般
 solution: Experience Manager
 title: 一般
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## TC::PsPort — メインリスニングポート{#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-プラットフォームサーバーのメインリスニングポートを指定します。 このポートは、画像サービング、画像レンダリング、Scene7ビューア（インストールされている場合）のドキュメントおよび例のページにアクセスするためにも使用されます。
+プラットフォームサーバーのメインリスニングポートを指定します。 このポートは、画像サービング、画像レンダリング、Dynamic Mediaビューア（インストールされている場合）のドキュメントおよび例のページにアクセスするためにも使用されます。
 
 ## IS::CacheServerUrl — キャッシュサービスルートURL {#section-bcca227a1f91453b834db4ea050968e2}
 
