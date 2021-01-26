@@ -4,10 +4,10 @@ seo-description: バッチモードを使用してアセットのメタデータ
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 13%
@@ -36,18 +36,18 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | バッチ操作で設定するメタデータを持つ会社のハンドル。 |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | はい | アセットに適用されたメタデータ更新の配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | バッチ操作で設定するメタデータを持つ会社のハンドル。 |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | はい | アセットに適用されたメタデータ更新の配列。 |
 
 **出力(batchSetAssetMetadataParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に設定されたメタデータの数です。 |
-| ` *`warningCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成された警告の数です。 |
-| ` *`errorCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成されたエラーの数です。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとした場合に警告を生成するアセットに関連付けられた詳細の配列です。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成する、アセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたメタデータの数です。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試行したときに生成されたエラーの数です。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとした場合に警告を生成するアセットに関連付けられた詳細の配列です。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成する、アセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-2de798ac920e4b47b971b1729a64395b}
 
