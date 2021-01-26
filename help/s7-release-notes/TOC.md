@@ -5,11 +5,11 @@ description: AdobeDynamic Mediaクラシックのリリースノート
 seo-description: Adobe Experience CloudのAdobe Experience Managerソリューションの一部であるAdobeDynamic Mediaクラシックのリリースノートです。
 author: Rick Brough
 cloud: experience-cloud
-product: dynamic media classic
+product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 1%
