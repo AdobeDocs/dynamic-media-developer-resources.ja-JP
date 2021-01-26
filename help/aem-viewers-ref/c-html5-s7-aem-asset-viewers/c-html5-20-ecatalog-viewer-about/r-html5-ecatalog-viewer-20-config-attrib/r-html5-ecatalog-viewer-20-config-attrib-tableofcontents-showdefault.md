@@ -2,10 +2,10 @@
 description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 244a8485-a615-4155-a5a9-9d468ac3208f
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 11%
