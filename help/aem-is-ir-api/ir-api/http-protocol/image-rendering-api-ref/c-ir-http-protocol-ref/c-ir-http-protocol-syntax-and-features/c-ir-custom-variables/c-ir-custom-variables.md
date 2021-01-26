@@ -4,10 +4,10 @@ seo-description: 要求のクエリ部分とビネット修飾子の文字列に
 seo-title: カスタム変数
 solution: Experience Manager
 title: カスタム変数
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
