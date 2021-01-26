@@ -4,10 +4,10 @@ seo-description: 混在メディアビューアのJavaScript APIリファレン�
 seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 86e2e70e-2147-4e63-9204-7a7a8566c3e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 2%
