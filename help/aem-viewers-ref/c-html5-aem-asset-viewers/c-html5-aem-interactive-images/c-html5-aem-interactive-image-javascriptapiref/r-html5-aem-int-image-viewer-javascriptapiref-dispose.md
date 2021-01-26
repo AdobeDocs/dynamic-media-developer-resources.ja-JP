@@ -4,10 +4,10 @@ seo-description: ビデオ画像ビューアのJavaScript APIリファレンス�
 seo-title: 処分する
 solution: Experience Manager
 title: 処分する
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d9698486-8ffd-4b12-844b-e80b929675ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
