@@ -4,10 +4,10 @@ seo-description: 既存のプライマリソース画像アセットから派生
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
@@ -42,19 +42,19 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 新しいアセットの派生元となるアセットを含む会社へのハンドル。 |
-| ` *`ownerHandle`*` | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
-| ` *`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットを作成するフォルダーへのハンドル。 |
-| ` *`name`*` | `xsd:string` | はい | 派生したアセットの名前。 |
-| ` *`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ。`AdjustedView`または`LayerView`。 |
-| ` *`urlModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの前に&#x200B;*適用された画像サービングまたは画像レンダリングプロトコルコマンド。* |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドに&#x200B;*後ろに*&#x200B;適用された画像サービングまたは画像レンダリングプロトコルコマンド。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 新しいアセットの派生元となるアセットを含む会社へのハンドル。 |
+| `*`ownerHandle`*` | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットを作成するフォルダーへのハンドル。 |
+| `*`name`*` | `xsd:string` | はい | 派生したアセットの名前。 |
+| `*`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ。`AdjustedView`または`LayerView`。 |
+| `*`urlModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの前に&#x200B;*適用された画像サービングまたは画像レンダリングプロトコルコマンド。* |
+| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドに&#x200B;*後ろに*&#x200B;適用された画像サービングまたは画像レンダリングプロトコルコマンド。 |
 
 **出力(createDerivedAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | はい | 派生したアセットのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 派生したアセットのハンドル。 |
 
 ## 例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
