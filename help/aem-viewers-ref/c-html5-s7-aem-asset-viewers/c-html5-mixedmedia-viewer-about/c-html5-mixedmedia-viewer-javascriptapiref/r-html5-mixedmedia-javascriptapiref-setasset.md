@@ -4,10 +4,10 @@ seo-description: 混在メディアビューアのJavaScript APIリファレン�
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
