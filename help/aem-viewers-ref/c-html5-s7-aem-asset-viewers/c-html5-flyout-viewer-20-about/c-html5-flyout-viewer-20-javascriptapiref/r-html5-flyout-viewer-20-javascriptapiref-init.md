@@ -4,10 +4,10 @@ seo-description: フライアウトビューアのJavaScript APIリファレン�
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e5d990af-1c5a-4253-8ecd-b51119cee3a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 2%
