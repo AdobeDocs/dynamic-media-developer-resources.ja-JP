@@ -4,10 +4,10 @@ seo-description: カタログのRootIdを除く、すべてのカタログ属性
 seo-title: 属性リファレンス
 solution: Experience Manager
 title: 属性リファレンス
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
