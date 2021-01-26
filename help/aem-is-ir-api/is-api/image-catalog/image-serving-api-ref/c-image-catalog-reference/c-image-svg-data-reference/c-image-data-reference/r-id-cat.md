@@ -2,10 +2,10 @@
 description: カタログレコード識別子
 solution: Experience Manager
 title: ID
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9803d754-1f94-4e5d-9a40-3936676c0035
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 8%
