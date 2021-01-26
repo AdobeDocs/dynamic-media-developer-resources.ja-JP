@@ -2,10 +2,9 @@
 description: 障害
 solution: Experience Manager
 title: 障害
-topic: Scene7 Image Production System API
-uuid: d0b43b80-8c41-42e9-9216-3bb39682ec31
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '6'
 ht-degree: 0%
