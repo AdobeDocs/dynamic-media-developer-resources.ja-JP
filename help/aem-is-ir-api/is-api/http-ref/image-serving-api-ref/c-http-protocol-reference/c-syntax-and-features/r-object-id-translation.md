@@ -4,10 +4,10 @@ seo-description: 画像サービングには、外部オブジェクトIDをロ�
 seo-title: オブジェクトIDの変換
 solution: Experience Manager
 title: オブジェクトIDの変換
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 `attribute::LocaleMap` 汎用オブジェクトIDと `locale=` 値を入力として指定され、サーバーがローカライズされたコンテンツのIDを決定するために使用するルールを定義します。
 
-`attribute::LocaleMap` は、入力 *ロケール* （で指定した値と一致）のリストで構成され、各ロケールには何も出力されない(locSuffixes `locale=` ` *``*`)かそれ以上の出力ロケールサフィックスが含まれます。
+`attribute::LocaleMap` は、入力 *ロケール* （で指定した値と一致）のリストで構成され、各ロケールには何も出力されない(locSuffixes `locale=` `*``*`)かそれ以上の出力ロケールサフィックスが含まれます。
 
 例えば、`attribute::LocaleMap`は次のようになります。
 
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 ## 不明なロケール{#section-b2f3c83f2dc845d69b5908107b775537}
 
-上記の例で、`attribute::LocaleMap`には空の&#x200B;*`locale`*&#x200B;が含まれています。この&lt;a1/>は、不明な`locale=`値（つまり、翻訳マップに明示的に指定されていない値）に使用される、デフォルトの変換ルールを定義します。 この変換マップがリクエスト`/is/image/myCat/myImg?locale=ja`に適用された場合、`myCat/myImg_E`に解決されます（存在する場合）。それ以外の場合は`myCat/myImg`に解決されます。
+上記の例で、`attribute::LocaleMap`には空の&#x200B;*`locale`*&#x200B;が含まれています。このは、不明な`locale=`値（つまり、翻訳マップに明示的に指定されていない値）に使用される、デフォルトの変換ルールを定義します。 この変換マップがリクエスト`/is/image/myCat/myImg?locale=ja`に適用された場合、`myCat/myImg_E`に解決されます（存在する場合）。それ以外の場合は`myCat/myImg`に解決されます。
 
 変換マップでデフォルトの変換ルールが指定されていない場合、`locale=`値が不明なすべてのリクエストに対してエラーが返されます。
 
@@ -61,7 +61,7 @@ ht-degree: 9%
 
 ロケール（ヨーロッパ、中東、北米など）をグループ化して地域の基準に対応することが望ましい場合が多くあります。 これは、多層検索を使用して実現できます。
 
-この例では、西欧で使用するコレクションと中東で使用するコレクションをサポートします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。次に、両方のコレクションが特定のロケール用にさらに絞り込まれます（2つの中東のバリエーションが`m1`、`m2`、および`w1`、`w2`、`w3`、西欧の3つのロケールが共有されます）。 `w3``w1`不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。
+この例では、西欧で使用するコレクションと中東で使用するコレクションをサポートします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。次に、両方のコレクションが特定のロケール用にさらに絞り込まれます（2つの中東のバリエーションが`m1`、`m2`、および`w1`、`w2`、`w3`、西欧の3つのロケールが共有されます）。 `w1``w3`不明なロケールは汎用のコレクションのみにマッピングされ、ロケール固有の画像にはアクセスされません。
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
