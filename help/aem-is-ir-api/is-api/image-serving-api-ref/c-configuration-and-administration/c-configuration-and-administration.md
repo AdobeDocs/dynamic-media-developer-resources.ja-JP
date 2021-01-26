@@ -4,10 +4,10 @@ seo-description: この節の情報を使用して、Image Serverを設定およ
 seo-title: 設定と管理
 solution: Experience Manager
 title: 設定と管理
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95cc72b9-0e99-42ff-8caf-8f3b35cb5cd2
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 2%
