@@ -4,10 +4,10 @@ seo-description: 色変換ディザリング。 icc=で明示的な選択が行�
 seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 93260809-8eab-40df-aff3-466ee391d654
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 3%
