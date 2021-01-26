@@ -4,10 +4,10 @@ seo-description: 関心領域 合成画像の矩形の目標領域(ROI)をピク
 seo-title: rgn
 solution: Experience Manager
 title: rgn
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 3%
