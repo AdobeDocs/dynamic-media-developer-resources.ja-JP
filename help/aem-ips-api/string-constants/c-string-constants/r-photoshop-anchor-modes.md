@@ -4,10 +4,10 @@ seo-description: photoshopOptions/anchorで使用されます。
 seo-title: Photoshopアンカーモード
 solution: Experience Manager
 title: Photoshopアンカーモード
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7dd313ce-7e09-4b31-9005-4c2c319e42f8
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 8%
