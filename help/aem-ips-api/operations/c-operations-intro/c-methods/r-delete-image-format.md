@@ -4,10 +4,10 @@ seo-description: 画像形式を削除します。 saveImageFormatから画像�
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 10%
@@ -34,8 +34,8 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除する画像形式が含まれる会社へのハンドルです。 |
-| ` *`imageFormatHandle`*` | `xsd:string` | はい | 削除する画像形式のハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 削除する画像形式が含まれる会社へのハンドルです。 |
+| `*`imageFormatHandle`*` | `xsd:string` | はい | 削除する画像形式のハンドル。 |
 
 **出力(deleteImageFormatParam)**
 
