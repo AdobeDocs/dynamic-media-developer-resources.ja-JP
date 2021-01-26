@@ -4,10 +4,10 @@ seo-description: データキャッシュは設定できます。
 seo-title: データキャッシュ
 solution: Experience Manager
 title: データキャッシュ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e97fad8d-b3b6-4cc2-a96c-62c96824384c
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 5%
