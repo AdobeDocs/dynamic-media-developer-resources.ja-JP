@@ -1,15 +1,12 @@
 ---
-description: 画像サービングユーティリティガイドには、Scene7Image Serverと画像レンダリングで使用されるユーティリティに関する情報が含まれています。
-seo-description: 画像サービングユーティリティガイドには、Scene7Image Serverと画像レンダリングで使用されるユーティリティに関する情報が含まれています。
-seo-title: 画像サービングユーティリティ
+description: 画像サービングユーティリティガイドには、Dynamic MediaImage Serverと画像レンダリングで使用されるユーティリティに関する情報が含まれています。
 solution: Experience Manager
 title: 画像サービングユーティリティ
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d79e5dbc-0d1a-4bd2-8d0d-d5bc0344a30f
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 画像サービングユーティリティ{#image-serving-utilities}
 
-画像サービングユーティリティガイドには、Scene7Image Serverと画像レンダリングで使用されるユーティリティに関する情報が含まれています。
+画像サービングユーティリティガイドには、Dynamic MediaImage Serverと画像レンダリングで使用されるユーティリティに関する情報が含まれています。
 
 * [ユーティリティの場所](c-location-of-utilities.md)
 * [ic](r-ic.md)
