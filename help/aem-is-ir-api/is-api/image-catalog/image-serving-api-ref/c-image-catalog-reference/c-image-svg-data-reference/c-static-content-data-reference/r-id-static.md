@@ -2,10 +2,10 @@
 description: ID
 solution: Experience Manager
 title: ID
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 45a79636-3fa9-4f2a-98bb-a46c9b627dd4
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 5%
