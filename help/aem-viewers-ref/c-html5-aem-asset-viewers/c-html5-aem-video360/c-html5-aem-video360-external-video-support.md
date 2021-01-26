@@ -4,10 +4,10 @@ seo-description: ビューアは、SPSまたはAEMDynamic Mediaの外部でホ�
 seo-title: 外部ビデオのサポート
 solution: Experience Manager
 title: 外部ビデオのサポート
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
