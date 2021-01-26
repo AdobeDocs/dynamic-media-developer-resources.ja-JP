@@ -4,10 +4,10 @@ seo-description: この節では、Image Rendering Serverの設定と管理に�
 seo-title: サーバーの設定と管理
 solution: Experience Manager
 title: サーバーの設定と管理
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
