@@ -1,16 +1,13 @@
 ---
 description: 既存のタグフィールドの辞書に新しいタグ値を追加します。
-seo-description: 既存のタグフィールドの辞書に新しいタグ値を追加します。
-seo-title: addTagFieldValues
 solution: Experience Manager
 title: addTagFieldValues
-topic: Scene7 Image Production System API
-uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -33,9 +30,9 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
-| ` *`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
-| ` *`valueArray`*` | `xsd:string` | はい | フィールドの既存の辞書に追加するタグ値の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
+| `*`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
+| `*`valueArray`*` | `xsd:string` | はい | フィールドの既存の辞書に追加するタグ値の配列です。 |
 
 **出力(addTagFieldValuesParam)**
 
