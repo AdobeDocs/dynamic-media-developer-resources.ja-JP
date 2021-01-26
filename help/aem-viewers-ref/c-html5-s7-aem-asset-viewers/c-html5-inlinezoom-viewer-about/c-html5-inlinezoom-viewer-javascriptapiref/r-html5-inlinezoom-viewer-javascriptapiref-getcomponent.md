@@ -4,10 +4,10 @@ seo-description: インラインズームビューアのJavaScript APIリファ�
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 75c01024-a734-415a-898a-f91b6bc6a580
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
