@@ -4,10 +4,10 @@ seo-description: カタログデータファイルには、任意の名前とフ
 seo-title: カタログデータファイル
 solution: Experience Manager
 title: カタログデータファイル
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f66e2fe-5b8a-43d3-bf2e-8dd79da6a581
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
