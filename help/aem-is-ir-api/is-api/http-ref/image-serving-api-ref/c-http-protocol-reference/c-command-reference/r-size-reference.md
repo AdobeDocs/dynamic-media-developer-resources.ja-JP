@@ -1,13 +1,13 @@
 ---
-description: レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前に、レイヤーのサイズまたは最大レイヤーサイズを指定します。
-seo-description: レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前に、レイヤーのサイズまたは最大レイヤーサイズを指定します。
+description: レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前の、レイヤーのサイズまたは最大レイヤーサイズを指定します。
+seo-description: レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前の、レイヤーのサイズまたは最大レイヤーサイズを指定します。
 seo-title: サイズ
 solution: Experience Manager
 title: サイズ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # サイズ{#size}
 
-レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前に、レイヤーのサイズまたは最大レイヤーサイズを指定します。
+レイヤーのサイズ rotate=、perspective=およびextend=をレイヤーに適用する前の、レイヤーのサイズまたは最大レイヤーサイズを指定します。
 
 ` size= *``*, *`widthheight`*`
 
