@@ -1,15 +1,15 @@
 ---
-description: Scene7画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-description: Scene7画像サービングをアップグレードする場合は、次の手順を実行します。
+description: Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
+seo-description: Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
 seo-title: IS 4.7.4以降からの更新
 solution: Experience Manager
 title: IS 4.7.4以降からの更新
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # IS 4.7.4以降からの更新{#updating-from-is-or-later}
 
-Scene7画像サービングをアップグレードする場合は、次の手順を実行します。
+Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
 
 古いバージョンの画像サービングからアップグレードする場合は、適切なプロセスについてサポートにお問い合わせください。
 
