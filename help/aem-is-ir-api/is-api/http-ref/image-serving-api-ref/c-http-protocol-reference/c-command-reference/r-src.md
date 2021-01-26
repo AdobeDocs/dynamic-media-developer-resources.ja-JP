@@ -4,13 +4,13 @@ seo-description: レイヤー画像。
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 2%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ ht-degree: 2%
 入れ子のリクエストや埋め込みのリクエストは、中括弧で囲みます。 埋め込まれた画像サービング要求の先頭に`is`、埋め込まれた画像レンダリング要求の先頭に`ir`を、FXGグラフィックレンダリング要求の先頭に`fxg`を付けます。 プレフィックスが指定されていない場合、外部サーバーへの要求と見なされます。
 
 「[リクエストのネストと埋め込み](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)」を参照してください。
-
->[!NOTE]
->
->FXGグラフィックスレンダリングは、Scene7のホスト環境でのみ使用でき、追加のライセンスが必要な場合があります。 詳しくは、Scene7サポートにお問い合わせください。
 
 ## プロパティ {#section-2c22bb89a35d470f833df8ba898efd93}
 
