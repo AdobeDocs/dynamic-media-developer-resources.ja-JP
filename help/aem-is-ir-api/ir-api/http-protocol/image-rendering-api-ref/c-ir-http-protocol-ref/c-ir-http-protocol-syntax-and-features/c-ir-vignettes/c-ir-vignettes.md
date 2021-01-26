@@ -1,15 +1,12 @@
 ---
-description: ビネットとは、Scene7画像オーサリングで作成され、画像レンダリングで使用する画像です。
-seo-description: ビネットとは、Scene7画像オーサリングで作成され、画像レンダリングで使用する画像です。
-seo-title: ビネット
+description: ビネットとは、Dynamic Media画像オーサリングで作成され、画像レンダリングで使用する画像です。
 solution: Experience Manager
 title: ビネット
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # ビネット{#vignettes}
 
-ビネットとは、Scene7画像オーサリングで作成され、画像レンダリングで使用する画像です。
+ビネットとは、Dynamic Media画像オーサリングで作成され、画像レンダリングで使用する画像です。
 
 IRは、*2D*&#x200B;と&#x200B;*3D*&#x200B;の2種類の基本的なビネットをサポートしています。 ルームシーンは通常、反射をレンダリングできる3Dビネットですが、衣料や表装などの他のほとんどのシーンは、通常、反射レンダリング機能を持たない2Dビネットです。
 
