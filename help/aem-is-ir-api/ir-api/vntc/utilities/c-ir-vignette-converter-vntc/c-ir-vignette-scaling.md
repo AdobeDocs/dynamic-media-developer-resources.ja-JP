@@ -4,12 +4,12 @@ seo-description: 4種類の一般的な実稼働ビネットがサポートさ�
 seo-title: ビネットの拡大/縮小
 solution: Experience Manager
 title: ビネットの拡大/縮小
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    望ましいレンダリングイメージのサイズがすべてわかっている場合に推奨します。 レンダリング後に画像を拡大縮小する必要がないので、単一解像度やピラミッドビネットよりも高い画質と高速なレンダリングを提供します。
 * ビラミッド
 
-   すべての目的に最適です。複数の画像サイズが必要で、正確なサイズが事前に決定されていない場合や、Scene7Flashのズームビューアの1つを使用する場合に推奨されます。
+   すべての目的に最適です。複数の画像サイズが必要で、正確なサイズが事前に決定されていない場合や、Dynamic Mediaズームビューアを使用する場合に推奨されます。
 * 1つ以上の解像度を持つピラミッド
 
    特定のサイズに高品質を提供しながら、柔軟性とズームビューアのサポートを提供します。
