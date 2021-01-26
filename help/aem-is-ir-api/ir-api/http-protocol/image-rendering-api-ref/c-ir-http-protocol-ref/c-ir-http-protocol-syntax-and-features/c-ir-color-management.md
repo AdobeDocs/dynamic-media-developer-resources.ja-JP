@@ -4,10 +4,10 @@ seo-description: 画像レンダリングは、ICC(International Color Consortiu
 seo-title: 画像レンダリングのカラーマネジメント*
 solution: Experience Manager
 title: 画像レンダリングのカラーマネジメント*
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 translation-type: tm+mt
-source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
