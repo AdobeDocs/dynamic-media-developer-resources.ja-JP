@@ -4,10 +4,10 @@ seo-description: 会社へのハンドルを使用してプロパティセット
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 9%
@@ -39,8 +39,8 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 プロパティセットタイプは複数の会社に属することがあるので、オプションです。 |
-| ` *`name`*` | `xsd:string` | はい | プロパティセットの種類の名前。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 プロパティセットタイプは複数の会社に属することがあるので、オプションです。 |
+| `*`name`*` | `xsd:string` | はい | プロパティセットの種類の名前。 |
 
 **出力(getPropertySetTypeReturn)**
 
