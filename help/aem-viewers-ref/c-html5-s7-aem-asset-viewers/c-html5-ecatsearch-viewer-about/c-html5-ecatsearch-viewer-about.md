@@ -1,16 +1,14 @@
 ---
 description: eCatalog検索ビューアは、見開き別またはページ別の見開き別に電子パンフレットを表示するカタログビューアです。eCatalogを使用すると、ユーザーは追加のユーザーインターフェイス要素または専用のサムネールモードでカタログ内を移動できます。 また、各ページでズームインして詳細を確認することもできます。
 keywords: responsive
-seo-description: eCatalog検索ビューアは、見開き別またはページ別の見開き別に電子パンフレットを表示するカタログビューアです。eCatalogを使用すると、ユーザーは追加のユーザーインターフェイス要素または専用のサムネールモードでカタログ内を移動できます。 また、各ページでズームインして詳細を確認することもできます。
-seo-title: eCatalog検索
 solution: Experience Manager
 title: eCatalog検索
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Viewerの検索機能は、メインツールバーの鏡のようなアイコ�
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-ビューアをAdobe Scene7サーバの1つにデプロイし、同じドメインから供給している場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobe Scene7サーバーの1つへのフルパスを指定します。
+ビューアがAdobeのDynamic Mediaサーバの1つにデプロイされ、同じドメインから供給されている場合は、相対パスを使用できます。 それ以外の場合は、ISビューアがインストールされているAdobeDynamic Mediaサーバの1つへのフルパスを指定します。
 
 相対パスは次のようになります。
 
