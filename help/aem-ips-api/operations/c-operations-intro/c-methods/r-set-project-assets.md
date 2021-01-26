@@ -4,10 +4,10 @@ seo-description: プロジェクト内のアセットの割り当てまたは更
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 18%
@@ -36,15 +36,15 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`projectHandle`*` | `xsd:string` | はい | プロジェクトハンドル |
-| ` *`assetHandleArray`*` | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
+| `*`companyName`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`projectHandle`*` | `xsd:string` | はい | プロジェクトハンドル |
+| `*`assetHandleArray`*` | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
 
 **出力(setProjectAssetsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数。 |
 
 ## 例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
