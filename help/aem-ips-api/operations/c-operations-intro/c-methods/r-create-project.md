@@ -4,10 +4,10 @@ seo-description: 新しいプロジェクトを作成します。
 seo-title: createProject
 solution: Experience Manager
 title: createProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 18%
@@ -36,14 +36,14 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 新しいプロジェクトに関連付けられている会社のハンドル。 |
-| ` *`projectName`*` | `xsd:string` | はい | 新しいプロジェクト名。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 新しいプロジェクトに関連付けられている会社のハンドル。 |
+| `*`projectName`*` | `xsd:string` | はい | 新しいプロジェクト名。 |
 
 **出力(createProjectParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | はい | 新しいプロジェクトのハンドル。 |
+| `*`projectHandle`*` | `xsd:string` | はい | 新しいプロジェクトのハンドル。 |
 
 ## 例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
