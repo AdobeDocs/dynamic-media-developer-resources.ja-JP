@@ -4,10 +4,10 @@ seo-description: ネスト/埋め込みの画像サービング要求と画像�
 seo-title: 補助的なデータキャッシュ
 solution: Experience Manager
 title: 補助的なデータキャッシュ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10ce998e-e300-4d24-9d92-a8693dade327
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
