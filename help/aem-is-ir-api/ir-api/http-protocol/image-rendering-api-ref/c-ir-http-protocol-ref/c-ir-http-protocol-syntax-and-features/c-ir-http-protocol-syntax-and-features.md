@@ -1,15 +1,15 @@
 ---
-description: この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
-seo-description: この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
+description: この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
+seo-description: この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
 seo-title: HTTPプロトコルの構文と機能
 solution: Experience Manager
 title: HTTPプロトコルの構文と機能
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # HTTPプロトコル構文と機能{#http-protocol-syntax-and-features}
 
-この節では、HTTPプロトコルの構文について説明し、Scene7の画像レンダリングの特徴を示します。
+この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
 
 * [イメージレンダリングHTTPプロトコルの基本構文](r-ir-basic-syntax.md)
 * [イメージレンダリングHTTPプロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
