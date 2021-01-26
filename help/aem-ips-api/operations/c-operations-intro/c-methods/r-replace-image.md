@@ -4,10 +4,10 @@ seo-description: 画像アセットの画像データを置換します。
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -36,15 +36,15 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | はい | 置き換える会社を含む画像へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | 置き換えるアセットのハンドル。 |
-| ` *`urlModifier`*` | `xsd:string` | はい | 新しい画像データを生成するImage Serverコマンド。 |
+| `*`companyName`*` | `xsd:string` | はい | 置き換える会社を含む画像へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 置き換えるアセットのハンドル。 |
+| `*`urlModifier`*` | `xsd:string` | はい | 新しい画像データを生成するImage Serverコマンド。 |
 
 **出力(replaceImageReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | はい | 新しいアセットのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 新しいアセットのハンドル。 |
 
 ## 例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
