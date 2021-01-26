@@ -4,10 +4,10 @@ seo-description: AutoCropColorOptions/cornerで使用されます。
 seo-title: 角を自動切り抜き
 solution: Experience Manager
 title: 角を自動切り抜き
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 684b4651-2978-4a11-b034-9423fe199b5e
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '20'
 ht-degree: 10%
