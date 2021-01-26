@@ -4,10 +4,10 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: InteractiveSwatches.direction
 solution: Experience Manager
 title: InteractiveSwatches.direction
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 08095ab5-f74b-4da6-8f8d-df377995455e
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 4%
