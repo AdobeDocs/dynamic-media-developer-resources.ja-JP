@@ -4,10 +4,10 @@ seo-description: アセットの名前を変更します。
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | 名前を変更するアセットのハンドル。 |
-| ` *`newName`*` | `xsd:string` | はい | アセットの新しい名前。 |
-| ` *`validateName`*` | `xsd:boolean` | はい | `validateName`が`true`で、アセットタイプに一意のIPS IDが必要な場合、新しい名前はグローバル一意性がチェックされ、一意でない場合は`renameAsset`によってエラーがスローされます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 名前を変更するアセットのハンドル。 |
+| `*`newName`*` | `xsd:string` | はい | アセットの新しい名前。 |
+| `*`validateName`*` | `xsd:boolean` | はい | `validateName`が`true`で、アセットタイプに一意のIPS IDが必要な場合、新しい名前はグローバル一意性がチェックされ、一意でない場合は`renameAsset`によってエラーがスローされます。 |
 
 **出力(renameAssetReturn)**
 
