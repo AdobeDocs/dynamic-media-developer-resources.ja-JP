@@ -4,10 +4,10 @@ seo-description: このドキュメントでは、FXGサーバープロトコル
 seo-title: FXGサーバープロトコルリファレンス
 solution: Experience Manager
 title: FXGサーバープロトコルリファレンス
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 368cef00-3009-4694-a014-746e4aa7df20
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%
