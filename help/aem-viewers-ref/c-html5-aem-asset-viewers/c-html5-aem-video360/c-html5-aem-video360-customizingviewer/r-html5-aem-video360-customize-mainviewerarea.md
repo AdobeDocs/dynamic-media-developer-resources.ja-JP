@@ -4,10 +4,10 @@ seo-description: メイン表示領域は、360ビデオが表示される領域
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
