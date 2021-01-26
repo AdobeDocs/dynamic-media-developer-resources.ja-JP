@@ -4,10 +4,10 @@ seo-description: searchAssets操作のシステムフィールド検索条件。
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -25,19 +25,19 @@ searchAssets操作のシステムフィールド検索条件。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`フィールド`*` | `xsd:string` | アセット検索システムのフィールドの選択を参照してください。 |
-| ` *`op`*` | `xsd:string` | 文字列比較演算子の選択を参照してください。 |
-| ` *`value`*` | `xsd:string` | テストの対象となる値。 |
-| ` *`boolVal`*` | `xsd:boolean` | ブール値の比較値。 |
-| ` *`longVal`*` | `xsd:long` | 長い比較値。 |
-| ` *`minLong`*` | `xsd:long` | 長い範囲の下限。 |
-| ` *`maxLong`*` | `xsd:long` | 長い範囲の上限。 |
-| ` *`doubleVal`*` | `xsd:double` | 重複比較値。 |
-| ` *`minDouble`*` | `xsd:double` | 重複範囲の下境界。 |
-| ` *`maxDouble`*` | `xsd:double` | 重複範囲の上限。 |
-| ` *`dateVal`*` | `xsd:dateTime` | 日付比較値。 |
-| ` *`minDate`*` | `xsd:dateTime` | 日付範囲の最小値です。 |
-| ` *`maxDate`*` | `xsd:dateTime` | 日付範囲の最大値。 |
+| `*`フィールド`*` | `xsd:string` | アセット検索システムのフィールドの選択を参照してください。 |
+| `*`op`*` | `xsd:string` | 文字列比較演算子の選択を参照してください。 |
+| `*`value`*` | `xsd:string` | テストの対象となる値。 |
+| `*`boolVal`*` | `xsd:boolean` | ブール値の比較値。 |
+| `*`longVal`*` | `xsd:long` | 長い比較値。 |
+| `*`minLong`*` | `xsd:long` | 長い範囲の下限。 |
+| `*`maxLong`*` | `xsd:long` | 長い範囲の上限。 |
+| `*`doubleVal`*` | `xsd:double` | 重複比較値。 |
+| `*`minDouble`*` | `xsd:double` | 重複範囲の下境界。 |
+| `*`maxDouble`*` | `xsd:double` | 重複範囲の上限。 |
+| `*`dateVal`*` | `xsd:dateTime` | 日付比較値。 |
+| `*`minDate`*` | `xsd:dateTime` | 日付範囲の最小値です。 |
+| `*`maxDate`*` | `xsd:dateTime` | 日付範囲の最大値。 |
 
 ## 例 {#section-347d4aabfff44530adba03d1dc0b9968}
 
