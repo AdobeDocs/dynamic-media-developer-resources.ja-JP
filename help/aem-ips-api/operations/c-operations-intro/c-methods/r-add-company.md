@@ -1,15 +1,12 @@
 ---
 description: 会社をシステムに追加します。
-seo-description: 会社をシステムに追加します。
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 9%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 9%
 
 システムに追加する会社の名前を送信します。また、会社の有効期限が切れたかどうかを送信することもできます。
 
-この操作を呼び出すと、会社ハンドルと説明フィールドを含む` *`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`をスローします。
+この操作を呼び出すと、会社ハンドルと説明フィールドを含む`*`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`をスローします。
 
 ## 認証済みユーザータイプ{#section-ae926c7672984be79f6102748accab72}
 
