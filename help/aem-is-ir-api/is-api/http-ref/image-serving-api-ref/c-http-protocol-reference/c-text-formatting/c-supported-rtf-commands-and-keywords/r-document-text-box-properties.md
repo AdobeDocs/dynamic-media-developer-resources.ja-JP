@@ -4,12 +4,12 @@ seo-description: テキストボックスでは、次のドキュメントプロ
 seo-title: ドキュメント（テキストボックス）のプロパティ
 solution: Experience Manager
 title: ドキュメント（テキストボックス）のプロパティ
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYKカラーテーブル。 </p> </td> 
-   <td> <p>Scene7拡張。 </p> </td> 
+   <td> <p>Dynamic Media拡張。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>画像サービングの色のカラーテーブル。 </p> </td> 
-   <td> <p>Scene7拡張。<span class="codeph"> textPs= </span>のみ </p> </td> 
+   <td> <p>Dynamic Media拡張。<span class="codeph"> textPs= </span>のみ </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>シアンのカラーコンポーネント </p> </td> 
-   <td> <p>Scene7拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>マゼンタ色のコンポーネント。 </p> </td> 
-   <td> <p>Scene7拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>黄色のカラーコンポーネント </p> </td> 
-   <td> <p>Scene7拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>黒のカラーコンポーネント </p> </td> 
-   <td> <p>Scene7拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
