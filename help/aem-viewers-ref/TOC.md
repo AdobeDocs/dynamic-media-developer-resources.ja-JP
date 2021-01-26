@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Mediaビューアリファレンスガイド
 translation-type: tm+mt
-source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 4%
       + [ビューアのリリースノート(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [ビューアのリリースノート(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [ビューアのリリースノート(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Scene7ビューア5.8.2リリースノート](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Scene7ビューア5.5.2リリースノート](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Scene7ビューア5.4.2リリースノート](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Scene7ビューア5.2.3リリースノート](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Scene7ビューア5.2.2リリースノート](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Scene7ビューア5.1.1リリースノート](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Scene7ビューア5.0.1リリースノート](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Scene7ビューア4.9.2リリースノート](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [ビューア5.8.2リリースノート](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [viewers 5.5.2リリースノート](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [ビューア5.4.2リリースノート](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [ビューア5.2.3リリースノート](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [ビューア5.2.2リリースノート](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [ビューア5.1.1リリースノート](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [ビューア5.0.1リリースノート](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [ビューア4.9.2リリースノート](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [互換性に関する注意](c-compatibility-notes.md)
 + [キーボードのアクセシビリティとナビゲーション](c-keyboard-accessibility.md)
 + [ビューアSDKチュートリアル](c-tutorial.md)
