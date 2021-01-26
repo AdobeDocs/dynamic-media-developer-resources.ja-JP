@@ -5,10 +5,10 @@ seo-description: インタラクティブビデオビューアのすべての視
 seo-title: インタラクティブビデオビューアのカスタマイズ
 solution: Experience Manager
 title: インタラクティブビデオビューアのカスタマイズ
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a24e7ada-c874-468b-ac44-a51d581d4479
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 0%
