@@ -1,15 +1,12 @@
 ---
-description: ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアは、Adobe Scene7が提供するリッチメディアコンテンツをWebページに埋め込むことができるWebベースのアプリケーションです。
-seo-description: ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアは、Adobe Scene7が提供するリッチメディアコンテンツをWebページに埋め込むことができるWebベースのアプリケーションです。
-seo-title: ビューアSDKチュートリアル
+description: ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアはWebベースのアプリケーションで、AdobeDynamic Mediaが提供するリッチメディアコンテンツをWebページに埋め込むことができます。
 solution: Experience Manager
 title: ビューアSDKチュートリアル
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # ビューアSDKチュートリアル{#viewer-sdk-tutorial}
 
-ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアは、Adobe Scene7が提供するリッチメディアコンテンツをWebページに埋め込むことができるWebベースのアプリケーションです。
+ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアはWebベースのアプリケーションで、AdobeDynamic Mediaが提供するリッチメディアコンテンツをWebページに埋め込むことができます。
 
-例えば、SDKはインタラクティブなズームとパンを提供します。 また、SPS(Scene7Publishing System)と呼ばれるバックエンドアプリケーションを通じてAdobe Scene7にアップロードされたアセットの360°の表示とビデオ再生も提供します。
+例えば、SDKはインタラクティブなズームとパンを提供します。 また、SPS(Scene7Publishing System)と呼ばれるバックエンドアプリケーションを通じてAdobeDynamic Mediaにアップロードされたアセットの360°表示およびビデオ再生も提供します。
 
 コンポーネントはHTML5の機能に依存していますが、Android、Apple iOSデバイス、およびInternet Explorer以降を含むデスクトップで動作するように設計されています。 この種のエクスペリエンスは、サポートされるすべてのプラットフォームに対して単一のワークフローを提供できることを意味します。
 
@@ -67,8 +64,8 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Viewerにスタイルを追加します。
 
    これで基本ズームビューアが完成しました。
 
-   このビューアチュートリアルでは、Scene7ビューアSDKの基本事項について説明します。 SDKを使用する際、様々な標準コンポーネントを使用して、ターゲットオーディエンス向けのリッチな表示エクスペリエンスを簡単に構築し、スタイルを設定できます。
+   このビューアチュートリアルでは、Dynamic MediaビューアSDKの基本事項について説明します。 SDKを使用する際、様々な標準コンポーネントを使用して、ターゲットオーディエンス向けのリッチな表示エクスペリエンスを簡単に構築し、スタイルを設定できます。
 
