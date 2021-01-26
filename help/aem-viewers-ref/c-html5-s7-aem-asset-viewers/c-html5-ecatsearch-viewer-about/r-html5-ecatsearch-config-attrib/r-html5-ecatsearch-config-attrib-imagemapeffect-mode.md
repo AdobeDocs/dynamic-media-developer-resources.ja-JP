@@ -2,10 +2,10 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-topic: Dynamic media
+topic: Dynamic Media
 uuid: af2f11a8-a452-49d6-9e8f-d4a5f05b73d2
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%
