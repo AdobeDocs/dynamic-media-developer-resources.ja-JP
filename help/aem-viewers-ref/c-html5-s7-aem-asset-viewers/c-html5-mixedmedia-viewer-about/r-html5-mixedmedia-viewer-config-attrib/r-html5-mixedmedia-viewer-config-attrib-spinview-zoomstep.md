@@ -2,10 +2,10 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 103097e9-7e6d-413c-a6a8-b8a15665348c
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 7%
