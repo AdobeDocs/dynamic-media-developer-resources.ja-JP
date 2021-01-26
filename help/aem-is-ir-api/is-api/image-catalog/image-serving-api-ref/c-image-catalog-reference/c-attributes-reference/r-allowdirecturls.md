@@ -4,10 +4,10 @@ seo-description: 絶対URLを画像ソースとして許可します。
 seo-title: AllowDirectUrls
 solution: Experience Manager
 title: AllowDirectUrls
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 7%
