@@ -2,10 +2,10 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 769ae5e4-23ee-435a-9a56-d84a32004b00
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
