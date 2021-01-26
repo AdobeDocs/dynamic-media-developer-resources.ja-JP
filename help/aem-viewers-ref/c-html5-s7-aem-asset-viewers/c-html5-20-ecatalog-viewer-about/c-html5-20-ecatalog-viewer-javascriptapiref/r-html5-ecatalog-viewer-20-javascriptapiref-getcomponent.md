@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: e06e2943-d2cc-4eaf-9fd4-4225bb7a7469
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -25,7 +25,7 @@ eCatalogビューアのJavaScript APIリファレンス
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
+`*`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
