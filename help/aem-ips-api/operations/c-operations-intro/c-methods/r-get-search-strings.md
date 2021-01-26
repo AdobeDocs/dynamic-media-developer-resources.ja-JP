@@ -4,10 +4,10 @@ seo-description: アセットに関する検索文字列、キーワード、お
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 14%
@@ -34,14 +34,14 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| ` *`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
 
 **出力(getSearchStringsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`searchStringArray`*` | `types:SearchStrings` | はい | アセット検索文字列の配列です。 |
+| `*`searchStringArray`*` | `types:SearchStrings` | はい | アセット検索文字列の配列です。 |
 
 ## 例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
