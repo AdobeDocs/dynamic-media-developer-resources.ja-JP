@@ -4,10 +4,10 @@ seo-description: s7elementIDにXMLを追加します。
 seo-title: appendElement
 solution: Experience Manager
 title: appendElement
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 062c8288-4517-42a1-9f9f-f3c7bbb4b63b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 1%
