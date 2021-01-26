@@ -2,10 +2,10 @@
 description: PageView.transition
 solution: Experience Manager
 title: PageView.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f84da456-ac02-4037-b1fd-7440823eb1ef
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
