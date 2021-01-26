@@ -4,10 +4,10 @@ seo-description: 窓カバリングマテリアルには、ソフトな窓カバ
 seo-title: ウィンドウカバリング
 solution: Experience Manager
 title: ウィンドウカバリング
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%
