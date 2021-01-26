@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*`  - { `String`}新しいアセットIDまたは明示的な混在メディアセット。オプションとして画像サービング修飾子を後に付加 `?`。
+`*`asset`*`  - { `String`}新しいアセットIDまたは明示的な混在メディアセット。オプションとして画像サービング修飾子を後に付加 `?`。
 
 IR（画像レンダリング）またはUGC（ユーザ生成コンテンツ）を使用する画像は、このビューアではサポートされていません。
 
-` *`data`*` - {  `JSON`}新しいキャプションファイルの場所。
+`*`data`*` - {  `JSON`}新しいキャプションファイルの場所。
 
 指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、混在メディアセットでの最初のビデオに適用されます。後続のビデオはキャプションなしで再生されます。 このビューアでは、次のコンポーネントIDがサポートされています。
 
