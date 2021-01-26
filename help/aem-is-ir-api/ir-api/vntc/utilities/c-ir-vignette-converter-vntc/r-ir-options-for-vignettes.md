@@ -4,12 +4,12 @@ seo-description: 次のオプションは、ビネットファイルの処理を
 seo-title: ビネットのオプション
 solution: Experience Manager
 title: ビネットのオプション
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> ピラミッド</span> </p></td> 
-  <td class="stentry"> <p>ピラミッドビネットを作成します。 Scene7ズームビューアでレンダリングした画像を表示する場合は必須です。 詳しくは、<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">ビネットの拡大/縮小</a>を参照してください。 </p></td> 
+  <td class="stentry"> <p>ピラミッドビネットを作成します。 Dynamic Mediaズームビューアでレンダリングした画像を表示する場合は必須です。 詳しくは、<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">ビネットの拡大/縮小</a>を参照してください。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 
