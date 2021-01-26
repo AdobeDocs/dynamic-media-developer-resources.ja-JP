@@ -4,10 +4,10 @@ seo-description: 現在アクティブなジョブをすべて取得します。
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 15%
@@ -38,15 +38,15 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 |
-| ` *`jobHandle`*` | `xsd:string` | いいえ | ジョブのハンドル。 |
-| ` *`originalName`*` | `xsd:string` | いいえ | 元のジョブ名。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 |
+| `*`jobHandle`*` | `xsd:string` | いいえ | ジョブのハンドル。 |
+| `*`originalName`*` | `xsd:string` | いいえ | 元のジョブ名。 |
 
 **出力(getActiveJobsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | はい | アクティブなジョブの配列。 |
+| `*`jobArray`*` | `xsd:string` | はい | アクティブなジョブの配列。 |
 
 ## 例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
