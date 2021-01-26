@@ -4,10 +4,10 @@ seo-description: 既存のタグフィールドにタグディクショナリの
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 14%
@@ -33,9 +33,9 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| ` *`fieldHandle`*` | `xsd:string` | はい | タグフィールドハンドル。 |
-| ` *`valueArray`*` | `types:StringArray` | はい | フィールドの既存の辞書を置き換えるタグ値の配列。 新しい値が既存の値と一致する場合、アセットの関連付けは維持されます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`fieldHandle`*` | `xsd:string` | はい | タグフィールドハンドル。 |
+| `*`valueArray`*` | `types:StringArray` | はい | フィールドの既存の辞書を置き換えるタグ値の配列。 新しい値が既存の値と一致する場合、アセットの関連付けは維持されます。 |
 
 **出力(setTagFieldValuesReturn)**
 
