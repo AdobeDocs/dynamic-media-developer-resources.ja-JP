@@ -4,10 +4,10 @@ seo-description: CDNキャッシュを無効にするためのURLの配列です
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 7%
