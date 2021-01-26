@@ -4,10 +4,10 @@ seo-description: 画像サービングは、ISO-8859-1およびUTF-8エンコー
 seo-title: 文字エンコーディング
 solution: Experience Manager
 title: 文字エンコーディング
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
