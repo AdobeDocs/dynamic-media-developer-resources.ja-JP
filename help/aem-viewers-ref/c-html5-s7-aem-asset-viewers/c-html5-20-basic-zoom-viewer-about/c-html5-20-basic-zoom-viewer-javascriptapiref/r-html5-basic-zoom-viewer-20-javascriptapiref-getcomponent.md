@@ -4,10 +4,10 @@ seo-description: 基本ズームビューアのJavaScript APIリファレンス
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3e9f4baf-4914-42a8-a1bf-5756cbbd407b
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
