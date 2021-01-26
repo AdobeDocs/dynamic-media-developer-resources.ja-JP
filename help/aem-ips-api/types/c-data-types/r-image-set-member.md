@@ -4,10 +4,10 @@ seo-description: 画像セットに属するアセット。
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -25,6 +25,6 @@ ht-degree: 6%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`asset`*` | `type:Asset` | 画像セット配列内のアセット。 |
-| ` *`pageReset`*` | `xsd:boolean` | 新しいページを開始します。 設定は無視され、`eCatalog`と`RenderSet`のセットの値は強制的に`true`に設定されます。 |
+| `*`asset`*` | `type:Asset` | 画像セット配列内のアセット。 |
+| `*`pageReset`*` | `xsd:boolean` | 新しいページを開始します。 設定は無視され、`eCatalog`と`RenderSet`のセットの値は強制的に`true`に設定されます。 |
 
