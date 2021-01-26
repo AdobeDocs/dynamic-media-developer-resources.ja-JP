@@ -4,10 +4,10 @@ seo-description: フライアウトビューアのJavaScript APIリファレン�
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0c2deb6c-f40f-47e5-a1ef-f5eb5db6ee06
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
