@@ -4,10 +4,10 @@ seo-description: サムネールの解像度 サムネール画像のオブジ�
 seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10bbad31-a0fd-4ed3-b708-87822777acdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 5%
