@@ -2,10 +2,10 @@
 description: 画像ファイルのパス
 solution: Experience Manager
 title: パス
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
 translation-type: tm+mt
-source-git-commit: 7b837020deef888a038a074d0aa826d43e60aeb6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
