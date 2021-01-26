@@ -4,10 +4,10 @@ seo-description: メディアセット情報
 seo-title: セット
 solution: Experience Manager
 title: セット
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ebd78249-45ea-47cd-8845-786070f92f21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 5%
