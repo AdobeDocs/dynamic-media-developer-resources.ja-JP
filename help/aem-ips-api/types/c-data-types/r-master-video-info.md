@@ -4,10 +4,10 @@ seo-description: プライマリビデオアセットのファイル情報。
 seo-title: MasterVideoInfo
 solution: Experience Manager
 title: MasterVideoInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 19f814c9-dddb-41ff-aef2-fb7ea91c130b
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | ファイルパス |
-| ` *`originalFile`*` | `xsd:string` | ファイル名。 |
-| ` *`fileSize`*` | `xsd:int` | ファイルサイズ. |
+| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalFile`*` | `xsd:string` | ファイル名。 |
+| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
 
