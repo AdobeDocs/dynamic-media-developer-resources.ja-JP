@@ -4,10 +4,10 @@ seo-description: 画像アンカー 変換(crop=、scale=、rotate=、flip=)を�
 seo-title: アンカー
 solution: Experience Manager
 title: アンカー
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
