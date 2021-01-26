@@ -4,10 +4,10 @@ seo-description: 画像サービングでは、正規式の一致と置換ルー
 seo-title: ルールセットの参照
 solution: Experience Manager
 title: ルールセットの参照
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 translation-type: tm+mt
-source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 0%
