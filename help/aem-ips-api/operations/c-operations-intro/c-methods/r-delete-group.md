@@ -4,10 +4,10 @@ seo-description: グループを削除します。
 seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 13%
@@ -33,8 +33,8 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | はい | 削除するグループに属する会社のハンドル。 |
-| ` *`groupHandle`*` | `xsd:string` | はい | 削除するグループへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 削除するグループに属する会社のハンドル。 |
+| `*`groupHandle`*` | `xsd:string` | はい | 削除するグループへのハンドル。 |
 
 **出力(deleteGroupParam)**
 
