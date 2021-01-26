@@ -2,10 +2,10 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e0aa04a8-069e-4499-8d06-7b800940dba3
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 13%
