@@ -1,15 +1,15 @@
 ---
-description: このドキュメントでは、Scene7画像レンダリングのマテリアルカタログを説明します。
-seo-description: このドキュメントでは、Scene7画像レンダリングのマテリアルカタログを説明します。
+description: このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログを説明します。
+seo-description: このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログを説明します。
 seo-title: はじめに
 solution: Experience Manager
 title: はじめに
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # はじめに{#introduction}
 
-このドキュメントでは、Scene7画像レンダリングのマテリアルカタログを説明します。
+このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログを説明します。
 
 **対象オーディエンス**
 
-このドキュメントは、WebサイトやカスタムアプリケーションでScene7画像レンダリングを利用したい経験豊富なプログラマーやWebサイト開発者向けです。
+このドキュメントは、WebサイトやカスタムアプリケーションでDynamic Media画像レンダリングを利用したい経験豊富なプログラマーやWebサイト開発者向けです。
 
-このガイドでは、読者が、Scene7画像オーサリングと画像レンダリング、一般的なHTTPプロトコル標準および表記、基本的な画像処理用語に精通していることを前提としています。
+このガイドでは、読者が、Dynamic Media画像オーサリングと画像レンダリング、一般的なHTTPプロトコル標準および表記、基本的な画像処理用語に精通していることを前提としています。
 
 **ドキュメント規則**
 
