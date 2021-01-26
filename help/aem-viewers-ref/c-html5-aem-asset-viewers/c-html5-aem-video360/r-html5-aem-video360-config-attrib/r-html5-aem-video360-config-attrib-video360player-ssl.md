@@ -4,10 +4,10 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.ssl
 solution: Experience Manager
 title: Video360Player.ssl
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 00c8295c-cc41-489c-a444-ba9189426a20
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 5%
