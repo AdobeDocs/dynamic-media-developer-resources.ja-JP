@@ -4,12 +4,12 @@ seo-description: 画像サービングには、テキストのレンダリング
 seo-title: テキストの書式設定
 solution: Experience Manager
 title: テキストの書式設定
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 6%
 
 RTF準拠の文字列は、手動でアセンブルするか、必要なテキストをテキストエディタまたはRTFファイルを保存可能なワードプロセッサでフォーマットしてアセンブルできます。 その後、RTFファイルをプレーンテキストエディターで開き、リクエストURLにコピーされたファイルの関連する生のRTFコンテンツを生成できます。
 
-一部のワードプロセッサーでは、かなり大きなファイルが生成されます。これには、Scene7画像サービングで使用されない実質的なプリアンブルが含まれます。 文字列をテキストコマンドに渡す前に、未使用のRTF要素を文字列から削除することをお勧めします。
+一部のワードプロセッサーでは、かなり大きなファイルが生成されます。これには、Dynamic Media画像サービングで使用されない実質的なプリアンブルが含まれます。 文字列をテキストコマンドに渡す前に、未使用のRTF要素を文字列から削除することをお勧めします。
 
 UTF-8およびISO規格に基づく言語エンコーディングは、標準のRTF文字エンコーディングメカニズムに代わるRTF文字列でサポートされます。 これにより、アプリケーションは英語以外のテキストを、RTFエンコーディングの知識なしにサーバに送信できます。
 
