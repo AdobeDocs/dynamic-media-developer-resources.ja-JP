@@ -1,16 +1,13 @@
 ---
 description: 詳細レンダリング設定 詳細レンダリング設定は、マテリアルのシャープの適用タイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダリングエンジンの低レベルの要素を制御するために使用します。
-seo-description: 詳細レンダリング設定 詳細レンダリング設定は、マテリアルのシャープの適用タイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダリングエンジンの低レベルの要素を制御するために使用します。
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 19823ca5-51a1-4885-b578-d7c9852acab6
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-b4c8fe595efc4838ac598659bc820607}
 
-テキスト文字列。 すべての材料に対してオプションです。 指定する場合は、ビネットオーサリングツール(Scene7画像オーサリングパッケージの一部)で定義される有効なレンダリング設定文字列である必要があります。
+テキスト文字列。 すべての材料に対してオプションです。 指定する場合は、ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)で定義される有効なレンダリング設定文字列である必要があります。
 
 ## 初期設定 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
