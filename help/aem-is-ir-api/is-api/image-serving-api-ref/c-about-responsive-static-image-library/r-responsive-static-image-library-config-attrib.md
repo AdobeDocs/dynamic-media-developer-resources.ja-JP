@@ -4,12 +4,12 @@ seo-description: 設定属性は、レスポンシブ画像ライブラリが管
 seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-AEM 6.4以降とScene7ビューア5.9以降では、次の2つのスマート切り抜きモードを使用できます。
+AEM 6.4以降とDynamic Mediaビューア5.9以降では、次の2つのスマート切り抜きモードを使用できます。
 
 * **手動**  — ユーザー定義のブレークポイントおよび対応する画像サービスコマンドは、画像要素の属性内で定義されます。
 * **スマート切り抜き** ：計算済みのスマート切り抜きレンディションは、配信サーバから自動的に取得されます。最適なレンディションは、画像要素の実行時のサイズを使用して選択されます。
