@@ -5,7 +5,7 @@ title: ビューアSDKの名前空間
 topic: Dynamic Media
 uuid: e0113556-708c-4898-93f9-b3888de00afc
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ただし、高度な使用例によっては、Webページが`getComponent()`ビューアAPIを使用して内部SDKコンポーネントへの参照を取得し、SDK自体のAPIを柔軟に使用する必要があります。
 
-ビューアでSDKコンポーネントの読み込みと初期化に使用される名前空間は、ビューアが動作している環境によって異なります。 ビューアがAEM(Adobe Experience Manager)で実行されている場合、ビューアはSDKコンポーネントを`s7viewers.s7sdk`名前空間に読み込みます。 同様に、Scene7パブリッシングシステムから提供されるビューアは、SDKを`s7classic.s7sdk`に読み込みます。
+ビューアでSDKコンポーネントの読み込みと初期化に使用される名前空間は、ビューアが動作している環境によって異なります。 ビューアがAEM(Adobe Experience Manager)で実行されている場合、ビューアはSDKコンポーネントを`s7viewers.s7sdk`名前空間に読み込みます。 同様に、Dynamic Mediaクラシックから提供されるビューアは、SDKを`s7classic.s7sdk`に読み込みます。
 
 どちらの場合も、ビューア内のSDKが使用する名前空間のプレフィックスは`s7viewers`または`s7classic`です。 また、SDKユーザーガイドまたはSDK APIドキュメントで使用されている通常の`s7sdk`名前空間とは異なります。
 
