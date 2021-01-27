@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dynamic MediaHTML5ビューアの必要システム構成。
 
 ## サーバのハードウェアとソフトウェア{#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Mediaクラシック(旧称Scene7)画像サービング6.7.1以降。
+* Dynamic Mediaクラシック画像サービング6.7.1以降。
 * HTML5ビューアは、SDK JavaScriptサーバー側ライブラリ3.10.2以降を必要とします。
 * 「友達への電子メール」ソーシャル機能を使用するには、s7ondemand 5.0.9以降が必要です。
 * eCatalogビューア — 情報パネルのサポートには情報サーバ2.1.8以降が必要です。
