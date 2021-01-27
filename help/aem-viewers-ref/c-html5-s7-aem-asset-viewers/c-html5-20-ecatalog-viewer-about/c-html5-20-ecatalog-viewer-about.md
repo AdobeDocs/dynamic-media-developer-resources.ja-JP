@@ -1,16 +1,13 @@
 ---
 description: eCatalogビューアは、見開き別またはページ別の見開き別に電子パンフレットを表示するカタログビューアです。eCatalogを使用すると、ユーザーは追加のユーザーインターフェイス要素または専用のサムネールモードを使用してカタログ内を移動できます。 また、各ページでズームインして詳細を確認することもできます。
 keywords: responsive
-seo-description: eCatalogビューアは、見開き別またはページ別の見開き別に電子パンフレットを表示するカタログビューアです。eCatalogを使用すると、ユーザーは追加のユーザーインターフェイス要素または専用のサムネールモードを使用してカタログ内を移動できます。 また、各ページでズームインして詳細を確認することもできます。
-seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ eCatalogビューアでは、ソーシャルシェアツールがサポートさ
 
    ビューアの静的サイズを設定するには、最上位CSSクラスに対して絶対単位で`.s7ecatalogviewer`宣言するか、`stagesize`修飾子を使用します。
 
-   サイズ調整は、CSS内で直接HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でScene7パブリッシングシステムでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
+   サイズ調整は、CSS内で直接HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
 
    CSSでのビューアのスタイル設定について詳しくは、[eCatalogビューアのカスタマイズ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
 
@@ -186,7 +183,7 @@ eCatalogビューアでは、ソーシャルシェアツールがサポートさ
    }
    ```
 
-   `stagesize`修飾子は、Scene7Publishing Systemのビューアプリセットレコードに設定するか、`params`コレクションを使用してビューア初期化コードで明示的に渡すか、次のように、コマンドリファレンスの節で説明するAPI呼び出しとして渡すことができます。
+   `stagesize`修飾子は、Dynamic MediaClassicのビューアプリセットレコードで設定するか、`params`コレクションでビューア初期化コードを使用して明示的に渡すか、次のように、コマンドリファレンスの節で説明するAPI呼び出しで渡すことができます。
 
    ```
    eCatalogViewer.setParam("stagesize", 
