@@ -5,7 +5,7 @@ title: 検索機能
 topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 検索機能{#search-feature}
 
-ビューアでは、カタログコンテンツに対するテキスト検索がサポートされています。 ソースPDFファイルをScene7Publishing Systemにアップロードする場合、検索機能がカタログ「検索語を抽出」機能を機能させるには、有効にする必要があります。
+ビューアでは、カタログコンテンツに対するテキスト検索がサポートされています。 ソースPDFファイルをDynamic Mediaクラシックにアップロードする場合、検索機能がカタログ「検索語を抽出」機能を有効にする必要があります。
 
 検索機能は、メインツールバーの「検索」ボタンをアクティブ化することでトリガーされます。 この操作により、テキスト入力フィールドを含む検索結果パネルが表示されます。 ユーザは、スペースで区切られたキーワードを使用するか、重複引用符で囲まれたフレーズを使用して検索を実行できます。
 
