@@ -1,15 +1,12 @@
 ---
-description: modeパラメータの値に応じて、Viewerでは、マップが最初にScene7 Publishing Systemで作成された場所に、メイン表示の上に画像マップアイコンが表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
-seo-description: modeパラメータの値に応じて、Viewerでは、マップが最初にScene7 Publishing Systemで作成された場所に、メイン表示の上に画像マップアイコンが表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
-seo-title: 画像マップエフェクト
+description: modeパラメータの値に応じて、メイン表示の上の画像マップアイコンが、最初にDynamic Mediaクラシックでマップが作成された場所に表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
 solution: Experience Manager
 title: 画像マップエフェクト
 topic: Dynamic Media
-uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 画像マップエフェクト{#image-map-effect}
 
-modeパラメータの値に応じて、Viewerでは、マップが最初にScene7 Publishing Systemで作成された場所に、メイン表示の上に画像マップアイコンが表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
+modeパラメータの値に応じて、メイン表示の上の画像マップアイコンが、最初にDynamic Mediaクラシックでマップが作成された場所に表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
