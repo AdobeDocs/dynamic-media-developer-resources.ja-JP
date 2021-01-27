@@ -5,7 +5,7 @@ solution: Experience Manager
 title: インラインズーム
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    複数項目セットを処理する場合、このビューアにはサムネールが表示されます。 デスクトップシステムでは、サムネールはメイン表示の下に配置されます。 同時に、ビューアでは、実行時に`setAsset()` APIを使用してメインアセットを入れ替えることができます。 開発者は、新しいアセットの項目が1つだけの場合に、下部のサムネール領域をビューアがどのように管理するかを制御できます。 ビューアの外側のサイズはそのままにし、メイン表示の高さを拡大して、サムネール領域を表示させることができます。 または、メイン表示のサイズを静的に保ってビューアの外側の領域を折りたたみ、Webコンテンツを上に移動して、サムネールから残された空きページの領域を使用できます。
 
-   ビューアの外側の境界をそのまま残すには、最上位CSSクラス`.s7flyoutviewer`のサイズを絶対単位で定義します。 CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに適用できます。このCSSファイルは、後でScene7パブリッシングシステムでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
+   ビューアの外側の境界をそのまま残すには、最上位CSSクラス`.s7flyoutviewer`のサイズを絶対単位で定義します。 CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
 
    CSSでのビューアのスタイル設定について詳しくは、[インラインズームビューアのカスタマイズ](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)を参照してください。
 
