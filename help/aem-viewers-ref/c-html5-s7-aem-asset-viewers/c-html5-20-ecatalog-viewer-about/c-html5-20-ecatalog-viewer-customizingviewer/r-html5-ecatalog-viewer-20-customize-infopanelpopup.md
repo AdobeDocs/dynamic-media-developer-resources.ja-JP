@@ -1,23 +1,20 @@
 ---
-description: 情報パネルポップアップは、Scene7パブリッシングシステムでrollover_keyプロパティが定義されている画像マップをユーザがアクティブにしたとき、また、ビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
-seo-description: 情報パネルポップアップは、Scene7パブリッシングシステムでrollover_keyプロパティが定義されている画像マップをユーザがアクティブにしたとき、また、ビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
-seo-title: 情報パネルポップアップ
+description: 情報パネルポップアップは、Dynamic Mediaクラシックで定義されたrollover_keyプロパティを持つ画像マップをアクティブにした場合、およびビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
 solution: Experience Manager
 title: 情報パネルポップアップ
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # 情報パネルポップアップ{#info-panel-popup}
 
-情報パネルポップアップは、Scene7パブリッシングシステムでrollover_keyプロパティが定義されている画像マップをユーザがアクティブにしたとき、また、ビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
+情報パネルポップアップは、Dynamic Mediaクラシックで定義されたrollover_keyプロパティを持つ画像マップをアクティブにした場合、およびビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
 
 情報パネルの背景は、ビューア領域全体に表示され、以下のCSSクラスセレクターを使用して制御します。
 
