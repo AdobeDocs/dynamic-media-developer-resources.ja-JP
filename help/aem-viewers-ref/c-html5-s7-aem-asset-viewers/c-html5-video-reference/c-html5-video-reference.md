@@ -1,16 +1,13 @@
 ---
-description: ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Scene7出版システムやAEMDynamic Mediaから配信。
+description: ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Dynamic MediaクラシックやAEMDynamic Mediaから配信。
 keywords: responsive
-seo-description: ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Scene7出版システムやAEMDynamic Mediaから配信。
-seo-title: ビデオ
 solution: Experience Manager
 title: ビデオ
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # ビデオ{#video}
 
-ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Scene7出版システムやAEMDynamic Mediaから配信。
+ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Dynamic MediaクラシックやAEMDynamic Mediaから配信。
 
 [必要システム構成と前提条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)を参照してください。
 
@@ -152,7 +149,7 @@ Webブラウザーのセキュリティ制限により、共有ツールはフ�
 
    ビューアの静的サイズを設定するには、最上位CSSクラスに対して絶対単位で`.s7videoviewer`宣言するか、修飾子`stagesize`を使用します。
 
-   CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でScene7パブリッシングシステムでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
+   CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
 
    CSSを使用したビューアのスタイル設定について詳しくは、[ビデオビューアのカスタマイズ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)を参照してください。
 
@@ -165,7 +162,7 @@ Webブラウザーのセキュリティ制限により、共有ツールはフ�
    }
    ```
 
-   `stagesize`修飾子は、Scene7Publishing Systemのビューアプリセットレコードで設定するか、`params`コレクションでビューア初期化コードで明示的に渡すか、次のコマンドリファレンスの説明に従ってAPI呼び出しで渡すことができます。
+   `stagesize`修飾子は、Dynamic Mediaクラシックのビューアプリセットレコードで設定するか、`params`コレクションでビューア初期化コードで明示的に渡すか、次に示すように、コマンドリファレンスの節で説明するAPI呼び出しで渡すことができます。
 
    ```
    videoViewer.setParam("stagesize", "640,480");
