@@ -1,15 +1,12 @@
 ---
 description: 画像サービングでは、ICC(International Color Consortium)仕様に準拠したカラースペースプロファイルに基づくカラースペース変換がサポートされています。
-seo-description: 画像サービングでは、ICC(International Color Consortium)仕様に準拠したカラースペースプロファイルに基づくカラースペース変換がサポートされています。
-seo-title: 画像サービングのカラーマネジメント
 solution: Experience Manager
 title: 画像サービングのカラーマネジメント
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -94,7 +91,7 @@ ht-degree: 0%
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgbカラースペースプロファイル.icm|
 |`WideGamutRGB`|広域RGB|WideGamotRGB.icc|
-|**CMYK**|||
+|**CMYK**||
 |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`CoatedGraCol`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
@@ -106,10 +103,10 @@ ht-degree: 0%
 |`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc|
 |`JapanColorWebCoated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
-|`NewsprintSNAP2007`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc|
+|`NewsprintSNAP2007`|USニュースプリント(SNAP 2007)|USNewsprintSNAP2007.icc|
 |`PS4Default`|Photoshop4の初期設定のCMYK|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop5の初期設定のCMYK|Photoshop5DefaultCMYK.icc|
-|`SheetfedCoated`|U.S. Sheetfed Coated v2|USSheetfedCoated.icc|
+|`SheetfedCoated`|米国Sheetfed Coated v2|USSheetfedCoated.icc|
 |`SheetfedUncoated`|米国Sheetfed Uncoated v2|USSheetfedUncoated.icc|
 |`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`WebCoated`|米国Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
@@ -133,7 +130,7 @@ ht-degree: 0%
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgbカラースペースプロファイル.icm|
 |`WideGamutRGB`|広域RGB|WideGamotRGB.icc|
-|**CMYK**|||
+|**CMYK**||
 |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`Coated GRACoL 2006 (ISO 12647-2:2004)`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
@@ -150,13 +147,13 @@ ht-degree: 0%
 |`SheetfedCoated`|米国Sheetfed Coated v2|USSheetfedCoated.icc|
 |`SheetfedUncoated`|米国Sheetfed Uncoated v2|USSheetfedUncoated.icc|
 |`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc|
-|`US Newsprint (SNAP 2007)`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc|
+|`US Newsprint (SNAP 2007)`|USニュースプリント(SNAP 2007)|USNewsprintSNAP2007.icc|
 |`WebCoated`|米国Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
+|`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006 Grade 3用紙|WebCoatedSWOP2006Grade3.icc|
 |`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006 Grade 5用紙|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|米国Web Uncoated v2|USWebUncoated.icc|
 
 ## 関連項目 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*,[attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f),[attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b),  [ICCプロファイルマップリファレンス](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)attribute::IccProfile [*, Icc ProfileS*, Icc ProfileSrcProfileSrcSrcProfile:Render Render Nattribute:BlackCompensation Did Dinat Did Din Din Din Dit Int Diter](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88): Inプロファイル, ICCマップリファレンス， ICC, ICC=  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
