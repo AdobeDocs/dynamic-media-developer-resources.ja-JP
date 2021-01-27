@@ -4,9 +4,9 @@ solution: Experience Manager
 title: ビューアSDKチュートリアル
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアはWebベースのアプリケーションで、AdobeDynamic Mediaが提供するリッチメディアコンテンツをWebページに埋め込むことができます。
 
-例えば、SDKはインタラクティブなズームとパンを提供します。 また、SPS(Scene7Publishing System)と呼ばれるバックエンドアプリケーションを通じてAdobeDynamic Mediaにアップロードされたアセットの360°表示およびビデオ再生も提供します。
+例えば、SDKはインタラクティブなズームとパンを提供します。 また、360°の表示とビデオ再生も提供します。このビデオ再生は、AdobeDynamic Mediaに、Dynamic Mediaクラシックと呼ばれるバックエンドアプリケーションを通じてアップロードされました。
 
 コンポーネントはHTML5の機能に依存していますが、Android、Apple iOSデバイス、およびInternet Explorer以降を含むデスクトップで動作するように設計されています。 この種のエクスペリエンスは、サポートされるすべてのプラットフォームに対して単一のワークフローを提供できることを意味します。
 
