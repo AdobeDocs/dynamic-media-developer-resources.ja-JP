@@ -8,7 +8,7 @@ title: ズーム
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ Webページでビューアのコンテナ`DIV`の幅と高さの両方が設定
 
    複数項目セットを処理する場合、このビューアにはサムネールが表示されます。デスクトップシステムでは、サムネールはメイン表示の下に配置されます。 同時に、ビューアでは、実行時に`setAsset()` APIを使用してメインアセットを入れ替えることができます。 開発者は、新しいアセットの項目が1つだけの場合に、下部のサムネール領域をビューアがどのように管理するかを制御できます。 ビューアの外側のサイズはそのままにし、メイン表示の高さを拡大し、サムネール領域を表示させることができます。 また、メイン表示のサイズを静的に保ってビューアの外側の領域を折りたたみ、Webコンテンツを上に移動して、サムネールから残された画面の空き領域を使用することもできます。
 
-   ビューアの外側の境界をそのまま残すには、`.s7zoomviewer`最上位CSSクラスのサイズを絶対単位で定義します。 CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でScene7パブリッシングシステムでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
+   ビューアの外側の境界をそのまま残すには、`.s7zoomviewer`最上位CSSクラスのサイズを絶対単位で定義します。 CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
 
    CSSでのビューアのスタイル設定について詳しくは、[ズームビューアのカスタマイズ](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
 
@@ -199,7 +199,7 @@ Webページでビューアのコンテナ`DIV`の幅と高さの両方が設定
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   `stagesize`修飾子は、Scene7Publishing Systemのビューアプリセットレコードに設定できます。また、次のように、`params`コレクションを使用してビューア初期化コードを明示的に渡したり、このヘルプの「コマンドリファレンス」で説明するAPI呼び出しを使用して渡したりできます。
+   `stagesize`修飾子は、Dynamic Mediaクラシックのビューアプリセットレコードで設定できます。また、次に示すように、`params`コレクションを使用してビューア初期化コードを明示的に渡したり、このヘルプの「コマンドリファレンス」で説明するAPI呼び出しを使用して渡したりできます。
 
    ```
     zoomViewer.setParam("stagesize", 
