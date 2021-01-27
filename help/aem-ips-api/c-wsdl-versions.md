@@ -1,15 +1,12 @@
 ---
 description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットでサポートされています。 各IPS APIリリースには、バージョン付きターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 WSDLの以前の名前空間版もサポートされ、既存のアプリケーションとの下位互換性を確保します。
-seo-description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットでサポートされています。 各IPS APIリリースには、バージョン付きターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 WSDLの以前の名前空間版もサポートされ、既存のアプリケーションとの下位互換性を確保します。
-seo-title: IPS Web Service WSDLバージョン
 solution: Experience Manager
 title: IPS Web Service WSDLバージョン
 topic: Dynamic Media Image Production System API
-uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
