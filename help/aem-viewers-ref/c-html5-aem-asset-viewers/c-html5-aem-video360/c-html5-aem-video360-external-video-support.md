@@ -1,15 +1,12 @@
 ---
-description: ビューアは、SPSまたはAEMDynamic Mediaの外部でホストされているビデオの再生をサポートしています。
-seo-description: ビューアは、SPSまたはAEMDynamic Mediaの外部でホストされているビデオの再生をサポートしています。
-seo-title: 外部ビデオのサポート
+description: ビューアは、Dynamic MediaクラシックまたはAEMDynamic Media以外でホストされているビデオの再生をサポートしています。
 solution: Experience Manager
 title: 外部ビデオのサポート
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 外部ビデオのサポート{#external-video-support}
 
-ビューアは、SPSまたはAEMDynamic Mediaの外部でホストされているビデオの再生をサポートしています。
+ビューアは、Dynamic MediaクラシックまたはAEMDynamic Media以外でホストされているビデオの再生をサポートしています。
 
 外部ビデオでサポートされる形式は、H.264形式のMP4またはHLSストリーム用のM3U8マニフェストです。
 
