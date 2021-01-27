@@ -1,10 +1,10 @@
 ---
-description: アセットをScene7プロダクションシステムにアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためにジョブを設定する1つ以上のHTTPPOST要求が必要です。
+description: Dynamic Mediaクラシックにアセットをアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためのジョブを設定する1つ以上のHTTPPOST要求が必要です。
 solution: Experience Manager
 title: HTTP POSTを使用したUploadFileサーブレットへのアセットのアップロード
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # HTTP POSTを使用したアセットのUploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}へのアップロード
 
-アセットをScene7プロダクションシステムにアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためにジョブを設定する1つ以上のHTTPPOST要求が必要です。
+Dynamic Mediaクラシックにアセットをアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためのジョブを設定する1つ以上のHTTPPOST要求が必要です。
 
 次のURLを使用してUploadFileサーブレットにアクセスします。
 
