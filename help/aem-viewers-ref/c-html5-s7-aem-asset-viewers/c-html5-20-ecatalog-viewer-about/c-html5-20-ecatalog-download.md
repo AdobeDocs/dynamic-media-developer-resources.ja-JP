@@ -5,10 +5,10 @@ title: ダウンロード
 topic: Dynamic Media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -21,5 +21,5 @@ ht-degree: 4%
 
 * 実際のPDFファイルは、お客様の会社に存在します。
 * この名前は、ビューアに渡され、`.pdf`拡張子が付いたe-catalogアセットの名前と一致します。
-* PDFファイルがScene7 Publishing Systemに公開されている。
+* PDFファイルは、Dynamic Mediaクラシックで公開されます。
 
