@@ -5,10 +5,10 @@ title: EmailShare.emailurl
 topic: Dynamic Media
 uuid: 0cf61bbf-01c0-4c5c-84d2-7cecf88e51e9
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 22%
+source-wordcount: '20'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Scene7 OnDemandの電子メールサービスのベースURLを指定します。 </p> </td> 
+   <td colname="col2"> <p> Dynamic MediaクラシックOnDemand電子メールサービスのベースURLを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
