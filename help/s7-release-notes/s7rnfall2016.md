@@ -1,15 +1,12 @@
 ---
 description: Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
-seo-description: Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
-seo-title: Scene7秋2016年リリース
 solution: Experience Manager
 title: Scene7秋2016年リリース
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Adobe Scene7秋の2016年リリースの最新リリースノートです。Adob
 [!DNL Adobe Marketing Cloud]の[!DNL Adobe Scene7] Fall 2016リリースパート[!DNL Adobe Experience Manager]の最新のリリースノートです。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [ビューア（画像サービング5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [ビューア（画像サービング5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [ビューア（画像サービング5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5ビューアSDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media画像サービング6.3.2および画像レンダリング6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Mediaクラシック画像サービング6.3.2および画像レンダリング6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
 * 再編集ビデオ機能を[!DNL Adobe Scene7 Publishing System]ユーザーインターフェイスから削除しました。
 * 必要に応じて可能な限り、すべてのScene7サーブレットに認証を追加。
 * ごみ箱のリスト表示に関するバグ修正。
-* セキュリティ上の問題から、**SPSAdmin**&#x200B;ユーザー機能をUser Managementから削除しました。
+* セキュリティ上の問題から、**Dynamic Mediaクラシック(Scene7)管理者**&#x200B;ユーザー機能をUser Managementから削除しました。
 * FTP WebAdminでOKTA認証がサポートされるようになりました。
 * 新しいMedia Portalユーザ用に作成されたデフォルトのパスワード機能が削除されました。
 * 新しいユーザーが追加されたときに生成された一時パスワードに関するバグ修正です。 パスワードが必要なパスワード要件を満たしていません。
