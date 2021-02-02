@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 画像サービングのカラーマネジメント
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5用紙|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|米国Web Uncoated v2|USWebUncoated.icc|
 
-次の表は、*Dynamic Mediaクラシック(Scene7)画像サービング*&#x200B;と&#x200B;*Dynamic Media*（`dynamicmedia_scene7`実行モードで実行）に適用されます。
+次の表は、*Dynamic Mediaクラシック画像サービング*&#x200B;と&#x200B;*Dynamic Media*（`dynamicmedia_scene7`実行モードで実行）に適用されます。
 
 |識別子|共通名|ファイル名|
 |— |— |— |
