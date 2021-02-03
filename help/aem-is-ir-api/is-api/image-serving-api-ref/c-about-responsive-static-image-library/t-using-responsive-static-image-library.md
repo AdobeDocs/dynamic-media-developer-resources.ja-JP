@@ -4,9 +4,9 @@ solution: Experience Manager
 title: レスポンシブ画像ライブラリの使用
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **レスポンシブ画像ライブラリを使用するには**
 
-1. Dynamic Mediaクラシックでは、プリセットでレスポンシブ画像ライブラリを使用する場合に備えて、画像プリセット[を作成します。](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html)
+1. Dynamic Mediaクラシックでは、プリセットでレスポンシブ画像ライブラリを使用する場合に備えて、画像プリセット[を作成します。](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)
 
    レスポンシブ画像ライブラリで使用する画像プリセットを定義する場合、`wid=`、`hei=`、`scl=`など、画像サイズに影響する設定は使用しないでください。 画像プリセットにはサイズフィールドを指定しないでください。 代わりに、空白の値のままにしてください。
 1. ライブラリ追加のJavaScriptファイルをWebページに送信します。
