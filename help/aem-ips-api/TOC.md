@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media画像制作システムAPI
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Dynamic Mediaイメージ制作システムAPI {#image-production-api}
 
-+ [Dynamic Media開発者リソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media開発者リソースホーム](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Dynamic Mediaイメージ制作システムAPIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
 + [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
@@ -418,7 +418,7 @@ ht-degree: 2%
    + [ジョブログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
    + [ジョブログの並べ替えフィールド](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [ジョブログの種類](string-constants/c-string-constants/r-job-log-types.md)
-   + [ジョブトリガー状態](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [ジョブトリガーの状態](string-constants/c-string-constants/r-job-trigger-states.md)
    + [ジョブタイプ](string-constants/c-string-constants/r-job-types.md)
    + [メタデータフィールドの種類](string-constants/c-string-constants/r-metadata-field-types.md)
    + [数値/日付比較演算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
