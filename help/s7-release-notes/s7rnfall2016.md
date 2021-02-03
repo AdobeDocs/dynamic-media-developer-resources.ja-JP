@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Scene7秋2016年リリース
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Scene7秋の2016年リリースの最新リリースノートです。Adob
 
 Adobeは、パフォーマンスが向上したという全体的な利点と共に、コンテンツのHTTP/2配信の可用性を発表します。
 
-[HTTP2配信のコンテンツFAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)を参照してください。
+[HTTP2配信のコンテンツFAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)を参照してください。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-完全なドキュメントについては、[https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)を参照してください。
+完全なドキュメントについては、[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)を参照してください。
 
 **新機能、機能強化およびバグ修正**
 
@@ -58,7 +58,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
 
 ## ビューア（画像サービング5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.3のバグ修正**
 
@@ -68,7 +68,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
 
 ## ビューア（画像サービング5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.2のバグ修正**
 
@@ -77,7 +77,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
 
 ## ビューア（画像サービング5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-完全なドキュメントについては、『[ビューアリファレンスガイド](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)』を参照してください。
+完全なドキュメントについては、『[ビューアリファレンスガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)』を参照してください。
 
 **画像サービング5.5.1の新機能、機能強化およびバグ修正**
 
