@@ -7,9 +7,9 @@ title: ExportJob
 topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '217'
 ht-degree: 10%
 
 ---
@@ -56,7 +56,7 @@ ExportJobは、次のアセットタイプをサポートしていません。
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> ImageServer</span>レンダリングURL文字列を指定します。このURL文字列は、ExportJob <span class="codeph"> convert</span>リクエストに追加されます。 </p> <p>IS修飾子の送信について詳しくは、<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> ISドキュメント</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> ImageServer</span>レンダリングURL文字列を指定します。このURL文字列は、ExportJob <span class="codeph"> convert</span>リクエストに追加されます。 </p> <p>IS修飾子の送信について詳しくは、<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> ISドキュメント</a>を参照してください。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
