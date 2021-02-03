@@ -7,9 +7,9 @@ title: UnsharpMaskOptions
 topic: Dynamic Media Image Production System API
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 10%
 
 ---
@@ -95,5 +95,5 @@ ht-degree: 10%
 
 >[!MORELIKETHIS]
 >
->* [画像サービングAPIリファレンス：op_usm](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [画像サービングAPIリファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
