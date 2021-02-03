@@ -7,9 +7,9 @@ title: ReprocessAssetsJob
 topic: Dynamic Media Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -155,7 +155,7 @@ PDFのリッピングや画像の最適化など、以前にアップロード�
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 種類：UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
