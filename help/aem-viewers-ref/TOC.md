@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Mediaビューアリファレンスガイド
 translation-type: tm+mt
-source-git-commit: 31f2fdd45d950a8e0eae34d75abf956d305d3175
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1925'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Dynamic Mediaビューアリファレンスガイド{#library}
 
-+ [Dynamic Media開発者リソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media開発者リソースホーム](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Dynamic Mediaビューアリファレンスガイド](/help/aem-viewers-ref/home.md)
 + [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
