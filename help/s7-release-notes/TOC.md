@@ -1,17 +1,15 @@
 ---
 title: AdobeDynamic Mediaクラシックリリースノート
-seo-title: AdobeDynamic Mediaクラシックリリースノート
-description: AdobeDynamic Mediaクラシックのリリースノート
-seo-description: Adobe Experience CloudのAdobe Experience Managerソリューションの一部であるAdobeDynamic Mediaクラシックのリリースノートです。
+description: Adobe Experience CloudのAdobe Experience Managerソリューションの一部であるAdobeDynamic Mediaクラシックのリリースノートです。
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -19,7 +17,7 @@ ht-degree: 1%
 
 # Dynamic Mediaリリースノート{#release-notes}
 
-+ [Dynamic Media開発者リソースホーム](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media開発者リソースホーム](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [最新のリリースノート](s7rn2017.md)
 + アーカイブ {#archive-release-notes}
    + [Scene7秋の2016年リリース](s7rnfall2016.md)
