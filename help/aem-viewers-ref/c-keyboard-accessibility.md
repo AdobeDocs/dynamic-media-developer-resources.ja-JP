@@ -1,15 +1,12 @@
 ---
 description: 基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、ディメンション(3D)、カルーセル、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
-seo-description: 基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、ディメンション(3D)、カルーセル、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
-seo-title: キーボードのアクセシビリティとナビゲーション
 solution: Experience Manager
 title: キーボードのアクセシビリティとナビゲーション
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
