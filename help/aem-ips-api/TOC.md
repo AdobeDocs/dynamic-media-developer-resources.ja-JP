@@ -4,17 +4,17 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media画像制作システムAPI
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 2%
+source-wordcount: '632'
+ht-degree: 3%
 
 ---
 
 
 # Dynamic Mediaイメージ制作システムAPI {#image-production-api}
 
-+ [Dynamic Media開発者リソースホーム](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media開発者リソースホーム](/help/landing/home.md)
 + [Dynamic Mediaイメージ制作システムAPIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
 + [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
