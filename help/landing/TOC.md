@@ -8,24 +8,22 @@ breadcrumb-title: Dynamic Media の開発者向けリソース
 user-guide-description: ビューアリファレンスガイド、画像制作システム API、画像処理およびレンダリング API、以前の Scene7 のリリースノートなど、Dynamic Media の開発者向けリソースにアクセスできます。
 index: y
 translation-type: tm+mt
-source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '44'
+ht-degree: 88%
 
 ---
 
 
 # Dynamic Media の開発者向けリソース{#landing}
 
-+ [ホーム](/help/landing/home.md)
++ [ホーム](home.md)
 
 <!--This TOC may not be necessary. Not sure, so leaving it in.
-+ [Viewers Reference Guide](/help/aem-viewers-ref/home.md)
-+ [IS/IR API](/help/aem-is-ir-api/home.md)
++ [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
++ [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)
 + [Image Authoring](/help/aem-ia/aem-ia-home.md)
-+ Vignette Automation Module for Python{#vignette}
-  + [Vignette Automation Module for Python](/help/vignette-automation-module-for-python/c-vampyhome.md)
-+ [Dynamic Media Classic Release Notes](/help/s7-release-notes/home.md)
++ [Dynamic Media Classic Release Notes](/help/s7-release-notes/homern.md)
 -->
