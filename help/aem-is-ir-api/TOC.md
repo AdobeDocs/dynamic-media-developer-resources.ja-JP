@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: Dynamic Media画像サービングとレンダリングAPI
 breadcrumb-title: Dynamic Media画像サービングとレンダリングAPI
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1457'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 # Dynamic Media画像サービングとレンダリングAPI {#image-serving-api}
 
 + [Dynamic Media開発者リソースホーム](/help/landing/home.md)
-+ [Dynamic Media画像サービングおよびImangeレンダリングAPIホーム](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
++ [Dynamic Media画像サービングおよび画像レンダリングAPIホーム](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [このリリースについて](r-about-this-release.md)
 + [必要システム構成と前提条件](r-requirements-and-prerequisites.md)
 + [ディスク容量の要件と推奨事項](r-disk-space-reqs.md)
