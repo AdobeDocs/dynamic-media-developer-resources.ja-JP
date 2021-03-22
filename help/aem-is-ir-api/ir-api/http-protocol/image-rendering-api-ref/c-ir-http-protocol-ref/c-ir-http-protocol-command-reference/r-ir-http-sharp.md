@@ -4,12 +4,13 @@ seo-description: テクスチャをシャープにします。 このマテリ�
 seo-title: 鋭い
 solution: Experience Manager
 title: 鋭い
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
