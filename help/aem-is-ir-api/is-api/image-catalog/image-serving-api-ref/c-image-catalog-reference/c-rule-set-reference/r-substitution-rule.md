@@ -4,12 +4,13 @@ seo-description: 置換文字列要素。 <rule>要素のオプションです�
 seo-title: 置換
 solution: Experience Manager
 title: 置換
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5730559-0512-4416-927d-a7faf9180741
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
