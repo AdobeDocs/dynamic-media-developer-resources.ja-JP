@@ -4,12 +4,13 @@ seo-description: 変換は、ソース画像とテキストレイヤーに適用
 seo-title: レイヤ変換
 solution: Experience Manager
 title: レイヤ変換
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b32b5af4-66ad-474a-9bca-4b6da8f43bf9
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
