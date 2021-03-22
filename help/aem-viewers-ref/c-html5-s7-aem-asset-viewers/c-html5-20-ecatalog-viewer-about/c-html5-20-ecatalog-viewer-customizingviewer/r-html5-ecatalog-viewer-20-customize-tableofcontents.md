@@ -4,12 +4,13 @@ seo-description: 目次は、メインコントロールバーにあるボタン
 seo-title: 目次
 solution: Experience Manager
 title: 目次
-topic: Dynamic Media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1097'
 ht-degree: 2%
 
 ---
