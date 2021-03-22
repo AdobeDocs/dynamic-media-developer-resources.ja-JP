@@ -1,13 +1,14 @@
 ---
 description: フライアウトビューアは画像ビューアです。 ユーザーがアクティブにするフライアウト表示に表示されるズームされたバージョンで、静的な画像を表示します。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-keywords: responsive
+keywords: レスポンシブ
 solution: Experience Manager
 title: フライアウト
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，フライアウト
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
