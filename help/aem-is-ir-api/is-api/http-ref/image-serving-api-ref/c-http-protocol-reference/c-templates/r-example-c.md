@@ -4,12 +4,13 @@ seo-description: 「紙の人形」レイヤーアプリを作成します。
 seo-title: 例C
 solution: Experience Manager
 title: 例C
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 レイヤー化に加えて、選択した項目の色も変更します。 これらの項目のレコードは、前処理されて元の色が削除され、色彩の統一コマンドに適した方法で明るさとコントラストが調整されます。 この前処理は、Photoshopなどの画像編集ツールを使用してオフラインで行うか、単純な場合は`op_brightness=`と`op_contrast=`を`catalog::Modifier`フィールドに追加して、3つに1回行うことができます。
 
-すべてのオブジェクトが既に画像アンカー(`catalog::Anchor`)と拡大/縮小(`catalog::Resolution`)によって適切に整列されているので、このアプリケーションでは個別のテンプレートを使用できません。 レイヤーの順序を適切に決めるために、クライアントに任せます。
+すべてのオブジェクトが既に画像アンカー(`catalog::Anchor`)と拡大/縮小(`catalog::Resolution`)によって適切に整列されているので、このアプリケーションは個別のテンプレートを保証しません。 レイヤーの順序を適切に決めるために、クライアントに任せます。
 
 一般的なリクエストは次のようになります。
 
