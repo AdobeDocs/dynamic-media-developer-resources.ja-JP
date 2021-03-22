@@ -4,13 +4,14 @@ seo-description: すべてのサムネールに適用される画像サービン
 seo-title: FavoritesView.iscommand
 solution: Experience Manager
 title: FavoritesView.iscommand
-topic: Dynamic Media
 uuid: 59a25b65-a08f-46e9-a9eb-33672e4a0cb5
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 7%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
