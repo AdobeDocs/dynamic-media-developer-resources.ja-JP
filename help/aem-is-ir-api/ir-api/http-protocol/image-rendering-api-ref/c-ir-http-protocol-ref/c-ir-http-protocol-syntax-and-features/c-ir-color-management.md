@@ -4,12 +4,13 @@ seo-description: 画像レンダリングは、ICC(International Color Consortiu
 seo-title: 画像レンダリングのカラーマネジメント*
 solution: Experience Manager
 title: 画像レンダリングのカラーマネジメント*
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ ht-degree: 0%
 
 ## 出力カラースペース{#section-4c2c4dfedbb8429ba5cfddc3d3eab6c4}
 
-すべてのレンダリング操作は、作業用カラースペースで行われます。 要求で`icc=`コマンドで別の色プロファイルを指定した場合、データは、エンコードされる直前にその色空間に変換され、クライアントに返されます。 カラーマネジメントが無効な場合、必要に応じてグレースケールまたはCMYKに変換するためにネイティブ変換が使用されます。
+すべてのレンダリング操作は、作業用カラースペースで行われます。 要求で`icc=`コマンドで別の色プロファイルを指定した場合、データはエンコードの直前にその色空間に変換され、クライアントに返されます。 カラーマネジメントが無効な場合、必要に応じて純粋な変換が使用され、グレースケールまたはCMYKに変換されます。
 
 ## 埋め込みカラープロファイル{#section-5ff733832d38429fbe02b3c1e9bb94a9}
 
