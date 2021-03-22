@@ -4,12 +4,13 @@ seo-description: フォルダー階層内のオブジェクトまたはコンテ
 seo-title: アセット
 solution: Experience Manager
 title: アセット
-topic: Dynamic Media Image Production System API
 uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
