@@ -4,12 +4,13 @@ seo-description: 指定した会社のアクティブな公開コンテキスト
 seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-topic: Dynamic Media Image Production System API
 uuid: 856704d1-e97b-4d2d-b80c-620450b78432
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '145'
 ht-degree: 8%
 
 ---
