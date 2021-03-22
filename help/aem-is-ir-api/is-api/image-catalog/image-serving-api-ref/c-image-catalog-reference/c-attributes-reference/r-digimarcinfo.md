@@ -4,13 +4,14 @@ seo-description: 初期設定のDigimarc画像情報 カタログDigimarcInfoの
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
 
