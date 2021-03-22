@@ -2,11 +2,12 @@
 title: 非推奨の呼び出し
 description: Image Production System API呼び出しと、Dynamic Mediaで使用されなくなった関連パラメーター。
 solution: Experience Manager
-topic: Dynamic Media Image Production System API
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
