@@ -4,13 +4,14 @@ seo-description: インラインズームモードでは、メイン表示は、
 seo-title: フライアウトズーム表示
 solution: Experience Manager
 title: フライアウトズーム表示
-topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 5%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
