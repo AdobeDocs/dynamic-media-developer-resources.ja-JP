@@ -4,12 +4,13 @@ seo-description: HTTPプロトコルの基本構文は次のとおりです。
 seo-title: 画像サービングHTTPプロトコルの基本構文
 solution: Experience Manager
 title: 画像サービングHTTPプロトコルの基本構文
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
