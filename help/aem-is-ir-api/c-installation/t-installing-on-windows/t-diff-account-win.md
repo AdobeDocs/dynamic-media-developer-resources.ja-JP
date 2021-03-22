@@ -4,12 +4,13 @@ seo-description: インストールが完了したら、他のユーザーアカ
 seo-title: 管理者とは別のユーザーアカウントでのインストール
 solution: Experience Manager
 title: 管理者とは別のユーザーアカウントでのインストール
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c5944515-c378-45c3-bc18-3261133ba009
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
