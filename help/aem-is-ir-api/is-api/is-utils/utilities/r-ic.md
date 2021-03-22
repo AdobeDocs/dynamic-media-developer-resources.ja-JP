@@ -4,12 +4,13 @@ seo-description: 画像変換ユーティリティ。
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 2%
 
 ---
@@ -96,7 +97,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -applyClippath  </span> </p> </td> 
-   <td colname="col2"> <p>ソースファイル内にクリップパスが存在する場合は、そのパスを使用して、関連するアルファデータを作成します。 </p> </td> 
+   <td colname="col2"> <p>ソースファイルにクリップパスが存在する場合は、そのパスを使用して、関連するアルファデータを作成します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi  &lt;&gt; dpi  </span>&gt;  </span><span class="varname"> </span></p> </td> 
@@ -291,7 +292,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gray | grayA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 未圧縮 |圧縮済み </p> </td> 
    <td> <p> 結合された画像のみ；レイヤーと余分なチャネルは無視されます。 </p> </td> 
   </tr> 
@@ -305,14 +306,14 @@ ht-degree: 2%
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | gray | grayA |インデックス付き </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 圧縮 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | gray | grayA |インデックス付き </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 未圧縮 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 |パックビット </p> </td> 
    <td> <p> 最初に関連付けられたアルファチャネルを除き、余分なチャネルは無視されます。 </p> </td> 
   </tr> 
