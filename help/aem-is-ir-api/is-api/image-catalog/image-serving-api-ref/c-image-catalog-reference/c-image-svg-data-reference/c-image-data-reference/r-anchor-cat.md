@@ -4,12 +4,13 @@ seo-description: 画像アンカー この接触チャネルがテンプレー�
 seo-title: アンカー
 solution: Experience Manager
 title: アンカー
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 81069578-8470-4ec0-b755-47b0a8124024
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---
