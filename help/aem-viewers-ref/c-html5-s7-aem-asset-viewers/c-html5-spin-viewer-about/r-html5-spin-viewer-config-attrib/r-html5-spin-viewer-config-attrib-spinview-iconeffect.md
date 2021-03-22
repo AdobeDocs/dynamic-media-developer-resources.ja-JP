@@ -2,13 +2,14 @@
 description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
-topic: Dynamic Media
 uuid: 864fb8dc-34f8-4216-b38c-cc00f7d8d95f
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 4%
 
 ---
 
