@@ -4,13 +4,14 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: CallToAction.fmt
 solution: Experience Manager
 title: CallToAction.fmt
-topic: Dynamic Media
 uuid: c85160e2-431f-42af-a468-c754bfe86ecd
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
