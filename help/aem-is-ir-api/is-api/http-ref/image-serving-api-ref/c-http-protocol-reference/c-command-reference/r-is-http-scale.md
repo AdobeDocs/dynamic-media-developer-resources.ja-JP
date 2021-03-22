@@ -4,12 +4,13 @@ seo-description: 画像の拡大・縮小 最大解像度の画像を基準に�
 seo-title: scale
 solution: Experience Manager
 title: scale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 5%
 
 ---
