@@ -4,12 +4,13 @@ seo-description: 渡されたパラメーターに基づいて、2つの異な�
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 8%
 
 ---
