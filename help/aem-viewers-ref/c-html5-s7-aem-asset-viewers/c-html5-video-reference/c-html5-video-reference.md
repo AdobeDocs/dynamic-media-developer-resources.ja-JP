@@ -1,13 +1,14 @@
 ---
 description: ビデオビューアは、H.264形式でエンコードされたストリーミングビデオおよびプログレッシブビデオを再生するビデオプレーヤーです。 Dynamic MediaクラシックやAEMDynamic Mediaから配信。
-keywords: responsive
+keywords: レスポンシブ
 solution: Experience Manager
 title: ビデオ
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2383'
 ht-degree: 0%
 
 ---
@@ -149,7 +150,7 @@ Webブラウザーのセキュリティ制限により、共有ツールはフ�
 
    ビューアの静的サイズを設定するには、最上位CSSクラスに対して絶対単位で`.s7videoviewer`宣言するか、修飾子`stagesize`を使用します。
 
-   CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに配置できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
+   CSS内のサイズ調整は、HTMLページまたはカスタムビューアのCSSファイルに適用できます。このCSSファイルは、後でDynamic Mediaクラシックでビューアプリセットレコードに割り当てるか、styleコマンドを使用して明示的に渡します。
 
    CSSを使用したビューアのスタイル設定について詳しくは、[ビデオビューアのカスタマイズ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)を参照してください。
 
@@ -172,7 +173,7 @@ Webブラウザーのセキュリティ制限により、共有ツールはフ�
 
 1. ビューアを作成し、初期化する。
 
-   上記の手順を完了したら、`s7viewers.VideoViewer`クラスのインスタンスを作成し、すべての設定情報をコンストラクターに渡して、ビューアインスタンスで`init()`メソッドを呼び出します。 設定情報は、JSONオブジェクトとしてコンストラクターに渡されます。 最低でも、このオブジェクトには`containerId`フィールドが存在し、ビューアのコンテナIDの名前と、ビューアでサポートされている設定パラメーターを含むネストされた`params` JSONオブジェクトが含まれている必要があります。 この場合、`params`オブジェクトには、`serverUrl`プロパティとして渡された画像サービングURL、`videoserverurl`プロパティとして渡されたビデオサーバーURL、および`asset`パラメーターとしての初期アセットが最低限必要です。 JSONベースの初期化APIを使用すると、1行のコードでビューアを作成し、開始できます。
+   上記の手順を完了したら、`s7viewers.VideoViewer`クラスのインスタンスを作成し、すべての設定情報をコンストラクターに渡して、ビューアインスタンスで`init()`メソッドを呼び出します。 設定情報は、JSONオブジェクトとしてコンストラクターに渡されます。 最低でも、このオブジェクトには`containerId`フィールドが存在し、ビューアのコンテナIDの名前と、ビューアでサポートされている設定パラメーターを含むネストされた`params` JSONオブジェクトが含まれている必要があります。 この場合、`params`オブジェクトには、`serverUrl`プロパティとして渡された画像サービングURL、`videoserverurl`プロパティとして渡されたビデオサーバーURL、および`asset`パラメーターとしての初期アセットが少なくとも含まれている必要があります。 JSONベースの初期化APIを使用すると、1行のコードでビューアを作成し、開始できます。
 
    ビューアのコンテナをDOMに追加して、ビューアのコードがIDでコンテナ要素を見つけられるようにすることが重要です。 一部のブラウザーでは、Webページが終わるまでDOMの構築が遅れます。 互換性を最大にするには、`init()`メソッドを終了`BODY`タグの直前、または本文`onload()`イベントで呼び出します。
 
