@@ -4,13 +4,14 @@ seo-description: この節では、データ型の指定に使用する変数に
 seo-title: データタイプ
 solution: Experience Manager
 title: データタイプ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 66617ade-82e9-4a7e-8c65-3067b75d7a31
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 6%
 
 ---
 
