@@ -4,12 +4,13 @@ seo-description: アセットのメタデータ値を削除します。 メタ�
 seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
+feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '156'
 ht-degree: 7%
 
 ---
