@@ -4,12 +4,13 @@ seo-description: キャッシュ・クラスタリングを使用すると、複
 seo-title: キャッシュクラスタリング
 solution: Experience Manager
 title: キャッシュクラスタリング
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 このように設定されている場合、サーバーは、ローカルキャッシュにない項目に対する要求を受け取ると、クラスター内のピアサーバーと通信します。 これは、Image Serverにアイテムの生成を依頼する前に、既にそのデータ項目が存在するかどうかを確認します。
 
-キャッシュクラスタリングは、主にキャッシュ可能なコンテンツが含まれるアプリケーションに役立ちます。 初期デプロイメント時および新しいコンテンツを使用する場合、サーバーの読み込みは大幅に削減されます。
+キャッシュクラスタリングは、主にキャッシュ可能なコンテンツを含むアプリケーションに役立ちます。 初期デプロイメント時および新しいコンテンツを使用する場合、サーバーの読み込みは大幅に削減されます。
 
 タイムアウトやその他の保護機能により、1台以上のピアサーバがオフラインの場合でも、システムがフル容量で動作し続けます。
 
