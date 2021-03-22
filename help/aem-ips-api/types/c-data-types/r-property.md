@@ -4,13 +4,14 @@ seo-description: 名前と値のペア。
 seo-title: プロパティ
 solution: Experience Manager
 title: プロパティ
-topic: Dynamic Media Image Production System API
 uuid: 3e1bcd92-cc39-4590-b495-f80b5ca92b1f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 31%
+source-wordcount: '36'
+ht-degree: 25%
 
 ---
 
