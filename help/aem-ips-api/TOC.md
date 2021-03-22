@@ -1,20 +1,19 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media画像制作システムAPI
+feature-set: Experience Manager Assets
+user-guide-description: IPS (Image Production System) Web Service APIを使用すると、外部アプリケーションとサードパーティの開発者は、IPSのアセットと機能にプログラム的にアクセスできます。
 translation-type: tm+mt
-source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
 
 # Dynamic Mediaイメージ制作システムAPI {#image-production-api}
 
-+ [Dynamic Media開発者リソースホーム](/help/landing/home.md)
 + [Dynamic Mediaイメージ制作システムAPIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
 + [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
