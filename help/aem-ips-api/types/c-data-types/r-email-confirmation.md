@@ -2,12 +2,13 @@
 description: cdnCacheInvalidation操作に応答して、指定した受信者に電子メールを送信します。
 solution: Experience Manager
 title: EmailConfirmation
-topic: Dynamic Media Image Production System API
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
