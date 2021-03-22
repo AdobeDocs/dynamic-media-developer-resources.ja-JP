@@ -2,13 +2,14 @@
 description: Swatches.buttomsnapmode
 solution: Experience Manager
 title: Swatches.buttomsnapmode
-topic: Dynamic Media
 uuid: 9e1aff9b-66a2-4eaa-a3ff-598504dcb1c3
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
