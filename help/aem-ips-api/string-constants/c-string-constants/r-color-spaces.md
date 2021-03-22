@@ -4,13 +4,14 @@ seo-description: IccProfileFieldUpdate/colorSpaceおよびIccProfileFieldUpdate/
 seo-title: カラースペース
 solution: Experience Manager
 title: カラースペース
-topic: Dynamic Media Image Production System API
 uuid: a703fccb-932d-4de8-84a1-bc0483013151
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
