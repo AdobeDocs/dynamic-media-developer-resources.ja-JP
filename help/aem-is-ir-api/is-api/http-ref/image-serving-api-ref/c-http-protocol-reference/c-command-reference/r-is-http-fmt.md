@@ -4,12 +4,13 @@ seo-description: 応答画像の形式。
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '864'
 ht-degree: 4%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 4%
 | `swf` | AdobeAS2 swfファイルに埋め込まれた非可逆圧縮JPEG |
 | `swf-alpha` | 非可逆圧縮JPEGおよびAdobeAS2 swfファイルに埋め込まれたデフレート圧縮マスク |
 | `swf3` | AdobeAS3 swfファイルに埋め込まれた非可逆圧縮JPEG |
-| `swf3-alpha` | 非可逆圧縮JPEGと、AdobeAS3 swfファイルに埋め込まれた圧縮マスク。 **注意**:swfおよびswf-alpha形式は、ActionScript2アプリケーション(Flash Player8以前)に最適です。actionscript3アプリケーション(Flash Player9以降)には、swf3およびswf3-alphaを使用することをお勧めします。 |
+| `swf3-alpha` | 非可逆圧縮JPEGと、AdobeAS3 swfファイルに埋め込まれた圧縮マスク。 **注意**:swfおよびswf-alpha形式は、ActionScript2アプリケーション(Flash Player8以前)に最適です。ActionScript3アプリケーション(Flash Player9以降)には、swf3およびswf3-alphaを使用することをお勧めします。 |
 | `m3u8` | Apple Streaming Serverマニフェスト形式 |
 | `f4m` | Flashストリーミングサーバのマニフェスト形式 |
 | `webp` | 非可逆圧縮WebP |
