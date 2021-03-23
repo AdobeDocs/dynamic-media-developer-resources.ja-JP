@@ -4,13 +4,14 @@ seo-description: プロパティセットのタイプと値。
 seo-title: PropertySet
 solution: Experience Manager
 title: PropertySet
-topic: Dynamic Media Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
