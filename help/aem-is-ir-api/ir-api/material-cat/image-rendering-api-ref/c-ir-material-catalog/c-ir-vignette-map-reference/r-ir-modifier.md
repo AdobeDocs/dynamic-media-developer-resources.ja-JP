@@ -4,12 +4,13 @@ seo-description: リクエスト修飾子文字列 「&」文字で区切られ�
 seo-title: 修飾子
 solution: Experience Manager
 title: 修飾子
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 725724dd-b664-4d43-8072-a79ea7e7fcce
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '140'
 ht-degree: 5%
 
 ---
