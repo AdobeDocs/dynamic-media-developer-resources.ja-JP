@@ -4,12 +4,13 @@ seo-description: プリロード画像は静的なアセットプレビュー画
 seo-title: 画像のプリロード
 solution: Experience Manager
 title: 画像のプリロード
-topic: Dynamic Media
 uuid: cb5db16d-b496-40e4-b8ef-5573c42d2850
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
