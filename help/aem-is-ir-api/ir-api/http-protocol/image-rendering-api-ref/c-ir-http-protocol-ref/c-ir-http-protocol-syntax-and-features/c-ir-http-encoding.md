@@ -4,12 +4,13 @@ seo-description: コマンド値は、値文字列に予約文字「=」、「&�
 seo-title: 画像レンダリングのHTTPエンコーディング
 solution: Experience Manager
 title: 画像レンダリングのHTTPエンコーディング
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
