@@ -4,12 +4,13 @@ seo-description: 画像レンダリングでは、非ピラミッドビネット
 seo-title: ビネットサイズの制限
 solution: Experience Manager
 title: ビネットサイズの制限
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
