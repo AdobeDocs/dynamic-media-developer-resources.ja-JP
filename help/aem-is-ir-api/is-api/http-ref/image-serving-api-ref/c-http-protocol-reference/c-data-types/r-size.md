@@ -4,12 +4,13 @@ seo-description: ピクセルサイズ 画像サイズまたは長方形サイ�
 seo-title: サイズ
 solution: Experience Manager
 title: サイズ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 4%
 
 ---
