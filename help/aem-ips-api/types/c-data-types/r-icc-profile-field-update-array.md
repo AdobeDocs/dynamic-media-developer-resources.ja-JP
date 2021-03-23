@@ -4,13 +4,14 @@ seo-description: ICCプロファイルフィールドの更新項目の配列で
 seo-title: IccProfileFieldUpdateArray
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 15cb164d-6c56-45fd-9275-dd091e205c80
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
