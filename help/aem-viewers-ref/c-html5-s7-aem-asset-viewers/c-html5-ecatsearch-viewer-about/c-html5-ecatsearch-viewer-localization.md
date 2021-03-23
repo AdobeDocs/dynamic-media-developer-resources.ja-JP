@@ -4,12 +4,13 @@ seo-description: eCatalogビューアに表示されるコンテンツには、�
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
