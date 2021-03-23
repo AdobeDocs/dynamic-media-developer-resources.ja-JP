@@ -2,13 +2,14 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-topic: Dynamic Media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
