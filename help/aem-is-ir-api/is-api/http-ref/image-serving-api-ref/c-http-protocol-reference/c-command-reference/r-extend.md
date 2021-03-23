@@ -4,13 +4,14 @@ seo-description: レイヤーを拡張 マージンをレイヤーに追加す�
 seo-title: 延長する
 solution: Experience Manager
 title: 延長する
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
