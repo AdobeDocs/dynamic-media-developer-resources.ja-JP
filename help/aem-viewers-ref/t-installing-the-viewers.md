@@ -2,11 +2,12 @@
 title: 同じサーバでの複数のDynamic Mediaビューアのインストール
 description: Dynamic MediaビューアAPIのインストール手順
 solution: Experience Manager
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
