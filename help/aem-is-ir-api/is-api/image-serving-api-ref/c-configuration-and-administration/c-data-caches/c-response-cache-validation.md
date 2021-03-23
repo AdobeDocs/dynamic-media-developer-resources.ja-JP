@@ -1,15 +1,16 @@
 ---
-description: キャッシュエントリは、CacheValidationPolicy属性（default.ini内または特定の画像カタログの.iniファイル内）で選択された、カタログベースまたは有効期限ベースのキャッシュ検証を使用して自動的に更新されます。
-seo-description: キャッシュエントリは、CacheValidationPolicy属性（default.ini内または特定の画像カタログの.iniファイル内）で選択された、カタログベースまたは有効期限ベースのキャッシュ検証を使用して自動的に更新されます。
+description: キャッシュエントリは、CacheValidationPolicy（default.ini内または特定の画像カタログの.iniファイル内）属性で選択された、カタログベースまたは有効期限ベースのキャッシュ検証を使用して自動的に更新されます。
+seo-description: キャッシュエントリは、CacheValidationPolicy（default.ini内または特定の画像カタログの.iniファイル内）属性で選択された、カタログベースまたは有効期限ベースのキャッシュ検証を使用して自動的に更新されます。
 seo-title: 応答キャッシュの検証
 solution: Experience Manager
 title: 応答キャッシュの検証
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
