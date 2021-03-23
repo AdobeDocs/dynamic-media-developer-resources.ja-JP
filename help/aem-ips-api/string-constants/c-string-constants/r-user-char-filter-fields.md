@@ -4,13 +4,14 @@ seo-description: getUsersParamおよびgetUserCharsParam/charFieldで使用さ�
 seo-title: ユーザー文字フィルターフィールド
 solution: Experience Manager
 title: ユーザー文字フィルターフィールド
-topic: Dynamic Media Image Production System API
 uuid: b8137f42-d7f6-4545-ac7a-7d94a59c40c3
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
