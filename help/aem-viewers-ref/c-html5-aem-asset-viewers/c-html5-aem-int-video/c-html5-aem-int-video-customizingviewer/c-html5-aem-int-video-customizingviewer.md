@@ -1,16 +1,17 @@
 ---
 description: インタラクティブビデオビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: インタラクティブビデオビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 seo-title: インタラクティブビデオビューアのカスタマイズ
 solution: Experience Manager
 title: インタラクティブビデオビューアのカスタマイズ
-topic: Dynamic Media
 uuid: a24e7ada-c874-468b-ac44-a51d581d4479
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
