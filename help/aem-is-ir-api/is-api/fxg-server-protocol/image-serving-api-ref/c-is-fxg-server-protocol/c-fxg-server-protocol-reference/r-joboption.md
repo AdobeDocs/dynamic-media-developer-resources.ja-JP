@@ -4,13 +4,14 @@ seo-description: PDFジョブのオプションを適用します。 ジョブ�
 seo-title: joboption
 solution: Experience Manager
 title: joboption
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 42%
+source-wordcount: '266'
+ht-degree: 40%
 
 ---
 
