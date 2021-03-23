@@ -2,12 +2,13 @@
 description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
 title: FlyoutZoomView.zoomfactor
-topic: Dynamic Media
 uuid: 8c4e6bf8-0238-470b-9fbe-262eb17f8f3b
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
