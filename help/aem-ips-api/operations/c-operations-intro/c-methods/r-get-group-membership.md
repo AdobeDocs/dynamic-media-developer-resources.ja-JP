@@ -4,13 +4,14 @@ seo-description: グループのメンバを返します。
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 18%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
