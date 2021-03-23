@@ -4,13 +4,14 @@ seo-description: リクエストのタイプ。 リクエストのタイプを�
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c8ff9c3-9f39-46a8-bd38-8e0c5ab0f548
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 存在</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>reqId一意のリクエスト識別子 </p> <p>catalogRecord.existsという名前の1つのプロパティを返します。 指定したカタログエントリが画像または初期設定のカタログに存在する場合、プロパティ値は「1」に設定され、それ以外の場合は「0」に設定されます。 /is/contentコンテキストに対するreq=existsリクエストは、静的コンテンツカタログ内の指定されたレコードの存在または存在を示します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>reqId一意のリクエスト識別子 </p> <p>catalogRecord.existsという名前の1つのプロパティを返します。 指定したカタログエントリが画像または初期設定のカタログに存在する場合、プロパティ値は「1」に設定され、それ以外の場合は「0」に設定されます。 /is/contentコンテキストに対するreq=existsリクエストは、静的コンテンツカタログ内の指定されたレコードの存在または存在しないことを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
