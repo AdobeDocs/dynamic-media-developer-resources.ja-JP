@@ -4,12 +4,13 @@ seo-description: サーバは、カタログフォルダを継続的に監視し
 seo-title: 画像カタログの更新
 solution: Experience Manager
 title: 画像カタログの更新
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 サーバは、カタログフォルダを継続的に監視し、メインのカタログ属性ファイルが変更されたことを検出すると、関連するカタログデータファイルを含む画像カタログを自動的に再読み込みします。
 
-サーバ上の画像カタログを更新するには、まず変更する必要のあるすべてのカタログデータファイルを置き換え、次にカタログ属性ファイルを置き換えて（「タッチ」）、カタログの再読み込みをトリガーします。
+サーバ上の画像カタログを更新するには、まず変更する必要のあるすべてのカタログデータファイルを置き換えてから、カタログ属性ファイルを置き換えて（「タッチ」）、カタログの再読み込みをトリガーします。
 
 ## 増分更新{#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
