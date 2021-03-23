@@ -4,12 +4,13 @@ seo-description: 出力カラープロファイル
 seo-title: icc
 solution: Experience Manager
 title: icc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 95a05fe5-d6b3-4118-aab4-4664ccee2850
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
