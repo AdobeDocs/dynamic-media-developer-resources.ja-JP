@@ -4,12 +4,13 @@ seo-description: ピクセルの位置でオブジェクトを選択
 seo-title: sel
 solution: Experience Manager
 title: sel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2a679284-9da4-44b6-b495-8e1a47296e7c
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 2%
 
 選択コマンド；MSS区切り文字。 `obj=`または`sel=`を使用して別のオブジェクトを選択するまで、オブジェクト選択は維持されます。
 
-*`x, y`* は、0, 0（画像の左上隅）～  *`wid`*-1,  *`hei`*-1（画像の左下隅、右隅）の範囲にある必要があります。ここで、 *`wid`* とは、拡大/縮小されないビネット表示のサイズ *`hei`* です。
+*`x, y`* は、0, 0（画像の左上隅）～  *`wid`*-1,  *`hei`*-1（画像の左下隅）の範囲にある必要があります。ここで、 *`wid`* と *`hei`* は、拡大・縮小されないビネット表示のサイズです。
 
 指定する場合、*`level`*&#x200B;は0以上にする必要があります。
 
