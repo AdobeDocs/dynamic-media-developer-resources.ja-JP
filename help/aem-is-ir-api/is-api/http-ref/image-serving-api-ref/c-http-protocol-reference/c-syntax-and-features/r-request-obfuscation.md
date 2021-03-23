@@ -4,12 +4,13 @@ seo-description: オプションのロックサフィックスを含む、リク
 seo-title: 不明化のリクエスト
 solution: Experience Manager
 title: 不明化のリクエスト
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
