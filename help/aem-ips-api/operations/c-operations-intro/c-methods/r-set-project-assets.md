@@ -4,13 +4,14 @@ seo-description: プロジェクト内のアセットの割り当てまたは更
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 18%
+source-wordcount: '100'
+ht-degree: 17%
 
 ---
 
