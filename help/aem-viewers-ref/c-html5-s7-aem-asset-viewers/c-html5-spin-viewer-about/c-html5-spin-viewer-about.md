@@ -1,16 +1,17 @@
 ---
 description: スピンビューアは、360°の画像を提供する表示ビューアです。または、適切なスピンセットが使用されている場合は、多次元の表示を提供します。 このビューアには、ズームツール、スピンツール、フルスクリーンのサポート、およびオプションの閉じるボタンがあります。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: スピンビューアは、360°の画像を提供する表示ビューアです。または、適切なスピンセットが使用されている場合は、多次元の表示を提供します。 このビューアには、ズームツール、スピンツール、フルスクリーンのサポート、およびオプションの閉じるボタンがあります。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 seo-title: Spin
 solution: Experience Manager
 title: スピン
-topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
