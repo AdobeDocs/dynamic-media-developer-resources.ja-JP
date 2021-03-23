@@ -4,12 +4,13 @@ seo-description: 階層ツリー構造のフォルダとサブフォルダを返
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
