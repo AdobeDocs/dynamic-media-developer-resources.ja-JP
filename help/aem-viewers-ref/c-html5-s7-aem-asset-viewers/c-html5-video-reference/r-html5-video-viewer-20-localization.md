@@ -4,12 +4,13 @@ seo-description: ビデオビューアで表示されるコンテンツには、
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic Media
 uuid: 05b88ef9-0d90-4143-8558-d0d32943c348
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
