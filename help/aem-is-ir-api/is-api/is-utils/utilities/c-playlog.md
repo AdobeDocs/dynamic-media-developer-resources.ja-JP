@@ -4,12 +4,13 @@ seo-description: playlogユーティリティは、HTTP応答キャッシュ用�
 seo-title: 「playlog」ユーティリティ
 solution: Experience Manager
 title: 「playlog」ユーティリティ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
