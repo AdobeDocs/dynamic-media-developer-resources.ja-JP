@@ -4,12 +4,13 @@ seo-description: 指定したサーバーディレクトリからファイルを
 seo-title: UploadDirectoryJob
 solution: Experience Manager
 title: UploadDirectoryJob
-topic: Dynamic Media Image Production System API
 uuid: 6e6ae415-7c54-4bbb-aa98-ff9a77d956b0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
