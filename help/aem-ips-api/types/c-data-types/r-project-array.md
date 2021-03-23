@@ -4,13 +4,14 @@ seo-description: 一連のプロジェクト。
 seo-title: ProjectArray
 solution: Experience Manager
 title: ProjectArray
-topic: Dynamic Media Image Production System API
 uuid: 5828eac9-653b-4241-bfdc-6ec5b5c0b25e
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 25%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
