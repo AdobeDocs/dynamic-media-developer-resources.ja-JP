@@ -4,13 +4,14 @@ seo-description: イタリックス国旗。
 seo-title: 斜体
 solution: Experience Manager
 title: 斜体
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 14%
+source-wordcount: '55'
+ht-degree: 12%
 
 ---
 
