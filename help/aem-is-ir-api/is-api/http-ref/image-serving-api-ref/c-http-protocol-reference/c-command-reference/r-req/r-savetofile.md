@@ -4,12 +4,13 @@ seo-description: 画像をファイルに保存します。
 seo-title: saveToFile
 solution: Experience Manager
 title: saveToFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 3%
 
 ---
