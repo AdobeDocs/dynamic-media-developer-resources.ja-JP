@@ -4,12 +4,13 @@ seo-description: 画像レンダリングの設定は、プラットフォーム
 seo-title: 設定ファイル
 solution: Experience Manager
 title: 設定ファイル
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ffd1c65b-e084-4a7e-9a15-600d6c5b173a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
