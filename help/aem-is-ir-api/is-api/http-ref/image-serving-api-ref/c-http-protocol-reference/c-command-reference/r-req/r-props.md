@@ -4,13 +4,14 @@ seo-description: 応答データのプロパティ。 現在の要求をイメ�
 seo-title: prop
 solution: Experience Manager
 title: prop
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
