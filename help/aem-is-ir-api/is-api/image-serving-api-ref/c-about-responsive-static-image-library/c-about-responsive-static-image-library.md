@@ -2,11 +2,12 @@
 description: レスポンシブ画像ライブラリは、Dynamic Mediaから提供される画像の品質を動的に調整し、レスポンシブWebページに埋め込むJavaScriptモジュールです。 また、高密度の画面を持つデバイスの画質も向上します。 ライブラリは、スマート切り抜きとスマートスウォッチからの結果を応答的にレンダリングすることもできます。
 solution: Experience Manager
 title: レスポンシブ画像ライブラリについて
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
    <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>次の例では、異なるブレークポイントサイズに対して、異なる画質と形式の画像プリセットを使用します。 小さいブレークポイントの場合は、低画質プリセットが適用され、画像サービングから強制的に6色に圧縮されたGIF画像が返されます。 中程度のブレークポイントは、高圧縮のJPEG用に設定された画像プリセットを使用しています。 最大のブレークポイントは、可逆圧縮形式のPNGを使用した高品質画像プリセットに関連付けられます。 この方法により、大きい画面を持つデバイスの帯域幅と処理能力が大きいという前提に基づき、高品質の画像がそのようなデバイスに配信されます。 </p> <p>URLをクリックしてWebページを開き、Webブラウザーウィンドウのサイズを大きくして小さくし、画質が低下するのを確認します。 </p> </td> 
+   <td colname="col2"> <p>次の例では、異なるブレークポイントサイズに対して、異なる画質と形式の画像プリセットを使用します。 小さいブレークポイントの場合は、低画質プリセットが適用され、画像サービングから強制的に6色に圧縮されたGIF画像が返されます。 中程度のブレークポイントは、高圧縮のJPEG用に設定された画像プリセットを使用しています。 最大のブレークポイントは、可逆圧縮形式のPNGを使用した高品質画像プリセットに関連付けられます。 この方法により、大きい画面のデバイスの帯域幅と処理能力が大きいという前提に基づいて、高品質の画像がそのようなデバイスに配信されます。 </p> <p>URLをクリックしてWebページを開き、Webブラウザーウィンドウのサイズを大きくして小さくし、画質が低下するのを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
