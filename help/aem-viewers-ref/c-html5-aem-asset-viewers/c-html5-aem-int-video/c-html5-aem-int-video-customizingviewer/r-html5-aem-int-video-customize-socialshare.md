@@ -4,12 +4,13 @@ seo-description: ソーシャル共有ツールは、デフォルトで右上隅
 seo-title: ソーシャルシェア
 solution: Experience Manager
 title: ソーシャルシェア
-topic: Dynamic Media
 uuid: 1123e96a-581f-4c1c-ad95-9804e3235002
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
