@@ -2,11 +2,12 @@
 description: 基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、ディメンション(3D)、カルーセル、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
 solution: Experience Manager
 title: キーボードのアクセシビリティとナビゲーション
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
