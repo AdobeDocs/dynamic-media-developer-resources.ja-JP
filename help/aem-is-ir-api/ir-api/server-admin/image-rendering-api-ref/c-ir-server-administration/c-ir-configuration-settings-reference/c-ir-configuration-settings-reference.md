@@ -4,12 +4,13 @@ seo-description: すべてのRender Server Settingsは、install_root/ImageServi
 seo-title: 設定リファレンス
 solution: Experience Manager
 title: 設定リファレンス
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd9629d6-901d-4015-a49e-d3a36e18a7a3
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
