@@ -4,12 +4,13 @@ seo-description: カタログ属性ファイルは、これらのリクエスト
 seo-title: 要求属性
 solution: Experience Manager
 title: 要求属性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 02156b81-9f18-461e-94c1-43b1155c4ab6
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
