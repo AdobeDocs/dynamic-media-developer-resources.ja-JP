@@ -2,12 +2,13 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-topic: Dynamic Media
 uuid: 791aaaa5-3777-4f68-a445-caa3d975d883
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
