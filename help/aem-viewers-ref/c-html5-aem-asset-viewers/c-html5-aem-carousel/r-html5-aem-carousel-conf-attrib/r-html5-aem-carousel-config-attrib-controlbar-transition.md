@@ -4,12 +4,13 @@ seo-description: カルーセルビューアの設定属性。
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic Media
 uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
