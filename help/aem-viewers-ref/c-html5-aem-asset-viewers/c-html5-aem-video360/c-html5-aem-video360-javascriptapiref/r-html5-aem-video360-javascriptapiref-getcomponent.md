@@ -4,12 +4,13 @@ seo-description: ビデオ360ビューアのJavaScript APIリファレンス。
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 2f10c080-f21d-4021-b10c-cd83f731db65
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
