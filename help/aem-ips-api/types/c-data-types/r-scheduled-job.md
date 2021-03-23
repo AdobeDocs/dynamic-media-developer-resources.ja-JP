@@ -4,12 +4,13 @@ seo-description: 実行がスケジュールされているジョブ。
 seo-title: ScheduledJob
 solution: Experience Manager
 title: ScheduledJob
-topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 4%
 
 ## 説明 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-`submitJob`でジョブタイプの値を指定すると、その種類に基づいてジョブが返されます。 次のジョブを返すことができます。
+`submitJob`でジョブタイプの値を指定すると、その種類に基づくジョブが返されます。 次のジョブを返すことができます。
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
