@@ -4,13 +4,14 @@ seo-description: SWFビューアの設定を更新します。
 seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
+feature: Dynamic Mediaクラシック，SDK/API，ビューアプリセット
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 13%
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
