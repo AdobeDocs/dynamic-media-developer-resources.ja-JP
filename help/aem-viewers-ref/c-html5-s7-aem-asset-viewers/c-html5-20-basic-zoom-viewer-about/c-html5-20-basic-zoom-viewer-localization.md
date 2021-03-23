@@ -4,12 +4,13 @@ seo-description: 基本ズームビューアに表示されるコンテンツに
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic Media
 uuid: 842970d9-0882-4163-8c49-3ea35d372d35
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
