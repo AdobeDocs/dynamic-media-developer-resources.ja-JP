@@ -2,13 +2,14 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-topic: Dynamic Media
 uuid: 27cbf5b5-eb11-48e4-9047-f6d0ce0e6298
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，フライアウト
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 12%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
