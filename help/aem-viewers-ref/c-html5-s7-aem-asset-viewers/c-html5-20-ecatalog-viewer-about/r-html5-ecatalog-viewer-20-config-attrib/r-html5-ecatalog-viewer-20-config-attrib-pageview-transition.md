@@ -2,12 +2,13 @@
 description: PageView.transition
 solution: Experience Manager
 title: PageView.transition
-topic: Dynamic Media
 uuid: f84da456-ac02-4037-b1fd-7440823eb1ef
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
