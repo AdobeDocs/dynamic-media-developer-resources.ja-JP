@@ -4,12 +4,13 @@ seo-description: 画像カタログには、フォント、ICCプロファイル
 seo-title: 画像カタログ
 solution: Experience Manager
 title: 画像カタログ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
