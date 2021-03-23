@@ -4,12 +4,13 @@ seo-description: カルーセルビューアのJavaScript APIリファレンス�
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 770cbb87-af86-48dc-88a0-e74f6716f545
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '91'
 ht-degree: 3%
 
 ---
