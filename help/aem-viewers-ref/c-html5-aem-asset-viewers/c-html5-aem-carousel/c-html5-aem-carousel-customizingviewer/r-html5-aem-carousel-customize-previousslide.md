@@ -4,12 +4,13 @@ seo-description: このボタンをクリックまたはタップすると、カ
 seo-title: 前のスライド
 solution: Experience Manager
 title: 前のスライド
-topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
