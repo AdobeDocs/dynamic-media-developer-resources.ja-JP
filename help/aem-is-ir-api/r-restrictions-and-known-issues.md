@@ -4,12 +4,13 @@ seo-description: Dynamic Media画像サービングを使用する場合は、�
 seo-title: 制限事項と既知の問題
 solution: Experience Manager
 title: 制限事項と既知の問題
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Digimarcライブラリは、既にDigimarc透かしが検出されていると�
 
 * 4個を超えるCPUが使用可能な場合、画像サービングと画像レンダリングですべてのCPUを最大限に活用できない場合があります。 4基を超えるCPUを使用した場合に、これらのマシン上のトラフィックをシミュレートして、そのメリットを確認します。
 * リダイレクトを返すリモートURL（HTTPステータス301、302または303）は拒否されます。
-* `errorRedirect.rootUrl`を設定する場合は、このプロパティで定義するIPアドレスを、そのサーバーのルールセット`<addressfilter>`タグ値に含める必要があります。
+* `errorRedirect.rootUrl`を設定する際は、このプロパティで定義するIPアドレスを、そのサーバーのルールセット`<addressfilter>`タグ値に含める必要があります。
 
    *例*:
 
