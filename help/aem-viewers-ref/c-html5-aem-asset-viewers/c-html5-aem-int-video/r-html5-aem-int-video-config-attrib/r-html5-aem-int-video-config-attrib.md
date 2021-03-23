@@ -4,12 +4,13 @@ seo-description: インタラクティブビデオビューアの設定属性ド
 seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-topic: Dynamic Media
 uuid: eaf7a1a2-b0ec-4df2-926b-5e2c4cd0b3d1
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
