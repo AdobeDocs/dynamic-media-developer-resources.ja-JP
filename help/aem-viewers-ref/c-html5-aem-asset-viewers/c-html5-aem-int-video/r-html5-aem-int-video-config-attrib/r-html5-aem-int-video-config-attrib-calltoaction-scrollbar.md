@@ -4,13 +4,14 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: CallToAction.scrollbar
 solution: Experience Manager
 title: CallToAction.scrollbar
-topic: Dynamic Media
 uuid: 20b14257-da2f-4557-a732-b14421b0eb7e
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
