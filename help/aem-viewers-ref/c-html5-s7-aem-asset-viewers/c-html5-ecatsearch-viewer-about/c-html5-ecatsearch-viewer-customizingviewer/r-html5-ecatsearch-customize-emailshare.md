@@ -4,12 +4,13 @@ seo-description: 電子メール共有ツールは、ソーシャル共有パネ
 seo-title: 電子メール共有
 solution: Experience Manager
 title: 電子メール共有
-topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3084'
 ht-degree: 1%
 
 ---
@@ -394,7 +395,7 @@ background-color: #ffffff;
 >
 >このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-「電子メールを送信」ボタンは、以下のCSSクラスセレクターを使用して制御します。
+電子メールを送信ボタンは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogactionbutton
