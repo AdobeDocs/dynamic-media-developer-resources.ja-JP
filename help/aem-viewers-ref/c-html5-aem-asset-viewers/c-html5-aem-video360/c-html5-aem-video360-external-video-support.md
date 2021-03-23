@@ -2,11 +2,12 @@
 description: ビューアは、Dynamic MediaクラシックまたはAEMDynamic Media以外でホストされているビデオの再生をサポートしています。
 solution: Experience Manager
 title: 外部ビデオのサポート
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
