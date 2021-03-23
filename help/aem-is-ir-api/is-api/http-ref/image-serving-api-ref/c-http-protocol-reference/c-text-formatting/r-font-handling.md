@@ -4,12 +4,13 @@ seo-description: RTF文字列で参照されるすべてのフォントは、初
 seo-title: フォント処理
 solution: Experience Manager
 title: フォント処理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ RTF文字列で参照されるすべてのフォントは、初期設定のカ�
 
 `attribute::DefaultFont`で指定したフォントは、RTF文字列で明示的に何も指定されていない場合に使用されます。
 
-画像サービングは、TrueType、OpenType、AdobeType 1（Windowsのみ）フォントをサポートしています。
+画像サービングは、TrueType、OpenType、Adobe Type1（Windowsのみ）フォントをサポートしています。
 
 ## Photofont®フォントのサポート{#section-74560ae898cf4708aba4c8b4093f5f00}
 
