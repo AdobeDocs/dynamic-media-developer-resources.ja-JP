@@ -4,13 +4,14 @@ seo-description: タスク項目に関する情報の配列です。
 seo-title: TaskItemProgressArray
 solution: Experience Manager
 title: TaskItemProgressArray
-topic: Dynamic Media Image Production System API
 uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
