@@ -4,12 +4,13 @@ seo-description: カタログのRootIdを除く、すべてのカタログ属性
 seo-title: 属性リファレンス
 solution: Experience Manager
 title: 属性リファレンス
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 613f1f3c-9abb-4d3e-b8b7-c2ba74f46011
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
