@@ -1,16 +1,17 @@
 ---
 description: eCatalogビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: eCatalogビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 seo-title: eCatalogビューアのカスタマイズ
 solution: Experience Manager
 title: eCatalogビューアのカスタマイズ
-topic: Dynamic Media
 uuid: 20d0d342-acb8-421f-9ec1-447edeafda86
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
