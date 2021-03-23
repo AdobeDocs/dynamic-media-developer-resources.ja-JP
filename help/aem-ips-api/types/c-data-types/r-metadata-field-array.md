@@ -4,13 +4,14 @@ seo-description: メタデータフィールドの配列
 seo-title: MetadataFieldArray
 solution: Experience Manager
 title: MetadataFieldArray
-topic: Dynamic Media Image Production System API
 uuid: f4cec7ce-2254-4e98-8202-9309e7dc3079
+feature: Dynamic Mediaクラシック，SDK/API，メタデータ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
