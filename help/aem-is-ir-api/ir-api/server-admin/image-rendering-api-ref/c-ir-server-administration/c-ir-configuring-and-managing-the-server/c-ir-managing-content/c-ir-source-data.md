@@ -4,12 +4,13 @@ seo-description: 画像レンダリングソースデータファイルには、
 seo-title: ソースデータ
 solution: Experience Manager
 title: ソースデータ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
