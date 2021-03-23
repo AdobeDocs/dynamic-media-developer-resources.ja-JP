@@ -4,12 +4,13 @@ seo-description: Facebook共有ツールは、ソーシャル共有パネルに�
 seo-title: Facebook共有
 solution: Experience Manager
 title: Facebook共有
-topic: Dynamic Media
 uuid: 0327631d-9847-409c-bce1-e58ee248d701
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
