@@ -4,12 +4,13 @@ seo-description: eCatalogビューアでは、メイン表示の上にある画�
 seo-title: 画像マップのサポート
 solution: Experience Manager
 title: 画像マップのサポート
-topic: Dynamic Media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
