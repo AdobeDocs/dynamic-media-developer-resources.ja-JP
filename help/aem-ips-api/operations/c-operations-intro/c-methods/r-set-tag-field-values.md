@@ -4,13 +4,14 @@ seo-description: 既存のタグフィールドにタグディクショナリの
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 14%
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 
