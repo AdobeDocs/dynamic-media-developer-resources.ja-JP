@@ -4,13 +4,14 @@ seo-description: ビデオ画像ビューアのURLコマンド。
 seo-title: preloadimage
 solution: Experience Manager
 title: preloadimage
-topic: Dynamic Media
 uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
