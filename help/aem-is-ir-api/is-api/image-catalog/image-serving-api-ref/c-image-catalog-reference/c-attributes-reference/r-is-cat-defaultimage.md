@@ -4,13 +4,14 @@ seo-description: 初期設定の応答画像。 画像ファイルが見つか�
 seo-title: DefaultImage
 solution: Experience Manager
 title: DefaultImage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f8f50af-15bb-4333-b227-3eba38653a7d
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
