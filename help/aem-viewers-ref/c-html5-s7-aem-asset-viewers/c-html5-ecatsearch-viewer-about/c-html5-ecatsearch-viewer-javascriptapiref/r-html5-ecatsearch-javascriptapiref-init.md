@@ -4,12 +4,13 @@ seo-description: eCatalogビューアのJavaScript APIリファレンス。
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: b01f1497-8bee-4e01-8f92-272b324cb2dd
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
