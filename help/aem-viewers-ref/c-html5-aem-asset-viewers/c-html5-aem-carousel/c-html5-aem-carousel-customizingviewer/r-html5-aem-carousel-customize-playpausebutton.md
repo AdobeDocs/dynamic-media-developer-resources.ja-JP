@@ -4,12 +4,13 @@ seo-description: 再生/一時停止ボタンを使用すると、カルーセ�
 seo-title: PlayPauseボタン
 solution: Experience Manager
 title: PlayPauseボタン
-topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
