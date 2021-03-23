@@ -4,12 +4,13 @@ seo-description: ズームインジケーターは、メイン表示領域に重
 seo-title: アイコンエフェクト
 solution: Experience Manager
 title: アイコンエフェクト
-topic: Dynamic Media
 uuid: 113b2502-395d-4fd1-ab28-4995e8248593
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
