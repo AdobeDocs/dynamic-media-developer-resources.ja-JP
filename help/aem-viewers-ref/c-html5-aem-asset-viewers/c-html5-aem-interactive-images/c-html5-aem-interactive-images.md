@@ -4,12 +4,13 @@ seo-description: インタラクティブ画像ビューアは、ズーム可能
 seo-title: インタラクティブ画像
 solution: Experience Manager
 title: インタラクティブ画像
-topic: Dynamic Media
 uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
