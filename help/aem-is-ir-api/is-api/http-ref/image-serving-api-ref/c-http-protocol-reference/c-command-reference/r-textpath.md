@@ -4,12 +4,13 @@ seo-description: テキストパス textPs=で提供されるテキストのベ�
 seo-title: textPath
 solution: Experience Manager
 title: textPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2f0047b-ad62-4605-a723-b43d53fbea56
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '166'
 ht-degree: 3%
 
 ---
