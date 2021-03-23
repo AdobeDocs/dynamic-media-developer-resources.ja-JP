@@ -4,12 +4,13 @@ seo-description: 重なり合うオブジェクトを表示 重なり合うオ�
 seo-title: ShowOverlapObjs
 solution: Experience Manager
 title: ShowOverlapObjs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 965dcff5-30e1-4237-aa71-ee7533a674d8
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '61'
 ht-degree: 3%
 
 ---
