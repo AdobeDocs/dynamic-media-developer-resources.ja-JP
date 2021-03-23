@@ -4,13 +4,14 @@ seo-description: 基本ズームビューアのJavaScript APIリファレンス
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: 775e1561-3709-41e1-9146-dcc85f8a250d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
