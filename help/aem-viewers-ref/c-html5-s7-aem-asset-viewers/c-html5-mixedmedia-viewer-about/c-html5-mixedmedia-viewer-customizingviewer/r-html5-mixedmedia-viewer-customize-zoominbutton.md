@@ -4,12 +4,13 @@ seo-description: このボタンをクリックまたはタップすると、メ
 seo-title: ズームインボタン
 solution: Experience Manager
 title: ズームインボタン
-topic: Dynamic Media
 uuid: 19f8b5b1-5327-405e-a420-16da53b354ca
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '301'
 ht-degree: 2%
 
 ---
