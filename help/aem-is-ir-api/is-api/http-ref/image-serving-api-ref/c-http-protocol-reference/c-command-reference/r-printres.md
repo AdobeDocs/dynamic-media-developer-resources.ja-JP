@@ -4,12 +4,13 @@ seo-description: 印刷解像度。 応答画像に埋め込まれた印刷解�
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
