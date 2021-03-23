@@ -4,10 +4,12 @@ seo-description: 画像サービングユーティリティおよびビネット
 seo-title: ユーティリティ
 title: ユーティリティ
 uuid: cd8c2bb3-8d91-483a-a30b-bba6783cd335
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
