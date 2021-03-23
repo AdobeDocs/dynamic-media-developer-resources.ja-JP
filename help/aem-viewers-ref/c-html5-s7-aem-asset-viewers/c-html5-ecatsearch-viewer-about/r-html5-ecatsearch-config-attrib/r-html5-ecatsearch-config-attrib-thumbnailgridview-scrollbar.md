@@ -2,13 +2,14 @@
 description: ThumbnailGridView.scrollbar
 solution: Experience Manager
 title: ThumbnailGridView.scrollbar
-topic: Dynamic Media
 uuid: 2a6383ee-20f5-422e-81eb-0b06b0297b5d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 29%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
 
