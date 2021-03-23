@@ -4,12 +4,13 @@ seo-description: ビデオ360ビューアの設定属性ドキュメント。
 seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-topic: Dynamic Media
 uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
