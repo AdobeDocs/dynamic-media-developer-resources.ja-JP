@@ -4,12 +4,13 @@ seo-description: 画像サービングは、特定のレコードのカタログ
 seo-title: メディアセットの要求
 solution: Experience Manager
 title: メディアセットの要求
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
