@@ -4,12 +4,13 @@ seo-description: メイン表示領域は、フライアウト表示とスウォ
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic Media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
