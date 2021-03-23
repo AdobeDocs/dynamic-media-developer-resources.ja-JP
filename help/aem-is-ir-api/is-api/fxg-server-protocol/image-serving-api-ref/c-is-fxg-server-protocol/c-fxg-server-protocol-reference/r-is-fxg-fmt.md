@@ -4,12 +4,13 @@ seo-description: 応答画像の形式。
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。 </p> <p> <span class="codeph">  jpeg  </span>:非可逆圧縮JPEG </p> <p> <span class="codeph"> png  </span>:可逆圧縮PNG </p> <p> <span class="codeph"> png-alpha  </span>:アルファチャネル付き可逆圧縮PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:アルファチャネルのTIFF </p> <p> <span class="codeph">  swf  </span>:adobeswfファイルに埋め込まれた非可逆圧縮JPEG </p> <p> <span class="codeph"> pdf  </span>:PDFに埋め込まれた画像 </p> <p> <span class="codeph"> gif  </span>:2 ～ 256色のGIF </p> <p> <span class="codeph"> gif-alpha  </span>:キーカラーの透明部分がプラスされた2 ～ 255色のGIF </p> <p> <span class="codeph"> fxg  </span>:変数とDOM操作が適用されたFXG </p> <p> <span class="codeph">  fxgraw  </span>:元のFXGをサーバに保存 </p> </td> 
+  <td class="stentry"> <p> クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。 </p> <p> <span class="codeph">  jpeg  </span>:非可逆圧縮JPEG </p> <p> <span class="codeph"> png  </span>:可逆圧縮PNG </p> <p> <span class="codeph"> png-alpha  </span>:アルファチャネル付き可逆圧縮PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:アルファチャネルのTIFF </p> <p> <span class="codeph">  swf  </span>:Adobeswfファイルに埋め込まれた非可逆圧縮JPEG </p> <p> <span class="codeph"> pdf  </span>:PDFに埋め込まれた画像 </p> <p> <span class="codeph"> gif  </span>:2 ～ 256色のGIF </p> <p> <span class="codeph"> gif-alpha  </span>:キーカラーの透明部分がプラスされた2 ～ 255色のGIF </p> <p> <span class="codeph"> fxg  </span>:変数とDOM操作が適用されたFXG </p> <p> <span class="codeph">  fxgraw  </span>:元のFXGをサーバに保存 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
