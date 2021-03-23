@@ -4,12 +4,13 @@ seo-description: このボタンをクリックまたはタップすると、メ
 seo-title: ズームリセットボタン
 solution: Experience Manager
 title: ズームリセットボタン
-topic: Dynamic Media
 uuid: 29b46f4e-cda6-4dfc-92bb-722882235e13
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
