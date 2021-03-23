@@ -4,13 +4,14 @@ seo-description: 初期設定のJPEGエンコーディング画質。 JPEGでエ
 seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
