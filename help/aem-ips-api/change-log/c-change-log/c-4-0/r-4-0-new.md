@@ -4,12 +4,13 @@ seo-description: IPS API v4.0の新しい変更と実装された変更につい
 seo-title: 新しい追加と変更
 solution: Experience Manager
 title: 新しい追加と変更
-topic: Dynamic Media Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -167,7 +168,7 @@ API操作のロケールを設定するために、`authHeader` SOAPヘッダー
 
 厳密に型指定されたメタデータフィールドの取得/設定のサポートを追加しました。
 
-gzip応答制御用にSOAPおよびHTTPヘッダーのサポートを実装。
+gzip応答制御用にSOAPおよびHTTPヘッダのサポートを実装。
 
 `gzipResponse`フラグを`authHeader`に追加しました。 存在しない場合は、APIはHTTP `Accept-Encoding`ヘッダもチェックします。
 
