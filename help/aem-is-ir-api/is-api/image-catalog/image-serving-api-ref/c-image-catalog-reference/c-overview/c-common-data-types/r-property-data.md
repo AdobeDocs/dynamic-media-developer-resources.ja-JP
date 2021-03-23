@@ -4,12 +4,13 @@ seo-description: プロパティデータは、1つ以上のプロパティを�
 seo-title: プロパティデータ
 solution: Experience Manager
 title: プロパティデータ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7fa6ae70-8d70-41d6-9e47-7df3d616874c
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
