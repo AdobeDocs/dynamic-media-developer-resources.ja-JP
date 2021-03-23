@@ -4,13 +4,14 @@ seo-description: 会社のメタデータフィールドを削除します。
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 10%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 
