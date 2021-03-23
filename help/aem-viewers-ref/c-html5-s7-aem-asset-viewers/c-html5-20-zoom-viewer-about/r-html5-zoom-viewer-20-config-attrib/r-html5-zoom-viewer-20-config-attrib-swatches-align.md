@@ -2,12 +2,13 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-topic: Dynamic Media
 uuid: 5cff285b-69f0-4ffe-b165-c2d1fdc8aa75
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
