@@ -4,12 +4,13 @@ seo-description: すべてのビューアに共通のパラメータ。
 seo-title: caption
 solution: Experience Manager
 title: caption
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Mediaクラシック，ビューア，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 6%
 
 ---
