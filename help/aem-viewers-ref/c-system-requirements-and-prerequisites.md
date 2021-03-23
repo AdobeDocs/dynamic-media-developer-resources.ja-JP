@@ -2,12 +2,13 @@
 title: Dynamic MediaHTML5ビューアの必要システム構成
 description: Dynamic MediaHTML5ビューアの必要システム構成。
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Mediaクラシック，ビューア，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -64,4 +65,4 @@ Dynamic MediaHTML5ビューアの必要システム構成。
 
 >[!NOTE]
 >
->FLASHビューアの提供終了 — 2017年1月31日、Adobe Scene7 Publishing SystemはFlashビューアプラットフォームのサポートを正式に終了しました。
+>Flashビューアの提供終了 — 2017年1月31日、Adobe Scene7 Publishing SystemはFlashビューアプラットフォームのサポートを正式に終了しました。
