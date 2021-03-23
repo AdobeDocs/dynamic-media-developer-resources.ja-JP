@@ -4,12 +4,13 @@ seo-description: $var$参照は、ネストされた画像サービングまた�
 seo-title: ネストされたリクエストでの変数処理
 solution: Experience Manager
 title: ネストされたリクエストでの変数処理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
