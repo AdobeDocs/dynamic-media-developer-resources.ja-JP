@@ -4,12 +4,13 @@ seo-description: ビネット用の新しい公開形式を作成します。
 seo-title: createVignettePublishFormat
 solution: Experience Manager
 title: createVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 834ebe6a-e105-4075-8004-172237980933
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 14%
 
 ---
@@ -96,7 +97,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> シャープ</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 各公開ビネットサイズに対してメイン表示画像にシャープを適用します。シャープは、ビネッタを拡大・縮小したときにぼやけを補正できます。 </td> 
+   <td colname="col4"> 各画像ビネットサイズに対してメイン表示にシャープを適用します。シャープは、ビネッタを拡大・縮小したときにぼやけを補正できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
