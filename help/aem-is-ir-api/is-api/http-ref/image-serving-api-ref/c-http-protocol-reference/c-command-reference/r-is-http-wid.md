@@ -4,12 +4,13 @@ seo-description: 表示の幅。 fit=がリクエストに存在しない場合�
 seo-title: wid
 solution: Experience Manager
 title: wid
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30aeeea0-c8c9-40b9-a244-2802a7102dd6
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 3%
 
 ---
