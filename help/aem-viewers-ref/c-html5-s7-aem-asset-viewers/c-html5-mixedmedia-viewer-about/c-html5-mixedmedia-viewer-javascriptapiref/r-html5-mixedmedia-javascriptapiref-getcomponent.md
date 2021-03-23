@@ -4,12 +4,13 @@ seo-description: 混在メディアビューアのJavaScript APIリファレン�
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '249'
 ht-degree: 1%
 
 ---
