@@ -4,12 +4,13 @@ seo-description: HTML5ビデオ360ビューアでは、Adobe Analyticsの追跡�
 seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-topic: Dynamic Media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者，業者，データエンジニア，データアーキテクト
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
