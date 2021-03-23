@@ -4,12 +4,13 @@ seo-description: Digimarcユーザ情報 Digimarc埋め込みのユーザ情報�
 seo-title: DigimarcId
 solution: Experience Manager
 title: DigimarcId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 3%
 
 ---
