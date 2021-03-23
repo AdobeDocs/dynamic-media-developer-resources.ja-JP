@@ -4,13 +4,14 @@ seo-description: CMYK初期設定の入力カラープロファイル カラー�
 seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
