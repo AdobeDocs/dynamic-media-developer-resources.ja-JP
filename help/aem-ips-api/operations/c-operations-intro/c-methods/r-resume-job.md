@@ -4,13 +4,14 @@ seo-description: 一時停止したジョブを再開します。
 seo-title: resumeJob
 solution: Experience Manager
 title: resumeJob
-topic: Dynamic Media Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '79'
+ht-degree: 15%
 
 ---
 
