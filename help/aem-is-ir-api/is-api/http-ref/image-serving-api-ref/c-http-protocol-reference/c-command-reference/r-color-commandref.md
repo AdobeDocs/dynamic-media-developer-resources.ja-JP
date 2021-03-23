@@ -4,12 +4,13 @@ seo-description: レイヤーの色 べた塗りレイヤーとエフェクト�
 seo-title: color
 solution: Experience Manager
 title: color
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '224'
 ht-degree: 3%
 
 ---
