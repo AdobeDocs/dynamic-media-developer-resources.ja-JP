@@ -4,13 +4,14 @@ seo-description: 複数のアセットを削除します。
 seo-title: deleteAssets
 solution: Experience Manager
 title: deleteAssets
-topic: Dynamic Media Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 11%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
