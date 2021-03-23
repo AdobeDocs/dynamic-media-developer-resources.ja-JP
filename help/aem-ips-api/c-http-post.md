@@ -2,11 +2,12 @@
 description: Dynamic Mediaクラシックにアセットをアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためのジョブを設定する1つ以上のHTTPPOST要求が必要です。
 solution: Experience Manager
 title: HTTP POSTを使用したUploadFileサーブレットへのアセットのアップロード
-topic: Dynamic Media Image Production System API
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -80,7 +81,7 @@ https://<server>/scene7/UploadFile
 | `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `endJob`  |  `xsd:boolean`  | （オプション）初期設定は false。 |
 | `uploadParams` (必須. (アップロードパラメータを指定するXML `uploadParams`ドキュメント) | `uploadParams`  |  `types:UploadPostJob`  | 既存のアクティブなジョブに対する後続の要求の場合はオプションです。 既存のジョブがある場合、`uploadParams`は無視され、既存のジョブアップロードパラメーターが使用されます。 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)を参照 |
 
-`<uploadPostParams>`ブロック内には`<uploadParams>`ブロックがあり、含まれるファイルの処理を指定します。
+`<uploadPostParams>`ブロック内には`<uploadParams>`ブロックがあり、含めるファイルの処理を指定します。
 
 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)を参照してください。
 
@@ -104,7 +105,7 @@ POSTリクエストが成功した場合、応答本文はXML `uploadPostReturn`
     </element>
 ```
 
-返された`jobHandle`は、同じジョブに対する後続のPOSTリクエストの`uploadPostParams`/ `jobHandle`パラメーターに渡されます。 また、`getActiveJobs`操作でジョブステータスをポーリングしたり、`getJobLogDetails`操作でジョブログをクエリしたりする場合にも使用できます。
+返される`jobHandle`は、同じジョブに対する後続のPOSTリクエストに対する`uploadPostParams`/ `jobHandle`パラメーターに渡されます。 また、`getActiveJobs`操作でジョブステータスをポーリングしたり、`getJobLogDetails`操作でジョブログをクエリしたりする場合にも使用できます。
 
 POST要求の処理中にエラーが発生した場合、応答本文は、[Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)で説明されているAPI障害タイプの1つで構成されます。
 
