@@ -4,12 +4,13 @@ seo-description: 誘い文句（CTA：コールトゥアクション）パネル
 seo-title: 誘い文句（CTA、コールトゥアクション）
 solution: Experience Manager
 title: 誘い文句（CTA、コールトゥアクション）
-topic: Dynamic Media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1309'
 ht-degree: 3%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-以下に示すCSSクラスセレクターで、誘い文句（CTA：コールトゥアクション）パネルの背景色の外観を制御します。
+以下に示すCSSクラスセレクターで、誘い文句(CSS)パネルの背景色の外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction
