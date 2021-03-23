@@ -4,12 +4,13 @@ seo-description: eCatalogビューアのメインクラスはeCatalogViewerで�
 seo-title: eCatalogビューアのJavaScript APIリファレンス
 solution: Experience Manager
 title: eCatalogビューアのJavaScript APIリファレンス
-topic: Dynamic Media
 uuid: 96ce27fa-0509-4b8c-a4ba-f405830970c3
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
