@@ -2,13 +2,14 @@
 description: SetIndicator.autohide
 solution: Experience Manager
 title: SetIndicator.autohide
-topic: Dynamic Media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '89'
+ht-degree: 5%
 
 ---
 
