@@ -4,13 +4,14 @@ seo-description: 設定済みのビデオ公開サーバにファイルを公開
 seo-title: VideoPublishJob
 solution: Experience Manager
 title: VideoPublishJob
-topic: Dynamic Media Image Production System API
 uuid: 430cdb75-b909-4023-8627-e9db1991b533
+feature: Dynamic Mediaクラシック，SDK/API，ビデオ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
