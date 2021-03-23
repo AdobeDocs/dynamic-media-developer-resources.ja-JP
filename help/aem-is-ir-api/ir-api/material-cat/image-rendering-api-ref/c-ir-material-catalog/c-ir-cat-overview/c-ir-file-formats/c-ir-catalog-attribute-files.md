@@ -4,12 +4,13 @@ seo-description: カタログ属性ファイルには任意の名前を付ける
 seo-title: カタログ属性ファイル
 solution: Experience Manager
 title: カタログ属性ファイル
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
