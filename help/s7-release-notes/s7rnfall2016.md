@@ -1,12 +1,13 @@
 ---
-description: Adobe Scene7秋の2016年リリースの最新リリースノートです。Adobe Marketing CloudのAdobe Experience Managerソリューションの一部です。
+description: 「Adobe Marketing CloudのAdobe Experience Managerソリューションの一部である、Adobe Scene7秋の2016年リリースの最新リリースノートです。」
 solution: Experience Manager
 title: Scene7秋2016年リリース
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -307,7 +308,7 @@ Adobeは、パフォーマンスが向上したという全体的な利点と共
 
 * 印刷コンポーネント
 
-   * ブラウザーの制限により、Internet Explorer 9では、印刷コンポーネントによって用紙上のコンテンツが正しく拡大縮小されない場合があります。
+   * ブラウザーの制限により、Internet Explorer 9では、印刷コンポーネントによって用紙上のコンテンツが正しく拡大/縮小されない場合があります。
 
 * IconEffectコンポーネント
 
