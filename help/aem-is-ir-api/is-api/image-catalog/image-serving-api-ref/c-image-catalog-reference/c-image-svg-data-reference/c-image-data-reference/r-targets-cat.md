@@ -4,12 +4,13 @@ seo-description: ズームターゲットデータ なしまたはそれ以上�
 seo-title: ターゲット
 solution: Experience Manager
 title: ターゲット
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
