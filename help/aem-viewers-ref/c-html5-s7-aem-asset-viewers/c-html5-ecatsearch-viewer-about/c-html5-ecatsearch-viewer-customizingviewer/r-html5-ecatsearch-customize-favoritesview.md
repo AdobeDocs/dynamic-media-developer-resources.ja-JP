@@ -4,12 +4,13 @@ seo-description: お気に入り表示は、サムネール画像の列で構成
 seo-title: お気に入り表示
 solution: Experience Manager
 title: お気に入り表示
-topic: Dynamic Media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '304'
 ht-degree: 1%
 
 ---
