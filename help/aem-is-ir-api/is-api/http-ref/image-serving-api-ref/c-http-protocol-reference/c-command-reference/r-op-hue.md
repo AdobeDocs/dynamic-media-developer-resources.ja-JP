@@ -4,12 +4,13 @@ seo-description: 色相を調整 レイヤーまたは合成画像の各表示�
 seo-title: op_hue
 solution: Experience Manager
 title: op_hue
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
