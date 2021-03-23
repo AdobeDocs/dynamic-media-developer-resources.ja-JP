@@ -4,12 +4,13 @@ seo-description: $var$では、埋め込まれた外部要求の中括弧内に�
 seo-title: 埋め込まれた外部要求での変数処理
 solution: Experience Manager
 title: 埋め込まれた外部要求での変数処理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
