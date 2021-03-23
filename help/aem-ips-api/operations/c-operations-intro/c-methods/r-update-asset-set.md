@@ -4,13 +4,14 @@ seo-description: アセットセットを更新します。
 seo-title: updateAssetSet
 solution: Experience Manager
 title: updateAssetSet
-topic: Dynamic Media Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
