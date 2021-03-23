@@ -4,12 +4,13 @@ seo-description: キャッシュクラスタリングには、次のサーバー
 seo-title: キャッシュクラスタリング
 solution: Experience Manager
 title: キャッシュクラスタリング
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ IPアドレスをセミコロンで区切ってリストします。 このホ�
 
 ## PS::cacheCluster.queryTimeout -クエリタイムアウト{#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-ピアサーバからキャッシュエントリを要求すると、サーバは、特定のデータ項目を持つという応答が1つのサーバに返されるか、またはすべてのピアサーバがデータ項目を持たないと応答するか、この設定で指定された時間（ミリ秒）が経過するまで待ちます。
+ピアサーバーからキャッシュエントリを要求すると、サーバーは、特定のデータ項目を持つという応答が1つのサーバーから返されるか、またはすべてのピアサーバーがデータ項目を持たないと応答するか、この設定で指定された時間（ミリ秒）が経過するまで待ちます。
 
 ## PS::cacheCluster.fetchTimeout — フェッチタイムアウト{#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
