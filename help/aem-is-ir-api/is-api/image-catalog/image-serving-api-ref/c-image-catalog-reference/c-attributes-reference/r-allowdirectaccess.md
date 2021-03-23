@@ -4,12 +4,13 @@ seo-description: パスベースのアセットへの直接アクセスを許可
 seo-title: AllowDirectAccess
 solution: Experience Manager
 title: AllowDirectAccess
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -56,7 +57,7 @@ ht-degree: 0%
 
    `AllowDirectAccess=exclude:`
 
-* `include:IS,STATIC`と同等です（`include`/ `exclude`が存在しない場合、`include`と見なされます）
+* `include:IS,STATIC`と同等（`include`/ `exclude`が存在しない場合、`include`と解釈されます）
 
    `AllowDirectAccess=IS,STATIC`
 
