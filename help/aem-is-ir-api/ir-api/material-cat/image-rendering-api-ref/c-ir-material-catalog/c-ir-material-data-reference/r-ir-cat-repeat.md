@@ -4,13 +4,14 @@ seo-description: テクスチャ繰り返しモード テクスチャイメー�
 seo-title: Repeat
 solution: Experience Manager
 title: 繰り返し
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 19%
+source-wordcount: '150'
+ht-degree: 18%
 
 ---
 
