@@ -4,12 +4,13 @@ seo-description: 'Scene 7画像サービングは、次のコンポーネント�
 seo-title: 画像サービングコンポーネント
 solution: Experience Manager
 title: 画像サービングコンポーネント
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -45,11 +46,11 @@ Scene 7画像サービングは、次のコンポーネントで構成されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p>キャッシュサービス </p> </td> 
-   <td colname="col2"> <p>J2EEアプリケーション。 Platform Serverのデータキャッシュを管理します。 /is/cacheでのHTTPアクセス。 </p> </td> 
+   <td colname="col2"> <p>J2EEアプリケーション。 プラットフォームサーバーのデータキャッシュを管理します。 /is/cacheでのHTTPアクセス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>イメージ処理とイメージファイルのI/O処理をすべて実行します。 32-bitと64-bitの両方の実行可能ファイルは、Linuxで使用できます（32-bit版はWindows版のみ）。 </p> </td> 
+   <td colname="col2"> <p>すべてのイメージ処理とイメージファイルのI/O処理を実行します。 32ビットと64ビットの実行可能ファイルはどちらも、Linuxで使用できます（32ビットのWindowsのみ）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Renderコンポーネント </p> </td> 
@@ -57,13 +58,13 @@ Scene 7画像サービングは、次のコンポーネントで構成されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVGレンダリングコンポーネント </p> </td> 
-   <td colname="col2"> <p>スタンドアロンJavaアプリケーション（Tomcatでホストされるものではない）。 </p> </td> 
+   <td colname="col2"> <p>スタンドアロンのJavaアプリケーション（Tomcatではホストされません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Mediaイメージレンダリング( Render Server) </p> </td> 
-   <td colname="col2"> <p>ライセンス認証を行うには別のライセンスが必要です。 <span class="filepath"> /ir/render</span>でのHTTPアクセス。 すべてのイメージレンダリング機能は、個別の実行可能コンポーネントを使用せずに、Platform ServerとImage Serverに統合されます。 </p> </td> 
+   <td colname="col1"> <p>Dynamic Media画像レンダリング( Render Server) </p> </td> 
+   <td colname="col2"> <p>ライセンス認証を行うには別のライセンスが必要です。 <span class="filepath"> /ir/render</span>でHTTPアクセスを行います。 すべての画像レンダリング機能は、実行可能コンポーネントが別々になく、プラットフォームサーバとImage Serverに統合されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-追加の設定は、デフォルトのカタログ([!DNL default.ini])または特定の画像カタログ（詳しくは、[画像カタログ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照）で提供されます。
+追加の設定は、初期設定のカタログ([!DNL default.ini])または特定の画像カタログ（詳しくは、[画像カタログ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照）で提供されます。
