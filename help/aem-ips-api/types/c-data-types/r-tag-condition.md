@@ -4,12 +4,13 @@ seo-description: タグフィールドの検索条件を定義します。
 seo-title: TagCondition
 solution: Experience Manager
 title: TagCondition
-topic: Dynamic Media Image Production System API
 uuid: c7727267-05b6-4011-9ddf-7f3134e9609b
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '174'
 ht-degree: 3%
 
 ---
