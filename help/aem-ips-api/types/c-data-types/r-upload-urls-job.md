@@ -4,12 +4,13 @@ seo-description: ファイルの取得先からURLをアップロードします
 seo-title: UploadUrlsJob
 solution: Experience Manager
 title: UploadUrlsJob
-topic: Dynamic Media Image Production System API
 uuid: 6140e969-bf61-4b62-9a60-29609626b0b4
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
