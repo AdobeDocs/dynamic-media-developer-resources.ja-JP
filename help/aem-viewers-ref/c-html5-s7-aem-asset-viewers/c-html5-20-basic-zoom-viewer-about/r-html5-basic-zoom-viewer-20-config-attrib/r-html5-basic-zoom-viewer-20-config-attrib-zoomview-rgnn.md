@@ -2,13 +2,14 @@
 description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
-topic: Dynamic Media
 uuid: f6432aff-046d-440f-8812-2a69ebb9b194
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
