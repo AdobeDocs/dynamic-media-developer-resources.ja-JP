@@ -4,13 +4,14 @@ seo-description: 一連のユーザー。
 seo-title: UserArray
 solution: Experience Manager
 title: UserArray
-topic: Dynamic Media Image Production System API
 uuid: 5b78918b-4d6b-4d0d-90b8-6b8a7c97c5f0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 24%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
