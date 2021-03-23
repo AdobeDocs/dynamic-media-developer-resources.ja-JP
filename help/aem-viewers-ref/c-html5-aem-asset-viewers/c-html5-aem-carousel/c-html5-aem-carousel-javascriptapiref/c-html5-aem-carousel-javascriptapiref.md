@@ -4,12 +4,13 @@ seo-description: カルーセルビューアのメインクラスはCarouselView
 seo-title: カルーセルビューアのJavaScript APIリファレンス
 solution: Experience Manager
 title: カルーセルビューアのJavaScript APIリファレンス
-topic: Dynamic Media
 uuid: d235ca5e-9c5b-44e2-84b1-2704bf8c6ca5
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
