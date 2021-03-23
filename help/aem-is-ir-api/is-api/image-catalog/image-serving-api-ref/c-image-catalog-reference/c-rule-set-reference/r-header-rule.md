@@ -4,13 +4,14 @@ seo-description: HTTP応答ヘッダー要素。 <rule>要素のオプション�
 seo-title: ヘッダ
 solution: Experience Manager
 title: ヘッダ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 4%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 
