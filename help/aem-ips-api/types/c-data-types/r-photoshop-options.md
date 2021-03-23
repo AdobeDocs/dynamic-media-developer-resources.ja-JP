@@ -4,13 +4,14 @@ seo-description: Photoshop画像のオプション。
 seo-title: PhotoshopOptions
 solution: Experience Manager
 title: PhotoshopOptions
-topic: Dynamic Media Image Production System API
 uuid: ed97d20a-358d-4a00-93c7-4498bb2e9d35
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
