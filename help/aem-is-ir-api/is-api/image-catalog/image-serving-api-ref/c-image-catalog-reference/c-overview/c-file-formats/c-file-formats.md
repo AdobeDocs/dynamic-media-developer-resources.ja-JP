@@ -4,13 +4,14 @@ seo-description: すべてのカタログファイルはプレーンテキスト
 seo-title: ファイル形式
 solution: Experience Manager
 title: ファイル形式
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d0d35682-e794-4571-87e6-f54ac57126c7
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
