@@ -4,12 +4,13 @@ seo-description: 画像サービングAPIガイドには、画像サービング
 seo-title: 画像サービングAPI
 solution: Experience Manager
 title: 画像サービングAPI
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
