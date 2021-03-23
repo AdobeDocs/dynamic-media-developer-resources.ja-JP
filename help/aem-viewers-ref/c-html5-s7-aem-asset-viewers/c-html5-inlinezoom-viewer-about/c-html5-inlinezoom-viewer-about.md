@@ -1,13 +1,14 @@
 ---
 description: インラインズームビューアは画像ビューアです。 静的な画像を表示し、ユーザーがメイン表示をロールオーバーまたはタッチすると、ズームされたバージョンでその静的な画像の上に表示されます。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-keywords: responsive
+keywords: レスポンシブ
 solution: Experience Manager
 title: インラインズーム
-topic: Dynamic Media
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 ## インラインズームビューアの操作{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-インラインズームビューアでは、他のモバイルアプリケーションで一般的なシングルタッチとマルチタッチのジェスチャに対応しています。
+インラインズームビューアは、他のモバイルアプリケーションで一般的なシングルタッチとマルチタッチのジェスチャに対応しています。
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
