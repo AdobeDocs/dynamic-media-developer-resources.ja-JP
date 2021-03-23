@@ -4,12 +4,13 @@ seo-description: クローズドキャプション表示のオン/オフを切�
 seo-title: キャプションボタン
 solution: Experience Manager
 title: キャプションボタン
-topic: Dynamic Media
 uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
