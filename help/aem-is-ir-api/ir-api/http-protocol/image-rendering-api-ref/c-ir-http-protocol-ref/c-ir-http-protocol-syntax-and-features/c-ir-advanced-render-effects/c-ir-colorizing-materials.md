@@ -4,12 +4,13 @@ seo-description: ほとんどのマテリアルは動的にカラー付けでき
 seo-title: 素材の色彩の統一
 solution: Experience Manager
 title: 素材の色彩の統一
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
