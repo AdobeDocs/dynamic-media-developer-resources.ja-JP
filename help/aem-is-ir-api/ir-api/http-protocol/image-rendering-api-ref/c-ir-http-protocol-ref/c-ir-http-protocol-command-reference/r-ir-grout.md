@@ -4,12 +4,13 @@ seo-description: タイル状のグラウトの色と太さ。 セラミック�
 seo-title: グラウト
 solution: Experience Manager
 title: グラウト
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
