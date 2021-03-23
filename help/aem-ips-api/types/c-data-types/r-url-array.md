@@ -4,13 +4,14 @@ seo-description: CDNキャッシュを無効にするためのURLの配列です
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
