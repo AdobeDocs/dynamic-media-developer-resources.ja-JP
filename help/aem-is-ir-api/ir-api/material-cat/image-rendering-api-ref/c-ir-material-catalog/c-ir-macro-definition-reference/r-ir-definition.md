@@ -4,13 +4,14 @@ seo-description: マクロ定義 1つ以上の完全なコマンドから成る�
 seo-title: 定義
 solution: Experience Manager
 title: 定義
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 9%
+source-wordcount: '82'
+ht-degree: 8%
 
 ---
 
