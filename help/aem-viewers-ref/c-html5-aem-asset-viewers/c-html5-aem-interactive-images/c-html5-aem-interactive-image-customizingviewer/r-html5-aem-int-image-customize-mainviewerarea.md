@@ -4,13 +4,14 @@ seo-description: メイン表示領域は、ズーム画像が表示される領
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic Media
 uuid: 666328fe-1819-43a6-a2c2-ba63ac798700
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 2%
+source-wordcount: '159'
+ht-degree: 1%
 
 ---
 
