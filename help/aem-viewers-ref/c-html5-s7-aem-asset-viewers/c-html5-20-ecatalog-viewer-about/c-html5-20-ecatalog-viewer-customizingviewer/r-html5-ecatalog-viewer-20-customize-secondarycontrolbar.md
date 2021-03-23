@@ -4,13 +4,14 @@ seo-description: セカンダリコントロールバーは、最初と最後の
 seo-title: セカンダリコントロールバー
 solution: Experience Manager
 title: セカンダリコントロールバー
-topic: Dynamic Media
 uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
