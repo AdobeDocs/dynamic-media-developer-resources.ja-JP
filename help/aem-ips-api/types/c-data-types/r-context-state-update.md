@@ -4,13 +4,14 @@ seo-description: アセットの公開コンテキスト状態を更新します
 seo-title: ContextStateUpdate
 solution: Experience Manager
 title: ContextStateUpdate
-topic: Dynamic Media Image Production System API
 uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 8%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
