@@ -4,12 +4,13 @@ seo-description: このマテリアルカテゴリには、壁、木工、トリ
 seo-title: べた塗り
 solution: Experience Manager
 title: べた塗り
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 このマテリアルカテゴリには、壁、木工、トリム、自動車用のペイント、およびテクスチャが不要なその他の用途が含まれます。
 
-例えば、べた塗りを使用して、テクスチャの変更が不要なアパレル品目の色を変更したり、自動車の内装のプラスチックトリムやカーペットの色を設定したりできます。 MSSに`src=`値がない場合、マテリアルはべた塗りと見なされます。
+例えば、べた塗りを使用して、テクスチャの変更が不要なアパレル品目の色を変更したり、自動車の内装のプラスチックのトリムやカーペットの色を設定したりできます。 MSSに`src=`値がない場合、マテリアルはべた塗りと見なされます。
 
 ソリッドカラーは、すべてのレンダリング可能なオブジェクトに適用できます。
 
