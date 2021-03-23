@@ -4,13 +4,14 @@ seo-description: 名前付きアセットのセット。
 seo-title: プロジェクト
 solution: Experience Manager
 title: プロジェクト
-topic: Dynamic Media Image Production System API
 uuid: 7b933c10-d566-4c88-a7c5-c161e4e2cb91
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 29%
+source-wordcount: '34'
+ht-degree: 23%
 
 ---
 
