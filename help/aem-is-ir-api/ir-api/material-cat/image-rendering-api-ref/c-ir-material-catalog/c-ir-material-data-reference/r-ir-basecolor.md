@@ -4,13 +4,14 @@ seo-description: 主要な画像の色。 減法色。テクスチャの色彩�
 seo-title: BaseColor
 solution: Experience Manager
 title: BaseColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
