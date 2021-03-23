@@ -4,12 +4,13 @@ seo-description: 画像レンダリングでは、正規式の一致と置換ル
 seo-title: ルールセットの参照
 solution: Experience Manager
 title: ルールセットの参照
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 ## URLの前処理{#section-737a38d1b8c746f995e64fa6cfbcec87}
 
-他の処理の前に、着信HTTPリクエストが部分的に解析され、適用する材料カタログが決定されます。 カタログが識別されると、選択したカタログ（または特定のカタログが識別されなかった場合はデフォルトのカタログ）のルールセットが適用されます。
+他の処理の前に、着信HTTPリクエストが部分的に解析され、適用する材料カタログが決定されます。 カタログが識別されると、選択したカタログ（または特定のカタログが識別されなかった場合は、デフォルトのカタログ）のルールセットが適用されます。
 
 `<rule>`要素は、`<expression>`要素(*`expression`*)の内容と一致するように指定された順に検索されます。
 
