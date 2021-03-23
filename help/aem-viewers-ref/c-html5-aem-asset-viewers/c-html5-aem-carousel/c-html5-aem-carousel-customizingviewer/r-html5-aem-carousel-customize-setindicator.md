@@ -4,12 +4,13 @@ seo-description: 設定インジケーターは、ビューアの下部にレン
 seo-title: 設定インジケーター
 solution: Experience Manager
 title: 設定インジケーター
-topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
