@@ -4,12 +4,13 @@ seo-description: カタログ識別子。 HTTP要求でビネット、マテリ�
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd726466-6dca-4612-a342-50689ed1469f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '123'
 ht-degree: 4%
 
 ---
