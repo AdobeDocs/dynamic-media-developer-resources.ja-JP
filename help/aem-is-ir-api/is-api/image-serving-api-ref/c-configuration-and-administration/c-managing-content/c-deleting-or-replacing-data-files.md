@@ -4,12 +4,13 @@ seo-description: 新しいデータファイルの追加は簡単で簡単です
 seo-title: データファイルの削除または置換
 solution: Experience Manager
 title: データファイルの削除または置換
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
