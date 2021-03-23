@@ -4,12 +4,13 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.ssl
 solution: Experience Manager
 title: Video360Player.ssl
-topic: Dynamic Media
 uuid: 00c8295c-cc41-489c-a444-ba9189426a20
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '194'
 ht-degree: 5%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->この設定属性は、[Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)がインストールされているAEM 6.2と、[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)がインストールされているAEM 6.1にのみ適用されます。
+>この設定属性は、[Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)がインストールされているAEM 6.2と[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)がインストールされているAEM 6.1にのみ適用されます。
 
 `[Video360Player.|<containerId>_video360Player.]ssl=auto|on`
 
