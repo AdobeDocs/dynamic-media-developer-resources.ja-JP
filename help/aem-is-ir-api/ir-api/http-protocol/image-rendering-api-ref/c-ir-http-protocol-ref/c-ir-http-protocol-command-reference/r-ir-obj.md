@@ -4,13 +4,14 @@ seo-description: 名前でオブジェクトを選択します。 指定した�
 seo-title: obj
 solution: Experience Manager
 title: obj
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '164'
+ht-degree: 4%
 
 ---
 
