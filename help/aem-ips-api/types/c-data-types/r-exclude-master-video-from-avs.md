@@ -4,11 +4,13 @@ seo-description: プライマリビデオをアダプティブビデオセット
 seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
