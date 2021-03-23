@@ -4,12 +4,13 @@ seo-description: スピンビューアでは、Adobe Analytics追跡機能がサ
 seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-topic: Dynamic Media
 uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
+role: 開発者，業者，データエンジニア，データアーキテクト
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
