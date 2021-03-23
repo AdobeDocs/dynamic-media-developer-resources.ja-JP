@@ -1,16 +1,17 @@
 ---
 description: ビデオ360ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: ビデオ360ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 seo-title: ビデオ360ビューアのカスタマイズ
 solution: Experience Manager
 title: ビデオ360ビューアのカスタマイズ
-topic: Dynamic Media
 uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
