@@ -4,13 +4,14 @@ seo-description: 混在メディアビデオビューアの設定属性。
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
