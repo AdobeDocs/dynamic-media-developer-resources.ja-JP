@@ -4,12 +4,13 @@ seo-description: 会社、グループ、およびユーザーの役割ハンド
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 9%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
+| `*`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブなメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
 | `*`includeInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含める/除外できます。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社で結果をフィルターします。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | いいえ | 結果をグループでフィルターします。 |
