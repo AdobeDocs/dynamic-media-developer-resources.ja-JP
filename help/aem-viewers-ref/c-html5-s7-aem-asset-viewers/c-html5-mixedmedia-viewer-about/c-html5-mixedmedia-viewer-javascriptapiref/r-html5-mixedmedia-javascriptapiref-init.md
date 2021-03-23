@@ -4,12 +4,13 @@ seo-description: 混在メディアビューアのJavaScript APIリファレン�
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: f16e3cfe-4b30-4497-bd65-52d2f1edf3d3
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
