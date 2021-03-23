@@ -4,12 +4,13 @@ seo-description: 特定の会社に関連付けられているアセットとア
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '164'
 ht-degree: 9%
 
 ---
