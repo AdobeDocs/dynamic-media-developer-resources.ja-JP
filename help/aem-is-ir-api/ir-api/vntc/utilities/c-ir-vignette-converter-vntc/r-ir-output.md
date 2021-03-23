@@ -4,12 +4,13 @@ seo-description: vntcは、stderrまたはログファイルに送信される�
 seo-title: Output
 solution: Experience Manager
 title: Output
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2041600-408f-481c-95fc-3c112def7b8a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ vntcは、stderrまたはログファイルに送信されるテキストデー�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>出力ビネットの最も低い解像度のピラミッドレベルのスケール。 <span class="codeph"> -pyramid</span>が指定されている場合にのみ存在します。 </p></td> 
+  <td class="stentry"> <p>出力ビネットの最も低い解像度のピラミッドレベルのスケール。 <span class="codeph"> -pyramid</span>が指定された場合にのみ存在します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
