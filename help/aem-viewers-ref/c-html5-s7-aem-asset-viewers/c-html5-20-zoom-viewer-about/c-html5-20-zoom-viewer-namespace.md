@@ -2,12 +2,13 @@
 description: ビューアSDKの名前空間
 solution: Experience Manager
 title: ビューアSDKの名前空間
-topic: Dynamic Media
 uuid: 29987da2-4535-47f3-a5ae-912c7cd10c86
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
