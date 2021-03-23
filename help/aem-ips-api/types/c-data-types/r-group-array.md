@@ -4,13 +4,14 @@ seo-description: グループの配列。
 seo-title: GroupArray
 solution: Experience Manager
 title: GroupArray
-topic: Dynamic Media Image Production System API
 uuid: b87ff841-6efc-479d-b4be-ed507fa14069
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 28%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
