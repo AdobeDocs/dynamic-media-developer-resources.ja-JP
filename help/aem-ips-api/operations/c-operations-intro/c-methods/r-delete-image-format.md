@@ -4,13 +4,14 @@ seo-description: 画像形式を削除します。 saveImageFormatから画像�
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 10%
+source-wordcount: '121'
+ht-degree: 9%
 
 ---
 
