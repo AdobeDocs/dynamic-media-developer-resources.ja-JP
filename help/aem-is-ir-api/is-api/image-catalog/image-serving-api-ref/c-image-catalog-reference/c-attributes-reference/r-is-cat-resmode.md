@@ -4,13 +4,14 @@ seo-description: 初期設定の再サンプリングモード。 画像デー�
 seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14d184bd-6664-4f8f-b551-a92cb92a0d84
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 5%
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
