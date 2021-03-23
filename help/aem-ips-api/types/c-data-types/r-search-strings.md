@@ -4,12 +4,13 @@ seo-description: PDFファイルから抽出した検索文字列レコード。
 seo-title: SearchStrings
 solution: Experience Manager
 title: SearchStrings
-topic: Dynamic Media Image Production System API
 uuid: aade2741-3e77-44c6-ab3c-0810ff034412
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 10%
 
 ---
