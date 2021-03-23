@@ -4,13 +4,14 @@ seo-description: 選択した会社の指定したジョブログを取得しま
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 10%
+source-wordcount: '214'
+ht-degree: 9%
 
 ---
 
