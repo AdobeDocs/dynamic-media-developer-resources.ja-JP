@@ -4,12 +4,13 @@ seo-description: '[画層]を選択します。 画層を選択し、コマン�
 seo-title: layer
 solution: Experience Manager
 title: layer
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
