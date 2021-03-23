@@ -4,12 +4,13 @@ seo-description: プラットフォームサーバーの設定が含まれます
 seo-title: server.xml
 solution: Experience Manager
 title: server.xml
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
