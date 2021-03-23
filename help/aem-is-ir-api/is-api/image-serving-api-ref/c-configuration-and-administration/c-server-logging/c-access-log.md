@@ -4,12 +4,13 @@ seo-description: これは、プラットフォームサーバーに対するす
 seo-title: アクセスログ
 solution: Experience Manager
 title: アクセスログ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
