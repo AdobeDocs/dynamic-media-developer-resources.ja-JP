@@ -4,13 +4,14 @@ seo-description: ZIPファイル内のエントリ。
 seo-title: ZipEntry
 solution: Experience Manager
 title: ZipEntry
-topic: Dynamic Media Image Production System API
 uuid: 05aac11b-249c-4c44-943d-fa6bf35d3637
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 
