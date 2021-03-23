@@ -2,13 +2,14 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-topic: Dynamic Media
 uuid: 38350e3d-515b-454c-bc85-39b91ad06e8b
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
