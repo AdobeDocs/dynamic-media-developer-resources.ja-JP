@@ -4,12 +4,13 @@ seo-description: 属性をFXGルート要素に設定します。
 seo-title: setAttr.rootElement
 solution: Experience Manager
 title: setAttr.rootElement
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dda16612-57c7-4abe-8aa4-00e599a8ea69
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
