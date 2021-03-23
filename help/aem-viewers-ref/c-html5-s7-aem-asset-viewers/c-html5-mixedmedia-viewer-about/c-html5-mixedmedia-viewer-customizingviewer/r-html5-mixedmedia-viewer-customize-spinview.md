@@ -4,13 +4,14 @@ seo-description: 現在のアセットがスピンセットの場合、メイン
 seo-title: スピン表示
 solution: Experience Manager
 title: スピン表示
-topic: Dynamic Media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
