@@ -4,12 +4,13 @@ seo-description: ビデオ時間は、現在時間と現在再生中のビデオ
 seo-title: ビデオ時間
 solution: Experience Manager
 title: ビデオ時間
-topic: Dynamic Media
 uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
