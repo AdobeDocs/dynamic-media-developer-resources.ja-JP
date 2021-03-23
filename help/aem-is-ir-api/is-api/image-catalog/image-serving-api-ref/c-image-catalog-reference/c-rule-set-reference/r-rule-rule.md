@@ -4,12 +4,13 @@ seo-description: リクエストルール要素。 <ruleset>要素では、1つ�
 seo-title: ルール
 solution: Experience Manager
 title: ルール
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '319'
 ht-degree: 6%
 
 ---
