@@ -2,11 +2,12 @@
 description: ビネットとは、Dynamic Media画像オーサリングで作成され、画像レンダリングで使用する画像です。
 solution: Experience Manager
 title: ビネット
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
