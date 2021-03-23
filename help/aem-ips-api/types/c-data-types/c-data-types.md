@@ -2,12 +2,13 @@
 description: データタイプ
 solution: Experience Manager
 title: データタイプ
-topic: Dynamic Media Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '233'
 ht-degree: 4%
 
 ---
