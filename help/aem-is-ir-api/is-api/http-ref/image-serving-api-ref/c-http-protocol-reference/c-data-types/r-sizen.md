@@ -4,12 +4,13 @@ seo-description: 正規化サイズ レイヤー0などの画像のサイズを�
 seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
