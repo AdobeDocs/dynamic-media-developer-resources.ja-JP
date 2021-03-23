@@ -4,12 +4,13 @@ seo-description: XMPメタデータ。 要求パスで指定された画像に�
 seo-title: xmp
 solution: Experience Manager
 title: xmp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 6%
 
 ---
