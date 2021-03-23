@@ -4,12 +4,13 @@ seo-description: setAssetMetadataで使用される特定のアセットのメ�
 seo-title: MetadataUpdate
 solution: Experience Manager
 title: MetadataUpdate
-topic: Dynamic Media Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
+feature: Dynamic Mediaクラシック，SDK/API，メタデータ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
