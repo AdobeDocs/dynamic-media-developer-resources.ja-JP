@@ -4,13 +4,14 @@ seo-description: カルーセルビューアのJavaScript APIリファレンス�
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 3e26c121-7493-49b5-af25-ebd76477a415
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '105'
+ht-degree: 2%
 
 ---
 
