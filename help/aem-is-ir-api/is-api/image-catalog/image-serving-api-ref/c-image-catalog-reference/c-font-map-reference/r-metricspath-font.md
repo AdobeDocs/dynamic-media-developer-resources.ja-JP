@@ -4,13 +4,14 @@ seo-description: フォントメトリクスのファイルパス フォント�
 seo-title: MetricsPath
 solution: Experience Manager
 title: MetricsPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 4%
 
 フォントメトリクスのファイルパス フォント指標ファイルのパスと名前（ファイルのサフィックスを含む）。
 
-Adobeタイプ1のフォントに使用します。 指定しなかった場合、サーバーは、プリンシパルフォントファイルが存在するのと同じフォルダー内にフォントメトリクスファイルを探します。 レンダリング時に必要なフォント指標ファイルが見つからない場合は、エラーが発生します。
+Adobe Type1のフォントに使用します。 指定しなかった場合、サーバーは、プリンシパルフォントファイルが存在するのと同じフォルダー内にフォントメトリクスファイルを探します。 レンダリング時に必要なフォント指標ファイルが見つからない場合は、エラーが発生します。
 
 ## プロパティ {#section-955268c581574875b05253d9e14544f3}
 
-テキスト文字列。 Adobeタイプ1ファイルのオプションです。 空または有効なImage Serverのファイルパス（絶対パスまたは`attribute::RootPath`を基準とする相対パス）を指定する必要があります。
+テキスト文字列。 Adobe Type1ファイルのオプションです。 空または有効なImage Serverのファイルパス（絶対パスまたは`attribute::RootPath`を基準とする相対パス）を指定する必要があります。
 
 ## 初期設定 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 
