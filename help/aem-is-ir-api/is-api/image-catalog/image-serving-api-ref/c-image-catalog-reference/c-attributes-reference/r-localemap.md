@@ -4,12 +4,13 @@ seo-description: ID変換マップ。 汎用の画像IDをロケール固有のI
 seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
