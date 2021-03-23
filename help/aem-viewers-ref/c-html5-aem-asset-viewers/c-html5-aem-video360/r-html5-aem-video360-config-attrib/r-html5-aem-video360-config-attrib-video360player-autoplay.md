@@ -4,13 +4,14 @@ seo-description: ビデオ360ビューアの設定属性。
 seo-title: Video360Player.autoplay
 solution: Experience Manager
 title: Video360Player.autoplay
-topic: Dynamic Media
 uuid: 582d0b34-bbf9-4af0-9f7a-4415d307f5d7
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 23%
+source-wordcount: '58'
+ht-degree: 18%
 
 ---
 
