@@ -4,12 +4,13 @@ seo-description: 混在メディアビューアで表示されるコンテンツ
 seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-topic: Dynamic Media
 uuid: 4da776f4-e370-444b-b31c-6b032483861d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
