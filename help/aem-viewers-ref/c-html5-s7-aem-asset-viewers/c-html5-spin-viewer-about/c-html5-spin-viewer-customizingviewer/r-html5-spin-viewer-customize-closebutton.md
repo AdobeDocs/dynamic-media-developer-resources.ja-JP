@@ -4,12 +4,13 @@ seo-description: このボタンをクリックまたはタップすると、そ
 seo-title: 閉じるボタン
 solution: Experience Manager
 title: 閉じるボタン
-topic: Dynamic Media
 uuid: adeaa96c-87d7-434c-8ae9-7bb0e10a21c3
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
