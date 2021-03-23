@@ -4,11 +4,13 @@ seo-description: ビデオキャプションのプロパティ
 seo-title: VideoCaptionInfo
 title: VideoCaptionInfo
 uuid: affd5019-9916-421d-8c4b-676d48bf010c
+feature: Dynamic Mediaクラシック，SDK/API，ビデオ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
