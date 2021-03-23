@@ -4,12 +4,13 @@ seo-description: Digimarc画像情報 Digimarc埋め込みを有効にし、透�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 12%
 
 ---
@@ -73,7 +74,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>コピー保護。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +82,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>制限付き </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>コピー保護、制限。 </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +131,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>トランザクションID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
