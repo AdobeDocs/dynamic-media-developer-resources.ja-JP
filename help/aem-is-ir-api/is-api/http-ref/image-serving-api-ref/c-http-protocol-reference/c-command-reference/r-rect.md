@@ -4,12 +4,13 @@ seo-description: 最終的な表示の長方形。 最終的な表示画像を�
 seo-title: rect
 solution: Experience Manager
 title: rect
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c4830fc5-d102-4789-8753-0a660d4a557e
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '406'
 ht-degree: 1%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> サイズ</span> </p></td> 
-  <td class="stentry"> <p>ROIのサイズ（ピクセル単位、整数）。 返信画像のサイズを指定します。 表示画像の範囲外の領域の画像は<span class="codeph"> bgc=</span>で塗りつぶされます（リクエスト内に<span class="codeph"> fmt=*-alpha</span>が存在する場合は左に透明）。 </p></td> 
+  <td class="stentry"> <p>ROIのサイズ（ピクセル単位、整数）。 返信画像のサイズを指定します。 表示画像の範囲外の領域では、画像は<span class="codeph"> bgc=</span>で塗りつぶされます（リクエスト内に<span class="codeph"> fmt=*-alpha</span>が存在する場合は、左側が透明になります）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> scale</span> </p></td> 
