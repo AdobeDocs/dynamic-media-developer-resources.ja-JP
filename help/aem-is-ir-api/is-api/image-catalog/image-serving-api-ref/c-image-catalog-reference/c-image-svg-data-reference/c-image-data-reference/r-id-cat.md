@@ -2,13 +2,14 @@
 description: カタログレコード識別子
 solution: Experience Manager
 title: ID
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9803d754-1f94-4e5d-9a40-3936676c0035
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 8%
+source-wordcount: '108'
+ht-degree: 7%
 
 ---
 
