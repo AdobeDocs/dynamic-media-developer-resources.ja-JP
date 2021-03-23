@@ -4,12 +4,13 @@ seo-description: 解像度ベースの画像の拡大/縮小 画像を目的の�
 seo-title: res
 solution: Experience Manager
 title: res
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ab0c8329-5d40-4233-a122-8cb8ca01b500
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
