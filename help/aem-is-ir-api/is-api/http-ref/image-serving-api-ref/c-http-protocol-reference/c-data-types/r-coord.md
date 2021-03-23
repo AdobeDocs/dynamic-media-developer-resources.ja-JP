@@ -4,12 +4,13 @@ seo-description: ピクセル座標 画像またはレイヤーの長方形の�
 seo-title: 共謀者
 solution: Experience Manager
 title: 共謀者
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
