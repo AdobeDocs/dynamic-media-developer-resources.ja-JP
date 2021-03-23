@@ -4,12 +4,13 @@ seo-description: 次のサーバー設定を使用して、エラーをリダイ
 seo-title: エラーリダイレクト
 solution: Experience Manager
 title: エラーリダイレクト
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 ## PS::errorRedirect.rootUrl — リダイレクトサーバー{#section-85f22e48d68842a490b0e1191543b558}
 
-ルートURL ([!DNL HTTP:// *[!DNL domain]*[:*[!DNL port]*])を参照)に設定されます。 この設定が空か、定義されていない場合、エラーリダイレクトは無効（デフォルト）です。
+ルートURL ([!DNL HTTP:// *[!DNL domain]*[:*[!DNL port]*])を参照)に設定されます。 この設定が空か、定義されていない場合、エラーリダイレクトは無効になっています（デフォルト）。
 
 ## PS::errorRedirect.connectTimeout — リダイレクト接続のタイムアウト{#section-3971be8f720d4b32a2cc7860b4085971}
 
