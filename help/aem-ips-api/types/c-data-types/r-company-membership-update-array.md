@@ -2,13 +2,14 @@
 description: CompanyMembershipUpdateArray
 solution: Experience Manager
 title: CompanyMembershipUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: bd09daae-f303-4048-baf0-152368904068
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '9'
-ht-degree: 66%
+source-wordcount: '16'
+ht-degree: 37%
 
 ---
 
