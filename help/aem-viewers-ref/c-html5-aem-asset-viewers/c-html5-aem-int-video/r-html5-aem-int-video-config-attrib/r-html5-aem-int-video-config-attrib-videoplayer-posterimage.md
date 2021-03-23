@@ -4,12 +4,13 @@ seo-description: インタラクティブビデオビューアの設定属性。
 seo-title: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-topic: Dynamic Media
 uuid: 6b21179c-a227-4194-8640-0fcf73ee80e9
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 2%
 
 ---
