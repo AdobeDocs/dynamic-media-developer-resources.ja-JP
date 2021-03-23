@@ -4,13 +4,14 @@ seo-description: batchSetAssetMetadata操作の歌の更新に関する警告ま
 seo-title: SetMetadataFault
 solution: Experience Manager
 title: SetMetadataFault
-topic: Dynamic Media Image Production System API
 uuid: 22302bb0-914a-4d50-a188-9c3ee58e0481
+feature: Dynamic Mediaクラシック，SDK/API，メタデータ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
