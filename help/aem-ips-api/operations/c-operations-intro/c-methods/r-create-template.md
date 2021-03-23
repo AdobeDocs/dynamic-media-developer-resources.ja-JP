@@ -4,13 +4,14 @@ seo-description: 複数のテキストと画像レイヤーを含めることが
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 10%
+source-wordcount: '212'
+ht-degree: 9%
 
 ---
 
