@@ -4,12 +4,13 @@ seo-description: 検索結果パネルは、上部の検索入力ボックスと
 seo-title: 検索結果パネル
 solution: Experience Manager
 title: 検索結果パネル
-topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '963'
 ht-degree: 1%
 
 ---
