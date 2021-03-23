@@ -4,12 +4,13 @@ seo-description: 管理者は、コンテンツ管理システムとの調整や
 seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
+feature: Dynamic Mediaクラシック，SDK/API，メタデータ
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
