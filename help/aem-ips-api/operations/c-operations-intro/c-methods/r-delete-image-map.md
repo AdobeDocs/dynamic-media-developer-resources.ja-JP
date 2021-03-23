@@ -4,13 +4,14 @@ seo-description: 画像マップを削除します。
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 11%
 
 ---
 
