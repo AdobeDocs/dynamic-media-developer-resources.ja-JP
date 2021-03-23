@@ -4,12 +4,13 @@ seo-description: 繰り返し可能なテクスチャや他のマテリアルの
 seo-title: 材料の解像度
 solution: Experience Manager
 title: 材料の解像度
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
