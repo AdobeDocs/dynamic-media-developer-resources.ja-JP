@@ -2,11 +2,12 @@
 description: 提供されたURLのリストをDynamic MediaCDN(Content Distribution Network)プロバイダーに転送し、HTTP応答の既存のキャッシュを無効にします。
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Dynamic Media Image Production System API
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '483'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ CDNキャッシュの無効化は、CDNネットワークを介して処理さ�
 
 **使用頻度：ルール**
 
-この機能の使用頻度を制御するルールは、ダイナミックメディアのCDNパートナーが制御します。 CDNは、これらの無効化の応答性を低下させ、ユーザーに対するサービスの最適なパフォーマンスを維持するための裁量を保持します。 この機能の過度の使用をDynamic Mediaに通知した場合は、会社ごとに、または全体を通じて、この機能を無効にする必要があります。
+この機能の使用頻度を制御するルールは、ダイナミックメディアのCDNパートナーが制御します。 CDNは、これらの無効化の応答性を低下させ、ユーザーに対するサービスの最適なパフォーマンスを維持するための裁量を保持します。 この機能の過度の使用がDynamic Mediaに通知された場合は、会社ごと、または全体を通じて、この機能を無効にする必要があります。
 
 **確認電子メール**
 
