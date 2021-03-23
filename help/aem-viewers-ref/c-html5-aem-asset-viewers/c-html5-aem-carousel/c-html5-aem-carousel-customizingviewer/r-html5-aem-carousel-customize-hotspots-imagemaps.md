@@ -4,12 +4,13 @@ seo-description: メイン表示の上に、AEM AssetsのDynamic Mediaで最初�
 seo-title: ホットスポットと画像マップ
 solution: Experience Manager
 title: ホットスポットと画像マップ
-topic: Dynamic Media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
