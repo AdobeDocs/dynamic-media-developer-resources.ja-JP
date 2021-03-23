@@ -4,12 +4,13 @@ seo-description: ズームインジケーターは、ズーム表示領域に重
 seo-title: ズーム表示アイコンエフェクト
 solution: Experience Manager
 title: ズーム表示アイコンエフェクト
-topic: Dynamic Media
 uuid: 69a44789-9587-4459-9c75-048773c9e368
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
