@@ -4,13 +4,14 @@ seo-description: ビデオビューアのURLコマンド
 seo-title: ナビゲーション
 solution: Experience Manager
 title: ナビゲーション
-topic: Dynamic Media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '69'
+ht-degree: 13%
 
 ---
 
