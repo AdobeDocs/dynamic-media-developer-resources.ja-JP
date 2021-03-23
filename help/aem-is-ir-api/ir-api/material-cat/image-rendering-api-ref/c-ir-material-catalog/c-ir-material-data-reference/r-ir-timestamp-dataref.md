@@ -4,12 +4,13 @@ seo-description: ファイル変更のタイムスタンプ。 このカタロ�
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
@@ -39,7 +40,7 @@ Java形式の日付/時間値。 1970年1月1日(UTC/GMT)、1970年1月1日か�
 * *[!DNL zzz]* は、「GMT」や「PST」などの3文字または4文字のタイムゾーンコードです。夏時間は、タイムゾーンコードで考慮する必要があります（例えば、太平洋標準時の場合は「PST」、太平洋夏時間の場合は「PDT」）。
 * *[!DNL offset]* は、GMTを基準とした、時間または時間：分単位のタイムゾーンオフセットです。例えば、「PDT」は「GMT -7」と同じです。
 
-日付/時間形式の文字列値の要素はすべて存在する必要があります。 日付/時刻の値が正しく形式設定されていない場合、この値は無視され、代わりに&#x200B;*catalog*.iniファイルの変更時刻が使用されます。
+日付/時間形式の文字列値の要素はすべて存在する必要があります。 日付/時刻値の形式が正しくない場合は無視され、代わりに&#x200B;*catalog*.iniファイルの変更時刻が使用されます。
 
 ## 初期設定 {#section-e2c126c9e7294662b23944ab8d14866b}
 
