@@ -4,13 +4,14 @@ seo-description: 会社固有の設定。
 seo-title: CompanySettings
 solution: Experience Manager
 title: CompanySettings
-topic: Dynamic Media Image Production System API
 uuid: a807d5c1-058d-4313-b4f8-6ee203284003
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
