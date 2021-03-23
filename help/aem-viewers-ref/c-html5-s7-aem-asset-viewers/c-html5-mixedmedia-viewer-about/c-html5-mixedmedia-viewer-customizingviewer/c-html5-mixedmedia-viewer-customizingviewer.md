@@ -1,16 +1,17 @@
 ---
 description: 混在メディアビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: 混在メディアビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 seo-title: 混在メディアビューアのカスタマイズ
 solution: Experience Manager
 title: 混在メディアビューアのカスタマイズ
-topic: Dynamic Media
 uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
