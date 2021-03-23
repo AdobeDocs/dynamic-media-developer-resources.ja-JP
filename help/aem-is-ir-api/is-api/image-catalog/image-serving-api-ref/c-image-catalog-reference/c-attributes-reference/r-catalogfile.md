@@ -4,13 +4,14 @@ seo-description: 画像データファイルのパス このカタログの画�
 seo-title: CatalogFile
 solution: Experience Manager
 title: CatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
