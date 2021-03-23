@@ -4,13 +4,14 @@ seo-description: マテリアルタイプ マテリアルのサーフェスタ�
 seo-title: 種類
 solution: Experience Manager
 title: 種類
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 24%
+source-wordcount: '164'
+ht-degree: 23%
 
 ---
 
