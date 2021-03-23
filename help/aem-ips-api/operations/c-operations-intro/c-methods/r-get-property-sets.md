@@ -4,13 +4,14 @@ seo-description: タイプハンドルに関連付けられたプロパティセ
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 17%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
