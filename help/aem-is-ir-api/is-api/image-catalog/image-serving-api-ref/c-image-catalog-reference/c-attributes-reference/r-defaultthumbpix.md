@@ -1,15 +1,16 @@
 ---
-description: 初期設定のサムネールサイズ サムネール要求(req=tmb)の属性DefaultPixの代わりに使用されます。
-seo-description: 初期設定のサムネールサイズ サムネール要求(req=tmb)の属性DefaultPixの代わりに使用されます。
+description: 初期設定のサムネールサイズ サムネール要求(req=tmb)に対して、属性DefaultPixの代わりに使用されます。
+seo-description: 初期設定のサムネールサイズ サムネール要求(req=tmb)に対して、属性DefaultPixの代わりに使用されます。
 seo-title: DefaultThumbPix
 solution: Experience Manager
 title: DefaultThumbPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
