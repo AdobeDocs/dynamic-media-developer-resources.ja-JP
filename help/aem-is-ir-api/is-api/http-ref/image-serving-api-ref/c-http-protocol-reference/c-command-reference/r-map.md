@@ -4,12 +4,13 @@ seo-description: 画像マップデータ このレイヤーの画像マップ�
 seo-title: マップ
 solution: Experience Manager
 title: マップ
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 3%
 
 *`string`*&#x200B;に含まれるすべてのアンパサンド(&amp;)文字は、HTTPエンコードする必要があります。
 
-`mapA=`と`catalog::Map`はソース画像座標でマップデータを指定しますが、`map=`はレイヤー長方形の左上隅を基準とするレイヤー座標を指定します（`rotate=`と`extend=`が適用された後）。
+`mapA=`と`catalog::Map`はソース画像座標でマップデータを指定しますが、`map=`はレイヤー長方形の左上隅を基準とするレイヤー座標を（`rotate=`と`extend=`の後ろに）指定します。
 
 出力画像マップは、常にレイヤーの長方形に合わせてクリップされます。 `shape`属性を省略した場合、または`default`に設定した場合、レイヤーの長方形全体が画像マップ領域として使用されます。
 
