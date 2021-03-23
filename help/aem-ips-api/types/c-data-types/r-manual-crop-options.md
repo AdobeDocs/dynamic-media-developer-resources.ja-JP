@@ -4,13 +4,14 @@ seo-description: 画像の手動切り抜きオプション
 seo-title: ManualCropOptions
 solution: Experience Manager
 title: ManualCropOptions
-topic: Dynamic Media Image Production System API
 uuid: ac3710d9-14b0-4e2f-90a5-f66fe37851ab
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 14%
+source-wordcount: '70'
+ht-degree: 12%
 
 ---
 
