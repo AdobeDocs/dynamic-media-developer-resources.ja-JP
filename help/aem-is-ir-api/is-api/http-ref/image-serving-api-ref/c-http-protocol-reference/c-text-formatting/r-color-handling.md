@@ -2,12 +2,13 @@
 description: RTF仕様では、&bsol;colortblで指定されたRGBカラー値が許可されています。 各コンポーネントには、&bsol;red、&bsol;green、&bsol;blueの各コマンドが別々に用意されています。
 solution: Experience Manager
 title: カラー処理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
