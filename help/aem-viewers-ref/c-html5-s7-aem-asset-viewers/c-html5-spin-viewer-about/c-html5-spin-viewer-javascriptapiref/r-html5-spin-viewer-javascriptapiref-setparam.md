@@ -4,12 +4,13 @@ seo-description: スピンビューアのJavaScript APIリファレンス。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 5f7be1d4-28aa-497c-9067-853c227aa11a
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
