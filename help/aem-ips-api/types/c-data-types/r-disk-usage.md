@@ -4,13 +4,14 @@ seo-description: アセットまたはフォルダーのディスク領域の統
 seo-title: DiskUsage
 solution: Experience Manager
 title: DiskUsage
-topic: Dynamic Media Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '67'
+ht-degree: 10%
 
 ---
 
