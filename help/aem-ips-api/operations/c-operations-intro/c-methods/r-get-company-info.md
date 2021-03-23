@@ -4,12 +4,13 @@ seo-description: 会社ハンドル、会社名、ルートパス、有効期限
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 6%
 
 ---
@@ -77,7 +78,7 @@ ht-degree: 6%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：会社</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>ハンドルおよび会社に関するその他の説明情報。 </p> </td> 
+   <td colname="col4"> <p>ハンドルおよび会社に関するその他の詳細情報。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
