@@ -4,13 +4,14 @@ seo-description: 重なり合うオブジェクトを表示 現在の選択範�
 seo-title: 表示
 solution: Experience Manager
 title: 表示
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 8%
+source-wordcount: '101'
+ht-degree: 7%
 
 ---
 
