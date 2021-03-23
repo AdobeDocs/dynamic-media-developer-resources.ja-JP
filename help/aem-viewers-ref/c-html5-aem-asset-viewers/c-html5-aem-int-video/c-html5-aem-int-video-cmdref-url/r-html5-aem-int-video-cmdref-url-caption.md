@@ -4,13 +4,14 @@ seo-description: インタラクティブビデオビューアのURLコマンド
 seo-title: caption
 solution: Experience Manager
 title: caption
-topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 7%
 
 ---
 
@@ -70,7 +71,7 @@ WebVTTファイルに存在するその他のWebVTT機能はサポートされ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初期設定のキャプション状態を指定します（有効になっているのは<span class="codeph"> 1 </span>です）。 </p> </td> 
+   <td colname="col2"> <p> 初期設定のキャプション状態を指定します（有効な場合は<span class="codeph"> 1 </span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
