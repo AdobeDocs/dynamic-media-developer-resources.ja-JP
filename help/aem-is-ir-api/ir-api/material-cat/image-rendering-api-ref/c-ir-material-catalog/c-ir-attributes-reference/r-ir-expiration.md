@@ -4,12 +4,13 @@ seo-description: デフォルトのクライアントキャッシュの有効時
 seo-title: 有効期限
 solution: Experience Manager
 title: 有効期限
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 3%
 
 ## 初期設定 {#section-18cfce46edb441bfae7dd9d3e0217ba9}
 
-default::Expirationから継承（定義されていない場合または空の場合）。
+default::Expirationから継承（定義されていない場合、または空の場合）。
 
 ## 関連項目 {#section-ecfe21ff789c4b298344ebf7c647b7e7}
 
