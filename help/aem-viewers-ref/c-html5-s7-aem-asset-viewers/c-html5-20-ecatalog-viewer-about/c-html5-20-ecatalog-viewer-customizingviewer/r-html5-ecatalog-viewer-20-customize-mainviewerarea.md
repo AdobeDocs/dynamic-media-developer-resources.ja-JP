@@ -4,13 +4,14 @@ seo-description: メイン表示領域は、カタログ画像が表示される
 seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-topic: Dynamic Media
 uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
