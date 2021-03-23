@@ -4,12 +4,13 @@ seo-description: これらのコマンドも使用できます。
 seo-title: その他のコマンド
 solution: Experience Manager
 title: その他のコマンド
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
