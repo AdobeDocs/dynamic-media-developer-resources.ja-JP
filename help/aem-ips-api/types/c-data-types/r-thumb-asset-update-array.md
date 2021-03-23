@@ -4,13 +4,14 @@ seo-description: サムアセットのメタデータが更新されます。
 seo-title: ThumbAssetUpdateArray
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 43b96b01-3a88-48cc-b653-262c9fb798a5
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
