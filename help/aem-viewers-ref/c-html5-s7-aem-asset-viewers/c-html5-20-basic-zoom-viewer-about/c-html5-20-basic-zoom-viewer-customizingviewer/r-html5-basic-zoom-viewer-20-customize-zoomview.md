@@ -4,12 +4,13 @@ seo-description: メイン表示は、ズーム可能な画像で構成されま
 seo-title: ズーム表示
 solution: Experience Manager
 title: ズーム表示
-topic: Dynamic Media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
