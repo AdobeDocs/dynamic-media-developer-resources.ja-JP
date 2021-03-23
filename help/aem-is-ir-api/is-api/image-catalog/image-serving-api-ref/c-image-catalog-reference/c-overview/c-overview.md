@@ -4,13 +4,14 @@ seo-description: 画像カタログは、画像に関する情報や、サポー
 seo-title: 概要
 solution: Experience Manager
 title: 概要
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
