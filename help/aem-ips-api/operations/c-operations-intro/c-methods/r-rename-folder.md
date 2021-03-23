@@ -4,13 +4,14 @@ seo-description: フォルダの名前を変更します。
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
+feature: Dynamic Mediaクラシック，SDK/API，アセット管理
+role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 19%
 
 ---
 
