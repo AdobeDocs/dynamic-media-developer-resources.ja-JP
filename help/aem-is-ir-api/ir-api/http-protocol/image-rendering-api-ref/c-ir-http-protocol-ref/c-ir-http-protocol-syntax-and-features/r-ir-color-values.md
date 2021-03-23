@@ -4,13 +4,14 @@ seo-description: color=およびbgc=属性のカラー値は、HTMLと同様に�
 seo-title: カラー値
 solution: Experience Manager
 title: カラー値
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
