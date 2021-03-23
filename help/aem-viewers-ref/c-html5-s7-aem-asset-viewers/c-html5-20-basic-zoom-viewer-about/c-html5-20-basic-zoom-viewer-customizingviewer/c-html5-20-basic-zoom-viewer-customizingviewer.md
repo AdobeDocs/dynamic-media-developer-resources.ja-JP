@@ -1,16 +1,17 @@
 ---
 description: 基本ズームビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-keywords: responsive
+keywords: レスポンシブ
 seo-description: 基本ズームビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 seo-title: 基本ズームビューアのカスタマイズ
 solution: Experience Manager
 title: 基本ズームビューアのカスタマイズ
-topic: Dynamic Media
 uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
