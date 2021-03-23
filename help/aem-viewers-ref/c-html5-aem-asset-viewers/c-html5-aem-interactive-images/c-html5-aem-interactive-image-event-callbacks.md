@@ -2,12 +2,13 @@
 description: イベントコールバック
 solution: Experience Manager
 title: イベントコールバック
-topic: Dynamic Media
 uuid: 4a3dc8d7-2eb3-4244-849b-01d1314e43f2
+feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
