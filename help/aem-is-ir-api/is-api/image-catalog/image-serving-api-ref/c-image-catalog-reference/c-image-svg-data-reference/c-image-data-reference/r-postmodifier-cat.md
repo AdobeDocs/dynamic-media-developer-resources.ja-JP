@@ -4,12 +4,13 @@ seo-description: Postfixリクエスト修飾子文字列 「&」文字で区切
 seo-title: PostModifier
 solution: Experience Manager
 title: PostModifier
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 4%
 
 ---
@@ -21,7 +22,7 @@ Postfixリクエスト修飾子文字列 「&amp;」文字で区切られた1つ
 
 このフィールドのコマンドは、HTTPリクエストおよび`catalog::Modifier`内のコマンドを常に上書きします。
 
-`catalog::PostModifier` は、特定の画像が、 `qlt=` やなど、通常URLから制御される特別な設定を必要とする場合に役立ち `resmode=`ます。`catalog::Modifier` は、画像カタログのほとんどのISコマンドを設定するために使用します。
+`catalog::PostModifier` は、特定の画像が、 `qlt=` やなど、通常URLから制御される特別な設定を必要とする場合に役立ち `resmode=`ます。`catalog::Modifier` は、画像カタログ内のほとんどのISコマンドを設定する際に使用します。
 
 マクロは、同じカタログまたは初期設定のカタログで定義されている限り、`catalog::PostModifier`で許可されます。 カスタム変数も使用できます。
 
