@@ -4,12 +4,13 @@ seo-description: ビューアは、フルスクリーン操作モードをサポ
 seo-title: フルスクリーンのサポート
 solution: Experience Manager
 title: フルスクリーンのサポート
-topic: Dynamic Media
 uuid: 476cb9b4-9ef0-404a-b857-8f5913c34259
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
