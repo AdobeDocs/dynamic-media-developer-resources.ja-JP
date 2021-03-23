@@ -2,13 +2,14 @@
 description: SearchPanel.textpos
 solution: Experience Manager
 title: SearchPanel.textpos
-topic: Dynamic Media
 uuid: ed68aaa1-121c-458e-a724-3832915dca24
+feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
