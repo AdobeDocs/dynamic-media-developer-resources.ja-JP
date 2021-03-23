@@ -4,13 +4,14 @@ seo-description: レイヤー画像。
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -54,7 +55,7 @@ ht-degree: 3%
 
 ## 初期設定 {#section-a92f3882041b4d43ae2caf014647165f}
 
-レイヤー0の場合、`src=`が指定されていない場合、URLのパスコンポーネントのオブジェクトが使用されます。 他のレイヤーの初期設定値はありません。
+レイヤー0では、`src=`が指定されていない場合、URLのパスコンポーネントからのオブジェクトが使用されます。 他のレイヤーの初期設定値はありません。
 
 ## 関連項目 {#section-e467e03330564796932ac081f1c9c1d0}
 
