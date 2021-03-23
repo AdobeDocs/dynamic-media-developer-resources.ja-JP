@@ -4,12 +4,13 @@ seo-description: ビネットマップデータファイルのパス この画�
 seo-title: VignetMapFile
 solution: Experience Manager
 title: VignetMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
+feature: Dynamic Mediaクラシック，SDK/API
+role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
