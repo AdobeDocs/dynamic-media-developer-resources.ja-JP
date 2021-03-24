@@ -1,16 +1,13 @@
 ---
 description: メインコントロールバーは、デスクトップシステムおよびタブレットの矩形の領域で、eCatalog検索ビューアで使用できるすべてのユーザインターフェイスコントロール（大きいページボタンを除く）が含まれます。
-seo-description: メインコントロールバーは、デスクトップシステムおよびタブレットの矩形の領域で、eCatalog検索ビューアで使用できるすべてのユーザインターフェイスコントロール（大きいページボタンを除く）が含まれます。
-seo-title: メインコントロールバー
 solution: Experience Manager
 title: メインコントロールバー
-uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
