@@ -1,17 +1,14 @@
 ---
 description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
-seo-description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
-seo-title: 太字
 solution: Experience Manager
 title: 太字
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
