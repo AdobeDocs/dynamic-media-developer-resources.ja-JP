@@ -1,17 +1,14 @@
 ---
 description: タイプハンドルに関連付けられたプロパティセットを取得します。
-seo-description: タイプハンドルに関連付けられたプロパティセットを取得します。
-seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 16%
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
