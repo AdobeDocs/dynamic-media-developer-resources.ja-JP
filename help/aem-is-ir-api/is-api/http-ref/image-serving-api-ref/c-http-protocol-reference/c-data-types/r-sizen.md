@@ -1,16 +1,13 @@
 ---
 description: 正規化サイズ レイヤー0などの画像のサイズを基準に正規化された、画像サイズまたは長方形サイズを指定するために使用します。
-seo-description: 正規化サイズ レイヤー0などの画像のサイズを基準に正規化された、画像サイズまたは長方形サイズを指定するために使用します。
-seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
