@@ -1,16 +1,13 @@
 ---
 description: 画像アンカー 変換(crop=、scale=、rotate=、flip=)を適用する前に、画像、べた塗り色またはテキストバウンディングボックスの長方形のアンカーポイントを定義します。 また、rotate=の回転の中心としての役割も果たします。
-seo-description: 画像アンカー 変換(crop=、scale=、rotate=、flip=)を適用する前に、画像、べた塗り色またはテキストバウンディングボックスの長方形のアンカーポイントを定義します。 また、rotate=の回転の中心としての役割も果たします。
-seo-title: アンカー
 solution: Experience Manager
 title: アンカー
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
