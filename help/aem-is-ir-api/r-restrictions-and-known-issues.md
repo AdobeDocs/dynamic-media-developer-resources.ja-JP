@@ -1,16 +1,13 @@
 ---
 description: Dynamic Media画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
-seo-description: Dynamic Media画像サービングを使用する場合は、いくつかの制限事項と既知の問題を考慮する必要があります。
-seo-title: 制限事項と既知の問題
 solution: Experience Manager
 title: 制限事項と既知の問題
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
