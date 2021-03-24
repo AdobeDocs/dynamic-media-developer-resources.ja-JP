@@ -1,16 +1,13 @@
 ---
 description: カタログシステムのキャッシュのルートフォルダーです。
-seo-description: カタログシステムのキャッシュのルートフォルダーです。
-seo-title: カタログキャッシュフォルダー(ir.catalogCacheRoot)
 solution: Experience Manager
 title: カタログキャッシュフォルダー(ir.catalogCacheRoot)
-uuid: 18d400f4-7827-44a1-b09b-2292b97cd6cb
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
