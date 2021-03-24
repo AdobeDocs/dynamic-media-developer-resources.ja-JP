@@ -1,16 +1,13 @@
 ---
 description: 画像カタログは、画像に関する情報と、フォントやICCプロファイルなどのサポートデータをサーバに提供します。
-seo-description: 画像カタログは、画像に関する情報と、フォントやICCプロファイルなどのサポートデータをサーバに提供します。
-seo-title: 画像カタログ参照
 solution: Experience Manager
 title: 画像カタログ参照
-uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '58'
 ht-degree: 1%
 
 ---
