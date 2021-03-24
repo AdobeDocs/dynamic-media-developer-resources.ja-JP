@@ -1,16 +1,13 @@
 ---
 description: デフォルトの変更タイムスタンプ。 カタログのTimeStampとビネットのTimeStampの初期設定値を指定します。 指定しなかった場合、サーバはこのcatalog.iniファイルの変更日時を使用します。
-seo-description: デフォルトの変更タイムスタンプ。 カタログのTimeStampとビネットのTimeStampの初期設定値を指定します。 指定しなかった場合、サーバはこのcatalog.iniファイルの変更日時を使用します。
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 10ceb600-1ed9-46a1-ae07-889d601ac0f4
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
