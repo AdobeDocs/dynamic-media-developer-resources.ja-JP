@@ -1,16 +1,13 @@
 ---
 description: プリフィックス要求修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
-seo-description: プリフィックス要求修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
-seo-title: 修飾子
 solution: Experience Manager
 title: 修飾子
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
