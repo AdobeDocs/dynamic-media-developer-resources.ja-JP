@@ -1,17 +1,14 @@
 ---
 description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
-seo-description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
-seo-title: シャープ
 solution: Experience Manager
 title: シャープ
-uuid: 0fc0b694-f332-4a16-9970-6b699528f165
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
