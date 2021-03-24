@@ -1,17 +1,14 @@
 ---
 description: ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
-seo-description: ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)には、ビネットレンダリングエンジンの低レベルな要素を制御するメカニズムが用意されています。
-seo-title: 詳細レンダリング設定
 solution: Experience Manager
 title: 詳細レンダリング設定
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -56,14 +53,14 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金額(%) </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半径（ピクセル単位） </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -77,7 +74,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>サイズ変更モード </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
