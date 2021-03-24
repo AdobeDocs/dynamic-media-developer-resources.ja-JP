@@ -1,16 +1,13 @@
 ---
 description: 関心領域 合成画像の矩形の目標領域(ROI)をピクセル単位で指定します。
-seo-description: 関心領域 合成画像の矩形の目標領域(ROI)をピクセル単位で指定します。
-seo-title: rgn
 solution: Experience Manager
 title: rgn
-uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '143'
 ht-degree: 3%
 
 ---
