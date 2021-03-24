@@ -1,16 +1,13 @@
 ---
 description: 次のオプションは、ビネットファイルの処理を制御します。 sourceFileがビネットでない場合、これらは無視されます。
-seo-description: 次のオプションは、ビネットファイルの処理を制御します。 sourceFileがビネットでない場合、これらは無視されます。
-seo-title: ビネットのオプション
 solution: Experience Manager
 title: ビネットのオプション
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
