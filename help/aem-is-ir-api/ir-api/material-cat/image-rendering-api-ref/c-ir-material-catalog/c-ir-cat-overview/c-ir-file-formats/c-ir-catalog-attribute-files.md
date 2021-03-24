@@ -1,16 +1,13 @@
 ---
 description: カタログ属性ファイルには任意の名前を付けることができますが、.iniファイルのサフィックスを付ける必要があります。 これらは、任意のテキストエディタを使用して簡単に管理できます。
-seo-description: カタログ属性ファイルには任意の名前を付けることができますが、.iniファイルのサフィックスを付ける必要があります。 これらは、任意のテキストエディタを使用して簡単に管理できます。
-seo-title: カタログ属性ファイル
 solution: Experience Manager
 title: カタログ属性ファイル
-uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
