@@ -1,16 +1,13 @@
 ---
 description: ファイル変更のタイムスタンプ。 このカタログレコードに添付された画像ファイルやデータファイルが最後に変更された日時を指定します。
-seo-description: ファイル変更のタイムスタンプ。 このカタログレコードに添付された画像ファイルやデータファイルが最後に変更された日時を指定します。
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
