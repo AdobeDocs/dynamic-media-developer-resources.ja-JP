@@ -1,16 +1,13 @@
 ---
 description: 初期設定の返信画像 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
-seo-description: 初期設定の返信画像 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
-seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
