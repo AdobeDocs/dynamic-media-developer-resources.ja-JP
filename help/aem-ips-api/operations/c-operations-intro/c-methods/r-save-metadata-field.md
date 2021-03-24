@@ -1,16 +1,13 @@
 ---
 description: メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
-seo-description: メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '225'
 ht-degree: 8%
 
 ---
