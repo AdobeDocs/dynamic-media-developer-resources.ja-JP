@@ -1,17 +1,14 @@
 ---
 description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
-seo-description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
-seo-title: joboption
 solution: Experience Manager
 title: joboption
-uuid: 7288cf29-850f-4121-8425-5f995daac22d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 40%
+source-wordcount: '236'
+ht-degree: 46%
 
 ---
 
