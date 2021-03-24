@@ -1,16 +1,13 @@
 ---
 description: eCatalogビューアでは、メイン表示の上にある画像マップアイコンのレンダリングがサポートされています。
-seo-description: eCatalogビューアでは、メイン表示の上にある画像マップアイコンのレンダリングがサポートされています。
-seo-title: 画像マップのサポート
 solution: Experience Manager
 title: 画像マップのサポート
-uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
