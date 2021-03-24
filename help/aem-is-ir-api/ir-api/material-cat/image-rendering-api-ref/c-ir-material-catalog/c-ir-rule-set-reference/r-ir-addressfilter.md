@@ -1,16 +1,13 @@
 ---
 description: アドレスフィルター要素。 <rule>要素のオプションです。 ルールが適用される場合に、属性ClientAddressFilterを上書きします。
-seo-description: アドレスフィルター要素。 <rule>要素のオプションです。 ルールが適用される場合に、属性ClientAddressFilterを上書きします。
-seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
