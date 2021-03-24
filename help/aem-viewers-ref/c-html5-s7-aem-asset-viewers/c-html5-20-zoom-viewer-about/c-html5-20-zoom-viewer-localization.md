@@ -1,16 +1,13 @@
 ---
 description: ビデオビューアで表示されるコンテンツには、ズームボタンやフルスクリーンボタンなど、ローカライゼーションの対象となるものもあります。
-seo-description: ビデオビューアで表示されるコンテンツには、ズームボタンやフルスクリーンボタンなど、ローカライゼーションの対象となるものもあります。
-seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-uuid: 00df92c5-3a10-4973-904d-de5a6b3b9258
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
