@@ -1,16 +1,13 @@
 ---
 description: ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
-seo-description: ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
-seo-title: ソーシャルシェア
 solution: Experience Manager
 title: ソーシャルシェア
-uuid: 045a5525-dc7b-4ea4-b5ee-830a7ddf233a
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
