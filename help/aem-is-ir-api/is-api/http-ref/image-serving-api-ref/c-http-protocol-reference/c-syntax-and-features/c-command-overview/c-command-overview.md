@@ -1,16 +1,13 @@
 ---
 description: 画像サービングでサポートされるコマンドを、大まかなカテゴリ別にグループ化して以下に示します。 使用方法と適用性の詳細については、特定のコマンドの説明を参照してください。
-seo-description: 画像サービングでサポートされるコマンドを、大まかなカテゴリ別にグループ化して以下に示します。 使用方法と適用性の詳細については、特定のコマンドの説明を参照してください。
-seo-title: 画像サービングHTTPプロトコルコマンドの概要
 solution: Experience Manager
 title: 画像サービングHTTPプロトコルコマンドの概要
-uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
