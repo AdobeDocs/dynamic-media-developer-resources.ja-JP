@@ -1,15 +1,12 @@
 ---
 description: インタラクティブ画像ビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 これには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズーム表示によって表示される情報メッセージなどが含まれます。
-seo-description: インタラクティブ画像ビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 これには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズーム表示によって表示される情報メッセージなどが含まれます。
-seo-title: ユーザーインターフェイス要素のローカライゼーション
 title: ユーザーインターフェイス要素のローカライゼーション
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
