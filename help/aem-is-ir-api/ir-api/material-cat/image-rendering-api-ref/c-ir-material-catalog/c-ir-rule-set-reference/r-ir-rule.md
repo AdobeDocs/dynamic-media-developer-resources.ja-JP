@@ -1,16 +1,13 @@
 ---
 description: リクエストルール要素。 <ruleset>要素では、1つ以上のオプションです。
-seo-description: リクエストルール要素。 <ruleset>要素では、1つ以上のオプションです。
-seo-title: ルール
 solution: Experience Manager
 title: ルール
-uuid: f7071681-e97e-4081-aeb1-093d2b23041c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
