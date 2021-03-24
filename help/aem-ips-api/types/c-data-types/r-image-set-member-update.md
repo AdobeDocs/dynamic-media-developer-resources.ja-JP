@@ -1,16 +1,13 @@
 ---
 description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
-seo-description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
-seo-title: ImageSetMemberUpdate
 solution: Experience Manager
 title: ImageSetMemberUpdate
-uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 feature: Dynamic Mediaクラシック，SDK/API，画像セット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
