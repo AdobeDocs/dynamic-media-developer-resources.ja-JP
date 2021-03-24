@@ -1,17 +1,14 @@
 ---
 description: 基本的な文字形式設定を行うには、次のコマンドを使用します。
-seo-description: 基本的な文字形式設定を行うには、次のコマンドを使用します。
-seo-title: 基本的な文字の形式設定
 solution: Experience Manager
 title: 基本的な文字の形式設定
-uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 7%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
