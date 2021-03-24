@@ -2,11 +2,10 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-uuid: 4ff25cb3-3383-4ef2-90db-660fa774e109
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 4%
