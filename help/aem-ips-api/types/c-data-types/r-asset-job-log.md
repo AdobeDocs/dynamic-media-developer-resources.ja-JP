@@ -1,17 +1,14 @@
 ---
 description: 特定のアセットに関連付けられているジョブログエントリの詳細。 getAssetJobLogsによって返されるデータ。
-seo-description: 特定のアセットに関連付けられているジョブログエントリの詳細。 getAssetJobLogsによって返されるデータ。
-seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 5%
+source-wordcount: '114'
+ht-degree: 6%
 
 ---
 
