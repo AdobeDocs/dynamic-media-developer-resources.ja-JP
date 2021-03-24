@@ -1,17 +1,14 @@
 ---
 description: ICCプロファイルアセットのプロパティ。
-seo-description: ICCプロファイルアセットのプロパティ。
-seo-title: IccProfileInfo
 solution: Experience Manager
 title: IccProfileInfo
-uuid: 5266c727-136e-4eeb-85b0-739e4dd9b731
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
