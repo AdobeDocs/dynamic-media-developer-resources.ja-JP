@@ -1,16 +1,13 @@
 ---
 description: 繰り返し可能なテクスチャには、布地（衣料と表皮の両方）、壁と壁の間の床の覆い、壁紙、カウンタートップ材、木目のテクスチャ、屋根とサイディング材、その他の一般的なテクスチャなど、内部と外部のマテリアルが含まれます。
-seo-description: 繰り返し可能なテクスチャには、布地（衣料と表皮の両方）、壁と壁の間の床の覆い、壁紙、カウンタートップ材、木目のテクスチャ、屋根とサイディング材、その他の一般的なテクスチャなど、内部と外部のマテリアルが含まれます。
-seo-title: 繰り返し可能なテクスチャ
 solution: Experience Manager
 title: 繰り返し可能なテクスチャ
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---
@@ -53,7 +50,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
    <td colname="col2"> <p>繰り返しモード </p> </td> 
-   <td colname="col3"> <p>0（ストレートリピート） </p> </td> 
+   <td colname="col3"> <p>0（ストレートリピート）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
@@ -63,7 +60,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-これらの基本アトリビュートに加え、繰り返し可能なテクスチャは、高度なアプリケーションに対して次の特殊用途アトリビュートをサポートしています。
+繰り返し可能なテクスチャは、これらの基本属性に加え、高度なアプリケーションで次の特殊用途の属性をサポートします。
 
 <table id="table_A97365804CB143DEB31F26A65DA3CE04"> 
  <thead> 
@@ -75,18 +72,18 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> グラウト=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>グラウトの色と太さセラミック/石タイル材料に有用である </p> </td> 
-   <td colname="col3"> <p>既にイメージにグラウトが存在します </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> 溝=  </span> </a> </p> </td> 
+   <td colname="col2"> <p>溝の色と厚さセラミック/石材用タイル材に有用である </p> </td> 
+   <td colname="col3"> <p>溝は画像に既に存在します </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>整列モード（オブジェクト間）表皮材の用途に使用される </p> </td> 
-   <td colname="col3"> <p>中央に一致 </p> </td> 
+   <td colname="col2"> <p>整列モード（オブジェクト間）室内装飾用に使われる </p> </td> 
+   <td colname="col3"> <p>中央揃え </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
-   <td colname="col2"> <p>テクスチャの回転角度；壁オブジェクトではサポートされません </p> </td> 
+   <td colname="col2"> <p>テクスチャの回転角度；壁オブジェクトではサポートされない </p> </td> 
    <td colname="col3"> <p>0（回転なし） </p> </td> 
   </tr> 
  </tbody> 
