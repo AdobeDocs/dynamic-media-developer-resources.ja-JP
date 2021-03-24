@@ -5,7 +5,7 @@ title: 詳細レンダリング設定
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 25%
@@ -110,7 +110,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>スーパーサンプリング：ランダムレート。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>初期設定は 5 です </p> </td> 
   </tr> 
@@ -131,7 +131,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>ポアソン：サンプル/ピクセル </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>初期設定は 1 です </p> </td> 
   </tr> 
@@ -139,7 +139,7 @@ ht-degree: 25%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>ポアソン：切り替えを使用します。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>初期設定は 1 です </p> </td> 
   </tr> 
   <tr> 
