@@ -1,17 +1,14 @@
 ---
 description: メイン表示の上に、AEM AssetsのDynamic Mediaで最初にホットスポットが作成されたオンデマンドの場所に、ホットスポットアイコンが表示されます。
-seo-description: メイン表示の上に、AEM AssetsのDynamic Mediaで最初にホットスポットが作成されたオンデマンドの場所に、ホットスポットアイコンが表示されます。
-seo-title: ホットスポット
 solution: Experience Manager
 title: ホットスポット
-uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
