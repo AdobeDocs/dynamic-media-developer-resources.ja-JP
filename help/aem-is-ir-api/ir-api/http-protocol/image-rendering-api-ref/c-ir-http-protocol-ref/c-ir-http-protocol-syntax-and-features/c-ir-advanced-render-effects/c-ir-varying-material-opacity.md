@@ -1,16 +1,13 @@
 ---
 description: 可変不透明度は、重なり合うオブジェクトに適用されるべた塗りテクスチャと繰り返し可能なテクスチャ、およびデカルやウィンドウカバリングマテリアルに対してサポートされます。
-seo-description: 可変不透明度は、重なり合うオブジェクトに適用されるべた塗りテクスチャと繰り返し可能なテクスチャ、およびデカルやウィンドウカバリングマテリアルに対してサポートされます。
-seo-title: マテリアルの不透明度の変化
 solution: Experience Manager
 title: マテリアルの不透明度の変化
-uuid: 6af07ea8-44ba-4253-8a26-614725af2f46
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
