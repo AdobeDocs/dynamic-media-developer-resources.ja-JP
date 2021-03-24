@@ -1,16 +1,13 @@
 ---
 description: 再生アイコンは、メイン表示領域に重ねて表示されます。 ビデオが一時停止したとき、またはビデオの最後に到達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
-seo-description: 再生アイコンは、メイン表示領域に重ねて表示されます。 ビデオが一時停止したとき、またはビデオの最後に到達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
-seo-title: アイコンエフェクト
 solution: Experience Manager
 title: アイコンエフェクト
-uuid: 81c9c344-5256-4015-8d02-abbf09dca541
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '177'
 ht-degree: 1%
 
 ---
