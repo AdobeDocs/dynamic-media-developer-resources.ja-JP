@@ -2,11 +2,10 @@
 description: 解析トラッキングのサポート
 solution: Experience Manager
 title: 解析トラッキングのサポート
-uuid: ae870d2e-2a09-4551-935a-916d0e657653
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者，業者，データエンジニア，データアーキテクト
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
