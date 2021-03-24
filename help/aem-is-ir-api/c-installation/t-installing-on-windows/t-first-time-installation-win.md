@@ -1,16 +1,13 @@
 ---
 description: Windowsで初めて画像サービングをインストールするには、次の手順を実行します。
-seo-description: Windowsで初めて画像サービングをインストールするには、次の手順を実行します。
-seo-title: 初めてのインストール
 solution: Experience Manager
 title: 初めてのインストール
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
