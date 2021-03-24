@@ -1,17 +1,14 @@
 ---
 description: ビデオアセットのプロパティ。
-seo-description: ビデオアセットのプロパティ。
-seo-title: VideoInfo
 solution: Experience Manager
 title: VideoInfo
-uuid: c90f2a56-64ff-4f04-bfed-739e33d9a319
 feature: Dynamic Mediaクラシック，SDK/API，ビデオ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '69'
+ht-degree: 10%
 
 ---
 
