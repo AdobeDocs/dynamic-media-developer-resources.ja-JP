@@ -1,16 +1,13 @@
 ---
 description: ブラウザーフォーマットの変換を参照してください。 ブラウザ形式変換機能をオンまたはオフにするかどうかを指定します。
-seo-description: ブラウザーフォーマットの変換を参照してください。 ブラウザ形式変換機能をオンまたはオフにするかどうかを指定します。
-seo-title: Bfc
 solution: Experience Manager
 title: Bfc
-uuid: ea27f001-6d7d-4df4-b88c-60859a92e096
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
