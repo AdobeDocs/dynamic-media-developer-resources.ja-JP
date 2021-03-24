@@ -1,16 +1,13 @@
 ---
 description: 次のサーバー設定を使用して、エラーをリダイレクトします。
-seo-description: 次のサーバー設定を使用して、エラーをリダイレクトします。
-seo-title: エラーリダイレクト
 solution: Experience Manager
 title: エラーリダイレクト
-uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
