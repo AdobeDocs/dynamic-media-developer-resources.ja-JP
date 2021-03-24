@@ -1,16 +1,13 @@
 ---
 description: デフォルトのクライアントキャッシュの有効時間。 特定のカタログレコードに有効なカタログ有効期限またはビネット有効期限の値が含まれていない場合や、ビネットファイルやマテリアルファイルがカタログレコード経由ではなく直接アクセスされる場合に、初期設定の有効期限を指定します。
-seo-description: デフォルトのクライアントキャッシュの有効時間。 特定のカタログレコードに有効なカタログ有効期限またはビネット有効期限の値が含まれていない場合や、ビネットファイルやマテリアルファイルがカタログレコード経由ではなく直接アクセスされる場合に、初期設定の有効期限を指定します。
-seo-title: 有効期限
 solution: Experience Manager
 title: 有効期限
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
