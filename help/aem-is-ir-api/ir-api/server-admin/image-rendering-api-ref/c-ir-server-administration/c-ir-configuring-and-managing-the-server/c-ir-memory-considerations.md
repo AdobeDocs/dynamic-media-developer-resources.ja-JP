@@ -1,16 +1,13 @@
 ---
 description: 画像レンダリングで使用されるメモリ量は、サーバの実際の読み込み量と使用量に大きく左右されます（例えば、ビネットの数が少ない場合、ビネットのサイズや複雑さなど）。
-seo-description: 画像レンダリングで使用されるメモリ量は、サーバの実際の読み込み量と使用量に大きく左右されます（例えば、ビネットの数が少ない場合、ビネットのサイズや複雑さなど）。
-seo-title: メモリの考慮事項
 solution: Experience Manager
 title: メモリの考慮事項
-uuid: 21247081-ff27-4237-93da-5fc996417dfd
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
