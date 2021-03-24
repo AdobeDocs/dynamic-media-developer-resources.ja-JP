@@ -1,17 +1,14 @@
 ---
 description: カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意な素材識別子です。
-seo-description: カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意な素材識別子です。
-seo-title: ID
 solution: Experience Manager
 title: ID
-uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 7%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
