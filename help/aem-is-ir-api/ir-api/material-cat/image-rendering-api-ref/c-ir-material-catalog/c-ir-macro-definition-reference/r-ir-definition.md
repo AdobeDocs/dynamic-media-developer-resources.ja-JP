@@ -1,17 +1,14 @@
 ---
 description: マクロ定義 1つ以上の完全なコマンドから成るレンダリングサービングプロトコルフラグメントで、各コマンドは「&」文字で区切られます。
-seo-description: マクロ定義 1つ以上の完全なコマンドから成るレンダリングサービングプロトコルフラグメントで、各コマンドは「&」文字で区切られます。
-seo-title: 定義
 solution: Experience Manager
 title: 定義
-uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
