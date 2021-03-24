@@ -1,16 +1,13 @@
 ---
 description: IR 3.x互換モジュールをセットアップし、構成する必要があります。
-seo-description: IR 3.x互換モジュールをセットアップし、構成する必要があります。
-seo-title: IR 3.x互換モジュールのセットアップと構成
 solution: Experience Manager
 title: IR 3.x互換モジュールのセットアップと構成
-uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
