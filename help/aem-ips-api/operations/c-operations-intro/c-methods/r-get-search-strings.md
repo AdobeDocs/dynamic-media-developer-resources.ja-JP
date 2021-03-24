@@ -1,17 +1,14 @@
 ---
 description: アセットに関する検索文字列、キーワード、およびその他の情報を取得します。 応答には、アセットに関する追加情報が含まれます。
-seo-description: アセットに関する検索文字列、キーワード、およびその他の情報を取得します。 応答には、アセットに関する追加情報が含まれます。
-seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 16%
 
 ---
 
