@@ -1,17 +1,14 @@
 ---
 description: ビデオスクラバは、水平方向のスライダコントロールで、現在再生中のビデオ内の任意の時間位置を動的にシークできます。
-seo-description: ビデオスクラバは、水平方向のスライダコントロールで、現在再生中のビデオ内の任意の時間位置を動的にシークできます。
-seo-title: ビデオスクラバー
 solution: Experience Manager
 title: ビデオスクラバー
-uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 1%
+source-wordcount: '1028'
+ht-degree: 2%
 
 ---
 
