@@ -1,17 +1,14 @@
 ---
 description: 合成フォントのバリエーションを有効にする。 エラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルが要求されたがフォントマップに見つからない場合に、サーバーがそのスタイルを合成するかを制御します。
-seo-description: 合成フォントのバリエーションを有効にする。 エラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルが要求されたがフォントマップに見つからない場合に、サーバーがそのスタイルを合成するかを制御します。
-seo-title: SyntesizeFontStyles
 solution: Experience Manager
 title: SyntesizeFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
