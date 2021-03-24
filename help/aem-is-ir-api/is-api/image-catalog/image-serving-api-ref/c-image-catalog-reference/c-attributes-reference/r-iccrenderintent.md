@@ -1,17 +1,14 @@
 ---
 description: カラー変換レンダリングインテント。 icc=でレンダリングインテントが指定されていない場合のカラー変換に対する初期設定のレンダリングインテントを指定します。
-seo-description: カラー変換レンダリングインテント。 icc=でレンダリングインテントが指定されていない場合のカラー変換に対する初期設定のレンダリングインテントを指定します。
-seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
