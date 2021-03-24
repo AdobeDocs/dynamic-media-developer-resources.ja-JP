@@ -1,16 +1,13 @@
 ---
 description: eCatalog検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
-seo-description: eCatalog検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
-seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-uuid: 2e1e2bc6-5372-4ba2-b6d7-8b760b1b0a8a
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者，業者，データエンジニア，データアーキテクト
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
