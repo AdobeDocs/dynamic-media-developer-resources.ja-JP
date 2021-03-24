@@ -1,17 +1,14 @@
 ---
 description: 画像カタログのプロパティ。 要求パスで指定された画像カタログの共通属性を返します。
-seo-description: 画像カタログのプロパティ。 要求パスで指定された画像カタログの共通属性を返します。
-seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 5%
  </tr> 
 </table>
 
-カタログIDを省略して、デフォルトのカタログプロパティ([!DNL default.ini])を取得します。 HTTP応答は、`attribute::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
+デフォルトのカタログプロパティ([!DNL default.ini])を取得するには、カタログIDを省略します。 HTTP応答は、`attribute::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
 
 JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
