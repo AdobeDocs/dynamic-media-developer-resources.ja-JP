@@ -1,16 +1,13 @@
 ---
 description: ビデオ時間は、現在時間と現在再生中のビデオの長さを数値で表示します。
-seo-description: ビデオ時間は、現在時間と現在再生中のビデオの長さを数値で表示します。
-seo-title: ビデオ時間
 solution: Experience Manager
 title: ビデオ時間
-uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
