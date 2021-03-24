@@ -1,16 +1,13 @@
 ---
 description: デカールのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
-seo-description: デカールのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
-seo-title: サイズ
 solution: Experience Manager
 title: サイズ
-uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 5%
 
 ---
