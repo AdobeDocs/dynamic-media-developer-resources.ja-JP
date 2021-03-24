@@ -1,16 +1,13 @@
 ---
 description: ビネット内のグループまたはオブジェクトにマテリアルを適用します。
-seo-description: ビネット内のグループまたはオブジェクトにマテリアルを適用します。
-seo-title: マテリアル
 solution: Experience Manager
 title: マテリアル
-uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
