@@ -1,17 +1,14 @@
 ---
 description: このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-description: このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-title: ズームリセットボタン
 solution: Experience Manager
 title: ズームリセットボタン
-uuid: 63331843-1d77-40f4-a87f-6ff73a8f0f32
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '223'
+ht-degree: 3%
 
 ---
 
