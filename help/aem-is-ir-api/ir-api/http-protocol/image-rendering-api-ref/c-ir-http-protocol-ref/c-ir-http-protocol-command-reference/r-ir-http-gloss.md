@@ -1,16 +1,13 @@
 ---
 description: マテリアルサーフェスの光沢度。 マテリアルサーフェスの相対的な光沢を指定します。 照明マップを選択し、光沢効果と3D反射のレンダリングを制御するために使用します。
-seo-description: マテリアルサーフェスの光沢度。 マテリアルサーフェスの相対的な光沢を指定します。 照明マップを選択し、光沢効果と3D反射のレンダリングを制御するために使用します。
-seo-title: 光沢
 solution: Experience Manager
 title: 光沢
-uuid: 3774e08b-d24e-4cf2-8719-32a21bb9bcb6
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
