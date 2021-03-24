@@ -1,16 +1,13 @@
 ---
 description: マクロ定義ファイルでは、次のフィールドが認識されます。
-seo-description: マクロ定義ファイルでは、次のフィールドが認識されます。
-seo-title: マクロの定義
 solution: Experience Manager
 title: マクロの定義
-uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
