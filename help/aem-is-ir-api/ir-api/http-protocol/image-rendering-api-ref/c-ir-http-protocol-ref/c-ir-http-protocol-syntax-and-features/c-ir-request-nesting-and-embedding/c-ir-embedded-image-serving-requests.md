@@ -1,16 +1,13 @@
 ---
 description: Image Server(IS)要求は、マテリアルイメージとして使用できます。
-seo-description: Image Server(IS)要求は、マテリアルイメージとして使用できます。
-seo-title: 埋め込みImage Serverの要求
 solution: Experience Manager
 title: 埋め込みImage Serverの要求
-uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
