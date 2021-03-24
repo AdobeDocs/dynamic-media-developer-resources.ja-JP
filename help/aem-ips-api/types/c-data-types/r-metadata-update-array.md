@@ -1,17 +1,14 @@
 ---
 description: メタデータの更新の配列。
-seo-description: メタデータの更新の配列。
-seo-title: MetadataUpdateArray
 solution: Experience Manager
 title: MetadataUpdateArray
-uuid: 2d79e7a0-b8bd-4746-a5d7-b742913ebc20
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
