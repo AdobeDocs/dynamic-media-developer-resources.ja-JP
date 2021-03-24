@@ -1,16 +1,13 @@
 ---
 description: マテリアルは、壁の境界MSSで指定される場合（sub=3..5で導入される）、壁の境界と見なされます。
-seo-description: マテリアルは、壁の境界MSSで指定される場合（sub=3..5で導入される）、壁の境界と見なされます。
-seo-title: 壁の境界
 solution: Experience Manager
 title: 壁の境界
-uuid: 40acd667-5e8b-4425-b44a-0681e608d189
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
