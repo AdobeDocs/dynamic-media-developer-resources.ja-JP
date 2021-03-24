@@ -1,16 +1,13 @@
 ---
 description: サムネールの種類 この画像のサムネールの生成方法を説明します。
-seo-description: サムネールの種類 この画像のサムネールの生成方法を説明します。
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: b737b5a4-ad6d-4a9c-b48f-81cf170dd210
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -33,7 +30,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>テクスチャ(3) </p></td> 
-  <td class="stentry"> <p>解像度に基づいて画像を切り抜きます。 画像は、<span class="codeph"> catalog::ThumbRes</span>と<span class="codeph"> catalog::Resolution</span>の比率で拡大縮小されます。 結果の画像がサムネールより大きい場合は切り抜かれ、サイズ調整された画像がサムネールより小さい場合は、残りの領域が<span class="codeph">属性：:ThumbBkgColor</span>で塗りつぶされます。 <span class="codeph"> attribute::</span> ThumbHorizAlignand  <span class="codeph"> attribute::</span> ThumbVertAlignを使用して、大きい画像内の切り抜き長方形の位置、またはサムネール内の小さい画像の位置を決定します。 </p></td> 
+  <td class="stentry"> <p>解像度に基づいて画像を切り抜きます。 画像は、<span class="codeph"> catalog::ThumbRes</span>と<span class="codeph"> catalog::Resolution</span>の比率で拡大縮小されます。 結果の画像がサムネールより大きい場合は切り抜かれ、サイズ調整された画像がサムネールより小さい場合は、残りの領域が<span class="codeph">属性：:ThumbBkgColor</span>で塗りつぶされます。 <span class="codeph"> attribute::</span> ThumbHorizAlignand  <span class="codeph"> </span> attribute::ThumbVertAlignを使用して、大きい画像内の切り抜き長方形の位置、またはサムネール内の小さい画像の位置を決定します。 </p></td> 
  </tr> 
 </table>
 
