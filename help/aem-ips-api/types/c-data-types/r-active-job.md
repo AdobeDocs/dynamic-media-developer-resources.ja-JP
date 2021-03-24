@@ -1,16 +1,13 @@
 ---
 description: サーバー上で実行するジョブ。 また、これはスケジュール済みジョブのインスタンスです。
-seo-description: サーバー上で実行するジョブ。 また、これはスケジュール済みジョブのインスタンスです。
-seo-title: ActiveJob
 solution: Experience Manager
 title: ActiveJob
-uuid: d7120a88-6f3e-4844-aafa-83d419470fad
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
