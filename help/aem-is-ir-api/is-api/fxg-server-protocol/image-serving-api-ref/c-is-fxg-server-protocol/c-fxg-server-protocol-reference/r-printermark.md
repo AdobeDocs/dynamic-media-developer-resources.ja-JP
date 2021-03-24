@@ -1,17 +1,14 @@
 ---
 description: プリンタマークを表示します。 プリンタマークの表示方法を指定します。
-seo-description: プリンタマークを表示します。 プリンタマークの表示方法を指定します。
-seo-title: printerMark
 solution: Experience Manager
 title: printerMark
-uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 28%
+source-wordcount: '123'
+ht-degree: 30%
 
 ---
 
