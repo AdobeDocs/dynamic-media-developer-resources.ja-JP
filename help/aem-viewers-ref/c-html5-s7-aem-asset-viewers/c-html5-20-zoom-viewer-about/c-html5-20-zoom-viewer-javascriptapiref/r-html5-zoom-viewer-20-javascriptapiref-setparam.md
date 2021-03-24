@@ -1,16 +1,13 @@
 ---
 description: ビデオビューアのJavaScript APIリファレンス。
-seo-description: ビデオビューアのJavaScript APIリファレンス。
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: 7688134f-ab85-43ce-9ff8-9965bd33acd0
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '90'
 ht-degree: 2%
 
 ---
