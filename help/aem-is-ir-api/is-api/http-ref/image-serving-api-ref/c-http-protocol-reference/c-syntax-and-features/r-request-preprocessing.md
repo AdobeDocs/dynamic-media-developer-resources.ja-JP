@@ -1,16 +1,13 @@
 ---
 description: 画像サービングは、正規式の一致と置換ルールに基づく単純な要求プリプロセッサを提供します。
-seo-description: 画像サービングは、正規式の一致と置換ルールに基づく単純な要求プリプロセッサを提供します。
-seo-title: 要求の前処理中
 solution: Experience Manager
 title: 要求の前処理中
-uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
