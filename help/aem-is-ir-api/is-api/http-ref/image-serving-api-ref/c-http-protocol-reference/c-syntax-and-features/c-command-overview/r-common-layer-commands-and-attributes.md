@@ -1,17 +1,14 @@
 ---
 description: これらのコマンドは、画像、テキストおよびべた塗りのレイヤーに適用されます。 ほとんどの要素は、合成画像や単純な非レイヤー要求には意味がありません。 これらは、エフェクトレイヤーには適用されません。
-seo-description: これらのコマンドは、画像、テキストおよびべた塗りのレイヤーに適用されます。 ほとんどの要素は、合成画像や単純な非レイヤー要求には意味がありません。 これらは、エフェクトレイヤーには適用されません。
-seo-title: 共通のレイヤコマンド
 solution: Experience Manager
 title: 共通のレイヤコマンド
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 
