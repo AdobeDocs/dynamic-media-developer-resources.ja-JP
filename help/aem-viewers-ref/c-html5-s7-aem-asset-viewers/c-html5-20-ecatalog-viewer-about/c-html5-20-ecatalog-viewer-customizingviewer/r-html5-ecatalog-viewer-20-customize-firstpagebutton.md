@@ -1,16 +1,13 @@
 ---
 description: このボタンをクリックまたはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットでは、メインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-description: このボタンをクリックまたはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットでは、メインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-title: 最初のページボタン
 solution: Experience Manager
 title: 最初のページボタン
-uuid: fd164899-505c-448b-8dba-7581d97d87b6
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
