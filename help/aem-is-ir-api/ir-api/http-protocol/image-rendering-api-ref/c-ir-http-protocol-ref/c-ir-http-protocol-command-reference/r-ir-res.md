@@ -1,16 +1,13 @@
 ---
 description: 材料の解像度 繰り返し可能なテクスチャイメージまたはデカールイメージの解像度を指定します。
-seo-description: 材料の解像度 繰り返し可能なテクスチャイメージまたはデカールイメージの解像度を指定します。
-seo-title: res
 solution: Experience Manager
 title: res
-uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
