@@ -1,17 +1,14 @@
 ---
 description: タグ値の配列が更新されます。
-seo-description: タグ値の配列が更新されます。
-seo-title: TagValueUpdateArray
 solution: Experience Manager
 title: TagValueUpdateArray
-uuid: a151f6b6-1551-4751-a0e7-0da597526eca
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 15%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
