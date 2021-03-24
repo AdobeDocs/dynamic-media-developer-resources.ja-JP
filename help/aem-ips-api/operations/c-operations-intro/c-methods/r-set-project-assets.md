@@ -1,17 +1,14 @@
 ---
 description: プロジェクト内のアセットの割り当てまたは更新を行います。
-seo-description: プロジェクト内のアセットの割り当てまたは更新を行います。
-seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 18%
 
 ---
 
