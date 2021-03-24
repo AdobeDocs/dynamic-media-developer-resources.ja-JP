@@ -1,16 +1,13 @@
 ---
 description: インタラクティブビデオビューアのJavaScript APIリファレンス。
-seo-description: インタラクティブビデオビューアのJavaScript APIリファレンス。
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: e69da809-584c-4311-95c6-3efe9d15ad1f
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '223'
 ht-degree: 1%
 
 ---
