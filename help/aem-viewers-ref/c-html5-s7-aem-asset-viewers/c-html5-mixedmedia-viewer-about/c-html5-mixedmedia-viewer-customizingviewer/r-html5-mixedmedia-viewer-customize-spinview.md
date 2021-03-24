@@ -1,17 +1,14 @@
 ---
 description: 現在のアセットがスピンセットの場合、メイン表示はスピン画像で構成されます。
-seo-description: 現在のアセットがスピンセットの場合、メイン表示はスピン画像で構成されます。
-seo-title: スピン表示
 solution: Experience Manager
 title: スピン表示
-uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
