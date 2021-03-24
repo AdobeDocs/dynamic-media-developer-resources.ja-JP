@@ -1,17 +1,14 @@
 ---
 description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
-seo-description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
-seo-title: FXGサーバープロトコル
 solution: Experience Manager
 title: FXGサーバープロトコル
-uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 83%
+source-wordcount: '277'
+ht-degree: 84%
 
 ---
 
