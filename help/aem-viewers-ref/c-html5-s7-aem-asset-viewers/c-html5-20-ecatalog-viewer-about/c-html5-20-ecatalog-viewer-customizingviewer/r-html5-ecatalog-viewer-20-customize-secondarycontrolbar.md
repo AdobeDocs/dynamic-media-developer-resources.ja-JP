@@ -1,17 +1,14 @@
 ---
 description: セカンダリコントロールバーは、最初と最後のページのボタンと、ページインジケーターがCSSで使用可能になった場合に表示される矩形の領域です。
-seo-description: セカンダリコントロールバーは、最初と最後のページのボタンと、ページインジケーターがCSSで使用可能になった場合に表示される矩形の領域です。
-seo-title: セカンダリコントロールバー
 solution: Experience Manager
 title: セカンダリコントロールバー
-uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
