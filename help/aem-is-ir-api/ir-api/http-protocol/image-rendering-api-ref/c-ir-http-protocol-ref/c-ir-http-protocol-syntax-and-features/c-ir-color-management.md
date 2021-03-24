@@ -1,16 +1,13 @@
 ---
 description: 画像レンダリングは、ICC(International Color Consortium)仕様に準拠したカラースペースプロファイルに基づくカラースペース変換をサポートしています。
-seo-description: 画像レンダリングは、ICC(International Color Consortium)仕様に準拠したカラースペースプロファイルに基づくカラースペース変換をサポートしています。
-seo-title: 画像レンダリングのカラーマネジメント*
 solution: Experience Manager
 title: 画像レンダリングのカラーマネジメント*
-uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
