@@ -1,17 +1,14 @@
 ---
 description: 静的コンテンツデータのルートパス この画像カタログの静的コンテンツデータのルートフォルダーの絶対パスまたは相対パスセグメント。
-seo-description: 静的コンテンツデータのルートパス この画像カタログの静的コンテンツデータのルートフォルダーの絶対パスまたは相対パスセグメント。
-seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
