@@ -1,16 +1,13 @@
 ---
 description: Facebook共有ツールは、ソーシャル共有パネルに追加されるボタンで構成されます。 ボタンをクリックすると、ソーシャルサービスで提供される共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-description: Facebook共有ツールは、ソーシャル共有パネルに追加されるボタンで構成されます。 ボタンをクリックすると、ソーシャルサービスで提供される共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-title: Facebook共有
 solution: Experience Manager
 title: Facebook共有
-uuid: 1b79ad43-7fdf-4046-a225-1f585ff839b6
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
