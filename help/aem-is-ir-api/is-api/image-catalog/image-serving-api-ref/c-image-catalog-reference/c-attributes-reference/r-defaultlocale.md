@@ -1,17 +1,14 @@
 ---
 description: デフォルトのロケールID リクエストでlocale=が指定されていない場合に、ローカライゼーション/変換の目的で使用されるロケールID。
-seo-description: デフォルトのロケールID リクエストでlocale=が指定されていない場合に、ローカライゼーション/変換の目的で使用されるロケールID。
-seo-title: DefaultLocale
 solution: Experience Manager
 title: DefaultLocale
-uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 3%
+source-wordcount: '72'
+ht-degree: 4%
 
 ---
 
