@@ -1,17 +1,14 @@
 ---
 description: ボタンコンテナのスライドアニメーションの方向を指定します。
-seo-description: ボタンコンテナのスライドアニメーションの方向を指定します。
-seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-uuid: c3f415ad-f976-464a-9067-a5d526908352
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
