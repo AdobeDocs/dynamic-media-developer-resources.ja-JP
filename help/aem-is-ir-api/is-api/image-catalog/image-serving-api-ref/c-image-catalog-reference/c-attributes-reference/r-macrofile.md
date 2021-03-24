@@ -1,17 +1,14 @@
 ---
 description: マクロ定義のファイルパス この画像カタログのマクロ定義を含むファイルを指定します。
-seo-description: マクロ定義のファイルパス この画像カタログのマクロ定義を含むファイルを指定します。
-seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
-uuid: a383b00a-47f8-4c1c-9fd0-0701d8f78b18
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
