@@ -5,7 +5,7 @@ title: はじめに
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> item2  </span> </p> </td> 
-  <td class="stentry"> <p>縦棒グラフは、左側に1つの構文項目、または右側に1つの項目を使用できることを示します。 項目を1つだけ選択する必要があります。 </p> </td> 
+  <td class="stentry"> <p>縦棒グラフは、左側に1つの構文項目、または右側に1つの構文項目が使用できることを示します。 項目を1つだけ選択する必要があります。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>{ <span class="varname"> グループ </span> } </p> </td> 
