@@ -1,16 +1,13 @@
 ---
 description: 画像アセットのプロパティ。
-seo-description: 画像アセットのプロパティ。
-seo-title: ImageInfo
 solution: Experience Manager
 title: ImageInfo
-uuid: 89138f10-c80b-49b8-886f-45b0960038b8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
