@@ -1,16 +1,13 @@
 ---
 description: インラインズームビューアのJavaScript APIリファレンス。
-seo-description: インラインズームビューアのJavaScript APIリファレンス。
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: 5bb7aebf-0a1d-4783-923d-7f7e7dcb9baa
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
