@@ -1,16 +1,13 @@
 ---
 description: セミコロンで区切られたパスのリストは、相対ファイルパスを持つすべてのデータファイルのルートとして機能します。
-seo-description: セミコロンで区切られたパスのリストは、相対ファイルパスを持つすべてのデータファイルのルートとして機能します。
-seo-title: リソースルートフォルダー(ir.resourceRootPaths)
 solution: Experience Manager
 title: リソースルートフォルダー(ir.resourceRootPaths)
-uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
