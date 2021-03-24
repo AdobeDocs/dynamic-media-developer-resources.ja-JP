@@ -1,16 +1,13 @@
 ---
 description: データファイルのパス この画像に関連付けられている画像以外のデータファイルの相対パスと名前。
-seo-description: データファイルのパス この画像に関連付けられている画像以外のデータファイルの相対パスと名前。
-seo-title: AuxPath
 solution: Experience Manager
 title: AuxPath
-uuid: 95d28f8d-27ec-480a-a62a-7e5e8fbfb3fb
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
