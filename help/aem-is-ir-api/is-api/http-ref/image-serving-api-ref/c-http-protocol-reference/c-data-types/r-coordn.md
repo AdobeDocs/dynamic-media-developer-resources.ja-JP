@@ -1,16 +1,13 @@
 ---
 description: 正規化座標。 画像のサイズに合わせて標準化された、画像のオフセットや切り抜きパラメータなど、画像内の相対位置を指定するために使用します。
-seo-description: 正規化座標。 画像のサイズに合わせて標準化された、画像のオフセットや切り抜きパラメータなど、画像内の相対位置を指定するために使用します。
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
