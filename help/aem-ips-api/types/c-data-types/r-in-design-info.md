@@ -1,17 +1,14 @@
 ---
 description: InDesignファイルのプロパティ。
-seo-description: InDesignファイルのプロパティ。
-seo-title: InDesignInfo
 solution: Experience Manager
 title: InDesignInfo
-uuid: d734bbe2-0bc4-46f4-b4a0-8c39949e8d46
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 21%
+source-wordcount: '29'
+ht-degree: 24%
 
 ---
 
