@@ -1,16 +1,13 @@
 ---
 description: 画像サービングは、特定のレコードのカタログ画像セットに関連付けられたすべてのリソースとメタデータを表す、階層テキスト応答（xmlまたはjson）を取得するメカニズムを提供します。
-seo-description: 画像サービングは、特定のレコードのカタログ画像セットに関連付けられたすべてのリソースとメタデータを表す、階層テキスト応答（xmlまたはjson）を取得するメカニズムを提供します。
-seo-title: メディアセットの要求
 solution: Experience Manager
 title: メディアセットの要求
-uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
