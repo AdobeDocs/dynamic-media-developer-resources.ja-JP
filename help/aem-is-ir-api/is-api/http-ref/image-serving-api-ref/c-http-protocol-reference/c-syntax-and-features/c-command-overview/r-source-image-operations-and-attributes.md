@@ -1,16 +1,13 @@
 ---
 description: これらのコマンドは、単純な要求または画像レイヤーで使用されるソース画像と、べた塗りのレイヤーにアタッチされるマスクに適用されます。
-seo-description: これらのコマンドは、単純な要求または画像レイヤーで使用されるソース画像と、べた塗りのレイヤーにアタッチされるマスクに適用されます。
-seo-title: ソース画像の操作
 solution: Experience Manager
 title: ソース画像の操作
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
