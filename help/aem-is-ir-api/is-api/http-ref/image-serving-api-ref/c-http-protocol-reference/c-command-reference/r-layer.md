@@ -1,16 +1,13 @@
 ---
 description: '[画層]を選択します。 画層を選択し、コマンドシーケンス内の新しい画層定義セグメントを開始します。'
-seo-description: '[画層]を選択します。 画層を選択し、コマンドシーケンス内の新しい画層定義セグメントを開始します。'
-seo-title: layer
 solution: Experience Manager
 title: layer
-uuid: 882309b3-51d7-477e-bd09-068ce9e55eb5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
