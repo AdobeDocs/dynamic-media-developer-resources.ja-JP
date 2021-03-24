@@ -2,11 +2,10 @@
 description: パス
 solution: Experience Manager
 title: パス
-uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 5%
