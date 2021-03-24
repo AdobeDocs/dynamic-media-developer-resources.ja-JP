@@ -1,17 +1,14 @@
 ---
 description: ユーザーに関する情報を取得します。 要求を承認するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、デフォルトユーザーに関する情報が取得されます。
-seo-description: ユーザーに関する情報を取得します。 要求を承認するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、デフォルトユーザーに関する情報が取得されます。
-seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
