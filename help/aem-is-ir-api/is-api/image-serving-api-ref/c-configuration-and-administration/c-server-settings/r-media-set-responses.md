@@ -1,16 +1,13 @@
 ---
 description: この節の設定は、req=set修飾子で取得されたメディアセット応答に適用されます。
-seo-description: この節の設定は、req=set修飾子で取得されたメディアセット応答に適用されます。
-seo-title: メディアセットの応答
 solution: Experience Manager
 title: メディアセットの応答
-uuid: 9fa6a38a-cd1f-499b-a2b6-e1a9a6c69ed0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
