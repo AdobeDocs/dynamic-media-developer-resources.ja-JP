@@ -1,17 +1,14 @@
 ---
 description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
-seo-description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
-seo-title: xlate
 solution: Experience Manager
 title: xlate
-uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 3%
+source-wordcount: '115'
+ht-degree: 4%
 
 ---
 
