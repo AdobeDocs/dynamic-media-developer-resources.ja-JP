@@ -1,17 +1,14 @@
 ---
 description: メタデータフィールドの配列
-seo-description: メタデータフィールドの配列
-seo-title: MetadataFieldArray
 solution: Experience Manager
 title: MetadataFieldArray
-uuid: f4cec7ce-2254-4e98-8202-9309e7dc3079
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
