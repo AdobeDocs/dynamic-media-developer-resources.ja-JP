@@ -2,11 +2,10 @@
 description: 静的（画像以外の）コンテンツの提供
 solution: Experience Manager
 title: 静的（画像以外の）コンテンツの提供
-uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
