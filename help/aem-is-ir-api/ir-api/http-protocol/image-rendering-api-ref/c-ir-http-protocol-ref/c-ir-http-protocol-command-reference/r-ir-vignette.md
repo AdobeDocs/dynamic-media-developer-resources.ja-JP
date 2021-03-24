@@ -1,16 +1,13 @@
 ---
 description: ビネットファイル この要求に使用するビネットを指定します。
-seo-description: ビネットファイル この要求に使用するビネットを指定します。
-seo-title: ビネット
 solution: Experience Manager
 title: ビネット
-uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '130'
 ht-degree: 4%
 
 ---
