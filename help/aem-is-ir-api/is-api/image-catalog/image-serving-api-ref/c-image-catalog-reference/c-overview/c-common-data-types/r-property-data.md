@@ -1,16 +1,13 @@
 ---
 description: プロパティデータは、1つ以上のプロパティを表すテキスト文字列で構成されます。
-seo-description: プロパティデータは、1つ以上のプロパティを表すテキスト文字列で構成されます。
-seo-title: プロパティデータ
 solution: Experience Manager
 title: プロパティデータ
-uuid: 7fa6ae70-8d70-41d6-9e47-7df3d616874c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
