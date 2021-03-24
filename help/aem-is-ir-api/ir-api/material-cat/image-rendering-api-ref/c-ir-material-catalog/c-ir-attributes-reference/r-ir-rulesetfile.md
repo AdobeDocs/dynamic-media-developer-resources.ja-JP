@@ -1,17 +1,14 @@
 ---
 description: ルールセット定義ファイルのパス。 このマテリアルカタログのルールセット定義を含むファイルを指定します。
-seo-description: ルールセット定義ファイルのパス。 このマテリアルカタログのルールセット定義を含むファイルを指定します。
-seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
-uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
