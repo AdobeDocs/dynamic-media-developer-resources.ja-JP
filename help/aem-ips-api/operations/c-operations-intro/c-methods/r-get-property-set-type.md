@@ -1,17 +1,14 @@
 ---
 description: 会社へのハンドルを使用してプロパティセットの種類とプロパティセットの種類の名前を取得します。 型に対するハンドルとプロパティ型を持つ型構造を取得します。
-seo-description: 会社へのハンドルを使用してプロパティセットの種類とプロパティセットの種類の名前を取得します。 型に対するハンドルとプロパティ型を持つ型構造を取得します。
-seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 9%
+source-wordcount: '160'
+ht-degree: 11%
 
 ---
 
