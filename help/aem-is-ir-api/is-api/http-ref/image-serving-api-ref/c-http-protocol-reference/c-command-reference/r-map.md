@@ -1,16 +1,13 @@
 ---
 description: 画像マップデータ このレイヤーの画像マップデータを提供します。 この画層のカタログマップのデータを上書きします。
-seo-description: 画像マップデータ このレイヤーの画像マップデータを提供します。 この画層のカタログマップのデータを上書きします。
-seo-title: マップ
 solution: Experience Manager
 title: マップ
-uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
