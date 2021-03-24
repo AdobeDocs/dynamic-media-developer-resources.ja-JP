@@ -1,16 +1,13 @@
 ---
 description: 解像度ベースの画像の拡大/縮小 画像を目的の解像度に拡大・縮小します。
-seo-description: 解像度ベースの画像の拡大/縮小 画像を目的の解像度に拡大・縮小します。
-seo-title: res
 solution: Experience Manager
 title: res
-uuid: ab0c8329-5d40-4233-a122-8cb8ca01b500
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
