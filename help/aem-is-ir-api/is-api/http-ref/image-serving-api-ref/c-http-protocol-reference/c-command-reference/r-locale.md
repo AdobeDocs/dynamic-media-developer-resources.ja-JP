@@ -1,17 +1,14 @@
 ---
 description: 変換ロケールID 要求のロケールIDを指定します。
-seo-description: 変換ロケールID 要求のロケールIDを指定します。
-seo-title: ロケール
 solution: Experience Manager
 title: ロケール
-uuid: 82acc0bb-fd94-44c9-8ff9-3b9cefab4627
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 
