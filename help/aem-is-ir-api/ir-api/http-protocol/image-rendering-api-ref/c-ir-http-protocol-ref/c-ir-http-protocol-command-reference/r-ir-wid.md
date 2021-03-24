@@ -5,7 +5,7 @@ title: wid
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-2d067c6d371748e19cb157684700a49d}
 
-リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`または`hei=`の後に`wid=`がある場合は無視されます。
+リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`、または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`または`hei=`の後に`wid=`がある場合は無視されます。
 
 ## 初期設定 {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 
