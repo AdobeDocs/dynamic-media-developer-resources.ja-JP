@@ -1,17 +1,14 @@
 ---
 description: アセットを発行する準備ができているかどうかを指定します。
-seo-description: アセットを発行する準備ができているかどうかを指定します。
-seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 11%
+source-wordcount: '104'
+ht-degree: 12%
 
 ---
 
