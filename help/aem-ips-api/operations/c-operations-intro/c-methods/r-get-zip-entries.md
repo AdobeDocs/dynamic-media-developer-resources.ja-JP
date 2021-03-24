@@ -1,17 +1,14 @@
 ---
 description: Zipファイルのデータを返します。
-seo-description: Zipファイルのデータを返します。
-seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 19%
+source-wordcount: '77'
+ht-degree: 20%
 
 ---
 
