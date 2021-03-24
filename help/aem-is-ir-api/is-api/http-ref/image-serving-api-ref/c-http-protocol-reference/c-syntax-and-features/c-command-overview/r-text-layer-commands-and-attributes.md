@@ -1,17 +1,14 @@
 ---
 description: これらのコマンドは、共通のレイヤーコマンドに加えて、テキストレイヤーにも適用されます。
-seo-description: これらのコマンドは、共通のレイヤーコマンドに加えて、テキストレイヤーにも適用されます。
-seo-title: テキストレイヤーのコマンド
 solution: Experience Manager
 title: テキストレイヤーのコマンド
-uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 1%
 
 ---
 
