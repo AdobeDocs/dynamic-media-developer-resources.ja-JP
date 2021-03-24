@@ -1,16 +1,13 @@
 ---
 description: フィールドメタデータを更新します。
-seo-description: フィールドメタデータを更新します。
-seo-title: updateMetadataField
 solution: Experience Manager
 title: updateMetadataField
-uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '161'
 ht-degree: 12%
 
 ---
