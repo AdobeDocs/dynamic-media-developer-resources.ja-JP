@@ -1,16 +1,13 @@
 ---
 description: RTF文字列で参照されるすべてのフォントは、初期設定のカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
-seo-description: RTF文字列で参照されるすべてのフォントは、初期設定のカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
-seo-title: フォント処理
 solution: Experience Manager
 title: フォント処理
-uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
