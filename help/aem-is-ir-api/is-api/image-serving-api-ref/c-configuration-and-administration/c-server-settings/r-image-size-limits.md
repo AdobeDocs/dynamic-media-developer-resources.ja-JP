@@ -1,16 +1,13 @@
 ---
 description: 画像サイズの制限を設定するには、次のサーバー設定を使用します。
-seo-description: 画像サイズの制限を設定するには、次のサーバー設定を使用します。
-seo-title: 画像サイズの制限
 solution: Experience Manager
 title: 画像サイズの制限
-uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
