@@ -1,17 +1,14 @@
 ---
 description: 静的な（画像以外の）コンテンツカタログでは、次のフィールドがサポートされます。
-seo-description: 静的な（画像以外の）コンテンツカタログでは、次のフィールドがサポートされます。
-seo-title: 静的コンテンツデータ
 solution: Experience Manager
 title: 静的コンテンツデータ
-uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
