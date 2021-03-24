@@ -1,16 +1,13 @@
 ---
 description: インタラクティブビデオビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 例えば、ユーザーインターフェイス要素のツールチップや、ビデオを再生できない場合に表示されるエラーメッセージが表示されます。
-seo-description: インタラクティブビデオビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 例えば、ユーザーインターフェイス要素のツールチップや、ビデオを再生できない場合に表示されるエラーメッセージが表示されます。
-seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
