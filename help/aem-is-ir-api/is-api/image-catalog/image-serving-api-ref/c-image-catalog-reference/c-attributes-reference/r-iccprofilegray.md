@@ -1,17 +1,14 @@
 ---
 description: グレースケールの初期設定の出力カラープロファイル icc=で出力カラースペースが指定されていない場合にグレースケール応答画像に使用するICCカラープロファイルの名前を指定します。また、color=などの各種画像サービングコマンドで指定された特定のグレースケールカラー値も指定します。
-seo-description: グレースケールの初期設定の出力カラープロファイル icc=で出力カラースペースが指定されていない場合にグレースケール応答画像に使用するICCカラープロファイルの名前を指定します。また、color=などの各種画像サービングコマンドで指定された特定のグレースケールカラー値も指定します。
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: a7d40114-f91f-4637-bb49-5b06b9ce846d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
