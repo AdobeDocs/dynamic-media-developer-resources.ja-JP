@@ -1,16 +1,13 @@
 ---
 description: これは、プラットフォームサーバーに対するすべてのHTTP要求を追跡する主要なログです。 画像レンダリングを有効にすると、アクセスログデータが同じファイルに書き込まれます。
-seo-description: これは、プラットフォームサーバーに対するすべてのHTTP要求を追跡する主要なログです。 画像レンダリングを有効にすると、アクセスログデータが同じファイルに書き込まれます。
-seo-title: アクセスログ
 solution: Experience Manager
 title: アクセスログ
-uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
