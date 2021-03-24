@@ -1,16 +1,13 @@
 ---
 description: この節では、画像カタログの機能と構文について説明します。
-seo-description: この節では、画像カタログの機能と構文について説明します。
-seo-title: 画像カタログ
 solution: Experience Manager
 title: 画像カタログ
-uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
