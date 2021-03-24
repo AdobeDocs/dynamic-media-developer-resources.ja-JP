@@ -1,17 +1,14 @@
 ---
 description: 画像アセットの画像データを置換します。
-seo-description: 画像アセットの画像データを置換します。
-seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 14%
+source-wordcount: '112'
+ht-degree: 15%
 
 ---
 
