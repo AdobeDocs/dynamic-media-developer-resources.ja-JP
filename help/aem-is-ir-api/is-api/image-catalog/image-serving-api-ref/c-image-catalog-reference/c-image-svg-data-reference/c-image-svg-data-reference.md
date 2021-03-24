@@ -1,16 +1,13 @@
 ---
 description: 画像とSVGデータは非常に似ていますが、画像カタログ内の別のテーブルに保持されます。
-seo-description: 画像とSVGデータは非常に似ていますが、画像カタログ内の別のテーブルに保持されます。
-seo-title: 画像/SVGデータ参照
 solution: Experience Manager
 title: 画像/SVGデータ参照
-uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
