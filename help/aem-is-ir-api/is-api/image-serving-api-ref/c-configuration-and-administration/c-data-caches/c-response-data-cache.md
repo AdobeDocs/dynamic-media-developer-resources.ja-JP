@@ -1,16 +1,13 @@
 ---
 description: プラットフォームサーバーは、要求がキャッシュ不可とマークされていない限り、すべての返信画像と特定のテキストデータをディスクにキャッシュします。
-seo-description: プラットフォームサーバーは、要求がキャッシュ不可とマークされていない限り、すべての返信画像と特定のテキストデータをディスクにキャッシュします。
-seo-title: 応答データキャッシュ
 solution: Experience Manager
 title: 応答データキャッシュ
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
