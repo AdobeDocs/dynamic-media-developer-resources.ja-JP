@@ -1,16 +1,13 @@
 ---
 description: 画像レイヤー変換の手順2は、サムネールに対して次のように変更します（req=tmbの場合）。
-seo-description: 画像レイヤー変換の手順2は、サムネールに対して次のように変更します（req=tmbの場合）。
-seo-title: サムネールの拡大縮小
 solution: Experience Manager
 title: サムネールの拡大縮小
-uuid: df935d40-84c6-4018-9e41-faef4653ff1f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
