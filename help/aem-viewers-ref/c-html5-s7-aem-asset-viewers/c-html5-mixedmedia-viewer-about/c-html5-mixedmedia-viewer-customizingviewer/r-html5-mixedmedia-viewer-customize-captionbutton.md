@@ -1,16 +1,13 @@
 ---
 description: クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
-seo-description: クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対するサイズ、スキン、および位置を設定できます。
-seo-title: キャプションボタン
 solution: Experience Manager
 title: キャプションボタン
-uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
