@@ -1,17 +1,14 @@
 ---
 description: フォルダーの権限を更新します。
-seo-description: フォルダーの権限を更新します。
-seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 16%
+source-wordcount: '79'
+ht-degree: 17%
 
 ---
 
