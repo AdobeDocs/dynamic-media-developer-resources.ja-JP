@@ -1,16 +1,13 @@
 ---
 description: 遠近法変換 四辺形で指定した領域を塗りつぶすには、レイヤソース画像に遠近法の変換を適用します。 レイヤーのその他の領域は透明のままです。
-seo-description: 遠近法変換 四辺形で指定した領域を塗りつぶすには、レイヤソース画像に遠近法の変換を適用します。 レイヤーのその他の領域は透明のままです。
-seo-title: 視点
 solution: Experience Manager
 title: 視点
-uuid: b22d7b49-db08-48df-80bc-5b7237aea475
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
