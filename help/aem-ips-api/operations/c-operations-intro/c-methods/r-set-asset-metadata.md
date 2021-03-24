@@ -1,17 +1,14 @@
 ---
 description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
-seo-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
-seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
