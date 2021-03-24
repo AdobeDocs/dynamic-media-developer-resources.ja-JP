@@ -1,17 +1,14 @@
 ---
 description: Photoshop画像レイヤーのオプション
-seo-description: Photoshop画像レイヤーのオプション
-seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 9%
 
 ---
 
