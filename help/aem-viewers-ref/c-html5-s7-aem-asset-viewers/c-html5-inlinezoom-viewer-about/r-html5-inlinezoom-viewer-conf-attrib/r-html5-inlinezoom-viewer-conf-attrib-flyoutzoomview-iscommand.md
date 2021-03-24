@@ -2,11 +2,10 @@
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
 title: FlyoutZoomView.iscommand
-uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 6%
