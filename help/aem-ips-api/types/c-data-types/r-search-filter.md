@@ -1,16 +1,13 @@
 ---
 description: 検索をより効率的に行うための検索条件の定義に役立つフィルター。
-seo-description: 検索をより効率的に行うための検索条件の定義に役立つフィルター。
-seo-title: SearchFilter
 solution: Experience Manager
 title: SearchFilter
-uuid: 85a434d3-51a5-4e68-901e-70585c0e8b20
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 2%
 
 ---
