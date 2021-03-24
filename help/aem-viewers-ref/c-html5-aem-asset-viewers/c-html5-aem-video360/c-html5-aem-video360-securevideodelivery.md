@@ -2,11 +2,10 @@
 description: HTTPSビデオ配信
 solution: Experience Manager
 title: HTTPSビデオ配信
-uuid: 68984ba1-2802-496a-8ad0-ba46b59514ad
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
