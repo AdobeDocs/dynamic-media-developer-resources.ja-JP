@@ -1,17 +1,14 @@
 ---
 description: RGB初期設定の出力カラープロファイル icc=で出力カラースペースが指定されていない場合にRGB応答画像に使用するICCカラープロファイルの名前を指定します。また、bgc=やcolor=などの各種の画像レンダリングコマンドで指定された特定のRGBカラー値も指定します。
-seo-description: RGB初期設定の出力カラープロファイル icc=で出力カラースペースが指定されていない場合にRGB応答画像に使用するICCカラープロファイルの名前を指定します。また、bgc=やcolor=などの各種の画像レンダリングコマンドで指定された特定のRGBカラー値も指定します。
-seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-uuid: 0fe63607-c328-468a-aa55-0c4d16cf9f0f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '160'
+ht-degree: 2%
 
 ---
 
