@@ -1,17 +1,14 @@
 ---
 description: バッチアセット操作中に生成される警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
-seo-description: バッチアセット操作中に生成される警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
-seo-title: AssetOperationFault
 solution: Experience Manager
 title: AssetOperationFault
-uuid: fb6c5482-6e16-4561-927b-e4daeb7bdd7b
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
