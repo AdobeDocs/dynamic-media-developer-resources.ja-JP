@@ -1,17 +1,14 @@
 ---
 description: ビデオ360ビューアの設定属性。
-seo-description: ビデオ360ビューアの設定属性。
-seo-title: Video360Player.loop
 solution: Experience Manager
 title: Video360Player.loop
-uuid: 68827542-727a-40b7-b90d-9c8fb3a7e59b
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '41'
+ht-degree: 21%
 
 ---
 
