@@ -1,16 +1,13 @@
 ---
 description: この例では、画像サービングを使用してオブジェクトに色を付け、ビネットのセットの1つにカスタムテキストを含むデカールを適用します。
-seo-description: この例では、画像サービングを使用してオブジェクトに色を付け、ビネットのセットの1つにカスタムテキストを含むデカールを適用します。
-seo-title: 例
 solution: Experience Manager
 title: 例
-uuid: 9f8e4346-6efe-4f21-982d-613328bd708d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '149'
 ht-degree: 1%
 
 ---
