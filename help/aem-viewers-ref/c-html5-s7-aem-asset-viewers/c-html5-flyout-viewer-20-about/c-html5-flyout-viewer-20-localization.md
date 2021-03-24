@@ -1,16 +1,13 @@
 ---
 description: フライアウトビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズーム表示によって表示される情報メッセージなどがあります。
-seo-description: フライアウトビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズーム表示によって表示される情報メッセージなどがあります。
-seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-uuid: efba09ad-200b-4540-8876-c9e462ec233a
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，フライアウト
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
