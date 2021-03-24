@@ -1,16 +1,13 @@
 ---
 description: Dynamic Media画像サービングを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
-seo-description: Dynamic Media画像サービングを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
-seo-title: 必要システム構成と前提条件
 solution: Experience Manager
 title: 必要システム構成と前提条件
-uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
