@@ -1,16 +1,13 @@
 ---
 description: デフォルトの返信画像形式。 返信画像の初期設定の形式を指定します。
-seo-description: デフォルトの返信画像形式。 返信画像の初期設定の形式を指定します。
-seo-title: 形式
 solution: Experience Manager
 title: 形式
-uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '58'
 ht-degree: 10%
 
 ---
