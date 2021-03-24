@@ -1,17 +1,14 @@
 ---
 description: グループを作成または編集します。
-seo-description: グループを作成または編集します。
-seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
-uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 18%
+source-wordcount: '99'
+ht-degree: 19%
 
 ---
 
