@@ -1,16 +1,13 @@
 ---
 description: 画像の不透明度を調整 画像、テキスト、べた塗りまたはエフェクトレイヤーの前景の不透明度を低くできます。
-seo-description: 画像の不透明度を調整 画像、テキスト、べた塗りまたはエフェクトレイヤーの前景の不透明度を低くできます。
-seo-title: opac
 solution: Experience Manager
 title: opac
-uuid: 268279bd-d777-4afe-b175-841af7e55406
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
