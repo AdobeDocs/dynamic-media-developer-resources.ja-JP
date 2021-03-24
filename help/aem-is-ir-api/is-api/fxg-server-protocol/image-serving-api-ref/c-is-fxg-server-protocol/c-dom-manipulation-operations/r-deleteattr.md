@@ -1,16 +1,13 @@
 ---
 description: 特定のs7 elementIDの属性を削除します。
-seo-description: 特定のs7 elementIDの属性を削除します。
-seo-title: deleteAttr
 solution: Experience Manager
 title: deleteAttr
-uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '57'
 ht-degree: 1%
 
 ---
