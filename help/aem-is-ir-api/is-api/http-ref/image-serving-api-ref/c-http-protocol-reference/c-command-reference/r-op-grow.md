@@ -1,16 +1,13 @@
 ---
 description: 画像をディレート/エロードします。 画像データに形態素ディレート（半径> 0）または浸食（半径< 0）を適用します。
-seo-description: 画像をディレート/エロードします。 画像データに形態素ディレート（半径> 0）または浸食（半径< 0）を適用します。
-seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
