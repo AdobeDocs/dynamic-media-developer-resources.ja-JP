@@ -1,16 +1,13 @@
 ---
 description: スピンビューアのJavaScript APIリファレンス。
-seo-description: スピンビューアのJavaScript APIリファレンス。
-seo-title: SpinViewer
 solution: Experience Manager
 title: SpinViewer
-uuid: e9048f17-7a2a-4eae-a5a0-df14f16aebc5
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
