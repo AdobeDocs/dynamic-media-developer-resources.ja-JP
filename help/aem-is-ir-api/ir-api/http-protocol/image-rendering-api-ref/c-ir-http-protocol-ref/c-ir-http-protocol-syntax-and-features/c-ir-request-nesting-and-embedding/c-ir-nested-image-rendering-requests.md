@@ -1,16 +1,13 @@
 ---
 description: 高度なアプリケーションでは、レンダリング操作の結果を、画像サービングから取得した画像と同様に、マテリアル画像として使用できます。
-seo-description: 高度なアプリケーションでは、レンダリング操作の結果を、画像サービングから取得した画像と同様に、マテリアル画像として使用できます。
-seo-title: ネストされた画像レンダリング要求
 solution: Experience Manager
 title: ネストされた画像レンダリング要求
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
