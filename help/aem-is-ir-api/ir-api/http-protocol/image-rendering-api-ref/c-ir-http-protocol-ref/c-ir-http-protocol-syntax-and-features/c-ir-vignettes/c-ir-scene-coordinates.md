@@ -1,17 +1,14 @@
 ---
 description: シーン座標空間は、テクスチャ可能なオブジェクトサーフェス上のサイズと距離を指定するために使用されます。
-seo-description: シーン座標空間は、テクスチャ可能なオブジェクトサーフェス上のサイズと距離を指定するために使用されます。
-seo-title: シーンの座標
 solution: Experience Manager
 title: シーンの座標
-uuid: d1215ba2-9cad-4cf6-a57e-7c1d845b0199
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
