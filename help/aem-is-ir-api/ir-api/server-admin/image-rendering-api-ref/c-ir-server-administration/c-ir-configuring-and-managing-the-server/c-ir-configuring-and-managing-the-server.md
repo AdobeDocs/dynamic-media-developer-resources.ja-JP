@@ -1,16 +1,13 @@
 ---
 description: この節では、Image Rendering Serverの設定と管理に役立つ情報を説明します。
-seo-description: この節では、Image Rendering Serverの設定と管理に役立つ情報を説明します。
-seo-title: サーバーの設定と管理
 solution: Experience Manager
 title: サーバーの設定と管理
-uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
