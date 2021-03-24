@@ -1,16 +1,13 @@
 ---
 description: この節の設定は、SVGレンダリングが必要な場合にのみ考慮する必要があります。
-seo-description: この節の設定は、SVGレンダリングが必要な場合にのみ考慮する必要があります。
-seo-title: SVG
 solution: Experience Manager
 title: SVG
-uuid: 9e69b150-46ac-480f-96db-afadccc40fe4
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
