@@ -1,16 +1,13 @@
 ---
 description: 画像サービングのソースデータファイルには、画像ファイルとマスクファイル、フォント、ICCプロファイルが含まれます。
-seo-description: 画像サービングのソースデータファイルには、画像ファイルとマスクファイル、フォント、ICCプロファイルが含まれます。
-seo-title: ソースデータ
 solution: Experience Manager
 title: ソースデータ
-uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
