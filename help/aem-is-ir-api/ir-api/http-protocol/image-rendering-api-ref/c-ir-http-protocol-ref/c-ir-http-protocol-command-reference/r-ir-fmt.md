@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 4%
 
 `qlt-` は、次の形式のJPEGエンコーディングオプションを設定します。JPEG、TIFF（JPEG圧縮時）、PDF（JPEG圧縮時）およびSWFファイル。`fmt=gif`または`fmt=gif-alpha`の場合は`quantize=`を使用します。 詳細については、コマンドの説明を参照してください。 その他の形式では、設定可能なオプションはありません。
 
-すべての形式およびピクセルタイプに対して、ピクセルあたり8ビットのコンポーネントが返されます。
+すべての形式とピクセルタイプに対して、ピクセルあたり8ビットが返されます。
 
 次の表に、*`format`*&#x200B;と&#x200B;*`pixelType`*&#x200B;の有効な組み合わせ、対応するHTTP応答のMIMEタイプ、ICCプロファイルを埋め込めるかどうか（[iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)を参照）、および適用できる形式固有のオプションコマンドを示します。
 
@@ -199,11 +199,11 @@ ht-degree: 4%
 
 クライアントに送信する返信画像データのエンコード形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。
 
-`png-alpha` は、関連付けられていないアルファを返します（つまり、alphaはピクセル値に事前に乗算を行いません）。一方、 `tif-alpha`は関連付けられたアルファを `swf-alpha` 返します（つまり、アルファ値はアルファ値と事前に乗算されます）。alphaチャネルは、ビネットの背景マスク（`req=img`の場合）の逆に対応し、`req=object`の場合はグループまたはオブジェクトマスクに対応します。 ネストされたIR要求を使用する場合にアルファを適用するには、適切なアルファファイル形式の`fmt=`を埋め込まれたIR要求とメイン要求に追加します。 `icc=`でCMYKまたはグレースケールのICCプロファイルが指定されている場合、アルファデータは返されません。
+`png-alpha` は、関連付けられていないアルファを返します（つまり、alphaはピクセル値に事前に乗算を行いません）。一方、 `tif-alpha`は関連付けられたアルファを `swf-alpha` 返します（つまり、アルファ値はアルファ値と事前に乗算されます）。alphaチャネルは、ビネットの`req=img`の背景マスクの逆に対応し、`req=object`がある場合はグループまたはオブジェクトマスクに対応します。 ネストされたIR要求を使用する場合にアルファを適用するには、適切なアルファファイル形式の`fmt=`を埋め込まれたIR要求とメイン要求に追加します。 `icc=`でCMYKまたはグレースケールのICCプロファイルが指定されている場合、アルファデータは返されません。
 
 ## プロパティ {#section-eb12a82c69d84622bcea153dd84d95b3}
 
-リクエストの任意の場所で発生する可能性があります。
+リクエストのどこでも発生できます。
 
 ## 初期設定 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
