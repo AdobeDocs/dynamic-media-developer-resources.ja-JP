@@ -1,16 +1,13 @@
 ---
 description: 画像変換ユーティリティ。
-seo-description: 画像変換ユーティリティ。
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -257,7 +254,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> （Windowsビットマップ） </p> </td> 
    <td> <p> RGB |インデックス付き </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> 未圧縮 | RLE </p> </td> 
    <td> <p> 5/6ビット/チャネルは、16ビットRGB (5-5-5および5-6-5ビット/チャネル)のサポートを示します。 </p> </td> 
   </tr> 
