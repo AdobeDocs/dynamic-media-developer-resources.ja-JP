@@ -1,17 +1,14 @@
 ---
 description: CMYK初期設定のカラースペース icc=で出力カラースペースが指定されていない場合にグレースケールの応答プロファイルに使用するICCカラー画像の名前を指定します。
-seo-description: CMYK初期設定のカラースペース icc=で出力カラースペースが指定されていない場合にグレースケールの応答プロファイルに使用するICCカラー画像の名前を指定します。
-seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
