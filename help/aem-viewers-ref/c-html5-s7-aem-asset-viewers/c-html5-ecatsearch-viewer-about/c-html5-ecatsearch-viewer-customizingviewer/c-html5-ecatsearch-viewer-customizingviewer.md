@@ -1,17 +1,14 @@
 ---
 description: eCatalog検索ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 keywords: レスポンシブ
-seo-description: eCatalog検索ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-seo-title: eCatalog検索ビューアのカスタマイズ
 solution: Experience Manager
 title: eCatalog検索ビューアのカスタマイズ
-uuid: a715399b-7b02-4656-8257-4c390c6f629c
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -199,13 +196,13 @@ eCatalog検索ビューアに適用されるユーザインターフェイス要
 * [アイコンエフェクト](r-html5-ecatsearch-customize-iconeffect.md)
 * [情報パネルポップアップ](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [画像マップエフェクト](r-html5-ecatsearch-customize-imagemapeffect.md)
-* [次の大きいページボタン](r-html5-ecatsearch-customize-largenextpagebutton.md)
-* [1つ前の大きいページボタン](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
+* [次ページ（大）を表示ボタン](r-html5-ecatsearch-customize-largenextpagebutton.md)
+* [前のページに大きいボタン](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
 * [最後のページボタン](r-html5-ecatsearch-customize-lastpagebutton.md)
 * [リンク共有](r-html5-ecatsearch-customize-linkshare.md)
 * [メインコントロールバー](r-html5-ecatsearch-customize-maincontrolbar.md)
 * [メインビューア領域](r-html5-ecatsearch-customize-mainviewerarea.md)
-* [次のページボタン](r-html5-ecatsearch-customize-nextpagebutton.md)
+* [「次のページ」ボタン](r-html5-ecatsearch-customize-nextpagebutton.md)
 * [ページインジケーター](r-html5-ecatsearch-customize-pageindicator.md)
 * [ページ表示](r-html5-ecatsearch-customize-pageview.md)
 * [前のページボタン](r-html5-ecatsearch-customize-previouspagebutton.md)
@@ -214,14 +211,14 @@ eCatalog検索ビューアに適用されるユーザインターフェイス要
 * [検索ボタン](r-html5-ecatsearch-customize-searchbutton.md)
 * [検索効果](r-html5-ecatsearch-customize-searcheffect.md)
 * [検索結果パネル](r-html5-ecatsearch-customize-searchresultspanel.md)
-* [セカンダリコントロールバー](r-html5-ecatsearch-customize-secondarycontrolbar.md)
+* [第2コントロールバー](r-html5-ecatsearch-customize-secondarycontrolbar.md)
 * [ソーシャルシェア](r-html5-ecatsearch-customize-socialshare.md)
 * [目次](r-html5-ecatsearch-customize-tableofcontents.md)
 * [サムネール](r-html5-ecatsearch-customize-thumbnails.md)
 * [サムネールボタン](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [ツールチップ](r-html5-ecatsearch-customize-tooltips.md)
 * [Twitter共有](r-html5-ecatsearch-customize-twittershare.md)
-* [「すべてのお気に入り」ボタンを表示](r-html5-ecatsearch-customize-viewallfavorites.md)
+* [すべてのお気に入りを表示ボタン](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [ズームインボタン](r-html5-ecatsearch-customize-zoominbutton.md)
 * [ズームアウトボタン](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [ズームリセットボタン](r-html5-ecatsearch-customize-zoomresetbutton.md)
