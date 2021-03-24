@@ -1,16 +1,13 @@
 ---
 description: 要求が正常に完了しなかった場合、サーバーは、エラー画像または200以外のHTTP応答ステータスをエラーメッセージと共に返します。
-seo-description: 要求が正常に完了しなかった場合、サーバーは、エラー画像または200以外のHTTP応答ステータスをエラーメッセージと共に返します。
-seo-title: エラー
 solution: Experience Manager
 title: エラー
-uuid: 5984fa9e-63c8-426b-be5f-48f66fc918c3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
