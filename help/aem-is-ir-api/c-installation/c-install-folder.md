@@ -1,16 +1,13 @@
 ---
 description: 画像サービングのインストールフォルダ(install_folder)は、install_root/ImageServingです。
-seo-description: 画像サービングのインストールフォルダ(install_folder)は、install_root/ImageServingです。
-seo-title: Install folder
 solution: Experience Manager
 title: Install folder
-uuid: 3e3a5077-f165-42e0-806b-c2cc97aa4f9a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
