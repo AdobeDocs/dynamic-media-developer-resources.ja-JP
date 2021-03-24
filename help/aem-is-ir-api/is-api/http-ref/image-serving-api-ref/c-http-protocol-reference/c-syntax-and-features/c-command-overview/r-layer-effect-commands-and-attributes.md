@@ -1,16 +1,13 @@
 ---
 description: これらのコマンドは、ドロップシャドウ効果や光彩効果などのレイヤー効果を定義するために使用できます。 エフェクトレイヤーでは、他のすべてのコマンドは無視されます。
-seo-description: これらのコマンドは、ドロップシャドウ効果や光彩効果などのレイヤー効果を定義するために使用できます。 エフェクトレイヤーでは、他のすべてのコマンドは無視されます。
-seo-title: レイヤー効果コマンド
 solution: Experience Manager
 title: レイヤー効果コマンド
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
