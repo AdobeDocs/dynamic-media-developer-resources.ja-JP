@@ -1,16 +1,13 @@
 ---
 description: Windowsシステムでイメージレンダリングをアンインストールするには、次の手順に従います。
-seo-description: Windowsシステムでイメージレンダリングをアンインストールするには、次の手順に従います。
-seo-title: Windowsでのアンインストール
 solution: Experience Manager
 title: Windowsでのアンインストール
-uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
