@@ -1,16 +1,13 @@
 ---
 description: お気に入りボタンの位置は、お気に入りメニューで完全に管理されます。
-seo-description: お気に入りボタンの位置は、お気に入りメニューで完全に管理されます。
-seo-title: 追加お気に入りボタン
 solution: Experience Manager
 title: 追加お気に入りボタン
-uuid: 0e2f7187-d5a9-42a4-b918-e4782d62be6c
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
