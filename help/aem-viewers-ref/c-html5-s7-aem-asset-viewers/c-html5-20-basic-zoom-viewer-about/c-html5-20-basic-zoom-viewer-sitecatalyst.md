@@ -1,16 +1,13 @@
 ---
 description: 基本ズームビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
-seo-description: 基本ズームビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
-seo-title: Adobe Analyticsトラッキングのサポート
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
 role: 開発者，業者，データエンジニア，データアーキテクト
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
