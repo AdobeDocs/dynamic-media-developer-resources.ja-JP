@@ -1,16 +1,13 @@
 ---
 description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
-seo-description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
-seo-title: 再生/一時停止ボタン
 solution: Experience Manager
 title: 再生/一時停止ボタン
-uuid: a02499da-e2d9-465f-b198-4b2221f3502b
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
