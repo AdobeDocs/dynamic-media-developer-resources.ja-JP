@@ -1,17 +1,14 @@
 ---
 description: テキストフローの除外領域。 テキストフローから除外する1つ以上の領域を指定します。
-seo-description: テキストフローの除外領域。 テキストフローから除外する1つ以上の領域を指定します。
-seo-title: textFlowXPath
 solution: Experience Manager
 title: textFlowXPath
-uuid: ce833ae7-e774-4954-a521-b6247e75f6eb
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 7%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
