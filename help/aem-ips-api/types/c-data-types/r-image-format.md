@@ -1,17 +1,14 @@
 ---
 description: 非構造化名前付き画像出力設定。
-seo-description: 非構造化名前付き画像出力設定。
-seo-title: ImageFormat
 solution: Experience Manager
 title: ImageFormat
-uuid: d3ad7058-781e-4b5b-84b5-7da6bcc77cd8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
