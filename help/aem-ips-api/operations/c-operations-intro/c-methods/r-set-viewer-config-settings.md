@@ -1,17 +1,14 @@
 ---
 description: ビューア設定をアセットに添付します。 ビューアプリセットまたはビューアのソースアセットを指定できます。
-seo-description: ビューア設定をアセットに添付します。 ビューアプリセットまたはビューアのソースアセットを指定できます。
-seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-uuid: d83d866e-9243-479f-9b33-727aad8158e5
 feature: Dynamic Mediaクラシック，SDK/API，ビューアプリセット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 
