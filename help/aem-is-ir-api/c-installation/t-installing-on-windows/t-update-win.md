@@ -1,16 +1,13 @@
 ---
 description: Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-description: Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-title: IS 4.7.4以降からの更新
 solution: Experience Manager
 title: IS 4.7.4以降からの更新
-uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
