@@ -1,14 +1,12 @@
 ---
 title: AdobeDynamic Media開発者リソース
-seo-title: ビューア、画像サービング、Adobeレンダリングおよび画像制作用の画像Dynamic Media開発者リソースガイド
 description: AdobeDynamic Media開発者リソース
-seo-description: ビューア、画像サービング、Adobeレンダリングおよび画像制作用の画像Dynamic Media開発者リソースガイド
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
