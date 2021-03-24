@@ -1,17 +1,14 @@
 ---
 description: 初期設定のレンダリングイメージサイズ リクエストでwid=またはhei=を使用して明示的に表示サイズが指定されていない場合、応答画像はこの幅と高さ以下に制限されます。
-seo-description: 初期設定のレンダリングイメージサイズ リクエストでwid=またはhei=を使用して明示的に表示サイズが指定されていない場合、応答画像はこの幅と高さ以下に制限されます。
-seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-uuid: 27574811-a920-4e54-8635-5a643b8655ef
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 3%
 
 ---
 
