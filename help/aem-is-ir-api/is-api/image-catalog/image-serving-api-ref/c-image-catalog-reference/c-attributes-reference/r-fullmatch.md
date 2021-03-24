@@ -1,16 +1,13 @@
 ---
 description: カタログの一致オプション
-seo-description: カタログの一致オプション
-seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
