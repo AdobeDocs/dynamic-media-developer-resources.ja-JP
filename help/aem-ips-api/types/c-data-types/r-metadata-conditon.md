@@ -1,16 +1,13 @@
 ---
 description: searchAssetsで使用する検索語句を追加します。
-seo-description: searchAssetsで使用する検索語句を追加します。
-seo-title: MetadataCondition
 solution: Experience Manager
 title: MetadataCondition
-uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
