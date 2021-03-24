@@ -1,16 +1,13 @@
 ---
 description: HTTPプロトコルの基本構文は次のとおりです。
-seo-description: HTTPプロトコルの基本構文は次のとおりです。
-seo-title: 画像サービングHTTPプロトコルの基本構文
 solution: Experience Manager
 title: 画像サービングHTTPプロトコルの基本構文
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -47,19 +44,19 @@ HTTPプロトコルの基本構文は次のとおりです。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>コマンドマクロの名前。 </p></td> 
+  <td class="stentry"> <p>コマンドマクロの名前。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> コメント</span> </span> </p></td> 
-  <td class="stentry"> <p>コメント文字列（サーバーでは無視されます）。 </p></td> 
+  <td class="stentry"> <p>コメント文字列（サーバーでは無視されます）。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>サポートされているコマンド名または属性名の1つ。 </p></td> 
+  <td class="stentry"> <p>サポートされているコマンド名または属性名の1つ。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>カスタム変数の名前。 </p></td> 
+  <td class="stentry"> <p>カスタム変数の名前。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ HTTPプロトコルの基本構文は次のとおりです。
 
 ## コメント {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-コメントはリクエスト文字列のどこにでも埋め込むことができ、ピリオド(.)で識別します。 コマンドseparator(&amp;)の直後にあります。 コメントは、（エンコードされていない）コマンドの区切り文字が次に出現するたびに終了します。 この機能は、タイムスタンプ、データベースIDなど、画像サービングで使用されない情報を要求に追加する場合に使用します。
+コメントはリクエスト文字列のどこにでも埋め込むことができ、ピリオド(.)で識別します。 コマンドseparator(&amp;)の直後にあります。 コメントは、（エンコードされていない）コマンドの区切り文字が次に出現するたびに終了します。 この機能を使用して、タイムスタンプやデータベースIDなど、画像サービングで使用されない情報を要求に追加できます。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
