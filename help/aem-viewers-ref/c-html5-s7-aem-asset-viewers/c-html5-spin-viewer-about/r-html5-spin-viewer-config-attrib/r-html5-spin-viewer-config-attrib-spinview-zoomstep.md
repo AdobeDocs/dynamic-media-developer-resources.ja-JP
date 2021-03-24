@@ -2,11 +2,10 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-uuid: f8369636-08e9-4f00-8562-86a2a907b4fa
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 6%
