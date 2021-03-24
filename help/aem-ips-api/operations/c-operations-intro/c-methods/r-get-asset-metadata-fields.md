@@ -1,17 +1,14 @@
 ---
 description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
-seo-description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
-seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 18%
+source-wordcount: '73'
+ht-degree: 20%
 
 ---
 
