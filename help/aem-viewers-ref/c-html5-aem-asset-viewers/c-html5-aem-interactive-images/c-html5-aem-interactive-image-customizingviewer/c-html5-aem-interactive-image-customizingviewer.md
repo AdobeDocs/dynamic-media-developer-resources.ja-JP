@@ -1,17 +1,14 @@
 ---
 description: インタラクティブ画像ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
 keywords: レスポンシブ
-seo-description: インタラクティブ画像ビューアのすべての視覚的なカスタマイズと、ほとんどの動作のカスタマイズは、カスタムCSSを作成することで行います。
-seo-title: インタラクティブ画像ビューアのカスタマイズ
 solution: Experience Manager
 title: インタラクティブ画像ビューアのカスタマイズ
-uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
