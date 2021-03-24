@@ -1,17 +1,14 @@
 ---
 description: インタラクティブビデオビューアの設定属性。
-seo-description: インタラクティブビデオビューアの設定属性。
-seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '94'
+ht-degree: 5%
 
 ---
 
