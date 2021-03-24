@@ -1,16 +1,13 @@
 ---
 description: ISサーバーは、開くことや読み取りが正常に行われないソースイメージを含む要求に対して、代替サーバーにフェイルオーバーするように設定できます。
-seo-description: ISサーバーは、開くことや読み取りが正常に行われないソースイメージを含む要求に対して、代替サーバーにフェイルオーバーするように設定できます。
-seo-title: エラー時にリダイレクト
 solution: Experience Manager
 title: エラー時にリダイレクト
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
