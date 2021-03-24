@@ -1,17 +1,14 @@
 ---
 description: サムネール画像が更新されました。
-seo-description: サムネール画像が更新されました。
-seo-title: ThumbAssetUpdate
 solution: Experience Manager
 title: ThumbAssetUpdate
-uuid: 08330bf7-4d92-4301-afe9-69925747e36a
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
