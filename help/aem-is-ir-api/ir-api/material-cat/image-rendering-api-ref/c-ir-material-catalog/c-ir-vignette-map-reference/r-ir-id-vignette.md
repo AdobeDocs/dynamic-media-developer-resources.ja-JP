@@ -1,16 +1,13 @@
 ---
 description: ビネット識別子。 ビネットマップファイル内のレコードをサーバーが検索するインデックスキー値です。
-seo-description: ビネット識別子。 ビネットマップファイル内のレコードをサーバーが検索するインデックスキー値です。
-seo-title: ID
 solution: Experience Manager
 title: ID
-uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '104'
 ht-degree: 7%
 
 ---
