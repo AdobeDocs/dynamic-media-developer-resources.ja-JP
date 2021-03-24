@@ -1,16 +1,13 @@
 ---
 description: デスクトップシステムでは、ボタンなど一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
-seo-description: デスクトップシステムでは、ボタンなど一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
-seo-title: ツールチップ
 solution: Experience Manager
 title: ツールチップ
-uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
