@@ -1,17 +1,14 @@
 ---
 description: アンシャープマスク layer=compの場合、すべての拡大・縮小の後、レイヤーまたは最終的な表示の画像をアンシャープマスクします。
-seo-description: アンシャープマスク layer=compの場合、すべての拡大・縮小の後、レイヤーまたは最終的な表示の画像をアンシャープマスクします。
-seo-title: op_usmR
 solution: Experience Manager
 title: op_usmR
-uuid: 98afd83c-097e-40b4-b0a6-647f70b95fae
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
