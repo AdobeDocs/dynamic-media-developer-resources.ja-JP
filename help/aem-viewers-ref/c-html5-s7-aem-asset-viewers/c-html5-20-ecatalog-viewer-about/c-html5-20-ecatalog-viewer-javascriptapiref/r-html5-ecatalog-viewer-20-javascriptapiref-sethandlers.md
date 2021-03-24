@@ -1,17 +1,14 @@
 ---
 description: eCatalogビューアのJavaScript APIリファレンス。
-seo-description: eCatalogビューアのJavaScript APIリファレンス。
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 76339422-de2b-4c6c-a7ab-bb9e22f1e881
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 
