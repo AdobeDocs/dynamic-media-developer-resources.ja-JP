@@ -1,17 +1,14 @@
 ---
 description: 画像/メタデータのバージョン 頻繁に変更されるコンテンツを扱う場合、Akamai、ブラウザーキャッシュ、会社のプロキシサーバーキャッシュなどのキャッシュネットワーク内のサーバーには、古い画像サービング応答が格納される場合があります。
-seo-description: 画像/メタデータのバージョン 頻繁に変更されるコンテンツを扱う場合、Akamai、ブラウザーキャッシュ、会社のプロキシサーバーキャッシュなどのキャッシュネットワーク内のサーバーには、古い画像サービング応答が格納される場合があります。
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
