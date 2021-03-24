@@ -1,16 +1,13 @@
 ---
 description: 定義済みリストデータ型です。
-seo-description: 定義済みリストデータ型です。
-seo-title: 列挙
 solution: Experience Manager
 title: 列挙
-uuid: f6c802de-3c78-4c3f-aa9f-bf268c8a3076
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
