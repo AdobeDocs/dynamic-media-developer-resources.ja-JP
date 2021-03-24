@@ -1,16 +1,13 @@
 ---
 description: 合成テンプレート メインカタログ以外のカタログにある合成テンプレートを指定できます。
-seo-description: 合成テンプレート メインカタログ以外のカタログにある合成テンプレートを指定できます。
-seo-title: テンプレート
 solution: Experience Manager
 title: テンプレート
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 6%
 
 # テンプレート{#template}
 
-合成テンプレート メインカタログ以外のカタログにある合成テンプレートを指定できます。
+合成テンプレート メインカタログ以外のカタログ内の合成テンプレートを指定できます。
 
 `template= *`テンプレート`*`
 
@@ -31,7 +28,7 @@ ht-degree: 6%
 
 *`template`* は、テンプレート本体がに含まれる画像カタログエントリである必要があり `catalog::Modifier`ます。
 
-`template=`が存在する場合、要求パスで指定されたオブジェクトはレイヤー0のソースとして適用されませんが、事前定義されたパス変数`$object$`を`src=`値として使用して、テンプレート内のどこでも`src=`または`mask=`として参照できます。 `catalog::Modifier` の値は、常に適用されるのに対し、要求パスで指定されたオブジェクトは、テンプレート `$object$` 内での置き換えに関連し `catalog::PostModifier` てのみ適用されます。
+`template=`が存在する場合、要求パスで指定されたオブジェクトは、レイヤー0のソースとして適用されません。 ただし、事前定義されたパス変数`$object$`を`src=`値として使用することで、テンプレート内の任意の場所で`src=`または`mask=`として参照できます。 `catalog::Modifier` の値は、常に適用されるのに対し、リクエストパスで指定されたオブジェクトは、テンプレート `$object$` 内ののの置き換えでのみ適用 `catalog::PostModifier` されます。
 
 レイヤー0は、テンプレート本体で定義され、画像、べた塗り、テキスト、入れ子または埋め込みの要求レイヤーのいずれかになります。
 
