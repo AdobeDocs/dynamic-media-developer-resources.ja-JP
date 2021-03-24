@@ -1,16 +1,13 @@
 ---
 description: 返信画像の幅。 返信画像の高さが指定値を超えないように、画像の縦横比を維持したまま、レンダリング画像の拡大縮小を指定します。
-seo-description: 返信画像の幅。 返信画像の高さが指定値を超えないように、画像の縦横比を維持したまま、レンダリング画像の拡大縮小を指定します。
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -41,7 +38,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-2d067c6d371748e19cb157684700a49d}
 
-リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`、または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`または`hei=`の後に`wid=`がある場合は無視されます。
+リクエスト内の任意の場所で発生する可能性があります。 `wid=`、`hei=`または`scl=`を使用して画像のサイズを変更しても、応答画像に埋め込まれている印刷解像度の値は変更されません。 コマンドシーケンスで`scl=`または`hei=`の後に`wid=`がある場合は無視されます。
 
 ## 初期設定 {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 
