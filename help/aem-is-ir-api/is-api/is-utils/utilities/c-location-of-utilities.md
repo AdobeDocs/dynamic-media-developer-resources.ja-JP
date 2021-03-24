@@ -1,16 +1,13 @@
 ---
 description: 画像サービングには3つのユーティリティが含まれています。
-seo-description: 画像サービングには3つのユーティリティが含まれています。
-seo-title: ユーティリティの場所
 solution: Experience Manager
 title: ユーティリティの場所
-uuid: e06c4ba1-e00f-464c-a6cf-54dcbabbfb45
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
