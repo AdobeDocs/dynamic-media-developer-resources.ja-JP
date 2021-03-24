@@ -1,17 +1,14 @@
 ---
 description: ジョブログの詳細の配列。
-seo-description: ジョブログの詳細の配列。
-seo-title: JobLogDetailArray
 solution: Experience Manager
 title: JobLogDetailArray
-uuid: 83b499df-2b0c-43a8-986a-6d728e41655f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 16%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
