@@ -1,12 +1,10 @@
 ---
 title: AdobeDynamic Mediaクラシックリリースノート
-seo-title: AdobeDynamic Mediaクラシックリリースノート
 description: AdobeDynamic Mediaクラシックリリースノート
-seo-description: AdobeDynamic Mediaリリースノート
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
