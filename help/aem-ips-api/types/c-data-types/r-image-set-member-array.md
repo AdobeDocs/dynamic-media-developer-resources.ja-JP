@@ -1,17 +1,14 @@
 ---
 description: 画像セットメンバの配列。
-seo-description: 画像セットメンバの配列。
-seo-title: ImageSetMemberArray
 solution: Experience Manager
 title: ImageSetMemberArray
-uuid: 49dec4a7-cffb-4d15-bdac-bb3a60fca0ee
 feature: Dynamic Mediaクラシック，SDK/API，画像セット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
