@@ -1,16 +1,13 @@
 ---
 description: カラー値 色の値は、16進数表記、コンポーネント値のカンマ区切りリストまたは10進数のいずれかを使用して指定できます。
-seo-description: カラー値 色の値は、16進数表記、コンポーネント値のカンマ区切りリストまたは10進数のいずれかを使用して指定できます。
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -39,7 +36,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>パック16進数2桁のグレーカラー値(GG) </p></td> 
+  <td class="stentry"> <p>パック16進数グレーカラー値(GG) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
@@ -47,7 +44,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>パック6桁の16進数RGBカラー値(RRGGBB) </p></td> 
+  <td class="stentry"> <p>パック16進数のRGBカラー値(RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
@@ -55,7 +52,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>アルファ値付き10桁のパック16進CMYK(CCYYMMKKAA) </p> </td> 
+  <td class="stentry"> <p>アルファ値を含む10桁のパック16進数CMYK(CCYYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
