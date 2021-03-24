@@ -1,17 +1,14 @@
 ---
 description: ViewerPresetInfoで使用されます。
-seo-description: ViewerPresetInfoで使用されます。
-seo-title: ビューアの種類
 solution: Experience Manager
 title: ビューアの種類
-uuid: 95b438db-35a8-45cf-8ec0-4a85e8b869c5
 feature: Dynamic Mediaクラシック，SDK/API，ビューア
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 32%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
