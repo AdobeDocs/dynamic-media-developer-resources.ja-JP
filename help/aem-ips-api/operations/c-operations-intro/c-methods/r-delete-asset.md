@@ -1,16 +1,13 @@
 ---
 description: アセットを削除します。
-seo-description: アセットを削除します。
-seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '101'
 ht-degree: 11%
 
 ---
