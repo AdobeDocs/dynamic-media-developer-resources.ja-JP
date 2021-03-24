@@ -1,17 +1,14 @@
 ---
 description: 一意のメタデータフィールド値を取得します。
-seo-description: 一意のメタデータフィールド値を取得します。
-seo-title: getUniqueMetadataValues
 solution: Experience Manager
 title: getUniqueMetadataValues
-uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
