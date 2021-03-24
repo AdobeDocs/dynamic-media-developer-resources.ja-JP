@@ -1,17 +1,14 @@
 ---
 description: マクロ名。 マクロ名は、$を除く任意の英字、数字、安全な文字の組み合わせで構成できます。
-seo-description: マクロ名。 マクロ名は、$を除く任意の英字、数字、安全な文字の組み合わせで構成できます。
-seo-title: 名前
 solution: Experience Manager
 title: 名前
-uuid: 5b81b450-5c3d-4a9e-95dd-6f12b6a9a5ae
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
