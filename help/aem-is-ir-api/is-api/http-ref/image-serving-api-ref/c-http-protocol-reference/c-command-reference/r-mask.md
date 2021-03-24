@@ -1,16 +1,13 @@
 ---
 description: 画像マスク 関連付けられていないマスクとして使用する別のマスク画像を指定します。
-seo-description: 画像マスク 関連付けられていないマスクとして使用する別のマスク画像を指定します。
-seo-title: mask
 solution: Experience Manager
 title: mask
-uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
