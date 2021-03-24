@@ -1,17 +1,14 @@
 ---
 description: 照明マップセレクタ このマテリアルをレンダリングする際に、照明マップの明示的な選択を使用できます。
-seo-description: 照明マップセレクタ このマテリアルをレンダリングする際に、照明マップの明示的な選択を使用できます。
-seo-title: イルム
 solution: Experience Manager
 title: イルム
-uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
