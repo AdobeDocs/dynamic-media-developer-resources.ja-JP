@@ -1,16 +1,13 @@
 ---
 description: メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-description: メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるハイライトのナビゲーション領域、静的な画像の上に表示されるチップメッセージで構成されます。
-seo-title: フライアウトズーム表示
 solution: Experience Manager
 title: フライアウトズーム表示
-uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，フライアウト
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '631'
 ht-degree: 2%
 
 ---
