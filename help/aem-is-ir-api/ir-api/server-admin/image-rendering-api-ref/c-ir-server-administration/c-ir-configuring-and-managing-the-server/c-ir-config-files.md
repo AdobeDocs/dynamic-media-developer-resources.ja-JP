@@ -1,16 +1,13 @@
 ---
 description: 画像レンダリングの設定は、プラットフォームサーバーの設定ファイルに保存されます。
-seo-description: 画像レンダリングの設定は、プラットフォームサーバーの設定ファイルに保存されます。
-seo-title: 設定ファイル
 solution: Experience Manager
 title: 設定ファイル
-uuid: ffd1c65b-e084-4a7e-9a15-600d6c5b173a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
