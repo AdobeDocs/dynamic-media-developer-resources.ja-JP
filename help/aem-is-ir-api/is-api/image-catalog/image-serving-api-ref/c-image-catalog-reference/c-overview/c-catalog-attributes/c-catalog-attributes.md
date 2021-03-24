@@ -1,16 +1,13 @@
 ---
 description: この節で説明する属性は、カタログ属性ファイルで認識されます。
-seo-description: この節で説明する属性は、カタログ属性ファイルで認識されます。
-seo-title: カタログ属性
 solution: Experience Manager
 title: カタログ属性
-uuid: d5b12e71-0a60-4bff-b169-d07171d5d64d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
