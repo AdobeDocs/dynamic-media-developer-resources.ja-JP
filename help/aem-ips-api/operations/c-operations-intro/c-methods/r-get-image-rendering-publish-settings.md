@@ -1,17 +1,14 @@
 ---
 description: 内部でのみ使用します。 詳しくは、「画像レンダリングマテリアルカタログの参照 — カタログ属性」の項を参照してください。
-seo-description: 内部でのみ使用します。 詳しくは、「画像レンダリングマテリアルカタログの参照 — カタログ属性」の項を参照してください。
-seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
