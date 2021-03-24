@@ -1,16 +1,13 @@
 ---
 description: 応答形式としてテキストを指定した場合、返信データはJavaプロパティとして読み取り可能な形式になります。
-seo-description: 応答形式としてテキストを指定した場合、返信データはJavaプロパティとして読み取り可能な形式になります。
-seo-title: テキスト(Java)プロパティ
 solution: Experience Manager
 title: テキスト(Java)プロパティ
-uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
