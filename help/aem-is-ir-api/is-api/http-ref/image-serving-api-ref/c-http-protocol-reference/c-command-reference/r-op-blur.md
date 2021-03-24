@@ -1,16 +1,13 @@
 ---
 description: ぼかし画像。 画像データにぼかしフィルタを適用します。
-seo-description: ぼかし画像。 画像データにぼかしフィルタを適用します。
-seo-title: op_blur
 solution: Experience Manager
 title: op_blur
-uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '102'
 ht-degree: 2%
 
 ---
