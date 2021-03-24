@@ -1,16 +1,13 @@
 ---
 description: 画像サービングには、外部オブジェクトIDをロケール固有のオブジェクト（カタログ）IDに変換するメカニズムが用意されています。 主なアプリケーションは、ロケール固有のコンテンツと、複数のロケールで共有されるコンテンツを提供するためのもので、クライアントアプリケーションはロケール固有のオブジェクトIDを知る必要はありません。
-seo-description: 画像サービングには、外部オブジェクトIDをロケール固有のオブジェクト（カタログ）IDに変換するメカニズムが用意されています。 主なアプリケーションは、ロケール固有のコンテンツと、複数のロケールで共有されるコンテンツを提供するためのもので、クライアントアプリケーションはロケール固有のオブジェクトIDを知る必要はありません。
-seo-title: オブジェクトIDの変換
 solution: Experience Manager
 title: オブジェクトIDの変換
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---
