@@ -1,17 +1,14 @@
 ---
 description: 指定した会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して定義されたアクティブなサーバが1つ以上ある場合、パブリッシュコンテキストはアクティブと見なされます。
-seo-description: 指定した会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して定義されたアクティブなサーバが1つ以上ある場合、パブリッシュコンテキストはアクティブと見なされます。
-seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 10%
 
 ---
 
