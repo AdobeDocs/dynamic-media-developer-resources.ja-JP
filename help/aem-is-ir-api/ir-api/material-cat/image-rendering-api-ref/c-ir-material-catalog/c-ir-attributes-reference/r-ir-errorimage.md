@@ -1,16 +1,13 @@
 ---
 description: エラー応答画像。 画像レンダリングは、通常、エラーが発生した場合に、エラーステータスとテキストメッセージを返します。 attribute ErrorImageを使用すると、エラーが発生した場合にイメージが返されるように設定できます。
-seo-description: エラー応答画像。 画像レンダリングは、通常、エラーが発生した場合に、エラーステータスとテキストメッセージを返します。 attribute ErrorImageを使用すると、エラーが発生した場合にイメージが返されるように設定できます。
-seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
