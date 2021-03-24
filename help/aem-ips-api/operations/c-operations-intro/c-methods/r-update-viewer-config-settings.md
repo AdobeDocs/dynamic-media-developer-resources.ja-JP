@@ -1,17 +1,14 @@
 ---
 description: SWFビューアの設定を更新します。
-seo-description: SWFビューアの設定を更新します。
-seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 feature: Dynamic Mediaクラシック，SDK/API，ビューアプリセット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 12%
+source-wordcount: '68'
+ht-degree: 13%
 
 ---
 
