@@ -1,17 +1,14 @@
 ---
 description: 初期設定の背景色。 返信画像の中で、実際の画像データを含まない領域を埋めるのに使用されるRGB値。
-seo-description: 初期設定の背景色。 返信画像の中で、実際の画像データを含まない領域を埋めるのに使用されるRGB値。
-seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
-uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
