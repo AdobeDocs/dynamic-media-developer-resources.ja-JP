@@ -1,16 +1,13 @@
 ---
 description: Postfixリクエスト修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
-seo-description: Postfixリクエスト修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
-seo-title: PostModifier
 solution: Experience Manager
 title: PostModifier
-uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '135'
 ht-degree: 4%
 
 ---
