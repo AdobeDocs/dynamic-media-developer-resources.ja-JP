@@ -1,16 +1,13 @@
 ---
 description: ページインジケーターには、現在のページのインデックスと合計ページ数が表示されます。 このボタンは、デスクトップシステムおよびタブレットではメインコントロールバーに表示され、携帯電話ではセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用して、サイズ設定、スキン表示および配置できます。
-seo-description: ページインジケーターには、現在のページのインデックスと合計ページ数が表示されます。 このボタンは、デスクトップシステムおよびタブレットではメインコントロールバーに表示され、携帯電話ではセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用して、サイズ設定、スキン表示および配置できます。
-seo-title: ページインジケーター
 solution: Experience Manager
 title: ページインジケーター
-uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
