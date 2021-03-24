@@ -1,16 +1,13 @@
 ---
 description: 設定属性は、レスポンシブ画像ライブラリが管理するIMG要素で直接属性として定義されます。 各画像には、独自の属性セットを設定できます。
-seo-description: 設定属性は、レスポンシブ画像ライブラリが管理するIMG要素で直接属性として定義されます。 各画像には、独自の属性セットを設定できます。
-seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
