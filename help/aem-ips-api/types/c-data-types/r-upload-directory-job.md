@@ -1,16 +1,13 @@
 ---
 description: 指定したサーバーディレクトリからファイルを定期的にアップロードします。
-seo-description: 指定したサーバーディレクトリからファイルを定期的にアップロードします。
-seo-title: UploadDirectoryJob
 solution: Experience Manager
 title: UploadDirectoryJob
-uuid: 6e6ae415-7c54-4bbb-aa98-ff9a77d956b0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
