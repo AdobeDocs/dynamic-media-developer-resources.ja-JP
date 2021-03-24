@@ -1,17 +1,14 @@
 ---
 description: カルーセルビューアの設定属性。
-seo-description: カルーセルビューアの設定属性。
-seo-title: CarouselView.autoplay
 solution: Experience Manager
 title: CarouselView.autoplay
-uuid: 12730b17-110e-405b-97fe-e70fab89c703
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
