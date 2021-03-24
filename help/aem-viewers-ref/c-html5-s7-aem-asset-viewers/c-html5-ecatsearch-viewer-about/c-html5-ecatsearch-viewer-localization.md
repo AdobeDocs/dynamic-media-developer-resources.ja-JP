@@ -1,16 +1,13 @@
 ---
 description: eCatalogビューアに表示されるコンテンツには、ズームボタン、ページ変更ボタン、サムネールボタン、フルスクリーンボタン、閉じるボタン、スクロールバーボタンなど、ローカライゼーションの対象となるものもあります。
-seo-description: eCatalogビューアに表示されるコンテンツには、ズームボタン、ページ変更ボタン、サムネールボタン、フルスクリーンボタン、閉じるボタン、スクロールバーボタンなど、ローカライゼーションの対象となるものもあります。
-seo-title: ユーザーインターフェイス要素のローカライゼーション
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-uuid: 836cb874-2ce6-4737-9c10-f41af003a285
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
