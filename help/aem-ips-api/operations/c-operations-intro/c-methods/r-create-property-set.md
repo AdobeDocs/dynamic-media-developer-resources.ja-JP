@@ -1,17 +1,14 @@
 ---
 description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
-seo-description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 6%
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
