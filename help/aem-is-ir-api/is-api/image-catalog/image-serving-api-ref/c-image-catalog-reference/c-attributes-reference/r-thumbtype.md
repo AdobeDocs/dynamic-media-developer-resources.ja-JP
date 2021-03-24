@@ -1,17 +1,14 @@
 ---
 description: 初期設定のサムネールの種類 特定のカタログレコードに有効なカタログのThumbType値が含まれていない場合に、サムネールの種類の初期設定を指定します。
-seo-description: 初期設定のサムネールの種類 特定のカタログレコードに有効なカタログのThumbType値が含まれていない場合に、サムネールの種類の初期設定を指定します。
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
