@@ -1,16 +1,13 @@
 ---
 description: ビデオビューアの設定属性ドキュメント。
-seo-description: ビデオビューアの設定属性ドキュメント。
-seo-title: コマンドリファレンス — 設定属性
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-uuid: 837cf230-f7dd-4010-a299-c3267d11e200
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
