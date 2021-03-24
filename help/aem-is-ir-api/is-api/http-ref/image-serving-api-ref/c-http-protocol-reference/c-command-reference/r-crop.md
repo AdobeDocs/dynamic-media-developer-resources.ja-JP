@@ -1,16 +1,13 @@
 ---
 description: 画像の切り抜き 長方形の切り抜き領域をピクセル単位で指定するか、最大解像度のソース画像またはマスク画像を基準にして正規化します。
-seo-description: 画像の切り抜き 長方形の切り抜き領域をピクセル単位で指定するか、最大解像度のソース画像またはマスク画像を基準にして正規化します。
-seo-title: 切り抜き
 solution: Experience Manager
 title: 切り抜き
-uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
