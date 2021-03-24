@@ -1,16 +1,13 @@
 ---
 description: マテリアルカタログには、いくつかのフィーチャがオファーされます。
-seo-description: マテリアルカタログには、いくつかのフィーチャがオファーされます。
-seo-title: マテリアルカタログ*
 solution: Experience Manager
 title: マテリアルカタログ*
-uuid: 2a2f371e-0982-47c7-b3da-678a5ff6c7a7
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
