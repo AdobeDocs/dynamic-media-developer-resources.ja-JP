@@ -1,17 +1,14 @@
 ---
 description: 再サンプリングモード 画像データの拡大・縮小に使用する再サンプリングおよび/または補間アルゴリズムを選択します。 また、テキストレイヤーの回転や、表示変換中の合成画像のサイズ変更にも適用されます。
-seo-description: 再サンプリングモード 画像データの拡大・縮小に使用する再サンプリングおよび/または補間アルゴリズムを選択します。 また、テキストレイヤーの回転や、表示変換中の合成画像のサイズ変更にも適用されます。
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 11%
+source-wordcount: '225'
+ht-degree: 12%
 
 ---
 
