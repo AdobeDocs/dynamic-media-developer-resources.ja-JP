@@ -1,17 +1,14 @@
 ---
 description: 複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMove型を使用して実行されます。 各AssetMoveフィールドには、保存先フォルダが含まれています。
-seo-description: 複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMove型を使用して実行されます。 各AssetMoveフィールドには、保存先フォルダが含まれています。
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '218'
+ht-degree: 9%
 
 ---
 
