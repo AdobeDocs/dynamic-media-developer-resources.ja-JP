@@ -1,16 +1,13 @@
 ---
 description: マテリアルカタログは、ビネット、マテリアル、およびICCプロファイルなどのサポートデータに関する情報をサーバに提供します。
-seo-description: マテリアルカタログは、ビネット、マテリアル、およびICCプロファイルなどのサポートデータに関する情報をサーバに提供します。
-seo-title: 材料カタログの概要*
 solution: Experience Manager
 title: 材料カタログの概要*
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
