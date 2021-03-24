@@ -1,17 +1,14 @@
 ---
 description: この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
-seo-description: この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
-seo-title: HTTPプロトコルの構文と機能
 solution: Experience Manager
 title: HTTPプロトコルの構文と機能
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
