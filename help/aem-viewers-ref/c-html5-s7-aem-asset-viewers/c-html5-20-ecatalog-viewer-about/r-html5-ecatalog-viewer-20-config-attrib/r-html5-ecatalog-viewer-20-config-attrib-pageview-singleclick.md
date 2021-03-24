@@ -2,11 +2,10 @@
 description: PageView.singleclick
 solution: Experience Manager
 title: PageView.singleclick
-uuid: 608700d2-5be4-4b96-b026-b12a3ade68ee
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%
