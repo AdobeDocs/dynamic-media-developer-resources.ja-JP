@@ -1,17 +1,14 @@
 ---
 description: プログレッシブJPEGスキャン。 プログレッシブJPEGでは、画像全体がぼやけた低画質の画像で表示されます。 スキャンが続くにつれて、画像のデータが完全にダウンロードされるにつれて、スキャンがより明確になります。 このパラメーターを使用すると、画像全体をスキャンする回数（3、4または5）を設定できます。
-seo-description: プログレッシブJPEGスキャン。 プログレッシブJPEGでは、画像全体がぼやけた低画質の画像で表示されます。 スキャンが続くにつれて、画像のデータが完全にダウンロードされるにつれて、スキャンがより明確になります。 このパラメーターを使用すると、画像全体をスキャンする回数（3、4または5）を設定できます。
-seo-title: pscan
 solution: Experience Manager
 title: pscan
-uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 
