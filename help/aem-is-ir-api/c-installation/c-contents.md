@@ -1,16 +1,13 @@
 ---
 description: インストール後、install_rootのフォルダー階層には、次に示すファイルとフォルダーが含まれます。
-seo-description: インストール後、install_rootのフォルダー階層には、次に示すファイルとフォルダーが含まれます。
-seo-title: 目次
 solution: Experience Manager
 title: 目次
-uuid: 4c92c916-3b6a-4ac8-8d32-121f79da100a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
