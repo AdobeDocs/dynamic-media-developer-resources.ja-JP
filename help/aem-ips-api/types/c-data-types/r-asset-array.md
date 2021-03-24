@@ -1,17 +1,14 @@
 ---
 description: アセットの配列。
-seo-description: アセットの配列。
-seo-title: AssetArray
 solution: Experience Manager
 title: AssetArray
-uuid: ab432380-1266-473a-9214-32e9244e1997
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
