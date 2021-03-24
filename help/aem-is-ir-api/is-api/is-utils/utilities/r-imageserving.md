@@ -1,16 +1,13 @@
 ---
 description: 画像サービング制御スクリプト このスクリプトを使用して、Image Serving Serverスーパーバイザの開始、停止または再起動を行います。これにより、開始、停止または再起動が行われ、他のすべての画像サービングコンポーネントが再起動されます。
-seo-description: 画像サービング制御スクリプト このスクリプトを使用して、Image Serving Serverスーパーバイザの開始、停止または再起動を行います。これにより、開始、停止または再起動が行われ、他のすべての画像サービングコンポーネントが再起動されます。
-seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
-uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
