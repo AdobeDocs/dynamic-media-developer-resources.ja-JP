@@ -1,17 +1,14 @@
 ---
 description: 画像の背景色または透明度に基づいて、画像の切り抜かれた領域を返します。
-seo-description: 画像の背景色または透明度に基づいて、画像の切り抜かれた領域を返します。
-seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '159'
+ht-degree: 14%
 
 ---
 
