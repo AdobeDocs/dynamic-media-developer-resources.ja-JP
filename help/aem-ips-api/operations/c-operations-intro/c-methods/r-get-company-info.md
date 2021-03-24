@@ -1,17 +1,14 @@
 ---
 description: 会社ハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
-seo-description: 会社ハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
-seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 6%
+source-wordcount: '175'
+ht-degree: 8%
 
 ---
 
