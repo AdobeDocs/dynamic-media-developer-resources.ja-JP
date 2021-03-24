@@ -1,17 +1,14 @@
 ---
 description: キャビネットアセットのプロパティ。
-seo-description: キャビネットアセットのプロパティ。
-seo-title: CabinetInfo
 solution: Experience Manager
 title: CabinetInfo
-uuid: 5193f1e1-90d8-4c9a-b50d-a47a8b859992
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
