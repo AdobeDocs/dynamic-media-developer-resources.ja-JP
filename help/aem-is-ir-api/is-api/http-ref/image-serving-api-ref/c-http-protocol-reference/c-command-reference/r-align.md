@@ -1,16 +1,13 @@
 ---
 description: 画像を表示に揃える wid=およびhei=で定義されている表示の長方形内で、合成画像を（拡大/縮小後に、scl=も指定した場合に）揃えます。
-seo-description: 画像を表示に揃える wid=およびhei=で定義されている表示の長方形内で、合成画像を（拡大/縮小後に、scl=も指定した場合に）揃えます。
-seo-title: align
 solution: Experience Manager
 title: align
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
