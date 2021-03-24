@@ -2,11 +2,10 @@
 description: FlyoutZoomView.tip
 solution: Experience Manager
 title: FlyoutZoomView.tip
-uuid: 42bbef39-36b6-4f1d-a228-0aaf107600a9
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 3%
