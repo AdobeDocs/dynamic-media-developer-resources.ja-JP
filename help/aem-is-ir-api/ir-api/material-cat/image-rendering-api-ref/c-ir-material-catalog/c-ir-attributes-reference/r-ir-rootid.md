@@ -1,17 +1,14 @@
 ---
 description: カタログ識別子。 HTTP要求でビネット、マテリアル、またはICCプロファイルオブジェクト指定子の中でこのカタログを識別するために使用されるHTTPパス要素です。
-seo-description: カタログ識別子。 HTTP要求でビネット、マテリアル、またはICCプロファイルオブジェクト指定子の中でこのカタログを識別するために使用されるHTTPパス要素です。
-seo-title: RootId
 solution: Experience Manager
 title: RootId
-uuid: fd726466-6dca-4612-a342-50689ed1469f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
