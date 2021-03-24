@@ -1,16 +1,13 @@
 ---
 description: デフォルトのクライアントキャッシュの有効時間。 特定のカタログレコードに有効なカタログ有効期限の値が含まれていない場合に、デフォルトの有効期限間隔を指定します。
-seo-description: デフォルトのクライアントキャッシュの有効時間。 特定のカタログレコードに有効なカタログ有効期限の値が含まれていない場合に、デフォルトの有効期限間隔を指定します。
-seo-title: 有効期限
 solution: Experience Manager
 title: 有効期限
-uuid: 26b2abee-8bd1-4011-90ff-f5143826ac0d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '126'
 ht-degree: 4%
 
 ---
