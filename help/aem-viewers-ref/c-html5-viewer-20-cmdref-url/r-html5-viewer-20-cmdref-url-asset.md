@@ -1,16 +1,13 @@
 ---
 description: すべてのビューアに共通のパラメータ。
-seo-description: すべてのビューアに共通のパラメータ。
-seo-title: asset
 solution: Experience Manager
 title: asset
-uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
