@@ -1,16 +1,13 @@
 ---
 description: 応答画像のフィットモード 倍率の計算方法を指定します。wid=およびhei=およびscl=を使用して応答サイズを指定した場合に、合成画像を応答画像に合わせて拡大・縮小するために使用されます。
-seo-description: 応答画像のフィットモード 倍率の計算方法を指定します。wid=およびhei=およびscl=を使用して応答サイズを指定した場合に、合成画像を応答画像に合わせて拡大・縮小するために使用されます。
-seo-title: フィット
 solution: Experience Manager
 title: フィット
-uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
