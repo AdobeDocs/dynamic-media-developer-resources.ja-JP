@@ -1,16 +1,13 @@
 ---
 description: カタログのRootIdを除く、すべてのカタログ属性はオプションです。
-seo-description: カタログのRootIdを除く、すべてのカタログ属性はオプションです。
-seo-title: 属性リファレンス
 solution: Experience Manager
 title: 属性リファレンス
-uuid: a1994598-9e51-4c56-9314-c01c9303c175
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
