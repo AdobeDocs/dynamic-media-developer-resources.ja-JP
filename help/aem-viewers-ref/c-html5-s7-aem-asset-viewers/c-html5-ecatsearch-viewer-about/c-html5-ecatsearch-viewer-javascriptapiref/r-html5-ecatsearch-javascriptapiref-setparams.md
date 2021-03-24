@@ -1,16 +1,13 @@
 ---
 description: eCatalogビューアのJavaScript APIリファレンス。
-seo-description: eCatalogビューアのJavaScript APIリファレンス。
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 4929884e-b072-4177-83c3-1f9b4e5df569
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
