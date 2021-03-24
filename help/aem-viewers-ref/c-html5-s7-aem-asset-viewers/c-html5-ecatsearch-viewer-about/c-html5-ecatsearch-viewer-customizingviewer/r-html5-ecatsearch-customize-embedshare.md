@@ -1,16 +1,13 @@
 ---
 description: 埋め込みツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-description: 埋め込みツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-title: 埋め込み共有
 solution: Experience Manager
 title: 埋め込み共有
-uuid: 73d259fe-0978-4f47-95f6-bbfcd3b7bad1
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2651'
+source-wordcount: '2611'
 ht-degree: 2%
 
 ---
