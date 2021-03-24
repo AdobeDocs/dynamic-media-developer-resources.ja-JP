@@ -1,16 +1,13 @@
 ---
 description: レイヤーの背景色 現在のレイヤーの背景色と不透明度を指定します。
-seo-description: レイヤーの背景色 現在のレイヤーの背景色と不透明度を指定します。
-seo-title: bgColor
 solution: Experience Manager
 title: bgColor
-uuid: bcbd368f-d200-4b1f-8e9f-bf4d88f14b72
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '129'
 ht-degree: 4%
 
 ---
