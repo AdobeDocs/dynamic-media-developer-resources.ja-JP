@@ -1,17 +1,14 @@
 ---
 description: ビデオビューアのURLコマンド
-seo-description: ビデオビューアのURLコマンド
-seo-title: ビデオ
 solution: Experience Manager
 title: ビデオ
-uuid: c3304518-e1bb-43d6-801b-a4ce7c0d995d
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 14%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
