@@ -1,17 +1,14 @@
 ---
 description: データキャッシュは設定できます。
-seo-description: データキャッシュは設定できます。
-seo-title: データキャッシュ
 solution: Experience Manager
 title: データキャッシュ
-uuid: e97fad8d-b3b6-4cc2-a96c-62c96824384c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
