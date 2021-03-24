@@ -1,16 +1,13 @@
 ---
 description: このドキュメントでは、Dynamic Mediaイメージレンダリングサーバの管理方法を説明します。
-seo-description: このドキュメントでは、Dynamic Mediaイメージレンダリングサーバの管理方法を説明します。
-seo-title: サーバー管理の概要
 solution: Experience Manager
 title: サーバー管理の概要
-uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
