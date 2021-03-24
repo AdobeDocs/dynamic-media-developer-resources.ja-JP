@@ -1,17 +1,14 @@
 ---
 description: 相対画像URLのルートURL 相対画像URLのルートURLを指定します。 attribute src=値が{波括弧}で囲まれている場合、attribute RootPath属性の代わりにRootUrlが使用されます。
-seo-description: 相対画像URLのルートURL 相対画像URLのルートURLを指定します。 attribute src=値が{波括弧}で囲まれている場合、attribute RootPath属性の代わりにRootUrlが使用されます。
-seo-title: RootUrl *
 solution: Experience Manager
 title: RootUrl *
-uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
