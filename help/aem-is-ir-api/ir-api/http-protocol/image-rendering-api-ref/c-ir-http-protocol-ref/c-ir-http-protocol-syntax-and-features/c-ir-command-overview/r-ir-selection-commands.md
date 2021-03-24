@@ -1,16 +1,13 @@
 ---
 description: これらのコマンドは、ビネットグループ、オブジェクト、グループまたはオブジェクトのサブ領域を選択するために使用します。
-seo-description: これらのコマンドは、ビネットグループ、オブジェクト、グループまたはオブジェクトのサブ領域を選択するために使用します。
-seo-title: 選択コマンド
 solution: Experience Manager
 title: 選択コマンド
-uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
