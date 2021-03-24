@@ -1,16 +1,13 @@
 ---
 description: インタラクティブビデオビューアの設定属性。
-seo-description: インタラクティブビデオビューアの設定属性。
-seo-title: CallToAction.textpos
 solution: Experience Manager
 title: CallToAction.textpos
-uuid: 3592daf7-6222-4c42-b6bb-ab3ef5b8ae70
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
