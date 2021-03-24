@@ -1,17 +1,14 @@
 ---
 description: この節では、画像データの属性について説明します。
-seo-description: この節では、画像データの属性について説明します。
-seo-title: 画像データ参照
 solution: Experience Manager
 title: 画像データ参照
-uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 18%
+source-wordcount: '48'
+ht-degree: 22%
 
 ---
 
