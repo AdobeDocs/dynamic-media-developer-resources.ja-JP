@@ -1,16 +1,13 @@
 ---
 description: マテリアルの色 べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加法色。
-seo-description: マテリアルの色 べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加法色。
-seo-title: カラー
 solution: Experience Manager
 title: カラー
-uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '91'
 ht-degree: 9%
 
 ---
