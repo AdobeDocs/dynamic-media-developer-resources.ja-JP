@@ -1,17 +1,14 @@
 ---
 description: 電子メール共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-description: 電子メール共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-seo-title: 電子メール共有
 solution: Experience Manager
 title: 電子メール共有
-uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '3083'
-ht-degree: 1%
+source-wordcount: '3043'
+ht-degree: 2%
 
 ---
 
