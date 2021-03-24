@@ -1,16 +1,13 @@
 ---
 description: 送信されたジョブの詳細なステータスを取得します。
-seo-description: 送信されたジョブの詳細なステータスを取得します。
-seo-title: batchjobdetaildstatus
 solution: Experience Manager
 title: batchjobdetaildstatus
-uuid: a79302ce-745b-44d8-9cb6-ed8d37530197
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
