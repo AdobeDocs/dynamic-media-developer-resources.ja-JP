@@ -1,16 +1,13 @@
 ---
 description: タグフィールドのタグディクショナリ値を更新します。
-seo-description: タグフィールドのタグディクショナリ値を更新します。
-seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
