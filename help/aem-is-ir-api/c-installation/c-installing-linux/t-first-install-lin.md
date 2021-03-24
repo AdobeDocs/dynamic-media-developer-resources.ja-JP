@@ -1,16 +1,13 @@
 ---
 description: この手順では、Linuxで初めて画像サービングをインストールする方法を示します。
-seo-description: この手順では、Linuxで初めて画像サービングをインストールする方法を示します。
-seo-title: 初めてのインストール
 solution: Experience Manager
 title: 初めてのインストール
-uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
