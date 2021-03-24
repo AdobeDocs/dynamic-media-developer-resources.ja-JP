@@ -1,16 +1,13 @@
 ---
 description: セッションカタログは、要求のセッション属性を提供するマテリアルカタログです。また、すべてのsrc=、vignette=およびicc=コマンドの初期設定のcatId値も提供されます。
-seo-description: セッションカタログは、要求のセッション属性を提供するマテリアルカタログです。また、すべてのsrc=、vignette=およびicc=コマンドの初期設定のcatId値も提供されます。
-seo-title: セッションカタログ
 solution: Experience Manager
 title: セッションカタログ
-uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
