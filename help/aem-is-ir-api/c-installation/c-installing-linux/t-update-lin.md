@@ -1,16 +1,13 @@
 ---
 description: Linux上のDynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-description: Linux上のDynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
-seo-title: IS 4.7.4以降からの更新
 solution: Experience Manager
 title: IS 4.7.4以降からの更新
-uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
