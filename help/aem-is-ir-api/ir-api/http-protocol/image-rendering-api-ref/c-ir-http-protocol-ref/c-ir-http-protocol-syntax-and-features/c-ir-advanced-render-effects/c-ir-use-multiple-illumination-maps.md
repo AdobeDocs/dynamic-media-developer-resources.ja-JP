@@ -1,16 +1,13 @@
 ---
 description: アプリケーションによっては、異なる種類のマテリアルに対して異なる照明マップが必要になる場合があります。
-seo-description: アプリケーションによっては、異なる種類のマテリアルに対して異なる照明マップが必要になる場合があります。
-seo-title: 複数の照明マップの使用
 solution: Experience Manager
 title: 複数の照明マップの使用
-uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
