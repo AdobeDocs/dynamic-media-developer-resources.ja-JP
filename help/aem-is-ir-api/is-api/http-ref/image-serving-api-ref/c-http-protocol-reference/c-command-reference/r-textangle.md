@@ -1,17 +1,14 @@
 ---
 description: テキストのレンダリング方向 textPs=で指定したテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
-seo-description: テキストのレンダリング方向 textPs=で指定したテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
-seo-title: textAngle
 solution: Experience Manager
 title: textAngle
-uuid: ac54c186-1fc5-479a-89f2-ff2da5e7999a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 5%
 
 ---
 
