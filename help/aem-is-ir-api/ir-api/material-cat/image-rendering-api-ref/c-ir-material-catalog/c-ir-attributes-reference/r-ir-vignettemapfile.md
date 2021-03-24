@@ -1,17 +1,14 @@
 ---
 description: ビネットマップデータファイルのパス この画像カタログのビネットマップが含まれているファイルを指定します。
-seo-description: ビネットマップデータファイルのパス この画像カタログのビネットマップが含まれているファイルを指定します。
-seo-title: VignetMapFile
 solution: Experience Manager
 title: VignetMapFile
-uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
