@@ -1,17 +1,14 @@
 ---
 description: メイン表示は、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
-seo-description: メイン表示は、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
-seo-title: ページ表示
 solution: Experience Manager
 title: ページ表示
-uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '391'
+ht-degree: 3%
 
 ---
 
