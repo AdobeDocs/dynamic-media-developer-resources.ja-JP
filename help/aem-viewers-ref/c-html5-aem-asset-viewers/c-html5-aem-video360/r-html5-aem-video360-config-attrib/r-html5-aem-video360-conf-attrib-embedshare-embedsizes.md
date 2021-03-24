@@ -1,17 +1,14 @@
 ---
 description: ビデオ360ビューアの設定属性。
-seo-description: ビデオ360ビューアの設定属性。
-seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
