@@ -1,17 +1,14 @@
 ---
 description: getPhotoshopPath操作で返される画像の位置の座標。
-seo-description: getPhotoshopPath操作で返される画像の位置の座標。
-seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
-uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 15%
+source-wordcount: '79'
+ht-degree: 17%
 
 ---
 
