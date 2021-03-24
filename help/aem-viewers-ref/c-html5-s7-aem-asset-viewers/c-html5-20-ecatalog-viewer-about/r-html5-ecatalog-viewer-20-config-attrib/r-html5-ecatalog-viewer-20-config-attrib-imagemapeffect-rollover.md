@@ -2,11 +2,10 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 5%
