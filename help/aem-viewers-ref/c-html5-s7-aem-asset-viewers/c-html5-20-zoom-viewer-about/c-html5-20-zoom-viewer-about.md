@@ -1,17 +1,14 @@
 ---
 description: ズームビューアは、1つのズーム可能な画像を表示する画像ビューアです。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 このビューアには、ズームツール、フルスクリーンのサポート、スウォッチ、およびオプションの閉じるボタンがあります。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 keywords: レスポンシブ
-seo-description: ズームビューアは、1つのズーム可能な画像を表示する画像ビューアです。 このビューアは画像セットで機能し、スウォッチを使用してナビゲーションを行います。 このビューアには、ズームツール、フルスクリーンのサポート、スウォッチ、およびオプションの閉じるボタンがあります。 デスクトップおよびモバイルデバイスで動作するように設計されています。
-seo-title: ズーム
 solution: Experience Manager
 title: ズーム
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
