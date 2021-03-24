@@ -1,16 +1,13 @@
 ---
 description: $var$参照は、ネストされた画像サービングまたは画像レンダリング要求の中括弧内（「?」の左を含む）で囲まれた任意の場所に含まれます。 をクエリから切り離す。
-seo-description: $var$参照は、ネストされた画像サービングまたは画像レンダリング要求の中括弧内（「?」の左を含む）で囲まれた任意の場所に含まれます。 をクエリから切り離す。
-seo-title: ネストされたリクエストでの変数処理
 solution: Experience Manager
 title: ネストされたリクエストでの変数処理
-uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
