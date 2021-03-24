@@ -1,16 +1,13 @@
 ---
 description: サムネールは、サムネール画像のグリッドと、垂直方向にスクロールできる右側のオプションのスクロールバーで構成されます。
-seo-description: サムネールは、サムネール画像のグリッドと、垂直方向にスクロールできる右側のオプションのスクロールバーで構成されます。
-seo-title: サムネール
 solution: Experience Manager
 title: サムネール
-uuid: 623f6c7a-4ec7-4708-a7ed-1aa42a21e430
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
