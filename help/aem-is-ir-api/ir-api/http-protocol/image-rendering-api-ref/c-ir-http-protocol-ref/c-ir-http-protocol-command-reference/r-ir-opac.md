@@ -1,17 +1,14 @@
 ---
 description: 不透明度. マテリアルの不透明度を指定します。
-seo-description: 不透明度. マテリアルの不透明度を指定します。
-seo-title: opac
 solution: Experience Manager
 title: opac
-uuid: 0f5b11f0-af65-4abd-947e-7a28cb8de263
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
