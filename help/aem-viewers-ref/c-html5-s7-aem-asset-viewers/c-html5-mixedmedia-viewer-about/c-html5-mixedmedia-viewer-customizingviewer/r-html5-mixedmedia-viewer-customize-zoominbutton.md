@@ -1,16 +1,13 @@
 ---
 description: このボタンをクリックまたはタップすると、メイン表示の画像がズームインされます。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-description: このボタンをクリックまたはタップすると、メイン表示の画像がズームインされます。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-title: ズームインボタン
 solution: Experience Manager
 title: ズームインボタン
-uuid: 19f8b5b1-5327-405e-a420-16da53b354ca
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
