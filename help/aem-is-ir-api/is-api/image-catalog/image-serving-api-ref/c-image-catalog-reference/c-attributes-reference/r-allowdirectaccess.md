@@ -1,16 +1,13 @@
 ---
 description: パスベースのアセットへの直接アクセスを許可します。
-seo-description: パスベースのアセットへの直接アクセスを許可します。
-seo-title: AllowDirectAccess
 solution: Experience Manager
 title: AllowDirectAccess
-uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
