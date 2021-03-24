@@ -1,17 +1,14 @@
 ---
 description: アセットから削除するメタデータの配列です。
-seo-description: アセットから削除するメタデータの配列です。
-seo-title: MetadataDeleteArray
 solution: Experience Manager
 title: MetadataDeleteArray
-uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
