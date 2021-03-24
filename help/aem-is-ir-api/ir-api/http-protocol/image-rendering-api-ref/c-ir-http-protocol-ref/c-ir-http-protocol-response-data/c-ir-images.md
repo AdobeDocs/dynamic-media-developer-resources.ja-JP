@@ -1,11 +1,11 @@
 ---
-description: リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=に次の値imgのいずれかが含まれている場合、イメージデータが返されます。debug
+description: リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=に次の値imgのいずれかが含まれている場合は、イメージデータが返されます。
 solution: Experience Manager
 title: 画像
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
