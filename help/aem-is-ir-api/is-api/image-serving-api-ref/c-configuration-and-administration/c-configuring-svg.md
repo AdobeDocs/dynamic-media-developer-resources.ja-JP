@@ -1,16 +1,13 @@
 ---
 description: SvgRenderコンポーネントは、独立したJavaアプリケーションです。
-seo-description: SvgRenderコンポーネントは、独立したJavaアプリケーションです。
-seo-title: SVGの設定
 solution: Experience Manager
 title: SVGの設定
-uuid: f6e131af-283e-4649-b349-123489c0838d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '73'
 ht-degree: 2%
 
 ---
