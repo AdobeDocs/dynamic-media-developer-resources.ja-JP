@@ -1,17 +1,14 @@
 ---
 description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
-seo-description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
-seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 9%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
