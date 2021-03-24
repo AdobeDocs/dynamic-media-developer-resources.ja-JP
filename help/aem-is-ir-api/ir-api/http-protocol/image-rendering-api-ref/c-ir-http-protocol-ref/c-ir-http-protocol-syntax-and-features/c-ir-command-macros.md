@@ -1,16 +1,13 @@
 ---
 description: コマンドマクロは、コマンドのセットに名前付きのショートカットを提供します。
-seo-description: コマンドマクロは、コマンドのセットに名前付きのショートカットを提供します。
-seo-title: コマンドマクロ*
 solution: Experience Manager
 title: コマンドマクロ*
-uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
