@@ -1,16 +1,13 @@
 ---
 description: ビデオ画像ビューアのJavaScript APIリファレンス。
-seo-description: ビデオ画像ビューアのJavaScript APIリファレンス。
-seo-title: 処分する
 solution: Experience Manager
 title: 処分する
-uuid: d9698486-8ffd-4b12-844b-e80b929675ec
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
