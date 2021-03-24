@@ -1,16 +1,13 @@
 ---
 description: このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログを説明します。
-seo-description: このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログを説明します。
-seo-title: はじめに
 solution: Experience Manager
 title: はじめに
-uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -79,7 +76,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> item2  </span> </p> </td> 
-  <td class="stentry"> <p>縦棒グラフは、左側に1つの構文項目、または右側に1つの構文項目が使用できることを示します。 項目を1つだけ選択する必要があります。 </p> </td> 
+  <td class="stentry"> <p>縦棒グラフは、左側に1つの構文項目、または右側に1つの項目を使用できることを示します。 項目を1つだけ選択する必要があります。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>{ <span class="varname"> グループ </span> } </p> </td> 
