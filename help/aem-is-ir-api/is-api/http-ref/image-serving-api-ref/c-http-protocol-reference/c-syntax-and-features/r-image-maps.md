@@ -1,16 +1,13 @@
 ---
 description: ISは、HTML画像マップの使用を簡略化するメカニズムを提供します。 ISのJAVAベースのビューアおよびFlashベースのビューアでも、画像マップのサポートは限定的です。
-seo-description: ISは、HTML画像マップの使用を簡略化するメカニズムを提供します。 ISのJAVAベースのビューアおよびFlashベースのビューアでも、画像マップのサポートは限定的です。
-seo-title: 画像マップ
 solution: Experience Manager
 title: 画像マップ
-uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
