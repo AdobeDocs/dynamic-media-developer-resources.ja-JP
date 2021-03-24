@@ -1,16 +1,13 @@
 ---
 description: 画像アンカー この接触チャネルがテンプレートまたは合成画像のレイヤーとして使用される場合の画像ポイント。
-seo-description: 画像アンカー この接触チャネルがテンプレートまたは合成画像のレイヤーとして使用される場合の画像ポイント。
-seo-title: アンカー
 solution: Experience Manager
 title: アンカー
-uuid: 81069578-8470-4ec0-b755-47b0a8124024
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '119'
 ht-degree: 5%
 
 ---
