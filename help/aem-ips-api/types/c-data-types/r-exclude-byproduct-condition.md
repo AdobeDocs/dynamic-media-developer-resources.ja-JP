@@ -1,17 +1,14 @@
 ---
 description: 検索結果から除外する生成エンジンおよび生成されたアセットタイプを決定します。
-seo-description: 検索結果から除外する生成エンジンおよび生成されたアセットタイプを決定します。
-seo-title: ExcludeByproductCondition
 solution: Experience Manager
 title: ExcludeByproductCondition
-uuid: 70581512-7b26-4319-b12b-27fbb205d871
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
