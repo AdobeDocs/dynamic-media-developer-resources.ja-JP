@@ -1,17 +1,14 @@
 ---
 description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
-seo-description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
-seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 feature: Dynamic Mediaクラシック，SDK/API，ビューアプリセット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 11%
+source-wordcount: '167'
+ht-degree: 13%
 
 ---
 
