@@ -1,16 +1,13 @@
 ---
 description: textPs=は、フォントサイズを自動的に調整してテキスト領域を最適に埋め、オーバーフローを回避しながら下の余分なスペースを最小限に抑える独自のコピーフィッティングアルゴリズムを実装します。
-seo-description: textPs=は、フォントサイズを自動的に調整してテキスト領域を最適に埋め、オーバーフローを回避しながら下の余分なスペースを最小限に抑える独自のコピーフィッティングアルゴリズムを実装します。
-seo-title: 継ぎ手のコピー
 solution: Experience Manager
 title: 継ぎ手のコピー
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
