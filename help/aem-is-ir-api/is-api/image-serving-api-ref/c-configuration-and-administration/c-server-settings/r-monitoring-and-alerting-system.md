@@ -1,16 +1,13 @@
 ---
 description: 監視および警告システムを構成するには、次のサーバー設定を使用します。
-seo-description: 監視および警告システムを構成するには、次のサーバー設定を使用します。
-seo-title: 監視と警告システム
 solution: Experience Manager
 title: 監視と警告システム
-uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
