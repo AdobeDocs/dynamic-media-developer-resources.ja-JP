@@ -1,17 +1,14 @@
 ---
 description: 画像セットを更新します。
-seo-description: 画像セットを更新します。
-seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 feature: Dynamic Mediaクラシック，SDK/API，画像セット
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 17%
+source-wordcount: '87'
+ht-degree: 18%
 
 ---
 
