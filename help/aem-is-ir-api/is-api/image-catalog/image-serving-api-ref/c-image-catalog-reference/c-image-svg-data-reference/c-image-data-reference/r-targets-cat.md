@@ -1,16 +1,13 @@
 ---
 description: ズームターゲットデータ なしまたはそれ以上のズームターゲットのプロパティ。これは、ズームビューアクライアントと組み合わせて使用できます。
-seo-description: ズームターゲットデータ なしまたはそれ以上のズームターゲットのプロパティ。これは、ズームビューアクライアントと組み合わせて使用できます。
-seo-title: ターゲット
 solution: Experience Manager
 title: ターゲット
-uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '334'
 ht-degree: 2%
 
 ---
