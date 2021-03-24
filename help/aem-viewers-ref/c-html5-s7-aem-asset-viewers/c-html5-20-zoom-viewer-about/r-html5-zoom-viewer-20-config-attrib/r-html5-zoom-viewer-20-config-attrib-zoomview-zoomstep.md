@@ -2,11 +2,10 @@
 description: ZoomView.zoomstep
 solution: Experience Manager
 title: ZoomView.zoomstep
-uuid: bc68fc0a-94bf-42b3-a386-e0a248e8445c
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 6%
