@@ -1,16 +1,13 @@
 ---
 description: server.xmlのConnectorタグでは、SSL接続用に選択できる暗号を制限するciphers属性をサポートしています。
-seo-description: server.xmlのConnectorタグでは、SSL接続用に選択できる暗号を制限するciphers属性をサポートしています。
-seo-title: SSL暗号の定義
 solution: Experience Manager
 title: SSL暗号の定義
-uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
