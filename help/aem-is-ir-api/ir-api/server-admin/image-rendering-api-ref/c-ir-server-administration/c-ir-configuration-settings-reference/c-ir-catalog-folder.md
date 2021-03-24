@@ -1,16 +1,13 @@
 ---
 description: マテリアルカタログフォルダの場所（すべてのcatalog.iniファイルが存在する必要がある場所）。
-seo-description: マテリアルカタログフォルダの場所（すべてのcatalog.iniファイルが存在する必要がある場所）。
-seo-title: カタログフォルダ(ir.catalogRootPath)
 solution: Experience Manager
 title: カタログフォルダ(ir.catalogRootPath)
-uuid: d9c9f801-6622-4879-ba08-b381a45632a3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
