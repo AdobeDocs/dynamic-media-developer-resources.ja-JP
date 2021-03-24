@@ -1,16 +1,13 @@
 ---
 description: ビネットコンバータ(vntc)は、画像レンダリングを使用して展開するために、画像オーサリングで作成したコンテンツを準備するために使用するコマンドラインユーティリティです。
-seo-description: ビネットコンバータ(vntc)は、画像レンダリングを使用して展開するために、画像オーサリングで作成したコンテンツを準備するために使用するコマンドラインユーティリティです。
-seo-title: ビネットコンバータ
 solution: Experience Manager
 title: ビネットコンバータ
-uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
