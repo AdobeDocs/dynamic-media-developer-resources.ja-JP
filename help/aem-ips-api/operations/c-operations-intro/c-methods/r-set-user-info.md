@@ -1,17 +1,14 @@
 ---
 description: ユーザー属性（名前、電子メール、役割など）を設定します。
-seo-description: ユーザー属性（名前、電子メール、役割など）を設定します。
-seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 15%
+source-wordcount: '114'
+ht-degree: 16%
 
 ---
 
