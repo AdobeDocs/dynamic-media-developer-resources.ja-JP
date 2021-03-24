@@ -1,17 +1,14 @@
 ---
 description: 重なり合うオブジェクトを非表示 現在の選択範囲内のウィンドウカバリングフレームに適用された、重なり合うオブジェクトまたはウィンドウカバリングをすべて非表示にします。
-seo-description: 重なり合うオブジェクトを非表示 現在の選択範囲内のウィンドウカバリングフレームに適用された、重なり合うオブジェクトまたはウィンドウカバリングをすべて非表示にします。
-seo-title: 非表示
 solution: Experience Manager
 title: 非表示
-uuid: 15c01750-958a-497d-a999-cacf359bb985
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
