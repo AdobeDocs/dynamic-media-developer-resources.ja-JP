@@ -1,16 +1,13 @@
 ---
 description: リクエストのタイプ。 要求されたデータの種類を指定します。
-seo-description: リクエストのタイプ。 要求されたデータの種類を指定します。
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '964'
 ht-degree: 4%
 
 ---
@@ -107,42 +104,42 @@ URLパスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths  </span> </p> </td> 
    <td colname="col2"> <p>ブール値 </p> </td> 
-   <td colname="col3"> <p>ビネットにパスデータが埋め込まれる場合は1。 </p> </td> 
+   <td colname="col3"> <p>1：ビネットによってパスデータが埋め込まれる場合。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.modifier  </span> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Modifier </span> または空（カタログエントリ以外）。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::Modifier </span> またはカタログエントリでない場合は空です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image.pixType  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image.pixTyp  </span> </p> </td> 
    <td colname="col2"> <p>列挙 </p> </td> 
-   <td colname="col3"> <p>応答画像のピクセルタイプ。は、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）になります。 </p> </td> 
+   <td colname="col3"> <p>応答イメージのピクセルタイプ。は、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）のいずれかです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
    <td colname="col2"> <p>実数 </p> </td> 
-   <td colname="col3"> <p>初期設定の印刷解像度(dpi)。 </p> </td> 
+   <td colname="col3"> <p>デフォルトの印刷解像度(dpi)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.timeStamp  </span> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>変更日時（<span class="codeph">カタログ：:TimeStamp </span>またはビネットファイルから） </p> </td> 
+   <td colname="col3"> <p>修正日時（<span class="codeph">カタログ：:TimeStamp </span>またはビネットファイル） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.width  </span> </p> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>最大解像度の幅（ピクセル単位） </p> </td> 
+   <td colname="col3"> <p>フル解像度の幅（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.name  </span> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>ビネット名（ルートビネットオブジェクトの名前文字列） </p> </td> 
+   <td colname="col3"> <p>ビネット名（ルートビネットオブジェクトの名前文字列）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res  </span> </p> </td> 
    <td colname="col2"> <p>実数 </p> </td> 
-   <td colname="col3"> <p><a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local">マテリアル解像度</a>単位での最大オブジェクト解像度（通常はピクセル/インチ） </p> </td> 
+   <td colname="col3"> <p><a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local">マテリアル解像度</a>単位（通常はピクセル/インチ）での最大オブジェクト解像度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res.avg  </span> </p> </td> 
@@ -230,7 +227,7 @@ URLパスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td> <p> <span class="codeph"> image.pixType  </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> 「CMYK」、「RGB」または「BW」（グレースケール画像の場合）の「返信画像の種類」 </p> </td> 
+   <td> <p> 「CMYK」、「RGB」または「BW」（グレースケール画像の場合）のいずれかの返信画像タイプ </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
