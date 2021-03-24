@@ -1,17 +1,14 @@
 ---
 description: リクエストの検証。
-seo-description: リクエストの検証。
-seo-title: 検証
 solution: Experience Manager
 title: 検証
-uuid: 5322c484-2cf5-4022-9863-73fc525beb56
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 5%
+source-wordcount: '109'
+ht-degree: 4%
 
 ---
 
