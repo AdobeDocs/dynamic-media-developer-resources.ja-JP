@@ -1,17 +1,14 @@
 ---
 description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
-seo-description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
-seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
-uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
 feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 7%
+source-wordcount: '136'
+ht-degree: 8%
 
 ---
 
