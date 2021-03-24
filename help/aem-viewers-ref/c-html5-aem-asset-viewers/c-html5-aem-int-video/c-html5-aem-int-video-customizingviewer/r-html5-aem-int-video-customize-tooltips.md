@@ -1,17 +1,14 @@
 ---
 description: デスクトップシステムでは、ボタンなど一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときにツールチップが表示されます。
-seo-description: デスクトップシステムでは、ボタンなど一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときにツールチップが表示されます。
-seo-title: ツールチップ
 solution: Experience Manager
 title: ツールチップ
-uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 2%
+source-wordcount: '148'
+ht-degree: 3%
 
 ---
 
