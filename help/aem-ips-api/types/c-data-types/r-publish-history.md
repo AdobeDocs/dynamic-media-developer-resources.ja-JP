@@ -1,17 +1,14 @@
 ---
 description: アセットのパブリケーション履歴。
-seo-description: アセットのパブリケーション履歴。
-seo-title: PublishHistory
 solution: Experience Manager
 title: PublishHistory
-uuid: 842eafd8-dc41-4df0-96b0-de14357ac495
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
