@@ -1,16 +1,13 @@
 ---
 description: ミュート可能ボリュームコントロールは、最初はボタンとして表示され、ユーザがビデオプレーヤーの音をミュートまたはミュート解除できます。
-seo-description: ミュート可能ボリュームコントロールは、最初はボタンとして表示され、ユーザがビデオプレーヤーの音をミュートまたはミュート解除できます。
-seo-title: ミュート可能ボリューム
 solution: Experience Manager
 title: ミュート可能ボリューム
-uuid: d7eafff8-dd98-42e2-9d45-e291fe372d8c
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
