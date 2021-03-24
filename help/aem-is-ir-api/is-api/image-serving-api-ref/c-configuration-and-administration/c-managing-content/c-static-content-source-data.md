@@ -1,16 +1,13 @@
 ---
 description: 静的コンテンツソースのデータファイルは、プラットフォームサーバーからのみアクセスできます。
-seo-description: 静的コンテンツソースのデータファイルは、プラットフォームサーバーからのみアクセスできます。
-seo-title: 静的コンテンツソースデータ
 solution: Experience Manager
 title: 静的コンテンツソースデータ
-uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
