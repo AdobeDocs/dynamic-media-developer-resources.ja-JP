@@ -1,16 +1,13 @@
 ---
 description: スピンインジケーターは、メイン表示領域に重ねて表示されます。 これは画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によって表示されます。
-seo-description: スピンインジケーターは、メイン表示領域に重ねて表示されます。 これは画像がリセット状態の場合に表示され、iconeffectパラメーターの設定によって表示されます。
-seo-title: アイコンエフェクト
 solution: Experience Manager
 title: アイコンエフェクト
-uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '155'
 ht-degree: 1%
 
 ---
