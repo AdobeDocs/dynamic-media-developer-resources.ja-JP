@@ -1,17 +1,14 @@
 ---
 description: 会社のメタデータフィールドを削除します。
-seo-description: 会社のメタデータフィールドを削除します。
-seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 9%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
 
