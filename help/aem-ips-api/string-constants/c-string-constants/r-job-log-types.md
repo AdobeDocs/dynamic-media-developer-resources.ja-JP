@@ -1,17 +1,14 @@
 ---
 description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
-seo-description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
-seo-title: ジョブログの種類
 solution: Experience Manager
 title: ジョブログの種類
-uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '29'
+ht-degree: 6%
 
 ---
 
