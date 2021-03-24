@@ -1,17 +1,14 @@
 ---
 description: コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。
-seo-description: コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。
-seo-title: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-uuid: 73a2196f-0ece-497a-9a12-376dafbbae56
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
