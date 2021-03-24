@@ -1,16 +1,13 @@
 ---
 description: アドレスフィルター要素。 <rule>要素と<pathrule>要素のオプションです。
-seo-description: アドレスフィルター要素。 <rule>要素と<pathrule>要素のオプションです。
-seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
