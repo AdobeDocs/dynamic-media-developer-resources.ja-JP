@@ -1,16 +1,13 @@
 ---
 description: タイル状のグラウトの色と太さ。 セラミックタイルと天然石タイルのグラウトをシミュレートします。
-seo-description: タイル状のグラウトの色と太さ。 セラミックタイルと天然石タイルのグラウトをシミュレートします。
-seo-title: グラウト
 solution: Experience Manager
 title: グラウト
-uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
