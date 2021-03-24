@@ -1,16 +1,13 @@
 ---
 description: 返信画像の高さ。 返信画像の高さが指定した値を超えないように、画像の縦横比を維持しながら、レンダリング画像の拡大縮小を指定します。
-seo-description: 返信画像の高さ。 返信画像の高さが指定した値を超えないように、画像の縦横比を維持しながら、レンダリング画像の拡大縮小を指定します。
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
