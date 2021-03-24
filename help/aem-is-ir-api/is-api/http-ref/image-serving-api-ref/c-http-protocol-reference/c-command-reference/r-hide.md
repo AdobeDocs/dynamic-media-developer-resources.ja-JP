@@ -1,17 +1,14 @@
 ---
 description: レイヤーを非表示 要求文字列からレイヤーを削除せずに、レイヤーを非表示にできます。
-seo-description: レイヤーを非表示 要求文字列からレイヤーを削除せずに、レイヤーを非表示にできます。
-seo-title: 非表示
 solution: Experience Manager
 title: 非表示
-uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
