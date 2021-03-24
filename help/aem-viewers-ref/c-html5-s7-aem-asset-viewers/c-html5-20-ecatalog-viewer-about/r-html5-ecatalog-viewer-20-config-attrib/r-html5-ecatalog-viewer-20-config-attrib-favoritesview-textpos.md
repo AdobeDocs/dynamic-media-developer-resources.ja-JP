@@ -2,11 +2,10 @@
 description: FavoritesView.textpos
 solution: Experience Manager
 title: FavoritesView.textpos
-uuid: e3e5f0c8-8a20-4e9c-8018-156af2a3ca3b
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
