@@ -1,17 +1,14 @@
 ---
 description: 特定の会社のIPS設定を返します。
-seo-description: 特定の会社のIPS設定を返します。
-seo-title: getCompanySettings
 solution: Experience Manager
 title: getCompanySettings
-uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
 
