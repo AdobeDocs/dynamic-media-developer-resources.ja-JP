@@ -1,16 +1,13 @@
 ---
 description: 正規式パターン要素。 <rule>要素のオプションです。
-seo-description: 正規式パターン要素。 <rule>要素のオプションです。
-seo-title: 式
 solution: Experience Manager
 title: 式
-uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
