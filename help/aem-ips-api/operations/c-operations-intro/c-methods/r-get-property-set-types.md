@@ -1,17 +1,14 @@
 ---
 description: 指定した会社に関連付けられたプロパティセットの種類を取得します。会社が指定されていない場合は、グローバルプロパティセットの種類を取得します。
-seo-description: 指定した会社に関連付けられたプロパティセットの種類を取得します。会社が指定されていない場合は、グローバルプロパティセットの種類を取得します。
-seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 10%
+source-wordcount: '120'
+ht-degree: 12%
 
 ---
 
