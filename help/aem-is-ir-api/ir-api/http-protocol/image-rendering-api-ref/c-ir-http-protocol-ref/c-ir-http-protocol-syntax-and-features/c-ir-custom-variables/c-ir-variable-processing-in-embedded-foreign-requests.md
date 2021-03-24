@@ -1,16 +1,13 @@
 ---
 description: $var$では、埋め込まれた外部要求の中括弧内にある参照は、対応する変数定義値に置き換えられます。
-seo-description: $var$では、埋め込まれた外部要求の中括弧内にある参照は、対応する変数定義値に置き換えられます。
-seo-title: 埋め込まれた外部要求での変数処理
 solution: Experience Manager
 title: 埋め込まれた外部要求での変数処理
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
