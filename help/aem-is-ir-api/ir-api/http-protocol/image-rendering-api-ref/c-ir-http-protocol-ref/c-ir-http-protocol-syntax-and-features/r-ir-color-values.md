@@ -1,17 +1,14 @@
 ---
 description: color=およびbgc=属性のカラー値は、HTMLと同様に、10進数、カンマ区切りのコンポーネント値、または16進数表記を使用して指定できます。
-seo-description: color=およびbgc=属性のカラー値は、HTMLと同様に、10進数、カンマ区切りのコンポーネント値、または16進数表記を使用して指定できます。
-seo-title: カラー値
 solution: Experience Manager
 title: カラー値
-uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '127'
+ht-degree: 11%
 
 ---
 
