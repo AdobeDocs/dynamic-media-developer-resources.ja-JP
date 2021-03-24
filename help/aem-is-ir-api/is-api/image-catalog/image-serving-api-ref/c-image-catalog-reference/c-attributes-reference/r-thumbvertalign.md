@@ -1,17 +1,14 @@
 ---
 description: サムネールの垂直方向の配置。 wid=とhei=で指定した返信画像の長方形または属性DefaultThumbPixで指定した返信画像の中のサムネール画像の垂直方向の位置を指定します。
-seo-description: サムネールの垂直方向の配置。 wid=とhei=で指定した返信画像の長方形または属性DefaultThumbPixで指定した返信画像の中のサムネール画像の垂直方向の位置を指定します。
-seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
