@@ -1,17 +1,14 @@
 ---
 description: テクスチャ繰り返しモード 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
-seo-description: テクスチャ繰り返しモード 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
-seo-title: リピート
 solution: Experience Manager
 title: リピート
-uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 15%
+source-wordcount: '162'
+ht-degree: 16%
 
 ---
 
