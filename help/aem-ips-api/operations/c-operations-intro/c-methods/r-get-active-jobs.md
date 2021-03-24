@@ -1,17 +1,14 @@
 ---
 description: 現在アクティブなジョブをすべて取得します。
-seo-description: 現在アクティブなジョブをすべて取得します。
-seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 14%
+source-wordcount: '108'
+ht-degree: 15%
 
 ---
 
