@@ -1,17 +1,14 @@
 ---
 description: フォルダーの配列。
-seo-description: フォルダーの配列。
-seo-title: FolderArray
 solution: Experience Manager
 title: FolderArray
-uuid: 4dd51d7c-6198-4c69-a2ae-c533fd8baae9
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
