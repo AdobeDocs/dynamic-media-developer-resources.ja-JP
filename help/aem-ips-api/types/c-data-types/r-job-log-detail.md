@@ -1,17 +1,14 @@
 ---
 description: ジョブログ情報。
-seo-description: ジョブログ情報。
-seo-title: JobLogDetail
 solution: Experience Manager
 title: JobLogDetail
-uuid: cb1879d7-a554-4ff0-bba0-0758c43f2a99
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
