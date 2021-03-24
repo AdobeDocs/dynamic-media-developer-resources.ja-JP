@@ -1,17 +1,14 @@
 ---
 description: ICCプロファイルマップのファイルパス この画像カタログのICCプロファイルマップを含むファイルを指定します。
-seo-description: ICCプロファイルマップのファイルパス この画像カタログのICCプロファイルマップを含むファイルを指定します。
-seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-uuid: da7e6b02-8fe6-4045-b4c5-b46d7bdd6ee2
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
