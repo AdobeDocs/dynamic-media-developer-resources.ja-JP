@@ -1,17 +1,14 @@
 ---
 description: フルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。
-seo-description: フルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。
-seo-title: ビデオフルスクリーンボタン
 solution: Experience Manager
 title: ビデオフルスクリーンボタン
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
