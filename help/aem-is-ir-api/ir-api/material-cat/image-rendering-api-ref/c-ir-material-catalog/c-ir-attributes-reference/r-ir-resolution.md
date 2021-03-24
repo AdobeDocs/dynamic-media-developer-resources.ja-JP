@@ -1,16 +1,13 @@
 ---
 description: 初期設定の解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合にデフォルトの解像度を指定します。
-seo-description: 初期設定の解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合にデフォルトの解像度を指定します。
-seo-title: 解像度
 solution: Experience Manager
 title: 解像度
-uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
