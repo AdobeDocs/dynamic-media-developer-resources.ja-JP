@@ -1,16 +1,13 @@
 ---
 description: レイヤーの色 べた塗りレイヤーとエフェクトレイヤーの前景色と不透明度、およびテキストレイヤーのテキストボックスの塗りのカラーを指定します。
-seo-description: レイヤーの色 べた塗りレイヤーとエフェクトレイヤーの前景色と不透明度、およびテキストレイヤーのテキストボックスの塗りのカラーを指定します。
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
