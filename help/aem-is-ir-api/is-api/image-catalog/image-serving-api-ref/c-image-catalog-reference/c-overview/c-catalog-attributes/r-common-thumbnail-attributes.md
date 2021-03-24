@@ -1,16 +1,13 @@
 ---
 description: カタログ属性ファイルでは、これらの共通のサムネール属性が認識されます。
-seo-description: カタログ属性ファイルでは、これらの共通のサムネール属性が認識されます。
-seo-title: 共通のサムネール属性
 solution: Experience Manager
 title: 共通のサムネール属性
-uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
