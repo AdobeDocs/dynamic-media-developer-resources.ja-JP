@@ -1,16 +1,13 @@
 ---
 description: レイヤークリップパス 現在のレイヤのクリップパスを指定します。
-seo-description: レイヤークリップパス 現在のレイヤのクリップパスを指定します。
-seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -101,7 +98,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-大文字のコマンドは、座標値が（レイヤーの長方形の左上を基準にした）絶対ピクセル位置にあることを示します。 ピクセルオフセットは、現在の位置を基準とする小文字のコマンドに従います。
+大文字のコマンドは、座標値が（レイヤーの長方形の左上を基準にした）絶対ピクセル位置にあることを示します。 ピクセルオフセットは、現在の位置に対する小文字のコマンドに従います。
 
 &#39;m&#39;または&#39;M&#39;は常に新しいサブパスを開始します。 「Z」または「z」が終点で指定されていない場合、サブパスは自動的に（直線で）閉じられます。
 
