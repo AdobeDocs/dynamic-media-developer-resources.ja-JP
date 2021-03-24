@@ -1,17 +1,14 @@
 ---
 description: インタラクティブビデオビューアの設定属性。
-seo-description: インタラクティブビデオビューアの設定属性。
-seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
