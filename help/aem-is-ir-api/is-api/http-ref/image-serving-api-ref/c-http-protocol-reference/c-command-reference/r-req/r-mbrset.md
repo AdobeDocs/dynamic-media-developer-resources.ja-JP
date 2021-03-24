@@ -1,16 +1,13 @@
 ---
 description: マルチビットレートデータ。
-seo-description: マルチビットレートデータ。
-seo-title: mbrSet
 solution: Experience Manager
 title: mbrSet
-uuid: 829c44ce-c66a-49a9-ba69-9e8e94ef8921
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
