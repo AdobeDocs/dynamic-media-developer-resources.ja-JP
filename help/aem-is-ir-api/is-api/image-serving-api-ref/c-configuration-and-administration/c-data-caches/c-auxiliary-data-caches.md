@@ -1,16 +1,13 @@
 ---
 description: ネスト/埋め込みの画像サービング要求と画像レンダリング要求で生成される中間画像データは、ネスト/埋め込みの要求でcache=onを指定することでキャッシュできます。 このデータは、応答データキャッシュ内の独自の形式で保存されます。
-seo-description: ネスト/埋め込みの画像サービング要求と画像レンダリング要求で生成される中間画像データは、ネスト/埋め込みの要求でcache=onを指定することでキャッシュできます。 このデータは、応答データキャッシュ内の独自の形式で保存されます。
-seo-title: 補助的なデータキャッシュ
 solution: Experience Manager
 title: 補助的なデータキャッシュ
-uuid: 10ce998e-e300-4d24-9d92-a8693dade327
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
