@@ -1,16 +1,13 @@
 ---
 description: メイン表示領域は、フライアウト表示とスウォッチが表示される領域です。
-seo-description: メイン表示領域は、フライアウト表示とスウォッチが表示される領域です。
-seo-title: メインビューア領域
 solution: Experience Manager
 title: メインビューア領域
-uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
