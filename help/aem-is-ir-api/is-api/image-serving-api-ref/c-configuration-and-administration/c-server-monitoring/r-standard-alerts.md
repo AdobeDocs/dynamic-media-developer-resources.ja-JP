@@ -1,16 +1,13 @@
 ---
 description: 標準アラートは、設定された平均化間隔の終わりに、統合された電子メールメッセージと共に送信されます。
-seo-description: 標準アラートは、設定された平均化間隔の終わりに、統合された電子メールメッセージと共に送信されます。
-seo-title: 標準アラート
 solution: Experience Manager
 title: 標準アラート
-uuid: d3294434-a44b-4742-9d77-a6945760d33c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
