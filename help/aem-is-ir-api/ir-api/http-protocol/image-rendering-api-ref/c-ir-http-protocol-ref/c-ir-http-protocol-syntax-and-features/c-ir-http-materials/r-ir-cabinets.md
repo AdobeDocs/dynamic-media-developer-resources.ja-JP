@@ -1,16 +1,13 @@
 ---
 description: キャビネットマテリアルは、キャビネットスタイルのファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義、およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
-seo-description: キャビネットマテリアルは、キャビネットスタイルのファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義、およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
-seo-title: キャビネット
 solution: Experience Manager
 title: キャビネット
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
