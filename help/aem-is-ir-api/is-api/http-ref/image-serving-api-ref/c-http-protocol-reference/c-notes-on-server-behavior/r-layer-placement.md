@@ -1,16 +1,13 @@
 ---
 description: レイヤーは、レイヤー接触チャネル(接触チャネル=)と背景レイヤー接触チャネルを、pos=で指定したオフセットで整列して配置されます。
-seo-description: レイヤーは、レイヤー接触チャネル(接触チャネル=)と背景レイヤー接触チャネルを、pos=で指定したオフセットで整列して配置されます。
-seo-title: レイヤーの配置
 solution: Experience Manager
 title: レイヤーの配置
-uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
