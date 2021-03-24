@@ -1,16 +1,13 @@
 ---
 description: 混在メディアビューアのJavaScript APIリファレンス。
-seo-description: 混在メディアビューアのJavaScript APIリファレンス。
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 2477ec80-f627-48da-a66d-a86f17d7cc7d
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
