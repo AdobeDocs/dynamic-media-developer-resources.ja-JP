@@ -2,11 +2,10 @@
 description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-uuid: 28663f44-11cb-4522-bd12-d6bec17b4173
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
