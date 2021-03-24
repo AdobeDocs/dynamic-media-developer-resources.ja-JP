@@ -1,17 +1,14 @@
 ---
 description: 誘い文句（CTA：コールトゥアクション）パネルは、ビデオが終了すると表示され、特定のビデオに関連付けられたすべてのインタラクティブスウォッチが表示されます。
-seo-description: 誘い文句（CTA：コールトゥアクション）パネルは、ビデオが終了すると表示され、特定のビデオに関連付けられたすべてのインタラクティブスウォッチが表示されます。
-seo-title: 誘い文句（CTA、コールトゥアクション）
 solution: Experience Manager
 title: 誘い文句（CTA、コールトゥアクション）
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 3%
+source-wordcount: '1286'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +25,7 @@ ht-degree: 3%
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-以下に示すCSSクラスセレクターで、誘い文句(CSS)パネルの背景色の外観を制御します。
+以下に示すCSSクラスセレクターで、誘い文句（CTA：コールトゥアクション）パネルの背景色の外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction
