@@ -2,11 +2,10 @@
 description: PermissionSetArray
 solution: Experience Manager
 title: PermissionSetArray
-uuid: aec7f307-7d1d-4d56-a1e5-55f82983c8c8
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '20'
 ht-degree: 30%
