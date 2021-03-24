@@ -1,17 +1,14 @@
 ---
 description: レイヤーを反転 切り抜き=を適用した後、回転=と延長=を適用した後に、レイヤーを水平方向、垂直方向または両方向に反転します。
-seo-description: レイヤーを反転 切り抜き=を適用した後、回転=と延長=を適用した後に、レイヤーを水平方向、垂直方向または両方向に反転します。
-seo-title: 反転
 solution: Experience Manager
 title: 反転
-uuid: d28631f3-2198-4ba3-ab4b-578832db926e
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
