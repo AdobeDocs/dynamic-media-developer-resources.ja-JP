@@ -1,16 +1,13 @@
 ---
 description: カタログデータファイルには、任意の名前とファイルのサフィックスを付けることができます（.iniを除く）。
-seo-description: カタログデータファイルには、任意の名前とファイルのサフィックスを付けることができます（.iniを除く）。
-seo-title: カタログデータファイル
 solution: Experience Manager
 title: カタログデータファイル
-uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
