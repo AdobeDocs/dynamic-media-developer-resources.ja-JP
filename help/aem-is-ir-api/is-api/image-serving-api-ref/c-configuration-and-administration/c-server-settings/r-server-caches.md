@@ -1,16 +1,13 @@
 ---
 description: サーバーキャッシュには、次のサーバー設定を使用します。
-seo-description: サーバーキャッシュには、次のサーバー設定を使用します。
-seo-title: サーバーキャッシュ
 solution: Experience Manager
 title: サーバーキャッシュ
-uuid: 73745363-2011-453f-b7a0-96de4b44186d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、管理者、実業家
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
