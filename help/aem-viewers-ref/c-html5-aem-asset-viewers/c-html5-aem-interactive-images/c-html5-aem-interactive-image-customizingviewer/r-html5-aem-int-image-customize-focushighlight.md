@@ -1,17 +1,14 @@
 ---
 description: フォーカスされたビューアのUI要素の周りに表示される入力フォーカスハイライトは、CSSクラスセレクターを使用して制御します。
-seo-description: フォーカスされたビューアのUI要素の周りに表示される入力フォーカスハイライトは、CSSクラスセレクターを使用して制御します。
-seo-title: フォーカスハイライト
 solution: Experience Manager
 title: フォーカスハイライト
-uuid: 56600f9c-c51e-40a4-93b6-a43902ef5ff1
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 1%
 
 ---
 
