@@ -1,16 +1,13 @@
 ---
 description: エラー応答画像。 画像サービングは、通常、エラーが発生した場合に、テキストメッセージと共にエラーステータスを返します。
-seo-description: エラー応答画像。 画像サービングは、通常、エラーが発生した場合に、テキストメッセージと共にエラーステータスを返します。
-seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
