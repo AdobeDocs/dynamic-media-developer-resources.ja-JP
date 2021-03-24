@@ -1,16 +1,13 @@
 ---
 description: 返信画像形式。 クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。
-seo-description: 返信画像形式。 クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。
-seo-title: fmt
 solution: Experience Manager
 title: fmt
-uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '584'
 ht-degree: 4%
 
 ---
