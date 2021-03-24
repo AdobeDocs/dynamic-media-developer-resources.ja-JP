@@ -1,17 +1,14 @@
 ---
 description: タスク項目に関する情報の配列です。
-seo-description: タスク項目に関する情報の配列です。
-seo-title: TaskItemProgressArray
 solution: Experience Manager
 title: TaskItemProgressArray
-uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 11%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
