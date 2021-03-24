@@ -1,16 +1,13 @@
 ---
 description: このボタンをクリックまたはタップすると、そのボタンを含むWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-description: このボタンをクリックまたはタップすると、そのボタンを含むWebページが閉じます。 このボタンは、closebuttonパラメーターが1に設定されている場合にのみ表示されます。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
-seo-title: 閉じるボタン
 solution: Experience Manager
 title: 閉じるボタン
-uuid: d30e1bdf-31a9-463f-99f7-a978acb50ebc
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '239'
 ht-degree: 2%
 
 ---
