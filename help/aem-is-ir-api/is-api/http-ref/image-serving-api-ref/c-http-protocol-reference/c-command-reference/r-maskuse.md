@@ -1,16 +1,13 @@
 ---
 description: 画像マスクの使用 画像のマスクまたはアルファチャネルを画像の操作に使用する方法（例えば、colorize=）を指定します。 エフェクトレイヤーで指定した場合は、親レイヤーの背景領域または親レイヤーの長方形全体にエフェクトを適用できます。
-seo-description: 画像マスクの使用 画像のマスクまたはアルファチャネルを画像の操作に使用する方法（例えば、colorize=）を指定します。 エフェクトレイヤーで指定した場合は、親レイヤーの背景領域または親レイヤーの長方形全体にエフェクトを適用できます。
-seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-uuid: 2c70da87-f869-495a-be50-226a4516e002
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
