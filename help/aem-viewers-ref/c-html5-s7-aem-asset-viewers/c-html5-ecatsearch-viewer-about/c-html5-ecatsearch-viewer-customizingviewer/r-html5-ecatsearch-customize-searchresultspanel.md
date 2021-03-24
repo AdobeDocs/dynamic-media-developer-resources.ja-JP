@@ -1,16 +1,13 @@
 ---
 description: 検索結果パネルは、上部の検索入力ボックスと、情報メッセージまたは検索結果が表示されるメイン領域で構成されます。
-seo-description: 検索結果パネルは、上部の検索入力ボックスと、情報メッセージまたは検索結果が表示されるメイン領域で構成されます。
-seo-title: 検索結果パネル
 solution: Experience Manager
 title: 検索結果パネル
-uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '935'
 ht-degree: 1%
 
 ---
