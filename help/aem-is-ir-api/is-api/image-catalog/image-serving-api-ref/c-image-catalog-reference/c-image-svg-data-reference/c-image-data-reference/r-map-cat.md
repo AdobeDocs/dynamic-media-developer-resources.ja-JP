@@ -1,16 +1,13 @@
 ---
 description: 画像マップデータ。 完全なHTML <AREA>要素が1つもないかそれ以上なく、前から後ろに並べ替えられます。
-seo-description: 画像マップデータ。 完全なHTML <AREA>要素が1つもないかそれ以上なく、前から後ろに並べ替えられます。
-seo-title: マップ
 solution: Experience Manager
 title: マップ
-uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
