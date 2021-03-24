@@ -1,17 +1,14 @@
 ---
 description: searchAssetsParam/sortDirectionおよびgetJobLogsParam/sortDirectionで使用されます。
-seo-description: searchAssetsParam/sortDirectionおよびgetJobLogsParam/sortDirectionで使用されます。
-seo-title: 並べ替え方向
 solution: Experience Manager
 title: 並べ替え方向
-uuid: 9ff9d2f6-d41e-466e-a208-a30de04d3433
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
