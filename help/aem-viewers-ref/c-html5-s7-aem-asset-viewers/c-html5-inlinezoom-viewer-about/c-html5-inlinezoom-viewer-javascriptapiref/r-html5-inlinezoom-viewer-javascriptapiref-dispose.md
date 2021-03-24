@@ -1,16 +1,13 @@
 ---
 description: インラインズームビューアのJavaScript APIリファレンス。
-seo-description: インラインズームビューアのJavaScript APIリファレンス。
-seo-title: 処分する
 solution: Experience Manager
 title: 処分する
-uuid: 020c1477-3188-4962-b8f2-7b640475ed84
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インラインズーム
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
