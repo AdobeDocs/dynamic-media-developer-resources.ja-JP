@@ -1,16 +1,13 @@
 ---
 description: 初期設定のサムネール解像度 特定のカタログレコードに有効なカタログThumbRes値が含まれていない場合に、サムネールオブジェクトの解像度の初期設定を指定します。
-seo-description: 初期設定のサムネール解像度 特定のカタログレコードに有効なカタログThumbRes値が含まれていない場合に、サムネールオブジェクトの解像度の初期設定を指定します。
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
