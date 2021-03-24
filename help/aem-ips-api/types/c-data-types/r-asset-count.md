@@ -1,17 +1,14 @@
 ---
 description: 会社のアセットタイプと数。
-seo-description: 会社のアセットタイプと数。
-seo-title: AssetCount
 solution: Experience Manager
 title: AssetCount
-uuid: 15b745fb-203a-4301-b1ea-8e12ea7450e8
 feature: Dynamic Mediaクラシック，SDK/API，アセット管理
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 7%
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
