@@ -1,16 +1,13 @@
 ---
 description: マスクファイルのパス このカタログレコードに関連付けられているマスク画像ファイルの相対パスまたは絶対パスと名前。
-seo-description: マスクファイルのパス このカタログレコードに関連付けられているマスク画像ファイルの相対パスまたは絶対パスと名前。
-seo-title: MaskPath
 solution: Experience Manager
 title: MaskPath
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
