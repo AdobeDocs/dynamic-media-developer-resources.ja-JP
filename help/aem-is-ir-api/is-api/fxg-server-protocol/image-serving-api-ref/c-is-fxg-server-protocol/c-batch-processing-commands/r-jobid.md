@@ -1,16 +1,13 @@
 ---
 description: バッチジョブのジョブID。
-seo-description: バッチジョブのジョブID。
-seo-title: jobid
 solution: Experience Manager
 title: jobid
-uuid: 4e04d9ca-4c5c-476a-8293-fedf09de5f70
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
