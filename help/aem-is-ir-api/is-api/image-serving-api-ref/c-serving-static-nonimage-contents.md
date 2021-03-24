@@ -1,16 +1,13 @@
 ---
 description: 画像サービングを使用して、カタログ内の画像以外のコンテンツを管理し、個別の/is/contentコンテキストを介して提供できます。
-seo-description: 画像サービングを使用して、カタログ内の画像以外のコンテンツを管理し、個別の/is/contentコンテキストを介して提供できます。
-seo-title: 静的な（画像以外の）コンテンツの提供
 solution: Experience Manager
 title: 静的な（画像以外の）コンテンツの提供
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
