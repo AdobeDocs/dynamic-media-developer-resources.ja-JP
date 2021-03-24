@@ -1,17 +1,14 @@
 ---
 description: 色変換ディザリング。 icc=で明示的な選択が行われない場合に、ディザリングを使用して、色の変換の知覚的な品質を向上させるかどうかを指定します。
-seo-description: 色変換ディザリング。 icc=で明示的な選択が行われない場合に、ディザリングを使用して、色の変換の知覚的な品質を向上させるかどうかを指定します。
-seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
