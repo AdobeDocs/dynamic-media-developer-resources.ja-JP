@@ -1,20 +1,20 @@
 ---
-cloud: experience-cloud
-user-guide-title: Dynamic Mediaビューアリファレンスガイド
+cloud: Experience Cloud
+user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
-user-guide-description: デスクトップおよびタッチスクリーンデバイスで使用するDynamic MediaのViewerをカスタマイズします。 インタラクティブな画像やビデオ、カルーセル、スピンセットなどを含めます。
+user-guide-description: デスクトップおよびタッチスクリーンデバイスで使用するために Dynamic Media ビューアをカスタマイズします。インタラクティブ画像およびビデオ、カルーセル、スピンセットなどを含めます。
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1913'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
-# Dynamic Mediaビューアリファレンスガイド{#library}
+# Dynamic Media ビューアリファレンスガイド  {#library}
 
-+ [Dynamic Mediaビューアリファレンスガイド](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
++ [Dynamic Media ビューアリファレンスガイド](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバでの複数のビューアのインストール](t-installing-the-viewers.md)
