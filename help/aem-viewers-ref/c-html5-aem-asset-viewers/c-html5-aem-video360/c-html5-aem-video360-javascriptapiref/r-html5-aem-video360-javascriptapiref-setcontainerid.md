@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setContainerId
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 3%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -43,4 +43,3 @@ ht-degree: 3%
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
