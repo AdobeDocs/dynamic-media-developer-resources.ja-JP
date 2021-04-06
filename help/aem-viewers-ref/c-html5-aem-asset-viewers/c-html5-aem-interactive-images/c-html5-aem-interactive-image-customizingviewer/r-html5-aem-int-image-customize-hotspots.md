@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ホットスポット
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
+exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
 
 ---
-
 
 # ホットスポット{#hotspots}
 
@@ -66,4 +66,3 @@ ht-degree: 2%
  background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.png); 
 }
 ```
-
