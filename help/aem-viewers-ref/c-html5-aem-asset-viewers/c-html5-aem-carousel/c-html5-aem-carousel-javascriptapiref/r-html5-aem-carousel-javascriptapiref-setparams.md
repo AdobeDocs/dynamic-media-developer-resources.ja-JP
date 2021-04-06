@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setParams
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 2%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -45,4 +45,3 @@ ht-degree: 2%
 ```
 <instance>.setParams("CarouselView.fmt=png&CarouselView.iscommand=op_sharpen%3d1")
 ```
-
