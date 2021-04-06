@@ -4,14 +4,14 @@ solution: Experience Manager
 title: リンク共有
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 2%
 
 ---
-
 
 # リンク共有{#link-share}
 
