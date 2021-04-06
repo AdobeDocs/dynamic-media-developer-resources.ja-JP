@@ -4,14 +4,14 @@ solution: Experience Manager
 title: callToActionRecap
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: a91c957f-5ad2-4022-afde-de129b060576
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 11%
 
 ---
-
 
 # callToActionRecap{#calltoactionrecap}
 
@@ -41,4 +41,3 @@ ht-degree: 11%
 ```
 callToActionRecap=0
 ```
-
