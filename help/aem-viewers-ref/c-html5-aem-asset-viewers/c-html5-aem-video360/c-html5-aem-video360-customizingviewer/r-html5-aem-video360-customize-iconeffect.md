@@ -4,14 +4,14 @@ solution: Experience Manager
 title: アイコンエフェクト
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
 
 ---
-
 
 # アイコンエフェクト{#icon-effect}
 
@@ -63,4 +63,3 @@ background-image: url(images/playIcon.png);
 background-image: url(images/replayIcon.png); 
 }
 ```
-
