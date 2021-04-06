@@ -4,14 +4,14 @@ solution: Experience Manager
 title: CarouselView.fmt
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: a43ca095-2a59-4a0c-a460-f465cbd4ed5f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 4%
 
 ---
-
 
 # CarouselView.fmt{#carouselview-fmt}
 
