@@ -4,14 +4,14 @@ solution: Experience Manager
 title: SetIndicator.autohide
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 5%
 
 ---
-
 
 # SetIndicator.autohide{#setindicator-autohide}
 
