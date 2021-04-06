@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setParams
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
+exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -45,4 +45,3 @@ ht-degree: 2%
 ```
 <instance>.setParams("ZoomView.fmt=png&ZoomView.iscommand=op_sharpen%3d1")
 ```
-
