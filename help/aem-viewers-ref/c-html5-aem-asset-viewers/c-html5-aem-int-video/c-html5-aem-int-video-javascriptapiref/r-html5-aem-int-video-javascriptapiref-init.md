@@ -4,14 +4,14 @@ solution: Experience Manager
 title: init
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 5fcc7dcd-a9a8-4a87-9c8d-42717ced8ae9
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -38,4 +38,3 @@ ht-degree: 2%
 ```
 <instance>.init()
 ```
-
