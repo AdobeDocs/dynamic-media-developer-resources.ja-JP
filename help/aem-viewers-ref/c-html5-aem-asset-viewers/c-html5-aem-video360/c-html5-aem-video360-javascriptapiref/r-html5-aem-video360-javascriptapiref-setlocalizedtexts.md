@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setLocalizedTexts
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: b0434886-defa-47d4-9853-bfd73c64d036
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
 
 ---
-
 
 # setLocalizedTexts{#setlocalizedtexts}
 
@@ -41,4 +41,3 @@ ht-degree: 2%
 ```
 <instance>.setLocalizedTexts({"en":{"Video360Player.ERROR":"Your Browser does not support HTML5 Video tag or the video cannot be played."},"fr":{"Video360Player.ERROR":"Votre navigateur ne prend pas en charge la vidéo HTML5 tag ou la vidéo ne peuvent pas être lus."},defaultLocale:"en"})
 ```
-
