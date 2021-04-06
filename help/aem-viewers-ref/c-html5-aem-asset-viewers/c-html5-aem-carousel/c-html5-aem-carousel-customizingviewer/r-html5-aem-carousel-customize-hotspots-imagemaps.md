@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ホットスポットと画像マップ
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
 
 ---
-
 
 # ホットスポットと画像マップ{#hotspots-and-image-maps}
 
@@ -106,4 +106,3 @@ ht-degree: 1%
  background: RGBA(0,0,0,0);  
 }
 ```
-
