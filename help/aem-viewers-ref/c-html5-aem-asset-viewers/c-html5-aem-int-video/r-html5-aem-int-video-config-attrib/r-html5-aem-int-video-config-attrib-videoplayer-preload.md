@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoPlayer.preload
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: afabbfde-e003-4fee-a4ef-0fc4c43fd960
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
 
 ---
-
 
 # VideoPlayer.preload{#videoplayer-preload}
 
