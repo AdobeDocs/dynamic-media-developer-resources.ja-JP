@@ -4,14 +4,14 @@ solution: Experience Manager
 title: interactivedata
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
 
 ---
-
 
 # interactivedata{#interactivedata}
 
@@ -43,4 +43,3 @@ ht-degree: 5%
 ```
 interactivedata=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt
 ```
-
