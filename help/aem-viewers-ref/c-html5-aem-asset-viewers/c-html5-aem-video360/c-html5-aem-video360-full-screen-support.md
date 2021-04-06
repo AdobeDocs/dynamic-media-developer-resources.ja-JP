@@ -4,14 +4,14 @@ solution: Experience Manager
 title: フルスクリーンのサポート
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # フルスクリーンのサポート{#full-screen-support}
 
