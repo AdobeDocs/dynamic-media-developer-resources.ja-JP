@@ -4,14 +4,14 @@ solution: Experience Manager
 title: caption
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 8%
 
 ---
-
 
 # caption{#caption}
 
@@ -86,4 +86,3 @@ WebVTTファイルに存在するその他のWebVTT機能はサポートされ�
 ```
 caption=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.caption.vtt,1
 ```
-
