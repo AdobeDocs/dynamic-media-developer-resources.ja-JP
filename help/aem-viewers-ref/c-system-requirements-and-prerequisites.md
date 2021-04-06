@@ -6,63 +6,90 @@ contentOwner: Rick Brough
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
-
 
 # Dynamic MediaHTML5ビューアの必要システム構成{#system-requirements}
 
 Dynamic MediaHTML5ビューアの必要システム構成。
 
-<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## サーバのハードウェアとソフトウェア{#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Mediaクラシック画像サービング6.7.1以降。
-* HTML5ビューアは、SDK JavaScriptサーバー側ライブラリ3.10.2以降を必要とします。
+* HTML5ビューアを使用するには、SDK JavaScript™サーバ側ライブラリ3.11.1以降が必要です。
 * 「友達への電子メール」ソーシャル機能を使用するには、s7ondemand 5.0.9以降が必要です。
 * eCatalogビューア — 情報パネルのサポートには情報サーバ2.1.8以降が必要です。
 * 検索機能コンポーネントにはs7search 2.3.0以降が必要です。
 
 ## ビューアの必要システム構成{#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**コンポーネントビューアに対するクライアントブラウザーの最小要件**
+**コンポーネントビューアに対するクライアントブラウザーの最小要件：**
 
-* Microsoft® Windows® 7以降macOS X 10.12以降。
-* Firefox 74、Safari 11（macOSのみ）、Chrome 78(または最新バージョン。Chromeの最新バージョンへの自動アップデート)、Internet Explorer 11、Microsoft Edge。
-* iOS 6以降。
-* iPhone 3GS以降およびiPad 2以降（SafariおよびChromeブラウザーのみ）で認定。
-* Android OS 4.x以降。
-* BlackBerry 10以降；ネイティブブラウザーのみ。 ビデオの再生は、現時点でのみサポートされています。
-* モバイルデバイス上のInternet Explorerは、現時点ではサポートされていません。
-* パノラマビューアは、iOS 10以降、Firefox 74、Chrome 78、Safari 11以降、Internet Explorer 11以降、Microsoft Edge、Android 4.4以降（電話端末のみ）でサポートされます。
-* Video360ViewerとDimensionalViewerは、iOS12以降、Firefox 74、Chrome 78、Safari 12以降、Microsoft Edge、Android 5以降（電話端末のみ）でサポートされます。
-* ZoomVerticalViewerは、iOS 10以降、Firefox 74、Chrome 78、Safari 11以降、Internet Explorer 11、Microsoft Edge、Android 4.x以降でサポートされます。
+* 次のオペレーティングシステムバージョン以降でサポートされています。
+   * Microsoft® Windows® 7
+   * macOS X 10.12
+* 次のブラウザー/プラットフォームバージョン以降でサポートされます。
+   * Android™ OS 4.x
+   * BlackBerry® 10（ネイティブブラウザーのみ）。 ビデオ再生のみがサポートされています。
+   * Chrome 82
+   * エッジ
+   * Firefox 77
+   * Internet Explorer 11
+   * iOS6
+   * iPad 2（SafariおよびChromeブラウザーのみ）
+   * iPhone 3GS
+   * Safari 11
+* モバイルデバイス上のInternet Explorerはサポートされていません。
+* ** PanoramicViewerは、次のブラウザー/プラットフォーム以降のバージョンでサポートされています。
+   * Android™ 4.4（スマートフォンデバイスのみ）
+   * Chrome 82
+   * エッジ
+   * Firefox 77
+   * Internet Explorer 11
+   * iOS 10
+   * Safari 11
+* *Video360*  ** ViewerとDimensionalViewerは、次のブラウザー/プラットフォーム以降でサポートされています。
+   * Android™ 5（スマートフォンデバイスのみ）
+   * Chrome 82
+   * エッジ
+   * Firefox 77
+   * iOS 12
+   * Safari 12
+* *ZoomVerticalViewerは、次のブラウザ/プラットフォーム以降のバージョンでサポートされています。* 
+   * Android™ 4.x
+   * Chrome 82
+   * エッジ
+   * Firefox 77
+   * Internet Explorer 11
+   * iOS 10
+   * Safari 11
 
 >[!NOTE]
 >
->2018年9月30日より、AdobeDynamic MediaクラシックビューアはTransport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Mediaクラシックでは、TLS 1.0をサポートする次のブラウザーまたはプラットフォームのビューアをサポートしなくなりました。 (Adobe SystemsではTLS 1.2以降の使用を推奨)
+>2018年9月30日より、AdobeDynamic MediaクラシックビューアはTransport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Mediaクラシックでは、TLS 1.0をサポートする次のブラウザー/プラットフォームのビューアがサポートされなくなりました。 (Adobeでは、TLS 1.2以降を使用することをお勧めします)。
 
-* Android 2.3.7
-* Android 4.0.4
-* Android 4.1.1
-* Android 4.2.2
-* Android 4.3
-* Windows Vista上のInternet Explorer 7
-* Windows XP上のInternet Explorer 8
-* Windows 7上のInternet Explorer 8-10
-* Windows Phone 8.0上のInternet Explorer 10
+* Android™ 2.3.7
+* Android™ 4.0.4
+* Android™ 4.1.1
+* Android™ 4.2.2
+* Android™ 4.3
+* Windows Vista®上のInternet Explorer 7
+* Windows® XP上のInternet Explorer 8
+* Windows® 7上のInternet Explorer 8-10
+* Windows® Phone 8.0上のInternet Explorer 10
 * Apple OS X 10.6.8上のSafari 5.1.9
 * Apple OS X 10.8.4上のSafari 6.0.4
-* Java 6u45
-* Java 7u25
+* Java™ 6u45
+* Java™ 7u25
 * OpenSSL 0.9.8y
 * Baidu 2015年1月
 
 >[!NOTE]
 >
->Flashビューアの提供終了 — 2017年1月31日、Adobe Scene7 Publishing SystemはFlashビューアプラットフォームのサポートを正式に終了しました。
+>Flashビューアの提供終了 — 2017年1月31日、AdobeDynamic MediaクラシックはFlashビューアプラットフォームのサポートを正式に終了しました。
