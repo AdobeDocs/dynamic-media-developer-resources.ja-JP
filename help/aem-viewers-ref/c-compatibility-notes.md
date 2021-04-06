@@ -4,8 +4,9 @@ solution: Experience Manager
 title: 互換性に関する注意
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
+exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
