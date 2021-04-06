@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360Player.loop
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: c91f33bd-92d5-4b00-8910-572f08255f8c
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 21%
 
 ---
-
 
 # Video360Player.loop{#video-player-loop}
 
@@ -41,4 +41,3 @@ ht-degree: 21%
 ```
 loop=1
 ```
-
