@@ -4,14 +4,14 @@ solution: Experience Manager
 title: イベントコールバック
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
+exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
 
 ---
-
 
 # イベントコールバック{#event-callbacks}
 
