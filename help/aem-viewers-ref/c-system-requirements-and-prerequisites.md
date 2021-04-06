@@ -5,8 +5,9 @@ solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
+exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
