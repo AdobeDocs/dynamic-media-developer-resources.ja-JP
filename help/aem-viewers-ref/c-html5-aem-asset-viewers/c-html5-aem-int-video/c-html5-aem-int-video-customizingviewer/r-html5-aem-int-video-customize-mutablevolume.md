@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ミュート可能ボリューム
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: ecef47c1-e659-4930-bfb1-cc5e7c059094
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
 
 ---
-
 
 # ミュート可能ボリューム{#mutable-volume}
 
@@ -231,4 +231,3 @@ left:9px;
 background-image:url(images/volumeKnob.png); 
 }
 ```
-
