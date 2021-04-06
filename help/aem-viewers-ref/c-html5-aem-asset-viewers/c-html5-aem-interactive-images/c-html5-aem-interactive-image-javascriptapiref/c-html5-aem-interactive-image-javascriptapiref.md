@@ -4,14 +4,14 @@ solution: Experience Manager
 title: インタラクティブ画像ビューアのJavaScript APIリファレンス
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
 role: 開発者、業務従事者
+exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # インタラクティブ画像ビューアのJavaScript APIリファレンス{#javascript-api-reference-for-interactive-image-viewer}
 
