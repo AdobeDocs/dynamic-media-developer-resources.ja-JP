@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 設定インジケーター
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
 
 ---
-
 
 # インジケータを設定{#set-indicator}
 
@@ -154,4 +154,3 @@ ht-degree: 1%
  border-radius:7px; 
 }
 ```
-
