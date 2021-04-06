@@ -4,14 +4,14 @@ solution: Experience Manager
 title: config2
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
+exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 15%
 
 ---
-
 
 # config2{#config}
 
@@ -45,4 +45,3 @@ ht-degree: 15%
 ```
 config2=companypreset
 ```
-
