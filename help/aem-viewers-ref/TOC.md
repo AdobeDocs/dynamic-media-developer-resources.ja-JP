@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップおよびタッチスクリーンデバイスで使用するために Dynamic Media ビューアをカスタマイズします。インタラクティブ画像およびビデオ、カルーセル、スピンセットなどを含めます。
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 5e310a76c215136da6bd2afe16d3d3c889fa3ab8
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 6%
 
 ---
@@ -22,19 +22,18 @@ ht-degree: 6%
    + [ビューアのリリースノート(5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [ビューアのリリースノート(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + アーカイブ {#archive}
-      + [リリースノートのアーカイブ](c-release-notes/c-archive/c-archive.md)
-         + [ビューアのリリースノート(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-         + [ビューアのリリースノート(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-         + [ビューアのリリースノート(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-         + [ビューアのリリースノート(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-         + [ビューアのリリースノート(5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
-         + [ビューアのリリースノート(5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
-         + [ビューアのリリースノート(5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
-         + [ビューアのリリースノート(5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
-         + [ビューアのリリースノート(5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
-         + [ビューアのリリースノート(5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
-         + [ビューアのリリースノート(5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
-         + [ビューアのリリースノート(4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [ビューアのリリースノート(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+      + [ビューアのリリースノート(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+      + [ビューアのリリースノート(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+      + [ビューアのリリースノート(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+      + [ビューアのリリースノート(5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [ビューアのリリースノート(5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [ビューアのリリースノート(5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [ビューアのリリースノート(5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [ビューアのリリースノート(5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [ビューアのリリースノート(5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [ビューアのリリースノート(5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [ビューアのリリースノート(4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [互換性に関する注意](c-compatibility-notes.md)
 + [キーボードのアクセシビリティとナビゲーション](c-keyboard-accessibility.md)
 + [ビューアSDKチュートリアル](c-tutorial.md)
