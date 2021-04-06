@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoTime.timepattern
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
 
 ---
-
 
 # VideoTime.timepattern{#videotime-timepattern}
 
@@ -41,4 +41,3 @@ ht-degree: 3%
 ```
 timepattern=h:mm:ss
 ```
-
