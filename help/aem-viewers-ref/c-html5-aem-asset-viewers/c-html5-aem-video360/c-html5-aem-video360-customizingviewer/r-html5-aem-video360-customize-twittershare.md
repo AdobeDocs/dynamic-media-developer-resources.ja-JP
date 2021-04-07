@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Twitter共有
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Twitter共有{#twitter-share}
 
@@ -76,4 +76,3 @@ background-image:url(images/v2/TwitterShare_dark_down.png);
 background-image:url(images/v2/TwitterShare_dark_disabled.png); 
 }
 ```
-
