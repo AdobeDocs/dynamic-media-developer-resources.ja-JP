@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360Player.initialbitrate
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 6%
 
 ---
-
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
@@ -41,4 +41,3 @@ ht-degree: 6%
 ```
 initialbitrate=600
 ```
-
