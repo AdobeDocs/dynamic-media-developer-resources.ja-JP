@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ビューアSDKの名前空間
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # ビューアSDK名前空間{#viewer-sdk-namespace}
 
@@ -37,4 +37,3 @@ ht-degree: 0%
 } 
 });
 ```
-
