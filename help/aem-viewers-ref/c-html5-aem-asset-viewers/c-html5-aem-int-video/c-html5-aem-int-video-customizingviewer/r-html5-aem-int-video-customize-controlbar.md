@@ -4,14 +4,14 @@ solution: Experience Manager
 title: コントロールバー
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
 
 ---
-
 
 # コントロールバー{#control-bar}
 
@@ -62,4 +62,3 @@ height: 30px;
 background-color: rgb(51, 51, 51); 
 }
 ```
-
