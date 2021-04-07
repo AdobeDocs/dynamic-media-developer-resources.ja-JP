@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoPlayer.loop
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 13b11e9c-00c5-4c1d-b1af-90afaabc389e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 12%
 
 ---
-
 
 # VideoPlayer.loop{#videoplayer-loop}
 
@@ -41,4 +41,3 @@ ht-degree: 12%
 ```
 loop=1
 ```
-
