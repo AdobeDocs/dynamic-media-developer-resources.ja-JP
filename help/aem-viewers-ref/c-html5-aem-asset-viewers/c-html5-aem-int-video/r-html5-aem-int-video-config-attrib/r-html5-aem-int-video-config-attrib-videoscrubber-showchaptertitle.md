@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoScrubber.showchaptertitle
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 9%
 
 ---
-
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
@@ -41,4 +41,3 @@ ht-degree: 9%
 ```
 showchaptertitle=0
 ```
-
