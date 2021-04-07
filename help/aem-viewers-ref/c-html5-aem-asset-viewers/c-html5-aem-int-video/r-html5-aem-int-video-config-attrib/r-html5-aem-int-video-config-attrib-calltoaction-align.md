@@ -4,14 +4,14 @@ solution: Experience Manager
 title: CallToAction.align
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 4%
 
 ---
-
 
 # CallToAction.align{#calltoaction-align}
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 ```
 align=left
 ```
-
