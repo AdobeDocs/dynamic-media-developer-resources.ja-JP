@@ -7,7 +7,7 @@ feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -73,23 +73,24 @@ Dynamic MediaHTML5ビューアの必要システム構成。
 
 >[!NOTE]
 >
->2018年9月30日より、AdobeDynamic MediaクラシックビューアはTransport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Mediaクラシックでは、TLS 1.0をサポートする次のブラウザー/プラットフォームのビューアがサポートされなくなりました。 (Adobeでは、TLS 1.2以降を使用することをお勧めします)。
+>2018年9月30日より、AdobeDynamic MediaクラシックビューアはTransport Layer Security 1.0(TLS 1.0)のサポートを終了します。 したがって、Dynamic Mediaクラシックでは、TLS 1.0をサポートする次のブラウザー/プラットフォームのビューアがサポートされなくなりました(Adobeでは、TLS 1.2以降の使用をお勧めします)。
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Windows Vista®上のInternet Explorer 7
+> * Windows® XP上のInternet Explorer 8
+> * Windows® 7上のInternet Explorer 8-10
+> * Windows® Phone 8.0上のInternet Explorer 10
+> * Apple OS X 10.6.8上のSafari 5.1.9
+> * Apple OS X 10.8.4上のSafari 6.0.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * Baidu 2015年1月
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Windows Vista®上のInternet Explorer 7
-* Windows® XP上のInternet Explorer 8
-* Windows® 7上のInternet Explorer 8-10
-* Windows® Phone 8.0上のInternet Explorer 10
-* Apple OS X 10.6.8上のSafari 5.1.9
-* Apple OS X 10.8.4上のSafari 6.0.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* Baidu 2015年1月
 
 >[!NOTE]
 >
