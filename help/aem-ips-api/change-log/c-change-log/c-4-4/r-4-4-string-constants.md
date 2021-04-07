@@ -4,8 +4,9 @@ solution: Experience Manager
 title: 文字列定数の新規および変更
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
+exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 2%
