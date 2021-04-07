@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setAsset
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 3%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -43,4 +43,3 @@ ht-degree: 3%
 ```
 <instance>.setAsset("/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner")
 ```
-
