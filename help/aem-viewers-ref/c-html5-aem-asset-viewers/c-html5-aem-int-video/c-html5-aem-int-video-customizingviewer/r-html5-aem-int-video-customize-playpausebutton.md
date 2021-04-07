@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 再生/一時停止ボタン
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: bbf34037-b571-4dc9-be52-070aef014c31
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
 
 ---
-
 
 # 再生/一時停止ボタン{#play-pause-button}
 
@@ -122,4 +122,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
