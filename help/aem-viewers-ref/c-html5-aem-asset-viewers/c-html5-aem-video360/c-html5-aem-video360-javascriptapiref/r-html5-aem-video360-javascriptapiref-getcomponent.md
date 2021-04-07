@@ -4,14 +4,14 @@ solution: Experience Manager
 title: getComponent
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -113,4 +113,3 @@ SDK APIを使用する場合、[ビューアSDKの名前空間](../../../c-html5
 } 
 })
 ```
-
