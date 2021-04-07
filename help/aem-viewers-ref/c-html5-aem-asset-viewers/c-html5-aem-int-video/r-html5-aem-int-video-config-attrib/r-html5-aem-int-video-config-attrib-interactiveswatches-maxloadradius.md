@@ -4,14 +4,14 @@ solution: Experience Manager
 title: InteractiveSwatches.maxloadradius
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 5%
 
 ---
-
 
 # InteractiveSwatches.maxloadradius{#interactiveswatches-maxloadradius}
 
@@ -41,4 +41,3 @@ ht-degree: 5%
 ```
 maxloadradius=-1
 ```
-
