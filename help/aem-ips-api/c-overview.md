@@ -1,21 +1,21 @@
 ---
-description: IPS (Image Production System) Web Service APIを使用すると、外部アプリケーションとサードパーティの開発者は、IPSのアセットと機能にプログラム的にアクセスできます。
+description: IPS（Image Production System）Web Service API を使用すると、外部アプリケーションおよびサードパーティ開発者は、IPS アセットおよび機能にプログラムによってアクセスできます。
 solution: Experience Manager
 title: Image Production System APIについて
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
+exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
-
 # Image Production System API{#about-scene-image-production-system-api}について
 
-IPS (Image Production System) Web Service APIを使用すると、外部アプリケーションとサードパーティの開発者は、IPSのアセットと機能にプログラム的にアクセスできます。
+IPS（Image Production System）Web Service API を使用すると、外部アプリケーションおよびサードパーティ開発者は、IPS アセットおよび機能にプログラムによってアクセスできます。
 
 このリファレンスガイドには、IPS Web Service APIで使用されるすべてのサービス、メソッド、およびデータ型が含まれ、定義されています。 Java（Apache Axis2ライブラリを使用）、AdobeFlex、およびMicrosoft .NETとの互換性について、特別にテストされています。
 
