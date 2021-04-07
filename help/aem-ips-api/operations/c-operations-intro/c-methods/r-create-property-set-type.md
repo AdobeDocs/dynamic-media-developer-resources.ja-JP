@@ -4,14 +4,14 @@ solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
+exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 11%
 
 ---
-
 
 # createPropertySetType{#createpropertysettype}
 
@@ -62,4 +62,3 @@ ht-degree: 11%
    <typeHandle>pt|10801</typeHandle>
 </createPropertySetTypeReturn>
 ```
-
