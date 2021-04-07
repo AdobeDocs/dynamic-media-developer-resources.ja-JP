@@ -4,8 +4,9 @@ solution: Experience Manager
 title: 新規および変更された操作
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
+exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 2%
