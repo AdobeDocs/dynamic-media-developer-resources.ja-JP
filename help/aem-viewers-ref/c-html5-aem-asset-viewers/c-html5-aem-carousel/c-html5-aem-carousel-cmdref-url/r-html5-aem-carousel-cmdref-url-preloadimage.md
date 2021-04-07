@@ -4,14 +4,14 @@ solution: Experience Manager
 title: preloadimage**
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
 role: 開発者、業務従事者
+exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 13%
 
 ---
-
 
 # preloadimage**{#preloadimage}
 
@@ -41,4 +41,3 @@ ht-degree: 13%
 ```
 preloadImage=0
 ```
-
