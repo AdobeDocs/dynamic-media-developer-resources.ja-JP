@@ -5,13 +5,12 @@ title: 新規および変更されたデータタイプ
 feature: Dynamic Mediaクラシック，SDK/API
 role: 開発者，管理者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 3%
 
 ---
-
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
@@ -54,4 +53,3 @@ IPS APIバージョン4.4の新しいデータ型と変更されたデータ型�
 追加されたパラメーター：
 
 * `extractLinks`
-
