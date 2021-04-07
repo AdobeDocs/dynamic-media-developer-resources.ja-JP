@@ -4,14 +4,14 @@ solution: Experience Manager
 title: config
 feature: Dynamic Mediaクラシック，ビューア，SDK/API
 role: 開発者、業務従事者
+exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 2%
 
 ---
-
 
 # config{#config}
 
@@ -117,7 +117,7 @@ config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## 例5 {#section-19b988551d1d492a9079948e0b04b38f}
+## 例4 {#section-19b988551d1d492a9079948e0b04b38f}
 
 `Carousel_Dotted_light`という名前のビューアプリセットは、次のデータを示します。
 
@@ -136,4 +136,3 @@ config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 ```
-
