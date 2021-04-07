@@ -4,14 +4,14 @@ solution: Experience Manager
 title: イベントコールバック
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # イベントコールバック{#event-callbacks}
 
