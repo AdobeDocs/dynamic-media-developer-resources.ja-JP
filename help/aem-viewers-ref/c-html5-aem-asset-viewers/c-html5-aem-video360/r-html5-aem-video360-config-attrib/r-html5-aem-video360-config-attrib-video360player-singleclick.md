@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360Player.singleclick
 feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
 role: 開発者、業務従事者
+exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 9%
 
 ---
-
 
 # Video360Player.singleclick{#video-player-singleclick}
 
@@ -41,4 +41,3 @@ ht-degree: 9%
 ```
 singleclick=none
 ```
-
