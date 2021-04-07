@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ナビゲーション
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 12%
 
 ---
-
 
 # ナビゲーション{#navigation}
 
@@ -43,4 +43,3 @@ ht-degree: 12%
 ```
 navigation=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.navigation.vtt,1
 ```
-
