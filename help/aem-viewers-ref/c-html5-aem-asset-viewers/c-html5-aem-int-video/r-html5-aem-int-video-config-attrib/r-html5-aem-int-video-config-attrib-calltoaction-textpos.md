@@ -4,14 +4,14 @@ solution: Experience Manager
 title: CallToAction.textpos
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: f2356eb1-2f71-49b6-bb40-6cd332e6785b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 4%
 
 ---
-
 
 # CallToAction.textpos{#calltoaction-textpos}
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 ```
 textpos=top
 ```
-
