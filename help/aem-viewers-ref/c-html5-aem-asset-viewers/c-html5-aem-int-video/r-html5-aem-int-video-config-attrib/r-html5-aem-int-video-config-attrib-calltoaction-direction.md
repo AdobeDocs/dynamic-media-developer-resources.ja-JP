@@ -4,14 +4,14 @@ solution: Experience Manager
 title: CallToAction.direction
 feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
 role: 開発者、業務従事者
+exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 4%
 
 ---
-
 
 # CallToAction.direction{#calltoaction-direction}
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 ```
 direction=right
 ```
-
