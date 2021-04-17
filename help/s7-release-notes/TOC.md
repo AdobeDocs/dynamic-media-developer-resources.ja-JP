@@ -3,17 +3,17 @@ title: AdobeDynamic Mediaクラシックリリースノート
 description: 「Adobe Experience CloudのAdobe Experience Managerソリューションの一部であるAdobeDynamic Mediaクラシックのリリースノート」
 author: Rick Brough
 cloud: Experience Cloud
-product: Dynamic Media Classic
+product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Mediaクラシック
-role: 開発者、業務従事者
-user-guide-description: Adobe Experience Cloud の Adobe Experience Manager ソリューションを構成する、Adobe Dynamic Media Classic の最新のリリースノートです。
+role: Developer,Business Practitioner
+user-guide-description: Adobe Experience Cloud の Adobe Experience Manager ソリューションの一部である Adobe Dynamic Media Classic の最新リリースノート。
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 21%
+source-wordcount: '98'
+ht-degree: 22%
 
 ---
 
