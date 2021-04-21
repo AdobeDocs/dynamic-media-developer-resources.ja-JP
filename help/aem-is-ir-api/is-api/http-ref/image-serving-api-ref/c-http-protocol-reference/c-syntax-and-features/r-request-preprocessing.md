@@ -2,8 +2,8 @@
 description: 画像サービングは、正規式の一致と置換ルールに基づく単純な要求プリプロセッサを提供します。
 solution: Experience Manager
 title: 要求の前処理中
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

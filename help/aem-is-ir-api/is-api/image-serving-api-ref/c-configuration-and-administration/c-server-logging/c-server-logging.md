@@ -2,8 +2,8 @@
 description: すべてのログファイルは、TCディレクトリで指定された同じログフォルダに書き込まれます。
 solution: Experience Manager
 title: サーバーログ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

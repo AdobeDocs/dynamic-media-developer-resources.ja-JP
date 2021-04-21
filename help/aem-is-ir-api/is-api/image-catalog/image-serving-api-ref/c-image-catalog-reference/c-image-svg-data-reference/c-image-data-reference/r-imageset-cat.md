@@ -2,8 +2,8 @@
 description: 画像セットデータ Dynamic Mediaビューアで使用される画像の並べ替え済みセットと制御属性を定義するメカニズムを提供します。
 solution: Experience Manager
 title: 画像セット
-feature: Dynamic Mediaクラシック，SDK/API，画像セット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

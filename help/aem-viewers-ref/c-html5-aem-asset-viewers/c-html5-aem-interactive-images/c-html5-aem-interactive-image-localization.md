@@ -1,8 +1,8 @@
 ---
 description: インタラクティブ画像ビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 これには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズーム表示によって表示される情報メッセージなどが含まれます。
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

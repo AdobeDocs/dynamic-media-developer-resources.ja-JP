@@ -2,8 +2,8 @@
 description: 不透明度. マテリアルの不透明度を指定します。
 solution: Experience Manager
 title: opac
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt

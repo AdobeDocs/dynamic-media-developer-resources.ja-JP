@@ -2,8 +2,8 @@
 description: この節の設定は、SVGレンダリングが必要な場合にのみ考慮する必要があります。
 solution: Experience Manager
 title: SVG
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

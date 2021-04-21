@@ -2,8 +2,8 @@
 description: ビデオ時間は、現在時間と現在再生中のビデオの長さを数値で表示します。
 solution: Experience Manager
 title: ビデオ時間
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

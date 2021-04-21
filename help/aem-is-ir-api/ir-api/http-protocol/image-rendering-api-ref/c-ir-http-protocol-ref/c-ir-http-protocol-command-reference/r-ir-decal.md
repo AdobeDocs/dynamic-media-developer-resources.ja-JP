@@ -2,8 +2,8 @@
 description: デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
 solution: Experience Manager
 title: デカル
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

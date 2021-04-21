@@ -2,8 +2,8 @@
 description: このボタンをクリックまたはタップすると、メイン表示の画像が左方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 solution: Experience Manager
 title: 左スピンボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，スピンセット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

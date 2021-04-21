@@ -2,8 +2,8 @@
 description: 初期設定のサムネールサイズ サムネール要求(req=tmb)に対して、属性DefaultPixの代わりに使用されます。
 solution: Experience Manager
 title: DefaultThumbPix
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: アップロードジョブの自動セット生成スクリプトリスト。 アップロードに対して指定されたすべてのスクリプトが、アップロードされたすべてのアセットに適用されると仮定します。
 solution: Experience Manager
 title: AutoSetCreationOptions
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

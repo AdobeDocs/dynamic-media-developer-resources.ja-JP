@@ -2,8 +2,8 @@
 description: 要求のクエリ部分とビネット修飾子の文字列には、ユーザ定義の変数を含めることができます。
 solution: Experience Manager
 title: カスタム変数
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

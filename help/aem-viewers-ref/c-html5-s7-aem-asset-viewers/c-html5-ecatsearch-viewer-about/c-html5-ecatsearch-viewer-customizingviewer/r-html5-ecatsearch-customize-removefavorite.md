@@ -2,8 +2,8 @@
 description: 「お気に入りを削除」ボタンの位置は、お気に入りメニューで完全に管理されます。
 solution: Experience Manager
 title: お気に入りを削除ボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

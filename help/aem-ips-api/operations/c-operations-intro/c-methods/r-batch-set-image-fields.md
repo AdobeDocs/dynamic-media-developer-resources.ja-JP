@@ -2,8 +2,8 @@
 description: 1つ以上の画像アセットに対して、画像固有のフィールドを設定します。
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

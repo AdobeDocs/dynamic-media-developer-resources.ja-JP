@@ -2,8 +2,8 @@
 description: 画像レンダリングでは、非ピラミッドビネットに対して2メガピクセルのサイズ制限が適用されます。
 solution: Experience Manager
 title: ビネットサイズの制限
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

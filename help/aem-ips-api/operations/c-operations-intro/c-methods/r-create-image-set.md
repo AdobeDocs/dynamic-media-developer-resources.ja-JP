@@ -2,8 +2,8 @@
 description: 画像セットを作成します。
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Mediaクラシック，SDK/API，画像セット
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

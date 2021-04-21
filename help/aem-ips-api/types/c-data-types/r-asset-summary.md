@@ -2,8 +2,8 @@
 description: アセットに関する要約された情報を含むメタデータ検索結果。
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 画像/メタデータのバージョン 頻繁に変更されるコンテンツを扱う場合、Akamai、ブラウザーキャッシュ、会社のプロキシサーバーキャッシュなどのキャッシュネットワーク内のサーバーには、古い画像サービング応答が格納される場合があります。
 solution: Experience Manager
 title: id
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

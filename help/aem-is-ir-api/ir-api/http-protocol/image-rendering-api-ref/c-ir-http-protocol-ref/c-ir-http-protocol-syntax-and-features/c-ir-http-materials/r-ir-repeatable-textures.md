@@ -2,8 +2,8 @@
 description: 繰り返し可能なテクスチャには、布地（衣料と表皮の両方）、壁と壁の間の床の覆い、壁紙、カウンタートップ材、木目のテクスチャ、屋根とサイディング材、その他の一般的なテクスチャなど、内部と外部のマテリアルが含まれます。
 solution: Experience Manager
 title: 繰り返し可能なテクスチャ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

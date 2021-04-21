@@ -2,8 +2,8 @@
 description: ビデオ360ビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: ビデオ360ビューア
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: ユーザーがクリックすると、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 solution: Experience Manager
 title: フルスクリーンボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

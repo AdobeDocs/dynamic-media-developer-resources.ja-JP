@@ -2,8 +2,8 @@
 description: Viewerで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 これには、ユーザーインターフェイス要素のツールチップや、ビデオが再生できない場合に表示されるエラーメッセージなどが含まれます。
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

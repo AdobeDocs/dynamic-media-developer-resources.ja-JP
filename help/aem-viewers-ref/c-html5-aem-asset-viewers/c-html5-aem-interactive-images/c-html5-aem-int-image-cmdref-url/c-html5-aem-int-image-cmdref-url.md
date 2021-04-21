@@ -2,8 +2,8 @@
 description: ビデオビューア用のコマンドリファレンスドキュメント。
 solution: Experience Manager
 title: コマンドリファレンス — URL
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 85258a7f-83f4-4cbc-9acc-4245f20cf24c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

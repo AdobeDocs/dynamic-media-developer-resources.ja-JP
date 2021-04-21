@@ -2,8 +2,8 @@
 description: 検索結果から除外する生成エンジンおよび生成されたアセットタイプを決定します。
 solution: Experience Manager
 title: ExcludeByproductCondition
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

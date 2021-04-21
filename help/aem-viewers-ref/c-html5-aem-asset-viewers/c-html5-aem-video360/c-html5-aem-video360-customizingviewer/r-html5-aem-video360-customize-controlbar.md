@@ -2,8 +2,8 @@
 description: コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、ビデオビューアで使用できるすべてのユーザインターフェイスコントロールを含み、その背後に配置する矩形の領域です。
 solution: Experience Manager
 title: コントロールバー
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 初期設定のオブジェクト解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合に、初期設定のオブジェクト解像度を指定します。
 solution: Experience Manager
 title: 解像度
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

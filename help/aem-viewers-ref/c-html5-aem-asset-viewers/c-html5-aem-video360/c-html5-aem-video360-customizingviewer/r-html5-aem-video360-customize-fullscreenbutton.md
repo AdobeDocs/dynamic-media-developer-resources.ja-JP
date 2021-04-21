@@ -2,8 +2,8 @@
 description: フルスクリーンボタンをクリックすると、ビデオプレーヤーのフルスクリーンモードが開始または終了します。
 solution: Experience Manager
 title: フルスクリーンボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: アプリケーションによっては、異なる種類のマテリアルに対して異なる照明マップが必要になる場合があります。
 solution: Experience Manager
 title: 複数の照明マップの使用
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

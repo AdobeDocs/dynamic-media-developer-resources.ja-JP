@@ -2,8 +2,8 @@
 description: CarouselView.enableHD
 solution: Experience Manager
 title: CarouselView.enableHD
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

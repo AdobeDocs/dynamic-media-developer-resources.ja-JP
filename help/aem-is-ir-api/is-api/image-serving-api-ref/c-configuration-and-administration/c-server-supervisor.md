@@ -2,8 +2,8 @@
 description: 画像サービングコンポーネントは、LinuxデーモンまたはWindowsサービス(S7Supervisor.exe、サービスCampaign コントロールパネルで「Dynamic Media画像サービング」と表示)であるサーバスーパバイザによって管理されます。
 solution: Experience Manager
 title: サーバースーパーバイザ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

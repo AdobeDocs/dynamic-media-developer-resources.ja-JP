@@ -2,8 +2,8 @@
 description: プロパティセットタイプは、プロパティセットの管理に使用する各種設定を指定します。
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

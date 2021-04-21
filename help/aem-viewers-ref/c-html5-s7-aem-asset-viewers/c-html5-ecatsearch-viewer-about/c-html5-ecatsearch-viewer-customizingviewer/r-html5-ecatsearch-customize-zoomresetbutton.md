@@ -2,8 +2,8 @@
 description: このボタンをクリックまたはタップすると、メイン表示の画像がリセットされます。 このボタンは、デスクトップシステムおよびタブレットでは、メインコントロールバーに表示されます。 携帯電話では、このボタンは画像の上の中央下に表示されます。 ただし、画像がリセット状態の場合は表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 solution: Experience Manager
 title: ズームリセットボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

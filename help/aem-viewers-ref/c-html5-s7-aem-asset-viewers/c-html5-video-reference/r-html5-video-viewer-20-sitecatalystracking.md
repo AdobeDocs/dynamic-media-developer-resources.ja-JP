@@ -2,8 +2,8 @@
 description: ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
 title: Adobe Analyticsトラッキングのサポート
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，ビデオ
-role: 開発者，業者，データエンジニア，データアーキテクト
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

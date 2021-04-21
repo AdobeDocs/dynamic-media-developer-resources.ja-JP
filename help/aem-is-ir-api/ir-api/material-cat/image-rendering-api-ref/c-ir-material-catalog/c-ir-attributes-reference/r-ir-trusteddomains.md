@@ -2,8 +2,8 @@
 description: FlashアプリケーションのWebドメイン。 AdobeFlashアプリケーションでは、swf形式で配信される画像のプロパティにアクセスする必要がある場合があります。swfは、信頼するアプリケーションドメインの名前を登録することで、明示的にアクセスを許可する必要があります。
 solution: Experience Manager
 title: TrustedDomains *
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

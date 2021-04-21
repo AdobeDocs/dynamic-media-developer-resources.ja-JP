@@ -2,8 +2,8 @@
 description: 画像サービングと画像レンダリングの様々な要素は、適切な設定ファイルを編集することで手動で設定できます。
 solution: Experience Manager
 title: サーバー設定
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

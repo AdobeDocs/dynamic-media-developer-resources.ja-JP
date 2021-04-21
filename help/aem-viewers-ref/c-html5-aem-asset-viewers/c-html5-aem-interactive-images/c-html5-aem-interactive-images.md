@@ -2,8 +2,8 @@
 description: インタラクティブ画像ビューアは、ズーム可能でない単一の画像を表示するビューアで、クリック可能なホットスポットがあります。 このビューアの目的は、「買い物かごのバナー」エクスペリエンスを実装することです。 つまり、バナー画像の上にホットスポットを選択して、Webサイト上のクイック表示または製品の詳細ページにリダイレクトされます。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 solution: Experience Manager
 title: インタラクティブ画像
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

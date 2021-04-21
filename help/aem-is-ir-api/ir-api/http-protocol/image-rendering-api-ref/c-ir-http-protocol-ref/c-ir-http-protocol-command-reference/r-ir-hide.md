@@ -2,8 +2,8 @@
 description: 重なり合うオブジェクトを非表示 現在の選択範囲内のウィンドウカバリングフレームに適用された、重なり合うオブジェクトまたはウィンドウカバリングをすべて非表示にします。
 solution: Experience Manager
 title: 非表示
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

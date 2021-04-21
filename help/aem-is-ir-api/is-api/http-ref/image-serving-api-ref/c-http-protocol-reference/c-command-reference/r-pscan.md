@@ -2,8 +2,8 @@
 description: プログレッシブJPEGスキャン。 プログレッシブJPEGでは、画像全体がぼやけた低画質の画像で表示されます。 スキャンが続くにつれて、画像のデータが完全にダウンロードされるにつれて、スキャンがより明確になります。 このパラメーターを使用すると、画像全体をスキャンする回数（3、4または5）を設定できます。
 solution: Experience Manager
 title: pscan
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

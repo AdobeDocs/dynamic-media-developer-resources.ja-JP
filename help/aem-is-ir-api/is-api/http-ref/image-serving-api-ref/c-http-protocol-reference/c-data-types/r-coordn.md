@@ -2,8 +2,8 @@
 description: 正規化座標。 画像のサイズに合わせて標準化された、画像のオフセットや切り抜きパラメータなど、画像内の相対位置を指定するために使用します。
 solution: Experience Manager
 title: coordN
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

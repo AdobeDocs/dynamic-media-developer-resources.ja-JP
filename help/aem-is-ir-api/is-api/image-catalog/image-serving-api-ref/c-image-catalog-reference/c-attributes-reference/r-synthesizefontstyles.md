@@ -2,8 +2,8 @@
 description: 合成フォントのバリエーションを有効にする。 エラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルが要求されたがフォントマップに見つからない場合に、サーバーがそのスタイルを合成するかを制御します。
 solution: Experience Manager
 title: SyntesizeFontStyles
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

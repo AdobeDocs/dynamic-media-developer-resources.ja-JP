@@ -2,8 +2,8 @@
 description: 新しいデータファイルの追加は簡単で簡単ですが、サーバーが積極的に使用している既存のデータファイルを置き換える場合は、特別な注意が必要です。 このようなファイルを置き換えるだけでなく、置き換えるファイルに新しい名前を付けることをお勧めします（例えば、ファイル名にバージョンサフィックスを付ける）。 新しいファイルをライブにした後、古いバージョンを削除できます。
 solution: Experience Manager
 title: データファイルの削除または置換
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: RTF文字列で参照されるすべてのフォントは、初期設定のカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
 solution: Experience Manager
 title: フォント処理
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

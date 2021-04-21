@@ -2,8 +2,8 @@
 description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 solution: Experience Manager
 title: 太字
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

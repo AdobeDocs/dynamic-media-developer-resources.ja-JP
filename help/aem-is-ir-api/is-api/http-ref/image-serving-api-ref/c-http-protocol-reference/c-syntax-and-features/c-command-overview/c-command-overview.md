@@ -2,8 +2,8 @@
 description: 画像サービングでサポートされるコマンドを、大まかなカテゴリ別にグループ化して以下に示します。 使用方法と適用性の詳細については、特定のコマンドの説明を参照してください。
 solution: Experience Manager
 title: 画像サービングHTTPプロトコルコマンドの概要
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

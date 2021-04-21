@@ -2,8 +2,8 @@
 description: マクロ名。 マクロ名は、$を除く任意の英字、数字、安全な文字の組み合わせで構成できます。
 solution: Experience Manager
 title: 名前
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: インタラクティブビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setLocalizedTexts
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 2fd557ad-088a-4ddc-8c00-b3cf3d2d9a2f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

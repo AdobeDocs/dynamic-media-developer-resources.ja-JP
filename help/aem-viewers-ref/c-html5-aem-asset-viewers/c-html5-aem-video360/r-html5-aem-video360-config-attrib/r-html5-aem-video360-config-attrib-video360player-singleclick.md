@@ -2,8 +2,8 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.singleclick
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

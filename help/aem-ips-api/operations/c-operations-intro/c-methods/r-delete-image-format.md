@@ -2,8 +2,8 @@
 description: 画像形式を削除します。 saveImageFormatから画像形式ハンドルを取得します。
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

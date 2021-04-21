@@ -2,8 +2,8 @@
 description: マスクファイルのパス このカタログレコードに関連付けられているマスク画像ファイルの相対パスまたは絶対パスと名前。
 solution: Experience Manager
 title: MaskPath
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

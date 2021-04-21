@@ -2,8 +2,8 @@
 description: コントラストを調整 50 %を超える明るさのピクセルの明るさを増やし、50 %を超える明るさのピクセルの明るさを減らして、画像のコントラストを調整します。
 solution: Experience Manager
 title: op_contrast
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 詳細レンダリング設定 詳細レンダリング設定は、マテリアルのシャープの適用タイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダリングエンジンの低レベルの要素を制御するために使用します。
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

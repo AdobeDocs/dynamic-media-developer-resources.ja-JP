@@ -2,8 +2,8 @@
 description: マテリアルファイル マテリアルデータは、1つのマテリアルカタログ参照の形式で指定するか、1つまたは2つのイメージまたはマテリアルデータファイルとして指定し、カンマで区切ります。
 solution: Experience Manager
 title: src
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

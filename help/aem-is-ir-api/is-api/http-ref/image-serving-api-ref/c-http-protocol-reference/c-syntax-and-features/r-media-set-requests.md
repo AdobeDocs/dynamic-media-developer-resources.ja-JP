@@ -2,8 +2,8 @@
 description: 画像サービングは、特定のレコードのカタログ画像セットに関連付けられたすべてのリソースとメタデータを表す、階層テキスト応答（xmlまたはjson）を取得するメカニズムを提供します。
 solution: Experience Manager
 title: メディアセットの要求
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

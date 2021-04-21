@@ -2,8 +2,8 @@
 description: IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
 solution: Experience Manager
 title: 新規および変更された操作
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

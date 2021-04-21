@@ -2,7 +2,7 @@
 description: ViewerPresetInfoで使用されます。
 solution: Experience Manager
 title: ビューアの種類
-feature: Dynamic Mediaクラシック，SDK/API，ビューア
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt

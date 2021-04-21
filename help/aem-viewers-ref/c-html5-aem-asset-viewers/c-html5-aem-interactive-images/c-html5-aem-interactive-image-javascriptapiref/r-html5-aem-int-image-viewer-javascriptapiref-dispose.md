@@ -2,8 +2,8 @@
 description: ビデオ画像ビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: 処分する
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

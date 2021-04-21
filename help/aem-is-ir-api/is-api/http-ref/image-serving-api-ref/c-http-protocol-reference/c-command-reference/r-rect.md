@@ -2,8 +2,8 @@
 description: 最終的な表示の長方形。 最終的な表示画像を複数のストリップまたはタイルに分解できます。これらの画像は、端に沿ったアーティファクトを発生させず、個別に配信し、クライアントによってシームレスに再アセンブルできます。
 solution: Experience Manager
 title: rect
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

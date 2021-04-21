@@ -2,8 +2,8 @@
 description: 初期設定のマテリアルのシャープ 特定のカタログレコードに有効なカタログシャープ値が含まれていない場合に使用する、初期設定のマテリアルシャープの適用モードを設定します。
 solution: Experience Manager
 title: 'シャープ '
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

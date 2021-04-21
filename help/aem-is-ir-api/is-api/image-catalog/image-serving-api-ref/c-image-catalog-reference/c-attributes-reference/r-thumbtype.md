@@ -2,8 +2,8 @@
 description: 初期設定のサムネールの種類 特定のカタログレコードに有効なカタログのThumbType値が含まれていない場合に、サムネールの種類の初期設定を指定します。
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

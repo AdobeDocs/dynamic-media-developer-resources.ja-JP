@@ -2,8 +2,8 @@
 description: 静的な背景画像と、左中央の背景と整列し、背景の幅と高さの80%を超えないように拡大縮小された可変画像、およびカンバスの右端を中央に配置した垂直テキストの1つのテキストレイヤーを作成します。
 solution: Experience Manager
 title: 例A
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

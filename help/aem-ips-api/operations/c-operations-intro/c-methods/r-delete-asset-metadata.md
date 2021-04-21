@@ -2,8 +2,8 @@
 description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 渡されたパラメーターに基づいて、2つの異なるタイプの情報を返します。 originatorHandleは、指定したアセットから生成されたアセットに関する情報を返します。 generateHandleは、指定したアセットまたはファイルを生成するために使用された手順に関する情報を返します。
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

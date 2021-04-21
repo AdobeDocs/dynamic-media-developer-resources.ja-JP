@@ -2,8 +2,8 @@
 description: 会社ハンドルで指定された会社のユーザーを返します。
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

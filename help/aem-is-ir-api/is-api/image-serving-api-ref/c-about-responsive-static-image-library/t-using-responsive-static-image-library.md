@@ -2,8 +2,8 @@
 description: レスポンシブ画像ライブラリをWebページに追加し、ライブラリを使用して既存の画像を管理するには、次の手順を実行します。
 solution: Experience Manager
 title: レスポンシブ画像ライブラリの使用
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

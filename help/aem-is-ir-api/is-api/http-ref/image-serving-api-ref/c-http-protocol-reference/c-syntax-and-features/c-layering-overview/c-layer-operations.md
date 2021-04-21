@@ -2,8 +2,8 @@
 description: レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤの相対的な位置(pos=)に加えて、layer=コマンドで合成順序（z順序）を指定すると、レイヤを回転（回転=）して反転（反転=）できます。
 solution: Experience Manager
 title: レイヤーの操作
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

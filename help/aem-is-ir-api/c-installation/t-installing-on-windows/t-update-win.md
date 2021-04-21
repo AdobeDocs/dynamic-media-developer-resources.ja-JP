@@ -2,8 +2,8 @@
 description: Dynamic Media画像サービングをアップグレードする場合は、次の手順を実行します。
 solution: Experience Manager
 title: IS 4.7.4以降からの更新
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

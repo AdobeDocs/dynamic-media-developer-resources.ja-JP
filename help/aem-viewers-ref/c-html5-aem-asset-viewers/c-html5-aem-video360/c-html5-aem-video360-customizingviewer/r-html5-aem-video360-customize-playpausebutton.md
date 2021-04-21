@@ -2,8 +2,8 @@
 description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
 solution: Experience Manager
 title: 再生/一時停止ボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

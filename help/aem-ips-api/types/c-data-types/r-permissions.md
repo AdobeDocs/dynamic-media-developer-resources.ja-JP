@@ -2,8 +2,8 @@
 description: アセットに対するアクセス、変更、作成または削除の権限をグループ別に管理します。
 solution: Experience Manager
 title: 権限
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

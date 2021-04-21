@@ -2,8 +2,8 @@
 description: このボタンをクリックまたはタップすると、カタログの次のページに移動します。 このボタンは、メインコントロールバーに表示されます。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
 solution: Experience Manager
 title: 次のページボタン
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: カラー値 色の値は、16進数表記、コンポーネント値のカンマ区切りリストまたは10進数のいずれかを使用して指定できます。
 solution: Experience Manager
 title: color
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

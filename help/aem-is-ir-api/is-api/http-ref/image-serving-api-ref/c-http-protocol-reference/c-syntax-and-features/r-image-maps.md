@@ -2,8 +2,8 @@
 description: ISは、HTML画像マップの使用を簡略化するメカニズムを提供します。 ISのJAVAベースのビューアおよびFlashベースのビューアでも、画像マップのサポートは限定的です。
 solution: Experience Manager
 title: 画像マップ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

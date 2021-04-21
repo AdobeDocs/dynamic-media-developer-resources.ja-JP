@@ -2,8 +2,8 @@
 description: HTML5 Video360ビューアは、Dynamic MediaクラシックまたはAEMDynamic Mediaから配信された、H.264形式でエンコードされたストリーミングおよびプログレッシブ360ビデオを再生する360度のビデオプレーヤーです。
 solution: Experience Manager
 title: ビデオ360
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

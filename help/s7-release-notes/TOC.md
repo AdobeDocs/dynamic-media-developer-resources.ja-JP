@@ -6,7 +6,7 @@ cloud: Experience Cloud
 product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
-feature: Dynamic Mediaクラシック
+feature: Dynamic Media Classic
 role: Developer,Business Practitioner
 user-guide-description: Adobe Experience Cloud の Adobe Experience Manager ソリューションの一部である Adobe Dynamic Media Classic の最新リリースノート。
 translation-type: tm+mt

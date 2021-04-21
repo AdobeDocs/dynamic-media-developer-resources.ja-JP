@@ -2,8 +2,8 @@
 description: 要求が正常に完了しなかった場合、サーバーは、エラー画像または200以外のHTTP応答ステータスをエラーメッセージと共に返します。
 solution: Experience Manager
 title: エラー
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

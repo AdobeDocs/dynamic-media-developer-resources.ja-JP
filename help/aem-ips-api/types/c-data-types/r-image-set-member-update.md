@@ -2,8 +2,8 @@
 description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Mediaクラシック，SDK/API，画像セット
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

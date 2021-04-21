@@ -2,8 +2,8 @@
 description: 選択エラーの処理を選択します。 選択可能なオブジェクトのマスク領域内に指定のピクセル位置がないことが原因でsel=コマンドが失敗した場合に実行するアクションを指定します。
 solution: Experience Manager
 title: OnFailSel
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

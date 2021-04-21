@@ -2,8 +2,8 @@
 description: Dynamic Mediaクラシックにアセットをアップロードするには、アップロードしたファイルに関連付けられたすべてのログアクティビティを調整するためのジョブを設定する1つ以上のHTTPPOST要求が必要です。
 solution: Experience Manager
 title: HTTP POSTを使用したUploadFileサーブレットへのアセットのアップロード
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

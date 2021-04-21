@@ -2,8 +2,8 @@
 description: 画像フィールドの配列が更新されました。
 solution: Experience Manager
 title: ImageFieldUpdateArray
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

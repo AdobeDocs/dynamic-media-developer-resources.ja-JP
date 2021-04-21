@@ -2,7 +2,7 @@
 description: バッチモードを使用してアセットのメタデータを設定します。
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt

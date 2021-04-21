@@ -2,8 +2,8 @@
 description: '[画層]を選択します。 画層を選択し、コマンドシーケンス内の新しい画層定義セグメントを開始します。'
 solution: Experience Manager
 title: layer
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

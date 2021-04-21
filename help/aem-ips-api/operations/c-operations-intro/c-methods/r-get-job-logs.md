@@ -2,8 +2,8 @@
 description: 選択した会社の指定したジョブログを取得します。 文字、方向、開始、終了日、行数で並べ替えることができます。
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

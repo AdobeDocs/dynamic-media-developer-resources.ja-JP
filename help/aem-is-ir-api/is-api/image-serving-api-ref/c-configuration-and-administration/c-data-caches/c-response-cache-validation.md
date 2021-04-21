@@ -2,8 +2,8 @@
 description: キャッシュエントリは、CacheValidationPolicy（default.ini内または特定の画像カタログの.iniファイル内）属性で選択された、カタログベースまたは有効期限ベースのキャッシュ検証を使用して自動的に更新されます。
 solution: Experience Manager
 title: 応答キャッシュの検証
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

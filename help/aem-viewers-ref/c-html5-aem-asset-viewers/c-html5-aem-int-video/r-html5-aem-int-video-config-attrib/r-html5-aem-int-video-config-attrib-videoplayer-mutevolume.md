@@ -2,8 +2,8 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 検索をより効率的に行うための検索条件の定義に役立つフィルター。
 solution: Experience Manager
 title: SearchFilter
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

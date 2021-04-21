@@ -2,8 +2,8 @@
 description: 例Aと同様ですが、背景色はべた塗りで、縦横比の異なる画像に合わせてコンポジットの高さを変えることができます。
 solution: Experience Manager
 title: 例B
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

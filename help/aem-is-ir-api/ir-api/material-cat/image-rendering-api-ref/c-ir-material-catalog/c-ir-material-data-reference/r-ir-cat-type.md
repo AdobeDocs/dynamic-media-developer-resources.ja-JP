@@ -2,8 +2,8 @@
 description: マテリアルタイプ マテリアルのサーフェスタイプ。 カタログの光沢とカタログの粗さと組み合わせて使用し、3D反射レンダリング効果を制御します。
 solution: Experience Manager
 title: 種類
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

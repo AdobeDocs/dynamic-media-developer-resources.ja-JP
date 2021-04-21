@@ -2,8 +2,8 @@
 description: バッチアセット操作中に生成される警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

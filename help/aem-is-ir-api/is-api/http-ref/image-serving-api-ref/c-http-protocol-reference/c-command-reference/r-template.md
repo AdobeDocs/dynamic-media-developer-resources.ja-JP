@@ -2,8 +2,8 @@
 description: 合成テンプレート メインカタログ以外のカタログにある合成テンプレートを指定できます。
 solution: Experience Manager
 title: テンプレート
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

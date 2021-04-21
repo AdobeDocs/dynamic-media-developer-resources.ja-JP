@@ -2,8 +2,8 @@
 description: 反転されたレイヤクリップパス 現在のレイヤーの除外クリップパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの任意の部分は、透明にレンダリングされます。
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

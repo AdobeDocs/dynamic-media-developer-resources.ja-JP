@@ -2,8 +2,8 @@
 description: カタログデータファイルには、任意の名前とファイルのサフィックスを付けることができます（.iniを除く）。 Microsoft ExcelやAccessなど、タブ区切りのテキストデータファイルをサポートするアプリケーションを使用して、簡単に管理できます。
 solution: Experience Manager
 title: カタログデータファイル
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

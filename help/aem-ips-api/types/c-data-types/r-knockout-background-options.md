@@ -2,8 +2,8 @@
 description: 選択した画像の背景をマスク（ノックアウト）します。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 デフォルトではオフのオプションのパラメーター。
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

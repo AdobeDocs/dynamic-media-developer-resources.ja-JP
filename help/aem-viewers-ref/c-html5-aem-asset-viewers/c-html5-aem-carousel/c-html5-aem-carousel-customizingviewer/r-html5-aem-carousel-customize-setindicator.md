@@ -2,8 +2,8 @@
 description: 設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在位置を表示します。
 solution: Experience Manager
 title: 設定インジケーター
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

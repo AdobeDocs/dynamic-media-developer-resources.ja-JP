@@ -2,8 +2,8 @@
 description: カルーセルビューアの設定属性ドキュメント。
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

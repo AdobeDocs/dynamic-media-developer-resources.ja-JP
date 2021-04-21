@@ -2,8 +2,8 @@
 description: 管理者は、コンテンツ管理システムとの調整やテンプレート操作のための新しいメタデータフィールドを作成できます。 作成されるメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権保持者の情報などがあります。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Mediaクラシック，SDK/API，メタデータ
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

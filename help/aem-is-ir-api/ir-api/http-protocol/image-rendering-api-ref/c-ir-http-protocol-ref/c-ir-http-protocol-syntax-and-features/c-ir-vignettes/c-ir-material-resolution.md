@@ -2,8 +2,8 @@
 description: 繰り返し可能なテクスチャや他のマテリアルの解像度値は、シーン座標空間のマテリアルイメージのサイズを定義します。
 solution: Experience Manager
 title: 材料の解像度
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

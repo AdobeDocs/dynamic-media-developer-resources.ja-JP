@@ -2,8 +2,8 @@
 description: 画像レイヤー変換の手順2は、サムネールに対して次のように変更します（req=tmbの場合）。
 solution: Experience Manager
 title: サムネールの拡大縮小
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

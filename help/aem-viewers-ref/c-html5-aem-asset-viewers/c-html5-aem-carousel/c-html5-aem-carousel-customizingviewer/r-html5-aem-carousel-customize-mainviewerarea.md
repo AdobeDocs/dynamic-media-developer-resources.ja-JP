@@ -2,8 +2,8 @@
 description: メイン表示領域は、カルーセルバナーの画像が表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

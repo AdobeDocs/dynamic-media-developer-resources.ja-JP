@@ -2,8 +2,8 @@
 description: 表面粗さ。 マテリアルサーフェスの相対的な光沢を指定します。 カタログの種類とカタログの光沢と組み合わせて使用し、3D反射レンダリング効果を制御します。
 solution: Experience Manager
 title: 粗さ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

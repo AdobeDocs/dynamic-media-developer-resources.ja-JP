@@ -2,8 +2,8 @@
 description: これらのコマンドは、ドロップシャドウ効果や光彩効果などのレイヤー効果を定義するために使用できます。 エフェクトレイヤーでは、他のすべてのコマンドは無視されます。
 solution: Experience Manager
 title: レイヤー効果コマンド
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

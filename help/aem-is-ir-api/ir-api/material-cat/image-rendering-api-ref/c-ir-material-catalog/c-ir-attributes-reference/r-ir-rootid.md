@@ -2,8 +2,8 @@
 description: カタログ識別子。 HTTP要求でビネット、マテリアル、またはICCプロファイルオブジェクト指定子の中でこのカタログを識別するために使用されるHTTPパス要素です。
 solution: Experience Manager
 title: RootId
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

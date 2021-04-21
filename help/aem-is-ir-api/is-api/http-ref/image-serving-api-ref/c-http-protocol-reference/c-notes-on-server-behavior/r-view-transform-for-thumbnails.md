@@ -2,8 +2,8 @@
 description: req=tmbリクエストに応じてクライアントに返される画像は、次の値wid=、hei=、attribute DefaultThumbPixおよびattribute MaxPixを考慮して、合成画像から得られます。
 solution: Experience Manager
 title: サムネールの表示変換
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

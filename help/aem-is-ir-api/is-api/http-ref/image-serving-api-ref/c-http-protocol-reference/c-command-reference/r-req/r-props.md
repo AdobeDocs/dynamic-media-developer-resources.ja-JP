@@ -2,8 +2,8 @@
 description: 応答データのプロパティ。 現在の要求をイメージ要求(req=img)であるかのように評価しますが、イメージを返す代わりに、サーバーは、返信イメージの選択されたプロパティを返します。
 solution: Experience Manager
 title: prop
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

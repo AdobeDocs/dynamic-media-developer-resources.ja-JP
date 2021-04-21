@@ -2,8 +2,8 @@
 description: 返信画像のサイズ制限 クライアントに返すことのできる応答画像の幅と高さの最大値。
 solution: Experience Manager
 title: MaxPix
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

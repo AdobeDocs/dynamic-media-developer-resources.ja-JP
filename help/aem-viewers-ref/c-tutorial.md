@@ -2,8 +2,8 @@
 description: ビューアSDKは、カスタムビューア開発用に、JavaScriptベースのコンポーネントのセットを提供します。 ビューアはWebベースのアプリケーションで、AdobeDynamic Mediaが提供するリッチメディアコンテンツをWebページに埋め込むことができます。
 solution: Experience Manager
 title: ビューアSDKチュートリアル
-feature: Dynamic Mediaクラシック，ビューア，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

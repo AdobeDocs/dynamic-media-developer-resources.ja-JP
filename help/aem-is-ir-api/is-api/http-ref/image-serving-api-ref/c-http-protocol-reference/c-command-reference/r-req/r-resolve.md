@@ -2,8 +2,8 @@
 description: デバッグ要求。 このdebugコマンドは、req=imgのように、リクエストの解析と前処理、画像カタログ参照の実行、カタログ修飾子の選択、マクロや変数の置換などを行います。
 solution: Experience Manager
 title: 解決
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

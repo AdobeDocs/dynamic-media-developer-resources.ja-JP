@@ -2,8 +2,8 @@
 description: 会社からプロジェクトを削除します。 アセットとプロジェクト間のリンクは無効ですが、アセットはIPSから削除されません。
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

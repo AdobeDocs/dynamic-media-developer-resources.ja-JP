@@ -2,8 +2,8 @@
 description: デフォルトのロケールID リクエストでlocale=が指定されていない場合に、ローカライゼーション/変換の目的で使用されるロケールID。
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

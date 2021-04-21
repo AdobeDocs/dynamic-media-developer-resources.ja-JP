@@ -2,8 +2,8 @@
 description: これらのコマンドは、単純な要求または画像レイヤーで使用されるソース画像と、べた塗りのレイヤーにアタッチされるマスクに適用されます。
 solution: Experience Manager
 title: ソース画像の操作
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

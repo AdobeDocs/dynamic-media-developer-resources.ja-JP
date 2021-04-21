@@ -2,8 +2,8 @@
 description: IPS Web Service APIで処理される一般的な操作パラメータについて説明します。
 solution: Experience Manager
 title: 操作メソッド
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

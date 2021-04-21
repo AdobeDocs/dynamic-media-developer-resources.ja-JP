@@ -2,8 +2,8 @@
 description: メイン表示の上に、AEM AssetsのDynamic Mediaで最初にホットスポットが作成されたオンデマンドの場所に、ホットスポットアイコンが表示されます。
 solution: Experience Manager
 title: ホットスポット
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

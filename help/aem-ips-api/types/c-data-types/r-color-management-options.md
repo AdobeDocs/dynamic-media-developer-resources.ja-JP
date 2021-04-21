@@ -2,8 +2,8 @@
 description: アップロード時に指定されたオプション。 アップロード時の色の管理方法に影響します。
 solution: Experience Manager
 title: ColorManagementOptions
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

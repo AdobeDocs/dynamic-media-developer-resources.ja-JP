@@ -2,8 +2,8 @@
 description: このマテリアルカテゴリには、壁、木工、トリム、自動車用のペイント、およびテクスチャが不要なその他の用途が含まれます。
 solution: Experience Manager
 title: べた塗り
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

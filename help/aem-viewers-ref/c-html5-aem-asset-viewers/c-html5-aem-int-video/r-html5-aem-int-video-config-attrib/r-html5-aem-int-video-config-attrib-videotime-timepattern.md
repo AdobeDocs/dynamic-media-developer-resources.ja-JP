@@ -2,8 +2,8 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

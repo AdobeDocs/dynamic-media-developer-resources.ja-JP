@@ -2,8 +2,8 @@
 description: TIFFエンコーディング形式。 TIFF画像の圧縮形式を指定します（実際には、fmt=コマンドの3番目の値のデフォルト値です）。
 solution: Experience Manager
 title: TiffEncoding
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

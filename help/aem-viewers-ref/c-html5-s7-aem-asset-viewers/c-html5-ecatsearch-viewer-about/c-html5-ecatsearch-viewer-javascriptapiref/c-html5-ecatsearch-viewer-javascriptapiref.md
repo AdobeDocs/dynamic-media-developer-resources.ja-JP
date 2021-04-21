@@ -2,8 +2,8 @@
 description: eCatalog検索ビューアのメインクラスはeCatalogSearchViewerです。 このクラスは、s7viewers名前空間で宣言されています。 このJavaScript APIは、このクラスのコンストラクター、メソッドおよびコールバックをカバーしています。
 solution: Experience Manager
 title: eCatalog検索ビューアのJavaScript APIリファレンス
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

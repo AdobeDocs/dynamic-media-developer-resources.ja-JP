@@ -2,8 +2,8 @@
 description: 画像を表示に揃える wid=およびhei=で定義されている表示の長方形内で、合成画像を（拡大/縮小後に、scl=も指定した場合に）揃えます。
 solution: Experience Manager
 title: align
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

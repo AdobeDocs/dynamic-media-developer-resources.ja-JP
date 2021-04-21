@@ -2,8 +2,8 @@
 description: スケール表示 最大解像度のビネットを基準にして、指定した拡大率でレンダリング画像を拡大縮小します。
 solution: Experience Manager
 title: scl
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

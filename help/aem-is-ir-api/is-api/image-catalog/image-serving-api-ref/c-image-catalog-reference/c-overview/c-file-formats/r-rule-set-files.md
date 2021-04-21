@@ -2,8 +2,8 @@
 description: ルールセットファイルはXML形式のテキストファイルで、適切な規格と規則に従う必要があります。
 solution: Experience Manager
 title: ルールセットファイル
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

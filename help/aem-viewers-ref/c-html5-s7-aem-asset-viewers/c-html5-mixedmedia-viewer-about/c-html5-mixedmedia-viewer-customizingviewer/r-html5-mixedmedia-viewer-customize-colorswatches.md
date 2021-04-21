@@ -2,8 +2,8 @@
 description: カラースウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 カラースウォッチは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
 solution: Experience Manager
 title: カラースウォッチ
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

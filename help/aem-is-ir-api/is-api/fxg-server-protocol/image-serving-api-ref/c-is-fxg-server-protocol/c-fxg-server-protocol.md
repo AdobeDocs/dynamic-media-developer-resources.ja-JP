@@ -2,8 +2,8 @@
 description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 solution: Experience Manager
 title: FXGサーバープロトコル
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

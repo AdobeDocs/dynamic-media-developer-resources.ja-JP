@@ -2,8 +2,8 @@
 description: これらのコマンドは、画像、テキストおよびべた塗りのレイヤーに適用されます。 ほとんどの要素は、合成画像や単純な非レイヤー要求には意味がありません。 これらは、エフェクトレイヤーには適用されません。
 solution: Experience Manager
 title: 共通のレイヤコマンド
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

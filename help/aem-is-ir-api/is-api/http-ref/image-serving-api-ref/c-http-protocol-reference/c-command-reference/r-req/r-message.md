@@ -2,8 +2,8 @@
 description: クライアントメッセージ。 クライアントがサーバーログに短いテキストメッセージを挿入するメカニズムを提供します。
 solution: Experience Manager
 title: message
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

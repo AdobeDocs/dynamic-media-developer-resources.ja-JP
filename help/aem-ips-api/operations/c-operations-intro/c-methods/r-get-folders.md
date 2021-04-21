@@ -2,8 +2,8 @@
 description: フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

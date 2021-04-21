@@ -2,8 +2,8 @@
 description: 様々な入力パラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください。
 solution: Experience Manager
 title: アセットタイプ
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

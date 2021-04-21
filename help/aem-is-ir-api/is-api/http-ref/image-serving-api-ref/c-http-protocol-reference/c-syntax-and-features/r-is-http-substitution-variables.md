@@ -2,8 +2,8 @@
 description: 置換変数は、要求URLの値を、イメージカタログに保存されているテンプレートを合成するために使用します。 変数は、複雑なリクエストの様々な場所に同じ値を伝えるためにも使用できます。
 solution: Experience Manager
 title: 代替変数
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

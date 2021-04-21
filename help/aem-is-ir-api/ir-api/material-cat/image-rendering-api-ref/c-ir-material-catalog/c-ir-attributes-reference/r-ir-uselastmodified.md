@@ -2,8 +2,8 @@
 description: 最終変更応答ヘッダーを有効にする。 画像レンダリングから発行されるキャッシュ可能なHTTP応答に、最終変更日のヘッダーを含める設定を有効または無効にします。
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

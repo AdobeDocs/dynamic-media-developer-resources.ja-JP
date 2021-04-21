@@ -2,8 +2,8 @@
 description: 必要に応じて、エフェクトレイヤーに最終的なマスクを適用し、エフェクトとレイヤーの重なり領域をマスクアウトします。
 solution: Experience Manager
 title: ApplyEffectMask
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

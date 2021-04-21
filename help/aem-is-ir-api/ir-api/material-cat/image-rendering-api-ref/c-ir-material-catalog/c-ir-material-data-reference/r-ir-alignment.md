@@ -2,8 +2,8 @@
 description: テクスチャの整列。 家具アイテムの布張り部分など、互いに関連するビネットオブジェクトに適用した場合のテクスチャの整列。 主に、高度な衣料品アプリケーション用など、表皮のレンダリングアプリケーションに使用します。
 solution: Experience Manager
 title: 行揃え
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: VideoTime.timepattern
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: a3a4f3f9-b6ef-4ee2-b006-578b743698ad
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

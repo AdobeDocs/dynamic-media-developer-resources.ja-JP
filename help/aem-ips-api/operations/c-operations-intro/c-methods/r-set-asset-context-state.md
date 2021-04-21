@@ -2,8 +2,8 @@
 description: 1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 混在メディアビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 例えば、ズームボタン、スピンボタン、ビデオコントロール、閉じるボタン、フルスクリーンボタン、スウォッチスクロールボタンなどです。
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

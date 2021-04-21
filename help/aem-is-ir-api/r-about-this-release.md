@@ -2,8 +2,8 @@
 description: このリリース（画像サービング6.6.1および画像レンダリング6.6.1）は、画像サービング6.5.3および画像レンダリング6.5.3に置き換えられました。
 solution: Experience Manager
 title: このリリースについて
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 生のセット定義文字列を使用して、Image Serverに公開する汎用アセットセットを作成します。
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

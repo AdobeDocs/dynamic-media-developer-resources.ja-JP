@@ -2,8 +2,8 @@
 description: リクエスト修飾子文字列 「&」文字で区切られた、1つ以上の画像レンダリングコマンド。 このビネットマップのエントリを要求するたびに適用されるテンプレートおよび修飾子を保存するために使用します。
 solution: Experience Manager
 title: 修飾子
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

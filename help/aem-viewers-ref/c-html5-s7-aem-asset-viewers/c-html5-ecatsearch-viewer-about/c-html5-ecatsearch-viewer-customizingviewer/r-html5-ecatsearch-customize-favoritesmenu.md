@@ -2,8 +2,8 @@
 description: コントロールバーに、お気に入りメニューのドロップダウンリストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成されます。 このパネルには、お気に入りツールが個別に含まれています。
 solution: Experience Manager
 title: お気に入りメニュー
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog検索
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

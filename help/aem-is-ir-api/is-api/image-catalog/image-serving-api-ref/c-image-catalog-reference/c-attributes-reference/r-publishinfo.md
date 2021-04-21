@@ -2,8 +2,8 @@
 description: カタログ注釈文字列 カタログバージョン、公開日などの識別に使用できるテキスト文字列。
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

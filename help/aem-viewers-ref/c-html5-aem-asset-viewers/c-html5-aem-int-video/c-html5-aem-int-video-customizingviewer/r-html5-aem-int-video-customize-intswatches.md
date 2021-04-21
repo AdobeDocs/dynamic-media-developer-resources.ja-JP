@@ -2,8 +2,8 @@
 description: インタラクティブデータが設定でビューアに渡されると、インタラクティブスウォッチパネルがビデオコンテンツの横に表示されます。 上部に表示されるバナーは、「クリックして表示」、1つ以上のインタラクティブスウォッチの列、2つのスクロールボタン（デスクトップシステムのみ）などのテキストをレンダリングします。
 solution: Experience Manager
 title: インタラクティブスウォッチ
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 会社、グループ、およびユーザーの役割ハンドルで指定されたユーザーの配列を取得します。 この操作により、返されたユーザーを並べ替えたり、文字でフィルターしたりできます。
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

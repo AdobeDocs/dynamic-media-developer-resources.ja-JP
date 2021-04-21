@@ -2,8 +2,8 @@
 description: ビデオ画像ビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

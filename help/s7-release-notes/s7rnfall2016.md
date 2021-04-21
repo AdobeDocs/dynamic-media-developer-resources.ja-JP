@@ -2,8 +2,8 @@
 description: 「Adobe Marketing CloudのAdobe Experience Managerソリューションの一部である、Adobe Scene7秋の2016年リリースの最新リリースノートです。」
 solution: Experience Manager
 title: Scene7秋2016年リリース
-feature: Dynamic Mediaクラシック
-role: 開発者、業務従事者
+feature: Dynamic Media Classic
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

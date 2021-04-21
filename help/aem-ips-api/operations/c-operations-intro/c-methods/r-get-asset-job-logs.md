@@ -2,8 +2,8 @@
 description: アセットのジョブログを取得します。 配列に返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、authHeaderフィールドに基づいてローカライズされます。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Mediaクラシック，SDK/API，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
 solution: Experience Manager
 title: 次のスライド
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

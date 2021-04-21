@@ -2,8 +2,8 @@
 description: 設定属性は、レスポンシブ画像ライブラリが管理するIMG要素で直接属性として定義されます。 各画像には、独自の属性セットを設定できます。
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

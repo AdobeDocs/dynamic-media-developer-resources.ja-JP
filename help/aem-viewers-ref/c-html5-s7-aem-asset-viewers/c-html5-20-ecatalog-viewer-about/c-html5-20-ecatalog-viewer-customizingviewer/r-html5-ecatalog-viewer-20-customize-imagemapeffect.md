@@ -2,8 +2,8 @@
 description: modeパラメータの値に応じて、メイン表示の上の画像マップアイコンが、最初にDynamic Mediaクラシックでマップが作成された場所に表示されるか、元の画像マップの形状と一致する正確な領域がレンダリングされます。
 solution: Experience Manager
 title: 画像マップエフェクト
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

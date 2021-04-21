@@ -2,8 +2,8 @@
 description: すべてのビューアに共通のパラメータ。
 solution: Experience Manager
 title: caption
-feature: Dynamic Mediaクラシック，ビューア，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

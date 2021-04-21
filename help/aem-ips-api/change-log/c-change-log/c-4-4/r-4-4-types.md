@@ -2,8 +2,8 @@
 description: IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
 title: 新規および変更されたデータタイプ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

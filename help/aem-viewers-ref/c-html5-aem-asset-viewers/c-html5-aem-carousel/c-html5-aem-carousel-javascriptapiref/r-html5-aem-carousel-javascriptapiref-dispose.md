@@ -2,8 +2,8 @@
 description: カルーセルビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: 処分する
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 64e9f83f-e17e-4544-825a-fd458e15fdb5
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

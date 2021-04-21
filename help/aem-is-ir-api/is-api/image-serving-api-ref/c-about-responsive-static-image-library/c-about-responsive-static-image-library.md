@@ -2,8 +2,8 @@
 description: レスポンシブ画像ライブラリは、Dynamic Mediaから提供される画像の品質を動的に調整し、レスポンシブWebページに埋め込むJavaScriptモジュールです。 また、高密度の画面を持つデバイスの画質も向上します。 ライブラリは、スマート切り抜きとスマートスウォッチからの結果を応答的にレンダリングすることもできます。
 solution: Experience Manager
 title: レスポンシブ画像ライブラリについて
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

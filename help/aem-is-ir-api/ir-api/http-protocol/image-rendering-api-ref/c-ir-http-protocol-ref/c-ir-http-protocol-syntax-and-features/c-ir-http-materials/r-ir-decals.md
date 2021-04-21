@@ -2,8 +2,8 @@
 description: デカル転写のマテリアルには、アプリケ、tシャツの印刷、刺繍や印刷ロゴなどのアパレル構成、およびエリアラグ、壁掛けアート、看板などの内部や外部の用途で使用される繰り返し不可能なフラットオブジェクトが含まれます。
 solution: Experience Manager
 title: デカル
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

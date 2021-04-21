@@ -2,8 +2,8 @@
 description: 設定インジケーターは、タッチデバイスでビューアを使用したときにメインスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 solution: Experience Manager
 title: 設定インジケーター
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

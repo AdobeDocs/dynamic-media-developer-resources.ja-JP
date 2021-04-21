@@ -2,8 +2,8 @@
 description: すべてのビューアコンポーネントは、ARIA(Accessible Rich Internet Applications)の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 solution: Experience Manager
 title: 支援テクノロジーのサポート
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，フライアウト，アクセシビリティ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout,Accessibility
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

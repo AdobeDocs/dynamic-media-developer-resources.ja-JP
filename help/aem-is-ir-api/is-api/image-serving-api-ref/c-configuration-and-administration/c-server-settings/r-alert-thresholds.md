@@ -2,8 +2,8 @@
 description: これらのサーバー設定を使用して、アラートしきい値を設定します。
 solution: Experience Manager
 title: アラートしきい値
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

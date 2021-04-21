@@ -2,8 +2,8 @@
 description: 画像サービング制御スクリプト このスクリプトを使用して、Image Serving Serverスーパーバイザの開始、停止または再起動を行います。これにより、開始、停止または再起動が行われ、他のすべての画像サービングコンポーネントが再起動されます。
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

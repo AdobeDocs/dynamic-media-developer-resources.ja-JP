@@ -2,8 +2,8 @@
 description: すべてのRender Server Settingsは、install_root/ImageServing/conf/PlatformServer.confにあります。 設定変数の名前は括弧内に表示されます。
 solution: Experience Manager
 title: 設定リファレンス
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

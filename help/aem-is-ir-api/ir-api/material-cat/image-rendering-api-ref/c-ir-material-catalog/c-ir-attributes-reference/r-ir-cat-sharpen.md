@@ -2,8 +2,8 @@
 description: 初期設定の返信画像へのシャープの適用 エンコーディング前に拡大/縮小された返信画像をシャープにするかどうかを指定します。
 solution: Experience Manager
 title: シャープ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

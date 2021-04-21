@@ -2,8 +2,8 @@
 description: 相対画像URLのルートURL 相対画像URLのルートURLを指定します。 attribute src=値が{波括弧}で囲まれている場合、attribute RootPath属性の代わりにRootUrlが使用されます。
 solution: Experience Manager
 title: RootUrl *
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

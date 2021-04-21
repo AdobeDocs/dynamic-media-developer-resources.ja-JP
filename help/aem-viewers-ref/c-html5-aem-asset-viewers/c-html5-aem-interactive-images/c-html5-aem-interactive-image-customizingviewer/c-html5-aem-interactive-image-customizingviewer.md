@@ -3,8 +3,8 @@ description: インタラクティブ画像ビューアのすべての視覚的�
 keywords: レスポンシブ
 solution: Experience Manager
 title: インタラクティブ画像ビューアのカスタマイズ
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

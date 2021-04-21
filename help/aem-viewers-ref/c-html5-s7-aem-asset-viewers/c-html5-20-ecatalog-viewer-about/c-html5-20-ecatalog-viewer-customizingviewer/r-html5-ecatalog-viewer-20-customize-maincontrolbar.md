@@ -2,8 +2,8 @@
 description: メインコントロールバーは、デスクトップシステムおよびタブレットの矩形の領域で、eCatalogビューアで使用できるすべてのユーザインターフェイスコントロール（大きいページボタンを除く）が含まれます。
 solution: Experience Manager
 title: メインコントロールバー
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,eCatalog
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

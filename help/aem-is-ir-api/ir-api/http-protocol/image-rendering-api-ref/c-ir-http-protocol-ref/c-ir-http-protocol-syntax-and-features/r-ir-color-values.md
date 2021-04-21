@@ -2,8 +2,8 @@
 description: color=およびbgc=属性のカラー値は、HTMLと同様に、10進数、カンマ区切りのコンポーネント値、または16進数表記を使用して指定できます。
 solution: Experience Manager
 title: カラー値
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

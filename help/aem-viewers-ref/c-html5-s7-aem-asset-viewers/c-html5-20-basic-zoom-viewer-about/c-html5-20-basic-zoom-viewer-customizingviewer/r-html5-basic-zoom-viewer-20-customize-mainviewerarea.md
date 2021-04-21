@@ -2,8 +2,8 @@
 description: メイン表示領域は、ズーム画像が表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，ズーム
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

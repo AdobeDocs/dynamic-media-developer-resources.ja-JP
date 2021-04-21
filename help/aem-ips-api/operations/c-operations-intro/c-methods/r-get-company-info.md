@@ -2,8 +2,8 @@
 description: 会社ハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

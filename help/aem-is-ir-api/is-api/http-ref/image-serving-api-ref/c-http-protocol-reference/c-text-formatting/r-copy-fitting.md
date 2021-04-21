@@ -2,8 +2,8 @@
 description: textPs=は、フォントサイズを自動的に調整してテキスト領域を最適に埋め、オーバーフローを回避しながら下の余分なスペースを最小限に抑える独自のコピーフィッティングアルゴリズムを実装します。
 solution: Experience Manager
 title: 継ぎ手のコピー
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

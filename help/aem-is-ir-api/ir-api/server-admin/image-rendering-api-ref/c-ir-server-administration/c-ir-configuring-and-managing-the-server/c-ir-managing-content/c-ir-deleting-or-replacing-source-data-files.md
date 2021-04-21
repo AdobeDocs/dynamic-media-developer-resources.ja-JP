@@ -2,8 +2,8 @@
 description: ビネットファイルは、サーバの稼働中に、ファイルが上書きされる直前にreq=releaseコマンドを使用して置き換えたり削除したりできます。
 solution: Experience Manager
 title: ソースデータファイルの削除または置換
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

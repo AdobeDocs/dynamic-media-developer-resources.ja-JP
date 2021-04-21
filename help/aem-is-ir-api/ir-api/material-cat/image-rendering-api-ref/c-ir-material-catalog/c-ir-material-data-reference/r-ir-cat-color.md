@@ -2,8 +2,8 @@
 description: マテリアルの色 べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加法色。
 solution: Experience Manager
 title: カラー
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

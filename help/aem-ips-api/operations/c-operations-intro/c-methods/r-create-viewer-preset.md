@@ -2,8 +2,8 @@
 description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Mediaクラシック，SDK/API，ビューアプリセット
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

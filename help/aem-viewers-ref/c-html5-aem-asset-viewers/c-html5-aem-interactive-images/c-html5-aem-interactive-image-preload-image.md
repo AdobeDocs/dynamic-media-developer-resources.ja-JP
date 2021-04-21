@@ -2,8 +2,8 @@
 description: プリロード画像は静的なアセットプレビュー画像で、init()メソッドを呼び出した直後に読み込まれ、ビューアSDKライブラリ、アセットおよびプリセット情報のダウンロード中に表示されます。 プリロード画像の目的は、ビューアの読み込み時間を視覚的に改善し、コンテンツをユーザに迅速に提示することです。
 solution: Experience Manager
 title: 画像のプリロード
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，インタラクティブ画像
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 54bea5fc-916c-4a58-bc06-b726884d488a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
 solution: Experience Manager
 title: 一般的なデータ型
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

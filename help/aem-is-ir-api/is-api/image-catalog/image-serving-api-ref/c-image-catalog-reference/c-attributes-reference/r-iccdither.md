@@ -2,8 +2,8 @@
 description: 色変換ディザリング。 icc=で明示的な選択が行われない場合に、ディザリングを使用して、色の変換の知覚的な品質を向上させるかどうかを指定します。
 solution: Experience Manager
 title: IccDither
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

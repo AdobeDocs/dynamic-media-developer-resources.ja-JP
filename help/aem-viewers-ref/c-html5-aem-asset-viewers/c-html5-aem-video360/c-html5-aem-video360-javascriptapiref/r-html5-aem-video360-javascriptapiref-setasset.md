@@ -2,8 +2,8 @@
 description: ビデオ360ビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Mediaクラシック，ビューア，SDK/API,360 VRビデオ
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 画像の背景色または透明度に基づいて、画像の切り抜かれた領域を返します。
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

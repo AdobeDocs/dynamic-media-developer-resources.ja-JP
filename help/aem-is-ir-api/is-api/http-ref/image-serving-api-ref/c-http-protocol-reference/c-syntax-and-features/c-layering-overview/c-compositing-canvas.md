@@ -2,8 +2,8 @@
 description: レイヤーは、layer=コマンドで指定された順序で合成されます。番号の大きいレイヤーは、番号の小さいレイヤーを非表示にします。
 solution: Experience Manager
 title: 合成キャンバス
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

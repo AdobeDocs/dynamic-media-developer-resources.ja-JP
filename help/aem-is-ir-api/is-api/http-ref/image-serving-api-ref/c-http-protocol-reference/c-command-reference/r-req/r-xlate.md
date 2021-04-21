@@ -2,8 +2,8 @@
 description: ロケール固有の使用可能なバージョン。 要求パスで指定されたカタログIDの、使用可能なロケール固有のバージョンのリストを返します。
 solution: Experience Manager
 title: xlate
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

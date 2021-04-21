@@ -2,8 +2,8 @@
 description: IPS API v4.0の新しい変更と実装された変更について説明します。
 solution: Experience Manager
 title: 新しい追加と変更
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

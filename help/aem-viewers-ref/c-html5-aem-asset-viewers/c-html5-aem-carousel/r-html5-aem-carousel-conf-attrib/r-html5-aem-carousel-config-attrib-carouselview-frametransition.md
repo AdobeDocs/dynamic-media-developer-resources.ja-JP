@@ -2,8 +2,8 @@
 description: CarouselView.frametransition
 solution: Experience Manager
 title: CarouselView.frametransition
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

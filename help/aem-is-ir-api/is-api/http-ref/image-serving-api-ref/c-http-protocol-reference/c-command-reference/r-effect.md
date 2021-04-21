@@ -2,8 +2,8 @@
 description: 「効果レイヤー」を選択します。 効果レイヤーを選択し、要求文字列内の新しいレイヤーセグメントを開始します。このレイヤーセグメントは現在のレイヤーに関連付けられています。
 solution: Experience Manager
 title: effect
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

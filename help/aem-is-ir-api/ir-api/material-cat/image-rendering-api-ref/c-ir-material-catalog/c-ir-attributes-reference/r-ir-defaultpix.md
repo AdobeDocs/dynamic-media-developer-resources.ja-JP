@@ -2,8 +2,8 @@
 description: 初期設定のレンダリングイメージサイズ リクエストでwid=またはhei=を使用して明示的に表示サイズが指定されていない場合、応答画像はこの幅と高さ以下に制限されます。
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

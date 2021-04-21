@@ -2,8 +2,8 @@
 description: コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，混在メディアセット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

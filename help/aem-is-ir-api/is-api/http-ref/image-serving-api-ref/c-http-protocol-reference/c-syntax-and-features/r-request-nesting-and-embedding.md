@@ -2,8 +2,8 @@
 description: 画像サービングでは、画像サービング要求の無制限のネスト、画像レンダリング要求の埋め込み、および外部サーバから取得した画像の埋め込みをサポートしています。 これらのメカニズムは、レイヤー画像とレイヤーマスクのみでサポートされます。
 solution: Experience Manager
 title: リクエストのネストと埋め込み
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

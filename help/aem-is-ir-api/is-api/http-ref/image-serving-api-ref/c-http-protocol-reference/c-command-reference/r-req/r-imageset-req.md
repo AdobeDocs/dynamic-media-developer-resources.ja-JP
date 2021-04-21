@@ -2,8 +2,8 @@
 description: 画像カタログからの画像セットデータ。 URLパスで指定された画像カタログエントリの画像セットデータを返します。
 solution: Experience Manager
 title: imageset
-feature: Dynamic Mediaクラシック，SDK/API，画像セット
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

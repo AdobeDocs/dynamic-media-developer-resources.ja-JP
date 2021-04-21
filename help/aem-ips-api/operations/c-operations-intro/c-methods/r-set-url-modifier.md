@@ -2,8 +2,8 @@
 description: 指定したアセットに対する画像サービングまたは画像レンダリングプロトコルコマンドを設定します。 次の各コマンドは、アセットを破棄することなくアセットの表現を変更します。
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

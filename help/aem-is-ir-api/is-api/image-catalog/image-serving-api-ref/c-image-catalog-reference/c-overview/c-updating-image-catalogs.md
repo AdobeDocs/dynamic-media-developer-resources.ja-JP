@@ -2,8 +2,8 @@
 description: サーバは、カタログフォルダを継続的に監視し、メインのカタログ属性ファイルが変更されたことを検出すると、関連するカタログデータファイルを含む画像カタログを自動的に再読み込みします。
 solution: Experience Manager
 title: 画像カタログの更新
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

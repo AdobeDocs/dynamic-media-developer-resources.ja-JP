@@ -2,8 +2,8 @@
 description: レイヤーを反転 切り抜き=を適用した後、回転=と延長=を適用した後に、レイヤーを水平方向、垂直方向または両方向に反転します。
 solution: Experience Manager
 title: 反転
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

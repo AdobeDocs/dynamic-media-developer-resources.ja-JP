@@ -2,8 +2,8 @@
 description: カルーセルビューアは、ズーム可能でないバナー画像のカルーセルと、クリック可能なホットスポットまたは領域を表示するビューアです。 このビューアの目的は、「買い物かごのあるカルーセル」エクスペリエンスを実装し、バナー画像の上でホットスポットまたは領域を選択して、顧客のWebサイトのクイックビューまたは製品の詳細ページにリダイレクトすることです。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 solution: Experience Manager
 title: カルーセル
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: テキスト文字列ローカライゼーションを使用すると、画像カタログに、同じ文字列値に対して複数のロケール固有の表現を含めることができます。
 solution: Experience Manager
 title: テキスト文字列ローカライゼーション
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

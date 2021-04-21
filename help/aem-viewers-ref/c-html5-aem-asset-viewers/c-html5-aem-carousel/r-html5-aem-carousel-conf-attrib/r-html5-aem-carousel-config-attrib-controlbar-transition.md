@@ -2,8 +2,8 @@
 description: カルーセルビューアの設定属性。
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Mediaクラシック，ビューア，SDK/API，カルーセルバナー
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

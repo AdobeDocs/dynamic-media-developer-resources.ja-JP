@@ -2,8 +2,8 @@
 description: スケール表示 invFactorの逆数で合成画像を拡大・縮小します。
 solution: Experience Manager
 title: scl
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

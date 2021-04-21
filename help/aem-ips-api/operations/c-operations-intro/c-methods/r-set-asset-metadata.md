@@ -2,8 +2,8 @@
 description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Mediaクラシック，SDK/API，メタデータ，アセット管理
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

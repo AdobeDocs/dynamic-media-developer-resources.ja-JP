@@ -2,8 +2,8 @@
 description: Photoshopスタイルのレイヤーシャドウ効果と光彩効果は、layer=0やlayer=compなど、任意のレイヤー（親レイヤー）にアタッチできる特殊なサブレイヤー（エフェクトレイヤー）を使用して実装されます。
 solution: Experience Manager
 title: レイヤー効果
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

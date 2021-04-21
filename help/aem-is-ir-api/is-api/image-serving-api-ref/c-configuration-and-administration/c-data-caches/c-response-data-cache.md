@@ -2,8 +2,8 @@
 description: プラットフォームサーバーは、要求がキャッシュ不可とマークされていない限り、すべての返信画像と特定のテキストデータをディスクにキャッシュします。
 solution: Experience Manager
 title: 応答データキャッシュ
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

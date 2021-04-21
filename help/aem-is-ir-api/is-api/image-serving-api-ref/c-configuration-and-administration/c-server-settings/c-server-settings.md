@@ -2,8 +2,8 @@
 description: この節では、編集可能なすべての設定について説明します。これらの設定は、関心領域ごとにグループ化されています。
 solution: Experience Manager
 title: サーバー設定
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

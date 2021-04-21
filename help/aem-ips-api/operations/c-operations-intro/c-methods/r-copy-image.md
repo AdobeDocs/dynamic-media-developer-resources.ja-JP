@@ -2,8 +2,8 @@
 description: 既存の画像アセットのコピーを作成します。 指定したImage Serverプロトコルコマンドを適用して、新しいコピーを生成します
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者，管理者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

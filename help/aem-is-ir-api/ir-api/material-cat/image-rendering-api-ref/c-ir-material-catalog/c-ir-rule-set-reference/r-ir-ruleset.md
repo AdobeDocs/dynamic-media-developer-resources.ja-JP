@@ -2,8 +2,8 @@
 description: ルールコンテナ要素を参照してください。 有効なルールセットファイルには、1つの<ruleset>要素が含まれています。
 solution: Experience Manager
 title: ルールセット
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: キャッシュ・クラスタリングを使用すると、複数の負荷分散サーバーが1次応答キャッシュと2次データ・キャッシュ（入れ子/埋め込み要求）のキャッシュ・エントリを交換でき、複数のサーバーで同じキャッシュ・エントリを生成する必要がなくなります。
 solution: Experience Manager
 title: キャッシュクラスタリング
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、管理者、実業家
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 画像の切り抜き 長方形の切り抜き領域をピクセル単位で指定するか、最大解像度のソース画像またはマスク画像を基準にして正規化します。
 solution: Experience Manager
 title: 切り抜き
-feature: Dynamic Mediaクラシック，SDK/API
-role: 開発者、業務従事者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
