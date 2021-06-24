@@ -1,20 +1,19 @@
 ---
-description: 色のデータ型です。
+description: カラーデータタイプ。
 solution: Experience Manager
 title: カラー
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b47f772e-a15c-4277-b0d4-9147efb70156
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
+# カラー{#color}
 
-# 色{#color}
+カラーデータタイプ。
 
-色のデータ型です。
-
-色の値。 16進数のパックRGB値。オプションで先頭に`0x`を付けます。 例えば、RGB値`128,255,0`は`0x80ff00`または`80ff00`と指定できます。
+カラー値 16進数のパックRGB値。オプションで先頭に`0x`を付けます。 例えば、RGB値`128,255,0`を`0x80ff00`または`80ff00`として指定できます。
