@@ -2,16 +2,15 @@
 description: 特定の会社およびグループに属するユーザーを取得します。
 solution: Experience Manager
 title: getGroupMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getGroupMembers{#getgroupmembers}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ{#section-08a73460d122480292205bb8f2df9220}
+## 許可されたユーザーの種類 {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,8 +30,8 @@ ht-degree: 17%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`groupHandle`*` | `xsd:string` |  | グループへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| `*`groupHandle`*` | `xsd:string` |  | グループのハンドル。 |
 
 **出力(getGroupMembersReturn)**
 
@@ -42,7 +41,7 @@ ht-degree: 17%
 
 ## 例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-次のコードの例は、特定のグループに属するすべてのユーザーを含むユーザーハンドルの配列を返します。
+このコード例は、特定のグループに属するすべてのユーザーを含むユーザーハンドル配列を返します。
 
 **リクエスト**
 
@@ -62,4 +61,3 @@ ht-degree: 17%
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
