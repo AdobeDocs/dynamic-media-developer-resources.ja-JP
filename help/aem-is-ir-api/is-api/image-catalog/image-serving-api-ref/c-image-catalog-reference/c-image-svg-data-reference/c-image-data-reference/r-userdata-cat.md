@@ -2,16 +2,15 @@
 description: ユーザデータ. サーバーは、req=userdataに応答して、このフィールドの内容をクライアントに返します。
 solution: Experience Manager
 title: ユーザデータ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4994c91c-52d7-473d-88ee-f136c4193c40
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 8%
 
 ---
-
 
 # ユーザデータ{#userdata}
 
@@ -21,9 +20,9 @@ ht-degree: 8%
 
 テキスト文字列の値。 [プロパティデータ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)の形式を使用することをお勧めします。 プロパティデータの形式設定を使用しない場合、テキスト文字列に「=」文字を含めることはできません。
 
-ズーム、スピン、パンフレットの各ビューアのお客様は、このフィールドでプロパティデータの形式設定が使用されると想定しています。 これらのクライアントは、ビューアの設定とカスタマイズにこのフィールドを使用します。 詳しくは、Viewerのドキュメントを参照してください。
+ズーム、スピン、パンフレットの各ビューアクライアントは、データ形式設定プロパティを使用する目的でこのフィールドを使用します。 これらのクライアントは、ビューアの設定とカスタマイズにこのフィールドを使用します。 詳しくは、ビューアのドキュメントを参照してください。
 
-このフィールドは、テキスト文字列ローカライゼーションに関与します。 詳しくは、『*HTTPプロトコルリファレンス*』の[テキスト文字列ローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)を参照してください。
+このフィールドは、テキスト文字列のローカライゼーションに関与します。 詳しくは、「*HTTPプロトコルリファレンス*」の「[テキスト文字列のローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)」を参照してください。
 
 ## 初期設定 {#section-7ee879762130467199745f2abc662f1e}
 
@@ -31,4 +30,4 @@ ht-degree: 8%
 
 ## 関連項目 {#section-e07a022933b2461d9c37b1f188aa8fb5}
 
-[req=userdata](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [テキスト文字列ローカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[req=userdata](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) 、テキスト文字列のロ [ーカライゼーション](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
