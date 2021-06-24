@@ -2,24 +2,23 @@
 description: アセットの画像マップを設定します。
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 10%
 
 ---
-
 
 # setImageMaps{#setimagemaps}
 
 アセットの画像マップを設定します。
 
-既に画像マップを作成しておく必要があります。 画像マップは、アレイから検索された順に適用される。 つまり、2番目の画像マップは1番目の画像をオーバーレイし、3番目の画像マップは2番目の画像をオーバーレイし、以下同様に重ねて表示されます。
+既に画像マップを作成している必要があります。 画像マップは、配列から検索される順に適用される。 つまり、2番目の画像マップは最初の画像をオーバーレイし、3番目の画像マップは2番目の画像をオーバーレイするなど、
 
-## 認証済みユーザータイプ{#section-adb21c5b679249939dd83816e4a0ee97}
+## 許可されたユーザーの種類 {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
 | `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | はい | 定義済みの画像マップの配列。 |
 
 **出力(setImageMapsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | はい | アセットに適用される画像マップハンドルを持つ配列。 |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | はい | アセットに適用された画像マップハンドルを持つ配列。 |
 
 ## 例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-このコードのサンプルでは、1つの画像アセットに対して2つの画像マップを設定します。 このコードは、画像マップを呼び出す際に実行される形状の種類、領域、およびアクションを指定します。 応答には、画像マップに対するハンドルを持つ配列が含まれます。
+このコードサンプルは、画像アセットの2つの画像マップを設定します。 このコードは、画像マップが呼び出されたときの形状の種類、領域、および操作を指定します。 応答には、画像マップに対するハンドルを持つ配列が含まれます。
 
 **リクエスト**
 
@@ -72,4 +71,3 @@ ht-degree: 10%
    </imageMapArray>
 </setImageMapsParam>
 ```
-
