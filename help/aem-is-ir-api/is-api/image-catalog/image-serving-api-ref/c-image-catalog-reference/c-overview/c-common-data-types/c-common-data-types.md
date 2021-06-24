@@ -1,21 +1,20 @@
 ---
-description: カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
+description: カタログの属性とフィールドには、次のいずれかのタイプのデータを含めることができます。
 solution: Experience Manager
 title: 一般的なデータ型
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f9654c04-62c7-4820-a7e0-9242c8673e7d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 1%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
+# 一般的なデータ型{#common-data-types}
 
-# 共通のデータ型{#common-data-types}
-
-カタログの属性とフィールドには、次のいずれかの種類のデータを含めることができます。
+カタログの属性とフィールドには、次のいずれかのタイプのデータを含めることができます。
 
 * [カラー](r-is-cat-color.md)
 * [フラグ](r-flag.md)
