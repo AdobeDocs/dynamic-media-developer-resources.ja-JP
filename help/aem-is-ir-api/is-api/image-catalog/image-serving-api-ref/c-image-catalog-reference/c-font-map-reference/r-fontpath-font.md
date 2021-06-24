@@ -1,25 +1,24 @@
 ---
-description: フォントファイルのパス プリンシパルフォントファイルのパスと名前（ファイルのサフィックスを含む）。
+description: フォントのファイルパス プリンシパルフォントファイルのパスと名前（ファイルサフィックスを含む）。
 solution: Experience Manager
 title: FontPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 251ded53-47db-4855-a40b-7078dfc24d87
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '57'
 ht-degree: 10%
 
 ---
 
-
 # FontPath{#fontpath}
 
-フォントファイルのパス プリンシパルフォントファイルのパスと名前（ファイルのサフィックスを含む）。
+フォントのファイルパス プリンシパルフォントファイルのパスと名前（ファイルサフィックスを含む）。
 
 ## プロパティ {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-テキスト文字列。 必須。有効なImage Serverファイルパス（絶対パスまたは`attribute::RootPath`を基準とする相対パス）を指定する必要があります。
+テキスト文字列。 必須。有効なImage Serverファイルパス（絶対パスまたは`attribute::RootPath`に対する相対パス）が必要です。
 
 ## 初期設定 {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 
