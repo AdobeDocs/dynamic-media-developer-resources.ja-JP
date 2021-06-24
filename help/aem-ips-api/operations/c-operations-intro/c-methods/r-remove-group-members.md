@@ -2,16 +2,15 @@
 description: 特定のグループから会社ユーザーを削除します。
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
-
 
 # removeGroupMembers{#removegroupmembers}
 
@@ -22,7 +21,7 @@ ht-degree: 9%
 * `removeGroupMembers`:グループから複数のユーザーを削除します。
 * `removeGroupMembership`:グループの配列から個々のユーザーを削除します。
 
-## 認証済みユーザータイプ{#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 許可されたユーザーの種類 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,9 +33,9 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 操作する会社のユーザーへのハンドル。 |
-| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル |
-| `*`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを削除するユーザーのハンドルの配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 操作するユーザーを含む会社へのハンドル。 |
+| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
+| `*`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを削除するユーザーのハンドルの配列。 |
 
 **出力(removeGroupMembersParam)**
 
@@ -44,7 +43,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-このコードのサンプルを使用すると、指定した会社からユーザーを削除できます。 ユーザーハンドル配列を持つグループから複数のユーザーを削除します。
+このコード例では、指定した会社からユーザーを削除します。 ユーザーハンドル配列を持つグループから複数のユーザーを削除します。
 
 **リクエスト**
 
