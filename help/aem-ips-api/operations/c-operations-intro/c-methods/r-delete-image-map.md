@@ -2,16 +2,15 @@
 description: 画像マップを削除します。
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 12%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 構文
 
-## 認証済みユーザータイプ{#section-41fd188af16a40d4b07923165bcf15d8}
+## 許可されたユーザーの種類 {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,7 +46,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-このコードサンプルを使用すると、会社から画像マップを削除できます。 別の操作から画像マップハンドルを取得する必要があります。
+このコードサンプルは、会社から画像マップを削除します。 別の操作から画像マップハンドルを取得する必要があります。
 
 **リクエスト**
 
