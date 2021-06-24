@@ -1,27 +1,26 @@
 ---
-description: オプションのロックサフィックスを含む、リクエスト文字列の修飾子部分全体の内容は、標準のbase64エンコーディングを適用すると見にくくなる場合があります。
+description: オプションのロックサフィックスを含む、要求文字列の修飾子部分全体の内容は、標準のbase64エンコーディングを適用することで隠される場合があります。
 solution: Experience Manager
-title: 不明化のリクエスト
-feature: Dynamic Media Classic,SDK/API
+title: 難読化のリクエスト
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
 
+# 難読化のリクエスト{#request-obfuscation}
 
-# 不明化のリクエスト{#request-obfuscation}
+オプションのロックサフィックスを含む、要求文字列の修飾子部分全体の内容は、標準のbase64エンコーディングを適用することで隠される場合があります。
 
-オプションのロックサフィックスを含む、リクエスト文字列の修飾子部分全体の内容は、標準のbase64エンコーディングを適用すると見にくくなる場合があります。
-
-`attribute::RequestObfuscation`が設定されている場合、サーバはデコードを試みます。 デコードが失敗すると、要求は拒否されます。 要求ロックと要求の不明化の両方が適用される場合は、ロックサフィックスを生成して、base64エンコーディングの前に追加する必要があります。
+`attribute::RequestObfuscation`が設定されている場合、サーバはデコードを試みます。 デコードが失敗すると、要求は拒否されます。 リクエストのロックとリクエストの難読化の両方が適用される場合、ロックサフィックスを生成して、base64エンコーディングの前に追加する必要があります。
 
 >[!IMPORTANT]
 >
->この機能を有効にする場合、使用には次のような制限があります。<br>-Dynamic Mediaのユーザーインターフェイスには、「**[!UICONTROL 最後に発行された]**」フィールドの正しい詳細が表示されない場合があります。 ただし、この影響は投稿には影響しません。<br> — 現在、**[!UICONTROL 要求の]** 不明化と **[!UICONTROL 要求のロックが有効な場合、HLSビデオストリーミングは機能しません]** 。<br> — 現在、Dynamic Mediaビューアの中には、「 **[!UICONTROL 要求の]** 不明化」と「 **[!UICONTROL 要求のロック化」が有効になっていると機能しないものがあ]** ります。
+>この機能を有効にする場合、使用には次のような制限があります。<br>- Dynamic Mediaユーザーインターフェイスに「**[!UICONTROL 最終公開日]**」フィールドの正しい詳細が表示されない場合があります。 ただし、この影響はパブリッシュには影響しません。<br> — 現在、要求の難読化と要求のロック化が有効な場合、HLSビデオス&#x200B;**[!UICONTROL トリー]** ミングは機 **[!UICONTROL 能し]** ません。<br> — 現在、要求の難読化と要求のロックが有効な場合、一部のDynamic Media **[!UICONTROL ビューア]** は機能しま **** せん。
 
 ## 例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -31,8 +30,8 @@ ht-degree: 1%
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-値文字列内の「=」、「&amp;」および「%」は、エンコード「%xx」を使用してエスケープする必要があります。エスケープが行われないと、リクエストが不明化されます。 base64エンコーディングはHTTP送信に安全なので、リクエストのロックが適用されていても、不明化の前後に、リクエストの&#x200B;*修飾子*&#x200B;部分をhttpエンコードする必要はありません。
+値文字列内の「=」、「&amp;」および「%」の出現箇所は、要求を不明化する前に、「%xx」エンコーディングを使用してエスケープする必要があります。 base64エンコーディングはhttp送信に安全なので、難読化の前または後に、要求の&#x200B;*modifiers*&#x200B;部分をhttpエンコードする必要はありません。
 
 ## 関連項目 {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
-[HTTPエンコーディング](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)、 [要求ロック](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c)、 [attribute::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)
+[HTTPエンコーディング](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)、 [リクエストロック](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-locking.md#reference-4177193d20774daab0dbf206a927844c)、 [attribute::RequestObfuscation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd)
