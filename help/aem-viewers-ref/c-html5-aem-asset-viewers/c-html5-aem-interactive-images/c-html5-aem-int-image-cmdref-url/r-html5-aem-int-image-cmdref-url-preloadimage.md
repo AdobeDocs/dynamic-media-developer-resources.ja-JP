@@ -2,14 +2,13 @@
 description: ビデオ画像ビューアのURLコマンド。
 solution: Experience Manager
 title: preloadimage
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
 role: Developer,Business Practitioner
 exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> プリロードイメージ機能を有効(1)または無効(0)にします。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local">プリロード画像</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 画像のプリロード機能を有効(1)または無効(0)にします。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local">イメージのプリロード</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
