@@ -2,13 +2,12 @@
 description: IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
 title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -19,7 +18,7 @@ IPS APIバージョン4.4の新しいデータ型と変更されたデータ型�
 
 構文
 
-## 新しいタイプ{#section-b910343aff304ec9b4d74045a2596a74}
+## 新しいタイプ {#section-b910343aff304ec9b4d74045a2596a74}
 
 * `AssetMetadataFields`
 * `AssetMetadataFieldsArray`
@@ -32,7 +31,7 @@ IPS APIバージョン4.4の新しいデータ型と変更されたデータ型�
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## 変更されたタイプ{#section-dfd062062ad444b0876bbc951fb1560c}
+## 変更されたタイプ {#section-dfd062062ad444b0876bbc951fb1560c}
 
 **アセット**
 
