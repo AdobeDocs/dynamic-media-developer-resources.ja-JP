@@ -1,29 +1,28 @@
 ---
-description: データファイルのパス この画像に関連付けられている画像以外のデータファイルの相対パスと名前。
+description: データファイルのパス。 この画像に関連付けられている非画像データファイルの相対パスと名前。
 solution: Experience Manager
 title: AuxPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 55f82596-72f0-48c4-9b3a-f10ea5f610f1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
 
-
 # AuxPath{#auxpath}
 
-データファイルのパス この画像に関連付けられている画像以外のデータファイルの相対パスと名前。
+データファイルのパス。 この画像に関連付けられている非画像データファイルの相対パスと名前。
 
-サーバは、この値をattribute::RootPathと組み合わせて、実際のファイルパスを作成します。 ファイルの絶対パスを指定することもできます。
+サーバは、この値をattribute::RootPathと組み合わせて、実際のファイルパスを作成します。 また、絶対ファイルパスにすることもできます。
 
-キャビネットマテリアルのキャビネットスタイルファイル、または窓カバリングマテリアルの窓カバリングスタイルファイルを指定するために使用します。 その他の材料は、空のままにしておきます。
+キャビネットマテリアルのキャビネットスタイルファイル、または窓カバーマテリアルの窓カバースタイルファイルを指定するために使用します。 その他の材料は空のままにします。
 
 ## プロパティ {#section-4268350054b7421da0ce0327f0731a52}
 
-テキスト文字列の値。 指定する場合は、有効な相対パスまたは絶対ファイルパスを指定する必要があります。 キャビネットの材料と窓カバリング材料に必要です。 他のすべての材料の場合は空にする必要があります。
+テキスト文字列の値。 指定する場合は、有効な相対パスまたは絶対パスを指定する必要があります。 キャビネットの材料と窓の覆い材料に必要です。 その他のすべてのマテリアルに対しては空にする必要があります。
 
 ## 初期設定 {#section-287005c2d8e948fa958f69ba7b90b437}
 
@@ -31,4 +30,4 @@ ht-degree: 3%
 
 ## 関連項目 {#section-e1f7a61c00d04a80af28e2e67481ab92}
 
-[attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3) ,  [catalog::Path](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md#reference-59ebb624250a4965ad1737578a2ab590),  [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)
+[attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3) 、 [catalog::Path](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md#reference-59ebb624250a4965ad1737578a2ab590)、 [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)
