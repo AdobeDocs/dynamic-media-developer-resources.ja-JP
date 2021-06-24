@@ -2,13 +2,12 @@
 description: カルーセルビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 2%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 ` setParams( *`params`*)`
 
-1つ以上のパラメーターに特定の値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを`&`で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードします。 `init()`を呼び出す前に、このパラメーターを呼び出す必要があります。
+1つ以上のパラメーターに指定した値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを`&`で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードされます。 `init()`を呼び出す前に、このパラメーターを呼び出す必要があります。
 
 ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
 
@@ -31,12 +30,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを <span class="codeph"> &amp;で区切ります</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを&amp;で区 <span class="codeph"> 切ります</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
