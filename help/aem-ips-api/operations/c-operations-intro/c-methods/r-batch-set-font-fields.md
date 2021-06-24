@@ -2,22 +2,21 @@
 description: フォントメタデータフィールドを設定します。
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f38aa861-2a81-4663-967e-72611122f51b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 14%
 
 ---
-
 
 # batchSetFontFields{#batchsetfontfields}
 
 フォントメタデータフィールドを設定します。
 
-## 認証済みユーザータイプ{#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 許可されたユーザーの種類 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,18 +30,18 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | フォントを含む会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | フォントを含む会社に対して処理します。 |
 | `*`updateArray`*` | `types:FontFieldUpdateArray` | はい | フォントフィールドの更新の配列。 |
 
 **出力(batchSetFontFieldsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたフォントフィールドの数です。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がフォントフィールドの設定を試行したときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がフォントフィールドの設定を試行したときに生成されたエラーの数です。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたフォントフィールドの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | フォントフィールドの設定操作で発生した警告の数。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がフォントフィールドの設定を試みたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
@@ -74,4 +73,3 @@ ht-degree: 14%
    <errorCount>0</errorCount>
 </batchSetFontFieldsReturn>
 ```
-
