@@ -1,27 +1,26 @@
 ---
-description: デスクトップシステムでは、ボタンなど一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
+description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
 solution: Experience Manager
 title: ツールチップ
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなど一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
+デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域のCSSプロパティ**
 
-ツールヒントの外観は、以下のCSSクラスセレクターを使用して制御します。
+ツールチップの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7tooltip
@@ -53,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>テキストのフォント名 </p> </td> 
+   <td colname="col2"> <p>テキストのフォント名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -64,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ツールヒントがビューアのCSSファイルでカスタマイズされている場合は不要です。
+>埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ビューアのCSSファイルでツールヒントがカスタマイズされている場合は不要です。
 
-例 — 角丸の半径が3ピクセルのグレーの境界線を持ち、黒の背景に加え、Arial、11ピクセルのサイズの白のテキストを持つツールヒントを設定するには、次のように記述します。
+例 — 角丸の半径が3ピクセル、背景が黒、白のテキストがArial、11ピクセルのグレーの境界線を持つツールヒントを設定するには、次のように記述します。
 
 ```
 .s7tooltip { 
