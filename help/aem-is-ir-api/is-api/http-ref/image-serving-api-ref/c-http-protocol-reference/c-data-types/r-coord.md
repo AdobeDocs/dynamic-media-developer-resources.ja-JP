@@ -1,31 +1,30 @@
 ---
-description: ピクセル座標 画像またはレイヤーの長方形の左上隅を基準とするピクセルオフセットの形式で、画像のオフセットや切り抜きパラメータなどの画像の座標を指定するために使用します。
+description: ピクセル座標。 画像またはレイヤーの長方形の左上隅を基準にしたピクセルオフセットの形式で、画像オフセットや切り抜きパラメーターなどの画像座標を指定するために使用します。
 solution: Experience Manager
-title: 共謀者
-feature: Dynamic Media Classic,SDK/API
+title: コード
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
+# コード{#coord}
 
-# coord{#coord}
-
-ピクセル座標 画像またはレイヤーの長方形の左上隅を基準とするピクセルオフセットの形式で、画像のオフセットや切り抜きパラメータなどの画像の座標を指定するために使用します。
+ピクセル座標。 画像の左上隅を基準としたピクセルオフセットの形式で、画像オフセットや切り抜きパラメータなどの画像座標を指定するために使用します。
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 共謀者</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>、 <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> コード</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>,  <span class="codeph"><span class="varname"> py</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>、 <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>、 <span class="varname"> </span> y値（ピクセル単位、整数） </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>,  <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>、y値( <span class="varname"> </span> ピクセル単位、整数) </p></td> 
  </tr> 
 </table>
 
-0,0は、画像または長方形の左上隅を示します。 値を増やすと、右下に向かって移動します。
+0,0は、画像または長方形の左上隅を示します。 値を大きくすると、右下に移動します。
