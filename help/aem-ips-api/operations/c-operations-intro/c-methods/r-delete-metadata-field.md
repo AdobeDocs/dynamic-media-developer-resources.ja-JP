@@ -2,16 +2,15 @@
 description: 会社のメタデータフィールドを削除します。
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 10%
 
 ---
-
 
 # deleteMetadataField{#deletemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 構文
 
-## 認証済みユーザータイプ{#section-63e7d17f4b434995a872838bfff7f9ff}
+## 許可されたユーザーの種類 {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,7 +39,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-このコードサンプルは、会社のメタデータフィールドを削除します。 この操作は、IPS Webサービスサーバに渡される`deleteMetadataFieldParam`内のフィールドとして、会社ハンドルとメタデータハンドルを使用して、この操作を実行します。
+このコードサンプルは、会社のメタデータフィールドを削除します。 この操作は、IPS Webサービスサーバーに渡される`deleteMetadataFieldParam`のフィールドとして、会社のハンドルとメタデータのハンドルを使用して実行します。
 
 **リクエスト**
 
