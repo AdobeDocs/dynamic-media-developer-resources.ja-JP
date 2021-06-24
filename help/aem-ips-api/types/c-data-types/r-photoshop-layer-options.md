@@ -2,16 +2,15 @@
 description: Photoshop画像レイヤーのオプション
 solution: Experience Manager
 title: PhotoshopLayerOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
-
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
@@ -24,8 +23,7 @@ Photoshop画像レイヤーのオプション
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`layerNaming`*` | `xsd:string` | Photoshopレイヤーの命名モードの選択 |
-| `*`アンカー`*` | `xsd:string` | Photoshopアンカーモードの選択」を参照してください。 |
+| `*`アンカー`*` | `xsd:string` | Photoshopアンカーモードの選択。 |
 | `*`createTemplate`*` | `xsd:boolean` | Photoshopレイヤーからテンプレートを作成するかどうか。 |
 | `*`extractText`*` | `xsd:boolean` | テキストをテキストレイヤーとして抽出するかどうか。 |
-| `*`extendLayers`*` | `xsd:boolean` | レイヤーを背景のフルサイズに拡張するかどうかを指定します。 |
-
+| `*`extendLayers`*` | `xsd:boolean` | レイヤーを最大サイズの背景に拡張するかどうか。 |
