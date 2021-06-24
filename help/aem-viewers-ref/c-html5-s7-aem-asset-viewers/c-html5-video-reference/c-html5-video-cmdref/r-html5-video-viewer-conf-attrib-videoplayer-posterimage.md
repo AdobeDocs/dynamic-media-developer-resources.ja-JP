@@ -2,16 +2,15 @@
 description: ビデオビューアの設定属性。
 solution: Experience Manager
 title: VideoPlayer.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 2%
 
 ---
-
 
 # VideoPlayer.posterimage{#videoplayer-posterimage}
 
@@ -23,12 +22,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 再生中のビデオ開始の前の最初のフレームに表示する画像です。<span class="codeph"> serverurl</span>を基準に解決されます。 URLで指定する場合、次の内容をHTTPエンコードします。 </p> <p> 
+   <td colname="col2"> <p> ビデオの再生開始前に最初のフレームに表示する画像を指定します。この画像は<span class="codeph"> serverurl</span>に対して解決されます。 URLで指定する場合、次の内容をHTTPエンコードします。 </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> % <span class="codeph"> 3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span>の値を省略すると、コンポーネントは、そのアセットの初期設定のポスター画像を代わりに使用しようとします。 </p> <p>ビデオをパスとして指定した場合、初期設定のポスター画像カタログIDは、ビデオパスから<span class="codeph">カタログID/画像ID</span>ペアに派生します。<span class="codeph">カタログID</span>はパス内の最初のトークンに対応し、<span class="codeph">画像_id</span>は拡張子が削除されたビデオの名前です。 そのIDの画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値として<span class="codeph"> none</span>を指定します。 <span class="codeph"><span class="varname"> isCommands</span></span>のみを指定した場合、画像が表示される前に、初期設定のポスター画像にコマンドが適用されます。 </p> </td> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> は% <span class="codeph"> 3D</span> </p> </li> 
+     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span>の値を省略すると、コンポーネントはそのアセットのデフォルトのポスター画像を代わりに使用しようとします。 </p> <p>ビデオをパスとして指定した場合、デフォルトのポスター画像カタログIDは、ビデオパスから<span class="codeph"> catalog_id/image_id</span>のペアに導き出されます。<span class="codeph"> catalog_id</span>はパスの最初のトークン、<span class="codeph"> image_id</span>は拡張子が削除されたビデオの名前です。 そのIDを持つ画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値に<span class="codeph"> none</span>を指定します。 <span class="codeph"><span class="varname"> isCommands</span></span>のみを指定した場合は、画像が表示される前に、コマンドがデフォルトのポスター画像に適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,4 +45,3 @@ ht-degree: 2%
 ```
 posterimage=none
 ```
-
