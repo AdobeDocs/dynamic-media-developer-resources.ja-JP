@@ -2,16 +2,15 @@
 description: 現在アクティブなジョブをすべて取得します。
 solution: Experience Manager
 title: getActiveJobs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
-
 
 # getActiveJobs{#getactivejobs}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 構文
 
-## 認証済みユーザータイプ{#section-125557a6ea7b4fc894d4bb468cd02118}
+## 許可されたユーザーの種類 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,7 +35,7 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社の取っ手。 |
 | `*`jobHandle`*` | `xsd:string` | いいえ | ジョブのハンドル。 |
 | `*`originalName`*` | `xsd:string` | いいえ | 元のジョブ名。 |
 
@@ -48,7 +47,7 @@ ht-degree: 15%
 
 ## 例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-次のコードのサンプルを使用すると、IPSで実行されている会社のすべてのアクティブなジョブを返すことができます。 この場合、IPSスケジューリングコーディネータは、アクティブなジョブが実行されていない状態で無効になっているため、応答が異常に発生します。 通常の状況では、応答は多数のアクティブなジョブを返します。
+このコードサンプルは、IPSで実行している会社のアクティブなジョブをすべて返します。 この場合、IPSスケジューリングコーディネータは、アクティブなジョブが実行されていない状態で無効になっているので、応答は通常とは異なります。 通常の状況では、応答は多数のアクティブなジョブを返します。
 
 **リクエスト**
 
@@ -65,4 +64,3 @@ ht-degree: 15%
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
