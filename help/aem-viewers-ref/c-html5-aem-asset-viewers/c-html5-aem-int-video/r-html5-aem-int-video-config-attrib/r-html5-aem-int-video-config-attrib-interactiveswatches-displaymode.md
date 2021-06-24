@@ -2,14 +2,13 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> continuous|segment</span> </p> </td> 
-   <td colname="col2"> <p> セグメントの境界やセグメントの境界に関係なく、インタラクティブスウォッチに連続的にサムネールが表示されます。この場合、空の領域にセグメントの境界が表示されます。 </p> </td> 
+   <td colname="col2"> <p> セグメントの境界やセグメントの境界に関係なく、インタラクティブスウォッチに連続的にサムネールが入力され、空のスペースにセグメントの境界が記録されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
