@@ -1,23 +1,22 @@
 ---
-description: 1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
+description: 1つ以上のアセットの公開状態を設定または更新します。 会社の公開コンテキストごとに個別の公開状態を設定できます。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
 
-
 # setAssetsContextState{#setassetscontextstate}
 
-1つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
+1つ以上のアセットの公開状態を設定または更新します。 会社の公開コンテキストごとに個別の公開状態を設定できます。
 
-## 認証済みユーザータイプ{#section-815eb031f85143278c1560c18c5e3431}
+## 許可されたユーザーの種類 {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +30,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->アセットを返すには、ユーザーに読み取りアクセス権が必要です。
+>アセットを返すには、読み取りアクセス権が必要です。
 
 ## パラメータ {#section-009b9006de8e4c16ad657c47f28ace9f}
 
@@ -39,21 +38,21 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列。 |
 
 **出力(setAssetsContexStateReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | はい | 正常に変更されたアセットの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数です。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が変更を試みたときにアセットによって生成されたエラーの配列です。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成される警告の数。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が変更を試みたときにアセットによって生成されたエラーの配列。 |
 
 ## 例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-次のコードのサンプルを使用すると、`NotMarkedForPublish`を使用してアセットのパブリケーション状態を設定できます。
+このコードサンプルは、`NotMarkedForPublish`を使用してアセットの公開状態を設定します。
 
 **リクエスト**
 
@@ -116,4 +115,3 @@ ht-degree: 10%
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
