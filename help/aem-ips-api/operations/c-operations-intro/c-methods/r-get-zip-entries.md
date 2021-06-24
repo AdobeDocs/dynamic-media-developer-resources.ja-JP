@@ -1,25 +1,24 @@
 ---
-description: Zipファイルのデータを返します。
+description: Zipファイルデータを返します。
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
-
 # getZipEntries{#getzipentries}
 
-Zipファイルのデータを返します。
+Zipファイルデータを返します。
 
 構文
 
-## 認証済みユーザータイプ{#section-33a3f03ba8a14086922397619ce12ab8}
+## 許可されたユーザーの種類 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,7 +37,7 @@ Zipファイルのデータを返します。
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | Zipファイルを含む会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | ZIPファイルへのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | ZIPファイルを処理します。 |
 
 **出力(getZipEntriesReturn)**
 
@@ -48,7 +47,7 @@ Zipファイルのデータを返します。
 
 ## 例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-このコードのサンプルを使用すると、圧縮サイズと非圧縮サイズを含むZipファイル情報を返すことができます。
+このコードサンプルは、圧縮サイズと非圧縮サイズを含むZipファイル情報を返します。
 
 **リクエスト**
 
@@ -75,4 +74,3 @@ Zipファイルのデータを返します。
    </zipArray>
 </getZipEntriesReturn>
 ```
-
