@@ -1,21 +1,20 @@
 ---
-description: アセット操作のエラーの配列です。
+description: アセットの操作が失敗した配列。
 solution: Experience Manager
 title: AssetOperationFaultArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
-
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-アセット操作のエラーの配列です。
+アセットの操作が失敗した配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 16%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:AssetOperationFault` | アセット操作の障害項目の配列です。 |
-
+| `*`商品`*` | `types:AssetOperationFault` | アセット操作の障害項目の配列。 |
