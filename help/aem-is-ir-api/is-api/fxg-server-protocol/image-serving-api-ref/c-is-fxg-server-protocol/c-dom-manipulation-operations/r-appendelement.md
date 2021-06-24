@@ -1,30 +1,29 @@
 ---
-description: s7elementIDにXMLを追加します。
+description: s7elementIDにXMLを追加する。
 solution: Experience Manager
 title: appendElement
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
 
-
 # appendElement{#appendelement}
 
-XMLをs7:elementIDに追加します。
+s7:elementIDにXMLを追加する。
 
 `appendElement.elementID=<XML>`
 
-FXGノード要素で`s7:elementID`が定義されている場合、`<XML>`値は子要素として追加されます。 `<XML>`はエンコードする必要があります。
+FXGノード要素に`s7:elementID`が定義されている場合、`<XML>`値が子要素として追加されます。 `<XML>`はエンコードする必要があります。
 
 ## 例 {#section-4368570aa198485d91b73b4d0741478f}
 
-`s7:elementID="group1"`属性がグループノードに対して定義されている場合、次の値が有効であるとします。
+`s7:elementID="group1"`属性がグループノードに対して定義され、次の属性が有効であるとします。
 
 `&appendElement.group1=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500" ><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 
-次の使用例は、テキストグラフィックの子を`group1`に追加します。
+次の使用例は、テキストグラフィック子を`group1`に追加します。
