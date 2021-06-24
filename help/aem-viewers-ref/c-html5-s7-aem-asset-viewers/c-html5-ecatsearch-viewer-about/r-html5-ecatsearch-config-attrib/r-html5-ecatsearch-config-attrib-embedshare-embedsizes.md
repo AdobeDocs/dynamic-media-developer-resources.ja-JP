@@ -2,16 +2,15 @@
 description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 68103754-1cbb-4e8d-b2b5-2770a7658140
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 16%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
@@ -29,7 +28,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択する必要があるかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択するかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
