@@ -2,13 +2,12 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 10%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-埋め込み共有モーダルダイアログボックス内のサイズコンボボックス用の埋め込みサイズのリストを指定します。
+埋め込み共有モーダルダイアログボックスのサイズコンボボックスの埋め込みサイズのリストを指定します。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -33,7 +32,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を事前に選択する必要があるかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択するかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
