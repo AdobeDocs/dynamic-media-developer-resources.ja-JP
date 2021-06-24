@@ -2,13 +2,12 @@
 description: ビデオ360ビューアのURLコマンド。
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> ビデオサーバのルートパス。 ドメインが指定されていない場合は、ページの供給元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオサーバーのルートパス。 ドメインが指定されていない場合は、代わりに、ページの提供元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
