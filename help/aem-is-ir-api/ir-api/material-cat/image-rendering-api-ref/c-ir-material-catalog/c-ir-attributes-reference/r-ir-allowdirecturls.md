@@ -1,21 +1,20 @@
 ---
-description: ソースの絶対URLを許可
+description: 絶対ソースURLを許可します。
 solution: Experience Manager
 title: AllowDirectURLs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f9ab0c0e-989c-42ce-b9dd-4ca2f6b382d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
-
 # AllowDirectURLs{#allowdirecturls}
 
-ソースの絶対URLを許可
+絶対ソースURLを許可します。
 
 `src=`コマンドで絶対HTTP URL（「`http://`」で始まる）を許可するには、1に設定します。 絶対URLを許可しない場合は0に設定します。
 
@@ -25,7 +24,7 @@ ht-degree: 7%
 
 ## 初期設定 {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-定義されていない場合や空の場合は`default::AllowDirectUrls`から継承されます。
+`default::AllowDirectUrls`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-66e0c597a8b04155b40538385312b389}
 
