@@ -1,33 +1,32 @@
 ---
-description: 初期設定の画像モード。 要求で指定された画像が見つからない場合に初期設定の画像を適用する方法を選択します。
+description: 初期設定の画像モード。 リクエストで指定された画像が見つからない場合に、デフォルトの画像を適用する方法を選択します。
 solution: Experience Manager
 title: DefaultImageMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # DefaultImageMode{#defaultimagemode}
 
-初期設定の画像モード。 要求で指定された画像が見つからない場合に初期設定の画像を適用する方法を選択します。
+初期設定の画像モード。 リクエストで指定された画像が見つからない場合に、デフォルトの画像を適用する方法を選択します。
 
 ## プロパティ {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-列挙。 「0」を指定すると、見つからない画像が複数のレイヤーの1つにすぎない場合でも、合成画像全体が置き換えられます。&#39;1&#39;を指定すると、見つからない各レイヤーソース画像が初期設定の画像に置き換えられ、通常どおり合成画像が返されます。
+列挙 「0」：見つからない画像が複数のレイヤーの1つに過ぎない場合でも、コンポジット画像全体を置き換えます。「1」を指定すると、見つからない各レイヤーソース画像がデフォルト画像で置き換えられ、通常どおり合成が返されます。
 
-## 制限{#section-04cb0d50e8914564a8d226d0d4663c8b}
+## 制限事項 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
 ネストされた画像レンダリング、FXGまたは`req=set`要求が失敗すると、画像サービングが`DefaultImageMode=0`に戻ります。
 
 ## 初期設定 {#section-9e318524a2a5496386901286748c7ee7}
 
-定義されていない場合や空の場合は`default::DefaultImage`から継承されます。
+`default::DefaultImage`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 
