@@ -1,25 +1,24 @@
 ---
-description: 画像セット内のメンバの配列を取得します。
+description: イメージセット内のメンバの配列を取得します。
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API，画像セット
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
 
-
 # getImageSetMembers{#getimagesetmembers}
 
-画像セット内のメンバの配列を取得します。
+イメージセット内のメンバの配列を取得します。
 
 構文
 
-## 認証済みユーザータイプ{#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 許可されたユーザーの種類 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +31,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->画像およびメンバセットのアセットに対する読み取りアクセス権が必要です。
+>画像とメンバセットのアセットに対する読み取りアクセス権が必要です。
 
 ## パラメータ {#section-a67ba98095574533980997c83ceaa316}
 
@@ -51,7 +50,7 @@ ht-degree: 15%
 
 ## 例 {#section-888a9a78033346f39b171229de93dfa0}
 
-このコードのサンプルを使用すると、特定の画像セットメンバーを返すことができます。 応答は空の配列を返します。
+このコードサンプルは、特定の画像セットメンバを返します。 応答は空の配列を返します。
 
 **リクエスト**
 
@@ -69,4 +68,3 @@ ht-degree: 15%
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
