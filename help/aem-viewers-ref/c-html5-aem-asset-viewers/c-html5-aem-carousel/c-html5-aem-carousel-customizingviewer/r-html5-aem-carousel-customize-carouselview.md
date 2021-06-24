@@ -1,21 +1,20 @@
 ---
-description: メイン表示は、バナーの画像で構成されます。
+description: メインビューは、バナー画像で構成されます。
 solution: Experience Manager
 title: カルーセル表示
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: aa41b209-11c7-4744-aaa5-dc0b503607c6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
 # カルーセル表示{#carousel-view}
 
-メイン表示は、バナーの画像で構成されます。
+メインビューは、バナー画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,12 +36,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
+   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メイン表示を透明にするには、次のように記述します。
+例 — メインビューを透明にするには、次のように記述します。
 
 ```
 .s7carouselviewer .s7carouselview { 
