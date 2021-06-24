@@ -1,50 +1,49 @@
 ---
-description: 誘い文句（CTA：コールトゥアクション）パネルは、ビデオが終了すると表示され、特定のビデオに関連付けられたすべてのインタラクティブスウォッチが表示されます。
+description: コールトゥアクションパネルは、ビデオが終了すると表示され、特定のビデオに関連付けられているすべてのインタラクティブスウォッチを表示します。
 solution: Experience Manager
 title: 誘い文句（CTA、コールトゥアクション）
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
 
 # 誘い文句（CTA、コールトゥアクション）{#call-to-action}
 
-誘い文句（CTA：コールトゥアクション）パネルは、ビデオが終了すると表示され、特定のビデオに関連付けられたすべてのインタラクティブスウォッチが表示されます。
+コールトゥアクションパネルは、ビデオが終了すると表示され、特定のビデオに関連付けられているすべてのインタラクティブスウォッチを表示します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-パネルは、ビデオタイトルを示すヘッダー領域、右上隅の再生ボタンおよびスクロール可能なグリッドとして表示される実際のインタラクティブスウォッチで構成されます。 [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)設定属性を使用して、パネルを無効にできます。
+パネルは、ビデオタイトルを示すヘッダー領域、右上隅の再生ボタン、スクロール可能なグリッドとして表示される実際のインタラクティブスウォッチで構成されます。 設定属性[callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)を使用して、パネルを無効にできます。
 
-誘い文句（CTA：コールトゥアクション）パネルは、常にビューアの使用可能な領域全体を占めます。
+コールトゥアクションパネルは、常にビューア領域全体を使用します。
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-以下に示すCSSクラスセレクターで、誘い文句(CSS)パネルの背景色の外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルの背景色の外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## 誘い文句（CTA：コールトゥアクションパネル）{#css-properties-of-the-background-color-of-the-call-to-action-panel}の背景色のCSSプロパティ
+## コールトゥアクションパネルの背景色のCSSプロパティ {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 誘い文句（CTA：コールトゥアクション）パネルの背景色。 </p> </td> 
+   <td colname="col2"> <p> コールトゥアクションパネルの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#example}
 
-ダークグレーの背景色の誘い文句（CTA：コールトゥアクション）パネルを設定するには：
+背景色が濃いグレーのコールトゥアクションパネルを設定するには：
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -54,13 +53,13 @@ ht-degree: 2%
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-以下に示すCSSクラスセレクターで、「アクションの呼び出し」パネルのヘッダーの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのヘッダーの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルヘッダー{#css-properties-of-the-call-to-action-panel-header}のCSSプロパティ
+## コールトゥアクションパネルヘッダーのCSSプロパティ {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -81,7 +80,7 @@ ht-degree: 2%
 
 ## 例 {#example-1}
 
-高さが70ピクセルで、背景色が濃いグレーで、下端にわずかに明るい灰色の2ピクセルの境界線があるヘッダーを設定するには、次のように記述します。
+高さ70ピクセルで、背景が濃いグレーで、下部にグレーの境界線がやや明るい2ピクセルのヘッダーを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header { 
@@ -93,13 +92,13 @@ ht-degree: 2%
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-以下に示すCSSクラスセレクターで、誘い文句（CTA：コールトゥアクション）パネルのヘッダータイトルの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのヘッダータイトルの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのヘッダータイトルのCSSプロパティ： {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## コールトゥアクションパネルのヘッダータイトルのCSSプロパティ：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -112,8 +111,8 @@ ht-degree: 2%
    <td colname="col2"> <p>フォントサイズ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
-   <td colname="col2"> <p>行の高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行の高さ  </span> </p> </td> 
+   <td colname="col2"> <p>行の高さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -121,22 +120,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
-   <td colname="col2"> <p>バナー内のテキストの配置。 </p> </td> 
+   <td colname="col2"> <p>バナー内のテキストの整列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-left  </span> </p> </td> 
-   <td colname="col2"> <p>左パディング </p> </td> 
+   <td colname="col2"> <p>左パディング。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
-   <td colname="col2"> <p> 右パディング。「再生」ボタンのスペースを許可します。 </p> </td> 
+   <td colname="col2"> <p> 右パディング：「再生」ボタンのスペースを許可します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#example-2}
 
-行の高さが70ピクセル、フォントサイズが25ピクセル、白、左揃えのビデオタイトルを設定するには、次のように記述します。
+70ピクセルの線の高さ、25ピクセルのフォントサイズ、白の色および左揃えのビデオタイトルを設定するには：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title { 
@@ -149,23 +148,23 @@ ht-degree: 2%
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-以下に示すCSSクラスセレクターで、呼び出し先アクションパネルの閉じるボタンの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルの閉じるボタンの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルの閉じるボタンのCSSプロパティ：{#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## コールトゥアクションパネルの閉じるボタンのCSSプロパティ： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、ヘッダーの上端からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む、ヘッダーの上からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む、ヘッダーの右からの位置。 </p> </td> 
+   <td colname="col2"> <p>パディングを含む、ヘッダーの右側からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -177,22 +176,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSSスプライトを使用する場合は、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
 ## 例 {#example-3}
 
-28 x 28ピクセルの再生ボタンを設定するには、次のように記述します。ヘッダーの上端から右端まで20ピクセルの位置に配置します。ボタンの4つの状態ごとに異なる画像を表示します。コンポーネントのスプライト画像からアートワークを取得します。
+28 x 28ピクセルの再生ボタンを設定するには、次のように記述します。は、ヘッダーの上端と右端から20ピクセルの位置に配置されます。は、ボタンの4つの状態ごとに異なる画像を表示します。コンポーネントのスプライト画像からアートワークを取り出します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -221,13 +220,13 @@ ht-degree: 2%
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-以下に示すCSSクラスセレクターで、呼び出し元アクションパネルでのサムネールグリッド表示の外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのサムネールグリッドビューの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのサムネールグリッド表示のCSSプロパティ： {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## コールトゥアクションパネルのサムネールグリッドビューのCSSプロパティ：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -240,7 +239,7 @@ ht-degree: 2%
 
 ## 例 {#example-4}
 
-暗いグレーの背景のサムネール領域を設定するには：
+濃いグレーの背景を持つサムネール領域を設定するには：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview { 
@@ -250,26 +249,26 @@ ht-degree: 2%
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-以下に示すCSSクラスセレクターで、「アクションの呼び出し」パネルのサムのセルの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのサムセルの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのサムネールのCSSプロパティ{#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## コールトゥアクションパネルのthumbcellのCSSプロパティ： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネール周囲の水平方向および垂直方向のマージンのサイズ。 </p> <p>実際のサムネールの水平方向の間隔は、<span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計になります。 同じ規則が適用されますが、垂直方向の間隔には適用されます。 </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の水平および垂直のマージンのサイズ。 </p> <p>実際のサムネールの水平方向の間隔は、 <span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計になります。 同じ規則が適用されますが、縦の間隔に適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#example-5}
 
-24ピクセルの水平方向の間隔と18ピクセルの垂直方向の間隔を設定するには、次のように記述します。
+24ピクセルの水平方向の間隔と18ピクセルの垂直方向の間隔を設定するには：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell { 
@@ -282,13 +281,13 @@ ht-degree: 2%
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-以下に示すCSSクラスセレクターで、「呼び出し先アクション」パネルでのサムネールの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのサムネールの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのサムネールのCSSプロパティ{#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## コールトゥアクションパネルのサムネールのCSSプロパティ： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -309,7 +308,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->サムネールでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 具体的には、`state="selected"`は現在選択されている画像のサムネールに対応します。`state="default"`は、その他のサムネールに対応します。`state="over"`は、マウスカーソルを合わせたときに使用されます。
+>サムネールでは、 `state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`は現在選択されている画像のサムネールに対応します。`state="default"`は、残りのサムネールに対応します。`state="over"`は、マウスカーソルを合わせたときに使用されます。
 
 ## 例 {#example-6}
 
@@ -324,13 +323,13 @@ ht-degree: 2%
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-以下に示すCSSクラスセレクターで、呼び出しアクションパネルでのサムネールラベルの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのサムネールラベルの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのサムネールラベルのCSSプロパティ{#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## コールトゥアクションパネルのサムネールラベルのCSSプロパティ： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -340,7 +339,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
-   <td colname="col2"> <p>ラベルの水平方向の位置。 </p> </td> 
+   <td colname="col2"> <p>ラベルの水平方向の整列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -355,7 +354,7 @@ ht-degree: 2%
 
 ## 例 {#example-7}
 
-白の色を使用するラベルを設定するには、中央揃えで15ピクセル、Arialフォントを使用します。
+白色を使用するラベルを設定するには、中央揃えで15ピクセル、Arialフォントを使用します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 
@@ -368,15 +367,15 @@ ht-degree: 2%
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-垂直方向に表示に収まらないサムネールがある場合は、サムネールの右側に垂直方向のスクロールバーが表示されます。 デフォルトでは、誘い文句（CTA：コールトゥアクション）パネルには、サムボタンとスクロールボタンのない小さな縦棒がレンダリングされます。 ただし、ビューアのCSSを変更してバーをカスタマイズすることはできます。
+垂直方向に表示できる数より多いサムネールがある場合、サムネールは右側に垂直方向のスクロールバーをレンダリングします。 デフォルトでは、コールトゥアクションパネルは、サムやスクロールボタンのない小さな縦棒をレンダリングします。 ただし、ビューアのCSSを変更してバーをカスタマイズすることはできます。
 
-以下に示すCSSクラスセレクターで、「アクションを呼び出し」パネルのスクロールバー領域の外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのスクロールバー領域の外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのスクロールバー領域のCSSプロパティ。{#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## コールトゥアクションパネルのスクロールバー領域のCSSプロパティ： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -386,7 +385,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>サムネール領域の上端からのスクロールバーの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p>サムネール領域の上部からのスクロールバーの垂直方向のオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -401,7 +400,7 @@ ht-degree: 2%
 
 ## 例 {#example-8}
 
-幅が22ピクセルで、サムネール領域の上、右または下からのマージンがないスクロールバーを設定するには、次のように記述します。
+幅が22ピクセルで、サムネール領域の上、右または下からの余白がないスクロールバーを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar { 
@@ -414,15 +413,15 @@ ht-degree: 2%
 
 <!--<a id="section_E27B7253441543278E1081D70BA46122"></a>-->
 
-スクロールバートラックは、スクロールバーの上部ボタンと下部ボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。
+スクロールバートラックは、上下のスクロールバーボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。
 
-以下に示すCSSクラスセレクターで、「アクションを呼び出し」パネルのスクロールバートラックの外観を制御します。
+以下に示すCSSクラスセレクターで、コールトゥアクションパネルのスクロールバートラックの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
 ```
 
-## スクロールトラックバー{#css-properties-of-the-scroll-track-bar}のCSSプロパティ
+## スクロールトラックバーのCSSプロパティ {#css-properties-of-the-scroll-track-bar}
 
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
@@ -439,7 +438,7 @@ ht-degree: 2%
 
 ## 例 {#example-9}
 
-幅が22ピクセルで、グレーのスクロールバートラックを設定するには：
+幅が22ピクセルで、グレー色のスクロールバートラックを設定するには：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -450,15 +449,15 @@ ht-degree: 2%
 
 <!--<a id="section_4A5D8C1A9C9D4E7B8AC0CD5BC6F3772D"></a>-->
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 その垂直方向の位置は、コンポーネントのロジックによって完全に制御されます。ただし、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 垂直方向の位置は、コンポーネントのロジックで完全に制御されます。ただし、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。
 
-以下に示すCSSクラスセレクターで、サムの高さの外観とその他の縦横比を制御します。
+次のCSSクラスセレクターで、サムの高さの外観とその他の要素を制御します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## 誘い文句（CTA：コールトゥアクション）パネルのサムの高さのCSSプロパティ{#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## コールトゥアクションパネルのサムの高さのCSSプロパティ： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -472,7 +471,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p>トラックの上端との間の垂直方向のパディング。 </p> </td> 
+   <td colname="col2"> <p>トラックの上部間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
@@ -492,18 +491,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、`state`属性セレクターがサポートされます。このセレクターは、サムの次の状態ごとに異なるスキンを適用するのに使用できます。`"up"`、`"down"`、`"over"`、および`"disabled"`。
+>サムでは、 `state`属性セレクターがサポートされます。このセレクターは、次のサムの状態ごとに異なるスキンを適用するのに使用できます。`"up"`、`"down"`、`"over"`、および`"disabled"`です。
 
 ## 例 {#example-10}
 
-6 x 167ピクセルで、角が3ピクセル、グレーのスクロールバーサムを設定するには、次のように記述します。
+6 x 167ピクセルで、3ピクセルの丸い角とグレーの色を持つスクロールバーサムを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb[state] { 
@@ -525,9 +524,9 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-CSSのtop、left、bottomまたはrightプロパティを使用してスクロールボタンを配置することはできません。ビューアのロジックによって自動的に配置が決まります。 インタラクティブビデオビューアの誘い文句(CSS)パネルでは、スクロールバーのこれらのボタンは使用されないので、初期設定のCSSではサイズが0ピクセルに設定されています。
+CSSのtop、left、bottomまたはrightプロパティを使用してスクロールボタンを配置することはできません。ビューアのロジックによって、自動的に配置が決まります。 インタラクティブビデオビューアのコールトゥアクションパネルでは、スクロールバーのこれらのボタンは使用されないので、初期設定のCSSではサイズが0ピクセルに設定されています。
 
-## 誘い文句（CTA：コールトゥアクション）パネルの上下のスクロールボタンのCSSプロパティ。 {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## コールトゥアクションパネルの上下のスクロールボタンのCSSプロパティ：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
@@ -541,24 +540,24 @@ CSSのtop、left、bottomまたはrightプロパティを使用してスクロ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->これらのボタンでは、`state`属性セレクターがサポートされます。このセレクターは、サムの次の状態ごとに異なるスキンを適用するのに使用できます。`"up"`、`"down"`、`"over"`、および`"disabled"`。
+>これらのボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、次のサムの状態ごとに異なるスキンを適用するのに使用できます。`"up"`、`"down"`、`"over"`、および`"disabled"`です。
 
-ボタンのツールヒントをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 ## 例 {#example-11}
 
-スクロールボタンのサイズを0に設定し、非表示にして、スクロールボタンを無効にします。
+スクロールボタンのサイズを0に設定して非表示にすることで、スクロールボタンを無効にします。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 
