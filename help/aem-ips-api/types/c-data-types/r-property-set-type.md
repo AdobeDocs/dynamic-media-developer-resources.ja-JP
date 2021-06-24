@@ -2,22 +2,21 @@
 description: PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールドの有効な値。
 solution: Experience Manager
 title: PropertySetType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 4%
 
 ---
-
 
 # PropertySetType{#propertysettype}
 
 PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールドの有効な値。
 
-次の値があります。
+次の値が含まれます。
 
 * `UserProperty`
 * `CompanyProperty`
@@ -42,23 +41,22 @@ PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールド
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">会社ハンドル <p>注意： 会社ハンドルが存在しない場合、型はグローバルです。 </p></td> 
+   <td colname="col3">会社の担当。 <p>注意： 会社のハンドルが存在しない場合、タイプはグローバルです。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> タイプ名。 </td> 
+   <td colname="col3"> 型名。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">プロパティセットの種類の1つ。 入力(<span class="codeph"> createPropertySetTypeParam</span>)を参照してください。 </td> 
+   <td colname="col3">プロパティセットタイプの1つ。 Input (<span class="codeph"> createPropertySetTypeParam</span>)を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> このタイプのオブジェクトに複数のプロパティセットインスタンスをアタッチできるかどうかを指定します。 </td> 
+   <td colname="col3"> このタイプのオブジェクトに複数のプロパティセットインスタンスをアタッチできるようにするかどうか。 </td> 
   </tr> 
  </tbody> 
 </table>
-
