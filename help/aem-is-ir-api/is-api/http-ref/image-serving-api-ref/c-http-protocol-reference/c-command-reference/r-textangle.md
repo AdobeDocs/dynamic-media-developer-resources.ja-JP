@@ -1,21 +1,20 @@
 ---
-description: テキストのレンダリング方向 textPs=で指定したテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
+description: テキストのレンダリング方向 textPs=で指定されたテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 5%
 
 ---
 
-
 # textAngle{#textangle}
 
-テキストのレンダリング方向 textPs=で指定したテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
+テキストのレンダリング方向 textPs=で指定されたテキストがレイアウトされ、テキストボックスにレンダリングされる角度を指定します（size=またはtextFlowPath=で定義）。
 
 ` textAngle= *`角度`*`
 
@@ -26,7 +25,7 @@ ht-degree: 5%
  </tr> 
 </table>
 
-正の値を指定すると、テキストは時計回りに回転します。`textAngle=90`はテキストを上から下に描画します。
+正の値を指定すると、テキストは時計回りに回転します。`textAngle=90`テキストを上から下に描画します。
 
 ## プロパティ {#section-6d586a632daa4261a8ce62db56140b36}
 
@@ -34,8 +33,8 @@ ht-degree: 5%
 
 ## 初期設定 {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` を返しません。
+`textAngle=0` （回転なし）。
 
 ## 関連項目 {#section-dccc29ff33704061b2519b56b7be45fd}
 
-[テキストの書式設定](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)、 [テキストの配置](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87)、 [textPs=、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)textFlowPath= [、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)textPath=、 [thextPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)
+[テキストの書式設定](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)、 [テキストの配置](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87)、 [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)、 [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)、 [textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)
