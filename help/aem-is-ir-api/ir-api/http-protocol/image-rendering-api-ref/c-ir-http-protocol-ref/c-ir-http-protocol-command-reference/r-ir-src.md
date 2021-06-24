@@ -1,21 +1,20 @@
 ---
-description: マテリアルファイル マテリアルデータは、1つのマテリアルカタログ参照の形式で指定するか、1つまたは2つのイメージまたはマテリアルデータファイルとして指定し、カンマで区切ります。
+description: マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式、または1つまたは2つのイメージまたはマテリアルデータファイルとして、コンマで区切って指定します。
 solution: Experience Manager
 title: src
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
 
-
 # src{#src}
 
-マテリアルファイル マテリアルデータは、1つのマテリアルカタログ参照の形式で指定するか、1つまたは2つのイメージまたはマテリアルデータファイルとして指定し、カンマで区切ります。
+マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式、または1つまたは2つのイメージまたはマテリアルデータファイルとして、コンマで区切って指定します。
 
 `src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedReqmaterialFile`*]`
 
@@ -30,39 +29,39 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> materialFile</span> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span>|<span class="varname"> imageFile</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span> | <span class="varname"> imageFile</span></span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;brace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> ir&amp;brace</span>'&amp;rbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;brace;'<span class="varname"> foreignReq</span>'&amp;rbrbrbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログID （<span class="codeph">属性：:RootId</span>） </p></td> 
+  <td class="stentry"> <p>マテリアルカタログID（<span class="codeph">属性：RootId</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログエントリ（<span class="codeph">カタログ：:Id</span>） </p></td> 
+  <td class="stentry"> <p>マテリアルカタログエントリ(<span class="codeph"> catalog::Id</span>)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>材料スタイルファイル（<span class="filepath"> .vnc</span>または<span class="filepath"> .vnw</span>） </p></td> 
+  <td class="stentry"> <p>マテリアルスタイルファイル（<span class="filepath"> .vnc</span>または<span class="filepath"> .vnw</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
-  <td class="stentry"> <p>画像データファイル </p></td> 
+  <td class="stentry"> <p>画像データファイル。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
-  <td class="stentry"> <p>画像サービングに対する要求 </p></td> 
+  <td class="stentry"> <p>画像サービングに対する要求。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>イメージレンダリングの要求を参照してください。 </p></td> 
+  <td class="stentry"> <p>イメージレンダリングのリクエスト。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
-  <td class="stentry"> <p>外部サーバーへのリクエスト。 </p></td> 
+  <td class="stentry"> <p>外部サーバーにリクエストします。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
@@ -74,33 +73,33 @@ ht-degree: 2%
  </tr> 
 </table>
 
-繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1つのイメージが必要です。イメージは、ファイルまたは埋め込みリクエストとして指定できます。
+繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1つの画像が必要です。画像は、ファイルまたは埋め込み要求として指定できます。
 
-キャビネットマテリアルにはキャビネットスタイルのファイル([!DNL .vnc])が必要で、ネストされた要求として指定できません。 テクスチャイメージファイルはキャビネットではオプションで、指定する場合はファイルまたは埋め込み要求のどちらかです。
+キャビネットマテリアルにはキャビネットスタイルのファイル([!DNL .vnc])が必要です。このファイルはネストされた要求として指定できません。 テクスチャイメージファイルはキャビネット用にオプションで、指定した場合は、ファイルまたは埋め込み要求のいずれかになります。
 
-窓カバリングマテリアルにはウィンドウカバリングスタイルファイル( [!DNL .vnw])が必要です。これはネストされた要求として指定できません。 テクスチャファイルはオプションで、指定する場合はファイルまたは埋め込み要求になります。
+窓の覆いのマテリアルには窓の覆いのスタイルファイル([!DNL .vnw])が必要です。これはネストされた要求としては指定できません。 テクスチャファイルはオプションで、指定する場合は、ファイルまたは埋め込み要求です。
 
-画像レンダリングでは、マテリアルカタログ、カタログエントリ、データファイルを検索する場合に、画像サービングと同じ規則が使用されます。 詳しくは、画像サービングのドキュメントの&#x200B;*`object`*&#x200B;データタイプの説明を参照してください。
+画像レンダリングでは、マテリアルカタログ、カタログエントリ、データファイルを検索する際に、画像サービングと同じ規則が使用されます。 詳しくは、画像サービングのドキュメントの&#x200B;*`object`*&#x200B;データタイプの説明を参照してください。
 
-*`materialFile`* は、を基準とする相対パスで `attribute::RootPath`す。
+*`materialFile`* は、に対する相対パスで `attribute::RootPath`す。
 
-*`foreignReq`* は、を基準とする相対URL `attribute::RootUrl`か、設定されている場合は絶対URL `attribute::AllowDirectUrls` です。
+*`foreignReq`* には、からの相対URLを指定できま `attribute::RootUrl`す。が設定されている場合は、絶対URLを `attribute::AllowDirectUrls` 指定できます。
 
 *`catId`*&#x200B;を指定しない場合は、セッションカタログが使用されます。
 
-`srcE=` ビネットに埋め込まれたマテリアルにアクセスで `srcN=` きます。
+`srcE=` ビネット `srcN=` に埋め込まれたマテリアルへのアクセスを提供します。
 
-## サポートされるファイル形式{#section-f2186d3eef834fc8bbecb2bc68daacad}
+## サポートされているファイル形式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 画像レンダリングは、Dynamic Media画像サービングと同じソース画像形式をサポートします。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7ピラミッドTIFF(PTIFF)マルチ解像度形式を使用する場合に最適です。 画像サービングには、サポートされている任意の形式からPTIFF画像を作成するImage Converter(IC)ユーティリティが含まれています。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7 Pyramid TIFF(PTIFF)多解像度形式を使用する場合に最適です。 画像サービングには、サポートされている任意の形式からPTIFF画像を作成するImage Converter(IC)ユーティリティが含まれています。
 
-サポートされるファイル形式の完全なリストについては、画像サービングのドキュメントのICユーティリティの説明を参照してください。
+サポートされているファイル形式の完全なリストについては、画像サービングのドキュメントのICユーティリティの説明を参照してください。
 
 ## プロパティ {#section-e68d03788d534e2184147987d51dfd0f}
 
-マテリアル属性 べた塗り以外のすべてのマテリアルに対して必須です（べた塗りマテリアルには使用できません）。 すべての文字列では大文字と小文字が区別されます。 *`index`* は0以上に設定する必要があります。
+マテリアル属性。 べた塗りを除くすべてのマテリアルに必須です（べた塗りのマテリアルには使用できません）。 すべての文字列では大文字と小文字が区別されます。 *`index`* は0以上に設定する必要があります。
 
 ## 初期設定 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -108,15 +107,15 @@ ht-degree: 2%
 
 ## 例 {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-繰り返し可能なテクスチャが独立した、色彩の統一されたキャビネットのMSS:
+繰り返し可能なテクスチャを別々に持つ色付きキャビネット用のMSS:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-レコード&#39; `12-3-2`&#39;のマテリアルカタログ`'cat`&#39;に同じマテリアルを配置できます。
+同じマテリアルを、レコード&#39; `12-3-2`&#39;のマテリアルカタログ`'cat`&#39;に配置できます。
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
-テクスチャ画像を取得するための画像サービングへのネストされた要求：
+テクスチャ画像を取得するための、画像サービングに対するネストされた要求：
 
 `…&obj=main&src=is{texCatalog/texture123?res=30}&res=30&…`
 
