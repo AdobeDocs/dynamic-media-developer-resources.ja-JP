@@ -2,24 +2,23 @@
 description: ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
-
 
 # addUser{#adduser}
 
 ユーザーアカウントを作成し、そのアカウントを1つ以上の会社に追加します。
 
-ユーザーを複数の会社に追加する場合は、`companyHandleArray`の会社ハンドルでそれらの会社を指定します。 この操作は、追加したユーザーにハンドルを返します。
+ユーザーを複数の会社に追加する場合、`companyHandleArray`で会社が取り扱う会社を指定します。 この操作は、追加したユーザーにハンドルを返します。
 
-## 認証済みユーザータイプ{#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 許可されたユーザーの種類 {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,21 +34,21 @@ ht-degree: 12%
 | `*`firstName`*` | `xsd:string` | はい | ユーザーの名。 |
 | `*`lastName`*` | `xsd:string` | はい | ユーザーの姓。 |
 | `*`電子メール`*` | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
-| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
+| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`の役割は、他の会社ごとの設定よりも優先されます。 |
 | `*`パスワード`*` | `xsd:string` | はい | ユーザーのパスワードを設定します |
-| `*`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際のタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 |
-| `*`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判定します。 |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
+| `*`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際にタイムゾーンを指定します。 タイムゾーンは中央時間に調整されます。 |
+| `*`isValid`*` | `xsd:boolean` | はい | ユーザーが有効かどうかを判断します。 |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | はい | 会社が処理する配列。 |
 
 **出力(addUserParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | はい | ユーザーのハンドル。 |
+| `*`userHandle`*` | `xsd:string` | はい | ユーザーへのハンドル。 |
 
 ## 例 {#section-2547cef622734b71919eef849960b5cb}
 
-IPS APIは、新しいユーザを指定するユーザハンドル要素を返します。
+IPS APIは、新しいユーザーを指定するユーザーハンドル要素を返します。
 
 **リクエスト**
 
@@ -74,4 +73,3 @@ IPS APIは、新しいユーザを指定するユーザハンドル要素を返�
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
