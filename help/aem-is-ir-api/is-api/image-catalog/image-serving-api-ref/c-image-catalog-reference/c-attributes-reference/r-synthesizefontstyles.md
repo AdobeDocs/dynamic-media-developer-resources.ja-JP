@@ -1,25 +1,24 @@
 ---
-description: 合成フォントのバリエーションを有効にする。 エラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルが要求されたがフォントマップに見つからない場合に、サーバーがそのスタイルを合成するかを制御します。
+description: 合成フォントのバリエーションを有効にします。 サーバーがエラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルを合成するかを制御します（このスタイルが要求されたが、フォントマップに見つからない場合）。
 solution: Experience Manager
-title: SyntesizeFontStyles
-feature: Dynamic Media Classic,SDK/API
+title: SyntesifyFontStyles
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
+# SyntesifyFontStyles{#synthesizefontstyles}
 
-# SyntesizeFontStyles{#synthesizefontstyles}
-
-合成フォントのバリエーションを有効にする。 エラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルが要求されたがフォントマップに見つからない場合に、サーバーがそのスタイルを合成するかを制御します。
+合成フォントのバリエーションを有効にします。 サーバーがエラー応答を生成するか、太字、斜体、太字/斜体のフォントスタイルを合成するかを制御します（このスタイルが要求されたが、フォントマップに見つからない場合）。
 
 >[!NOTE]
 >
->フォントスタイルを合成すると、そのようなスタイルで実際のフォントを使用する場合よりも、レンダリングの品質が低くなることがよくあります。
+>フォントスタイルを合成すると、多くの場合、そのようなスタイルで実際のフォントを使用するよりも低画質でレンダリングされます。
 
 ## プロパティ {#section-3205560a74774ebf9c916b07bd15aca6}
 
@@ -27,7 +26,7 @@ ht-degree: 3%
 
 ## 初期設定 {#section-71f94aa65e404d14b441674c040b59e3}
 
-定義されていない場合や空の場合は`default::SynthesizeFontStyles`から継承されます。
+`default::SynthesizeFontStyles`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-47a79659cc844272b6d5f36c946e12ac}
 
