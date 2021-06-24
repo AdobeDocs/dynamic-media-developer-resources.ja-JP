@@ -2,16 +2,15 @@
 description: ズームターゲットの定義
 solution: Experience Manager
 title: ZoomTargetDefinition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
-
 
 # ZoomTargetDefinition{#zoomtargetdefinition}
 
@@ -28,5 +27,4 @@ ht-degree: 21%
 | `*`yPosition`*` | `xsd:int` | ズームターゲットのY位置。 |
 | `*`width`*` | `xsd:int` | ズームターゲットの幅 |
 | `*`height`*` | `xsd:int` | ズームターゲットの高さ |
-| `*`ユーザデータ`*` | `xsd:string` | 関連付けられたユーザーデータ。 |
-
+| `*`ユーザデータ`*` | `xsd:string` | 関連するユーザーデータ。 |
