@@ -1,21 +1,20 @@
 ---
-description: アセットハンドルリスト配列を使用して、ファイルをセットにグループ化します。
+description: アセットハンドルリスト配列を使用してファイルをセットにグループ化します。
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
 
-
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
-アセットハンドルリスト配列を使用して、ファイルをセットにグループ化します。
+アセットハンドルリスト配列を使用してファイルをセットにグループ化します。
 
 構文
 
@@ -32,23 +31,23 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
-   <td colname="col3">セットの作成に使用するアセットハンドルの配列。 <p>デフォルトでは、1000は配列に含めることができるアセットの最大数です。 </p></td> 
+   <td colname="col2"> <span class="codeph"> 型：HandleArray[がた：HandleArray]</span> </td> 
+   <td colname="col3">セットの作成に使用されるアセットハンドルの配列。 <p>デフォルトでは、1000は配列に含めることができるアセットの最大数です。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> セットを保存するフォルダーのパス。 デフォルトでは、会社のルートフォルダに保存します。 </td> 
+   <td colname="col3"> セットを保存するフォルダーのパス。 デフォルトで会社のルートフォルダに保存されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> アセットを発行するかどうかを示すフラグを設定します。 </td> 
+   <td colname="col3"> アセットを公開するかどうかを示すフラグを設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：AutoSetCreationOptions</span> </td> 
-   <td colname="col3">アップロードされたファイルで実行できるセット生成スクリプトの配列。 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a>を参照</td> 
+   <td colname="col2"> <span class="codeph"> タイプ：AutoSetCreationOptions</span> </td> 
+   <td colname="col3">アップロードしたファイルで実行できるセット生成スクリプトの配列。 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a>を参照</td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -58,16 +57,16 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-**emailSetting Options**
+**emailSettingオプション**
 
 `emailSetting`パラメーターには、次のオプションが含まれます。
 
 | オプション | 戻り値 |
 |---|---|
-| `All` | 指定した受信者に対するすべてのジョブ通知（エラー、警告、完了）。 |
-| `Error` | 指定した受信者に対するジョブエラー。 |
-| `ErrorAndWarning` | 指定した受信者に対するジョブエラーおよび警告。 |
-| `JobCompletion` | 指定した受信者に対するジョブ完了通知。 |
+| `All` | 指定した受信者へのすべてのジョブ通知（エラー、警告、完了）。 |
+| `Error` | 指定された受信者に対するジョブエラー。 |
+| `ErrorAndWarning` | ジョブのエラーと警告を指定された受信者に送信します。 |
+| `JobCompletion` | 指定された受信者へのジョブ完了通知。 |
 | `None` | ジョブは、指定された受信者にジョブ通知を送信しません。 |
 
 ## 例 {#section-d01ee7671f274a1fa12737e8df91d2cf}
@@ -83,4 +82,3 @@ ht-degree: 3%
   </sequence>
 </complexType>
 ```
-
