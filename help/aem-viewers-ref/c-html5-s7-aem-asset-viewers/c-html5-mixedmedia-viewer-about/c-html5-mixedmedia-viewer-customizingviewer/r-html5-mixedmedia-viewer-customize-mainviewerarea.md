@@ -1,21 +1,20 @@
 ---
-description: メイン表示領域は、メイン表示とスウォッチが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+description: メインビュー領域は、メインビューとスウォッチが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
-
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域は、メイン表示とスウォッチが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域は、メインビューとスウォッチが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,4 +58,3 @@ ht-degree: 2%
  height: 288px;  
 }
 ```
-
