@@ -1,21 +1,20 @@
 ---
-description: プロパティセットの種類の配列。
+description: プロパティセットタイプ配列。
 solution: Experience Manager
 title: PropertySetTypeArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-
 # PropertySetTypeArray{#propertysettypearray}
 
-プロパティセットの種類の配列。
+プロパティセットタイプ配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 21%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:PropertySetType` | プロパティセット型の配列。 |
-
+| `*`商品`*` | `types:PropertySetType` | プロパティセットタイプ配列。 |
