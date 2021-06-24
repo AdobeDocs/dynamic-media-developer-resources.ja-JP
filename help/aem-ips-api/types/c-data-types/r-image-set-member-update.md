@@ -1,25 +1,24 @@
 ---
-description: 'このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して有用です '
+description: 'このタイプでは、pageResetフィールドは、RenderSetとカタログ画像アセットタイプに対して意味があります '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API，画像セット
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-このタイプでは、pageResetフィールドは、RenderSetとCatalogの画像アセットタイプに対して意味を持ちます。
+このタイプでは、pageResetフィールドは、RenderSetとカタログ画像アセットタイプに対して意味があります。
 
-* `RenderSet`の場合、`pageReset`は新しいレンダリング表示/スウォッチグループの開始を示します。
+* `RenderSet`の場合、`pageReset`は新しいレンダリングビュー/スウォッチグループの開始を示します。
 
-* カタログの場合、`pageReset`は新しいページ表示の開始を示します。 通常、ページ表示あたり2ページの画像がありますが、画像の数は増減できます。
+* カタログの場合、`pageReset`は新しいページビューの開始を示します。 通常、ページビューあたり2ページの画像がありますが、ページビュー数は多い場合と少ない場合があります。
 
 ## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,13 +34,12 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 画像セットメンバ配列内のアセットハンドル。 </td> 
+   <td colname="col3"> 画像セットのメンバー配列内のアセットハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">ページをリセットします。 <p><span class="codeph"> ImageSet</span>および<span class="codeph"> SpinSet</span>の設定は無視され、値が強制的にtrueになります。 </p></td> 
+   <td colname="col3">ページをリセットします。 <p><span class="codeph"> ImageSet</span>および<span class="codeph"> SpinSet</span>の値は無視され、強制的にtrueになります。 </p></td> 
   </tr> 
  </tbody> 
 </table>
-
