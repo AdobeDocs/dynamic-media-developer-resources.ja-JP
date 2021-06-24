@@ -2,16 +2,15 @@
 description: getActivePublishContextsReturn/publishContextで使用されます。
 solution: Experience Manager
 title: 公開コンテキスト
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 28%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
-
 
 # 公開コンテキスト{#publish-context}
 
@@ -25,4 +24,3 @@ getActivePublishContextsReturn/publishContextで使用されます。
 * [!DNL `ImageRendering`]
 * [!DNL `Video`]
 * [!DNL `ServerDirectory`]
-
