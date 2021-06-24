@@ -2,16 +2,15 @@
 description: ビデオのサムネール画像を生成します。
 solution: Experience Manager
 title: MediaOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f37d935d-fe74-4878-8477-d2144d58d982
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 5%
 
 ---
-
 
 # MediaOptions{#mediaoptions}
 
@@ -32,8 +31,8 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
-   <td colname="col3"><span class="codeph"> PropertySet</span>の配列は、ビデオのトランスコード用のビデオエンコーディングプリセットを参照します。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：HandleArray[がた：HandleArray]</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>の配列は、ビデオのトランスコード用の参照元のビデオエンコーディングプリセットを処理します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -42,8 +41,8 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ThumbnailOptions</span> </td> 
-   <td colname="col3">（オプション）サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間(ビデオ開始からの経過時間（ミリ秒）)を渡します。 値の範囲は0 ～ビデオの最後です。 <p>注意：時間を正しく指定しなかった場合、<span class="codeph"> generateThumbnail</span>はデフォルトでtrueに設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>を参照してください。 </p></td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ThumbnailOptions[たいぷ：ThumbnailOptions]</span> </td> 
+   <td colname="col3">（オプション）サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間(ビデオ開始からの時間（ミリ秒）)を渡します。 値の範囲は0からビデオの最後までです。 <p>注意：時間を正しく指定しなかった場合、<span class="codeph"> generateThumbnail</span>はデフォルトでtrueに設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>を参照してください。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +59,10 @@ ht-degree: 5%
     </complexType>
 ```
 
-## {#section-87cb83407198432c95eaa2db9f12f9db}が使用
+## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-`mediaOptions`型は次のユーザーが使用します。
+`mediaOptions`型は次の場所で使用されます。
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
