@@ -1,22 +1,21 @@
 ---
-description: 画像カタログには、フォント、ICCプロファイル、コマンドマクロに加え、多くのサーバ設定が用意されています。
+description: 画像カタログは、多くのサーバ設定に加え、フォント、ICCプロファイル、コマンドマクロを提供します。
 solution: Experience Manager
 title: 画像カタログ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 70ec4566-a937-464e-8219-b7eda3ab66c1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-
 # 画像カタログ{#image-catalogs}
 
-画像カタログには、フォント、ICCプロファイル、コマンドマクロに加え、多くのサーバ設定が用意されています。
+画像カタログは、多くのサーバ設定に加え、フォント、ICCプロファイル、コマンドマクロを提供します。
 
-要求で使用される画像IDと静的コンテンツIDを実際のファイルパスにマッピングし、画像マップなどの様々な画像メタデータを保存し、テンプレートと画像セットのコンテナを提供します。
+リクエストで使用される画像と静的コンテンツIDを実際のファイルパスにマッピングし、画像マップなどの様々な画像メタデータを保存し、テンプレートと画像セットのコンテナを提供します。
 
-画像カタログは、Platform Serverのみがアクセスし、Image Serverはアクセスしません。 カタログ属性ファイルには.iniサフィックスが必要で、プラットフォームサーバーのカタログフォルダ(`PS::CatalogFolder`)に配置します。 少なくともデフォルトの画像カタログが必要です。プラットフォームサーバーを正しく機能させるには、すべての属性を指定する必要があります。
+画像カタログは、Platform Serverのみがアクセスし、Image Serverはアクセスしません。 カタログ属性ファイルには.iniサフィックスを付け、Platform Serverのカタログフォルダー(`PS::CatalogFolder`)に配置する必要があります。 少なくともデフォルトの画像カタログが必要です。Platform Serverを正しく機能させるには、すべての属性を設定する必要があります。
