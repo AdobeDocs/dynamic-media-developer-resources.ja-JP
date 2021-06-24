@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
-## スピンビューアの使用{#section-e6c68406ecdc4de781df182bbd8088b4}
+## スピンビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 スピンビューアは、メインのJavaScriptファイルと、ヘルパーファイルのセット（この特定のビューア、アセット、CSSで使用されるすべてのビューアSDKコンポーネントを含む単一のJavaScriptインクルード）です。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通のコマンドリファレンス — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください。
 
-## スピンビューアの操作{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## スピンビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 スピンビューアは、他のモバイルアプリケーションで一般的な以下のタッチジェスチャに対応しています。 ビューアでユーザーのスワイプジェスチャを処理できない場合、このイベントがWebブラウザーに転送され、ネイティブページスクロールが実行されます。 これにより、デバイスの画面領域のほとんどをビューアが占めている場合でも、ユーザーはページ内を移動できます。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 [キーボードのアクセシビリティとナビゲーション](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
-## スピンビューアの埋め込み{#section-6bb5d3c502544ad18a58eafe12a13435}
+## スピンビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 ビューアの動作に対するニーズは、Webページごとに異なります。 Webページにリンクが表示され、このリンクをクリックすると別のブラウザーウィンドウでビューアが開く場合があります。 ホスティングページ内にビューアを埋め込む必要がある場合もあります。 後者の場合は、Webページが静的ページレイアウトである場合や、デバイスごと、ブラウザーウィンドウのサイズごとに表示方法が変わるレスポンシブデザインを使用する場合があります。 これらのニーズに対応するために、ビューアでは次の3つの主要な操作モードがサポートされています。ポップアップ、固定サイズ埋め込み、レスポンシブデザイン埋め込み。
 
