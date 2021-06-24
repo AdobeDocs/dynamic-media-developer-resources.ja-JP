@@ -1,21 +1,20 @@
 ---
-description: メインジョブログメッセージ(JobDetail)に関連付けられた補助メッセージが含まれます。 現在処理されているアセットに関連付けられた警告およびその他の詳細が含まれます。
+description: メインジョブログメッセージ(JobDetail)に関連付けられた補助メッセージが含まれます。 現在処理されているアセットに関連する警告やその他の詳細が含まれます。
 solution: Experience Manager
 title: JobLogDetailAux
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 789736c5-d74d-4970-9665-b43e316aca69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
-
 # JobLogDetailAux{#joblogdetailaux}
 
-メインジョブログメッセージ(JobDetail)に関連付けられた補助メッセージが含まれます。 現在処理されているアセットに関連付けられた警告およびその他の詳細が含まれます。
+メインジョブログメッセージ(JobDetail)に関連付けられた補助メッセージが含まれます。 現在処理されているアセットに関連する警告やその他の詳細が含まれます。
 
 構文
 
@@ -25,5 +24,4 @@ ht-degree: 6%
 |---|---|---|
 | `*`logMessage`*` | `xsd:string` | 補助メッセージ。 |
 | `*`logType`*` | `xsd:string` | ログの種類：`IPSJobLog.gcUploadWarning`または`IPSJobLog.gcUploadError`。 |
-| `*`dateCreated`*` | `xsd:dateTime` | 補助的なジョブログ作成日。 |
-
+| `*`dateCreated`*` | `xsd:dateTime` | 補助ジョブログの作成日。 |
