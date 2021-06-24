@@ -1,23 +1,22 @@
 ---
-description: 会社の構造（ファイル数など）に関する情報を返します。
+description: 会社の構造に関する情報（ファイル数など）を返します。
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 13%
 
 ---
 
-
 # getDiskUsage{#getdiskusage}
 
-会社の構造（ファイル数など）に関する情報を返します。
+会社の構造に関する情報（ファイル数など）を返します。
 
-## 認証済みユーザータイプ{#authorized-user-types}
+## 許可されたユーザーの種類 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +29,17 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | ディスク使用量を取得する会社のハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | ディスク使用量を取得する会社へのハンドル。 |
 
 **出力(getDiskUsageReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | はい | 会社ディスク使用の配列。 |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | はい | 会社のディスク使用のアレイ。 |
 
 ## 例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-この要求の名前は誤った結果になります。 会社が使用しているディスク領域の量を反映するスカラ値を返すのではなく、会社の構造に関するその他の情報も取得します。
+このリクエストの名前は誤解を招きます。 会社が使用しているディスク領域を反映するスカラー値を返すのではなく、会社の構造に関する他の情報も取得します。
 
 **リクエスト**
 
@@ -65,4 +64,3 @@ ht-degree: 13%
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
