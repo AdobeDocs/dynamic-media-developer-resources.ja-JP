@@ -2,16 +2,15 @@
 description: 印刷解像度。 応答画像に埋め込まれた印刷解像度の値を上書きします。
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # printRes{#printres}
 
@@ -26,17 +25,17 @@ ht-degree: 3%
  </tr> 
 </table>
 
-通常、プリント解像度はカタログエントリの場合は`catalog::PrintResolution`で定義され、それ以外の場合はソース画像に埋め込まれたプリント解像度の値で定義されます。 テンプレートまたはレイヤー化された複合画像の場合、応答ファイルに埋め込まれる初期設定のプリント解像度は、最も低いレイヤー番号を持つレイヤー画像のプリント解像度です。
+通常、印刷解像度はカタログエントリの場合は`catalog::PrintResolution`で定義され、それ以外の場合はソース画像に埋め込まれた印刷解像度の値で定義されます。 テンプレートまたはレイヤー化された複合画像の場合、応答ファイルに埋め込まれるデフォルトの印刷解像度は、最もレイヤー番号の小さいレイヤー画像の印刷解像度です。
 
-プリント解像度を設定しても、返信画像のピクセルサイズは変更されません。
+印刷解像度を設定しても、返信画像のピクセルサイズは変わりません。
 
 ## プロパティ {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-要求属性。 現在のレイヤー設定に関係なく適用されます。
+リクエスト属性。 現在の画層設定に関係なく適用されます。
 
 ## 初期設定 {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` またはソース画像に埋め込まれたプリント解像度。
+`catalog::PrintResolution` またはソース画像に埋め込まれた印刷解像度。
 
 ## 関連項目 {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 
