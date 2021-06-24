@@ -1,20 +1,19 @@
 ---
-description: 定義済みリストデータ型です。
+description: 列挙のデータタイプ。
 solution: Experience Manager
 title: 列挙
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: df7170f5-652c-422a-9f2a-3cb02aa1eaa0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '24'
 ht-degree: 0%
 
 ---
 
-
 # 列挙{#enum}
 
-定義済みリストデータ型です。
+列挙のデータタイプ。
 
-定義済みリストの値は整数で、通常は正の数、連続した数で、0または1から始まります。
+列挙の値は整数で、通常は正の数、連続し、0または1から始まります。
