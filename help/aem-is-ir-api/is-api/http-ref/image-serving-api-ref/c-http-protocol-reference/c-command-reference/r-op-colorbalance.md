@@ -1,44 +1,43 @@
 ---
-description: カラーバランスを調整 各RGBカラーコンポーネントの値を個別に調整します。
+description: カラーバランスを調整します。 各RGBカラーコンポーネントの値を個別に調整します。
 solution: Experience Manager
 title: op_colorbalance
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
 
-
 # op_colorbalance{#op-colorbalance}
 
-カラーバランスを調整 各RGBカラーコンポーネントの値を個別に調整します。
+カラーバランスを調整します。 各RGBカラーコンポーネントの値を個別に調整します。
 
 `op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> redAdj</span> </p></td> 
-  <td class="stentry"> <p>赤のコンポーネント調整(-100 ～ 100 int) </p></td> 
+  <td class="stentry"> <p>赤の成分調整(-100...+100 int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> greenAdj</span> </p></td> 
-  <td class="stentry"> <p>緑のコンポーネント調整(-100 ～ 100 int) </p></td> 
+  <td class="stentry"> <p>緑のコンポーネント調整(-100...+100 int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> blueAdj</span> </p></td> 
-  <td class="stentry"> <p>青のコンポーネント調整(-100 ～ 100 int) </p></td> 
+  <td class="stentry"> <p>青色成分の調整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
-カラーマネジメントが有効な場合、正確でないネイティブ変換を使用して、グレーおよびCMYK入力画像データをRGBに変換します。
+グレーおよびCMYK入力画像データは、カラーマネジメントが有効な場合は正確ではないナイーブ変換を使用してRGBに変換されます。
 
 ## プロパティ {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-レイヤーコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤーでは無視されます。 CMYK画像とレイヤーは、操作の適用前にRGBに変換されます。
+レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤでは無視されます。 CMYK画像とレイヤーは、操作が適用される前にRGBに変換されます。
 
 ## 初期設定 {#section-08d84ef715964f7daea86f5ef237d199}
 
