@@ -2,16 +2,15 @@
 description: eCatalogビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -19,17 +18,17 @@ eCatalogビューアのJavaScript APIリファレンス。
 
 [!DNL `init()`]
 
-eCatalogビューアの初期化を開始します。 この時点までに、ビューアコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
+eCatalogビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで検索できるように、コンテナのDOM要素を作成する必要があります。
 
-コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、[!DNL `display:none`]スタイルを割り当てて非表示にする場合）、Webページでコンテナ要素がレイアウトに戻る瞬間まで、ビューアは初期化処理を中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、[!DNL `display:none`]スタイルを割り当てて非表示にした場合）、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出してください。以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出します。以降の呼び出しは無視されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 [!DNL `{Object}`] ビューアインスタンスへの参照。
 
@@ -38,4 +37,3 @@ eCatalogビューアの初期化を開始します。 この時点までに、�
 ```
 <instance>.init()
 ```
-
