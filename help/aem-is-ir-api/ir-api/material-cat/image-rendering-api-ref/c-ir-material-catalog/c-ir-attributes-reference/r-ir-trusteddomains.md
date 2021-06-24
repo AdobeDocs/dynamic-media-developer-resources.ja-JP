@@ -1,29 +1,28 @@
 ---
-description: FlashアプリケーションのWebドメイン。 AdobeFlashアプリケーションでは、swf形式で配信される画像のプロパティにアクセスする必要がある場合があります。swfは、信頼するアプリケーションドメインの名前を登録することで、明示的にアクセスを許可する必要があります。
+description: FlashアプリケーションのWebドメイン。 AdobeFlashアプリケーションでは、swf形式で配信される画像のプロパティにアクセスする必要が生じる場合があります。swfは、信頼するアプリケーションドメインの名前を登録して、明示的にアクセス権を付与する必要があります。
 solution: Experience Manager
 title: TrustedDomains *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-
 # TrustedDomains *{#trusteddomains}
 
-FlashアプリケーションのWebドメイン。 AdobeFlashアプリケーションでは、swf形式で配信される画像のプロパティにアクセスする必要がある場合があります。swfは、信頼するアプリケーションドメインの名前を登録することで、明示的にアクセスを許可する必要があります。
+FlashアプリケーションのWebドメイン。 AdobeFlashアプリケーションでは、swf形式で配信される画像のプロパティにアクセスする必要が生じる場合があります。swfは、信頼するアプリケーションドメインの名前を登録して、明示的にアクセス権を付与する必要があります。
 
 ## プロパティ {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Webドメイン名のカンマ区切りリストを含む文字列です。 空の場合、[!DNL swf]形式の応答内の画像のプロパティにアクセスするには、アプリケーションを画像レンダリングと同じドメインから提供する必要があります。
+Webドメイン名のコンマ区切りリストを含む文字列。 空の場合、[!DNL swf]形式の応答の画像のプロパティにアクセスできるように、アプリケーションを画像レンダリングと同じドメインから提供する必要があります。
 
 ## 初期設定 {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-存在しない場合は`default::TrustedDomains`から継承。
+存在しない場合は`default::TrustedDomains`から継承されます。
 
 ## 関連項目 {#section-2f829671c385411d8e1a7525def5529f}
 
