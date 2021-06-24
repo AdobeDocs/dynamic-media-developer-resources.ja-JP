@@ -1,25 +1,24 @@
 ---
-description: 特定の会社から特定のグループにユーザーを追加します。
+description: 特定の会社のユーザーを特定のグループに追加します。
 solution: Experience Manager
 title: addGroupMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 12%
 
 ---
 
-
 # addGroupMembers{#addgroupmembers}
 
-特定の会社から特定のグループにユーザーを追加します。
+特定の会社のユーザーを特定のグループに追加します。
 
 構文
 
-## 認証済みユーザータイプ{#section-b4406c54ed7c4827be4c1acc957e0057}
+## 許可されたユーザーの種類 {#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,9 +30,9 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
 | `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
-| `*`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列です。 |
+| `*`userHandleArray`*` | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列。 |
 
 **出力(addGroupMembersParam)**
 
@@ -41,7 +40,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-この例では、`*`addGroupMembersParam`*`を使用して、1人の会社に1人のユーザーを追加します。 IPS APIは、この操作に対する応答を返しません。
+この例では、`*`addGroupMembersParam`*`を使用して、1つの会社にユーザーを追加します。 IPS APIは、この操作に対する応答を返しません。
 
 **リクエスト**
 
