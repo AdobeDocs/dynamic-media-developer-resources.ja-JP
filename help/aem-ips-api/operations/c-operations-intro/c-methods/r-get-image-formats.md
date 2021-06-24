@@ -2,16 +2,15 @@
 description: PDF、EPS、SWFなどの画像形式を返します。
 solution: Experience Manager
 title: getImageFormats
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 18%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -19,7 +18,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 構文
 
-## 認証済みユーザータイプ{#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 許可されたユーザーの種類 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -35,7 +34,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 取得する会社形式を持つ画像へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 取得する画像形式を持つ会社へのハンドル。 |
 
 **出力(getImageFormatsParam)**
 
@@ -45,7 +44,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 ## 例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
-次のコードのサンプルを使用すると、指定した会社のすべての画像形式を返すことができます。
+このコードサンプルは、指定した会社のすべての画像形式を返します。
 
 **リクエスト**
 
@@ -62,4 +61,3 @@ PDF、EPS、SWFなどの画像形式を返します。
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-
