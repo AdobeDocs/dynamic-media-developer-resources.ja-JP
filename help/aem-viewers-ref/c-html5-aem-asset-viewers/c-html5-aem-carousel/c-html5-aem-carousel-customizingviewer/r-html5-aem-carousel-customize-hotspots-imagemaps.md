@@ -1,21 +1,20 @@
 ---
-description: メイン表示の上に、AEM AssetsのDynamic Mediaで最初にホットスポットが作成されたオンデマンドの場所に、ホットスポットアイコンが表示されます。
+description: ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされたオンデマンドの場所に、メインビューの上にホットスポットアイコンが表示されます。
 solution: Experience Manager
 title: ホットスポットと画像マップ
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
 
 # ホットスポットと画像マップ{#hotspots-and-image-maps}
 
-メイン表示の上に、AEM AssetsのDynamic Mediaで最初にホットスポットが作成されたオンデマンドの場所に、ホットスポットアイコンが表示されます。
+ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされたオンデマンドの場所に、メインビューの上にホットスポットアイコンが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -41,11 +40,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用している場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSSスプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>ホットスポットアイコンの幅 </p> </td> 
+   <td colname="col2"> <p>ホットスポットアイコンの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -54,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 56 x 56ピクセルのホットスポットアイコンを設定し、アイコンの2つの状態ごとに異なる画像を表示します。
+例 — 56 x 56ピクセルのホットスポットアイコンを設定し、2つの異なるアイコンの状態ごとに異なる画像を表示します。
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -84,21 +83,21 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>画像マップ領域の塗りのカラー </p> <p>この色は、<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B) </span>または<span class="codeph"> RGBA(R,G,B,A) </span>形式で指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
+   <td colname="col2"> <p>画像マップ領域の塗りのカラー </p> <p>この色は、 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B) </span>または<span class="codeph"> RGBA(R,G,B,A) </span>形式で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>画像マップ領域の塗りのカラー </p> <p>この色は、<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B) </span>または<span class="codeph"> RGBA(R,G,B,A) </span>形式で指定します。 </p> </td> 
+   <td colname="col2"> <p>画像マップ領域の塗りのカラー </p> <p>この色は、 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B) </span>または<span class="codeph"> RGBA(R,G,B,A) </span>形式で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル " <span class="codeph">幅</span> <span class="codeph">べた塗り色</span>"として指定します。<span class="codeph">幅</span>はピクセル単位で表し、<span class="codeph">色</span>は<span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,Gb) </span>または<span class="codeph"> RGBA(R,G,B,A) </span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 「 <span class="codeph">幅</span> <span class="codeph">べた塗り</span> 」と指定します。ここで、 <span class="codeph">幅</span>はピクセル単位で表し、 <span class="codeph">色</span>は<span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>、または<span class="codeph"> RGBA(R,G,B,A) </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 1ピクセルの黒い境界線の透明な画像マップ領域を設定します。
+例 — 1ピクセルの黒い境界線を持つ透明な画像マップ領域を設定します。
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 
