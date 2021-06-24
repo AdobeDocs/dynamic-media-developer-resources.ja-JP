@@ -1,47 +1,46 @@
 ---
-description: Dynamic Media画像サービングを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
+description: Dynamic Media Image Servingを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
 solution: Experience Manager
 title: 必要システム構成と前提条件
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-
 # 必要システム構成と前提条件{#system-requirements-and-prerequisites}
 
-Dynamic Media画像サービングを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
+Dynamic Media Image Servingを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
 
-## サーバハードウェア{#section-f3c14a7bc1b745118602659628df779f}
+## サーバハードウェア {#section-f3c14a7bc1b745118602659628df779f}
 
-お使いのサーバは、次のハードウェア要件を満たしている必要があります。
+サーバは、次のハードウェア要件を満たす必要があります。
 
 >[!NOTE]
 >
->AMD64およびインテル® EM64Tを搭載したプロセッサーを搭載したシステムは、通常、NUMA(Non-Uniform Memory Architecture)プラットフォームとして構成されます。 これは、カーネルが起動時に、単一のメモリノードを構築するのではなく、複数のメモリノードを構築することを意味します。 複数のノード構成体は、他のノードが消耗する前に、1つ以上のノードでメモリが消耗する可能性があります。 メモリ不足が発生した場合、カーネルは、メモリが空いていてもプロセス（Image ServerやPlatform Serverなど）をキルすることを決定できます。 したがって、Adobe Systemsでは、このようなシステムを実行している場合はNUMAをオフにすることをお勧めします。 `numa=off`開始オプションを使用して、カーネルがこれらのプロセスを停止しないようにします。
+>AMD64およびIntel® EM64Tを搭載したプロセッサを搭載したシステムは、通常、NUMA(Non-Uniform Memory Architecture)プラットフォームとして構成されます。 つまり、カーネルは、単一のメモリノードを構築するのではなく、ブート時に複数のメモリノードを構築します。 複数のノード構成体は、他のノードが使い果たされる前に、1つ以上のノードでメモリが枯渇する可能性があります。 メモリが枯渇した場合、カーネルは、使用可能なメモリがあるにもかかわらず、プロセス（例えば、Image ServerやPlatform Serverなど）を強制終了することを決定できます。 したがって、Adobe Systemsでは、このようなシステムを実行している場合はNUMAをオフにすることをお勧めします。 `numa=off` startオプションを使用して、カーネルがこれらのプロセスを停止しないようにします。
 
 **Windows**
 
-* Intel Xeon®またはAMD® Opteron CPU、少なくとも4コア。
-* 16 GB以上のRAM。
-* スワップ空間は、物理メモリ(RAM)の少なくとも2倍に等しい。
-* 2 GBのハードディスク空き容量（インストールと基本操作に必要）。ソースイメージ、ログ、データキャッシュ、マニフェストファイルには、追加のディスク空き容量が必要です。
+* Intel Xeon®またはAMD® Opteron CPUと4コア以上。
+* 16 GB以上のRAM
+* スワップ領域は、物理メモリ(RAM)の少なくとも2倍の容量に等しい。
+* インストールと基本操作に2 GBのハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、マニフェストファイルには、追加のディスク容量が必要です。
 * Fast Ethernet Network Interface Card。
 
 **Linux**
 
-* Intel Xeon®またはAMD® Opteron CPU、少なくとも4コア。
-* 16 GB以上のRAM。
-* スワップは無効（推奨）
-* 2 GBのハードディスク空き容量（インストールと基本操作に必要）。ソースイメージ、ログ、データキャッシュ、マニフェストファイルには、追加のディスク空き容量が必要です。
+* Intel Xeon®またはAMD® Opteron CPUと4コア以上。
+* 16 GB以上のRAM
+* スワップが無効（推奨）
+* インストールと基本操作に2 GBのハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、マニフェストファイルには、追加のディスク容量が必要です。
 * Fast Ethernet Network Interface Card。
 
-**注意(Linux):** 画像サービングは、SELinuxをオンにしても機能しません。このオプションはデフォルトで有効になっています。 SELinuxを無効にするには、[!DNL /etc/selinux/config]ファイルを編集し、SELinux値を次の値から変更します。
+**注意(Linux):** 画像サービングは、SELinuxがオンの場合は機能しません。このオプションは、デフォルトで有効になっています。 SELinuxを無効にするには、[!DNL /etc/selinux/config]ファイルを編集し、SELinux値を次の値から変更します。
 
 `SELINUX=enforcing`
 
@@ -49,25 +48,24 @@ Dynamic Media画像サービングを使用する前に、お使いのシステ�
 
 `SELINUX=disabled`
 
-**注意(Linux)：サーバーのホスト名がIPアドレスに解決できることを** 確認してください。これが不可能な場合は、次の例のように、[!DNL /etc/hosts]に完全修飾ホスト名とIPアドレスを追加します。
+**注意(Linux):** サーバーのホスト名がIPアドレスに解決できることを確認してください。これができない場合は、次の例に示すように、完全修飾ホスト名とIPアドレスを[!DNL /etc/hosts]に追加します。
 
 `<ip address> <fully qualified hostname>`
 
-## サーバーソフトウェア{#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
+## サーバ・ソフトウェア {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media画像サービングには、次のサーバソフトウェアが必要です。
+Dynamic Mediaの画像サービングには、次のサーバーソフトウェアが必要です。
 
 **Windows**
 
-* Microsoft® Windows 2008 Server。
-* 64ビットのオペレーティングシステム。
+* Microsoft® Windows 2008 Server
+* 64ビットオペレーティングシステム。
 
 **Linux**
 
-* Red Hat® Enterprise 5またはCentOS 5.5以降、最新の修正パッチが適用されています。
-* 64ビットのオペレーティングシステム。
+* Red Hat® Enterprise 5またはCentOS 5.5以降（最新の修正パッチを適用済み）。
+* 64ビットオペレーティングシステム。
 
-**注意：Windows** で画像サービングを使用するには、Microsoft Visual Studio 2010再配布可能版をインストールする必要があります。再頒布可能パッケージは次の場所で入手できます。
+**注意：** Windowsで画像サービングを使用するには、Microsoft Visual Studio 2010の再頒布可能パッケージをインストールする必要があります。再頒布可能パッケージは次の場所で入手できます。
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
-
