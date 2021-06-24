@@ -1,19 +1,18 @@
 ---
 description: マテリアルカタログフォルダの場所（すべてのcatalog.iniファイルが存在する必要がある場所）。
 solution: Experience Manager
-title: カタログフォルダ(ir.catalogRootPath)
-feature: Dynamic Media Classic,SDK/API
+title: カタログフォルダー(ir.catalogRootPath)
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0eb64a65-e3b6-47b2-8456-39f8f8e077e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
-# カタログフォルダ(ir.catalogRootPath){#catalog-folder-ir-catalogrootpath}
+# カタログフォルダー(ir.catalogRootPath){#catalog-folder-ir-catalogrootpath}
 
 マテリアルカタログフォルダの場所（すべてのcatalog.iniファイルが存在する必要がある場所）。
 
