@@ -2,16 +2,15 @@
 description: キーワード
 solution: Experience Manager
 title: キーワード
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # キーワード{#keywords}
 
@@ -23,8 +22,7 @@ ht-degree: 31%
 |---|---|---|
 | `*`keyword`*` | `xsd:string` | キーワード. |
 | `*`status`*` | `xsd:boolean` | キーワードの有効性。 |
-| `*`x`*` | `xsd:int` | X軸上のキーワードの位置（ピクセル単位） |
-| `*`y`*` | `xsd:int` | キーワードのy軸上の位置（ピクセル単位）。 |
-| `*`width`*` | `xsd:int` | キーワードの幅（ピクセル単位） |
-| `*`height`*` | `xsd:int` | キーワードの高さ（ピクセル単位） |
-
+| `*`x`*` | `xsd:int` | X軸上のキーワードの位置（ピクセル単位）。 |
+| `*`y`*` | `xsd:int` | Y軸でのキーワードの位置（ピクセル単位）。 |
+| `*`width`*` | `xsd:int` | キーワードの幅（ピクセル単位）。 |
+| `*`height`*` | `xsd:int` | キーワードの高さ（ピクセル単位）。 |
