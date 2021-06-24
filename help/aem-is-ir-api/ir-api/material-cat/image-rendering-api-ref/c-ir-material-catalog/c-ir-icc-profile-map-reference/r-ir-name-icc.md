@@ -1,25 +1,24 @@
 ---
-description: プロファイルのショートカット名 カラープロファイルのショートカット名です。
+description: プロファイルのショートカット名。 カラープロファイルのショートカット名。
 solution: Experience Manager
 title: 名前
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6ee166db-09a8-4804-926f-8b1ebddb3c77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 13%
 
 ---
 
-
 # 名前{#name}
 
-プロファイルのショートカット名 カラープロファイルのショートカット名です。
+プロファイルのショートカット名。 カラープロファイルのショートカット名。
 
 ## プロパティ {#section-52a4b91bbfa045c49c9541444fad2027}
 
-テキスト文字列。 必須。ICCプロファイルマップのプライマリインデックスキー 各`icc::Name`値はテーブル内で一意である必要があり、&#39;,&#39;文字を含めることはできません。
+テキスト文字列。 必須。ICCプロファイルマップのプライマリインデックスキー。 各`icc::Name`の値は、テーブル内で一意である必要があり、「,」文字を含めることはできません。
 
 ## 初期設定 {#section-9d23d9b082f541b5b29b4ff92e942942}
 
