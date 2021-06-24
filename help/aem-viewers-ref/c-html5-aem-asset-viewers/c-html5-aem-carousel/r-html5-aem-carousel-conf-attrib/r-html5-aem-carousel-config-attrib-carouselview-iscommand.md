@@ -2,13 +2,12 @@
 description: CarouselView.iscommand
 solution: Experience Manager
 title: CarouselView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> バナーの画像に適用される画像サービングコマンド文字列です。 URLで指定する場合、すべての<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>を<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTPエンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p> バナー画像に適用される画像サービングコマンド文字列。 URLで指定する場合、 <span class="codeph"> &amp;</span>と<span class="codeph"> =</span>はすべて、 <span class="codeph"> %26</span>と<span class="codeph"> %3D</span>にそれぞれHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
