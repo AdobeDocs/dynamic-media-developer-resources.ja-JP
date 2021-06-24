@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
+source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 4%
@@ -22,8 +22,8 @@ ht-degree: 4%
 
 | *`format`* | 説明 |
 |---|---|
-| `avif-alpha` | アルファチャンネル付きの非可逆性AVIF <br><br>*この形式のリリースタイムライン：* <br><b>北米</b> — 現在<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年6月28日<br><b>アジア太平洋</b> - 6月2021年2月29日 |
-| `avif` | この形式の非可逆および可逆AVIF <br><br>*リリースタイムライン：*<br><b>&#x200B;北米</b> — 現在<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年6月28日（土）<br><b>アジア太平洋</b> - 2029年6月29日（20日）21 |
+| `avif-alpha` | アルファチャンネル付きの非可逆性AVIF <br><br>*この形式のリリースタイムライン：* <br><b>北米</b> — 現在<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年8月13日<br><b>アジア太平洋</b> - 6月2021年2月29日 |
+| `avif` | この形式の非可逆および可逆AVIF <br><br>*リリースタイムライン：*<br><b>&#x200B;北米</b> — 現在<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年8月13日（金）<br><b>アジア太平洋</b>- 2019年6月29日（金）21 |
 | `eps` | 非圧縮バイナリカプセル化PostScript |
 | `f4m` | Flashストリーミングサーバのマニフェスト形式 |
 | `gif-alpha` | 2～255色+キーカラー透明度を含むGIF |
