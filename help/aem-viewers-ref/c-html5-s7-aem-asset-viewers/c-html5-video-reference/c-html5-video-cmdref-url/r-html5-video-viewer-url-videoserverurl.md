@@ -1,21 +1,20 @@
 ---
-description: ビデオビューアのURLコマンド
+description: ビデオビューアのURLコマンド。
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 945c32e0-a67b-4c27-b661-26510615d757
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 6%
 
 ---
 
-
 # videoServerUrl{#videoserverurl}
 
-ビデオビューアのURLコマンド
+ビデオビューアのURLコマンド。
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -23,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> ビデオサーバのルートパス。 ドメインが指定されていない場合は、ページの供給元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオサーバーのルートパス。 ドメインが指定されていない場合は、代わりに、ページの提供元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 6%
 ```
 videoServerUrl=http://s7d1.scene7.com/is/content/
 ```
-
