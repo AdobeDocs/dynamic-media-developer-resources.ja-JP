@@ -2,16 +2,15 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
-
 
 # PageView.maxloadradius{#pageview-maxloadradius}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントはアイドル状態のときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>を設定して、現在表示されているフレームの前後の非表示のフレームを、アイドル状態でプリロードする数を定義します。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントはアイドル状態のときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>を設定して、アイドル状態で現在表示されているフレームの周囲にある非表示のフレームの数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
