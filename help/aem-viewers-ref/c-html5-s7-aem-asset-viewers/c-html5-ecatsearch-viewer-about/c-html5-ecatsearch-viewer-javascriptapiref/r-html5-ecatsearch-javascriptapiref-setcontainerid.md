@@ -2,16 +2,15 @@
 description: eCatalogビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f1491091-f109-4836-b7f1-ad0619b72dce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 2%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -19,7 +18,7 @@ eCatalogビューアのJavaScript APIリファレンス。
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-ビューアを挿入する`DOM`コンテナ（通常は`DIV`）のIDを設定します。 このメソッドを呼び出すまでにコンテナ要素を作成しておく必要はありません。 ただし、`init()`を実行する際にはコンテナが存在している必要があります。 `init()`の前に呼び出す必要があります。
+ビューアを挿入する`DOM`コンテナ（通常は`DIV`）のIDを設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、`init()`を実行する際にはコンテナが存在する必要があります。 `init()`の前に呼び出す必要があります。
 
 ビューアの設定情報が`config` JSONオブジェクトを使用して渡される場合は、このメソッドはオプションです。
 
@@ -27,12 +26,12 @@ eCatalogビューアのJavaScript APIリファレンス。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}コンテナの </span> ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}コン </span> テナのID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
@@ -41,4 +40,3 @@ eCatalogビューアのJavaScript APIリファレンス。
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
