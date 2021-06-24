@@ -1,25 +1,24 @@
 ---
-description: メイン表示領域は、ズーム画像とスウォッチが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+description: メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
-
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域は、ズーム画像とスウォッチが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-埋め込みモードで（メインビューア領域に明示的なサイズを指定した場合）操作を行うと、1つの画像で作業しているスウォッチコンポーネントの高さ分、メイン領域の高さが自動的に低下するので、スウォッチは不要です。
+埋め込みモードで作業する場合（メインビューア領域に明示的なサイズを指定した場合）、ビューアは、単一の画像で作業しているスウォッチコンポーネントの高さだけメイン領域の高さを自動的に小さくするので、スウォッチは不要です。
 
 **メインビューア領域のCSSプロパティ**
 
@@ -61,4 +60,3 @@ ht-degree: 1%
  height: 288px;  
 }
 ```
-
