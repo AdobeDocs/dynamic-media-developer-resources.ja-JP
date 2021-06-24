@@ -2,16 +2,15 @@
 description: ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される矩形の領域です。
 solution: Experience Manager
 title: ビデオプレーヤー
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2f92d76e-3104-4ad8-9426-662275492251
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
-
 
 # ビデオプレーヤー{#video-player}
 
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの矩形の表示領域内に中央配置されます。
+再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの長方形の表示領域内に中央配置されます。
 
 以下に示すCSSクラスセレクターで、ビデオプレーヤーの外観を制御します。
 
@@ -38,7 +37,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+システムでビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 — ビデオプレーヤーを透明にするには、次のように記述します。
 
@@ -48,7 +47,7 @@ ht-degree: 1%
 }
 ```
 
-キャプションは、ビデオプレーヤー内部のコンテナに配置されます。 そのコンテナの位置は、サポートされているWebVTT位置決め演算子で制御します。 キャプションテキスト自体は、そのコンテナ内にあり、このスタイルは、以下のCSSクラスセレクターを使用して制御します。
+キャプションは、ビデオプレーヤー内の内部コンテナに配置されます。 そのコンテナの位置は、サポートされているWebVTTの位置決め演算子で制御します。 キャプションテキスト自体はコンテナ内にあり、このスタイルは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -73,8 +72,8 @@ ht-degree: 1%
    <td colname="col2"> <p>キャプションのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
-   <td colname="col2"> <p>フォント重み付け </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -87,7 +86,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 14ピクセル、ライトグレー、Arialで、背景色が半透明の黒であるキャプションテキストを設定するには、次のように記述します。
+例 — 背景色が半透明の黒の場合に、14ピクセルライトグレーのArialのキャプションテキストを設定するには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -121,15 +120,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの高さ。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの高さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの左マージン。通常はアイコンの幅の半分を引いた値。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの左余白。通常は、アイコンの幅の半分を引いた値。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの上余白。通常はアイコンの高さの半分を引いた値です。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの上余白（通常はアイコンの高さの半分を引いた値）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -149,4 +148,3 @@ ht-degree: 1%
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
