@@ -2,16 +2,15 @@
 description: オーバーセットテキストフレームをプラス記号で表示します。 テキストオーバーフローインジケータは、テキストフレーム（スレッドテキストの場合は最後のテキストフレーム）で割り当てられているスペースをテキストが超過した場合に表示されます。インジケータはプラス記号が入った赤いボックスとして表示されます。
 solution: Experience Manager
 title: markOverflowingTextFrames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 59%
+source-wordcount: '141'
+ht-degree: 60%
 
 ---
-
 
 # markOverflowingTextFrames{#markoverflowingtextframes}
 
@@ -24,6 +23,6 @@ ht-degree: 59%
  </tr> 
 </table>
 
-URL呼び出しを介して修飾子`markOverflowingTextFrames=1`を設定すると、テキストがオーバーセットされているすべてのテキストフレームがプラス記号でマークされます。 また、Dynamic Mediaクラシックプレビューアでは、テキストのオーバーセットインジケーターは、デフォルトで「`TRUE`」に設定されています。
+URL呼び出しを通じて修飾子`markOverflowingTextFrames=1`を設定すると、テキストがオーバーセットされるすべてのテキストフレームがプラス記号でマークされます。 また、Dynamic Media Classicのプリビューアでは、テキストのオーバーセットインジケーターはデフォルトで「`TRUE`」に設定されています。
 
 初期設定は 0 です
