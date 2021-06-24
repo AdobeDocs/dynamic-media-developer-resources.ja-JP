@@ -1,26 +1,25 @@
 ---
-description: 画像サービングでは、外部のHTTPサーバおよびFTPサーバ上のソース画像へのアクセスがサポートされています。
+description: 画像サービングは、外部のHTTPおよびFTPサーバー上のソース画像へのアクセスをサポートします。
 solution: Experience Manager
 title: 外部画像ソース
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 90f96a76-e9f3-4ad0-84af-bc0d093acf19
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-
 # 外部画像ソース{#foreign-image-sources}
 
-画像サービングでは、外部のHTTPサーバおよびFTPサーバ上のソース画像へのアクセスがサポートされています。
+画像サービングは、外部のHTTPおよびFTPサーバー上のソース画像へのアクセスをサポートします。
 
-`src=`または`mask=`コマンドの外部URLを指定するには；埋め込まれたURL全体を波括弧で囲みます。
+`src=`または`mask=`コマンドの外部URLを指定するには、次のようにします。埋め込みURL全体を中括弧で区切るだけです。
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-完全な絶対URL（`attribute::AllowDirectUrls`が設定されている場合）および`attribute::RootUrl`を基準としたURLを使用できます。 絶対URLが埋め込まれ、属性が次の場合にエラーが発生します。`AllowDirectUrls`が0の場合、または相対URLが指定され、`attribute::RootUrl`が空の場合。
+完全な絶対URL（`attribute::AllowDirectUrls`が設定されている場合）と`attribute::RootUrl`に対する相対URLが許可されます。 絶対URLが埋め込まれ、次の属性がある場合、エラーが発生します。`AllowDirectUrls`は0か、相対URLが指定され、`attribute::RootUrl`が空の場合。
 
-外部イメージは、HTTP応答に含まれるキャッシュヘッダーに従ってサーバーによってキャッシュされます。
+外部画像は、HTTP応答に含まれるキャッシュヘッダーに従って、サーバーによってキャッシュされます。
