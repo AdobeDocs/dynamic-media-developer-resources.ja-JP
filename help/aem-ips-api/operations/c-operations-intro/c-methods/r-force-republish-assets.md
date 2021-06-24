@@ -2,16 +2,15 @@
 description: 1つ以上のアセットの公開ステータスをリセットし、次の公開ジョブでアセットが再公開されるようにします。
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 8%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -19,7 +18,7 @@ ht-degree: 8%
 
 構文
 
-## 認証済みユーザータイプ{#section-3d5a3e3afea748d69845de5c8c376448}
+## 許可されたユーザーの種類 {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,25 +45,25 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>リセットするアセットを含む会社ーを処理します。 </p> </td> 
+   <td colname="col4"> <p>リセットするアセットを含む会社に対して処理します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>アセットのファイルが配信サーバに再公開されることを指定します。 デフォルトは<span class="codeph"> true</span>です。 </p> </td> 
+   <td colname="col4"> <p>アセットのファイルを配信サーバーに再公開することを指定します。 デフォルトは<span class="codeph"> true</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>アセットを提供するために使用されるカタログメタデータが、現在のアセットであることを保証するために同期されることを指定します。 このパラメーターは、同じレコードに対するほぼ同時更新時に発生する可能性のある競合条件を解決するために使用されます。 デフォルトは<span class="codeph"> false</span>です。 </p> </td> 
+   <td colname="col4"> <p>アセットを提供するために使用されるカタログメタデータが、現在のアセットであることを保証するために同期されることを指定します。 このパラメーターは、同じレコードに対するほぼ同時更新で発生する可能性のある競合状態を解決するために使用されます。 デフォルトは<span class="codeph"> false</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：HandleArray[がた：HandleArray]</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>発行ステータスがリセットされるアセットへのハンドルの配列。 </p> </td> 
+   <td colname="col4"> <p>公開ステータスがリセットされるアセットへのハンドルの配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,10 +82,9 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：PublishStateUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>パブリッシュ状態の更新の配列。 </p> </td> 
+   <td colname="col4"> <p>公開状態の更新の配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
