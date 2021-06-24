@@ -2,14 +2,13 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: CallToAction.scrollbar
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 9d39b43f-9621-4f6f-89a1-ab621fe5592a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> スクロールバーの使用を有効にする。 </p> </td> 
+   <td colname="col2"> <p> スクロールバーを使用可能にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
