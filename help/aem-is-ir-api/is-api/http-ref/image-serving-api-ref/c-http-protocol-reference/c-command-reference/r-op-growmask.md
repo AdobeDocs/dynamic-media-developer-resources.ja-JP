@@ -1,36 +1,35 @@
 ---
-description: 画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
+description: 画像を拡大/縮小します。 マスクデータに形態素ディレート（半径> 0）またはエローデ（半径< 0）を適用します。
 solution: Experience Manager
 title: op_growMask
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
-
 # op_growMask{#op-growmask}
 
-画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径&lt; 0）をマスクデータに適用します。
+画像を拡大/縮小します。 マスクデータに形態素ディレート（半径> 0）またはエローデ（半径&lt; 0）を適用します。
 
 `op_growMask= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> radius</span> </p> </td> 
-  <td class="stentry"> <p>半径が最大解像度マスクに適用されると想定されるピクセル単位の拡大/縮小半径です。したがって、ダウンサンプルマスク（整数 —100 ～ 100）の場合は縮小されます。 </p></td> 
+  <td class="stentry"> <p>半径が最大解像度マスクに適用されると想定されるピクセル単位のディレート/エロード半径。したがって、ダウンサンプリングされたマスク（整数 —100 ～ 100）に対して縮小されます。 </p></td> 
  </tr> 
 </table>
 
-主に、マスクのエッジの周囲に生じるアーチファクトを回避するために、マスクを少し拡大または縮小するために使用します。
+主に、マスクのエッジの周囲にアーティファクトを避けるために、マスクをわずかに拡大または縮小するために使用します。
 
 ## プロパティ {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-現在の画層に適用されます。または、`layer=comp`の場合は画層`0`に適用されます。
+現在の画層に適用されます。 `layer=comp`の場合は画層`0`に適用されます。
 
 ## 初期設定 {#section-14c908bb87cb42acbea709effea2f964}
 
