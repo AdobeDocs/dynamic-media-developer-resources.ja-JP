@@ -1,25 +1,24 @@
 ---
-description: 画像アセットの画像データを置換します。
+description: 画像アセットの画像データを置き換えます。
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 15%
 
 ---
 
-
 # replaceImage{#replaceimage}
 
-画像アセットの画像データを置換します。
+画像アセットの画像データを置き換えます。
 
 構文
 
-## 認証済みユーザータイプ{#section-e2aad71fb2a54612badc7b16f82ed544}
+## 許可されたユーザーの種類 {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +33,7 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | はい | 置き換える会社を含む画像へのハンドル。 |
+| `*`companyName`*` | `xsd:string` | はい | 置き換える画像を含む会社へのハンドル。 |
 | `*`assetHandle`*` | `xsd:string` | はい | 置き換えるアセットのハンドル。 |
 | `*`urlModifier`*` | `xsd:string` | はい | 新しい画像データを生成するImage Serverコマンド。 |
 
@@ -42,11 +41,11 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | はい | 新しいアセットのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 新しいアセットを処理します。 |
 
 ## 例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-次のコードのサンプルを使用すると、画像を置き換え、`urlModifier`を置き換え時にImage Serverが何も行わないことを示すコマンドに適用できます。
+このコードサンプルは、画像を置き換え、`urlModifier`を置き換え時にImage Serverが何も実行しないことを指定するコマンドに適用します。
 
 **リクエスト**
 
@@ -65,4 +64,3 @@ ht-degree: 15%
    <assetHandle>a|140626|1|102524</assetHandle>
 </replaceImageReturn>
 ```
-
