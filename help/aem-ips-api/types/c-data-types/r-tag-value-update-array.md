@@ -1,21 +1,20 @@
 ---
-description: タグ値の配列が更新されます。
+description: タグ値の更新の配列。
 solution: Experience Manager
 title: TagValueUpdateArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # TagValueUpdateArray{#tagvalueupdatearray}
 
-タグ値の配列が更新されます。
+タグ値の更新の配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 18%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:TagValueUpdate` | タグ値の配列が更新されます。 |
-
+| `*`商品`*` | `types:TagValueUpdate` | タグ値の更新の配列。 |
