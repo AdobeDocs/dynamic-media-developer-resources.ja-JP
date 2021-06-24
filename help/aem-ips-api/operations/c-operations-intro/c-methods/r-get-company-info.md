@@ -1,25 +1,24 @@
 ---
-description: 会社ハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
+description: 会社のハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 8%
 
 ---
 
-
 # getCompanyInfo{#getcompanyinfo}
 
-会社ハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
+会社のハンドル、会社名、ルートパス、有効期限など、指定した会社に関する情報を返します。 情報を取得するcompanyHandleまたはcompanyNameを指定する必要があります。
 
 構文
 
-## 認証済みユーザータイプ{#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 許可されたユーザーの種類 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,13 +46,13 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span>または<span class="codeph"> <span class="varname"> companyName </span> </span>が必要です。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>または<span class="codeph"> <span class="varname"> companyName</span> </span>が必要です。 </p> </td> 
    <td colname="col4"> <p>情報を取得する会社のハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span>または<span class="codeph"> <span class="varname"> companyName </span> </span>が必要です。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>または<span class="codeph"> <span class="varname"> companyName</span> </span>が必要です。 </p> </td> 
    <td colname="col4"> <p>情報を取得する会社の名前。 </p> </td> 
   </tr> 
  </tbody> 
@@ -75,14 +74,14 @@ ht-degree: 8%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：会社</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>ハンドルおよび会社に関するその他の詳細情報。 </p> </td> 
+   <td colname="col4"> <p>会社に関するその他の説明情報を処理します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-このコードのサンプルを使用すると、会社名とハンドルを使用して、会社に関するすべての情報を返すことができます。 会社の作成時に受け取った応答に類似したデータを返します。
+このコードのサンプルは、会社名とハンドルを使用して、会社に関するすべての情報を返します。 会社の作成時に受け取った応答と類似したデータを返します。
 
 **リクエスト**
 
@@ -104,4 +103,3 @@ ht-degree: 8%
    </ns1:companyInfo>
 </ns1:getCompanyInfoReturn>
 ```
-
