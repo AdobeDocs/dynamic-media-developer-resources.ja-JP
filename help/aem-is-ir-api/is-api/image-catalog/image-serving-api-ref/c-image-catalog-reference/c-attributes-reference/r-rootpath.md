@@ -1,31 +1,30 @@
 ---
-description: ソースデータのルートパス この画像カタログのソースデータのルートフォルダーの絶対パスまたは相対パス。
+description: ソースデータのルートパス。 この画像カタログのソースデータのルートフォルダーの絶対パスまたは相対パス。
 solution: Experience Manager
 title: RootPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RootPath{#rootpath}
 
-ソースデータのルートパス この画像カタログのソースデータのルートフォルダーの絶対パスまたは相対パス。
+ソースデータのルートパス。 この画像カタログのソースデータのルートフォルダーの絶対パスまたは相対パス。
 
-`RootPath`はテキスト文字列値です。 サーバのルートパスの詳細については、[ソースデータの管理](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)を参照してください。
+`RootPath`はテキスト文字列値です。 サーバーのルートパスの詳細については、「[ソースデータの管理](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)」を参照してください。
 
 ## プロパティ {#section-b41d7e0ea63143eb8034569706cad0c0}
 
-テキスト文字列。 空、有効な相対フォルダーパス、またはImage Serverからアクセス可能な有効な絶対パスである必要があります。
+テキスト文字列。 空、有効な相対フォルダーパス、またはImage Serverがアクセス可能な有効な絶対パスである必要があります。
 
 ## 初期設定 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-定義されていない場合は`default::RootPath`から継承されます。 定義済みで空の場合、はソースファイルのルートパスに影響しません。
+定義されていない場合は`default::RootPath`から継承されます。 定義されているが空の場合、はソースファイルのルートパスに影響しません。
 
 ## 関連項目 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
