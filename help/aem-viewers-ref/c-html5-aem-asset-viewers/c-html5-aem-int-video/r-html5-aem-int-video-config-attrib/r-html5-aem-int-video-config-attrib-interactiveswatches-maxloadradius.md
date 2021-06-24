@@ -2,13 +2,12 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントの初期化時またはアセットの変更時に、すべてのスウォッチが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているスウォッチのみが読み込まれます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>に設定して、表示されている領域の周りにある非表示の行/列を、いくつプリロードするかを定義します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントの初期化時またはアセットの変更時に、すべてのスウォッチが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているスウォッチのみが読み込まれます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>に設定すると、表示されている領域の周りにある非表示の行/列の数がプリロードされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
