@@ -2,16 +2,15 @@
 description: 会社配列内のユーザーのメンバーシップを取得します。
 solution: Experience Manager
 title: getCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ{#section-f8bba547e1f648648be99dc48fd72b5d}
+## 許可されたユーザーの種類 {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 17%
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | いいえ | メンバーシップを取得するユーザーのハンドル。 |
 
-**Output (getCompanyMembershipReturn)**
+**出力(getCompanyMembershipReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -48,7 +47,7 @@ ht-degree: 17%
 
 ## 例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-このコードの例では、ユーザーハンドルを使用して、配列内のユーザーの会社メンバーシップをすべて取得します。 応答は簡潔にするために切り捨てられました。
+このコードサンプルは、ユーザーハンドルを取得し、ユーザーの会社メンバーシップをすべて配列で取得します。 簡潔にするために応答は切り捨てられました。
 
 **リクエスト**
 
@@ -73,4 +72,3 @@ ht-degree: 17%
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
