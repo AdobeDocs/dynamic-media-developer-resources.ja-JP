@@ -1,25 +1,24 @@
 ---
-description: 1つ以上の会社のメンバーシップを設定します。
+description: 1つ以上の会社でユーザーのメンバーシップを設定します。
 solution: Experience Manager
 title: setCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
-
 # setCompanyMembership{#setcompanymembership}
 
-1つ以上の会社のメンバーシップを設定します。
+1つ以上の会社でユーザーのメンバーシップを設定します。
 
 構文
 
-## 認証済みユーザータイプ{#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 許可されたユーザーの種類 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,13 +34,13 @@ ht-degree: 14%
 | `*`userHandle`*` | `xsd:sting` | いいえ | ユーザーハンドル。 |
 | `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社の配列。 |
 
-**Output (setCompanyMembershipParam)**
+**出力(setCompanyMembershipParam)**
 
 IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-このコードの例では、会社にユーザーを追加します。 必要に応じて、会社ハンドル配列に複数の会社を指定します。
+このコードサンプルは、ユーザーを会社に追加します。 必要に応じて、会社内の複数の会社がアレイを処理するように指定します。
 
 **リクエスト**
 
