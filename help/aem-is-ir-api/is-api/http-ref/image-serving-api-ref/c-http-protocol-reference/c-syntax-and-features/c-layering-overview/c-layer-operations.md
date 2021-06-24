@@ -1,24 +1,23 @@
 ---
-description: レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤの相対的な位置(pos=)に加えて、layer=コマンドで合成順序（z順序）を指定すると、レイヤを回転（回転=）して反転（反転=）できます。
+description: レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤの設定に加え、layer=コマンドで合成順序（z順序）を指定する以外に、レイヤを回転(rotate=)したり反転(flip=)したりできます。
 solution: Experience Manager
-title: レイヤーの操作
-feature: Dynamic Media Classic,SDK/API
+title: レイヤー操作
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
+# レイヤー操作{#layer-operations}
 
-# レイヤ操作{#layer-operations}
+レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤの設定に加え、layer=コマンドで合成順序（z順序）を指定する以外に、レイヤを回転(rotate=)したり反転(flip=)したりできます。
 
-レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤの相対的な位置(pos=)に加えて、layer=コマンドで合成順序（z順序）を指定すると、レイヤを回転（回転=）して反転（反転=）できます。
+`origin=`属性と`anchor=`属性を使用して、テンプレートで画像やテキストが動的に変更された場合に、レイヤー間での適切な配置を維持できます。
 
-テンプレートで画像やテキストが動的に変更される場合、`origin=`属性と`anchor=`属性を使用して、レイヤー間の希望の配置を維持できます。
+`maskUse=`コマンドは、別々のマスクを持つ画像の背景領域に、画像レイヤーがアクセスする場合に使用できます。
 
-`maskUse=`コマンドは、画像レイヤーが、別々のマスクを持つ画像の背景領域にアクセスするために使用できます。
-
-`opac=` を使用して、レイヤーの不透明度を変更したり、レイヤーの表示/非表示 `hide=` を切り替えたりできます。
+`opac=` を使用して、レイヤーの不透明度を変更したり、レイヤーの表 `hide=` 示/非表示を切り替えたりできます。
