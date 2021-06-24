@@ -1,27 +1,26 @@
 ---
-description: 描画モード. レイヤーを合成するときに使用するブレンドの種類を指定します。 Photoshopでよく使用される描画モードをシミュレートします。 詳細はPhotoshopの文書を参照。
+description: 描画モード. レイヤーを合成するときに使用するブレンドの種類を指定します。 Photoshopで一般的に使用されるブレンドモードをシミュレートします。 詳しくは、 Photoshopのドキュメントを参照してください。
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 15%
 
 ---
 
-
 # blendMode{#blendmode}
 
-描画モード. レイヤーを合成するときに使用するブレンドの種類を指定します。 Photoshopでよく使用される描画モードをシミュレートします。 詳細はPhotoshopの文書を参照。
+描画モード. レイヤーを合成するときに使用するブレンドの種類を指定します。 Photoshopで一般的に使用されるブレンドモードをシミュレートします。 詳しくは、 Photoshopのドキュメントを参照してください。
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## プロパティ {#section-418aad5a417f49929d1953e226e5c8dd}
 
-レイヤー属性 `layer=0`と`layer=comp`では無視されます。
+画層属性 `layer=0`および`layer=comp`では無視されます。
 
 ## 初期設定 {#section-69829acc6532448d8612a4a54e86f00e}
 
