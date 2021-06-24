@@ -1,21 +1,20 @@
 ---
-description: ソーシャル共有ツールは、デフォルトで右上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
+description: ソーシャル共有ツールは、デフォルトで右上隅に表示されます。 このタブは、ボタンと、ユーザーがボタンをクリックまたはタップすると展開するパネルで構成され、個々の共有ツールが含まれます。
 solution: Experience Manager
-title: ソーシャルシェア
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: ソーシャル共有
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
 
-# ソーシャルシェア{#social-share}
+# ソーシャル共有{#social-share}
 
-ソーシャル共有ツールは、デフォルトで右上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
+ソーシャル共有ツールは、デフォルトで右上隅に表示されます。 このタブは、ボタンと、ユーザーがボタンをクリックまたはタップすると展開するパネルで構成され、個々の共有ツールが含まれます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p> ビューアのコンテナを基準とする、ソーシャル共有ツールの水平方向の位置。 </p> </td> 
+   <td colname="col2"> <p> ビューアのコンテナを基準とした、ソーシャル共有ツールの水平方向の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**例**  — ビューアコンテナの上端から4ピクセル、右端から5ピクセルの位置に配置し、サイズが28 x 28ピクセルのソーシャル共有ツールを設定するには、次のように記述します。
+**例**  — ビューアのコンテナの上から4ピクセル、右から5ピクセルの位置に配置し、サイズが28 x 28ピクセルのソーシャル共有ツールを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -71,22 +70,22 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例** - 4つのボタンの状態ごとに異なる画像を表示するソーシャル共有ツールボタンを設定するには、次のように記述します。
+**例**  — ボタンの4つの状態ごとに異なる画像を表示するソーシャル共有ツールボタンを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -120,7 +119,7 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
  </tbody> 
 </table>
 
-**例**  — 透明色を持つパネルを設定するには、次のように記述します。
+**例**  — 透明色を持つパネルを設定するには：
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 
