@@ -2,20 +2,19 @@
 description: style
 solution: Experience Manager
 title: style
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，ビューア，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 7%
 
 ---
 
-
 # style{#style}
 
-次のコマンドは、URLクエリ文字列とconfigの両方から適用できます。 URLクエリ文字列で適用するコマンドは、configに存在する同じコマンドよりも常に優先されます。
+次のコマンドは、URLクエリ文字列とconfigの両方から適用できます。 URLクエリ文字列で適用されるコマンドが、configに存在する同じコマンドよりも常に優先されます。
 
 `style= *`cssPath`*`
 
@@ -23,12 +22,12 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 相対的または絶対的なCSSの場所 </p> <p>カスタムCSSファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span>が相対パスの場合、ビューアのHTMLページの位置と<span class="codeph"> contentUrl=</span>パラメータの値を基準に解決されます。 </p> </td> 
+   <td colname="col2"> <p> CSSの相対位置または絶対位置。 </p> <p>カスタムCSSファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span>が相対パスの場合、ビューアのHTMLページの位置と<span class="codeph"> contentUrl=</span>パラメーターの値を基準に解決されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSSファイル内のすべてのアセット参照は、呼び出し元のHTMLページではなく、CSSファイルの場所を基準に解決されます。
+CSSファイル内のすべてのアセット参照は、呼び出し元のHTMLページの場所ではなく、CSSファイルの場所を基準に解決されます。
 
 ## プロパティ {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
