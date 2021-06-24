@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切り替えた場合、スクロールボタンを押すと、スウォッチが自動的にページの長さ全体をジャンプします。 </p> <p>スウォッチが収まらない場合は、最後のページに余分な空白が表示されます。 また、最後のページのセル数は前のページと同じになります。 </p> <p>scrollstepは無視され、マウススクロールは完全なページでのみ止まります。 </p> </td> 
+   <td colname="col2"> <p> 切り替えた場合、スクロールボタンを使用すると、スウォッチが自動的にページの長さまでジャンプします。 </p> <p>スウォッチが収まらない場合は、最後のページに余分な空白が表示されます。 また、最後のページのセル数は前のページと同じになります。 </p> <p>scrollstepは無視され、マウススクロールは完全なページでのみ止まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
