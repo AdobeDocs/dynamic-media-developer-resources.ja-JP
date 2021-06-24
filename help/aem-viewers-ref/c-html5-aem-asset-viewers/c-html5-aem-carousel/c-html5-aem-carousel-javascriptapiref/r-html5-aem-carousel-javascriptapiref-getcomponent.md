@@ -2,13 +2,12 @@
 description: カルーセルビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: getComponent**
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -19,11 +18,11 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-ビューアで使用されているビューアSDKコンポーネントへの参照を返します。 Webページでは、このメソッドを使用して、標準搭載のビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete`ビューアのコールバックを実行した後でのみ呼び出してください。呼び出さないと、ビューアのロジックによってコンポーネントがまだ作成されていない場合があります。
+ビューアで使用されるビューアSDKコンポーネントへの参照を返します。 Webページでは、この方法を使用して、標準提供ビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete`ビューアのコールバックを実行した後にのみ呼び出します。そうしないと、ビューアのロジックによってコンポーネントがまだ作成されていない可能性があります。
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
+`*`componentID`*`  - `{String}` ビューアで使用されるビューアSDKコンポーネントのID。このビューアは、次のコンポーネントIDをサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -39,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.コンテナ  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
@@ -72,13 +71,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK APIを使用する場合、[ビューアSDKの名前空間](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)で説明されているとおり、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK APIを操作する場合は、[ビューアSDKの名前空間](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)で説明されているように、適切な完全修飾SDK名前空間を使用することが重要です。
 
-特定のコンポーネントについて詳しくは、ビューアSDK APIドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、ビューアSDK APIのドキュメントを参照してください。
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` ビューアSDKコンポーネントへのリファレンス。`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合は、`null`が返されます。
+`{Object}` ビューアSDKコンポーネントへのリファレンス。`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合、メソッドは`null`を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
