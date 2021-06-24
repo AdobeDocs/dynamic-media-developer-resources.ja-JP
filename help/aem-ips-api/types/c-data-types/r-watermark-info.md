@@ -2,16 +2,15 @@
 description: 透かしアセットのプロパティ。
 solution: Experience Manager
 title: WatermarkInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 17%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
-
 
 # WatermarkInfo{#watermarkinfo}
 
@@ -23,7 +22,6 @@ ht-degree: 17%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`url`*` | `xsd:string` | テンプレートを表すImage ServerのURL。 |
+| `*`url`*` | `xsd:string` | テンプレートを表す画像サーバーのURL。 |
 | `*`urlModifier`*` | `xsd:string` |  |
 | `*`urlPostApplyModifier`*` | `xsd:string` |  |
-
