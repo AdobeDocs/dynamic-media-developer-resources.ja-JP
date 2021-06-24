@@ -1,25 +1,24 @@
 ---
-description: デフォルトのロケールID リクエストでlocale=が指定されていない場合に、ローカライゼーション/変換の目的で使用されるロケールID。
+description: デフォルトのロケールID。 リクエストでlocale=が指定されていない場合に、ローカライゼーション/翻訳の目的で使用されるロケールID。
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
 
-
 # DefaultLocale{#defaultlocale}
 
-デフォルトのロケールID リクエストでlocale=が指定されていない場合に、ローカライゼーション/変換の目的で使用されるロケールID。
+デフォルトのロケールID。 リクエストでlocale=が指定されていない場合に、ローカライゼーション/翻訳の目的で使用されるロケールID。
 
 ## プロパティ {#section-a101e9658d304e9caf032a99ecb80386}
 
-テキスト文字列。 `attribute::LocaleMap`と`attribute::LocaleStrMap`が空の場合、または`locale=`が指定されていて空でない場合は無視されます。
+テキスト文字列。 `attribute::LocaleMap`と`attribute::LocaleStrMap`が空の場合、または`locale=`が指定されて空でない場合は無視されます。
 
 ## 関連項目 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
