@@ -2,16 +2,15 @@
 description: マルチビットレートデータ。
 solution: Experience Manager
 title: mbrSet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
-
 
 # mbrSet{#mbrset}
 
@@ -32,14 +31,14 @@ ht-degree: 0%
 
 ネットパスIDに関連付けられたビデオセット内の有効なビデオエントリに対応するURL（および対応するビットレート）のリストを含むテキストまたはxml応答を返します。
 
-以前、有効なビデオエントリに`catalog::VideoBitRate`の値を含めるという要件は緩和されました。 エントリには、`catalog::VideoBitRate`*または* `catalog::AudioBitRate`*または* `catalog::TotalStreamBitRate`の値を含めることができます。 ビデオエントリを有効にするには、これらのうち1つのみを定義する必要があります。 `catalog::Path`と有効なビデオファイル拡張子に関する要件は変更されていません。
+以前の有効なビデオエントリに`catalog::VideoBitRate`の値が含まれるという要件は緩和されました。 エントリには、`catalog::VideoBitRate`*または* `catalog::AudioBitRate`*または* `catalog::TotalStreamBitRate`の値を含めることができます。 ビデオエントリが有効であるために定義する必要があるのは、これらのうちの1つだけです。 `catalog::Path`と有効なビデオファイル拡張子の要件は変わっていません。
 
-応答は、AppleおよびFlashストリーミングサーバーでの消費を目的としており、構造的にはこれらの仕様に準拠しています。 URLは、プリフィックス`attribute::HttpAppleStreamingContext`と`attribute::HttpFlashStreamingContext`を使用して生成されます。
+応答は、AppleおよびFlashストリーミングサーバーでの使用を目的としており、構造的にこれらの仕様に準拠しています。 URLは、プレフィックス`attribute::HttpAppleStreamingContext`と`attribute::HttpFlashStreamingContext`を使用して生成されます。
 
-m3u8応答には、mp4ファイル（ビデオセットに存在する場合）のみが含まれます。 mp4ファイルがない場合、これらの応答にはf4vファイルのみが含まれます。 mp4ファイルもf4vファイルも存在しない場合、応答は空です。
+m3u8応答には、ビデオセット内にmp4ファイルが存在する場合にのみmp4ファイルが含まれます。 mp4ファイルが存在しない場合、これらの応答にはf4vファイルのみが含まれます。 mp4ファイルもf4vファイルも存在しない場合、応答は空になります。
 
-f4m応答には、f4vファイルが含まれる（ビデオセットに存在する場合）限り、f4vファイルが含まれます。 f4vファイルがない場合、これらの応答にはmp4ファイルのみが含まれます。 f4vファイルもmp4ファイルも存在しない場合、応答は空です。
+f4m応答には、ビデオセットにf4vファイルが存在する場合にのみ、f4vファイルが含まれます。 f4vファイルが存在しない場合、これらの応答にはmp4ファイルのみが含まれます。 f4vファイルもmp4ファイルも存在しない場合、応答は空になります。
 
-f4m/m3u8応答に表示されるビットレートは、`catalog::TotalStreamBitRate`の値に対応します（適切な単位に変換されます）。 `catalog::TotalStreamBitRate`を定義しない場合は、`catalog::VideoBitRate`と`catalog::AudioBitRate`の合計が使用されます。
+f4m/m3u8応答で表示されるビットレートは、`catalog::TotalStreamBitRate`の値に対応します（適切な単位に変換）。 `catalog::TotalStreamBitRate`を定義しない場合は、`catalog::VideoBitRate`と`catalog::AudioBitRate`の合計が使用されます。
 
 HTTP応答は、`catalog::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
