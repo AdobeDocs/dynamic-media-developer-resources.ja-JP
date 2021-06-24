@@ -2,16 +2,15 @@
 description: 会社の公開ターゲットを定義します。
 solution: Experience Manager
 title: PublishContext
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 10%
 
 ---
-
 
 # PublishContext{#publishcontext}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
 
 ## パラメータ {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-アセットは、パブリッシュ状態とコンテキストごとに個別のマーカーを保持します。 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)を使用して発行状態を設定します。
+アセットは、公開状態とコンテキストごとに個別のマーカーを維持します。 公開状態を[setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)に設定します。
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -35,7 +34,7 @@ ht-degree: 10%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> パブリッシュコンテキストへの処理。 </td>
+   <td colname="col3"> パブリッシュコンテキストを処理します。 </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
