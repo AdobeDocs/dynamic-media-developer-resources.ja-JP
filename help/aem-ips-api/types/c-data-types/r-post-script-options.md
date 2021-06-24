@@ -1,21 +1,20 @@
 ---
-description: PostScriptファイルのオプション。
+description: PostScriptファイルオプション。
 solution: Experience Manager
 title: PostScriptOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fd2093b5-9856-4f31-8853-1027194a71df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
-
 # PostScriptOptions{#postscriptoptions}
 
-PostScriptファイルのオプション。
+PostScriptファイルオプション。
 
 構文
 
@@ -23,9 +22,8 @@ PostScriptファイルのオプション。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`プロセス`*` | `xsd:string` | PostScriptプロセスの選択 |
+| `*`プロセス`*` | `xsd:string` | PostScriptプロセスの選択。 |
 | `*`resolution`*` | `xsd:double` | ファイルの解像度。 |
 | `*`カラースペース`*` | `xsd:string` | PostScriptカラースペースモード。 |
-| `*`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうかを指定します。 このように定義されている場合、元のファイルがこのように定義されていれば、透明な背景が作成されます。 一般に、オーバーレイロゴの作成に使用されます。 |
+| `*`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうか。 がこの方法で定義されている場合、元のファイルがこの方法で定義されていると、透明な背景が作成されます。 一般に、オーバーレイロゴの作成に使用されます。 |
 | `*`extractSearchWords`*` | `xsd:boolean` | PostScriptファイルから検索語を抽出するかどうか。 |
-
