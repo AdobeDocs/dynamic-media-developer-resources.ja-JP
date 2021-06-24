@@ -2,16 +2,15 @@
 description: アセットを削除します。
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
-
 
 # deleteAsset{#deleteasset}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 認証済みユーザータイプ{#section-e913be43b684491daf02bc73211e4290}
+## 許可されたユーザーの種類 {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび削除のアクセス権を持っている必要があります。
+>ユーザーは、アセットに対する読み取りおよび削除アクセス権を持っている必要があります。
 
 ## パラメータ {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -38,7 +37,7 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社へのハンドル。 |
 | `*`assetHandle`*` | `xsd:string` | はい | 削除するアセットのハンドル。 |
 
 **出力(deleteAssetParam)**
@@ -47,7 +46,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d5657289f5234bb0a613dcf691507958}
 
-このサンプルコードは、特定の会社から任意のタイプのアセットを削除します。 アセットハンドルが必要です。このハンドルは、別の操作から取得する必要があります。
+このサンプルコードでは、特定の会社から任意のタイプのアセットを削除します。 別の操作から取得する必要があるアセットハンドルが必要です。
 
 **リクエスト**
 
