@@ -1,21 +1,20 @@
 ---
-description: 検索文字列の配列です。
+description: 検索文字列の配列。
 solution: Experience Manager
 title: SearchStringsArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # SearchStringsArray{#searchstringsarray}
 
-検索文字列の配列です。
+検索文字列の配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:SearchStrings` | 検索文字列の配列です。 |
-
+| `*`商品`*` | `types:SearchStrings` | 検索文字列の配列。 |
