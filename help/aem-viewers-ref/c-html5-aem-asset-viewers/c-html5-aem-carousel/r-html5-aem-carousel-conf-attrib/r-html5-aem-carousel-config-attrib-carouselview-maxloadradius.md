@@ -2,13 +2,12 @@
 description: CarouselView.maxloadradius
 solution: Experience Manager
 title: CarouselView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントはアイドル状態のときにすべてのカルーセルフレームをプリロードします。 </p> <p><span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>は、アイドル状態の場合に、現在表示されているフレームの前後にある非表示のフレームをいくつプリロードするかを定義します。 </p> </td> 
+   <td> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、アイドル状態の場合にすべてのカルーセルフレームがプリロードされます。 </p> <p><span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrは、アイドル状態の場合に、現在表示されているフレームの周囲にある非表示のフレームの数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
