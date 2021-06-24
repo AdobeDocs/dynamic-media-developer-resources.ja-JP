@@ -2,16 +2,15 @@
 description: パスベースのアセットへの直接アクセスを許可します。
 solution: Experience Manager
 title: AllowDirectAccess
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # AllowDirectAccess{#allowdirectaccess}
 
@@ -21,10 +20,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->`AllowDirectAccess`属性を指定しない場合のデフォルト値は`exclude`です。
+>`AllowDirectAccess`属性を指定しない場合、デフォルト値は`exclude`です。
 
-* `include` 指定したオブジェクトタイプへのアクセスを許可し、その他のすべてのオブジェクトのアクセスを制限します。
-* `exclude` 指定したオブジェクトタイプへのアクセスが制限され、その他のすべてのオブジェクトに対するアクセスが許可されます。
+* `include` は、指定したオブジェクト型に対するアクセスを許可し、その他のすべてのオブジェクトに対するアクセスを制限します。
+* `exclude` は、指定したオブジェクトタイプに対するアクセスを制限し、その他すべてに対するアクセスを許可します。
 
 `include`も`exclude`も指定しない場合、`include`と見なされます。
 
@@ -40,27 +39,26 @@ ht-degree: 0%
 
 ## 例 {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* `IS`および`STATIC`オブジェクトタイプでのみ直接アクセスを許可
+* `IS`および`STATIC`オブジェクトタイプに対してのみ直接アクセスを許可
 
    `AllowDirectAccess=include:IS,STATIC`
 
-* `IS`と`STATIC``AllowDirectAccess=exclude:IS,STATIC`を除くすべてのオブジェクトタイプで直接アクセスを許可する
+* `IS`と`STATIC``AllowDirectAccess=exclude:IS,STATIC`を除くすべてのオブジェクトタイプに対する直接アクセスを許可
 
-* **&#x200B;オブジェクトタイプのへの直接アクセスを許可する（つまり、何も含めない）
+* *no*&#x200B;オブジェクトタイプの直接アクセスを許可する（つまり、noneを含める）
 
    `AllowDirectAccess=include:`
 
-* *すべての*&#x200B;オブジェクトタイプに対する直接アクセスを許可する（つまり、「なしを除外」）
+* *すべての*&#x200B;オブジェクトタイプに対する直接アクセスを許可する（「なし」を除く）
 
    `AllowDirectAccess=exclude:`
 
-* `include:IS,STATIC`と同等（`include`/ `exclude`が存在しない場合、`include`と解釈されます）
+* `include:IS,STATIC`と同じ（`include`/`exclude`が存在しない場合、`include`と見なされます）
 
    `AllowDirectAccess=IS,STATIC`
 
-   この会社に`AllowDirectAccess`属性が指定されていない場合は、これがデフォルト値になります。
+   は、この会社で`AllowDirectAccess`属性が指定されていない場合に使用されるデフォルト値です。
 
-* なし（`include:`と同じ）（`include`/ `exclude`が存在しない場合は`include`と見なされます）
+* なしを含める（`include:`と同じ）（`include`/`exclude`が存在しない場合、`include`と見なされます）
 
    `AllowDirectAccess=`
-
