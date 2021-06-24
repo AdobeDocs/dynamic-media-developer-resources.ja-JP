@@ -1,34 +1,33 @@
 ---
-description: 次のサーバー設定を使用して、エラーをリダイレクトします。
+description: これらのサーバー設定を使用して、エラーをリダイレクトします。
 solution: Experience Manager
 title: エラーリダイレクト
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a184e113-9708-412f-9b71-d75a35629adf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-
 # エラーリダイレクト{#error-redirection}
 
-次のサーバー設定を使用して、エラーをリダイレクトします。
+これらのサーバー設定を使用して、エラーをリダイレクトします。
 
 >[!NOTE]
 >
->ネットパスのパイプ文字(|)は、エラーリダイレクトに対してはサポートされていません。
+>ネットパス内のパイプ文字(|)は、エラーのリダイレクトに対してはサポートされていません。
 
-## PS::errorRedirect.rootUrl — リダイレクトサーバー{#section-85f22e48d68842a490b0e1191543b558}
+## PS::errorRedirect.rootUrl — リダイレクトサーバー {#section-85f22e48d68842a490b0e1191543b558}
 
-ルートURL ([!DNL HTTP:// *[!DNL domain]*[:*[!DNL port]*])を参照)に設定されます。 この設定が空か、定義されていない場合、エラーリダイレクトは無効になっています（デフォルト）。
+ルートURL ( [!DNL HTTP:// *[!DNL domain]*[:*[!DNL port]*])をセカンダリImage Servingデプロイメント用に書き込みます。 この設定が空または定義されていない場合、エラーのリダイレクトは無効（デフォルト）になります。
 
-## PS::errorRedirect.connectTimeout — リダイレクト接続のタイムアウト{#section-3971be8f720d4b32a2cc7860b4085971}
+## PS::errorRedirect.connectTimeout — リダイレクト接続のタイムアウト {#section-3971be8f720d4b32a2cc7860b4085971}
 
-クライアントにエラーを返す前に、サーバーがセカンダリサーバーとの接続が確立されるのを待機する最大時間（ミリ秒）です。
+クライアントにエラーを返す前に、セカンダリサーバーとの接続が確立されるのをサーバーが待機する最大時間（ミリ秒）です。
 
-## PS::errorRedirect.socketTimeout — リダイレクト応答のタイムアウト{#section-69d8579f748d4044bca99dfb64dd523c}
+## PS::errorRedirect.socketTimeout — リダイレクト応答のタイムアウト {#section-69d8579f748d4044bca99dfb64dd523c}
 
-リダイレクト要求を破棄してクライアントにエラーを返す前に、セカンダリサーバーがデータを返すまでの最大待機時間（ミリ秒）。
+最大時間（ミリ秒）。セカンダリサーバーがデータを返すのを待ってから、リダイレクトリクエストを破棄してクライアントにエラーを返します。
