@@ -2,16 +2,15 @@
 description: 画像形式を作成します。
 solution: Experience Manager
 title: saveImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: cafbd715-237b-4454-920e-643f0c84e208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 11%
 
 ---
-
 
 # saveImageFormat{#saveimageformat}
 
@@ -19,9 +18,9 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->`urlModifier`フィールドの値は、有効なXMLで構成されている必要があります。 例えば、`&`を`&`に変更します。 IPSユーザインターフェイスから`urlModfier`値を取得します。
+>`urlModifier`フィールドの値は、有効なXMLで構成する必要があります。 例えば、`&`を`&`に変更します。 IPSユーザーインターフェイスから`urlModfier`値を取得します。
 
-## 認証済みユーザータイプ{#section-12c9d8d5933f4692bafb194060b4f882}
+## 許可されたユーザーの種類 {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,20 +33,20 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 操作する画像形式を持つ会社へのハンドル。 |
-| `*`imageFormatHandle`*` | `xsd:string` | いいえ | 保存する画像形式ハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 作業対象の画像形式を持つ会社へのハンドル。 |
+| `*`imageFormatHandle`*` | `xsd:string` | いいえ | 保存する画像形式のハンドル。 |
 | `*`name`*` | `xsd:string` | はい | 画像形式名。 |
-| `*`urlModifier`*` | `xsd:string` | はい | IPSプロトコルクエリ文字列を指定できます。 URL修飾子を生成する最も簡単な方法は、IPSユーザインターフェイスを使用してURL修飾子を作成し、クエリ文字列を切り取って貼り付けることです。 |
+| `*`urlModifier`*` | `xsd:string` | はい | IPSプロトコルクエリー文字列を指定できます。 URL修飾子を生成する最も簡単な方法は、IPSユーザーインターフェイスを使用してURL修飾子を作成し、クエリ文字列を切り取って貼り付けることです。 |
 
 **出力(saveImageFormatReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | はい | 画像形式へのハンドル。 |
+| `*`imageFormatHandle`*` | `xsd:string` | はい | 画像形式を処理します。 |
 
 ## 例 {#section-c7bd733212ef494297a97093f3af193f}
 
-次のコードのサンプルを使用して、画像形式を作成します。 この例では、`urlModifier`は、有効なHTML形式を持つIPSユーザインターフェイスの値によって決定されています。
+このコードサンプルは、画像形式を作成します。 この例では、 `urlModifier`は、有効なHTML形式を持つIPSユーザーインターフェイスの値によって決定されます。
 
 **リクエスト**
 
@@ -68,4 +67,3 @@ ht-degree: 11%
    <imageFormatHandle>47|301</imageFormatHandle> 
 </saveImageFormatReturn>
 ```
-
