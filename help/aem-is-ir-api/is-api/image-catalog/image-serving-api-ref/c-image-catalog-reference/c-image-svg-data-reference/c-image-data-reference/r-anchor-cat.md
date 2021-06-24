@@ -1,34 +1,33 @@
 ---
-description: 画像アンカー この接触チャネルがテンプレートまたは合成画像のレイヤーとして使用される場合の画像ポイント。
+description: 画像アンカー。 この画像がテンプレートまたは合成画像のレイヤーとして使用される場合の原点。
 solution: Experience Manager
 title: アンカー
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-
 # アンカー{#anchor}
 
-画像アンカー この接触チャネルがテンプレートまたは合成画像のレイヤーとして使用される場合の画像ポイント。
+画像アンカー。 この画像がテンプレートまたは合成画像のレイヤーとして使用される場合の原点。
 
-また、回転のデフォルトの中心点も定義します。
+回転の既定の中心点も定義します。
 
 ## プロパティ {#section-95740f14160744e7bc763094b8be40d8}
 
-カンマで区切られた2つの整数。 最大解像度の画像の左上隅を基準とするピクセルオフセット。
+コンマで区切った2つの整数。 最大解像度の画像の左上隅を基準とするピクセルオフセット。
 
-`anchor=`によって上書きされます（これは`origin=`によって上書きできます）。
+`anchor=`で上書きされます（`origin=`で上書きできます）。
 
 ## 初期設定 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-このフィールドが存在しない場合や空の場合、および有効な画像レコード（`catalog::Path`が有効な場合）は、画像の中心点が使用されます。
+このフィールドが存在しない場合や空の場合、およびこのレコードが有効な画像レコードの場合（`catalog::Path`が有効な場合）は、画像の中心点が使用されます。
 
 ## 関連項目 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
-[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) 、 [接触チャネル=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ,  [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
