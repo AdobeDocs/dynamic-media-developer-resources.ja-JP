@@ -1,25 +1,24 @@
 ---
-description: アセット名と会社の画像サービング/画像レンダリングカタログ名前空間のすべての名前を比較して、IPS IDの競合を確認します。
+description: アセット名と会社の画像サービング/画像レンダリングカタログ名前空間のすべての名前を比較することで、IPS IDの競合をチェックします。
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 12%
 
 ---
 
-
 # checkAssetNames{#checkassetnames}
 
-アセット名と会社の画像サービング/画像レンダリングカタログ名前空間のすべての名前を比較して、IPS IDの競合を確認します。
+アセット名と会社の画像サービング/画像レンダリングカタログ名前空間のすべての名前を比較することで、IPS IDの競合をチェックします。
 
 構文
 
-## 認証済みユーザータイプ{#section-8efcbb3f555f417a870219e4714374db}
+## 許可されたユーザーの種類 {#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,14 +29,14 @@ ht-degree: 12%
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## パラメータ{#section-9c75b00f2072453abea0bdefc6ad7c99}
+## パラメータ {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **入力(checkAssetNamesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
-| `*`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列です。 |
+| `*`assetNamesArray`*` | `types:StringArray` | はい | 確認するアセット名の配列。 |
 
 **出力(checkAssetNamesReturn)**
 
@@ -47,7 +46,7 @@ ht-degree: 12%
 
 ## 例 {#section-bc5d120d74614a63a425ca3acc337219}
 
-このサンプルコードは、指定した会社で使用されているアセット名を要求します。 応答は、使用中のアセット名の配列を返します。
+このサンプルコードは、指定した会社で使用中のアセット名を要求します。 応答は、使用中のアセット名の配列を返します。
 
 **リクエスト**
 
@@ -70,4 +69,3 @@ ht-degree: 12%
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
