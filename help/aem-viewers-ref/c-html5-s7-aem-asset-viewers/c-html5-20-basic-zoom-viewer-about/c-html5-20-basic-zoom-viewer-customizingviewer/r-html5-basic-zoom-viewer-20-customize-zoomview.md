@@ -1,21 +1,20 @@
 ---
-description: メイン表示は、ズーム可能な画像で構成されます。
+description: メインビューは、ズーム可能な画像で構成されます。
 solution: Experience Manager
-title: ズーム表示
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: ズームビュー
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 3%
 
 ---
 
+# ズームビュー{#zoom-view}
 
-# ズーム表示{#zoom-view}
-
-メイン表示は、ズーム可能な画像で構成されます。
+メインビューは、ズーム可能な画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,16 +36,16 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
+   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
-   <td colname="col2"> <p>カーソルはメイン表示の上に表示されます。 </p> </td> 
+   <td colname="col2"> <p>カーソルがメインビュー上に表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メイン表示を透明にするには、次のように記述します。
+例 — メインビューを透明にするには、次のように記述します。
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -54,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-デスクトップシステムでは、コンポーネントは`.s7zoomview`クラスに適用できる`cursortype`属性セレクターをサポートし、コンポーネントの状態とユーザー操作に基づいてカーソルタイプを制御します。 次の`cursortype`値がサポートされています。
+デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7zoomview`クラスに適用でき、コンポーネントの状態とユーザー操作に基づいてカーソルの種類を制御します。 次の`cursortype`値がサポートされています。
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -66,7 +65,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> デフォルト </span> </p> </td> 
-   <td colname="col2"> <p>画像解像度が低い、コンポーネントの設定、またはその両方が原因で画像がズーム可能でない場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>画像の解像度が小さい、またはコンポーネントの設定、あるいはその両方が原因で画像がズーム可能でない場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
@@ -74,12 +73,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> リセット </span> </p> </td> 
-   <td colname="col2"> <p>画像が最大ズームレベルに達し、初期状態にリセット可能な場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>画像が最大ズームレベルで、初期状態にリセット可能な場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ドラッグ </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがズームイン状態の画像をパンした場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>ユーザーがズームイン状態の画像をパンしたときに表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
