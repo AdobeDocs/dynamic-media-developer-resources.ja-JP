@@ -1,21 +1,20 @@
 ---
-description: メタデータをメタデータサーバに公開します。
+description: メタデータサーバにメタデータを公開します。
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
-
 # MetadataPublishJobType{#metadatapublishjobtype}
 
-メタデータをメタデータサーバに公開します。
+メタデータサーバにメタデータを公開します。
 
 構文
 
@@ -33,8 +32,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"><span class="codeph"> True</span>に設定すると、<i>すべての</i>データが再度メタデータサーバに発行されます。 <p>注意： データの量によっては、処理に数分から数時間かかる場合があります。 </p><p>新規または変更したメタデータのみを公開する場合は、このパラメータを設定しないでください。 </p></td> 
+   <td colname="col3"><span class="codeph"> True</span>に設定すると、<i>すべての</i>データがメタデータサーバに再び公開されます。 <p>注意： データの量によっては、数分から数時間かかる場合があります。 </p><p>新規または変更したメタデータのみを公開する場合は、このパラメーターを設定しないでください。 </p></td> 
   </tr> 
  </tbody> 
 </table>
-
