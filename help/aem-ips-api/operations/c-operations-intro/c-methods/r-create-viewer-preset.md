@@ -1,25 +1,24 @@
 ---
-description: ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
+description: ユーザーに表示する内容を決定するプリセットビューを作成します。 ビューアは、IPSで使用できる任意のタイプです。 プリセットビューは、アセットが公開される際に適用されます。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic,SDK/API，ビューアプリセット
 role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 13%
 
 ---
 
 # createViewerPreset{#createviewerpreset}
 
-ユーザが何を表示できるかを決定するプリセット表示を作成します。 ビューアは、IPSで使用可能な任意の種類です。 プリセット表示は、アセットが公開されるときに適用されます。
+ユーザーに表示する内容を決定するプリセットビューを作成します。 ビューアは、IPSで使用できる任意のタイプです。 プリセットビューは、アセットが公開される際に適用されます。
 
 構文
 
-## 認証済みユーザータイプ{#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 許可されたユーザーの種類 {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,7 +32,7 @@ ht-degree: 13%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | ビューアプリセットとアセットを含む会社のハンドル。 |
-| `*`folderHandle`*` | `xsd:string` | はい | アセットを含むフォルダーのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | アセットを格納するフォルダーのハンドル。 |
 | `*`name`*` | `xsd:string` | はい | ビューア名 |
 | `*`type`*` | `xsd:string` | はい | ビューアタイプ. |
 | `*`configSettingArray`*` | `types:ConfigSettingArray` | いいえ | プリセットを適用する画像の名前、値、ハンドルを含む配列。 |
@@ -42,11 +41,11 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル |
+| `*`viewerPresetHandle`*` | `xsd:string` | はい | ビューアに対するプリセットのハンドル。 |
 
 ## 例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-このコードサンプルを使用して、ビデオプレーヤープリセットを作成します。 応答は、プリセットにハンドルを返します。
+このコードサンプルは、ビデオプレーヤープリセットを作成します。 応答は、プリセットにハンドルを返します。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
