@@ -1,28 +1,27 @@
 ---
-description: 画像の拡大・縮小 最大解像度の画像を基準にして画像を拡大・縮小します。
+description: 画像を拡大・縮小します。 最大解像度の画像を基準に画像を拡大・縮小します。
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 8%
 
 ---
 
+# スケール{#scale}
 
-# scale{#scale}
-
-画像の拡大・縮小 最大解像度の画像を基準にして画像を拡大・縮小します。
+画像を拡大・縮小します。 最大解像度の画像を基準に画像を拡大・縮小します。
 
 `scale= *`因子`*`
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 因子</span></span> </p> </td> 
-  <td class="stentry"> <p>尺度係数（実数、&gt;0） </p></td> 
+  <td class="stentry"> <p>スケール係数（実数、0より大きい） </p></td> 
  </tr> 
 </table>
 
