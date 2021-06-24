@@ -1,25 +1,24 @@
 ---
-description: コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、ビデオビューアで使用できるすべてのUIコントロールを含み、その背後に配置される矩形の領域です。
+description: コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、ビデオビューアで使用できるすべてのUIコントロールを含み、その背後に配置する長方形の領域です。
 solution: Experience Manager
 title: コントロールバー
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
 
 # コントロールバー{#control-bar}
 
-コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、ビデオビューアで使用できるすべてのUIコントロールを含み、その背後に配置される矩形の領域です。
+コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、ビデオビューアで使用できるすべてのUIコントロールを含み、その背後に配置する長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-コントロールバーは、ビューアの幅いっぱいに表示されます。 カラー、高さおよびビデオビューアのコンテナに対する垂直方向の位置は、CSSで変更できます。
+コントロールバーは、常に、ビューアの幅全体に合わせて表示されます。 CSSで、ビデオビューアのコンテナに対するカラー、高さ、垂直方向の位置を変更できます。
 
 以下に示すCSSクラスセレクターで、コントロールバーの外観を制御します。
 
@@ -27,7 +26,7 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7controlbar
 ```
 
-## コントロールバー{#css-properties-of-the-control-bar}のCSSプロパティ
+## コントロールバーのCSSプロパティ {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -52,7 +51,7 @@ ht-degree: 2%
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-高さが30ピクセルで、ビデオビューアコンテナの上部に配置するグレーのコントロールバーを持つビデオビューアを設定するには、次のように記述します。
+高さが30ピクセルで、ビデオビューアのコンテナの上部に配置されるグレーのコントロールバーを持つビデオビューアを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7controlbar {  
