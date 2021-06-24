@@ -2,24 +2,23 @@
 description: すべての設定ファイルはinstall_folder/confにあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要な場合があります。
 solution: Experience Manager
 title: サーバー設定ファイル
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6261844c-b63d-477b-8a48-963be868aa22
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-
-# サーバ構成ファイル{#server-configuration-files}
+# サーバー設定ファイル{#server-configuration-files}
 
 すべての設定ファイルはinstall_folder/confにあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要な場合があります。
 
 >[!NOTE]
 >
->ほとんどのサーバ設定ファイルには、このドキュメントでは説明していない追加のプロパティと値が含まれています。 このプロパティは内部サーバーでの使用に関するもので、Dynamic Mediaのテクニカルサポートから特に指示がない限り、変更しないでください。
+>ほとんどのサーバー設定ファイルには、このドキュメントでは説明しない追加のプロパティと値が含まれています。 このようなプロパティは、内部サーバーでの使用に使用され、Dynamic Mediaテクニカルサポートから特に指示されない限り、変更しないでください。
 
 このドキュメントでは、次の設定ファイルの設定について説明します。
 
@@ -41,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>プラットフォームサーバーの設定 </p> </td> 
+   <td> <p>Platform Serverの設定 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
