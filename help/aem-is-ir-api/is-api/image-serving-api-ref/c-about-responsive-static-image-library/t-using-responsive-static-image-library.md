@@ -2,16 +2,15 @@
 description: レスポンシブ画像ライブラリをWebページに追加し、ライブラリを使用して既存の画像を管理するには、次の手順を実行します。
 solution: Experience Manager
 title: レスポンシブ画像ライブラリの使用
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
-
 
 # レスポンシブ画像ライブラリの使用{#using-responsive-image-library}
 
@@ -19,21 +18,21 @@ ht-degree: 0%
 
 **レスポンシブ画像ライブラリを使用するには**
 
-1. Dynamic Mediaクラシックでは、プリセットでレスポンシブ画像ライブラリを使用する場合に備えて、画像プリセット[を作成します。](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)
+1. Dynamic Media Classicでは、レスポンシブ画像ライブラリをプリセットで使用する予定がある場合に備えて、[画像プリセット](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)を作成します。
 
-   レスポンシブ画像ライブラリで使用する画像プリセットを定義する場合、`wid=`、`hei=`、`scl=`など、画像サイズに影響する設定は使用しないでください。 画像プリセットにはサイズフィールドを指定しないでください。 代わりに、空白の値のままにしてください。
-1. ライブラリ追加のJavaScriptファイルをWebページに送信します。
+   レスポンシブ画像ライブラリで使用する画像プリセットを定義する際には、`wid=`、`hei=`、`scl=`など、画像サイズに影響を与える設定を使用しないでください。 画像プリセットにサイズフィールドを指定しないでください。 代わりに、空白の値のままにします。
+1. ライブラリのJavaScriptファイルをWebページに追加します。
 
    ライブラリAPIを使用する前に、`responsive_image.js`を必ず含めてください。 このJavaScriptファイルは、次に示すように、ISビューアの標準のデプロイ先の`libs/`サブフォルダーにあります。
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. 既存の画像を設定します。
 
-   ライブラリは、操作している画像インスタンスから特定の設定属性を読み取ります。 `s7responsiveImage` API関数が呼び出される前に属性を定義します。
+   ライブラリは、作業中の画像インスタンスから特定の設定属性を読み取ります。 このような画像に対して`s7responsiveImage` API関数を呼び出す前に、属性を定義します。
 
-   また、既存の画像URLを`data-src`属性に入れることをお勧めします。 次に、既存の`src`属性を設定し、1x1 GIF画像をデータURIとしてエンコードします。 これにより、読み込み時にWebページから送信されるHTTP要求の数が減少します。 ただし、SEO（検索エンジンの最適化）が必要な場合は、イメージインスタンスに`title`属性を設定する方が良いことに注意してください。
+   また、既存の画像URLを`data-src`属性に入れることをお勧めします。 次に、既存の`src`属性を設定し、データURIとして1 x 1のGIF画像をエンコードします。 これにより、読み込み時にWebページから送信されるHTTP要求の数が減ります。 ただし、SEO（検索エンジン最適化）が必要な場合は、画像インスタンスに`title`属性を設定する方が良いことに注意してください。
 
-   次の例は、画像の`data-breakpoints`属性を定義し、データURIとしてエンコードされた1x1 GIFを使用する場合の例です。
+   次の例では、画像の`data-breakpoints`属性を定義し、データURIとしてエンコードされた1x1 GIFを使用します。
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -41,9 +40,9 @@ ht-degree: 0%
 
 1. ライブラリが管理するすべての画像インスタンスに対して`s7responsiveImage` API関数を呼び出します。
 
-   ライブラリが管理するすべての画像インスタンスに対して`s7responsiveImage` API関数を呼び出します。 この呼び出しの後、ライブラリは、Webページレイアウトの`IMG`要素の実行時のサイズとデバイス画面の密度に従って、元の画像を画像サービングからダウンロードされた画像に置き換えます。
+   ライブラリが管理するすべての画像インスタンスに対して`s7responsiveImage` API関数を呼び出します。 この呼び出しの後、ライブラリは、Webページレイアウトの`IMG`要素の実行時のサイズとデバイス画面の密度に従って、元の画像を画像サービングからダウンロードした画像に置き換えます。
 
-   次のコードは、イメージに対して`s7responsiveImage` API関数を呼び出す例です（ここで`responsiveImage`はそのイメージのID）。
+   次のコードは、画像で`s7responsiveImage` API関数を呼び出す例です（`responsiveImage`はその画像のIDです）。
 
    ```
    <script type="text/javascript"> 
@@ -53,11 +52,11 @@ ht-degree: 0%
 
 ## 例 {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-ライブラリは、Webページ上の多数の画像インスタンスとの同時作業をサポートしています。 したがって、ライブラリで管理する各画像に対して、上記の手順1と2を繰り返します。
+ライブラリは、Webページ上の多くの画像インスタンスの同時操作をサポートします。 したがって、ライブラリで管理する各画像に対して、上記の手順1と2を繰り返します。
 
-画像要素のサイズを柔軟に変更するには、Webページで画像要素のスタイルを設定する必要があります。 レスポンシブ画像ライブラリ自体は、固定サイズの画像と「流動的な」画像を区別しません。 固定サイズの画像に適用した場合、新しい画像は1回だけ読み込まれます。
+画像要素のサイズを柔軟に設定できるように、Webページでスタイルを設定する必要があります。 レスポンシブ画像ライブラリ自体は、固定サイズの画像と「流動的」な画像を区別しません。 固定サイズの画像に適用すると、新しい画像が1回だけ読み込まれます。
 
-次のコードは、レスポンシブ画像ライブラリで管理される単一の流体画像を持つ簡単なWebページの例です。 この例には、画像がWebブラウザーのウィンドウサイズに「レスポンシブ」になるように、追加のCSSスタイルが含まれています。
+次のコードは、レスポンシブ画像ライブラリで管理される単一の流体画像を持つ簡単なWebページの例です。 この例には、Webブラウザーのウィンドウサイズに対して画像を「レスポンシブ」にする追加のCSSスタイルが含まれています。
 
 ```
 <!DOCTYPE html> 
@@ -86,10 +85,10 @@ ht-degree: 0%
 
 **スマート切り抜きの使用**
 
-AEM 6.4およびDynamic Mediaビューア5.9では、次の2つのスマート切り抜きモードを使用できます。
+AEM 6.4およびDynamic Mediaビューア5.9では、2つのスマート切り抜きモードを使用できます。
 
-* **手動**  — ユーザー定義のブレークポイントおよび対応する画像サービスコマンドは、画像要素の属性内で定義されます。
-* **スマート切り抜き** ：計算済みのスマート切り抜きレンディションは、配信サーバから自動的に取得されます。最適なレンディションは、画像要素の実行時のサイズを使用して選択されます。
+* **手動**  — ユーザー定義のブレークポイントと対応する画像サービスコマンドは、画像要素の属性内で定義します。
+* **スマート切り抜き**  — 計算済みのスマート切り抜きレンディションは、配信サーバーから自動的に取得されます。最適なレンディションは、画像要素の実行時のサイズを使用して選択されます。
 
 スマート切り抜きモードを使用するには、`data-mode`属性を`smart crop`に設定します。 例：
 
@@ -100,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-関連付けられたイメージエレメントは、実行時にブレークポイントが変更されると`s7responsiveViewer`イベントをディスパッチします。
+関連する画像要素は、ブレークポイントが変更されたときに、実行時に`s7responsiveViewer`イベントをディスパッチします。
 
 ```
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
