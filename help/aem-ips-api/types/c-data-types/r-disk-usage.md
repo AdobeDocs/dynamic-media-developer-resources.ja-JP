@@ -1,21 +1,20 @@
 ---
-description: アセットまたはフォルダーのディスク領域の統計。
+description: アセットまたはフォルダーのディスク容量の統計。
 solution: Experience Manager
 title: DiskUsage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 12%
 
 ---
 
-
 # DiskUsage{#diskusage}
 
-アセットまたはフォルダーのディスク領域の統計。
+アセットまたはフォルダーのディスク容量の統計。
 
 構文
 
@@ -23,9 +22,8 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 会社ハンドル |
+| `*`companyHandle`*` | `xsd:string` | 会社の担当。 |
 | `*`companyName`*` | `xsd:string` | 会社名. |
-| `*`imageCount`*` | `xsd:int` | 保存されている画像の数。 |
-| `*`diskSpaceUsage`*` | `xsd:long` | ファイル側の合計(KB)。 |
-| `*`lastModified`*` | `xsd:dateTime` | `DiskUsage`型の日付、時刻、およびタイムゾーンが最後に変更されました。 |
-
+| `*`imageCount`*` | `xsd:int` | 保存する画像の数。 |
+| `*`diskSpaceUsage`*` | `xsd:long` | ファイルサイドの合計(KB)。 |
+| `*`lastModified`*` | `xsd:dateTime` | `DiskUsage`タイプが最後に変更された日付、時刻、タイムゾーン。 |
