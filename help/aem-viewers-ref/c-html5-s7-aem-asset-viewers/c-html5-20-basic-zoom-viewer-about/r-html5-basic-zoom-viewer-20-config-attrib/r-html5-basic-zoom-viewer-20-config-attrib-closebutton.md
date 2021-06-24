@@ -2,16 +2,15 @@
 description: closebutton
 solution: Experience Manager
 title: closebutton
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 15%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
-
 
 # closebutton{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 閉じるボタンの表示を有効にするには<span class="codeph"> 1</span>に設定し、閉じるボタンを非表示にするには<span class="codeph"> 0</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1</span>に設定すると閉じるボタンの表示が有効になり、<span class="codeph"> 0</span>に設定すると閉じるボタンが非表示になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
