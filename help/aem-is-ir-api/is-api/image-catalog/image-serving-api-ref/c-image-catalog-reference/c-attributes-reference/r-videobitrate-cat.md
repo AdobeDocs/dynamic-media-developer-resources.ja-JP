@@ -2,22 +2,21 @@
 description: ビデオビットレート. 各ビデオレコードに関連付けられたビットレートを指定できます。
 solution: Experience Manager
 title: VideoBitRate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e94d7338-5831-476b-b905-5c9419849c3f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '59'
+ht-degree: 18%
 
 ---
-
 
 # VideoBitRate{#videobitrate}
 
 ビデオビットレート. 各ビデオレコードに関連付けられたビットレートを指定できます。
 
-`req=set`および`req=mbrSet`リクエストがビットレートデータをエクスポートするために使用します。
+ビットレートデータを書き出すために、`req=set`および`req=mbrSet`リクエストで使用されます。
 
 ## プロパティ {#section-76731467b23240ac89b0767491c6020b}
 
@@ -29,4 +28,4 @@ ht-degree: 17%
 
 ## 関連項目 {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) ,  [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md),  [Media Set Requests](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md) 、 [req=mbrSet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md)、メディアセッ [トの要求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
