@@ -1,25 +1,24 @@
 ---
-description: アセットに関連付けられているユーザ定義メタデータフィールドを取得します。
+description: アセットに関連付けられているユーザー定義のメタデータフィールドを取得します。
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
 
-
 # getMetadataFields{#getmetadatafields}
 
-アセットに関連付けられているユーザ定義メタデータフィールドを取得します。
+アセットに関連付けられているユーザー定義のメタデータフィールドを取得します。
 
 構文
 
-## 認証済みユーザータイプ{#section-e32e481a02674b729bfc5454a6c9ff65}
+## 許可されたユーザーの種類 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社が取り扱う。 |
 | `*`assetType`*` | `xsd:string` | はい | メタデータを取得するアセットタイプ。 |
 
 **出力(getMetadataFieldsParam)**
@@ -46,7 +45,7 @@ ht-degree: 14%
 
 ## 例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-このコードサンプルを使用すると、指定したタイプおよび会社のメタデータアセットを返すことができます。 応答には、フィールド配列内のメタデータフィールドの配列が含まれます。 すべてのアセットに同じメタデータがあるわけではありません。 IPSユーザは、アセットのメタデータフィールドを定義します。
+このコードサンプルは、指定したタイプと会社のメタデータアセットを返します。 応答には、フィールド配列内のメタデータフィールドの配列が含まれます。 すべてのアセットに同じメタデータがあるわけではありません。 IPSユーザーは、アセットのメタデータフィールドを定義します。
 
 **リクエスト**
 
@@ -73,4 +72,3 @@ ht-degree: 14%
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
