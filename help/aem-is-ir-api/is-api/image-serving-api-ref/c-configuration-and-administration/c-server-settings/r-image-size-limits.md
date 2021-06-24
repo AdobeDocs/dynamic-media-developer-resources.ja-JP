@@ -1,39 +1,37 @@
 ---
-description: 画像サイズの制限を設定するには、次のサーバー設定を使用します。
+description: これらのサーバー設定を使用して、画像サイズの制限を設定します。
 solution: Experience Manager
 title: 画像サイズの制限
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-
 # 画像サイズの制限{#image-size-limits}
 
-画像サイズの制限を設定するには、次のサーバー設定を使用します。
+これらのサーバー設定を使用して、画像サイズの制限を設定します。
 
-## IS::MaxMessageSize — 応答サイズの制限{#section-bd942385d4d144cd904003695d72c85e}
+## IS::MaxMessageSize — 応答サイズの制限 {#section-bd942385d4d144cd904003695d72c85e}
 
-Image Serverがプラットフォームサーバに送信できるデータのサイズを制限します。 これにより、画像サービングがHTTP（Mバイト）を使用してクライアントに返すことのできる、エンコード/圧縮された応答画像のサイズが制限されます。
+Image ServerがPlatform Serverに送信できるデータのサイズを制限します。 これにより、画像サービングがHTTP（Mバイト）を介してクライアントに返すことができる、エンコード/圧縮された応答画像のサイズが効果的に制限されます。
 
-## IS::MaxRenderRgnPixels — 出力画像サイズの制限{#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+## IS::MaxRenderRgnPixels — 出力画像サイズの制限 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
-Image Serverが生成できる画像のサイズを制限します（ファイルに保存した画像を除く）。 0（ピクセル単位）より大きい整数値。 レンダリング操作がサイズ制限を超える場合は、エラーが返されます。 初期設定は 16 です
+Image Serverで生成できる画像のサイズを制限します（ファイルに保存する画像を除く）。 0より大きい整数値（百万ピクセル単位）。 レンダリング操作がサイズ制限を超える場合、エラーが返されます。 初期設定は 16 です
 
-## IS::MaxSavePixels — ファイルに保存するサイズの制限{#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels — ファイルに保存する際のサイズ制限 {#section-d1547c4afa88467080ab08356f775e06}
 
-`req=saveToFile`コマンドを使用して、Image Serverがファイルに書き込む画像のサイズを制限します。 0（ピクセル単位）より大きい整数値。 ファイルの保存操作がその制限を超える場合は、エラーが返されます。 初期設定は1億ピクセルです。
+`req=saveToFile`コマンドを使用して、Image Serverがファイルに書き込む画像のサイズを制限します。 0より大きい整数値（百万ピクセル単位）。 ファイルの保存操作がその制限を超えると、エラーが返されます。 初期設定は1億ピクセルです。
 
-## IS::MaxNonDsfSize - PTIFF以外の入力画像のサイズ制限{#section-50de28a7158a436393cce5da0d1e4d46}
+## IS::MaxNonDsfSize — 非PTIFF入力画像のサイズ制限 {#section-50de28a7158a436393cce5da0d1e4d46}
 
-Image Serverで開くPTIFF以外の画像の最大サイズ（ピクセル単位）です。 この制限を超える非PTIFF画像へのアクセスが試行された場合、画像サービングはエラーを返します。
+Image Serverで開くことが許可されるPTIFF以外の画像の最大サイズ（ピクセル単位）です。 この制限を超えるPTIFF以外の画像にアクセスしようとすると、画像サービングはエラーを返します。
 
 >[!NOTE]
 >
->この値を大きく設定すると、Image Serverのメモリ不足が発生し、クラッシュなどのエラーが発生する場合があります。
-
+>この値を大きく設定すると、Image Serverのメモリが不足し、クラッシュを含むエラーが発生する場合があります。
