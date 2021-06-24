@@ -2,16 +2,15 @@
 description: Adobe Illustratorファイルのオプション。
 solution: Experience Manager
 title: IllustratorOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -26,5 +25,4 @@ Adobe Illustratorファイルのオプション。
 | `*`プロセス`*` | `xsd:string` | Illustratorプロセスの選択。 |
 | `*`resolution`*` | `xsd:string` | ファイルの解像度。 |
 | `*`colorSpace`*` | `xsd:string` | ターゲットのカラースペース |
-| `*`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうかを指定します。 透明な背景を作成する場合は、元のファイルがこのように定義されていて、オーバーレイロゴを作成する場合に使用します。 |
-
+| `*`alpha`*` | `xsd:boolean` | ファイルを画像にラスタライズするかどうか。 その場合は、元のファイルがロゴのオーバーレイ作成用にこの方法で定義されている場合は、透明な背景を作成します。 |
