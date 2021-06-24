@@ -1,21 +1,20 @@
 ---
-description: すべてのビューアに共通のパラメータ。
+description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
 title: contentUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，ビューア，SDK/API
 role: Developer,Business Practitioner
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
 
 # contentUrl{#contenturl}
 
-すべてのビューアに共通のパラメータ。
+すべてのビューアに共通のパラメーター。
 
 ` contentUrl= *`contentUrlPath`*`
 
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>カスタムCSSファイル、クローズドキャプションコンテンツまたはナビゲーションコンテンツへの基本パスを指定します。 </p> <p>パスの先頭に<span class="filepath"> /</span>がない場合、ビューアのHTMLページからの相対パスになります。 パスの先頭に<span class="filepath"> /</span>がある場合、同じサーバの絶対パスになります。 </p> <p> スタイルコマンドを指定しない場合、初期設定のCSSファイルの読み込みに影響しません。 </p> </td> 
+   <td colname="col2"> <p>カスタムCSSファイル、クローズドキャプションコンテンツまたはナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に<span class="filepath"> /</span>がない場合、ビューアのHTMLページからの相対パスになります。 パスの先頭に<span class="filepath"> /</span>がある場合は、同じサーバ上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、初期設定のCSSファイルの読み込みに影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
