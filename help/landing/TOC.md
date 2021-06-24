@@ -9,7 +9,6 @@ breadcrumb-title: Dynamic Media の開発者向けリソース
 user-guide-description: ビューアリファレンスガイド、画像制作システム API、画像処理およびレンダリング API、以前の Scene7 のリリースノートなど、Dynamic Media の開発者向けリソースにアクセスできます。
 feature-set: Experience Manager Assets
 index: y
-translation-type: tm+mt
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '44'
