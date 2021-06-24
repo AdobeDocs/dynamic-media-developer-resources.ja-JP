@@ -1,21 +1,20 @@
 ---
-description: 高度なテキストの書式設定には、次のコマンドを使用します。
+description: 次のコマンドを使用して、高度なテキスト書式を設定します。
 solution: Experience Manager
-title: 高度なテキストの書式設定
-feature: Dynamic Media Classic,SDK/API
+title: 高度なテキスト書式設定
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
 
+# 高度なテキスト書式設定{#advanced-text-formatting}
 
-# 高度なテキストの書式設定{#advanced-text-formatting}
-
-高度なテキストの書式設定には、次のコマンドを使用します。
+次のコマンドを使用して、高度なテキスト書式を設定します。
 
 <table id="table_43B2EB887C0F471BB60C23B570E7D3D2"> 
  <thead> 
@@ -28,23 +27,23 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \dn  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>下付き文字（フォントサイズなし）を変更。 </p> </td> 
-   <td> <p>位置はハーフポイント。初期設定は6です。 </p> </td> 
+   <td> <p>フォントサイズのない下付き文字を変更。 </p> </td> 
+   <td> <p>半分ポイントでの位置初期設定は6です。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \up  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>フォントサイズを変更しない上付き文字。 </p> </td> 
-   <td> <p>位置はハーフポイント。初期設定は6です。 </p> </td> 
+   <td> <p>フォントサイズを変更しない上付き文字 </p> </td> 
+   <td> <p>半分ポイントでの位置初期設定は6です。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerning  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>指定したフォントサイズで無効/有効にします。 </p> </td> 
-   <td> <p>フォントサイズ（ハーフポイント）。この値を超えるとカーニングが適用されます。0の場合、カーニングが無効になります。初期設定は、すべてのフォントサイズを1/2ポイント以上にカーニングする場合に1です。 </p> </td> 
+   <td> <p>指定したフォントサイズでの無効化/有効化 </p> </td> 
+   <td> <p>カーニングを適用するフォントサイズ（半分ポイント単位）0の場合、カーニングを無効にします。初期設定は、1/2ポイントを超えるすべてのフォントサイズにカーニングを適用する場合は1です。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningoptical  </span> </td> 
-   <td> <p>オプティカルカーニングを選択 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。 </p> </td> 
+   <td> <p>オプティカルカーニングを選択します。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=の </span> み。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric  </span> </td> 
@@ -63,44 +62,43 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \charscalex  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>水平方向の文字の拡大縮小。 </p> </td> 
-   <td> <p>正または負の割合；初期設定は100です。 </p> </td> 
+   <td> <p>水平方向の文字の拡大/縮小 </p> </td> 
+   <td> <p>正または負の割合初期設定は100です。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>垂直方向の文字の拡大/縮小 </p> </td> 
-   <td> <p>正または負の割合；初期設定は100;Dynamic Media拡張。 </p> <p> <span class="codeph"> \charscaley </span> も、 <span class="codeph"> text=を適用した場合に行間隔を拡大・縮小 </span>します。<span class="codeph"> textPs=では、垂直方向の文字の拡大/縮小の量に関係なく、 </span> 常に行間が保持されます。 </p> </td> 
+   <td> <p>縦方向の文字の拡大/縮小 </p> </td> 
+   <td> <p>正または負の割合デフォルトは100です。Dynamic Media拡張機能。 </p> <p> <span class="codeph"> \charscaleyは、  </span> text=を適用した場合 <span class="codeph"> に、行間を拡大/縮小しま </span>す。<span class="codeph"> textPs=で </span> は、縦方向の文字の拡大/縮小の量に関係なく、常に行間が保持されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ltrch  </span> </td> 
+   <td> <span class="codeph"> \ltch  </span> </td> 
    <td> <p>左から右の文字フローを選択します。 </p> </td> 
    <td> <p>初期設定. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \rtlch  </span> </td> 
-   <td> <p>右から左に書く文字のフローを選択します。 </p> </td> 
-   <td> <p> <span class="codeph"> text= </span> のみ。 </p> </td> 
+   <td> <p>右から左の文字フローを選択します。 </p> </td> 
+   <td> <p> <span class="codeph"> text=の </span> み。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>「サイズ調整」を有効にし、許可されるフォントサイズを最大に設定 </p> </td> 
-   <td> <p>フォントサイズ（半分ポイント）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張。 </p> </td> 
+   <td> <p>コピーフィッティングを有効にし、許容される最大フォントサイズを設定します。 </p> </td> 
+   <td> <p>フォントサイズ（半分ポイント）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>コピーフィット線の最大数（ソフトリミット） </p> </td> 
-   <td> <p>0（行制限なし）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張。 </p> </td> 
+   <td> <p>コピーフィット線の最大値（ソフトリミット） </p> </td> 
+   <td> <p>0（ライン制限なし）<span class="codeph"> textPs= </span>のみ；Dynamic Media拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>コピーフィットの最大行数（切り捨て） </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;Dynamic Media拡張。 </p> </td> 
+   <td> <p>最大コピーフィット線（切り捨て） </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ；Dynamic Media拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
    <td> <p>文字の向き。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;欧文以外のフォントでは無視されます。は、 <span class="codeph"> \stextflow1が有効で </span> ない場合は無視されます。 </p> <p>0垂直（デフォルト） </p> <p>1を右回りに90度回転させました。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ；ローマ以外のフォントでは無視されます。\stextflow1が有 <span class="codeph"> 効でな </span> い場合は無視されます。 </p> <p>0垂直（デフォルト） </p> <p>1時計回りに90度回転 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
