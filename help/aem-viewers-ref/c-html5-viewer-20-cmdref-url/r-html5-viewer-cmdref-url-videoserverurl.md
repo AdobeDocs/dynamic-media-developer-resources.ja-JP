@@ -1,25 +1,24 @@
 ---
-description: すべてのビューアに共通のパラメータ。
+description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，ビューア，SDK/API
 role: Developer,Business Practitioner
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-すべてのビューアに共通のパラメータ。
+すべてのビューアに共通のパラメーター。
 
 >[!NOTE]
 >
->このコマンドはビデオ画像ビューアには適用されません。
+>このコマンドは、ビデオ画像ビューアには適用されません。
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -27,14 +26,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> ビデオサーバのルートパス。 ドメインが指定されていない場合は、ページの供給元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオサーバーのルートパス。 ドメインが指定されていない場合は、代わりに、ページの提供元のドメインが適用されます。 標準のURIパス解決が適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-10ee45d637134e0fbcd943c62578cb78}
 
-（オプション）標準のソフトウェアサービスの使用には必要ありません。
+（オプション）標準のソフトウェアをサービスとして使用する場合は不要です。
 
 ## 初期設定 {#section-d411e450028c460392cb8508f8ccc5d9}
 
