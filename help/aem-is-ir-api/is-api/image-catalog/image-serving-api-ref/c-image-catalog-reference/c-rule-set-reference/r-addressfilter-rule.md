@@ -1,39 +1,38 @@
 ---
-description: アドレスフィルター要素。 <rule>要素と<pathrule>要素のオプションです。
+description: アドレスフィルタ要素。 <rule>要素と<pathrule>要素のオプションです。
 solution: Experience Manager
 title: addressfilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
-
 # addressfilter{#addressfilter}
 
-アドレスフィルター要素。 `<rule>`要素と`<pathrule>`要素のオプションです。
+アドレスフィルタ要素。 `<rule>`要素と`<pathrule>`要素でオプションです。
 
-ルールの適用時に`attribute::ClientAddressFilter`を上書きします。
+ルールが適用されると、`attribute::ClientAddressFilter`を上書きします。
 
-## 属性{#section-31e9ad29e9934933ac154bccbc729172}
+## 属性 {#section-31e9ad29e9934933ac154bccbc729172}
 
 なし
 
 ## データ {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-IPアドレスのカンマ区切りリスト。 個々のアドレスには、IPアドレスの範囲を指定できるように、オプションのネットマスクサフィックスを含めることができます。 詳細は`attribute::ClientAddressFilter`を参照してください。
+IPアドレスのコンマ区切りリスト。 個々のアドレスには、IPアドレス範囲を指定できるように、オプションのネットマスクサフィックスを含めることができます。 詳細は`attribute::ClientAddressFilter`を参照。
 
 ## 説明 {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-`<addressfilter>`要素で指定すると、この画像カタログへのアクセスを1つ以上の特定のクライアントIPアドレスに制限できます。 クライアントのIPアドレスが一致しない場合、「要求が拒否されました」エラーがクライアントに返されます。
+`<addressfilter>`要素で指定すると、この画像カタログへのアクセスを1つ以上の特定のクライアントIPアドレスに制限できます。 クライアントのIPアドレスが一致しない場合、「リクエストが拒否されました」エラーがクライアントに返されます。
 
-`<addressfilter>`が空の場合、または指定されていない場合、アクセスは制限されません。
+`<addressfilter>`が空の場合や指定されていない場合は、アクセスは制限されません。
 
-`<rule>`要素の`<expression>`が存在しない場合や空の場合は、`<addressfilter>`がすべてのリクエストに適用されます。
+`<rule>`要素内の`<expression>`がない場合や空の場合は、すべてのリクエストに`<addressfilter>`が適用されます。
 
 ## 関連項目 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
