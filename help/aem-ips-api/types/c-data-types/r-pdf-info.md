@@ -2,16 +2,15 @@
 description: PDFファイルのプロパティ。
 solution: Experience Manager
 title: PdfInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 033bdcf2-ddb2-48c2-97ab-2f72cc7780c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 24%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
-
 
 # PdfInfo{#pdfinfo}
 
@@ -23,7 +22,6 @@ PDFファイルのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalPath`*` | `xsd:string` | ファイルパス。 |
 | `*`originalFile`*` | `xsd:int` | ファイル名。 |
 | `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
-
