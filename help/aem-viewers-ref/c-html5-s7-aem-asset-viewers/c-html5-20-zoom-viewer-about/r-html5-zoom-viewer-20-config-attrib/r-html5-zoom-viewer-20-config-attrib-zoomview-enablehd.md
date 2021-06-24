@@ -2,16 +2,15 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 340a9614-b9dd-4aee-bd73-b99f6576930e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
-
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイのデバイス）の最適化の有効化、制限または無効化を行います。 有効にすると、デバイスのピクセル率が<span class="codeph"> 1</span>のみであるかのようにコンポーネントでIS画像リクエストのサイズが制限され、帯域幅が減少します。 </p> <p>以下の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイを使用するデバイス）の最適化の有効化、制限または無効化を行います。 有効にすると、デバイスのピクセル比が<span class="codeph"> 1</span>の場合と同じように、コンポーネントでISイメージリクエストのサイズが制限され、帯域幅が削減されます。 </p> <p>以下の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
@@ -40,7 +39,7 @@ ht-degree: 3%
 
 ## 例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-ビューアでこの設定属性を使用し、ビューアサイズが1000 x 1000の場合、次のような結果が予測されます。
+この設定属性をビューアで使用し、ビューアのサイズが1000 x 1000の場合に期待される結果は次のとおりです。
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 
@@ -61,16 +60,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 決してない</span> </p> </td> 
-   <td colname="col2"> <p>ピクセル密度は常に1を使用し、デバイスのHD機能は無視されます。 したがって、要求される画像は常に1000 x 1000です。 </p> </td> 
+   <td colname="col2"> <p>常にピクセル密度1を使用し、デバイスのHD機能を無視します。 したがって、要求されるイメージは常に1000 x 1000です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
-   <td colname="col2"> <p>デバイスのピクセル密度が要求され、提供されるのは、結果の画像が指定された制限を下回る場合のみです。 </p> <p>制限値は、幅または高さのどちらかに適用されます。 </p> <p> 
+   <td colname="col2"> <p>デバイスのピクセル密度は、結果の画像が指定された制限を下回る場合にのみ要求され、提供されます。 </p> <p>制限値は、幅または高さの寸法に適用されます。 </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
-      <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>制限値が1600で、ピクセル密度が1.5の場合、1500 x 1500の画像が提供されます。 </p> </li> 
-      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>制限値が1600で、ピクセル密度が2の場合、1000 x 1000の画像が提供されます。これは、2000 x 2000の画像が制限を超えているからです。 </p> </li> 
-     </ul> </p> <p><b>ベストプラクティス</b>:この制限値は、画像の最大サイズに対する会社設定と組み合わせて使用する必要があります。したがって、制限値は、会社の最大画像サイズ設定と同じに設定します。 </p> </td> 
+      <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>制限値が1600で、ピクセル密度が1.5の場合は、1500 x 1500の画像が提供されます。 </p> </li> 
+      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>制限値が1600で、ピクセル密度が2の場合は、2000 x 2000の画像が制限を超えるので、1000 x 1000の画像が提供されます。 </p> </li> 
+     </ul> </p> <p><b>ベストプラクティス</b>:この制限値は、画像の最大サイズに関する会社設定と組み合わせて使用する必要があります。したがって、制限値を会社の最大画像サイズ設定と等しく設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
