@@ -1,53 +1,51 @@
 ---
-description: この節の設定は、SVGレンダリングが必要な場合にのみ考慮する必要があります。
+description: この節の設定は、SVGのレンダリングが必要な場合にのみ考慮する必要があります。
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-
 # SVG{#svg}
 
-この節の設定は、SVGレンダリングが必要な場合にのみ考慮する必要があります。
+この節の設定は、SVGのレンダリングが必要な場合にのみ考慮する必要があります。
 
-## SV::SvgHeapSize - SVGヒープサイズ{#section-59ab17681daa4be8b5d794713e1a504e}
+## SV::SvgHeapSize - SVGヒープサイズ {#section-59ab17681daa4be8b5d794713e1a504e}
 
 SVGレンダラーのJavaヒープサイズです。 デフォルトは「200m」（200Mバイト）です。
 
-## PS::svgProvider.rootPaths - SVGデータルートフォルダー{#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
+## PS::svgProvider.rootPaths - SVGデータルートフォルダー {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-SVGソースデータファイルの場所です。 絶対ファイルパスまたは&#x200B;*[!DNL install_folder]*&#x200B;を基準とするパスを、セミコロンで区切って1つ以上指定できます。 通常は`IS::RootPath`と同じ値に設定します。
+SVGソースデータファイルの場所。 絶対ファイルパスまたは&#x200B;*[!DNL install_folder]*&#x200B;に対する相対パスを、セミコロンで区切って指定できます。 通常は`IS::RootPath`と同じ値に設定します。
 
-## PS::svgProvider.SVGFileSizeLimit - SVGファイルの最大サイズ{#section-b9c81e3e104642ebbdd9f000843d3256}
+## PS::svgProvider.SVGFileSizeLimit - SVGファイルの最大サイズ {#section-b9c81e3e104642ebbdd9f000843d3256}
 
 SVGソースファイルの最大サイズ(kBytes)。 この制限を超えるSVGファイルのレンダリングを試みると、サーバーはエラーを返します。 デフォルトは1024 KBです。
 
-## IS::SvgMAxRenderRgnPixels - SVG出力画像サイズの制限{#section-5be1fd9639424d878a5ffd11736d3920}
+## IS::SvgMAxRenderRgnPixels - SVG出力画像サイズの制限 {#section-5be1fd9639424d878a5ffd11736d3920}
 
-SVGRenderで生成できる画像のサイズを制限します。 0（ピクセル単位）より大きい整数値。 レンダリング操作がサイズ制限を超える場合は、エラーが返されます。 初期設定は 4。
+SVGRenderで生成できる画像のサイズを制限します。 0より大きい整数値（百万ピクセル単位）。 レンダリング操作がサイズ制限を超える場合、エラーが返されます。 初期設定は 4。
 
-## PS::svgProvider.port — プラットフォームサーバーリスニングポート{#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port — プラットフォームサーバーのリスニングポート {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-SvgRenderで画像を取得してSVGレンダリングに埋め込むために使用するポート。
+SVGレンダリングに埋め込む画像をPlatform Serverから取得するためにSvgRenderで使用されるポート。
 
-重要SVGRenderコンポーネントを正しく機能させるために、この設定オプションは`TC::PsPort`と同じ値に設定する必要があります。
+重要SVGRenderコンポーネントを正しく機能させるには、この設定オプションを`TC::PsPort`と同じ値に設定する必要があります。
 
-## PS::svgProvider.fontRoot - SVGフォントファイルフォルダー{#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - SVGフォントファイルフォルダ {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-SVGテキストのレンダリングに必要なフォントファイルをSvgRenderが見つける場所を指定します。通常、`IS::RootPaths`で指定されたパスの1つです。 初期設定は[!DNL *[!DNL install_folder]*/images]です。
+SVGテキストのレンダリングに必要なフォントファイルをSvgRenderが検索する場所を指定します。通常、`IS::RootPaths`で指定されたパスの1つ。 初期設定は[!DNL *[!DNL install_folder]*/images]です。
 
-## SVG::SVGRender.port, IS::SVGTcpPort - SVG通信ポート{#section-608687123aa644b7b58fe42385d71b79}
+## SVG::SVGRender.port, IS::SVGTcpPort - SVG通信ポート {#section-608687123aa644b7b58fe42385d71b79}
 
 Image ServerとSVGRenderコンポーネントが通信するポートを設定します。
 
 >[!NOTE]
 >
->SVGRenderコンポーネントが正しく機能するためには、`SVG::SVGRender.port`と`IS::SVGTcpPort`に同じポート番号を指定する必要があります。
-
+>SVGRenderコンポーネントを正しく機能させるには、`SVG::SVGRender.port`と`IS::SVGTcpPort`に同じポート番号を指定する必要があります。
