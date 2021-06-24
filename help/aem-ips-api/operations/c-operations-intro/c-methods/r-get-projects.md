@@ -2,16 +2,15 @@
 description: 関連アセットのグループのプロジェクトを取得します。
 solution: Experience Manager
 title: getProjects
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getProjects{#getprojects}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ{#section-337649866b1f4098844d1974ed7ab5d0}
+## 許可されたユーザーの種類 {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +33,7 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
 
 **出力(getProjectsReturn)**
 
@@ -44,7 +43,7 @@ ht-degree: 20%
 
 ## 例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-次のコード例は、プロジェクト配列内のすべてのプロジェクトハンドルを返します。
+このコード例は、プロジェクト配列内のすべてのプロジェクトハンドルを返します。
 
 **リクエスト**
 
@@ -70,4 +69,3 @@ ht-degree: 20%
    </projectArray>
 </getProjectsReturn>
 ```
-
