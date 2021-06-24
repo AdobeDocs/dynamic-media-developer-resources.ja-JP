@@ -1,21 +1,20 @@
 ---
-description: レイヤー表示のプロパティ。
+description: 画層ビューのプロパティ
 solution: Experience Manager
 title: LayerViewInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 25199c86-1df0-41af-b210-e7668a60295e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 11%
 
 ---
 
-
 # LayerViewInfo{#layerviewinfo}
 
-レイヤー表示のプロパティ。
+画層ビューのプロパティ
 
 構文
 
@@ -23,7 +22,6 @@ ht-degree: 11%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`url`*` | `xsd:string` | テンプレートを表すImage ServerのURL。 `urlModifier`フィールドと`urlPostAp- plyModifier`フィールドを結合します。 |
+| `*`url`*` | `xsd:string` | テンプレートを表す画像サーバーのURL。 `urlModifier`フィールドと`urlPostAp- plyModifier`フィールドを組み合わせます。 |
 | `*`urlModifier`*` | `xsd:string` | 要求または`urlPostApplyModifier`コマンドの前に適用する画像サービングプロトコルコマンド。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | `urlModifier`およびrequestコマンドの後に適用する画像サービングプロトコルコマンド。 |
-
+| `*`urlPostApplyModifier`*` | `xsd:string` | `urlModifier`の後に適用する画像サービングプロトコルコマンドと、コマンドを要求します。 |
