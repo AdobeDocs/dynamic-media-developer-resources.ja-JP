@@ -2,16 +2,15 @@
 description: 様々な入力パラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください。
 solution: Experience Manager
 title: 電子メール設定
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 13%
 
 ---
-
 
 # 電子メール設定{#email-settings}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 構文
 
-## {#section-7f81d4ca6f104877afa64ed1e25c79fb}が使用
+## 使用者 {#section-7f81d4ca6f104877afa64ed1e25c79fb}
 
 * [!DNL `ImageServingPublishJob/emailSetting`]
 * [!DNL `ImageRenderingPublishJob/emailSetting`]
@@ -35,4 +34,3 @@ ht-degree: 13%
 * [!DNL `ErrorAndWarning`]
 * [!DNL `JobCompletion`]
 * [!DNL `None`]
-
