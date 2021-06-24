@@ -2,16 +2,15 @@
 description: 指定した会社に関連付けられたプロパティセットの種類を取得します。会社が指定されていない場合は、グローバルプロパティセットの種類を取得します。
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 12%
 
 ---
-
 
 # getPropertySetTypes{#getpropertysettypes}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 構文
 
-## 認証済みユーザータイプ{#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## 許可されたユーザーの種類 {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,7 +48,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">プロパティセットの種類が関連付けられている会社のハンドル。 <p>グローバルプロパティセットの種類を返す場合は省略します。 </p> </td> 
+   <td colname="col4">プロパティセットタイプが関連付けられている会社へのハンドル。 <p>グローバルプロパティセットの種類を返す場合は、省略します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,4 +91,3 @@ ht-degree: 12%
   </typeArray>
 </getPropertySetTypesReturn>
 ```
-
