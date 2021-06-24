@@ -1,21 +1,20 @@
 ---
-description: searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchModeおよびsearchAssetsParam/metadataMatchModeで使用されます。
+description: searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode、およびsearchAssetsParam/metadataMatchModeで使用されます。
 solution: Experience Manager
 title: 検索一致モード
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 6%
 
 ---
 
-
 # 検索一致モード{#search-match-modes}
 
-searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchModeおよびsearchAssetsParam/metadataMatchModeで使用されます。
+searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchMode、およびsearchAssetsParam/metadataMatchModeで使用されます。
 
 構文
 
@@ -23,4 +22,3 @@ searchAssetsParam/conditionMatchMode、searchAssetsParam/systemFieldMatchModeお
 
 * [!DNL `MatchAll`]
 * [!DNL `MatchAny`]
-
