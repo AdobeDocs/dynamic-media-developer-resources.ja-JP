@@ -1,29 +1,28 @@
 ---
-description: 初期設定のフォント名 text=要求でフォントが指定されない場合に使用するフォントを指定します。
+description: デフォルトのフォント名 text=リクエストでフォントが指定されていない場合に使用するフォントを指定します。
 solution: Experience Manager
 title: Ryo Gothic PlusN L
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6ca7f540-a01a-483d-99b7-50e2915861cf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 6%
 
 ---
 
-
 # Ryo Gothic PlusN L{#defaultfont}
 
-初期設定のフォント名 text=要求でフォントが指定されない場合に使用するフォントを指定します。
+デフォルトのフォント名 text=リクエストでフォントが指定されていない場合に使用するフォントを指定します。
 
 ## プロパティ {#section-b71618fec3c443a392d67eff480f0e5d}
 
-テキスト文字列。 指定する場合、この画像カタログのフォントマップまたは初期設定のカタログのフォントマップ内の有効なfont::Name値である必要があります。
+テキスト文字列。 指定する場合、この画像カタログのフォントマップまたはデフォルトカタログのフォントマップで、有効なfont::Name値を指定する必要があります。
 
 ## 初期設定 {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-定義されていない場合や空の場合は`default::DefaultFont`から継承されます。
+`default::DefaultFont`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-b012591f90a2428a8062afe4f3b6ce33}
 
