@@ -2,16 +2,15 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 68df87db-b3c7-4a42-9ab6-742d96261ecd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
@@ -20,8 +19,8 @@ ht-degree: 3%
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> マウスのドラッグまたはスワイプで実行される水平スピンと垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> xSensitivity</span> は、マウスを表示の一方の側から他方の側へ水平にドラッグした場合に、水平方向に回転する回数を設定します。例えば、3は、1回のフルドラッグジェスチャで、3回の完了スピンが表示されることを意味します。 </p> <p>同様に、<span class="codeph"> ySensitivity</span>で、垂直方向のスピンの感度を制御します。 値を1に設定した場合、垂直方向の1回のドラッグまたはスワイプによって、表示角度が一番上のスピン平面から一番下（またはその逆）に変わります。 </p> <p><span class="codeph"> ySensitivity</span>に負の値を設定すると、垂直方向のスピンの向きが逆になります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span> [,  <span class="varname"> ySensitivity</span> ]</span> </p> </td> 
+   <td colname="col2"> <p> マウスのドラッグまたはスワイプで実行される水平および垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> </span> xSensitivityは、ユーザーがマウスをビューの片側から他方に向かって水平にドラッグした場合に、水平方向の製品の回転数を設定します。例えば、3は、1回のフルドラッグジェスチャで、3回の完全スピンが表示されることを意味します。 </p> <p>同様に、<span class="codeph"> ySensitivity</span>は、垂直方向のスピンの感度を制御します。 値が1の場合、垂直方向の1つのドラッグまたはスワイプによって、表示角度が一番上のスピン平面から一番下（またはその逆）に変わります。 </p> <p><span class="codeph"> ySensitivity</span>に負の値を設定すると、垂直方向のスピンが反転します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
