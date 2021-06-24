@@ -1,25 +1,24 @@
 ---
-description: 会社ハンドルで指定された会社のユーザーを返します。
+description: 会社のハンドルで指定された会社のユーザーを返します。
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
-
 # getCompanyMembers{#getcompanymembers}
 
-会社ハンドルで指定された会社のユーザーを返します。
+会社のハンドルで指定された会社のユーザーを返します。
 
 構文
 
-## 認証済みユーザータイプ{#section-b2bc2fa0cc944cea8be82524838307cc}
+## 許可されたユーザーの種類 {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,7 +42,7 @@ ht-degree: 16%
 
 ## 例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-次のコードのサンプルを使用すると、会社のすべてのメンバーがユーザー配列で返されます。 応答は簡潔にするために切り捨てられました。
+このコード例は、会社のすべてのメンバーをユーザー配列で返します。 簡潔にするために応答は切り捨てられました。
 
 **リクエスト**
 
@@ -72,4 +71,3 @@ ht-degree: 16%
    </memberArray>
 </getCompanyMembersReturn>
 ```
-
