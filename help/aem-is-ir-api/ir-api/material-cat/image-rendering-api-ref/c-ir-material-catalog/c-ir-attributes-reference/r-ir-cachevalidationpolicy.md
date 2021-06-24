@@ -1,33 +1,32 @@
 ---
-description: サーバーキャッシュの検証ポリシー。 サーバー側のキャッシュエントリを検証するタイミングを指定します。
+description: サーバーキャッシュ検証ポリシー。 サーバー側のキャッシュエントリを検証するタイミングを指定します。
 solution: Experience Manager
 title: CacheValidationPolicy
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-サーバーキャッシュの検証ポリシー。 サーバー側のキャッシュエントリを検証するタイミングを指定します。
+サーバーキャッシュ検証ポリシー。 サーバー側のキャッシュエントリを検証するタイミングを指定します。
 
-有効期限ベースの検証では、ソース素材とビネットが定期的にチェックされ、ビネットが変更されたかどうかを確認します。 カタログベースの検証では、ソース画像は`catalog::TimeStamp`値が変更された後にのみチェックされます。
+有効期限ベースの検証では、ソース資料とビネットが変更されたかどうかを定期的に確認します。 カタログベースの検証では、ソース画像は`catalog::TimeStamp`の値が変更された後にのみ確認されます。
 
-マテリアルカタログとビネットカタログの両方を使用する場合は、カタログベースの検証をお勧めします。 ビネットが画像レンダリング要求で直接パスで参照される場合、有効期限に基づく検証を使用する必要があります。
+マテリアルカタログとビネットカタログの両方を使用する場合は、カタログベースの検証をお勧めします。 ビネットが画像レンダリング要求でパスで直接参照される場合は、有効期限ベースの検証を使用する必要があります。
 
 ## プロパティ {#section-46e13cb341eb442c86e0d8292de23ea0}
 
-列挙。 0を指定すると、有効期限ベースの検証が選択されます。 1を指定します。
+列挙 0を指定すると、有効期限に基づく検証が選択されます。 1 ：カタログベースのキャッシュ検証を選択します。
 
 ## 初期設定 {#section-e09f3af8b6b3497d963199988dc5345d}
 
-定義されていない場合や空の場合は`default::CacheValidationPolicy`から継承されます。
+`default::CacheValidationPolicy`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-b374e4d908e24af8995b2b376ca1be8b}
 
