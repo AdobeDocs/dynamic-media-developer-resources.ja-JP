@@ -2,16 +2,15 @@
 description: 透明度に基づいて画像を自動的に切り抜く場合に使用するオプションです。
 solution: Experience Manager
 title: AutoTransparentCropOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
-
 
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
@@ -32,13 +31,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> 許容</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
-   <td colname="col3">透明度に基づいて、画像の境界線から空白を削除します。 用途： 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3">透明度に基づいて画像のエッジから空白を削除します。 用途： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0の場合、色が完全に一致します。 </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1を指定すると、最も多くの色の違いが有効になります。 </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0の場合は色が正確に一致します。 </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1：最も多くの色差を有効にします。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
