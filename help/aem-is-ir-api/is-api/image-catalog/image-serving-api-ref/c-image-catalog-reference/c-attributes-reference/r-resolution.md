@@ -1,29 +1,28 @@
 ---
-description: 初期設定のオブジェクト解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合に、初期設定のオブジェクト解像度を指定します。
+description: デフォルトのオブジェクト解像度。 特定のカタログレコードに有効なカタログの解像度の値が含まれていない場合に、デフォルトのオブジェクト解像度を指定します。
 solution: Experience Manager
 title: 解像度
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
 
-
 # 解像度{#resolution}
 
-初期設定のオブジェクト解像度。 特定のカタログレコードに有効なcatalog::Resolution値が含まれていない場合に、初期設定のオブジェクト解像度を指定します。
+デフォルトのオブジェクト解像度。 特定のカタログレコードに有効なcatalog::Resolution値が含まれない場合の、デフォルトのオブジェクト解像度を指定します。
 
 ## プロパティ {#section-1f65ea81c3324781af17d0321facbd19}
 
-0より大きい実数。 通常はピクセル/インチで表されますが、他の単位（ピクセル/メートルなど）でも使用できます。
+0より大きい実数。 通常は、1インチあたりのピクセル数で表されますが、他の単位（1メートルあたりのピクセル数など）で表す場合もあります。
 
 ## 初期設定 {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-定義されていない場合や空の場合は`default::Resolution`から継承されます。
+`default::Resolution`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-dffa1f318fd84833b74d08d09c24c974}
 
