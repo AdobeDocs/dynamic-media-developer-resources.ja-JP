@@ -1,21 +1,20 @@
 ---
-description: 追加ノイズ 前景画像データまたはエフェクトレイヤーの前景にランダムなノイズを追加します。
+description: ノイズを追加します。 前景画像データまたはエフェクトレイヤーの前景にランダムノイズを追加します。
 solution: Experience Manager
 title: op_noise
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 2%
 
 ---
 
-
 # op_noise{#op-noise}
 
-追加ノイズ 前景画像データまたはエフェクトレイヤーの前景にランダムなノイズを追加します。
+ノイズを追加します。 前景画像データまたはエフェクトレイヤーの前景にランダムノイズを追加します。
 
 `op_noise= *``*[,uniform|gaussian[, *`valmonochrome`*]]`
 
@@ -23,28 +22,28 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> val</span> </p> </td> 
-   <td colname="col2"> <p>ノイズの量（パーセント）(0 ～ 100 int) </p> </td> 
+   <td colname="col2"> <p>ノイズの量（パーセント単位）(0 ～ 100 int)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 一様な</span> </p> </td> 
-   <td colname="col2"> <p>「均一ノイズ分布」を選択します。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 均一</span> </p> </td> 
+   <td colname="col2"> <p>均一なノイズ分布を選択します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> ガウス</span> </p> </td> 
-   <td colname="col2"> <p>ガウスノイズ分布を選択 </p> </td> 
+   <td colname="col2"> <p>ガウスノイズ分布を選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> monichrome</span> </p> </td> 
-   <td colname="col2"> <p>カラーノイズの場合は0に設定し、グレーノイズの場合は1に設定します。 </p> </td> 
+   <td colname="col1"> <p><span class="varname"> モノクロ</span> </p> </td> 
+   <td colname="col2"> <p>カラーノイズの場合は0に、グレーノイズの場合は1に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`monochrome`* は無視されます。
+*`monochrome`* は、グレースケール画像では無視されます。
 
 ## プロパティ {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-レイヤーコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。
+レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。
 
 ## 初期設定 {#section-d548868fa4b64a60bcb481cad1f8113e}
 
