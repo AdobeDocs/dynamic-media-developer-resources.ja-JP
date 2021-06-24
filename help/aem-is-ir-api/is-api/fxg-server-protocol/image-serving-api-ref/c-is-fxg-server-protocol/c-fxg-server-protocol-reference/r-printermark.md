@@ -1,25 +1,24 @@
 ---
-description: プリンタマークを表示します。 プリンタマークの表示方法を指定します。
+description: プリンタマークを表示します。 印刷マークの表示方法を指定します。
 solution: Experience Manager
 title: printerMark
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
 
-
 # printerMark{#printermark}
 
-プリンタマークを表示します。 プリンタマークの表示方法を指定します。
+プリンタマークを表示します。 印刷マークの表示方法を指定します。
 
-` printerMark= *`trim `*, *`marksbleed `*, *`marksregistration `*, *`markscolor `*, *`barspage `*, *``*, *`informationstyleline `*, *`weightlayer embed`*`
+` printerMark= *`trim marksbleed `*, *`marksregistration markscolor barspage `*, *`informationstyleline `*, *`weightlayer埋め`*, *``*, *``*, *``*, *`込み`*`
 
-異なるマークは、オフまたはオンにすることができます。 プリンタマークのスタイルも制御できます。
+異なるマークのオフ/オンを切り替えることができます。 印刷マークのスタイルも制御できます。
 
 有効な値は次のとおりです。
 
@@ -52,10 +51,10 @@ ht-degree: 30%
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>初期設定 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>初期設定はDefaultです。 </p></td> 
+  <td class="stentry"> <p>デフォルトはDefaultです。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>行重み付け= </p></td> 
+  <td class="stentry"> <p>線の太さ= </p></td> 
   <td class="stentry"> <p>0.125 ～ 2.0の範囲の任意の値。両方の値を含みます。 </p></td> 
   <td class="stentry"> <p>初期設定は 0.25 です </p></td> 
  </tr> 
