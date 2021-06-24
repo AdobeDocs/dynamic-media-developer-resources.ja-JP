@@ -1,27 +1,26 @@
 ---
-description: オブジェクトの解像度 フルサイズ画像のオブジェクト解像度。
+description: オブジェクトの解像度。 フルサイズ画像のオブジェクト解像度。
 solution: Experience Manager
 title: 解像度
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0f9430ce-65b9-44be-8d0e-58dbb529c5c2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
 
-
 # 解像度{#resolution}
 
-オブジェクトの解像度 フルサイズ画像のオブジェクト解像度。
+オブジェクトの解像度。 フルサイズ画像のオブジェクト解像度。
 
-`res=`コマンドを使用した解像度ベースの拡大/縮小に使用します。
+`res=`コマンドを使用した解像度ベースのスケーリングに使用します。
 
 ## プロパティ {#section-861a86da50364e2181d62778338359ea}
 
-0より大きい実数。 通常はピクセル/インチで表されますが、他の単位（ピクセル/メートルなど）でも使用できます。 （オプション）
+0より大きい実数。 通常は、1インチあたりのピクセル数で表されますが、他の単位（1メートルあたりのピクセル数など）で表す場合もあります。 （オプション）
 
 ## 初期設定 {#section-5b3a83d6410b43efa1fa3add396196f9}
 
