@@ -2,16 +2,15 @@
 description: SWCファイルアセットのプロパティ。
 solution: Experience Manager
 title: SwcInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 585b044e-740f-4bd9-b01d-873418366662
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # SwcInfo{#swcinfo}
 
@@ -26,4 +25,3 @@ SWCファイルアセットのプロパティ。
 | `*`originalPath`*` | `xsd:string` | SWCファイルへのパス。 |
 | `*`originalFile`*` | `xsd:string` | ファイル名。 |
 | `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
-
