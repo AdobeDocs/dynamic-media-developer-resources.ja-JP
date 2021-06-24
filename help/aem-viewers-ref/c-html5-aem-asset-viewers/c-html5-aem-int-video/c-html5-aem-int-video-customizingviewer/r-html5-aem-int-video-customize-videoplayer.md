@@ -2,13 +2,12 @@
 description: ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される矩形の領域です。
 solution: Experience Manager
 title: ビデオプレーヤー
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの矩形の表示領域内に中央配置されます。
+再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの長方形の表示領域内に中央配置されます。
 
 以下に示すCSSクラスセレクターで、ビデオプレーヤーの外観を制御します。
 
@@ -33,7 +32,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示の背景色。 </p> </td> 
+   <td colname="col2"> <p>メインビューの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +49,7 @@ background-color: transparent;
 }
 ```
 
-クローズドキャプションは、ビデオプレーヤー内部のコンテナに配置されます。 そのコンテナの位置は、サポートされているWebVTT位置決め演算子で制御します。 キャプションテキスト自体はそのコンテナ内にあり、そのスタイルは以下のCSSクラスセレクターを使用して制御します。
+クローズドキャプションは、ビデオプレーヤー内の内部コンテナに配置されます。 そのコンテナの位置は、サポートされているWebVTTの位置決め演算子で制御します。 キャプションテキスト自体はコンテナ内にあり、そのスタイルは以下のCSSクラスセレクターを使用して制御します。
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
@@ -64,11 +63,11 @@ background-color: transparent;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>クローズドキャプションのテキストカラー。 </p> </td> 
+   <td colname="col2"> <p>クローズドキャプションのテキストの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
-   <td colname="col2"> <p> クローズドキャプションのフォント重み付け。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p> クローズドキャプションのフォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -83,7 +82,7 @@ background-color: transparent;
 
 ## 例 {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-クローズドキャプションのテキストが14ピクセル、ライトグレー、Arialで、背景色が半透明の黒であるように設定するには、次のように記述します。
+14ピクセル、ライトグレー、Arialのクローズドキャプションテキストを、半透明の黒の背景に設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -117,15 +116,15 @@ background-color: transparent;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの高さ。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの高さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの左マージン。通常はアイコンの幅の半分を引いた値。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの左余白。通常は、アイコンの幅の半分を引いた値。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの上余白。通常はアイコンの高さの半分を引いた値です。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの上余白（通常はアイコンの高さの半分を引いた値）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
