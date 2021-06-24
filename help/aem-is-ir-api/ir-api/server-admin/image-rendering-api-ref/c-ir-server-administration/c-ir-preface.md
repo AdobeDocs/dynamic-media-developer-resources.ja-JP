@@ -1,54 +1,52 @@
 ---
-description: このドキュメントでは、サーバー管理の問題を説明し、Dynamic Mediaイメージレンダリングの設定について説明します。
+description: このドキュメントでは、サーバー管理の問題と、Dynamic Media Image Renderingの設定について説明します。
 solution: Experience Manager
-title: サーバー管理のはじめに
-feature: Dynamic Media Classic,SDK/API
+title: サーバー管理の前に
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
+# サーバー管理の前に{#server-administration-preface}
 
-# サーバ管理のはじめに{#server-administration-preface}
+このドキュメントでは、サーバー管理の問題と、Dynamic Media Image Renderingの設定について説明します。
 
-このドキュメントでは、サーバー管理の問題を説明し、Dynamic Mediaイメージレンダリングの設定について説明します。
+**対象読者**
 
-**対象オーディエンス**
+このドキュメントは、Dynamic Media Image Renderingをインストール、設定、管理する必要があるシステム管理者とWebマスターを対象としています。
 
-このドキュメントは、Dynamic Mediaイメージレンダリングのインストール、設定、管理を必要とするシステム管理者およびWebマスターを対象としています。
+**文書規則**
 
-**ドキュメント規則**
-
-このドキュメントで説明する項目は、多くの場合、次の項目タイプのプリフィックスが付けられます。
+このドキュメントで説明する項目には、多くの場合、次の項目タイプのプレフィックスが付きます。
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>attribute::Item </p></td> 
-  <td class="stentry"> <p>「attribute::」というプリフィックスの付いた名前は、画像カタログ属性を参照します。 </p></td> 
+  <td class="stentry"> <p>「attribute::」というプレフィックスが付いた名前は、画像カタログ属性を表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>catalog::Item </p></td> 
-  <td class="stentry"> <p>「catalog::」というプリフィックスが付いた名前は、マテリアルカタログデータフィールドを参照します。 </p></td> 
+  <td class="stentry"> <p>プレフィックス「catalog::」が付いた名前は、マテリアルカタログデータフィールドを表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>icc::Item </p></td> 
-  <td class="stentry"> <p>「icc:」というプリフィックスが付いた名前は、ICCカラープロファイルマップ内のフィールドを参照します。 </p></td> 
+  <td class="stentry"> <p>プレフィックス「icc::」が付いた名前は、ICCカラープロファイルマップ内のフィールドを表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>macro::Item </p></td> 
-  <td class="stentry"> <p>「macro::」というプリフィックスが付いた名前は、マクロ定義テーブル内のフィールドを参照します。 </p></td> 
+  <td class="stentry"> <p>macro:::Item </p></td> 
+  <td class="stentry"> <p>「macro::」というプレフィックスが付いた名前は、マクロ定義テーブル内のフィールドを表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>ruleset::Item </p></td> 
-  <td class="stentry"> <p>「ruleset::」というプリフィックスが付いた名前は、URLの事前処理ルールセット内の要素を指します。 </p></td> 
+  <td class="stentry"> <p>プレフィックス「ruleset::」が付いた名前は、URL前処理ルールセット内の要素を表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>default::Item </p></td> 
-  <td class="stentry"> <p>「default::」というプリフィックスの付いた名前は、初期設定の画像カタログの属性を参照します。 </p></td> 
+  <td class="stentry"> <p>プレフィックス「default:::」が付いた名前は、デフォルトの画像カタログの属性を表します。 </p></td> 
  </tr> 
 </table>
-
