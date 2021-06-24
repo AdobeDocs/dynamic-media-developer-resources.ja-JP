@@ -1,25 +1,24 @@
 ---
-description: ユーザー属性（名前、電子メール、役割など）を設定します。
+description: ユーザー属性（名前、Eメール、役割など）を
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 16%
 
 ---
 
-
 # setUserInfo{#setuserinfo}
 
-ユーザー属性（名前、電子メール、役割など）を設定します。
+ユーザー属性（名前、Eメール、役割など）を
 
 構文
 
-## 認証済みユーザータイプ{#section-6c28db5d15b3449492a73749e4f981ac}
+## 許可されたユーザーの種類 {#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,10 +35,10 @@ ht-degree: 16%
 | `*`firstName`*` | `xsd:string` | はい | 名。 |
 | `*`lastName`*` | `xsd:string` | はい | 姓。 |
 | `*`電子メール`*` | `xsd:string` | はい | ユーザーの電子メール。 |
-| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`役割は、会社ごとの他の設定よりも優先されます。 |
+| `*`defaultRole`*` | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin`の役割は、他の会社ごとの設定よりも優先されます。 |
 | `*`passwordExpires`*` | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 |
-| `*`isValid`*` | `xsd:boolean` | はい | ユーザが有効なIPSユーザであるかどうかを判定します。 |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
+| `*`isValid`*` | `xsd:boolean` | はい | ユーザーが有効なIPSユーザーかどうかを判断します。 |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | はい | 会社が処理する配列。 |
 
 **出力(setUserInfoReturn)**
 
