@@ -1,43 +1,42 @@
 ---
-description: コントラストを調整 50 %を超える明るさのピクセルの明るさを増やし、50 %を超える明るさのピクセルの明るさを減らして、画像のコントラストを調整します。
+description: コントラストを調整する。 50%を超える明るさのピクセルの明るさを増やし、50%未満の明るさのピクセルの明るさを減らすことで、画像のコントラストを調整します。
 solution: Experience Manager
 title: op_contrast
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
-
 # op_contrast{#op-contrast}
 
-コントラストを調整 50 %を超える明るさのピクセルの明るさを増やし、50 %を超える明るさのピクセルの明るさを減らして、画像のコントラストを調整します。
+コントラストを調整する。 50%を超える明るさのピクセルの明るさを増やし、50%未満の明るさのピクセルの明るさを減らすことで、画像のコントラストを調整します。
 
 `op_contrast= *`adj`*`
 
 <table id="simpletable_8246802C74424A68A7A2EA5B50A89D42"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>コントラスト調整（パーセント単位）(-100 ～ 100 int) </p></td> 
+  <td class="stentry"> <p>コントラスト調整（パーセント単位）（ —100 ～ 100整数）。 </p></td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-d319ed55057344eab0a3c93f720acdbf}
 
-レイヤーコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤーでは無視されます。
+レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤでは無視されます。
 
 ## 初期設定 {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`の場合は、コントラストを変更しません。CMYK画像またはレイヤーは、操作の適用前にRGBに変換されます。
+`op_contrast=0`（コントラストは変わりません）。CMYK画像またはレイヤーは、操作が適用される前にRGBに変換されます。
 
 ## 例 {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
-高画質の画像レイヤーのコントラストとシャープを低くして、低画質の背景の写真と視覚的に一致させます。
+高画質の画像レイヤーのコントラストとシャープネスを減らし、低画質の背景写真と視覚的に一致させます。
 
 ... `&op_blur=3&op_contrast=-12&`
 
-将来のリリースでは、50 %の固定の明るさではなく、画像の中央値の明るさが使用される場合があります。
+将来のリリースでは、50%の固定の明るさではなく、画像の中央値の明るさを使用する場合があります。
