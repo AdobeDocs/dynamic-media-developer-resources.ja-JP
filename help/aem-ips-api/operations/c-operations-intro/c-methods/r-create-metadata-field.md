@@ -1,25 +1,24 @@
 ---
-description: 管理者は、コンテンツ管理システムとの調整やテンプレート操作のための新しいメタデータフィールドを作成できます。 作成されるメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権保持者の情報などがあります。
+description: 管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者情報などがあります。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 7%
 
 ---
 
-
 # createMetadataField{#createmetadatafield}
 
-管理者は、コンテンツ管理システムとの調整やテンプレート操作のための新しいメタデータフィールドを作成できます。 作成されるメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権保持者の情報などがあります。
+管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者情報などがあります。
 
 構文
 
-## 認証済みユーザータイプ{#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 許可されたユーザーの種類 {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -59,13 +58,13 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4">メタデータフィールドの種類。 <p>メタデータフィールド型の定数は、使用可能な型を定義します。 </p> </td> 
+   <td colname="col4">メタデータフィールドタイプ。 <p>メタデータフィールドタイプ定数は、使用可能なタイプを定義します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>作成するメタデータフィールドの初期設定値（例：<span class="codeph"> Scene 7</span>）。 </p> <p>タグフィールドの種類ではデフォルト値がサポートされていないので、省略する必要があります。 タグフィールドタイプに空でないデフォルト値が指定されている場合、エラーが返されます。 </p> </td> 
+   <td colname="col4"> <p>作成するメタデータフィールドのデフォルト値（例：<span class="codeph"> Scene 7</span>）。 </p> <p>デフォルト値はタグフィールドタイプではサポートされていないので、省略する必要があります。 タグフィールドタイプに空でないデフォルト値を指定すると、フォルトが返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -77,13 +76,13 @@ ht-degree: 7%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すbooleanフラグです。 </p> <p>trueに設定した場合、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に不正な値が設定されていると、フォルトがスローされます。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 選択したタグが参照できる共有列挙値のセットを作成できます。 </td> 
+   <td colname="col4"> 選択したタグが指す共有列挙値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +95,7 @@ ht-degree: 7%
 
 ## 例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-次のコードのサンプルを使用すると、`createMetadataField`という名前の文字列型メタデータフィールドを作成できます。 応答は、新しいメタデータフィールドにハンドルを返します。
+このコードサンプルは、`createMetadataField`という名前の文字列タイプメタデータフィールドを作成します。 応答は、ハンドルを新しいメタデータフィールドに返します。
 
 **リクエスト**
 
@@ -118,4 +117,3 @@ ht-degree: 7%
    <fieldHandle>m|21|IMAGE|createMetadataField</fieldHandle>
 </createMetadataFieldReturn>
 ```
-
