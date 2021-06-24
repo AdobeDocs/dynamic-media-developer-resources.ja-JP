@@ -1,31 +1,30 @@
 ---
-description: 初期設定のレンダリングイメージサイズ リクエストでwid=またはhei=を使用して明示的に表示サイズが指定されていない場合、応答画像はこの幅と高さ以下に制限されます。
+description: デフォルトのレンダリングイメージサイズ。 サーバーによって、要求でwid=またはhei=を使用してビューサイズが明示的に指定されていない場合、返信画像はこの幅と高さ以下に制限されます。
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
 
-
 # DefaultPix{#defaultpix}
 
-初期設定のレンダリングイメージサイズ リクエストでwid=またはhei=を使用して明示的に表示サイズが指定されていない場合、応答画像はこの幅と高さ以下に制限されます。
+デフォルトのレンダリングイメージサイズ。 サーバーによって、要求でwid=またはhei=を使用してビューサイズが明示的に指定されていない場合、返信画像はこの幅と高さ以下に制限されます。
 
 ## プロパティ {#section-9dc5474fc75842308796ab6440b29611}
 
-0以上の2つの整数で、カンマで区切ります。 幅と高さ（ピクセル単位） どちらかまたは両方の値を0に設定して、拘束を適用しないようにすることができます。
+0以上の2つの整数で、コンマで区切ります。 幅と高さ（ピクセル単位）。 値を0に設定すると、値は制約なしに保たれます。
 
-ネストされた/埋め込まれたリクエストには適用されません。
+ネストされた/埋め込みリクエストには適用できません。
 
 ## 初期設定 {#section-1935781c561e4679aa87a5bcced8df90}
 
-定義されていない場合や空の場合は`default::DefaultPix`から継承されます。
+`default::DefaultPix`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-d28f18d29ef14692b8706ca08e754f54}
 
