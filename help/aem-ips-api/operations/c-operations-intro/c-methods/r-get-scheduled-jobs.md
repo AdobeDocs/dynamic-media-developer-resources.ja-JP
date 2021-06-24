@@ -2,16 +2,15 @@
 description: 実行するようにスケジュールされたジョブを取得します。
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ{#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 許可されたユーザーの種類 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,7 +35,7 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
 | `*`jobHandle`*` | `xsd:string` | いいえ | ジョブハンドル。 |
 | `*`originalName`*` | `xsd:string` | いいえ | `submitJob`で指定された名前。 |
 
@@ -48,7 +47,7 @@ ht-degree: 20%
 
 ## 例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-このコードのサンプルを使用すると、ジョブ配列内のすべてのスケジュール済みジョブが返されます。 配列自体には、ジョブに関する詳細情報が含まれます。
+このコード例は、すべてのスケジュール済みジョブをジョブ配列で返します。 配列自体には、ジョブに関する詳細情報が含まれます。
 
 **リクエスト**
 
@@ -78,4 +77,3 @@ ht-degree: 20%
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
