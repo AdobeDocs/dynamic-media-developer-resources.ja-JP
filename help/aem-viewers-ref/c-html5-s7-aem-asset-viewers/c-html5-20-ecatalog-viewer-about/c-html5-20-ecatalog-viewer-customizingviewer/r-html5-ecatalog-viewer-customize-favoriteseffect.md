@@ -1,21 +1,20 @@
 ---
-description: メイン表示の上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
+description: ビューアでは、メインビューの上のお気に入りアイコンが、ユーザが最初に追加した場所に表示されます。
 solution: Experience Manager
 title: お気に入りエフェクト
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-
 # お気に入りエフェクト{#favorites-effect}
 
-メイン表示の上に、ユーザが最初に追加した場所にお気に入りアイコンが表示されます。
+ビューアでは、メインビューの上のお気に入りアイコンが、ユーザが最初に追加した場所に表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -58,26 +57,26 @@ ht-degree: 1%
 }
 ```
 
-デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7favoriteseffect`クラスに適用でき、選択したユーザー操作に基づいてカーソルのタイプを制御します。 次の`cursortype`値がサポートされています。
+デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7favoriteseffect`クラスに適用でき、選択したユーザーアクションに基づいてカーソルのタイプを制御します。 次の`cursortype`値がサポートされています。
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
-   <td colname="col2"> <p>新しいお気に入りアイコンを追加しようとしていると表示される。 </p> </td> 
+   <td colname="col2"> <p>新しいお気に入りアイコンを追加中のユーザーが表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
-   <td colname="col2"> <p>既存のお気に入りアイコンを削除しようとしています。 </p> </td> 
+   <td colname="col2"> <p>表示されたユーザーは、既存のお気に入りアイコンを削除しています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_表示  </span> </p> </td> 
-   <td colname="col2"> <p>お気に入りの編集がアクティブでない場合、通常の操作モードで表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col2"> <p>[お気に入り]編集がアクティブでない場合、通常の操作モードで表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — コンポーネント状態のタイプごとに異なるマウスカーソルを設定します。
+例 — コンポーネントの状態ごとに異なるマウスカーソルを設定します。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
