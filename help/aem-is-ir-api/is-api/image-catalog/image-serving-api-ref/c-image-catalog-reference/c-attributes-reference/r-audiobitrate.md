@@ -2,22 +2,21 @@
 description: オーディオビットレート. ビデオアセットのオーディオビットレートを表すlong値です。
 solution: Experience Manager
 title: AudioBitRate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '68'
+ht-degree: 16%
 
 ---
-
 
 # AudioBitRate{#audiobitrate}
 
 オーディオビットレート. ビデオアセットのオーディオビットレートを表すlong値です。
 
-`req=set`および`req=mbrSet`リクエストがビットレートデータをエクスポートするために使用します。
+ビットレートデータを書き出すために、`req=set`および`req=mbrSet`リクエストで使用されます。
 
 静的コンテンツカタログにのみ適用されます。
 
@@ -31,4 +30,4 @@ ht-degree: 15%
 
 ## 関連項目 {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) ,  [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73),  [Media Set Requests](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) 、 [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73)、メディアセッ [トの要求](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
