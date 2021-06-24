@@ -2,24 +2,23 @@
 description: ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される矩形の領域です。
 solution: Experience Manager
 title: ビデオ360プレーヤー
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
 
-# Video360 player{#video-player}
+# ビデオ360プレーヤー{#video-player}
 
 ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される矩形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの矩形の表示領域内に中央配置されます。
+再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの長方形の表示領域内に中央配置されます。
 
 以下に示すCSSクラスセレクターで、ビデオプレーヤーの外観を制御します。
 
@@ -33,12 +32,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示の背景色。 </p> </td> 
+   <td colname="col2"> <p>メインビューの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。
+システムでビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。
 
 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
@@ -74,15 +73,15 @@ background-color: transparent;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの高さ。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの高さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの左マージン。通常はアイコンの幅の半分を引いた値。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの左余白。通常は、アイコンの幅の半分を引いた値。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの上余白。通常はアイコンの高さの半分を引いた値です。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの上余白（通常はアイコンの高さの半分を引いた値）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
