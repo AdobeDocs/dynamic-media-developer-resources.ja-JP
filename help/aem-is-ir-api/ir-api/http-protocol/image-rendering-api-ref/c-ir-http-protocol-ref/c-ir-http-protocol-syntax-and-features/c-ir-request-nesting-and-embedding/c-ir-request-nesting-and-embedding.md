@@ -1,22 +1,21 @@
 ---
-description: 画像レンダリングを使用すると、画像サービング要求と外部サーバへのHTTP要求を埋め込むことで、繰り返し可能なテクスチャやデカールに使用されるマテリアル画像を取得できます。
+description: 画像レンダリングを使用すると、画像サービング要求とHTTP要求を外部サーバに埋め込んで、繰り返し可能なテクスチャやデカールに使用されるマテリアル画像を取得できます。
 solution: Experience Manager
 title: リクエストのネストと埋め込み*
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2f95a35a-db00-4ee9-8ecc-d746293d485e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-
 # リクエストのネストと埋め込み*{#request-nesting-and-embedding}
 
-画像レンダリングを使用すると、画像サービング要求と外部サーバへのHTTP要求を埋め込むことで、繰り返し可能なテクスチャやデカールに使用されるマテリアル画像を取得できます。
+画像レンダリングを使用すると、画像サービング要求とHTTP要求を外部サーバに埋め込んで、繰り返し可能なテクスチャやデカールに使用されるマテリアル画像を取得できます。
 
-これらのメカニズムは、キャビネットおよびウィンドウカバリングの材料に対してはサポートされていません。
+これらのメカニズムは、キャビネットおよび窓カバー材に対してはサポートされていません。
 
-[src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)および画像サービングリファレンスも参照してください。
+[src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)および画像サービングのリファレンスも参照してください。
