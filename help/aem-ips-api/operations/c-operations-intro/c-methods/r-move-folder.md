@@ -2,16 +2,15 @@
 description: フォルダーを新しい場所に移動します。
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
-
 
 # moveFolder{#movefolder}
 
@@ -19,7 +18,7 @@ ht-degree: 25%
 
 構文
 
-## 認証済みユーザータイプ{#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 許可されたユーザーの種類 {#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,15 +33,15 @@ ht-degree: 25%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
-| `*`destFolderHandle`*` | `xsd:string` | はい | 宛先フォルダーへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル。 |
+| `*`destFolderHandle`*` | `xsd:string` | はい | 宛先フォルダーを処理します。 |
 
 **出力(moveFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | はい | 移動したフォルダーへのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 移動したフォルダーを処理します。 |
 
 ## 例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
@@ -63,4 +62,3 @@ ht-degree: 25%
    <folderHandle>f|test/DestFolder/MoveTest/</folderHandle>
 </moveFolderReturn>
 ```
-
