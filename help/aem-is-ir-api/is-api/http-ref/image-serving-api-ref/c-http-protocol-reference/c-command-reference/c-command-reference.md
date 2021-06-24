@@ -2,36 +2,35 @@
 description: この節では、HTTPプロトコルのコマンドについて説明します。
 solution: Experience Manager
 title: コマンドリファレンス
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
-
 
 # コマンドリファレンス{#command-reference}
 
 この節では、HTTPプロトコルのコマンドについて説明します。
 
-**AEMのDynamic Mediaのみ**:ユーザインターフェイスで使用できる基本的な画像設定の他に、AEM [!DNL Dynamic Media] ( [!DNL Adobe Experience Manager])では、「 **画像** 修飾子」フィールドで指定できる多数の高度な画像変更をサポートしています。これらのパラメーターは次のように定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
+**AEMのDynamic Mediaのみ**:ユーザーインターフェイスで使用できる基本的な画像設定のほか、AEM()で [!DNL Dynamic Media] は、「画像の変 [!DNL Adobe Experience Manager]更」フィールドで多数の高度な画像変更を指定で **き** ます。これらのパラメーターは以下で定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
 
-* カラー補正コマンド：`icc=`と`iccEmbed=`。
-* 基本的なテンプレート化およびテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`と`textPs=`。
-* ローカライゼーションコマンド：`locale=`と`req=xlate`。
-* `req=set` は一般的な使用方法には使用できません。
+* カラー補正コマンド：`icc=`と`iccEmbed=`が表示されます。
+* 基本的なテンプレートコマンドとテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`と`textPs=`が表示されます。
+* ローカライゼーションコマンド：`locale=`と`req=xlate`が表示されます。
+* `req=set` は、一般的には使用できません。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非コアDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
+* コア以外のDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)も参照してください。
+AEM 6.5のドキュメントのDynamic Media [画像プリセットオプション](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)も参照してください。
 
 * [align](r-align.md)
 * [アンカー](r-anchor.md)
@@ -46,9 +45,9 @@ AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](
 * [切り抜き](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
-* [effect](r-effect.md)
+* [効果](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [延長する](r-extend.md)
+* [拡張](r-extend.md)
 * [フィット](r-fit.md)
 * [反転](r-flip.md)
 * [fmt](r-is-http-fmt.md)
@@ -59,10 +58,10 @@ AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [layer](r-layer.md)
-* [locale](r-locale.md)
+* [層](r-layer.md)
+* [ロケール](r-locale.md)
 * [マップ](r-map.md)
-* [mask](r-mask.md)
+* [マスク](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
@@ -80,7 +79,7 @@ AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [接触チャネル](r-origin.md)
+* [origin](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [視点](r-perspective.md)
@@ -94,7 +93,7 @@ AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
+* [循環](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [サイズ](r-size-reference.md)
@@ -107,6 +106,6 @@ AEM 6.5ドキュメントのDynamic Media[画像プリセットオプション](
 * [textFlowXPath](r-textflowxpath.md)
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
-* [type](r-type.md)
+* [タイプ](r-type.md)
 * [wid](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)
