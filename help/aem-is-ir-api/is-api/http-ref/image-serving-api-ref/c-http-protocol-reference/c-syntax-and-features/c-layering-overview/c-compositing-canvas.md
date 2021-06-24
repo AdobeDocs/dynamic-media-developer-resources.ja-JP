@@ -1,25 +1,23 @@
 ---
-description: レイヤーは、layer=コマンドで指定された順序で合成されます。番号の大きいレイヤーは、番号の小さいレイヤーを非表示にします。
+description: レイヤは、 layer=コマンドで指定された順序で合成されます。ここで、番号の大きいレイヤは、番号の小さいレイヤを非表示にします。
 solution: Experience Manager
 title: 合成キャンバス
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-
 # 合成キャンバス{#the-compositing-canvas}
 
-レイヤーは、layer=コマンドで指定された順序で合成されます。番号の大きいレイヤーは、番号の小さいレイヤーを非表示にします。
+レイヤは、 layer=コマンドで指定された順序で合成されます。ここで、番号の大きいレイヤは、番号の小さいレイヤを非表示にします。
 
-レイヤー0は、常に必須で、合成画像のサイズを定義する背景レイヤーを構成します。 レイヤー0には、任意のレイヤータイプを使用できます。 レイヤー0のサイズは、コンテンツの画像またはテキストに基づいて、`size=`を使用して明示的に、または暗黙的に定義する必要があります。 レイヤー0の領域外にある他のレイヤーの領域は、出力画像に含まれません。
+レイヤー0は、常に必要で、合成画像のサイズを定義する背景レイヤーを構成します。 レイヤ0に対しては、任意のレイヤタイプを使用できます。 レイヤー0のサイズは、`size=`を使用して明示的に定義するか、コンテンツの画像またはテキストに基づいて暗黙的に定義する必要があります。 その他のレイヤーの領域のうち、レイヤー0の領域外にある領域は、出力イメージに含まれません。
 
 >[!NOTE]
 >
->すべてのレイヤーが統合された後、合成画像は、[表示コマンドと属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)で指定された最終応答画像に変換されます。
-
+>すべてのレイヤが統合された後、合成画像は、[viewコマンドと属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)で指定された最終応答画像に変換されます。
