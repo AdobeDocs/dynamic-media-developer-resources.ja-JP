@@ -1,21 +1,20 @@
 ---
-description: PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
+description: PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorのPDFとして保存オプションダイアログまたはInDesignのPDFプリセットで生成されるファイルです。
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
 
-
 # joboption{#joboption}
 
-PDFジョブのオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、PDFオプションとして保存ダイアログボックス内でIllustratorによって生成されたファイル、またはInDesign内のPDFプリセットです。
+PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorのPDFとして保存オプションダイアログまたはInDesignのPDFプリセットで生成されるファイルです。
 
 ` joboption= *`value`*`
 
@@ -26,7 +25,7 @@ PDFジョブのオプションを適用します。 ジョブオプションフ�
  </tr> 
 </table>
 
-ジョブオプションファイルは、IPS/Dynamic Mediaクラシックによってアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFが生成されるときに使用されます。
+ジョブオプションファイルは、IPS/Dynamic Media Classicを使用してアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFが生成される際に使用されます。
 
 現在、次のオプションがサポートされています。
 
@@ -78,7 +77,6 @@ PDFジョブのオプションを適用します。 ジョブオプションフ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>規格 </p></td> 
-  <td class="stentry"> <p>準拠基準。 </p></td> 
+  <td class="stentry"> <p>準拠の規格。 </p></td> 
  </tr> 
 </table>
-
