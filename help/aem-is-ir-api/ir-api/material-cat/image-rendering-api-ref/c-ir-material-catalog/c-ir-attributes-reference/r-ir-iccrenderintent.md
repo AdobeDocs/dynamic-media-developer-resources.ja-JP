@@ -1,29 +1,28 @@
 ---
-description: カラー変換レンダリングインテント。 icc=でレンダリングインテントが指定されていない場合のカラー変換に対する初期設定のレンダリングインテントを指定します。
+description: カラー変換レンダリングの方法。 icc=でレンダリングインテントが指定されていない場合の、カラー変換のデフォルトのレンダリングインテントを提供します。
 solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
 
-
 # IccRenderIntent{#iccrenderintent}
 
-カラー変換レンダリングインテント。 icc=でレンダリングインテントが指定されていない場合のカラー変換に対する初期設定のレンダリングインテントを指定します。
+カラー変換レンダリングの方法。 icc=でレンダリングインテントが指定されていない場合の、カラー変換のデフォルトのレンダリングインテントを提供します。
 
 ## プロパティ {#section-0a38c60e1525426185616c42824aee2c}
 
-列挙。 知覚的には0、相対的な色域を維持するには1、彩度には2、絶対的な色域を維持するには3に設定します。 空のままにするか、その他の値に設定すると、カラープロファイルで定義されている初期設定のレンダリングインテントが使用されます。
+列挙 知覚的には0、相対的な色域を維持するには1、彩度には2、絶対的な色域を維持するには3に設定します。 空のままにするか、他の値に設定すると、カラープロファイルで定義されたデフォルトのレンダリングインテントが使用されます。
 
 ## 初期設定 {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-`default::IccRenderIntent`から継承（定義されていない場合）。 空の場合は、「相対的な色域を保持」が適用されます。
+定義されていない場合は`default::IccRenderIntent`から継承されます。 空の場合は、「相対的な色域を維持」が適用されます。
 
 ## 関連項目 {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
