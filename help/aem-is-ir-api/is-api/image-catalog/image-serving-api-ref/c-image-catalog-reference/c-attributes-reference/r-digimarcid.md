@@ -2,16 +2,15 @@
 description: Digimarcユーザ情報 Digimarc埋め込みのユーザ情報を指定します。
 solution: Experience Manager
 title: DigimarcId
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # DigimarcId{#digimarcid}
 
@@ -19,19 +18,19 @@ Digimarcユーザ情報 Digimarc埋め込みのユーザ情報を指定します
 
 ## プロパティ {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
-カンマ区切りの5または6個の整数。 3番目と4番目の数字は使用されなくなりました。
+コンマ区切りの整数を5または6個指定します。 3番目と4番目の数値は使用されなくなりました。
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
 `creator-id`と`creator-pin`は、サービスの購入時にDigimarcから提供されます。 未使用の値は空のままにする必要があります。
 
-`durability` Digimarc透かし埋め込みの強度を指定します。1、2、3または4の場合があり、1は最も弱いことを示し、4は最も強い耐久性を示します。
+`durability` Digimarc透かし埋め込みの強さを指定します。1、2、3、4の場合があり、1は最も弱いことを示し、4は最も強い耐久性を示します。
 
-透かしを画像のクロミナンスデータにエンコードする場合は`chroma`を1に設定し、輝度にエンコードする場合は0（初期設定）に設定します。 グレースケール画像を出力する場合、この設定は無視されます。
+透かしを画像の彩度データにエンコードする場合は`chroma`を1に設定し、輝度にエンコードする場合は0（デフォルト）に設定します。 グレースケール画像を出力する際、この設定は無視されます。
 
 ## 初期設定 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-定義されていない場合や空の場合は`default::DigimarcId`から継承されます。
+`default::DigimarcId`から継承されます（定義されていない場合または空の場合）。
 
 ## 例 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
