@@ -2,16 +2,15 @@
 description: メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 8%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
 >
 >このメソッドは非推奨です。
 
-## 認証済みユーザータイプ{#section-0c1cbde0863346f8a31b32fd06ab2926}
+## 許可されたユーザーの種類 {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +45,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社へのハンドル。 </td> 
+   <td colname="col4"> 会社の取っ手。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -58,7 +57,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> メタデータを保存するアセットタイプの選択。 </td> 
+   <td colname="col4"> メタデータの保存元となるアセットタイプの選択。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -70,7 +69,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> メタデータフィールドタイプの選択 </td> 
+   <td colname="col4"> メタデータフィールドタイプの選択。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -88,7 +87,7 @@ ht-degree: 8%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すbooleanフラグです。 </p> <p>trueに設定した場合、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に不正な値が設定されていると、フォルトがスローされます。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +100,7 @@ ht-degree: 8%
 
 ## 例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-このコードのサンプルを使用すると、アセットタイプとメタデータフィールドタイプの文字列定数で制限される、新しいメタデータフィールドを作成できます。 `fieldHandle`要素が有効なフィールドハンドル値を持つ場合、メタデータ値が変更され、要求で指定したのと同じフィールドハンドルが取得されます。
+このコードサンプルを使用すると、 Asset TypeとMetadata Field Typesの文字列定数で制限される新しいメタデータフィールドが作成されます。 `fieldHandle`要素に有効なフィールドハンドル値がある場合、メタデータ値を変更し、リクエストで指定したのと同じフィールドハンドルを取得します。
 
 **リクエスト**
 
@@ -122,4 +121,3 @@ ht-degree: 8%
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
