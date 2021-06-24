@@ -1,25 +1,24 @@
 ---
-description: アセットのバッチを発行する準備ができているかどうかを指定します。
+description: アセットのバッチを公開する準備ができているかどうかを指定します。
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
 
-
 # setAssetsPublishState{#setassetspublishstate}
 
-アセットのバッチを発行する準備ができているかどうかを指定します。
+アセットのバッチを公開する準備ができているかどうかを指定します。
 
 これは、[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)のバッチバージョンです。
 
-## 認証済みユーザータイプ{#section-0804726f683944dbbe9acfc3d35ccf25}
+## 許可されたユーザーの種類 {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,7 +37,7 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
 | `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | はい | アセットの公開状態値の配列。 |
 
 **出力(setAssetsPublishStateParam)**
@@ -46,14 +45,14 @@ ht-degree: 11%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | はい | 正常に更新されたアセットの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作が更新を試みたときに警告を生成したアセットの数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がアセットを削除しようとしたときにエラーが発生したアセットの数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 警告を生成したアセットの更新に関連付けられた詳細。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | エラーを生成したアセットの更新に関連付けられた詳細。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作が更新を試みたときに警告が発生したアセットの数。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作が削除しようとしたときにエラーが発生したアセットの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 警告が発生したアセットの更新に関連する詳細。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | エラーが発生したアセットの更新に関連する詳細。 |
 
 ## 例 {#section-38cfdd3436214a06a1bae16875501d51}
 
-次のコードのサンプルを使用すると、アセットのパブリケーション状態を設定できます。
+このコードサンプルは、アセットの公開状態を設定します。
 
 **リクエスト**
 
@@ -83,4 +82,3 @@ ht-degree: 11%
    </complexType>
 </element>
 ```
-
