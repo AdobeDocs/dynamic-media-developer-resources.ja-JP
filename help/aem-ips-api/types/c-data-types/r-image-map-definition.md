@@ -1,21 +1,20 @@
 ---
-description: ブラウザー内のクリック操作のターゲット定義。
+description: ブラウザーでのクリックアクションのターゲット定義。
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
 
-
 # ImageMapDefinition{#imagemapdefinition}
 
-ブラウザー内のクリック操作のターゲット定義。
+ブラウザーでのクリックアクションのターゲット定義。
 
 構文
 
@@ -24,8 +23,7 @@ ht-degree: 11%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`name`*` | `xsd:string` | 画像マップ定義の名前。 |
-| `*`shapeType`*` | `xsd:string` | 領域形状の値の1つ。 |
+| `*`shapeType`*` | `xsd:string` | 領域の形状値の1つ。 |
 | `*`地域`*` | `xsd:string` | 画像マップの座標。 形式は、HTMLの`<area>`タグ属性に基づきます。 |
-| `*`action`*` | `xsd:string` | HTML `<area>`タグに含める他の属性（`href` URLを含む）。 |
+| `*`action`*` | `xsd:string` | HTMLの`<area>`タグに含める他の属性（`href` URLを含む）。 |
 | `*`有効`*` | `xsd:boolean` | 画像マップが有効な場合はtrue。 |
-
