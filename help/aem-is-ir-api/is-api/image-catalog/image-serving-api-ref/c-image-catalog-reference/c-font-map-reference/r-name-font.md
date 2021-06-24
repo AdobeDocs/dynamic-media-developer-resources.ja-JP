@@ -1,25 +1,24 @@
 ---
-description: フォント名 フォント名は、RTF \fonttblコマンドで指定したとおりです。
+description: フォント名 RTF \fonttblコマンドで指定したフォント名。
 solution: Experience Manager
 title: 名前
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 9%
 
 ---
 
-
 # 名前{#name}
 
-フォント名 フォント名は、RTF \fonttblコマンドで指定したとおりです。
+フォント名 RTF \fonttblコマンドで指定したフォント名。
 
 ## プロパティ {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-テキスト文字列。 必須。フォントマップのプライマリインデックスキー 同じフォント：:Name値は、同じフォントマップファイル内で最大4回出現する可能性がありますが、各レコードは`font::Bold`と`font::Italic`の値の組み合わせが異なる必要があります。
+テキスト文字列。 必須。プライマリマップのフォントインデックスキー。 同じfont::Name値は、同じフォントマップファイル内で最大4回発生する場合がありますが、各レコードは`font::Bold`と`font::Italic`の値の組み合わせが異なる必要があります。
 
 ## 初期設定 {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 
