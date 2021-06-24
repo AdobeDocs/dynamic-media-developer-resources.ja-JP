@@ -1,25 +1,24 @@
 ---
-description: 指定したアセットに対する画像サービングまたは画像レンダリングプロトコルコマンドを設定します。 次の各コマンドは、アセットを破棄することなくアセットの表現を変更します。
+description: 指定したアセットに対して、画像サービングまたは画像レンダリングプロトコルコマンドを設定します。 これらのコマンドは、アセットを破棄せずにアセットの表現を変更します。
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 7%
 
 ---
 
-
 # setUrlModifier{#seturlmodifier}
 
-指定したアセットに対する画像サービングまたは画像レンダリングプロトコルコマンドを設定します。 次の各コマンドは、アセットを破棄することなくアセットの表現を変更します。
+指定したアセットに対して、画像サービングまたは画像レンダリングプロトコルコマンドを設定します。 これらのコマンドは、アセットを破棄せずにアセットの表現を変更します。
 
-画像サービングでは、`urlModifier`パラメーターのコマンドは、修飾子カタログフィールドに公開され、要求URLで指定されたコマンドの前に適用されます。 `urlPostApplyModifier`内のコマンドは、`PostModifier`カタログフィールドに発行され、要求URLまたは`urlModifier`内のすべてのコマンドが上書きされます。 画像レンダリングの場合、`urlModifier`と`urlPostApplyModifier`のコマンドが連結され、修飾子カタログフィールドに公開されます。
+画像サービングの場合、`urlModifier`パラメーターのコマンドは「修飾子カタログ」フィールドに公開され、要求URLで指定されたコマンドの前に適用されます。 `urlPostApplyModifier`内のコマンドは、`PostModifier`カタログフィールドに公開され、リクエストURLまたは`urlModifier`内のコマンドが上書きされます。 画像レンダリングの場合、`urlModifier`と`urlPostApplyModifier`のコマンドが連結され、モディファイヤカタログフィールドにパブリッシュされます。
 
-## 認証済みユーザータイプ{#section-fefcd732ccf64c78956606538f96c73d}
+## 許可されたユーザーの種類 {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,10 +33,10 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
 | `*`urlModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの前に適用する画像サービングまたは画像レンダリングプロトコルコマンド。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | `urlModifier`およびrequestコマンドの後に適用する画像サービングまたは画像レンダリングプロトコルコマンド。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | `urlModifier`の後に適用する画像サービングまたは画像レンダリングプロトコルコマンドと、コマンドを要求します。 |
 
 **出力(setUrlModifierReturn)**
 
