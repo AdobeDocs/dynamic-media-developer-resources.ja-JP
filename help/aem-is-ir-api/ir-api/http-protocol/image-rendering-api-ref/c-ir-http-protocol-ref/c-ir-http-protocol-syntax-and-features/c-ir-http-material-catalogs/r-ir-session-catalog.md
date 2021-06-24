@@ -1,25 +1,24 @@
 ---
-description: セッションカタログは、要求のセッション属性を提供するマテリアルカタログです。また、すべてのsrc=、vignette=およびicc=コマンドの初期設定のcatId値も提供されます。
+description: セッションカタログは、要求のセッション属性と、すべてのsrc=、vignette=およびicc=コマンドのデフォルトのcatId値を提供するマテリアルカタログです。
 solution: Experience Manager
 title: セッションカタログ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 36e0571e-7451-423f-a1df-540680381902
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-
 # セッションカタログ{#session-catalog}
 
-セッションカタログは、要求のセッション属性を提供するマテリアルカタログです。また、すべてのsrc=、vignette=およびicc=コマンドの初期設定のcatId値も提供されます。
+セッションカタログは、要求のセッション属性と、すべてのsrc=、vignette=およびicc=コマンドのデフォルトのcatId値を提供するマテリアルカタログです。
 
-セッションカタログは、HTTP要求パスの最初のパス要素として指定します（サーバー名の直後）。 最初のパス要素がカタログのattribute::RootIdに一致しない場合、初期設定のカタログがセッションカタログとして使用されます。
+セッションカタログは、HTTPリクエストパスの最初のパス要素として指定します（サーバー名のすぐ後）。 最初のパス要素がカタログのattribute::RootIdと一致しない場合、デフォルトのカタログがセッションカタログとして使用されます。
 
-セッションカタログには、次のセッションのデフォルト値が用意されています。
+セッションカタログには、次のセッションデフォルト値が用意されています。
 
 <table id="table_DB5E0DD8E9B440A4964A1326433597C8"> 
  <thead> 
@@ -31,7 +30,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootPath</span> </p> </td> 
-   <td> <p> マテリアルデータファイルのルートパス </p> </td> 
+   <td> <p> 材料データファイルのルートパス </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::VignettePath</span> </p> </td> 
@@ -39,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::IccProfileRgb</span> </p> </td> 
-   <td> <p> ビネットにICCプロファイルが埋め込まれない場合の初期設定の作業カラースペース </p> </td> 
+   <td> <p> ビネットがICCプロファイルを埋め込まない場合のデフォルトの作業カラースペース </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
@@ -47,19 +46,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::ShowOverlapObjs</span> </p> </td> 
-   <td> <p> 重なり合うオブジェクトの最初の表示/非表示の状態 </p> </td> 
+   <td> <p> 重なりオブジェクトの最初の表示/非表示の状態 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> プロキシサーバーとブラウザーキャッシュの応答画像の有効時間の値 </p> </td> 
+   <td> <p> プロキシサーバーおよびブラウザーキャッシュの応答画像の有効期間の値 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::MaxPix</span> </p> </td> 
-   <td> <p> 許可される返信画像の幅と高さの最大値 </p> </td> 
+   <td> <p> 返信画像の最大の幅と高さ </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
-   <td> <p> <span class="codeph"> wid=</span>と<span class="codeph"> hei=</span>のデフォルト値 </p> </td> 
+   <td> <p> <span class="codeph"> wid=</span>および<span class="codeph"> hei=</span>のデフォルト値 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Format</span> </p> </td> 
@@ -87,4 +86,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
