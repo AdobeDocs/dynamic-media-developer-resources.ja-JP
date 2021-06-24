@@ -2,16 +2,15 @@
 description: リクエストの検証。
 solution: Experience Manager
 title: 検証
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 4%
 
 ---
-
 
 # 検証{#validate}
 
@@ -22,17 +21,17 @@ ht-degree: 4%
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
-  <td class="stentry"> <p>一意の要求識別子。 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト識別子。 </p></td> 
  </tr> 
 </table>
 
-`req=img`が指定された場合と同じように要求文字列を解析しますが、変数の代入や参照オブジェクト(画像、ICCプロファイル、フォントなど)の評価は行われません。 解析に失敗した場合は標準エラー応答が返され、それ以外の場合は次のプロパティが返されます。
+リクエスト文字列を`req=img`が指定された場合と同じように解析しますが、変数を置き換えたり、参照オブジェクト（画像、ICCプロファイル、フォントなど）を評価したりする必要はありません。 解析が失敗した場合は標準エラー応答が返され、失敗した場合は次のプロパティが返されます。
 
 `request.isValid=1`
 
 HTTP応答はキャッシュできません。
 
-JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
