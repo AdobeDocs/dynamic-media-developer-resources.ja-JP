@@ -2,13 +2,12 @@
 description: CarouselView.enableHD
 solution: Experience Manager
 title: CarouselView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 6%
 
 ---
@@ -21,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイのデバイス）の最適化の有効化、制限または無効化を行います。 </p> <p>有効にすると、デバイスのピクセル率が<span class="codeph"> 1</span>のみであるかのようにコンポーネントでIS画像リクエストのサイズが制限され、帯域幅が減少します。 </p> <p>以下の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイを使用するデバイス）の最適化の有効化、制限または無効化を行います。 </p> <p>有効にすると、デバイスのピクセル比が<span class="codeph"> 1</span>の場合と同じように、コンポーネントでISイメージリクエストのサイズが制限され、帯域幅が削減されます。 </p> <p>以下の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> limit </span>設定を使用すると、指定した制限値までの高ピクセル密度が有効になります。 </p> <p>以下の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> limit</span>設定を使用すると、指定された制限までの高ピクセル密度が有効になります。 </p> <p>以下の例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
