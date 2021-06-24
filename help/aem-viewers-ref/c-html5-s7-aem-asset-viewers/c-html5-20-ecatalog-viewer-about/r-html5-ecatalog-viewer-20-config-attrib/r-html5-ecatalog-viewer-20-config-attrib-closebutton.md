@@ -1,19 +1,18 @@
 ---
-description: 閉じるボタン
+description: Closebutton
 solution: Experience Manager
-title: 閉じるボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+title: Closebutton
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
-
-# 閉じるボタン{#closebutton}
+# Closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 1 </span>に設定すると、閉じるボタンが表示されます。 または、<span class="codeph"> 0 </span>に設定すると、閉じるボタンが非表示になります。 </p> <p>閉じるボタンは、タッチデバイスでのみサポートされます。デスクトップシステムでは表示できません。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 1 </span>に設定すると、閉じるボタンが表示されます。 または、 <span class="codeph"> 0 </span>に設定すると、閉じるボタンが非表示になります。 </p> <p>閉じるボタンは、タッチデバイスでのみサポートされています。デスクトップシステムでは表示できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +38,3 @@ ht-degree: 9%
 ```
 closebutton=1
 ```
-
