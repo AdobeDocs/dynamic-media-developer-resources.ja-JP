@@ -1,25 +1,24 @@
 ---
-description: 指定した会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して定義されたアクティブなサーバが1つ以上ある場合、パブリッシュコンテキストはアクティブと見なされます。
+description: 指定された会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して1つ以上のアクティブなサーバーが定義されている場合、パブリッシュコンテキストはアクティブと見なされます。
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
 
-
 # getActivePublishContext{#getactivepublishcontext}
 
-指定した会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して定義されたアクティブなサーバが1つ以上ある場合、パブリッシュコンテキストはアクティブと見なされます。
+指定された会社のアクティブな公開コンテキストのリストを取得します。 コンテキストに対して1つ以上のアクティブなサーバーが定義されている場合、パブリッシュコンテキストはアクティブと見なされます。
 
 構文
 
-## 認証済みユーザータイプ{#section-eb22397744434dfe92a59ffa2883c2e7}
+## 許可されたユーザーの種類 {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,11 +36,10 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | アクティブな公開コンテキストのクエリへの会社のハンドル |
+| `*`companyHandle`*` | `xsd:string` | はい | アクティブな公開コンテキストをクエリする会社へのハンドル |
 
 **出力(getActivePublishContextsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | はい | アクティブな公開コンテキストの配列です。この中には、公開コンテキストの0個以上の値が含まれる場合があります。 |
-
+| `*`contextArray`*` | `types:StringArray` | はい | アクティブな公開コンテキストの配列。パブリッシュコンテキストの0個以上の値を含めることができます。 |
