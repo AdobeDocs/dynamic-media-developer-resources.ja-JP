@@ -2,16 +2,15 @@
 description: 1つ以上のアセットのサムネール画像を設定します。
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 13%
 
 ---
-
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
@@ -19,9 +18,9 @@ ht-degree: 13%
 
 構文
 
-## サムネールアセットタイプ{#section-4edc2a6a8f824213b0aaddb1d437268c}
+## サムネールのアセットタイプ {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-使用できるサムネールアセットタイプは、次のとおりです。
+使用できるサムネールアセットタイプは次のとおりです。
 
 * 画像
 * 調整済みのビュー
@@ -29,7 +28,7 @@ ht-degree: 13%
 * テンプレート
 * PsdTemplate
 
-## 認証済みユーザータイプ{#section-5fc988e3d6384968b86fd9fe363658c0}
+## 許可されたユーザーの種類 {#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->ユーザーは、ターゲットアセットに対する読み取り/書き込みアクセス権と、サムアセットに対する読み取りアクセス権を持つ必要があります。
+>ユーザーは、ターゲットアセットに対する読み取り/書き込みアクセス権とサムアセットに対する読み取りアクセス権を持っている必要があります。
 
 ## パラメータ {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -49,17 +48,17 @@ ht-degree: 13%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | アセットを含む会社へのハンドル。 |
-| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | はい | 更新の配列です。 |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | はい | 更新の配列。 |
 
 **出力(batchSetThumbAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数です。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試行したときに生成されたエラーの数です。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたサムネールの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試みたときに生成される警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がサムネールの設定を試みたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-6de69a8680c24c1486c5f01488393381}
 
@@ -85,4 +84,3 @@ ht-degree: 13%
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-
