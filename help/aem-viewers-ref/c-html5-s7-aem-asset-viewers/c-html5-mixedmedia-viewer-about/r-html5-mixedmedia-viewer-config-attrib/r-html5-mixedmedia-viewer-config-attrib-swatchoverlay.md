@@ -1,19 +1,18 @@
 ---
-description: スワットバーレイ
+description: スワットコバレイ
 solution: Experience Manager
-title: スワットバーレイ
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: スワットコバレイ
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
-
-# swatchoverlay{#swatchoverlay}
+# スワットコバレイ{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>タッチ対応デバイスのビューアレイアウトを指定します。 パラメータを<span class="codeph"> 1 </span>に設定すると、デスクトップではメイン表示の下にスウォッチが表示されます。タッチ対応デバイスでは、スウォッチはメイン表示の上にオーバーレイ表示されます。 </p> <p>パラメータを<span class="codeph"> 0 </span>に設定すると、すべてのデバイスタイプで、スウォッチがメイン表示の下にレンダリングされます。 </p> </td> 
+   <td colname="col2"> <p>タッチ操作対応デバイスのビューアレイアウトを指定します。 パラメーターを<span class="codeph"> 1 </span>に設定すると、デスクトップ上のメインビューの下にスウォッチが表示されます。タッチ操作対応デバイスでは、スウォッチがメインビューの上にオーバーレイ表示されます。 </p> <p>パラメーターを<span class="codeph"> 0 </span>に設定すると、スウォッチはすべてのデバイスタイプでメインビューの下にレンダリングされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
