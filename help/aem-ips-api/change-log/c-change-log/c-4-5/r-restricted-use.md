@@ -1,23 +1,22 @@
 ---
-description: ベータ版WSDLで使用できる新しい操作や変更された操作およびデータ型は、Dynamic Mediaが開発したアプリケーション以外では使用できません。
+description: ベータ版のWSDLで使用できるこれらの新しい操作や変更された操作およびデータ型は、Dynamic Mediaが開発したアプリケーション以外では使用できません。
 solution: Experience Manager
 title: 使用制限
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
+# 使用制限{#restricted-use}
 
-# 制限付き使用{#restricted-use}
+ベータ版のWSDLで使用できるこれらの新しい操作や変更された操作およびデータ型は、Dynamic Mediaが開発したアプリケーション以外では使用できません。
 
-ベータ版WSDLで使用できる新しい操作や変更された操作およびデータ型は、Dynamic Mediaが開発したアプリケーション以外では使用できません。
-
-これらの操作とタイプは、以降のシステム更新で無効化、変更、または非推奨になる場合があります。
+これらの操作およびタイプは、以降のシステム更新で無効化、変更、または廃止される可能性があります。
 
 **新しいタイプ**
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 * listCompanyMetadata
 * removeMask
 * removePropertySetPermissions
-* searchAssetsBySimporibility
+* searchAssetsBySimilarity
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
@@ -53,58 +52,57 @@ ht-degree: 0%
 
 **変更されたタイプ**
 
-* `ActiveJob`を`createVideoSitemapJob`型を含めるように変更しました
+* `ActiveJob`を変更して`createVideoSitemapJob`型を含めるようにしました。
 
-* `ScheduledJob`を`createVideoSitemapJob`型を含めるように変更しました
+* `ScheduledJob`を変更して`createVideoSitemapJob`型を含めるようにしました。
 
-* `ImageServingPublishJob`を変更し、オプションの`contextHandle`を含めました
+* `ImageServingPublishJob`を変更し、オプションの`contextHandle`を含めました。
 
-* `ImageRenderingPublishJob`を変更し、オプションの`contextHandle`を含めました
+* `ImageRenderingPublishJob`を変更し、オプションの`contextHandle`を含めました。
 
-* `MetadataField`を変更し、オプションの`initialTagField`を含めました
+* `MetadataField`を変更し、オプションの`initialTagField`を含めました。
 
-* `MetadataCondition`を、オプションの`caseSensitive`パラメーターを含めるように変更しました
+* `MetadataCondition`を追加し、オプションの`caseSensitive`パラメーターを追加しました。
 
-* `PropertySet`を`permissions`に変更し、オプションの`PermissionArray`を含めました。
+* `PropertySet`を変更し、オプションの`PermissionArray`を`permissions`に含めるようにしました。
 
-* オプションの`xmpKeywords`、`xmpTemplateId`、`xmpTemplateOverride`パラメーターを含めるように`UploadDirectoryJob`を変更しました
+* `UploadDirectoryJob`を変更し、オプションの`xmpKeywords`、`xmpTemplateId`および`xmpTemplateOverride`パラメーターを含めるようにしました。
 
-* `VideoPublishJob`を変更し、オプションの`contextHandle`を含めました
+* `VideoPublishJob`を変更し、オプションの`contextHandle`を含めました。
 
 **変更された操作**
 
-* `createAssetSet`を変更し、オプションの`thumbAssetHandle`を含めました
+* `createAssetSet`を変更し、オプションの`thumbAssetHandle`を含めました。
 
-* `createImageSet`を変更し、オプションの`thumbAssetHandle`を含めました
+* `createImageSet`を変更し、オプションの`thumbAssetHandle`を含めました。
 
-* オプションの`initialTagValue`パラメーターを含めるように`createMetadataField`を変更しました
+* `createMetadataField`を変更し、オプションの`initialTagValue`パラメーターを含めるようにしました。
 
-* `createPropertySet`を`permissionArray`に変更し、オプションの`PermissionUpdateArray`を含めました。
+* `createPropertySet`を変更し、オプションの`PermissionUpdateArray`を`permissionArray`に含めるようにしました。
 
-* オプションの`contextHandle`パラメーターを含めるように`getImageServingPublishSettings`を変更しました
+* `getImageServingPublishSettings`を変更し、オプションの`contextHandle`パラメーターを含めるようにしました。
 
-* オプションの`contextHandle`パラメーターを含めるように`getImageRenderingPublishSettings`を変更しました
+* `getImageRenderingPublishSettings`を変更し、オプションの`contextHandle`パラメーターを含めるようにしました。
 
-* `searchAssetsByFullText`を変更し、一連のオプションのパラメーターを含めるようにしました。
+* `searchAssetsByFullText`を変更し、一連のオプションパラメーターを含めるようにしました。
 
-   * `SearchFilter` パラメー `filters` ターとして
-
-   * `sortBy`
-   * `sortDirection`
-
-* `searchAssetsByMetadata`を変更し、一連のオプションのパラメーターを含めるようにしました。
-
-   * `SearchFilter` パラメー `filters` ターとして
+   * `SearchFilter` パラメータ `filters` ーとして
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` 7つのパラメーターのシーケンス
 
-* `setAssetPublishState`を`contextHandleArray`に変更し、オプションの`HandleArray`を含めました。
+* `searchAssetsByMetadata`を変更し、一連のオプションパラメーターを含めるようにしました。
 
-* オプションの`contextHandle`パラメーターを含めるように`setImageServingPublishSettings`を変更しました
+   * `SearchFilter` パラメータ `filters` ーとして
 
-* `setImageRenderingPublishSettings`を変更し、オプションの`contextHandle`パラメーターを含めるようにしました
+   * `sortBy`
+   * `sortDirection`
+   * `haystackSearch` 7つのパラメータのシーケンス
 
-* オプションの`createVideoSitemap`ジョブの種類を含めるように`submitJob`を変更しました
+* `setAssetPublishState`を変更し、オプションの`HandleArray`を`contextHandleArray`に含めるようにしました。
 
+* `setImageServingPublishSettings`を変更し、オプションの`contextHandle`パラメーターを含めるようにしました。
+
+* `setImageRenderingPublishSettings`を変更し、オプションの`contextHandle`パラメーターを含めるようにしました。
+
+* `submitJob`を変更し、オプションの`createVideoSitemap`ジョブタイプを含めるようにしました。
