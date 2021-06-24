@@ -2,13 +2,12 @@
 description: カルーセルビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setLocalizedTexts
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 8ffb8960-187a-43ab-8081-7dfd95d4c75d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 2%
 
 ---
@@ -19,20 +18,20 @@ ht-degree: 2%
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-1つ以上のロケールに対してローカライゼーション記号の値を設定します。 このパラメーターは`init()`の前に呼び出す必要があります。
+1つ以上のロケールのローカライゼーションシンボルの値を設定します。 このパラメーターは、`init()`の前に呼び出す必要があります。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSONオブジェクトとローカライゼーションデータ。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local">ローカライゼーションのユーザインターフェイス要素</a>を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i>ビューアSDKユーザガイド</i>』および例も参照してください。 </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSONオブジェクトとローカリゼーションデータ。 </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local">ユーザーインターフェイス要素のローカライゼーション</a>を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i>ビューアSDKユーザーガイド</i>』および例も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
