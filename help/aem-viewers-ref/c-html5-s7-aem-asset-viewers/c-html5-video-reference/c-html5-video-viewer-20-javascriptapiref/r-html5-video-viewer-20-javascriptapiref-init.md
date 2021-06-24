@@ -2,16 +2,15 @@
 description: ビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -19,17 +18,17 @@ ht-degree: 2%
 
 `init()`
 
-ビデオビューアの初期化を開始します。 この時点までに、ビューアコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
+ビデオビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
 
-例えば、コンテナ要素がまだWebページレイアウトの一部ではない場合、`display:none`スタイルを割り当てて非表示にすると、Webページでコンテナ要素がレイアウトに戻る瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+例えば、コンテナ要素がまだWebページレイアウトの一部ではない場合、`display:none`スタイルを割り当てて非表示にすると、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出してください。以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出します。以降の呼び出しは無視されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` ビューアインスタンスへの参照。
 
@@ -38,4 +37,3 @@ ht-degree: 2%
 ```
 <instance>.init()
 ```
-
