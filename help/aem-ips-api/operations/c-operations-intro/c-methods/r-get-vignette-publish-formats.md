@@ -2,22 +2,21 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 22%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
 構文
 
-## 承認されたユーザータイプ{#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 認証されたユーザータイプ {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +29,17 @@ ht-degree: 22%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
 
 **出力(getVignettePublishFormatsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | はい | ビネット公開形式の配列です。 |
+| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | はい | ビネット公開形式の配列。 |
 
 ## 例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-次のコードのサンプルを使用すると、特定の会社に関連付けられた2つのビネット公開形式を返すことができます。 情報は配列で返され、簡潔にするために切り捨てられます。
+このコードサンプルは、特定の会社に関連付けられた2つのビネット公開形式を返します。 簡潔にするために切り捨てられた配列で情報が返されます。
 
 **リクエスト**
 
@@ -64,4 +63,3 @@ ht-degree: 22%
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
