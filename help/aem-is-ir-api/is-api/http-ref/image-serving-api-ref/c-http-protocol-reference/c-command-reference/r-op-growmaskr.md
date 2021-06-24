@@ -1,36 +1,35 @@
 ---
-description: 画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径< 0）をマスクデータに適用します。
+description: 画像を拡大/縮小します。 マスクデータに形態素ディレート（半径> 0）またはエローデ（半径< 0）を適用します。
 solution: Experience Manager
 title: op_growMaskR
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
-
 # op_growMaskR{#op-growmaskr}
 
-画像をディレート/エロードします。 形態素ディレート（半径> 0）または侵食（半径&lt; 0）をマスクデータに適用します。
+画像を拡大/縮小します。 マスクデータに形態素ディレート（半径> 0）またはエローデ（半径&lt; 0）を適用します。
 
 `op_growMaskR= *`radiusR`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>マスクがダウンサンプルされているかどうかに関係なく、<span class="codeph"><span class="varname"> radiusR</span></span>がそのまま適用されるピクセル単位のディレート/エロード半径（整数 —100 ～ 100）。 </p></td> 
+  <td class="stentry"> <p>マスクがダウンサンプリングされているかどうかに関係なく、 <span class="codeph"><span class="varname"> radiusR</span></span>がそのまま適用されるピクセル単位のディレート/エロード半径（整数 —100..100）。 </p></td> 
  </tr> 
 </table>
 
-主に、マスクのエッジの周囲に生じるアーチファクトを回避するために、マスクを少し拡大または縮小するために使用します。
+主に、マスクのエッジの周囲にアーティファクトを避けるために、マスクをわずかに拡大または縮小するために使用します。
 
 ## プロパティ {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-現在の画層に適用されます。または、`layer=comp`の場合は画層`0`に適用されます。
+現在の画層に適用されます。 `layer=comp`の場合は画層`0`に適用されます。
 
 ## 初期設定 {#section-14c908bb87cb42acbea709effea2f964}
 
