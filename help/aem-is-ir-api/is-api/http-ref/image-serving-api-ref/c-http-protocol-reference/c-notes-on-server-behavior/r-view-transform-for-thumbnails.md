@@ -1,23 +1,21 @@
 ---
-description: req=tmbリクエストに応じてクライアントに返される画像は、次の値wid=、hei=、attribute DefaultThumbPixおよびattribute MaxPixを考慮して、合成画像から得られます。
+description: req=tmb要求に応じてクライアントに返される画像は、次の値wid=、hei=、attribute DefaultThumbPixおよびattribute MaxPixを考慮して合成画像から得られます。
 solution: Experience Manager
-title: サムネールの表示変換
-feature: Dynamic Media Classic,SDK/API
+title: サムネールの変換の表示
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7db6736f-0b49-4c4f-89c5-e89d4752f339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
+# サムネールの変換の表示{#view-transform-for-thumbnails}
 
-# サムネールの表示変換{#view-transform-for-thumbnails}
+req=tmb要求に応じてクライアントに返される画像は、次の値を考慮して、合成画像から派生します。wid=、hei=、attribute::DefaultThumbPixおよびattribute::MaxPix。
 
-req=tmb要求に応じてクライアントに返される画像は、次の値を考慮して、複合画像から得られます。wid=、hei=、attribute::DefaultThumbPix、およびattribute::MaxPix。
-
-1. **表示rect** -表示rectの幅に対し `wid=` て使用または幅 `attribute::DefaultThumbPix` の値を使用します。高さには`hei=`または`attribute::DefaultThumbPix`の高さの値を使用します。 この手順では、表示rectを完全に指定する必要があります。 (レイヤー0に対して`size=`を指定しない場合、表示rectはレイヤー0のrectと同じになります)。
-1. **合成画像の拡大縮小**  — この場合 `catalog::ThumbType=Crop`、合成画像は表示領域全体を埋めつつ、可能な限り小さい画像に拡大縮小されます。余分な画像データが切り抜かれる。`catalog::ThumbType= Fit`の場合、合成画像は可能な限り大きい表示に合わせて拡大縮小され、合成画像全体は画像rectに合わせて調整されます。 `catalog::ThumbType=Texture`の場合、`catalog::ThumbRes`で指定された解像度を維持するために、合成画像は全く拡大縮小されません。
-1. **塗りと切り抜き** -表示rectは、 `bgc=` 色で塗りつぶされます(指定しない場合は、 `attribute::ThumbBkgColor`色)。拡大縮小された合成画像は、次の属性を使用して、表示rectと整列します。`ThumbHorizAlign`と属性：`ThumbVertAlign`. 次に、拡大/縮小された合成画像を、それ以上拡大/縮小することなく、塗りつぶされた表示rectと結合します。 合成画像の表示範囲を超える領域は、すべて切り抜かれます。
-
+1. **ビューの直角を計算**  — ビ `wid=` ューの直角の幅に `attribute::DefaultThumbPix` は、またはの幅の値を使用します。高さには`hei=`または`attribute::DefaultThumbPix`の高さ値を使用します。 この手順では、表示方向を完全に指定する必要があります。 （レイヤ0に`size=`を指定しない場合、ビューの直角はレイヤ0の直角と同じになります）。
+1. **合成を拡大/縮小**  -  `catalog::ThumbType=Crop`の場合、合成は可能な限り小さい画像に拡大/縮小され、ビュー全体を塗りつぶします。余分な画像データが切り抜かれます。`catalog::ThumbType= Fit`の場合、コンポジット全体をビューの直線に合わせながら、可能な限り大きいイメージに合わせてコンポジットが拡大縮小されます。 `catalog::ThumbType=Texture`の場合、`catalog::ThumbRes`で指定された解像度を維持するために、コンポジットは全く拡大/縮小されません。
+1. **塗りつぶしと切り抜き**  — ビューの直角が色で塗りつぶさ `bgc=` れます(指定しない場合は `attribute::ThumbBkgColor`)。次の属性を使用して、拡大/縮小された合成はビューの直接位置に合わせられます。`ThumbHorizAlign`と属性：:`ThumbVertAlign`. 次に、拡大/縮小された合成は、拡大/縮小を行わずに、塗り潰されたビューの直角と結合されます。 合成の、表示領域を越えた領域は切り抜かれます。
