@@ -2,16 +2,15 @@
 description: Swatches.fmt
 solution: Experience Manager
 title: Swatches.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 043196c8-63ab-439e-a28f-b76d1467f26e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.fmt{#swatches-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 コンポーネントの背景色はデフォルトで白です。 したがって、背景を透明にするには、<span class="codeph"> background-color</span> CSSプロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
+   <td> <p>コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景はデフォルトで白です。 したがって、背景を透明にするには、CSSの<span class="codeph"> background-color</span>プロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
