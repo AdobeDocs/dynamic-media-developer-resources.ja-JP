@@ -1,31 +1,30 @@
 ---
-description: 既存のプライマリソース画像アセットから派生する新しいアセットを作成します。
+description: 既存のプライマリソース画像アセットから新しいアセットを作成します。
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 8%
 
 ---
 
-
 # createDerivedAsset{#createderivedasset}
 
-既存のプライマリソース画像アセットから派生する新しいアセットを作成します。
+既存のプライマリソース画像アセットから新しいアセットを作成します。
 
 構文
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-派生アセットは、所有者画像の表現を変更するImage Serverプロトコルコマンドを指定します。 `AdjustedView`派生型は、単一の画像に単純な変更を適用する場合（切り抜き長方形を指定する場合など）に役立ちます。`LayerView`は、テキストや追加の表示を含むマルチレイヤー画像の作成に役立ちます。
+派生アセットは、所有者画像の表現を変更するImage Serverプロトコルコマンドを指定します。 `AdjustedView`派生型は、（切り抜きの長方形を指定するなどして）単一の画像に簡単な変更を適用するのに役立ちます。`LayerView`は、テキストや追加の画像を含む多層ビューを作成するのに役立ちます。
 
-イメージコピー（[copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)を参照）とは異なり、派生イメージは所有者イメージにリンクされます。 所有者の画像を変更すると、関連付けられた派生アセットが変更されます。 所有者画像を削除すると、関連付けられた派生画像はすべて削除されます。
+イメージコピー（[copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)を参照）とは異なり、派生イメージはその所有者イメージにリンクされます。 所有者画像を変更すると、関連付けられた派生アセットが変更されます。 所有者画像を削除すると、関連付けられた派生画像がすべて削除されます。
 
-## 認証済みユーザータイプ{#authorized-user-types}
+## 許可されたユーザーの種類 {#authorized-user-types}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,21 +41,21 @@ ht-degree: 8%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | 新しいアセットの派生元となるアセットを含む会社へのハンドル。 |
 | `*`ownerHandle`*` | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
-| `*`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットを作成するフォルダーへのハンドル。 |
-| `*`name`*` | `xsd:string` | はい | 派生したアセットの名前。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットが作成されるフォルダーのハンドル。 |
+| `*`name`*` | `xsd:string` | はい | 派生アセットの名前。 |
 | `*`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ。`AdjustedView`または`LayerView`。 |
 | `*`urlModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの前に&#x200B;*適用された画像サービングまたは画像レンダリングプロトコルコマンド。* |
-| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドに&#x200B;*後ろに*&#x200B;適用された画像サービングまたは画像レンダリングプロトコルコマンド。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | 要求または`urlPostApplyModifier`コマンドの後に&#x200B;*適用された画像サービングまたは画像レンダリングプロトコルコマンド。* |
 
 **出力(createDerivedAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | はい | 派生したアセットのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 派生アセットのハンドル。 |
 
 ## 例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-サンプルコードは、表示を調整し、任意の値を持つ`urlModifier`と`urlPostApplyModifier`を持つ派生アセットを作成します。 応答は、新しく生成されたアセットにハンドルを返します。
+サンプルコードは、調整されたビューと、任意の値を持つ`urlModifier`と`urlPostApplyModifier`を持つ派生アセットを作成します。 応答は、新しく派生したアセットにハンドルを返します。
 
 **リクエスト**
 
@@ -79,4 +78,3 @@ ht-degree: 8%
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
