@@ -1,27 +1,26 @@
 ---
-description: 特定の会社（ハンドルで識別）、電子メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
+description: 特定の会社（ハンドルで識別）、電子メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 12%
 
 ---
 
-
 # checkLogin{#checklogin}
 
-特定の会社（ハンドルで識別）、電子メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
+特定の会社（ハンドルで識別）、電子メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
 
 >[!NOTE]
 >
->会社ハンドルを省略した場合、このメソッドはデフォルトユーザーのログインを確認します。
+>会社の処理を省略した場合、このメソッドはデフォルトユーザーのログインを確認します。
 
-## 認証済みユーザータイプ{#section-df8b26b550854f899948276adaca083a}
+## 許可されたユーザーの種類 {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,11 +46,11 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | はい | ユーザーのログイン状態。 |
+| `*`status`*` | `xsd:string` | はい | ユーザーのログインステータス。 |
 
 ## 例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-このサンプルコードでは、会社ハンドルパラメータ、電子メールアドレス、およびパスワードを使用して、ユーザがIPSにログインできるかどうかを判断します。 ユーザー&#x200B;*が*&#x200B;ログインできる場合、このメソッドは文字列`ValidLogin`を返します。 ユーザー&#x200B;*がログインできない*&#x200B;場合、このメソッドは文字列`InvalidLogin`を返します。
+このサンプルコードでは、会社のハンドルパラメータ、電子メールアドレス、およびパスワードを使用して、ユーザーがIPSにログインできるかどうかを判断します。 ユーザー&#x200B;*が*&#x200B;ログインできる場合、このメソッドは文字列`ValidLogin`を返します。 ユーザー&#x200B;*がログインできない*&#x200B;場合、このメソッドは文字列`InvalidLogin`を返します。
 
 **リクエスト**
 
@@ -70,4 +69,3 @@ ht-degree: 12%
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
