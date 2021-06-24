@@ -1,21 +1,20 @@
 ---
-description: 再生アイコンは、メイン表示領域に重ねて表示されます。 ビデオが一時停止したとき、またはビデオの最後に到達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
+description: 再生アイコンは、メインビュー領域に重ねて表示されます。 ビデオが一時停止されたとき、またはビデオの終わりに達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
 solution: Experience Manager
 title: アイコンエフェクト
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
-
 # アイコンエフェクト{#icon-effect}
 
-再生アイコンは、メイン表示領域に重ねて表示されます。 ビデオが一時停止したとき、またはビデオの最後に到達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
+再生アイコンは、メインビュー領域に重ねて表示されます。 ビデオが一時停止されたとき、またはビデオの終わりに達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,11 +30,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> 再生アイコンに表示する画像。 </p> </td> 
+   <td colname="col2"> <p> 再生アイコンに表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-アイコンエフェクトでは、`state`属性セレクターがサポートされます。 `state="play"` は、再生中にビデオが一時停止されたときに使用され、再生ヘッド `state="replay"` がストリームの最後にあるときに使用されます。
+アイコンエフェクトでは、`state`属性セレクターがサポートされます。 `state="play"` は、再生中にビデオが一時停止された場合に使用され、再生ヘッド `state="replay"` がストリームの終わりにある場合に使用されます。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -65,4 +64,3 @@ background-image: url(images/playIcon.png);
 background-image: url(images/replayIcon.png); 
 }
 ```
-
