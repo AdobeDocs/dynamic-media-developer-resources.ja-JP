@@ -1,27 +1,26 @@
 ---
-description: イタリックス国旗。
+description: イタリア国旗。
 solution: Experience Manager
 title: 斜体
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
-
 # 斜体{#italic}
 
-イタリックス国旗。
+イタリア国旗。
 
-RTFイタリック(`\i`)コマンドが要求した場合に、このフォントマップレコードで参照するフォントファイルを使用するかどうかを指定します。
+RTF斜体(`\i`)コマンドによって要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 
 ## プロパティ {#section-607e76490e87418496d1c6763018a14f}
 
-フラグ。 フォントマップ用の3番目のインデックスキー（オプション）。
+フラグ。 フォントマップ用の3次インデックスキー（オプション）。
 
 ## 初期設定 {#section-0b88057d00ce4160929c23fbf138b309}
 
