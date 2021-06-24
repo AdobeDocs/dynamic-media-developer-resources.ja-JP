@@ -1,21 +1,20 @@
 ---
-description: ファイルの取得先からURLをアップロードします。
+description: ファイルを取得する場所からURLをアップロードします。
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-
 # UploadUrlsJob{#uploadurlsjob}
 
-ファイルの取得先からURLをアップロードします。
+ファイルを取得する場所からURLをアップロードします。
 
 構文
 
@@ -32,17 +31,17 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：AutoColorCropOptions</span> </td> 
-   <td colname="col3"> 色に基づいて画像を自動的に切り抜くためのオプションです。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：AutoColorCropOptions</span> </td> 
+   <td colname="col3"> 色に基づく画像の自動切り抜きのオプションです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：AutoSetCreationOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：AutoSetCreationOptions</span> </td> 
    <td colname="col3"> アップロードされたファイルに適用する自動セット生成スクリプトの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：AutoTransparentCropOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：AutoTransparentCropOptions</span> </td> 
    <td colname="col3"> 透明度に基づいて、画像の端から空白を削除します。 </td> 
   </tr> 
   <tr> 
@@ -52,8 +51,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ColorManagementOptions</span> </td> 
-   <td colname="col3"> アップロード中に指定できるオプション。 このセットは、アップロード時のカラーの管理方法に影響します。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：ColorManagementOptions[がた：ColorManagementOptions]</span> </td> 
+   <td colname="col3"> アップロード中に指定できるオプション。 セットは、アップロードのカラー管理方法に影響します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -62,28 +61,28 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：IllustratorOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：IllustratorOptions[たいぷ：IllustratorOptions]</span> </td> 
    <td colname="col3"> IllustratorファイルをImage Serverにアップロードするためのオプションです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：InDesignOptions</span> </td> 
-   <td colname="col3"> InDesignファイルをサーバーにアップロードするためのオプションです。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：InDesignOptions[がた：InDesignOptions]</span> </td> 
+   <td colname="col3"> サーバーにInDesignファイルをアップロードするオプション。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3">選択した画像の背景をマスクします。 これにより、他のレイヤーの中で、被写体の画像の外側に透明部分を持つレイヤーを重ね合わせることができます。 （オプション）「<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>」を参照してください。 </td> 
+   <td colname="col3">選択した画像の背景をマスクします。 これにより、他のレイヤーに、被写体の画像の外側の透明度でオーバーレイできます。 （オプション）<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ManualCropOptions</span> </td> 
-   <td colname="col3"> 画像の手動切り抜きに関するオプションです。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ManualCropOptions</span> </td> 
+   <td colname="col3"> 画像の手動切り抜きのオプション。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：MediaOptions</span> </td> 
-   <td colname="col3">ビデオのサムネール画像を設定するためのオプション。 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：MediaOptions[たいぷ：MediaOptions]</span> </td> 
+   <td colname="col3">ビデオのサムネール画像を設定できるオプション。 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
@@ -93,42 +92,42 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 上書き</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> アップロード時にファイルを上書きするかどうかを指定します。 </td> 
+   <td colname="col3"> アップロード時にファイルを上書きするかどうか。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：PDFOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：PDFOptions[たいぷ：PDFOptions]</span> </td> 
    <td colname="col3"> PDFファイルをImage Serverにアップロードするためのオプションです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：PhotoshopOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:PhotoshopOptions</span> </td> 
    <td colname="col3"> PhotoshopファイルをImage Serverにアップロードするためのオプションです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ファイルのアップロード先URL。 </td> 
+   <td colname="col3"> ファイルがアップロードされるURL。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ImageRendingPublishJob</span> </td> 
-   <td colname="col3"> アップロードの完了後に実行される画像レンダリング公開ジョブの詳細です。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageRendingPublishJob</span> </td> 
+   <td colname="col3"> アップロードの完了後に実行される画像レンダリング公開ジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：ImageServingPublishJob[がた：ImageServingPublishJob]</span> </td> 
    <td colname="col3"> すべてのメディアオプション。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：PostScriptOptions</span> </td> 
-   <td colname="col3"> Image Serverに投稿スクリプトファイルをアップロードするためのオプションです。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：PostScriptOptions[たいぷ：PostScriptOptions]</span> </td> 
+   <td colname="col3"> PostスクリプトファイルをImage Serverにアップロードするためのオプションです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：VideoPublishJob</span> </td> 
-   <td colname="col3"> アップロードの完了後に実行されるビデオ公開ジョブの詳細です。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：VideoPublishJob</span> </td> 
+   <td colname="col3"> アップロードの完了後に実行されるビデオ公開ジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
@@ -138,27 +137,27 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 既存のアセットを上書きする際に、そのアセットの公開状態を保持するかどうかを制御します。 設定されていない場合は、会社のデフォルト設定が使用されます。 </td> 
+   <td colname="col3"> 上書き時に既存のアセットの公開状態を保持するかどうかを制御します。 設定されていない場合は、会社のデフォルト設定が使用されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：HandleArray[がた：HandleArray]</span> </td> 
    <td colname="col3"> プロジェクトハンドルの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> ファイルが公開準備完了とマークされているかどうかを示します。 </td> 
+   <td colname="col3"> ファイルの公開準備ができたとマークされているかどうか。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：UnCompressOptions</span> </td> 
-   <td colname="col3">アップロードしたTAR/ZIPファイルの内容を抽出し、次のオプション設定で処理します。 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>を参照してください。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：UnCompressOptions[たいぷ：UnCompressOptions]</span> </td> 
+   <td colname="col3">アップロードしたTAR/ZIPファイルの内容を、以下のオプション設定で抽出して処理します。 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：UnsharpMaskOptions</span> </td> 
-   <td colname="col3">最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスクの設定を制御するためのオプション。 これらの設定を使用して、画像のシャープさを向上させます。 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>を参照してください。 </td> 
+   <td colname="col2"> <span class="codeph"> 型：UnsharpMaskOptions[たいぷ：UnsharpMaskOptions]</span> </td> 
+   <td colname="col3">最適化されたピラミッドTIFファイルを作成する際に、アンシャープマスク設定を制御するオプションです。 これらの設定を使用して、画像のシャープネスを改善します。 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -168,7 +167,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>アップロードジョブ内のすべての項目に対する追加のメタデータオプションです。 </p> </td> 
+   <td colname="col3"> <p>アップロードジョブ内のすべての項目に対する追加のメタデータオプション。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,4 +185,3 @@ ht-degree: 1%
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
