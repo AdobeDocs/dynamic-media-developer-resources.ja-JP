@@ -2,14 +2,13 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 7%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 手順</span></span> </p> </td> 
-   <td colname="col2"> <p>対応するスクロールボタンをタップするたびにスクロールするスウォッチの数を指定します。 </p> <p>指定した値が、表示されているインタラクティブスウォッチの数より大きい場合、各タップは、表示されているスウォッチの数だけスクロールし、スウォッチの表示が省略されないようにします。 </p> </td> 
+   <td colname="col2"> <p>対応するスクロールボタンのタップごとにスクロールするスウォッチの数を指定します。 </p> <p>指定した値が表示可能なインタラクティブスウォッチの数より大きい場合、各タップでは表示可能なスウォッチ数だけスクロールし、スウォッチが省略されないようにします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
