@@ -2,16 +2,15 @@
 description: プロパティセットの配列。
 solution: Experience Manager
 title: PropertySetArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
-
 
 # PropertySetArray{#propertysetarray}
 
@@ -23,5 +22,4 @@ ht-degree: 21%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:PropertySet` | プロパティセット配列 |
-
+| `*`商品`*` | `types:PropertySet` | プロパティセット配列。 |
