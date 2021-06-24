@@ -1,48 +1,47 @@
 ---
-description: デカールのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
+description: デカルのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
 solution: Experience Manager
 title: サイズ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 5%
 
 ---
 
-
 # サイズ{#size}
 
-デカールのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
+デカルのサイズ デカールマテリアルオブジェクトの幅、高さ、厚さ。
 
 ## プロパティ {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-カンマで区切られた3つの実数です。 負の値は指定できません。 未使用の値を0に設定します。 末尾のゼロは省略できます。
+コンマで区切った3つの実数。 負の値にすることはできません。 未使用の値を0に設定します。 末尾のゼロは省略できます。
 
-幅と高さは、画像を指定したサイズに合わせて拡大する場合にのみ指定します（縦横比が変わる場合があります）。 幅または高さを設定して、画像を縦横比を維持したまま拡大・縮小します。 幅と高さの両方を0に設定して、`catalog::Resolution`を使用してオブジェクトのサイズを決定します。
+指定したサイズに合わせて画像を拡大する場合にのみ、幅と高さの両方を指定します（縦横比が変わる場合があります）。 幅または高さを設定して、画像を比例して拡大/縮小します。 幅と高さの両方を0に設定し、`catalog::Resolution`を使用してオブジェクトのサイズを決定します。
 
-厚さの値を指定して、デカールオブジェクトにドロップシャドウを追加します。 デカル転写材のオプションです。他のすべての材料では無視されます。
+デカールオブジェクトにドロップシャドウを追加するには、厚さの値を指定します。 デカール材料の場合はオプションで、他の材料では無視されます。
 
 ## 初期設定 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. これは、デカル転写のサイズがcatalog::Resolutionに基づいて決定され、オブジェクトの厚さがないことを示します（ドロップシャドウはレンダリングされません）。
+0,0,0. これは、デカル転写のサイズがcatalog::Resolutionに基づいて決定され、オブジェクトの厚さがないことを示します（したがって、ドロップシャドウはレンダリングされません）。
 
 ## 例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
 <table id="simpletable_E3503BD975F342C58DDB4C2B56BF0CEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p>12,3 </p></td> 
-  <td class="stentry"> <p>デカールのサイズは12 x 3インチに強制され、厚さはありません（ドロップシャドウはありません）。 </p></td> 
+  <td class="stentry"> <p>デカールは12 x 3インチのサイズに強制され、厚さはありません（ドロップシャドウなし）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,5,1 </p></td> 
-  <td class="stentry"> <p>デカールの幅は5インチで、高さはイメージの縦横比で決まり、ドロップシャドウは1インチの厚さに基づいてレンダリングされます。 </p></td> 
+  <td class="stentry"> <p>デカールの幅は5インチで、高さは画像の縦横比で決まり、ドロップシャドウは1インチの厚さに基づいてレンダリングされます。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,0,.5 </p></td> 
-  <td class="stentry"> <p>デカル転写の幅と高さはcatalog::Resolutionで決まり、厚さは1/2インチです。 </p></td> 
+  <td class="stentry"> <p>デカールの幅と高さは、catalog::Resolutionによって決まり、厚さは1/2インチです。 </p></td> 
  </tr> 
 </table>
 
