@@ -1,23 +1,22 @@
 ---
-description: 次のreq=タイプの画像propとpropに応答して、プロパティデータが返されます。
+description: 次のreq=タイプのimagepropおよびpropに応答してプロパティデータが返されます。
 solution: Experience Manager
 title: プロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 
-
 # プロパティ{#properties}
 
-プロパティデータは、次のreq=タイプに応じて返されます。imagepropsとprops
+プロパティデータは、次のreq=タイプに応答して返されます。imagepropとprop。
 
-返信データは、Javaプロパティとして読み取り可能な形式になっています。 一般的なテキストプロパティの応答は、次の一般的な構造を持ちます。
+返信データは、Javaプロパティとして読み取り可能な形式に設定されます。 一般的なテキストプロパティの応答は、次の一般的な構造を持ちます。
 
 `#S7Z OK`
 
@@ -27,9 +26,9 @@ ht-degree: 0%
 
 ...
 
-` *[!DNL propertyValue]*` は空にできます。各行の先頭と末尾、および「=」区切り文字の前後に空白を入れることはできません。 文字列値は一重引用符または重複引用符で囲むことができますが、必須ではありません。
+` *[!DNL propertyValue]*` は空にできます。各行の先頭と末尾、および区切り文字「=」の前後の空白は省略可能です。 文字列値は一重引用符または二重引用符で囲むことができますが、必須ではありません。
 
-文字列値には、`\n`、`\t`、`\:`など、JAVAスタイルのエスケープ文字を含めることができます。 または `\\`.
+文字列値には、`\n`、`\t`、`\:`など、JAVA形式のエスケープ文字を含めることができます。 または `\\`.
 
 **関連項目**
 
