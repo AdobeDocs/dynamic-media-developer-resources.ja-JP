@@ -1,25 +1,24 @@
 ---
-description: ユーザーをグループの配列に追加します。
+description: グループの配列にユーザーを追加します。
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
-
 # addGroupMembership{#addgroupmembership}
 
-ユーザーをグループの配列に追加します。
+グループの配列にユーザーを追加します。
 
 構文
 
-## 認証済みユーザータイプ{#section-fe950150718a474d8df30d0f4453c022}
+## 許可されたユーザーの種類 {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,13 +42,13 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>グループメンバーシップを追加するユーザーを処理します。 </p> </td> 
+   <td colname="col4"> <p>グループメンバーシップを追加するユーザーに対して処理します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>会社の所属先のグループへのハンドルの配列。 </p> </td> 
+   <td colname="col4"> <p>会社を属するグループに対するハンドルの配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +59,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-次の例では、`*`groupHandleArray`*`を持つ会社にグループを追加します。 この例では、1つのグループのみを使用します。
+この例では、`*`groupHandleArray`*`を持つ会社にグループを追加します。 この例では、1つのグループのみを使用します。
 
 **リクエスト**
 
