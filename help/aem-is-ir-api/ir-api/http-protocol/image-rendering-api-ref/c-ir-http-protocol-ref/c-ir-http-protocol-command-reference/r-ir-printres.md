@@ -2,16 +2,15 @@
 description: 印刷解像度。 応答画像に埋め込まれた印刷解像度の値を上書きします。
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: de02d058-e538-4d67-9413-e2e47dd2fd67
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
-
 
 # printRes{#printres}
 
@@ -28,7 +27,7 @@ ht-degree: 2%
 
 通常、印刷解像度はビネットに埋め込まれた印刷解像度の値で定義されます。
 
-プリント解像度を設定しても、返信画像のピクセルサイズは変更されません。
+印刷解像度を設定しても、返信画像のピクセルサイズは変わりません。
 
 ## プロパティ {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
@@ -36,4 +35,4 @@ ht-degree: 2%
 
 ## 初期設定 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-ビネットに埋め込まれる印刷解像度。
+ビネットに埋め込まれた印刷解像度。
