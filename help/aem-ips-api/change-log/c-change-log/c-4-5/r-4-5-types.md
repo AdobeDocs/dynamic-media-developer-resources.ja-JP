@@ -2,16 +2,15 @@
 description: IPS APIバージョン4.5の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
 title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
-
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
@@ -19,7 +18,7 @@ IPS APIバージョン4.5の新しいデータ型と変更されたデータ型�
 
 構文
 
-## 新しいタイプ{#section-6941b228cf6747a987e98c3d6e4b6b17}
+## 新しいタイプ {#section-6941b228cf6747a987e98c3d6e4b6b17}
 
 * `AssetSummary`
 * `AssetSummaryArray`
@@ -40,13 +39,12 @@ IPS APIバージョン4.5の新しいデータ型と変更されたデータ型�
 * `TagValueUpdateFaultArray`
 * `UrlArray`
 
-## 変更されたタイプ{#section-6ecdf752cc1a4636a583b4c546a0fccf}
+## 変更されたタイプ {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
 * アセットには、仮想ファイル名を返す新しい`fileName`フィールドが含まれています。
-* `AssetSummary` 戻り値 `type` と `name` フィールド
+* `AssetSummary` フィールド `type` とフィールドを `name` 返す
 
 * `MetadataField` 内容 `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` には `urlArray` が必要で、オプションの `numUrls` 数を追加します。
-
+* `UploadUrlsJob` にはが必要で、 `urlArray` オプションのカウントを追加 `numUrls` します
