@@ -1,45 +1,44 @@
 ---
-description: 正規式パターン要素。 <rule>要素のオプションです。
+description: 正規表現パターン要素。 <rule>要素のオプションです。
 solution: Experience Manager
 title: 式
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5fb95e93-cf14-4042-a338-d9d7df6e3b58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
-
 # 式{#expression}
 
-正規式パターン要素。 `<rule>`要素のオプションです。
+正規表現パターン要素。 `<rule>`要素ではオプションです。
 
-## 属性{#section-fd0574eee1f9423cbb2ed709c0906800}
+## 属性 {#section-fd0574eee1f9423cbb2ed709c0906800}
 
 なし
 
 ## データ {#section-4cd740c511a1432da0955e9acfbcf96f}
 
-正規式パターン文字列。
+正規表現パターン文字列。
 
 ## 説明 {#section-3245c8a531bb455d8398449f6ea63b37}
 
-`<expression>`要素は、空にすることも、単純な検索文字列や正規式パターンを含めることもできます。 このパターンは、リクエスト文字列全体に適用されます。
+`<expression>`要素は、空にすることも、単純な検索文字列や正規表現パターンを含めることもできます。 パターンはリクエスト文字列全体に適用されます。
 
-`<expression>`が空の場合、または指定されていない場合、常に一致が発生します。これは、`<expression>.*</expression>`を指定することと同じです。
+`<expression>`が空の場合や指定されていない場合は、常に一致が発生します。これは、`<expression>.*</expression>`を指定するのと同じです。
 
-この実装はJavaパッケージ[java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e)に基づいており、Perlと同様の正規式構文を提供しています。
+この実装は、Javaパッケージ[java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e)に基づいており、Perlの構文と同様の正規表現構文を提供します。
 
-## 注意 {#section-6b41a900b0ce4a9590e5861e3c81599c}
+## Note {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-式文字列には、リテラルの&lt;および&amp;文字を含めることはできません。 これらの予約文字は、それぞれ`&`と`<`でエンコードできます。また、文字列全体をXML `CDATA`セクションに含めることもできます。
+式の文字列には、リテラル&lt;および&amp;文字を含めることはできません。 これらの予約文字は、それぞれ`&`と`<`でエンコードできます。また、文字列全体をXML `CDATA`セクションで囲むこともできます。
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-`<expression>`タグと`</expression>`タグの間のすべての文字は、オプションの`CDATA`セクション外の文字を含め、正規式パーサーに渡されます。 余分な空白がないように注意する必要があります。
+`<expression>`タグと`</expression>`タグの間のすべての文字が、オプションの`CDATA`セクション外の文字を含む正規表現パーサーに渡されます。 空白が余分に含まれないように注意する必要があります。
 
 ## 関連項目 {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 
