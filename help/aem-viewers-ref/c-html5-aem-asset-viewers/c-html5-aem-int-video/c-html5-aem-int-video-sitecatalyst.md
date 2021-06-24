@@ -1,29 +1,28 @@
 ---
 description: HTML5ビデオ360ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
-title: Adobe Analyticsトラッキングのサポート
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+title: Adobe Analytics追跡のサポート
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
-# Adobe Analyticsトラッキングのサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
 HTML5ビデオ360ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
 
-初期設定では、ビューアは、ビューアのタイプとバージョン情報と共に、設定済みのImage Serverに1つの追跡HTTP要求を送信します。
+デフォルトでは、ビューアは、設定済みのImage Serverに対し、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求を送信します。
 
-## カスタムトラッキング{#section-cda48fc9730142d0bb3326bac7df3271}
+## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、`trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -48,27 +47,27 @@ var video360Viewer = new s7viewers.Video360Viewer({
 });
 ```
 
-ビューアは、以下のSDKユーザーイベントを追跡します。
+ビューアは、次のSDKユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKのユーザーイベント </p> </th> 
+   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
    <th colname="col2" class="entry"> <p>送信済み… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
+   <td colname="col2"> <p>を返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>を返します。<span class="codeph"></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset() </span> APIを使用してビューア内でアセットが入れ替わったとき。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>再生開始時。 </p> </td> 
+   <td colname="col2"> <p>再生の開始時。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -80,7 +79,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%または100%です。 </p> </td> 
+   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%または100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
