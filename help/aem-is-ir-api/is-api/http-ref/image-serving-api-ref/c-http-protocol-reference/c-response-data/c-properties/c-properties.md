@@ -1,28 +1,27 @@
 ---
-description: プロパティデータは、いくつかのreq=タイプに応じて返されます。
+description: 複数のreq=タイプに応答してプロパティデータが返されます。
 solution: Experience Manager
 title: プロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
 
-
 # プロパティ{#properties}
 
-プロパティデータは、次の`req=`型に応じて返されます。
+プロパティデータは、次の`req=`型に応答して返されます。
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 応答は、のコンテンツがプロパティの形式に `catalog::UserData` 従う場合にのみ、プロパティとして形式設定されます。
+`userdata` 応答は、のコンテンツがプロパティ形式に従っている場合にの `catalog::UserData` み、プロパティとして形式設定されます。
 
 * [テキスト(Java)プロパティ](r-text-java-properties.md)
 * [JavaScriptプロパティ](r-javascript-properties.md)
