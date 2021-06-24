@@ -1,22 +1,21 @@
 ---
-description: $var$では、埋め込まれた外部要求の中括弧内にある参照は、対応する変数定義値に置き換えられます。
+description: $var$は、埋め込まれた外部リクエストの中括弧内の任意の場所にある参照を、一致する変数定義値に置き換えます。
 solution: Experience Manager
-title: 埋め込まれた外部要求での変数処理
-feature: Dynamic Media Classic,SDK/API
+title: 埋め込み外部リクエストでの変数処理
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
+# 埋め込み外部リクエストでの変数処理{#variable-processing-in-embedded-foreign-requests}
 
-# 埋め込まれた外部要求での変数処理{#variable-processing-in-embedded-foreign-requests}
+$var$は、埋め込まれた外部リクエストの中括弧内の任意の場所にある参照を、一致する変数定義値に置き換えます。
 
-$var$では、埋め込まれた外部要求の中括弧内にある参照は、対応する変数定義値に置き換えられます。
+これにより、埋め込まれた外部リクエストを画像カタログのテンプレートに配置できます。
 
-これにより、埋め込まれた外部要求を画像カタログのテンプレートに配置できます。
-
-外部要求で置き換えられる変数値は、通常、重複エンコードする必要があります。これは、サーバーが最終的な外部URLの送信を試行する前に再エンコードが適用されないためです。
+変数値で外部要求に置き換える場合は、通常、二重エンコードする必要があります。これは、サーバーが最終的な外部URLを送信しようとする前に再エンコードが適用されないからです。
