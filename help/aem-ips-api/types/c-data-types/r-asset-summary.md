@@ -2,16 +2,15 @@
 description: アセットに関する要約された情報を含むメタデータ検索結果。
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 11%
 
 ---
-
 
 # AssetSummary{#assetsummary}
 
@@ -23,16 +22,15 @@ ht-degree: 11%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | アセットハンドル |
-| `*`type`*` | `xsd:string` | アセットタイプ. 使用可能な値は、&quot;Asset Types&quot;定数で定義します。 （オプション） |
+| `*`assetHandle`*` | `xsd:string` | アセットハンドル。 |
+| `*`type`*` | `xsd:string` | アセットタイプ. &quot;Asset Types&quot;定数は、使用可能な値を定義します。 （オプション） |
 | `*`name`*` | `xsd:string` | アセット名。 （オプション） |
-| `*`フォルダ`*` | `xsd:string` | アセットを含むフォルダーです。 |
+| `*`フォルダ`*` | `xsd:string` | アセットを格納するフォルダー。 |
 | `*`ファイル名`*` | `xsd:string` | アセットのファイル名。 |
-| `*`作成`*` | `xsd:dateTime` | アセット作成日。 |
+| `*`作成`*` | `xsd:dateTime` | アセットの作成日。 |
 | `*`createUser`*` | `xsd:string` | アセットを作成したユーザー。 |
 | `*`lastModified`*` | `xsd:dateTime` | アセットが最後に更新された日付。 |
-| `*`lastModifyUser`*` | `xsd:string` | アセットを最後に変更したユーザー。 |
+| `*`lastModifyUser`*` | `xsd:string` | 最後にアセットを変更したユーザー。 |
 | `*`metadataArray`*` | `types:MetadataArray` | アセットに関連付けられているメタデータ値の配列。 |
 | `*`スコア`*` | `xsd:double` | 類似性検索の場合の精度を定義します（0 =一致なし、1 =完全一致）。 |
-| `*`scoreDetail`*` | `xsd:string` | 類似性検索の結果として、類似する領域に関する詳細情報が保持されます。 |
-
+| `*`scoreDetail`*` | `xsd:string` | 類似性検索の結果として、類似する領域に関する詳細情報を保持します。 |
