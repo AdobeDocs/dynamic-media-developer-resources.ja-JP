@@ -1,25 +1,24 @@
 ---
-description: プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
+description: プロパティセットは、プロパティセットの種類に応じて、様々なIPSオブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできず(PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類のセットが関連付けられている場合は、既存のセットが新しいセットに置き換えられます。
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-プロパティセットは、名前と値のペアのアプリケーション固有のセットで、プロパティセットの種類に応じてさまざまなIPSオブジェクトにアタッチできます。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできない場合(PropertySetType/allowMultipleisfalse)、オブジェクトに同じ種類の関連セットが既に存在する場合は、新しいセットによって既存のセットが置き換えられます。
+プロパティセットは、プロパティセットの種類に応じて、様々なIPSオブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを1つのオブジェクトにアタッチできず(PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類のセットが関連付けられている場合は、既存のセットが新しいセットに置き換えられます。
 
 構文
 
-## 認証済みユーザータイプ{#section-f9b6187ba636475787c997fc27bb192a}
+## 許可されたユーザーの種類 {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,7 +32,7 @@ ht-degree: 8%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`typeHandle`*` | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| `*`primaryOwnerHandle`*` | `xsd:string` | はい | プロパティセットの主所有者へのハンドル。 |
+| `*`primaryOwnerHandle`*` | `xsd:string` | はい | プロパティセットのプライマリ所有者へのハンドル。 |
 | `*`secondaryOwnerHandle`*` | `xsd:string` | いいえ | プロパティセットのセカンダリ所有者へのハンドル。 |
 | `*`propertyArray`*` | `types:PropertyArray` | はい | プロパティの配列。 |
 | `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
@@ -46,7 +45,7 @@ ht-degree: 8%
 
 ## 例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-次のコードのサンプルを使用すると、プロパティの名前と値を含むプロパティセットを作成できます。 応答は、新しいプロパティセットにハンドルを返します。
+このコードのサンプルを使用すると、プロパティの名前と値を含むプロパティセットを作成できます。 応答は、新しいプロパティセットにハンドルを返します。
 
 **リクエスト**
 
