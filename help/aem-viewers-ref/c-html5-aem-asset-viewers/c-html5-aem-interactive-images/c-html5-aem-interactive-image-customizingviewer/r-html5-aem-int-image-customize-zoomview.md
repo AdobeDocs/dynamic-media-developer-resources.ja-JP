@@ -1,21 +1,20 @@
 ---
-description: メイン表示は静的な画像で構成されます。
+description: メインビューは静的な画像で構成されます。
 solution: Experience Manager
-title: ズーム表示
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+title: ズームビュー
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
 role: Developer,Business Practitioner
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
-# ズーム表示{#zoom-view}
+# ズームビュー{#zoom-view}
 
-メイン表示は静的な画像で構成されます。
+メインビューは静的な画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,12 +36,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> メイン表示の16進数形式の背景色。 </p> </td> 
+   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メイン表示を透明にするには、次のように記述します。
+例 — メインビューを透明にするには、次のように記述します。
 
 ```
 .s7interactiveimage .s7zoomview { 
