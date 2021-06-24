@@ -1,21 +1,20 @@
 ---
-description: メイン表示領域は、フライアウト表示とスウォッチが表示される領域です。
+description: メインビュー領域は、フライアウトビューとスウォッチが表示される領域です。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
-
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域は、フライアウト表示とスウォッチが表示される領域です。
+メインビュー領域は、フライアウトビューとスウォッチが表示される領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,4 +58,3 @@ ht-degree: 2%
  height: 500px;  
 }
 ```
-
