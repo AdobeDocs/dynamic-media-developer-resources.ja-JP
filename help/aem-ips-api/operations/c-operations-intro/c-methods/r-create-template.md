@@ -1,25 +1,24 @@
 ---
-description: 複数のテキストと画像レイヤーを含めることができるレイヤー画像を作成します。
+description: 複数のテキストと画像レイヤーを含むレイヤーイメージを作成します。
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 10%
 
 ---
 
-
 # createTemplate{#createtemplate}
 
-複数のテキストと画像レイヤーを含めることができるレイヤー画像を作成します。
+複数のテキストと画像レイヤーを含むレイヤーイメージを作成します。
 
-`urlModifier`パラメータは、URL上でユーザが指定したコマンドの前に適用するImage Serverカタログに保存されるImage Serverプロトコルコマンドを指定します。 `urlPostApplyModifier`パラメーターは、URLコマンドの後に適用するプロトコルコマンドを指定します。これにより、ユーザーが入力した設定の競合が上書きされます。
+`urlModifier`パラメーターは、URL上のユーザーが指定したコマンドの前に適用されるImage Serverカタログに保存されるImage Serverプロトコルコマンドを指定します。 `urlPostApplyModifier`パラメーターは、URLコマンドの後に適用されるプロトコルコマンドを指定します。このコマンドは、ユーザー指定の競合する設定を上書きします。
 
-## 認証済みユーザータイプ{#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 許可されたユーザーの種類 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,16 +28,16 @@ ht-degree: 10%
 
 ## パラメータ {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
 
-**Input (createTemplateParam)**
+**入力(createTemplateParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | テンプレートが属する会社。 |
-| `*`folderHandle`*` | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドルです。 |
+| `*`folderHandle`*` | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドル。 |
 | `*`name`*` | `xsd:string` | はい | テンプレート名。 |
-| `*`type`*` | `xsd:string` | はい | テンプレートの種類。 |
-| `*`urlModifier`*` | `xsd:string` | はい | URLでユーザが指定したコマンドの前に適用する、ISカタログに格納されたImage Serverコマンドを指定します。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。ユーザーが入力した設定に矛盾がある場合は、このコマンドによって上書きされます。 |
+| `*`type`*` | `xsd:string` | はい | テンプレートタイプ。 |
+| `*`urlModifier`*` | `xsd:string` | はい | ISカタログに保存され、URL上のユーザが指定したコマンドの前に適用されるImage Serverコマンドを指定します。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | URLコマンドの後に適用するプロトコルコマンドを指定します。このコマンドは、ユーザーが指定した矛盾する設定を上書きします。 |
 
 **出力(createTemplateParam)**
 
@@ -48,7 +47,7 @@ ht-degree: 10%
 
 ## 例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-このコードのサンプルを使用すると、ハンドル名`APIcreateTemplate`、`urlModifier`、および`urlPostApplyModifier`を持つ、指定されたフォルダーにテンプレートを作成できます。 応答は、新しく作成されたテンプレートにハンドルを返します。
+このコード例では、ハンドル名が`APIcreateTemplate`、`urlModifier`、および`urlPostApplyModifier`のフォルダーにテンプレートを作成します。 応答は、新しく作成されたテンプレートにハンドルを返します。
 
 **リクエスト**
 
@@ -70,4 +69,3 @@ ht-degree: 10%
    <assetHandle>a|153393|2|2061</assetHandle>
 </createTemplateReturn>
 ```
-
