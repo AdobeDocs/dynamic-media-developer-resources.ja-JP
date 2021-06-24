@@ -1,21 +1,20 @@
 ---
-description: ユーザーがクリックすると、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
+description: ユーザーがクリックした場合に、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 solution: Experience Manager
-title: フルスクリーンボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+title: 全画面表示ボタン
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
 
+# 全画面表示ボタン{#full-screen-button}
 
-# フルスクリーンボタン{#full-screen-button}
-
-ユーザーがクリックすると、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
+ユーザーがクリックした場合に、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,22 +58,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`と`selected`の属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に対応し、`selected='false'`は「通常」の状態に対応します。
+>このボタンでは、`state`属性セレクターと`selected`属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に、`selected='false'`は「通常」の状態に対応します。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 28 x 28ピクセルで、メインコントロールバーの下から4ピクセルおよび右端から5ピクセルの位置に配置し、選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示するフルスクリーンボタンを設定します。
+例 — 28 x 28ピクセルで、メインコントロールバーの下から4ピクセルおよび右端から5ピクセルの位置に配置し、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定します。
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
