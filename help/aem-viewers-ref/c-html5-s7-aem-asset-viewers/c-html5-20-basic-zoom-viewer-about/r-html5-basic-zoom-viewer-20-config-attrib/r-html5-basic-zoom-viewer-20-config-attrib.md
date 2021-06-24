@@ -2,16 +2,15 @@
 description: 基本ズームビューアの設定属性ドキュメント。
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fa38a9bf-37fc-479a-9fbc-c91076b15f91
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
-
 
 # コマンドリファレンス — 設定属性{#command-reference-configuration-attributes}
 
