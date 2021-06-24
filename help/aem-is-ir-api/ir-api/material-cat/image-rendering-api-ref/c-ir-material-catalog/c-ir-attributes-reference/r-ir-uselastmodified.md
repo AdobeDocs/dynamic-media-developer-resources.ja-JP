@@ -1,42 +1,41 @@
 ---
-description: 最終変更応答ヘッダーを有効にする。 画像レンダリングから発行されるキャッシュ可能なHTTP応答に、最終変更日のヘッダーを含める設定を有効または無効にします。
+description: 最終変更の応答ヘッダーを有効にします。 画像レンダリングによって生成されるキャッシュ可能なHTTP応答にLast-Modifiedヘッダーを含めるかどうかを指定します。
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
 
-
 # UseLastModified{#uselastmodified}
 
-最終変更応答ヘッダーを有効にする。 画像レンダリングから発行されるキャッシュ可能なHTTP応答に、最終変更日のヘッダーを含める設定を有効または無効にします。
+最終変更の応答ヘッダーを有効にします。 画像レンダリングによって生成されるキャッシュ可能なHTTP応答にLast-Modifiedヘッダーを含めるかどうかを指定します。
 
-サーバは、応答に関係するすべてのビネットおよびマテリアルカタログ/カタログレコードの最新の`vignette::TimeStamp`値と`catalog::TimeStamp`値を、最終変更ヘッダ値として使用します。
+サーバは、応答に含まれるすべてのビネットおよびマテリアルカタログ/カタログレコードの最新の`vignette::TimeStamp`値と`catalog::TimeStamp`値をLast-Modifiedヘッダー値として使用します。
 
-etagヘッダーをサポートしない分散キャッシュネットワーク（Akamaiなど）が使用されている場合にのみ有効にする必要があります。
+Akamaiなどの分散キャッシュネットワークを使用し、ETAGヘッダーをサポートしていない場合にのみ有効にする必要があります。
 
 >[!NOTE]
 >
->複数の画像サービング/レンダリングホストが関係するロードバランシング環境で、最終変更日のヘッダーを使用する場合は、注意が必要です。 同じカタログエントリに対して異なるタイムスタンプをサーバーが持つ場合、クライアントのキャッシュが無効になり、サーバーの読み込みが増加する可能性があります。 このような状況は、次のように発生します。
+>複数の画像サービング/レンダリングホストが関与する負荷分散環境で最終変更ヘッダーを使用する場合は、注意が必要です。 同じカタログエントリに対して異なるタイムスタンプがサーバーに割り当てられている場合、クライアントのキャッシュが無効になり、サーバーの負荷が増加する可能性があります。 このような状況は、次のように発生する場合があります。
 
-* `catalog::TimeStamp`、`vignette::TimeStamp`、`attribute::TimeStamp`のいずれも定義されていないので、[!DNL catalog.ini]ファイルの変更時刻が`catalog::TimeStamp`のデフォルトとして使用されます。
+* `catalog::TimeStamp`、`vignette::TimeStamp`、`attribute::TimeStamp`は定義されていないので、[!DNL catalog.ini]ファイルの変更時刻が`catalog::TimeStamp`のデフォルトとして使用されます。
 
-* ネットワークマウントを介してマテリアルカタログファイルを共有する代わりに、各サーバはローカルファイルシステム上のカタログファイルの独自のインスタンスを持ちます。
-* 同じ[!DNL catalog.ini]ファイルの2つ以上のインスタンスが異なるファイル変更日を持っています。ファイルの不適切なコピーが原因の可能性があります。
+* ネットワークマウントを介してマテリアルカタログファイルを共有する代わりに、各サーバはローカルファイルシステム上にカタログファイルの独自のインスタンスを持ちます。
+* 同じ[!DNL catalog.ini]ファイルの2つ以上のインスタンスが異なるファイル変更日を持っています。これは、ファイルの不適切なコピーが原因である可能性があります。
 
 ## プロパティ {#section-453952244193452caccfaf7f601007c1}
 
-フラグ。 0を指定すると無効になり、1を指定すると最終変更日時のHTTPヘッダーが有効になります。
+フラグ。 0は無効、1は最終変更HTTPヘッダーを有効にします。
 
 ## 初期設定 {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-定義されていない場合や空の場合は`default::UseLastModified`から継承されます。
+`default::UseLastModified`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-1536715169da48b0aecc4ab7326c86db}
 
