@@ -1,25 +1,24 @@
 ---
-description: テクスチャ繰り返しモード テクスチャイメージをタイル状にしてターゲットサーフェスを塗りつぶす方法を指定します。
+description: テクスチャ繰り返しモード。 ターゲットサーフェスを塗りつぶすテクスチャイメージの並べ方を指定します。
 solution: Experience Manager
 title: Repeat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
 
+# 繰り返し{#repeat}
 
-# Repeat{#repeat}
-
-テクスチャ繰り返しモード テクスチャイメージをタイル状にしてターゲットサーフェスを塗りつぶす方法を指定します。
+テクスチャ繰り返しモード。 ターゲットサーフェスを塗りつぶすテクスチャイメージの並べ方を指定します。
 
 ## プロパティ {#section-cef4109cddf54ce095c3293d85bc412d}
 
-列挙。 繰り返し可能なテクスチャにのみ使用します。 その他のマテリアルでは無視されます。
+列挙 繰り返し可能なテクスチャにのみ使用されます。 その他の材料では無視されます。
 
 繰り返し可能なテクスチャマテリアルには、次の値を指定できます。
 
@@ -42,7 +41,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>壁紙が四分の一滴下になる。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>4分の1の壁紙が掛かる。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
@@ -50,7 +49,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>壁紙を半ドロップで掛ける。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>壁紙を半分落として吊るす。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
@@ -58,7 +57,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>壁紙のハングを元に戻します。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>壁紙のハングを反転します。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
@@ -70,7 +69,7 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>ランダムに横切る。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>横にランダム。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
@@ -78,27 +77,27 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
-  <td class="- topic/stentry stentry"> <p>鏡像（ブックマッチ） </p></td> 
+  <td class="- topic/stentry stentry"> <p>ミラー(bookmatch) </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>標準のランダム化機能 </p></td> 
+  <td class="- topic/stentry stentry"> <p>標準のランダム化器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>高周波ランダム化器 </p></td> 
+  <td class="- topic/stentry stentry"> <p>高周波ランダム化器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>低周波のランダム化器 </p></td> 
+  <td class="- topic/stentry stentry"> <p>低周波ランダム化器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>水平方向のランダム化 </p></td> 
+  <td class="- topic/stentry stentry"> <p>水平ランダム化 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
-  <td class="- topic/stentry stentry"> <p>垂直方向のランダム化 </p></td> 
+  <td class="- topic/stentry stentry"> <p>垂直ランダム化 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
@@ -108,7 +107,7 @@ ht-degree: 20%
 
 ## 初期設定 {#section-23fba3bd1f3544c7913d12f2ca148517}
 
-0（ストレートリピート）
+0 （ストレートリピート）
 
 ## 関連項目 {#section-a08887a91db34ed3b183899c69c9f74f}
 
