@@ -2,26 +2,25 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
-
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= *``*, *``*, *``*, *`キシwh`*`
+` [ZoomView.|<containerId>_zoomView.]rgn= *``*, *``*, *``*, *`xywh`*`
 
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> ピクセル座標の初期関心領域。 これらの値を指定しない場合、画像全体が最初のビューポート内にちょうど収まるように表示されます。 </p> </td> 
+   <td colname="col2"> <p> ピクセル座標に対する初期関心領域。 これらの値を指定しない場合、画像全体が最初のビューポート内に収まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
