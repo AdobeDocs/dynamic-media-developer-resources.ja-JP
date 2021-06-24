@@ -1,21 +1,20 @@
 ---
-description: 次の例は、テキストコマンドの例とテキストへの影響を示しています。
+description: 次の例は、テキストコマンドの例と、テキストへの影響を示しています。
 solution: Experience Manager
 title: RTFエンコーディングの例
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c35aa7-aa8b-49af-a9ea-4bc704e4eebd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 3%
 
 ---
 
-
 # RTFエンコーディングの例{#rtf-encoding-examples}
 
-次の例は、テキストコマンドの例とテキストへの影響を示しています。
+次の例は、テキストコマンドの例と、テキストへの影響を示しています。
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
@@ -55,4 +54,4 @@ ht-degree: 3%
 
 ## 関連トピック {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
-[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [HTTP Encoding](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7),  [HTTP RTF 1.6仕様](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
+[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) 、 [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)、 [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)、 [HTTPエンコーディング](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)、 [RTF 1.6仕様](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
