@@ -2,16 +2,15 @@
 description: IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
 solution: Experience Manager
 title: 新規および変更された操作
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
-
 
 # 操作：新規および変更済み{#operations-new-and-modified}
 
@@ -19,7 +18,7 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 
 構文
 
-## 新しい操作{#section-c4d34a58f8194d548fbe26ab3764ea58}
+## 新しい操作 {#section-c4d34a58f8194d548fbe26ab3764ea58}
 
 * `moveAsset`
 * `renameAsset`
@@ -37,7 +36,7 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 * `executeJob`
 * `deleteJob`
 
-## 変更された操作{#section-596ea55a371e4c2ab5531e21ea9d8090}
+## 変更された操作 {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
 **searchAsset**
 
@@ -51,5 +50,4 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 **getFolderTree**
 
 * `excludeFieldArray`と`getUniqueMetadataValues`を追加しました。
-* `fieldHandle`を必須パラメータにしました。
-
+* `fieldHandle`を必須のパラメータにしました。
