@@ -2,22 +2,21 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
-
 
 # getPublishContexts{#getpublishcontexts}
 
 構文
 
-## 認証済みユーザータイプ{#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 許可されたユーザーの種類 {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,8 +30,8 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->* アセットを返すには、ユーザーに読み取りアクセス権が必要です。
->* すべてのユーザーは共有会社ーにアクセスできます。
+>* アセットを返すには、読み取りアクセス権が必要です。
+>* すべてのユーザーが共有会社にアクセスできます。
 
 >
 
@@ -56,13 +55,13 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社へのハンドル。 </td> 
+   <td colname="col4"> 会社に取り扱う。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返す発行コンテキストのタイプ。 以下を含みます。 
+   <td colname="col4">返すパブリッシュコンテキストのタイプ。 以下を含みます。 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
@@ -77,7 +76,7 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 型：PublishContextArray | はい | 会社用の一連の公開コンテキスト。必要に応じてコンテキストタイプでフィルタリングされます。 |
+| `*`publishContextArray`*` | タイプ：PublishContextArray[たいぷ：PublishContextArray] | はい | 会社の公開コンテキストの配列。必要に応じてコンテキストタイプでフィルタリングします。 |
 
 ## 例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
@@ -117,4 +116,3 @@ ht-degree: 18%
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-
