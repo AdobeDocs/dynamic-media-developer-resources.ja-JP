@@ -2,40 +2,39 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
-
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
 
-デスクトップシステムで[!DNL `PageView.frametransition`]が[!DNL `turn`]または[!DNL `auto`]に設定されている場合に、コンポーネントの外観を制御します。
+デスクトップシステムで[!DNL `PageView.frametransition`]が[!DNL `turn`]または[!DNL `auto`]に設定されている場合のコンポーネントの外観を制御します。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 見開きの左右のページを区切るページ区切りシャドウの幅（ピクセル単位）。 めくっているページの横に表示される実行中シャドウの幅も制御します。 </p> </td> 
+   <td colname="col2"> <p> 見開きの左右のページを区切る、ページ区切りシャドウの幅（ピクセル単位）。 また、めくっているページの横に表示される実行中のシャドウの幅も制御します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> シャドウのカラー（RRGGBB形式）。 </p> </td> 
+   <td colname="col2"> <p> シャドウカラー（RRGGBB形式）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 0</span> ～ <span class="codeph"> 1</span>の範囲のシャドウの不透明度。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 0</span>～<span class="codeph"> 1</span>の範囲のシャドウの不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> めくっているページの周囲の境界線をオンまたはオフにするフラグ（<span class="codeph"> 0 </span>または<span class="codeph"> 1 </span>）。 </p> </td> 
+   <td colname="col2"> <p> めくっているページの周りの境界線をオン/オフするフラグ（<span class="codeph"> 0</span>または<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -43,7 +42,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> ページめくりアニメーションの実行中に使用されるコンポーネント領域のべた塗りのカラー（RRGGBB形式）。 </p> </td> 
+   <td colname="col2"> <p> ページめくりアニメーション中に使用されるコンポーネント領域のベタ塗りのカラー（RRGGBB形式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
