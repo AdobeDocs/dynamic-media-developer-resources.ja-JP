@@ -2,16 +2,15 @@
 description: アクティブなジョブを一時停止します。
 solution: Experience Manager
 title: pauseJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
-
 
 # pauseJob{#pausejob}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ{#section-f2bf306ab4574871bd21f9f7dd681033}
+## 許可されたユーザーの種類 {#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +35,8 @@ ht-degree: 17%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`jobHandle`*` | `xsd:string` | はい | 一時停止するジョブの処理。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`jobHandle`*` | `xsd:string` | はい | 一時停止するジョブを処理します。 |
 
 **出力(PauseJobReturn)**
 
@@ -45,7 +44,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-このコードのサンプルを使用すると、アクティブなジョブを一時停止できます。
+このコードサンプルは、アクティブなジョブを一時停止します。
 
 **リクエスト**
 
