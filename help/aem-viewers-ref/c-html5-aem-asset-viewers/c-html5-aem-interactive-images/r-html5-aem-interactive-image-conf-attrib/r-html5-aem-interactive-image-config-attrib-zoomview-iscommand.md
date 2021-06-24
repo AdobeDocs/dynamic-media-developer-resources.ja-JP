@@ -1,21 +1,20 @@
 ---
-description: ズーム画像に適用される画像サービングコマンド文字列です。
+description: ズーム画像に適用される画像サービングコマンド文字列。
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
 role: Developer,Business Practitioner
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-ズーム画像に適用される画像サービングコマンド文字列です。
+ズーム画像に適用される画像サービングコマンド文字列。
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> URLで指定する場合、すべての<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>を<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTPエンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p> URLで指定する場合、 <span class="codeph"> &amp;</span>と<span class="codeph"> =</span>はすべて、 <span class="codeph"> %26</span>と<span class="codeph"> %3D</span>にそれぞれHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
