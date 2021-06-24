@@ -2,16 +2,15 @@
 description: 会社グループを返します。
 solution: Experience Manager
 title: getGroups
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 20%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
-
 
 # getGroups{#getgroups}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ{#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 許可されたユーザーの種類 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,9 +30,9 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
 
-**Output (getGroupsReturn)**
+**出力(getGroupsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -63,4 +62,3 @@ ht-degree: 20%
    </groupArray>
 </getGroupsReturn>
 ```
-
