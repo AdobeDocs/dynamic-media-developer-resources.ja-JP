@@ -1,33 +1,32 @@
 ---
-description: フルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。
+description: ユーザーがフルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示する際に使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 solution: Experience Manager
-title: ビデオフルスクリーンボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: ビデオの全画面表示ボタン
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
 
+# ビデオの全画面表示ボタン{#video-full-screen-button}
 
-# ビデオフルスクリーンボタン{#video-full-screen-button}
-
-フルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに表示されます。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。
+ユーザーがフルスクリーンボタンをクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示する際に使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-フルスクリーンボタンのサイズ、スキン、およびこのボタンを含むコントロールバーに対する位置を、CSSで設定できます。
+フルスクリーンボタンのサイズ、スキン、およびそのボタンを含むコントロールバーに対する位置を、CSSで設定できます。
 
-フルスクリーンボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+フルスクリーンボタンの外観は、CSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**フルスクリーンボタンのCSSプロパティ**
+**全画面表示ボタンのCSSプロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -49,7 +48,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> フルスクリーンボタンの幅。 </p> </td> 
+   <td colname="col2"> <p> 全画面表示ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -57,24 +56,24 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`と`selected`の属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に対応し、`selected='false'`は「通常」の状態に対応します。
+>このボタンでは、`state`属性セレクターと`selected`属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に、`selected='false'`は「通常」の状態に対応します。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32ピクセルで、コントロールバーの上および右端から6ピクセルの位置に配置するフルスクリーンボタンを設定します。 また、選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示します。
+32 x 32ピクセルで、コントロールバーの上および右端から6ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 また、選択時または未選択時の4つのボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
