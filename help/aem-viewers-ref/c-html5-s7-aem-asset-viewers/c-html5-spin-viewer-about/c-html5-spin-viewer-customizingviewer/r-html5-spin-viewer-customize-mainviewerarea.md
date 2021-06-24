@@ -1,21 +1,20 @@
 ---
-description: メイン表示領域は、スピン画像が表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+description: メインビュー領域は、スピン画像が表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
 
-
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域は、スピン画像が表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域は、スピン画像が表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,4 +58,3 @@ ht-degree: 2%
  height: 288px;  
 }
 ```
-
