@@ -1,25 +1,24 @@
 ---
-description: 指定したアセットに関連付けられているビューア設定をすべて取得します。
+description: 指定したアセットに関連付けられているすべてのビューア設定を取得します。
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic,SDK/API，ビューアプリセット
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
-
 # getViewerConfigSettings{#getviewerconfigsettings}
 
-指定したアセットに関連付けられているビューア設定をすべて取得します。
+指定したアセットに関連付けられているすべてのビューア設定を取得します。
 
 構文
 
-## 認証済みユーザータイプ{#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
+## 許可されたユーザーの種類 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,8 +31,8 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットに対して処理します。 |
 
 **出力(getViewerConfigSettingsReturn)**
 
@@ -41,4 +40,3 @@ ht-degree: 19%
 |---|---|---|---|
 | `*`type`*` | `xsd:string` | はい | 設定が適用されるビューアタイプ。 |
 | `*`configSettingsArray`*` | `types:ConfigSettingsArray` | はい | ビューア設定の配列。 |
-
