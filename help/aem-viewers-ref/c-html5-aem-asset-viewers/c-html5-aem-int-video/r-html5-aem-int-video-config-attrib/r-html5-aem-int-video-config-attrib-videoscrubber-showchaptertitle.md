@@ -2,14 +2,13 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> チャプターラベルのタイトルバーを有効または無効にします。 タイトルバーが無効な場合、チャプター開始時間は表示されません。 </p> </td> 
+   <td colname="col2"> <p> チャプターラベルのタイトルバーを有効または無効にします。 タイトルバーが無効な場合、チャプターの開始時間は表示されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
