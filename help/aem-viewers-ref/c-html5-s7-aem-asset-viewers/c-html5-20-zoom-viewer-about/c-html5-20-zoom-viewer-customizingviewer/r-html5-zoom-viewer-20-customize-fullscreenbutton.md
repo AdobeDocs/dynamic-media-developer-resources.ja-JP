@@ -1,21 +1,20 @@
 ---
-description: ユーザーがクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+description: ユーザーがクリックした場合に、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
 solution: Experience Manager
-title: フルスクリーンボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: 全画面表示ボタン
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 2%
 
 ---
 
+# 全画面表示ボタン{#full-screen-button}
 
-# フルスクリーンボタン{#full-screen-button}
-
-ユーザーがクリックすると、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードの場合、およびシステムでネイティブのフルスクリーンがサポートされていない場合、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+ユーザーがクリックした場合に、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -61,22 +60,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`と`selected`の属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に対応し、`selected='false'`は「通常」の状態に対応します。
+>このボタンでは、`state`属性セレクターと`selected`属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に、`selected='false'`は「通常」の状態に対応します。
 
-ボタンのツールチップをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 32 x 32ピクセルで、ビューアの上および右端から6ピクセルの位置に配置し、選択時または未選択時のボタンの4つの状態ごとに異なる画像を表示するフルスクリーンボタンを設定するには、次のように記述します。
+例 — 32 x 32ピクセルで、ビューアの上および右端から6ピクセルの位置に配置し、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定するには、次のように記述します。
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 
@@ -110,4 +109,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
