@@ -2,16 +2,15 @@
 description: ズームターゲットのプロパティ。
 solution: Experience Manager
 title: ズームターゲット
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # ズームターゲット{#zoomtarget}
 
@@ -29,7 +28,6 @@ ht-degree: 14%
 | `*`yPosition`*` | `xsd:int` | ズームターゲットのY位置。 |
 | `*`width`*` | `xsd:int` | ズームターゲットの幅 |
 | `*`height`*` | `xsd:int` | ズームターゲットの高さ |
-| `*`ユーザデータ`*` | `xsd:string` | ズームターゲットに関連付けられているユーザデータ。 |
-| `*`position`*` | `xsd:int` | アセットに関連付けられたズームターゲットの位置に基づく並べ替えを許可します |
+| `*`ユーザデータ`*` | `xsd:string` | ズームターゲットに関連付けられたユーザデータ |
+| `*`position`*` | `xsd:int` | 位置に基づいてアセットに関連付けられたズームターゲットを並べ替えることができます。 |
 | `*`lastModified`*` | `xsd:dateTime` | 最終変更日。 |
-
