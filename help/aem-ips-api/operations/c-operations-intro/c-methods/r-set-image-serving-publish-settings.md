@@ -1,21 +1,20 @@
 ---
-description: Scene 7開発者のみ。 「画像レンダリングマテリアルカタログの参照 — カタログ属性」の項を参照してください。
+description: Scene7開発者専用です。 「画像レンダリングマテリアルカタログの参照 — カタログ属性」の節を参照してください。
 solution: Experience Manager
 title: setImageServingPublishSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 75ba94b3-41d2-4c09-b444-42b3e83614b4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 14%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
-
 # setImageServingPublishSettings{#setimageservingpublishsettings}
 
-Scene 7開発者のみ。 「画像レンダリングマテリアルカタログの参照 — カタログ属性」の項を参照してください。
+Scene7開発者専用です。 「画像レンダリングマテリアルカタログの参照 — カタログ属性」の節を参照してください。
 
 構文
 
@@ -25,7 +24,6 @@ Scene 7開発者のみ。 「画像レンダリングマテリアルカタログ
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`CompanyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | はい | Scene 7開発者のみ。 |
-| `*`contextHandle`*` | `xsd:string` | いいえ | パブリッシュコンテキストへの処理。 |
-
+| `*`CompanyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | はい | Scene7開発者専用です。 |
+| `*`contextHandle`*` | `xsd:string` | いいえ | パブリッシュコンテキストを処理します。 |
