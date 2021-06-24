@@ -1,34 +1,33 @@
 ---
-description: 画像をディレート/エロードします。 画像データに形態素ディレート（半径> 0）または浸食（半径< 0）を適用します。
+description: 画像を拡大/縮小します。 画像データに形態素ディレート（半径> 0）またはエローデ（半径< 0）を適用します。
 solution: Experience Manager
 title: op_grow
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
 
-
 # op_grow{#op-grow}
 
-画像をディレート/エロードします。 画像データに形態素ディレート（半径> 0）または浸食（半径&lt; 0）を適用します。
+画像を拡大/縮小します。 画像データに形態素ディレート（半径> 0）またはエローデ（半径&lt; 0）を適用します。
 
 `op_grow= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
-  <td class="stentry"> <p>半径（整数 —100 ～ 100）をピクセル単位で表します。 </p></td> 
+  <td class="stentry"> <p>半径をピクセル単位（整数 —100 ～ 100）で表示します。 </p></td> 
  </tr> 
 </table>
 
-`*`合成画像を基準としたピクセル単位の`*` 半径。画像がカラーの場合、各コンポーネントは独立して処理されます。
+`*``*` 合成画像を基準とするピクセル単位の半径。画像がカラーの場合、各コンポーネントは個別に処理されます。
 
-主に、レイヤー効果のサイズを変更するために使用します。 また、テキストレイヤーやマスク付きべた塗りレイヤーに特殊効果を適用する場合にも便利です。
+主に、レイヤー効果のサイズを変更するために使用します。 また、テキストレイヤーやマスク付きのソリッドカラーレイヤーに特殊効果を適用する場合にも便利です。
 
 ## プロパティ {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
