@@ -1,25 +1,24 @@
 ---
-description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
+description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチに設定します。
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
 
-
 # deleteAssetMetadata{#deleteassetmetadata}
 
-アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して値をバッチで設定します。
+アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチに設定します。
 
 構文
 
-## 認証済みユーザータイプ{#section-e913be43b684491daf02bc73211e4290}
+## 許可されたユーザーの種類 {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび削除のアクセス権を持っている必要があります。
+>ユーザーは、アセットに対する読み取りおよび削除アクセス権を持っている必要があります。
 
 ## パラメータ {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -50,7 +49,7 @@ ht-degree: 8%
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>フォルダーが属する会社ーのハンドル。 </p> </td> 
+   <td colname="col4"> <p>フォルダーが属する会社へのハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
@@ -89,7 +88,7 @@ MetadataDelete
     </complexType>
 ```
 
-呼び出しの例
+呼び出し例
 
 ```java
 <ac:Request id="deleteAssetMetadata">
@@ -104,4 +103,3 @@ MetadataDelete
  </deleteAssetMetadataParam>
 </ac:Request>
 ```
-
