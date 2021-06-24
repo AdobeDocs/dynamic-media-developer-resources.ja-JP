@@ -2,25 +2,24 @@
 description: 特定の会社に関連付けられているアセットとアセット数を取得します。
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
-
 
 # getAssetCounts{#getassetcounts}
 
 特定の会社に関連付けられているアセットとアセット数を取得します。
 
-返される`countArray`は、`assetTypes` （データ型`xsd:string`）の配列で構成され、それぞれに独自のカウントフィールド（データ型`xsd:int`）があり、配列の要素ごとに複数のアセット型を表現できます。
+返される`countArray`は、`assetTypes`（データ型`xsd:string`）の配列で構成され、それぞれに独自のカウントフィールド（データ型`xsd:int`）があり、配列の要素ごとに複数のアセット型を表現できます。
 構文
 
-## 認証済みユーザータイプ{#section-6234754722184e828352f10eb18fbce9}
+## 許可されたユーザーの種類 {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,7 +47,7 @@ ht-degree: 10%
 
 ## 例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-このコードのサンプルでは、会社のハンドルをIPS Webサービスサーバに送信される`getAssetCountsParam`のフィールドとして使用し、アセット数を取得します。
+このコードサンプルでは、会社のハンドルを、IPS Webサービスサーバーに送信される`getAssetCountsParam`のフィールドとして使用して、アセット数を取得します。
 
 **リクエスト**
 
@@ -74,4 +73,3 @@ ht-degree: 10%
    </countArray>
 </getAssetCountsReturn>
 ```
-
