@@ -1,21 +1,20 @@
 ---
-description: フォーカスが設定されたビューアのユーザインターフェイス要素の周りに表示される入力フォーカスハイライト。
+description: フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライト。
 solution: Experience Manager
 title: フォーカスハイライト
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3d5737d7-1295-46a9-9b84-c43269e5a914
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-
 # フォーカスハイライト{#focus-highlight}
 
-フォーカスが設定されたビューアのユーザインターフェイス要素の周りに表示される入力フォーカスハイライト。
+フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライト。
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
@@ -30,17 +29,16 @@ ht-degree: 0%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> outline  </span> </p> </td> 
-   <td colname="col2"> <p> フォーカスのハイライトのスタイル </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> アウトライン  </span> </p> </td> 
+   <td colname="col2"> <p> フォーカスハイライトのスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — すべてのビューアユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、以下のCSSセレクターをビューアのスタイルシートに追加します。
+例 — すべてのビューアユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、ビューアのスタイルシートに次のCSSセレクタを追加します。
 
 ```
 .s7ecatalogviewer *:focus { 
  outline: none; 
 }
 ```
-
