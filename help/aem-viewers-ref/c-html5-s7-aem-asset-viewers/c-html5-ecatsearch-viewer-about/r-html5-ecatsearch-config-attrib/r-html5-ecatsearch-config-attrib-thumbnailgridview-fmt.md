@@ -2,16 +2,15 @@
 description: ThumbnailGridView.fmt
 solution: Experience Manager
 title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ff57762e-05f5-41c1-956f-39280941eeb1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.fmt{#thumbnailgridview-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 値は、Image Serverおよびクライアントブラウザーでサポートされる任意の値です。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、画像は不透明として扱われます。 </p> </td> 
+   <td> <p>コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。 Image Serverおよびクライアントブラウザーがサポートする任意の値を指定できます。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式では、画像は不透明として扱われます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
