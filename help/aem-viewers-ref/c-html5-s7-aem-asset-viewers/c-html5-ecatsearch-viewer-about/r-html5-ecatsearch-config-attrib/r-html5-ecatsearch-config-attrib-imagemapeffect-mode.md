@@ -2,16 +2,15 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3772ff80-3a51-4dd9-85a7-12242518080c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
-
 
 # ImageMapEffect.mode{#imagemapeffect-mode}
 
@@ -23,9 +22,9 @@ ht-degree: 4%
    <td colname="col1"> <p> <span class="codeph"> icon|region|auto|none  </span> </p> </td> 
    <td colname="col2"> <p>画像マップの外観を指定します。 </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> icon  </span> mapアイコンは、デスクトップおよびタッチデバイスで静的に表示されます。 </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> regionは、画像マップの領域を </span> レンダリングします。デスクトップでは、ロールオーバー時に表示され、タッチデバイスでは常に表示されます。 </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto(デスクトップシステム </span> では画像マップの領域がロールオーバー時に表示され、タッチデバイスではマップアイコンが常に表示されます。 </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> iconマップ </span> アイコンは、デスクトップおよびタッチデバイスで静的に表示されます。 </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> regionは、画像 </span> マップの領域をレンダリングします。デスクトップでは、ロールオーバー時に表示され、タッチデバイスでは常に表示されます。 </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> autoは、デ </span> スクトップシステムでは画像マップの領域がロールオーバー時に表示され、タッチデバイスではマップのアイコンが常に表示されます。 </p> </li> 
       <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> noneを指定す </span> ると、画像マップが無効になります。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
