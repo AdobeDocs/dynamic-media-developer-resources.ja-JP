@@ -1,23 +1,22 @@
 ---
-description: タグフィールドの辞書からタグフィールドの値を削除します。
+description: タグフィールドの辞書からタグフィールド値を削除します。
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 12%
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
 
-
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-タグフィールドの辞書からタグフィールドの値を削除します。
+タグフィールドの辞書からタグフィールド値を削除します。
 
-## 認証済みユーザータイプ{#section-e6f97c875c2a4cf0a7bc22096b649497}
+## 許可されたユーザーの種類 {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,13 +24,13 @@ ht-degree: 12%
 
 ## パラメータ {#section-5db64a6ae238426395bc760b83587260}
 
-**Input (deleteTagFieldValuesParam)**
+**入力(deleteTagFieldValuesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
 | `*`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
-| `*`valueArray`*` | `types:StringArray` | はい | フィールドのディクショナリから削除するタグ値の配列。 |
+| `*`valueArray`*` | `types:StringArray` | はい | フィールドの辞書から削除するタグ値の配列。 |
 
 **出力(deleteTagFieldValuesParam)**
 
