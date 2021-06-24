@@ -2,16 +2,15 @@
 description: 次のフィールドは、ICCカラープロファイルマップファイルで認識されます。
 solution: Experience Manager
 title: ICCプロファイルマップ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # ICCプロファイルマップ{#icc-profile-maps}
 
@@ -27,4 +26,3 @@ ht-degree: 0%
   <td class="stentry"> <p>ICCカラープロファイルのファイルパス </p></td> 
  </tr> 
 </table>
-
