@@ -1,25 +1,24 @@
 ---
-description: プロパティセットの種類、および関連するプロパティセットとプロパティを削除します。
+description: プロパティセットの種類と、それに関連するプロパティセットおよびプロパティを削除します。
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
 
-
 # deletePropertySetType{#deletepropertysettype}
 
-プロパティセットの種類、および関連するプロパティセットとプロパティを削除します。
+プロパティセットの種類と、それに関連するプロパティセットおよびプロパティを削除します。
 
 構文
 
-## 認証済みユーザータイプ{#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 許可されたユーザーの種類 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +31,7 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | はい | 削除するプロパティセットの種類のハンドル。 |
+| `*`typeHandle`*` | `xsd:string` | はい | 削除するプロパティセットタイプへのハンドル。 |
 
 **出力(deletePropertySetTypeParam)**
 
@@ -40,7 +39,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-このコードの例では、プロパティセットの種類を削除するために、IPS Webサービスサーバーに送信される`deletePropertySetTypeParam`内のフィールドとして、種類のハンドルを使用します。
+このコードサンプルでは、型のハンドルを、IPS Webサービスサーバーに送信される`deletePropertySetTypeParam`のフィールドとして使用して、プロパティセット型を削除します。
 
 **リクエスト**
 
