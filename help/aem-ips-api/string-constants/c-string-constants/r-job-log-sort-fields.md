@@ -1,21 +1,20 @@
 ---
-description: getJobLogsParam/sortByで使用
+description: getJobLogsParam/sortByで使用されます
 solution: Experience Manager
 title: ジョブログの並べ替えフィールド
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
-
 # ジョブログの並べ替えフィールド{#job-log-sort-fields}
 
-getJobLogsParam/sortByで使用
+getJobLogsParam/sortByで使用されます
 
 構文
 
@@ -30,4 +29,3 @@ getJobLogsParam/sortByで使用
 * [!DNL `FileErrorCount`]
 * [!DNL `FileWarningCount`]
 * [!DNL `FileSuccessCount`]
-
