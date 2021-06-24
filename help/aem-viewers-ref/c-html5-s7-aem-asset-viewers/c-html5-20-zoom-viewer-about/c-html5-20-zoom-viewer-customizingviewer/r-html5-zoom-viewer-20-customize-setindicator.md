@@ -1,21 +1,20 @@
 ---
-description: 設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+description: 設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 solution: Experience Manager
-title: 設定インジケーター
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: インジケーターの設定
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
 
+# インジケーターの設定{#set-indicator}
 
-# インジケータを設定{#set-indicator}
-
-設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上部にレンダリングされる一連のドットです。 このドットは、スクロールボタンが使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+設定インジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +36,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターの16進数形式の背景色。 </p> </td> 
+   <td colname="col2"> <p>設定インジケーターの16進形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +49,7 @@ ht-degree: 1%
 }
 ```
 
-個々の設定インジケーターのドットの外観は、以下のCSSクラスセレクターを使用して制御します。
+個々のセットインジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -99,9 +98,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->設定インジケーターのドットでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はサムネールの現在のページに対応し、`state="unselected"`はデフォルトのドットの状態に対応します。
+>インジケーターのドットでは、 `state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 具体的には、 `state="selected"`はサムネールの現在のページに対応し、 `state="unselected"`はデフォルトのドットの状態に対応します。
 
-例 — 15 x 15ピクセルで、水平方向のマージンが2ピクセル、上マージンが5ピクセル、下マージンが1ピクセル、半径が12ピクセル、#D5D3D3のデフォルトカラーおよびアクティブカラーが#939393であるインジケーターのドットを設定するには、次のように記述します。
+例 — 15 x 15ピクセルで、2ピクセルの水平マージン、5ピクセルの上マージン、1ピクセルの下マージン、12ピクセルの半径、デフォルトカラー、#939393アクティブカラーを持つインジケーターのドットを設定するには、次のように記述します。
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 
@@ -118,4 +117,3 @@ ht-degree: 1%
  background-color:#939393;  
 }
 ```
-
