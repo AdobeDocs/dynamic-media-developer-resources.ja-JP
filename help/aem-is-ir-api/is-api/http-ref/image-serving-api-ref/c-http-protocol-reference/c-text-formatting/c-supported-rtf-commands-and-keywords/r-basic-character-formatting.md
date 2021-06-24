@@ -1,21 +1,20 @@
 ---
-description: 基本的な文字形式設定を行うには、次のコマンドを使用します。
+description: 基本的な文字書式設定には、次のコマンドを使用します。
 solution: Experience Manager
-title: 基本的な文字の形式設定
-feature: Dynamic Media Classic,SDK/API
+title: 基本的な文字書式
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 8%
 
 ---
 
+# 基本的な文字書式{#basic-character-formatting}
 
-# 基本文字の書式設定{#basic-character-formatting}
-
-基本的な文字形式設定を行うには、次のコマンドを使用します。
+基本的な文字書式設定には、次のコマンドを使用します。
 
 <table id="table_65415B84652F4E7497299AD90AE7C191"> 
  <thead> 
@@ -29,12 +28,12 @@ ht-degree: 8%
   <tr> 
    <td> <span class="codeph"> \プレーン </span> </td> 
    <td> <p>文字書式をデフォルトにリセット </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=の </span> み。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f  <span class="varname"> N  </span> </span> </td> 
    <td> <p>フォント </p> </td> 
-   <td> <p> <span class="codeph"> \fonttbl </span> インデックス </p> </td> 
+   <td> <p> <span class="codeph"> \fonttblインデ </span> ックス。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
@@ -48,7 +47,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \b </span> </td> 
-   <td> <p>太字スタイル </p> </td> 
+   <td> <p>太字スタイル。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -59,12 +58,12 @@ ht-degree: 8%
   <tr> 
    <td> <span class="codeph"> \sub  </span> </td> 
    <td> <p>下付き文字. </p> </td> 
-   <td> <p>フォントサイズを小さくします。 </p> </td> 
+   <td> <p>フォントサイズを縮小します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \super  </span> </td> 
    <td> <p>上付き文字. </p> </td> 
-   <td> <p>フォントサイズを小さくします。 </p> </td> 
+   <td> <p>フォントサイズを縮小します。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <span class="codeph"> \ul  </span> </td> 
@@ -79,28 +78,27 @@ ht-degree: 8%
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth  </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw  </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave  </span> </li> 
-     </ul> </p> <p>これらは、現時点では標準の<span class="codeph"> \ul </span>下線として実装されています。 その他のRTF下線コマンドはすべて無視されます。 </p> </td> 
+     </ul> </p> <p>これらは、現時点では標準の<span class="codeph"> \ul </span>下線として実装されます。 その他のRTF下線付きコマンドは無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone  </span> </td> 
-   <td> <p>下線をオフにする </p> </td> 
+   <td> <p>下線を引く </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ul0  </span> </td> 
-   <td> <p>下線をオフにする </p> </td> 
+   <td> <p>下線を引く </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \キャップス </span> </td> 
    <td> <p>大文字 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=の </span> み。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps  </span> </td> 
-   <td> <p>小文字（「スモールキャップス」） </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。 </p> </td> 
+   <td> <p>小文字（「小文字」） </p> </td> 
+   <td> <p> <span class="codeph"> textPs=の </span> み。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
