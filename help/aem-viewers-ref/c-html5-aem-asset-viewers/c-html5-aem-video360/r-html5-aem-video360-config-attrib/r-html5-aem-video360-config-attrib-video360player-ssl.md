@@ -2,13 +2,12 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.ssl
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 4%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->この設定属性は、[Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)がインストールされているAEM 6.2と[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)がインストールされているAEM 6.1にのみ適用されます。
+>この設定属性は、[機能パックNPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)がインストールされたAEM 6.2と、[機能パックNPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)がインストールされたAEM 6.1にのみ適用されます。
 
 `[Video360Player.|<containerId>_video360Player.]ssl=auto|on`
 
@@ -27,7 +26,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)または安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルは埋め込みWebページのプロトコルから継承されます。 WebページがHTTPS経由で読み込まれる場合、ビデオはHTTPS経由でも配信されます。ビデオページがHTTPS経由で読み込まれる場合も同様です。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定した場合、ビデオ配信は常に、Webページのプロトコルに関係なく、安全な接続を介して発生します。 </span></p> <p>は、公開されたビデオ配信にのみ影響し、作成者モードのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)と安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルが埋め込みWebページのプロトコルから継承されます。 WebページがHTTPSで読み込まれる場合、ビデオもHTTPSで配信されます。また、WebページがHTTPSで読み込まれる場合も、ビデオがHTTPSで配信されます。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定した場合、ビデオ配信は、Webページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </span></p> <p>公開済みのビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
