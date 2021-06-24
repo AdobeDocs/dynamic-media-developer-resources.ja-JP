@@ -1,21 +1,20 @@
 ---
-description: 一連の発行履歴。
+description: 公開履歴の配列。
 solution: Experience Manager
 title: PublishHistoryArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3c5c523-0157-449d-b03c-56b23501e822
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # PublishHistoryArray{#publishhistoryarray}
 
-一連の発行履歴。
+公開履歴の配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:PublishHistory` | パブリッシュ履歴配列。 |
-
+| `*`商品`*` | `types:PublishHistory` | 公開履歴配列。 |
