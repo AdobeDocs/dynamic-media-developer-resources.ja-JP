@@ -1,21 +1,20 @@
 ---
-description: ID、名前、種類など、会社メタデータオブジェクトに関する情報を保持します。
+description: ID、名前、タイプなど、会社のメタデータオブジェクトに関する情報を保持します。
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # CompanyMetadataInfo{#companymetadatainfo}
 
-ID、名前、種類など、会社メタデータオブジェクトに関する情報を保持します。
+ID、名前、タイプなど、会社のメタデータオブジェクトに関する情報を保持します。
 
 構文
 
@@ -25,4 +24,3 @@ ID、名前、種類など、会社メタデータオブジェクトに関する
 |---|---|---|
 | `*`コードフレーズ`*` | `Code Phrase` |  |
 | `*`コードフレーズ`*` | `Code Phrase` |  |
-
