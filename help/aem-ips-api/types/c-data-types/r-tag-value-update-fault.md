@@ -1,21 +1,20 @@
 ---
-description: タグ値の更新に失敗した場合に発生するエラー。
+description: タグ値の更新に失敗した場合にスローされるエラー。
 solution: Experience Manager
 title: TagValueUpdateFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 14%
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
-
 # TagValueUpdateFault{#tagvalueupdatefault}
 
-タグ値の更新に失敗した場合に発生するエラー。
+タグ値の更新に失敗した場合にスローされるエラー。
 
 構文
 
@@ -26,4 +25,3 @@ ht-degree: 14%
 | `*`value`*` | `xsd:string` | 更新に失敗したタグ値。 |
 | `*`コード`*` | `xsd:int` | エラーコード番号。 |
 | `*`理由`*` | `xsd:string` | エラーメッセージ（プレーンテキスト）。 |
-
