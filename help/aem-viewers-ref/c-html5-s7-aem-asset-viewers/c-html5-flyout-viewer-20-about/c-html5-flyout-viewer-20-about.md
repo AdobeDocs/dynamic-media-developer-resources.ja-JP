@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## フライアウトビューアの使用{#section-f21ac23d3f6449ad9765588d69584772}
+## フライアウトビューアの使用 {#section-f21ac23d3f6449ad9765588d69584772}
 
 フライアウトビューアは、メインのJavaScriptファイルと、ヘルパーファイルのセット（この特定のビューア、アセット、CSSで使用されるすべてのビューアSDKコンポーネントを含む単一のJavaScriptインクルード）です
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通のコマンドリファレンス — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください。
 
-## フライアウトビューアの操作{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## フライアウトビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 フライアウトビューアは、他のモバイルアプリケーションで一般的なシングルタッチとマルチタッチのジェスチャに対応しています。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 [キーボードのアクセシビリティとナビゲーション](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
-## フライアウトビューアの埋め込み{#section-6bb5d3c502544ad18a58eafe12a13435}
+## フライアウトビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 ビューアの動作に対するニーズは、Webページごとに異なります。 Webページが静的ページレイアウトである場合や、デバイスごと、ブラウザーウィンドウのサイズごとに表示方法が変わるレスポンシブデザインを使用する場合があります。 これらのニーズに対応するために、ビューアでは、次の2つの主要な操作モードがサポートされています。固定サイズ埋め込みとレスポンシブデザイン埋め込み。
 
@@ -223,7 +223,7 @@ ht-degree: 0%
    </html>
    ```
 
-## 高さ無制限のレスポンシブデザイン埋め込み{#section-056cb574713c4d07be6d07cf3c598839}
+## 高さ無制限のレスポンシブデザイン埋め込み {#section-056cb574713c4d07be6d07cf3c598839}
 
 レスポンシブデザイン埋め込みでは、Webページには通常、ビューアのコンテナ`DIV`の実行時のサイズを指示する柔軟なレイアウトが指定されています。 次の例では、Webページでビューアのコンテナ`DIV`がWebブラウザーのウィンドウサイズの40%を占めることを許可し、高さは無制限のままにするとします。 WebページのHTMLコードは次のようになります。
 
@@ -304,7 +304,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [代替のデモの場所](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## 幅と高さが定義されたフレキシブルサイズ埋め込み{#section-0a329016f9414d199039776645c693de}
+## 幅と高さが定義されたフレキシブルサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 
 幅と高さが定義されたフレキシブルサイズ埋め込みの場合、Webページのスタイル設定は異なります。 `"holder"` DIVに両方のサイズを提供し、ブラウザーウィンドウの中央に配置します。 また、Webページでは、`HTML`要素と`BODY`要素のサイズを100%に設定します。
 
@@ -375,7 +375,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## セッターベースのAPI {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}を使用した埋め込み
+## セッターベースのAPIを使用した埋め込み {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 JSONベースの初期化を使用する代わりに、セッターベースのAPIとno-argsコンストラクターを使用できます。 このAPIを使用する場合、コンストラクターにパラメーターは不要です。設定パラメーターは、 `setContainerId()`、 `setParam()`および`setAsset()`の各APIメソッドを別々のJavaScript呼び出しで使用して指定します。
 
