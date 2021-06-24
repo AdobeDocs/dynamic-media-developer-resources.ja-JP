@@ -2,16 +2,15 @@
 description: コマンドマクロの名前。
 solution: Experience Manager
 title: name
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
-
 
 # name{#name}
 
@@ -26,4 +25,4 @@ ht-degree: 11%
  </tr> 
 </table>
 
-*`name`* では大文字と小文字が区別されません。また、英数字、「 — 」、「_」、「。」の組み合わせで構成することもできます。文字.
+*`name`* は大文字と小文字を区別せず、文字、数字、「 — 」、「_」、「。」の組み合わせで構成することもできます。文字.
