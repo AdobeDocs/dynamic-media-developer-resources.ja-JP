@@ -1,24 +1,23 @@
 ---
-description: サーバーキャッシュをプリロードします。 req=imgと同様に要求を実行しますが、画像を返す代わりに、サーバーはMIMEタイプがtext/plainのテキストデータとして形式設定された返信画像(image.length)の長さを返します。
+description: サーバーキャッシュをプリロードします。 req=imgと同様に要求を実行しますが、画像を返す代わりに、サーバーはMIMEタイプがtext/plainのテキストデータとして書式設定された返信画像の長さ(image.length)を返します。
 solution: Experience Manager
 title: loadcache
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 653842e9-bed1-462a-bb1f-39ac1ac9512c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
 # loadcache{#loadcache}
 
-サーバーキャッシュをプリロードします。 req=imgと同様に要求を実行しますが、画像を返す代わりに、サーバーはMIMEタイプがtext/plainのテキストデータとして形式設定された返信画像(image.length)の長さを返します。
+サーバーキャッシュをプリロードします。 req=imgと同様に要求を実行しますが、画像を返す代わりに、サーバーはMIMEタイプがtext/plainのテキストデータとして書式設定された返信画像の長さ(image.length)を返します。
 
 `req=loadcache`
 
 HTTP応答はキャッシュできません。
 
-リクエスト内の他のコマンドは、ドキュメントに従って適用されます。
+リクエスト内の他のコマンドは、説明に従って適用されます。
