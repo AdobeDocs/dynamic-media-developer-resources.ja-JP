@@ -1,29 +1,28 @@
 ---
-description: 相対画像URLのルートURL 相対画像URLのルートURLを指定します。 attribute src=値が{波括弧}で囲まれている場合、attribute RootPath属性の代わりにRootUrlが使用されます。
+description: 相対画像URLのルートURL。 相対画像URLのルートURLを指定します。 src=値が{中括弧}で囲まれている場合、attribute RootUrlが属性RootPathの代わりに使用されます。
 solution: Experience Manager
 title: RootUrl *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RootUrl *{#rooturl}
 
-相対画像URLのルートURL 相対画像URLのルートURLを指定します。 src=値が{波括弧}で囲まれている場合、attribute::RootPathの代わりにattribute::RootUrlが使用されます。
+相対画像URLのルートURL。 相対画像URLのルートURLを指定します。 src=値が{中括弧}で囲まれている場合、attribute::RootUrlがattribute::RootPathの代わりに使用されます。
 
 ## プロパティ {#section-69cd0f71ea614770a8778c745d23197a}
 
-テキスト文字列の値。 先頭のプロトコル識別子を含む、絶対URLルートパス。 次のプロトコルがサポートされています。HTTP、HTTPSおよびFTP。
+テキスト文字列の値。 先頭のプロトコル識別子を含む、絶対URLルートパス。 次のプロトコルがサポートされています。HTTP、HTTPS、FTP。
 
 ## 初期設定 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-定義されていない場合は`default::RootUrl`から継承されます。 定義済みで空の場合、相対URLはこのマテリアルカタログではサポートされません。
+定義されていない場合は`default::RootUrl`から継承されます。 定義されているが空の場合、相対URLはこのマテリアルカタログではサポートされません。
 
 ## 関連項目 {#section-e33bbe7034b24367b68f9142718a8be1}
 
