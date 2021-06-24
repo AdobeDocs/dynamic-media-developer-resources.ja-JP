@@ -2,13 +2,12 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -23,11 +22,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 </p> <p>すぐに表示/非表示にするには、<span class="codeph"> none</span>を使用します。 徐々にフェードイン/フェードアウトするには、<span class="codeph"> fade</span>を使用します。 </p> <p>fadeはInternet Explorer 8ではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替える効果の種類を指定します。 </p> <p><span class="codeph"> none</span>を使用すると、表示と非表示を即座に切り替えることができます。 徐々にフェードイン/フェードアウトするには、 <span class="codeph"> fade</span>を使用します。 </p> <p>fadeはInternet Explorer 8ではサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーによって記録される最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1</span>に設定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
+   <td colname="col2"> <p>コントロールバーが最後に登録するマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1</span>に設定した場合、コンポーネントの自動非表示効果はトリガーされず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
