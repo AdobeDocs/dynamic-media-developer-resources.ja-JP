@@ -1,25 +1,24 @@
 ---
-description: 既存の画像アセットのコピーを作成します。 指定したImage Serverプロトコルコマンドを適用して、新しいコピーを生成します
+description: 既存の画像アセットのコピーを作成します。 指定したImage Serverプロトコルコマンドが適用され、新しいコピーが生成されます
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 13%
 
 ---
 
-
 # copyImage{#copyimage}
 
-既存の画像アセットのコピーを作成します。 指定したImage Serverプロトコルコマンドを適用して、新しいコピーを生成します
+既存の画像アセットのコピーを作成します。 指定したImage Serverプロトコルコマンドが適用され、新しいコピーが生成されます
 
 構文
 
-## 認証済みユーザータイプ{#section-c9fe7abb550e495f832234f845db7d6e}
+## 許可されたユーザーの種類 {#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -98,7 +97,7 @@ ht-degree: 13%
 
 ## 例 {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-サンプルコードでは、会社、アセット、フォルダーハンドル、名前で指定された画像をコピーします。
+サンプルコードは、会社、アセット、フォルダーハンドル、名前で指定された画像をコピーします。
 
 **リクエスト**
 
@@ -119,4 +118,3 @@ ht-degree: 13%
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
