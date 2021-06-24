@@ -2,16 +2,15 @@
 description: ZIPアーカイブアセットのプロパティ。
 solution: Experience Manager
 title: ZipInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a19f0047-3219-4929-a850-93bc5757f004
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
-
 
 # ZipInfo{#zipinfo}
 
@@ -23,7 +22,6 @@ ZIPアーカイブアセットのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalPath`*` | `xsd:string` | ファイルパス。 |
 | `*`originalFile`*` | `xsd:string` | ファイル名。 |
 | `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
-
