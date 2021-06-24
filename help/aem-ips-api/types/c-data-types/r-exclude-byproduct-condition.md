@@ -1,21 +1,20 @@
 ---
-description: 検索結果から除外する生成エンジンおよび生成されたアセットタイプを決定します。
+description: 検索結果から除外する生成エンジンと生成されたアセットタイプを決定します。
 solution: Experience Manager
 title: ExcludeByproductCondition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
 
-
 # ExcludeByproductCondition{#excludebyproductcondition}
 
-検索結果から除外する生成エンジンおよび生成されたアセットタイプを決定します。
+検索結果から除外する生成エンジンと生成されたアセットタイプを決定します。
 
 構文
 
@@ -24,5 +23,4 @@ ht-degree: 9%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`エンジン`*` | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、生成情報を参照してください。 |
-| `*`generatedAssetType`*` | `xsd:string` | 除外されるアセットタイプ。 値については、アセットタイプを参照してください。 |
-
+| `*`generatedAssetType`*` | `xsd:string` | 除外されたアセットタイプ。 値については、アセットタイプを参照してください。 |
