@@ -1,21 +1,20 @@
 ---
-description: 応答画像の形式。
+description: 応答画像形式。
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e179fc51-0461-4000-99eb-4390c35d5606
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
-
 # fmt{#fmt}
 
-応答画像の形式。
+応答画像形式。
 
 `fmt=format [,pixelType ]`
 
@@ -26,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> クライアントに送信する画像データの画像エンコーディング形式と、HTTP応答ヘッダーの対応する応答MIMEタイプを指定します。 </p> <p> <span class="codeph">  jpeg  </span>:非可逆圧縮JPEG </p> <p> <span class="codeph"> png  </span>:可逆圧縮PNG </p> <p> <span class="codeph"> png-alpha  </span>:アルファチャネル付き可逆圧縮PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:アルファチャネルのTIFF </p> <p> <span class="codeph">  swf  </span>:Adobeswfファイルに埋め込まれた非可逆圧縮JPEG </p> <p> <span class="codeph"> pdf  </span>:PDFに埋め込まれた画像 </p> <p> <span class="codeph"> gif  </span>:2 ～ 256色のGIF </p> <p> <span class="codeph"> gif-alpha  </span>:キーカラーの透明部分がプラスされた2 ～ 255色のGIF </p> <p> <span class="codeph"> fxg  </span>:変数とDOM操作が適用されたFXG </p> <p> <span class="codeph">  fxgraw  </span>:元のFXGをサーバに保存 </p> </td> 
+  <td class="stentry"> <p> クライアントに送信される画像データの画像エンコーディング形式と、HTTP応答ヘッダーに対応する応答MIMEタイプを指定します。 </p> <p> <span class="codeph">  jpeg  </span>:非可逆JPEG </p> <p> <span class="codeph"> png  </span>:損失なしPNG </p> <p> <span class="codeph"> png-alpha  </span>:アルファチャンネル付きの損失なしPNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:アルファチャンネル付きTIFF </p> <p> <span class="codeph">  swf  </span>:Adobeswfファイルに埋め込まれた非可逆JPEG </p> <p> <span class="codeph"> pdf  </span>:PDFに埋め込まれた画像 </p> <p> <span class="codeph"> gif  </span>:2～256色のGIF </p> <p> <span class="codeph"> gif-alpha  </span>:2～255色+キーカラー透明度を含むGIF </p> <p> <span class="codeph"> fxg  </span>:変数とDOM操作が適用されたFXG </p> <p> <span class="codeph">  fxgraw  </span>:元のFXGをサーバーに保存 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -34,17 +33,17 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 出力カラースペースの効果に使用できます。 </p> <p> <span class="codeph">  rgb  </span>:rgb画像データを返す </p> <p> <span class="codeph"> グレ </span>ー：グレースケール画像データを返す </p> <p> <span class="codeph"> cmyk  </span>:CMYK画像データを返す </p> </td> 
+  <td class="stentry"> <p> 出力カラースペースの効果に使用できます。 </p> <p> <span class="codeph">  rgb  </span>:RGB画像データを返す </p> <p> <span class="codeph"> グレー </span>:グレースケールの画像データを返す </p> <p> <span class="codeph"> cmyk  </span>:CMYK画像データを返す </p> </td> 
  </tr> 
 </table>
 
-`tiffCompression` は、tif、tif-alphaが形式として指定されている場合にのみ使用できます。これらの画像形式でサポートされる圧縮オプションについては、次の表を参照してください。
+`tiffCompression` は、tif、tif-alphaが形式として指定されている場合にのみ使用できます。これらの画像形式でサポートされる圧縮オプションについては、以下の表を参照してください。
 
-`qlt=` を使用して、次の形式のJPEGエンコーディングオプションを設定できます。JPEG、JPEG圧縮時のTIFF。quantize=は、fmt=gifまたはfmt=gif-alphaの場合に使用できます。 詳細については、コマンドの説明を参照してください。 その他の形式では、設定可能なオプションはありません。
+`qlt=` を使用して、次の形式のJPEGエンコーディングオプションを設定できます。JPEG、JPEG圧縮のTIFF。quantize=は、fmt=gifまたはfmt=gif-alphaの場合に使用できます。 詳しくは、コマンドの説明を参照してください。 その他の形式には、設定可能なオプションはありません。
 
-すべての形式と`pixelTypes[7]`に対して、ピクセルあたり8ビットのコンポーネントが返されます。
+すべての形式と`pixelTypes[7]`に対して、1ピクセルあたり8ビットのコンポーネントが返されます。
 
-次の表に、有効な形式と`pixelType`の組み合わせ（対応するHTTP応答のMIMEタイプ）を示します。
+次の表に、形式と`pixelType`（対応するHTTP応答のMIMEタイプ）の有効な組み合わせを示します。
 
 <table id="table_54AFE58185004C74971EFBA845E177B6"> 
  <thead> 
@@ -52,7 +51,7 @@ ht-degree: 3%
    <th colname="col1" class="entry"> <p><span class="varname"> フォーマット</span> </p> </th> 
    <th colname="col2" class="entry"> <p><span class="varname"> pixelType</span> </p> </th> 
    <th colname="col3" class="entry"> <p>応答のMIMEタイプ </p> </th> 
-   <th colname="col4" class="entry"> <p>ICCプロファイルを埋め込む </p> </th> 
+   <th colname="col4" class="entry"> <p>Embed ICC profile </p> </th> 
    <th colname="col5" class="entry"> <p>オプション </p> </th> 
   </tr> 
  </thead>
@@ -65,7 +64,7 @@ ht-degree: 3%
    <td> <p><span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>png、png-alpha </p> </td> 
+   <td> <p>png, png-alpha </p> </td> 
    <td> <p>rgb、グレー </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>はい </p> </td> 
@@ -93,11 +92,11 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>gif、gif-alpha </p> </td> 
+   <td> <p>gif, gif-alpha </p> </td> 
    <td> <p>rgb、グレー </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>no </p> </td> 
-   <td> <p><span class="codeph"> 量子化=</span> </p> </td> 
+   <td> <p><span class="codeph"> quantize=</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
