@@ -2,16 +2,15 @@
 description: PDFファイルのオプション
 solution: Experience Manager
 title: PDFOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 9%
 
 ---
-
 
 # PDFOptions{#pdfoptions}
 
@@ -25,8 +24,7 @@ PDFファイルのオプション
 |---|---|---|
 | `*`プロセス`*` | `xsd:string` | 「PDFプロセス」の選択 |
 | `*`resolution`*` | `xsd:double` | ファイルの解像度。 |
-| `*`カラースペース`*` | `xsd:string` | ポストスクリプトカラースペースモードの選択 |
+| `*`カラースペース`*` | `xsd:string` | ポストスクリプトカラースペースモードを選択します。 |
 | `*`pdfCatalog`*` | `xsd:boolean` | レンダリング後に複数ページのPDFをeCatalogに結合するかどうか（デフォルトはtrue）。 |
 | `*`extractSearchWords`*` | `xsd:boolean` | PDFファイルから検索語を抽出するかどうか。 |
-| `*`extractLinks`*` | `xsd:boolean` | IPS内のラスタライズページに割り当てられた画像マップにPDFリンクを抽出するかどうか。 |
-
+| `*`extractLinks`*` | `xsd:boolean` | IPS内のラスタライズされたページに割り当てられた画像マップにPDFリンクを抽出するかどうか。 |
