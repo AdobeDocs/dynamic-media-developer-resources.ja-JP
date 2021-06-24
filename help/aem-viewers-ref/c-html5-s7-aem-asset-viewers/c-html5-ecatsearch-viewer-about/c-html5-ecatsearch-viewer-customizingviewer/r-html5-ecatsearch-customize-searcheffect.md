@@ -1,21 +1,20 @@
 ---
-description: ビューアでは、メイン表示に検索結果領域が表示され、カタログ内の語句が強調表示されます。
+description: ビューアは、メインビューの検索結果領域を表示して、カタログ内の単語や語句をハイライト表示します。
 solution: Experience Manager
 title: 検索効果
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
 
-
 # 検索効果{#search-effect}
 
-ビューアでは、メイン表示に検索結果領域が表示され、カタログ内の語句が強調表示されます。
+ビューアは、メインビューの検索結果領域を表示して、カタログ内の単語や語句をハイライト表示します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -34,17 +33,16 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>検索結果領域の背景 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
+   <td colname="col2"> <p>検索結果領域の背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 半透明の黄色の塗りつぶしを使用して検索結果の領域を設定するには、次のように記述します。
+例 — 半透明で黄色の塗りつぶしを使用して検索結果の領域を設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
