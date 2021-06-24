@@ -1,27 +1,26 @@
 ---
-description: インラインズームモードでは、メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
+description: インラインズームモードのメインビューは、静的画像、フライアウトビューで静的画像の上に表示されるズームされた画像、静的画像の上に表示されるチップメッセージで構成されます。
 solution: Experience Manager
 title: フライアウトズーム表示
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 4%
 
 ---
 
-
 # フライアウトズーム表示{#flyout-zoom-view}
 
-インラインズームモードでは、メイン表示は、静的な画像、フライアウト表示に表示されるズームされた画像、静的な画像の上に表示されるチップメッセージで構成されます。
+インラインズームモードのメインビューは、静的画像、フライアウトビューで静的画像の上に表示されるズームされた画像、静的画像の上に表示されるチップメッセージで構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域のCSSプロパティ**
 
-メイン表示の外観は、以下のCSSクラスセレクターを使用して制御します。
+メインビューの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -37,12 +36,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> メイン表示の背景色。 </p> </td> 
+   <td colname="col2"> <p> メインビューの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メイン表示を透明にするには、次のように記述します。
+例 — メインビューを透明にするには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -52,13 +51,13 @@ ht-degree: 4%
 
 <!--<a id="section_FD07AB77593748F99DC6C42ED20A61EC"></a>-->
 
-チップメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
+ヒントメッセージの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-フォントスタイル、サイズの外観、および垂直方向のオフセットは、CSSを使用して設定できます。 ただし、水平方向の位置揃えはビューアのロジックに管理されます。 `left`プロパティまたは`right`プロパティを使用したCSSからの上書きはサポートされていません。
+CSSを使用して、フォントスタイル、サイズの外観、垂直方向のオフセットを設定できます。 ただし、水平方向の整列はビューアのロジックで管理されます。 `left`または`right`プロパティを使用したCSSによる上書きはサポートされていません。
 
 **チップメッセージのCSSプロパティ**
 
@@ -72,7 +71,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>メッセージの背景の塗りのカラー </p> </td> 
+   <td colname="col2"> <p>メッセージの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
@@ -80,7 +79,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> メイン表示の下端からのオフセット。 </p> </td> 
+   <td colname="col2"> <p> メインビューの下部からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -95,7 +94,7 @@ ht-degree: 4%
    <td colname="col2"> <p>フォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p> メッセージの背景の不透明度。 </p> </td> 
   </tr> 
   <tr> 
@@ -105,9 +104,9 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-ヒントメッセージはローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ヒントメッセージはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-例 — 半透明のチップメッセージを、白のArial 12pxフォント、メイン表示の下端から50ピクセルのオフセット、パディングおよび角丸付きの境界線付きで設定するには、次のように記述します。
+例 — 半透明のチップメッセージを、白のArial 12pxフォント、メインビューの下端から50ピクセルのオフセット、パディングおよび丸めた境界線付きで設定するには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
