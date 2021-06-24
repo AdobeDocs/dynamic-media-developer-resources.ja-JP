@@ -1,26 +1,25 @@
 ---
-description: リクエストの不明化モード 有効なリクエストに適用する必要がある不明化の種類を指定します。
+description: リクエストの難読化モード。 有効なリクエストに適用する必要がある難読化のタイプを指定します。
 solution: Experience Manager
 title: RequestObfuscation
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c330c8de-9539-442f-a52a-786f882873cf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
 
-
 # RequestObfuscation{#requestobfuscation}
 
-リクエストの不明化モード 有効なリクエストに適用する必要がある不明化の種類を指定します。
+リクエストの難読化モード。 有効なリクエストに適用する必要がある難読化のタイプを指定します。
 
 ## プロパティ {#section-0819432615324e259f24717e16835427}
 
-列挙。 要求の不明化を無効にするには0に設定し、base64エンコーディングを選択するには1に設定します。 現時点では、他の不明化方法はサポートされていません。
+列挙 リクエストの難読化を無効にする場合は0に、base64エンコーディングを選択する場合は1に設定します。 現時点では、他の難読化方法はサポートされていません。
 
 ## 初期設定 {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-定義されていない場合や空の場合は`default::RequestObfuscation`から継承されます。
+`default::RequestObfuscation`から継承されます（定義されていない場合または空の場合）。
