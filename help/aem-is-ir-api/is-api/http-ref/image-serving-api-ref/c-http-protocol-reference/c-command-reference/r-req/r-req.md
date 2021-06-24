@@ -1,21 +1,20 @@
 ---
-description: リクエストのタイプ。 リクエストのタイプを指定します。
+description: リクエストタイプ。 リクエストのタイプを指定します。
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 9%
 
 ---
 
-
 # req{#req}
 
-リクエストのタイプ。 リクエストのタイプを指定します。
+リクエストタイプ。 リクエストのタイプを指定します。
 
 `req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`オプション`*]`
 
@@ -26,7 +25,7 @@ ht-degree: 9%
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
 * [マップ](r-map-req.md)
-* [mask](r-mask-req.md)
+* [マスク](r-mask-req.md)
 * [mbrSet](r-mbrset.md)
 * [message](r-message.md)
 * [prop](r-props.md)
@@ -40,8 +39,8 @@ ht-degree: 9%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-詳細な説明に特に記載がない限り、サーバはMIMEタイプ`text/plain`の`text`応答を返します。 多くのリクエストタイプでは、`text`などの応答タイプを指定できます。通常は、`javascript`、`xml`、`json`がデフォルトです。 関連する応答MIMEタイプは、それぞれ`text/plain`、`text/javascript`、`text/xml`、`text/javascript`です。
+詳細な説明に特に記載がない限り、サーバーはMIMEタイプ`text/plain`の`text`応答を返します。 多くのリクエストタイプでは、`text`などの応答タイプを指定できます。通常は、`javascript`、`xml`、`json`です。 関連する応答のMIMEタイプは、それぞれ`text/plain`、`text/javascript`、`text/xml`、`text/javascript`です。
 
-特に断りのない限り、応答は`name=value`のペアのセットとして形式設定されます。
+特に断りのない限り、応答は`name=value`のペアのセットとしてフォーマットされます。
 
-「[プロパティ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)」を参照してください。
+[プロパティ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)を参照してください。
