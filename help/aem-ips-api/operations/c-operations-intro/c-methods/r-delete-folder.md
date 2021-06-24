@@ -1,25 +1,24 @@
 ---
-description: フォルダを削除します。
+description: フォルダーを削除します。
 solution: Experience Manager
 title: deleteFolder
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 10%
 
 ---
 
-
 # deleteFolder{#deletefolder}
 
-フォルダを削除します。
+フォルダーを削除します。
 
 構文
 
-## 認証済みユーザータイプ{#section-1c15a74c41194744a81f5ca86fe26585}
+## 許可されたユーザーの種類 {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->ユーザーは、フォルダーとそのすべての子に対する読み取りと削除のアクセス権を持っている必要があります。
+>ユーザーは、フォルダーとそのすべての子に対する読み取りおよび削除アクセス権を持っている必要があります。
 
 ## パラメータ {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
@@ -38,7 +37,7 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社ーのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | フォルダーが属する会社へのハンドル。 |
 | `*`folderHandle`*` | `xsd:string` | はい | 削除するフォルダーのハンドル。 |
 
 **出力(deleteFolderParam)**
@@ -47,7 +46,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-次のサンプルコードは、会社ーのルートからフォルダーを削除します。 フォルダーハンドルが必要です。このハンドルは、別の操作から取得する必要があります。
+このサンプルコードでは、会社のルートからフォルダーを削除します。 別の操作から取得する必要があるフォルダーハンドルが必要です。
 
 **リクエスト**
 
