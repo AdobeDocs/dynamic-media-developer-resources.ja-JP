@@ -2,16 +2,15 @@
 description: 配列内のすべてのユーザーを取得します。
 solution: Experience Manager
 title: getAllUsers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 構文
 
-## 認証済みユーザータイプ{#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 許可されたユーザーの種類 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -46,7 +45,7 @@ ht-degree: 19%
    <td colname="col3"> はい </td> 
    <td colname="col4">次に設定： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 無効なユーザーを</span> 含めることをtrueに設定します。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> 無効なユーザーを含めることを有効にします。 </li> 
      <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false無効なユーザーを省略します。 </li> 
     </ul> </td> 
   </tr> 
@@ -62,7 +61,7 @@ ht-degree: 19%
 
 ## 例 {#section-9c9a2d335513478da20652c1b1443731}
 
-このコードサンプルを使用すると、すべてのユーザーが返されます。 応答が短くなるため切り捨てられます。
+このコードサンプルは、すべてのユーザーを返します。 簡潔にするために応答は切り捨てられます。
 
 **リクエスト**
 
@@ -90,4 +89,3 @@ ht-degree: 19%
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
