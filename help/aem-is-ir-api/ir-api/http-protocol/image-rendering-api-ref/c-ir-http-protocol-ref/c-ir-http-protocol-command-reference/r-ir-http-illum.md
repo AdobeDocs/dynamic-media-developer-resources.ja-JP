@@ -1,31 +1,30 @@
 ---
-description: 照明マップセレクタ このマテリアルをレンダリングする際に使用する照明マップを指定します。
+description: イルミネーションマップセレクタ このマテリアルをレンダリングする照明マップを指定します。
 solution: Experience Manager
 title: イラム
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
 
-
 # イラム{#illum}
 
-照明マップセレクタ このマテリアルをレンダリングする際に使用する照明マップを指定します。
+イルミネーションマップセレクタ このマテリアルをレンダリングする照明マップを指定します。
 
 `illum=-1|0|1|2`
 
-指定した照明マップがターゲットビネットで使用できない場合は、代わりに使用可能な最も近いマップが使用されます。
+指定した照明マップが対象のビネットで使用できない場合は、代わりに、最も近い使用可能なマップが使用されます。
 
-`illum=-1` は、 `gloss=` 値に基づいて照明マップが自動的に選択されるように指定します。
+`illum=-1` は、値に基づいて照明マップが自動的に選択されるように指 `gloss=` 定します。
 
 ## プロパティ {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-マテリアル属性 ビネットで複数の照明マップが定義されていない場合は無視されます。
+マテリアル属性。 ビネットで複数のイルミネーションマップが定義されていない場合は無視されます。
 
 ## 初期設定 {#section-c96ecfb232074e80b6a29076f5199403}
 
