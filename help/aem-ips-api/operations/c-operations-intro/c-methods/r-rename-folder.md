@@ -1,25 +1,24 @@
 ---
-description: フォルダの名前を変更します。
+description: フォルダーの名前を変更します。
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 20%
 
 ---
 
-
 # renameFolder{#renamefolder}
 
-フォルダの名前を変更します。
+フォルダーの名前を変更します。
 
 構文
 
-## 認証済みユーザータイプ{#section-5a252b00937d4befbec76fa23fbae9df}
+## 許可されたユーザーの種類 {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,19 +37,19 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 名前を変更する会社ーを処理します。 |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 名前を変更するフォルダを持つ会社に対して処理します。 |
+| `*`folderHandle`*` | `xsd:string` | はい | フォルダーを処理します。 |
 | `*`folderName`*` | `xsd:string` | はい | 新しいフォルダー名。 |
 
 **出力(renameFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | はい | 名前を変更したフォルダーへのハンドル。 |
+| `*`folderHandle`*` | `xsd:string` | はい | 名前を変更したフォルダーを処理します。 |
 
 ## 例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
-このコードのサンプルを使用すると、フォルダーの名前を変更できます。
+このコードサンプルは、フォルダーの名前を変更します。
 
 **リクエスト**
 
@@ -69,4 +68,3 @@ ht-degree: 20%
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-
