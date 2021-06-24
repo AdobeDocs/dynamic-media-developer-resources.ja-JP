@@ -2,16 +2,15 @@
 description: 色に基づいて画像を自動的に切り抜くオプションです。
 solution: Experience Manager
 title: AutoColorCropOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 9%
 
 ---
-
 
 # AutoColorCropOptions{#autocolorcropoptions}
 
@@ -33,17 +32,16 @@ ht-degree: 9%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 「角を自動切り抜き」の選択 </td> 
+   <td colname="col3"> 自動切り抜きのコーナーの選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 耐性</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
-   <td colname="col3">カラーマッチの指定 用途： 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 許容</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3">カラーマッチの指定。 用途： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0の場合、色が完全に一致します。 </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1を指定すると、最も多くの色の違いが有効になります。 </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0の場合は色が正確に一致します。 </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1：最も多くの色差を有効にします。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
