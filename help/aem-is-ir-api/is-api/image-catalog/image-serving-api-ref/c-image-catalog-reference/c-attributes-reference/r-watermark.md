@@ -1,27 +1,26 @@
 ---
-description: 透かしの選択。 透かしの画像またはテンプレートとして使用するカタログレコードのカタログIDを指定します。
+description: 透かしセレクター 透かし画像またはテンプレートとして使用するカタログレコードのカタログIDを指定します。
 solution: Experience Manager
 title: 透かし
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
 
-
 # 透かし{#watermark}
 
-透かしの選択。 透かしの画像またはテンプレートとして使用するカタログレコードのcatalog::Idを指定します。
+透かしセレクター 透かし画像またはテンプレートとして使用するカタログレコードのcatalog::Idを指定します。
 
-指定した場合、サーバーは要求されたすべてのイメージ要求(`req=img`)のイメージデータに透かしを適用します。
+指定した場合、サーバは要求されたすべてのイメージ要求(`req=img`)のイメージデータに透かしを適用する。
 
 ## プロパティ {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-テキスト文字列。 指定する場合、この画像カタログ（または[!DNL default.ini]で指定する場合は初期設定のカタログ）内の有効な`Catalog::Id`値である必要があります。
+テキスト文字列。 指定する場合、この画像カタログ（または[!DNL default.ini]で指定する場合はデフォルトのカタログ）の有効な`Catalog::Id`値である必要があります。
 
 ## 初期設定 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
