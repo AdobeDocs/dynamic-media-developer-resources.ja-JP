@@ -2,22 +2,21 @@
 description: ジョブの出力を削除します。
 solution: Experience Manager
 title: batchjobdelete
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
-
 
 # batchjobdelete{#batchjobdelete}
 
 ジョブの出力を削除します。
 
-ジョブが現在実行中の場合、ジョブは直ちに停止され、そのすべての処理情報が削除されます。 ジョブが正常に完了した場合は、出力ファイルが削除されます。
+ジョブが現在実行中の場合は、即座に停止され、そのすべての処理情報が削除されます。 ジョブが正常に完了した場合は、出力ファイルが削除されます。
 
 このパラメーター：
 
@@ -30,7 +29,7 @@ ht-degree: 1%
 
 戻り値：
 
-削除要求を受け取った時点のジョブのステータス。`jobid`が無効な場合、またはジョブが既に削除されている場合はエラー。
+削除要求を受信した時点でのジョブのステータス。`jobid`が無効な場合、またはジョブが既に削除されている場合にエラーが発生します。
 
 ## 例 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
