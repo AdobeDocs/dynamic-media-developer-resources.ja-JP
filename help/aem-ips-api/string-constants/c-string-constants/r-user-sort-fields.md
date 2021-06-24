@@ -2,18 +2,17 @@
 description: getUsersParam/sortByで使用されます。
 solution: Experience Manager
 title: ユーザーの並べ替えフィールド
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 23d98e61-2873-41ed-8835-89b218cd89f3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
-
-# ユーザー並べ替えフィールド{#user-sort-fields}
+# ユーザーの並べ替えフィールド{#user-sort-fields}
 
 getUsersParam/sortByで使用されます。
 
@@ -28,4 +27,3 @@ getUsersParam/sortByで使用されます。
 * [!DNL `Role`]
 * [!DNL `Valid`]
 * [!DNL `PasswordExpiration`]
-
