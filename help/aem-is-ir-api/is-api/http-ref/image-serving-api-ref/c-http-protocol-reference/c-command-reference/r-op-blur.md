@@ -1,28 +1,27 @@
 ---
-description: ぼかし画像。 画像データにぼかしフィルタを適用します。
+description: ぼかし画像。 画像データにぼかしフィルターを適用します。
 solution: Experience Manager
 title: op_blur
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
-
 # op_blur{#op-blur}
 
-ぼかし画像。 画像データにぼかしフィルタを適用します。
+ぼかし画像。 画像データにぼかしフィルターを適用します。
 
 `op_blur= *`radius`*`
 
 <table id="simpletable_1DD41D819BE74130A77ECFC28486F70A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> radius</span> </p> </td> 
-  <td class="stentry"> <p>ぼかしフィルターの半径（ピクセル単位、実数0 ～ 100） </p></td> 
+  <td class="stentry"> <p>ぼかしフィルタの半径（ピクセル単位、実数0 ～ 100）。 </p></td> 
  </tr> 
 </table>
 
@@ -30,7 +29,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-レイヤーコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。
+レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。
 
 ## 初期設定 {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -38,6 +37,6 @@ ht-degree: 2%
 
 ## 例 {#section-1ebacde68388492eb108ae0fcd7424db}
 
-画像の背景をぼかします。 `catalog::MaskPath`は別のマスク画像を参照します。 `layer=0`は明示的に指定する必要があります。明示的に指定しないと、`op_blur`は合成画像全体に適用されます。
+画像の背景をぼかします。 `catalog::MaskPath`は別のマスク画像を参照します。 `layer=0`を明示的に指定する必要があります。そうしないと、 `op_blur`が合成画像全体に適用されます。
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
