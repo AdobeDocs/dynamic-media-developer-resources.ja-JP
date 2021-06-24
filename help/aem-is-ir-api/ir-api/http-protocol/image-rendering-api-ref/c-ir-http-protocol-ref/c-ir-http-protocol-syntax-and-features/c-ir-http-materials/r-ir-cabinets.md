@@ -1,25 +1,24 @@
 ---
-description: キャビネットマテリアルは、キャビネットスタイルのファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義、およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
+description: キャビネットマテリアルは、キャビネットスタイルファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
 solution: Experience Manager
 title: キャビネット
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 5%
 
 ---
 
-
 # キャビネット{#cabinets}
 
-キャビネットマテリアルは、キャビネットスタイルのファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義、およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
+キャビネットマテリアルは、キャビネットスタイルファイル（.vncファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
 
-[!DNL vnc] ファイルには、繰り返し可能な木目テクスチャを含めることも、に2番目の引数を渡してテクスチャを外部に提供することもでき `src=`ます。一部の[!DNL vnc]ファイルでは、キャビネットフロントの選択した領域に色を付けたりテクスチャを付けたりすることができます（通常、ラミネートキャビネットスタイルに使用されます）。
+[!DNL vnc] ファイルには、繰り返し可能な木目テクスチャを含めることも、2番目の引数を指定してテクスチャを外部で提供することもでき `src=`ます。特定の[!DNL vnc]ファイルでは、キャビネット前面の選択した領域をカラー化またはテクスチャリングできます（通常、ラミネートキャビネットスタイルに使用）。
 
-キャビネットのマテリアルは、キャビネットオブジェクトにのみ適用できます。
+キャビネットマテリアルは、キャビネットオブジェクトにのみ適用できます。
 
 <table id="table_0B16200886FE4DFEBB1E4BE8FBA67EE4"> 
  <thead> 
@@ -37,7 +36,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>オプションのテクスチャイメージファイル（<span class="codeph"> src= </span>の2番目の値） </p> </td> 
+   <td colname="col2"> <p>オプションのテクスチャイメージファイル（<span class="codeph"> src= </span>の2番目の値）。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +46,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>キャビネットやテクスチャに色彩を付けます。 </p> </td> 
+   <td colname="col2"> <p>キャビネットやテクスチャに色を付けます。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
@@ -58,8 +57,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> flags=  </span> </a> </p> </td> 
    <td colname="col2"> <p>特殊なレンダリングフラグ。 </p> </td> 
-   <td colname="col3"> <p>0（フラグなし） </p> </td> 
+   <td colname="col3"> <p>0 （フラグなし） </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
