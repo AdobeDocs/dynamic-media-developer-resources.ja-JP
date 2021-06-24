@@ -1,32 +1,31 @@
 ---
-description: 照明マップセレクタ このマテリアルをレンダリングする際に、照明マップの明示的な選択を使用できます。
+description: イルミネーションマップセレクタ このマテリアルをレンダリングする際に、照明マップを明示的に選択できます。
 solution: Experience Manager
 title: イルム
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 4%
 
 ---
 
+# イルム{#illum}
 
-# イラム{#illum}
-
-照明マップセレクタ このマテリアルをレンダリングする際に、照明マップの明示的な選択を使用できます。
+イルミネーションマップセレクタ このマテリアルをレンダリングする際に、照明マップを明示的に選択できます。
 
 ## プロパティ {#section-162bcf562ca844ccba9e81e267508cca}
 
-列挙。 catalog::Glossの値に基づいて照明マップを自動的に選択するには、-1に設定します。
+列挙 catalog::Glossの値に基づいて照明マップを自動選択する場合は、-1に設定します。
 
-0、1、または2に設定して照明マップA、B、またはCを選択します。レンダラーはビネットで使用可能な最も近い照明マップを選択します。
+0、1、または2に設定して、照明マップA、B、またはCを選択します。ビネットで使用可能な最も近い照明マップが選択されます。
 
 ## 初期設定 {#section-ac386d31ef90423b8a367010a60bddc7}
 
--1（自動選択）
+-1 （自動選択）
 
 ## 関連項目 {#section-d9db8507a5e54692b84f54b3f84b782a}
 
-[属性：光沢](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb)
+[属性：：光沢](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb)
