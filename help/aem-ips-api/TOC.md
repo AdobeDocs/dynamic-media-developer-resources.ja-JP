@@ -1,25 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media 画像制作システム API
 feature-set: Experience Manager Assets
-user-guide-description: IPS（Image Production System）Web Service API を使用すると、外部アプリケーションおよびサードパーティ開発者は、IPS アセットおよび機能にプログラムによってアクセスできます。
-translation-type: tm+mt
+user-guide-description: IPS（Image Production System）Web Service API を使用すると、外部アプリケーションとサードパーティの開発者は、IPS のアセットと機能にプログラムでアクセスできます。
 source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 
-# Dynamic Media画像制作システムAPI  {#image-production-api}
+# Dynamic Media 画像制作システム API {#image-production-api}
 
-+ [Dynamic Mediaイメージ制作システムAPIについて](c-overview.md)
++ [Dynamic Media Image Production System APIについて](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
-+ [IPS Web Service WSDLバージョン](c-wsdl-versions.md)
++ [IPS WebサービスWSDLバージョン](c-wsdl-versions.md)
 + 操作メソッド{#operation-methods}
    + [操作メソッド](operations/c-operations-intro/c-operations-intro.md)
-   + 操作パラメーター{#operation-parameters}
+   + 操作パラメータ{#operation-parameters}
       + [操作パラメーターの概要](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -62,7 +61,7 @@ ht-degree: 8%
       + [deletePropertySet](operations/c-operations-intro/c-methods/r-delete-property-set.md)
       + [deletePropertySetType](operations/c-operations-intro/c-methods/r-delete-property-set-type.md)
       + [deleteTagFieldValues](operations/c-operations-intro/c-methods/r-delete-tag-field-values.md)
-      + [deleteVignetPublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
+      + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
       + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
@@ -211,7 +210,7 @@ ht-degree: 8%
    + [BatchMetadataUpdateArray](types/c-data-types/r-batch-metadata-update-array.md)
    + [CabinetInfo](types/c-data-types/r-cabinet-info.md)
    + [ColorManagementOptions](types/c-data-types/r-color-management-options.md)
-   + [会社](types/c-data-types/r-company.md)
+   + [会社名](types/c-data-types/r-company.md)
    + [CompanyArray](types/c-data-types/r-company-array.md)
    + [CompanyMember](types/c-data-types/r-company-member.md)
    + [CompanyMemberArray](types/c-data-types/r-company-member-array.md)
@@ -248,7 +247,7 @@ ht-degree: 8%
    + [GenerationAttributeArray](types/c-data-types/r-generation-attribute-array.md)
    + [GenerationInfo](types/c-data-types/r-generation-info.md)
    + [GenerationInfoArray](types/c-data-types/r-generation-info-array.md)
-   + [Group](types/c-data-types/r-group.md)
+   + [グループ](types/c-data-types/r-group.md)
    + [GroupArray](types/c-data-types/r-group-array.md)
    + [HandleArray](types/c-data-types/r-handle-array.md)
    + [IccProfileFieldUpdate](types/c-data-types/r-icc-profile-field-update.md)
@@ -310,7 +309,7 @@ ht-degree: 8%
    + [PdfSettingsInfo](types/c-data-types/r-pdf-settings-info.md)
    + [権限](types/c-data-types/r-permissions.md)
    + [PermissionArray](types/c-data-types/r-permission-array.md)
-   + [PermissionSet](types/c-data-types/r-permission-set.md)
+   + [PermissonSet](types/c-data-types/r-permission-set.md)
    + [PermissionSetArray](types/c-data-types/r-permission-set-array.md)
    + [PermissionUpdate](types/c-data-types/r-permission-update.md)
    + [PermissionUpdateArray](types/c-data-types/r-permission-update-array.md)
@@ -320,7 +319,7 @@ ht-degree: 8%
    + [PostScriptInfo](types/c-data-types/r-post-script-info.md)
    + [PostScriptOptions](types/c-data-types/r-post-script-options.md)
    + [PowerPointInfo](types/c-data-types/r-power-point-info.md)
-   + [Adobe PremiereExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
+   + [PremierExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
    + [プロジェクト](types/c-data-types/r-project.md)
    + [ProjectArray](types/c-data-types/r-project-array.md)
    + [プロパティ](types/c-data-types/r-property.md)
@@ -401,39 +400,39 @@ ht-degree: 8%
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
 + 文字列定数{#sting-constants}
    + [文字列定数](string-constants/c-string-constants/c-string-constants.md)
-   + [アクティブなジョブの状態](string-constants/c-string-constants/r-active-job-states.md)
-   + [Asset Search System Fields](string-constants/c-string-constants/r-asset-search-system-fields.md)
+   + [アクティブなジョブ状態](string-constants/c-string-constants/r-active-job-states.md)
+   + [アセット検索システムのフィールド](string-constants/c-string-constants/r-asset-search-system-fields.md)
    + [アセットの上書きモード](string-constants/c-string-constants/r-asset-overwrite-modes.md)
    + [アセットの並べ替えフィールド](string-constants/c-string-constants/r-asset-sort-fields.md)
    + [アセットタイプ](string-constants/c-string-constants/r-asset-types.md)
-   + [角を自動切り抜き](string-constants/c-string-constants/r-auto-crop-corner.md)
+   + [自動切り抜きの角](string-constants/c-string-constants/r-auto-crop-corner.md)
    + [カラーマネジメントモード](string-constants/c-string-constants/r-color-management-modes.md)
    + [カラースペース](string-constants/c-string-constants/r-color-spaces.md)
    + [電子メール設定](string-constants/c-string-constants/r-email-settings.md)
    + [フォントスタイル](string-constants/c-string-constants/r-font-styles.md)
-   + [フォントの種類](string-constants/c-string-constants/r-font-types.md)
+   + [フォントタイプ](string-constants/c-string-constants/r-font-types.md)
    + [生成情報](string-constants/c-string-constants/r-generation-info.md)
    + [Illustratorプロセス](string-constants/c-string-constants/r-illustrator-processes.md)
-   + [ジョブログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
+   + [ジョブのログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
    + [ジョブログの並べ替えフィールド](string-constants/c-string-constants/r-job-log-sort-fields.md)
-   + [ジョブログの種類](string-constants/c-string-constants/r-job-log-types.md)
+   + [ジョブのログの種類](string-constants/c-string-constants/r-job-log-types.md)
    + [ジョブトリガーの状態](string-constants/c-string-constants/r-job-trigger-states.md)
    + [ジョブタイプ](string-constants/c-string-constants/r-job-types.md)
-   + [メタデータフィールドの種類](string-constants/c-string-constants/r-metadata-field-types.md)
+   + [メタデータフィールドタイプ](string-constants/c-string-constants/r-metadata-field-types.md)
    + [数値/日付比較演算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [PDFプロセス](string-constants/c-string-constants/r-pdf-processes.md)
-   + [権限の種類](string-constants/c-string-constants/r-permission-types.md)
+   + [権限タイプ](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshopアンカーモード](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshopレイヤーの命名モード](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
-   + [PostScriptカラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
+   + [PostScriptのカラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [プロファイルクラス](string-constants/c-string-constants/r-profile-classes.md)
-   + [発行状態](string-constants/c-string-constants/r-publish-state.md)
-   + [プロパティセットの種類](string-constants/c-string-constants/r-property-set-types.md)
+   + [公開状態](string-constants/c-string-constants/r-publish-state.md)
+   + [プロパティセットタイプ](string-constants/c-string-constants/r-property-set-types.md)
    + [公開コンテキスト](string-constants/c-string-constants/r-publish-context.md)
    + [発行タイプ](string-constants/c-string-constants/r-publish-types.md)
    + [領域の形状](string-constants/c-string-constants/r-region-shape.md)
    + [検索一致モード](string-constants/c-string-constants/r-search-match-modes.md)
-   + [並べ替え方向](string-constants/c-string-constants/r-sort-directions.md)
+   + [並べ替え方法](string-constants/c-string-constants/r-sort-directions.md)
    + [文字列比較演算子](string-constants/c-string-constants/r-string-comparison-operators.md)
    + [ごみ箱の状態](string-constants/c-string-constants/r-trash-state.md)
    + [ユーザー文字フィルターフィールド](string-constants/c-string-constants/r-user-char-filter-fields.md)
@@ -448,33 +447,33 @@ ht-degree: 8%
 + 変更ログ{#change-log}
    + [変更ログ](change-log/c-change-log.md)
    + バージョン6.0 {#version-6-0}
-      + [バージョン6.0](change-log/c-change-log/c-6/c-6.md)
+      + [バージョン 6.0](change-log/c-change-log/c-6/c-6.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-6/r-6-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-6/r-6-types.md)
    + バージョン4.5 {#version-4-5}
-      + [バージョン4.5](change-log/c-change-log/c-4-5/c-4-5.md)
+      + [バージョン 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [使用制限](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + バージョン4.4 {#version-4-4}
-      + [バージョン4.4](change-log/c-change-log/c-4-4/c-4-4.md)
+      + [バージョン 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + バージョン4.2 {#version-4-2}
-      + [バージョン4.2](change-log/c-change-log/c-4-2/c-4-2.md)
+      + [バージョン 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + バージョン4.0 {#version-4-0}
-      + [バージョン4.0](change-log/c-change-log/c-4-0/c-4-0.md)
+      + [バージョン 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新しい追加と変更](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + バージョン3.8 {#version-3-8}
-      + [バージョン3.8](change-log/c-change-log/c-3-8/c-3-8.md)
+      + [バージョン 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + バージョン3.7 {#version-3-7}
-      + [バージョン3.7](change-log/c-change-log/c-3-7/c-3-7.md)
+      + [バージョン 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
-+ [HTTP POSTを使用してUploadFileにアセットをアップロードする…](c-http-post.md)
++ [HTTP POSTを使用してUploadFileにアセットをアップロードしています…](c-http-post.md)
