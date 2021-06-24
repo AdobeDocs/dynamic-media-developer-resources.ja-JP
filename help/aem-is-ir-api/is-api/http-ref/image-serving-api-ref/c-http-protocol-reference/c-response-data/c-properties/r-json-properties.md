@@ -1,23 +1,22 @@
 ---
-description: 応答形式としてjsonpを指定した場合、応答データはJSONP（パディング付きのJavaScriptオブジェクト表記）を使用して形式設定され、JavaScript関数の呼び出しでラップされます。
+description: 応答形式としてjsonpを指定した場合、応答データはJSONP(JavaScript Object Notation with Padding)を使用して形式設定され、JavaScript関数呼び出しでラップされます。
 solution: Experience Manager
 title: JSONPプロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
 
-
 # JSONPプロパティ{#jsonp-properties}
 
-応答形式としてjsonpを指定した場合、応答データはJSONP（パディング付きのJavaScriptオブジェクト表記）を使用して形式設定され、JavaScript関数の呼び出しでラップされます。
+応答形式としてjsonpを指定した場合、応答データはJSONP(JavaScript Object Notation with Padding)を使用して形式設定され、JavaScript関数呼び出しでラップされます。
 
-クライアントは、オプションで一意の要求識別子(*`reqId`*)を指定できます。これは応答で返され、クライアントは非同期に受信した複数の応答を区別できます。 一般的な応答の一般的な構造は次のとおりです。
+クライアントは、オプションで一意の要求識別子(*`reqId`*)を指定できます。この識別子は応答で返され、クライアントは非同期で受信した複数の応答を区別できます。 一般的な応答の一般的な構造は次のとおりです。
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -38,7 +37,7 @@ ht-degree: 1%
 </varname>" );
 ```
 
-`s7jsonResponse` JavaScript関数は、クライアントが定義する必要があります。 最も単純な形式では、関数は次のようになります。
+`s7jsonResponse` JavaScript関数は、クライアントによって定義される必要があります。 最も簡単な形式では、関数は次のようになります。
 
 ```
 var responseData; 
@@ -48,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler]`
 
 `<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
 
-Dynamic Media画像サービングビューアパッケージには、画像サービングからJSONP形式のデータを要求し、解析するユーティリティが含まれています。
+Dynamic Media Image Serving Viewersパッケージには、画像サービングからJSONP形式のデータを要求して解析するユーティリティが含まれています。
 
-JSONP形式について詳しくは、[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)を参照してください。
+JSONP形式について詳しくは、 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)を参照してください。
 
-JSON形式について詳しくは、[www.json.org](http://www.json.org)を参照してください。
+JSON形式について詳しくは、 [www.json.org](http://www.json.org)を参照してください。
 
 [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)も参照してください。
