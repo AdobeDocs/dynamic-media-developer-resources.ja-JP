@@ -1,17 +1,16 @@
 ---
-description: 操作のパラメーター
+description: 操作パラメーター
 solution: Experience Manager
-title: 操作のパラメーター
-feature: Dynamic Media Classic,SDK/API
+title: 操作パラメーター
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # 操作パラメーター{#operation-parameters}
 
@@ -56,7 +55,7 @@ ht-degree: 0%
 * [deletePropertySet](r-delete-property-set.md)
 * [deletePropertySetType](r-delete-property-set-type.md)
 * [deleteTagFieldValues](r-delete-tag-field-values.md)
-* [deleteVignetPublishFormat](r-delete-vignette-publish-format.md)
+* [deleteVignettePublishFormat](r-delete-vignette-publish-format.md)
 * [deleteZoomTarget](r-delete-zoom-target.md)
 * [emptyAssetsFromTrash](r-empty-assets-from-trash.md)
 * [executeJob](r-execute-job.md)
