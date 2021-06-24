@@ -1,23 +1,22 @@
 ---
-description: ページインジケーターには、現在のページのインデックスと合計ページ数が表示されます。 このボタンは、デスクトップシステムおよびタブレットではメインコントロールバーに表示され、携帯電話ではセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用して、サイズ設定、スキン表示および配置できます。
+description: ページインジケーターは、現在のページインデックスと合計ページ数を表示します。 デスクトップシステムおよびタブレットのメインコントロールバーに表示され、携帯電話の場合はセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用してサイズ設定、スキン、配置できます。
 solution: Experience Manager
 title: ページインジケーター
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
 
+# ページインジケーター{#page-indicator}
 
-# ページインジケータ{#page-indicator}
+ページインジケーターは、現在のページインデックスと合計ページ数を表示します。 デスクトップシステムおよびタブレットのメインコントロールバーに表示され、携帯電話の場合はセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用してサイズ設定、スキン、配置できます。
 
-ページインジケーターには、現在のページのインデックスと合計ページ数が表示されます。 このボタンは、デスクトップシステムおよびタブレットではメインコントロールバーに表示され、携帯電話ではセカンダリコントロールバーに追加されます。 ページインジケーターは、CSSを使用して、サイズ設定、スキン表示および配置できます。
-
-ページインジケーターの外観は、以下のCSSクラスセレクターを使用して制御します。
+外観ページインジケーターは、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7pageindicator`
 
@@ -82,4 +81,3 @@ ht-degree: 3%
  font-size:14px; 
 }
 ```
-
