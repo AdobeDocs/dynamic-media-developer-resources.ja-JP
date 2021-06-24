@@ -1,27 +1,26 @@
 ---
-description: プリフィックス要求修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
+description: プレフィックスリクエスト修飾子文字列。 なしまたはそれ以上の画像サービングコマンドを「&」文字で区切って指定します。
 solution: Experience Manager
 title: 修飾子
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # 修飾子{#modifier}
 
-プリフィックス要求修飾子文字列 「&amp;」文字で区切られた1つ以上の画像サービングコマンド。
+プレフィックスリクエスト修飾子文字列。 なしまたはそれ以上の画像サービングコマンドを「&amp;」文字で区切って指定します。
 
 画像を永続的に変更し、テンプレートの本文を保存するために使用します。
 
-このフィールドのコマンドは、このレコードが参照されるリクエストまたはテンプレート内の同じコマンドと、`catalog::PostModifier`内のコマンドによって上書きされます
+このフィールドのコマンドは、このレコードが参照されるリクエストまたはテンプレート内の同じコマンドと`catalog::PostModifier`内のコマンドによって上書きされます。
 
-マクロは、同じカタログまたは初期設定のカタログで定義されている限り、`catalog::Modifier`で許可されます。 カスタム変数も使用できます。
+マクロは、同じカタログまたはデフォルトのカタログで定義されている限り、`catalog::Modifier`で許可されます。 カスタム変数も使用できます。
 
 ## プロパティ {#section-6674388f77d644469371a17e8809c45f}
 
