@@ -1,24 +1,22 @@
 ---
-description: Windows上のImage ServerとPlatform Serverの開始/停止には、いくつかのメカニズムがあります
+description: Windows上でImage ServerとPlatform Serverを起動/停止するメカニズムがいくつか存在します
 solution: Experience Manager
-title: Windowsでの起動と停止
-feature: Dynamic Media Classic,SDK/API
+title: Windowsでの起動または停止
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9c7dc74a-5965-428f-9146-6b39c46b318f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
+# Windowsでの起動または停止{#starting-or-stopping-on-windows}
 
-# Windowsでの起動と停止{#starting-or-stopping-on-windows}
+Windows上でImage ServerとPlatform Serverを起動/停止するメカニズムがいくつか存在します
 
-Windows上のImage ServerとPlatform Serverの開始/停止には、いくつかのメカニズムがあります
+1. 画像サービングを開始または停止するには、次のいずれかを選択します。
 
-1. 次のいずれかを選択して、画像サービングを開始または停止します。
-
-* WindowsサービスCampaign コントロールパネルは、「Dynamic Media画像サービング」サービスの開始、停止、再起動、状態の検証に使用できます。
-* **[!UICONTROL 開始メニュー]**>すべてのプログラム **[!UICONTROL >]** Dynamic Media(Scene7) **[!UICONTROL >]** **** **** サービングサービス>サービングサービス>制御開始サービスは、Dynamic Media画像サービスの、停止、再起動のコマンドを提供します。
-
+* WindowsサービスCampaign コントロールパネルを使用して、「Dynamic Media Image Serving」サービスの開始、停止、再起動、ステータスの検証を行うことができます。
+* **[!UICONTROL スタートメニュー]**/ **[!UICONTROL すべてのプログラム]**/ **[!UICONTROL Dynamic Media(Scene7)]**/ **[!UICONTROL 画像サービング]**/ **[!UICONTROL コントロール]** サービスには、Dynamic Media Image Servingサービスを開始、停止、および再起動するコマンドが用意されています。
