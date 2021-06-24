@@ -1,25 +1,24 @@
 ---
-description: 渡されたイメージのPhotoshopパス名の配列を返します。
+description: 指定された画像のPhotoshopパス名の配列を返します。
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
 
-
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-渡されたイメージのPhotoshopパス名の配列を返します。
+指定された画像のPhotoshopパス名の配列を返します。
 
 構文
 
-## 認証済みユーザータイプ{#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 許可されたユーザーの種類 {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,14 +34,14 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 操作する画像が含まれる会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 画像アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 操作する画像を含む会社に対して処理します。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 画像アセットを処理します。 |
 
 **出力(getPhotoshopPathNamesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | はい | イメージ内のPhotoshopパス名の配列。 |
+| `*`pathNameArray`*` | `types:StringArray` | はい | 画像内のPhotoshopパス名の配列。 |
 
 ## 例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
@@ -65,4 +64,3 @@ ht-degree: 19%
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
