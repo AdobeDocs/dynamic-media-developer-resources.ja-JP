@@ -1,21 +1,20 @@
 ---
-description: 初期設定の返信画像 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
+description: デフォルトの返信画像。 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
 solution: Experience Manager
 title: defaultImage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 741833b5-e858-4aa5-96c1-bb06539deef3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 2%
 
 ---
 
-
 # defaultImage{#defaultimage}
 
-初期設定の返信画像 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
+デフォルトの返信画像。 画像が見つからない場合に使用する画像またはカタログエントリを指定します。
 
 ` defaultImage= *`オブジェクト`*`
 
@@ -26,25 +25,25 @@ ht-degree: 2%
  </tr> 
 </table>
 
-*`object`* は、カタログエントリ（テンプレートを含む）または単純な画像ファイルパスのいずれかです。見つからない画像を初期設定の画像に置き換える場合に便利です。 この値は、対応するカタログ`attribute::DefaultImage`の値よりも優先されます。 空の値(`defaultImage=`)を指定すると、初期設定の画像処理が無効になります。
+*`object`* は、カタログエントリ（テンプレートを含む）または単純な画像ファイルパスです。見つからない画像をデフォルトの画像で置き換えるのに役立ちます。 この値は、対応するカタログ`attribute::DefaultImage`の値より優先されます。 空の値(`defaultImage=`)を指定すると、デフォルトの画像処理が無効になります。
 
 >[!NOTE]
 >
->初期設定の画像メカニズムはSVGオブジェクトには適用されません。 要求で指定されたSVGオブジェクトが見つからない場合は、エラーが返されます。
+>デフォルトの画像メカニズムはSVGオブジェクトには適用されません。 リクエストで指定されたSVGオブジェクトが見つからない場合は、エラーが返されます。
 
-`attribute::DefaultImageMode=0`の場合、マルチ画像コンポジション内の1つの画像が欠落していても、*`object`*&#x200B;は元のリクエスト全体を置き換えます。 元の要求で保持されるコマンドは次のとおりです。`wid=`、`hei=`、`fmt=`、`qlt=`。
+`attribute::DefaultImageMode=0`の場合、マルチ画像合成で1つの画像しか見つからなくても、*`object`*&#x200B;は元のリクエスト全体を置き換えます。 元の要求から保持されるコマンドは次のとおりです。`wid=`、`hei=`、`fmt=`、`qlt=`。
 
-`attribute::DefaultImageMode=1`の場合、オブジェクトは見つからないレイヤー画像のみを置き換えます。見つからないレイヤーの属性が適用され、合成が通常どおり処理されて返されます。
+`attribute::DefaultImageMode=1`の場合、見つからないレイヤーイメージのみが置き換えられます。見つからないレイヤの属性が適用され、コンポジットが通常どおり処理されて返されます。
 
 ## プロパティ {#section-d30923d8dc4042eba10989212dd70887}
 
-要求属性。 現在のレイヤー設定に関係なく適用されます。 `req=`が`img`または`tmb`以外の場合は無視されます。
+リクエスト属性。 現在の画層設定に関係なく適用されます。 `req=`が`img`または`tmb`以外の場合は無視されます。
 
-## 制限{#section-30df31bc8cac41cd917f1e45196779c2}
+## 制限事項 {#section-30df31bc8cac41cd917f1e45196779c2}
 
-外部画像ソースは、初期設定の画像メカニズムではカバーされません。外部の画像ソースが有効でない場合は、エラーが返されます。
+外部の画像ソースは、デフォルトの画像メカニズムではカバーされません。外部の画像ソースが有効でない場合は、エラーが返されます。
 
-ネストされた画像レンダリングまたはFXGレンダリング要求が失敗すると、画像サービングが`DefaultImageMode=0`に戻ります。
+ネストされた画像レンダリングまたはFXGレンダリング要求が失敗すると、画像サービングが`DefaultImageMode=0`に戻る。
 
 ## 初期設定 {#section-0676c66b233c46a3a3a1517da4ace998}
 
@@ -52,4 +51,4 @@ ht-degree: 2%
 
 ## 関連項目 {#section-745392143c3747a2955e1ae561f58e5f}
 
-[attribute::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) ,  [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [ *`object`* ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)
+[attribute::DefaultImageMode](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782) 、属 [性：:DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)、 [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)、  [ *`object`* ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)
