@@ -2,16 +2,15 @@
 description: メタデータの配列。
 solution: Experience Manager
 title: MetadataArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1833237d-4ef9-4899-8d14-317db350b223
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # MetadataArray{#metadataarray}
 
@@ -31,10 +30,9 @@ ht-degree: 16%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
    <td colname="col3"> <p>メタデータの配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
