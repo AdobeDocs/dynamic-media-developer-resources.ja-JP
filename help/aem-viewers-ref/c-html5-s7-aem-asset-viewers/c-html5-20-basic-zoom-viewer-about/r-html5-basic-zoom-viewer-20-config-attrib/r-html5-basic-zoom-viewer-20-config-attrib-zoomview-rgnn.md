@@ -2,26 +2,25 @@
 description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b7346f72-5fe9-4608-8ea0-27012b73b696
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # ZoomView.rgnN{#zoomview-rgnn}
 
-` [ZoomView.|<containerId>_zoomView.]rgnN= *``*, *``*, *``*, *`キシwh`*`
+` [ZoomView.|<containerId>_zoomView.]rgnN= *``*, *``*, *``*, *`xywh`*`
 
 <table id="table_F17148BDB468488AA0AF0F64D5DD1978"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> 正規化された座標の初期関心領域。 これらの値を指定しない場合、画像全体が最初のビューポート内にちょうど収まるように表示されます。 </p> </td> 
+   <td colname="col2"> <p> 正規化座標の初期関心領域。 これらの値を指定しない場合、画像全体が最初のビューポート内に収まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
