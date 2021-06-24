@@ -1,34 +1,33 @@
 ---
-description: 画像カタログのプロパティ。 要求パスで指定された画像カタログの共通属性を返します。
+description: 画像カタログのプロパティ。 リクエストパスで指定された画像カタログの共通属性を返します。
 solution: Experience Manager
 title: catalogprops
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 6%
 
 ---
 
-
 # catalogprops{#catalogprops}
 
-画像カタログのプロパティ。 要求パスで指定された画像カタログの共通属性を返します。
+画像カタログのプロパティ。 リクエストパスで指定された画像カタログの共通属性を返します。
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>一意の要求識別子。 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト識別子。 </p></td> 
  </tr> 
 </table>
 
 デフォルトのカタログプロパティ([!DNL default.ini])を取得するには、カタログIDを省略します。 HTTP応答は、`attribute::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
 
-JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -46,7 +45,7 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
    <td> <p> hex </p> </td> 
-   <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::defaultExt</span> </p> </td> 
@@ -81,7 +80,7 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>(存在しない場合は <span class="varname"> catalog</span><span class="filepath"> .</span> inifileの最終変更時刻) </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>。存在しない場合は、 <span class="varname"> catalog</span><span class="filepath"> .</span> inifileの最終変更時刻。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -105,7 +104,7 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> 列挙 </p> </td> 
+   <td> <p> enum </p> </td> 
    <td> <p> <span class="codeph"> attribute::ResMode</span> </p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +119,7 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> 列挙 </p> </td> 
+   <td> <p> enum </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
@@ -130,12 +129,12 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> 列挙 </p> </td> 
+   <td> <p> enum </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> 列挙 </p> </td> 
+   <td> <p> enum </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
@@ -145,4 +144,3 @@ JSONP応答形式をサポートするリクエストでは、`req=`パラメー
   </tr> 
  </tbody> 
 </table>
-
