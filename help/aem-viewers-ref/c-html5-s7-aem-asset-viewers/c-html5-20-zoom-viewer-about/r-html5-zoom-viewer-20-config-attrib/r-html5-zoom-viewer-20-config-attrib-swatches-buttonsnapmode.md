@@ -2,16 +2,15 @@
 description: Swatches.buttomsnapmode
 solution: Experience Manager
 title: Swatches.buttomsnapmode
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b85426c6-6f35-40c0-b78b-eeac27a699e6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 8%
 
 ---
-
 
 # Swatches.buttomsnapmode{#swatches-buttomsnapmode}
 
@@ -25,7 +24,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
-   <td> <p>コンポーネントの境界の横にボタンが整列します。 </p> </td> 
+   <td> <p>コンポーネントの境界の横にボタンを整列させます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
