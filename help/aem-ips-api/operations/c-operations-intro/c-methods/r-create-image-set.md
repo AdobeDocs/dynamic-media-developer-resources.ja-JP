@@ -2,16 +2,15 @@
 description: 画像セットを作成します。
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API，画像セット
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 14%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -19,7 +18,7 @@ ht-degree: 14%
 
 構文
 
-## 認証済みユーザータイプ{#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 許可されたユーザーの種類 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->ユーザーは、宛先フォルダーへの読み取り/書き込みアクセス権を持っている必要があります。
+>ユーザーは、宛先フォルダーに対する読み取り/書き込みアクセス権を持っている必要があります。
 
 ## パラメータ {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -40,11 +39,11 @@ ht-degree: 14%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | 画像セットが属する会社のハンドル。 |
 | `*`folderHandle`*` | `xsd:string` | はい | フォルダーのハンドル。 |
-| `*`name`*` | `xsd:string` | はい | 画像セット名 |
-| `*`type`*` | `xsd:string` | はい | 画像セットの種類 |
+| `*`name`*` | `xsd:string` | はい | 画像セット名。 |
+| `*`type`*` | `xsd:string` | はい | 画像セットのタイプ。 |
 | `*`thumbAssetHandle`*` | `xsd:string` | いいえ | 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPSはセットが参照する最初の画像アセットを使用しようとします。 |
 
-**Output**
+**出力**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -52,7 +51,7 @@ ht-degree: 14%
 
 ## 例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-このコードのサンプルを使用すると、会社、フォルダ、名前、種類で指定した画像セットを作成できます。 応答は、新しく作成された画像セットのアセットハンドルです。
+このコードサンプルは、会社、フォルダ、名前、タイプで指定された画像セットを作成します。 応答は、新しく作成された画像セットのアセットハンドルです。
 
 **リクエスト**
 
@@ -72,4 +71,3 @@ ht-degree: 14%
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-
