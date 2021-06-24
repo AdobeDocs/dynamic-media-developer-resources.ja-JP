@@ -2,16 +2,15 @@
 description: 会社のアセットの元のファイルパスを取得します。
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
-
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 構文
 
-## 認証済みユーザータイプ{#section-da8d8561e9174e938f3595a5d6e50089}
+## 許可されたユーザーの種類 {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,18 +38,18 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | はい | 元のファイルパスを取得するアセットへのハンドルの配列。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | はい | 元のファイルパスを取得するアセットに対するハンドルの配列。 |
 
 **出力(getOriginalFilePathsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | はい | 元のファイルパスを表す文字列の配列です。 |
+| `*`originalFileArray`*` | `types:StringArray` | はい | 元のファイルパスを表す文字列の配列。 |
 
 ## 例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-このコードのサンプルを使用すると、アセットハンドル配列内の一意のアセットハンドルで指定されたアセットのファイルパスを返すことができます。
+このコードサンプルは、一意のアセットハンドルを持つアセットのファイルパスをアセットハンドル配列で返します。
 
 **リクエスト**
 
@@ -74,4 +73,3 @@ ht-degree: 15%
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
