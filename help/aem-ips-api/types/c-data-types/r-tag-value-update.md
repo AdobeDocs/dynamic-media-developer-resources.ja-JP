@@ -1,21 +1,20 @@
 ---
-description: 古いタグフィールドと新しいタグフィールドの値を定義します。
+description: 新旧のタグフィールド値を定義します。
 solution: Experience Manager
 title: TagValueUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 13%
 
 ---
 
-
 # TagValueUpdate{#tagvalueupdate}
 
-古いタグフィールドと新しいタグフィールドの値を定義します。
+新旧のタグフィールド値を定義します。
 
 構文
 
@@ -23,6 +22,5 @@ ht-degree: 13%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`oldValue`*` | `xsd:string` | 元のタグフィールドの値。 |
-| `*`newValue`*` | `xsd:string` | 新しいタグフィールドの値。 |
-
+| `*`oldValue`*` | `xsd:string` | 元のタグフィールド値。 |
+| `*`newValue`*` | `xsd:string` | 新しいタグフィールド値。 |
