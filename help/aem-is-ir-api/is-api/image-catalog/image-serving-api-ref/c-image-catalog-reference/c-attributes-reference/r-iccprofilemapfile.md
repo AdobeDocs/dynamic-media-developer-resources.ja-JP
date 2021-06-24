@@ -1,29 +1,28 @@
 ---
-description: ICCプロファイルマップのファイルパス この画像カタログのICCプロファイルマップを含むファイルを指定します。
+description: ICCプロファイルマップのファイルパス。 この画像カタログのICCプロファイルマップを含むファイルを指定します。
 solution: Experience Manager
 title: IccProfileMapFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3a84dc64-3167-4419-a25d-c2f475552f07
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 5%
 
 ---
 
-
 # IccProfileMapFile{#iccprofilemapfile}
 
-ICCプロファイルマップのファイルパス この画像カタログのICCプロファイルマップを含むファイルを指定します。
+ICCプロファイルマップのファイルパス。 この画像カタログのICCプロファイルマップを含むファイルを指定します。
 
 ## プロパティ {#section-962934fded9746c7953beb62616dd2a7}
 
-テキスト文字列の値。 カタログフォルダーを基準とした絶対ファイルパスまたは相対パス。
+テキスト文字列の値。 カタログフォルダを基準とした絶対ファイルパスまたはパス。
 
 ## 初期設定 {#section-c368cbef2a24435ea97cc7c83bbe2ce8}
 
-空(この画像カタログにはプライベートICCプロファイルが含まれていないことを示します)。
+空。この画像カタログにプライベートICCプロファイルが含まれていないことを示します。
 
 ## 関連項目 {#section-3ed772259c8e4209b5a7766fae1d6efd}
 
