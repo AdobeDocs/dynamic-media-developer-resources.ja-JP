@@ -2,16 +2,15 @@
 description: カタログ属性ファイルは、これらのカラーマネジメント属性を認識します。
 solution: Experience Manager
 title: カラーマネジメント属性
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # カラーマネジメント属性{#color-management-attributes}
 
@@ -24,7 +23,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> IccProfileGray</a> </span> </p></td> 
-  <td class="stentry"> <p>初期設定のグレースケール出力カラープロファイル。 </p></td> 
+  <td class="stentry"> <p>デフォルトのグレースケール出力カラープロファイル </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df" type="reference" format="dita" scope="local"> IccProfileRgb</a> </span> </p></td> 
@@ -36,7 +35,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9" type="reference" format="dita" scope="local"> IccProfileSrcGray</a> </span> </p></td> 
-  <td class="stentry"> <p>初期設定のグレースケール入力カラープロファイル。 </p></td> 
+  <td class="stentry"> <p>初期設定のグレースケール入力カラープロファイル </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md#reference-b8e576d075b44f5c94d95bfb5aa22ae2" type="reference" format="dita" scope="local"> IccProfileSrcRgb</a> </span> </p></td> 
@@ -44,15 +43,14 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent</a> </span> </p> </td> 
-  <td class="stentry"> <p>初期設定のレンダリングインテント </p></td> 
+  <td class="stentry"> <p>デフォルトのレンダリングインテント。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensation</a> </span> </p></td> 
-  <td class="stentry"> <p>ブラックポイントの補正を有効化/無効化 </p></td> 
+  <td class="stentry"> <p>ブラックポイントの補償を有効化/無効化 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b" type="reference" format="dita" scope="local"> IccDither</a> </span> </p></td> 
   <td class="stentry"> <p>カラー変換ディザリングを有効化/無効化 </p></td> 
  </tr> 
 </table>
-
