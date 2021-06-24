@@ -2,16 +2,15 @@
 description: フォルダーの権限を更新します。
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ{#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 許可されたユーザーの種類 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,10 +30,10 @@ ht-degree: 17%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社ハンドル |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル |
-| `*`updateChildren`*` | `xsd:boolean` | はい | 最上位フォルダーの権限セットを持つ子を更新するかどうかを指定します。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列です。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
+| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル。 |
+| `*`updateChildren`*` | `xsd:boolean` | はい | 最上位のフォルダーに設定された権限を持つ子を更新するかどうかを指定します。 |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列。 |
 
 **出力(updateFolderPermissionsReturn)**
 
