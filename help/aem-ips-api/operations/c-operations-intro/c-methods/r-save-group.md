@@ -2,16 +2,15 @@
 description: グループを作成または編集します。
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 19%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 構文
 
-## 認証済みユーザータイプ{#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 許可されたユーザーの種類 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +31,7 @@ ht-degree: 19%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | 保存するグループを持つ会社へのハンドル。 |
-| `*`groupHandle`*` | `xsd:string` | いいえ | グループへのハンドル。 |
+| `*`groupHandle`*` | `xsd:string` | いいえ | グループのハンドル。 |
 | `*`name`*` | `xsd:string` | はい | グループ名。 |
 | `*`isSystemDefined`*` | `xsd:boolean` | はい | `false` がデフォルトです。 |
 
@@ -40,11 +39,11 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル |
+| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
 
 ## 例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-このコードのサンプルを使用すると、特定の会社に属するグループを作成できます。 グループが既に存在する場合は、指定したパラメータ値で保存されます。
+このコード例では、特定の会社に属するグループを作成します。 グループが既に存在する場合は、指定したパラメーター値と共に保存されます。
 
 **リクエスト**
 
@@ -63,4 +62,3 @@ ht-degree: 19%
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
