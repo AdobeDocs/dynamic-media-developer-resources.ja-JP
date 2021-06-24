@@ -1,19 +1,18 @@
 ---
 description: FontFieldUpdate/typeで使用されます。
 solution: Experience Manager
-title: フォントの種類
-feature: Dynamic Media Classic,SDK/API
+title: フォントタイプ
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-
-# フォントの種類{#font-types}
+# フォントタイプ{#font-types}
 
 FontFieldUpdate/typeで使用されます。
 
@@ -28,4 +27,3 @@ FontFieldUpdate/typeで使用されます。
 * [!DNL `PFB`]
 * [!DNL `TTC`]
 * [!DNL `KERN`]
-
