@@ -2,16 +2,15 @@
 description: 新しいパスワードを生成します。
 solution: Experience Manager
 title: generatePassword
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 18%
 
 ---
-
 
 # generatePassword{#generatepassword}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 構文
 
-## 認証済みユーザータイプ{#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 許可されたユーザーの種類 {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,11 +40,11 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`パスワード`*` | `xsd:string` | はい | 新しいパスワードです。 |
+| `*`パスワード`*` | `xsd:string` | はい | 新しいパスワード。 |
 
 ## 例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-次のコードのサンプルを使用して、パスワードを生成します。 リクエストは、要素や値を含まない単なるパラメーターなので、通常とは異なります。 IPSは、強力なパスワードを返します。
+このコードサンプルは、パスワードを生成します。 リクエストは、単に要素や値を含まないパラメーターなので、通常と異なります。 IPSは、強力なパスワードを返します。
 
 **リクエスト**
 
@@ -61,4 +60,3 @@ ht-degree: 18%
    <password>1\7aQRn]</password>
 </generatePasswordReturn>
 ```
-
