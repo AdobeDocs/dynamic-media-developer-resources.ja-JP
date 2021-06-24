@@ -2,16 +2,15 @@
 description: ユーザーが属する様々な会社を示します。
 solution: Experience Manager
 title: CompanyMember
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
-
 
 # CompanyMember{#companymember}
 
@@ -24,6 +23,5 @@ ht-degree: 10%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`ユーザ`*` | `types:User` | ユーザー名。 |
-| `*`role`*` | `xsd:string` | ユーザーが属する会社ごとに割り当てる役割。 |
-| `*`isActive`*` | `xsd:boolean` | 所属する会社ごとに、ユーザーのステータスを設定します。 |
-
+| `*`役割`*` | `xsd:string` | ユーザーが属する会社ごとに持つ役割。 |
+| `*`isActive`*` | `xsd:boolean` | 所属する各会社のユーザーのステータスを設定します。 |
