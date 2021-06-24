@@ -2,16 +2,15 @@
 description: FlyoutZoomView.overlay
 solution: Experience Manager
 title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
-
 
 # FlyoutZoomView.overlay{#flyoutzoomview-overlay}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フライアウトがアクティブな場合のメイン表示のハイライトの外観を制御します。 <span class="codeph"> 0</span>に設定した場合、フライアウトウィンドウに現在表示されている領域は、<span class="codeph"> .s7highlight</span>または<span class="codeph"> .s7cursor</span> CSSクラス名（<span class="codeph"> highlightmode</span>修飾子の値に応じて異なります）でハイライトされます。 <span class="codeph"> 1</span>コンポーネントを「逆」モードにする場合は、現在表示されている領域が完全に透明（<span class="codeph"> highlightmode</span>が<span class="codeph"> highlightmode</span>に設定されている場合）、または<span class="codeph"> .s7cursor</span> CSSクラス名（ケース<span class="codeph"> highlightmode</span>）です。は<span class="codeph"> cursor</span>に設定されますが、周囲の領域は<span class="codeph"> .s7overlay</span> CSSクラス名で提供されるスタイルを使用して塗りつぶされます。 </p> </td> 
+   <td colname="col2"> <p> フライアウトがアクティブな場合の、メインビューのハイライトの外観を制御します。 <span class="codeph"> 0</span>に設定すると、フライアウトウィンドウに現在表示されている領域が、 <span class="codeph"> .s7highlight</span>または<span class="codeph"> .s7cursor</span> CSSクラス名（ <span class="codeph"> highlightmode</span>修飾子の値に応じて異なる）で指定されたスタイルを使用してハイライトされます。 <span class="codeph"> 1</span>コンポーネントを「逆」モードにする場合は、現在表示されている領域が完全に透明になる（<span class="codeph"> highlightmode</span>が<span class="codeph"> highlightmode</span>に設定される）か、<span class="codeph"> .s7cursor</span> CSSクラス名(ケース<span class="codeph"> highlightmode</span>が<span class="codeph"> cursor</span>に設定され、周囲の領域は<span class="codeph"> .s7overlay</span> CSSクラス名で提供されるスタイルを使用して塗りつぶされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
