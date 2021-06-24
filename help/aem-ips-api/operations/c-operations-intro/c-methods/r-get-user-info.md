@@ -1,25 +1,24 @@
 ---
-description: ユーザーに関する情報を取得します。 要求を承認するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、デフォルトユーザーに関する情報が取得されます。
+description: ユーザーに関する情報を取得します。 要求を認証するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、操作はデフォルトのユーザーに関する情報を取得します。
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
 
-
 # getUserInfo{#getuserinfo}
 
-ユーザーに関する情報を取得します。 要求を承認するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、デフォルトユーザーに関する情報が取得されます。
+ユーザーに関する情報を取得します。 要求を認証するための資格情報として、システムユーザーの電子メールアドレスとパスワードを使用します。 それ以外の場合は、操作はデフォルトのユーザーに関する情報を取得します。
 
 構文
 
-## 認証済みユーザータイプ{#section-1c42d78e914a4b84a946b3480f29b36a}
+## 許可されたユーザーの種類 {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,18 +36,18 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | いいえ | 情報を返すユーザーのハンドル。 |
+| `*`userHandle`*` | `xsd:string` | いいえ | 情報を返すユーザーに対して処理を行います。 |
 | `*`電子メール`*` | `xsd:string` | いいえ | ユーザーの電子メールアドレス。 |
 
 **出力(getUserInfoReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | はい | ユーザーの名、姓、電子メールアドレス、役割、およびユーザーが有効かどうか、およびユーザーのパスワードが期限切れになったとき。 |
+| `*`userInfo`*` | `types:User` | はい | ユーザーの名、姓、電子メールアドレス、役割、およびユーザーが有効かどうか、およびユーザーのパスワードの期限が切れたとき。 |
 
 ## 例 {#section-98d77a2e360a438dbe240099bea26a65}
 
-次のコードサンプルは、既定のIPSユーザの情報を返します。
+このコードサンプルは、デフォルトのIPSユーザの情報を返します。
 
 **リクエスト**
 
@@ -71,4 +70,3 @@ ht-degree: 11%
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
