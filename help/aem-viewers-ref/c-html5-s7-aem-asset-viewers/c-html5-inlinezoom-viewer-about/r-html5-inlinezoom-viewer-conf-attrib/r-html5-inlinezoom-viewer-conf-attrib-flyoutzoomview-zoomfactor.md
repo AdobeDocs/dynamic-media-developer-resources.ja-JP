@@ -2,34 +2,33 @@
 description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
 title: FlyoutZoomView.zoomfactor
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2a9d4450-a1a0-471c-86bf-105d516b0bd7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
 
-
 # FlyoutZoomView.zoomfactor{#flyoutzoomview-zoomfactor}
 
-` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *``*[,[ *``*][, *`primaryFactorsecondaryFactorupscale`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *``*[,[ *``*][, *`primaryFactorsecondaryFactupscale`*]]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> メイン画像を基準にした、フライアウト表示の表示の倍率を指定します。<span class="codeph"> 1.0</span>以上の整数または浮動小数点値です。 </p> </td> 
+   <td colname="col2"> <p> メインビューを基準とした、フライアウトビューの画像の倍率を指定します。<span class="codeph"> 1.0</span>以上の整数または浮動小数点値を指定する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> オプションでセカンダリ要因を指定できます。これにアクセスするには、ハイライトがアクティブなときにメイン表示をクリックまたはタップします。 もう一度タップすると、プライマリズーム率に戻ります。 値<span class="codeph"> -1</span>はセカンダリズーム率を無効にします。 </p> </td> 
+   <td colname="col2"> <p> オプションでセカンダリ係数を指定できます。これには、ハイライトがアクティブなときにメインビューをクリックまたはタップしてアクセスできます。 2回目にクリックまたはタップすると、プライマリズーム率に戻ります。 値<span class="codeph"> -1</span>を指定すると、セカンダリズーム率が無効になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> upscale</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントでの小さい画像の処理方法を指定します。 </p> <p><span class="codeph"> 1</span>に設定した場合、メイン表示がメイン画像内に収まるようにメイン画像が拡大されます。 また、ズーム画像が拡大され、設定したフライアウトウィンドウ領域全体に表示されます。 </p> <p><span class="codeph"> 0</span>に設定した場合、小さい画像は元の解像度で表示され、メイン表示領域とフライアウトウィンドウ内の中央に表示されます。 メイン表示とフライアウトウィンドウのそれぞれで、<span class="codeph"> s7flyoutzoomview</span>および<span class="codeph"> s7flyoutzoom</span> CSSクラスのbackgroundまたは同様のCSSプロパティを使用して、画像の周囲に余白を設定できます。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントでの小さな画像の処理方法を指定します。 </p> <p><span class="codeph"> 1</span>に設定すると、メイン画像がメインビュー内に収まるように拡大されます。 また、ズーム画像が拡大され、設定したフライアウトウィンドウ領域が完全に埋まります。 </p> <p><span class="codeph"> 0</span>に設定すると、小さい画像が元の解像度で表示され、メインビュー領域とフライアウトウィンドウ内で中央に表示されます。 メインビューとフライアウトウィンドウのそれぞれで、 <span class="codeph"> s7flyoutzoomview</span>および<span class="codeph"> s7flyoutzoom</span> CSSクラスのbackgroundまたは類似のCSSプロパティを使用して、画像の周囲に余分な空白を設定できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
