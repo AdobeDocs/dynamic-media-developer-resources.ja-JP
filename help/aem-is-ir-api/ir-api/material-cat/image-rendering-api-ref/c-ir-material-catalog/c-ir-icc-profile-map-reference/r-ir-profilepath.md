@@ -1,25 +1,24 @@
 ---
-description: プロファイルファイルのパス ICCカラープロファイルファイルのパスと名前（ファイルのサフィックスを含む）。
+description: プロファイルファイルのパス。 ファイルサフィックスを含むICCカラープロファイルファイルのパスと名前。
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # ProfilePath{#profilepath}
 
-プロファイルファイルのパス ICCカラープロファイルファイルのパスと名前（ファイルのサフィックスを含む）。
+プロファイルファイルのパス。 ファイルサフィックスを含むICCカラープロファイルファイルのパスと名前。
 
 ## プロパティ {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-テキスト文字列。 必須。有効なImage Serverファイルパス（絶対パスまたは`attribute::RootPath`を基準とする相対パス）を指定する必要があります。
+テキスト文字列。 必須。Image Serverの有効なファイルパス（絶対パスまたは`attribute::RootPath`に対する相対パス）を指定する必要があります。
 
 ## 初期設定 {#section-67b79d62b3e24c62aff6844cc5e04251}
 
