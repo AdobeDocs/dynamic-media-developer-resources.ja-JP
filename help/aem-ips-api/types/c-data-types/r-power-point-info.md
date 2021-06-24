@@ -2,16 +2,15 @@
 description: PowerPointファイルのオプション。
 solution: Experience Manager
 title: PowerPointInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 24%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
-
 
 # PowerPointInfo{#powerpointinfo}
 
@@ -23,7 +22,6 @@ PowerPointファイルのオプション。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalPath`*` | `xsd:string` | ファイルパス。 |
 | `*`originalFile`*` | `xsd:string` | ファイル名。 |
 | `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
-
