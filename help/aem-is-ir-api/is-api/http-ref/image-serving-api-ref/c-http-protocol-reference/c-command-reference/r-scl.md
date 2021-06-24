@@ -1,21 +1,20 @@
 ---
-description: スケール表示 invFactorの逆数で合成画像を拡大・縮小します。
+description: 拡大・縮小ビュー invFactorの逆数で合成イメージを拡大/縮小します。
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-
 # scl{#scl}
 
-スケール表示 invFactorの逆数で合成画像を拡大・縮小します。
+拡大・縮小ビュー invFactorの逆数で合成イメージを拡大/縮小します。
 
 `scl= *`invFactor`*`
 
@@ -26,25 +25,25 @@ ht-degree: 5%
  </tr> 
 </table>
 
-`scl=1`の場合、拡大/縮小は適用されません。 *`invFactor`* 1.0より大きい場合は縮小表示され、1.0より小さい場合は合成画像が拡大されます。
+`scl=1`の場合、スケーリングは適用されません。 *`invFactor`* 1.0より大きく、1.0より小さい場合は、合成画像が拡大されます。
 
-`scl=`を指定し、`wid=`や`hei=`も存在する場合、画像は縮小後に`wid=`や`hei=`に切り抜かれます。
+`scl=`を指定し、`wid=`や`hei=`も指定した場合、画像は拡大縮小後に`wid=`や`hei=`に切り抜かれます。
 
 >[!NOTE]
 >
->計算済みまたはデフォルトの返信画像のサイズが`attribute::MaxPix`より大きい場合は、エラーが返されます。
+>計算された返信画像サイズまたはデフォルトの返信画像サイズが`attribute::MaxPix`より大きい場合は、エラーが返されます。
 
 ## プロパティ {#section-60af012719db477db4a4703e9a6da5f5}
 
-表示属性。 現在のレイヤー設定に関係なく適用されます。
+属性を表示 現在の画層設定に関係なく適用されます。
 
 ## 初期設定 {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-`wid=`、`hei=`、`scl=`のいずれも指定されていない場合、返信画像は合成画像のサイズか`attribute::DefaultPix`のいずれか小さい方のサイズになります。
+`wid=`、`hei=`、`scl=`のいずれも指定されていない場合、返信画像は合成画像のサイズか`attribute::DefaultPix`のどちらか小さい方になります。
 
 ## 例 {#section-a33f6239476a4b438d939656ad99aa76}
 
-`scl=`の一般的な用途については、[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)の例を参照してください。
+`scl=`の一般的な適用については、[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)の例を参照してください。
 
 ## 関連項目 {#section-ccefd5de59924059903d66d4974ce317}
 
