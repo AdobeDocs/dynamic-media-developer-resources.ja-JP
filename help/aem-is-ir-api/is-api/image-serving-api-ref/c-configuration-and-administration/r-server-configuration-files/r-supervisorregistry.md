@@ -1,25 +1,24 @@
 ---
-description: サーバーのスーパーバイザ構成設定が含まれます。
+description: サーバのスーパーバイザ構成設定が含まれます。
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
-
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-サーバーのスーパーバイザ構成設定が含まれます。
+サーバのスーパーバイザ構成設定が含まれます。
 
-このXMLファイルを編集する場合は、有効なXML構文を維持してください。そうしないと、Image Serverで開始が失敗する場合があります。
+このXMLファイルを編集する際は、有効なXML構文を維持してください。そうしないと、Image Serverの起動に失敗する場合があります。
 
-このファイルを編集した後、画像サービングを再起動して、変更内容が有効になることを確認します。 変更は、以下にハイライトされている要素/属性の値のみがサポートされています。 このファイルの他の内容は、Dynamic Mediaのテクニカルサポートの指示があった場合にのみ編集してください。
+このファイルを編集した後、画像サービングを再起動して、変更が有効になるようにします。 以下に示す要素/属性の値のみを変更できます。 Dynamic Mediaテクニカルサポートの指示があった場合にのみ、このファイルのその他すべてのコンテンツを編集します。
 
 ```
 <supervisor>
@@ -68,4 +67,3 @@ ht-degree: 0%
     </servers>
 </supervisor>
 ```
-
