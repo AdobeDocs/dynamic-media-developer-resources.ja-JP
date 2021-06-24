@@ -2,16 +2,15 @@
 description: FavoritesView.maxloadradius
 solution: Experience Manager
 title: FavoritesView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 440f147e-865c-4615-8d83-ea6431271612
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
-
 
 # FavoritesView.maxloadradius{#favoritesview-maxloadradius}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定した場合、コンポーネントの初期化時またはアセットの変更時に、すべてのサムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>に設定した場合、表示領域の周囲にある非表示の行をいくつプリロードするかを指定できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントの初期化時またはアセットの変更時に、すべてのサムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>に設定すると、表示領域の周囲に表示されない行を何行プリロードするかを指定できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
