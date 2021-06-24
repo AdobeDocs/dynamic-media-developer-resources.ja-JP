@@ -2,16 +2,15 @@
 description: 画像の一部をマスクします。 マスクは常に画像に関連付けられます。 ImageInfoからマスクを取得します。
 solution: Experience Manager
 title: マスク
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '75'
+ht-degree: 13%
 
 ---
-
 
 # マスク{#mask}
 
@@ -23,9 +22,8 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | マスクハンドル |
+| `*`maskHandle`*` | `xsd:string` | マスクハンドル。 |
 | `*`name`*` | `xsd:string` | マスク名。 |
 | `*`maskPath`*` | `xsd:string` | マスクの相対パス。 |
 | `*`maskFile`*` | `xsd:string` | マスクファイル. |
-| `*`lastModified`*` | `types:dateTime` | マスクが最後に変更された日付、時刻およびタイムゾーン。 |
-
+| `*`lastModified`*` | `types:dateTime` | マスクが最後に変更された日付、時間、タイムゾーン。 |
