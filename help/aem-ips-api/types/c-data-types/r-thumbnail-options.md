@@ -1,21 +1,20 @@
 ---
-description: サムネール画像として使用する特定のビデオフレームを選択できるオプションのタイプです。
+description: サムネール画像として使用する特定のビデオフレームを選択できるオプションのタイプ。
 solution: Experience Manager
 title: ThumbnailOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
-
 # ThumbnailOptions{#thumbnailoptions}
 
-サムネール画像として使用する特定のビデオフレームを選択できるオプションのタイプです。
+サムネール画像として使用する特定のビデオフレームを選択できるオプションのタイプ。
 
 構文
 
@@ -33,7 +32,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>ビデオサムネールに使用するフレームの時間(ビデオ開始からの経過時間)をミリ秒単位で設定します。 値の範囲は0 ～ビデオの最後です。 <p>注意：時間を誤って指定した場合は、ビデオの最初のフレームがサムネールに使用されます。 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </p></p> </td> 
+   <td colname="col3"> <p>ビデオサムネールに使用するフレームの時間(ビデオ開始からの時間（ミリ秒）)を設定します。 値の範囲は0からビデオの最後までです。 <p>注意：時間を誤って指定した場合は、ビデオの最初のフレームがサムネールに使用されます。 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>を参照してください。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +46,3 @@ ht-degree: 5%
       </sequence>
 </complexType>
 ```
-
