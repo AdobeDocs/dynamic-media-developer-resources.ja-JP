@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [必要システム構成](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)を参照してください。
 
-## カルーセルビューアの使用{#section-e6c68406ecdc4de781df182bbd8088b4}
+## カルーセルビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 カルーセルビューアは、メインのJavaScriptファイルと、ビューアによって実行時にダウンロードされるヘルパーファイルのセット（この特定のビューア、アセット、CSSで使用されるすべてのビューアSDKコンポーネントを含む単一のJavaScriptインクルード）です。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通のコマンドリファレンス — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください。
 
-## カルーセルビューアの操作{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## カルーセルビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 カルーセルセット内を移動するには、メインビュー上で水平にスワイプするか、デスクトップデバイスで使用可能な2つの矢印ボタンを使用します。 設定インジケーターのドットは、セット内の現在の位置を示します。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 [キーボードのアクセシビリティとナビゲーション](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
-## カルーセルビューアの埋め込み{#section-6bb5d3c502544ad18a58eafe12a13435}
+## カルーセルビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **ポップアップモードについて**
 
