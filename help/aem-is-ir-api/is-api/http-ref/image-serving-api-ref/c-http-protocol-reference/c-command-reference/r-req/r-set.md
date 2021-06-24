@@ -1,21 +1,20 @@
 ---
-description: メディアセット情報
+description: メディアセット情報。
 solution: Experience Manager
 title: セット
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-
 # セット{#set}
 
-メディアセット情報
+メディアセット情報。
 
 req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
@@ -26,19 +25,19 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>一意の要求識別子 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト識別子 </p></td> 
  </tr> 
 </table>
 
-URLパスで指定された画像カタログエントリに対して、catalog::ImageSetに関連付けられた画像、ビデオ、スウォッチ、および様々なメタデータに関する情報を返します。 この応答は、提供されたセットのタイプによって決まる階層構造です。 「xml」または「json」形式が要求された場合、適切な形式設定が適用されます。
+URLパスで指定された画像カタログエントリのcatalog::ImageSetに関連付けられた画像、ビデオ、スウォッチ、および様々なメタデータに関する情報を返します。 この応答は、提供されるセットのタイプによって決まる階層構造です。 「xml」または「json」形式が要求された場合は、適切な形式が適用されます。
 
 HTTP応答は、`catalog::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
 
 >[!NOTE]
 >
->req=setリクエストでは、コロン文字は使用できません。
+>req=setリクエストでは、コロンは使用できません。
 
-JSON応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用してJSコールバックハンドラーの名前を指定できます。
+JSON応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
