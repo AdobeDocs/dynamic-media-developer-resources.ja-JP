@@ -2,26 +2,25 @@
 description: ビネット用の新しい公開形式を作成します。
 solution: Experience Manager
 title: createVignettePublishFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d58e1290-8a79-4129-99ce-776b919dea13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 14%
 
 ---
-
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
 ビネット用の新しい公開形式を作成します。
 
-ビネット形式は、公開されるビネットとそのサムネールのサイズ、ズームレベル、シャープパラメータ、IPSからImage Rendering Serverに公開されるプライマリビネットから生成されるビネットのファイル形式のバージョンを指定します。
+ビネット形式は、公開済みのビネットとそのサムネールのサイズ、ズームレベル、シャープパラメータ、およびIPSからImage Rendering Serverに公開されたプライマリビネットから生成されたビネットのファイル形式バージョンを指定します。
 
-新しいバージョンのImage Rendering Serverでは、ピラミッドビネットをサポートできるので、公開用に特定のビネット形式サイズを定義する必要がありません。
+新しいバージョンの画像レンダリングサーバーでは、ピラミッドビネットがサポートされるので、公開用に特定のビネット形式のサイズを定義する必要がありません。
 
-## 認証済みユーザータイプ{#section-f5c563e3695c4dba8df41e2a965aace7}
+## 許可されたユーザーの種類 {#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -46,7 +45,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> ビネットが属する会社のハンドル。 </td> 
+   <td colname="col4"> ビネットが属する会社に対して処理します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -58,7 +57,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>生成されるビネット表示のターゲット幅をピクセル単位で指定します。 </p> <p>ゼロを指定すると、出力ビネットはプライマリビネットと同じサイズになります。 </p> </td> 
+   <td colname="col4"> <p>ビネットビューのターゲット幅をピクセル単位で指定します。 </p> <p>出力ビネットのサイズがプライマリビネットと同じになるように、ゼロを使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
@@ -70,13 +69,13 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 生成される各サムネールの幅をピクセル単位で指定します。この設定はオプションです。 サムネールファイルを作成しない場合は、ゼロのままにします。 </td> 
+   <td colname="col4"> 生成される各サムネールの幅をピクセル単位で指定します。この設定はオプションです。 サムネールファイルを使用しない場合はゼロのままにします。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 公開するビネットのファイル形式を指定します。 新しいバージョンの画像オーサリングとそれより古いバージョンの画像レンダリングサーバを指定する場合は、ImageRendering Serverが読み取ることのできるビネットバージョンを指定する必要があります。 より新しいバージョンを指定した場合、Image Rendering Serverは公開されたビネットを読み取れません。 最新バージョンでビネットを公開するには、ゼロに設定します。 </td> 
+   <td colname="col4"> 公開するビネットのファイル形式を指定します。 新しいバージョンの画像オーサリングと以前のバージョンの画像レンダリングサーバーを前提として、ImageRendering Serverが読み取るビネットバージョンを指定する必要があります。 より高いバージョンを指定した場合、Image Rendering Serverは公開済みのビネットを読み取れません。 ビネットを最新バージョンで公開するには、0に設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
@@ -91,28 +90,28 @@ ht-degree: 14%
    <td colname="col4"> ビネット名とその幅を示すサフィックスを区切る文字を指定します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> シャープ</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 鋭くする</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 各画像ビネットサイズに対してメイン表示にシャープを適用します。シャープは、ビネッタを拡大・縮小したときにぼやけを補正できます。 </td> 
+   <td colname="col4"> メインビュー画像に対してシャープを適用し、各ビネットサイズに対してシャープを適用します。シャープは、ビネットを拡大/縮小したときにぼかしを補正できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> デジタルアンシャープマスクは、特にスキャン画像でシャープさを高める柔軟で強力な方法です。 これにより、各オーバーシュートの大きさ（エッジの境界線の暗さと明るさ）が制御されます。 </td> 
+   <td colname="col4"> デジタルアンシャープマスクは、特にスキャンされた画像でシャープネスを高める柔軟で強力な方法です。 これにより、各オーバーシュートの大きさ（エッジの境界線の暗さと明るさ）が制御されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 拡張するエッジのサイズやエッジの縁の幅に影響を与えるので、半径を小さくすると、より小さなスケールのディテールが向上します。 半径の値を大きくすると、エッジにハローが発生する場合があります。 細かいディテールは、同じサイズの小さいまたは半径より小さい細かいディテールが失われるので、小さい半径が必要です。 </td> 
+   <td colname="col4"> 拡張するエッジのサイズやエッジリムの幅に影響を与えるので、小さいラジウムは小さいスケールの詳細を高めます。 半径の値を大きくすると、エッジにハローが発生する場合があります。 細かい詳細は、同じサイズの細かい詳細または半径より小さい細かい詳細が失われるので、小さい半径が必要です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> コードフレーズ  </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> シャープを適用する明るさの最小値、またはフィルターが機能する前に隣接する階調値の間隔を制御します。 この設定により、より細かいエッジにシャープを適用し、より細かいエッジに手を加えないようにできます。 しきい値の許容範囲は0 ～ 255です。 </td> 
+   <td colname="col4"> シャープにする最小の明るさの変更、または隣接する階調値の間隔を、フィルターが機能する前に制御します。 この設定により、より微妙なエッジを手つかずに、より回転するエッジをシャープにすることができます。 しきい値の許容範囲は0～255です。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +124,7 @@ ht-degree: 14%
 
 ## 例 {#section-0564752d439642b9bb8de2903db6de1e}
 
-このコードは、ビネット公開形式を作成します。 作成リクエストでは、名前、ターゲットの幅と高さ、およびその他の必須の値を指定します。
+このコードはビネット公開形式を作成します。 作成リクエストでは、名前、ターゲットの幅と高さ、およびその他の必須値を指定します。
 
 **リクエスト**
 
@@ -153,4 +152,3 @@ ht-degree: 14%
    <vignetteFormatHandle>v|21|282</vignetteFormatHandle>
 </createVignettePublishFormatReturn>
 ```
-
