@@ -2,16 +2,15 @@
 description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ{#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 許可されたユーザーの種類 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -68,4 +67,3 @@ ht-degree: 20%
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
