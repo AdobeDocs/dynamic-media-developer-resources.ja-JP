@@ -2,16 +2,15 @@
 description: 指定したPhotoshopパスを囲む四辺形の座標を返します。
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 18%
 
 ---
-
 
 # getPhotoshopPath{#getphotoshoppath}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 構文
 
-## 認証済みユーザータイプ{#section-c417a287612847cb98dd0aa9c67fd78a}
+## 許可されたユーザーの種類 {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,15 +35,15 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 操作する画像が含まれる会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 画像アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 作業対象の画像を持つ会社に対して処理します。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 画像アセットを処理します。 |
 | `*`pathName`*` | `xsd:string` | はい | 返すPhotoshopパスの名前。 |
 
 **出力(getPhotoshopPathReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | はい | パスに基づく画像の座標を返します。 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)を参照してください。 |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | はい | パスに基づいて画像の座標を返します。 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)を参照してください。 |
 
 ## 例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
