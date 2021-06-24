@@ -1,21 +1,20 @@
 ---
-description: テキストの書式設定には、次の特殊エンティティを使用します。
+description: テキストを書式設定する際には、次の特殊エンティティを使用します。
 solution: Experience Manager
-title: 特殊テキストエンティティ
-feature: Dynamic Media Classic,SDK/API
+title: 特殊なテキストエンティティ
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
 
+# 特殊なテキストエンティティ{#special-text-entities}
 
-# 特殊テキストエンティティ{#special-text-entities}
-
-テキストの書式設定には、次の特殊エンティティを使用します。
+テキストを書式設定する際には、次の特殊エンティティを使用します。
 
 <table id="table_CFEB845C1B9A475CA52ECDFA9BB59A9D"> 
  <thead> 
@@ -28,12 +27,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \par</span> </td> 
-   <td> <p>段落区切り </p> </td> 
+   <td> <p>段落区切り。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ライン </span> </td> 
-   <td> <p>改行。 </p> </td> 
+   <td> <p>改行 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -43,22 +42,22 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
-   <td> <p>中括弧開き </p> </td> 
+   <td> <p>波括弧（開き） </p> </td> 
    <td> <p>括弧はHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
-   <td> <p>中括弧。 </p> </td> 
+   <td> <p>中括弧( ) </p> </td> 
    <td> <p>括弧はHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \～  </span> </td> 
-   <td> <p>区切りなしスペース。 </p> </td> 
+   <td> <p>改行なしスペース。 </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>改行しないハイフン。 </p> </td> 
+   <td> <p>改行なしのハイフン。 </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
@@ -68,4 +67,3 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-
