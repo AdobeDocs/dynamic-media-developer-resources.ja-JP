@@ -1,34 +1,33 @@
 ---
-description: 画像ポータルに関連するシステムプロパティのstring値を取得します。
+description: 画像ポータルに関連するシステムプロパティの文字列値を取得します。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
 
-
 # getProperty{#getproperty}
 
-画像ポータルに関連するシステムプロパティのstring値を取得します。
+画像ポータルに関連するシステムプロパティの文字列値を取得します。
 
-次のシステムプロパティがサポートされます。
+次のシステムプロパティがサポートされています。
 
 * `IpsVersion`:IPSバージョン番号。
 * `IpsImageServerUrl`:IPS Image Serverの完全な外部URLプレフィックス。
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`:SVGアセットをレンダリングするためのURLプレフィックス。
-* `SvgRenderEnabled`:SVGアセットをによってレンダリングできる場合はtrue `SvgRenderRootUrl`です。
+* `SvgRenderEnabled`:SVGアセットをでレンダリングできる場合はtrueで `SvgRenderRootUrl`す。
 
-* `UploadPostMaxFileSize`:アップロードで許可されるファイルデータの最大サイズ（バイト単位） [!DNL POST]。最大数を超えるファイルは拒否されます。
+* `UploadPostMaxFileSize`:アップロードで許可されるファイルデータの最大サイズ（バイト単位）で [!DNL POST]す。上限を超えるファイルは拒否されます。
 
-## 認証済みユーザータイプ{#section-2cd36bbd46ed414b8753569d5895530e}
+## 許可されたユーザーの種類 {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -56,7 +55,7 @@ ht-degree: 10%
 
 ## 例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-このコードの例では、IPSプロパティの文字列定数を使用して特定の値を返します。 この例では、IPSプロパティはIPSサーバのバージョンです。
+このコードサンプルでは、 IPSプロパティの文字列定数を使用して、特定の値を返します。 この例では、IPSプロパティはIPSサーバのバージョンです。
 
 **リクエスト**
 
@@ -73,4 +72,3 @@ ht-degree: 10%
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
