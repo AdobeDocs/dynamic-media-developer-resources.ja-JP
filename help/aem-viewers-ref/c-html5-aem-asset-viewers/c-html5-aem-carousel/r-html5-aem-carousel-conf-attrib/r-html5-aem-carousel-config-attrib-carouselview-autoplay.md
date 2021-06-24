@@ -2,13 +2,12 @@
 description: カルーセルビューアの設定属性。
 solution: Experience Manager
 title: CarouselView.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> カルーセルに各バナーを表示するオン/オフ（時間）と、自動ループの方向を指定します。 </p> <p><span class="codeph"> 0</span>に設定すると、自動ループがオフになります。 </p> <p><span class="codeph"> 1</span>を、<span class="codeph"> duration</span>で制御されるトランジション時間（秒）で自動ループオンに設定します。 </p> <p>オートループの方向は<span class="codeph">方向</span>で制御します。 <span class="codeph">方向</span>は、<span class="codeph"> 1</span>右から左、<span class="codeph"> 0</span>左から右の範囲です。 </p> </td> 
+   <td colname="col2"> <p> カルーセル内の各バナーおよび自動ループの方向を表示するオン/オフ、デュレーションを指定します。 </p> <p>自動ループオフの場合は<span class="codeph"> 0</span>に設定します。 </p> <p><span class="codeph"> 1</span>をオートループオンに設定し、トランジション時間（秒）を<span class="codeph"> duration</span>で制御します。 </p> <p>オートループの方向は<span class="codeph">方向</span>で制御します。 <span class="codeph">方向</span>は、<span class="codeph"> 1</span>右から左、<span class="codeph"> 0</span>左から右の範囲を持ちます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
