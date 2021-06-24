@@ -2,16 +2,15 @@
 description: フォルダを作成します。
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 17%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -19,11 +18,11 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->会社のルートを示す`/`を指定した場合でも、新しいフォルダはImagesフォルダの下位フォルダです。
+>会社のルートを示す`/`を指定した場合でも、新しいフォルダーはImagesフォルダーの下位にあります。
 
 構文
 
-## 認証済みユーザータイプ{#section-14ef6368056b4e8f96198c20b6d93b9b}
+## 許可されたユーザーの種類 {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,16 +33,16 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->ユーザーは、親フォルダーへの読み取り/書き込みアクセス権を持っている必要があります。
+>ユーザーは、親フォルダーに対する読み取り/書き込みアクセス権を持っている必要があります。
 
 ## パラメータ {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**Input (createFolder)**
+**入力(createFolder)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社のハンドル |
-| `*`folderPath`*` | `xsd:string` | はい | リーフレベルのフォルダーとすべてのサブフォルダーを取得するために使用するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い |
+| `*`folderPath`*` | `xsd:string` | はい | フォルダーとすべてのサブフォルダーをリーフレベルに取得するために使用されるルートフォルダー。 除外された場合は、会社のルートが使用されます。 |
 
 **出力(createFolderParam)**
 
@@ -53,7 +52,7 @@ ht-degree: 17%
 
 ## 例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-次のサンプルコードは、会社ーのルートにフォルダーを作成します。 応答は、新しく作成されたフォルダーのハンドルを返します。
+このサンプルコードでは、会社のルートにフォルダーを作成します。 応答は、新しく作成されたフォルダーのハンドルを返します。
 
 **リクエスト**
 
@@ -71,4 +70,3 @@ ht-degree: 17%
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-
