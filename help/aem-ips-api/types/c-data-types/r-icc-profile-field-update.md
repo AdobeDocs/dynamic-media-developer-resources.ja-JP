@@ -2,16 +2,15 @@
 description: ICCプロファイルプロパティの情報を更新します。
 solution: Experience Manager
 title: IccProfileFieldUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
-
 
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
@@ -23,8 +22,7 @@ ICCプロファイルプロパティの情報を更新します。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 更新するICCプロファイルアセットのハンドル。 |
-| `*`クラス`*` | `xsd:string` | プロファイルクラス(値については「プロファイルクラス」を参照)。 |
-| `*`colorSpace`*` | `xsd:string` | プロファイルのカラースペース（値については「カラースペース」を参照） |
+| `*`assetHandle`*` | `xsd:string` | 更新するICCプロファイルアセットの処理。 |
+| `*`クラス`*` | `xsd:string` | Profileクラス（値については「Profile Classes」を参照）。 |
+| `*`colorSpace`*` | `xsd:string` | プロファイルカラースペース（値については「カラースペース」を参照） |
 | `*`pcsType`*` | `xsd:string` | プロファイル接続スペース（値については「カラースペース」を参照） |
-
