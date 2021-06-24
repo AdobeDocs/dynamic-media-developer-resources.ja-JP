@@ -2,16 +2,15 @@
 description: 複数のアセットを削除します。
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 10%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 構文
 
-## 認証済みユーザータイプ{#section-a6bc555b8ac840c98835b73fbf838d70}
+## 許可されたユーザーの種類 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -50,7 +49,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型：HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型：HandleArray[がた：HandleArray]</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>削除するアセットの配列。 </p> </td> 
   </tr> 
@@ -79,32 +78,32 @@ ht-degree: 10%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>操作が警告を削除しようとしたときに警告を生成したアセット。 </p> </td> 
+   <td colname="col4"> <p>操作で削除しようとしたときに警告が発生したアセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセット。 </p> </td> 
+   <td colname="col4"> <p>操作が削除を試みたときにエラーが発生したアセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型：AssetOperationFaultArray[がた：AssetOperationFaultArray]</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>操作がアセットを削除しようとしたときに警告を生成した、アセットに関連付けられた詳細の配列です。 </p> </td> 
+   <td colname="col4"> <p>操作によって削除が試みられたときに警告が生成されたアセットに関連付けられた詳細の配列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型：AssetOperationFaultArray[がた：AssetOperationFaultArray]</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 </p> </td> 
+   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-このコードのサンプルを使用すると、Webサービスサーバーに対して、`deleteAssetsParam`要求内のハンドルとアセットハンドルの配列を会社に送信できます。 `deleteAssetsReturn` は、成功カウント2を返し、両方のアセットが削除されたことを示します。
+このコードのサンプルは、会社にハンドルを送信し、`deleteAssetsParam`リクエスト内のアセットハンドルの配列をWebサービスサーバーに送信します。 `deleteAssetsReturn` は成功カウント2を返し、両方のアセットが削除されたことを示します。
 
 **リクエスト**
 
@@ -127,4 +126,3 @@ ht-degree: 10%
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
