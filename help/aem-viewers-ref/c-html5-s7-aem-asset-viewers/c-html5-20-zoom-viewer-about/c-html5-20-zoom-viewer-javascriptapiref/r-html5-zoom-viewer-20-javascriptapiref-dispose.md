@@ -2,36 +2,35 @@
 description: ズームビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: 処分する
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c796943e-8ea8-4a97-a1ff-09676204150a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
-
-# dispose{#dispose}
+# 処分する{#dispose}
 
 ズームビューアのJavaScript APIリファレンス。
 
 `dispose()`
 
-ビューアのロジックで使用されるすべてのリソースを解放し、ビューアによって作成されたすべての内部オブジェクトとコンポーネントを実行時に削除して、このビューアインスタンスを破棄します。
+ビューアのロジックで使用されるすべてのリソースを解放し、ビューアによって実行時に作成された内側のオブジェクトとコンポーネントをすべて削除することで、このビューアインスタンスを破棄します。
 
-また、Webページコードは、ビューアインスタンス変数を削除し、Webブラウザーのメモリからビューアを完全に削除する必要があります。
+また、Webページコードで、ビューアのインスタンス変数を削除して、Webブラウザーのメモリからビューアを完全に削除する必要があります。
 
-Webページコードが、ビューアが使用するビューアSDKコンポーネントに直接イベントリスナーを登録している場合、そのようなリスナーはWebページコードで明示的に登録解除する必要があり、`dispose()`を呼び出す前にその外部コンポーネント参照を削除する必要があります。
+Webページコードがビューアで使用するビューアSDKコンポーネントに直接イベントリスナーを登録している場合、そのようなコンポーネントへの外部参照はWebページコードで明示的に登録解除する必要があり、 `dispose()`を呼び出す前に削除する必要があります。
 
-`dispose()`の呼び出し後は、ビューアのAPIにアクセスしないでください。
+`dispose()`の呼び出し後は、ビューアAPIにアクセスしないでください。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
@@ -40,4 +39,3 @@ Webページコードが、ビューアが使用するビューアSDKコンポ�
 ```
 <instance>.dispose()
 ```
-
