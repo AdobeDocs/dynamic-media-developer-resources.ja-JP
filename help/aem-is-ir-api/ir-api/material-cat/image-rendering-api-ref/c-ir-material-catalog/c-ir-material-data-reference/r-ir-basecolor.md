@@ -1,27 +1,26 @@
 ---
-description: 主要な画像の色。 減法色。テクスチャの色彩付けに使用します。 テクスチャイメージの平均主要カラーにする必要があります。
+description: ドミナント画像カラー テクスチャのカラー化に使用される減法カラー。 テクスチャイメージの平均的な優性カラーである必要があります。
 solution: Experience Manager
 title: BaseColor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # BaseColor{#basecolor}
 
-主要な画像の色。 減法色。テクスチャの色彩付けに使用します。 テクスチャイメージの平均主要カラーにする必要があります。
+ドミナント画像カラー テクスチャのカラー化に使用される減法カラー。 テクスチャイメージの平均的な優性カラーである必要があります。
 
-`BaseColor`を含まないテクスチャマテリアルをテクスチャ化できないビネットオブジェクトに適用する場合は、塗りのカラーとして`catalog::Color`を使用することもできます。
+`catalog::Color`を持たないテクスチャマテリアルがテクスチャ化されないビネットオブジェクトに適用されている場合は、 `BaseColor`を塗りのカラーとして使用することもできます。
 
 ## プロパティ {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-カラー. べた塗りとキャビネットのマテリアルでは無視されます。
+カラー. ソリッドカラーとキャビネットのマテリアルでは無視されます。
 
 ## 初期設定 {#section-ca1813a6fcb24645b5835af0891b279d}
 
