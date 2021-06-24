@@ -1,22 +1,21 @@
 ---
-description: Web印刷用リクエストに埋め込まれたビットマップの解像度を設定します。
+description: Web To Print要求の埋め込みビットマップの解像度を設定します。
 solution: Experience Manager
 title: imageRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: bd9c83c3-b1b5-4649-8975-1452e4dd59b1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
 
-
 # imageRes{#imageres}
 
-Web印刷用リクエストに埋め込まれたビットマップの解像度を設定します。
+Web To Print要求の埋め込みビットマップの解像度を設定します。
 
 ` imageRes=< *`番号`*>`
 
-印刷する場合は300をお勧めします。 数が多いほど、イメージのレンダリングに必要な時間が長くなります。
+印刷する場合は300をお勧めします。 数が多いほど、イメージのレンダリングに要する時間が長くなります。
