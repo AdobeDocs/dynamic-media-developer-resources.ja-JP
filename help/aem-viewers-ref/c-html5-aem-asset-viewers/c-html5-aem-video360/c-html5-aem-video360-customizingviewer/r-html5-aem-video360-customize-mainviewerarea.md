@@ -1,21 +1,20 @@
 ---
-description: メイン表示領域は、360ビデオが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+description: メインビュー領域は、360ビデオが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
 
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域は、360ビデオが表示される領域です。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域は、360ビデオが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -52,7 +51,7 @@ ht-degree: 3%
 
 ## 例 {#section-ee18025b182a42dc98052de5f133ddfe}
 
-白の背景(`#FFFFFF`)のビューアを設定し、サイズを512 x 288ピクセルにするには、次のように記述します。
+白の背景(`#FFFFFF`)のビューアを設定し、サイズを512 x 288ピクセルにするには
 
 ```
 .s7video360viewer { 
