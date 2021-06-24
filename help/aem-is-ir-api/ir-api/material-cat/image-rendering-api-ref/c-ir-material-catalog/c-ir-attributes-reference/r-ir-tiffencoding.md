@@ -1,31 +1,30 @@
 ---
-description: TIFFエンコーディング形式。 TIFF画像の圧縮形式を指定します（実際には、fmt=コマンドの3番目の値のデフォルト値です）。
+description: TIFFエンコーディング形式。 TIFF画像の圧縮形式を指定します（事実上、fmt=コマンドの3番目の値のデフォルト）。
 solution: Experience Manager
 title: TiffEncoding
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6a6fa8f5-4497-438d-914c-3f6d4c08ef09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
 
-
 # TiffEncoding{#tiffencoding}
 
-TIFFエンコーディング形式。 TIFF画像の圧縮形式を指定します（実際には、fmt=コマンドの3番目の値のデフォルト値です）。
+TIFFエンコーディング形式。 TIFF画像の圧縮形式を指定します（事実上、fmt=コマンドの3番目の値のデフォルト）。
 
-0（圧縮なし）、1(LZW)、2(デフレート(ZIP)、3（JPEG圧縮）に設定します。
+圧縮なしの場合は0、LZWの場合は1、デフレート(ZIP)の場合は2、JPEG圧縮の場合は3に設定します。
 
 ## プロパティ {#section-469f5a1225464542866f5353edd92db3}
 
-列挙。
+列挙
 
 ## 初期設定 {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-定義されていない場合や空の場合は`default::TiffEncoding`から継承されます。
+`default::TiffEncoding`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-1601425e5ac3486da4df8e7fa55981b2}
 
