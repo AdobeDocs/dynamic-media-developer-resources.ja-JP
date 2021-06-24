@@ -2,16 +2,15 @@
 description: 一意のメタデータフィールド値を取得します。
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -19,7 +18,7 @@ ht-degree: 24%
 
 構文
 
-## 認証済みユーザータイプ{#section-6a6b67e10a4c4e7bb18306115713380e}
+## 許可されたユーザーの種類 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,8 +34,8 @@ ht-degree: 24%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`fieldHandle`*` | `xsd:string` | いいえ | メタデータフィールドへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`fieldHandle`*` | `xsd:string` | いいえ | メタデータフィールドに対する処理。 |
 
 **出力(getUniqueMetadataValuesReturn)**
 
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 ## 例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-このコードのサンプルでは、フィールドハンドルを使用して特定のメタデータ値を返します。
+このコードサンプルでは、フィールドハンドルを使用して特定のメタデータ値を返します。
 
 **リクエスト**
 
@@ -66,4 +65,3 @@ ht-degree: 24%
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
