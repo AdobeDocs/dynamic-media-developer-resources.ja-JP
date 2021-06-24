@@ -1,21 +1,20 @@
 ---
-description: 代替変数は、値を要求URLからサーバーに保存されているFXGテンプレートに転送するために使用します。
+description: 代替変数は、要求URLからサーバー上に保存されたFXGテンプレートに値を転送するために使用されます。
 solution: Experience Manager
 title: 代替変数
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-
 # 代替変数{#substitution-variables}
 
-代替変数は、値を要求URLからサーバーに保存されているFXGテンプレートに転送するために使用します。
+代替変数は、要求URLからサーバー上に保存されたFXGテンプレートに値を転送するために使用されます。
 
 ` $ *``*= *`varvalue`*`
 
@@ -31,7 +30,6 @@ ht-degree: 0%
 </table>
 
 * 変数の定義と参照は、リクエストURLのクエリ部分で発生する場合があります。
-* 変数は、他のISコマンドと同様、上記のように定義されます。先頭の「$」は、コマンドが変数定義であることを示します。
-* 変数名`*`var`*`は大文字と小文字が区別され、文字、数字、「 — 」、「_」の組み合わせで構成することができます。
-* 重要な値は、安全なHTTP送信を実現するために、シングルパスでURLエンコードする必要があります。
-
+* 変数は、他のISコマンドと同様に、上記のように定義されます。先頭の「$」は、コマンドを変数定義として識別します。
+* 変数名`*`var`*`は大文字と小文字を区別し、文字、数字、「 — 」、「_」の組み合わせで構成することができます。
+* 重要な値は、安全なHTTP送信を実現するために、1パスでURLエンコードする必要があります。
