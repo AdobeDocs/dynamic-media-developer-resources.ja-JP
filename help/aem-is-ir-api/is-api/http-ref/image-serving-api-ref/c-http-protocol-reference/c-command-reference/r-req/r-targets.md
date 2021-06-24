@@ -1,21 +1,20 @@
 ---
-description: 画像カタログのターゲットデータをズームします。 URLパスで指定された画像カタログエントリのズームターゲットデータを返します。
+description: 画像カタログのデータをズームターゲットにします。 URLパスで指定された画像カタログエントリのズームターゲットデータを返します。
 solution: Experience Manager
 title: ターゲット
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
 
-
 # ターゲット{#targets}
 
-画像カタログのターゲットデータをズームします。 URLパスで指定された画像カタログエントリのズームターゲットデータを返します。
+画像カタログのデータをズームターゲットにします。 URLパスで指定された画像カタログエントリのズームターゲットデータを返します。
 
 `req=targets[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
@@ -26,17 +25,17 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>一意の要求識別子。 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト識別子。 </p></td> 
  </tr> 
 </table>
 
-`catalog::Targets`の内容が返されます。 &#39;text&#39;形式が要求されると、`catalog::Targets`内の`??`のすべてのインスタンスは行終端子に置き換えられ、末尾に1つの行終端子(`CR/LF`)が追加されます。 URLパスが有効なカタログエントリに解決されない場合、応答には1つの行終端子のみが含まれます。 「xml」または「json」形式が要求された場合、適切な形式設定が適用されます。
+`catalog::Targets`の内容が返されます。 「text」形式が要求されると、`catalog::Targets`内の`??`のすべてのインスタンスが行終端子に置き換えられ、1つの行終端子(`CR/LF`)が末尾に追加されます。 URLパスが有効なカタログエントリに解決されない場合、応答は1行のターミネータのみで構成されます。 「xml」または「json」形式が要求された場合は、適切な形式が適用されます。
 
-要求文字列内の他のコマンドは無視されます。
+リクエスト文字列内の他のコマンドは無視されます。
 
 HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
 
-JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
