@@ -2,14 +2,13 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオ再生中など、インタラクティブスウォッチが各メディアトランジションと共に自動的にスクロールする機能を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> ビデオの再生中など、各メディアトランジションと共にインタラクティブスウォッチを自動的にスクロールする機能を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
