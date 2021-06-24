@@ -2,14 +2,13 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: c91f33bd-92d5-4b00-8910-572f08255f8c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 21%
+source-wordcount: '38'
+ht-degree: 23%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 再生の完了後にビデオを再生するかどうかを示します。 </p> </td> 
+   <td colname="col2"> <p> 再生が完了した後にビデオを再生するかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
