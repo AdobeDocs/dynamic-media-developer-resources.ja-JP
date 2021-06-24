@@ -1,20 +1,19 @@
 ---
-description: イメージレンダリングは、キャッシュとログの目的でディスク領域を消費します。
+description: 画像レンダリングは、キャッシュやログの目的でディスク領域を消費します。
 solution: Experience Manager
-title: ダイナミック・ディスク領域の考慮事項
-feature: Dynamic Media Classic,SDK/API
+title: ダイナミックディスク容量の考慮事項
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7d335c1e-416e-4790-9a33-cd31ed112f82
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
+# ダイナミックディスク容量の考慮事項{#dynamic-disk-space-considerations}
 
-# ダイナミック・ディスク・スペースに関する考慮事項{#dynamic-disk-space-considerations}
+画像レンダリングは、キャッシュやログの目的でディスク領域を消費します。
 
-イメージレンダリングは、キャッシュとログの目的でディスク領域を消費します。
-
-詳しくは、「ログとキャッシュ」を参照してください。
+詳しくは、ログとキャッシュを参照してください。
