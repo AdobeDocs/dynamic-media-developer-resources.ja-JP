@@ -1,33 +1,32 @@
 ---
-description: スピンビューアでは、Adobe Analytics追跡機能がサポートされていて、この機能をすぐに使用できます。
+description: スピンビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
-title: Adobe Analyticsトラッキングのサポート
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+title: Adobe Analytics追跡のサポート
+feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 30762700-6d69-4299-9492-57893232abe1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
+# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-# Adobe Analyticsトラッキングのサポート{#support-for-adobe-analytics-tracking}
+スピンビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
-スピンビューアでは、Adobe Analytics追跡機能がサポートされていて、この機能をすぐに使用できます。
-
-## すぐに使える追跡{#section-d06145cfa2b9491bb485b599368d466e}
+## 標準のトラッキング {#section-d06145cfa2b9491bb485b599368d466e}
 
 スピンビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
 
-また、ビューアは、設定済みのImage Serverに、ビューアのタイプとバージョン情報と共に、1つの追跡HTTP要求を送信します。
+また、ビューアは、設定済みのImage Serverに対して、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求も送信します。
 
-## カスタムトラッキング{#section-47512156a1d64b338b50cfa39c84f4aa}
+## カスタムトラッキング {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-サードパーティの分析システムと統合するには、`trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -51,13 +50,13 @@ var spinViewer = new s7viewers.SpinViewer({
 });
 ```
 
-ビューアは、以下のSDKユーザーイベントを追跡します。
+ビューアは、次のSDKユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKのユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信日時 </p> </th> 
+   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -71,16 +70,15 @@ var spinViewer = new s7viewers.SpinViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> 画像がズームされたとき。 </p> </td> 
+   <td colname="col2"> <p> 画像がズームされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされた。 </p> </td> 
+   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
-   <td colname="col2"> <p> スピンが実行された。 </p> </td> 
+   <td colname="col2"> <p> スピンが実行されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
