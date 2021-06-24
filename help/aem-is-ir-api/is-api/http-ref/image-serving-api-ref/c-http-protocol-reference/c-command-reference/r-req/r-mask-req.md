@@ -1,24 +1,23 @@
 ---
-description: 画像マスク マスク(アルファチャネル)データを要求します。
+description: イメージマスク。 マスク（アルファチャンネル）データを要求します。
 solution: Experience Manager
-title: mask
-feature: Dynamic Media Classic,SDK/API
+title: マスク
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
+# マスク{#mask}
 
-# mask{#mask}
-
-画像マスク マスク(アルファチャネル)データを要求します。
+イメージマスク。 マスク（アルファチャンネル）データを要求します。
 
 `req=mask`
 
-`req=img`と同じコマンドをサポートします。 サーバーでも同じように処理されますが、RGBデータやRGBAデータを返す代わりに、カラーチャネルを破棄し、マスク（アルファ情報）データのみを返します。 応答データの形式と応答のMIMEタイプは`fmt=`によって決定されます。
+`req=img`と同じコマンドをサポートします。 サーバーでも同じ方法で処理されますが、RGBまたはRGBAデータを返す代わりに、サーバーはカラー情報を破棄し、マスク（アルファチャンネル）データのみを返します。 応答データの形式と応答のMIMEタイプは`fmt=`によって決まります。
 
 HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
