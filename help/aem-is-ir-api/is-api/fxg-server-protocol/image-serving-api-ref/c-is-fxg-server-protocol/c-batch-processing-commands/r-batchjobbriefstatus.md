@@ -1,21 +1,20 @@
 ---
-description: 送信されたジョブの要約済みステータスを取得します。
+description: 送信済みジョブの要約済みステータスの取得
 solution: Experience Manager
-title: batchjobbreafstatus
-feature: Dynamic Media Classic,SDK/API
+title: batchjobbreifstatus
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1b31bdbb-3c2c-4f7f-ba95-d3e710270be0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
 
+# batchjobbreifstatus{#batchjobbriefstatus}
 
-# batchjobbreafstatus{#batchjobbriefstatus}
-
-送信されたジョブの要約済みステータスを取得します。
+送信済みジョブの要約済みステータスの取得
 
 このパラメーター：
 
@@ -28,7 +27,7 @@ ht-degree: 1%
 
 戻り値：
 
-XML形式のジョブの簡単なステータス。jobidが無効な場合、またはジョブが削除された場合にエラーが発生します。
+XML形式のジョブの簡単なステータス。ジョブidが無効な場合、またはジョブが削除された場合にエラーが発生します。
 
 ## 例 {#section-806460949bb043438ad4dd4e7ab74145}
 
