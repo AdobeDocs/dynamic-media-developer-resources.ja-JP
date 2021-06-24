@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [必要システム構成](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)を参照してください。
 
-## インタラクティブ画像ビューアの使用{#section-e6c68406ecdc4de781df182bbd8088b4}
+## インタラクティブ画像ビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 インタラクティブ画像ビューアは、メインのJavaScriptファイルと、ビューアによって実行時にダウンロードされるヘルパーファイルのセット（この特定のビューア、アセット、CSSで使用されるすべてのビューアSDKコンポーネントを含む単一のJavaScriptインクルード）です。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通のコマンドリファレンス — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください。
 
-## インタラクティブ画像ビューアの操作{#section-642e66ca38cd4032992840ec6c0b0cd2}
+## インタラクティブ画像ビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 ビデオ画像ビューアでサポートされているインタラクションは、デスクトップシステムでのホットスポットのアクティブ化です。 このアクティベーションは、1回のタップでのクリック時およびタッチデバイスで発生します。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 [キーボードのアクセシビリティとナビゲーション](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
-## インタラクティブ画像ビューアの埋め込み{#section-6bb5d3c502544ad18a58eafe12a13435}
+## インタラクティブ画像ビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 インタラクティブ画像ビューアは、ホスティングページに埋め込むように設計されています。 このようなWebページは、静的なレイアウトを持つ場合や、「レスポンシブ」で、デバイスごと、ブラウザーウィンドウのサイズごとに表示方法が変わる場合があります。
 
