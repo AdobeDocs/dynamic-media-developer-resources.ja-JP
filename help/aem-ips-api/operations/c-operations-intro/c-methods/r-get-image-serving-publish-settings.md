@@ -1,25 +1,24 @@
 ---
-description: 内部でのみ使用します。 ユーザは、「画像サービングの画像カタログ参照 — 属性参照」の節を参照してください。
+description: 内部でのみ使用します。 ユーザーは、画像サービングの画像カタログの参照 — 属性の参照の節を参照してください。
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
-
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-内部でのみ使用します。 ユーザは、「画像サービングの画像カタログ参照 — 属性参照」の節を参照してください。
+内部でのみ使用します。 ユーザーは、画像サービングの画像カタログの参照 — 属性の参照の節を参照してください。
 
 構文
 
-## 認証済みユーザータイプ{#section-49b7b277ba1748499121a0e90996458c}
+## 許可されたユーザーの種類 {#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,11 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 画像サービングの公開設定を含む会社へのハンドル。 |
-| `*`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストへの処理。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 公開設定を画像サービングに設定した会社へのハンドル。 |
+| `*`contextHandle`*` | `xsd:string` | はい | パブリッシュコンテキストを処理します。 |
 
-**Output**
+**出力**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | はい | Image Server公開設定の配列。 |
-
+| `*`publishSettingArray`*` | `xsd:string` | はい | Image Serverの公開設定の配列。 |
