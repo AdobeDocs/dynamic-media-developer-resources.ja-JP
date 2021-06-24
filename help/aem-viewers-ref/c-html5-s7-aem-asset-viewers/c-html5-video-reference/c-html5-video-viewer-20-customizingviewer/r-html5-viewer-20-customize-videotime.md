@@ -1,25 +1,24 @@
 ---
-description: ビデオ時間は、現在時間と現在再生中のビデオの長さを数値で表示します。
+description: ビデオ時間は、現在再生中のビデオの現在時間と時間を示す数値表示です。
 solution: Experience Manager
 title: ビデオ時間
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
 
-
 # ビデオ時間{#video-time}
 
-ビデオ時間は、現在時間と現在再生中のビデオの長さを数値で表示します。
+ビデオ時間は、現在再生中のビデオの現在時間と時間を示す数値表示です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ビデオ時間のフォントファミリー、フォントサイズおよびフォントカラーのプロパティは、CSSで制御できます。 また、このコントロールを含むコントロールバーに対する位置も、CSSで設定できます。
+ビデオ時間のフォントファミリ、フォントサイズ、フォントカラーは、CSSで制御できるプロパティの1つです。 また、CSSを使用して、このコントロールバーを含むコントロールバーに対する相対位置を指定することもできます。
 
 ビデオ時間の外観は、以下のCSSクラスセレクターを使用して制御します。
 
@@ -27,7 +26,7 @@ ht-degree: 2%
 .s7videoviewer .s7videotime
 ```
 
-## ビデオ時間{#css-properties-of-video-time}のCSSプロパティ
+## ビデオ時間のCSSプロパティ {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -41,7 +40,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> ビデオ時間コントロールの幅。 このプロパティは、Internet Explorer 8以降が正しく機能するために必要です。 </p> </td> 
+   <td colname="col2"> <p> ビデオ時間制御の幅。 このプロパティは、Internet Explorer 8以降が正しく機能するために必要です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -60,7 +59,7 @@ ht-degree: 2%
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-ライトグレー（16進数`#BBBBBB`）で、サイズが12ピクセルで、コントロールバーの上から15ピクセル、コントロールバーの右端から80ピクセルの位置に配置するビデオ時間を設定します。
+ライトグレー（16進数`#BBBBBB`）でサイズが12ピクセルで、コントロールバーの上から15ピクセル、コントロールバーの右端から80ピクセルの位置に配置するビデオ時間を設定します。
 
 ```
 .s7videoviewer .s7videotime { 
@@ -71,4 +70,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
