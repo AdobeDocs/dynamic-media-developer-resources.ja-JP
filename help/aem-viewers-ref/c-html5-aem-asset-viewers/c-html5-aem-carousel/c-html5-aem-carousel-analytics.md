@@ -1,25 +1,24 @@
 ---
-description: Adobe Analyticsトラッキングのサポート
+description: Adobe Analytics追跡のサポート
 solution: Experience Manager
-title: Adobe Analyticsトラッキングのサポート
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+title: Adobe Analytics追跡のサポート
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
 
-# Adobe Analyticsトラッキングのサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-## カスタムトラッキング{#section-cda48fc9730142d0bb3326bac7df3271}
+## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-初期設定では、ビューアは、ビューアタイプとバージョン情報を含む設定済みのImage Serverに、1つの追跡HTTP要求を送信します。
+デフォルトでは、ビューアは、設定済みのImage Serverに対し、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求を送信します。
 
-サードパーティの分析システムと統合するには、`trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -43,13 +42,13 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
-ビューアは、以下のSDKユーザーイベントを追跡します。
+ビューアは、次のSDKユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKのユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信日時 </p> </th> 
+   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
