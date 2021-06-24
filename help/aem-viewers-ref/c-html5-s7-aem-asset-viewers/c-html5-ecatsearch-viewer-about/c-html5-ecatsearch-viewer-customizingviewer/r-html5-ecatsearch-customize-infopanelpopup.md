@@ -1,23 +1,22 @@
 ---
-description: 情報パネルポップアップは、Dynamic Mediaクラシックで定義されたrollover_keyプロパティを持つ画像マップをアクティブにした場合、およびビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
+description: Dynamic Media Classicでrollover_keyプロパティが定義されている画像マップをユーザがアクティブにし、情報パネルの機能がビューアに対して適切に設定されている場合、情報パネルポップアップがビューア領域の中央に表示されます。
 solution: Experience Manager
 title: 情報パネルポップアップ
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
-
 # 情報パネルポップアップ{#info-panel-popup}
 
-情報パネルポップアップは、Dynamic Mediaクラシックで定義されたrollover_keyプロパティを持つ画像マップをアクティブにした場合、およびビューアに対して情報パネル機能が適切に設定されている場合に、ビューア領域の中央に表示されます。
+Dynamic Media Classicでrollover_keyプロパティが定義されている画像マップをユーザがアクティブにし、情報パネルの機能がビューアに対して適切に設定されている場合、情報パネルポップアップがビューア領域の中央に表示されます。
 
-情報パネルの背景は、ビューア領域全体に表示され、以下のCSSクラスセレクターを使用して制御します。
+情報パネルの背景は、ビューア領域全体を覆い、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay`
 
@@ -35,12 +34,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 半透明の黒の背景を使用するように、情報パネルポップアップを設定します。
+例 — 半透明の黒の背景を使用するように情報パネルポップアップを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay { 
@@ -48,7 +47,7 @@ ht-degree: 2%
 }
 ```
 
-情報パネルダイアログは、初期設定でビューア領域の中央に表示されます。 ただし、CSSクラスセレクターを使用して、サイズ、整列、背景および境界線を制御できます。
+情報パネルダイアログは、デフォルトでビューア領域の中央に表示されます。 ただし、CSSクラスセレクターを使用して、サイズ、整列、背景および境界線を制御できます。
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
@@ -62,11 +61,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>ビューア領域パネルの背景の塗り内での、情報パネルダイアログの水平方向の位置。 </p> </td> 
+   <td colname="col2"> <p>ビューア領域パネルの背景の塗りつぶし内での情報パネルダイアログの水平方向の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>ビューア領域内での、情報パネルダイアログの垂直方向の位置。 </p> </td> 
+   <td colname="col2"> <p>ビューア領域内での情報パネルダイアログの垂直方向の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -78,15 +77,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p>情報パネルダイアログの左側のマージン。中央揃えの目的で使用できます。 </p> </td> 
+   <td colname="col2"> <p>情報パネルダイアログの左余白。中央揃えの目的で使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p>情報パネルダイアログの上部のマージン。中央揃えの目的で使用できます。 </p> </td> 
+   <td colname="col2"> <p>情報パネルダイアログの上余白。中央揃えの目的で使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログの内部のパディング。 </p> </td> 
+   <td colname="col2"> <p>ダイアログの内部パディング。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -98,12 +97,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログのシャドウ。 </p> </td> 
+   <td colname="col2"> <p>ダイアログの影。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — ビューア領域の中央に配置する300 x 200ピクセルの情報パネルダイアログを設定します。は、上部に40ピクセルのパディング、その他すべての辺に10ピクセルのパディング、ライトグレーの背景、境界線の半径とドロップシャドウ10ピクセルのパディングがあります。
+例 — ビューア領域の中央に配置される300 x 200ピクセルの情報パネルダイアログを設定します。には、上部に40ピクセルのパディング、その他すべての辺に10ピクセルのパディング、明るいグレーの背景、境界線の半径とドロップシャドウが10ピクセルあります。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -163,22 +162,22 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターを使用して、ボタンの状態ごとに異なるスキンを適用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 28 x 28ピクセルで、情報パネルダイアログの上および右端から5ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示するダイアログの閉じるボタンを設定します。
+例 — 28 x 28ピクセルで、情報パネルダイアログの上および右端から5ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示するダイアログ閉じるボタンを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-
