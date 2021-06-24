@@ -1,21 +1,20 @@
 ---
-description: レイヤーを反転 切り抜き=を適用した後、回転=と延長=を適用した後に、レイヤーを水平方向、垂直方向または両方向に反転します。
+description: レイヤを反転 切り抜き=を適用した後、回転=と延長=を適用した後、レイヤーを水平、垂直または両方に反転します。
 solution: Experience Manager
 title: 反転
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
+# 反転{#flip}
 
-# flip{#flip}
-
-レイヤーを反転 切り抜き=を適用した後、回転=と延長=を適用した後に、レイヤーを水平方向、垂直方向または両方向に反転します。
+レイヤを反転 切り抜き=を適用した後、回転=と延長=を適用した後、レイヤーを水平、垂直または両方に反転します。
 
 `flip=lr|ud|lrud`
 
@@ -30,21 +29,21 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ラード  </span> </p> </td> 
-  <td class="stentry"> <p>水平方向と垂直方向の両方に反転します。 </p> </td> 
+  <td class="stentry"> <p>水平方向と垂直方向の両方を反転します。 </p> </td> 
  </tr> 
 </table>
 
 また、テキストレイヤーにも適用できます。
 
-`extend=`を含む一部のコマンドは、`layer=comp`が選択された場合に、複合レイヤーではなくレイヤー0に暗黙的に適用されます。 このような場合、画層0に自動的に割り当てられるすべてのコマンドは、`layer=comp`に適用されるコマンドの前に適用されます。 したがって、`layer=comp`の場合、`flip=`の前に`extend=`が適用されます。
+`extend=`を含む一部のコマンドは、`layer=comp`を選択した場合に、合成画層ではなく画層0に暗黙的に適用されます。 このシナリオでは、画層0に自動的に割り当てられるすべてのコマンドは、`layer=comp`に適用されるコマンドの前に適用されます。 したがって、`layer=comp`の場合、`flip=`の前に`extend=`が適用されます。
 
 >[!NOTE]
 >
->反転したレイヤーは、レイヤーアンカーに基づいて配置されます。flip=の値を変えると、アンカーがレイヤーの中心にない場合に、レイヤーの位置が異なります。
+>反転レイヤーは、レイヤーアンカーに基づいて配置されます。flip=値が異なると、アンカーがレイヤーの中心にない場合に、レイヤーの位置が異なります。
 
 ## プロパティ {#section-294da2af7be746b5adfc35e29ee68217}
 
-レイヤーコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤーでは無視されます。
+レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤでは無視されます。
 
 ## 初期設定 {#section-502044f81a89492198d5f12a738459ea}
 
