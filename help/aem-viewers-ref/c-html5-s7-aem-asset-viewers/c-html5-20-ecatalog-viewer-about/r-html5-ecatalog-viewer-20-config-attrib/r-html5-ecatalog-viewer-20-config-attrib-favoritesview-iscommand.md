@@ -1,21 +1,20 @@
 ---
-description: すべてのサムネールに適用される画像サービングコマンド文字列です。
+description: すべてのサムネールに適用される画像サービングコマンド文字列。
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
 
-
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-すべてのサムネールに適用される画像サービングコマンド文字列です。
+すべてのサムネールに適用される画像サービングコマンド文字列。
 
 ` [FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> URLで指定する場合、すべての<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>を<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTPエンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p> URLで指定する場合、 <span class="codeph"> &amp;</span>および<span class="codeph"> =</span>のすべての出現箇所をそれぞれ<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>にHTTPエンコードする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
