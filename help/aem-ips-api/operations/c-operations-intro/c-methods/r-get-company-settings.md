@@ -2,16 +2,15 @@
 description: 特定の会社のIPS設定を返します。
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
-
 
 # getCompanySettings{#getcompanysettings}
 
@@ -19,7 +18,7 @@ ht-degree: 22%
 
 構文
 
-## 認証済みユーザータイプ{#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 許可されたユーザーの種類 {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,15 +33,15 @@ ht-degree: 22%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | 設定を取得する会社のハンドル。 |
 
-**Output (getCompanySettingsReturn)**
+**出力(getCompanySettingsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`設定`*` | `types:CompanySettings` | はい | 会社設定 |
+| `*`設定`*` | `types:CompanySettings` | はい | カンパニー設定 |
 
 ## 例 {#section-191f78995ecf473a95eadf7296204fd7}
 
-このコードの例では、特定の会社のすべてのIPS設定を返します。
+このコードサンプルは、特定の会社のすべてのIPS設定を返します。
 
 **リクエスト**
 
@@ -79,4 +78,3 @@ ht-degree: 22%
    </settings>
 </getCompanySettingsReturn>
 ```
-
