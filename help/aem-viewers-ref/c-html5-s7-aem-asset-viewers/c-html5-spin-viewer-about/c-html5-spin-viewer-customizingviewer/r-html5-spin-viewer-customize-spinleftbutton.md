@@ -1,27 +1,26 @@
 ---
-description: このボタンをクリックまたはタップすると、メイン表示の画像が左方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
+description: このボタンをクリックまたはタップすると、メインビューの画像が左にスピンします。 携帯電話では、画面のスペースを節約するために、このボタンは表示されません。 また、複数次元のスピンセットを使用すると、「 」ボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 solution: Experience Manager
 title: 左スピンボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2dba30d5-d257-4427-9476-ab695b6603aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '338'
 ht-degree: 4%
 
 ---
 
-
 # 左スピンボタン{#spin-left-button}
 
-このボタンをクリックまたはタップすると、メイン表示の画像が左方向にスピンします。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 また、複数次元のスピンセットを使用する場合は、このボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
+このボタンをクリックまたはタップすると、メインビューの画像が左にスピンします。 携帯電話では、画面のスペースを節約するために、このボタンは表示されません。 また、複数次元のスピンセットを使用すると、「 」ボタンが非表示になります。 CSSを使用して、ボタンのサイズ設定、スキン表示および配置を行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **スピンボタンのCSSプロパティ**
 
-ボタンが内部コンテナ(DIV)に追加されます。この内部セレクターは、CSSクラスセレクターを使用して制御します。
+このボタンは内部コンテナに追加されます。このコンテナはDIVで制御できます。このコンテナは、CSSクラスセレクターを使用します。
 
 ```
 .s7spinviewer .s7spinbuttons
@@ -62,7 +61,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-コンテナ内でのこのボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+コンテナ内のこのボタンの外観は、CSSクラスセレクターを使用して制御します。
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton
@@ -102,22 +101,22 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98)を参照してください。
 
-例 — 28 x 28ピクセルで、内側のコンテナの左端に配置し、ボタンの4つの状態ごとに異なる画像を表示する左へスピンボタンを設定するには、次のように記述します。
+例 — 28 x 28ピクセルで、内側のコンテナの左端に配置し、ボタンの4つの状態ごとに異なる画像を表示する左スピンボタンを設定するには、次のように記述します。
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton { 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
