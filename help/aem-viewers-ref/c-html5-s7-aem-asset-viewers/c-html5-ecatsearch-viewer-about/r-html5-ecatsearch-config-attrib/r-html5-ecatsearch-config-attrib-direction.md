@@ -2,16 +2,15 @@
 description: 方向
 solution: Experience Manager
 title: 方向
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
-
 
 # 方向{#direction}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示とサムネールでのページの表示方法を指定します。 また、ユーザがビューアのユーザインターフェイスを操作してカタログフレーム間を変更する方法も指定します。 </p> <p><span class="codeph"> left </span>を使用すると、最初のページの右揃えと、最後のページの左揃えが設定されます。 左から右へのレンダリング順序で、個々のページのサブ画像をステッチします。 また、右から左のスライド表示を使用してカタログを進めるようにメインアニメーションを設定します（<span class="codeph"> PageView.frametransition </span>がslideに設定されている場合）。 最後に、左から右の塗りつぶし順にサムネールが設定されます。 </p> <p>同様に、<span class="codeph"> right </span>を使用すると、最初のページの左揃えと最後のページの右揃えが設定されます。 右から左にレンダリングする順序で、個々のページのサブ画像をステッチします。 また、左から右のスライド表示を使用してカタログを進めるようにメインアニメーションを設定します（<span class="codeph"> PageView.frametransition </span>がslideに設定されている場合）。 最後に、サムネールの順序を逆にして、サムネール表示を右から左、上から下の方向に塗りつぶします。 </p> <p><span class="codeph"> auto </span>が設定されている場合、ロケールが<span class="codeph"> ja；に設定されているとき、ビューアは<span class="codeph"> right </span>モードを適用します。</span>それ以外の場合は、<span class="codeph">左</span>モードを使用します。 </p> </td> 
+   <td colname="col2"> <p>メインビューとサムネールでのページの表示方法を指定します。 また、カタログフレーム間を変更するために、ユーザがビューアのユーザインターフェイスとやり取りする方法も指定します。 </p> <p><span class="codeph">左</span>を使用すると、最初のページの右揃えと最後のページの左揃えが設定されます。 個々のページのサブ画像を、左から右のレンダリング順にステッチします。 また、右から左のスライドアニメーションを使用してカタログを進めるようにメインビューを設定します（ <span class="codeph"> PageView.frametransition </span>がslideに設定されている場合）。 最後に、左から右の入力順序にサムネールが設定されます。 </p> <p>同様に、<span class="codeph"> right </span>を使用すると、最初のページの左揃えと最後のページの右揃えが設定されます。 個々のページのサブ画像をステッチして、右から左にレンダリングする順序を指定します。 また、左から右のスライドアニメーションを使用してカタログを進めるようにメインビューを設定します（ <span class="codeph"> PageView.frametransition </span>がslideに設定されている場合）。 最後に、サムネールの順序を逆にして、サムネールビューが右から左、上から下の方向に表示されるようにします。 </p> <p><span class="codeph"> auto </span>が設定されている場合、ロケールが<span class="codeph"> jaに設定されているときに、<span class="codeph"> right </span>モードが適用されます。</span>それ以外の場合は、<span class="codeph">左</span>モードを使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
