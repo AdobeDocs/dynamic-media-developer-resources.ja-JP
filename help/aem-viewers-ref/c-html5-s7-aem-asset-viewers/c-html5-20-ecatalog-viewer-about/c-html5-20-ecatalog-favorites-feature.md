@@ -2,21 +2,20 @@
 description: お気に入り機能
 solution: Experience Manager
 title: お気に入り機能
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7caf1111-9643-494c-8c9e-684edd1c27f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
 # お気に入り機能{#favorites-feature}
 
-エンドユーザは、お気に入り機能を使用して、eカタログ画像に「ハート」アイコンを追加することで、e-catalogに直接関心のある製品をマークすることができます。 すべてのお気に入りはクライアントのシステムに保存され、同じユーザが再びe-catalogを表示すると、再び表示されます。
+エンドユーザーは、お気に入り機能を使用して、eカタログ画像に「ハート」アイコンを追加することで、eカタログに直接関心のある製品をマークできます。 ビューアは、すべてのお気に入りをクライアントのシステムに保存し、同じユーザがeカタログに再度アクセスすると、再び表示します。
 
-また、eカタログに追加されたすべてのお気に入りをサムネール画像のグリッドとして確認できます。
+さらに、eカタログに追加されたお気に入りをすべて、サムネール画像のグリッドとしてレビューできます。
 
-すべてのお気に入りツールは、コントロールバーの1つのドロップダウンリストの下にグループ化されます。
+すべてのお気に入りツールは、コントロールバーの1つのドロップダウンリストにグループ化されます。
