@@ -1,30 +1,29 @@
 ---
-description: オブジェクト選択エラーの処理。 obj=コマンドが失敗した場合に、ビネットオブジェクト階層で指定のパスが一致しないことが原因で実行されるアクションを指定します。
+description: オブジェクト選択エラー処理。 ビネットオブジェクト階層で指定されたパスが一致しないためにobj=コマンドが失敗した場合に実行するアクションを指定します。
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
 
-
 # OnFailObj{#onfailobj}
 
-オブジェクト選択エラーの処理。 obj=コマンドが失敗した場合に、ビネットオブジェクト階層で指定のパスが一致しないことが原因で実行されるアクションを指定します。
+オブジェクト選択エラー処理。 ビネットオブジェクト階層で指定されたパスが一致しないためにobj=コマンドが失敗した場合に実行するアクションを指定します。
 
 ## プロパティ {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
-列挙。
+列挙
 
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p><span class="codeph">既定：:OnFailObj </span>から継承します。 </p> </td> 
+  <td class="stentry"> <p><span class="codeph">デフォルト：:OnFailObj </span>から継承。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -32,7 +31,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>選択を解除マテリアルの適用や、オブジェクトの表示/非表示を試みても無視されます。 </p> </td> 
+  <td class="stentry"> <p>選択を解除；マテリアルの適用や、オブジェクトの表示/非表示の試みは無視されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -40,7 +39,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>初期設定のグループ（レンダリング可能なオブジェクトを含むビネット階層の最初のグループ）を選択します。 </p> </td> 
+  <td class="stentry"> <p>デフォルトのグループ（ビネット階層の中で、レンダリング可能なオブジェクトを含む最初のグループ）を選択します。 </p> </td> 
  </tr> 
 </table>
 
