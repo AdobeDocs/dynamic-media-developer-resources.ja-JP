@@ -1,21 +1,20 @@
 ---
-description: バッチアセット操作中に生成される警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
+description: バッチアセット操作中に生成された警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 7%
 
 ---
 
-
 # AssetOperationFault{#assetoperationfault}
 
-バッチアセット操作中に生成される警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
+バッチアセット操作中に生成された警告またはエラーの状態に関する情報が含まれます。 コードと理由のフィールドは、同等の非バッチ操作でスローされたフォルトメッセージフィールドに対応します。
 
 構文
 
@@ -24,6 +23,5 @@ ht-degree: 7%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 失敗した操作のアセットハンドル。 |
-| `*`コード`*` | `xsd:int` | 操作のエラーコード。 |
+| `*`コード`*` | `xsd:int` | 操作の障害コード。 |
 | `*`理由`*` | `xsd:string` | 障害の説明または理由。 |
-
