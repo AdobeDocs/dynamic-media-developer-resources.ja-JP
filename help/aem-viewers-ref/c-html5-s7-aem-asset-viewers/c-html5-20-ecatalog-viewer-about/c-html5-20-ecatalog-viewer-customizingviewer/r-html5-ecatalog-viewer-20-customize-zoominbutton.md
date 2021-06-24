@@ -1,21 +1,20 @@
 ---
-description: このボタンをクリックまたはタップすると、メイン表示の画像がズームインされます。 このボタンは、メインコントロールバーに表示されます。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+description: このボタンをクリックまたはタップすると、メインビューの画像がズームインされます。 このボタンは、メインコントロールバーに表示されます。 携帯電話では、画面のスペースを節約するため、このボタンは表示されません。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
 solution: Experience Manager
 title: ズームインボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6eda6e0f-f588-43b9-b135-3b78fc40b8b3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
 
-
 # ズームインボタン{#zoom-in-button}
 
-このボタンをクリックまたはタップすると、メイン表示の画像がズームインされます。 このボタンは、メインコントロールバーに表示されます。 携帯電話では、画面サイズの制限を守るため、このボタンは表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+このボタンをクリックまたはタップすると、メインビューの画像がズームインされます。 このボタンは、メインコントロールバーに表示されます。 携帯電話では、画面のスペースを節約するため、このボタンは表示されません。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,20 +58,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 — 28 x 28ピクセルで、メインコントロールバーの下から4ピクセルおよび右端から103ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示するズームインボタンを設定します。
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ZoomInButton_dark_down.png);
 background-image:url(images/v2/ZoomInButton_dark_disabled.png); 
 }
 ```
-
