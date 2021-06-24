@@ -2,16 +2,15 @@
 description: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 026b5921-53ae-436f-bf82-dee2e699405f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
-
 
 # SocialShare.bearing{#socialshare-bearing}
 
@@ -21,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up </span> 、 <span class="codeph"> down </span> 、 <span class="codeph"> left </span> 、または<span class="codeph"> right </span>に設定すると、追加の境界チェックなしで、パネルは指定した方向にロールアウトします。 この動作により、外側のコンテナでパネルが切り取られる場合があります。 </p> <p><span class="codeph"> fit-vertical </span>に設定した場合、コンポーネントでは、まずパネルの基本の位置をSocialShareの下部に移動し、その基本の場所から見て、下、右、左のいずれかから、パネルをロールアウトしようとします。 試行のたびに、外側のコンテナでパネルが切り取られているかどうかを確認します。 すべての試行が失敗すると、パネルの基本の位置を上に移動して、上、右、左の方向からロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral </span>に設定した場合、コンポーネントはfit-verticalと同じロジックを使用しますが、ベースを右から順に右、下、上方向に移動し、ベースを左に移動し、左、下、上方向にロールアウトします。 </p> </td> 
+   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up </span> 、 <span class="codeph"> down </span> 、 <span class="codeph"> left </span> 、または<span class="codeph"> right </span>に設定すると、追加の境界チェックなしで、パネルが指定の方向にロールアウトします。 この動作により、外側のコンテナによってパネルが切り取られる場合があります。 </p> <p><span class="codeph"> fit-vertical </span>に設定すると、コンポーネントは、まずパネルの基本の位置をSocialShareの下部に移動し、その基本の場所から下、右、左のいずれかからパネルをロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかがチェックされます。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動し、上、右、左の方向からロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral </span>に設定した場合、コンポーネントではfit-verticalと同じロジックを使用しますが、代わりに、ベースを右から右、下、上方向に移動し、ベースを左に移動し、左、下、上方向に移動します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
