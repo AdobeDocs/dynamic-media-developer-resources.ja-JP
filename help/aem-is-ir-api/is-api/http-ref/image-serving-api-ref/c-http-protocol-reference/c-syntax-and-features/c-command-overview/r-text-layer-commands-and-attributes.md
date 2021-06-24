@@ -1,26 +1,25 @@
 ---
-description: これらのコマンドは、共通のレイヤーコマンドに加えて、テキストレイヤーにも適用されます。
+description: これらのコマンドは、共通のレイヤコマンドに加えて、テキストレイヤに適用されます。
 solution: Experience Manager
-title: テキストレイヤーのコマンド
-feature: Dynamic Media Classic,SDK/API
+title: テキストレイヤーコマンド
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 1%
 
 ---
 
-
 # テキストレイヤーコマンド{#text-layer-commands}
 
-これらのコマンドは、共通のレイヤーコマンドに加えて、テキストレイヤーにも適用されます。
+これらのコマンドは、共通のレイヤコマンドに加えて、テキストレイヤに適用されます。
 
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767" type="reference" format="dita" scope="local"> textPs</a> </p></td> 
-  <td class="stentry"> <p>Photoshop互換のテキストレンダラにRTFを提供します。 </p></td> 
+  <td class="stentry"> <p>Photoshop互換のテキストレンダラーにRTFを提供します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d" type="reference" format="dita" scope="local"> textAttr</a> </p></td> 
@@ -36,7 +35,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef" type="reference" format="dita" scope="local"> textFlowPath</a> </p></td> 
-  <td class="stentry"> <p>長方形でないテキストフロー領域を指定します。 </p></td> 
+  <td class="stentry"> <p>長方形以外のテキストの流れ領域を指定します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowxpath.md#reference-c55d4e41a28f40aca6a24ca218c28542" type="reference" format="dita" scope="local"> textFlowXpath</a> </p></td> 
@@ -51,4 +50,3 @@ ht-degree: 1%
   <td class="stentry"> <p>従来のテキストレンダラーにレイヤーテキストを提供します。 </p></td> 
  </tr> 
 </table>
-
