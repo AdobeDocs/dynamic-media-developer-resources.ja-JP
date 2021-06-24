@@ -2,16 +2,15 @@
 description: フィールドメタデータを更新します。
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 12%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 構文
 
-## 認証済みユーザータイプ{#section-540e91823fee49a4920ca738f7bfeb99}
+## 許可されたユーザーの種類 {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,7 +42,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社ハンドル </td> 
+   <td colname="col4"> 会社の担当。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -73,13 +72,13 @@ ht-degree: 12%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すbooleanフラグです。 </p> <p>trueに設定した場合、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に不正な値が設定されていると、フォルトがスローされます。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 選択したタグが指すことのできる共有列挙値のセットを作成できます。 </td> 
+   <td colname="col4"> 選択したタグが指す共有列挙値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +91,7 @@ ht-degree: 12%
 
 ## 例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-次のコードのサンプル更新では、メタデータフィールドに新しい名前とデフォルト値を割り当てます。 応答は、更新されたフィールドにハンドルを返します。
+このコードサンプルの更新では、メタデータフィールドに新しい名前とデフォルト値を割り当てます。 応答は、更新されたフィールドにハンドルを返します。
 
 **リクエスト**
 
@@ -112,4 +111,3 @@ ht-degree: 12%
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
