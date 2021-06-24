@@ -2,16 +2,15 @@
 description: タグフィールドのタグディクショナリ値を更新します。
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6de49217-2d15-49d9-9357-b058b2564686
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 12%
 
 ---
-
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 構文
 
-## 認証済みユーザータイプ{#section-0372b742b1344979b0668faacb36fcc6}
+## 許可されたユーザーの種類 {#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +26,7 @@ ht-degree: 12%
 
 ## パラメータ {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**Input (updateTagFieldValuesParam)**
+**入力(updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -43,7 +42,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社ハンドル </td> 
+   <td colname="col4"> 会社の担当。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -53,9 +52,9 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：TagValueUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4">更新するタグフィールド値の配列。 <p>注意： タグ文字列の値のみを更新します。 アセットの関連付けに影響しません。 </p> </td> 
+   <td colname="col4">更新するタグフィールド値の配列。 <p>注意： タグ文字列の値のみを更新します。 アセットの関連付けには影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +64,10 @@ ht-degree: 12%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | はい | 正常に更新されたタグフィールドの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試みたときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試行したときに生成されたエラーの数です。 |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みた際に警告を生成したアセットに関連付けられた詳細の配列です。 |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みた際にエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試みたときに生成された警告の数。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がタグフィールドの更新を試みたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | いいえ | 操作がタグフィールドの更新を試みたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
@@ -120,4 +119,3 @@ ht-degree: 12%
    </errorDetailArray>
 </updateTagFieldValuesReturn>
 ```
-
