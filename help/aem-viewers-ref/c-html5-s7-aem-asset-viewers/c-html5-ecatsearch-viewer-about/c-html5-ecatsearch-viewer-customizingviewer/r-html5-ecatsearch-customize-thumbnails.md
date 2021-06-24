@@ -2,24 +2,23 @@
 description: サムネールは、サムネール画像のグリッドと、垂直方向にスクロールできる右側のオプションのスクロールバーで構成されます。
 solution: Experience Manager
 title: サムネール
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 2%
 
 ---
-
 
 # サムネール{#thumbnails}
 
 サムネールは、サムネール画像のグリッドと、垂直方向にスクロールできる右側のオプションのスクロールバーで構成されます。
 
-メインコントロールバーのサムネールボタンをクリックして、サムネールを切り替えます。 サムネールがアクティブな場合、サムネールはビューアのユーザインターフェイスの上にモーダルモードでオーバーレイ表示されます。 ビューアのロジックにより、サムネールコンテナのサイズがビューア領域全体に合わせて自動的に変更されます。
+メインコントロールバーのサムネールボタンをクリックして、サムネールを切り替えます。 サムネールがアクティブな場合、サムネールはビューアのユーザーインターフェイスの上にモーダルモードでオーバーレイ表示されます。 ビューアのロジックにより、サムネールコンテナのサイズがビューア領域全体に自動的に変更されます。
 
-thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使用して制御します。
+サムネールコンテナの外観は、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview`
 
@@ -33,7 +32,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> ビューアの上端からのサムネールコンテナの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p> ビューアの上部からのサムネールコンテナの垂直方向のオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
@@ -41,15 +40,15 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p>左側の余白。 </p> </td> 
+   <td colname="col2"> <p>左余白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
-   <td colname="col2"> <p>右側の余白。 </p> </td> 
+   <td colname="col2"> <p>右余白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
-   <td colname="col2"> <p>下部のマージン。 </p> </td> 
+   <td colname="col2"> <p>下余白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -58,7 +57,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  </tbody> 
 </table>
 
-例 — 上端からのオフセットが32ピクセル、左右に5ピクセルのマージンがあり、下端に8ピクセルのマージンがあり、背景色が`0xDDDDDD`のサムネールを設定します。
+例 — 上から32ピクセル、左右に5ピクセル、下に8ピクセルのマージンがあり、背景が`0xDDDDDD`であるサムネールを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -84,12 +83,12 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネール周囲の水平方向および垂直方向のマージンのサイズ。 実際のサムネールの水平方向の間隔は、<span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計になります。 サムネールの垂直方向の間隔は、上下のマージンの合計になります。 </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の水平および垂直のマージンのサイズ。 実際のサムネールの水平方向の間隔は、 <span class="codeph"> .s7thumbcell </span>に設定された左右のマージンの合計に等しくなります。 サムネールの垂直方向の間隔は、上下の余白の合計に等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 垂直方向および水平方向に10ピクセルの間隔を設定します。
+例 — 垂直方向と水平方向の両方に10ピクセルのスペースを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7thumbcell { 
@@ -128,13 +127,13 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  </tbody> 
 </table>
 
-タッチデバイスでは、回転して縦長モードにすると、ビューアでカタログ見開きを個々のページに分割するように決定された場合に、サムネールのサイズが設定値の半分になる場合があります。
+タッチデバイスでは、回転して縦長モードにすると、ビューアでカタログ見開きを個々のページに分割する場合に、サムネールのサイズが設定値の半分になる場合があります。
 
 >[!NOTE]
 >
->サムネールでは、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 具体的には、`state="selected"`はメイン表示に現在表示されている画像のサムネールに対応し、`state="default"`はその他のサムネールに対応し、`state="over"`はマウスカーソルを合わせたときに使用されます。
+>サムネールでは、 `state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `state="selected"`はメインビューに現在表示されている画像のサムネールに対応し、 `state="default"`は残りのサムネールに対応し、 `state="over"`はマウスカーソルを合わせたときに使用されます。
 
-例 — 120 x 85ピクセルで、背景色が白、標準の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定します。
+例 — 120 x 85ピクセルで、背景が白、標準の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb { 
@@ -180,7 +179,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
 }
 ```
 
-表示に垂直方向に収まらないサムネールがある場合は、サムネールの右側に垂直方向のスクロールバーが表示されます。 スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+垂直方向に表示できる数より多いサムネールがある場合、サムネールは右側に垂直方向のスクロールバーをレンダリングします。 スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -211,7 +210,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  </tbody> 
 </table>
 
-例 — 幅が28ピクセルで、サムネール領域の上、右および下からのマージンが8ピクセルのスクロールバーを設定します。
+例 — 幅が28ピクセルで、サムネール領域の上、右および下から8ピクセルのマージンがあるスクロールバーを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar { 
@@ -222,7 +221,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
 }
 ```
 
-スクロールバートラックは、上下のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 このトラックは、以下のCSSクラスセレクターを使用して制御します。
+スクロールバートラックは、上下のスクロールボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。 このトラックは、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -245,7 +244,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
  </tbody> 
 </table>
 
-例 — 幅が28ピクセルで、背景色が半透明のグレーのスクロールバートラックを設定します。
+例 — 幅が28ピクセルで、背景が半透明のグレーのスクロールバートラックを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -254,7 +253,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 サムの垂直方向の位置は、コンポーネントのロジックによって完全に制御されます。ただし、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。 サムの高さや、その他の外観は、以下のCSSクラスセレクターを使用して制御します。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 サムの垂直方向の位置はコンポーネントのロジックによって完全に制御されますが、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下のCSSクラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -276,7 +275,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p>スクロールバートラックの上端との間の垂直方向のパディング。 </p> </td> 
+   <td colname="col2"> <p>スクロールバートラックの上部との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
@@ -284,20 +283,20 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>サムの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>サムの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、`state`属性セレクターがサポートされます。このセレクターは、サムの状態`up`、`down`、`over`、`disabled`に異なるスキンを適用するのに使用できます。
+>サムでは、 `state`属性セレクターがサポートされます。このセレクターは、サムの状態`up`、`down`、`over`および`disabled`に対して異なるスキンを適用するのに使用できます。
 
-例 — 28 x 45ピクセルで、上下に10ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定します。
+例 — 28 x 45ピクセルで、上下に10ピクセルのマージンを持ち、状態ごとに異なるアートワークを持つスクロールバーサムを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -328,7 +327,7 @@ thumbnailsコンテナの外観は、以下のCSSクラスセレクターを使�
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-CSS `top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 ビューアのロジックによって自動的に配置が決まります。
+CSSの`top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアのロジックによって自動的に配置されます。
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -348,22 +347,22 @@ CSS `top`、`left`、`bottom`および`right`プロパティを使用してス�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>サムの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>サムの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->これらのボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態`up`、`down`、`over`、`disabled`ごとに異なるスキンを適用するのに使用できます。
+>これらのボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態（ `up` 、 `down` 、 `over` 、および`disabled` ）ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
+例 — 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 
@@ -399,4 +398,3 @@ CSS `top`、`left`、`bottom`および`right`プロパティを使用してス�
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
