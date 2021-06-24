@@ -1,31 +1,30 @@
 ---
-description: Postfixリクエスト修飾子文字列 「&」文字で区切られた1つ以上の画像サービングコマンド。
+description: ポストフィックスリクエスト修飾子文字列 なしまたはそれ以上の画像サービングコマンドを「&」文字で区切って指定します。
 solution: Experience Manager
 title: PostModifier
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 4%
 
 ---
 
-
 # PostModifier{#postmodifier}
 
-Postfixリクエスト修飾子文字列 「&amp;」文字で区切られた1つ以上の画像サービングコマンド。
+ポストフィックスリクエスト修飾子文字列 なしまたはそれ以上の画像サービングコマンドを「&amp;」文字で区切って指定します。
 
-このフィールドのコマンドは、HTTPリクエストおよび`catalog::Modifier`内のコマンドを常に上書きします。
+このフィールドのコマンドは、常にHTTPリクエスト内および`catalog::Modifier`内のコマンドを上書きします。
 
-`catalog::PostModifier` は、特定の画像が、 `qlt=` やなど、通常URLから制御される特別な設定を必要とする場合に役立ち `resmode=`ます。`catalog::Modifier` は、画像カタログ内のほとんどのISコマンドを設定する際に使用します。
+`catalog::PostModifier` は、特定の画像で、通常はURLから制御される特別な設定（やなど）が必要な場合に `qlt=` 役立ちま `resmode=`す。`catalog::Modifier` は、画像カタログ内のほとんどのISコマンドを設定するために使用する必要があります。
 
-マクロは、同じカタログまたは初期設定のカタログで定義されている限り、`catalog::PostModifier`で許可されます。 カスタム変数も使用できます。
+マクロは、同じカタログまたはデフォルトのカタログで定義されている限り、`catalog::PostModifier`で許可されます。 カスタム変数も使用できます。
 
 >[!NOTE]
 >
->要求に複数のレイヤーが含まれる場合は、レイヤー0の`catalog::PostModifier`の内容だけが適用されます。 `catalog::PostModifier` の値以外は無視されます。
+>リクエストに複数のレイヤーが含まれる場合、レイヤー0の`catalog::PostModifier`の内容のみが適用されます。 `catalog::PostModifier` その他のすべてのレイヤは無視されます。
 
 ## プロパティ {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
