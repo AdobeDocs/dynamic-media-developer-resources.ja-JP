@@ -1,26 +1,25 @@
 ---
-description: この節では、特定の目的で予約されているリストを示します。
+description: この節では、特定の目的で予約されている文字の一覧を示します。
 solution: Experience Manager
 title: 予約文字
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 76483f3f-f98b-471d-9c5d-49fa22eaf8a3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
-
 # 予約文字{#reserved-characters}
 
-この節では、特定の目的で予約されているリストを示します。
+この節では、特定の目的で予約されている文字の一覧を示します。
 
-RTFでは、中括弧「 `{` 」と「 `}` 」をグループ区切り文字として使用します。 組み合わせはペアで行い、ネストできます。 テキスト文字列で波括弧を表示するには、それぞれ&#39; `\{`&#39;と&#39; `\}`&#39;を使用します。
+RTFでは、中括弧「`{`」と「`}`」をグループ区切り文字として使用します。 これらはペアで記述する必要があり、ネストできます。 テキスト文字列に中括弧を表示するには、「 `\{` 」と「 `\}` 」を使用します。
 
 >[!NOTE]
 >
->RTFファイルで使用する中括弧は、すべてURLエンコードする必要があります。
+>RTFで使用するすべての中括弧をURLエンコードする必要があります。
 
-RTFコマンドやキーワードを導入する場合は、バックスラッシュ「\」を使用します。 バックスラッシュを表示するには、`'\\'`を使用します。
+バックスラッシュ「\」は、RTFコマンドやキーワードを導入する際に使用します。 バックスラッシュを表示するには、`'\\'`を使用します。
