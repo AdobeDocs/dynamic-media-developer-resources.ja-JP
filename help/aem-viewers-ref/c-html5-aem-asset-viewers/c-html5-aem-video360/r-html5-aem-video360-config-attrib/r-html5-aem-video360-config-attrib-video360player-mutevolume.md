@@ -2,14 +2,13 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 13%
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生用のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定した場合、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 特定のデバイスで、読み込み時にビデオの再生をミュートすると、ビデオが自動再生されます。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定すると、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオも自動再生できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
