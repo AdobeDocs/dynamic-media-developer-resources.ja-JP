@@ -2,16 +2,15 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.textpos{#swatches-textpos}
 
@@ -23,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> スウォッチサムネール画像を基準にしてラベルの表示位置を指定します。 つまり、ラベルはスウォッチサムネールに対して相対的に指定された位置の中央に配置されます。 <span class="codeph"> tooltip</span>を指定した場合、ラベルは表示されません。 </p> </td> 
+   <td> <p> スウォッチサムネール画像を基準にしてラベルを描画する位置を指定します。 つまり、ラベルはスウォッチサムネールに対して相対的に指定された位置の中央に配置されます。 <span class="codeph"> tooltip</span>を指定した場合、ラベルは表示されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
