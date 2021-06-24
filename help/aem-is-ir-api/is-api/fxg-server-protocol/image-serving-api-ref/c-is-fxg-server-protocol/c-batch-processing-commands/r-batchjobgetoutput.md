@@ -2,16 +2,15 @@
 description: 送信されたジョブの出力を取得します。
 solution: Experience Manager
 title: batchjobgetoutput
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 1%
 
 ---
-
 
 # batchjobgetoutput{#batchjobgetoutput}
 
@@ -28,7 +27,7 @@ ht-degree: 1%
 
 戻り値：
 
-ジョブのPDF出力は、応答としてストリーミングされます。`jobid`が無効な場合、またはジョブが削除された場合にエラーが発生する。
+ジョブのPDF出力は応答でストリーミングされます。`jobid`が無効な場合、またはジョブが削除された場合にエラーが発生します。
 
 ## 例 {#section-0319e615fa254132a9dab59351b4c252}
 
