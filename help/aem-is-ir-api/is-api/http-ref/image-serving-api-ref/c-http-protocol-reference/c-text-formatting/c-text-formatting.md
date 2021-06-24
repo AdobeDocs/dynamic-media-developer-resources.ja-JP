@@ -1,29 +1,28 @@
 ---
-description: 画像サービングには、テキストのレンダリングに複数の代替方法が用意されており、text=およびtextPs=コマンドで使用できます。
+description: 画像サービングには、text=およびtextPs=コマンドを使用してアクセスできる、テキストのレンダリングに対する代替手段がいくつか用意されています。
 solution: Experience Manager
 title: テキストの書式設定
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '562'
 ht-degree: 7%
 
 ---
 
+# テキストの書式設定{#text-formatting}
 
-# テキストの書式{#text-formatting}
+画像サービングには、text=およびtextPs=コマンドを使用してアクセスできる、テキストのレンダリングに対する代替手段がいくつか用意されています。
 
-画像サービングには、テキストのレンダリングに複数の代替方法が用意されており、text=およびtextPs=コマンドで使用できます。
-
-`textPs=` は、Adobe PhotoshopとIllustratorでレンダリングされるテキストと高いレベルの類似性を提供します。`text=` は、Windows Wordpadでレンダリングされたテキストと適切に互換性があります。
+`textPs=` は、Adobe PhotoshopやIllustratorでレンダリングされるテキストとの高い類似性を提供します。`text=` は、Windows Wordpadでレンダリングされたテキストと適切に互換性があります。
 
 >[!NOTE]
 >
->`text=`は、他の場所で挙げられている違いに加えて、`textPs=`と比較して、レンダリングされたテキストに微妙な違いを生み出します。 例えば、下線の太さと位置が同じではなく、合成された斜体は少し異なる角度でレンダリングされます。 テキストが使用可能なスペースに収まらない場合、`text=`は最後の行を部分的に切り抜き、`textPs=`は完全な行のみをレンダリングします。
+>`text=`は、他の場所にリストされている違いに加え、`textPs=`と比較した場合に、レンダリングされたテキストに微妙な違いを生み出します。 例えば、下線の太さと位置が同じではなく、合成された斜体が少し異なる角度でレンダリングされます。 テキストが使用可能な領域に収まらない場合、`text=`は最後の行を部分的に切り抜くのに対して、`textPs=`は完全な行のみをレンダリングします。
 
-すべてのテキストコマンドは、RTF（リッチテキスト形式）仕様のサブセットに基づいて、形式設定されたテキストを受け付けます。 テキストレイヤーごとに、異なるテキストコマンドを指定できます。
+すべてのテキストコマンドは、RTF（リッチテキストフォーマット）仕様のサブセットに基づいて書式化されたテキストを受け付けます。 各テキストレイヤーは、異なるテキストコマンドを指定できます。
 
 次の表に、各テキストコマンドで使用できる主な機能を示します。
 
@@ -38,16 +37,16 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> Adobe Photoshop対応の </p> </td> 
+   <td> <p> Adobe Photoshop互換 </p> </td> 
    <td> <p> no </p> </td> 
    <td> <p> 制限 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>テキストを任意の図形にフローする </p> </td> 
+   <td> <p>任意の図形にテキストを流す </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> <p>textFlowPath=、textFlowXPath= </p> </td> 
+   <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>任意のパスに沿ったテキストのフロー </p> </td> 
@@ -59,7 +58,7 @@ ht-degree: 7%
    <td> <p>継ぎ手のコピー </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> コピー — 継ぎ手 <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> コピー — 継手 <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>テキストボックスの余白 </p> </td> 
@@ -68,25 +67,25 @@ ht-degree: 7%
    <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>段落全体の行揃え </p> </td> 
+   <td> <p>段落全体の位置揃え </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>最終行の位置揃え </p> </td> 
+   <td> <p>最後の行揃え </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
-   <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
+   <td> <p>\lastql, \lastqr, \lastqc, \lastqc, \lastqj </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>段落のインデント </p> </td> 
+   <td> <p>段落インデント </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>\fi、\li、\ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>オールキャップス、スモールキャップス </p> </td> 
+   <td> <p>すべて大文字と小文字のテキスト </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>\caps, \scaps </p> </td> 
@@ -104,31 +103,31 @@ ht-degree: 7%
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>上下右のテキストフロー </p> </td> 
+   <td> <p>上下/右左のテキストフロー </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>\stextFlow </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Photofont®サポート </p> </td> 
+   <td> <p>Photofont®のサポート </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>はい </p> </td> 
    <td> フォント処理 </td> 
   </tr> 
   <tr> 
-   <td> <p>テキストに合わせてレイヤーを自動サイズ調整 </p> </td> 
+   <td> <p>テキストに合わせてレイヤーを自動サイズ設定 </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>text=、textId=、size= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>CMYKサポート </p> </td> 
+   <td> <p>CMYKのサポート </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>\cmykcolortbl, \*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>右から左に書く文字のフロー </p> </td> 
+   <td> <p>右から左の文字フロー </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>\rtlch </p> </td> 
@@ -140,7 +139,7 @@ ht-degree: 7%
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>レイヤーに合わせてテキストを自動的に拡大・縮小（解像度を変更） </p> </td> 
+   <td> <p>レイヤーに合わせてテキストを自動拡大/縮小（解像度を変更） </p> </td> 
    <td> <p>はい </p> </td> 
    <td> <p>no </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -148,19 +147,19 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-RTF準拠の文字列は、手動でアセンブルするか、必要なテキストをテキストエディタまたはRTFファイルを保存可能なワードプロセッサでフォーマットしてアセンブルできます。 その後、RTFファイルをプレーンテキストエディターで開き、リクエストURLにコピーされたファイルの関連する生のRTFコンテンツを生成できます。
+RTF準拠の文字列は、手動で組み立てるか、RTFファイルを保存可能なテキストエディタやワードプロセッサで目的のテキストをフォーマットすることで組み立てることができます。 次に、RTFファイルをプレーンテキストエディターで開き、リクエストURLにコピーされたファイルの関連する生のRTFコンテンツを作成します。
 
-一部のワードプロセッサーでは、かなり大きなファイルが生成されます。これには、Dynamic Media画像サービングで使用されない実質的なプリアンブルが含まれます。 文字列をテキストコマンドに渡す前に、未使用のRTF要素を文字列から削除することをお勧めします。
+一部のワードプロセッサーでは、大きなファイルが生成され、Dynamic Media Image Servingで使用されない実質的なプリアンブルが含まれます。 未使用のRTF要素を文字列から削除してから、文字列をテキストコマンドに渡すことをお勧めします。
 
-UTF-8およびISO規格に基づく言語エンコーディングは、標準のRTF文字エンコーディングメカニズムに代わるRTF文字列でサポートされます。 これにより、アプリケーションは英語以外のテキストを、RTFエンコーディングの知識なしにサーバに送信できます。
+UTF-8およびISO標準に基づく言語エンコーディングは、標準のRTF文字エンコーディングメカニズムの代わりに、RTF文字列でサポートされます。 これにより、アプリケーションはRTFエンコーディングを知らなくても英語以外のテキストをサーバーに送信できます。
 
-文字列をhttp経由で送信する場合は、HTTPに準拠していないすべての文字を適切にエスケープする必要があります。 文字列を画像カタログレコードの`catalog::Modifiers`フィールドに組み込む場合は、「=」、「&amp;」および「%」のみをエスケープする必要があります。 `<CR>`、`<LF>`、`<TAB>`などの制御文字は必ず削除する必要があります。
+文字列をhttp経由で送信する場合は、HTTPに準拠していないすべての文字を適切にエスケープする必要があります。 画像カタログレコードの`catalog::Modifiers`フィールドに文字列を組み込む場合は、「=」、「&amp;」および「%」のみをエスケープする必要があります。 `<CR>`、`<LF>`、`<TAB>`などの制御文字は、常に削除する必要があります。
 
-画像サービングテキストエンジンは、リッチテキスト形式(RTF)仕様バージョン1.6で定義されたコマンドのサブセットを解釈します。このサブセットは、フォント/文字の形式設定、単純な段落の形式設定、および国際フォントと文字セットのサポートに重点を置いています。 現時点では、スタイルシートや表など、より高度な書式設定構成はサポートされていません。
+画像サービングテキストエンジンは、リッチテキストフォーマット(RTF)仕様1.6で定義されたコマンドのサブセットを解釈します。このサブセットは、フォント/文字の書式設定、単純な段落書式設定、国際フォントと文字セットのサポートに重点を置いています。 現時点では、スタイルシートやテーブルなど、より高度な書式設定構成はサポートされていません。
 
-RTFエンコードされたテキスト文字列を手動で作成する場合は、Microsoftが公開したRTF(Rich Text Format)仕様に精通している必要があります。
+RTFエンコードされたテキスト文字列を手動で作成する場合は、Microsoftが発行したリッチテキスト形式(RTF)仕様に精通する必要があります。
 
-* [フォント処理](r-font-handling.md)
+* [フォントの処理](r-font-handling.md)
 * [カラー処理](r-color-handling.md)
 * [継ぎ手のコピー](r-copy-fitting.md)
 * [テキストレイヤー](r-text-layers.md)
