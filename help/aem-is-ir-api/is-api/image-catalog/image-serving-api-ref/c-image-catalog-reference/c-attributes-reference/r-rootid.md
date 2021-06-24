@@ -1,21 +1,20 @@
 ---
-description: カタログ識別子。 要求の画像オブジェクト指定子でこのカタログを識別するために使用されるHTTPパス要素です。
+description: カタログ識別子。 リクエストの画像オブジェクト指定子でこのカタログを識別するために使用するHTTPパス要素。
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
 
-
 # RootId{#rootid}
 
-カタログ識別子。 要求の画像オブジェクト指定子でこのカタログを識別するために使用されるHTTPパス要素です。
+カタログ識別子。 リクエストの画像オブジェクト指定子でこのカタログを識別するために使用するHTTPパス要素。
 
 ## プロパティ {#section-9a49da71de634378a06d2347790898a0}
 
@@ -23,7 +22,7 @@ ht-degree: 6%
 
 ## 初期設定 {#section-c5296f4e52394984bf1c0d265ecde940}
 
-なし. 各カタログには一意の`attribute::RootId`値が必要です。 [!DNL default.ini] は、通常は空で `attribute::RootId`す。
+なし. 各カタログには、一意の`attribute::RootId`値が必要です。 [!DNL default.ini] 通常、は空で `attribute::RootId`す。
 
 ## 関連項目 {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
