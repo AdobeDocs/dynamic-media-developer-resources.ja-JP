@@ -1,21 +1,20 @@
 ---
-description: 太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+description: 太字フラグ。 RTF太字コマンド(\b)によって要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 solution: Experience Manager
 title: 太字
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 8%
 
 ---
 
-
 # 太字{#bold}
 
-太字旗。 RTF太字コマンド(\b)で要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
+太字フラグ。 RTF太字コマンド(\b)によって要求された場合に、このフォントマップレコードで参照されるフォントファイルを使用するかどうかを指定します。
 
 ## プロパティ {#section-f2727dd66f7c41ee9602872a104d25b1}
 
