@@ -1,19 +1,18 @@
 ---
 description: searchAssetsParam/sortDirectionおよびgetJobLogsParam/sortDirectionで使用されます。
 solution: Experience Manager
-title: 並べ替え方向
-feature: Dynamic Media Classic,SDK/API
+title: 並べ替え方法
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
-
-# 並べ替え方向{#sort-directions}
+# 並べ替え方法{#sort-directions}
 
 searchAssetsParam/sortDirectionおよびgetJobLogsParam/sortDirectionで使用されます。
 
@@ -23,4 +22,3 @@ searchAssetsParam/sortDirectionおよびgetJobLogsParam/sortDirectionで使用�
 
 * [!DNL `Ascending`]
 * [!DNL `Descending`]
-
