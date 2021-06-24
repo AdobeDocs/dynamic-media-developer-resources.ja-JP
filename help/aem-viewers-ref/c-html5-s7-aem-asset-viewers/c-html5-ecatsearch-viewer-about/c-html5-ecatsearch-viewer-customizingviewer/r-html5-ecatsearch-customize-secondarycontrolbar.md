@@ -1,23 +1,22 @@
 ---
-description: セカンダリコントロールバーは、最初と最後のページのボタンと、ページインジケーターがCSSで使用可能になった場合に表示される矩形の領域です。
+description: セカンダリコントロールバーは、「最初」ボタンと「最後」ボタンと、CSSで使用可能にした場合のページインジケーターを含む長方形の領域です。
 solution: Experience Manager
 title: セカンダリコントロールバー
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
 
-
 # セカンダリコントロールバー{#secondary-control-bar}
 
-セカンダリコントロールバーは、最初と最後のページのボタンと、ページインジケーターがCSSで使用可能になった場合に表示される矩形の領域です。
+セカンダリコントロールバーは、「最初」ボタンと「最後」ボタンと、CSSで使用可能にした場合のページインジケーターを含む長方形の領域です。
 
-デフォルトでは、携帯電話にのみ表示され、ビューアの下部にあります。 ビューアの幅は常にそのままです。 カラー、高さ、およびビューアのコンテナに対する垂直方向の位置は、CSSで変更できます。
+デフォルトでは、携帯電話にのみ表示され、ビューアの下部に表示されます。 ビューアの幅は常に全体となります。 CSSで、ビューアのコンテナに対するカラー、高さ、垂直方向の位置を変更できます。
 
 セカンダリコントロールバーの外観は、以下のCSSクラスセレクターを使用して制御します。
 
@@ -33,7 +32,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの上端からの位置。 </p> </td> 
+   <td colname="col2"> <p>ビューアの上端からの位置 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -50,7 +49,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-例 — 高さが72ピクセルで、ビューアコンテナの下部に配置するグレーのセカンダリコントロールバーを設定します。
+例 — 高さが72ピクセルで、ビューアのコンテナの下部に配置するグレーのセカンダリコントロールバーを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  
@@ -58,4 +57,3 @@ ht-degree: 2%
  height: 72px; 
 }
 ```
-
