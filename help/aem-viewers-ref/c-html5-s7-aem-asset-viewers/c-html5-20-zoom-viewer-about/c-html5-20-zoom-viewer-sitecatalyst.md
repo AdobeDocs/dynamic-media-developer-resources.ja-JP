@@ -1,29 +1,28 @@
 ---
-description: Adobe Analyticsトラッキングのサポート
+description: Adobe Analytics追跡のサポート
 solution: Experience Manager
-title: Adobe Analyticsトラッキングのサポート
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: Adobe Analytics追跡のサポート
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
+# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-# Adobe Analyticsトラッキングのサポート{#support-for-adobe-analytics-tracking}
+## 標準のトラッキング {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-## すぐに使える追跡{#section-ba994f079d0343c8ae48adffaa3195a3}
+ビデオビューアでは、 [!DNL Adobe Analytics]追跡機能がサポートされていて、この機能をすぐに使用できます。 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
 
-ビデオビューアでは、[!DNL Adobe Analytics]追跡機能がサポートされていて、この機能をすぐに使用できます。 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
+また、ビューアは、設定済みのImage Serverに対して、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求も送信します。
 
-また、ビューアは、設定済みのImage Serverに、ビューアのタイプとバージョン情報と共に、1つの追跡HTTP要求を送信します。
+## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-## カスタムトラッキング{#section-cda48fc9730142d0bb3326bac7df3271}
-
-サードパーティの分析システムと統合するには、`trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -47,13 +46,13 @@ var zoomViewer = new s7viewers.ZoomViewer({
 });
 ```
 
-ビューアは、以下のSDKユーザーイベントを追跡します。
+ビューアは、次のSDKユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKのユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信日時 </p> </th> 
+   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -67,16 +66,15 @@ var zoomViewer = new s7viewers.ZoomViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> 画像がズームされたとき。 </p> </td> 
+   <td colname="col2"> <p> 画像がズームされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされた。 </p> </td> 
+   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチをクリックまたはタップして画像が変更された。 </p> </td> 
+   <td colname="col2"> <p> スウォッチをクリックまたはタップして画像を変更します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
