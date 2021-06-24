@@ -2,16 +2,15 @@
 description: 1つ以上のタグフィールドに対して定義されているすべてのタグディクショナリ値を取得します。
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
-
 
 # getTagFieldValues{#gettagfieldvalues}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ{#section-cc36a437394c491594e704a08a161c87}
+## 許可されたユーザーの種類 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,12 +32,12 @@ ht-degree: 17%
 
 ## パラメータ {#section-9ad806e7736e4d51ae42cad185050cf9}
 
-**Input (getTagFieldValuesReturn)**
+**入力(getTagFieldValuesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
-| `*`fieldHandleArray`*` | `types:HandleArray` | はい | 返す値にタグを付けるためのフィールドハンドルの配列。 |
+| `*`fieldHandleArray`*` | `types:HandleArray` | はい | 返される値にタグを付けるフィールドハンドルの配列。 |
 
 **出力(getTagFieldValuesReturn)**
 
@@ -83,4 +82,3 @@ ht-degree: 17%
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
