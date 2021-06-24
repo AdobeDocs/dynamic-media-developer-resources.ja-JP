@@ -1,29 +1,28 @@
 ---
-description: 詳細レンダリング設定 詳細レンダリング設定は、マテリアルのシャープの適用タイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダリングエンジンの低レベルの要素を制御するために使用します。
+description: 詳細なレンダリング設定。 詳細レンダリング設定は、マテリアルシャープタイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダーエンジンの低レベルの側面を制御するために使用されます。
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 37b806f8-e314-4532-a28c-1cc4ab939f09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RenderSettings{#rendersettings}
 
-詳細レンダリング設定 詳細レンダリング設定は、マテリアルのシャープの適用タイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダリングエンジンの低レベルの要素を制御するために使用します。
+詳細なレンダリング設定。 詳細レンダリング設定は、マテリアルシャープタイプやパラメータ、照明アルゴリズムの特定のパラメータなど、レンダーエンジンの低レベルの側面を制御するために使用されます。
 
 ## プロパティ {#section-b4c8fe595efc4838ac598659bc820607}
 
-テキスト文字列。 すべての材料に対してオプションです。 指定する場合は、ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)で定義される有効なレンダリング設定文字列である必要があります。
+テキスト文字列。 すべての材料に対してオプションです。 指定する場合は、ビネットオーサリングツール(Dynamic Media Image Authoringパッケージの一部)で定義された有効なレンダリング設定文字列である必要があります。
 
 ## 初期設定 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
-`attribute::RenderSettings` を指定しない場合や空の場合。
+`attribute::RenderSettings` を指定しない場合、または空の場合は。
 
 ## 関連項目 {#section-52679fc35c36439490564b4d1c515dd0}
 
