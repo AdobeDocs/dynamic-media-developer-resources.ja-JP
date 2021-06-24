@@ -2,16 +2,15 @@
 description: 名前と値のペア。
 solution: Experience Manager
 title: プロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 26%
+source-wordcount: '28'
+ht-degree: 28%
 
 ---
-
 
 # プロパティ{#property}
 
@@ -25,4 +24,3 @@ ht-degree: 26%
 |---|---|---|
 | `*`name`*` | `xsd:string` | プロパティ名。 |
 | `*`value`*` | `xsd:string` | プロパティ値。 |
-
