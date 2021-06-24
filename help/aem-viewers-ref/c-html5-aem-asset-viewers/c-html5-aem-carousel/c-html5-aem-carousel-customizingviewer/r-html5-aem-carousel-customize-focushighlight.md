@@ -1,21 +1,20 @@
 ---
-description: フォーカスされたビューアのユーザインターフェイス要素の周りに表示される入力フォーカスハイライトは、CSSクラスセレクターを使用して制御します。
+description: フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライトは、CSSクラスセレクターを使用して制御します。
 solution: Experience Manager
 title: フォーカスハイライト
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
 # フォーカスハイライト{#focus-highlight}
 
-フォーカスされたビューアのユーザインターフェイス要素の周りに表示される入力フォーカスハイライトは、CSSクラスセレクターを使用して制御します。
+フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライトは、CSSクラスセレクターを使用して制御します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -36,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> outline  </span> </p> </td> 
-   <td colname="col2"> <p>フォーカスのハイライトのスタイル </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> アウトライン  </span> </p> </td> 
+   <td colname="col2"> <p>フォーカスハイライトのスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — ビューアのすべてのユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、ビューアのスタイルシートに次のCSSセレクターを追加します。
+例 — すべてのビューアユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、ビューアのスタイルシートに次のCSSセレクターを追加します。
 
 ```
 .s7carouselviewer *:focus { 
