@@ -2,16 +2,15 @@
 description: データタイプ
 solution: Experience Manager
 title: データタイプ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
-
 
 # データタイプ{#data-types}
 
@@ -47,7 +46,7 @@ ht-degree: 4%
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
 + [CabinetInfo](r-cabinet-info.md)
 + [ColorManagementOptions](r-color-management-options.md)
-+ [会社](r-company.md)
++ [会社名](r-company.md)
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
@@ -84,7 +83,7 @@ ht-degree: 4%
 + [GenerationAttributeArray](r-generation-attribute-array.md)
 + [GenerationInfo](r-generation-info.md)
 + [GenerationInfoArray](r-generation-info-array.md)
-+ [Group](r-group.md)
++ [グループ](r-group.md)
 + [GroupArray](r-group-array.md)
 + [HandleArray](r-handle-array.md)
 + [IccProfileFieldUpdate](r-icc-profile-field-update.md)
@@ -146,7 +145,7 @@ ht-degree: 4%
 + [PdfSettingsInfo](r-pdf-settings-info.md)
 + [権限](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
-+ [PermissionSet](r-permission-set.md)
++ [PermissonSet](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
@@ -156,7 +155,7 @@ ht-degree: 4%
 + [PostScriptInfo](r-post-script-info.md)
 + [PostScriptOptions](r-post-script-options.md)
 + [PowerPointInfo](r-power-point-info.md)
-+ [Adobe PremiereExpressRemixInfo](r-premier-express-remix-info.md)
++ [PremierExpressRemixInfo](r-premier-express-remix-info.md)
 + [プロジェクト](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [プロパティ](r-property.md)
