@@ -1,20 +1,19 @@
 ---
-description: 画像レンダリングは、画像サービングのImage Serverコンポーネントとプラットフォームサーバコンポーネントに埋め込まれます。
+description: 画像レンダリングは、画像サービングのImage ServerおよびPlatform Serverコンポーネントに埋め込まれます。
 solution: Experience Manager
 title: サーバーの起動と停止
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 79ec6e27-4964-41bc-b8ae-fc50cc59e728
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
+# サーバーの起動と停止{#starting-and-stopping-the-server}
 
-# サーバー{#starting-and-stopping-the-server}の起動と停止
-
-画像レンダリングは、画像サービングのImage Serverコンポーネントとプラットフォームサーバコンポーネントに埋め込まれます。
+画像レンダリングは、画像サービングのImage ServerおよびPlatform Serverコンポーネントに埋め込まれます。
 
 詳しくは、画像サービングのドキュメントを参照してください。
