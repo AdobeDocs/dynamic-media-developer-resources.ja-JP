@@ -1,23 +1,22 @@
 ---
-description: 絶対URLを画像ソースとして許可します。
+description: 絶対URLを画像ソースとして許可する。
 solution: Experience Manager
 title: AllowDirectUrls
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e160101a-9bb7-452f-b892-c2aa65e26e94
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '55'
+ht-degree: 7%
 
 ---
 
-
 # AllowDirectUrls{#allowdirecturls}
 
-絶対URLを画像ソースとして許可します。
+絶対URLを画像ソースとして許可する。
 
-`src=`および`mask=`コマンドに埋め込まれた絶対URLのサポートを有効または無効にします。 無効にすると、`attribute::RootUrl`に対する相対URLのみが許可されます。
+`src=`および`mask=`コマンドでの埋め込み絶対URLのサポートを有効または無効にします。 無効にすると、`attribute::RootUrl`に対する相対URLのみが許可されます。
 
 ## プロパティ {#section-192825a6b02e4cc4a6aa102f93be89f0}
 
@@ -25,7 +24,7 @@ ht-degree: 6%
 
 ## 初期設定 {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
-定義されていない場合や空の場合は`default::AllowDirectUrls`から継承されます。
+`default::AllowDirectUrls`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-604f9500749c4e1a968b260b9a3812b2}
 
