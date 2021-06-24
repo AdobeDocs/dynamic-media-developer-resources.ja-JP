@@ -2,14 +2,13 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
 role: Developer,Business Practitioner
 exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 6%
+source-wordcount: '84'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイスの最適化を有効化、制限または無効化します。 iPhone4などの高密度ディスプレイを持つデバイスに影響します。 アクティブの場合、デバイスのピクセル比が<span class="codeph"> 1</span>のようにコンポーネントでIS画像リクエストのサイズが制限され、帯域幅が減少します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイスの最適化を有効、制限または無効にします。 iPhone4などの高密度ディスプレイを使用するデバイスに影響します。 アクティブにすると、デバイスのピクセル比が<span class="codeph"> 1</span>のように、コンポーネントでIS画像リクエストのサイズが制限され、帯域幅が削減されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
