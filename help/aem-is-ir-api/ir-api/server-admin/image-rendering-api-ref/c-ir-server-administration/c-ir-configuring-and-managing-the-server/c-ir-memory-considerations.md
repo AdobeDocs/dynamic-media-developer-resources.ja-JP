@@ -1,24 +1,23 @@
 ---
-description: 画像レンダリングで使用されるメモリ量は、サーバの実際の読み込み量と使用量に大きく左右されます（例えば、ビネットの数が少ない場合、ビネットのサイズや複雑さなど）。
+description: 画像レンダリングで使用されるメモリ量は、実際のサーバー負荷と使用状況に大きく依存し、大きく異なる場合があります（例えば、少数のビネット、ビネットのサイズ、複雑さなど）。
 solution: Experience Manager
-title: メモリの考慮事項
-feature: Dynamic Media Classic,SDK/API
+title: メモリに関する考慮事項
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
+# メモリに関する考慮事項{#memory-considerations}
 
-# メモリの考慮事項{#memory-considerations}
+画像レンダリングで使用されるメモリ量は、実際のサーバー負荷と使用状況に大きく依存し、大きく異なる場合があります（例えば、少数のビネット、ビネットのサイズ、複雑さなど）。
 
-画像レンダリングで使用されるメモリ量は、サーバの実際の読み込み量と使用量に大きく左右されます（例えば、ビネットの数が少ない場合、ビネットのサイズや複雑さなど）。
+最高のパフォーマンスを得るには、メモリページング（スワップ）を回避する必要があります。
 
-最良のパフォーマンスを得るために、メモリページング（スワップ）は避ける必要があります。
-
-イメージレンダリングは、Image Serverのメモリ管理を共有します。 イメージレンダリングを使用する場合、追加のメモリを割り当てる必要があります。 物理メモリの30～50%は妥当なものです。
+画像レンダリングは、Image Serverのメモリ管理を共有します。 画像レンダリングを使用する場合は、追加のメモリを割り当てる必要があります。 物理メモリの30～50%は合理的な場合があります。
 
 Image Serverのメモリ割り当て(ImageServer::PhysicalMemory)を変更する方法については、画像サービングのドキュメントを参照してください。
