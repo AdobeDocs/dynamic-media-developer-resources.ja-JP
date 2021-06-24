@@ -1,42 +1,41 @@
 ---
-description: JPEG画質 圧縮レベルを制御するJPEGエンコーディング属性を指定します。 これにより、ファイルサイズ（返信データの量）や間接的に、生成される画像の画質が変化します。
+description: JPEG画質 圧縮レベルを制御するJPEGエンコーディング属性を指定します。 これにより、結果の画像のファイルサイズ（応答データの量）と、間接的に生成される画像の画質が変わります。
 solution: Experience Manager
 title: qlt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 15%
 
 ---
 
-
 # qlt{#qlt}
 
-JPEG画質 圧縮レベルを制御するJPEGエンコーディング属性を指定します。 これにより、ファイルサイズ（返信データの量）や間接的に、生成される画像の画質が変化します。
+JPEG画質 圧縮レベルを制御するJPEGエンコーディング属性を指定します。 これにより、結果の画像のファイルサイズ（応答データの量）と、間接的に生成される画像の画質が変わります。
 
-` qlt= *``*[, *`色質`*]`
+` qlt= *``*[, *`画質`*]`
 
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 品質  </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEGエンコーディング画質(1 ～ 100 int) </p> </td> 
+  <td class="stentry"> <p>JPEGエンコーディング品質(1 ～ 100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 色素  </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度ダウンサンプリング（0 =標準、1 =無効）;オプションです。初期設定は0です。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 色度  </span> </span> </p> </td> 
+  <td class="stentry"> <p>JPEG色度のダウンサンプリング（0=通常、1=無効）オプション。デフォルトは0です。 </p> </td> 
  </tr> 
 </table>
 
-`fmt=jpg`の場合にのみ使用されます。 それ以外は無視
+`fmt=jpg`の場合にのみ使用されます。 それ以外の場合は無視
 
 大きな値を指定すると高画質になりますがファイルサイズが大きくなり、小さな値を指定するとファイルサイズが抑えられますが見た目の画質が低下します。90 を超える値を指定すると、一般的には非圧縮画像と区別がつかないほどの画像が生成されます。
 
-`chroma`フラグを設定して、一般的なJPEGエンコーダーで使用されるRGB色度ダウンサンプリングを無効にします。 これにより、明るさではなく色相の変化によってエッジが定義された場合に、画像内のエッジの鋭さが増す可能性があります。 このフラグを設定すると、ファイルサイズが少し大きくなる場合があります。 テキストが少しぼやけて表示される場合は、この設定を試してみてください。
+`chroma`フラグを設定して、一般的なJPEGエンコーダーで使用されるRGB色度のダウンサンプリングを無効にします。 これにより、明るさではなく色相の変化によってエッジが定義された場合に、イメージ内のエッジの鮮明さが増す場合があります。 このフラグを設定すると、ファイルサイズが少し大きくなる場合があります。 テキストが少しぼやけて表示される場合は、この設定を試してみてください。
 
-`chroma` は、出力ピクセルの種類がCMYKまたはグレーの場合は無視されます。
+`chroma` 出力ピクセルタイプがCMYKまたはグレーの場合、は無視されます。
 
 ## 例 {#section-a6c263f15c29424a86ef267c96a6630a}
 
