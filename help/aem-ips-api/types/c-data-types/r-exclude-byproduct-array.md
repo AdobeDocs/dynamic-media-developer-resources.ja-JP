@@ -2,16 +2,15 @@
 description: searchAssets操作での副産物のフィルタリングをサポートします。
 solution: Experience Manager
 title: ExcludeByproductArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
-
 
 # ExcludeByproductArray{#excludebyproductarray}
 
@@ -23,5 +22,4 @@ searchAssets操作での副産物のフィルタリングをサポートしま�
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:ExcludeByproductCondition` | 配列内のアイテム。 |
-
+| `*`商品`*` | `types:ExcludeByproductCondition` | 配列内の項目。 |
