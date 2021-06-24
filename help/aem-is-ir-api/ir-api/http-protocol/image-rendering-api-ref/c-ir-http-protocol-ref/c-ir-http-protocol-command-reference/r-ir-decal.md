@@ -1,34 +1,33 @@
 ---
-description: デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
+description: デカールマテリアルセレクタ 繰り返し不可能なデカールマテリアルのマテリアル仕様セグメント(MSS)を開始します。
 solution: Experience Manager
-title: デカル
-feature: Dynamic Media Classic,SDK/API
+title: デカール
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
-
 # デカール{#decal}
 
-デカールのマテリアルセレクタ 繰り返し不可能なデカールマテリアル用のマテリアル仕様セグメント(MSS)を開始します。
+デカールマテリアルセレクタ 繰り返し不可能なデカールマテリアルのマテリアル仕様セグメント(MSS)を開始します。
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>無視されます。 </p> </td> 
+  <td class="stentry"> <p>無視。 </p> </td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-4f975f78869e4c829c30cf3ca7646539}
 
-選択コマンド；MSS区切り文字。
+選択コマンド；MSS区切り。
 
 ## 初期設定 {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 
