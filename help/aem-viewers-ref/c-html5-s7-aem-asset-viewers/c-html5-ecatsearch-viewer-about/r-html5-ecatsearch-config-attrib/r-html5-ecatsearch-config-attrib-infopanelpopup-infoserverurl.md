@@ -2,16 +2,15 @@
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f4bb0087-1e49-47e2-84b4-44b92fade36a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
-
 
 # InfoPanelPopup.infoServerUrl{#infopanelpopup-infoserverurl}
 
@@ -21,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>情報サーバのURLテンプレートは、情報パネルコンテンツテンプレート内の変数の置換に使用するキー/値のペアを取得するために使用します。通常、指定したテンプレートには、マクロプレースホルダが含まれています。このプレースホルダは、要求がサーバに送信される前に、実際のデータに置き換えられます。 </p> <p><span class="codeph"> $1$</span> は、InfoPanelPopupactivationをトリガーしたロールオーバーの値に置き換えら <span class="codeph"> </span> れます。 </p> <p><span class="codeph"> $2$</span> は、画像セット内の現在のフレームのシーケンス番号に置き換えられます。 </p> <p><span class="codeph"> $3$</span> は、現在の項目の親セットの名前で指定された最初のパス要素に置き換えられます。通常、カタログIDに対応します。 </p> <p><span class="codeph"> $4$</span> は、パス内の次の要素に置き換えられ、アセットIDに対応します。実際の情報サーバ要求の構文は、情報サーバに依存し、サーバごとに異なります。 例えば、一般的なDynamic Media情報サーバのリクエストテンプレートを次に示します。 </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>情報サーバのURLテンプレートは、情報パネルコンテンツテンプレートで変数の置き換え用のキーと値のペアを取得するために使用されます。指定したテンプレートには、通常、マクロプレースホルダが含まれます。このプレースホルダは、リクエストがサーバーに送信される前に、実際のデータに置き換えられます。 </p> <p><span class="codeph"> $1$</span> は、InfoPanelPopupactivationをトリガーしたロールオーバー値に置き換えら <span class="codeph"> </span> れます。 </p> <p><span class="codeph"> $2$</span> は、画像セット内の現在のフレームのシーケンス番号に置き換えられます。 </p> <p><span class="codeph"> $3$</span> は、現在の項目の親セットの名前で指定された最初のパス要素に置き換えられます。これは通常、カタログIDに対応します。 </p> <p><span class="codeph"> $4$</span> は、パスの次の要素に置き換えられ、アセットIDに対応します。実際の情報サーバの要求構文は、情報サーバに依存し、サーバごとに異なります。 例えば、次に示すのは一般的なDynamic Media情報サーバの要求テンプレートです。 </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->情報パネルポップアップを設定する場合、情報パネルに渡されるHTMLコードとJavaScriptコードは、クライアントのコンピューター上で実行されます。 したがって、このようなHTMLコードとJavaScriptコードが安全であることを確認してください。
+>情報パネルポップアップを設定すると、情報パネルに渡されるHTMLコードとJavaScriptコードがクライアントのコンピューター上で実行されることに注意してください。 したがって、このようなHTMLコードとJavaScriptコードは必ず安全にしてください。
 
 ## プロパティ {#section-71356e3c13244e62b0582980d9d05328}
 
