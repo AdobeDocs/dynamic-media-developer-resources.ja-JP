@@ -1,25 +1,24 @@
 ---
 description: コマンド値は、値文字列に予約文字「=」、「&」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
 solution: Experience Manager
-title: 画像レンダリングのHTTPエンコーディング
-feature: Dynamic Media Classic,SDK/API
+title: 画像レンダリングHTTPエンコーディング
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
-
 
 # 画像レンダリングHTTPエンコーディング{#image-rendering-http-encoding}
 
 コマンド値は、値文字列に予約文字「=」、「&amp;」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
 
-それ以外の場合は、標準のHTTPエンコーディングルールが適用されます。 HTTPの仕様では、&#39; &#39;（スペース）、&#39;&#39;(重複引用符)、&#39;#&#39;、&#39;%&#39;、&#39;&lt;&#39;、&#39;>&#39;などの安全でない文字と、`<return>`や`<tab>`などの制御文字をエンコードする必要があります。
+それ以外の場合は、標準のHTTPエンコーディングルールが適用されます。 HTTPの仕様では、「 」（スペース）、「」（二重引用符）、「#」、「%」、「&lt;」、「>」などの安全でない文字と、`<return>`や`<tab>`などの制御文字をエンコードする必要があります。
 
-**注意：要求の入れ子の区切り文字として使用される** 波括弧{ }はエンコードできません。一部の電子メールクライアントは、埋め込まれたHTTP要求では中括弧をエンコードしています。 この問題が発生する場合、画像レンダリングでは波括弧の代わりに丸括弧()を使用できます。
+**注意：** リクエストのネスト区切り文字として使用される波括弧{ }はエンコードしないでください。一部の電子メールクライアントは、埋め込みHTTPリクエスト内で波括弧をエンコードしています。 これが問題となる場合、画像レンダリングでは中括弧( )を中括弧ではなく使用できます。
 
 ## 例 {#section-3edc5b8ee2354220a281b01722ad337a}
 
