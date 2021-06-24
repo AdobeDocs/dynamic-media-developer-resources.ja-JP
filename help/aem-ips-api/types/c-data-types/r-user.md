@@ -2,16 +2,15 @@
 description: システム内のリソースとタイプのユーザー。
 solution: Experience Manager
 title: ユーザ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
-
 
 # ユーザ{#user}
 
@@ -27,7 +26,6 @@ ht-degree: 10%
 | `*`firstName`*` | `xsd:string` | ユーザーの名。 |
 | `*`lastName`*` | `xsd:string` | ユーザーの姓。 |
 | `*`電子メール`*` | `xsd:string` | 電子メールアドレス。 |
-| `*`defaultRole`*` | `xsd:string` | 所属する各会社のユーザーの役割を設定します。 ただし、ユーザーロール`IpsAmin`は、他のユーザーロールよりも優先されます。 |
-| `*`isValid`*` | `xsd:boolean` | ユーザーが有効かどうかを判定します。 |
+| `*`defaultRole`*` | `xsd:string` | 所属する各会社のユーザーの役割を設定します。 ただし、ユーザーの役割`IpsAmin`は他のユーザーの役割より優先されます。 |
+| `*`isValid`*` | `xsd:boolean` | ユーザーが有効かどうかを判断します。 |
 | `*`passwordExpires`*` | `xsd:dateTime` | パスワードの有効期限を設定します。 |
-
