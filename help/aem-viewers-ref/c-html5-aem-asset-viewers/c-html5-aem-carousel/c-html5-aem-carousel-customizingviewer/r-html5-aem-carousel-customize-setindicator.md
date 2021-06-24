@@ -1,21 +1,20 @@
 ---
-description: 設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在位置を表示します。
+description: 設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
 solution: Experience Manager
-title: 設定インジケーター
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+title: インジケーターの設定
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
 
-# インジケータを設定{#set-indicator}
+# インジケーターの設定{#set-indicator}
 
-設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在位置を表示します。
+設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,14 +36,14 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターの16進数形式の背景色。 </p> </td> 
+   <td colname="col2"> <p>設定インジケーターの16進形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->設定インジケーターでは、mode属性セレクターがサポートされます。このセレクターは、点線と数値の操作モードに対して異なるスタイルを適用するのに使用できます。 特に、`mode="numeric"`は数値演算モードに対応します。`mode="dotted"`は、デフォルトのドットの状態に対応します。
+>セットインジケーターでは、mode属性セレクターがサポートされます。このセレクターを使用して、点線と数値の操作モードに対して異なるスタイルを適用できます。 特に、`mode="numeric"`は数値演算モードに対応する。`mode="dotted"`は、デフォルトのドットの状態に対応します。
 
 例 — 白の背景でインジケーターを設定するには、次のように記述します。
 
@@ -54,7 +53,7 @@ ht-degree: 1%
 }
 ```
 
-個々の設定インジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。 これは、点線と数値の両方の操作モードの項目に適用されます。
+個々のセットインジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。 これは、点線と数値の両方の操作モードの項目に適用されます。
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -112,10 +111,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
-   <td colname="col2"> <p>バナーのインデックスの垂直方向の配置。 </p> </td> 
+   <td colname="col2"> <p>バナーインデックスの垂直方向の配置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行の高さ  </span> </p> </td> 
    <td colname="col2"> <p>バナーインデックスのテキストの高さ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -123,9 +122,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->設定インジケーター項目では、`state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はセット内の現在の要素に対応します。`state="unselected"`は、デフォルトの項目状態に対応します。
+>インジケーター項目でサポートされる`state`属性セレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はセット内の現在の要素に対応します。`state="unselected"`は、デフォルトの項目状態に対応します。
 
-例 — デスクトップシステムをビューアの下端から20ピクセルの位置に配置するための設定インジケーターを点線モードで設定するには、次のように記述します。 選択されていないドットは、50 %の透明度を持つ黒で表示されます。15 x 15ピクセルの角が7ピクセルの場合、 選択したドットは、90 %の透明度を持つ黒、18 x 18ピクセルの角を9ピクセル丸めた黒です。 ドット間の間隔は5ピクセルです。
+例 — デスクトップシステムをビューアの下端から20ピクセルの位置に配置するためのインジケーターを点線モードで設定するには、次のように記述します。 選択されていないドットは、50%の透明度を持つ黒、15 x 15ピクセル、7ピクセルの角丸を持つ。 選択したドットは、90%の透明度を持つ黒、18 x 18ピクセル、9ピクセルの丸い角を持つ。 ドット間の間隔は5ピクセルです。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
