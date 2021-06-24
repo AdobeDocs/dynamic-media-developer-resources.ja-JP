@@ -2,16 +2,15 @@
 description: 権限の変更について説明します。
 solution: Experience Manager
 title: PermissionUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 12%
 
 ---
-
 
 # PermissionUpdate{#permissionupdate}
 
@@ -23,8 +22,7 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | グループハンドル |
+| `*`groupHandle`*` | `xsd:string` | グループハンドル。 |
 | `*`permissionType`*` | `xsd:string` | 権限のタイプ。 |
 | `*`isAllowed`*` | `xsd:boolean` | 権限の更新を許可するかどうかを指定します。 |
 | `*`isOverride`*` | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |
-
