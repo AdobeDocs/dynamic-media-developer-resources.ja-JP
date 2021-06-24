@@ -2,16 +2,15 @@
 description: アセットジョブログの配列。
 solution: Experience Manager
 title: AssetJobLogArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 62e86216-2ed2-4b4e-9ba9-776ec49abd9f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
-
 
 # AssetJobLogArray{#assetjoblogarray}
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`商品`*` | `types:AssetJobLog` | アセットジョブログの配列。 |
-
