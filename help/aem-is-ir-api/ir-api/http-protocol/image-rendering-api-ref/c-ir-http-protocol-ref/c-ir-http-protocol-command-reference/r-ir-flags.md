@@ -2,16 +2,15 @@
 description: フラグを適用します。 追加のレンダリングオプションを指定します。
 solution: Experience Manager
 title: フラグ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
-
 
 # フラグ{#flags}
 
@@ -28,13 +27,13 @@ ht-degree: 5%
 
 現在はキャビネットの材料にのみ使用されています。
 
-`flags=0` （デフォルト）上部キャビネットをソリッドドアでレンダリングします。
+`flags=0` （既定）は、ソリッドドアを持つ上部キャビネットをレンダリングします。
 
-`flags=1` は、ガラスのドアが付いた上部キャビネットをレンダリングします（ビネットがガラスのドアでオーサリングされている場合）。
+`flags=1` は、ガラスのドアを持つ上部キャビネットをレンダリングします（ビネットがガラスのドアでオーサリングされている場合）。
 
 ## プロパティ {#section-a2b00d7bb15e449ea85178acb92d8285}
 
-マテリアル属性 キャビネットマテリアル以外の場合、またはターゲットキャビネットオブジェクトでガラスのドアが許可されていない場合は無視されます。
+マテリアル属性。 キャビネットマテリアルでない場合や、ターゲットキャビネットオブジェクトでガラスドアが許可されていない場合は無視されます。
 
 ## 初期設定 {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
