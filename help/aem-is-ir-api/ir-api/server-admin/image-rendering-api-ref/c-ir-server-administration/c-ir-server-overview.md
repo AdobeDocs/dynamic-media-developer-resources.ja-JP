@@ -1,31 +1,30 @@
 ---
-description: このドキュメントでは、Dynamic Mediaイメージレンダリングサーバの管理方法を説明します。
+description: このドキュメントでは、Dynamic Media Image Renderingサーバーの管理方法を説明します。
 solution: Experience Manager
 title: サーバー管理の概要
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
+# サーバー管理の概要{#server-administration-overview}
 
-# サーバ管理の概要{#server-administration-overview}
+このドキュメントでは、Dynamic Media Image Renderingサーバーの管理方法を説明します。
 
-このドキュメントでは、Dynamic Mediaイメージレンダリングサーバの管理方法を説明します。
-
-イメージレンダリングは、次の2つの主要なコンポーネントで構成されています。
+画像レンダリングは、次の2つの主要なコンポーネントで構成されます。
 
 * JavaパッケージはImage Serving Platform Serverと共にデプロイされ、クライアント接続、キャッシュ、マテリアルカタログを管理します。
-* ネイティブコードモジュールは、Image Serverの拡張ライブラリとしてデプロイされ、コアの画像レンダリング機能を実装します。
+* ネイティブコードモジュールは、Image Serverの拡張機能ライブラリとしてデプロイされ、主な画像レンダリング機能を実装します。
 
-両方のコンポーネントをまとめて&#x200B;*Render Server*&#x200B;と呼びます。
+両方のコンポーネントをまとめて&#x200B;*レンダーサーバ*&#x200B;と呼びます。
 
-画像レンダリングは、画像サービングと多くのサーバ機能を共有し、すべてのオプションは設定ファイルを編集することで設定します。 追加の設定属性は、デフォルトのカタログ([!DNL default.ini])または特定のマテリアルカタログで提供されます。 詳細は、「マテリアルカタログ」を参照してください。
+画像レンダリングは、画像サービングと多くのサーバ機能を共有します。すべてのオプションは設定ファイルを編集することで設定されます。 追加の設定属性は、既定のカタログ( [!DNL default.ini] )または特定のマテリアルカタログで提供されます。 詳細は、マテリアルカタログを参照してください。
 
-イメージレンダリングインストールフォルダー(*[!DNL install_folder]*)は[!DNL *[!DNL install_root]*/ImageRendering]です。 Windowsの場合、デフォルトの&#x200B;*[!DNL install_root]*&#x200B;は`C:\Program Files\Scene7`です。 インストール時に別のフォルダーを指定することができます。 Linuxでは、*[!DNL install_root]*&#x200B;は常に[!DNL /usr/local/scene7]でなければなりません。 シンボリックリンクを使用できます。
+画像レンダリングのインストールフォルダー(*[!DNL install_folder]*)は[!DNL *[!DNL install_root]*/ImageRendering]です。 Windowsの場合、デフォルトの&#x200B;*[!DNL install_root]*&#x200B;は`C:\Program Files\Scene7`です。 インストール中に別のフォルダーを指定することもできます。 Linuxでは、*[!DNL install_root]*&#x200B;は常に[!DNL /usr/local/scene7]である必要があります。 シンボリックリンクを使用できます。
 
-UNIXでは、すべてのファイルパスで大文字と小文字が区別され、Windowsでは大文字と小文字が区別されません。
+UNIXではすべてのファイル・パスで大文字と小文字が区別され、Windowsでは大文字と小文字が区別されません。
