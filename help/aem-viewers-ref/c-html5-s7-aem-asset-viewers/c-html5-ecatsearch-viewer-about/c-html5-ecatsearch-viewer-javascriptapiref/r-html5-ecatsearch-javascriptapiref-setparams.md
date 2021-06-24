@@ -2,16 +2,15 @@
 description: eCatalogビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cbd7987b-5e47-4ac0-8235-a217e5e6dee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -19,7 +18,7 @@ eCatalogビューアのJavaScript APIリファレンス。
 
 [!DNL ` setParams( *`params`*)`]
 
-1つ以上のパラメーターに特定の値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを[!DNL `&`]で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードします。 [!DNL `init()`]を呼び出す前に、このパラメーターを呼び出す必要があります。
+1つ以上のパラメーターに指定した値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを[!DNL `&`]で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードされます。 [!DNL `init()`]を呼び出す前に、このパラメーターを呼び出す必要があります。
 
 ビューアの設定情報が[!DNL `config`] JSONオブジェクトを使用して渡される場合は、このメソッドはオプションです。
 
@@ -29,12 +28,12 @@ eCatalogビューアのJavaScript APIリファレンス。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを <span class="codeph"> &amp;で区切ります</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを&amp;で区 <span class="codeph"> 切ります</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
@@ -43,4 +42,3 @@ eCatalogビューアのJavaScript APIリファレンス。
 ```
 <instance>.setParams("PageView.zoomstep=2,3&PageView.iscommand=op_sharpen%3d1")
 ```
-
