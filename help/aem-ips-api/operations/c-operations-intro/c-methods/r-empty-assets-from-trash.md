@@ -1,25 +1,24 @@
 ---
-description: IPSのごみ箱からアセットを削除します。
+description: IPSのごみ箱からアセットを空にします。
 solution: Experience Manager
 title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
 
-
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-IPSのごみ箱からアセットを削除します。
+IPSのごみ箱からアセットを空にします。
 
-アセットは、手動で空にするか、ごみ箱からタイムアウトするまで、ごみ箱に入ります。 手動で空にした場合は、最後にシステムから削除される次のクリーンアップジョブ（通常は夜間）までごみ箱に入ります。 ごみ箱からタイムアウトした場合、同じクリーンアップアクティビティの一部として、アセットが消去されます。 タイムアウトは設定できます（デフォルトは7日間）。
+アセットは、手動で空にするか、ごみ箱からタイムアウトするまで、ごみ箱に格納されます。 手動で空にした場合は、最終的にシステムからパージされる次のクリーンアップジョブ（通常は夜間）まで、ゴミ箱に入ります。 ごみ箱からタイムアウトした場合、同じクリーンアップアクティビティの一環としてアセットが消去されます。 タイムアウトは設定できます（デフォルトは7日）。
 
-## 認証済みユーザータイプ{#section-24dee2bf5f9f4714a64955c80f2803b4}
+## 許可されたユーザーの種類 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,21 +35,21 @@ IPSのごみ箱からアセットを削除します。
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | アセットを所有する会社へのハンドル。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | はい | ごみ箱から空にする項目を表すハンドルの配列です。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | はい | ごみ箱から空にする項目を表すハンドルの配列。 |
 
 **出力(emptyAssetsFromTrashParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | はい | ごみ箱から正常に空にされたアセットの数です。 |
-| `*`warningCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成される警告の数です。 |
-| `*`errorCount`*` | `xsd:Int` | はい | 操作がごみ箱からアセットを空にしようとしたときに生成されたエラーの数です。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でごみ箱から削除しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でアセットをごみ箱から削除しようとしたときにエラーが発生した、アセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:Int` | はい | 正常にごみ箱から空にされたアセットの数。 |
+| `*`warningCount`*` | `xsd:Int` | はい | 操作でごみ箱からアセットを空にしようとしたときに生成される警告の数です。 |
+| `*`errorCount`*` | `xsd:Int` | はい | 操作でごみ箱からアセットを空にしようとしたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でごみ箱から削除しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作でアセットをごみ箱から空にしようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
-このコードのサンプルでは、会社のハンドルと、ごみ箱から空にするアセットのハンドルを含むアセットハンドルの配列を使用します。
+このコードサンプルは、会社のハンドルと、ごみ箱から空にするアセットへのハンドルを含むアセットハンドル配列を使用します。
 
 **リクエスト**
 
@@ -73,4 +72,3 @@ IPSのごみ箱からアセットを削除します。
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
