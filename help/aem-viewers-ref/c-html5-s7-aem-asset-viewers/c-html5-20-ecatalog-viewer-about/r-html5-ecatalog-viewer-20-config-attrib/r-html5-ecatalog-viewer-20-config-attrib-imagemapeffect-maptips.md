@@ -2,16 +2,15 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
-
 
 # ImageMapEffect.mapTips{#imagemapeffect-maptips}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 個々のマップ領域要素に対してツールヒントを有効にするかどうかを指定します。 </p> <p> タッチ対応デスクトップシステムを含むタッチデバイスでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> 個々のマップ領域要素に対してツールヒントを有効にするかどうかを指定します。 </p> <p> タッチ操作対応デスクトップシステムを含むタッチデバイスでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
