@@ -1,45 +1,44 @@
 ---
-description: コマンドマクロは、コマンドのセットに名前付きのショートカットを提供します。
+description: コマンドマクロは、コマンドのセットの名前付きショートカットを提供します。
 solution: Experience Manager
 title: コマンドマクロ*
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 1%
 
 ---
 
-
 # コマンドマクロ*{#command-macros}
 
-コマンドマクロは、コマンドのセットに名前付きのショートカットを提供します。
+コマンドマクロは、コマンドのセットの名前付きショートカットを提供します。
 
 `$ *[!DNL name]*$`
 
 ** *[!DNL name]* **マクロ名
 
-マクロは、個別のマクロ定義ファイルで定義され、マテリアルカタログや既定のカタログにアタッチできます。
+マクロは、別々のマクロ定義ファイルで定義され、マテリアルカタログまたは既定のカタログにアタッチできます。
 
-*[!DNL name]* では大文字と小文字が区別されません。また、ASCII文字、数字、「 — 」、「_」、「。」の組み合わせで構成することができます。文字.
+*[!DNL name]* は大文字と小文字を区別せず、ASCII文字、数字、「 — 」、「_」、「。」の組み合わせで構成することもできます。文字.
 
-リクエスト内で&#39;?&#39;の後、または`vignette::Modifier`フィールド内の任意の場所でマクロを呼び出します。 マクロは、1つ以上の完全な画像レンダリングコマンドのみを表すことができ、他のコマンドとは「&amp;」区切り文字で区切る必要があります。
+リクエスト内の「?」の後の任意の場所、または`vignette::Modifier`フィールド内の任意の場所でマクロを呼び出します。 マクロは、1つ以上の完全な画像レンダリングコマンドのみを表し、他のコマンドとは「&amp;」区切り文字で区切る必要があります。
 
-マクロ呼び出しは、解析の初期段階で置き換え文字列に置き換えられます。 マクロ内のコマンドは、要求でマクロを呼び出す前に発生した場合、要求内の同じコマンドよりも優先されます。 これは、`vignette::Modifier`とは異なります。要求文字列内のコマンドは、要求内の位置に関係なく、`vignette::Modifier`文字列内のコマンドを常に上書きします。
+マクロの呼び出しは、解析の初期段階で置換文字列に置き換えられます。 マクロ内のコマンドは、リクエストでマクロを呼び出す前に発生した場合、リクエスト内の同じコマンドを上書きします。 これは`vignette::Modifier`とは異なります。要求文字列内のコマンドは、要求内の位置に関係なく、常に`vignette::Modifier`文字列内のコマンドを上書きします。
 
-コマンドマクロには引数の値を指定できませんが、カスタム変数を使用して要求の値をマクロに渡すことができます。
+コマンドマクロに引数値は指定できませんが、カスタム変数を使用して要求の値をマクロに渡すことができます。
 
-マクロは入れ子にできません。
+マクロはネストできない可能性があります。
 
 **例**
 
-マクロは、同じコマンドや属性を異なるレンダリングイメージに適用する場合に便利です。
+マクロは、同じコマンドや属性を別のレンダリングイメージに適用する場合に役立ちます。
 
 `http://server/ir/render/cat/vig0?fmt=jpeg&qlt=80&sharpen=1&src=cat/matA&res=40 http://server/ir/render/cat/vig1?fmt=jpeg&qlt=80&sharpen=1&src=cat/matB&res=40 http://server/ir/render/cat/vig2?fmt=jpeg&qlt=95&sharpen=1&src=cat/matC&res=40`
 
-次の共通属性に対してマクロを定義できます。
+共通の属性に対してマクロを定義できます。
 
 `render vignette=cat/$vig$&fmt=jpg&qlt=80&sharpen=1&src=cat/$mat$&res=40`
 
@@ -47,11 +46,10 @@ ht-degree: 1%
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-`qlt=`は3番目の要求とは異なるので、マクロの呼び出し後に値を上書きします（`qlt=`*before* `$render$`を指定しても何も起こりません）。
+3番目のリクエストでは`qlt=`が異なるので、マクロの呼び出し後に値を上書きします（`qlt=`*before* `$render$`は無効です）。
 
 **関連項目**
 
-`catalog::MacroFile`,  `catalog::Modifier`，マクロ定義リファレンス
+`catalog::MacroFile`,  `catalog::Modifier`，マクロ定義のリファレンス
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->
-
