@@ -1,9 +1,8 @@
 ---
-description: AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム
+description: AdobeDynamic Media Image ServingおよびImage Rendering APIホーム
 solution: Experience Manager
-title: AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム
+title: AdobeDynamic Media Image ServingおよびImage Rendering APIホーム
 exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
-translation-type: tm+mt
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '65'
@@ -11,6 +10,6 @@ ht-degree: 0%
 
 ---
 
-# AdobeDynamic Media画像サービングおよび画像レンダリングAPIホーム{#adobe-scene-image-serving-and-image-rendering-api-home}
+# AdobeDynamic Media Image ServingおよびImage Rendering APIホーム{#adobe-scene-image-serving-and-image-rendering-api-home}
 
-このドキュメントには、画像サービングと画像レンダリングAPIに関する情報および関連テクノロジーが含まれています。 AEMとのDynamic Mediaクラシック統合を使用する場合は、このAPIの画像サービングの部分を参照してください。
+このドキュメントには、画像サービングAPIと画像レンダリングAPI、および関連するテクノロジーに関する情報が含まれます。 AEMとのDynamic Media Classic統合を使用する場合は、このAPIの画像サービングの節を参照してください。
