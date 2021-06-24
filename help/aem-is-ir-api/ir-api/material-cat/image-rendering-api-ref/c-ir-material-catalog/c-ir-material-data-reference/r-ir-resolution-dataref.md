@@ -1,25 +1,24 @@
 ---
-description: 解像度. 「現実の」画像解像度。通常はピクセル/インチで表されますが、他の単位（ピクセル/メートルなど）でも使用できます。
+description: 解像度. 「現実世界」の画像解像度。通常は1インチあたりのピクセル数で表されますが、他の単位（1メートルあたりのピクセル数など）で表す場合もあります。
 solution: Experience Manager
 title: 解像度
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # 解像度{#resolution}
 
-解像度. 「現実の」画像解像度。通常はピクセル/インチで表されますが、他の単位（ピクセル/メートルなど）でも使用できます。
+解像度. 「現実世界」の画像解像度。通常は1インチあたりのピクセル数で表されますが、他の単位（1メートルあたりのピクセル数など）で表す場合もあります。
 
 ## プロパティ {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-0より大きい実数。 イメージの解像度がattribute::Resolutionと同じでない限り、テクスチャおよびデカールのマテリアルに必要です。 べた塗りとキャビネットのマテリアルでは無視されます。
+0より大きい実数。 イメージ解像度がattribute::Resolutionと同じでない限り、テクスチャマテリアルとデカールマテリアルに必要です。 ソリッドカラーとキャビネットのマテリアルでは無視されます。
 
 ## 初期設定 {#section-b1d044e211194242a900aaef4a8c8e6f}
 
