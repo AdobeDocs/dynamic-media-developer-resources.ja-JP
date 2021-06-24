@@ -1,21 +1,20 @@
 ---
-description: テクスチャ繰り返しモード 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
+description: テクスチャ繰り返しモード。 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
 solution: Experience Manager
 title: リピート
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 16%
 
 ---
 
-
 # リピート{#repeat}
 
-テクスチャ繰り返しモード 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
+テクスチャ繰り返しモード。 繰り返し可能なテクスチャマテリアルの繰り返しモードを指定します。
 
 `repeat=0...19`
 
@@ -38,7 +37,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>壁紙が四分の一滴下になる。 </p> </td> 
+  <td class="stentry"> <p>4分の1の壁紙が掛かる。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -46,7 +45,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>壁紙を半ドロップで掛ける。 </p> </td> 
+  <td class="stentry"> <p>壁紙を半分落として吊るす。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
@@ -54,7 +53,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>壁紙を反転して貼り付けます。 </p> </td> 
+  <td class="stentry"> <p>壁紙を裏返しでハング。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
@@ -66,7 +65,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>ランダムに横切る。 </p> </td> 
+  <td class="stentry"> <p>横にランダム。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -74,27 +73,27 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>鏡像（ブックマッチ） </p> </td> 
+  <td class="stentry"> <p>ミラー(bookmatch) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>標準のランダム化機能 </p> </td> 
+  <td class="stentry"> <p>標準のランダム化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>高周波ランダム化器 </p> </td> 
+  <td class="stentry"> <p>高周波ランダム化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>低周波のランダム化器 </p> </td> 
+  <td class="stentry"> <p>低周波ランダム化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>水平方向のランダム化 </p> </td> 
+  <td class="stentry"> <p>水平ランダム化 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>垂直方向のランダム化 </p> </td> 
+  <td class="stentry"> <p>垂直ランダム化 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -102,15 +101,15 @@ ht-degree: 16%
  </tr> 
 </table>
 
-ランダムキルティングモード(14...18)は、容易に繰り返しが可能でないイメージからテクスチャを合成するのに使用できる。アルゴリズムは、元のイメージに基づいて、完全にランダムなテクスチャまたは部分的にランダムなテクスチャを作成します。
+ランダムキルティングモード(14...18)は、容易に繰り返し可能でない画像からテクスチャを合成するために使用することができる。アルゴリズムは、元のイメージに基づいて、完全にランダムな、または部分的にランダムなテクスチャを作成します。
 
 ## プロパティ {#section-262bf540930d4890b678ea00cefe1909}
 
-マテリアル属性 ソリッドカラー、デカール、キャビネットのマテリアルでは無視されます。
+マテリアル属性。 ソリッドカラー、デカール、キャビネットマテリアルでは無視されます。
 
 ## 初期設定 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`材料がカタログエントリを基にしている場合は、それ以外の場合 `0` （直線的な繰り返し）。
+`catalog::Repeat`マテリアルがカタログエントリに基づいている場合は、それ以外の場合は( `0` 直線の繰り返し)。
 
 ## 関連項目 {#section-ac99113b64654d75a3a86e41db546269}
 
