@@ -2,16 +2,15 @@
 description: アニメーションGIFファイルアセットのプロパティ。
 solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 11%
 
 ---
-
 
 # AnimatedGifInfo{#animatedgifinfo}
 
@@ -33,7 +32,7 @@ ht-degree: 11%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>GIFファイルのパス </p> </td> 
+   <td colname="col3"> <p>GIFファイルのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
@@ -43,12 +42,12 @@ ht-degree: 11%
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedPath</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS最適化イメージファイルへのパス。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化イメージファイルのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedFile</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS用に最適化された画像ファイル。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化イメージファイル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
@@ -57,4 +56,3 @@ ht-degree: 11%
   </tr> 
  </tbody> 
 </table>
-
