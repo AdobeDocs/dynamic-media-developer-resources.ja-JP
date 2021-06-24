@@ -2,22 +2,21 @@
 description: stageSize
 solution: Experience Manager
 title: stageSize
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，ビューア，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # stageSize{#stagesize}
 
 >[!NOTE]
 >
->この属性は、ズームビューア、ビデオビューア、スピンビューア、インタラクティブ画像ビューア、インタラクティブビデオビューアおよびカルーセルビューアに適用されます。
+>この属性は、ズームビューア、ビデオビューア、スピンビューア、インタラクティブ画像ビューア、インタラクティブビデオビューア、カルーセルビューアに適用されます。
 
 `stageSize= *``*, *`widthheight`*`
 
@@ -25,7 +24,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの全体的な幅と高さ。 <span class="codeph"> 0,0</span>の値は、CSSルールとWebページのレイアウトに従ってビューアのサイズが設定されることを意味します。 </p> </td> 
+   <td colname="col2"> <p> ビューアの全体的な幅と高さ。 <span class="codeph"> 0,0</span>の値は、CSSルールとWebページのレイアウトに従ってビューアのサイズが変更されることを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
