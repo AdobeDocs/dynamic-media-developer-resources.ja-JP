@@ -2,16 +2,15 @@
 description: ビデオサイトマップを作成します。
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
-
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
@@ -33,8 +32,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"><span class="codeph"> true</span>に設定されている場合にサイトマップを生成します。 <p><p>注意：サイトマップ生成設定が手動に設定され、<span class="codeph"> forceUpdate</span>が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
+   <td colname="col3"><span class="codeph"> true</span>に設定されている場合、サイトマップを生成します。 <p><p>注意：サイトマップの生成設定が手動に設定され、<span class="codeph"> forceUpdate</span>が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>
-
