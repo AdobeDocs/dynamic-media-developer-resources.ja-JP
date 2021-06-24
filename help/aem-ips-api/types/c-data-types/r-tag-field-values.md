@@ -2,16 +2,15 @@
 description: タグフィールドの値の配列。
 solution: Experience Manager
 title: TagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
-
 
 # TagFieldValues{#tagfieldvalues}
 
@@ -25,4 +24,3 @@ ht-degree: 11%
 |---|---|---|
 | `*`fieldHandle`*` | `xsd:string` | タグフィールドハンドル。 |
 | `*`valueArray`*` | `xsd:StringArray` | タグフィールドの値の配列。 |
-
