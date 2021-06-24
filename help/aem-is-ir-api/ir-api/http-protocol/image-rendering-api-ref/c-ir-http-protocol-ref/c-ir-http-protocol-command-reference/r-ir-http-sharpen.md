@@ -1,28 +1,27 @@
 ---
-description: 返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
+description: 返信画像をシャープにします。 オプションのシャープは、レンダリング画像がwid=またはhei=に基づいて拡大/縮小された後に適用される場合があります。
 solution: Experience Manager
-title: シャープ
-feature: Dynamic Media Classic,SDK/API
+title: 鋭くする
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
 
+# 鋭くする{#sharpen}
 
-# シャープ{#sharpen}
-
-返信画像をシャープにします。 オプションのシャープは、レンダリングされた画像がwid=またはhei=に基づいて拡大・縮小された後に適用される場合があります。
+返信画像をシャープにします。 オプションのシャープは、レンダリング画像がwid=またはhei=に基づいて拡大/縮小された後に適用される場合があります。
 
 `sharpen=0|1`
 
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>シャープなし </p></td> 
+  <td class="stentry"> <p>シャープは適用されません。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -36,4 +35,4 @@ ht-degree: 10%
 
 ## 関連項目 {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) 、 [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
