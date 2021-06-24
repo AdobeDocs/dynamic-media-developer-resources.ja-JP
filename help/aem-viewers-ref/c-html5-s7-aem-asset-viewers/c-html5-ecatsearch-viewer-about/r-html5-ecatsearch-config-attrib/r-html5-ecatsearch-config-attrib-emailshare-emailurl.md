@@ -2,16 +2,15 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 4ebaed6f-7058-42cc-b3b2-0fe2c1d081e4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '27'
+ht-degree: 14%
 
 ---
-
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Dynamic MediaOnDemand電子メールサービスのベースURLを指定します。 </p> </td> 
+   <td colname="col2"> <p> Dynamic Media OnDemand電子メールサービスのベースURLを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
