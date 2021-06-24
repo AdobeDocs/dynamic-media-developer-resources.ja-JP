@@ -1,43 +1,42 @@
 ---
-description: プラットフォームサーバーの設定が含まれます。
+description: Platform Server設定が含まれます。
 solution: Experience Manager
 title: PlatformServer.conf
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
 
-
 # PlatformServer.conf{#platformserver-conf}
 
-プラットフォームサーバーの設定が含まれます。
+Platform Server設定が含まれます。
 
-このファイルはJAVAプロパティファイルです。 適切な規則に従うように注意しなければならない。そうしないと、Platform Serverの開始に失敗する場合があります。 Windowsのファイルパスでは、重複のバックスラッシュ「\\」を使用するか、バックスラッシュの代わりに1つのスラッシュ(/)を使用します。 このタイプのファイルでは、バックスラッシュがエスケープ文字として使用されます。
+このファイルは、JAVAプロパティファイルです。 適切な規則に従うように注意しなければならない。そうしないと、Platform Serverの起動に失敗する場合があります。 Windowsのファイルパスでは、バックスラッシュ(\)の代わりに、バックスラッシュ(\\)を二重に、またはスラッシュ(/)を1つ使用します。 このタイプのファイルでは、バックスラッシュがエスケープ文字として使用されます。
 
-このファイルに対する変更は、ファイルの保存後に有効になります。
+このファイルに対する変更は、ファイルを保存した後に有効になります。
 
-[!DNL PlatformServer.conf]では、次の設定のみを変更できます。 特定の設定がない場合は、ファイル内の任意の場所に追加できます。 各設定のインスタンスは1つだけ存在します。
+[!DNL PlatformServer.conf]では、以下に示す設定のみを変更できます。 特定の設定がない場合は、ファイルの任意の場所に追加できます。 各設定のインスタンスは1つだけ存在します。
 
 <table id="simpletable_38244750F50A46E5B0077F5F860B125C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>一般的なプラットフォームサーバーの設定 </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000  </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824  </span> </p> <p> <span class="codeph"> isConnection.port=27345  </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequsts=true  </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000  </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
+  <td class="stentry"> <p>一般的なPlatform Serverの設定 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000  </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824  </span> </p> <p> <span class="codeph"> isConnection.port=27345  </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequests=true  </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000  </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>キャッシュクラスターの設定 </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> cluster.hosts=&lt;empty&gt; </span> </p> <p> <span class="codeph"> cacheCluster.queryTimeout=50  </span> </p> <p> <span class="codeph"> cacheCluster.fetchTimeout=10000  </span> </p> <p> <span class="codeph"> cacheCluster.updateLocalCache=true  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>リダイレクト設定のエラー </p> </td> 
+  <td class="stentry"> <p>リダイレクト設定エラー </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> errorRedirect.rootUrl=&lt;empty&gt; </span> </p> <p> <span class="codeph"> errorRedirect.connectTimeout=1000  </span> </p> <p> <span class="codeph"> errorRedirect.socketTimeout=30000  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>SVG設定 </p> </td> 
+  <td class="stentry"> <p>SVGの設定 </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> svgProvider.rootPaths=./イメージ </span> </p> <p> <span class="codeph"> svgProvider.SVGFileSizeLimit=1024  </span> </p> <p> <span class="codeph"> svgProvider.port=8080  </span> </p> <p> <span class="codeph"> svgProvider.fontRoot=./イメージ </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -45,4 +44,3 @@ ht-degree: 1%
   <td class="stentry"> <p> <span class="codeph"> fvctx.useCatalogRecordValidation=false  </span> </p> <p> <span class="codeph"> fvctx.nestingLimit=10  </span> </p> <p> <span class="codeph"> fvctx.brochureLimit=20  </span> </p> </td> 
  </tr> 
 </table>
-
