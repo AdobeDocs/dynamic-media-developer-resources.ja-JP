@@ -1,19 +1,18 @@
 ---
 description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 solution: Experience Manager
-title: FXGサーバープロトコル
-feature: Dynamic Media Classic,SDK/API
+title: FXGサーバプロトコル
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 84%
+source-wordcount: '274'
+ht-degree: 85%
 
 ---
 
-
-# FXGサーバープロトコル{#fxg-server-protocol}
+# FXGサーバプロトコル{#fxg-server-protocol}
 
 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 
@@ -23,8 +22,8 @@ ht-degree: 84%
 
 * A.基準点の位置
 * ロ。図
-* C.グラフィックを`northWest`基準点から20度回転させた状態
-* D.グラフィックを`east`基準点から20度回転させた状態
+* C.グラフィックが`northWest`基準点から20度回転した状態
+* D.グラフィックが`east`基準点から20度回転した状態
 
 構文を次に示します。
 
@@ -37,4 +36,3 @@ ht-degree: 84%
 >基準点を使用し、操作後にオブジェクトが移動しないようにするには、操作した後でオブジェクトの x と y の値を更新します。
 
 `s7:referencePoint`   の値をグループ（またはパス、Line 要素または明確な幅と高さの定義がない任意の要素）とともに使用する場合は、値がグループの累積バウンディングボックスに適用されます。例えば、グループ内のすべてのオブジェクトのバウンディングボックスの左上の点はグループの `northWest` 基準点として機能し、右下の点は `southEast` 基準点として機能します。
-
