@@ -2,16 +2,15 @@
 description: searchAssetsで使用する検索語句を追加します。
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 3%
 
 ---
-
 
 # MetadataCondition{#metadatacondition}
 
@@ -48,58 +47,57 @@ searchAssetsで使用する検索語句を追加します。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> ブール値比較値（ブール値型フィールドのみ）。 </td> 
+   <td colname="col3"> ブール値比較値（ブール型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 長い比較値（整数型フィールドのみ） </td> 
+   <td colname="col3"> 長い比較値（整数型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 範囲比較の最小長値（整数型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最小long値（整数型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 範囲比較の最大長値（整数型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最大long値（整数型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
-   <td colname="col3"> 重複比較値（浮動小数点数型フィールドのみ） </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 二重比較値（浮動小数点型フィールドのみ） </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
-   <td colname="col3"> 範囲比較の最小重複値（浮動小数点数型フィールドのみ）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 範囲比較の最小倍精度値（浮動小数値型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
-   <td colname="col3"> 範囲比較の最大重複値（浮動小数点数型フィールドのみ）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 範囲比較の最大倍精度値（浮動小数点型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 日付比較値（日付を入力したフィールドのみ） </td> 
+   <td colname="col3"> 日付比較値（日付型フィールドのみ） </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 範囲比較の最小日付値（日付を入力したフィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最小日付値（日付型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 範囲比較の最大日付値（日付を入力したフィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最大日付値（日付型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> メタデータサーバで大文字と小文字を区別するように指定します。 <span class="codeph"> searchAssetsByMetadata</span>呼び出しで使用されます。 </p> <p><a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p> メタデータサーバの大文字と小文字の区別を指定します。 <span class="codeph"> searchAssetsByMetadata</span>の呼び出しで使用されます。 </p> <p><a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
