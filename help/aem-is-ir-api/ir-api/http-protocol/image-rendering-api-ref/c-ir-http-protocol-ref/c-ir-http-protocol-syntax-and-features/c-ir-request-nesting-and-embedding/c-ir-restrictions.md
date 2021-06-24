@@ -1,22 +1,21 @@
 ---
-description: ネストと埋め込みに関しては、いくつかの制限があります。
+description: ネストと埋め込みには、一部の制限が適用されます。
 solution: Experience Manager
 title: 制限事項
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ac2fd40b-a2f6-4f6f-9d10-3da3d701042b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
+# 制限事項{#restrictions}
 
-# 制限{#restrictions}
+ネストと埋め込みには、一部の制限が適用されます。
 
-ネストと埋め込みに関しては、いくつかの制限があります。
+サーバのパフォーマンスを向上させるために、ネストされた要求で返される画像の解像度は、マテリアルが適用されるオブジェクトのテクスチャ解像度と合理的に一致する必要があります。
 
-サーバのパフォーマンスを高めるために、ネストされた要求によって返される画像の解像度は、マテリアルを適用するオブジェクトのテクスチャ解像度と適切に一致する必要があります。
-
-外部画像はローカルにキャッシュされます。 このような画像に対する変更は、ローカルキャッシュエントリが古くなった後（期限切れのHTTPヘッダーに基づいて）にのみ検出されます。
+外部画像はローカルにキャッシュされます。 このような画像に対する変更は、ローカルキャッシュエントリが古くなった後に（期限切れのHTTPヘッダーに基づいて）検出されます。
