@@ -2,26 +2,25 @@
 description: 会社をシステムに追加します。
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
-
 
 # addCompany{#addcompany}
 
 会社をシステムに追加します。
 
-システムに追加する会社の名前を送信します。また、会社の有効期限が切れたかどうかを送信することもできます。
+システムに追加する会社の名前を送信し、オプションで会社の有効期限が切れるかどうかを送信します。
 
-この操作を呼び出すと、会社ハンドルと説明フィールドを含む`*`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`をスローします。
+この操作が呼び出されると、会社ハンドルと説明フィールドを含む`*`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`がスローされます。
 
-## 認証済みユーザータイプ{#section-ae926c7672984be79f6102748accab72}
+## 許可されたユーザーの種類 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -51,12 +50,12 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>会社の有効期限。 このフィールドに対する要求でタイムゾーンを指定します。 タイムゾーンは「中央時間」に調整されます。 </p> </td> 
+   <td colname="col4"> <p>会社の有効期限。 このフィールドのリクエストでタイムゾーンを指定します。 タイムゾーンは中央時間に調整されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addCompanyReturn)**
+**出力(addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -72,14 +71,14 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>新しい会社の名前、ルートパス、有効期限、および時刻を取り扱います。 </p> </td> 
+   <td colname="col4"> <p>新しい会社の名前、ルートパス、有効期限、時刻を処理します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-この例は、IPSシステムに会社を追加する要求と、他の操作を実行するために必要な追加会社に関する情報の詳細を示す応答を示しています。
+この例は、IPSシステムに会社を追加するリクエストと、他の操作を実行するために必要な追加会社に関する情報を詳しく説明する応答を示しています。
 
 **リクエスト**
 
@@ -101,4 +100,3 @@ ht-degree: 9%
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
