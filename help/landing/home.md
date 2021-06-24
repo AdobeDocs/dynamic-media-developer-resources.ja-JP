@@ -1,24 +1,23 @@
 ---
 title: AdobeDynamic Media開発者リソース
 description: AdobeDynamic Media開発者リソース
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
 
-
 # Dynamic Media の開発者向けリソース{#dynamic-media-developer-resource}
 
-* [ビューアリファレンス](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
-ガイドデスクトップおよびタッチスクリーンデバイスで使用するDynamic Mediaのビューアをカスタマイズします。操作できるメディアタイプには、インタラクティブな画像やビデオ、360度ビデオ、カルーセル、画像ズーム、ビデオ、eCatalog、フライアウト、混在メディア、スピンセットなどがあります。
-* [画像サービング/画像レンダリング](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
-APID IS（画像サービング）およびIR（画像レンダリング）API、および関連テクノロジーに関するドキュメント。AEMとのDynamic MediaClassic統合を使用する場合は、APIのIS部分を参照してください。
-* [Image Production System APIT IPS (Image Production System) Web Service APIを使用すると、外部アプリケーションとサードパーティの開発者は、IPSのアセットと機能にプログラム的にアクセスできます。](/help/aem-ips-api/c-overview.md)
-
-* [Dynamic Mediaクラシックリリース](/help/s7-release-notes/s7rn2017.md)
-ノート：のソリューションの [!DNL Adobe Dynamic Media Classic]一部に関する最新のリリースノート [!DNL Adobe Experience Manager]  [!DNL Adobe Experience Cloud]です。
+* [ビューアリファレンスガ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
+イドデスクトップおよびタッチスクリーンデバイスで使用するDynamic Mediaビューアのカスタマイズ操作できるメディアタイプには、インタラクティブ画像とビデオ、360度ビデオ、カルーセル、画像ズーム、ビデオ、eCatalog、フライアウト、混在メディア、スピンセットなどがあります。
+* [画像サービング/画像レンダ](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
+リングAPIドキュメント(IS（画像サービング）APIとIR（画像レンダリング）API、および関連するテクノロジーに関するドキュメント)。AEMとのDynamic Media Classic統合を使用する場合は、APIのISの部分を参照してください。
+* [画像制作システムAPIThe ](/help/aem-ips-api/c-overview.md)
+IPS（画像制作システム）WebサービスAPIを使用すると、外部アプリケーションやサードパーティ開発者がIPSのアセットや機能にプログラム的にアクセスできます。
+* [Dynamic Media Classicリリ](/help/s7-release-notes/s7rn2017.md)
+ースノートの一部である、 [!DNL Adobe Dynamic Media Classic]のソリューションの最新のリ [!DNL Adobe Experience Manager] リースノー [!DNL Adobe Experience Cloud]トです。
