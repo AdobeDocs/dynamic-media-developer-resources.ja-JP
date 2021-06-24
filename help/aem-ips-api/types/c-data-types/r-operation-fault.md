@@ -1,30 +1,28 @@
 ---
-description: CDN無効化リクエストで提供されるURLに応答する詳細メッセージ。
+description: CDN無効化リクエストで提供されたURLの1つに応答する詳細メッセージ。
 solution: Experience Manager
 title: OperationFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
-
 # OperationFault{#operationfault}
 
-CDN無効化リクエストで提供されるURLに応答する詳細メッセージ。
+CDN無効化リクエストで提供されたURLの1つに応答する詳細メッセージ。
 
-**次の日付でサポート**
+**次の日からサポート**
 
-4.5.0、パッチ2011-02
+4.5.0（パッチ2011年2月）
 
 ## パラメータ {#section-cf4b0c923cef4c14869319af73ace58b}
 
 | ** 名前** | ** 種類** | ** 説明** |
 |---|---|---|
 | `*`コード`*` | `xsd:int` | CDNから提供されるエラーコード |
-| `*`理由`*` | `xsd:string` | CDNから返されたエラーメッセージ |
-
+| `*`理由`*` | `xsd:string` | CDNから提供されたエラーメッセージ |
