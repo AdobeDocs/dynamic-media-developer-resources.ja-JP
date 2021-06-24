@@ -2,16 +2,15 @@
 description: デフォルトの詳細レンダリング設定。 カタログのRenderSettingsの初期設定。
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 01af15a0-3c7c-47e3-be9b-49e045d856ba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 6%
 
 ---
-
 
 # RenderSettings{#rendersettings}
 
@@ -19,11 +18,11 @@ ht-degree: 6%
 
 ## プロパティ {#section-fa89db09aeeb420292cf783f07b8547a}
 
-テキスト文字列。 指定する場合は、ビネットオーサリングツール(Dynamic Media画像オーサリングパッケージの一部)で定義される有効なレンダリング設定文字列である必要があります。
+テキスト文字列。 指定する場合は、ビネットオーサリングツール(Dynamic Media Image Authoringパッケージの一部)で定義された有効なレンダリング設定文字列である必要があります。
 
 ## 初期設定 {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` を指定しない場合や空の場合。
+`default::RenderSettings` を指定しない場合、または空の場合は。
 
 ## 関連項目 {#section-f35d7772f4b744d1846331e19ea99173}
 
