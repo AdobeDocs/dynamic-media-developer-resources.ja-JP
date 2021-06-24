@@ -1,23 +1,22 @@
 ---
-description: 特定のアセットに対するユーザー定義のフィールド定義。
+description: 特定のアセットのユーザー定義フィールドの定義。
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
-
 # MetadataField{#metadatafield}
 
-特定のアセットに対するユーザー定義のフィールド定義。
+特定のアセットのユーザー定義フィールドの定義。
 
-`getMetadataFields`操作または`getAssetMetadataField`操作を使用して、タグフィールドの定義を取得します。
+`getMetadataFields`操作または`getAssetMetadataField`操作でタグフィールド定義を取得します。
 
 ## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -43,7 +42,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> メタデータフィールドの種類。 </td> 
+   <td colname="col3"> メタデータフィールドタイプ。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -53,7 +52,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 必要なステータスを設定します。 </td> 
+   <td colname="col3"> 必須ステータスを設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
@@ -68,13 +67,12 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>値が設定されたときにメタデータフィールドタイプが適用（検証）されるかどうかを示すbooleanフラグです。 </p> <p>trueに設定した場合、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に不正な値が設定されていると、フォルトがスローされます。 </p> </td> 
+   <td colname="col3"> <p>値が設定されたときにメタデータフィールドタイプが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 選択したタグが参照できる共有列挙値のセットを作成できます。 </td> 
+   <td colname="col3"> 選択したタグが指す共有列挙値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>
-
