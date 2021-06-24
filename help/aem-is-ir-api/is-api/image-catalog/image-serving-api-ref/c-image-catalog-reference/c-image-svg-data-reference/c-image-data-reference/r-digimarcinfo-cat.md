@@ -1,29 +1,28 @@
 ---
-description: Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と関連する画像固有のデータを指定します。
+description: Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類と関連する画像固有のデータを指定します。
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 13%
 
 ---
 
-
 # DigimarcInfo{#digimarcinfo}
 
-Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と関連する画像固有のデータを指定します。
+Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類と関連する画像固有のデータを指定します。
 
 ## プロパティ {#section-62af219e8bac422b8541841221c9ce4f}
 
-カンマで区切られた4つの整数値。
+コンマ区切りの4つの整数値。
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*`typeenables Digimarc埋め込みを有効にし、透かしの種類を次のように指定します。`*` 
+`*``*` typeは、Digimarc埋め込みを有効にし、透かしの種類を指定します。
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -56,7 +55,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
  </tbody> 
 </table>
 
-`*``*` フラグは、3つの値を持つビットフィールドです。ビット0はコピー保護されたコンテンツを示し、ビット1は制限付きコンテンツを示し、ビット2は成人向けコンテンツを示します。
+`*``*` は、3つの値を持つビットフィールドを指します。ビット0はコピー保護されたコンテンツを示し、ビット1は制限されたコンテンツを示し、ビット2は成人向けコンテンツを示します。
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -79,7 +78,7 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>制限付き </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>コピー保護、制限。 </p> </td> 
   </tr> 
   <tr> 
@@ -88,15 +87,15 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
   </tr> 
   <tr> 
    <td> <p><b>5</b> </p> </td> 
-   <td> <p>保護された成人向けのコンテンツのコピー </p> </td> 
+   <td> <p>保護された成人向けのコンテンツをコピーします。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>制限付きアダルトコンテンツ。 </p> </td> 
+   <td> <p>制限付き、成人向けコンテンツ。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>コピー保護、制限付き、成熟したコンテンツ。 </p> </td> 
+   <td> <p>コピー保護、制限、成熟したコンテンツ </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,13 +127,13 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>トランザクションID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>第1著作権年。 </p> </td> 
+   <td> <p>初版著作権年。 </p> </td> 
    <td> <p>第2著作権年。 </p> </td> 
   </tr> 
  </tbody> 
@@ -142,17 +141,17 @@ Digimarc画像情報 Digimarc埋め込みを有効にし、透かしの種類と
 
 ## 初期設定 {#section-4bb97e5f79074be89cc691e73449eb43}
 
-フィールドが存在しない場合、または空の場合は、attribute::DigimarcInfoから継承します。
+フィールドが存在しない場合、または空の場合は、attribute::DigimarcInfoから継承されます。
 
 ## 例 {#section-0f14727a0a2a408781c9df71fed7f42d}
 
 「0,0,0,0」を指定すると、この画像のDigimarc透かしが無効になります。
 
-「1,5,0,0」は、大人向けとコピー保護されたコンテンツフラグが設定された基本的な透かしを指定します。
+「1,5,0,0」は、成人向けの基本透かしとコピー保護されたコンテンツフラグセットを指定します。
 
 「2,0,4567,0」は、画像IDを持つ透かしを指定します。
 
-「3,2,56483,0」は、トランザクションIDと制限付きコンテンツフラグが設定された透かしを指定します。
+「3,2,56483,0」は、トランザクションIDと制限コンテンツフラグが設定された透かしを指定します。
 
 「4,0,1998,2001」は著作権年を示す透かしを指定します。
 
