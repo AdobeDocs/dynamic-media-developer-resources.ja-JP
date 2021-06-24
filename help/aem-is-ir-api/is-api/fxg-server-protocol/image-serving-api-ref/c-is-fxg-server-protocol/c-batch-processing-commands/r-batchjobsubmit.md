@@ -2,16 +2,15 @@
 description: 新しいバッチジョブを送信します。
 solution: Experience Manager
 title: batchjobsubmit
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4ab2f6e4-cd68-4f1e-ab54-6f5e9bfc87cb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '43'
 ht-degree: 2%
 
 ---
-
 
 # batchjobsubmit{#batchjobsubmit}
 
