@@ -1,34 +1,33 @@
 ---
-description: 重なり合うオブジェクトを表示 現在の選択範囲内で、以前に非表示になったすべての重なり合うオブジェクト（ウィンドウカバリングフレームオブジェクトを含む）を表示します。
+description: 重なりオブジェクトを表示 現在の選択範囲で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
 solution: Experience Manager
 title: 表示
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
 
-
 # 表示{#show}
 
-重なり合うオブジェクトを表示 現在の選択範囲内で、以前に非表示になったすべての重なり合うオブジェクト（ウィンドウカバリングフレームオブジェクトを含む）を表示します。
+重なりオブジェクトを表示 現在の選択範囲で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
 
 `Show[= *`val`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>無視されます。 </p></td> 
+  <td class="stentry"> <p>無視。 </p></td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-現在の選択範囲に重なり合うオブジェクトが含まれていない場合や、重なり合うオブジェクトが非表示の場合は無視されます。
+現在の選択範囲に重なりオブジェクトが含まれていない場合や、重なりオブジェクトが非表示の場合は無視されます。
 
 ## 初期設定 {#section-04972797d24d4b9f93790a31dfaa4743}
 
