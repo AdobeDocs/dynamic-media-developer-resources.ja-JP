@@ -1,19 +1,18 @@
 ---
 description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 solution: Experience Manager
-title: ジョブログの種類
-feature: Dynamic Media Classic,SDK/API
+title: ジョブのログの種類
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-
-# ジョブログの種類{#job-log-types}
+# ジョブのログの種類{#job-log-types}
 
 JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 
@@ -122,4 +121,3 @@ JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
 * [!DNL `OriginalJobName`]
 * [!DNL `TotalFileCount`]
 * [!DNL `RecoverTrashSuccess`]
-
