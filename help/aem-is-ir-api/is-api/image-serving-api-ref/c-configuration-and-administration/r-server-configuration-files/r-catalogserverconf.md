@@ -2,26 +2,25 @@
 description: 画像カタログの管理に関する設定が含まれます。
 solution: Experience Manager
 title: catalog-server.conf
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # catalog-server.conf{#catalog-server-conf}
 
 画像カタログの管理に関する設定が含まれます。
 
-このファイルはJAVAプロパティファイルです。 適切な規則に従うように注意しなければならない。そうしないと、Platform Serverが開始に失敗する場合があります。 Windowsのファイルパスでは、重複のバックスラッシュ「\\」を使用するか、バックスラッシュの代わりに1つのスラッシュ(/)を使用します。 このタイプのファイルでは、バックスラッシュがエスケープ文字として使用されます。
+このファイルは、JAVAプロパティファイルです。 適切な規則に従うように注意しなければならない。そうしないと、Platform Serverの起動に失敗する場合があります。 Windowsのファイルパスでは、バックスラッシュ(\)の代わりに、バックスラッシュ(\\)を二重に、またはスラッシュ(/)を1つ使用します。 このタイプのファイルでは、バックスラッシュがエスケープ文字として使用されます。
 
-このファイルに対する変更は、ファイルが保存された後すぐに有効になります。
+このファイルに対する変更は、ファイルが保存された直後に有効になります。
 
-[!DNL catalog-service.conf]では、次の設定のみを変更できます。 特定の設定がない場合は、ファイル内の任意の場所に追加できます。 各設定のインスタンスは1つだけ存在します。
+[!DNL catalog-service.conf]では、以下に示す設定のみを変更できます。 特定の設定がない場合は、ファイルの任意の場所に追加できます。 各設定のインスタンスは1つだけ存在します。
 
 `catalog.rootPath=./catalog`
 
