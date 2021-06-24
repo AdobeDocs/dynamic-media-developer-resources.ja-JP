@@ -2,16 +2,15 @@
 description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9ef8040f-1ea0-434d-ad00-3ef863448cb7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '36'
+ht-degree: 11%
 
 ---
-
 
 # searchServerUrl{#searchserverurl}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> Searchサービスのルートパス ドメインが指定されていない場合は、ビューアの供給元であるドメインが使用されます。 </p> </td> 
+   <td colname="col2"> <p> 検索サービスのルートパス。 ドメインを指定しない場合は、ビューアの提供元のドメインが使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
