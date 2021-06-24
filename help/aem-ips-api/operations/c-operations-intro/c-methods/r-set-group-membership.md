@@ -2,16 +2,15 @@
 description: ユーザーのグループメンバーシップを設定します。
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
-
 
 # setGroupMembership{#setgroupmembership}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 構文
 
-## 認証済みユーザータイプ{#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 許可されたユーザーの種類 {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,8 +31,8 @@ ht-degree: 12%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | いいえ | グループメンバーシップを設定するユーザーのハンドル。 |
-| `*`companyHandle`*` | `xsd:string` | いいえ | 会社ハンドル |
-| `*`groupHandleArray`*` | `types:HandleArray` | はい | ユーザーが属するグループへのハンドルの配列。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社の担当。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | はい | ユーザーが属するグループに対するハンドルの配列。 |
 
 **出力(setGroupMembershipReturn)**
 
@@ -41,7 +40,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-67b86d259df24938896fe19061845811}
 
-このコードのサンプルを使用すると、ユーザーがグループのメンバーになります。 グループ・ハンドル配列追加を持つ複数のグループに対するユーザー
+このコードのサンプルを使用すると、ユーザーはグループのメンバーになります。 グループハンドル配列を使用して、複数のグループにユーザーを追加します。
 
 **リクエスト**
 
