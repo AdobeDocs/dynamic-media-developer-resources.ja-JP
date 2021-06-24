@@ -2,16 +2,15 @@
 description: 会社固有の設定。
 solution: Experience Manager
 title: CompanySettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
-
 
 # CompanySettings{#companysettings}
 
@@ -23,13 +22,12 @@ ht-degree: 2%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`overwriteMode`*` | `xsd:string` | 現在のフォルダー内の画像を、同じベース画像名と拡張子で上書きするかどうかを指定します。 |
-| `*`retainPublishState`*` | `xsd:boolean` | IPSにアップロードする置き換え画像に、既存の「公開準備完了」設定を保持するか、アップロードで指定したとおりにするかを指定します。 |
-| `*`defaultSourceProfile`*` | `types:Asset` | CMYK画像ファイルを追加する際に「初期設定のカラー動作を使用」の一部として自動的に適用される初期設定のソースカラープロファイル(Coated FOGRA27(ISO 126472:2004))を指定します。 |
-| `*`defaultDisplayProfile`*` | `types:Asset` | CMYK画像ファイルを追加する際に「初期設定のカラー動作を使用」の一部として自動的に適用される初期設定の内部カラープロファイル(U.S. Web Coated (SWOP) v2)を指定します。 |
-| `*`iptcExifMappingXslt`*` | `types:Asset` | IPTCおよびEXIFイメージヘッダデータをIPSに抽出するには、内部フィールド名から会社用のユーザ定義フィールド名に変換する必要があります。 アップロードされた画像のXSL変換テーブル（デフォルトは「IPTCまたはEXIFフィールドを抽出しません」）を決定します。 |
-| `*`xmpMappingXslt`*` | `types:Asset` | XMPイメージヘッダデータをIPSに抽出するには、会社の内部フィールド名からユーザ定義フィールド名に変換する必要があります。 アップロードされた画像のXSL変換テーブル(デフォルトは「XMPフィールドを抽出しません」)を決定します。 |
+| `*`overwriteMode`*` | `xsd:string` | 現在のフォルダー内の画像をベース名と拡張子が同じ画像で上書きするかどうかを指定します。 |
+| `*`retainPublishState`*` | `xsd:boolean` | IPSにアップロードされた置き換え画像が、既存の「公開準備完了」設定を保持するか、アップロードで指定されたとおりに保持するかを指定します。 |
+| `*`defaultSourceProfile`*` | `types:Asset` | CMYK画像ファイルを追加する際に、「デフォルトのカラー動作を使用」の一部として自動的に適用されるデフォルトのソースカラープロファイル(Coated FOGRA27(ISO 126472:2004))を指定します。 |
+| `*`defaultDisplayProfile`*` | `types:Asset` | CMYK画像ファイルを追加する際に、「デフォルトのカラー動作を使用」の一部として自動的に適用される、デフォルトの内部カラープロファイル(U.S. Web Coated (SWOP) v2)を指定します。 |
+| `*`iptcExifMappingXslt`*` | `types:Asset` | IPTCおよびEXIF画像ヘッダーデータをIPSに抽出するには、社内のフィールド名から会社のユーザー定義のフィールド名に変換する必要があります。 アップロードされた画像のXSL変換テーブル（デフォルトは「IPTCまたはEXIFフィールドを抽出しない」）を決定します。 |
+| `*`xmpMappingXslt`*` | `types:Asset` | XMP画像ヘッダーデータをIPSに抽出する場合、社内のフィールド名から会社のユーザー定義のフィールド名に変換する必要があります。 アップロードされた画像のXSL変換テーブル(デフォルトは「XMPフィールドを抽出しない」)を決定します。 |
 | `*`diskSpaceWarningMin`*` | `xsd:int` | 警告が送信される前の、イメージディレクトリの空きディスク領域の最小量。 |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | ごみ箱に配置された項目を自動的に削除する前に、電子メールを送信するかどうかを指定します。 |
-| `*`javascriptUploadEnabled`*` | `types:Asset` | JavaScriptファイルをアップロードするかどうかを指定します。 これはセキュリティ上のリスクの可能性があるので、このオプションは慎重に使用してください。 |
-
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | ごみ箱に入れた項目を自動的に削除する前にEメールを送信するかどうかを指定します。 |
+| `*`javascriptUploadEnabled`*` | `types:Asset` | JavaScriptファイルをアップロードするかどうかを決定します。 これはセキュリティ上のリスクが発生する可能性があるので、このオプションを使用する際は注意が必要です。 |
