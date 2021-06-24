@@ -1,21 +1,20 @@
 ---
-description: リンクツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+description: リンク共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 solution: Experience Manager
 title: リンク共有
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
 
 # リンク共有{#link-share}
 
-リンクツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+リンク共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 
 <!--RICK - Edit to distinguish from previous -->
 
@@ -39,22 +38,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-CSSクラスに`display:none` CSSプロパティを設定すると、ソーシャル共有パネルからボタンを削除できます。
+CSSクラスに`display:none` CSSプロパティを設定すると、このボタンをソーシャル共有パネルから削除できます。
 
-ボタンのツールチップをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 — 28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像を表示するリンク共有ボタンを設定するには、次のように記述します。
 
@@ -77,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-ダイアログボックスがアクティブなときのWebページをカバーする背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスがアクティブな場合にWebページを覆う背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -88,17 +87,17 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacity  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p>背景オーバーレイの不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>背景オーバーレイのカラー </p> </td> 
+   <td colname="col2"> <p>背景オーバーレイのカラー。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**例**  — 不透明度70 %のグレーの背景オーバーレイを設定するには、次のように記述します。
+**例**  — 不透明度70%のグレーの背景オーバーレイを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay { 
@@ -107,7 +106,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-デフォルトでは、モーダルなダイアログボックスがデスクトップシステムでは画面中央に表示され、タッチデバイスではWebページ領域全体に表示されます。 どのような場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 ダイアログボックスは、以下のCSSクラスセレクターを使用して制御します。
+デフォルトでは、モーダルダイアログボックスはデスクトップシステムでは画面の中央に表示され、タッチデバイスではWebページ領域全体に表示されます。 どの場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 このダイアログボックスは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialog
@@ -119,7 +118,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザー全体に表示されない場合）。 </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザ全体に表示されない場合）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -127,11 +126,11 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定しないか、100 %に設定する必要があります（タッチデバイスではこのモードを推奨）。 </p> </td> 
+   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定しないか、100 %に設定する必要があります（タッチデバイスではこのモードを推奨）。 </p> </td> 
+   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび閉じるボタンで構成されます。 ヘッダーのコンテナは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび閉じるボタンで構成されます。 ヘッダーコンテナは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader
@@ -163,19 +162,19 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-アイコンとタイトルテキストは、追加のコンテナにまとめられます。これは以下のCSSクラスセレクターを使用して制御します。
+アイコンとタイトルテキストは、追加のコンテナにまとめられます。このコンテナは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
-**ダイアログの線のCSSプロパティ**
+**ダイアログの行のCSSプロパティ**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーのアイコンとタイトルの内側のパディング </p> </td> 
+   <td colname="col2"> <p> ヘッダーアイコンとタイトルの内側のパディング </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,7 +185,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogheadericon
 ```
 
-**ダイアログボックスのヘッダーアイコンのCSSプロパティ**
+**ダイアログボックスヘッダーのアイコンのCSSプロパティ**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -204,7 +203,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,12 +219,12 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
-   <td colname="col2"> <p>フォント重み付け </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>フォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>フォントの高さ。 </p> </td> 
+   <td colname="col2"> <p>フォントの高さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -233,7 +232,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p>テキストの内部のパディング。 </p> </td> 
+   <td colname="col2"> <p>内部テキストパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -250,11 +249,11 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーのコンテナを基準とした垂直方向のボタン位置。 </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナを基準とした垂直方向のボタン位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーのコンテナを基準とした水平方向のボタン位置。 </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナを基準とした水平方向のボタン位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
@@ -270,22 +269,22 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>状態ごとのボタン画像。 </p> </td> 
+   <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
 「閉じる」ボタンのツールチップとダイアログボックスのタイトルをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例**  — パディング、22 x 12ピクセルのアイコン、太字の16ポイントのタイトルおよび28 x 28ピクセルの閉じるボタンを設定し、ダイアログボックスのコンテナの上から2ピクセル、右から2ピクセルの位置に配置するには、次のように記述します。
+**例**  — パディング、22 x 12ピクセルのアイコン、太字の16ポイントタイトル、ダイアログボックスコンテナの上から2ピクセル、右から2ピクセルの位置に配置する28 x 28ピクセルの閉じるボタンを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -325,24 +324,24 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのフッターは、「キャンセル」ボタンで構成されます。 フッターのコンテナは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスのフッターは、「キャンセル」ボタンで構成されます。 フッターコンテナは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**ダイアログボックスのフッターのCSSプロパティ**
+**ダイアログボックスフッターのCSSプロパティ**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p> フッターとダイアログボックスのそれ以外の部分を視覚的に区切るために使用できる境界線。 </p> </td> 
+   <td colname="col2"> <p> フッターとダイアログボックスの残りの部分を視覚的に区切るために使用できる境界線。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-フッターには、ボタンを保持する内側のコンテナがあります。 これは、以下のCSSクラスセレクターを使用して制御します。
+フッターには、ボタンを保持する内部コンテナがあります。 これは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
@@ -365,7 +364,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogactionbutton
 ```
 
-このボタンは、デスクトップシステムでのみ使用できます。
+このボタンはデスクトップシステムでのみ使用できます。
 
 **「すべて選択」ボタンのCSSプロパティ**
 
@@ -381,18 +380,18 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 状態ごとのボタンのテキストカラー。 </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 状態ごとのボタンの背景色。 </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->「すべて選択」ボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>「すべて選択」ボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
 「キャンセル」ボタンは、以下のCSSクラスセレクターを使用して制御します。
 
@@ -414,20 +413,20 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p> 状態ごとのボタンのテキストカラー。 </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 状態ごとのボタンの背景色。 </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-さらに、両方のボタンは同じCSSクラスを共有します。このCSSクラスには、他のダイアログボックスのボタンと同じCSS設定を含めることができます。
+さらに、両方のボタンは、他のダイアログボックスのボタンと同じCSS設定を含むことができる、共通のCSSクラスを共有します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -438,20 +437,20 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォント重み付け。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>ボタンのフォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントサイズ </p> </td> 
+   <td colname="col2"> <p>ボタンのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
-   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向揃えに影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行の高さ  </span> </p> </td> 
+   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置揃えに影響します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
@@ -459,14 +458,14 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの右マージン。 </p> </td> 
+   <td colname="col2"> <p>ボタンの右余白。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ボタンのツールヒントをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例** - 64 x 34の「キャンセル」ボタンを持ち、テキストカラーと背景色がボタンの状態ごとに異なるダイアログボックスフッターを設定するには、次のように記述します。
+**例**  - 64 x 34の「キャンセル」ボタンを含むダイアログボックスフッターを設定し、ボタンの状態ごとに異なるテキスト色と背景色を持たせるには、次のように記述します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
@@ -526,7 +525,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログのメイン領域（ヘッダーとフッターの間）には、ダイアログのコンテンツが含まれます。 どのような場合でも、コンポーネントがこの領域の幅を管理します。CSSで設定することはできません。 ダイアログのメイン領域は、以下のCSSクラスセレクターを使用して制御します。
+メインダイアログ領域（ヘッダーとフッターの間）には、ダイアログコンテンツが含まれます。 どの場合でも、コンポーネントがこの領域の幅を管理します。CSSで設定することはできません。 ダイアログのメイン領域は、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea
@@ -538,7 +537,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスのメイン領域の高さ。 ダイアログボックスがデスクトップモードで動作する場合にのみ指定します。 ダイアログボックスがブラウザーウィンドウ全体を占めるようにサイズ設定される場合は適用されません。 </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスのメイン領域の高さ。 この値は、ダイアログボックスがデスクトップモードで動作する場合にのみ指定する必要があります。 ダイアログボックスがブラウザーウィンドウ全体を占めるようにサイズ設定されている場合は適用されません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -546,7 +545,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外側のマージン。 </p> </td> 
+   <td colname="col2"> <p>外側の余白。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -561,13 +560,13 @@ background-color: #ffffff;
 }
 ```
 
-ラベルや入力フィールドなど、すべてのフォームコンテンツは、コンテナ内に常駐し、以下のCSSクラスセレクターを使用して制御します。
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に常駐し、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**ダイアログボックスの本体のCSSプロパティ**
+**ダイアログボックスの本文のCSSプロパティ**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -578,7 +577,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例** - 10ピクセルのパディングがあるフォームコンテンツを設定するには、次のように記述します。
+**例**  - 10ピクセルのパディングがあるフォームコンテンツを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -586,21 +585,21 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのフォーム内の静的なラベルはすべて、以下を使用して制御します。
+ダイアログボックスフォーム内のすべての静的ラベルは、
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel
 ```
 
-このクラスは、ラベルのサイズや位置の制御には適していません。このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるからです。
+このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるので、ラベルのサイズや位置の制御には適していません。
 
 **ダイアログボックスのラベルのCSSプロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-重み付け  </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォント重み付け </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントの太さ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -612,14 +611,14 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのテキストカラー </p> </td> 
+   <td colname="col2"> <p>ラベルのテキストの色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ダイアログボックスのラベルをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ダイアログボックスのラベルはローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例**  — グレー、太字、9ピクセルのフォントになるようにすべてのラベルを設定するには、次のように記述します。
+**例**  — グレー、太字、9ピクセルのフォントにすべてのラベルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
@@ -659,7 +658,7 @@ background-color: #ffffff;
 }
 ```
 
-共有リンクはコンテナでラップし、以下のCSSクラスセレクターを使用して制御します。
+共有リンクはコンテナでラップされ、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
@@ -680,7 +679,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 埋め込みコードテキストの周囲に1ピクセルのグレーの境界線を設定し、9ピクセルのパディングを持たせるには、次のように記述します。
+**例**  — 埋め込みコードテキストの周囲に1ピクセルのグレーの境界線を設定し、9ピクセルのパディングを持つには、次のように記述します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
