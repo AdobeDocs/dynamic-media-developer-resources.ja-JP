@@ -1,27 +1,25 @@
 ---
 title: 非推奨の呼び出し
-description: Image Production System API呼び出しと、Dynamic Mediaで使用されなくなった関連パラメーター。
+description: 画像実稼動システムのAPI呼び出しと、Dynamic Mediaで使用されなくなった関連パラメーター。
 solution: Experience Manager
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f6711780-9a96-4a61-9066-8d83316758c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
 # 非推奨の呼び出し{#deprecated-calls}
 
-Image Production System API呼び出しと、使用されなくなった関連パラメーター。
+画像実稼動システムのAPI呼び出しと、使用されなくなった関連パラメーター。
 
-## 非推奨の呼び出し{#topic-654c0466e6434fe4a95953322255b08c}
+## 非推奨の呼び出し {#topic-654c0466e6434fe4a95953322255b08c}
 
-Image Production System API呼び出しと、Dynamic Mediaで使用されなくなった関連パラメーター。
+画像実稼動システムのAPI呼び出しと、Dynamic Mediaで使用されなくなった関連パラメーター。
 
-* `addMediaPortalEvent` - Operationsから廃止。この呼び出しにより、Media PortalイベントをIPSに追加できます。
-* `getMediaPortalEvent` - Operationsから廃止。この呼び出しにより、指定した条件に一致するMedia Portalイベントを取得できます。
-* `getCdnCacheInvalidationStatus` - Operationsから廃止。`cdnCacheInvalidation` APIはキャッシュをほぼすぐに無効にする（～5秒）ので、このAPIは非推奨となりました。 したがって、無効状態のポーリングは不要になります。
-
+* `addMediaPortalEvent` - Operationsで非推奨（廃止予定）となりました。この呼び出しを使用して、Media PortalイベントをIPSに追加できます。
+* `getMediaPortalEvent` - Operationsで非推奨（廃止予定）となりました。この呼び出しにより、指定した条件に一致するメディアポータルイベントを取得できます。
+* `getCdnCacheInvalidationStatus` - Operationsで非推奨（廃止予定）となりました。`cdnCacheInvalidation` APIはキャッシュをほぼ即座に無効化する（約5秒）ので、このAPIは非推奨（廃止予定）となりました。 そのため、無効化ステータスのポーリングは不要になりました。
