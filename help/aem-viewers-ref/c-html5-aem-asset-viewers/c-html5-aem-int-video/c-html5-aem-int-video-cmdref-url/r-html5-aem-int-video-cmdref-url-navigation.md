@@ -1,21 +1,20 @@
 ---
-description: インタラクティブビデオビューアのURLコマンド
+description: インタラクティブビデオビューア用のURLコマンド。
 solution: Experience Manager
 title: ナビゲーション
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
 
 # ナビゲーション{#navigation}
 
-インタラクティブビデオビューアのURLコマンド
+インタラクティブビデオビューア用のURLコマンド。
 
 ` navigation= *`ファイル`*`
 
@@ -25,7 +24,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
-   <td colname="col2"> <p> WebVTTナビゲーションコンテンツへのURLまたはパスを指定します。 画像サービングはWebVTTファイルをホストする必要があります。 </p> </td> 
+   <td colname="col2"> <p> WebVTTナビゲーションコンテンツのURLまたはパスを指定します。 画像サービングはWebVTTファイルをホストする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
