@@ -2,22 +2,21 @@
 description: カタログのRootIdを除く、すべてのカタログ属性はオプションです。
 solution: Experience Manager
 title: 属性リファレンス
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
-
-# 属性参照{#attributes-reference}
+# 属性リファレンス{#attributes-reference}
 
 catalog::RootIdを除く、すべてのカタログ属性はオプションです。
 
-すべての属性は、デフォルトのカタログ属性ファイル([!DNL default.ini])に必要です。
+すべての属性は、デフォルトのカタログ属性ファイル([!DNL default.ini])で必要です。
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
@@ -75,7 +74,7 @@ catalog::RootIdを除く、すべてのカタログ属性はオプションで�
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SyntesizeFontStyles](r-synthesizefontstyles.md)
+* [SyntesifyFontStyles](r-synthesizefontstyles.md)
 * [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
