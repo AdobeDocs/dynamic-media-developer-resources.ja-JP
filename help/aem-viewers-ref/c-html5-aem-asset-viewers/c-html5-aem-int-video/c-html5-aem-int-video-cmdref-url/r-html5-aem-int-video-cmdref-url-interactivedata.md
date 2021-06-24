@@ -1,31 +1,30 @@
 ---
-description: インタラクティブビデオビューアのURLコマンド
+description: インタラクティブビデオビューア用のURLコマンド。
 solution: Experience Manager
 title: interactivedata
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
 
 # interactivedata{#interactivedata}
 
-インタラクティブビデオビューアのURLコマンド
+インタラクティブビデオビューア用のURLコマンド。
 
 `interactivedata= *`ファイル`*`
 
-インタラクティブデータは、ビデオコンテンツ内の特定の時間範囲を、ビデオの隣のインタラクティブスウォッチに後で表示される製品データと関連付けます。 また、ビデオ再生の終了時に表示される誘い文句（CTA：コールトゥアクション）パネルにも関連付けられます。 また、誘い文句（CTA：コールトゥアクション）パネルに表示されるインタラクティブビデオのタイトルも提供します。
+インタラクティブデータは、ビデオコンテンツ内の特定の時間領域を、後でビデオの隣のインタラクティブスウォッチに表示される製品データに関連付けます。 また、ビデオ再生の終了時に表示されるコールトゥアクションパネルにも関連付けられています。 また、コールトゥアクションパネルに表示されるインタラクティブビデオのタイトルも示します。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
-   <td colname="col2"> <p> WebVTTインタラクティブデータコンテンツのURLまたはパスを指定します。 WebVTTファイルは、画像サービングから提供される必要があります。 </p> </td> 
+   <td colname="col2"> <p> WebVTTインタラクティブデータコンテンツのURLまたはパスを指定します。 WebVTTファイルは画像サービングから提供される必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
