@@ -2,14 +2,13 @@
 description: 「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
 solution: Experience Manager
 title: 次のスライド
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-このボタンは、タッチデバイスには表示されません。 このボタンのサイズ設定、スキン表示および配置は、CSSを使用して行うことができます。
+このボタンは、タッチデバイスには表示されません。 CSSを使用して、このボタンのサイズ設定、スキン表示および配置を行うことができます。
 
 **メインビューア領域のCSSプロパティ**
 
@@ -37,11 +36,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの境界線の上端からの位置。 </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の上からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの境界線の右からの位置。 </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の右側からの位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
@@ -61,26 +60,26 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
-   <td colname="col2"> <p>カーソルの種類 </p> </td> 
+   <td colname="col2"> <p>カーソルタイプ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
-例 — 60 x 60ピクセルで、ビューアの右の境界線から10ピクセルの位置に配置し、垂直方向に中央揃えし、ボタンの4つの状態ごとに異なる画像を表示する前のスライドボタンを設定します。
+例 — 60 x 60ピクセルで、ビューアの右の境界線から10ピクセルの位置に配置し、垂直方向に中央揃えで配置し、ボタンの4つの状態ごとに異なる画像を表示する前のスライドボタンを設定します。
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
