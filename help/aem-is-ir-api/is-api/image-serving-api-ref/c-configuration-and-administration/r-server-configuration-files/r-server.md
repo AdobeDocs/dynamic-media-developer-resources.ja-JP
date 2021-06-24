@@ -1,27 +1,26 @@
 ---
-description: プラットフォームサーバーの設定が含まれます。
+description: プラットフォームサーバー設定が含まれます。
 solution: Experience Manager
 title: server.xml
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-
 # server.xml{#server-xml}
 
-プラットフォームサーバーの設定が含まれます。
+プラットフォームサーバー設定が含まれます。
 
-このXMLファイルを変更する場合は、有効なXML構文を維持するように注意する必要があります。そうしないと、プラットフォームサーバーで開始が失敗する場合があります。
+このXMLファイルを変更する場合は、有効なXML構文を維持するように注意する必要があります。そうしないと、Platform Serverの起動に失敗する場合があります。
 
-変更を有効にするには、このファイルを編集した後でプラットフォームサーバーを再起動する必要があります。
+変更を有効にするには、このファイルを編集した後でPlatform Serverを再起動する必要があります。
 
-次の図に、このファイルで変更できる設定を示します。 これらの設定の説明は、このドキュメントの前の対応する節を参照してください。 この図は[!DNL server.xml]の完全な表現ではないことに注意してください。
+次の図は、このファイルで変更できる設定を示しています。 これらの設定の説明については、このドキュメントの前述の対応する節を参照してください。 この図は[!DNL server.xml]の完全な表現ではありません。
 
 ```
 <Server>
@@ -41,4 +40,3 @@ ht-degree: 0%
    </Service>
 </Server>
 ```
-
