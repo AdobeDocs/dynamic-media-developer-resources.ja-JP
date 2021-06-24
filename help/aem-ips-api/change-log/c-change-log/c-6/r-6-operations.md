@@ -2,16 +2,15 @@
 description: IPS APIバージョン6の新しい操作方法と変更された操作方法について説明します。
 solution: Experience Manager
 title: 新規および変更された操作
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
-
 
 # 操作：新規および変更済み{#operations-new-and-modified}
 
@@ -19,7 +18,7 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 構文
 
-## 新しい操作{#section-088502a0746945f28a5ea100cd655bc6}
+## 新しい操作 {#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -28,29 +27,29 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 * `updateAssetSet`
 * `updateImageSet`
 
-## 変更された操作{#section-f4e8755527444266ae806e3f4c851ae6}
+## 変更された操作 {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **追加済み**
 
-* `isHidden`と`initialTagValue`を次の場所に追加：
+* `isHidden`と`initialTagValue`を次の場所に追加しました。
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* `thumbAssetHandle`を次に追加：
+* `thumbAssetHandle`を次の場所に追加しました。
 
    * `createImageSet`
    * `createAssetSet`
 
-   `companyHandle`を次に追加：
+   `companyHandle`を次の場所に追加しました。
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   `contextHandle`を次に追加：
+   `contextHandle`を次の場所に追加しました。
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -59,7 +58,7 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 
 
-* includeInactiveが次の場所に追加されました。
+* includeInactiveを次の場所に追加しました。
 
    * `getUsers` をクリックします。
    * `getUserChars` をクリックします。
@@ -76,7 +75,7 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 * `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
 
-* `addUser`、`setCompanyMembership`、`addCompanyMembership`で、`membershipArray`を`companyHandleArray`に変更しました。
+* `addUser`、`setCompanyMembership`、および`addCompanyMembership`で、`membershipArray`を`companyHandleArray`に変更しました。
 
 * `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
 
@@ -84,8 +83,7 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 **削除**
 
-* `renameFiles`を`renameAsset`から削除しました。
+* `renameAsset`から`renameFiles`を削除しました。
 
 * `getXMPPanelViewDefinition`を削除しました。
 * `searchAssetsByFulltext`と`searchAssetsBySimilarity`を削除しました。
-
