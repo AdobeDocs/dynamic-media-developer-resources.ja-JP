@@ -2,16 +2,15 @@
 description: CompanyMembership
 solution: Experience Manager
 title: CompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
-
 
 # CompanyMembership{#companymembership}
 
@@ -22,6 +21,5 @@ ht-degree: 21%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`会社`*` | `types:Company` |  |
-| `*`role`*` | `xsd:string` |  |
-| `*`isActive`*` | `xsd:boolean` | 所属する会社ごとに、ユーザーのステータスを設定します。 |
-
+| `*`役割`*` | `xsd:string` |  |
+| `*`isActive`*` | `xsd:boolean` | 所属する各会社のユーザーのステータスを設定します。 |
