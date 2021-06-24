@@ -1,25 +1,24 @@
 ---
-description: 特定のs7 elementIDの属性を削除します。
+description: 指定したs7 elementIDの属性を削除します。
 solution: Experience Manager
 title: deleteAttr
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 1%
 
 ---
 
-
 # deleteAttr{#deleteattr}
 
-特定のs7:elementIDの属性を削除します。
+指定したs7:elementIDの属性を削除します。
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-FXGノード要素に`s7:elementID`が定義されている場合は、このコマンドを使用して、そのノードの属性を削除できます。
+FXGノード要素に`s7:elementID`が定義されている場合は、このコマンドを使用してそのノードの属性を削除できます。
 
 ## 例 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -29,4 +28,4 @@ FXGノード要素に`s7:elementID`が定義されている場合は、このコ
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-次の例では、元のFXGノードから&#x200B;*[!DNL x]*、*[!DNL y]*&#x200B;および&#x200B;*[!DNL visible]*&#x200B;属性を削除します。
+この例では、元のFXGノードから属性&#x200B;*[!DNL x]*、*[!DNL y]*、および&#x200B;*[!DNL visible]*&#x200B;を削除します。
