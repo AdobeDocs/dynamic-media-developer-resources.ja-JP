@@ -1,27 +1,26 @@
 ---
-description: デカル転写のマテリアルには、アプリケ、tシャツの印刷、刺繍や印刷ロゴなどのアパレル構成、およびエリアラグ、壁掛けアート、看板などの内部や外部の用途で使用される繰り返し不可能なフラットオブジェクトが含まれます。
+description: デカールのマテリアルには、アプリケ、Tシャツ、刺繍、印刷ロゴなどのアパレル構成や、エリアラグ、壁掛けアート、看板など、内部や外部の用途で使用される繰り返し不可能なフラットなオブジェクトが含まれます。
 solution: Experience Manager
 title: デカル
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
+# デカル{#decals}
 
-# 10進数{#decals}
+デカールのマテリアルには、アプリケ、Tシャツ、刺繍、印刷ロゴなどのアパレル構成や、エリアラグ、壁掛けアート、看板など、内部や外部の用途で使用される繰り返し不可能なフラットなオブジェクトが含まれます。
 
-デカル転写のマテリアルには、アプリケ、tシャツの印刷、刺繍や印刷ロゴなどのアパレル構成、およびエリアラグ、壁掛けアート、看板などの内部や外部の用途で使用される繰り返し不可能なフラットオブジェクトが含まれます。
+デカールMSSで指定されている場合、マテリアルはデカールと見なされます。 デカールは通常、RGBAイメージで、アルファチャンネルがデカールの形状を定義します。
 
-デカールのMSSで指定されている場合、マテリアルはデカールと見なされます。 デカル転写は通常RGBAイメージで、デカル転写の形状を定義するアルファチャネルを持ちます。
+各フラット、フローライン、スケッチ、平面、または壁オブジェクトに1つのデカル転写を適用できます（「テクスチャなし」フラグが設定されていない場合）。 デカールの`anchor=`をビネットオブジェクトのデカールの原点に合わせて、デカールをオブジェクトに適用します。 位置は`pos=`でさらに調整できます。
 
-各フラット、フローライン、スケッチ、平面、または壁オブジェクトに1つのデカールを適用できます（[テクスチャなし]フラグが設定されていない場合）。 デカル転写の`anchor=`をビネットオブジェクトのデカル接触チャネル点に合わせて、デカル転写をオブジェクトに適用します。 位置は`pos=`を使ってさらに調整できます。
-
-デカル転写マテリアルで厚みを定義し、ビネットオブジェクトでライトベクトルを定義する場合は、ドロップシャドウがレンダリングされます。
+デカールマテリアルで厚みが定義され、ビネットオブジェクトでライトベクトルが定義されている場合は、ドロップシャドウがレンダリングされます。
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -34,32 +33,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>画像（通常はアルファ付き）;必須。 </p> </td> 
+   <td colname="col2"> <p>画像（通常はアルファ付き）必須。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> サイズ=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>デカル転写の幅、高さ、厚さ（ドロップシャドウの場合） </p> </td> 
-   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res  </span>、 <span class="varname"> imageHeight  </span> x  <span class="codeph"> res、0  </span> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size=  </span> </a> </p> </td> 
+   <td colname="col2"> <p>デカル転写の幅、高さ、厚さ（ドロップシャドウ用）。 </p> </td> 
+   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res  </span>、  <span class="varname"> imageHeight  </span> x  <span class="codeph"> res、 0  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>テクスチャの解像度（size=が指定されている場合は無視） </p> </td> 
+   <td colname="col2"> <p>テクスチャの解像度（size=が指定されている場合は無視されます）。 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> attribute::Resolution  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>デカールの位置合わせ点 </p> </td> 
-   <td colname="col3"> <p>画像センター </p> </td> 
+   <td colname="col2"> <p>デカル転写の位置合わせ点 </p> </td> 
+   <td colname="col3"> <p>イメージセンター </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> pos=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>デカールの相対位置 </p> </td> 
+   <td colname="col2"> <p>相対的なデカール位置 </p> </td> 
    <td colname="col3"> <p>0, 0 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>デカールの不透明度 </p> </td> 
+   <td colname="col2"> <p>デカルの不透明度 </p> </td> 
    <td colname="col3"> <p>100% </p> </td> 
   </tr> 
   <tr> 
@@ -69,4 +68,3 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
-
