@@ -2,16 +2,15 @@
 description: ズームターゲットを作成または編集します。
 solution: Experience Manager
 title: saveZoomTarget
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 20%
 
 ---
-
 
 # saveZoomTarget{#savezoomtarget}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ{#section-823cd9f0557045bca51da66768b5ba74}
+## 認証済みユーザータイプ {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,25 +33,25 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを含む会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを持つ会社のハンドル。 |
 | `*`assetHandle`*` | `xsd:string` | はい | ズームターゲットのハンドル。 |
 | `*`zoomTargetHandle`*` | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
 | `*`name`*` | `xsd:string` | はい | ズームターゲット名 |
-| `*`xPosition`*` | `xsd:int` | はい | 左ピクセルの位置 |
-| `*`yPosition`*` | `xsd:int` | はい | 上部のピクセル位置。 |
+| `*`xPosition`*` | `xsd:int` | はい | 左ピクセルの場所。 |
+| `*`yPosition`*` | `xsd:int` | はい | 上のピクセル位置。 |
 | `*`width`*` | `xsd:int` | はい | ズームターゲットの幅 |
 | `*`height`*` | `xsd:int` | はい | ズームターゲットの高さ |
-| `*`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意の種類のデータを含めることができます。 |
+| `*`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意のタイプのデータを含めることができます。 |
 
 **出力(saveZoomTargetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットのハンドル |
+| `*`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットを処理します。 |
 
 ## 例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-このコードのサンプルを使用して、ズームターゲットを保存します。 応答は、ズームターゲットハンドルを返します。
+このコードサンプルを使用すると、ズームターゲットを保存できます。 応答は、ズームターゲットハンドルを返します。
 
 **リクエスト**
 
@@ -76,4 +75,3 @@ ht-degree: 20%
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-
