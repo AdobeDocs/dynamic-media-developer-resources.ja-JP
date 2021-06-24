@@ -1,29 +1,28 @@
 ---
-description: ビデオビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザーインターフェイス要素のツールチップや、ビデオが再生できない場合に表示されるエラーメッセージなどがあります。
+description: ビデオビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、ユーザーインターフェイス要素のツールチップや、ビデオを再生できない場合に表示されるエラーメッセージなどが含まれます。
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
-
 # ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
 
-ビデオビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザーインターフェイス要素のツールチップや、ビデオが再生できない場合に表示されるエラーメッセージなどがあります。
+ビデオビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、ユーザーインターフェイス要素のツールチップや、ビデオを再生できない場合に表示されるエラーメッセージなどが含まれます。
 
-ローカライズ可能なビューア内のテキストコンテンツは、すべてSYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 すべてのシンボルに、標準搭載のビューアに付属の英語ロケール(`"en"`)に対応するデフォルトのテキスト値があります。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ビューア内のテキスト内容は、ローカライズ可能ですべて、SYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 シンボルには、標準提供のビューアに付属する英語のロケール(`"en"`)に関連するデフォルトのテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
-ビューアの開始は、現在のロケールをチェックし、ロケールでサポートされている各シンボルにユーザ定義の値があるかどうかを確認します。 存在する場合は、ユーザー定義の値が使用されます。それ以外の場合は、そのまま使用できるデフォルトのテキストに戻ります。
+ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされている各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値が使用されます。それ以外の場合は、標準のデフォルトテキストに戻ります。
 
-ユーザ定義のローカライゼーションデータは、ローカライゼーションJSONオブジェクトとしてビューアに渡すことができます。 このオブジェクトには、サポートされるロケールのリスト、各ロケールのシンボルテキスト値、およびデフォルトロケールが含まれます。
+ユーザー定義のローカライゼーションデータは、ローカライゼーションJSONオブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケールのリスト、各ロケールのシンボルテキスト値、およびデフォルトのロケールが含まれます。
 
-このようなローカライゼーションオブジェクトの例を次に示します。
+このようなローカリゼーションオブジェクトの例を次に示します。
 
 ```
 { 
@@ -39,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-上記の例では、ローカライゼーションオブジェクトは2つのロケール（`"en"`と`"fr"`）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
+上の例では、ローカリゼーションオブジェクトは2つのロケール（ `"en"`と`"fr"` ）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
 
-Webページコードは、このようなローカライゼーションオブジェクトを設定オブジェクトの`localizedTexts`フィールドの値としてビューアのコンストラクタに渡す必要があります。 別の方法として、`setLocalizedTexts(localizationInfo)`メソッドを呼び出してローカライゼーションオブジェクトを渡すこともできます。
+Webページコードでは、設定オブジェクトの`localizedTexts`フィールドの値として、このようなローカリゼーションオブジェクトをビューアコンストラクターに渡す必要があります。 別のオプションとして、 `setLocalizedTexts(localizationInfo)`メソッドを呼び出してローカライゼーションオブジェクトを渡す方法があります。
 
 次のシンボルがサポートされています。
 
@@ -54,8 +53,8 @@ Webページコードは、このようなローカライゼーションオブ�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> コンテナ.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> 最上位レベルのビューア要素のARIAラベル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p> トップレベルビューア要素のARIAラベル </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -71,7 +70,7 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>ビデオスクラバーのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>ビデオスクラバのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
@@ -87,7 +86,7 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> ARIA <span class="codeph"> aria-valuetext </span>属性で公開されたボリュームスライダノブのラベル。 </p> </td> 
+   <td colname="col2"> <p> ARIA <span class="codeph"> aria-valuetext </span>属性を介して公開されるボリュームスライダノブラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -123,23 +122,23 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS  </span> </p> </td> 
-   <td colname="col2"> <p>電子メールアドレスの形式が正しくない場合に表示されるエラーメッセージのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>Eメールアドレスの形式が正しくない場合に表示されるエラーメッセージのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO  </span> </p> </td> 
    <td colname="col2"> <p>「宛先」入力フィールドのラベル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_追加  </span> </p> </td> 
-   <td colname="col2"> <p>「追加別の電子メールアドレス」ボタンのツールチップ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD  </span> </p> </td> 
+   <td colname="col2"> <p>「別の電子メールアドレスを追加」ボタンのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.追加  </span> </p> </td> 
-   <td colname="col2"> <p>「追加別の電子メールアドレス」ボタンのキャプション。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD  </span> </p> </td> 
+   <td colname="col2"> <p>「別の電子メールアドレスを追加」ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM  </span> </p> </td> 
-   <td colname="col2"> <p>「送信者」入力フィールドのラベル。 </p> </td> 
+   <td colname="col2"> <p>「差出人」入力フィールドのラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE  </span> </p> </td> 
@@ -159,23 +158,23 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>フォームの送信後のダイアログの下部に表示される閉じるボタンのキャプション。 </p> </td> 
+   <td colname="col2"> <p>フォーム送信後のダイアログの下部に表示される閉じるボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>フォームの送信後のダイアログの下部に表示される閉じるボタンのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>フォームの送信後にダイアログの下部に表示される閉じるボタンのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>フォームの送信ボタンのキャプション。 </p> </td> 
+   <td colname="col2"> <p>フォーム送信ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>フォームの送信ボタンのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>フォーム送信ボタンのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS  </span> </p> </td> 
-   <td colname="col2"> <p>電子メールが正常に送信された場合に表示される確認メッセージ。 </p> </td> 
+   <td colname="col2"> <p>Eメールが正常に送信された場合に表示される確認メッセージ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE  </span> </p> </td> 
@@ -255,11 +254,11 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Facebook共有ボタンのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>facebook共有ボタンのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Twitter共有ボタンのツールチップ。 </p> </td> 
+   <td colname="col2"> <p>twitter共有ボタンのツールチップ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
@@ -267,4 +266,3 @@ Webページコードは、このようなローカライゼーションオブ�
   </tr> 
  </tbody> 
 </table>
-
