@@ -1,21 +1,20 @@
 ---
-description: URLを使用してアセットをアップロードする場合。
+description: URLを使用したアセットのアップロード。
 solution: Experience Manager
 title: UploadUrl
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # UploadUrl{#uploadurl}
 
-URLを使用してアセットをアップロードする場合。
+URLを使用したアセットのアップロード。
 
 構文
 
@@ -24,5 +23,4 @@ URLを使用してアセットをアップロードする場合。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`sourceUrl`*` | `xsd:string` | アセットのアップロード元のソースURL。 |
-| `*`destPath`*` | `xsd:string` | アップロード先のIPSファイルのパスとファイル名。 |
-
+| `*`destPath`*` | `xsd:string` | アップロード先のIPSファイルのパスと名前。 |
