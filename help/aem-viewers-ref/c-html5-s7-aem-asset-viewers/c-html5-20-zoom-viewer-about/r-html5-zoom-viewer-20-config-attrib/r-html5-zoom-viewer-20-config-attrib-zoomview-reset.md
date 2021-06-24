@@ -2,16 +2,15 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.reset{#zoomview-reset}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フレーム（画像）が変更された場合に、表示ポートをリセットします。 <span class="codeph"> 0</span>に設定した場合、新たに設定された表示の縦横比を保ちながら、できる限り適切に合うように現在の画像ポートが保持されます。 </p> </td> 
+   <td colname="col2"> <p> フレーム（画像）が変更されたときにビューポートをリセットします。 <span class="codeph"> 0</span>に設定した場合は、新しく設定された画像の縦横比を維持しながら、可能な限り適切に合うように現在のビューポートが保持されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
