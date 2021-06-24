@@ -1,21 +1,20 @@
 ---
-description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとして形式設定され、標準のXMLパーサーで解析できます。
+description: 応答形式としてxmlを指定した場合、応答データはXMLドキュメントとしてフォーマットされ、標準のXMLパーサーで解析できます。
 solution: Experience Manager
 title: XMLプロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-
 # XMLプロパティ{#xml-properties}
 
-応答形式としてxmlを指定した場合、応答データはXMLドキュメントとして形式設定され、標準のXMLパーサーで解析できます。
+応答形式としてxmlを指定した場合、応答データはXMLドキュメントとしてフォーマットされ、標準のXMLパーサーで解析できます。
 
 一般的なプロパティ応答ドキュメントの構造は次のとおりです。
 
@@ -39,9 +38,8 @@ ht-degree: 0%
 </prop-group>
 ```
 
-`<prop-group>`要素は、最も外側のコンテナとして、また、プロパティのグループ化に使用されます。 グループに名前を付けた場合、名前はJava/JavaScriptのオブジェクト名に対応します。
+`<prop-group>`要素は、最も外側のコンテナとして、また、グループ化プロパティとして使用されます。 グループの名前がの場合、名前はJava/JavaScriptのオブジェクト名に対応します。
 
 >[!NOTE]
 >
->一部の`req=`型に対して文字エンコーディングを指定できます。 詳しくは、特定の`req=`コマンドの説明を参照してください。
-
+>文字エンコーディングは、一部の`req=`型に対して指定できます。 詳しくは、特定の`req=`コマンドの説明を参照してください。
