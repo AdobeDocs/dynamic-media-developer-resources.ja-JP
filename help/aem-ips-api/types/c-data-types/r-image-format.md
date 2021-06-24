@@ -1,21 +1,20 @@
 ---
-description: 非構造化名前付き画像出力設定。
+description: 画像出力設定の非構造化名前付きセット。
 solution: Experience Manager
 title: ImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # ImageFormat{#imageformat}
 
-非構造化名前付き画像出力設定。
+画像出力設定の非構造化名前付きセット。
 
 アセットタイプではありません。
 
@@ -23,7 +22,6 @@ ht-degree: 10%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | 画像形式ハンドル |
+| `*`imageFormatHandle`*` | `xsd:string` | 画像形式ハンドル。 |
 | `*`name`*` | `xsd:string` | 画像形式名。 |
-| `*`urlModifier`*` | `xsd:string` | 画像形式を表すImage Server URL。 |
-
+| `*`urlModifier`*` | `xsd:string` | 画像形式を表す画像サーバーのURL。 |
