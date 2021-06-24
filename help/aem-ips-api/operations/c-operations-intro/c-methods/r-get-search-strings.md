@@ -2,16 +2,15 @@
 description: アセットに関する検索文字列、キーワード、およびその他の情報を取得します。 応答には、アセットに関する追加情報が含まれます。
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 17%
 
 ---
-
 
 # getSearchStrings{#getsearchstrings}
 
@@ -19,7 +18,7 @@ ht-degree: 16%
 
 構文
 
-## 認証済みユーザータイプ{#section-b09c817a59f949a28e1c029e431f5698}
+## 許可されたユーザーの種類 {#section-b09c817a59f949a28e1c029e431f5698}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,14 +31,14 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
+| `*`assetHandle`*` | `xsd:string` | はい | アセットに対して処理します。 |
 
 **出力(getSearchStringsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | はい | アセット検索文字列の配列です。 |
+| `*`searchStringArray`*` | `types:SearchStrings` | はい | アセット検索文字列の配列。 |
 
 ## 例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
