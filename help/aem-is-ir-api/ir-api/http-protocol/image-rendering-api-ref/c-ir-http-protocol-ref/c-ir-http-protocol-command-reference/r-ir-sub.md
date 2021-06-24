@@ -1,21 +1,20 @@
 ---
-description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
+description: 下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用し、以前に適用したマテリアルを削除できます。
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
-
 # sub{#sub}
 
-下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
+下位選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用し、以前に適用したマテリアルを削除できます。
 
 `sub=0|1|2|3|4|5`
 
@@ -42,17 +41,17 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>下の壁の境界領域を選択します。 </p> </td> 
+  <td class="stentry"> <p>下の壁境界領域を選択します。 </p> </td> 
  </tr> 
 </table>
 
-現在、壁オブジェクトに対してのみサポートされています。 前のMSSを終了し、指定したサブ開始に適用するマテリアルの新しいMSSを選択します。
+現在は、壁オブジェクトに対してのみサポートされています。 前のMSSを終了し、指定したサブ選択に適用するマテリアルの新しいMSSを開始します。
 
-壁の残りの半分に別のマテリアルを指定しない限り、上または下の壁に指定したマテリアルが壁全体に適用されます。
+壁の残りの半分に別の材料が指定されていない限り、上壁または下壁に指定された材料が壁全体に適用されます。
 
 ## プロパティ {#section-b202139d6d0847cc8d520a154104ab9d}
 
-選択コマンド；MSS区切り文字。
+選択コマンド；MSS区切り。
 
 ## 初期設定 {#section-5b45a167a17c451596e4c59b7d53c368}
 
