@@ -1,22 +1,21 @@
 ---
-description: URLまたはカタログ修飾子コマンドシーケンスでは、layer=コマンドを使用してレイヤー定義シーケンス開始を行い、他のlayer=コマンド、effect=コマンドまたはURLの末尾で終了します。
+description: URLまたはカタログモディファイヤのコマンドシーケンスでは、レイヤ定義シーケンスはlayer=コマンドで始まり、別のlayer=コマンド、effect=コマンド、またはURLの終わりで終わります。
 solution: Experience Manager
 title: レイヤーの指定
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-
 # レイヤーの指定{#specifying-layers}
 
-URLまたはcatalog::Modifierコマンドシーケンスで、layer=コマンドを使用してレイヤー定義シーケンス開始を終了し、別のlayer=コマンド、effect=コマンドまたはURLの末尾で終了します。
+URLまたはcatalog::Modifierコマンドシーケンスでは、レイヤ定義シーケンスはlayer=コマンドで始まり、別のlayer=コマンド、effect=コマンド、またはURLの終わりで終わります。
 
-画層定義シーケンス内のすべてのコマンドが画層に関連付けられます。
+画層定義シーケンス内のすべてのコマンドは、画層に関連付けられます。
 
-`layer=`コマンドはレイヤー番号を指定します。0以上の整数である必要があります。 同じレイヤ番号を持つレイヤ定義シーケンス内のすべてのコマンドが、同じレイヤに適用されます。 同じコマンドが複数回発生した場合は、最後のインスタンスが使用されます。
+`layer=`コマンドは、0以上の整数のレイヤー番号を指定します。 同じ画層番号を持つ画層定義シーケンス内のすべてのコマンドが、同じ画層に適用されます。 同じコマンドが複数回発生した場合は、最後のインスタンスが優先されます。
