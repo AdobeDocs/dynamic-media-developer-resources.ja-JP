@@ -1,27 +1,26 @@
 ---
-description: 初期設定のDigimarc画像情報 カタログDigimarcInfoのデフォルト値を指定します。
+description: 初期設定のDigimarc画像情報です。 カタログDigimarcInfoのデフォルト値を提供します。
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2c46a563-d1e1-44c9-9bde-22128d023828
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
-
 # DigimarcInfo{#digimarcinfo}
 
-初期設定のDigimarc画像情報 catalog::DigimarcInfoのデフォルト値を指定します。
+初期設定のDigimarc画像情報です。 catalog::DigimarcInfoのデフォルト値を指定します。
 
 ## プロパティ {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
-カンマ区切りの4つの整数。
+コンマ区切りの4つの整数。
 
-詳細は` [catalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)`を参照してください。
+詳細は` [catalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)`を参照。
 
 ## 初期設定 {#section-c77d2620f90148d5ad9041131180d611}
 
