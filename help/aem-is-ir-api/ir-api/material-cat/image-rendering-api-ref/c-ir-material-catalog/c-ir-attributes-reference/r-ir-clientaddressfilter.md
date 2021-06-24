@@ -1,31 +1,30 @@
 ---
-description: クライアントIPアドレスフィルタ。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
+description: クライアントのIPアドレスフィルター。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 24046950-1dba-4352-a549-43994e799748
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-
 # ClientAddressFilter{#clientaddressfilter}
 
-クライアントIPアドレスフィルタ。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
+クライアントのIPアドレスフィルター。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
 
-指定した場合、リストにないIPアドレスのクライアントからのこの画像カタログへの要求は拒否されます。 `localhost` は、明示的に指定されていない場合でも、常に `ClientAddressFilter` 定義の暗黙的な部分です。`localhost`からの要求は、`ClientAddressFilter`仕様に関係なく拒否されません。
+指定した場合、登録されていないIPアドレスのクライアントからのこの画像カタログへの要求は拒否されます。 `localhost` は、明示的に指定されていない場合で `ClientAddressFilter` も、常に暗黙的に定義の一部です。`localhost`からの要求は、`ClientAddressFilter`仕様に関係なく、拒否されることはありません。
 
 ## プロパティ {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-IPアドレスとオプションのネットマスクを含むコンマ区切りリスト（[CIDR表記](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)を使用）:
+オプションのネットマスクを含むIPアドレスのコンマ区切りリスト（[CIDR表記](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)を使用）:
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* IPアドレス( *[!DNL ddd.ddd.ddd.ddd]* 形式)
+* *[!DNL ipAddress]* 形式のIPアド *[!DNL ddd.ddd.ddd.ddd]* レス
 
 * *[!DNL netmask]* ネットマスク(0...32)
 
@@ -33,7 +32,7 @@ IPアドレスとオプションのネットマスクを含むコンマ区切り
 
 ## 初期設定 {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-定義されていない場合や空の場合は`default::AddressFilter`から継承されます。
+`default::AddressFilter`から継承されます（定義されていない場合または空の場合）。
 
 ## 例 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
@@ -41,7 +40,7 @@ IPアドレスとオプションのネットマスクを含むコンマ区切り
 * `192: 192.0.0.0/8`で始まるすべてのアドレスへのアクセスを許可する
 * `192.168.12.0`と`192.168.13.255: 192.168.12.0/23`の間のアドレスを持つ512ホストへのアクセスを許可する
 
-* 単一のIPアドレスへのアクセスを許可する：`192.168.2.117`または`192.168.2.117/32`
+* 単一のIPアドレスへのアクセス権の付与：`192.168.2.117`または`192.168.2.117/32`
 
 ## 関連項目 {#section-6198780c7b3045aabd211eefb38bc565}
 
