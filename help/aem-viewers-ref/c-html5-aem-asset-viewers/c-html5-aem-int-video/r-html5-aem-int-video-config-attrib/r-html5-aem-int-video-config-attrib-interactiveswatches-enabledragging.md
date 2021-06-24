@@ -2,13 +2,12 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 5%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> が<span class="codeph"> 0-1 </span>の範囲にあり、実際の速度の誤った方向への移動のパーセント値です。 </p> <p><span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 </p> <p><span class="codeph"> 0 </span>に設定した場合、間違った方向に移動することはできません。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 0-1 </span>の範囲にあり、実際の速度の誤った方向への移動のパーセント値です。 </p> <p><span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 </p> <p><span class="codeph"> 0 </span>に設定した場合、誤った方向に移動することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
