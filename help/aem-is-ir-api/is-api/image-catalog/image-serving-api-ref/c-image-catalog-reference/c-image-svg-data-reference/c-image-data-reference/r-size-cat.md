@@ -1,31 +1,30 @@
 ---
-description: 画像サイズ. カタログパスで参照されている最大解像度の画像のピクセルサイズです。
+description: 画像サイズ. カタログのパスで参照される最大解像度の画像のピクセルサイズ。
 solution: Experience Manager
 title: サイズ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
-
 # サイズ{#size}
 
-画像サイズ. catalog::Pathで参照される最大解像度画像のピクセルサイズ。
+画像サイズ. catalog::Pathによって参照される最大解像度画像のピクセルサイズ。
 
 この値を指定すると、画像サービングはこの値を使用して、実際の画像サイズを取得するために画像を開く必要がなくなります。
 
 >[!NOTE]
 >
->`catalog::Size`が指定され、実際の最大解像度の画像サイズと異なる場合、未定義の動作が発生する可能性があります。
+>`catalog::Size`が指定され、実際の最大解像度画像サイズと同じでない場合、未定義の動作が発生する可能性があります。
 
 ## プロパティ {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
-0より大きい2つの整数で、それぞれをコンマで区切ります。 （オプション）
+それぞれが0より大きい2つの整数で、コンマで区切ります。 （オプション）
 
 ## 初期設定 {#section-257c6d47cf314ef0b3c3c32b18f0f0f1}
 
