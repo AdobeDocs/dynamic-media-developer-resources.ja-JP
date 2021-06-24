@@ -1,25 +1,24 @@
 ---
-description: コントロールバーに、お気に入りメニューのドロップダウンリストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成されます。 このパネルには、お気に入りツールが個別に含まれています。
+description: コントロールバーに、お気に入りメニューのドロップダウンリストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップすると展開されるパネルで構成されます。 このパネルには、個々のお気に入りツールが含まれています。
 solution: Experience Manager
 title: お気に入りメニュー
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
-
 # お気に入りメニュー{#favorites-menu}
 
-コントロールバーに、お気に入りメニューのドロップダウンリストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成されます。 このパネルには、お気に入りツールが個別に含まれています。
+コントロールバーに、お気に入りメニューのドロップダウンリストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップすると展開されるパネルで構成されます。 このパネルには、個々のお気に入りツールが含まれています。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ビューアユーザインターフェイスにおけるお気に入りメニューの位置とサイズは、以下のCSSクラスセレクターを使用して制御します。
+ビューアユーザインターフェイス内のお気に入りメニューの位置とサイズは、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu
@@ -31,11 +30,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーの上端からのオフセット。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーの上からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまでの距離、または行の最初のボタンの場合はコントロールバーの左側までの距離です。 </p> </td> 
+   <td colname="col2"> <p> 左側の次のボタンまたは（このボタンが行の最初のボタンである場合は）コントロールバーの左側までの距離です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-例 — コントロールバーの上部から4ピクセル、最も近いボタンから10ピクセルの位置に配置し、サイズが28 x 28ピクセルのお気に入りメニューを設定します。
+例 — コントロールバーの上部から4ピクセル、最も近いボタンの左側から10ピクセルの位置に配置し、サイズが28 x 28ピクセルのお気に入りメニューを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu { 
@@ -65,28 +64,28 @@ margin-left: 10px;
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**「お気に入り」ボタンのCSSプロパティ**
+**お気に入りボタンのCSSプロパティ**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — ボタンの4つの状態ごとに異なる画像を表示する、お気に入りメニューボタンを設定します。
+例 — 4つのボタンの状態ごとに異なる画像を表示するお気に入りメニューボタンを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -127,4 +126,3 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
  background-color: transparent; 
 }
 ```
-
