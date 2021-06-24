@@ -2,24 +2,23 @@
 description: ビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b28ffb51-1091-4f2e-b12d-904218daf117
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
-
 
 # setParam{#setparam}
 
 ビデオビューアのJavaScript APIリファレンス。
 
-` setParam( *`name、value`*)`
+` setParam( *`名前、値`*)`
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子のいずれかです。 このパラメーターは`init()`の前に呼び出されます。
+ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションまたはソフトウェア開発キット修飾子です。 このパラメータは`init()`の前に呼び出されます。
 
 ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
 
@@ -29,16 +28,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメーターの </span> 名前。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメーターの </span> 値。値をパーセントでエンコードすることはできません。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの値。値をパーセントでエンコードすることはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
@@ -47,4 +46,3 @@ ht-degree: 2%
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
