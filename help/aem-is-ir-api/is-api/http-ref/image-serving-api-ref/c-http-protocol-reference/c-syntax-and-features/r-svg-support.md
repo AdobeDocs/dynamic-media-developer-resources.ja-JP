@@ -1,61 +1,60 @@
 ---
-description: 画像サービングは、ソースデータとしてScalable Vector Graphics(SVG)ファイルをサポートしています。 SVG 1.1への準拠が必要です。
+description: 画像サービングは、ソースデータとしてScalable Vector Graphics(SVG)ファイルをサポートします。 SVG 1.1への準拠が必要です。
 solution: Experience Manager
 title: SVGのサポート
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
-
 # SVGのサポート{#svg-support}
 
-画像サービングは、ソースデータとしてScalable Vector Graphics(SVG)ファイルをサポートしています。 SVG 1.1への準拠が必要です。
+画像サービングは、ソースデータとしてScalable Vector Graphics(SVG)ファイルをサポートします。 SVG 1.1への準拠が必要です。
 
 画像サービングは静的SVGコンテンツのみを認識します。アニメーション、スクリプティング、その他のインタラクティブコンテンツはサポートされていません。
 
-画像ファイルが許可されている場合は常にSVGを指定できます（URLパス、`src=`、`mask=`）。 SVGファイルのコンテンツがラスタライズされると、画像と同じように処理されます。
+画像ファイルが許可されている場所（URLパス、`src=`、`mask=`）でSVGを指定できます。 SVGファイルのコンテンツがラスタライズされると、画像のように処理されます。
 
 画像と同様に、SVGファイルは画像カタログエントリまたは相対ファイルパスとして指定できます。
 
-## 置換変数{#section-83b149f13f244193901df39b204c975b}
+## 代替変数 {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` 置換変数は、SVGファイルの値文字列 `<text>` 要素と要素属性に含めることができます。
+` $ *[!DNL var]*$` 置換変数は、SVGファイルの値文字列要素と任意の要素属性 `<text>` に含めることができます。
 
-埋め込まれた画像サービング要求のクエリ部分に含まれる重要な変数は、直接置換されません。 代わりに、使用可能な変数定義がすべてリクエストに追加されるので、画像サービングはリクエストの解析時に変数を置き換えることができます。
+重要埋め込み画像サービング要求のクエリ部分の変数は、直接置き換えられません。 代わりに、使用可能なすべての変数定義が要求に追加され、画像サービングは要求の解析時に変数を置き換えることができます。
 
 詳しくは、[代替変数](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)を参照してください。
 
-## 画像参照{#section-a7680f9e6aca4b1a83560637cc9fac66}
+## 画像参照 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-画像は`<image>`要素を使用してSVGに挿入できます。 `<image>`要素の`xlink::href`属性で参照される画像は、有効な画像サービング要求である必要があります。 外部URLは使用できません。
+画像は`<image>`要素を使用してSVGに挿入できます。 `<image>`要素の`xlink::href`属性で参照される画像は、有効な画像サービング要求である必要があります。 外部URLは許可されません。
 
-`http://`で始まる完全な画像サービング要求か、`/is/image`で始まる相対URLを指定します。 完全なHTTPパスを指定した場合、ドメイン名はパスから削除され、相対形式に変換されます。 完全なHTTPパスを使用する方がメリットがあるのは、ファイルをサードパーティのSVGレンダラーでプレビューできるからです。
-
->[!NOTE]
->
->このリリースの画像サービングでは、画像のレンダリングのサポートが制限されています。 SVG内からの画像の参照は、従来の画像サービングのレイヤリングとテンプレート化のメカニズムが不十分で目的の結果を得られない状況でのみ使用してください。 いかなる場合でも、SVGを使用してマルチ画像コンポジットを生成する必要はありません。
+`http://`で始まる完全な画像サービング要求か、`/is/image`で始まる相対URLを指定します。 完全なHTTPパスを指定した場合、そのドメイン名はパスから削除され、相対形式に変換されます。 完全なHTTPパスを使用する方がメリットがある場合があります。これにより、サードパーティのSVGレンダラーでファイルをプレビューできます。
 
 >[!NOTE]
 >
->SVGに埋め込まれた画像は、この時点で自動的にサイズ変更されません。 必要な画像サイズを設定するために必要な画像サービングコマンドがすべての画像HREFに含まれていることを確認します(例：`wid=`)。 画像サイズが明示的に設定されていない場合は、`attribute::DefaultPix`が適用されます。
+>このリリースの画像サービングでの画像レンダリングのサポートは制限されています。 SVG内から画像を参照する方法は、従来の画像サービングのレイヤー化やテンプレート化のメカニズムが不十分で目的の結果が得られない場合にのみ使用してください。 マルチ画像コンポジットの生成にSVGを使用しないでください。
 
-## カラーマネジメント{#section-ea76e2bc4e1842638aa97a2d470c8a68}
+>[!NOTE]
+>
+>SVGに埋め込まれた画像は、現時点では自動的にサイズ変更されません。 必要な画像サービングコマンドをすべての画像のhrefに含めて、必要な画像サイズ(例：`wid=`)に置き換えます。 画像サイズを明示的に設定しない場合は、`attribute::DefaultPix`が適用されます。
 
-SVGファイルに埋め込まれ、置換変数を介してSVGテンプレートに渡されるカラー値はすべて、`sRgb`カラースペースに存在すると見なされます。
+## カラーマネジメント {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-画像がSVGに埋め込まれている場合、色変換は行われません。 色を忠実に再現するには、すべての埋め込み画像要求に対して`icc=sRgb`を指定する必要があります。
+SVGファイルに埋め込まれ、置換変数を使用してSVGテンプレートに渡されるすべての色の値は、`sRgb`カラースペースに存在すると見なされます。
+
+画像がSVGに埋め込まれる場合、色変換は実行されません。 色の忠実性を確保するには、すべての埋め込みイメージリクエストに対して`icc=sRgb`を必ず指定してください。
 
 ラスタライズ後は、SVG画像は他の画像と同様にカラーマネジメントに関与します。
 
 ## 例 {#section-036cdd45abd449849ee00a8f21788c28}
 
-次のSVGテンプレートは、画像参照と変数の使用方法を説明しています。
+次のSVGテンプレートは、画像参照と変数の使用を示しています。
 
 `<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
 
@@ -63,16 +62,16 @@ SVGファイルに埋め込まれ、置換変数を介してSVGテンプレー�
 
 `http://server/is/image/mySvgTemplate.svg?$txt=Svg%20Template%20Test&$img=myImage.tif&$color=red&$pts=40&qlt=95`
 
-## 制限{#section-daa5eccd07204aaf993be41e87822d54}
+## 制限事項 {#section-daa5eccd07204aaf993be41e87822d54}
 
-SVGファイルはスタンドアロンである必要があり、セカンダリファイルやリソースを参照することはできません。ただし、画像サービングまたは画像レンダリング要求で参照される外部画像は例外です（上記を参照）。
+SVGファイルはスタンドアロンである必要があり、画像サービング要求または画像レンダリング要求で参照される外部画像を除き、セカンダリファイルやリソースを参照してはいけません（上記を参照）。
 
-静的コンテンツのみがレンダリングされます。 アニメーション、ボタンなどのインタラクティブ機能 は存在するが、期待どおりにレンダリングされない場合があります。
+静的コンテンツのみがレンダリングされます。 アニメーション、ボタンなどのインタラクティブ機能 が存在するが、期待どおりにレンダリングされない場合があります。
 
 現時点では、ICCプロファイルベースのカラー仕様はサポートされていません。
 
-`<script>` 要素は存在する場合がありますが、常に無視されます。
+`<script>` 要素は存在しても常に無視されます。
 
 ## 関連項目 {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [SVG 1.1仕様](http://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) 、 [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)、 [SVG 1.1の仕様](http://www.w3.org/TR/SVG11/)
