@@ -2,16 +2,15 @@
 description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの読み込み時に表示する、0を基準とする見開きのインデックスを指定します。 このインデックスは、横置きモードでの見開きのインデックスと一致します。 ビューアを縦長に回転すると、<span class="codeph"> frameIdx</span>が指す見開きの左端のページが表示されます。 </p> </td> 
+   <td colname="col2"> <p> ビューアの読み込み時に表示する、0を基準とする見開きのインデックスを指定します。 このインデックスは、横長モードの見開きのインデックスと一致します。 ビューアを回転して縦長にすると、<span class="codeph"> frameIdx</span>が指す見開きの左端のページが表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 8%
 ```
 initialFrame=2
 ```
-
