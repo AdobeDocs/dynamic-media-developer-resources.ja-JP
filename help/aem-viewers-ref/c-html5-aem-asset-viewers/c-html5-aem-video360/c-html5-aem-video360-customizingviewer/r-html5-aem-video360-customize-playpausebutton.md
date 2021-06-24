@@ -1,25 +1,24 @@
 ---
-description: 再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
+description: 再生/一時停止ボタンは、ユーザーがビデオコンテンツをクリックしたときにビデオプレーヤーで再生または一時停止します。
 solution: Experience Manager
 title: 再生/一時停止ボタン
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '269'
 ht-degree: 2%
 
 ---
 
 # 再生/一時停止ボタン{#play-pause-button}
 
-再生/一時停止ボタンは、ユーザがクリックしたときにビデオプレーヤーにビデオコンテンツを再生または一時停止させます。
+再生/一時停止ボタンは、ユーザーがビデオコンテンツをクリックしたときにビデオプレーヤーで再生または一時停止します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ボタンのサイズ、スキン、およびボタンを含むコントロールバーに対する位置を、CSSで設定できます。
+CSSを使用して、ボタンのサイズ、スキン、およびボタンを含むコントロールバーに対する位置を指定できます。
 
 以下に示すCSSクラスセレクターで、ボタンの外観を制御します。
 
@@ -27,7 +26,7 @@ ht-degree: 2%
 .s7video360viewer .s7playpausebutton
 ```
 
-## 再生/一時停止ボタン{#css-properties-of-the-play-pause-button}のCSSプロパティ
+## 再生/一時停止ボタンのCSSプロパティ {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -57,24 +56,24 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`、`selected`および`replay`属性セレクターがサポートされます。これらのセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「再生」の状態に対応し、`selected='false'`は「一時停止」の状態に対応します。
+>このボタンでは、 `state` 、 `selected` 、 `replay`の各属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `selected='true'`は「再生」状態に対応し、 `selected='false'`は「一時停止」状態に対応します。
 >
 >`replay='true'` は、ビデオが最後に到達し、ボタンをクリックすると、最初から再生が再開されるときに設定されます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例** - 32 x 32ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。コントロールバーの上および左端から6ピクセルの位置に配置され、選択時または未選択時のボタンの4つの状態ごとに異なる画像が表示されます。
+**例**  - 32 x 32ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。コントロールバーの上および左端から6ピクセルの位置に配置され、選択時または未選択時の4つのボタンの状態ごとに異なる画像が表示されます。
 
 ```
 .s7video360viewer .s7playpausebutton { 
