@@ -1,54 +1,53 @@
 ---
-description: テクスチャをシャープにします。 このマテリアルをレンダリングするときに適用するシャープを指定します。
+description: テクスチャをシャープにします。 このマテリアルをレンダリングする際に適用するシャープを指定します。
 solution: Experience Manager
 title: 鋭い
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 6%
 
 ---
 
+# 鋭い{#sharp}
 
-# シャープ{#sharp}
-
-テクスチャをシャープにします。 このマテリアルをレンダリングするときに適用するシャープを指定します。
+テクスチャをシャープにします。 このマテリアルをレンダリングする際に適用するシャープを指定します。
 
 `sharp=0|1|2|3`
 
 <table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>シャープなし </p> </td> 
+  <td class="stentry"> <p>シャープは適用されません。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>通常のシャープの適用（遅くなりました） </p> </td> 
+  <td class="stentry"> <p>通常のシャープニング（遅く）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0代替シャープ（初期） </p> </td> 
+  <td class="stentry"> <p>0個の代替シャープニング（初期）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>シャープの適用が増えました（早い方と遅い方）。 </p> </td> 
+  <td class="stentry"> <p>よりシャープにする（早期と後期）。 </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` マテリアルをレンダリングした後にシャープを適用します。 `sharp=2` テクスチャを最初にスケールした後、シーンに変換する前に、シャープを適用します。 `sharp=3` 変換の前後にシャープを適用します。
+`sharp=1` マテリアルのレンダリング後にシャープが適用されます。 `sharp=2` テクスチャを最初にスケーリングした後、シーンに変換する前に、シャープを適用します。 `sharp=3` 変換の前と後の両方にシャープを適用します。
 
-シャープの適用アルゴリズムとシャープの適用量、および他のUSM（アンシャープマスク）パラメータは、ビネットが提供する初期設定のマテリアルテンプレートまたは`rs=`を使用して制御されます。
+シャープのアルゴリズムとシャープの量、およびその他のUSM（アンシャープマスク）パラメータは、ビネットが提供するデフォルトの材料テンプレートまたは`rs=`を使用して制御されます。
 
 ## プロパティ {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-マテリアル属性 べた塗りのマテリアルでは無視されます。
+マテリアル属性。 べた塗りマテリアルでは無視されます。
 
 ## 初期設定 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`材料がカタログエントリに基づいている場合は、それ以外の場合は、 `attribute::Sharp`。
+`catalog::Sharp`（マテリアルがカタログエントリに基づく場合）、それ以外の場合 `attribute::Sharp`。
 
 ## 関連項目 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
