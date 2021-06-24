@@ -1,31 +1,30 @@
 ---
-description: 返信画像のサイズ制限 クライアントに返すことのできる応答画像の幅と高さの最大値。
+description: 返信画像のサイズ制限。 クライアントに返す応答画像の最大の幅と高さ。
 solution: Experience Manager
 title: MaxPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0fd990cf-a54f-4574-8328-8988368d5875
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
 
-
 # MaxPix{#maxpix}
 
-返信画像のサイズ制限 クライアントに返すことのできる応答画像の幅と高さの最大値。
+返信画像のサイズ制限。 クライアントに返す応答画像の最大の幅と高さ。
 
-要求によって`attribute::MaxPix`より大きい幅または高さの応答画像が生じる場合、サーバはエラーを返します。
+要求により、幅または高さが`attribute::MaxPix`より大きい返信画像が生成された場合、サーバーはエラーを返します。
 
 ## プロパティ {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-0より大きい2つの整数で、カンマで区切ります。 幅と高さ（ピクセル単位） また、`0,0`に設定して、返信画像のサイズに制限を設けないようにすることもできます。
+0より大きい2つの整数で、コンマで区切ります。 幅と高さ（ピクセル単位）。 また、`0,0`に設定して、返信画像のサイズに制限を設けないようにすることもできます。
 
 ## 初期設定 {#section-1003537434da432fb2af100ecdbf9d72}
 
-定義されていない場合や空の場合は`default::MaxPix`から継承されます。
+`default::MaxPix`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-7385697a1b86482bba19db894f7af95b}
 
