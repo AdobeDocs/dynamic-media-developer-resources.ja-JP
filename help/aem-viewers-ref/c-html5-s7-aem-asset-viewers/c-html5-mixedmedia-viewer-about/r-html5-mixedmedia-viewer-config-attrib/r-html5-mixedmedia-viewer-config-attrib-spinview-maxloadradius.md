@@ -1,21 +1,20 @@
 ---
-description: 各方向でSpinViewがアイドルの場合にプリロードするフレームの最大数を表します。
+description: SpinViewがアイドル状態の場合に、各方向にプリロードする最大フレーム数を表します。
 solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e64fcd95-9660-4c1f-91b2-3ffc5a7493ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
 
-
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-各方向でSpinViewがアイドルの場合にプリロードするフレームの最大数を表します。
+SpinViewがアイドル状態の場合に、各方向にプリロードする最大フレーム数を表します。
 
 ` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valuehighRes`*]`
 
@@ -23,11 +22,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> 値<span class="codeph"> -1</span>は、セット内のすべてのフレームをプリロードします。 プリロードされたフレームは、常にSpinViewが最初に読み込まれた元の解像度で表示されます。 </p> </td> 
+   <td colname="col2"> <p> 値<span class="codeph"> -1</span>は、セット内のすべてのフレームをプリロードします。 プリロードされたフレームは、常に、SpinViewが最初に読み込まれた元の解像度で表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> プリロードされたフレームの品質を制御します。 </p> <p><span class="codeph"> 1</span>に設定すると、フレームは高品質で読み込まれ、コンポーネントのサイズに合わせます。 </p> <p><span class="codeph"> 0</span>に設定した場合は、低解像度のプレビュータイルのみが読み込まれます。 </p> <p>高解像度でプリロードすると、特に自動スピンが有効な場合に、エンドユーザーの操作性が向上します。 同時に、開始時間が遅くなり、ネットワーク消費も高くなるので、注意して使用する必要があります。 高解像度のプリロードを使用する場合、プリロードされたフレームは常に、コンポーネントが最初に読み込まれた元の解像度になります。 </p> </td> 
+   <td colname="col2"> <p> プリロードされたフレームの品質を制御します。 </p> <p><span class="codeph"> 1</span>に設定すると、フレームは高品質で読み込まれ、コンポーネントのサイズに一致します。 </p> <p><span class="codeph"> 0</span>に設定すると、低解像度のプレビュータイルのみが読み込まれます。 </p> <p>高解像度でプリロードすると、特に自動スピンが有効な場合に、エンドユーザーの操作性が向上します。 同時に、開始時間が遅くなり、ネットワーク消費が増えるので、慎重に使用する必要があります。 高解像度のプリロードを使用する場合、プリロードされたフレームは常に、コンポーネントが最初にロードされた元の解像度になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
