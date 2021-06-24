@@ -2,24 +2,22 @@
 description: ダウンロード
 solution: Experience Manager
 title: ダウンロード
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4cfdfc28-20db-41bc-a423-01d696ea6eed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
 
-
-# ダウンロード:{#download}
+# ダウンロード{#download}
 
 コントロールバーの「ダウンロード」ボタンを使用して、電子カタログをPDFファイルとしてダウンロードできます。
 
-次の場合は、Viewerのユーザインターフェイスで「ダウンロード」ボタンが自動的に使用可能になります。
+次の場合、ビューアのユーザインターフェイスで「ダウンロード」ボタンが自動的に使用可能になります。
 
-* 実際のPDFファイルは、お客様の会社に存在します。
-* この名前は、ビューアに渡され、`.pdf`拡張子が付いたe-catalogアセットの名前と一致します。
-* PDFファイルは、Dynamic Mediaクラシックで公開されます。
-
+* 実際のPDFファイルが顧客の会社に存在します。
+* この名前は、ビューアに渡されるeカタログアセットの名前と一致し、拡張子`.pdf`を含みます。
+* PDFファイルがDynamic Media Classicで公開されます。
