@@ -2,16 +2,15 @@
 description: ビデオビューアの設定属性。
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
-
 
 # SocialShare.bearing{#socialshare-bearing}
 
@@ -23,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、<span class="codeph"> right</span>に設定すると、追加の境界チェックなしで、指定した方向にパネルがロールアウトし、外部コンテナによってパネルが切り取られる可能性があります。 </p> <p><span class="codeph"> fit-vertical</span>に設定した場合、コンポーネントでは、まずパネルの基本の位置をSocialShareの下部に移動し、その基本の場所から見て、下、右、左のいずれかから、パネルをロールアウトしようとします。 試行のたびに、外側のコンテナでパネルが切り取られているかどうかをチェックします。 すべての試行が失敗すると、パネルの基本の位置を上に移動し、上、右、左の方向でロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定した場合も、コンポーネントでは同じロジックが使用されます。 ただし、基本の位置を最初に右に移動し、右、下、上のロールアウト方向を試してから、基本の位置を左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
+   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、<span class="codeph"> right</span>に設定すると、追加の境界チェックなしで、パネルが指定の方向にロールアウトし、外部のコンテナによってパネルが切り取られます。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは最初にパネルの基本位置をSocialShareの下部に移動し、その基本位置から下、右または左にロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかがチェックされます。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動し、上、右、左の方向にロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定した場合、コンポーネントは同様のロジックを使用します。 ただし、まずベースを右に移動し、右、下、上のロールアウト方向を試してから、ベースを左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 2%
 ```
 bearing=left
 ```
-
