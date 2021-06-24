@@ -1,29 +1,28 @@
 ---
-description: リクエストルール要素。 <ruleset>要素では、1つ以上のルールがオプションです。
+description: リクエストルール要素。 <ruleset>要素には、1つ以上のルールがオプションです。
 solution: Experience Manager
 title: ルール
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
-
 
 # ルール{#rule}
 
 リクエストルール要素。 `<ruleset>`要素では、1つ以上のルールがオプションです。
 
-## 属性{#section-d4a3b0496c0c4aa5bd7da87203b9379b}
+## 属性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
 `OnMatch = "break" | "continue" | "error"`: オプション. 初期設定は「break」です。
 
 `Replace = "first" | "all"`: オプション. 初期設定は「first」です。
 
-`RequestType` =  *&quot;`types`&quot;*:オプション。ルールを適用する入力コンテキストを指定します。 *`types`* はコンマ区切りのリストで、次の表に示す1つ以上のトークンを含めることができます。`RequestType`を指定しない場合は、サポートされているすべてのコンテキストで受信した要求にルールが適用されます。
+`RequestType` =  *&quot;`types`&quot;*:オプション。ルールを適用する入力コンテキストを指定します。 *`types`* はコンマ区切りのリストで、次の表に示す1つ以上のトークンを含めることができます。`RequestType`を指定しない場合、ルールはサポートされているすべてのコンテキストで受信された要求に適用されます。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -42,7 +41,7 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
    <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
-   <td> <p>画像レンダリング要求に適用 </p> </td> 
+   <td> <p>画像レンダリングリクエストに適用 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 静的</span> </p> </td> 
@@ -54,7 +53,7 @@ ht-degree: 6%
 
 **`Name = "text"`**: オプション. デバッグログとエラーメッセージの`<rule>`要素を識別するために使用します。
 
-`  *`属性`* ="value"`:オプション。`<rule>` 要素は、任意の組み合わせで次の属性を定義できます。指定した場合、ルールが正しく一致すると、このリクエストの対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
+`  *`属性`* ="value"`:オプション。`<rule>` 要素は、任意の組み合わせで次の属性を定義できます。指定した場合、ルールが正しく一致すると、このリクエストに対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -97,7 +96,7 @@ ht-degree: 6%
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> attribute::SavePath</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> ウォーターマーク</span> </p> </td> 
+   <td> <p> <span class="codeph"> WaterMark</span> </p> </td> 
    <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> attribute::WaterMark</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -130,10 +129,10 @@ ht-degree: 6%
 
 ## 説明 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-`<expression>`と`<substitution>`の両方が指定され、取得したサブ文字列が使用されない場合、一致した最初のサブ文字列が`<substitution>`に置き換えられます。
+`<expression>`と`<substitution>`の両方が指定され、取り込まれたサブ文字列が使用されない場合、一致した最初のサブ文字列が`<substitution>`に置き換えられます。
 
-`<expression>`を指定しない場合、すべてのパスは一致し、`<substitution>`がパスの末尾に追加されます。
+`<expression>`を指定しない場合、パスは一致し、パスの末尾に`<substitution>`が追加されます。
 
-`<substitution>`を指定しない場合、パスやクエリの変換は行われませんが、指定したカタログ属性はすべて上書きされます。 `<substitution>`が空の場合、一致したサブ文字列は削除されます。
+`<substitution>`を指定しない場合、パスやクエリの変換は行われませんが、指定したカタログ属性は上書きされます。 `<substitution>`が空の場合、一致する部分文字列が削除されます。
 
-`<addressfilter>`は、一致が発生した場合、およびクエリルールが適用される前にのみ適用されます。
+`<addressfilter>`は、一致が発生した場合と、クエリルールが適用される前にのみ適用されます。
