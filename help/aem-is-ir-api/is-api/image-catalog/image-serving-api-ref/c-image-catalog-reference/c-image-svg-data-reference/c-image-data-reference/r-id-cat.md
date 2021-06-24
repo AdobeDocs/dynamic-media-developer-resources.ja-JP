@@ -2,26 +2,25 @@
 description: カタログレコード識別子
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # ID {#id}
 
-画像データファイル内のレコードがプラットフォームサーバーによって検索されるインデックスキー値。
+画像データファイル内のレコードをPlatform Serverが検索する際に使用するインデックスキー値。
 
-通常、SKU番号など、SKUに複数の画像が含まれる場合、画像のサフィックスが何らかの場合がある、短く一意な画像識別子。 また、より複雑な文字列で、ファイルパスのように見える場合もあります。これにより、画像サービングを使用したWebサイトの遡及的な調整が容易にサポートされます。
+通常、SKU番号など、SKUに複数の画像が含まれる場合に、画像のサフィックスが付く可能性がある、短く一意の画像識別子。 また、は、画像サービングを使用したWebサイトの再適合を容易にサポートするために、より複雑な文字列で、ファイルパスに似ている場合もあります。
 
 ## プロパティ {#id-properties}
 
-テキスト文字列。 必須。画像データテーブルのプライマリインデックスキー。 各catalog::Idの値は、テーブル内で一意である必要があります。
+テキスト文字列。 必須。プライマリデータテーブルの画像インデックスキー。 各catalog::Id値は、テーブル内で一意である必要があります。
 
 ## 初期設定 {#id-default}
 
