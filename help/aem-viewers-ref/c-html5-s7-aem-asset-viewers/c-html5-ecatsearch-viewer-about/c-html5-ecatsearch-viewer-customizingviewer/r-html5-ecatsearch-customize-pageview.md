@@ -1,21 +1,20 @@
 ---
-description: メイン表示は、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
+description: メインビューは、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
 solution: Experience Manager
-title: ページ表示
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: ページビュー
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 3%
 
 ---
 
+# ページビュー{#page-view}
 
-# ページ表示{#page-view}
-
-メイン表示は、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
+メインビューは、カタログ画像で構成されます。 スワイプして別のページに移動したり、ズームしたりできます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,16 +36,16 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 16進数形式のメイン表示の背景色。 </p> </td> 
+   <td colname="col2"> <p> 16進数形式のメインビューの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示の上に表示されるカーソル。 </p> </td> 
+   <td colname="col2"> <p>メインビュー上に表示されるカーソル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メイン表示を透明にするには、次のように記述します。
+例 — メインビューを透明にするには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7pageview { 
@@ -54,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-デスクトップシステムでは、コンポーネントは`.s7pageview`クラスに適用できる`cursortype`属性セレクターをサポートし、コンポーネントの状態とユーザー操作に基づいてカーソルのタイプを制御します。 次の`cursortype`値がサポートされています。
+デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7pageview`クラスに適用でき、コンポーネントの状態とユーザー操作に基づいてカーソルの種類を制御します。 次の`cursortype`値がサポートされています。
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -66,7 +65,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> デフォルト </span> </p> </td> 
-   <td colname="col2"> <p>画像解像度が低い、コンポーネントの設定またはその両方が原因で画像がズーム可能でない場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>画像の解像度、コンポーネントの設定、またはその両方が小さいために画像がズーム可能でない場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
@@ -74,15 +73,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> リセット </span> </p> </td> 
-   <td colname="col2"> <p>画像が最大ズームレベルに達し、初期状態にリセット可能な場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>画像が最大ズームレベルで、初期状態にリセット可能な場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ドラッグ </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがズームイン状態の画像をパンした場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>ユーザーがズームイン状態の画像をパンしたときに表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーが水平スワイプまたはフリックで画像の入れ替えを実行した場合に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> スライド  </span> </p> </td> 
+   <td colname="col2"> <p>ユーザーが水平方向のスワイプまたはフリックを実行して画像の入れ替えを実行した場合に表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +100,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> ページ区切りの幅。 区切りを完全に非表示にするには、<span class="codeph"> 0 </span> pxに設定します。 </p> </td> 
+   <td colname="col2"> <p> ページ区切りの幅。 <span class="codeph"> 0 </span> pxに設定すると、区切りが完全に非表示になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -110,7 +109,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-例 — 幅が40ピクセルで、半透明の画像を使用したページ区切りを設定します。
+例 — 幅が40ピクセルで、半透明の画像を含むページ区切りを使用します。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -123,7 +122,7 @@ ht-degree: 3%
 >
 >`frametransition`修飾子が`turn`または`auto`（デスクトップシステムの場合）に設定されている場合、ページ区切りの外観は`pageturnstyle`修飾子を使用して制御され、`.s7pagedivider` CSSクラスは無視されます。
 
-メインビューア領域にカスタムのマウスカーソルを表示するよう設定できます。 これは、`.s7ecatalogsearchviewer .s7pageview` CSSクラスに適用される追加の属性セレクターを使用して制御します。
+メインビューア領域上でのカスタムマウスカーソルの表示を設定できます。 これは、`.s7ecatalogsearchviewer .s7pageview` CSSクラスに適用される追加の属性セレクターを使用して制御します。
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -135,28 +134,28 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> デフォルト </span> </p> </td> 
-   <td colname="col2"> <p> 通常は矢印で、ズーム可能でない画像に表示されます。 </p> </td> 
+   <td colname="col2"> <p> 通常は矢印で、ズーム不可能な画像に対して表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
-   <td colname="col2"> <p> 画像がズームイン可能な場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p> 画像がズームイン可能なタイミングを表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> リセット </span> </p> </td> 
-   <td colname="col2"> <p>画像が最大ズームに達し、リセット可能な場合に表示します。 </p> </td> 
+   <td colname="col2"> <p>画像が最大ズームでリセット可能な場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ドラッグ </span> </p> </td> 
-   <td colname="col2"> <p>ズームインされた画像に対してドラッグ操作を実行するときに表示されます。 </p> </td> 
+   <td colname="col2"> <p>ユーザーがズームインされた画像に対してドラッグ操作を実行したときに表示されます </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがスライドジェスチャを使用して画像の入れ替えを行うときに表示されます </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> スライド  </span> </p> </td> 
+   <td colname="col2"> <p>ユーザーがスライドジェスチャを使用して画像の入れ替えを実行したときに表示されます </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — コンポーネント状態のタイプごとに異なるマウスカーソルを設定します。
+例 — コンポーネントの状態ごとに異なるマウスカーソルを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7pageview[cursortype="default"] { 
@@ -175,4 +174,3 @@ cursor:url(images/slide_cursor.cur), auto;
 cursor:url(images/drag_cursor.cur), auto; 
 }
 ```
-
