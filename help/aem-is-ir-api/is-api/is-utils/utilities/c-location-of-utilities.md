@@ -1,20 +1,19 @@
 ---
-description: 画像サービングには3つのユーティリティが含まれています。
+description: 画像サービングには3つのユーティリティが含まれます。
 solution: Experience Manager
 title: ユーティリティの場所
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 014a17b9-f12e-4179-8b44-4b0090769743
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
 
-
 # ユーティリティの場所{#location-of-utilities}
 
-画像サービングには3つのユーティリティが含まれています。
+画像サービングには3つのユーティリティが含まれます。
 
 64ビット版は&#x200B;[!DNL *`install_folder`*/bin64/]にあります。
