@@ -2,16 +2,15 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 6%
 
 ---
-
 
 # SpinView.autospin{#spinview-autospin}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最適な自動スピン操作を実現するには、<span class="codeph"> maxloadradius</span>を<span class="codeph"> -1</span>に設定して、すべてのフレームをプリロードすることをお勧めします。 ただし、この結果、読み込み時間が長くなり、帯域幅使用量が増えます。 </p> </td> 
+   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最適な自動スピンエクスペリエンスを実現するには、<span class="codeph"> maxloadradius</span>を<span class="codeph"> -1</span>に設定して、すべてのフレームをプリロードすることをお勧めします。 ただし、これにより、負荷時間が長くなり、帯域幅使用量が増加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
@@ -29,11 +28,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> スピンの方向は、東向きは<span class="codeph"> 0</span>、西向きは<span class="codeph"> 1</span>です。 </p> </td> 
+   <td colname="col2"> <p> スピン方向は、東向きに<span class="codeph"> 0</span>、西向きに<span class="codeph"> 1</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンが停止する前に行われた完全な回転数。 数値は浮動小数点数です。 無限の自動スピンの場合は、<span class="codeph"> -1</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> 自動スピンが停止する前に実行された完全な回転数。 数値は浮動小数点数です。 無限自動スピンの場合は、 <span class="codeph"> -1</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
