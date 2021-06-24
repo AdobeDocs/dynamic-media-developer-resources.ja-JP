@@ -1,21 +1,20 @@
 ---
-description: ウィンドウカバリングファイルのプロパティ。
+description: ウィンドウカバーファイルのプロパティ。
 solution: Experience Manager
 title: WindowCoveringInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
-
 # WindowCoveringInfo{#windowcoveringinfo}
 
-ウィンドウカバリングファイルのプロパティ。
+ウィンドウカバーファイルのプロパティ。
 
 構文
 
@@ -23,11 +22,10 @@ ht-degree: 11%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルパス |
+| `*`originalPath`*` | `xsd:string` | ファイルパス。 |
 | `*`originalFile`*` | `xsd:string` | ファイル名。 |
 | `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
 | `*`imagePath`*` | `xsd:string` | 画像の相対パス。 |
-| `*`imageFile`*` | `xsd:string` | ウィンドウカバリング画像のファイル名。 |
-| `*`optimizedPath`*` | `xsd:string` | ファイルへの最適化パス。 |
-| `*`optimizedFile`*` | `xsd:string` | 最適化されたファイル名。 |
-
+| `*`imageFile`*` | `xsd:string` | ウィンドウカバー画像のファイル名。 |
+| `*`optimizedPath`*` | `xsd:string` | ファイルへの最適化されたパス。 |
+| `*`optimizedFile`*` | `xsd:string` | ファイル名を最適化。 |
