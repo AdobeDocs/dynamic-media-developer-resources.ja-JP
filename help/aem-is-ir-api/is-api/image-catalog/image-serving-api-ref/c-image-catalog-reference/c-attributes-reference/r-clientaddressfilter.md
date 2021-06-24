@@ -1,27 +1,26 @@
 ---
-description: クライアントIPアドレスフィルタ。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
+description: クライアントのIPアドレスフィルター。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 028cef35-2862-452c-872c-b953e8ccb195
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
 
-
 # ClientAddressFilter{#clientaddressfilter}
 
-クライアントIPアドレスフィルタ。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
+クライアントのIPアドレスフィルター。 1つ以上のIPアドレスまたはアドレス範囲を指定できます。
 
-指定した場合、リストにないIPアドレスのクライアントからのこの画像カタログへの要求は拒否されます。
+指定した場合、登録されていないIPアドレスのクライアントからのこの画像カタログへの要求は拒否されます。
 
 ## プロパティ {#section-d785265988324af68835410c9ba54147}
 
-IPアドレスとオプションのネットマスクをコンマで区切ってリスト（CIDR表記を使用）:
+オプションのネットマスクを含むIPアドレスのコンマ区切りリスト（CIDR表記を使用）:
 
 `*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
@@ -32,7 +31,7 @@ IPアドレスとオプションのネットマスクをコンマで区切って
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
-  <td class="stentry"> <p>ネットマスク(0...32) </p></td> 
+  <td class="stentry"> <p>ネットマスク(0...32)。 </p></td> 
  </tr> 
 </table>
 
@@ -40,17 +39,17 @@ IPアドレスとオプションのネットマスクをコンマで区切って
 
 ## 初期設定 {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-定義されていない場合や空の場合は`default::AddressFilter`から継承されます。
+`default::AddressFilter`から継承されます（定義されていない場合または空の場合）。
 
 ## 例 {#section-a955314d2b6a4213a16c12a8b18d8627}
 
 アクセス制限なし：`0.0.0.0/0`
 
-192で始まるすべてのアドレスへのアクセスを許可する：`192.0.0.0/8`
+192以降のすべてのアドレスに対するアクセス権を付与する：`192.0.0.0/8`
 
-192.168.12.0 ～ 192.168.13.255のアドレスを持つ512ホストへのアクセスを許可します。`192.168.12.0/23`
+192.168.12.0～192.168.13.255のアドレスを持つ512ホストに対するアクセス権を付与：`192.168.12.0/23`
 
-単一のIPアドレスへのアクセスを許可する：`192.168.2.117`または`192.168.2.117/32`
+単一のIPアドレスへのアクセス権の付与：`192.168.2.117`または`192.168.2.117/32`
 
 ## 関連項目 {#section-4ea89a7d82e14a4a800487d2d8801465}
 
