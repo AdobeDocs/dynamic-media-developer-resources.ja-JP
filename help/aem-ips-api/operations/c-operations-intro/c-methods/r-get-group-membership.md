@@ -1,25 +1,24 @@
 ---
-description: グループのメンバを返します。
+description: グループのメンバーを返します。
 solution: Experience Manager
 title: getGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
 
-
 # getGroupMembership{#getgroupmembership}
 
-グループのメンバを返します。
+グループのメンバーを返します。
 
 構文
 
-## 認証済みユーザータイプ{#section-35d070e5c4d74ca69df508368953cfb8}
+## 許可されたユーザーの種類 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,8 +34,8 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | いいえ | ユーザーのハンドル。 |
-| `*`companyHandle`*` | `xsd:string` | いいえ | 会社へのハンドル。 |
+| `*`userHandle`*` | `xsd:string` | いいえ | ユーザーへのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | いいえ | 会社の取っ手。 |
 
 **出力(getGroupMembershipReturn)**
 
@@ -46,7 +45,7 @@ ht-degree: 18%
 
 ## 例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-このコードのサンプルを使用すると、グループのすべてのメンバーが返されます。 会社とユーザーハンドルはオプションなので、この操作ではすべてのグループのすべてのメンバーを返すことができます。
+このコードサンプルは、グループのすべてのメンバーを返します。 会社とユーザーのハンドルはオプションなので、この操作はすべてのグループのすべてのメンバーを返すことができます。
 
 **リクエスト**
 
@@ -64,4 +63,3 @@ ht-degree: 18%
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
