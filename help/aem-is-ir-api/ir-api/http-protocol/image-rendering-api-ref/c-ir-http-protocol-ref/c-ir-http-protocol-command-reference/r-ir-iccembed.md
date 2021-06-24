@@ -1,21 +1,20 @@
 ---
-description: ICCプロファイルを埋め込む 作業中のICCカラープロファイルまたはicc=で指定されたプロファイルを、返信画像に埋め込むかどうかを指定します。
+description: ICCプロファイルを埋め込みます。 作業用ICCカラープロファイルまたはicc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c0f28a87-c168-4c6b-bbe1-af6b98e9f52f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
 
-
 # iccEmbed{#iccembed}
 
-ICCプロファイルを埋め込む 作業中のICCカラープロファイルまたはicc=で指定されたプロファイルを、返信画像に埋め込むかどうかを指定します。
+ICCプロファイルを埋め込みます。 作業用ICCカラープロファイルまたはicc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
 
 `iccEmbed=0|1`
 
@@ -25,7 +24,7 @@ ICCプロファイルを埋め込む 作業中のICCカラープロファイル�
 
 ## 初期設定 {#section-68ed1f0c68dc46b58972804799c277b7}
 
-`iccEmbed=0`を使用します。出力画像にICCプロファイルを埋め込むことはできません。
+`iccEmbed=0`（出力画像にICCプロファイルを埋め込まない場合）
 
 ## 関連項目 {#section-e9e6bb04e2154f4387261edcbbbfe7d3}
 
