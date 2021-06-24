@@ -1,23 +1,22 @@
 ---
-description: 要求が正常に完了しなかった場合、サーバーは、エラー画像または200以外のHTTP応答ステータスをエラーメッセージと共に返します。
+description: リクエストが正常に完了できない場合、サーバーはエラーイメージまたは200以外のHTTP応答ステータスをエラーメッセージと共に返します。
 solution: Experience Manager
 title: エラー
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e45e3968-3659-470b-a88a-fe7ba73d8207
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
 
-
 # エラー{#errors}
 
-要求が正常に完了しなかった場合、サーバーは、エラー画像または200以外のHTTP応答ステータスをエラーメッセージと共に返します。
+リクエストが正常に完了できない場合、サーバーはエラーイメージまたは200以外のHTTP応答ステータスをエラーメッセージと共に返します。
 
-応答ステータスの値は、エラーのタイプに応じて異なります。最も一般的なエラーは「403」です。 イメージ以外の要求タイプのエラー応答は、`req=`で指定された形式に従います。 （現時点では一貫して実装されていない可能性があります）。
+応答ステータスの値は、エラーのタイプによって異なります。最も一般的なエラーは「403」です。 イメージ以外のリクエストタイプに対するエラー応答は、`req=`で指定された形式に従います。 （現時点では、一貫して実装されていない可能性があります）。
 
 エラーメッセージに含まれる詳細の量は`attribute::ErrorDetail`で設定できます。
 
