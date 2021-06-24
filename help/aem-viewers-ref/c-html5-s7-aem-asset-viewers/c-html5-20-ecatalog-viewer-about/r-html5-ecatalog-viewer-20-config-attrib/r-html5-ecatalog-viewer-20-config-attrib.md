@@ -2,31 +2,30 @@
 description: eCatalogビューアの設定属性ドキュメント。
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d15061db-8941-44aa-b90d-598c1ce58a67
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # コマンドリファレンス — 設定属性{#command-reference-configuration-attributes}
 
 eCatalogビューアの設定属性ドキュメント。
 
-URL内に任意の設定コマンドを設定するか、`setParam()`、`setParams()`、またはその両方のAPIメソッドを使用して設定できます。 サーバー側の設定レコードで指定された設定属性を指定することもできます。
+設定コマンドは、URLまたは`setParam()`、`setParams()`、またはその両方のAPIメソッドを使用して設定できます。 サーバー側の設定レコードで指定された任意の設定属性を指定することもできます。
 
-一部の設定コマンドの前に、対応するビューアSDKコンポーネントのクラス名またはインスタンス名のプレフィックスを付けることができます。 コンポーネントのインスタンス名は動的で、`setContainerId()` APIメソッドに渡されるビューアコンテナのDOM要素のIDに依存します。 ドキュメントには、このようなコマンドのオプションのプレフィックスが含まれています。 例えば、`zoomstep`コマンドは次のように記載されています。
+一部の設定コマンドでは、対応するビューアSDKコンポーネントのクラス名またはインスタンス名の前にを付けることができます。 コンポーネントのインスタンス名は動的で、`setContainerId()` APIメソッドに渡されるビューアコンテナのDOM要素のIDに依存します。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例えば、`zoomstep`コマンドは次のように記述されています。
 
 `[PageView.|<containerId>_pageView].zoomstep`
 
-これは、このコマンドを次のように使用できることを意味します。
+つまり、このコマンドは次のように使用できます。
 
 * `zoomstep` （短い構文）
-* `PageView.zoomstep` （コンポーネントのクラス名で修飾）
-* `cont_pageView.zoomstep` (コンポーネントIDで修飾、ここ `cont` ではコンテナ要素のID)
+* `PageView.zoomstep` （コンポーネントクラス名で修飾）
+* `cont_pageView.zoomstep` (コンポーネントIDで修飾、 `cont` はコンテナ要素のID)
 
 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
