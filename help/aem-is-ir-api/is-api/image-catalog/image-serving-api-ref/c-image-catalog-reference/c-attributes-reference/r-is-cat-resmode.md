@@ -1,31 +1,30 @@
 ---
-description: 初期設定の再サンプリングモード。 画像データのスケールに使用する初期設定のリサンプリング属性と補間属性を指定します。
+description: デフォルトの再サンプリングモード。 画像データの拡大縮小に使用するデフォルトの再サンプリングおよび補間属性を指定します。
 solution: Experience Manager
 title: ResMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a604e61e-be38-4819-b5c3-a79843c1678f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # ResMode{#resmode}
 
-初期設定の再サンプリングモード。 画像データのスケールに使用する初期設定のリサンプリング属性と補間属性を指定します。
+デフォルトの再サンプリングモード。 画像データの拡大縮小に使用するデフォルトの再サンプリングおよび補間属性を指定します。
 
 リクエストで`resMode=`が指定されていない場合に使用されます。
 
 ## プロパティ {#section-493f900be522486f97710cebdc4460c2}
 
-列挙。 `bilin`の場合は2、`bicub`の場合は3、`sharp2`の場合は4に設定します（詳しくは` [resMode=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2)`を参照）。 `sharp` (1)は非推奨です。最良の結果を得るには、代わりに`sharp2` (4)を使用します。
+列挙 `bilin`の場合は2、`bicub`の場合は3、`sharp2`の場合は4に設定します（詳しくは、` [resMode=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2)`を参照）。 `sharp` (1)は非推奨（廃止予定）となりました。最良の結果を得るには、代わりに`sharp2` (4)を使用してください。
 
 ## 初期設定 {#section-35f980e745fc4d79a2621e8abacc724d}
 
-定義されていない場合や空の場合は`default::ResMode`から継承されます。
+`default::ResMode`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-6c86322b52e9418093d189e9b29dbb75}
 
