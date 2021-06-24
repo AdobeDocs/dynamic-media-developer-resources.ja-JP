@@ -1,25 +1,24 @@
 ---
-description: アセットのジョブログを取得します。 配列に返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、authHeaderフィールドに基づいてローカライズされます。
+description: アセットのジョブログを取得します。 配列に返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、 authHeaderフィールドに基づいてローカライズされます。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 9%
 
 ---
 
-
 # getAssetJobLogs{#getassetjoblogs}
 
-アセットのジョブログを取得します。 配列に返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、authHeaderフィールドに基づいてローカライズされます。
+アセットのジョブログを取得します。 配列に返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、 authHeaderフィールドに基づいてローカライズされます。
 
 構文
 
-## 認証済みユーザータイプ{#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## 許可されたユーザーの種類 {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,7 +37,7 @@ ht-degree: 9%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 取得するジョブログを含むアセットのハンドル。 |
+| `*`assetHandle`*` | `xsd:string` | はい | 取得するジョブログを含むアセットへのハンドル。 |
 
 **出力(getAssetJobLogsReturn)**
 
@@ -48,7 +47,7 @@ ht-degree: 9%
 
 ## 例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-このコードサンプルを使用すると、特定のアセットのジョブログを取得できます。 この応答は、アセットが使用されたすべてのジョブに関する詳細情報を含むジョブログ配列を返します。
+このコードサンプルは、特定のアセットのジョブログを取得します。 応答は、ジョブログ配列と、アセットが使用されたすべてのジョブに関する詳細情報を返します。
 
 **リクエスト**
 
@@ -83,4 +82,3 @@ ht-degree: 9%
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-
