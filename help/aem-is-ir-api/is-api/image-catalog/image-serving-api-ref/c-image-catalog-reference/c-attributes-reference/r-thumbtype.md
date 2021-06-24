@@ -1,31 +1,30 @@
 ---
-description: 初期設定のサムネールの種類 特定のカタログレコードに有効なカタログのThumbType値が含まれていない場合に、サムネールの種類の初期設定を指定します。
+description: 初期設定のサムネールの種類。 特定のカタログレコードに有効なカタログThumbType値が含まれていない場合のサムネールタイプのデフォルトを指定します。
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
 
-
 # ThumbType{#thumbtype}
 
-初期設定のサムネールの種類 特定のカタログレコードに有効なcatalog::ThumbType値が含まれていない場合に、サムネールの種類の初期設定を指定します。
+初期設定のサムネールの種類。 特定のカタログレコードに有効なcatalog::ThumbType値が含まれていない場合のサムネールタイプのデフォルトを指定します。
 
 サムネール要求(`req=tmb`)にのみ使用されます。
 
 ## プロパティ {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-列挙。 指定できる値は、*`crop`*、*`fit`*、*`texture`*&#x200B;のサムネールタイプそれぞれに1、2、3です。
+列挙 指定できる値は、 *`crop`* 、 *`fit`* 、 *`texture`*&#x200B;の各サムネールタイプで、それぞれ1、2、3です。
 
 ## 初期設定 {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-`default::ThumbType`から継承します（定義されていない場合または空の場合）。
+`default::ThumbType`から継承されます（定義されていない場合または空の場合）。
 
 ## 関連項目 {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
