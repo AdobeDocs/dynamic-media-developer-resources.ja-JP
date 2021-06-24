@@ -1,24 +1,23 @@
 ---
-description: Image（初期設定）。 標準の画像データを要求します。
+description: 画像（デフォルト） 標準のイメージデータを要求します。
 solution: Experience Manager
 title: img
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5338358e-755b-41d6-a941-8754d0deb9aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-
 # img{#img}
 
-Image（初期設定）。 標準の画像データを要求します。
+画像（デフォルト） 標準のイメージデータを要求します。
 
 `req=img`
 
-応答データの形式と応答のMIMEタイプは`fmt=`によって決定されます。 `req=img` はデフォルトのリクエストタイプで、明示的に指定する必要はありません。HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
+応答データの形式と応答のMIMEタイプは`fmt=`によって決まります。 `req=img` はデフォルトのリクエストタイプで、明示的に指定する必要はありません。HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
 
-その他の要求コマンドは、ドキュメントに従って適用されます。
+その他の要求コマンドは、説明に従って適用されます。
