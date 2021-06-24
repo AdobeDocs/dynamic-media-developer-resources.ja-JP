@@ -1,25 +1,24 @@
 ---
-description: 階層ツリー構造のフォルダとサブフォルダを返します。 getFolderTreeの応答は、最大100,000個のフォルダーに制限されています
+description: フォルダーとサブフォルダーを階層ツリー構造で返します。 getFolderTreeの応答は、最大100,000個のフォルダーに制限されています
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 9%
 
 ---
 
-
 # getFolderTree{#getfoldertree}
 
-階層ツリー構造のフォルダとサブフォルダを返します。 getFolderTreeの応答は、最大100,000個のフォルダーに制限されています
+フォルダーとサブフォルダーを階層ツリー構造で返します。 getFolderTreeの応答は、最大100,000個のフォルダーに制限されています
 
 構文
 
-## 認証済みユーザータイプ{#section-66ef19149f4d4123a3a99004b5a2743e}
+## 許可されたユーザーの種類 {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->ユーザーがフォルダーにデータを返すには、フォルダーへの読み取りアクセス権が必要です。
+>ユーザーがフォルダーのデータを返すには、フォルダーへの読み取りアクセス権が必要です。
 
 ## パラメータ {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -39,25 +38,25 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーを装うためにのみ使用します。 |
-| `*`accessGroupHandle`*` | `xsd:string` | いいえ | 会社が属するグループを含む、特定のグループでフィルターするために使用します。 |
-| `*`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
-| `*`深さ`*` | `xsd:int` | はい | 値が0の場合、最上位フォルダーが取得されます。 その他の値は、木に降りる深さを指定します。 |
-| `*`assetTypeArray`*` | `types:StringArray` | いいえ | 指定したアセットタイプのみを含むフォルダを返します。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| `*`accessUserHandle`*` | `xsd:string` | いいえ | 管理者のみが特定のユーザーとして実行する場合に使用します。 |
+| `*`accessGroupHandle`*` | `xsd:string` | いいえ | 会社が属するグループを含む、特定のグループでフィルタリングするために使用します。 |
+| `*`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダー。 除外された場合は、会社のルートが使用されます。 |
+| `*`深さ`*` | `xsd:int` | はい | 値が0の場合、最上位のフォルダーが取得されます。 その他の値は、ツリーに降りる深さを指定します。 |
+| `*`assetTypeArray`*` | `types:StringArray` | いいえ | 指定されたアセットタイプのみを含むフォルダーを返します。 |
 | `*`responseFieldArray`*` | `types:StringArray` | いいえ | 応答に含めるフィールドのリストが含まれます。 |
-| `*`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答から除外するフィールドのリストが含まれます。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答で除外するフィールドのリストが含まれます。 |
 
 **出力(getFolderTreeReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`フォルダ`*` | `types:folders` | いいえ | ツリー構造内のフォルダの階層。 応答は最大100,000個のフォルダーに制限されます。 |
+| `*`フォルダ`*` | `types:folders` | いいえ | ツリー構造内のフォルダーの階層。 応答は最大100,000個のフォルダーに制限されます。 |
 | `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-このコードのサンプルでは、会社ハンドルと深さパラメーターを使用して、応答が返す深さのレベルを決定します。 応答には、関連するフォルダーとサブフォルダー配列が含まれます。 深さの値を小さい値に設定すると、フォルダツリーを深く探すことができます。
+このコードサンプルでは、会社のハンドルと深さパラメーターを使用して、応答が返す深さのレベルを決定します。 応答には、関連するフォルダーおよびサブフォルダー配列が含まれます。 深さの値を小さい数値に設定すると、フォルダーツリーの深さを検索できます。
 
 **リクエスト**
 
@@ -132,4 +131,3 @@ ht-degree: 9%
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
