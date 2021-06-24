@@ -1,20 +1,19 @@
 ---
-description: ビデオビューアのメインクラスはVideoViewerです。 このクラスは、s7viewers名前空間で宣言されています。 このJavaScript APIは、このクラスのコンストラクター、メソッドおよびコールバックをカバーしています。
+description: ビデオビューアのメインクラスはVideoViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
 title: ビデオビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9e61b962-cfbe-4c8e-9938-77a197c5f127
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-
 # ビデオビューアのJavaScript APIリファレンス{#javascript-api-reference-for-video-viewer}
 
-ビデオビューアのメインクラスはVideoViewerです。 このクラスは、s7viewers名前空間で宣言されています。 このJavaScript APIは、このクラスのコンストラクター、メソッドおよびコールバックをカバーしています。
+ビデオビューアのメインクラスはVideoViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-次の例では、`<instance>`が、`s7viewers.VideoViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+次の例では、 `<instance>`は、 `s7viewers.VideoViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
