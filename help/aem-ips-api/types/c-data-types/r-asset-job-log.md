@@ -2,16 +2,15 @@
 description: 特定のアセットに関連付けられているジョブログエントリの詳細。 getAssetJobLogsによって返されるデータ。
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 6%
 
 ---
-
 
 # AssetJobLog{#assetjoblog}
 
@@ -43,12 +42,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブログ内のメッセージ。 <p><span class="codeph"> logMessageresponseフィールドは、authHeaderlocaleフィールドに基づいてローカラ</span>  <span class="codeph"> </span> イズされます。 </p></td> 
+   <td colname="col3">ジョブログのメッセージ。 <p><span class="codeph"> </span> logMessageresponseフィールドは、authHeaderlocaleフィールドに基づいてロ <span class="codeph"> </span> ーカライズされます。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ログエントリ内のジョブのタイプ。 </td> 
+   <td colname="col3"> ログエントリのジョブのタイプ。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -62,9 +61,8 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：JobLogDetailArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：JobLogDetailArray[がた：JobLogDetailArray]</span> </td> 
    <td colname="col3"> 各ジョブログの補助ジョブログメッセージの配列。 </td> 
   </tr> 
  </tbody> 
 </table>
-
