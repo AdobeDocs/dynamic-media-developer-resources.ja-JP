@@ -2,22 +2,21 @@
 description: ユーザデータ. サーバーは、req=userdataに応答して、このフィールドの内容をクライアントに返します。
 solution: Experience Manager
 title: ユーザデータ *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '69'
+ht-degree: 17%
 
 ---
-
 
 # ユーザデータ *{#userdata}
 
 ユーザデータ. サーバーは、req=userdataに応答して、このフィールドの内容をクライアントに返します。
 
-新しい行は、「??」でエスケープできます。 「??」は、 を`<cr><lf>`に置き換えてから、このフィールドの内容を返します。
+新しい行は「??」でエスケープできます。 サーバーは「??」を置き換えます。 を`<cr><lf>`に置き換えてから、このフィールドの内容を返します。
 
 ## プロパティ {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
