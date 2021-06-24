@@ -1,20 +1,19 @@
 ---
-description: レイヤー番号によって、z順序も決まります。
+description: レイヤ番号によってz順序も決まります。
 solution: Experience Manager
 title: レイヤーの順序
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3a8fdd55-6ac1-4bc9-935d-188ee60946d9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-
 # レイヤーの順序{#layer-order}
 
-レイヤー番号によって、z順序も決まります。
+レイヤ番号によってz順序も決まります。
 
-レイヤー0（背景レイヤー）は必須です。他のレイヤー番号は連続している必要はなく、レイヤー番号を昇順にして背景レイヤーの上に描画されます。 レイヤ番号が最も大きいレイヤは上にレンダリングされ、他のレイヤに隠れることはありません。
+レイヤー0（背景レイヤー）が必要です。その他のレイヤ番号は、連続する必要はなく、背景レイヤの上に、昇順のレイヤ番号の順に描画されます。 最も画層番号が大きい画層は上にレンダリングされ、他の画層に隠れることはありません。
