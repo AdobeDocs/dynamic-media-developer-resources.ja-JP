@@ -1,25 +1,24 @@
 ---
-description: プロジェクトに1つ以上のアセットを追加します。
+description: 1つ以上のアセットをプロジェクトに追加します。
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 11%
 
 ---
 
-
 # addProjectAssets{#addprojectassets}
 
-プロジェクトに1つ以上のアセットを追加します。
+1つ以上のアセットをプロジェクトに追加します。
 
 構文
 
-## 認証済みユーザータイプ{#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 許可されたユーザーの種類 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,23 +33,23 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社に対するハンドル。 |
-| `*`projectHandle`*` | `xsd:string` | はい | アセットを追加するプロジェクトの処理。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社に対して処理します。 |
+| `*`projectHandle`*` | `xsd:string` | はい | アセットを追加するプロジェクトに対して処理します。 |
 | `*`projectHandleArray`*` | `xsd:HandleArray` | はい | 現在のプロジェクトに追加するアセットの配列。 |
 
 **出力(addProjectAssetsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数です。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成されたエラーの数です。 |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成された警告の配列です。 |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がプロジェクトに追加しようとしたときにアセットによって生成されたエラーの配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作でプロジェクトにアセットを追加しようとしたときに生成された警告の数です。 |
+| `*`errorCount`*` | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成されたエラーの数。 |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作によってプロジェクトに追加されたときにアセットによって生成される警告の配列。 |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | いいえ | 操作がアセットをプロジェクトに追加しようとしたときにアセットによって生成されたエラーの配列。 |
 
 ## 例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-次の使用例は、アセットハンドル配列内の1つのアセット（ハンドルで参照）を、要求で指定されたプロジェクトに追加します。 応答`successCount`が`1`を返すと、操作は正常に完了しました。
+次の例では、アセットハンドル配列内の1つのアセット（ハンドルで参照）を、リクエストで指定されたプロジェクトに追加します。 応答`successCount`が`1`を返すと、操作は正常に完了しました。
 
 **リクエスト**
 
@@ -73,4 +72,3 @@ ht-degree: 11%
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-
