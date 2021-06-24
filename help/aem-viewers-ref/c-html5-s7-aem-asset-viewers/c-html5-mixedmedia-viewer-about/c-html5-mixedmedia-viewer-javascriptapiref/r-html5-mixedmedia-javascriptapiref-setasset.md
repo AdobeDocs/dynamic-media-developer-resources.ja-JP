@@ -2,16 +2,15 @@
 description: 混在メディアビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -19,19 +18,19 @@ ht-degree: 1%
 
 ` setAsset( *`asset`*[,data]))`
 
-新しいアセットとオプションの追加アセットデータを設定します。 このパラメーターは、`init()`の前後いつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
+新しいアセットとオプションの追加アセットデータを設定します。 このパラメーターは、`init()`の前後にいつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
 
 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)も参照してください。
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`asset`*`  - { `String`}新しいアセットIDまたは明示的な混在メディアセット。オプションとして画像サービング修飾子を後に付加 `?`。
+`*`asset`*`  - {}新しいアセットIDまたは明示的な混在メディアセット。オプションとしての画像サービング修飾子を後に付けま `String` `?`す。
 
-IR（画像レンダリング）またはUGC（ユーザ生成コンテンツ）を使用する画像は、このビューアではサポートされていません。
+IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。
 
-`*`data`*` - {  `JSON`}新しいキャプションファイルの場所。
+`*`data`*`  - {  `JSON`}新しいキャプションファイルの場所。
 
-指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、混在メディアセットでの最初のビデオに適用されます。後続のビデオはキャプションなしで再生されます。 このビューアでは、次のコンポーネントIDがサポートされています。
+指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、混在メディアセットの最初のビデオに適用されます。後続のビデオはキャプションなしで再生されます。 このビューアは、次のコンポーネントIDをサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -42,23 +41,23 @@ IR（画像レンダリング）またはUGC（ユーザ生成コンテンツ）
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
-   <td colname="col2"> <p>ビデオ開始の再生前の最初のフレームに表示する画像。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 事後的な  </span> </p> </td> 
+   <td colname="col2"> <p>ビデオの再生開始前に最初のフレームに表示する画像。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> caption  </span> </p> </td> 
-   <td colname="col2"> <p> 新しいキャプションファイルの場所。 </p> <p>指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、メディアセットの最初のビデオに適用されます。 以降のビデオはキャプションなしで再生されます。 </p> </td> 
+   <td colname="col2"> <p> 新しいキャプションファイルの場所。 </p> <p>指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、メディアセットの最初のビデオに適用されます。 後続のビデオはキャプションなしで再生されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-1つのメディアセットの参照：
+単一のメディアセットの参照：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample")
@@ -75,4 +74,3 @@ IR（画像レンダリング）またはUGC（ユーザ生成コンテンツ）
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample?op_sharpen=1")
 ```
-
