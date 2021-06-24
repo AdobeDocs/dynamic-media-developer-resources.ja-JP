@@ -1,21 +1,20 @@
 ---
-description: クライアントメッセージ。 クライアントがサーバーログに短いテキストメッセージを挿入するメカニズムを提供します。
+description: クライアントメッセージ。 クライアントが短いテキストメッセージをサーバーログに挿入するメカニズムを提供します。
 solution: Experience Manager
 title: message
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 47e51181-714c-4b25-a375-f3b2238cd534
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
+# メッセージ{#message}
 
-# message{#message}
-
-クライアントメッセージ。 クライアントがサーバーログに短いテキストメッセージを挿入するメカニズムを提供します。
+クライアントメッセージ。 クライアントが短いテキストメッセージをサーバーログに挿入するメカニズムを提供します。
 
 `req=message&message= *`文字列`*`
 
@@ -26,4 +25,4 @@ ht-degree: 6%
  </tr> 
 </table>
 
-HTTP応答はキャッシュできません。 MIMEタイプ`text/plain`で空の応答が返されます。
+HTTP応答はキャッシュできません。 空の応答はMIMEタイプ`text/plain`で返されます。
