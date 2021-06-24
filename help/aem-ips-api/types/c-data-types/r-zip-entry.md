@@ -2,16 +2,15 @@
 description: ZIPファイル内のエントリ。
 solution: Experience Manager
 title: ZipEntry
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
-
 
 # ZipEntry{#zipentry}
 
@@ -24,8 +23,7 @@ ZIPファイル内のエントリ。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`name`*` | `xsd:string` | 参加者名。 |
-| `*`isDirectory`*` | `xsd:boolean` | エントリがディレクトリかどうかを判定します。 |
-| `*`lastModified`*` | `xsd:dateTime` | 最終変更日時。 |
+| `*`isDirectory`*` | `xsd:boolean` | エントリがディレクトリかどうかを判断します。 |
+| `*`lastModified`*` | `xsd:dateTime` | 最終変更の日時。 |
 | `*`compressedSize`*` | `xsd:long` | 圧縮サイズ |
-| `*`uncompressedSize`*` | `xsd:long` | 非圧縮サイズ |
-
+| `*`uncompressedSize`*` | `xsd:long` | 非圧縮サイズ。 |
