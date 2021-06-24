@@ -1,21 +1,20 @@
 ---
-description: ビデオビューアのURLコマンド
+description: ビデオビューアのURLコマンド。
 solution: Experience Manager
 title: ナビゲーション
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
 
-
 # ナビゲーション{#navigation}
 
-ビデオビューアのURLコマンド
+ビデオビューアのURLコマンド。
 
 ` navigation= *`ファイル`*`
 
@@ -25,7 +24,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
-   <td colname="col2"> <p> WebVTTナビゲーションコンテンツへのURLまたはパスを指定します。 画像サービングはWebVTTファイルをホストする必要があります。 </p> </td> 
+   <td colname="col2"> <p> WebVTTナビゲーションコンテンツのURLまたはパスを指定します。 画像サービングはWebVTTファイルをホストする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,4 +42,3 @@ ht-degree: 12%
 ```
 navigation=Scene7SharedAssets/adobe_qbc_final_nc
 ```
-
