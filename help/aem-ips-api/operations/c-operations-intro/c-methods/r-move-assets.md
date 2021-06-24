@@ -1,25 +1,24 @@
 ---
-description: 複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMove型を使用して実行されます。 各AssetMoveフィールドには、保存先フォルダが含まれています。
+description: 複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMoveタイプを使用して実行されます。 各AssetMoveフィールドには、宛先フォルダーが含まれます。
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 9%
 
 ---
 
-
 # moveAssets{#moveassets}
 
-複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMove型を使用して実行されます。 各AssetMoveフィールドには、保存先フォルダが含まれています。
+複数のアセットを互いに独立して移動します。 これは、assetMoveArrayに含まれるAssetMoveタイプを使用して実行されます。 各AssetMoveフィールドには、宛先フォルダーが含まれます。
 
 構文
 
-## 認証済みユーザータイプ{#section-4166515fd9d8487b8af37465ce61802b}
+## 許可されたユーザーの種類 {#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +33,8 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | アセットを移動する会社へのハンドル。 |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | はい | アセット移動配列。 アセットとアセットの保存先フォルダが含まれます。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 移動するアセットを含む会社へのハンドル。 |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | はい | アセット移動配列。 アセットとアセットの宛先フォルダーが含まれます。 |
 
 **出力(moveAssetsReturn)**
 
@@ -59,30 +58,30 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 操作が警告を移動しようとしたときに生成したアセットの数です。 </td> 
+   <td colname="col4"> 操作によって移動が試みられたときに警告が発生したアセットの数。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 操作がアセットの移動を試みたときにエラーが発生したアセットの数。 </td> 
+   <td colname="col4"> 操作で移動しようとしたときにエラーが発生したアセットの数。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：AssetOperationFaultArray[がた：AssetOperationFaultArray]</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <span class="codeph"> 次を含む</span>AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> </span>次を含むAssetOperationFaults 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">警告をスローしたアセット。 </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">警告コード。 </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告の理由です。 </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告の理由。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：AssetOperationFaultArray[がた：AssetOperationFaultArray]</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <span class="codeph"> 次を含む</span>AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> </span>次を含むAssetOperationFaults 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">エラーをスローしたアセット。 </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">エラーコード。 </li> 
@@ -94,7 +93,7 @@ ht-degree: 9%
 
 ## 例 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-このコードサンプルを使用すると、`assetMoveArray`で指定された特定の場所にアセットを移動できます。 この配列は、アセットハンドルとそのフォルダハンドルを含む。 この応答は、アセットが正常に移動されたことを示します。
+このコードサンプルを使用すると、アセットを`assetMoveArray`で指定された特定の場所に移動できます。 この配列には、アセットハンドルとそのフォルダーハンドルが含まれます。 この応答は、アセットが正常に移動されたことを示します。
 
 **リクエスト**
 
@@ -123,4 +122,3 @@ ht-degree: 9%
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
