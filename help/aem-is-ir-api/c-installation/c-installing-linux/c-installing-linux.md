@@ -1,19 +1,18 @@
 ---
 description: 画像サービングはLinuxにインストールできます。
 solution: Experience Manager
-title: Linuxでのインストール
-feature: Dynamic Media Classic,SDK/API
+title: Linuxへのインストール
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: dec2d67d-fd2c-4856-9cb7-085d668d42fb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
-
-# Linuxでのインストール{#installing-on-linux}
+# Linuxへのインストール{#installing-on-linux}
 
 画像サービングはLinuxにインストールできます。
 
