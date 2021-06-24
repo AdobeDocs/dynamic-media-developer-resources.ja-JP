@@ -2,16 +2,15 @@
 description: PermissionSetArray
 solution: Experience Manager
 title: PermissionSetArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6019cf9-8c3a-48a7-b7bb-fa2191a958fa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
-
 
 # PermissionSetArray{#permissionsetarray}
 
@@ -22,4 +21,3 @@ ht-degree: 30%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`商品`*` | `types:PermissionSet` | 権限セットの配列。 |
-
