@@ -1,21 +1,20 @@
 ---
-description: マスクファイルのプロパティ。
+description: ファイルのプロパティをマスクします。
 solution: Experience Manager
 title: MaskInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
-
 # MaskInfo{#maskinfo}
 
-マスクファイルのプロパティ。
+ファイルのプロパティをマスクします。
 
 構文
 
@@ -23,6 +22,5 @@ ht-degree: 17%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`maskPath`*` | `xsd:string` | マスクファイルのパス |
-| `*`maskFile`*` | `xsd:string` | マスクファイル名 |
-
+| `*`maskPath`*` | `xsd:string` | ファイルパスをマスクします。 |
+| `*`maskFile`*` | `xsd:string` | マスクファイル名。 |
