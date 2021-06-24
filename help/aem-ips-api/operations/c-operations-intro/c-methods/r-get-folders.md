@@ -1,28 +1,27 @@
 ---
-description: フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
+description: フォルダーパスで始まる、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダーを返します。
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 8%
 
 ---
 
-
 # getFolders{#getfolders}
 
-フォルダーパスから開始する、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダを返します。
+フォルダーパスで始まる、すべてのフォルダーとサブフォルダーを返します。 getFolders応答は、最大100,000個のフォルダーを返します。
 
-## フォルダの目的{#section-66e344d5333f42f1b060a0cba25935c3}
+## フォルダーの目的 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-フォルダーを使用すると、サブフォルダーとアセットを整理できます。 すべてのフォルダーとアセット名は一意である必要があります。 同じ名前を共有するフォルダーとアセットが、異なるフォルダー階層にある場合でも、名前空間の競合を引き起こします。
+フォルダーを使用して、サブフォルダーとアセットを整理できます。 すべてのフォルダー名とアセット名は一意である必要があります。 同じ名前を共有するフォルダーやアセットは、異なるフォルダー階層にある場合でも名前空間の競合を引き起こします。
 構文
 
-## 認証済みユーザータイプ{#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## 許可されたユーザーの種類 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,7 +35,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ユーザーがフォルダーにデータを返すには、フォルダーへの読み取りアクセス権が必要です。
+>ユーザーがフォルダーのデータを返すには、フォルダーへの読み取りアクセス権が必要です。
 
 ## パラメータ {#section-0c1976503eaa418a9226b51667901176}
 
@@ -44,11 +43,11 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社へのハンドル。 |
-| `*`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーを装うために使用します。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| `*`accessUserHandle`*` | `xsd:string` | いいえ | 管理者が特定のユーザーとして実行する際に使用します。 |
 | `*`accessGroupHandle`*` | `xsd:string` | いいえ | 特定のグループでフィルターします。 |
-| `*`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダーです。 除外した場合は、会社ルートが使用されます。 |
-| `*`assetTypeArray`*` | `types:StringArray` | いいえ | 指定したアセットタイプのみを含むフォルダを返します。 |
+| `*`folderPath`*` | `xsd:string` | いいえ | フォルダーとすべてのサブフォルダーをリーフレベルに取得するルートフォルダー。 除外された場合は、会社のルートが使用されます。 |
+| `*`assetTypeArray`*` | `types:StringArray` | いいえ | 指定されたアセットタイプのみを含むフォルダーを返します。 |
 | `*`responseFieldArray`*` | `types:StringArray` | いいえ | 応答に含めるフィールドのリストが含まれます。 |
 | `*`excludeFieldArray`*` | `types:StringArray` | いいえ | 応答から除外するフィールドのリストが含まれます。 |
 
@@ -56,12 +55,12 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | いいえ | フィルター条件に一致するフォルダーの配列です。 応答は最大100,000個のフォルダーに制限されます。 |
+| `*`folderArray`*` | `types:FolderArray` | いいえ | フィルター条件に一致するフォルダーの配列。 応答は、最大100,000個のフォルダーに制限されます。 |
 | `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-次のコードの例は、会社のすべてのフォルダと各フォルダに関する特定の情報を含む配列を返します。
+このコードのサンプルを使用すると、会社のすべてのフォルダーと、各フォルダーに関する特定の情報を含む配列が返されます。
 
 **リクエスト**
 
@@ -94,4 +93,3 @@ ht-degree: 8%
    </folderArray>
 </getFoldersReturn>
 ```
-
