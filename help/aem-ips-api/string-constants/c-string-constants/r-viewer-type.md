@@ -2,10 +2,9 @@
 description: ViewerPresetInfoで使用されます。
 solution: Experience Manager
 title: ビューアの種類
-feature: Dynamic Media Classic,SDK/API,Viewers
+feature: Dynamic Media Classic,SDK/API，ビューア
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
-translation-type: tm+mt
 source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
 source-wordcount: '18'
