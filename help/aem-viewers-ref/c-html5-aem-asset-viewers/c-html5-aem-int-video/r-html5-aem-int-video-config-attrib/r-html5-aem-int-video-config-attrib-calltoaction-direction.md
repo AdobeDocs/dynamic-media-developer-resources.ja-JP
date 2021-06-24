@@ -2,13 +2,12 @@
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: CallToAction.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> 表示内でのサムネールの表示方法を指定します。 </p> <p>左から右の塗りの順序を設定するには、<span class="codeph">左</span>に設定します。 </p> <p><span class="codeph"> right </span>に設定すると順序が逆になり、右から左、上から下に表示が入力されます。 </p> <p>ロケールが<span class="codeph"> "ja" </span>に設定されている場合、<span class="codeph"> auto </span>に設定すると、コンポーネントが右側のモードを適用します。それ以外の場合は、<span class="codeph"> left </span>が使用されます。 </p> </td> 
+   <td colname="col2"> <p> ビュー内でのサムネールの表示方法を指定します。 </p> <p><span class="codeph"> left </span>に設定して、左から右への入力順序を設定します。 </p> <p><span class="codeph"> right </span>に設定すると順序が逆になり、右から左、上から下の方向に表示されます。 </p> <p>ロケールが<span class="codeph"> "ja" </span>に設定されている場合に、コンポーネントに正しいモードを適用させるには、 <span class="codeph"> auto </span>に設定します。それ以外の場合は、 <span class="codeph">左</span>が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
