@@ -1,22 +1,21 @@
 ---
-description: 必要に応じて、[イメージレンダリング]をアンインストールできます。
+description: 必要に応じて、画像レンダリングをアンインストールできます。
 solution: Experience Manager
 title: 画像レンダリングのアンインストール
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d9a874ee-4d12-42f3-962b-832fb0ec2727
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
+# 画像レンダリングのアンインストール{#uninstalling-image-rendering}
 
-# イメージレンダリングのアンインストール{#uninstalling-image-rendering}
-
-必要に応じて、[イメージレンダリング]をアンインストールできます。
+必要に応じて、画像レンダリングをアンインストールできます。
 
 アンインストールすると、インストールフォルダー内の一部のユーザードキュメントが削除される場合があります。 アンインストールする前に、保持するすべてのファイルをバックアップします。
 
-アンインストールする前に、管理者権限またはroot権限でサーバーホストにログインします。
+アンインストールする前に、管理者権限またはルート権限でサーバーホストにログインします。
