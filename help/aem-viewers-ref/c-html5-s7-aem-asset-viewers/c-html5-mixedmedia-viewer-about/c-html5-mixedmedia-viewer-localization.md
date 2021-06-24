@@ -1,29 +1,28 @@
 ---
-description: 混在メディアビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 例えば、ズームボタン、スピンボタン、ビデオコントロール、閉じるボタン、フルスクリーンボタン、スウォッチスクロールボタンなどです。
+description: 混在メディアビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、ズームボタン、スピンボタン、ビデオコントロール、閉じるボタン、フルスクリーンボタン、スウォッチのスクロールボタンが含まれます。
 solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
 # ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
 
-混在メディアビューアで表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 例えば、ズームボタン、スピンボタン、ビデオコントロール、閉じるボタン、フルスクリーンボタン、スウォッチスクロールボタンなどです。
+混在メディアビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、ズームボタン、スピンボタン、ビデオコントロール、閉じるボタン、フルスクリーンボタン、スウォッチのスクロールボタンが含まれます。
 
-ローカライズ可能なビューア内のテキストコンテンツは、すべてSYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 すべてのシンボルに、標準搭載のビューアに付属の英語ロケール(`"en"`)に対応するデフォルトのテキスト値があります。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ビューア内のテキスト内容は、ローカライズ可能ですべて、SYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 シンボルには、標準提供のビューアに付属する英語のロケール(`"en"`)に関連するデフォルトのテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
-ビューアの開始は、現在のロケールをチェックし、ロケールでサポートされている各シンボルにユーザ定義の値があるかどうかを確認します。 存在する場合は、ユーザー定義の値が使用されます。それ以外の場合は、そのまま使用できるデフォルトのテキストに戻ります。
+ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされている各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値が使用されます。それ以外の場合は、標準のデフォルトテキストに戻ります。
 
-ユーザ定義のローカライゼーションデータは、ローカライゼーションJSONオブジェクトとしてビューアに渡すことができます。 このオブジェクトには、サポートされるロケールのリスト、各ロケールのシンボルテキスト値、およびデフォルトロケールが含まれます。
+ユーザー定義のローカライゼーションデータは、ローカライゼーションJSONオブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケールのリスト、各ロケールのシンボルテキスト値、およびデフォルトのロケールが含まれます。
 
-このようなローカライゼーションオブジェクトの例を次に示します。
+このようなローカリゼーションオブジェクトの例を次に示します。
 
 ```
 { 
@@ -39,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-上記の例では、ローカライゼーションオブジェクトは2つのロケール（`"en"`と`"fr"`）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
+上の例では、ローカリゼーションオブジェクトは2つのロケール（ `"en"`と`"fr"` ）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
 
-Webページコードは、設定オブジェクトの`localizedTexts`フィールドの値として、ローカライゼーションオブジェクトをビューアのコンストラクターに渡す必要があります。 別の方法として、`setLocalizedTexts(localizationInfo)`メソッドを呼び出してローカライゼーションオブジェクトを渡すこともできます。
+Webページコードでは、設定オブジェクトの`localizedTexts`フィールドの値として、ローカリゼーションオブジェクトをビューアコンストラクターに渡す必要があります。 別のオプションとして、 `setLocalizedTexts(localizationInfo)`メソッドを呼び出してローカライゼーションオブジェクトを渡す方法があります。
 
 次のシンボルがサポートされています。
 
@@ -49,37 +48,37 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>シンボル </p> </th> 
-   <th colname="col2" class="entry"> <p>ツールチップの対象 </p> </th> 
+   <th colname="col2" class="entry"> <p>ツールチップ </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> コンテナ.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>最上位レベルのビューア要素のARIAラベル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p>トップレベルビューア要素のARIAラベル </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示コンポーネントのARIAロールの説明です。 </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントのARIAロールの説明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>ARIAキーボードユーザー向けの使用上のヒントです。 </p> </td> 
+   <td colname="col2"> <p>ARIAキーボードユーザー用の使用ヒント </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示コンポーネントのARIAロールの説明です。 </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントのARIAロールの説明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>ARIAキーボードユーザー向けの使用上のヒントです。 </p> </td> 
+   <td colname="col2"> <p>ARIAキーボードユーザー用の使用ヒント </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示コンポーネントのARIAロールの説明です。 </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントのARIAロールの説明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>ARIAキーボードユーザー向けの使用上のヒントです。 </p> </td> 
+   <td colname="col2"> <p>ARIAキーボードユーザー用の使用ヒント </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
@@ -103,15 +102,15 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">インライン</span>ズームモードのタッチデバイス </p> </td> 
+   <td colname="col2"> <p><span class="codeph">インライン</span>ズームモードのタッチデバイス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>通常の状態でのフルスクリーンボタン。 </p> </td> 
+   <td colname="col2"> <p>通常状態のフルスクリーンボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーン状態でのフルスクリーンボタン。 </p> </td> 
+   <td colname="col2"> <p>全画面表示状態のフルスクリーンボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -147,7 +146,7 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>再生/一時停止ボタンが選択された状態。 </p> </td> 
+   <td colname="col2"> <p>再生/一時停止ボタンの状態を選択 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -155,7 +154,7 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
-   <td colname="col2"> <p>再生/一時停止ボタンの状態。 </p> </td> 
+   <td colname="col2"> <p>再生/一時停止ボタンの状態 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
@@ -167,15 +166,15 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>ミュート可能ボリュームが選択された状態。 </p> </td> 
+   <td colname="col2"> <p>ミュート可能ボリュームの選択状態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>ミュート可能ボリュームが選択解除されました。 </p> </td> 
+   <td colname="col2"> <p>ミュート可能ボリュームの選択を解除。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p>ARIA <span class="codeph"> aria-valuetext </span>属性で公開されたボリュームスライダノブのラベル。 </p> </td> 
+   <td colname="col2"> <p>ARIA <span class="codeph"> aria-valuetext </span>属性を介して公開されるボリュームスライダノブラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
@@ -183,4 +182,3 @@ Webページコードは、設定オブジェクトの`localizedTexts`フィー�
   </tr> 
  </tbody> 
 </table>
-
