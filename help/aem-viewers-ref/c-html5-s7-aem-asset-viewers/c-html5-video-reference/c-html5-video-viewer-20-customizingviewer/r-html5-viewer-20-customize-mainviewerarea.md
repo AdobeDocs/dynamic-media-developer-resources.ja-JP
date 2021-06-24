@@ -1,21 +1,20 @@
 ---
-description: メイン表示領域はビデオで占められます。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+description: メインビュー領域はビデオで占められます。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 2%
 
 ---
 
-
 # メインビューア領域{#main-viewer-area}
 
-メイン表示領域はビデオで占められます。 サイズが指定されていない場合、通常は使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域はビデオで占められます。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -25,13 +24,13 @@ ht-degree: 2%
 .s7videoviewer 
 ```
 
-## メインビューア領域{#css-properties-of-the-main-viewer-area}のCSSプロパティ
+## メインビューア領域のCSSプロパティ {#css-properties-of-the-main-viewer-area}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの幅。 </p> </td> 
+   <td colname="col2"> <p>ビューアの幅 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -55,4 +54,3 @@ ht-degree: 2%
  height: 288px;  
 }
 ```
-
