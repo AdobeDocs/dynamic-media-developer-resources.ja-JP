@@ -1,25 +1,24 @@
 ---
-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
+description: アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setAssetMetadata{#setassetmetadata}
 
-アセットのメタデータ値を設定します。 メタデータの更新の配列を処理して、値をバッチで設定します。
+アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
 
 構文
 
-## 認証済みユーザータイプ{#section-9dcacb0c924044648f8324bfed183dca}
+## 許可されたユーザーの種類 {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,7 +47,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-このコードのサンプルでは、メタデータの更新の配列を使用して、指定したアセットのメタデータを設定します。
+このコードサンプルでは、メタデータの更新の配列を使用して、指定したアセットのメタデータを設定します。
 
 **リクエスト**
 
