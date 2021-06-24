@@ -1,21 +1,20 @@
 ---
-description: 画像カタログからの画像セットデータ。 URLパスで指定された画像カタログエントリの画像セットデータを返します。
+description: 画像カタログの画像セットデータ。 URLパスで指定された画像カタログエントリの画像セットデータを返します。
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API，画像セット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
 
-
 # imageset{#imageset}
 
-画像カタログからの画像セットデータ。 URLパスで指定された画像カタログエントリの画像セットデータを返します。
+画像カタログの画像セットデータ。 URLパスで指定された画像カタログエントリの画像セットデータを返します。
 
 `req=imageset[,text|javascript|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
@@ -26,15 +25,15 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> requestId</span></span> </p></td> 
-  <td class="stentry"> <p>一意の要求識別子。 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト識別子。 </p></td> 
  </tr> 
 </table>
 
-`catalog::ImageSet`の内容は、文字列ローカライゼーション（該当する場合）を変更せずに返され、その後に1行の終端文字(CR/LF)が続きます。 URLパスが有効なカタログエントリに解決されない場合、応答には1つの行終端子のみが含まれます。
+`catalog::ImageSet`の内容は、それ以降の変更(文字列のローカライゼーション（該当する場合）を除く)せずに返され、その後に1行の終端文字(CR/LF)が続きます。 URLパスが有効なカタログエントリに解決されない場合、応答は1行のターミネータのみで構成されます。
 
-要求文字列内の他のコマンドは無視されます。 HTTP応答は、`catalog::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
+リクエスト文字列内の他のコマンドは無視されます。 HTTP応答は、`catalog::NonImgExpiration`に基づいてTTLでキャッシュ可能です。
 
-JSONP応答形式をサポートするリクエストでは、`req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
