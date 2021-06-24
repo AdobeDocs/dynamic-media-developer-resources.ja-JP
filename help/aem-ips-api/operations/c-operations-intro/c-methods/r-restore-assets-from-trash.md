@@ -1,25 +1,24 @@
 ---
-description: ごみ箱からアセットを元に戻します。
+description: ごみ箱からアセットを復元します。
 solution: Experience Manager
 title: restoreAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
 
-
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-ごみ箱からアセットを元に戻します。
+ごみ箱からアセットを復元します。
 
 構文
 
-## 認証済みユーザータイプ{#section-15e887782c7d4ace897ff02c6ad5baa0}
+## 許可されたユーザーの種類 {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +33,18 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 復元するアセットを含む会社へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 復元するアセットを持つ会社へのハンドル。 |
 | `*`assetHandleArray`*` | `types:HandleArray` | はい | 復元するアセットのハンドルの配列。 |
 
 **出力(restoreAssetsFromTrashReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常にごみ箱から削除されたアセットの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がごみ箱からアセットを復元しようとしたときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | ごみ箱からアセットを復元しようとしたときに発生したエラーの数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときに警告を生成したアセットに関連付けられた詳細の配列です。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| `*`successCount`*` | `xsd:int` | はい | ごみ箱から正常に削除されたアセットの数。 |
+| `*`warningCount`*` | `xsd:int` | はい | 操作でごみ箱からアセットを復元しようとしたときに生成された警告の数。 |
+| `*`errorCount`*` | `xsd:int` | はい | ごみ箱からアセットを復元しようとしたときに生成されたエラーの数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときに警告が発生したアセットに関連付けられた詳細の配列。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がごみ箱からアセットを復元しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
@@ -72,4 +71,3 @@ ht-degree: 12%
    <errorCount>0</errorCount>
 </restoreAssetsFromTrashReturn
 ```
-
