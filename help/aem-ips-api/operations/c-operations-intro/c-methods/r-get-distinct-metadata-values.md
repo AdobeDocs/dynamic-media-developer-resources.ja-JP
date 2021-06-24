@@ -2,16 +2,15 @@
 description: メタデータフィールドのすべての値を返します。
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -19,7 +18,7 @@ ht-degree: 21%
 
 構文
 
-## 認証済みユーザータイプ{#section-f0f44fdcb318490582dd04de8eaf745d}
+## 許可されたユーザーの種類 {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,7 +41,7 @@ ht-degree: 21%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | はい | 要求されたメタデータフィールドの値。 |
+| `*`valueArray`*` | `types:ValueArray` | はい | リクエストされたメタデータフィールドの値。 |
 
 ## 例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
