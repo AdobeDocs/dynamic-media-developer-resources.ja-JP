@@ -2,16 +2,15 @@
 description: IPS APIバージョン6の新しいタイプと変更されたタイプについて説明します。
 solution: Experience Manager
 title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---
-
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
@@ -19,7 +18,7 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 
 構文
 
-## 新しいタイプ{#section-71ba6954339e4ba899acdf8a3212d6f3}
+## 新しいタイプ {#section-71ba6954339e4ba899acdf8a3212d6f3}
 
 * `AssetContextStateUpdate`
 * `AssetContextStateUpdateArray`
@@ -37,13 +36,13 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 * `PublishContext`
 * `PublishContextArray`
 
-## 変更されたタイプ{#section-56b834b1a3b843279d8715b4a4f3890b}
+## 変更されたタイプ {#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **追加済み**
 
 * `numUrls`を`UploadUrlsJob`に追加しました。
 
-* `fileName`を`Asset.`に追加
+* `fileName`を`Asset.`に追加しました。
 
 * `isHidden`を`MetadataField`に追加しました。
 
@@ -53,7 +52,7 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 
 * `optmizedPath`と`optimizedFile`を`PsdInfo`に追加しました。
 
-* `contextHandle`を次に追加：
+* `contextHandle`を次の場所に追加しました。
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -72,4 +71,3 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 * `Folder`で、`permissions`を`permissionsSetHandle`に変更しました。
 
 * `AssetSummary`では、`type`と`name`はオプションになりました。
-
