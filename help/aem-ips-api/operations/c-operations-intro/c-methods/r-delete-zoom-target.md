@@ -2,22 +2,21 @@
 description: ズームターゲットを削除します。
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 12%
 
 ---
-
 
 # deleteZoomTarget{#deletezoomtarget}
 
 ズームターゲットを削除します。
 
-## 認証済みユーザータイプ{#section-09ca82bc817e49048271c5cba545702e}
+## 許可されたユーザーの種類 {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +44,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-このコードのサンプルを使用すると、会社からズームターゲットを削除できます。
+このコードサンプルでは、会社からズームターゲットを削除します。
 
 **リクエスト**
 
