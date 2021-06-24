@@ -2,16 +2,15 @@
 description: 特定のフィールドで使用されている文字のリストを取得します。
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 11%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 認証済みユーザータイプ{#section-7023871be4d2442daf51ff060ca06d9a}
+## 許可されたユーザーの種類 {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,29 +31,29 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を指定します。 |
-| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブなメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
+| `*`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を決定します。 |
+| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか除外します。 IPS以外の管理者ユーザーは、API呼び出しをおこなう権限を持つ1社以上のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、承認エラーが返されます。 |
 | `*`includInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルターします。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | フィルターは、グループに基づいて結果を返します。 |
-| `*`userRoleArray`*` | `types:StringArray` | いいえ | フィルターの役割に基づく結果です。 |
-| `*`numChars`*` | `xsd:int` | いいえ | >1文字を有効にします。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | グループに基づいて結果をフィルターします。 |
+| `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルターします。 |
+| `*`numChars`*` | `xsd:int` | いいえ | 1文字を超える文字を有効にする。 |
 
 **出力(getUserCharsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | はい | 文字プリフィックスの配列。 |
+| `*`userCharsArray`*` | `types:StringArray` | はい | 文字プレフィックスの配列。 |
 
 ## 例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
-次のコードサンプルが返します。
+このコードサンプルは、次の値を返します。
 
 * 特定の会社のユーザーの姓の最初の文字。
 * グループのセット。
-* ユーザーの役割のセット。
+* 一連のユーザーの役割。
 
-User Char Filter Fields文字列定数は、返されるユーザー文字の種類を決定します。
+User Char Filter Fields文字列定数は、返されるユーザー文字のタイプを決定します。
 
 **リクエスト**
 
@@ -79,4 +78,3 @@ User Char Filter Fields文字列定数は、返されるユーザー文字の種
    </userCharsArray>
 </getUserCharsReturn>
 ```
-
