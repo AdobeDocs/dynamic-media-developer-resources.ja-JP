@@ -2,16 +2,15 @@
 description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 19239fa8-65a8-487f-9370-42bb93d862d5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
-
 
 # PageView.frametransition{#pageview-frametransition}
 
@@ -21,16 +20,16 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> slide|turn|auto</span> </p> </td> 
-   <td colname="col2"> <p> フレーム変更時に適用する効果のタイプを指定します。 </p> <p> 
+   <td colname="col2"> <p> フレームの変更時に適用される効果のタイプを指定します。 </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> ス</span> ライドにより、前のフレームが表示からスライドアウトし、新しいフレームが表示にスライドインするトランジションがアクティブになります。 </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> ページのフリップ効果を</span> 有効にすると、ユーザーが四隅の1つをドラッグして、インタラクティブなページのフリップを実行できます。 </p> <p><span class="codeph"> turn</span>を使用する場合、コンポーネントの外観は<span class="codeph"> pageturnstyle</span>修飾子を使用して制御され、<span class="codeph"> .s7pagedivider</span> CSSクラスは無視されます。 </p> <p>注意：  <p><span class="codeph"> Motorola Xoomでは、</span> 自動アニメーションはサポートされていません。 </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> デスクトップシステムではターンフレームトランジション、タッチデバイスではスライドトランジションを</span> 自動設定します。 </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> </span> スライドを使用すると、前のフレームがビューからスライドアウトし、新しいフレームがスライドインして表示するトランジションがアクティブになります。 </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> </span> を自動的にオンにすると、4つの見開き隅の1つをドラッグして、インタラクティブなページ反転を実行できます。 </p> <p><span class="codeph"> turn</span>を使用すると、コンポーネントの外観が<span class="codeph"> pageturnstyle</span>修飾子で制御され、 <span class="codeph"> .s7pagedivider</span> CSSクラスは無視されます。 </p> <p>注意：  <p><span class="codeph"> </span> Motorola Xoomでは、自動アニメーションはサポートされていません。 </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> </span> は、デスクトップシステムではターンフレームトランジションを、タッチデバイスではスライドトランジションを自動設定します。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> slide</span>または<span class="codeph"> turn</span>トランジション効果の時間を秒単位で指定します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">スライド</span>または<span class="codeph">ターン</span>トランジション効果の時間を秒単位で指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
