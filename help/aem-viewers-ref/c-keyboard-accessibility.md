@@ -1,115 +1,114 @@
 ---
-description: 基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、ディメンション(3D)、カルーセル、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
+description: 基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、ディメンショナル(3D)、カルーセル、インタラクティブ画像、インタラクティブビデオ、ビデオ360の各ビューアインターフェイスで公開されている機能は、キーボード操作可能です。
 solution: Experience Manager
 title: キーボードのアクセシビリティとナビゲーション
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，ビューア，SDK/API
 role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # キーボードのアクセシビリティとナビゲーション{#keyboard-accessibility-and-navigation}
 
-基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、カルーセル、ディメンション(3D)、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
+基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、カルーセル、寸法(3D)、インタラクティブ画像、インタラクティブビデオ、ビデオ360の各ビューアインターフェイスで公開されているすべての機能がキーボード操作可能です。
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## キーボードのアクセシビリティとナビゲーション{#topic-f5650e9493404e55a3627c8d1366b861}
+## キーボードのアクセシビリティとナビゲーション {#topic-f5650e9493404e55a3627c8d1366b861}
 
-基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、カルーセル、ディメンション(3D)、インタラクティブ画像、インタラクティブビデオおよびビデオ360ビューアインターフェイスで公開されたすべての機能は、キーボードからアクセスできます。
+基本ズーム、eCatalog、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、ズーム、カルーセル、寸法(3D)、インタラクティブ画像、インタラクティブビデオ、ビデオ360の各ビューアインターフェイスで公開されているすべての機能がキーボード操作可能です。
 
-エンドユーザは、**[!UICONTROL タブ]**&#x200B;と&#x200B;**[!UICONTROL Shift+タブ]**&#x200B;のキーストロークを使用して、ビューアのユーザインターフェイス要素間を移動できます。 **[!UICONTROL タブ]**&#x200B;を使用すると、タブ順序内の次のユーザーインターフェイス要素に入力フォーカスが移動します。**[!UICONTROL Shift+Tab]**&#x200B;を使用すると、入力フォーカスが前のユーザーインターフェイス要素に戻ります。 フォーカストラバーサルは、画面上の自然なユーザインターフェイス要素の位置に従い、左から右、上から下の順に移動します。
+エンドユーザーは、**[!UICONTROL Tab]**&#x200B;キーストロークと&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;キーストロークを使用して、ビューアのユーザインターフェイス要素間を移動できます。 **[!UICONTROL Tab]**&#x200B;を使用すると、入力フォーカスがタブ順序内の次のユーザーインターフェイス要素に進みます。**[!UICONTROL Shift+Tab]**&#x200B;を使用すると、前のユーザーインターフェイス要素に入力フォーカスが戻ります。 フォーカストラバーサルは、画面上の自然なユーザーインターフェイス要素の位置に従って、左から右、上から下の順に移動します。
 
-オペレーティングシステムとWebブラウザの設定に応じて、入力フォーカスを持つユーザインターフェイス要素が視覚的なフォーカス表示を受け取る。 例えば、視覚的なインジケーターは、ユーザーインターフェイス要素の周りにレンダリングされる細い境界線にすることができます。
+オペレーティングシステムとWebブラウザの設定に応じて、入力フォーカスを持つユーザインターフェイス要素が視覚的なフォーカス表示を受け取る。 例えば、視覚インジケーターは、ユーザーインターフェイス要素の周囲にレンダリングされる細い境界線にすることができます。
 
-ビューアのCSSでは、このようなフォーカスハイライトを無効またはカスタマイズできます。 このヘルプシステムの目次の特定のビューア名（基本ズーム、インタラクティブビデオなど）の下で、**ビューア名のカスタマイズ&#x200B;****/**&#x200B;ハイライト&#x200B;**をクリックします。
+ビューアのCSSでは、このようなフォーカスハイライトを無効にしたり、カスタマイズしたりできます。 このヘルプシステムの目次で、特定のビューア名（基本ズームやインタラクティブビデオなど）の下の「**カスタマイズ&#x200B;*ビューア名*** /**&#x200B;フォーカスハイライト&#x200B;**」をクリックします。
 
-個々のビューアのユーザインターフェイス要素でサポートされているキーストロークは、ほとんどの場合、わかりやすく見つけやすいものです。
+個々のビューアのユーザインターフェイス要素でサポートされるキーストロークは、ほとんどの場合、明らかで見つけやすいものです。
 
 <table id="table_8C49100412224324BF1DBF7FDFDCCBF8"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>アクション </p> </th> 
-   <th colname="col2" class="entry"> <p>キーストローク </p> </th> 
+   <th colname="col2" class="entry"> <p>キー入力 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ボタンコンポーネントのアクティブ化 </p> </td> 
-   <td colname="col2"> <p>スペースキーまたはEnterキー </p> </td> 
+   <td colname="col2"> <p>スペースキーまたはEnterキー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ズームインまたはズームアウト </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> または <span class="uicontrol"> - </span>をそれぞれ入力します。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +ま </span> たは <span class="uicontrol"> -  </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ズームのリセット </p> </td> 
+   <td colname="col1"> <p>ズームリセット </p> </td> 
    <td colname="col2"> <p>Escキー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パン </p> </td> 
-   <td colname="col2"> <p>上向き、下向き、左向きまたは右向き矢印キー。 </p> </td> 
+   <td colname="col2"> <p>上、下、左、右の矢印キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>360度の画像の回転 </p> </td> 
-   <td colname="col2"> <p>画像がリセット状態の場合は、矢印キーを使用します。 </p> <p>複数次元のスピンセットを操作する場合は、上向きまたは下向き矢印キーを使用します。 </p> </td> 
+   <td colname="col1"> <p>360度画像の回転 </p> </td> 
+   <td colname="col2"> <p>画像がリセット状態の場合は、矢印キーを使用します。 </p> <p>複数次元のスピンセットを操作する場合は、上向き矢印キーまたは下向き矢印キーを使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>製品スウォッチの選択 </p> </td> 
-   <td colname="col2"> <p>上向き、下向き、左向きまたは右向き矢印キー。HomeキーまたはEndキー。 </p> </td> 
+   <td colname="col2"> <p>上、下、左または右の矢印キー。ホームキーまたは終了キー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>製品スウォッチのアクティベーション </p> </td> 
-   <td colname="col2"> <p>スペースキーまたはEnterキー </p> </td> 
+   <td colname="col2"> <p>スペースキーまたはEnterキー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオとインタラクティブビデオ、段階的巻き戻し </p> </td> 
-   <td colname="col2"> <p>左向きまたは上向き矢印キー。 </p> </td> 
+   <td colname="col1"> <p>ビデオおよびインタラクティブビデオ、徐々に巻き戻す </p> </td> 
+   <td colname="col2"> <p>左向き矢印キーまたは上向き矢印キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオとインタラクティブビデオ、早送り </p> </td> 
-   <td colname="col2"> <p>右向きまたは下向き矢印キー。 </p> </td> 
+   <td colname="col1"> <p>ビデオおよびインタラクティブビデオ、早送り </p> </td> 
+   <td colname="col2"> <p>右向き矢印キーまたは下向き矢印キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオとインタラクティブビデオ、先頭または末尾へ移動 </p> </td> 
+   <td colname="col1"> <p>ビデオとインタラクティブビデオ、開始または終了 </p> </td> 
    <td colname="col2"> <p>HomeキーまたはEndキー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオとインタラクティブビデオ。フォーカスがスライダーにある場合にボリュームレベルを制御 </p> </td> 
-   <td colname="col2"> <p>上向き、下向き、左向きまたは右向き矢印キー。HomeキーまたはEndキー。 </p> </td> 
+   <td colname="col1"> <p>ビデオとインタラクティブビデオ。フォーカスがスライダーにあるときの音量レベルを制御 </p> </td> 
+   <td colname="col2"> <p>上、下、左または右の矢印キー。ホームキーまたは終了キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオとインタラクティブビデオ、ミュート可能ボリューム </p> </td> 
-   <td colname="col2"> <p>矢印キー、ホームキー、終了キーを使用して、フォーカスがスライダパーツにあるときのボリュームレベルを制御します。 </p> </td> 
+   <td colname="col1"> <p>ビデオとインタラクティブビデオ、可変ボリューム </p> </td> 
+   <td colname="col2"> <p>フォーカスがスライダパーツにあるときのボリュームレベルを制御する矢印キー、ホームキー、終了キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ビデオでは、モーダルダイアログボックスが表示されている場合、フォーカストラバーサルはダイアログボックスのコントロールにのみ制限されます。 </p> </td> 
+   <td colname="col1"> <p>ビデオでは、モーダルダイアログボックスが表示されると、フォーカストラバーサルはダイアログボックスのコントロールのみに制限されます。 </p> </td> 
    <td colname="col2"> <p>Escキーを押して、ダイアログボックスを閉じます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>カルーセル、メイン表示のバナー画像の変更 </p> </td> 
-   <td colname="col2"> <p>左向きまたは右向き矢印キー。 </p> </td> 
+   <td colname="col1"> <p>カルーセル、メインビューのバナー画像の変更 </p> </td> 
+   <td colname="col2"> <p>左または右向き矢印キー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>カルーセル、ホットスポットの選択、ホットスポットのアクティベーション </p> </td> 
-   <td colname="col2"> <p>ホットスポットの選択：上向き、下向き、左向きまたは右向き矢印キー </p> <p>ホットスポットアクティベーション:スペースキーまたはEnterキー </p> </td> 
+   <td colname="col1"> <p>カルーセル、ホットスポット選択、ホットスポットのアクティブ化 </p> </td> 
+   <td colname="col2"> <p>ホットスポットの選択：上、下、左または右向き矢印キー </p> <p>ホットスポットのアクティベート：スペースキーまたはEnterキー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalogで、メイン表示のページ画像を変更します。 </p> </td> 
-   <td colname="col2"> <p> 左または右の矢印キー。 </p> </td> 
+   <td colname="col1"> <p>eCatalogで、メインビューのページ画像を変更します。 </p> </td> 
+   <td colname="col2"> <p> 左右の矢印キー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog、サムネールの選択 </p> </td> 
-   <td colname="col2"> <p>矢印キー；HomeキーとEndキー </p> </td> 
+   <td colname="col2"> <p>矢印キー；ホームキーと終了キー </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog、スウォッチアクティベーション </p> </td> 
-   <td colname="col2"> <p>スペースキーまたはEnterキー </p> </td> 
+   <td colname="col1"> <p>eCatalog，スウォッチのアクティブ化 </p> </td> 
+   <td colname="col2"> <p>スペースキーまたはEnterキー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog、ホットスポット選択 </p> </td> 
@@ -121,14 +120,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog、ドロップダウンコンポーネントのアクティブ化 </p> </td> 
-   <td colname="col2"> <p> 下向き矢印キー；スペース、またはEnterキー </p> </td> 
+   <td colname="col2"> <p> 下向き矢印キースペース、またはEnterキー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog（フォーカスがドロップダウンパネルにある場合） </p> </td> 
    <td colname="col2"> <p>アクティブ化する前に、矢印キーを使用して、パネル内の特定の項目を選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalogでは、モーダルダイアログボックスが表示される場合、フォーカストラバーサルはダイアログボックスのコントロールにのみ制限されます。 </p> </td> 
+   <td colname="col1"> <p>eCatalogでは、モーダルダイアログボックスが表示されると、フォーカストラバーサルはダイアログボックスのコントロールのみに制限されます。 </p> </td> 
    <td colname="col2"> <p>Escキーを押して、ダイアログボックスを閉じます。 </p> </td> 
   </tr> 
  </tbody> 
