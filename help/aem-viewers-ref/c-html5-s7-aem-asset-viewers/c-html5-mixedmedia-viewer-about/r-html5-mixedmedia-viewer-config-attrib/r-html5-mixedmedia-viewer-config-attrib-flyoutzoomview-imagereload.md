@@ -1,33 +1,32 @@
 ---
-description: コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。
+description: サイズ変更時にメインビューとフライアウトビューの新しい画像を取得する方法を設定します。
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 3%
 
 ---
 
-
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-コンポーネントで、サイズ変更時にメイン画像とフライアウト表示の新しい画像を取得する方法を設定します。
+サイズ変更時にメインビューとフライアウトビューの新しい画像を取得する方法を設定します。
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`幅`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`widthwidth`*]]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 0 </span>に設定した場合、コンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウト表示の画像解像度は変更されません。 </p> <p><span class="codeph"> 1 </span>に設定すると、メイン表示にロードする画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 0 </span>に設定した場合、コンポーネントはサイズ変更時に新しい画像を読み込まず、フライアウトビューの画像解像度は変更されません。 </p> <p><span class="codeph"> 1 </span>に設定すると、メインビューにロードされる画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> breakpoint,  <span class="varname"> width  </span>[; <span class="varname"> width  </span>]  </span> </p> </td> 
-   <td colname="col2"> <p>メイン表示に読み込まれる画像の幅のブレークポイント。 コンポーネントは、最初の読み込みに常に最適なサイズを使用します。 サイズ変更後は、メイン表示の画像が常に最も近い大きいブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
+   <td colname="col2"> <p>メインビューに読み込まれる画像の幅のブレークポイント。 コンポーネントは、常に最初の荷重に最適なサイズを使用します。 サイズ変更後は、メインビューの画像が常に最も近い大きいブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
