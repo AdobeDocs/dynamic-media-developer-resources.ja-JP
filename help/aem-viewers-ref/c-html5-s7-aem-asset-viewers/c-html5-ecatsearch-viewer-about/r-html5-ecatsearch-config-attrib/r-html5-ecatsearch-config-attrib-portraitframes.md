@@ -2,16 +2,15 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 7%
 
 ---
-
 
 # portraitFrames{#portraitframes}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">split</span>に設定すると、モバイルデバイスを縦置きにして使用した場合に、重複ページが別のページとしてビューアに表示されます。 デバイスの向きに関係なく常に重複ページの見開きをベタ画像として表示する場合は、<span class="codeph"> solid</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> split</span>に設定すると、ビューアをモバイルデバイスで縦向きに使用したときに、見開き2ページを個別のページとして表示できます。 <span class="codeph"> solid</span>に設定すると、デバイスの向きに関係なく、常に見開き2ページが実線画像として表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
