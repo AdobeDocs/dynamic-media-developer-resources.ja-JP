@@ -1,23 +1,22 @@
 ---
-description: 会社、グループ、およびユーザーの役割ハンドルで指定されたユーザーの配列を取得します。 この操作により、返されたユーザーを並べ替えたり、文字でフィルターしたりできます。
+description: 会社、グループ、およびユーザーの役割のハンドルで指定されたユーザーの配列を取得します。 この操作では、返されたユーザーを並べ替え、文字でフィルターできます。
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 10%
 
 ---
 
-
 # getUsers{#getusers}
 
-会社、グループ、およびユーザーの役割ハンドルで指定されたユーザーの配列を取得します。 この操作により、返されたユーザーを並べ替えたり、文字でフィルターしたりできます。
+会社、グループ、およびユーザーの役割のハンドルで指定されたユーザーの配列を取得します。 この操作では、返されたユーザーを並べ替え、文字でフィルターできます。
 
-## 認証済みユーザータイプ{#section-6a8f23cc6b22442d8776f701016971ed}
+## 許可されたユーザーの種類 {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,26 +26,26 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか、除外します。 IPS以外の管理者ユーザは、API呼び出しを行う権限を持つ少なくとも1人の会社のアクティブなメンバである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合は、認証エラーが返されます。 |
-| `*`includeInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含める/除外できます。 |
+| `*`includeInactive`*` | `xsd:boolean` | いいえ | 非アクティブなユーザーを含めるか除外します。 IPS以外の管理者ユーザーは、API呼び出しをおこなう権限を持つ1社以上のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、承認エラーが返されます。 |
+| `*`includeInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外するかを指定します。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社で結果をフィルターします。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | いいえ | 結果をグループでフィルターします。 |
 | `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割で結果をフィルターします。 |
-| `*`charFilterField`*` | `xsd:string` | いいえ | フィールドの文字列プレフィックスで結果をフィルタします（[!DNL Trash State).]を参照） |
-| `*`charFilter`*` | `xsd:string` | いいえ | 特定の文字で結果をフィルタリングします。 |
-| `*`sortBy`*` | `xsd:string` | いいえ | ユーザーによる並べ替えフィールドの選択 |
-| `*`recordsPerPage`*` | `xsd:int` | いいえ | 1ページに指定した数のレコードを返します。 |
+| `*`charFilterField`*` | `xsd:string` | いいえ | フィールドの文字列プレフィックスで結果をフィルターします([!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | いいえ | 特定の文字で結果をフィルターします。 |
+| `*`sortBy`*` | `xsd:string` | いいえ | ユーザーによる並べ替えフィールドの選択。 |
+| `*`recordsPerPage`*` | `xsd:int` | いいえ | 1ページあたりの指定されたレコード数を返します。 |
 | `*`resultsPage`*` | `xsd:int` | いいえ | 結果ページ |
 
-**Output (getUsersReturn)**
+**出力(getUsersReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | はい | 一連のユーザー。 |
+| `*`userArray`*` | `types:UserArray` | はい | ユーザーの配列。 |
 
 ## 例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-次のコードのサンプルを使用すると、いくつかのオプションのパラメーターに対してユーザーの配列を返すことができます。 ユーザーの役割、ユーザーの文字フィルターフィールド、ユーザーの並べ替えフィールドは、特定の文字列定数を使用して決定されます。
+このコードサンプルは、いくつかのオプションパラメーターのユーザーの配列を返します。 ユーザーの役割、ユーザー文字フィルターフィールド、ユーザーの並べ替えフィールドは、特定の文字列定数を使用して決定されます。
 
 **リクエスト**
 
@@ -81,4 +80,3 @@ ht-degree: 10%
    </userArray>
 </getUsersReturn>
 ```
-
