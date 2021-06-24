@@ -1,25 +1,24 @@
 ---
-description: カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意な素材識別子です。
+description: カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意のマテリアル識別子。
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 8%
+source-wordcount: '86'
+ht-degree: 9%
 
 ---
 
-
 # ID{#id}
 
-カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意な素材識別子です。
+カタログレコード識別子。 マテリアルレコードがRender Serverによって検索されるキー値。 通常は、SKU番号など、短く一意のマテリアル識別子。
 
 ## プロパティ {#section-9b20bf2545314620808b4210bce7afc9}
 
-テキスト文字列。 必須。`catalog::Id`の各値は、この材料カタログ内で一意である必要があり、&#39;,&#39;文字を含めることはできません。
+テキスト文字列。 必須。`catalog::Id`の各値は、このマテリアルカタログ内で一意である必要があり、「,」文字を含めることはできません。
 
 ## 初期設定 {#section-6a517046c43a40a7ba0af0212b5f31d2}
 
