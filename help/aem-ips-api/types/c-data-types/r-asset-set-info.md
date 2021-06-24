@@ -1,21 +1,20 @@
 ---
-description: アセットタイプがアセットのプロパティ。
+description: AssetSetタイプのアセットのプロパティ。
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # AssetSetInfo{#assetsetinfo}
 
-アセットタイプがアセットのプロパティ。
+AssetSetタイプのアセットのプロパティ。
 
 構文
 
@@ -24,4 +23,3 @@ ht-degree: 10%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`setDefinition`*` | `xsd:string` | 対象のISビューアの要件に従って形式設定されたアセットセット定義。 オプションのIPS置換パラメータを含めることができます。 |
-
