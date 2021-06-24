@@ -2,16 +2,15 @@
 description: 基本ズームビューアのJavaScript APIリファレンス
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e9bf641f-5bc9-42d9-a030-5591cd883373
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -19,11 +18,11 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-ビューアで使用されているビューアSDKコンポーネントへの参照を返します。 Webページでは、このメソッドを使用して、標準搭載のビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete`ビューアのコールバックを実行した後でのみ呼び出してください。呼び出さないと、ビューアのロジックによってコンポーネントがまだ作成されていない場合があります。
+ビューアで使用されるビューアSDKコンポーネントへの参照を返します。 Webページでは、この方法を使用して、標準提供ビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete`ビューアのコールバックを実行した後にのみ呼び出します。そうしないと、ビューアのロジックによってコンポーネントがまだ作成されていない可能性があります。
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  — ビューア `{String}` が使用するビューアSDKコンポーネントのID。このビューアでは、次のコンポーネントIDがサポートされています。
+`*`componentID`*`  - `{String}` ビューアで使用されるビューアSDKコンポーネントのID。このビューアは、次のコンポーネントIDをサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -39,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.コンテナ  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
@@ -72,13 +71,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK APIを使用する場合、ビューアSDKの名前空間で説明されているとおり、正しい完全修飾SDK名前空間を使用することが重要です
+SDK APIを操作する場合は、ビューアSDKの名前空間で説明されているように、正しい完全修飾SDK名前空間を使用することが重要です
 
-特定のコンポーネントについて詳しくは、ビューアSDK APIドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、ビューアSDK APIのドキュメントを参照してください。
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` ビューアSDKコンポーネントへのリファレンス。`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合は、`null`が返されます。
+`{Object}` ビューアSDKコンポーネントへのリファレンス。`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアのロジックによってコンポーネントがまだ作成されていない場合、メソッドは`null`を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
@@ -89,4 +88,3 @@ SDK APIを使用する場合、ビューアSDKの名前空間で説明されて�
 } 
 })
 ```
-
