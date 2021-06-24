@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# ビューアSDKチュートリアル{#viewer-sdk-tutorial}
+# ビューアSDKのチュートリアル{#viewer-sdk-tutorial}
 
 ビューアSDKは、カスタムビューア開発用のJavaScriptベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツをWebページに埋め込むことができるWebベースのアプリケーションです。
 
@@ -32,7 +32,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 * [ビューアへのボタンの追加](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [スウォッチの垂直方向の設定](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}から最新のビューアSDKをダウンロードします。
+## Adobe Developer Connectionから最新のビューアSDKをダウンロードします。 {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. 最新のビューアSDKをAdobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->からダウンロードします。
 
@@ -40,7 +40,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
    >
    >SDKは実際にリモートで読み込まれるので、ビューアSDKパッケージをダウンロードしなくても、このチュートリアルを完了できます。 ただし、ビューアパッケージには追加の例と、独自のビューアを作成する際に役立つAPIリファレンスガイドが含まれています。
 
-## ビューアSDK {#section-98596c276faf4cf79ccf558a9f4432c6}を読み込みます。
+## ビューアSDKの読み込み {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. まず、新しいページを設定し、作成する基本ズームビューアを開発します。
 
@@ -119,7 +119,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 
 次に、ビューアにスタイルを追加します。
 
-## ビューアへのスタイルの追加{#section-3783125360a1425eae5a5a334867cc32}
+## ビューアへのスタイルの追加 {#section-3783125360a1425eae5a5a334867cc32}
 
 1. 作成するこのフルページビューア用に、いくつかの基本的なスタイルを追加できます。
 
@@ -144,7 +144,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 
 コンポーネント`Container`と`ZoomView`を含めます。
 
-## コンテナとZoomView {#section-1a01730663154a508b88cc40c6f35539}を含める
+## コンテナとZoomViewを含める {#section-1a01730663154a508b88cc40c6f35539}
 
 1. コンポーネント`Container`と`ZoomView`を含めて、実際のビューアを作成します。
 
@@ -211,7 +211,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 
 次に、コンポーネント`MediaSet`と`Swatches`をビューアに追加します。
 
-## ビューアへのMediaSetおよびSwatchesコンポーネントの追加{#section-02b8c21dd842400e83eae2a48ec265b7}
+## ビューアへのMediaSetおよびSwatchesコンポーネントの追加 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. ユーザーがセットから画像を選択できるように、コンポーネント`MediaSet`と`Swatches`を追加できます。
 
@@ -292,7 +292,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 
 次に、ズームイン、ズームアウトおよびズームリセットボタンをビューアに追加します。
 
-## ビューアへのボタンの追加{#section-1fc334fa0d2b47eb9cdad461725c07be}
+## ビューアへのボタンの追加 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
 1. 現在、ユーザーはクリックまたはタッチジェスチャを使用してのみズームできます。 そのため、ビューアに基本ズームコントロールボタンを追加します。
 
@@ -356,7 +356,7 @@ SDKは、ビューアコンテンツを構成するUIコンポーネントで構
 
    次に、スウォッチが右上に垂直に並ぶように設定します。
 
-## スウォッチの垂直方向の設定{#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## スウォッチの垂直方向の設定 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. 修飾子は`ParameterManager`インスタンス上で直接設定できます。
 
