@@ -2,14 +2,13 @@
 description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
 role: Developer,Business Practitioner
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '83'
+ht-degree: 12%
 
 ---
 
@@ -27,8 +26,8 @@ ht-degree: 11%
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> % <span class="codeph"> 3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> この修飾子は、Dynamic MediaクラシックまたはAEMDynamic Mediaでホストされるビデオコンテンツで機能します。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値として<span class="codeph"> none</span>を指定します。 </p> </td> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> は% <span class="codeph"> 3D</span> </p> </li> 
+     </ul> </p> <p> この修飾子は、Dynamic Media ClassicまたはAEM Dynamic Mediaでホストされるビデオコンテンツに対して機能します。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値に<span class="codeph"> none</span>を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
