@@ -1,25 +1,24 @@
 ---
-description: プロパティセットとすべての関連プロパティを削除します。
+description: プロパティセットと関連するすべてのプロパティを削除します。
 solution: Experience Manager
 title: deletePropertySet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 72429030-200d-4e13-a537-10a728998a26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 12%
 
 ---
 
-
 # deletePropertySet{#deletepropertyset}
 
-プロパティセットとすべての関連プロパティを削除します。
+プロパティセットと関連するすべてのプロパティを削除します。
 
 構文
 
-## 認証済みユーザータイプ{#section-b54aa8c854de400a989b4957412ff42c}
+## 許可されたユーザーの種類 {#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +31,7 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | はい | 削除するプロパティセットのハンドル。 |
+| `*`setHandle`*` | `xsd:string` | はい | 削除するプロパティセットへのハンドル。 |
 
 **出力(deletePropertySetParam)**
 
@@ -40,7 +39,7 @@ IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-このコードの例では、プロパティセットを削除するために、セットのハンドルをIPS Webサービスサーバーに送信される`deletePropertySetParam`内のフィールドとして使用します。
+このコードサンプルでは、セットのハンドルを、IPS Webサービスサーバーに送信される`deletePropertySetParam`のフィールドとして使用して、プロパティセットを削除します。
 
 **リクエスト**
 
