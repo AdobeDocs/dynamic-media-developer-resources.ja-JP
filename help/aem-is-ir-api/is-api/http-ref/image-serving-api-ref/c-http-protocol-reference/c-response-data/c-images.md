@@ -1,24 +1,23 @@
 ---
-description: リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=imgまたはreq=tmbが含まれていない場合は、画像データが返されます。
+description: イメージデータは、リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=imgまたはreq=tmbが含まれていない場合に返されます。
 solution: Experience Manager
 title: 画像
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3aa46d48-82eb-4a21-a5e5-b33904b97888
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 1%
 
 ---
 
-
 # 画像{#images}
 
-リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=imgまたはreq=tmbが含まれていない場合は、画像データが返されます。
+イメージデータは、リクエストが正常に完了し、リクエストにreq=コマンドが含まれていない場合、またはreq=imgまたはreq=tmbが含まれていない場合に返されます。
 
-HTTP応答のMIMEタイプは`fmt=`によって決定されます。`fmt=`が指定されていない場合は`<image/jpeg>`になります。
+HTTP応答のMIMEタイプは`fmt=`によって決まります。`fmt=`が指定されていない場合は`<image/jpeg>`になります。
 
-リクエストメソッドが無条件`GET`または`HEAD`の場合、HTTPレスポンスステータスは「200 OK」です。
+リクエストメソッドが無条件の`GET`または`HEAD`の場合、HTTP応答のステータスは「200 OK」です。
 
-サーバーはステータス&#39;304&#39; （変更されていません）で応答し、条件付き`GET`要求（有効な`If-Modified-Since`または`If-None-Match`ヘッダーを含む）に応答して画像データを返しません。
+サーバーはステータス「304」（変更なし）で応答し、（有効な`If-Modified-Since`または`If-None-Match`ヘッダーを含む）条件付き`GET`リクエストに応答して画像データを返さない場合があります。
