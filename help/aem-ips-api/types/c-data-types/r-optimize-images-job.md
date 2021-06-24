@@ -1,21 +1,20 @@
 ---
-description: 画像の最適化ジョブの詳細。
+description: 画像最適化ジョブの詳細。
 solution: Experience Manager
 title: OptimizeImagesJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 464c9b2e-3ae5-47f5-a5f2-9bc7047b8468
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
-
 # OptimizeImagesJob{#optimizeimagesjob}
 
-画像の最適化ジョブの詳細。
+画像最適化ジョブの詳細。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 16%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 電子メール設定フィールド。 |
-
+| `*`emailSetting`*` | `xsd:string` | Eメール設定フィールド。 |
