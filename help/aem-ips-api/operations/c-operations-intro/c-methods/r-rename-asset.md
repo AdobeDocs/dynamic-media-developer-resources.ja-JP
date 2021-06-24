@@ -2,16 +2,15 @@
 description: アセットの名前を変更します。
 solution: Experience Manager
 title: renameAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
-
 
 # renameAsset{#renameasset}
 
@@ -19,9 +18,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->`renameFiles`パラメーターは以前のリリースでは廃止され、`renameAsset`から削除されました。 仮想ファイルのパスは、新しいアセット名（ファイル拡張子を保持）に一致するように変更されますが、物理ファイルのパスは影響を受けません。 APIクライアントは、新しいAPIバージョンに更新する際に、このパラメーターへの参照を削除する必要があります。
+>`renameFiles`パラメーターは以前のリリースでは廃止され、`renameAsset`から削除されました。 仮想ファイルのパスは、新しいアセット名（ファイル拡張子を維持）に一致するように変更されますが、物理ファイルのパスは影響を受けません。 APIクライアントは、新しいAPIバージョンに更新する際に、このパラメーターへの参照を削除する必要があります。
 
-## 認証済みユーザータイプ{#section-cc27ad713c6d498b8f056850b20976f4}
+## 許可されたユーザーの種類 {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -43,7 +42,7 @@ ht-degree: 7%
 | `*`companyHandle`*` | `xsd:string` | はい | アセットが属する会社のハンドル。 |
 | `*`assetHandle`*` | `xsd:string` | はい | 名前を変更するアセットのハンドル。 |
 | `*`newName`*` | `xsd:string` | はい | アセットの新しい名前。 |
-| `*`validateName`*` | `xsd:boolean` | はい | `validateName`が`true`で、アセットタイプに一意のIPS IDが必要な場合、新しい名前はグローバル一意性がチェックされ、一意でない場合は`renameAsset`によってエラーがスローされます。 |
+| `*`validateName`*` | `xsd:boolean` | はい | `validateName`が`true`で、アセットタイプに一意のIPS IDが必要な場合、新しい名前のグローバル一意性がチェックされ、一意でない場合は`renameAsset`がエラーをスローします。 |
 
 **出力(renameAssetReturn)**
 
@@ -51,7 +50,7 @@ IPS APIは、この操作に対する応答を返しません。 この要素に
 
 ## 例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-このコードサンプルを使用すると、アセットの名前を変更できます。
+このコードサンプルは、アセットの名前を変更します
 
 **リクエスト**
 
