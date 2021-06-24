@@ -1,21 +1,20 @@
 ---
-description: アセットから削除するメタデータの配列です。
+description: アセットから削除するメタデータの配列。
 solution: Experience Manager
 title: MetadataDeleteArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API，メタデータ
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b04405e6-48ec-4498-b86e-83bbddeb73ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
-
 # MetadataDeleteArray{#metadatadeletearray}
 
-アセットから削除するメタデータの配列です。
+アセットから削除するメタデータの配列。
 
 構文
 
@@ -23,5 +22,4 @@ ht-degree: 14%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `type:Metadata` | 削除するメタデータパラメーターの配列です。 |
-
+| `*`商品`*` | `type:Metadata` | 削除するメタデータパラメーターの配列。 |
