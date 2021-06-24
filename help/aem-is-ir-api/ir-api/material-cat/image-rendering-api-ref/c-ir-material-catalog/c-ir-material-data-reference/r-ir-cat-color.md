@@ -1,25 +1,24 @@
 ---
-description: マテリアルの色 べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加法色。
+description: マテリアルカラー べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加算色。
 solution: Experience Manager
 title: カラー
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 9%
+source-wordcount: '88'
+ht-degree: 10%
 
 ---
 
+# カラー{#color}
 
-# 色{#color}
-
-マテリアルの色 べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加法色。
+マテリアルカラー べた塗りマテリアルの主色と、色付きテクスチャマテリアルの加算色。
 
 ## プロパティ {#section-073772b43b264b37bd96d1fb7404d10b}
 
-カラー. べた塗りのマテリアルに必須です。 繰り返し可能なテクスチャ、キャビネット、ウィンドウカバリングマテリアルのオプションで、色彩の統一を指定します。 繰り返し可能なテクスチャまたはキャビネットのマテリアルの色を変更しない場合は、このフィールドを空のままにする必要があります。
+カラー. べた塗りマテリアルに必要です。 繰り返し可能なテクスチャ、キャビネット、窓のカバーマテリアルの場合はオプションで、カラー化の色を指定します。 繰り返し可能なテクスチャやキャビネットマテリアルの色を変更しない場合は、このフィールドを空のままにする必要があります。
 
 ## 初期設定 {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 
