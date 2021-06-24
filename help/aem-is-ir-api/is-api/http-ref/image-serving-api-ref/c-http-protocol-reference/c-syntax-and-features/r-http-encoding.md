@@ -5,9 +5,9 @@ title: 画像サービングのHTTPエンコーディング
 feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '234'
 ht-degree: 23%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 23%
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>' </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
