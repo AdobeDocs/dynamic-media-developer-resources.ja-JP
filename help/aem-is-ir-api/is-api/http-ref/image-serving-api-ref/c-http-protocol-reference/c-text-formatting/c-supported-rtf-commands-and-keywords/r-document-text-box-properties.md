@@ -2,16 +2,15 @@
 description: テキストボックスでは、次のドキュメントプロパティがサポートされています。
 solution: Experience Manager
 title: ドキュメント（テキストボックス）のプロパティ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
-
 
 # ドキュメント（テキストボックス）のプロパティ{#document-text-box-properties}
 
@@ -42,49 +41,49 @@ ht-degree: 1%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
+   <td> <span class="codeph"> \cmykortbl  </span> </td> 
    <td> <p>CMYKカラーテーブル。 </p> </td> 
-   <td> <p>Dynamic Media拡張。 </p> </td> 
+   <td> <p>Dynamic Media拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
-   <td> <p>画像サービングの色のカラーテーブル。 </p> </td> 
-   <td> <p>Dynamic Media拡張。<span class="codeph"> textPs= </span>のみ </p> </td> 
+   <td> <p>画像サービングのカラーテーブル </p> </td> 
+   <td> <p>Dynamic Media拡張機能<span class="codeph"> textPs= </span>のみ </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>赤のカラーコンポーネント </p> </td> 
-   <td> <p><span class="codeph"> \colortbl </span>にのみ表示できます。0...255 </p> </td> 
+   <td> <p>赤のカラーコンポーネント。 </p> </td> 
+   <td> <p><span class="codeph"> \colortbl </span>のみで使用できます。0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \green  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>緑の色コンポーネント。 </p> </td> 
-   <td> <p><span class="codeph"> \colortbl </span>にのみ表示できます。0...255 </p> </td> 
+   <td> <p>緑のカラーコンポーネント。 </p> </td> 
+   <td> <p><span class="codeph"> \colortbl </span>のみで使用できます。0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \blue  <span class="varname"> N  </span> </span> </td> 
    <td> <p>青のカラーコンポーネント。 </p> </td> 
-   <td> <p><span class="codeph"> \colortbl </span>にのみ表示できます。0...255 </p> </td> 
+   <td> <p><span class="codeph"> \colortbl </span>のみで使用できます。0...255 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>シアンのカラーコンポーネント </p> </td> 
-   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>シアン色のコンポーネント。 </p> </td> 
+   <td> <p>Dynamic Media拡張機能は、 <span class="codeph"> \cmykcolortbl </span>のみで使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>マゼンタ色のコンポーネント。 </p> </td> 
-   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>マゼンタのカラーコンポーネント。 </p> </td> 
+   <td> <p>Dynamic Media拡張機能は、 <span class="codeph"> \cmykcolortbl </span>のみで使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>黄色のカラーコンポーネント </p> </td> 
-   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>黄色のカラーコンポーネント。 </p> </td> 
+   <td> <p>Dynamic Media拡張機能は、 <span class="codeph"> \cmykcolortbl </span>のみで使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>黒のカラーコンポーネント </p> </td> 
-   <td> <p>Dynamic Media拡張。は、<span class="codeph"> \cmykcolortbl </span>；のみに使用できます。0...100 </p> </td> 
+   <td> <p>黒のカラーコンポーネント。 </p> </td> 
+   <td> <p>Dynamic Media拡張機能は、 <span class="codeph"> \cmykcolortbl </span>のみで使用できます。0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
@@ -113,19 +112,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalb  </span> </td> 
-   <td> <p>テキストボックスのテキストを下揃えにします。 </p> </td> 
+   <td> <p>テキストボックス内のテキストを下揃えにします。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalc  </span> </td> 
-   <td> <p>テキストボックス内のテキストを中央揃えにします。 </p> </td> 
+   <td> <p>テキストボックスを中央揃えにします。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \stextflow  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>テキストフローの方向 </p> </td> 
-   <td> <p>言語固有のテキストフロー；<span class="codeph"> textPs= </span>のみ0（デフォルト）左右、上下（ヨーロッパ）1上下、右左（極東） </p> </td> 
+   <td> <p>テキストのフローの方向 </p> </td> 
+   <td> <p>言語固有のテキストフロー<span class="codeph"> textPs= </span>のみ0（デフォルト）左右、上下（ヨーロッパ） 1上下、右左（極東） </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
