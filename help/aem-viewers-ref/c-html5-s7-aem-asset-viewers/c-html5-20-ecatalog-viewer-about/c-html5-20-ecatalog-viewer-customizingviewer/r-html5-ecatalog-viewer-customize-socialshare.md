@@ -1,21 +1,20 @@
 ---
-description: ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
+description: ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 このタブは、ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
 solution: Experience Manager
-title: ソーシャルシェア
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+title: ソーシャル共有
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
+# ソーシャル共有{#social-share}
 
-# ソーシャルシェア{#social-share}
-
-ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
+ソーシャル共有ツールは、デフォルトで左上隅に表示されます。 このタブは、ボタンと、ユーザーがボタンをクリックまたはタップしたときに展開されるパネルで構成され、個々の共有ツールが含まれます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,11 +30,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーの上端からのオフセット。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーの上からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin=left  </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまでの距離、または行の最初のボタンの場合はコントロールバーの左側までの距離です。 </p> </td> 
+   <td colname="col2"> <p> 左側の次のボタンまたは（このボタンが行の最初のボタンである場合は）コントロールバーの左側までの距離です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-例 — ビューアコンテナの上から4ピクセル、右から5ピクセルの位置に配置し、サイズが28 x 28ピクセルのソーシャル共有ツールを設定します。
+例 — ビューアのコンテナの上から4ピクセル、右から5ピクセルの位置に配置し、サイズが28 x 28ピクセルのソーシャル共有ツールを設定します。
 
 ```
 .s7ecatalogviewer .s7socialshare { 
@@ -70,22 +69,22 @@ margin-left: 10px; width:28px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示する画像。 </p> </td> 
+   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップをローカライズできます。 詳しくは、[ユーザインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 — 4つのボタンの状態ごとに異なる画像を表示するソーシャル共有ツールボタンを設定します。
+例 — ボタンの4つの状態ごとに異なる画像を表示するソーシャル共有ツールボタンを設定します。
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -126,4 +125,3 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
  background-color: transparent; 
 }
 ```
-
