@@ -1,25 +1,24 @@
 ---
-description: アセットを発行する準備ができているかどうかを指定します。
+description: アセットを公開する準備ができているかどうかを指定します。
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 12%
 
 ---
 
-
 # setAssetPublishState{#setassetpublishstate}
 
-アセットを発行する準備ができているかどうかを指定します。
+アセットを公開する準備ができているかどうかを指定します。
 
 構文
 
-## 認証済みユーザータイプ{#section-11bec77e50b24461bb8c8aacf016eec8}
+## 許可されたユーザーの種類 {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,13 +48,13 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社へのハンドル。 </td> 
+   <td colname="col4"> 会社の取っ手。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> アセットハンドル </td> 
+   <td colname="col4"> アセットハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -76,13 +75,13 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-**Output**
+**出力**
 
 IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-c31ead6d0e594317a12c120509527792}
 
-次のコードのサンプルを使用すると、`NotMarkedForPublish`を使用してアセットのパブリケーション状態を設定できます。
+このコードサンプルは、`NotMarkedForPublish`を使用してアセットの公開状態を設定します。
 
 **リクエスト**
 
