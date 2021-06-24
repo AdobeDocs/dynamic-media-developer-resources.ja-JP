@@ -2,16 +2,15 @@
 description: 画像形式の配列。
 solution: Experience Manager
 title: ImageFormatArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: daf6049f-24e8-4a4b-a9b3-c7f4f2e56f81
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # ImageFormatArray{#imageformatarray}
 
@@ -24,4 +23,3 @@ ht-degree: 22%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`商品`*` | `types:ImageFormat` | 画像形式の配列。 |
-
