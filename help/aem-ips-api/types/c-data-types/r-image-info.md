@@ -2,16 +2,15 @@
 description: 画像アセットのプロパティ。
 solution: Experience Manager
 title: ImageInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '195'
 ht-degree: 3%
 
 ---
-
 
 # ImageInfo{#imageinfo}
 
@@ -43,12 +42,12 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS最適化イメージファイルへのパス。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化イメージファイルのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizedFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS用に最適化された画像ファイル。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化イメージファイル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
@@ -73,11 +72,11 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>画像サイズ（バイト）。 </p> </td> 
+   <td colname="col3"> <p>画像サイズ（バイト単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:重複</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> <p>ピクセル/インチ </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +85,7 @@ ht-degree: 3%
    <td colname="col3"> <p>製品ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 説明</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>画像の説明。 </p> </td> 
   </tr> 
@@ -98,43 +97,42 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>画像に関連付けられているユーザー情報（非推奨）。 </p> </td> 
+   <td colname="col3"> <p>画像に関連付けられたユーザー情報（非推奨）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>水平方向のアンカーポイント（ピクセル単位） </p> </td> 
+   <td colname="col3"> <p>水平方向のアンカーポイント（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>ピクセル単位の垂直アンカーポイント。 </p> </td> 
+   <td colname="col3"> <p>ピクセル内の垂直アンカーポイント。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Image Server URLパラメータ </p> </td> 
+   <td colname="col3"> <p>イメージサーバーのURLパラメーター。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p><span class="codeph"> urlModifier</span>の末尾に連結されたパラメーター。 クエリ文字列形式Image Serverに対するコマンドであるパラメータのリスト。 値は、『Image Serverプロトコルガイド』に記載されています。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> urlModifier</span>の末尾に連結されたパラメーター。 Image Serverに対するコマンドであるパラメーターのクエリー文字列形式のリスト。 値は、『Image Serverプロトコルガイド』に記載されています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>ズームターゲットの配列（最大5個） </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型：ZoomTargetArray[たいぷ：ZoomTargetArray]</span> </td> 
+   <td colname="col3"> <p>ズームターゲットの配列（最大5個）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> マスク</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：MaskArray</span> </td> 
-   <td colname="col3"> <p>マスク配列 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型：MaskArray[がた：MaskArray]</span> </td> 
+   <td colname="col3"> <p>マスク配列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 種類：ImageMapsArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageMapsArray[たいぷ：ImageMapsArray]</span> </td> 
    <td colname="col3"> <p>画像マップの配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
