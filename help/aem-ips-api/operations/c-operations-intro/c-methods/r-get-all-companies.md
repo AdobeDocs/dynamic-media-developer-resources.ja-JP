@@ -2,16 +2,15 @@
 description: すべての会社の配列を返します。
 solution: Experience Manager
 title: getAllCompanies
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 構文
 
-## 認証済みユーザータイプ{#section-773db3753b4842e5a4623ad810176508}
+## 許可されたユーザーの種類 {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -29,9 +28,9 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | はい | 期限切れの会社と期限切れでないユーザーを返す場合はtrueに設定します。 |
+| `*`includeExpired`*` | `xsd:boolean` | はい | 期限切れの会社と期限切れでない会社を返す場合は、trueに設定します。 |
 
-**Output (getAllCompaniesReturn)**
+**出力(getAllCompaniesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -39,7 +38,7 @@ ht-degree: 19%
 
 ## 例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-このコードの例では、配列内のIPS内のすべての会社を返します。 ただし、サンプルの応答は簡潔にするために切り捨てられます。
+このコードサンプルは、IPSのすべての会社を配列で返します。 なお、サンプルの応答は簡潔にするために切り捨てられます。
 
 **リクエスト**
 
@@ -70,4 +69,3 @@ ht-degree: 19%
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
