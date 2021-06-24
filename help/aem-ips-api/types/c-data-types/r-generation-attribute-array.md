@@ -2,16 +2,15 @@
 description: 生成属性の配列。
 solution: Experience Manager
 title: GenerationAttributeArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8b771155-5cd7-4cf2-9552-4efb114556de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
-
 
 # GenerationAttributeArray{#generationattributearray}
 
@@ -24,4 +23,3 @@ ht-degree: 21%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`商品`*` | `types:GenerationAttribute` | 生成属性の配列。 |
-
