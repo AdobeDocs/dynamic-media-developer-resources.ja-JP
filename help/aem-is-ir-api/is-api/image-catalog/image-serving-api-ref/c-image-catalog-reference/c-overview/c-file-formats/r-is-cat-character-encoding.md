@@ -1,22 +1,21 @@
 ---
-description: 画像サービングは、ISO-8859-1およびUTF-8エンコードの画像カタログをサポートしています。
+description: 画像サービングは、ISO-8859-1およびUTF-8エンコーディングの画像カタログをサポートします。
 solution: Experience Manager
 title: 文字エンコーディング
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e6e50c2a-53d3-4776-a3f6-4a9d3407e562
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-
 # 文字エンコーディング{#character-encoding}
 
-画像サービングは、ISO-8859-1およびUTF-8エンコードの画像カタログをサポートしています。
+画像サービングは、ISO-8859-1およびUTF-8エンコーディングの画像カタログをサポートします。
 
-バイトオーダーマーク(BOM)を使用して、各ファイルのエンコードを指定します。 UTF-8の場合、BOMはバイトシーケンス`EF BB BF`です。 UTF-8エンコードは、各画像カタログファイルの最初にこの文字シーケンスが検出された場合に想定されます。 その他のバイトシーケンスを使用すると、ファイルはISO-8859-1標準にエンコードされたものとして解釈されます。
+バイトオーダーマーク(BOM)は、各ファイルのエンコーディングを指定するために使用されます。 UTF-8の場合、BOMはバイトシーケンス`EF BB BF`です。 UTF-8エンコーディングは、各画像カタログファイルの最初にこの文字列が検出された場合に想定されます。 その他のバイトシーケンスは、ファイルがISO-8859-1標準にエンコードされていると解釈されます。
 
-多くの現在のアプリケーションは、UTF-8用に設定されている場合、BOMを自動的に挿入します。
+多くの現代アプリケーションは、UTF-8用に設定されている場合、BOMを自動的に挿入します。
