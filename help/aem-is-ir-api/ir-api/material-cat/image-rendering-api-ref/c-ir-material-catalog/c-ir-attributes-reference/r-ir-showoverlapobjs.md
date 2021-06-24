@@ -1,21 +1,20 @@
 ---
-description: 重なり合うオブジェクトを表示 重なり合うオブジェクトを最初に表示するか、非表示にするかを指定します。
+description: 重なり合うオブジェクトを表示 重なりオブジェクトを最初に表示するか非表示にするかを指定します。
 solution: Experience Manager
 title: ShowOverlapObjs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
 
-
 # ShowOverlapObjs{#showoverlapobjs}
 
-重なり合うオブジェクトを表示 重なり合うオブジェクトを最初に表示するか、非表示にするかを指定します。
+重なり合うオブジェクトを表示 重なりオブジェクトを最初に表示するか非表示にするかを指定します。
 
 ## プロパティ {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 
@@ -23,4 +22,4 @@ ht-degree: 4%
 
 ## 初期設定 {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-定義されていない場合や空の場合は`default::ShowOverlapObjs`から継承されます。
+`default::ShowOverlapObjs`から継承されます（定義されていない場合または空の場合）。
