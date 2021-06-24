@@ -2,16 +2,15 @@
 description: スケジュール済みジョブの配列。
 solution: Experience Manager
 title: ScheduledJobArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2bc145ca-3cee-4832-908c-e45e124a2b6f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
-
 
 # ScheduledJobArray{#scheduledjobarray}
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:ScheduledJobs` | スケジュール済みジョブの配列。 |
-
+| `*`商品`*` | `types:ScheduledJobs` | スケジュール済みジョブ配列。 |
