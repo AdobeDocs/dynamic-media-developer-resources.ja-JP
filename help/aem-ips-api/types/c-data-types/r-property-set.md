@@ -1,21 +1,20 @@
 ---
-description: プロパティセットのタイプと値。
+description: プロパティセットの型と値。
 solution: Experience Manager
 title: PropertySet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # PropertySet{#propertyset}
 
-プロパティセットのタイプと値。
+プロパティセットの型と値。
 
 構文
 
@@ -23,7 +22,6 @@ ht-degree: 10%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | プロパティセットハンドル |
-| `*`typeHandle`*` | `xsd:string` | プロパティセットタイプへのハンドル。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 名前と値のペア。 0個の項目を含めることができます。 |
-
+| `*`setHandle`*` | `xsd:string` | プロパティセットハンドル。 |
+| `*`typeHandle`*` | `xsd:string` | プロパティセットタイプに対するハンドル。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 名前と値のペア。 ゼロの項目を含めることができます。 |
