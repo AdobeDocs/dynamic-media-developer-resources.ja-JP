@@ -2,16 +2,15 @@
 description: IPS APIバージョン4.2の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
 title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
-
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
@@ -19,14 +18,14 @@ IPS APIバージョン4.2の新しいデータ型と変更されたデータ型�
 
 構文
 
-## 新しいタイプ{#section-770a814386a44478881feeff2b6f65f5}
+## 新しいタイプ {#section-770a814386a44478881feeff2b6f65f5}
 
 * `AudioInfo`
 * `CuePointInfo`
 * `PdfSettings`
 * `PremeierExpressRemixInfo`
 
-## 変更されたタイプ{#section-6c42b62dd91c4e9bb3a067b9abe3adee}
+## 変更されたタイプ {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
 **アセット**
 
@@ -37,7 +36,7 @@ IPS APIバージョン4.2の新しいデータ型と変更されたデータ型�
 * `MaskInfo`
 * `RTFInfo`
 
-削除されたパラメーター：
+削除されたパラメータ：
 
 * `ImageSetInfo`
 * `RenderSetInfo`
@@ -64,4 +63,3 @@ IPS APIバージョン4.2の新しいデータ型と変更されたデータ型�
 
 * `preservePublishState`
 * `preserveCrop`
-
