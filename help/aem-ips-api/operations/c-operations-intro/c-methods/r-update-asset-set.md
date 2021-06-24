@@ -2,16 +2,15 @@
 description: アセットセットを更新します。
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
-
 
 # updateAssetSet{#updateassetset}
 
@@ -25,7 +24,7 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 変更する会社セットが含まれる画像へのハンドル。 |
+| `*`companyHandle`*` | `xsd:string` | はい | 変更する画像セットを含む会社へのハンドル。 |
 | `*`assetHandle`*` | `xsd:string` | はい | 変更する画像セットのハンドル。 |
 | `*`setDefinition`*` | `xsd:string` | いいえ | 画像セットのメンバをリセットします。 |
 | `*`thumbAssetHandle`*` | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
@@ -54,4 +53,3 @@ ht-degree: 19%
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
