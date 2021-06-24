@@ -2,14 +2,13 @@
 description: CarouselView.fmt
 solution: Experience Manager
 title: CarouselView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: a43ca095-2a59-4a0c-a460-f465cbd4ed5f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントでImage Serverからの画像の読み込みに使用する画像形式を指定します。 </p> <p>末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 </p> <p>その他のすべての画像形式の場合、画像は不透明として扱われます。 コンポーネントの背景はデフォルトで白になります。 したがって、透明にするには、<span class="codeph"> background-color</span> CSSプロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。 </p> <p>末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 </p> <p>その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景は、デフォルトで白です。 したがって、透明にするには、CSSの<span class="codeph"> background-color</span>プロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
