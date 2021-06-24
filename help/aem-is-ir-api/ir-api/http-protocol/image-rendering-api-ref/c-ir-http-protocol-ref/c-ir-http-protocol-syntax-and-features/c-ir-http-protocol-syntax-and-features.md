@@ -1,26 +1,25 @@
 ---
-description: この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
+description: この節では、HTTPプロトコルの構文と、Dynamic Media画像レンダリングの機能について説明します。
 solution: Experience Manager
 title: HTTPプロトコルの構文と機能
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 62707e37-0bf0-4e72-807c-8a68dfe0067e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
 
+# HTTPプロトコルの構文と機能{#http-protocol-syntax-and-features}
 
-# HTTPプロトコル構文と機能{#http-protocol-syntax-and-features}
+この節では、HTTPプロトコルの構文と、Dynamic Media画像レンダリングの機能について説明します。
 
-この節では、HTTPプロトコルの構文について説明し、Dynamic Mediaの画像レンダリングの特徴を示します。
-
-* [イメージレンダリングHTTPプロトコルの基本構文](r-ir-basic-syntax.md)
-* [イメージレンダリングHTTPプロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
+* [画像レンダリングHTTPプロトコルの基本構文](r-ir-basic-syntax.md)
+* [画像レンダリングHTTPプロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
 * [ビネット](c-ir-vignettes/c-ir-vignettes.md)
-* [マテリアルの概要](c-ir-http-materials/c-ir-http-materials.md)
+* [資料の概要](c-ir-http-materials/c-ir-http-materials.md)
 * [高度なレンダリング効果](c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
 * [リクエストのネストと埋め込み*](c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
 * [マテリアルカタログ*](c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
@@ -29,4 +28,4 @@ ht-degree: 1%
 * [コマンドマクロ*](c-ir-command-macros.md)
 * [画像レンダリングのカラーマネジメント*](c-ir-color-management.md)
 * [カラー値](r-ir-color-values.md)
-* [画像レンダリングのHTTPエンコーディング](c-ir-http-encoding.md)
+* [画像レンダリングHTTPエンコーディング](c-ir-http-encoding.md)
