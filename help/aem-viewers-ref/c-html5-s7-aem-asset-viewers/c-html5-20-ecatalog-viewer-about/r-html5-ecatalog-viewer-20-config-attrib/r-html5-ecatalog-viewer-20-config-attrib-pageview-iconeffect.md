@@ -2,30 +2,29 @@
 description: PageView.iconEffect
 solution: Experience Manager
 title: PageView.iconEffect
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cdd96e58-d805-47d6-bf26-9ebd90afd535
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 4%
 
 ---
 
-
 # PageView.iconEffect{#pageview-iconeffect}
 
-` [PageView.|<containerId>_pageView.]iconeffect=0|1[, *`countfadeautoHide`*][, *``*][, *``*]`
+` [PageView.|<containerId>_pageView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
 
 <table id="table_DD66FFC263A34220876DD204BFE62D49"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 画像がリセット状態で、画像の操作に使用できるアクションがある場合に、<span class="codeph"> iconeffect</span>を画像の上部に表示できるようにします。 </p> </td> 
+   <td colname="col2"> <p> 画像がリセット状態で、画像の操作に使用できるアクションがある場合、 <span class="codeph"> iconeffect</span>が画像の上部に表示されるようにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> カウント</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> iconeffect</span>の表示および再表示の最大回数を指定します。 <span class="codeph"> -1</span>の値は、アイコンが無限に再表示されることを示します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> iconeffect</span>が表示され、再び表示される最大回数を指定します。 値<span class="codeph"> -1</span>は、アイコンが常に無限に再表示されることを示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
@@ -33,7 +32,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> iconeffect</span>が完全に表示され、自動非表示になるまでの秒数を設定します。 つまり、フェードインアニメーションが完了してからフェードアウトアニメーション開始までの時間を指定します。 <span class="codeph"> 0</span>を設定すると、自動非表示の動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> iconeffect</span>が完全に表示されたままになる秒数を設定します。この秒数を超えると、自動的に非表示になります。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 <span class="codeph"> 0</span>に設定すると、自動非表示の動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
