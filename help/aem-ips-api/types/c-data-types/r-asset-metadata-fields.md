@@ -2,16 +2,15 @@
 description: 指定されたアセットタイプのメタデータフィールド定義を返します。
 solution: Experience Manager
 title: AssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ad2a45fc-1f30-4b8b-be7c-84cc60c7bd4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 8%
 
 ---
-
 
 # AssetMetadataFields{#assetmetadatafields}
 
@@ -25,4 +24,3 @@ ht-degree: 8%
 |---|---|---|
 | `*`assetType`*` | `xsd:string` | フィールド定義に関連付けられているアセットタイプ（値については、「アセットタイプ」を参照）。 |
 | `*`fieldArray`*` | `types:MetadataFieldArray` | `assetType`で指定されたアセットタイプに関連付けられたメタデータフィールド定義の配列。 |
-
