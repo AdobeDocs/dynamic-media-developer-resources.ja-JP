@@ -1,21 +1,20 @@
 ---
-description: この節では、Dynamic MediaイメージレンダリングHTTPプロトコルの基本的な構文を説明します。
+description: この節では、Dynamic Media Image Rendering HTTPプロトコルの基本構文について説明します。
 solution: Experience Manager
-title: イメージレンダリングHTTPプロトコルの基本構文
-feature: Dynamic Media Classic,SDK/API
+title: 画像レンダリングHTTPプロトコルの基本構文
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
 
+# 画像レンダリングHTTPプロトコルの基本構文{#image-rendering-http-protocol-basic-syntax}
 
-# イメージレンダリングHTTPプロトコル基本構文{#image-rendering-http-protocol-basic-syntax}
-
-この節では、Dynamic MediaイメージレンダリングHTTPプロトコルの基本的な構文を説明します。
+この節では、Dynamic Media Image Rendering HTTPプロトコルの基本構文について説明します。
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -31,7 +30,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> server_address</span> [ : <span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> ビネット  </span> </p> </td> 
@@ -39,23 +38,23 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 修飾子 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> modifier</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modifier</span>  *[ &amp;  <span class="varname"> modifier</span>  ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 修飾子 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> command</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> command</span>  | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> command  </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> macro  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> マクロ  </span> </p> </td> 
    <td colname="col2"> <p>コマンドマクロの名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> コメント  </span> </p> </td> 
-   <td colname="col2"> <p>コメント文字列（サーバーでは無視されます）。 </p> </td> 
+   <td colname="col2"> <p>コメント文字列（サーバーで無視）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
@@ -72,16 +71,16 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*`server`*、、 *`cmdName`*、 *`macro`*&#x200B;およびは大文字と小文字が区別されま *`var`* せん。サーバーは、大文字と小文字を区別し、他の文字列値もすべて保持します。
+*`server`*、 *`cmdName`*、 *`macro`*&#x200B;およびは大文字 *`var`* と小文字を区別しません。サーバーは、他のすべての文字列値の大文字と小文字を区別します。
 
 **サーバー識別子**
 
-イメージレンダリングへのすべてのHTTP要求には、「`/ir/render`」ルートコンテキストが必要です。
+画像レンダリングへのすべてのHTTPリクエストには、「 `/ir/render` 」ルートコンテキストが必要です。
 
 **コメント**
 
-コメントはリクエスト文字列のどこにでも埋め込むことができ、ピリオド(.)で識別します。 コマンド区切り文字(&amp;)の直後。 コメントは、次に（エンコードされていない）コマンドセパレータが出現すると終了します。 この機能は、タイムスタンプ、データベースIDなど、画像サービングで使用されない情報を要求に追加する場合に使用します。
+コメントは、リクエスト文字列の任意の場所に埋め込むことができ、ピリオド(.)で識別されます。 コマンド区切り文字(&amp;)の直後に表示されます。 コメントは、次に（エンコードされていない）コマンド区切り文字が出現するまで終了します。 この機能は、タイムスタンプ、データベースIDなど、画像サービングでは使用しない情報を要求に追加する場合に使用します。
 
 **HTTPデコード**
 
-画像レンダリングは、最初に、受信要求から&#x200B;*`object`*&#x200B;と&#x200B;*`modifiers`*&#x200B;を抽出します。 *`object`* は、個別にHTTPデコードされるパス要素に分割されます。*`modifiers`*&#x200B;文字列は&#x200B;*`command`*= *`value`*&#x200B;ペアに区切られ、*`value`*&#x200B;はコマンド固有の処理の前にHTTPデコードされます。
+画像レンダリングは、最初に受信リクエストから&#x200B;*`object`*&#x200B;と&#x200B;*`modifiers`*&#x200B;を抽出します。 *`object`* は、個別にHTTPデコードされたパス要素に分割されます。*`modifiers`*&#x200B;文字列は&#x200B;*`command`*=*`value`*&#x200B;のペアに分割され、*`value`*&#x200B;はコマンド固有の処理の前にHTTPデコードされます。
