@@ -2,22 +2,21 @@
 description: 画像サービングのソースデータファイルには、画像ファイルとマスクファイル、フォント、ICCプロファイルが含まれます。
 solution: Experience Manager
 title: ソースデータ
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # ソースデータ{#source-data}
 
 画像サービングのソースデータファイルには、画像ファイルとマスクファイル、フォント、ICCプロファイルが含まれます。
 
-すべてのソースデータファイルは、Image Serverからアクセスできる必要があります。 画像サービングには、データファイルの場所を指定するための様々な代替オプションが用意されています。
+すべてのソースデータファイルは、Image Serverからアクセスできる必要があります。 画像サービングには、データファイルの場所を指定するための様々な代替手段が用意されています。
 
 `*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
@@ -36,16 +35,16 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> requestPath</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> 画像サービングHTTP要求で指定された相対的な画像ファイルのパスと名前</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 画像サービングHTTP要求で指定された相対画像ファイルパスと名前</span> </p></td> 
  </tr> 
 </table>
 
-サーバは、絶対ファイルパスが確立されるまで、右から左へのパスセグメントを組み合わせます。
+サーバは、絶対ファイルパスが確立されるまで、パスセグメントを右から左に結合します。
 
 すべての`*`rootPath`*`セグメントは、空、相対、または絶対パスセグメントにすることができます。
 
-`*``*` catalog絶対パスまたは相対ファイルパス/名前を指定します。`*`requestPathは、相対ファイルパスまたはファイル名で指定する必要があります。`*` 
+`*``*` catalogPath絶対または相対ファイルパス/名前。`*``*` requestPathは、相対ファイルパスまたは相対ファイル名にする必要があります。
 
-`Multiple IS::RootPath` の値は、ImageServerRegistry.xmlで（または管理インターフェイスを使用して）定義できます。これにより、ソース・データ・ファイルを複数のファイル・システムに分散できます。 Image Serverは、データファイルが見つかるまで、指定された順序で代替パスを試します。
+`Multiple IS::RootPath` の値は、 ImageServerRegistry.xmlで（または管理インターフェイスを使用して）定義できます。これにより、ソース・データ・ファイルを複数のファイル・システムに分散できます。 Image Serverは、データファイルが見つかるまで、指定された順序で代替パスを試みます。
 
-任意の種類の新しいデータファイルを、サーバを停止しなくてもいつでも追加できます。
+任意の種類の新しいデータファイルは、サーバーを停止することなくいつでも追加できます。
