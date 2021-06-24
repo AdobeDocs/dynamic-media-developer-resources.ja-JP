@@ -2,16 +2,15 @@
 description: PostScriptファイルのプロパティ。
 solution: Experience Manager
 title: GenerationInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '54'
 ht-degree: 12%
 
 ---
-
 
 # GenerationInfo{#generationinfo}
 
@@ -24,7 +23,6 @@ PostScriptファイルのプロパティ。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | `*`エンジン`*` | `xsd:string` | 使用される生成エンジン（値については「生成情報」を参照）。 |
-| `*`原始者`*` | `types:Asset` | 生成で使用される主要資産の資産レコード。 |
+| `*`作成者`*` | `types:Asset` | 生成で使用される主要資産の資産レコード。 |
 | `*`生成`*` | `types:Asset` | 生成されたアセットのアセットレコード。 |
 | `*`attributeArray`*` | `types:GenerationAttributeArray` | 生成プロセスに関連付けられた属性の配列。 |
-
