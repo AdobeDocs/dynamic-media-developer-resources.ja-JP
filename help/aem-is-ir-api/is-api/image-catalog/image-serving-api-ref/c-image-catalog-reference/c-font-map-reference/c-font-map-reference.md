@@ -1,25 +1,24 @@
 ---
-description: 画像カタログにフォントマップが必要な場合、フォントマップファイルの相対パスまたは絶対パスを、属性FontMapFileで指定する必要があります。
+description: 画像カタログにフォントマップが必要な場合は、フォントマップファイルの相対パスまたは絶対パスを属性FontMapFileで指定する必要があります。
 solution: Experience Manager
-title: フォントマップの参照
-feature: Dynamic Media Classic,SDK/API
+title: フォントマップリファレンス
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
 
-
 # フォントマップリファレンス{#font-map-reference}
 
-画像カタログにフォントマップが必要な場合、フォントマップファイルの相対パスまたは絶対パスをattribute::FontMapFileに指定する必要があります。
+画像カタログにフォントマップが必要な場合は、フォントマップファイルの相対パスまたは絶対パスをattribute::FontMapFileで指定する必要があります。
 
-特定の画像カタログのフォントマップ内のエントリは、初期設定のカタログのフォントマップ内のエントリよりも優先されます。
+特定の画像カタログのフォントマップ内のエントリは、デフォルトのカタログのフォントマップ内のエントリを上書きします。
 
-画像サービングでは、Adobe Type1、OpenTypeおよびTrueTypeフォントがサポートされています。
+画像サービングは、Adobe Type1、OpenType、TrueTypeのフォントをサポートします。
 
 `textPs=` は、CID、ATC、ビットマップフォントもサポートします。
 
