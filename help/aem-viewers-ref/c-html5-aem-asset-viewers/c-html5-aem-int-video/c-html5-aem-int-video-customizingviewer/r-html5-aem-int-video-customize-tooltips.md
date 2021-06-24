@@ -1,21 +1,20 @@
 ---
-description: デスクトップシステムでは、ボタンなど一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときにツールチップが表示されます。
+description: デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップが表示されます。
 solution: Experience Manager
 title: ツールチップ
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
 role: Developer,Business Practitioner
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '145'
 ht-degree: 3%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなど一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときにツールチップが表示されます。
+デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -53,7 +52,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>テキストのフォント名 </p> </td> 
+   <td colname="col2"> <p>テキストのフォント名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -64,11 +63,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ツールチップがビューアのCSSファイル内でカスタマイズされている場合は不要です。
+>埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ビューアのCSSファイル内でツールチップをカスタマイズする場合は必要ありません。
 
 ## 例 {#section-59e009fd05b14019936aba04d7ca779d}
 
-角丸の半径が3ピクセルのグレーの境界線を持ち、背景色が黒で、Arialで11ピクセルの白のテキストを持つツールチップを設定するには、次のように記述します。
+3ピクセルの角丸の半径、黒の背景、白のテキストを持つグレーの境界線を持つツールチップをArial、11ピクセルで設定するには：
 
 ```
 .s7tooltip { 
