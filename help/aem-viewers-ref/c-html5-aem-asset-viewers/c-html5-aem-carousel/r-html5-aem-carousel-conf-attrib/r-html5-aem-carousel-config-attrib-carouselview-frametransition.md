@@ -2,14 +2,13 @@
 description: CarouselView.frametransition
 solution: Experience Manager
 title: CarouselView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
 role: Developer,Business Practitioner
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -21,15 +20,15 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade|slide  </span> </p> </td> 
-   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 <span class="codeph"> none </span> はトランジションなしを表します。フレームの変更はすぐに行われます。 </p> <p> <span class="codeph"> fadeは、前のフレームと次のフレームの間にクロスフェードトランジションを適用する </span> ことを意味します。 </p> <p> <span class="codeph"> slideは、前のフレームを表示からスライドアウトし、新しいフレームをスライドインするトランジションを </span> アクティブにします。 </p> </td> 
+   <td colname="col2"> <p>フレームの変更時に適用する効果のタイプを指定します。 <span class="codeph"> none </span> は、移行なしを表します。フレームの変更はすぐに行われます。 </p> <p> <span class="codeph"> fadeは、前のフ </span> レームと次のフレームの間にクロスフェードのトランジションを設定します。 </p> <p> <span class="codeph"> slideは、 </span> 前のフレームがビューからスライドアウトし、新しいフレームがスライドインするトランジションをアクティブにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> fade </span>または<span class="codeph"> slide </span>トランジション効果の時間を秒単位で指定します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">フェード</span>または<span class="codeph">スライド</span>のトランジション効果の時間（秒単位）を指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing  </span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">スライド</span>トランジション内の隣接するフレーム間の間隔。<span class="codeph"> 0 </span> ～ <span class="codeph"> 1 </span>の範囲を持ち、コンポーネントの幅を基準にして指定します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">スライド</span>トランジション内の隣接するフレーム間の間隔は、<span class="codeph"> 0 </span>と<span class="codeph"> 1 </span>の間の範囲で、コンポーネントの幅を基準にした値です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
