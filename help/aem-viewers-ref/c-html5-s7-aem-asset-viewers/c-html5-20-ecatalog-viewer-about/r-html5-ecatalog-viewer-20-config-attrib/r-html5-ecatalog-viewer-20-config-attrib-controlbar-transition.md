@@ -2,16 +2,15 @@
 description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
-
 
 # ControlBar.transition{#controlbar-transition}
 
@@ -21,11 +20,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade  </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 すぐに表示/非表示にするには、<span class="codeph"> none </span>を使用します。<span class="codeph"> fade </span>は、徐々にフェードイン/フェードアウトする効果を提供します（Internet Explorer 8ではサポートされていません）。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替える効果の種類を指定します。 <span class="codeph"> none </span>を使用すると、表示と非表示がすぐにできます。<span class="codeph"> fade </span>は、徐々にフェードインおよびフェードアウトする効果を提供します（Internet Explorer 8ではサポートされていません）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーによって記録される最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーが最後に登録するマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントの自動非表示効果はトリガーされず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
