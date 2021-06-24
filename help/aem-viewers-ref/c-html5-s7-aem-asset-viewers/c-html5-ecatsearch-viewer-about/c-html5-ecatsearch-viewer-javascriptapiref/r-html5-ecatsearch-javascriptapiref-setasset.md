@@ -2,16 +2,15 @@
 description: ビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -22,17 +21,17 @@ ht-degree: 2%
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph">文字列</span>}新しいアセットIDまたは明示的な画像セット。オプションとして<span class="codeph">の後に画像サービング修飾子を付加できますか？</span>。 </p> <p> IR（画像レンダリング）またはUGC（ユーザ生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> アセット  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph">文字列</span>}新しいアセットIDまたは明示的な画像セット。オプションの画像サービング修飾子を<span class="codeph">の後に付加します。</span>と入力します。 </p> <p> IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-新しいアセットを設定します。 このパラメーターは、[!DNL `init()`]の前後いつでも呼び出すことができます。 [!DNL `init()`]の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
+新しいアセットを設定します。 このパラメーターは、[!DNL `init()`]の前後にいつでも呼び出すことができます。 [!DNL `init()`]の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
 
 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101}を返す
+## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
@@ -50,7 +49,7 @@ ht-degree: 2%
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-明示的な画像セット（個別のページ画像を含む）:
+明示的な画像セット（個々のページ画像を含む）:
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")
@@ -61,4 +60,3 @@ ht-degree: 2%
 ```
  <instance>.setAsset("Viewers/Pluralist?op_sharpen=1")
 ```
-
