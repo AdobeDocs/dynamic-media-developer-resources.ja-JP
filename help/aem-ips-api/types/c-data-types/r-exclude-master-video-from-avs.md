@@ -1,16 +1,15 @@
 ---
 description: プライマリビデオをアダプティブビデオセットから除外します。
 title: ExcludeMasterVideoFromAVS
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
-
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
@@ -36,4 +35,3 @@ ht-degree: 10%
   </tr> 
  </tbody> 
 </table>
-
