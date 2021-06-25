@@ -2,16 +2,15 @@
 description: 会社ジョブログの詳細を取得します。
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic、SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 11%
 
 ---
-
 
 # getJobLogDetails{#getjoblogdetails}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 `logMessage`応答フィールドは、`authHeader` `locale`フィールドに基づいてローカライズされます。
 
-## 認証済みユーザータイプ{#section-6f720a7baad64eb3805868c88af9a960}
+## 許可されたユーザーの種類 {#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -64,9 +63,9 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 1つ以上のログタイプ定数。 存在する場合は、指定したログタイプのみが返されます。 デフォルトでは、すべてのログの種類が返されます。 </td> 
+   <td colname="col4"> 1つ以上のLog Type定数。 存在する場合は、指定されたログタイプのみが返されます。 デフォルトでは、すべてのログタイプが返されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
@@ -78,19 +77,19 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返す<span class="codeph"> recordsPerPage</span>-resultsのページ番号。 デフォルト値は 1 です。 </td> 
+   <td colname="col4">返す<span class="codeph">recordsPerPage</span>-resultsのページ番号。 デフォルト値は 1 です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>Job Detail Sort Field定数値の1つ（DateまたはLogType）。 デフォルト値は「日付」です。 </p> </td> 
+   <td colname="col4"> <p>Job Detail Sort Field定数値の1つ（DateまたはLogType）。 デフォルト値はDateです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>Sort Direction文字列定数の1つ。 デフォルト値は昇順です。 </p> </td> 
+   <td colname="col4"> <p>並べ替え方向文字列定数の1つ。 デフォルト値は昇順です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,7 +102,7 @@ ht-degree: 11%
 
 ## 例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-このコードのサンプルを使用すると、特定の会社のすべてのジョブログの詳細が返されます。 最初の配列には、標準ジョブログの詳細が含まれます。 埋め込み配列は、ジョブに関する追加情報を返します。
+このコードサンプルは、特定の会社のすべてのジョブログの詳細を返します。 最初の配列には、標準ジョブログの詳細が含まれます。 埋め込み配列は、ジョブに関する追加情報を返します。
 
 **リクエスト**
 
@@ -152,4 +151,3 @@ ht-degree: 11%
    </jobLogArray>
 </getJobLogDetailsReturn>
 ```
-
