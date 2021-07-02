@@ -5,7 +5,7 @@ title: カラースウォッチ
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
