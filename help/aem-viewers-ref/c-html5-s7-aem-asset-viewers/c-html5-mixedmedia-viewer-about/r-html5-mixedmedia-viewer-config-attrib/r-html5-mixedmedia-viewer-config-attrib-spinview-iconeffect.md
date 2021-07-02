@@ -5,7 +5,7 @@ title: SpinView.iconeffect
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: 473207d2-7e26-4ea3-940e-5a21f29a2b91
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 4%
