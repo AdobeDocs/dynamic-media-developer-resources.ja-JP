@@ -5,7 +5,7 @@ title: ズームビュー
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
