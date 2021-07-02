@@ -5,7 +5,7 @@ title: FlyoutZoomView.fmt
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 4%
