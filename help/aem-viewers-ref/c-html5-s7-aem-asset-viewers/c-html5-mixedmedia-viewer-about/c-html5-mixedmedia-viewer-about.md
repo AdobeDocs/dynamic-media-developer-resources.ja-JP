@@ -6,7 +6,7 @@ title: 混在メディア
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 0%
