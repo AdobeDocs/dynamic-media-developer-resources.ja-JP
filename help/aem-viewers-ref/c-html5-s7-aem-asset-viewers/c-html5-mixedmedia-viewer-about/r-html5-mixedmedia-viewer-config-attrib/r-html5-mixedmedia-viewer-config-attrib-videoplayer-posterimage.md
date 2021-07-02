@@ -5,7 +5,7 @@ title: VideoPlayer.posterimage
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
 role: Developer,Business Practitioner
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 2%
