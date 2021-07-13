@@ -3,9 +3,9 @@ description: スピンビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: 処分する
 feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c19466a8-9fc5-440c-8bb1-c4528937a522
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
