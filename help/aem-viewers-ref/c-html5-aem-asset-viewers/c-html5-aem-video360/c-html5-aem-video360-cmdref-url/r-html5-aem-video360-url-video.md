@@ -3,9 +3,9 @@ description: ビデオ360ビューアのURLコマンド。
 solution: Experience Manager
 title: ビデオ
 feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 16%
