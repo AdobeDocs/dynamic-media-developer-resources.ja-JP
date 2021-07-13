@@ -3,9 +3,9 @@ description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%
