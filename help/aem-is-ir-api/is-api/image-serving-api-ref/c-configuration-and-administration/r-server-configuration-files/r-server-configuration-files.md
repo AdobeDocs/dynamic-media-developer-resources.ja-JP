@@ -3,9 +3,9 @@ description: すべての設定ファイルはinstall_folder/confにあり、ほ
 solution: Experience Manager
 title: サーバー設定ファイル
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
