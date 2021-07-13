@@ -3,9 +3,9 @@ description: インタラクティブビデオビューアは、H.264形式で�
 solution: Experience Manager
 title: インタラクティブビデオ
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2217'
 ht-degree: 0%
