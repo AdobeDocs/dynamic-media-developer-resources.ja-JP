@@ -3,9 +3,9 @@ description: このボタンをクリックまたはタップすると、含ま�
 solution: Experience Manager
 title: 閉じるボタン
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f466e8c-29a8-408d-97ae-e40043cb04e5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
