@@ -3,9 +3,9 @@ description: 印刷解像度。 フルサイズ画像のプリント解像度。
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 7%
