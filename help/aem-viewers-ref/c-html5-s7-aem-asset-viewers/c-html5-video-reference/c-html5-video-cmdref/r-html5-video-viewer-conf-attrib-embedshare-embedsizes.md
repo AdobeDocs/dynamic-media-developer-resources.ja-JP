@@ -3,9 +3,9 @@ description: ビデオビューアの設定属性。
 solution: Experience Manager
 title: EmbedShare.embedsizes
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 10%
