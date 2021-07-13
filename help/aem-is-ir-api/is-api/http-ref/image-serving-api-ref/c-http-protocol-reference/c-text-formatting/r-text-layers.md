@@ -3,9 +3,9 @@ description: textPs=は、この節で説明する様々な使用モデルをサ
 solution: Experience Manager
 title: テキストレイヤー
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
