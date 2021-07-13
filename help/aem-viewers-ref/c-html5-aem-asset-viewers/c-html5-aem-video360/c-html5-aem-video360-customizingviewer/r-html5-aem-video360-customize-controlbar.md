@@ -3,9 +3,9 @@ description: コントロールバーは、再生/一時停止ボタン、音量
 solution: Experience Manager
 title: コントロールバー
 feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 1%
