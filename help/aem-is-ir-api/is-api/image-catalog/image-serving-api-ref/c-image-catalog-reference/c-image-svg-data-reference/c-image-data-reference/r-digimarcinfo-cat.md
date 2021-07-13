@@ -3,9 +3,9 @@ description: Digimarc画像情報。 Digimarc埋め込みを有効にし、透�
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 13%
@@ -70,7 +70,7 @@ Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>コピー保護。 </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類
    <td> <p>制限付き </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>コピー保護、制限。 </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>未使用。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
@@ -127,7 +127,7 @@ Digimarc画像情報。 Digimarc埋め込みを有効にし、透かしの種類
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>トランザクションID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
