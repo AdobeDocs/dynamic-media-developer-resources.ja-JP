@@ -3,9 +3,9 @@ description: シーン座標空間は、テクスチャ可能なオブジェク�
 solution: Experience Manager
 title: シーンの座標
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: de7f088e-3825-4d2e-924e-001a44db62a0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
