@@ -3,9 +3,9 @@ description: グレースケールのデフォルト入力カラープロファ�
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
