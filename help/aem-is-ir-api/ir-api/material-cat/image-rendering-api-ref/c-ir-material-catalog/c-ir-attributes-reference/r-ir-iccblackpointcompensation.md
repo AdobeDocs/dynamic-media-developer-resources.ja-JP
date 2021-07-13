@@ -3,9 +3,9 @@ description: 黒点補正 icc=で明示的な選択が行われていない場�
 solution: Experience Manager
 title: IccBlackPointCompensation
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9d075434-5ef0-4b6a-ad24-1ef9c57e3e47
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 5%
