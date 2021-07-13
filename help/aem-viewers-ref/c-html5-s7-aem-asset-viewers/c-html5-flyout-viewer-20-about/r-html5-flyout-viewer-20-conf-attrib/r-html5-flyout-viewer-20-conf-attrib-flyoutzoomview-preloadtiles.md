@@ -3,9 +3,9 @@ description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
 feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 34c8c7b9-0369-4d13-95f5-ad129e913453
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 7%
