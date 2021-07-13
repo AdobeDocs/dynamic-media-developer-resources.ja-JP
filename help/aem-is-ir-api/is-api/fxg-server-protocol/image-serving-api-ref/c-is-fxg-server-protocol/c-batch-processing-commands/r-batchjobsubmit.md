@@ -3,9 +3,9 @@ description: 新しいバッチジョブを送信します。
 solution: Experience Manager
 title: batchjobsubmit
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4ab2f6e4-cd68-4f1e-ab54-6f5e9bfc87cb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 2%
