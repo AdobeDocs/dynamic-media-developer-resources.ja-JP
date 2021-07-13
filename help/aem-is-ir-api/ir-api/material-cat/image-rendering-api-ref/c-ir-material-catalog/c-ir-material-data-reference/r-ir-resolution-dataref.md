@@ -3,9 +3,9 @@ description: 解像度. 「現実世界」の画像解像度。通常は1イン�
 solution: Experience Manager
 title: 解像度
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 7%
