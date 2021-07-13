@@ -3,9 +3,9 @@ description: クライアントキャッシュの有効期間。 有効期限が
 solution: Experience Manager
 title: 有効期限
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5717d568-467e-495b-b963-9b3d42e866a6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%
