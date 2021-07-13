@@ -3,9 +3,9 @@ description: 初期設定のサムネールの種類。 特定のカタログレ
 solution: Experience Manager
 title: ThumbType
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
