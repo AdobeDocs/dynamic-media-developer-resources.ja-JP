@@ -3,9 +3,9 @@ description: デフォルトの画像応答のクライアントキャッシュT
 solution: Experience Manager
 title: DefaultExpiration
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 99103681-c00c-4648-8dee-2314e7e614af
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
