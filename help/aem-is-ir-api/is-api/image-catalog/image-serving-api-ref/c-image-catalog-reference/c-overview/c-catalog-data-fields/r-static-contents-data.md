@@ -3,9 +3,9 @@ description: 静的（画像以外の）コンテンツカタログでは、次�
 solution: Experience Manager
 title: 静的コンテンツデータ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 6%
