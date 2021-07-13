@@ -3,9 +3,9 @@ description: ビデオビューアでは、Adobe Analyticsの追跡機能がサ�
 solution: Experience Manager
 title: Adobe Analytics追跡のサポート
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
