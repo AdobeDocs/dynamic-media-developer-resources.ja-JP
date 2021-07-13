@@ -3,9 +3,9 @@ description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: afc2018f-b222-4fd5-b9dc-88655793efd4
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 6%
