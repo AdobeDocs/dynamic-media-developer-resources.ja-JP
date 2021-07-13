@@ -3,9 +3,9 @@ description: ダウンロード
 solution: Experience Manager
 title: ダウンロード
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fb01371b-0aa6-4591-8523-120c217cf45d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
