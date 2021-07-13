@@ -3,9 +3,9 @@ description: Dynamic Media Image Servingを使用する前に、お使いのシ�
 solution: Experience Manager
 title: 必要システム構成と前提条件
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
