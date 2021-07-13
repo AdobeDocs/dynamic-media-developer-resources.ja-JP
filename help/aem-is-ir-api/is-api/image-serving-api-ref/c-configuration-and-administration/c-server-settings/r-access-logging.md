@@ -3,9 +3,9 @@ description: これらのサーバー設定を使用して、アクセスをロ�
 solution: Experience Manager
 title: アクセスログ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 4%
