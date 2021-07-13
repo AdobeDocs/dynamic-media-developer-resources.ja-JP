@@ -3,9 +3,9 @@ description: 拡大・縮小ビュー 最大解像度のビネットを基準に
 solution: Experience Manager
 title: scl
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%
