@@ -3,9 +3,9 @@ description: 画像を拡大・縮小します。 最大解像度の画像を基
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 8%
