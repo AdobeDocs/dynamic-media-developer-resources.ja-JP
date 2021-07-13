@@ -3,9 +3,9 @@ description: Dynamic Media Image Servingを使用する際に考慮すべき制�
 solution: Experience Manager
 title: 制限事項と既知の問題
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 0%
