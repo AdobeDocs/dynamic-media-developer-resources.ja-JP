@@ -3,9 +3,9 @@ description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
 feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0bfecc7f-5e52-47b4-a1b4-3ac3d934928b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 10%
