@@ -3,9 +3,9 @@ description: デフォルトの応答画像。 画像ファイルが見つから
 solution: Experience Manager
 title: DefaultImage
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2044b447-0ee1-4964-b751-8637c5e115d1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
