@@ -3,9 +3,9 @@ description: ID変換マップ。 汎用の画像IDをロケール固有のIDに
 solution: Experience Manager
 title: LocaleMap
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
