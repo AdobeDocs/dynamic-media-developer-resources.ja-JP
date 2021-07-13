@@ -4,9 +4,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 title: フライアウトビューアのカスタマイズ
 feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b7898044-5178-4cdf-ab52-9996a61a3a35
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
