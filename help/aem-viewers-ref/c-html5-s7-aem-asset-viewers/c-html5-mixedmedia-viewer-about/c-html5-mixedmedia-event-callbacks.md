@@ -3,9 +3,9 @@ description: イベントコールバック
 solution: Experience Manager
 title: イベントコールバック
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1a7b51c1-baa7-4ae3-b6b7-17478055a605
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
