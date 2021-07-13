@@ -3,9 +3,9 @@ description: XMPメタデータ。 リクエストパスで指定された画像
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 6%
