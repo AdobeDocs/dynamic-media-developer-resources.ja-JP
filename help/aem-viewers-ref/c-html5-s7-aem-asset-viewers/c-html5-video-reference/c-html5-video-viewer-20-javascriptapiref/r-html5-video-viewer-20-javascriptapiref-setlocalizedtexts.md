@@ -3,9 +3,9 @@ description: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3bb1d277-e057-4a5d-9498-2adbca8f12b2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 4%
