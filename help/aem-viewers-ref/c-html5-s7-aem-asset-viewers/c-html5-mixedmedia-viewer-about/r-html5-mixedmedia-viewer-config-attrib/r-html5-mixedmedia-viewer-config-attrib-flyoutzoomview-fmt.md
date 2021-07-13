@@ -3,9 +3,9 @@ description: コンポーネントがImage Serverから画像を読み込む際�
 solution: Experience Manager
 title: FlyoutZoomView.fmt
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 4%
