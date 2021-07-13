@@ -3,9 +3,9 @@ description: 画像ファイルのパス。 テクスチャまたはデカール
 solution: Experience Manager
 title: パス *
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 3%
