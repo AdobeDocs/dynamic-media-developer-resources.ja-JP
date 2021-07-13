@@ -3,9 +3,9 @@ description: このボタンをクリックまたはタップすると、カタ�
 solution: Experience Manager
 title: 前のページボタン
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cc0e8c18-f9c1-4451-9fbe-3b082f78a7ec
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
