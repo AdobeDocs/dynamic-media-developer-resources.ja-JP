@@ -3,9 +3,9 @@ description: キャッシュエントリは、CacheValidationPolicy属性（defa
 solution: Experience Manager
 title: 応答キャッシュの検証
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
