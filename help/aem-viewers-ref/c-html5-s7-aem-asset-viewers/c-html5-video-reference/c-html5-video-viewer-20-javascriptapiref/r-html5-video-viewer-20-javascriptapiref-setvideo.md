@@ -3,9 +3,9 @@ description: ビデオビューアのJavaScript APIリファレンス
 solution: Experience Manager
 title: setVideo
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
