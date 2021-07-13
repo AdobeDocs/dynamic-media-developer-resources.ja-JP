@@ -3,9 +3,9 @@ description: 応答の画像フィットモード。 倍率の計算方法を指
 solution: Experience Manager
 title: フィット
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -65,7 +65,7 @@ ht-degree: 2%
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vfit  </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> yScale </span>を適用して、画像を縦方向にぴったりと収め、切り抜きや空白が左右に現れます。 特殊な用途に役立ちます。 </p> </td> 
+   <td colname="col2"> <p><span class="varname"> yScale </span>を適用して、画像を縦方向にきつく収め、切り抜きや空白を左右に配置します。 特殊な用途に役立ちます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
