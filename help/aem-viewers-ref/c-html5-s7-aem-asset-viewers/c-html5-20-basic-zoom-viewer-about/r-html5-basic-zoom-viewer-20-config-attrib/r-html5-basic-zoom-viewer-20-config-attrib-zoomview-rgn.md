@@ -3,9 +3,9 @@ description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 11%
