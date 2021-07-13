@@ -3,9 +3,9 @@ description: メインビュー領域は、ズーム画像が表示される領�
 solution: Experience Manager
 title: メインビューア領域
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 2%
