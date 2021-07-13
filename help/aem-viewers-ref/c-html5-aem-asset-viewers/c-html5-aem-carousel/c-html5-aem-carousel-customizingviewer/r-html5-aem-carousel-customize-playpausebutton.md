@@ -3,9 +3,9 @@ description: 再生/一時停止ボタンを使用すると、カルーセル自
 solution: Experience Manager
 title: PlayPauseボタン
 feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
