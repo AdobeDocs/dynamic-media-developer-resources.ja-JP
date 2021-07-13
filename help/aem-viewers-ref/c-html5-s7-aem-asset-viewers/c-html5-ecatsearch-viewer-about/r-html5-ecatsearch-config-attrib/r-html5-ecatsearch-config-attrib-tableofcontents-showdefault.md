@@ -3,9 +3,9 @@ description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 9%
