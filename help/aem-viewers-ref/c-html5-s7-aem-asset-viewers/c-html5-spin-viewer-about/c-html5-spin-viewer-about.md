@@ -4,9 +4,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 title: Spin
 feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 0%
