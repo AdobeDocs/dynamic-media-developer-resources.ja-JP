@@ -3,9 +3,9 @@ description: 基準点を使用してグラフィックを操作できます。�
 solution: Experience Manager
 title: FXGサーバプロトコル
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 85%
