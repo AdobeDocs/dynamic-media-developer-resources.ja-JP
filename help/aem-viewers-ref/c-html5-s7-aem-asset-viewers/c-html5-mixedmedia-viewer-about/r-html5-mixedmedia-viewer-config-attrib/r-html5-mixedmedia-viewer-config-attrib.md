@@ -3,9 +3,9 @@ description: 混在メディアビューアの設定属性ドキュメント。
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aa750941-0a2e-4591-bdff-5e71ecc342aa
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
