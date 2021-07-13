@@ -3,9 +3,9 @@ description: 応答画像形式。
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 770822631ccfd0f13d3f8f1f982eb29b56dd2d24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
