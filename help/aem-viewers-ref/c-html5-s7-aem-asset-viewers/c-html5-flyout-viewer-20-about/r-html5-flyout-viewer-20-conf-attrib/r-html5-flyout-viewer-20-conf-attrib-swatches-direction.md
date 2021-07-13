@@ -3,9 +3,9 @@ description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
 feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bdc3e5a8-e7cc-4e7b-98e7-30c0d4496abe
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 6%
