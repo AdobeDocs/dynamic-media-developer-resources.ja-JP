@@ -3,9 +3,9 @@ description: レイヤ0に対するサイズ(size=)と位置(pos=)のレイヤ�
 solution: Experience Manager
 title: レイヤー操作
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
