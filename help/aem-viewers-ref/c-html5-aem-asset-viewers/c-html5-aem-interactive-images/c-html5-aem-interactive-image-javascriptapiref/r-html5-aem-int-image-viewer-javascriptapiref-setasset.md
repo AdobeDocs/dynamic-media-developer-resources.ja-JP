@@ -3,9 +3,9 @@ description: ビデオ画像ビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 3%
