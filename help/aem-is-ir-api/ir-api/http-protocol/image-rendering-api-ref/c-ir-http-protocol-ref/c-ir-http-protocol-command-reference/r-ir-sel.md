@@ -3,9 +3,9 @@ description: ピクセルの位置でオブジェクトを選択します。
 solution: Experience Manager
 title: sel
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
