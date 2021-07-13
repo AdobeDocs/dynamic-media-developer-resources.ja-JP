@@ -4,9 +4,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 title: インラインズーム
 feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
