@@ -3,9 +3,9 @@ description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
 title: videoServerUrl
 feature: Dynamic Media Classic，ビューア，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
