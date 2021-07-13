@@ -3,9 +3,9 @@ description: ビューアSDKの名前空間
 solution: Experience Manager
 title: ビューアSDKの名前空間
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
