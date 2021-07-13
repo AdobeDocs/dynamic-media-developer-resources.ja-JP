@@ -3,9 +3,9 @@ description: コマンド値は、値文字列に予約文字「=」、「&」�
 solution: Experience Manager
 title: 画像サービングのHTTPエンコーディング
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 23%
