@@ -3,9 +3,9 @@ description: 一般的なサーバー設定
 solution: Experience Manager
 title: 一般
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
