@@ -3,9 +3,9 @@ description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3cb91483-de8c-4d5c-9b46-7026c5001f3a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 4%
