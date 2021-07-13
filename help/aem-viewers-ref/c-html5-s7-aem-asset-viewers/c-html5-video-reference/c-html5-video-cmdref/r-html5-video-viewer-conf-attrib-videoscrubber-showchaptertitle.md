@@ -3,9 +3,9 @@ description: ビデオビューアの設定属性。
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 10%
