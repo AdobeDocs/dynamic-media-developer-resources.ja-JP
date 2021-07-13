@@ -3,9 +3,9 @@ description: 最終変更の応答ヘッダーを有効にします。 画像サ
 solution: Experience Manager
 title: UseLastModified
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
