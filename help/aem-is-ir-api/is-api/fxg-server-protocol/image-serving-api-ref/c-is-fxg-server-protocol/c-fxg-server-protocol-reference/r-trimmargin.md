@@ -3,9 +3,9 @@ description: トリムマージンを設定 PDFファイルで設定されるト
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: dc6e31f8-d3be-44d3-8342-a4ef4b3fd61b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%
