@@ -3,9 +3,9 @@ description: XMPメタデータを埋め込む。 応答画像にXMPメタデー
 solution: Experience Manager
 title: xmpEmbed
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 353b6ac4-1141-4f17-a3ad-ad48b321b36f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
