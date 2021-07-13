@@ -3,9 +3,9 @@ description: 特定のパフォーマンスまたはエラーのしきい値を�
 solution: Experience Manager
 title: サーバーの監視
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: c751d653-da5d-4573-99fd-fb9113977160
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%
