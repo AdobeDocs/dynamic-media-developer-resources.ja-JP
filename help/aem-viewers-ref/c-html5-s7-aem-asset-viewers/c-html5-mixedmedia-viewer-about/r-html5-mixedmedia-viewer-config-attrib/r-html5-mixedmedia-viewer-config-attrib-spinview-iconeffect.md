@@ -3,9 +3,9 @@ description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 473207d2-7e26-4ea3-940e-5a21f29a2b91
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 4%
