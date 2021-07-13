@@ -3,9 +3,9 @@ description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c2aeb45f-879b-4a53-b571-744fc73d04fd
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 3%
