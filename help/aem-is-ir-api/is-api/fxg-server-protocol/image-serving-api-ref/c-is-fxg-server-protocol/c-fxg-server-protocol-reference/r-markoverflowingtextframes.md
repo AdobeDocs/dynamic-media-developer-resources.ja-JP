@@ -3,9 +3,9 @@ description: オーバーセットテキストフレームをプラス記号で�
 solution: Experience Manager
 title: markOverflowingTextFrames
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 60%
