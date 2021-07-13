@@ -3,9 +3,9 @@ description: ここでは、vntcの使用構文について説明します。
 solution: Experience Manager
 title: 使用方法
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b892fe86-1b7c-4a49-a1cd-473f51d04d10
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 1%
