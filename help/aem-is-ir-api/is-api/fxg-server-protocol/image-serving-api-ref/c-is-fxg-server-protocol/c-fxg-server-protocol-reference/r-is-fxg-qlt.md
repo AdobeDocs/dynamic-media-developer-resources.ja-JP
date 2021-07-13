@@ -3,9 +3,9 @@ description: JPEG画質 圧縮レベルを制御するJPEGエンコーディン�
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 15%
