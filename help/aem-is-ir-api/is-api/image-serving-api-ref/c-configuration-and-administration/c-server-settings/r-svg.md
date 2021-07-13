@@ -3,9 +3,9 @@ description: この節の設定は、SVGのレンダリングが必要な場合�
 solution: Experience Manager
 title: SVG
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%
