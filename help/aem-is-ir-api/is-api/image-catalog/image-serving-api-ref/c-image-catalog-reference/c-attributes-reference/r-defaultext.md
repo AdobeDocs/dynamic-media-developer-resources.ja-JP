@@ -3,9 +3,9 @@ description: 初期設定の画像ファイルサフィックス パスにファ
 solution: Experience Manager
 title: DefaultExt
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 43b3e5b8-6374-458d-8503-8e04c8c84233
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
