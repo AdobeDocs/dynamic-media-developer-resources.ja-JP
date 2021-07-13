@@ -3,9 +3,9 @@ description: HTML5ビデオ360ビューアでは、Adobe Analyticsの追跡機�
 solution: Experience Manager
 title: Adobe Analytics追跡のサポート
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
