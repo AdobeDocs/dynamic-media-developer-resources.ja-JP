@@ -4,9 +4,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 title: インタラクティブビデオビューアのカスタマイズ
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1396'
 ht-degree: 0%
