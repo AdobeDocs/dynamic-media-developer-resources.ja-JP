@@ -3,9 +3,9 @@ description: ビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setLocalizedTexts
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8b471abe-df80-4601-bdcc-b7928418f351
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 2%
