@@ -3,9 +3,9 @@ description: 相対画像URLのルートURL。 相対画像URLのルートURLを
 solution: Experience Manager
 title: RootUrl
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 72560180-53e5-4293-9dd3-c0cd196551dc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 4%
