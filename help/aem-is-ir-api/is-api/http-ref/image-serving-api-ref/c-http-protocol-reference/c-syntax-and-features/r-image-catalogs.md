@@ -3,9 +3,9 @@ description: 画像カタログの機能と構文については、この節で�
 solution: Experience Manager
 title: 画像カタログ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
