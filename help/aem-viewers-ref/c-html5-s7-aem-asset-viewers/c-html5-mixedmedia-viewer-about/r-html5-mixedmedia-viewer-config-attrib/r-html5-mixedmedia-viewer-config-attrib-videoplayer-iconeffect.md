@@ -3,9 +3,9 @@ description: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8371cb69-4cd9-457b-bd8c-e4167fc67600
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 4%
