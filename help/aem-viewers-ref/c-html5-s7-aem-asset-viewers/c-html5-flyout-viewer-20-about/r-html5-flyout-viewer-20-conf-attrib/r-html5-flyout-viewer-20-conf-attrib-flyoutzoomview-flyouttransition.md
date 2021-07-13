@@ -3,9 +3,9 @@ description: FlyoutZoomView.flyouttransition
 solution: Experience Manager
 title: FlyoutZoomView.flyouttransition
 feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
