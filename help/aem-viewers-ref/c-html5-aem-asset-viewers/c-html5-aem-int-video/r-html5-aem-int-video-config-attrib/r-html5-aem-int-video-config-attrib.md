@@ -3,9 +3,9 @@ description: インタラクティブビデオビューアの設定属性ドキ�
 solution: Experience Manager
 title: コマンドリファレンス — 設定属性
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
