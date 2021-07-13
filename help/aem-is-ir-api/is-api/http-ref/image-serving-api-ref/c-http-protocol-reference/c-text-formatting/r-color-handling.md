@@ -3,9 +3,9 @@ description: RTF仕様では、&bsol;colortblで指定されたRGBカラー値�
 solution: Experience Manager
 title: カラー処理
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
