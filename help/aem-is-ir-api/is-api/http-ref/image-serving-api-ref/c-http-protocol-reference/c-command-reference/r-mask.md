@@ -3,9 +3,9 @@ description: イメージマスク。 関連付けられていないマスクと
 solution: Experience Manager
 title: マスク
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 1%
