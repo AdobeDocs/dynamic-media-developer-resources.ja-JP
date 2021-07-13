@@ -3,9 +3,9 @@ description: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 2%
