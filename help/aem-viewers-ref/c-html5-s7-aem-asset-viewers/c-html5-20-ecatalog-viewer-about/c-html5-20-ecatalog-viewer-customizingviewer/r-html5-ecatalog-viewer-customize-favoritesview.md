@@ -3,9 +3,9 @@ description: お気に入りビューは、サムネール画像の列で構成�
 solution: Experience Manager
 title: お気に入りビュー
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
