@@ -3,9 +3,9 @@ description: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0c79b3e2-ac5a-43c3-ac52-8240e7ed3cc1
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 3%
