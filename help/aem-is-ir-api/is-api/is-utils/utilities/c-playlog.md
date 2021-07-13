@@ -3,9 +3,9 @@ description: playlogユーティリティは、HTTP応答キャッシュ用の�
 solution: Experience Manager
 title: 「playlog」ユーティリティ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
