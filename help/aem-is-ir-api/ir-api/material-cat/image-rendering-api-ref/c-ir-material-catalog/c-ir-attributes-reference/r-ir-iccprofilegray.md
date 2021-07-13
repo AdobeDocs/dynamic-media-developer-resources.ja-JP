@@ -3,9 +3,9 @@ description: グレースケールの初期設定カラースペース icc=で�
 solution: Experience Manager
 title: IccProfileGray
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 21f37090-a68c-4d86-a807-bda243a8f99e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 3%
