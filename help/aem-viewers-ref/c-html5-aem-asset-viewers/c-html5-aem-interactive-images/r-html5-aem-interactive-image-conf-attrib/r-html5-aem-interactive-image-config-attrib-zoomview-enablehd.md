@@ -3,9 +3,9 @@ description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 7%
