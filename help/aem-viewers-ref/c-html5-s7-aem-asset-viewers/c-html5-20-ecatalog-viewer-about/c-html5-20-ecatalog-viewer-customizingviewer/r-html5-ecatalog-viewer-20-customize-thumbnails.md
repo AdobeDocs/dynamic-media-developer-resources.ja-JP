@@ -3,9 +3,9 @@ description: サムネールは、サムネール画像のグリッドと、垂�
 solution: Experience Manager
 title: サムネール
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -133,7 +133,7 @@ ht-degree: 2%
 >
 >サムネールでは、 `state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `state="selected"`はメインビューに現在表示されている画像のサムネールに対応し、 `state="default"`は残りのサムネールに対応し、 `state="over"`はマウスカーソルを合わせたときに使用されます。
 
-例 — 120 x 85ピクセルで、背景が白、標準の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
+例 — 120 x 85ピクセルで、背景が白、標準の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定します。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
