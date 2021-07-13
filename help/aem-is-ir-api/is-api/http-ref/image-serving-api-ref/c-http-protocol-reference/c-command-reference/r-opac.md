@@ -3,9 +3,9 @@ description: 画像の不透明度を調整 画像、テキスト、べた塗り
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
