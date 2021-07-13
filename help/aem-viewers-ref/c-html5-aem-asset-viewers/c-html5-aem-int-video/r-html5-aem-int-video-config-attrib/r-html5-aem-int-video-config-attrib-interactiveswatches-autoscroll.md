@@ -3,9 +3,9 @@ description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 10%
