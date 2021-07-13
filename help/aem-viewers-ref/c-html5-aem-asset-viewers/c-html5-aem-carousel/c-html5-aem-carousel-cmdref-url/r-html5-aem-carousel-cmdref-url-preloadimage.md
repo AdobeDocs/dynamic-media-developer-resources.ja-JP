@@ -3,9 +3,9 @@ description: カルーセルビューアのURLコマンド。
 solution: Experience Manager
 title: preloadimage**
 feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 14%
