@@ -3,9 +3,9 @@ description: 画像レイヤー変換の手順2は、サムネールの場合（
 solution: Experience Manager
 title: サムネールの拡大/縮小
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 08290258-4fc8-4a6a-ba8f-6bdcd969fa3c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
