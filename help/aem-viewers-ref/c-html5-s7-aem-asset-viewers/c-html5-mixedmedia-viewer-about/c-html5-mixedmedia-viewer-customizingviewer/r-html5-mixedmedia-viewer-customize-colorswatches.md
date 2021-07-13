@@ -3,9 +3,9 @@ description: カラースウォッチは、一連のサムネール画像と、�
 solution: Experience Manager
 title: カラースウォッチ
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
