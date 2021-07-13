@@ -3,9 +3,9 @@ description: デフォルトのオブジェクト解像度。 特定のカタロ
 solution: Experience Manager
 title: 解像度
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 6%
