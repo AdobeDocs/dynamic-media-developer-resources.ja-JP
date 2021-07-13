@@ -3,9 +3,9 @@ description: レスポンシブ画像ライブラリをWebページに追加し�
 solution: Experience Manager
 title: レスポンシブ画像ライブラリの使用
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
