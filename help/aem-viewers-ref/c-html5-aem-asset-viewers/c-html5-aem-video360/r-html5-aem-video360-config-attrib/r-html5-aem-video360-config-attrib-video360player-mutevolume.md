@@ -3,9 +3,9 @@ description: ビデオ360ビューアの設定属性。
 solution: Experience Manager
 title: Video360Player.mutevolume
 feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 14%
