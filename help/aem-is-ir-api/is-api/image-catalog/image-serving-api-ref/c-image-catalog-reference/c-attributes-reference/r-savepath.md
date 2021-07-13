@@ -3,9 +3,9 @@ description: saveToFile=のルートパス req=saveToFileで生成される画�
 solution: Experience Manager
 title: SavePath
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
