@@ -3,9 +3,9 @@ description: ソーシャル共有ツールは、デフォルトで左上隅に�
 solution: Experience Manager
 title: ソーシャル共有
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5cac6c86-08fb-46fd-bab0-ab77154eb770
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
