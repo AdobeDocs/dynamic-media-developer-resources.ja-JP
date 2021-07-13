@@ -3,9 +3,9 @@ description: ブラウザー形式の変換。 ブラウザフォーマット変
 solution: Experience Manager
 title: bfc
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 4%
