@@ -3,9 +3,9 @@ description: プロパティデータは、1つ以上のプロパティを表す
 solution: Experience Manager
 title: プロパティデータ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
