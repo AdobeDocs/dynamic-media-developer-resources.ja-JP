@@ -3,9 +3,9 @@ description: 置換文字列要素。 <rule>要素のオプションです。
 solution: Experience Manager
 title: 置換
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%
