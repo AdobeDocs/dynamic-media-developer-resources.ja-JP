@@ -3,9 +3,9 @@ description: SpinView.enableHD
 solution: Experience Manager
 title: SpinView.enableHD
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 6%
