@@ -3,9 +3,9 @@ description: ビューアは、フルスクリーン操作モードをサポー�
 solution: Experience Manager
 title: フルスクリーンのサポート
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6a3d4a58-c3aa-4663-a848-ee5c1285ff75
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
