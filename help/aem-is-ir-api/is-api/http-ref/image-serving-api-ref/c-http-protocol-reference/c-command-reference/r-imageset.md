@@ -3,9 +3,9 @@ description: 画像セット. req=set応答を生成する際に使用する画�
 solution: Experience Manager
 title: imageSet
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 8%
