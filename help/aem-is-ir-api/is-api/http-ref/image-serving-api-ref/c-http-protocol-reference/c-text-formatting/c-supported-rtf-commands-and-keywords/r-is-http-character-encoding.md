@@ -3,9 +3,9 @@ description: 次のコマンドを使用して、文字をエンコードしま�
 solution: Experience Manager
 title: 文字エンコーディング
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 2%
