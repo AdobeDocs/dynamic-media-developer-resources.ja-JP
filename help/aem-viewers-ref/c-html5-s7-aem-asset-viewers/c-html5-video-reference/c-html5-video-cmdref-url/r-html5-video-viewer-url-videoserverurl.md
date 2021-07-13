@@ -3,9 +3,9 @@ description: ビデオビューアのURLコマンド。
 solution: Experience Manager
 title: videoServerUrl
 feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 6%
