@@ -3,9 +3,9 @@ description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
 title: CallToAction.align
 feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
