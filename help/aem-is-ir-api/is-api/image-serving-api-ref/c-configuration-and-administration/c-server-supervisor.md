@@ -3,9 +3,9 @@ description: 画像サービングコンポーネントは、Linuxデーモン�
 solution: Experience Manager
 title: サーバスーパーバイザ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
