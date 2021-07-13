@@ -3,9 +3,9 @@ description: 画像サービングは、特定のレコードのカタログImag
 solution: Experience Manager
 title: メディアセットリクエスト
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 外部セット型検出 {#section-3dd6e453528d46898e559d31458a59ba}
 
-`req=set`リクエストを受信した場合、生成する応答のタイプは`catalog::AssetType`の値によって決まります。 `catalog::AssetType`が定義されていない場合、応答タイプは次のルールに基づいて決定されます。
+`req=set`リクエストを受け取ると、生成する応答のタイプは`catalog::AssetType`の値によって決まります。 `catalog::AssetType`が定義されていない場合、応答タイプは次のルールに基づいて決定されます。
 
 * レコードが画像カタログに見つかり、 `catalog::ImageSet`が定義されている場合
 
