@@ -3,9 +3,9 @@ description: RGBの初期設定の入力カラープロファイル カラープ
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1c90c77c-79b7-41aa-9269-b48d966ba362
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 2%
