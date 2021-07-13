@@ -3,9 +3,9 @@ description: VideoPlayer.initialbitrate
 solution: Experience Manager
 title: VideoPlayer.initialbitrate
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a5416488-d5fe-4f55-aee4-5aedc825ac04
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%
