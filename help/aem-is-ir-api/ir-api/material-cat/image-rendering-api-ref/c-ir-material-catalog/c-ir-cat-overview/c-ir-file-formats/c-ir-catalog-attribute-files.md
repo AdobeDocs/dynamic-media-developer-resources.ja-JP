@@ -3,9 +3,9 @@ description: カタログ属性ファイルには任意の名前を付けるこ�
 solution: Experience Manager
 title: カタログ属性ファイル
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
