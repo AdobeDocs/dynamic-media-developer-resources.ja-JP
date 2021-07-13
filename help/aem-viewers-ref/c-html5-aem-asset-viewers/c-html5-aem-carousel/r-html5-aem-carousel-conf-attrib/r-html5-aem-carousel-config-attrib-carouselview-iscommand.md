@@ -3,9 +3,9 @@ description: CarouselView.iscommand
 solution: Experience Manager
 title: CarouselView.iscommand
 feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
