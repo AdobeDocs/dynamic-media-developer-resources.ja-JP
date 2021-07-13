@@ -3,9 +3,9 @@ description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 7%
