@@ -4,9 +4,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 title: ズームビューアのカスタマイズ
 feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 336bf68c-6110-4ce8-85b4-28d7397044c2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 0%
