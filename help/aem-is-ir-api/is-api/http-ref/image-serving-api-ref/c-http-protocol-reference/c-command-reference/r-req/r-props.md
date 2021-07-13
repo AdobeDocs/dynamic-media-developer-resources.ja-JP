@@ -3,9 +3,9 @@ description: 応答データのプロパティ。 現在の要求を画像要求
 solution: Experience Manager
 title: prop
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 8%
