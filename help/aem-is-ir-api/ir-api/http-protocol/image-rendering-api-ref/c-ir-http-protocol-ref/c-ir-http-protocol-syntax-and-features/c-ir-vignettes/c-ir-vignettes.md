@@ -3,9 +3,9 @@ description: ビネットとは、Dynamic Media Image Authoringでオーサリ�
 solution: Experience Manager
 title: ビネット
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5e1be99c-58c0-4e3c-bc57-7be5fa25ccef
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
