@@ -3,9 +3,9 @@ description: この節で説明する属性は、カタログ属性ファイル�
 solution: Experience Manager
 title: カタログ属性
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
