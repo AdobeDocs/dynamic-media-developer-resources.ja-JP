@@ -3,9 +3,9 @@ description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
 title: caption
 feature: Dynamic Media Classic，ビューア，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
