@@ -3,9 +3,9 @@ description: すべてのビューアコンポーネントは、ARIA（アクセ
 solution: Experience Manager
 title: 支援技術のサポート
 feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索，アクセシビリティ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
