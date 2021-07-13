@@ -3,9 +3,9 @@ description: デスクトップシステムでは、ボタンなどの一部の�
 solution: Experience Manager
 title: ツールチップ
 feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%
