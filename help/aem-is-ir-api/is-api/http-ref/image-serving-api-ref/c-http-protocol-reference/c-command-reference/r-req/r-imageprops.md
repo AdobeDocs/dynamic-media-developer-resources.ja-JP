@@ -3,9 +3,9 @@ description: ソース画像のプロパティ。 URLパスで指定された画
 solution: Experience Manager
 title: imageprops
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 7%
