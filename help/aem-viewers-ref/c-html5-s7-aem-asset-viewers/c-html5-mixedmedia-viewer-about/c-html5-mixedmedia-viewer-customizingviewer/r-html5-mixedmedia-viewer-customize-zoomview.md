@@ -3,9 +3,9 @@ description: 連続ズームモードでは、現在のアセットが単一の�
 solution: Experience Manager
 title: ズームビュー
 feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
