@@ -3,9 +3,9 @@ description: レイヤーテキスト(Adobe Photoshop互換) テキストレイ�
 solution: Experience Manager
 title: textPs
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 4%
