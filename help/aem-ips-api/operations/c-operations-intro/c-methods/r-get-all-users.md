@@ -3,9 +3,9 @@ description: 配列内のすべてのユーザーを取得します。
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 20%
