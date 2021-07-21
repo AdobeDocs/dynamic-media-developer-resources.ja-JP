@@ -3,9 +3,9 @@ description: プロパティセットタイプ配列。
 solution: Experience Manager
 title: PropertySetTypeArray
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 23%
