@@ -3,9 +3,9 @@ description: 渡されたパラメーターに基づいて、2つの異なるタ
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
