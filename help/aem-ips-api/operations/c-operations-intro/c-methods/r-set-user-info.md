@@ -3,9 +3,9 @@ description: ユーザー属性（名前、Eメール、役割など）を
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 16%
