@@ -3,9 +3,9 @@ description: この節では、画像レンダリングサーバーの設定と�
 solution: Experience Manager
 title: サーバーの設定と管理
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
