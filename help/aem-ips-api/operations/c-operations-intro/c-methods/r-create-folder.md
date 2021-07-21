@@ -3,9 +3,9 @@ description: フォルダを作成します。
 solution: Experience Manager
 title: createFolder
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 17%
