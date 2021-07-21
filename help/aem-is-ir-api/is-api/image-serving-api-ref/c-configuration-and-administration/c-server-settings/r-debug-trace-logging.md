@@ -3,9 +3,9 @@ description: これらのサーバー設定を使用して、トレースログ�
 solution: Experience Manager
 title: Debug_traceログ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
