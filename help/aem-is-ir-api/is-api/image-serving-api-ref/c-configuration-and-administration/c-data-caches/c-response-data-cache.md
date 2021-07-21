@@ -3,9 +3,9 @@ description: リクエストがキャッシュ不可とマークされていな�
 solution: Experience Manager
 title: 応答データキャッシュ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: f09e596d-2b85-4950-8515-d54a2c2e86ae
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
