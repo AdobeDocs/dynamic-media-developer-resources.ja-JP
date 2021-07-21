@@ -3,9 +3,9 @@ description: アセットの公開履歴を返します。
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API，アセット管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 16%
