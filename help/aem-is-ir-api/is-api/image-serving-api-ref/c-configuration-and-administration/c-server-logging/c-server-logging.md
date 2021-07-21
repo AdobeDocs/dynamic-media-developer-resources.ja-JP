@@ -3,9 +3,9 @@ description: すべてのログファイルは、TCディレクトリで指定�
 solution: Experience Manager
 title: サーバーログ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
