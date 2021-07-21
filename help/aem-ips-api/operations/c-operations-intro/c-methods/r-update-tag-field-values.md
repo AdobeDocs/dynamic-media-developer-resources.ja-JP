@@ -3,9 +3,9 @@ description: タグフィールドのタグディクショナリ値を更新し�
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 12%
