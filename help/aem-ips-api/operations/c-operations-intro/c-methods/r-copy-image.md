@@ -3,9 +3,9 @@ description: 既存の画像アセットのコピーを作成します。 指定
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 13%
