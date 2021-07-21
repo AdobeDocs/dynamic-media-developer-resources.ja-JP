@@ -3,9 +3,9 @@ description: Flashファイルのプロパティ。
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 22%
