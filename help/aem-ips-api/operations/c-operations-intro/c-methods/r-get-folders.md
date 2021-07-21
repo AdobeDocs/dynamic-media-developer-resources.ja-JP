@@ -3,9 +3,9 @@ description: フォルダーパスで始まる、すべてのフォルダーと�
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 8%
