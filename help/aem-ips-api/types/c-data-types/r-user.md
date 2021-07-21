@@ -3,9 +3,9 @@ description: システム内のリソースとタイプのユーザー。
 solution: Experience Manager
 title: ユーザ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 10%
