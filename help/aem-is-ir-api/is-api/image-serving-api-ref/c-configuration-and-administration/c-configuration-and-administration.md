@@ -3,9 +3,9 @@ description: この節の情報を使用して、Image Serverを設定および�
 solution: Experience Manager
 title: 設定と管理
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 3%
