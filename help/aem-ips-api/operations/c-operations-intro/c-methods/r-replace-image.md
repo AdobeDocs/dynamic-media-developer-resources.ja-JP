@@ -3,9 +3,9 @@ description: 画像アセットの画像データを置き換えます。
 solution: Experience Manager
 title: replaceImage
 feature: Dynamic Media Classic,SDK/API，アセット管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 15%
