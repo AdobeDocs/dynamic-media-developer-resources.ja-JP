@@ -3,9 +3,9 @@ description: Image Serverに公開する未加工のセット定義文字列を�
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API，アセット管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 6%
