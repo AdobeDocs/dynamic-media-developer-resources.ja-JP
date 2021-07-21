@@ -3,9 +3,9 @@ description: IPS APIバージョン6の新しい操作方法と変更された�
 solution: Experience Manager
 title: 新規および変更された操作
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 1%
