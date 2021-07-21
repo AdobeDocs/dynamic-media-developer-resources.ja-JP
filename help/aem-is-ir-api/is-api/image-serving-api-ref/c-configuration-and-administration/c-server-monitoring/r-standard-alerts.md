@@ -3,9 +3,9 @@ description: 標準アラートは、設定された平均間隔の終わりに�
 solution: Experience Manager
 title: 標準アラート
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
