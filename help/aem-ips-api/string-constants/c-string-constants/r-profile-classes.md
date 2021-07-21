@@ -3,9 +3,9 @@ description: IccProfileFieldUpdate/クラスで使用されます。
 solution: Experience Manager
 title: プロファイルクラス
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '19'
 ht-degree: 10%
