@@ -3,9 +3,9 @@ description: アセットのXMPメタデータパケットを設定または更�
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 24%
