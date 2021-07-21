@@ -3,9 +3,9 @@ description: SSL用の次のサーバー設定を使用します。
 solution: Experience Manager
 title: SSL
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 4a5c52cc-de47-48e0-ac92-6ee66a58a7ea
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 6%
