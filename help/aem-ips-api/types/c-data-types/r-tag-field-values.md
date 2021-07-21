@@ -3,9 +3,9 @@ description: タグフィールドの値の配列。
 solution: Experience Manager
 title: TagFieldValues
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 12%
