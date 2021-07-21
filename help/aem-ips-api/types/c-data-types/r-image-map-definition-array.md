@@ -3,9 +3,9 @@ description: 画像マップ定義の配列。
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6c1bc0b4-6e81-421c-956b-2394f32350be
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 20%
