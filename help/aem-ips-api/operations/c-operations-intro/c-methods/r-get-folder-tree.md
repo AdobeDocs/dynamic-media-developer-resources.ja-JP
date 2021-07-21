@@ -3,9 +3,9 @@ description: フォルダーとサブフォルダーを階層ツリー構造で�
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 9%
