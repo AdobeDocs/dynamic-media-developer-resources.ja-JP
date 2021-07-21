@@ -3,9 +3,9 @@ description: グループのメンバーを返します。
 solution: Experience Manager
 title: getGroupMembership
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 18%
