@@ -3,9 +3,9 @@ description: 指定したPhotoshopパスを囲む四辺形の座標を返しま�
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 18%
