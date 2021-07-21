@@ -3,9 +3,9 @@ description: 複数のテキストと画像レイヤーを含むレイヤーイ�
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 10%
