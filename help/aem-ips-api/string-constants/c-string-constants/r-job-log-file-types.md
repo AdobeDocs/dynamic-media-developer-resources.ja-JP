@@ -3,9 +3,9 @@ description: JobLogDetial/assetTypeで使用されます。
 solution: Experience Manager
 title: ジョブのログファイルの種類
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 8%
