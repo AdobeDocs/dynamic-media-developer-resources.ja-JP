@@ -3,9 +3,9 @@ description: IPSのごみ箱からアセットを空にします。
 solution: Experience Manager
 title: emptyAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API，アセット管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
