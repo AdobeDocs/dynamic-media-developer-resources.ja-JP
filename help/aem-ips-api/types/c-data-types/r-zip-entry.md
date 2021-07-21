@@ -3,9 +3,9 @@ description: ZIPファイル内のエントリ。
 solution: Experience Manager
 title: ZipEntry
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 12%
