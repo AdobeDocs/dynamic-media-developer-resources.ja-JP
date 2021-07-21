@@ -3,9 +3,9 @@ description: PhotoshopOptions/layerNamingで使用されます。
 solution: Experience Manager
 title: Photoshopレイヤーの命名モード
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 8%
