@@ -3,9 +3,9 @@ description: RTFファイルアセットのプロパティ。
 solution: Experience Manager
 title: RTFInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 21%
