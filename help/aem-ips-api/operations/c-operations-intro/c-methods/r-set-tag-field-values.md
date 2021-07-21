@@ -3,12 +3,12 @@ description: 既存のタグフィールドのタグディクショナリ値を�
 solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
