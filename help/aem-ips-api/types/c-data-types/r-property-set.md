@@ -3,9 +3,9 @@ description: プロパティセットの型と値。
 solution: Experience Manager
 title: PropertySet
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 11%
