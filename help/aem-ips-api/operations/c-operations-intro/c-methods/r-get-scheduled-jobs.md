@@ -3,9 +3,9 @@ description: 実行するようにスケジュールされたジョブを取得�
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 21%
