@@ -3,9 +3,9 @@ description: getUsersParamおよびgetUserCharsParam/charFieldで使用されま
 solution: Experience Manager
 title: ユーザー文字フィルターフィールド
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 7%
