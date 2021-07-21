@@ -3,9 +3,9 @@ description: Image Serverは、このログファイルにレコードを書き�
 solution: Experience Manager
 title: Image Serverログ
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
