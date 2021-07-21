@@ -3,9 +3,9 @@ description: 一意のメタデータフィールド値を取得します。
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API，メタデータ
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 25%
