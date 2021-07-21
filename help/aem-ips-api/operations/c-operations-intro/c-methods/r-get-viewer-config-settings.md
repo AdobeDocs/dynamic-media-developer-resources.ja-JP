@@ -3,9 +3,9 @@ description: 指定したアセットに関連付けられているすべての�
 solution: Experience Manager
 title: getViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API，ビューアプリセット
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 20%
