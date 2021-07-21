@@ -3,9 +3,9 @@ description: SWCファイルアセットのプロパティ。
 solution: Experience Manager
 title: SwcInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 585b044e-740f-4bd9-b01d-873418366662
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 19%
