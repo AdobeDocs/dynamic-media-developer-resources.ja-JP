@@ -3,9 +3,9 @@ description: IPS APIバージョン3.8の新しい文字列定数および変更
 solution: Experience Manager
 title: 文字列定数の新規および変更
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 4%
