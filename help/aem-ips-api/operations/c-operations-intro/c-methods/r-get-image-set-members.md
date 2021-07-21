@@ -3,9 +3,9 @@ description: イメージセット内のメンバの配列を取得します。
 solution: Experience Manager
 title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API，画像セット
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 15%
