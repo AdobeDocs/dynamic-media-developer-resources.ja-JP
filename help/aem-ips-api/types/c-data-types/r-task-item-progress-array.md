@@ -3,9 +3,9 @@ description: タスク項目に関する情報の配列。
 solution: Experience Manager
 title: TaskItemProgressArray
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 15%
