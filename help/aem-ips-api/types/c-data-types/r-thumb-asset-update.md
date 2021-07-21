@@ -3,9 +3,9 @@ description: サムネール画像を更新しました。
 solution: Experience Manager
 title: ThumbAssetUpdate
 feature: Dynamic Media Classic,SDK/API，アセット管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ef51d01c-1434-40ac-a383-b07ef49c3bab
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 18%
