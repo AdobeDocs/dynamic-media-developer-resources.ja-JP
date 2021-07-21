@@ -3,9 +3,9 @@ description: 画像カタログサービスの次のサーバ設定を使用し�
 solution: Experience Manager
 title: 画像カタログサービス
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
