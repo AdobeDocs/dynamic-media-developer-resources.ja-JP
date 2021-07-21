@@ -3,9 +3,9 @@ description: 既存のPDFアセットを再リップするプロセス。
 solution: Experience Manager
 title: RipPdfsJob
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 2%
