@@ -3,9 +3,9 @@ description: フォルダーを新しい場所に移動します。
 solution: Experience Manager
 title: moveFolder
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 26%
