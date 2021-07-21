@@ -3,9 +3,9 @@ description: PostScriptInfo
 solution: Experience Manager
 title: PostScriptInfo
 feature: Dynamic Media Classic、SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9d226927-3b00-4e11-b279-e866aa649477
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 31%
