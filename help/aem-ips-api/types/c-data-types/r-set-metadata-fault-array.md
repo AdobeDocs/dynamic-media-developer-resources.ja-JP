@@ -3,9 +3,9 @@ description: メタデータの配列が失敗しました。
 solution: Experience Manager
 title: SetMetadataFaultArray
 feature: Dynamic Media Classic,SDK/API，メタデータ
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 76f453d0-27c5-4971-b854-25fc3cefd92c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 20%
