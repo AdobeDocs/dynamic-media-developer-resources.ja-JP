@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic、SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -22,33 +22,33 @@ ht-degree: 4%
 
 | *`format`* | 説明 |
 |---|---|
-| `avif-alpha` | アルファチャンネル付きの非可逆および可逆AVIF <br><br>*この形式のリリースタイムライン：* <br><b>北米</b> — 現在入手可能<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年8月13日<br><b>アジア太平洋</b> — 利用可能now |
-| `avif` | この形式の非可逆および可逆AVIF <br><br>*リリースタイムライン：*<br><b>&#x200B;北米</b> — 現在入手可能<br><b>ヨーロッパ、中東、アフリカ</b> - 2021年8月13日<br><b>アジア太平洋</b> — 現在利用可能 |
-| `eps` | 非圧縮バイナリカプセル化PostScript |
-| `f4m` | Flashストリーミングサーバのマニフェスト形式 |
-| `gif-alpha` | 2～255色+キーカラー透明度を含むGIF |
-| `gif` | 2～256色のGIF |
+| `avif-alpha` | アルファチャンネル付きの非可逆および非可逆AVIF。 |
+| `avif` | 非可逆および可逆AVIF。 |
+| `eps` | 非圧縮バイナリEncapsulated PostScript。 |
+| `f4m` | Flashストリーミングサーバのマニフェスト形式。 |
+| `gif-alpha` | 2～255色とキーカラーの透明度を加えたGIF |
+| `gif` | 2～256色のGIF。 |
 | `jpeg` | 非可逆JPEG |
 | `jpeg2000-alpha` | アルファチャンネル付き非可逆JPEG 2000 |
-| `jpeg2000` | 非可逆および非可逆JPEG 2000 |
-| `jpegxr-alpha` | アルファチャンネル付き可逆および可逆JPEG XR |
-| `jpegxr` | 可逆および可逆JPEG XR |
+| `jpeg2000` | 非可逆および可逆JPEG 2000。 |
+| `jpegxr-alpha` | アルファチャンネル付きの非可逆JPEG XR。 |
+| `jpegxr` | 可逆および可逆JPEG XR。 |
 | `jpg` | 非可逆JPG |
-| `m3u8` | Apple Streaming Serverマニフェスト形式 |
-| `pdf` | PDFに埋め込まれた画像 |
-| `pjpeg` | プログレッシブ JPEG |
-| `png-alpha` | アルファチャンネル付き24ビット可逆PNG |
+| `m3u8` | Apple Streaming Serverマニフェスト形式。 |
+| `pdf` | PDFに埋め込まれた画像。 |
+| `pjpeg` | プログレッシブ JPEG. |
+| `png-alpha` | アルファチャンネル付きの24ビット可逆PNG |
 | `png` | 24ビット可逆PNG |
 | `png8-alpha` | アルファチャンネル付き8ビット可逆PNG |
-| `png8` | 8ビット可逆PNG |
-| `swf-alpha` | AdobeAS2 swfファイルに埋め込まれた非可逆JPEGおよびデフレート圧縮マスク |
-| `swf` | AdobeAS2 swfファイルに埋め込まれた非可逆JPEG |
+| `png8` | 8ビット可逆PNG。 |
+| `swf-alpha` | AdobeAS2 swfファイルに埋め込まれた可逆JPEGおよびデフレート圧縮マスク。 |
+| `swf` | AdobeAS2 swfファイルに埋め込まれた非可逆JPEG。 |
 | `swf3-alpha` | AdobeAS3 swfファイルに埋め込まれた可逆JPEGおよびデフレート圧縮マスク。 **注意：** swfおよびswf-alpha形式は、ActionScript2アプリケーション(Flash Player8以前)に最適です。ActionScript3アプリケーション(Flash Player9以降)では、swf3およびswf3-alphaの形式を使用することをお勧めします。 |
-| `swf3` | AdobeAS3 swfファイルに埋め込まれた非可逆JPEG |
+| `swf3` | AdobeAS3 swfファイルに埋め込まれた非可逆JPEG。 |
 | `tif-alpha` | アルファチャンネル付きTIFF |
-| `tif` | TIFF |
-| `webp-alpha` | アルファチャンネル付きの非可逆WebP |
-| `webp` | 可逆および可逆WebP |
+| `tif` | TIFF. |
+| `webp-alpha` | アルファチャンネル付きの非可逆WebP。 |
+| `webp` | 非可逆WebPおよび可逆WebP |
 
 | *`pixelType`* – rgb | 灰色 | cmyk |
 | *`pixelType`* | 説明 |
@@ -60,12 +60,12 @@ ht-degree: 4%
 | *`compression`* – none | lzw | zip | jpeg | 非可逆 | 可逆 |
 | *`compression`* | 説明 |
 |---|---|
-| `jpeg` | JPEG圧縮（非可逆） |
-| `lossy` | WebP、JPEG 2000およびJPEG XR圧縮（非可逆） |
-| `lossless` | WebP、JPEG 2000およびJPEG XR圧縮（可逆） |
-| `lzw` | LZW(Lempel-Ziv-Welch)圧縮（可逆） |
-| `none` | 非圧縮 |
-| `zip` | 「デフレート」圧縮（可逆） |
+| `jpeg` | JPEG圧縮（非可逆）。 |
+| `lossy` | WebP、JPEG 2000およびJPEG XR圧縮（非可逆）。 |
+| `lossless` | WebP、JPEG 2000およびJPEG XR圧縮（可逆）。 |
+| `lzw` | LZW(Lempel-Ziv-Welch)圧縮（可逆）。 |
+| `none` | 非圧縮. |
+| `zip` | 「デフレート」圧縮（可逆）。 |
 
 * *`format`* は、クライアントに送信される画像データの画像エンコーディング形式と、HTTP応答ヘッダーに対応する応答MIMEタイプを指定します。
 * *`pixelType`* を使用すると、が指定されていない場合に出力カラースペースの変 `icc=` 換がおこなわれます。
