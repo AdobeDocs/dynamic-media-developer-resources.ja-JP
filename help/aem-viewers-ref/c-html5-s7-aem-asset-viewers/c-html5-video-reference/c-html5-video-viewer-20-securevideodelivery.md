@@ -2,21 +2,21 @@
 description: HTTPビデオ配信
 solution: Experience Manager
 title: HTTPビデオ配信
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # HTTPビデオ配信{#http-video-delivery}
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->セキュアビデオ配信は、[機能パック13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)のインストールでAEM 6.2に適用され、[機能パックNPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)のインストールでAEM 6.1に適用されます。
+>Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
 この節の最初に説明するようにビューアが設定で動作する場合、公開されたビデオ配信は、HTTPS（セキュア）モードとHTTP（セキュア）モードの両方でおこなわれます。 デフォルト設定では、ビデオ配信プロトコルは、埋め込みWebページの配信プロトコルに厳密に従います。 ただし、[VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e)設定属性を使用してWebページを埋め込むことで、使用するプロトコルに関係なく、HTTPSビデオ配信を強制できます。 （オーサーモードのビデオプレビューは、常にHTTPS経由で安全に配信されます）。
 

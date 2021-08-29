@@ -2,12 +2,12 @@
 description: Dynamic Media Image Servingを使用する前に、お使いのシステムが必要システム構成を満たしていることを確認してください。
 solution: Experience Manager
 title: 必要システム構成と前提条件
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ Dynamic Mediaの画像サービングには、次のサーバーソフトウェ�
 * Red Hat® Enterprise 5またはCentOS 5.5以降（最新の修正パッチを適用済み）。
 * 64ビットオペレーティングシステム。
 
-**注意：** Windowsで画像サービングを使用するには、Microsoft Visual Studio 2010の再頒布可能パッケージをインストールする必要があります。再頒布可能パッケージは次の場所で入手できます。
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**注意：** Windowsで画像サービングを使用するには、Microsoft Visual Studio 2010の再頒布可能パッケージをインストールする必要があります。
