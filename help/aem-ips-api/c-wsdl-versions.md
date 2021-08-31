@@ -2,12 +2,12 @@
 description: IPS Webサービスは、IPS WebサービスコンポーネントがインストールされているIPSインストールからアクセスされるWSDL (Web Services Description Language)ドキュメントのセットによってサポートされます。 各IPS APIリリースには、バージョン管理されたターゲットXML名前空間を参照する新しいWSDLファイルが含まれています。 以前のWSDL名前空間バージョンも、既存のアプリケーションとの下位互換性を保つためにサポートされています。
 solution: Experience Manager
 title: IPS WebサービスWSDLバージョン
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ IPS API SOAPバインディングは、HTTPトランスポートのみをサポ�
 
 **メッセージの形式**
 
-document/literalスタイルは、XMLスキーマ定義言語([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))に基づく、WSDLファイルで指定された型を持つすべての入力および出力メッセージに使用されます。 すべての型には、WSDLファイルで指定されたターゲット名前空間の値を使用して修飾名が必要です。
+document/literalスタイルは、XMLスキーマ定義言語([https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))に基づく、WSDLファイルで指定された型を持つすべての入力および出力メッセージに使用されます。 すべての型には、WSDLファイルで指定されたターゲット名前空間の値を使用して修飾名が必要です。
 
 **認証のリクエスト**
 

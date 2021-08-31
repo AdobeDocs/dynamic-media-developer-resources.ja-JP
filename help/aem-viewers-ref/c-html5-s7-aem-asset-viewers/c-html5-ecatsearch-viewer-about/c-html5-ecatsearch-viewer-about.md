@@ -3,12 +3,12 @@ description: eCatalog検索ビューアは、見開きまたはページごと�
 keywords: レスポンシブ
 solution: Experience Manager
 title: eCatalog検索
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ eCatalog検索ビューアは、ソーシャル共有ツールをサポートし
 
    同じく、コンテナ要素は、必ずしもまだWebページレイアウトの一部ではあるとは限りません。 例えば、`display:none`スタイルを割り当てて非表示にすることができます。 この場合、Webページでコンテナ要素がレイアウトに戻るまで、ビューアの初期化プロセスが遅れます。 この場合、ビューアの読み込みが自動的に再開されます。
 
-   以下の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()`メソッドを呼び出します。 この例では、 `eCatalogSearchViewer`がビューアインスタンスであると仮定しています。`s7viewer`はプレースホルダー`DIV`の名前です。`http://s7d1.scene7.com/is/image/`は画像サービングのURLで、`Viewers/Pluralist`はアセットです。
+   以下の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()`メソッドを呼び出します。 この例では、 `eCatalogSearchViewer`がビューアインスタンスであると仮定しています。`s7viewer`はプレースホルダー`DIV`の名前です。`https://s7d1.scene7.com/is/image/`は画像サービングのURLで、`Viewers/Pluralist`はアセットです。
 
    ```
    <script type="text/javascript"> 
@@ -201,8 +201,8 @@ eCatalog検索ビューアは、ソーシャル共有ツールをサポートし
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script>
@@ -214,7 +214,7 @@ eCatalog検索ビューアは、ソーシャル共有ツールをサポートし
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
@@ -229,8 +229,8 @@ eCatalog検索ビューアは、ソーシャル共有ツールをサポートし
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script> 
@@ -270,7 +270,7 @@ eCatalog検索ビューアは、ソーシャル共有ツールをサポートし
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -286,8 +286,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -333,7 +333,7 @@ height: 60%;
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -357,8 +357,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -376,7 +376,7 @@ JSONベースの初期化を使用する代わりに、セッターベースのA
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogsearchviewer { 
  width: 640px; 
@@ -389,8 +389,8 @@ JSONベースの初期化を使用する代わりに、セッターベースのA
 <script type="text/javascript"> 
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer(); 
 eCatalogSearchViewer.setContainerId("s7viewer"); 
-eCatalogSearchViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
-eCatalogSearchViewer.setParam("searchserverurl", "http://s7search1.scene7.com/s7search/"); 
+eCatalogSearchViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
+eCatalogSearchViewer.setParam("searchserverurl", "https://s7search1.scene7.com/s7search/"); 
 eCatalogSearchViewer.setAsset("Viewers/Pluralist"); 
 eCatalogSearchViewer.init(); 
 </script> 

@@ -2,12 +2,12 @@
 description: 画像サービングを使用して、カタログ内の画像以外のコンテンツを管理し、個別の/is/contentコンテキストを介して提供できます。
 solution: Experience Manager
 title: 静的（画像以外）コンテンツの提供
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 トラックは、他の種類の時間指定メタデータにも使用できます。 各トラック要素のソースデータは、時間指定キューのリストで構成されたテキストファイルです。 キューには、JSONやCSVなどの形式のデータを含めることができます。
 
-JSONP形式について詳しくは、 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)を参照してください。
+JSONP形式について詳しくは、 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)を参照してください。
 
-JSON形式について詳しくは、 [www.json.org](http://www.json.org)を参照してください。
+JSON形式について詳しくは、 [www.json.org](https://www.json.org)を参照してください。
 
 ## 関連項目 {#section-7b28631016044a22a3a6762fd64771e9}
 

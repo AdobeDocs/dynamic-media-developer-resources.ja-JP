@@ -2,12 +2,12 @@
 description: eCatalogビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: eCatalogViewer
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 111699a3-8a70-4caf-b7da-7b594b785f7c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 }, 
 "handlers":{ 
  "initComplete":function() { 

@@ -2,12 +2,12 @@
 description: ビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---

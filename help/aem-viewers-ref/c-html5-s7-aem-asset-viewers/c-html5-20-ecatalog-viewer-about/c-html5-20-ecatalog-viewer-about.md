@@ -3,12 +3,12 @@ description: eCatalogビューアは、見開きまたはページごとに電�
 keywords: レスポンシブ
 solution: Experience Manager
 title: eCatalog
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ eCatalogビューアは、見開きまたはページごとに電子パンフレ
 
 ## デモURL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+[https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
 ## eCatalogビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -107,7 +107,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
 以下は、ビューアを新しいウィンドウで開くHTMLコードの例です。
 
 ```
-<a href="http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
+<a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
 **固定サイズ埋め込みモードとレスポンシブデザイン埋め込みモードについて**
@@ -198,7 +198,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
 
    同じく、コンテナ要素は、必ずしもまだWebページレイアウトの一部ではあるとは限りません。 例えば、`display:none`スタイルを割り当てて非表示にすることができます。 この場合、Webページでコンテナ要素がレイアウトに戻るまで、ビューアの初期化プロセスが遅れます。 この場合、ビューアの読み込みが自動的に再開されます。
 
-   以下の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()`メソッドを呼び出します。 この例では、 `eCatalogViewer`がビューアインスタンスであると仮定しています。`s7viewer`はプレースホルダー`DIV`の名前です。`http://s7d1.scene7.com/is/image/`は画像サービングのURLで、`Viewers/Pluralist`はアセットです。
+   以下の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()`メソッドを呼び出します。 この例では、 `eCatalogViewer`がビューアインスタンスであると仮定しています。`s7viewer`はプレースホルダー`DIV`の名前です。`https://s7d1.scene7.com/is/image/`は画像サービングのURLで、`Viewers/Pluralist`はアセットです。
 
    ```
    <script type="text/javascript"> 
@@ -206,7 +206,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script>
@@ -218,7 +218,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
@@ -233,7 +233,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script> 
@@ -273,7 +273,7 @@ eCatalogビューアはソーシャル共有ツールをサポートしていま
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -289,7 +289,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -335,7 +335,7 @@ height: 60%;
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -359,7 +359,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -377,7 +377,7 @@ JSONベースの初期化を使用する代わりに、セッターベースのA
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogviewer { 
  width: 640px; 
@@ -390,7 +390,7 @@ JSONベースの初期化を使用する代わりに、セッターベースのA
 <script type="text/javascript"> 
 var eCatalogViewer = new s7viewers.eCatalogViewer(); 
 eCatalogViewer.setContainerId("s7viewer"); 
-eCatalogViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
+eCatalogViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
 eCatalogViewer.setAsset("Viewers/Pluralist"); 
 eCatalogViewer.init(); 
 </script> 

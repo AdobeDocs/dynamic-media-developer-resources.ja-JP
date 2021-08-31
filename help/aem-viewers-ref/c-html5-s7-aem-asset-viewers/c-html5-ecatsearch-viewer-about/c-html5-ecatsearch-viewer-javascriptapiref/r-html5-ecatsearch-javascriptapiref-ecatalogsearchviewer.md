@@ -2,12 +2,12 @@
 description: eCatalog SearchViewerのJavaScript APIリファレンス。
 solution: Experience Manager
 title: eCatalogSearchViewer
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a7289d23-b2f6-4730-99fa-331174968e05
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '205'
 ht-degree: 3%
 
 ---
@@ -48,8 +48,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 }, 
 "handlers":{ 
  "initComplete":function() { 

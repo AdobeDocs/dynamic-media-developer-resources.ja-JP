@@ -2,12 +2,12 @@
 description: HTTPプロトコルの基本構文は次のとおりです。
 solution: Experience Manager
 title: 画像サービングHTTPプロトコルの基本構文
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -85,4 +85,4 @@ HTTPプロトコルの基本構文を次に示します。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[データタイプ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、 [HTTP/1.1仕様](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[データタイプ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、 [HTTP/1.1仕様](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

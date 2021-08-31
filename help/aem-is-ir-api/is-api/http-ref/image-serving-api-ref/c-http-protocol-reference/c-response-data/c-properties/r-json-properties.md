@@ -2,12 +2,12 @@
 description: 応答形式としてjsonpを指定した場合、応答データはJSONP(JavaScript Object Notation with Padding)を使用して形式設定され、JavaScript関数呼び出しでラップされます。
 solution: Experience Manager
 title: JSONPプロパティ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,8 @@ JSONP応答形式をサポートするリクエストでは、 `req=`パラメ�
 
 Dynamic Media Image Serving Viewersパッケージには、画像サービングからJSONP形式のデータを要求して解析するユーティリティが含まれています。
 
-JSONP形式について詳しくは、 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)を参照してください。
+JSONP形式について詳しくは、 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)を参照してください。
 
-JSON形式について詳しくは、 [www.json.org](http://www.json.org)を参照してください。
+JSON形式について詳しくは、 [www.json.org](https://www.json.org)を参照してください。
 
 [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)も参照してください。

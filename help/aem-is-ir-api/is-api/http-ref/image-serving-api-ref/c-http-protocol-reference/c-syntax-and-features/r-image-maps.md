@@ -2,12 +2,12 @@
 description: ISは、HTML画像マップの使用を簡略化するメカニズムを提供します。 ISのJAVAベースおよびFlashベースのビューアでも、画像マップのサポートは制限されています。
 solution: Experience Manager
 title: 画像マップ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ ISは、各構成レイヤのソース画像マップから、マップ座標に
 
 ## 関連項目 {#see-also}
 
-[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) 、 [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)、 [HTML 4.01仕様](http://www.w3.org/TR/html401/)
+[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) 、 [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)、 [HTML 4.01仕様](https://www.w3.org/TR/html401/)
