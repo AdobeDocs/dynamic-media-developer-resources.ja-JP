@@ -1,12 +1,12 @@
 ---
 title: AdobeDynamic Media開発者リソース
 description: AdobeDynamic Media開発者リソース
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 * [ビューアリファレンスガ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 イドデスクトップおよびタッチスクリーンデバイスで使用するDynamic Mediaビューアのカスタマイズ操作できるメディアタイプには、インタラクティブ画像とビデオ、360度ビデオ、カルーセル、画像ズーム、ビデオ、eCatalog、フライアウト、混在メディア、スピンセットなどがあります。
 * [画像サービング/画像レンダ](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
-リングAPIドキュメント(IS（画像サービング）APIとIR（画像レンダリング）API、および関連するテクノロジーに関するドキュメント)。AEMとのDynamic Media Classic統合を使用する場合は、APIのISの部分を参照してください。
+リングAPIドキュメント(IS（画像サービング）APIとIR（画像レンダリング）API、および関連するテクノロジーに関するドキュメント)。Adobe Experience ManagerとのDynamic Media Classic統合を使用する場合は、APIのISの部分を参照してください。
 * [画像制作システムAPIThe ](/help/aem-ips-api/c-overview.md)
 IPS（画像制作システム）WebサービスAPIを使用すると、外部アプリケーションやサードパーティ開発者がIPSのアセットや機能にプログラム的にアクセスできます。
 * [Dynamic Media Classicリリ](/help/s7-release-notes/s7rn2017.md)

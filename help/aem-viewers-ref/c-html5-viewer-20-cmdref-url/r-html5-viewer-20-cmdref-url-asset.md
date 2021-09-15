@@ -1,13 +1,13 @@
 ---
+title: asset
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: asset
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '576'
 ht-degree: 2%
 
 ---

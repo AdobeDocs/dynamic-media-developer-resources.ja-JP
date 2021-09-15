@@ -1,14 +1,14 @@
 ---
+title: title
 description: titleコマンド
 solution: Experience Manager
-title: title
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 15%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 

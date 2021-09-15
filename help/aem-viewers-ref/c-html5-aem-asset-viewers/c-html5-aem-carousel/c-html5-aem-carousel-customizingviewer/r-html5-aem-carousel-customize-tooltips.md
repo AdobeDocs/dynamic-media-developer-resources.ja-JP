@@ -1,20 +1,20 @@
 ---
-description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
-solution: Experience Manager
 title: ツールチップ
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスカーソルを合わせたときに表示されるツールヒントがあります。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスのカーソルを合わせたときに表示されるツールヒントがあります。
+デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素には、マウスカーソルを合わせたときに表示されるツールヒントがあります。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ビューアのCSSファイルでツールヒントがカスタマイズされている場合は不要です。
+>埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 この手順は、ビューアのCSSファイルでツールヒントがカスタマイズされている場合は必要ありません。
 
-例 — 角丸の半径が3ピクセル、背景が黒、白のテキストがArial、11ピクセルのグレーの境界線を持つツールヒントを設定するには、次のように記述します。
+例 — 角丸の半径が3ピクセル、背景が黒、白のテキストがArial®で11ピクセルのグレーの境界線を持つツールヒントを設定するには、次のように記述します。
 
 ```
 .s7tooltip { 

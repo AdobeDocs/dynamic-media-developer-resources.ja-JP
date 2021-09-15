@@ -1,13 +1,13 @@
 ---
+title: PlayPauseボタン
 description: 再生/一時停止ボタンを使用すると、カルーセル自動再生動作を一時停止または再開できます。
 solution: Experience Manager
-title: PlayPauseボタン
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
-例 — 28 x 28ピクセルで、ビューアの下から17ピクセルおよび左端から12ピクセルの位置に配置し、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示する再生一時停止ボタンを設定します。
+例として、28 x 28ピクセルの再生一時停止ボタンを設定するとします。 ボタンをビューアの下端から17ピクセル、左端から12ピクセルの位置に配置します。 また、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示する必要があります。
 
 ```
 .s7carouselviewer .s7playpausebutton { 

@@ -1,13 +1,13 @@
 ---
+title: caption
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: caption
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -69,12 +69,12 @@ ht-degree: 6%
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> ページ上の行の位置を決定します。 </p> <p>パーセント記号のない整数で表した場合は、テキストが表示される上部からの行数になります。 </p> <p>パーセント記号で表した場合は、最後の文字がパーセント記号で表され、キャプションテキストは表示領域からその割合下に表示されます。 </p> <p>初期設定は<span class="codeph"> 100% </span>です。 </p> </td> 
+   <td colname="col4"> <p> ページ上の行の位置を決定します。 </p> <p>パーセント記号のない整数で表した場合は、テキストが表示される上部からの行数になります。 </p> <p>割合（パーセント記号が最後の文字）で表した場合は、キャプションテキストが表示領域のその割合下に表示されます。 </p> <p>初期設定は<span class="codeph"> 100% </span>です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTTファイル内にその他のWebVTT機能が存在する場合、それらはサポートされないことに注意してください。しかし、彼らはキャプションを妨げない。
+WebVTTファイル内にその他のWebVTT機能が存在する場合、それらはサポートされません。しかし、キャプションを妨げることはありません。
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

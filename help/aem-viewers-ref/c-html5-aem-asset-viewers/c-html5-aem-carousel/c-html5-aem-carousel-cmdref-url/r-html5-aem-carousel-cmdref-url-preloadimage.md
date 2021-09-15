@@ -1,18 +1,18 @@
 ---
+title: preloadImage
 description: カルーセルビューアのURLコマンド。
 solution: Experience Manager
-title: preloadimage**
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# preloadimage**{#preloadimage}
+# preloadImage {#preloadimage}
 
 カルーセルビューアのURLコマンド。
 

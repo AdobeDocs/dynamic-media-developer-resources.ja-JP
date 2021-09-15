@@ -1,13 +1,13 @@
 ---
+title: contentUrl
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: contentUrl
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---

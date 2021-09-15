@@ -1,14 +1,14 @@
 ---
+title: ホットスポットと画像マップ
 description: ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされたオンデマンドの場所に、メインビューの上にホットスポットアイコンが表示されます。
 solution: Experience Manager
-title: ホットスポットと画像マップ
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用する場合は、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSSスプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 

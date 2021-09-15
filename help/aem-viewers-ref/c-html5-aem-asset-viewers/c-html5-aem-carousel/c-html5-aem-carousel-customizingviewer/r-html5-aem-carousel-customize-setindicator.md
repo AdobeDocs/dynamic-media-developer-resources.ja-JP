@@ -1,13 +1,13 @@
 ---
+title: インジケーターの設定
 description: 設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
 solution: Experience Manager
-title: インジケーターの設定
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >セットインジケーターでは、mode属性セレクターがサポートされます。このセレクターを使用して、点線と数値の操作モードに対して異なるスタイルを適用できます。 特に、`mode="numeric"`は数値演算モードに対応する。`mode="dotted"`は、デフォルトのドットの状態に対応します。
 
-例 — 白の背景でインジケーターを設定するには、次のように記述します。
+例として、白の背景を持つ設定インジケーターを設定するとします。
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ ht-degree: 1%
 >
 >インジケーター項目でサポートされる`state`属性セレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はセット内の現在の要素に対応します。`state="unselected"`は、デフォルトの項目状態に対応します。
 
-例 — デスクトップシステムをビューアの下端から20ピクセルの位置に配置するためのインジケーターを点線モードで設定するには、次のように記述します。 選択されていないドットは、50%の透明度を持つ黒、15 x 15ピクセル、7ピクセルの角丸を持つ。 選択したドットは、90%の透明度を持つ黒、18 x 18ピクセル、9ピクセルの丸い角を持つ。 ドット間の間隔は5ピクセルです。
+例として、デスクトップシステムの設定インジケーターを点線モードで設定するとします。 ビューアの下端から20ピクセルの位置に配置します。 また、選択されていないドットは、50%の透明度、15 x 15ピクセル、7ピクセルの角を丸めた黒にします。 選択したドットは、90%の透明度を持つ黒、18 x 18ピクセル、9ピクセルの丸い角を持つ。 ドット間の間隔は5ピクセルです。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

@@ -1,20 +1,20 @@
 ---
-description: 「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
-solution: Experience Manager
 title: 次のスライド
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+description: 「次のスライド」ボタンを選択すると、カルーセルセット内の次のスライドに移動します。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # 次のスライド{#next-slide}
 
-「次のスライド」ボタンをクリックまたはタップすると、カルーセルセット内の次のスライドに移動します。
+「次のスライド」ボタンを選択すると、カルーセルセット内の次のスライドに移動します。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
-例 — 60 x 60ピクセルで、ビューアの右の境界線から10ピクセルの位置に配置し、垂直方向に中央揃えで配置し、ボタンの4つの状態ごとに異なる画像を表示する前のスライドボタンを設定します。
+例えば、60 x 60ピクセルの前のスライドボタンを設定するとします。 ボタンを、ビューアの右の境界線から10ピクセル離れ、垂直方向に中央揃えで配置します。 また、ボタンの4つの状態ごとに異なる画像を表示する必要があります。
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

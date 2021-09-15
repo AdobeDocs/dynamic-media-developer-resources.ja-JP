@@ -1,14 +1,14 @@
 ---
+title: config2
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: config2
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 17%
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
 

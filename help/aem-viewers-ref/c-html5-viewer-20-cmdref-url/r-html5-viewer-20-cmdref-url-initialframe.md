@@ -1,14 +1,14 @@
 ---
+title: initialFrame
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: initialFrame
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>デバイスが縦向きの場合の、見開き内のページの0を基準とするインデックス。 「左から右」の環境では、<span class="codeph"> 0</span>は「左ページ」を意味し、<span class="codeph"> 1</span>は「右ページ」を意味します。 「右から左」では、逆です。<span class="codeph"> 0</span>は「右ページ」を表し、<span class="codeph"> 1</span>は「左ページ」を表します。 </p> <p>指定しなかった場合、デフォルトでは<span class="codeph"> 0</span>と見なされます。 デバイスが横向きの場合は無視されます。 </p> </td> 
+   <td colname="col2"> <p>デバイスが縦向きの場合の、見開き内のページの0を基準とするインデックス。 「左から右」の環境の場合、<span class="codeph"> 0</span>は「左ページ」を表し、<span class="codeph"> 1</span>は「右ページ」を表します。 「右から左」の環境では、逆になります。<span class="codeph"> 0</span>は「右ページ」を表し、<span class="codeph"> 1</span>は「左ページ」を表します。 </p> <p>指定しなかった場合、デフォルトでは<span class="codeph"> 0</span>と見なされます。 デバイスが横向きの場合は無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: serverUrl
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: serverUrl
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 

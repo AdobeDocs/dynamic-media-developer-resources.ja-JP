@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: すべてのビューアに共通のパラメーター。
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic，ビューア，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 5%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
