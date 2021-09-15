@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップデバイスとタッチスクリーンデバイスで使用できるように Dynamic Media ビューアをカスタマイズします。インタラクティブな画像やビデオ、カルーセル、スピンセットなどを対象に含めます。
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Dynamic Media ビューアリファレンスガイド {#library}
 
-+ [Dynamic Media ビューアリファレンスガイド](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
++ [Dynamic Media ビューアリファレンスガイド](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバでの複数のビューアのインストール](t-installing-the-viewers.md)

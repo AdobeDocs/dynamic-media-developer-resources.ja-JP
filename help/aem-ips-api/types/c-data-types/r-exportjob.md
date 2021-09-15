@@ -2,13 +2,13 @@
 description: 以前にアップロードされたファイルの承認済み書き出しを許可するジョブタイプ。
 solution: Experience Manager
 title: ExportJob
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 10%
+source-wordcount: '206'
+ht-degree: 11%
 
 ---
 
@@ -53,7 +53,7 @@ ExportJobは次のアセットタイプをサポートしていません。
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> ImageServer</span>レンダリングURL文字列を指定します。この文字列は、 ExportJob <span class="codeph"> convert</span>リクエストに追加されます。 </p> <p>IS修飾子の送信について詳しくは、 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> ISのドキュメント</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> ImageServer</span>レンダリングURL文字列を指定します。この文字列は、 ExportJob <span class="codeph"> convert</span>リクエストに追加されます。 </p> <p>IS修飾子の送信について詳しくは、 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> ISのドキュメント</a>を参照してください。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> マクロ</span> </span> </p> </td> 

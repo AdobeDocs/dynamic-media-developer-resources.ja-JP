@@ -3,8 +3,8 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 画像サービング／画像レンダリング API
 breadcrumb-title: Dynamic Media 画像サービング／画像レンダリング API
 feature-set: Experience Manager Assets
-user-guide-description: IS（画像サービング）API と IR（画像レンダリング）API、および関連テクノロジに関するドキュメントを表示します。
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+user-guide-description: IS（画像サービング）API と IR（画像レンダリング）API、および関連テクノロジーに関するドキュメントを表示します。
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # Dynamic Media 画像サービング／画像レンダリング API {#image-serving-api}
 
-+ [Dynamic Media Image ServingおよびImage Rendering APIホーム](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
++ [Dynamic Media Image ServingおよびImage Rendering APIホーム](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [このリリースについて](r-about-this-release.md)
 + [必要システム構成と前提条件](r-requirements-and-prerequisites.md)
 + [ディスク容量の要件と推奨事項](r-disk-space-reqs.md)
