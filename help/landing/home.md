@@ -4,7 +4,7 @@ description: AdobeDynamic Media開発者リソース
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: d425ac8cf46343fe861cee1ea0471ffe58eca9a9
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
