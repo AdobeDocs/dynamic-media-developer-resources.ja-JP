@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.autohide
 description: SetIndicator.autohide
 solution: Experience Manager
-title: SetIndicator.autohide
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[, <span class="varname"> limit</span> ]</span> </p> </td> 
-   <td colname="col2"> <p> ページ数と実行時のコンポーネントサイズに応じて、自動非表示の動作を設定します。 </p> <p> <span class="codeph"> 0を指定すると、自動非表示がオフになります。</span>  </p> <p> <span class="codeph"> 1</span> を指定すると、自動非表示が有効になります。次の条件の少なくとも1つがtrueに変わった場合、コンポーネントのドットは非表示になります。 </p> <p> 
+   <td colname="col2"> <p> ページ数と実行時のコンポーネントサイズに応じて、自動非表示の動作を設定します。 </p> <p> <span class="codeph"> 0を指定すると、</span> 自動非表示がオフになります。 </p> <p> <span class="codeph"> 1</span> を指定すると、自動非表示が有効になります。次の条件の1つ以上がtrueになった場合、コンポーネントのドットは非表示になります。 </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">ドット付きの行は、実行時のコンポーネントの幅よりも幅が広くなります。 </li> 
       <li id="li_E30BAC8B609147ADB8824000F5729B21">このコンポーネントに設定されているページ数が、<span class="codeph"><span class="varname"> limit</span></span>パラメーターで設定されている制限を超えています。 </li> 
