@@ -1,13 +1,13 @@
 ---
+title: イベントコールバック
 description: イベントコールバック
 solution: Experience Manager
-title: イベントコールバック
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> トリガー：ホットスポットをアクティブにしたときに、クイックビューのデータが関連付けられています。 コールバックハンドラーは次の引数を取ります。 </p> <p> 
+   <td colname="col2"> <p> トリガー：ホットスポットに関連付けられたクイックビューデータをアクティブ化したとき。 コールバックハンドラーは次の引数を取ります。 </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object} — ホ </span> ットスポット定義のデータを含むJSONオブジェクト。<span class="codeph"> sku </span>フィールドは必須ですが、他のフィールドはオプションで、ソースホットスポット定義によって異なります。 </p> </li> 
      </ul> </p> </td> 

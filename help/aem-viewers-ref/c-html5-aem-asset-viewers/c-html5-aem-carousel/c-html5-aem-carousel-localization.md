@@ -1,20 +1,20 @@
 ---
-description: カルーセルビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、スライドナビゲーションボタンが含まれます。
-solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー
+description: カルーセルビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、スライドナビゲーションボタンが含まれます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
 
-カルーセルビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、スライドナビゲーションボタンが含まれます。
+カルーセルビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、スライドナビゲーションボタンが含まれます。
 
 ビューア内のテキスト内容がローカライズ可能な場合は、それぞれSYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 シンボルには、標準提供のビューアに付属する英語ロケール(`"en"`)のデフォルトの関連テキスト値があり、必要な数のロケールに対してユーザ定義の値を設定することもできます。
 
@@ -66,7 +66,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p> トップレベルビューア要素のARIAラベル </p> </td> 
+   <td colname="col2"> <p> トップレベルのビューア要素のARIAラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 

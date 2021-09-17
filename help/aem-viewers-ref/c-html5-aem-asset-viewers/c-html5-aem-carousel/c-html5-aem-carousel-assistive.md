@@ -1,13 +1,13 @@
 ---
+title: 支援技術のサポート
 description: すべてのビューアコンポーネントは、ARIA（アクセシブルなリッチインターネットアプリケーション）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
 solution: Experience Manager
-title: 支援技術のサポート
-feature: Dynamic Media Classic，ビューア，SDK/API，カルーセルバナー，アクセシビリティ
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners,Accessibility
 role: Developer,User
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ボタンには、役割`button`と、`aria-label`属性を持つ説明テキストが設定されます。 `aria-label`属性の値は、ボタンのローカライゼーション記号の値から設定されます。 ボタンが無効になると、それに応じて`aria-disabled`属性が設定されます。
 
-カルーセルのスライド間を移動するためのボタンには、現在選択されているスライドに応じて実行時に更新されるラベルがあります。 これらのボタンのラベルのテンプレートは、 `CAROUSELVIEWER_TOOLTIP_GOTO`ローカライゼーション記号で設定されます。
+カルーセルのスライド間を移動するためのボタンには、現在選択されているスライドに応じて実行時に更新されるラベルがあります。 これらのボタンラベルのテンプレートは、 `CAROUSELVIEWER_TOOLTIP_GOTO`ローカライゼーション記号で設定されます。
 
 メインビューには役割`application`があります。 メインビューの簡単な説明は、 `aria-roledescription`に、対応するメインビューコンポーネントの`ROLE_DESCRIPTION`ローカライゼーション記号で定義された値と共に提供されます。 キーボードユーザーのナビゲーションヒントは、`aria-describedby`を使用して提供されます。使用ヒントのテキストは、`USAGE_HINT`ローカライゼーション記号から取得されます。 アセットのUserDataフィールドにラベルが定義されている場合、`aria-label`属性にはそのラベルの値が設定されます。
 
