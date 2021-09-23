@@ -1,13 +1,13 @@
 ---
+title: ビデオスクラバー
 description: ビデオスクラバは、水平スライダーコントロールで、ユーザーが現在再生中のビデオ内の任意の時間位置を動的に探すことができます。
 solution: Experience Manager
-title: ビデオスクラバー
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-また、ビデオの再生中にスクラバーの「ノブ」が動き、再生中にビデオの現在の時間位置を示します。 ビデオスクラバは、常にコントロールバーの幅全体を取ります。 ビデオスクラバーのスキンを適用できます。 CSSを使用して、高さと垂直方向の位置を変更します。
+また、ビデオの再生中にスクラバーの「ノブ」が動き、再生中にビデオの現在の時間位置を示します。 ビデオスクラバは、常にコントロールバーの幅全体を取ります。 ビデオスクラバをスキン付けし、CSSを使用して高さと垂直方向の位置を変更できます。
 
 ビデオスクラバの一般的な外観は、以下のCSSクラスセレクターを使用して制御します。
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
 ビデオスクラバのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-**例**  — 高さが10ピクセルで、コントロールバーの上および左端から10ピクセルおよび35ピクセルの位置に配置するカスタムのトラックカラーのビデオスクラバーを含むビデオビューアを設定するには、次のように記述します。
+**例**  — ビデオスクラバーを含み、高さが10ピクセルのカスタムのトラックカラーを持つビデオビューアを設定するには、次のように記述します。コントロールバーの上端と左端から10ピクセル、左端から35ピクセルの位置に配置します。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-`navigation`パラメーターでビデオチャプターが有効になっている場合、チャプターの位置がビデオスクラバートラックの上にマーカーとして表示されます。
+`navigation`パラメーターでビデオチャプターマーカーを有効にすると、チャプターの位置がビデオスクラバートラックの上にマーカーとして表示されます。
 
 ビデオチャプターマーカーは、以下のCSSクラスセレクターを使用して制御します。
 
@@ -430,7 +430,7 @@ font-weight: bold;
  </tbody> 
 </table>
 
-**例**  — ダークグレーの11ピクセルのVerdanaフォントを使用し、ライトグレーの背景にビデオチャプターの説明を設定するには、次のように記述します。5ピクセルの行の高さ、12ピクセルの水平パディング、12ピクセルの上パディング、9ピクセルの下パディング。
+**例**  — ダークグレーの11ピクセルのVerdanaフォントを使用し、ライトグレーの背景にビデオチャプターの説明を設定するには、次のように記述します。5ピクセルの線の高さ、12ピクセルの水平パディング、12ピクセルの上パディング、9ピクセルの下パディング。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -455,7 +455,7 @@ padding: 12px 12px 9px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p>ウェッジコネクタの色。 </p> <p><span class="codeph"> &lt;color&gt; transparent transparent </span>と定義され、上の境界線のカラーのみが定義され、残りの境界線は透明のままになります。 </p> </td> 
+   <td colname="col2"> <p>ウェッジコネクタの色。 </p> <p><span class="codeph"> &lt;color&gt; transparent </span>と定義され、上の境界線の色のみが定義され、残りの境界線は透明になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 

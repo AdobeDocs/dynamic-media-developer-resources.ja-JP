@@ -1,20 +1,20 @@
 ---
-description: メインビュー領域は、インタラクティブスウォッチが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
-solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+description: メインビュー領域は、インタラクティブスウォッチが表示される領域です。 サイズが指定されていない場合は、使用可能なデバイス画面に収まるように設定されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 3%
 
 ---
 
 # メインビューア領域{#main-viewer-area}
 
-メインビュー領域は、インタラクティブスウォッチが表示される領域です。 サイズが指定されていない場合は、通常、使用可能なデバイス画面に収まるように設定されます。
+メインビュー領域は、インタラクティブスウォッチが表示される領域です。 サイズが指定されていない場合は、使用可能なデバイス画面に収まるように設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

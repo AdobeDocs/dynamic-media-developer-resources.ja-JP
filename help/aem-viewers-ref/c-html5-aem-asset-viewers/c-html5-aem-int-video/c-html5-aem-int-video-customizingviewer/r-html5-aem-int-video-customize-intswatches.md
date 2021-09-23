@@ -1,13 +1,13 @@
 ---
+title: インタラクティブスウォッチ
 description: インタラクティブデータが設定でビューアに渡されると、ビデオコンテンツの横にインタラクティブスウォッチパネルが表示されます。 「クリックして表示」、1つ以上のインタラクティブスウォッチの列、2つのスクロールボタン（デスクトップシステムでのみ使用可能）など、テキストをレンダリングする上部のバナーで構成されます。
 solution: Experience Manager
-title: インタラクティブスウォッチ
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>インタラクティブスウォッチパネルの上部の位置。 </p> </td> 
+   <td colname="col2"> <p>インタラクティブスウォッチパネルの上の位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -62,11 +62,11 @@ ht-degree: 2%
 * インタラクティブスウォッチをビューアの下部に水平方向にレンダリングするには、高さをピクセル絶対値に設定します。leftとbottomから0pxに変換。幅、右、上から自動
 * インタラクティブスウォッチをビデオコンテンツの右側に垂直にレンダリングするには、幅を絶対ピクセルに設定します。rightとtopから0pxに変換します。height、leftおよびbottomをautoに設定します。
 
-このスタイル設定とCSSマーカーを組み合わせて使用すると、インタラクティブスウォッチパネルを適切に配置できます。
+このスタイルでCSSマーカーを使用して、インタラクティブスウォッチパネルを適切に配置できます。
 
 ## 例 {#example}
 
-タッチデバイスで横向きにビューアの下部に水平方向にレンダリングし、その他の場合はビデオコンテンツの右側に垂直方向に表示するインタラクティブスウォッチパネルを設定するには：
+タッチデバイスで横向きに水平方向にレンダリングするインタラクティブスウォッチパネルを設定するには、次のように記述します。 また、その他の場合は、ビデオコンテンツの右側に垂直に表示するには、次の手順を実行します。
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -267,7 +267,7 @@ ht-degree: 2%
 
 ## 例 {#section-eb141eb6c1154183baa69796edb90536}
 
-左揃え、白、12ピクセル、Helveticaフォント、下の境界線を使用するラベルを設定するには、次のように記述します。
+左揃え、白、12ピクセル、Helvetica®フォント、下の境界線を使用するラベルを設定するには、次のように記述します。
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

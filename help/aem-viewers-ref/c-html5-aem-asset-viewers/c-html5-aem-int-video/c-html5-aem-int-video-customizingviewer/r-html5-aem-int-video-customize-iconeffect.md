@@ -1,13 +1,13 @@
 ---
+title: アイコンエフェクト
 description: 再生アイコンは、メインビュー領域に重ねて表示されます。 ビデオが一時停止されたとき、またはビデオの終わりに達したときに表示されます。また、iconeffectパラメーターの設定によって表示されます。
 solution: Experience Manager
-title: アイコンエフェクト
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-アイコンエフェクトでは、`state`属性セレクターがサポートされます。 `state="play"` は、再生中にビデオが一時停止された場合に使用され、再生ヘッド `state="replay"` がストリームの終わりにある場合に使用されます。
+アイコンエフェクトでは、`state`属性セレクターがサポートされます。 属性`state="play"`は、再生中にビデオが一時停止されたときに使用され、`state="replay"`は再生ヘッドがストリームの終わりにあるときに使用されます。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 

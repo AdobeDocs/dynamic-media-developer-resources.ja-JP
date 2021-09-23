@@ -1,20 +1,20 @@
 ---
-description: Facebook共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンをクリックすると、ソーシャルサービスが提供する共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
-solution: Experience Manager
 title: Facebook共有
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+description: Facebook共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 このボタンを選択すると、ソーシャルサービスが提供する共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 209dfe87-ca9d-405f-ba78-4e88f6ebe1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
 
 # Facebook共有{#facebook-share}
 
-Facebook共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンをクリックすると、ソーシャルサービスが提供する共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+Facebook共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 このボタンを選択すると、ソーシャルサービスが提供する共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

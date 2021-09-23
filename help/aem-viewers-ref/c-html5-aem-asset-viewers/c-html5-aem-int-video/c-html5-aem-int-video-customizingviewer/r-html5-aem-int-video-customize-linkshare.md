@@ -1,13 +1,13 @@
 ---
+title: リンク共有
 description: リンク共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 solution: Experience Manager
-title: リンク共有
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-ダイアログボックスがアクティブな場合にWebページを覆う背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
+アクティブなダイアログボックスが以下のCSSクラスセレクターを使用して制御されている場合に、Webページを覆う背景オーバーレイ。
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 「閉じる」ボタンのツールチップとダイアログボックスのタイトルをローカライズできます。 [ユーザインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-**例**  — パディング、22 x 12ピクセルのアイコン、太字の16ポイントタイトル、ダイアログボックスコンテナの上から2ピクセル、右から2ピクセルの位置に配置する28 x 28ピクセルの閉じるボタンを設定するには、次のように記述します。
+**例**  — パディングを含む、22 x 12ピクセルのアイコン、太字の16ポイントのタイトルを含むダイアログボックスヘッダーを設定するには、次のように記述します。最後に、ダイアログボックスコンテナの上から2ピクセル、右から2ピクセルの位置に配置される28 x 28ピクセルの閉じるボタンを使用します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-さらに、両方のボタンは、他のダイアログボックスのボタンと同じCSS設定を含むことができる、共通のCSSクラスを共有します。
+また、両方のボタンは、他のダイアログボックスのボタンと同じCSS設定を含むことができる、共通のCSSクラスを共有します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ background-color: #ffffff;
 }
 ```
 
-すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に常駐し、以下のCSSクラスセレクターを使用して制御します。
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に存在し、以下のCSSクラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの広い入力フィールドのCSSプロパティ**
+**ダイアログボックスの入力全体フィールドのCSSプロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

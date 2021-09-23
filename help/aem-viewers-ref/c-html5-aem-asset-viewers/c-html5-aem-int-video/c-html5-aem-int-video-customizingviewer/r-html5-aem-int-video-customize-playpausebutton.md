@@ -1,13 +1,13 @@
 ---
+title: 再生/一時停止ボタン
 description: 再生/一時停止ボタンは、ユーザーがビデオコンテンツをクリックしたときにビデオプレーヤーで再生または一時停止します。
 solution: Experience Manager
-title: 再生/一時停止ボタン
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ CSSを使用して、ボタンのサイズ、スキン、およびボタンを�
 >
 >このボタンでは、 `state` 、 `selected` 、 `replay`の各属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `selected='true'`は「再生」状態に対応し、 `selected='false'`は「一時停止」状態に対応します。
 >
->`replay='true'` は、ビデオが最後に到達し、ボタンをクリックすると、最初から再生が再開されるときに設定されます。
+>属性`replay='true'`は、ビデオが最後に到達し、ボタンを選択すると、最初から再生が再開されるときに設定されます。
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32ピクセルの再生/一時停止ボタンを設定するには：コントロールバーの上および左端から6ピクセルの位置に配置され、選択時または未選択時の4つのボタンの状態ごとに異なる画像が表示されます。
+32 x 32ピクセルで、コントロールバーの上および左端から6ピクセルの位置に配置する再生/一時停止ボタンを設定するには、次のように記述します。 最後に、選択時または未選択時の4つのボタン状態ごとに異なる画像が表示されます。
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

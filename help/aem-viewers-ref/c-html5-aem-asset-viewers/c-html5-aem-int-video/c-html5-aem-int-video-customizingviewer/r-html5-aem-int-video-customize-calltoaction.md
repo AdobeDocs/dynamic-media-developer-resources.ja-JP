@@ -1,11 +1,11 @@
 ---
+title: 誘い文句（CTA、コールトゥアクション）
 description: コールトゥアクションパネルは、ビデオが終了すると表示され、特定のビデオに関連付けられているすべてのインタラクティブスウォッチを表示します。
 solution: Experience Manager
-title: 誘い文句（CTA、コールトゥアクション）
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -191,7 +191,7 @@ ht-degree: 2%
 
 ## 例 {#example-3}
 
-28 x 28ピクセルの再生ボタンを設定するには、次のように記述します。は、ヘッダーの上端と右端から20ピクセルの位置に配置されます。は、ボタンの4つの状態ごとに異なる画像を表示します。コンポーネントのスプライト画像からアートワークを取り出します。
+28 x 28ピクセルの再生ボタンを設定するには、次のように記述します。 ボタンの位置は、ヘッダーの上端と右端から20ピクセルにする必要があります。 また、ボタンの4つの状態ごとに異なる画像を表示する必要があります。コンポーネントのスプライト画像からアートワークを取り出します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## コールトゥアクションパネルのthumbcellのCSSプロパティ： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## コールトゥアクションパネルのサムのセルのCSSプロパティ： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ ht-degree: 2%
 
 ## 例 {#example-7}
 
-白色を使用するラベルを設定するには、中央揃えで15ピクセル、Arialフォントを使用します。
+白の色を使用するラベルを設定するには、中央揃えで15ピクセル、Arial®フォントを使用します。
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

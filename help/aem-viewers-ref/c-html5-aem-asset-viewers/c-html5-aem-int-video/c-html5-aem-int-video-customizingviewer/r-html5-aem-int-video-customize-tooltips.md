@@ -1,20 +1,20 @@
 ---
-description: デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップが表示されます。
-solution: Experience Manager
 title: ツールチップ
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+description: デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップがあります。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 3%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップが表示されます。
+デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップがあります。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,11 +63,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 これは、ビューアのCSSファイル内でツールチップをカスタマイズする場合は必要ありません。
+>埋め込みWebページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに`!IMPORTANT`ルールを含める必要があります。 この注意は、ビューアのCSSファイル内でツールチップをカスタマイズする場合は必要ありません。
 
 ## 例 {#section-59e009fd05b14019936aba04d7ca779d}
 
-3ピクセルの角丸の半径、黒の背景、白のテキストを持つグレーの境界線を持つツールチップをArial、11ピクセルで設定するには：
+3ピクセルの角丸の半径、黒の背景、白のテキストを持つグレーの境界線を持つツールチップをArial®、11ピクセルで設定するには：
 
 ```
 .s7tooltip { 
