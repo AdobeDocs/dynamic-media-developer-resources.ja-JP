@@ -1,26 +1,26 @@
 ---
-description: ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされたオンデマンドの場所に、メインビューの上にホットスポットアイコンが表示されます。
-solution: Experience Manager
 title: ホットスポット
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+description: ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされた場所（オンデマンド）の、メインビューの上にホットスポットアイコンが表示されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
 
 # ホットスポット{#hotspots}
 
-ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされたオンデマンドの場所に、メインビューの上にホットスポットアイコンが表示されます。
+ビューアには、AEM AssetsのDynamic Mediaでホットスポットが最初にオーサリングされた場所（オンデマンド）の、メインビューの上にホットスポットアイコンが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域のCSSプロパティ**
+**メインビューア領域の CSS プロパティ**
 
-ホットスポットアイコンの外観は、以下のCSSクラスセレクターを使用して制御します。
+ホットスポットアイコンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -29,7 +29,7 @@ ht-degree: 2%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -40,7 +40,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p>CSSスプライトを使用する場合は、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSS スプライトを使用する場合は、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-例 — 56 x 56ピクセルのホットスポットアイコンを設定し、2つの異なるアイコンの状態ごとに異なる画像を表示します。
+例 — 56 x 56 ピクセルのホットスポットアイコンを設定し、2 つの異なるアイコンの状態ごとに異なる画像を表示します。
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

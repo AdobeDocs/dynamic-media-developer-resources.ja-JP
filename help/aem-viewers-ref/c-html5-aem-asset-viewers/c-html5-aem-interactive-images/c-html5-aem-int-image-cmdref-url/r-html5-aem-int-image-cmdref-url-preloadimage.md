@@ -1,20 +1,20 @@
 ---
-description: ビデオ画像ビューアのURLコマンド。
-solution: Experience Manager
 title: preloadimage
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+description: ビデオ画像ビューアの URL コマンド。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
 # preloadimage{#preloadimage}
 
-ビデオ画像ビューアのURLコマンド。
+ビデオ画像ビューアの URL コマンド。
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 画像のプリロード機能を有効(1)または無効(0)にします。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local">イメージのプリロード</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 画像のプリロード機能を有効 (1) または無効 (0) にします。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> イメージのプリロード </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

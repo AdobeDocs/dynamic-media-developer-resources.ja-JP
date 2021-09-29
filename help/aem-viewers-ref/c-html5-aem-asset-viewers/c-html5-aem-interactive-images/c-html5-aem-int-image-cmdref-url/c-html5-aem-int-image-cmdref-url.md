@@ -1,17 +1,17 @@
 ---
-description: ビデオビデオビューア用のコマンドリファレンスドキュメント。
-solution: Experience Manager
 title: コマンドリファレンス — URL
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+description: ビデオビューア用のコマンドリファレンスドキュメント。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 85258a7f-83f4-4cbc-9acc-4245f20cf24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '18'
 ht-degree: 0%
 
 ---
 
 # コマンドリファレンス — URL{#command-reference-url}
 
-ビデオビデオビューア用のコマンドリファレンスドキュメント。
+ビデオビューア用のコマンドリファレンスドキュメント。

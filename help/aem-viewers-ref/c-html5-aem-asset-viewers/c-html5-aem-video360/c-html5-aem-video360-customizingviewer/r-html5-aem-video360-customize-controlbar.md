@@ -1,32 +1,32 @@
 ---
-description: コントロールバーは、再生/一時停止ボタン、音量コントロールなど、ビデオビューアで使用できるすべてのユーザインターフェイスコントロールを含み、その後ろに配置する矩形の領域です。
-solution: Experience Manager
 title: コントロールバー
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、ビデオビューアで使用できるすべてのユーザインターフェイスコントロールを含み、その背後に配置する長方形の領域です。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
 
 # コントロールバー{#control-bar}
 
-コントロールバーは、再生/一時停止ボタン、音量コントロールなど、ビデオビューアで使用できるすべてのユーザインターフェイスコントロールを含み、その後ろに配置する矩形の領域です。
+コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、ビデオビューアで使用できるすべてのユーザインターフェイスコントロールを含み、その背後に配置する長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-コントロールバーは、常に、ビューアの幅全体に合わせて表示されます。 CSSで、ビデオビューアのコンテナに対するカラー、高さ、垂直方向の位置を変更できます。
+コントロールバーは、常に、使用可能なビューアの幅全体を取ります。 CSS で、ビデオビューアのコンテナに対するカラー、高さ、垂直方向の位置を変更できます。
 
-以下に示すCSSクラスセレクターで、コントロールバーの外観を制御します。
+以下に示す CSS クラスセレクターで、コントロールバーの外観を制御します。
 
 ```
 .s7video360viewer .s7controlbar
 ```
 
-## コントロールバーのCSSプロパティ {#css-properties-of-the-control-bar}
+## コントロールバーの CSS プロパティ {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -49,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**例**  — 高さが30ピクセルで、ビデオビューアのコンテナの上部に配置するグレーのコントロールバーを持つビデオビューアを設定するには、次のように記述します。
+**例**  — 高さが 30 ピクセルで、ビデオビューアのコンテナの上部に配置するグレーのコントロールバーを持つビデオビューアを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7controlbar {  

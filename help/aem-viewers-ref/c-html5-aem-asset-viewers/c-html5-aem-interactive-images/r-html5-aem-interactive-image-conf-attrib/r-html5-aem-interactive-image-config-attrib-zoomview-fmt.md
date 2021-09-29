@@ -1,20 +1,20 @@
 ---
-description: コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。
-solution: Experience Manager
 title: ZoomView.fmt
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+description: コンポーネントが Image Server からの画像の読み込みに使用する画像形式を指定します。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
 
 # ZoomView.fmt{#zoomview-fmt}
 
-コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。
+コンポーネントが Image Server からの画像の読み込みに使用する画像形式を指定します。
 
 `[ZoomView.|<containerId>_zoomView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景は、デフォルトで白です。 したがって、透明にするには、CSSの<span class="codeph"> background-color</span>プロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> 末尾が <span class="codeph"> -alpha</span> の形式を指定すると、画像が透明のコンテンツとしてレンダリングされます。 その他のすべての画像形式の場合、コンポーネントは画像を不透明として扱います。 コンポーネントの背景はデフォルトで白です。 したがって、透明にするには、CSS プロパティ <span class="codeph"> background-color</span> を <span class="codeph"> transparent</span> に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

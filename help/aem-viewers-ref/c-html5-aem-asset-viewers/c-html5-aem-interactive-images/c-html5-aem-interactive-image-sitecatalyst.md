@@ -1,13 +1,13 @@
 ---
+title: 分析トラッキングのサポート
 description: 分析トラッキングのサポート
 solution: Experience Manager
-title: 分析トラッキングのサポート
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-デフォルトでは、ビューアは、設定済みのImage Serverに対し、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求を送信します。
+デフォルトでは、ビューアは、設定済みの Image Server に対し、ビューアのタイプとバージョン情報を含む単一の追跡 HTTP 要求を送信します。
 
-サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、 `trackEvent` ビューアコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -42,12 +42,12 @@ var interactiveImage = new s7viewers.InteractiveImage({
 });
 ```
 
-ビューアは、次のSDKユーザーイベントを追跡します。
+ビューアは、次の SDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
    <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
   </tr> 
  </thead>

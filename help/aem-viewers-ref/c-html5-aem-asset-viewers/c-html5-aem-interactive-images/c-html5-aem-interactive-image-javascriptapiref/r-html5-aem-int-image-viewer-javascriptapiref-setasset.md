@@ -1,32 +1,32 @@
 ---
-description: ビデオ画像ビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブ画像
+description: ビデオ画像ビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: e5f88bc9-a880-45eb-9554-57e185937d29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 3%
+source-wordcount: '75'
+ht-degree: 4%
 
 ---
 
 # setAsset{#setasset}
 
-ビデオ画像ビューアのJavaScript APIリファレンス。
+ビデオ画像ビューアの JavaScript API リファレンス。
 
 ` setAsset( *`asset`*)`
 
-新しいアセットを設定します。 このパラメーターは、`init()`の前後にいつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
+新しいアセットを設定します。 このパラメータは、`init()` の前後にいつでも呼び出すことができます。 `init()` の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
 
-[init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
+[init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> アセット</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>}新しいアセットID。 </p> <p>IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} 新しいアセット ID。 </p> <p>IR（画像レンダリング）または UGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

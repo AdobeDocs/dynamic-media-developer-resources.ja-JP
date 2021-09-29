@@ -1,13 +1,13 @@
 ---
+title: 埋め込み共有
 description: 埋め込み共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 solution: Experience Manager
-title: 埋め込み共有
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-埋め込み共有ボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+埋め込み共有ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embedshare
 ```
 
-**埋め込み共有ツールのCSSプロパティ**
+**埋め込み共有ツールの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -38,24 +38,24 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-CSSクラスに`display:none` CSSプロパティを設定すると、このボタンをソーシャル共有パネルから削除できます。
+CSS クラスで `display:none` CSS プロパティを設定することで、このボタンをソーシャル共有パネルから削除できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  - 28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像を表示する埋め込み共有ボタンを設定するには、次のように記述します。
+**例**  - 28 x 28 ピクセルで、ボタンの 4 つの状態ごとに異なる画像を表示する埋め込み共有ボタンを設定するには：
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -76,13 +76,13 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-ダイアログボックスがアクティブな場合にWebページを覆う背景オーバーレイは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログボックスがアクティブな場合に Web ページを覆う背景オーバーレイは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay
 ```
 
-**背景オーバーレイのCSSプロパティ**
+**背景オーバーレイの CSS プロパティ**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
@@ -92,12 +92,12 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>背景オーバーレイのカラー。 </p> </td> 
+   <td colname="col2"> <p>背景オーバーレイの色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**例**  — 不透明度70%のグレーの背景オーバーレイを設定するには、次のように記述します。
+**例**  — 不透明度 70 %のグレーの背景オーバーレイを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -106,19 +106,19 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-デフォルトでは、モーダルダイアログボックスはデスクトップシステムでは画面の中央に表示され、タッチデバイスではWebページ領域全体に表示されます。 どの場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 このダイアログボックスは、以下のCSSクラスセレクターを使用して制御します。
+デフォルトでは、モーダルダイアログボックスはデスクトップシステムでは画面の中央に表示され、タッチデバイスでは Web ページ領域全体に表示されます。 どの場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 このダイアログボックスは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialog
 ```
 
-**ダイアログボックスのCSSプロパティ**
+**ダイアログボックスの CSS プロパティ**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザ全体に表示されない場合）。 </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザー全体に表示されない場合）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -126,16 +126,16 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
+   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100 %に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
+   <td colname="col2"> <p>ダイアログボックスがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100 %に設定します（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**例**  — タッチデバイスで、ブラウザーウィンドウ全体を使用し、背景色が白であるダイアログボックスを設定するには、次のように記述します。
+**例**  — タッチデバイスで、ブラウザーウィンドウ全体を使用し、背景が白であるダイアログボックスを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -151,7 +151,7 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogheader
 ```
 
-**ダイアログボックスヘッダーのCSSプロパティ**
+**ダイアログボックスヘッダーの CSS プロパティ**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
@@ -162,30 +162,30 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-アイコンとタイトルテキストは、追加のコンテナにまとめられます。このコンテナは、以下を使用して制御します。
+アイコンとタイトルテキストは、次の方法で制御できる追加のコンテナにまとめられます。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**ダイアログの行のCSSプロパティ**
+**ダイアログの行の CSS プロパティ**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーアイコンとタイトルの内側のパディング </p> </td> 
+   <td colname="col2"> <p> ヘッダーのアイコンとタイトルの内側のパディング </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーのアイコンは、以下のCSSクラスセレクターを使用して制御します。
+ヘッダーのアイコンは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheadericon
 ```
 
-**ダイアログボックスヘッダーのアイコンのCSSプロパティ**
+**ダイアログボックスヘッダーのアイコンの CSS プロパティ**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -203,18 +203,18 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーのタイトルは、以下のCSSクラスセレクターを使用して制御します。
+ヘッダーのタイトルは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheadertext
 ```
 
-**ダイアログボックスのヘッダーテキストのCSSプロパティ**
+**ダイアログボックスのヘッダーテキストの CSS プロパティ**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
@@ -237,13 +237,13 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-閉じるボタンは、以下のCSSクラスセレクターを使用して制御します。
+閉じるボタンは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7closebutton
 ```
 
-**閉じるボタンのCSSプロパティ**
+**閉じるボタンの CSS プロパティ**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -273,18 +273,18 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  — パディング、24 x 14ピクセルのアイコン、太字の16ポイントタイトル、閉じるボタンが28 x 28ピクセルで、上から2ピクセル、ダイアログコンテナの右から2ピクセルの位置に配置するダイアログヘッダーを設定するには、次のように記述します。
+**例**  — パディング、24 x 14 ピクセルのアイコン、太字の 16 ポイントのタイトルを含むダイアログヘッダーを設定するには、次のように記述します。最後に、28 x 28 ピクセルの閉じるボタンを使用して、ダイアログコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -324,13 +324,13 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログフッターは「キャンセル」ボタンで構成されます。 フッターコンテナは、以下のCSSクラスセレクターを使用して制御します。
+ダイアログフッターは「キャンセル」ボタンで構成されます。 フッターコンテナは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter
 ```
 
-**ダイアログボックスフッターのCSSプロパティ**
+**ダイアログボックスフッターの CSS プロパティ**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -341,13 +341,13 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-フッターには、ボタンを保持する内部コンテナがあります。 これは、以下のCSSクラスセレクターを使用して制御します。
+フッターには、ボタンを保持する内部コンテナがあります。 これは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**ダイアログボックスのボタンコンテナのCSSプロパティ**
+**ダイアログボックスのボタンコンテナの CSS プロパティ**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -358,15 +358,15 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-「すべて選択」ボタンは、以下のCSSクラスセレクターを使用して制御します。
+「すべて選択」ボタンは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogactionbutton
 ```
 
-このボタンはデスクトップシステムでのみ使用できます。
+このボタンは、デスクトップシステムでのみ使用できます。
 
-**「すべて選択」ボタンのCSSプロパティ**
+**「すべて選択」ボタンの CSS プロパティ**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
@@ -391,15 +391,15 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->「すべて選択」ボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>「すべて選択」ボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-「キャンセル」ボタンは、以下のCSSクラスセレクターを使用して制御します。
+「キャンセル」ボタンは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**ダイアログボックスの「キャンセル」ボタンのCSSプロパティ**
+**ダイアログボックスの「キャンセル」ボタンの CSS プロパティ**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -424,15 +424,15 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-さらに、両方のボタンは、他のダイアログボックスのボタンと同じCSS設定を含むことができる、共通のCSSクラスを共有します。
+また、両方のボタンは共通の CSS クラスを共有します。この CSS クラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
 ```
 
-**ボタンのCSSプロパティ**
+**ボタンの CSS プロパティ**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
@@ -450,7 +450,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 行の高さ  </span> </p> </td> 
-   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置揃えに影響します。 </p> </td> 
+   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の整列に影響します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
@@ -463,9 +463,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  - 64 x 34の「キャンセル」ボタンを含むダイアログボックスフッターを設定し、ボタンの状態ごとに異なるテキスト色と背景色を持たせるには、次のように記述します。
+**例**  - 64 x 34 の「キャンセル」ボタンを含むダイアログボックスのフッターを設定し、ボタンの状態ごとに異なるテキスト色と背景色を持たせるには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -525,13 +525,13 @@ background-color: #ffffff;
 } 
 ```
 
-メインダイアログ領域（ヘッダーとフッターの間）には、スクロール可能なダイアログコンテンツと右側のスクロールパネルが含まれています。 どの場合でも、コンポーネントがこの領域の幅を管理するので、CSSで設定することはできません。 ダイアログのメイン領域は、以下のCSSクラスセレクターを使用して制御します。
+メインダイアログ領域（ヘッダーとフッターの間）には、スクロール可能なダイアログコンテンツと、右側のスクロールパネルが含まれています。 どのような場合でも、コンポーネントがこの領域の幅を管理するので、CSS で設定することはできません。 ダイアログのメイン領域は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea
 ```
 
-**ダイアログボックスの表示領域のCSSプロパティ**
+**ダイアログボックスの表示領域の CSS プロパティ**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -550,7 +550,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 高さが300ピクセルで、マージンが10ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
+**例**  — 高さが 300 ピクセルで、マージンが 10 ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea { 
@@ -560,15 +560,15 @@ background-color: #ffffff;
 }
 ```
 
-すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に配置され、以下のCSSクラスセレクターを使用して制御します。
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、コンテナ内に存在し、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody
 ```
 
-このコンテナの高さがダイアログボックスのメイン領域よりも大きい場合は、コンポーネントによって垂直方向のスクロールが自動的に有効になります。
+このコンテナの高さがメインのダイアログボックス領域よりも大きい場合は、コンポーネントによって垂直方向のスクロールが自動的に有効になります。
 
-**ダイアログボックスの本文のCSSプロパティ**
+**ダイアログボックスの本体の CSS プロパティ**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -579,7 +579,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  - 10ピクセルのパディングがあるフォームコンテンツを設定するには、次のように記述します。
+**例**  - 10 ピクセルのパディングがあるフォームコンテンツを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -587,7 +587,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスフォーム内のすべての静的ラベルは、
+ダイアログボックスフォーム内のすべての静的ラベルは、以下を使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel
@@ -595,7 +595,7 @@ background-color: #ffffff;
 
 このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるので、ラベルのサイズや位置の制御には適していません。
 
-**ダイアログボックスのラベルのCSSプロパティ。 **
+**ダイアログボックスのラベルの CSS プロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -618,9 +618,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ダイアログボックスのラベルはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ダイアログボックスのラベルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  — グレー、太字、9ピクセルのフォントにすべてのラベルを設定するには、次のように記述します。
+**例**  — グレー、太字、9 ピクセルのフォントにすべてのラベルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -630,13 +630,13 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みコードの上部に表示されるテキストコピーのサイズは、以下のCSSクラスセレクターを使用して制御します。
+埋め込みコードの上部に表示されるテキストコピーのサイズは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの広い入力フィールドのCSSプロパティ**
+**ダイアログボックスの入力全体フィールドの CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -651,7 +651,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 幅が430ピクセルで、下部に10ピクセルのパディングがあるテキストコピーを設定するには、次のように記述します。
+**例**  — 幅が 430 ピクセルで、下部に 10 ピクセルのパディングがあるテキストコピーを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputwide { 
@@ -660,13 +660,13 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みコードはコンテナにまとめられ、以下のCSSクラスセレクターを使用して制御します。
+埋め込みコードはコンテナにまとめられ、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックスの入力コンテナのCSSプロパティ**
+**ダイアログボックスの入力コンテナの CSS プロパティ**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -685,7 +685,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 埋め込みコードテキストの周囲に1ピクセルのグレーの境界線を設定し、幅を430ピクセルにし、10ピクセルのパディングを持たせるには、次のように記述します。
+**例**  — 埋め込みコードテキストの周囲に 1 ピクセルのグレーの境界線を設定し、幅を 430 ピクセルにし、10 ピクセルのパディングを持たせるには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer { 
@@ -695,13 +695,13 @@ background-color: #ffffff;
 }
 ```
 
-実際の埋め込みコードテキストは、以下のCSSクラスセレクターを使用して制御します。
+実際の埋め込みコードテキストは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックスの入力コンテナのCSSプロパティ**
+**ダイアログボックスの入力コンテナの CSS プロパティ**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -720,13 +720,13 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズのラベルとドロップダウンは、ダイアログボックスの下部に配置され、コンテナに配置されます。このコンテナは、以下のCSSクラスセレクターを使用して制御します。
+埋め込みサイズのラベルとドロップダウンは、ダイアログボックスの下部にあり、コンテナに配置されます。このコンテナは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**ダイアログボックスの埋め込みサイズパネルのCSSプロパティ**
+**ダイアログボックスの埋め込みサイズパネルの CSS プロパティ**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
@@ -737,7 +737,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  - 10ピクセルのパディングがある埋め込みサイズパネルを設定するには、次のように記述します。
+**例**  - 10 ピクセルのパディングがある埋め込みサイズパネルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -745,19 +745,19 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズラベルのサイズと整列は、以下のCSSクラスセレクターを使用して制御します。
+埋め込みサイズラベルのサイズと整列は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**ダイアログボックスの埋め込みサイズパネルのCSSプロパティ**
+**ダイアログボックスの埋め込みサイズパネルの CSS プロパティ**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
-   <td colname="col2"> <p>ラベルの垂直方向の整列。 </p> </td> 
+   <td colname="col2"> <p>垂直方向のラベルの整列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
@@ -766,7 +766,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 上揃えで幅が80ピクセルの埋め込みサイズラベルを設定するには、次のように記述します。
+**例**  — 上揃えで幅が 80 ピクセルの埋め込みサイズラベルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -775,13 +775,13 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズコンボボックスの幅は、以下のCSSクラスセレクターを使用して制御します。
+埋め込みサイズコンボボックスの幅は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox
 ```
 
-**コンボボックスのCSSプロパティ**
+**コンボボックスの CSS プロパティ**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
@@ -794,9 +794,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->コンボボックスは、`expanded`属性セレクターをサポートし、`true`と`false`の値を使用できます。 `true` は、コンボボックスに事前に定義された埋め込みサイズの1つが表示される場合に使用されます。そのため、使用可能なすべての幅を使用できます。`false` は、コンボボックスでカスタムサイズオプションが選択されている場合に使用されるので、カスタムの幅と高さの入力フィールド用のスペースを確保するために縮小する必要があります。
+>コンボボックスでは、`expanded` 属性セレクターがサポートされます。この値は、`true` と `false` です。 `true` 値は、コンボボックスに事前に定義された埋め込みサイズの 1 つが表示される場合に使用されるので、使用可能な幅をすべて取る必要があります。 `false` 値は、コンボボックスでカスタムサイズオプションが選択されている場合に使用されるので、カスタムの幅と高さの入力フィールド用のスペースが確保されるように縮小する必要があります。
 
-**例**  — 事前定義済みの項目を表示する場合は幅が300ピクセル、カスタムサイズを表示する場合は幅が110ピクセルの埋め込みサイズコンボボックスを設定するには、次のように記述します。
+**例**  — 事前定義済みの項目を表示する場合は幅が 300 ピクセル、カスタムサイズを表示する場合は幅が 110 ピクセルに埋め込みサイズコンボボックスを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -807,13 +807,13 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスのテキストの高さは、特別な内部要素で定義し、以下のCSSクラスセレクターを使用して制御します。
+コンボボックスのテキストの高さは、特別な内部要素で定義し、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**コンボボックステキストのCSSプロパティ**
+**コンボボックステキストの CSS プロパティ**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
@@ -824,7 +824,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 埋め込みサイズコンボボックスのテキストの高さを40ピクセルに設定するには、次のように記述します。
+**例**  — 埋め込みサイズコンボボックスのテキストの高さを 40 ピクセルに設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -832,13 +832,13 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスの右側に「ドロップダウン」ボタンがあり、以下のCSSクラスセレクターを使用して制御します。
+コンボボックスの右側に「ドロップダウン」ボタンがあり、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton
 ```
 
-**コンボボックスボタンのCSSプロパティ**
+**コンボボックスボタンの CSS プロパティ**
 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
@@ -864,16 +864,16 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-**例**  - 28 x 28ピクセルで、状態ごとに個別の画像を持つドロップダウンボタンを設定するには、次のように記述します。
+**例**  - 28 x 28 ピクセルで、状態ごとに個別の画像を持つドロップダウンボタンを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -894,15 +894,15 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスを開いたときに表示される埋め込みサイズのリストを含むパネルは、以下のCSSクラスセレクターを使用して制御します。
+コンボボックスを開いたときに表示される埋め込みサイズのリストを含むパネルは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
 ```
 
-パネルのサイズと位置は、コンポーネントで制御します。 CSSを使用して変更することはできません。
+パネルのサイズと位置は、コンポーネントによって制御されます。 CSS を使用して変更することはできません。
 
-**コンボボックスのドロップダウンのCSSプロパティ**
+**コンボボックスドロップダウンの CSS プロパティ**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
@@ -913,7 +913,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  - 1ピクセルのグレーの境界線を持つコンボボックスパネルを設定するには、次のように記述します。
+**例**  - 1 ピクセルのグレーの境界線を持つコンボボックスパネルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -921,13 +921,13 @@ background-color: #ffffff;
 }
 ```
 
-以下のCSSクラスセレクターを使用して制御される、ドロップダウンパネル内の単一の項目。
+以下の CSS クラスセレクターを使用して制御される、ドロップダウンパネル内の単一の項目：
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor
 ```
 
-**ドロップダウン項目アンカーのCSSプロパティ**
+**ドロップダウン項目アンカーの CSS プロパティ**
 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
@@ -946,13 +946,13 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスパネル内の選択した項目の左側に表示されるチェックマークは、以下のCSSクラスセレクターを使用して制御します。
+コンボボックスパネル内の選択した項目の左側に表示されるチェックマークは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark
 ```
 
-**チェックマークボックスのCSSプロパティ**
+**チェックマークボックスの CSS プロパティ**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
@@ -970,12 +970,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**例**  — チェックマークアイコンを25 x 25ピクセルに設定するには、次のように記述します。
+**例**  — チェックマークアイコンを 25 x 25 ピクセルに設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark { 
@@ -985,13 +985,13 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズコンボボックスで「カスタムサイズ」オプションを選択すると、ダイアログボックスの右側に2つの追加の入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できます。 これらのフィールドは、コンテナでラップされます。このコンテナは、以下のCSSクラスセレクターを使用して制御します。
+埋め込みサイズコンボボックスで「カスタムサイズ」オプションを選択すると、ダイアログボックスの右側に 2 つの追加の入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できます。 これらのフィールドは、コンテナにまとめられます。このコンテナは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**ダイアログボックスのカスタムサイズパネルのCSSプロパティ**
+**ダイアログボックスのカスタムサイズパネルの CSS プロパティ**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
@@ -1002,7 +1002,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — コンボボックスの右側が20ピクセルになるようにカスタムサイズ入力フィールドパネルを設定するには、次のように記述します。
+**例**  — コンボボックスの右側が 20 ピクセルになるようにカスタムサイズ入力フィールドパネルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1010,13 +1010,13 @@ background-color: #ffffff;
 }
 ```
 
-各カスタムサイズ入力フィールドは、境界線をレンダリングし、フィールド間の余白を設定するコンテナにまとめられます。 これは、以下のCSSクラスセレクターを使用して制御します。
+各カスタムサイズ入力フィールドは、境界線をレンダリングし、フィールド間の余白を設定するコンテナにまとめられます。 これは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**ダイアログボックスのカスタムサイズのCSSプロパティ**
+**ダイアログボックスのカスタムサイズの CSS プロパティ**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
@@ -1039,7 +1039,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 幅が70ピクセルで、1ピクセルのグレーの境界線、マージン、パディングがあるカスタムサイズの入力フィールドを設定するには、次のように記述します。
+**例**  - 1 ピクセルのグレーの境界線、余白、パディングを持ち、幅が 70 ピクセルのカスタムサイズ入力フィールドを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1051,13 +1051,13 @@ background-color: #ffffff;
 }
 ```
 
-垂直方向のスクロールが必要な場合、スクロールバーはダイアログボックスの右端近くのパネル内にレンダリングされます。このパネルは、以下のCSSクラスセレクターを使用して制御します。
+垂直方向のスクロールが必要な場合は、ダイアログボックスの右端近くのパネル内にスクロールバーがレンダリングされます。このスクロールバーは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel
 ```
 
-**ダイアログボックスのスクロールパネルのCSSプロパティ**
+**ダイアログボックスのスクロールパネルの CSS プロパティ**
 
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
@@ -1068,7 +1068,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 幅が44ピクセルのスクロールパネルを設定するには、次のように記述します。
+**例**  — 幅が 44 ピクセルのスクロールパネルを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1076,13 +1076,13 @@ background-color: #ffffff;
 }
 ```
 
-スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+スクロールバー領域の外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar
 ```
 
-**スクロールバーのCSSプロパティ**
+**スクロールバーの CSS プロパティ**
 
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
@@ -1092,7 +1092,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> スクロールパネルの上部からのスクロールバーの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p> スクロールパネルの上端からのスクロールバーの垂直方向のオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -1105,7 +1105,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 幅が28ピクセルで、スクロールパネルの上、右および下から8ピクセルのマージンがあるスクロールバーを設定するには、次のように記述します。
+**例**  — 幅が 28 ピクセルで、スクロールパネルの上、右および下から 8 ピクセルのマージンがあるスクロールバーを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar { 
@@ -1116,19 +1116,19 @@ background-color: #ffffff;
 }
 ```
 
-スクロールバートラックは、上下のスクロールボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。 トラックは、以下のCSSクラスセレクターを使用して制御します
+スクロールバートラックは、上下のスクロールボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。 このトラックは、以下の CSS クラスセレクターを使用して制御します
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**スクロールバートラックのCSSプロパティ**
+**スクロールバートラックの CSS プロパティ**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>トラックの幅 </p> </td> 
+   <td colname="col2"> <p>トラックの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
@@ -1137,7 +1137,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**例**  — 幅が28ピクセルで、背景がグレーのスクロールバートラックを設定するには、次のように記述します。
+**例**  — 幅が 28 ピクセルで、背景がグレーのスクロールバートラックを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1146,13 +1146,13 @@ background-color: #B2B2B2;
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 垂直方向の位置は、コンポーネントのロジックによって完全に制御されます。 ただし、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下のCSSクラスセレクターを使用して設定できます。
+スクロールバーサムは、スクロールトラック領域内で垂直に移動します。 垂直位置は、コンポーネントのロジックによって完全に制御されます。 ただし、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下の CSS クラスセレクターを使用して設定できます。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**スクロールバーサムのCSSプロパティ**
+**スクロールバーサムの CSS プロパティ**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
@@ -1166,7 +1166,7 @@ background-color: #B2B2B2;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p>トラックの上端との間の垂直方向のパディング。 </p> </td> 
+   <td colname="col2"> <p>トラックの上部との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
@@ -1178,16 +1178,16 @@ background-color: #B2B2B2;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、 `state`属性セレクターがサポートされます。このセレクターは、サムの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および`disabled`です。
+>サムでは、 `state` 属性セレクターがサポートされます。このセレクターは、サムの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および `disabled`。
 
-**例**  - 28 x 45ピクセルで、上下に10ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定するには、次のように記述します。
+**例**  - 28 x 45 ピクセルで、上下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1210,7 +1210,7 @@ background-color: #B2B2B2;
 }
 ```
 
-上下のスクロールボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+上下のスクロールボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton
@@ -1220,9 +1220,9 @@ background-color: #B2B2B2;
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-CSSの`top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアのロジックによって自動的に配置が決まります。
+CSS の `top`、`left`、`bottom` および `right` プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアのロジックによって自動的に配置が決まります。
 
-**上下のスクロールボタンのCSSプロパティ**
+**上下のスクロールボタンの CSS プロパティ**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
@@ -1240,18 +1240,18 @@ CSSの`top`、`left`、`bottom`および`right`プロパティを使用してス
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->次のボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および`disabled`です。
+>次のボタンでは、 `state` 属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。`up`、`down`、`over`、および `disabled`。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  - 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
+**例**  - 28 x 32 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアのURLコマンド。
-solution: Experience Manager
 title: ビデオ
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの URL コマンド。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 20%
 
 ---
 
 # ビデオ{#video}
 
-ビデオ360ビューアのURLコマンド。
+ビデオ 360 ビューアの URL コマンド。
 
 ` video= *`videoURL`*`
 
@@ -22,14 +22,14 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部ビデオの絶対URL。 </p> </td> 
+   <td colname="col2"> <p> 外部ビデオの絶対 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。（`asset`パラメーターを使用しない限り）。 [外部ビデオサポート](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)を参照してください。
+必須。(`asset` パラメーターを使用しない限り。 [ 外部ビデオのサポート ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

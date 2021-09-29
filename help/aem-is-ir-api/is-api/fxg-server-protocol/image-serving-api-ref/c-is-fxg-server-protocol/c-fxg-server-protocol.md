@@ -1,29 +1,29 @@
 ---
+title: FXG サーバープロトコル
 description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 solution: Experience Manager
-title: FXGサーバプロトコル
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 85%
+source-wordcount: '268'
+ht-degree: 69%
 
 ---
 
-# FXGサーバプロトコル{#fxg-server-protocol}
+# FXG サーバープロトコル{#fxg-server-protocol}
 
 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
 
-基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は、`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast`です。 例えば、center 基準点を使用すると、基準点を中心にグラフィックを 45 度回転させることができます。以下の図は、基準点の位置、グラフィック、`northWest` 基準点から 20 度回転させた状態、`east` 基準点から 20 度回転させた状態を示しています。
+基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は `northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast` です。 たとえば、中心の基準点を使用すると、グラフィックを中心に 45 °回転できます。 次の図は、基準点の位置、図、`northWest` 基準点から 20°回転した図、`east` 基準点から 20°回転した図を示しています。
 
-![](assets/wp_ref_points.png)
+![基準点のイメージ](assets/wp_ref_points.png)
 
 * A.基準点の位置
 * ロ。図
-* C.グラフィックが`northWest`基準点から20度回転した状態
-* D.グラフィックが`east`基準点から20度回転した状態
+* C.図形が `northWest` 基準点から 20°回転した状態
+* D.図形が `east` 基準点から 20°回転した状態
 
 構文を次に示します。
 
