@@ -1,14 +1,14 @@
 ---
+title: 処分する
 description: インタラクティブビデオビューアのJavaScript APIリファレンス。
 solution: Experience Manager
-title: 処分する
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 また、Webページコードで、ビューアのインスタンス変数を削除して、Webブラウザーのメモリからビューアを完全に削除する必要があります。
 
-Webページコードがビューアで使用するビューアSDKコンポーネントに直接イベントリスナーを登録している場合、そのようなコンポーネントへの外部参照はWebページコードで明示的に登録解除する必要があり、 `dispose()`を呼び出す前に削除する必要があります。
+Webページコードで、ビューアが使用するビューアSDKコンポーネントに直接イベントリスナーが登録されている場合、またはそのようなコンポーネントへの外部参照が保存されている場合は、Webページコードで明示的に登録を解除する必要があります。 また、`dispose()`を呼び出す前に、このような外部コンポーネント参照を削除する必要があります。
 
 `dispose()`の呼び出し後は、ビューアAPIにアクセスしないでください。
 

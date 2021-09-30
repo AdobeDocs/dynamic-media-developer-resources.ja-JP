@@ -1,13 +1,13 @@
 ---
+title: インタラクティブビデオ
 description: インタラクティブビデオビューアは、H.264形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生するビデオプレーヤーです。
 solution: Experience Manager
-title: インタラクティブビデオ
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    ビューアの静的サイズを設定するには、`.s7interactivevideoviewer`最上位CSSクラスに対して絶対単位で宣言するか、`stagesize`修飾子を使用します。
 
-   サイズ変更はCSSで直接HTMLページに配置できます。 または、カスタムのビューアCSSファイルに配置し、その後、AEM Assetsのビューアプリセットレコードに割り当てるか、`style`コマンドを使用して明示的に渡すこともできます。
+   サイズ変更はCSSで直接HTMLページに配置できます。 または、カスタムのビューアCSSファイルに配置し、その後、Adobe Experience Manager Assets - On-demand内のビューアプリセットレコードに割り当てるか、`style`コマンドを使用して明示的に渡すこともできます。
 
    CSSでのビューアのスタイル設定について詳しくは、 [インタラクティブビデオビューアのカスタマイズ](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
    }
    ```
 
-   AEM Assets — オンデマンドで、ビューアプリセットレコードに`stagesize`修飾子を設定できます。 または、次のように、 `params`コレクションを使用してビューア初期化コードを明示的に渡すことも、コマンドリファレンスの節で説明するようにAPI呼び出しとして渡すこともできます。
+   Experience ManagerのAssets - On-demandで、ビューアプリセットレコードに`stagesize`修飾子を設定できます。 または、次のように、 `params`コレクションを使用してビューア初期化コードを明示的に渡すことも、コマンドリファレンスの節で説明するようにAPI呼び出しとして渡すこともできます。
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

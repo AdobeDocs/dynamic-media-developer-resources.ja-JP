@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.singleclick
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.singleclick
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 再生/一時停止を切り替えるためのシングルクリック/タップのマッピングを設定します。 <span class="codeph"> none</span>に設定すると、シングルクリック/タップによる再生/一時停止が無効になります。 <span class="codeph"> playPause</span>に設定した場合、ビデオをクリックすると、ビデオの再生と一時停止が切り替わります。 一部のデバイスでは、ネイティブのコントロールを使用できます。 この場合、 <span class="codeph"> singleclick</span>の動作は無効になります。 </p> </td> 
+   <td colname="col2"> <p> 再生/一時停止を切り替えるためのシングルクリック/タップのマッピングを設定します。 <span class="codeph"> none</span>に設定すると、シングルクリック/タップによる再生/一時停止が無効になります。 <span class="codeph"> playPause</span>に設定すると、ビデオの選択がビデオの再生と一時停止の切り替えになります。 一部のデバイスでは、ネイティブのコントロールを使用できます。 この場合、 <span class="codeph"> singleclick</span>の動作は無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

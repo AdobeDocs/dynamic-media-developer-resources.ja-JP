@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.posterimage
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 17c1220d-f2a4-4729-84e2-b9f6f5732423
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> % <span class="codeph"> 3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> は% <span class="codeph"> 3D</span> </p> </li> 
-     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span>の値を省略すると、コンポーネントはそのアセットのデフォルトのポスター画像を代わりに使用しようとします。 </p> <p>ビデオをパスとして指定した場合、デフォルトのポスター画像カタログIDは、ビデオパスから<span class="codeph"> catalog_id/image_id</span>のペアに導き出されます。<span class="codeph"> catalog_id</span>はパスの最初のトークン、<span class="codeph"> image_id</span>は拡張子が削除されたビデオの名前です。 そのIDを持つ画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値に<span class="codeph"> none</span>を指定します。 <span class="codeph"><span class="varname"> isCommands</span></span>のみを指定した場合は、画像が表示される前に、コマンドがデフォルトのポスター画像に適用されます。 </p> </td> 
+     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span>の値を省略すると、コンポーネントはそのアセットのデフォルトのポスター画像を代わりに使用しようとします。 </p> <p>ビデオをパスとして指定すると、デフォルトのポスター画像カタログIDは、ビデオパスから<span class="codeph"> catalog_id/image_id</span>のペアとして派生されます。<span class="codeph"> catalog_id</span>は、パスの最初のトークンに対応します。 また、 <span class="codeph"> image_id</span>は、拡張子が削除されたビデオの名前です。 そのIDを持つ画像が存在しない場合、ポスター画像は表示されません。 </p> <p>初期設定のポスター画像が表示されないようにするには、ポスター画像の値に<span class="codeph"> none</span>を指定します。 <span class="codeph"><span class="varname"> isCommands</span></span>のみを指定した場合は、画像が表示される前に、コマンドがデフォルトのポスター画像に適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

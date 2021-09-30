@@ -1,14 +1,14 @@
 ---
+title: CallToAction.direction
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: CallToAction.direction
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 

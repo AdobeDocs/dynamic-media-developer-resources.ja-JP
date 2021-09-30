@@ -1,13 +1,13 @@
 ---
+title: コマンドリファレンス — 設定属性
 description: インタラクティブビデオビューアの設定属性ドキュメント。
 solution: Experience Manager
-title: コマンドリファレンス — 設定属性
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-つまり、このコマンドは次のように使用できます。
+また、次のコマンドを使用できることを意味します。
 
 * `playback` （短い構文）
 * `VideoPlayer.playback` （コンポーネントクラス名で修飾）

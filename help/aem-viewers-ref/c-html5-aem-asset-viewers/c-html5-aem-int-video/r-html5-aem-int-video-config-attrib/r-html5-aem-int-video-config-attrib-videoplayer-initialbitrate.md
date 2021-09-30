@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.initialbitrate
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.initialbitrate
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 75ee2c74-21c4-41b6-9d0f-15aa8432f177
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> デスクトップでのビデオの初期再生に使用するビデオビットレート(kbps)を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートのビデオで開始します。 </p> <p><span class="codeph"> 0</span>に設定すると、ビデオプレーヤーは最も低いビットレートから開始します。 </p> <p>HTML5 HLSビデオをネイティブでサポートしていないシステム（Windows 10のFirefox、Chrome、Internet Explorer 11ブラウザーなど）で再生モードがautoに設定されている場合にのみ適用されます。 </p> </td> 
+   <td colname="col2"> <p> デスクトップでのビデオの初期再生に使用するビデオビットレート（キロビット/秒またはkbps）を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートのビデオで開始します。 </p> <p><span class="codeph"> 0</span>に設定した場合、ビデオプレーヤーは最も低いビットレートから開始します。 </p> <p>HTML5 HLSビデオをネイティブでサポートしていないシステム（Windows 10のFirefox、Chrome、Internet Explorer 11ブラウザーなど）で再生モードがautoに設定されている場合にのみ適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

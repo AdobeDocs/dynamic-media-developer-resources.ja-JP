@@ -1,14 +1,14 @@
 ---
+title: InteractiveSwatches.displaymode
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: InteractiveSwatches.displaymode
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '40'
+ht-degree: 10%
 
 ---
 

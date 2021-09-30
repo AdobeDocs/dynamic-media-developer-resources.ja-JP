@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.loop
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.loop
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 13b11e9c-00c5-4c1d-b1af-90afaabc389e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
 

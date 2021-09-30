@@ -1,13 +1,13 @@
 ---
+title: VideoTime.timepattern
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoTime.timepattern
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 3%
 
 ---

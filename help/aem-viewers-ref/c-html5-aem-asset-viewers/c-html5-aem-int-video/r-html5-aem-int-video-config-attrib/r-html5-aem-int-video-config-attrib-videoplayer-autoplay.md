@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: インタラクティブビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic，ビューア，SDK/API，インタラクティブビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> ビューアが読み込み時にビデオの再生を開始するかどうかを示します。 特定のモバイルデバイスなどの一部のシステムでは、自動再生がサポートされない場合があります。 </p> </td> 
+   <td colname="col2"> <p> ビューアが読み込み時にビデオの再生を開始するかどうかを示します。 特定のモバイルデバイスなど、一部のシステムでは自動再生がサポートされない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
