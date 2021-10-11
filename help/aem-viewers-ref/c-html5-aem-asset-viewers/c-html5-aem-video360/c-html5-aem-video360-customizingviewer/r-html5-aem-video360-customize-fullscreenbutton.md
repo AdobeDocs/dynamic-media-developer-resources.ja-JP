@@ -1,13 +1,13 @@
 ---
+title: 全画面表示ボタン
 description: フルスクリーンボタンをクリックすると、ビデオプレーヤーのフルスクリーンモードが開始または終了します。
 solution: Experience Manager
-title: 全画面表示ボタン
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-フルスクリーンボタンのサイズ、スキン、およびそのボタンを含むコントロールバーに対する位置を、CSSで設定できます。
+フルスクリーンボタンのサイズ、スキン、およびそのボタンを含むコントロールバーに対する位置を、CSS で設定できます。
 
-フルスクリーンボタンの外観は、CSSクラスセレクターを使用して制御します。
+フルスクリーンボタンの外観は、CSS クラスセレクターを使用して制御します。
 
 ```
 .s7video360viewer .s7fullscreenbutton
 ```
 
-**全画面表示ボタンのCSSプロパティ**
+**全画面表示ボタンの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -52,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>全画面表示ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
@@ -60,18 +60,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターと`selected`属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'`は「フルスクリーン」の状態に、`selected='false'`は「通常」の状態に対応します。
+>このボタンでは、 `state` 属性セレクターと `selected` 属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、`selected='true'` は「フルスクリーン」の状態に対応し、`selected='false'` は「通常」の状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-**例**  - 32 x 32ピクセルで、コントロールバーの上および右端から6ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。また、選択時または未選択時の4つのボタン状態ごとに異なる画像を表示します。
+**例**  - 32 x 32 ピクセルで、コントロールバーの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。また、選択時または未選択時の 4 つのボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7video360viewer . s7fullscreenbutton { 

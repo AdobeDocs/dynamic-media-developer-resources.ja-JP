@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアの設定属性。
-solution: Experience Manager
 title: Video360Player.waiticon
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの設定属性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 25%
+source-wordcount: '27'
+ht-degree: 33%
 
 ---
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-ビデオ360ビューアの設定属性。
+ビデオ 360 ビューアの設定属性。
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 

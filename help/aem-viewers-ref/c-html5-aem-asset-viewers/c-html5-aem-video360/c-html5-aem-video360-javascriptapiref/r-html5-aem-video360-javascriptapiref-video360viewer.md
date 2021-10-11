@@ -1,24 +1,24 @@
 ---
-description: ビデオ360ビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: Video360Viewer
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: Video360 ビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '204'
 ht-degree: 5%
 
 ---
 
 # Video360Viewer{#video-viewer}
 
-ビデオ360ビューアのJavaScript APIリファレンス。
+Video360 ビューアの JavaScript API リファレンス。
 
 `Video360Viewer([config])`
 
-コンストラクター。新しいHTML5 Video360ビューアインスタンスを作成します。
+コンストラクター。新しいHTML5 Video360 ビューアインスタンスを作成します。
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -26,12 +26,12 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {object}オプショ </span> ンのJSON設定オブジェクト。個々のセッターメソッドを呼び出すのを避けるために、すべてのビューア設定をコンストラクターに渡すことができます。次のプロパティが含まれます。 </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {object} オプション </span> の JSON 設定オブジェクトです。個々のセッターメソッドを呼び出すのを避けるために、ビューアのすべての設定をコンストラクターに渡すことができます。次のプロパティが含まれます。 </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> - { <span class="codeph"> String}  </span> ビューアが挿入されるDOMコンテナ(通常は <span class="codeph"> DIV  </span>)のID。このメソッドを呼び出すまでに、コンテナ要素を作成する必要はありません。 ただし、<span class="codeph"> init() </span>を実行する場合は、コンテナが存在する必要があります。 </p> <p>必須。 </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params  </span> - { <span class="codeph">  </span> Object}ビューアの設定パラメーターを含むJSONオブジェクト。プロパティ名はビューア固有の設定オプションまたはSDK修飾子で、そのプロパティの値は対応する設定値です。 </p> <p>必須。 </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> handlers  </span> -  <span class="codeph">  </span> {Object}ビューアのイベントコールバックを含むJSONオブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックに対するJavaScript関数参照です。 </p> <p>（オプション） </p> <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">イベントコールバック</a>を参照してください。 </p> </li> 
-      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts  </span> - {Object} JSONオ <span class="codeph"> ブジェクトとローカライ </span> ゼーションデータ。（オプション） </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local">ユーザーインターフェイス要素のローカライゼーション</a>を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i>ビューアSDKユーザーガイド</i>』および例も参照してください。 </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> - { <span class="codeph"> String} ビ </span> ューアが挿入される DOM コンテナ ( 通常は <span class="codeph"> DIV  </span>) の ID。このメソッドを呼び出すまでに、コンテナ要素を作成する必要はありません。 ただし、<span class="codeph"> init() </span> を実行する場合は、コンテナが存在する必要があります。 </p> <p>必須。 </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params  </span> - { <span class="codeph">  </span> Object} ビューアの設定パラメーターを含む JSON オブジェクト。プロパティ名はビューア固有の設定オプションまたは SDK 修飾子で、そのプロパティの値は対応する設定値です。 </p> <p>必須。 </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> handlers  </span> - { <span class="codeph">  </span> Object} ビューアのイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックに対する JavaScript 関数参照です。 </p> <p>（オプション） </p> <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> イベントコールバック </a> を参照してください。 </p> </li> 
+      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts  </span> - {Object} JSON オブジ <span class="codeph">  </span> ェクトとローカリゼーションデータ。（オプション） </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i> ビューア SDK ユーザーガイド </i>』および例も参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

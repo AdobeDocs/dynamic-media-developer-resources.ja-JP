@@ -1,14 +1,14 @@
 ---
+title: Video360Player.preload
 description: ビューアがビデオコンテンツの読み込みを開始してから再生を開始するかどうかを示します。
 solution: Experience Manager
-title: Video360Player.preload
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '118'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 1 </span>に設定すると、アセットの設定直後にビデオのダウンロードが開始されます。それ以外の場合は、エンドユーザーまたはAPI呼び出しによって再生が開始された後にのみ、プリロードが開始されます。 </p> <p><span class="codeph"> 0 </span>に設定すると、特定の機能は再生が開始するまで機能しない場合があります。特に、シーク操作はビデオフレームを更新しません。 ポスター画像が無効になっている場合、ビューアは最初のビデオフレームではなく空の領域として表示されます。 </p> <p>Internet Explorer 11およびEdgeブラウザーの特定のバージョンでは、ビデオのプリロードの無効化は無視される場合があります。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1 </span> に設定した場合、アセットの設定直後にビデオのダウンロードが開始されます。 それ以外の場合は、エンドユーザーまたは API 呼び出しによって再生が開始された後でのみ、プリロードが開始されます。 </p> <p><span class="codeph"> 0 </span> に設定すると、再生が開始するまで特定の機能が機能しない場合があります。 特に、シーク操作はビデオフレームを更新しません。 ポスター画像が無効になっている場合、ビューアには最初のビデオフレームではなく空の領域として表示されます。 </p> <p>特定のバージョンの Internet Explorer 11 および Edge ブラウザーでは、ビデオのプリロードの無効化が無視される場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

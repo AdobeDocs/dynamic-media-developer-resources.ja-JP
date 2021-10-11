@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアの設定属性。
-solution: Experience Manager
 title: Video360Player.ssl
+description: ビデオ 360 ビューアの設定属性。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 6%
 
 ---
 
 # Video360Player.ssl{#video-player-ssl}
 
-ビデオ360ビューアの設定属性。
+ビデオ 360 ビューアの設定属性。
 
 <!-- >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)と安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルが埋め込みWebページのプロトコルから継承されます。 WebページがHTTPSで読み込まれる場合、ビデオもHTTPSで配信されます。また、WebページがHTTPSで読み込まれる場合も、ビデオがHTTPSで配信されます。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定した場合、ビデオ配信は、Webページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </span></p> <p>公開済みのビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオを安全な SSL 接続 (HTTPS) と安全でない接続 (HTTP) のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span> に設定すると、ビデオ配信プロトコルは埋め込み Web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオも HTTPS で配信されます。逆も同様です。 Web ページが HTTP 上にある場合、ビデオは HTTP 経由で配信されます。 </p> <p></span> で <span class="codeph"> に設定した場合、ビデオ配信は常に、Web ページのプロトコルに関係なく、安全な接続を介しておこなわれます。 </span></p> <p>公開済みのビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-[セキュアビデオ配信](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)も参照してください。
+[ セキュアビデオ配信 ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27) も参照してください。

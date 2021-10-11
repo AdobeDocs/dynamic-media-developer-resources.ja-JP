@@ -1,24 +1,24 @@
 ---
-description: ビデオ360ビューアのJavaScript APIリファレンス
-solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの JavaScript API リファレンス
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 90775d4a-386b-4b56-b75e-8afafe749645
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
 
 # setHandlers{#sethandlers}
 
-ビデオ360ビューアのJavaScript APIリファレンス
+ビデオ 360 ビューアの JavaScript API リファレンス
 
 `setHandlers(handlers)`
 
-0個以上のコールバックハンドラーを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに以前に割り当てられたイベントハンドラーが完全に上書きされます。 `init()`の前に呼び出す必要があります。
+0 個以上のコールバックハンドラを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに以前に割り当てられたイベントハンドラーが完全に上書きされます。 `init()` の前に呼び出す必要があります。
 
 ## パラメータ {#section-b60f082cca1542748b605689b1d43f8a}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}ビュー </span> アのイベントコールバックを含むJSONオブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックに対するJavaScript関数参照です。 </p> <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">イベントコールバック</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} ビュー </span> アのイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックへの JavaScript 関数参照です。 </p> <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> イベントコールバック </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

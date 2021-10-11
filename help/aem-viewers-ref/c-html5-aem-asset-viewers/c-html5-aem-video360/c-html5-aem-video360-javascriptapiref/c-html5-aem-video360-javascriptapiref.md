@@ -1,19 +1,19 @@
 ---
-description: Video360ViewerのメインクラスはVideo360Viewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+title: ビデオ 360 ビューアの JavaScript API リファレンス
+description: Video360Viewer のメインクラスは Video360Viewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
-title: ビデオ360ビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# ビデオ360ビューアのJavaScript APIリファレンス{#javascript-api-reference-for-video-viewer}
+# ビデオ 360 ビューアの JavaScript API リファレンス{#javascript-api-reference-for-video-viewer}
 
-Video360Viewerのメインクラスは`Video360Viewer`です。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+Video360Viewer のメインクラスは `Video360Viewer` です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-この後に示す例で、 `<instance>`は、`s7viewers.Video360Viewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+この後に示す例で、 `<instance>` は、 `s7viewers.Video360Viewer` クラスからインスタンス化された、JavaScript ビューアオブジェクトの実際の名前です。

@@ -1,26 +1,26 @@
 ---
-description: ビデオ360ビューアのJavaScript APIリファレンス
-solution: Experience Manager
 title: setVideo
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの JavaScript API リファレンス
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 4%
+source-wordcount: '55'
+ht-degree: 5%
 
 ---
 
 # setVideo{#setvideo}
 
-ビデオ360ビューアのJavaScript APIリファレンス
+ビデオ 360 ビューアの JavaScript API リファレンス
 
 `setVideo(videoUrl)`
 
-新しい外部ビデオを設定します。 `init()`の前後いつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にビデオを入れ替えます。
+新しい外部ビデオを設定します。 `init()` の前後でいつでも呼び出すことができます。 `init()` の後に呼び出すと、ビューアは実行時にビデオを入れ替えます。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)も参照してください。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6) も参照してください。
 
 ## パラメータ {#section-b6affc90b3a84584b684641c86862e01}
 
@@ -28,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>}新しいビデオの絶対URL。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} 新しいビデオの絶対 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

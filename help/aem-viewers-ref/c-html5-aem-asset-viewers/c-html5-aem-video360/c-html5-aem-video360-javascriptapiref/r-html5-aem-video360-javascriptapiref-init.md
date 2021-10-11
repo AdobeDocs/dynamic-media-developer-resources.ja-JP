@@ -1,28 +1,28 @@
 ---
-description: ビデオ360ビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: Video360 ビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: cb543620-e774-407b-bf33-bfd2261511c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
 
 # init{#init}
 
-ビデオ360ビューアのJavaScript APIリファレンス。
+Video360 ビューアの JavaScript API リファレンス。
 
 `init()`
 
-Video360ビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
+Video360 ビューアの初期化を開始します。 この時点までに、ビューアのコードが ID で見つけられるように、コンテナの DOM 要素を作成する必要があります。
 
-コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、`display:none`スタイルを割り当てて非表示にした場合）、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだ Web ページレイアウトの一部ではない場合（例えば、`display:none` スタイルを割り当てて非表示にした場合）、ビューアは初期化プロセスを中断します。 これは、Web ページでコンテナ要素がレイアウトに戻る時点まで続きます。 このイベントが発生すると、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出します。以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクルの間に 1 回だけ呼び出してください。後続の呼び出しは無視されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

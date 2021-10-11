@@ -1,26 +1,26 @@
 ---
-description: ビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、ユーザーインターフェイス要素のツールチップや、ビデオが再生できない場合に表示されるエラーメッセージが含まれます。
-solution: Experience Manager
 title: ユーザーインターフェイス要素のローカライゼーション
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビューアに表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザーインターフェイス要素のツールヒントと、ビデオが再生できない場合に表示されるエラーメッセージが含まれます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
 
-ビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 これには、ユーザーインターフェイス要素のツールチップや、ビデオが再生できない場合に表示されるエラーメッセージが含まれます。
+ビューアに表示されるコンテンツには、ローカライゼーションの対象となるものもあります。 このようなコンテンツには、ユーザーインターフェイス要素のツールヒントと、ビデオが再生できない場合に表示されるエラーメッセージが含まれます。
 
-ビューア内のテキスト内容は、ローカライズ可能ですべて、SYMBOLと呼ばれる特別なビューアSDK識別子で表されます。 シンボルには、標準提供のビューアに付属する英語のロケール(`"en"`)に関連するデフォルトのテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ビューア内のテキスト内容がローカライズ可能な場合は、それぞれ SYMBOL と呼ばれる特別なビューア SDK 識別子で表されます。 シンボルには、標準提供のビューアに付属する英語のロケール (`"en"`) に対応するデフォルトのテキスト値が設定されています。 また、必要な数のロケールに対して、ユーザー定義の値を設定することもできます。
 
-ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされている各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値が使用されます。それ以外の場合は、標準のデフォルトテキストに戻ります。
+ビューアの起動時に、現在のロケールがチェックされ、ロケールでサポートされている各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値が使用されます。それ以外の場合は、標準のデフォルトテキストに戻ります。
 
-ユーザー定義のローカライゼーションデータは、ローカライゼーションJSONオブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケールのリスト、各ロケールのシンボルテキスト値、およびデフォルトのロケールが含まれます。
+ユーザ定義のローカライゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このオブジェクトには、サポートされているロケール、各ロケールの SYMBOL テキスト値、およびデフォルトのロケールのリストが含まれます。
 
 このようなローカリゼーションオブジェクトの例を次に示します。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-上の例では、ローカリゼーションオブジェクトは2つのロケール（ `"en"`と`"fr"` ）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
+上記の例では、ローカリゼーションオブジェクトは 2 つのロケール（ `"en"` と `"fr"` ）を定義し、各ロケールの 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
 
-Webページコードでは、設定オブジェクトの`localizedTexts`フィールドの値として、ローカリゼーションオブジェクトをビューアコンストラクターに渡す必要があります。 別のオプションとして、 `setLocalizedTexts(localizationInfo)`メソッドを呼び出してローカライゼーションオブジェクトを渡す方法があります。
+Web ページコードでは、ローカリゼーションオブジェクトを設定オブジェクトの `localizedTexts` フィールドの値としてビューアコンストラクタに渡す必要があります。 別のオプションとして、 `setLocalizedTexts(localizationInfo)` メソッドを呼び出してローカライゼーションオブジェクトを渡す方法があります。
 
 次のシンボルがサポートされています。
 
@@ -54,7 +54,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>トップレベルビューア要素のARIAラベル </p> </td> 
+   <td colname="col2"> <p>ARIA トップレベルビューア要素のラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -70,7 +70,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>ビデオスクラバー。 </p> </td> 
+   <td colname="col2"> <p>ビデオスクラバ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
@@ -78,7 +78,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>ミュート可能ボリュームの選択状態。 </p> </td> 
+   <td colname="col2"> <p>選択した可変ボリュームの状態。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -86,7 +86,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p>ARIA <span class="codeph"> aria-valuetext </span>属性を介して公開されるボリュームスライダノブラベル。 </p> </td> 
+   <td colname="col2"> <p>ARIA <span class="codeph"> aria-valuetext </span> 属性を介して公開されるボリュームスライダのノブラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -110,7 +110,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>埋め込みダイアログボックスの右上にある閉じるボタン。 </p> </td> 
+   <td colname="col2"> <p>埋め込みダイアログボックスの右上の閉じるボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION  </span> </p> </td> 
@@ -150,7 +150,7 @@ Webページコードでは、設定オブジェクトの`localizedTexts`フィ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>リンクダイアログボックスの右上にある閉じるボタン。 </p> </td> 
+   <td colname="col2"> <p>リンクダイアログボックスの右上の閉じるボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 

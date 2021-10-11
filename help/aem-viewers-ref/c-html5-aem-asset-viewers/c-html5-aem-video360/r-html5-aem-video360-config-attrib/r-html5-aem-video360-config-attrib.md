@@ -1,31 +1,31 @@
 ---
-description: ビデオ360ビューアの設定属性ドキュメント。
-solution: Experience Manager
 title: コマンドリファレンス — 設定属性
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの設定属性ドキュメント。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # コマンドリファレンス — 設定属性{#command-reference-configuration-attributes}
 
-ビデオ360ビューアの設定属性ドキュメント。
+ビデオ 360 ビューアの設定属性ドキュメント。
 
-設定コマンドは、URLまたは`setParam()`、`setParams()`、またはその両方のAPIメソッドを使用して設定できます。 設定属性は、サーバー側の設定レコードでも指定できます。
+設定コマンドは、URL、`setParam()`、`setParams()`、またはその両方の API メソッドを使用して設定できます。 設定属性は、サーバー側の設定レコードでも指定できます。
 
-一部の設定コマンドの前に、対応するビューアSDKコンポーネントのクラス名またはインスタンス名のプレフィックスが付く場合があります。 コンポーネントのインスタンス名は動的で、`setContainerId()` APIメソッドに渡されるビューアコンテナのDOM要素のIDに依存します。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例えば、`playback`コマンドは次のように記述されています。
+一部の設定コマンドの前に、対応するビューア SDK コンポーネントのクラス名またはインスタンス名のプレフィックスが付く場合があります。 コンポーネントのインスタンス名は動的で、`setContainerId()` API メソッドに渡されるビューアのコンテナの DOM 要素の ID に依存します。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例えば、`playback` コマンドは次のように記述されています。
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-つまり、このコマンドは次のように使用できます。
+つまり、このコマンドは次の場所で使用できます。
 
 * `playback` （短い構文）
 * `VideoPlayer.playback` （コンポーネントクラス名で修飾）
-* `cont_videoPlayer.playback` (コンポーネントIDで修飾、 `cont` はコンテナ要素のID)
+* `cont_videoPlayer.playback` ( コンポーネント ID で修飾、 `cont` はコンテナ要素の ID)
 
-[すべてのビューアに共通のコマンドリファレンス — 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
+[ すべてのビューアに共通のコマンドリファレンス — 設定属性 ](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) も参照してください。

@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアの設定属性。
-solution: Experience Manager
 title: Video360Player.mutevolume
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの設定属性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-ビデオ360ビューアの設定属性。
+ビデオ 360 ビューアの設定属性。
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定すると、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオも自動再生できます。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph"> 1 </span> に設定した場合、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオが自動再生されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

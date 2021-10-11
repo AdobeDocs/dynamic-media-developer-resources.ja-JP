@@ -1,28 +1,28 @@
 ---
-description: ビデオ360ビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: Video360 ビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb739d2d-7512-49e2-be13-10f05e2fcc1e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
 
 # setParam{#setparam}
 
-ビデオ360ビューアのJavaScript APIリファレンス。
+Video360 ビューアの JavaScript API リファレンス。
 
 ` setParam( *`名前、値`*)`
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションまたはソフトウェア開発キット修飾子です。 このパラメータは`init()`の前に呼び出されます。
+ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子のいずれかです。 このパラメータは `init()` の前に呼び出されます。
 
-ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
+ビューアの設定情報が `config` JSON オブジェクトを使用して渡された場合は、このメソッドはオプションです。
 
-[init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
+[init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
 
 ## パラメータ {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
@@ -30,11 +30,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの名前。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラ </span> メーターの名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの値。値をパーセントでエンコードすることはできません。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラ </span> メーターの値。値をパーセントでエンコードすることはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

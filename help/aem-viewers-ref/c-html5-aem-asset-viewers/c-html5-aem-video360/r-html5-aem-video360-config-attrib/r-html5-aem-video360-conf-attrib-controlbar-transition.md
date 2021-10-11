@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアの設定属性。
-solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの設定属性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-ビデオ360ビューアの設定属性。
+ビデオ 360 ビューアの設定属性。
 
 ` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
 
@@ -22,15 +22,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替える効果の種類を指定します。 </p> <p><span class="codeph"> none</span>を使用すると、表示と非表示を即座に切り替えることができます。 徐々にフェードイン/フェードアウトするには、 <span class="codeph"> fade</span>を使用します。 </p> <p>fadeはInternet Explorer 8ではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとその内容の表示/非表示を切り替える際に使用する効果の種類を指定します。 </p> <p><span class="codeph"> none</span> を使用すると、表示と非表示がすぐにできます。 徐々にフェードイン/フェードアウトするには、 <span class="codeph"> fade</span> を使用します。 </p> <p>fade は Internet Explorer 8 ではサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーが最後に登録するマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1</span>に設定した場合、コンポーネントの自動非表示効果はトリガーされず、常に画面に表示されます。 </p> </td> 
+   <td colname="col2"> <p>コントロールバーが最後に登録したマウス/タッチイベントと、コントロールバーの非表示の間の時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1</span> に設定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>フェードイン/フェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
+   <td colname="col2"> <p>フェードインおよびフェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

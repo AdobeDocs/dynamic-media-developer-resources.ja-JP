@@ -1,20 +1,20 @@
 ---
-description: ビデオ360ビューアの設定属性。
-solution: Experience Manager
 title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic，ビューア，SDK/API,360 VRビデオ
+description: ビデオ 360 ビューアの設定属性。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
-ビデオ360ビューアの設定属性。
+ビデオ 360 ビューアの設定属性。
 
 ` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 現在のシステムでアダプティブビデオの再生がサポートされていない場合に、アダプティブビデオセットから再生する必要のあるビデオのビットレート(kbps)を指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定した値より高い場合、ロジックは最も低い画質のビットレートを選択します。 </p> </td> 
+   <td colname="col2"> <p> 現在のシステムでアダプティブビデオの再生がサポートされていない場合に、アダプティブビデオセットから再生する必要のあるビデオのビットレート (1 秒あたりのキロビット数 (Kbps)) を指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定値より高い場合、ロジックは最も低い画質のビットレートを選択します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
