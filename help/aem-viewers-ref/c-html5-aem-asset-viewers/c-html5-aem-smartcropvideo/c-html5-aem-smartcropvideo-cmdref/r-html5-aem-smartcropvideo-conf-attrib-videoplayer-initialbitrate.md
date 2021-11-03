@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.initialbitrate
 description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.initialbitrate
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 83f2af31-e2dc-430c-b9ae-563cdcd20954
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 値 </span> </p> </td> 
-   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用するビデオビットレート (kbps) を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートのビデオを開始します。 </p> <p>に設定した場合 <span class="codeph"> 0 </span> ビデオプレーヤーは、可能な限り低いビットレートから開始します。 HTML5 HLS ビデオ（Windows 10 では Firefox、Chrome、Internet Explorer 11 ブラウザー）をネイティブでサポートしていないシステムで、再生モードがに設定されている場合にのみ適用されます。 <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用するビデオビットレート（キロビット/秒または Kbps）を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは次に低いビットレートのビデオを開始します。 </p> <p>に設定した場合 <span class="codeph"> 0 </span>に設定すると、可能な限り低いビットレートからビデオプレーヤーが開始します。 HTML5 HLS ビデオ（Windows 10 では Firefox、Chrome、Internet Explorer 11 ブラウザー）をネイティブでサポートしていないシステムで、再生モードがに設定されている場合にのみ適用されます。 <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

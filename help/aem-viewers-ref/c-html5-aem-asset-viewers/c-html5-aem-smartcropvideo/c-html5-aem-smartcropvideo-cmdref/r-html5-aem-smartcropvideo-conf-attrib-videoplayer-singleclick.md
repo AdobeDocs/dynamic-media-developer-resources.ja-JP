@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.singleclick
 description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.singleclick
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%

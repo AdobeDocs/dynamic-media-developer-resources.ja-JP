@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全な SSL 接続 (HTTPS) と安全でない接続 (HTTP) のどちらで配信するかを制御します。 </p> <p>に設定する場合 <span class="codeph"> auto</span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオは HTTPS でも配信され、逆の場合も同様です。 Web ページが HTTP 上にある場合、ビデオは HTTP 経由で配信されます。 </p> <p>に設定する場合 <span class="codeph"> オン</span>の場合、ビデオ配信は、Web ページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </p> <p>公開されたビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオを安全な SSL 接続 (HTTPS) と安全でない接続 (HTTP) のどちらで配信するかを制御します。 </p> <p>に設定する場合 <span class="codeph"> auto</span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオは HTTPS でも（逆も）配信されます。 Web ページが HTTP 上にある場合、ビデオは HTTP 経由で配信されます。 </p> <p>に設定する場合 <span class="codeph"> オン</span>の場合、ビデオ配信は、Web ページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </p> <p>公開されたビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

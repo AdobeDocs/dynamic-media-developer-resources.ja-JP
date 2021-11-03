@@ -1,13 +1,13 @@
 ---
+title: キャプションボタン
 description: クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。
 solution: Experience Manager
-title: キャプションボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ CSS を使用して、このボタンのサイズ、スキン、およびこの�
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-28 x 28 ピクセルで、コントロールバーの上から 4 ピクセルおよび右端から 68 ピクセルの位置に配置し、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するクローズドキャプションボタンを設定するには、次のように記述します。
+28 x 28 ピクセルのクローズドキャプションボタンを設定するには、次のように記述します。 コントロールバーの上から 4 ピクセル、右端から 68 ピクセルの位置に配置されます。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

@@ -1,13 +1,13 @@
 ---
+title: ビデオスクラバ
 description: ビデオスクラバは、水平方向のスライダーコントロールで、現在再生中のビデオ内の任意の時点をユーザーが動的にシークできます。
 solution: Experience Manager
-title: ビデオスクラバ
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-また、ビデオの再生中にスクラバー「ノブ」が移動し、再生中のビデオの現在の時間位置を示します。 ビデオスクラバは、常にコントロールバーの幅全体になります。 ビデオスクラバーのスキンを適用できます。 CSS を使用して、高さと垂直方向の位置を変更します。
+また、ビデオの再生中にスクラバー「ノブ」が移動し、再生中のビデオの現在の時間位置を示します。 ビデオスクラバは、常にコントロールバーの幅全体になります。 ビデオスクラバをスキンに適用し、高さと垂直方向の位置を CSS で変更できます。
 
 ビデオスクラバの一般的な外観は、以下の CSS クラスセレクターを使用して制御します。
 
@@ -158,7 +158,7 @@ ht-degree: 3%
 
 ビデオスクラバのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-**例**  — 高さが 10 ピクセルで、コントロールバーの上端から 10 ピクセル、左端から 35 ピクセルの位置に配置するカスタムのトラックカラーのビデオスクラバーを含むビデオビューアを設定するには、次のように記述します。
+**例** - 10 ピクセルの高さのカスタムのトラックカラーを持つビデオスクラバを持つビデオビューアを設定するには、次の手順を実行します。 最後に、コントロールバーの上端と左端から 10 ピクセル、35 ピクセルの位置に配置します。
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

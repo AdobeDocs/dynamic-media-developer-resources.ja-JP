@@ -1,13 +1,13 @@
 ---
+title: 埋め込み共有
 description: 埋め込み共有ツールは、ソーシャル共有パネルに追加されるボタンと、このツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 solution: Experience Manager
-title: 埋め込み共有
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — 28 x 28 ピクセルで、4 つのボタンの状態ごとに異なる画像を表示する埋め込み共有ボタンを設定するには、次のように記述します。
+例 — 28 x 28 ピクセルで、4 つのボタンの状態ごとに異なる画像を表示する「埋め込み共有」ボタンを設定するには、次のように記述します。
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 「閉じる」ボタンのツールチップとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — パディング、24 x 14 ピクセルのアイコン、太字の 16 ポイントのタイトル、28 x 28 ピクセルの閉じるボタンを含むダイアログヘッダーを設定し、ダイアログコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置するには、次のように記述します。
+例 — パディング、24 x 14 ピクセルのアイコン、太字の 16 ポイントのタイトル、28 x 28 ピクセルの閉じるボタンを含むダイアログボックスヘッダーを設定するには、次のように記述します。 最後に、ダイアログボックスコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >キャンセルボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-また、両方のボタンは同じ共通の CSS クラスを共有します。この CSS クラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
+また、両方のボタンは、他のダイアログボックスのボタンと同じ CSS 設定を含むことができる、共通の CSS クラスを共有します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの幅広いフィールド入力の CSS プロパティ**
+**ダイアログボックスの入力全体のフィールドの CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->コンボボックスは、 `expanded` 可能な値を持つ属性セレクター `true` および `false`. `true` は、コンボボックスに事前に定義された埋め込みサイズの 1 つが表示される場合に使用されます。そのため、使用可能なすべての幅を取る必要があります。 `false` は、コンボボックスでカスタムサイズオプションが選択されている場合に使用されます。そのため、カスタムの幅と高さの入力フィールド用のスペースができるように縮小する必要があります。
+>コンボボックスは、 `expanded` 可能な値を持つ属性セレクター `true` および `false`. この `true` 値は、コンボボックスに事前に定義された埋め込みサイズの 1 つが表示される場合に使用されます。そのため、使用可能なすべての幅を取る必要があります。 この `false` 値は、コンボボックスでカスタムサイズオプションが選択されている場合に使用されます。そのため、カスタムの幅と高さの入力フィールド用のスペースができるように縮小する必要があります。
 
 例 — 定義済みのアイテムを表示する場合は幅が 300 ピクセル、カスタムサイズを表示する場合は幅が 110 ピクセルの埋め込みサイズコンボボックスを設定するには、次のように記述します。
 
@@ -983,7 +983,7 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズコンボボックスで「カスタムサイズ」オプションが選択されている場合、ダイアログボックスの右側に追加の 2 つの入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できます。 これらのフィールドは、以下の CSS クラスセレクターを使用して制御するコンテナにまとめられます。
+埋め込みサイズコンボボックスで「カスタムサイズ」オプションが選択されている場合、ダイアログボックスの右側に 2 つの追加の入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できます。 これらのフィールドは、以下の CSS クラスセレクターを使用して制御するコンテナにまとめられます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel

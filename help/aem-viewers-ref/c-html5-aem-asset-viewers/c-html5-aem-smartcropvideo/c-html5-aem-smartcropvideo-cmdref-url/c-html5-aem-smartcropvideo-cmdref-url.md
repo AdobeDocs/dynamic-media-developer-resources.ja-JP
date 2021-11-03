@@ -1,11 +1,11 @@
 ---
+title: コマンドリファレンス — URL
 description: スマート切り抜きビデオビューアのコマンドリファレンスドキュメント。
 solution: Experience Manager
-title: コマンドリファレンス — URL
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

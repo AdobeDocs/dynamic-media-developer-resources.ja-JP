@@ -1,13 +1,13 @@
 ---
+title: ユーザーインターフェイス要素のローカライゼーション
 description: スマート切り抜きビデオビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、ユーザーインターフェイス要素のツールチップや、ビデオを再生できない場合に表示されるエラーメッセージなどが含まれます。
 solution: Experience Manager
-title: ユーザーインターフェイス要素のローカライゼーション
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> トップレベルビューア要素の ARIA ラベル。 </p> </td> 
+   <td colname="col2"> <p> トップレベルのビューア要素の ARIA ラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 

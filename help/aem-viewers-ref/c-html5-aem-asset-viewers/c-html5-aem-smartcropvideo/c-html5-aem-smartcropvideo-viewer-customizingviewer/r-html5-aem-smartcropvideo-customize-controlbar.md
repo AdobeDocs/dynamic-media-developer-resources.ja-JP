@@ -1,20 +1,20 @@
 ---
-description: コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールを含み、その背後に配置される長方形の領域です。
-solution: Experience Manager
 title: コントロールバー
+description: コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールを含み、その背後に配置される長方形の領域です。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
 
 # コントロールバー{#control-bar}
 
-コントロールバーは、再生/一時停止ボタン、ボリュームコントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールを含み、その背後に配置される長方形の領域です。
+コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールを含み、その背後に配置される長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

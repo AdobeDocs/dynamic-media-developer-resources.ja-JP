@@ -1,11 +1,11 @@
 ---
+title: EmailShare.emailurl
 description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
-title: EmailShare.emailurl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 12%

@@ -1,11 +1,11 @@
 ---
+title: getComponent
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # getComponent{#getcomponent}
 
-スマート切り抜きビデオビューアの JavaScript API リファレンス
+スマート切り抜きビデオビューアの JavaScript API リファレンス。
 
 `getComponent(componentId)`
 
@@ -110,7 +110,7 @@ SDK API を操作する場合は、「 [Viewer SDK の名前空間]
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` ビューア SDK コンポーネントへのリファレンス。 メソッドはを返します。 `null` ( `componentId` はサポートされていないビューアコンポーネントです。または、ビューアのロジックによってコンポーネントがまだ作成されていない場合も同様です。
+`{Object}` Viewer SDK コンポーネントへのリファレンス。 メソッドはを返します。 `null` ( `componentId` はサポートされていないビューアコンポーネントです。または、ビューアのロジックによってコンポーネントがまだ作成されていない場合も同様です。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,13 +1,13 @@
 ---
+title: リンク共有
 description: リンク共有ツールは、ソーシャル共有パネルに追加されるボタンと、このツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 solution: Experience Manager
-title: リンク共有
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 「閉じる」ボタンのツールチップとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — パディング、22 x 12 ピクセルのアイコン、太字の 16 ポイントのタイトル、およびダイアログボックスコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置する 28 x 28 ピクセルの閉じるボタンを設定するには、次のように記述します。
+例 — パディング、22 x 12 ピクセルのアイコン、太字の 16 ポイントのタイトルを含むダイアログボックスヘッダーを設定するには、次のように記述します。 最後に、28 x 28 ピクセルの閉じるボタンを使用します。このボタンは、ダイアログボックスコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置します。
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-また、両方のボタンは同じ共通の CSS クラスを共有します。この CSS クラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
+また、両方のボタンは、他のダイアログボックスのボタンと同じ CSS 設定を含むことができる、共通の CSS クラスを共有します。
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの幅広いフィールド入力の CSS プロパティ**
+**ダイアログボックスの入力全体のフィールドの CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

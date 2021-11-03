@@ -1,11 +1,11 @@
 ---
+title: 全画面表示ボタン
 description: フルスクリーンボタンをクリックすると、スマート切り抜きビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
 solution: Experience Manager
-title: 全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%

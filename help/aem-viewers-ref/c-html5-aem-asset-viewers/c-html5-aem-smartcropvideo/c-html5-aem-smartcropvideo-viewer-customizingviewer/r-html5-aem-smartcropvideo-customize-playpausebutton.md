@@ -1,13 +1,13 @@
 ---
+title: 再生/一時停止ボタン
 description: 再生/一時停止ボタンを使用すると、ユーザーがクリックしたときにスマート切り抜きビデオプレーヤーでビデオコンテンツが再生または一時停止されます。
 solution: Experience Manager
-title: 再生/一時停止ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ CSS を使用して、ボタンのサイズ、スキン、およびボタンを�
 >
 >このボタンは、 `state`, `selected`、および `replay` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` 「再生」状態に対応し、 `selected='false'` は「一時停止」の状態に対応します。
 >
->`replay='true'` は、ビデオが最後に到達し、ボタンをクリックすると、再生が最初から再開されるときに設定されます。
+>属性セレクター `replay='true'` は、ビデオが最後に到達したときに設定され、「 」ボタンを選択すると、最初から再生が再開されます。
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32 ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。コントロールバーの上および左端から 6 ピクセルの位置に配置され、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像が表示されます。
+32 x 32 ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。 コントロールバーの上および左端から 6 ピクセルの位置に配置します。 最後に、選択時または未選択時の 4 つのボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

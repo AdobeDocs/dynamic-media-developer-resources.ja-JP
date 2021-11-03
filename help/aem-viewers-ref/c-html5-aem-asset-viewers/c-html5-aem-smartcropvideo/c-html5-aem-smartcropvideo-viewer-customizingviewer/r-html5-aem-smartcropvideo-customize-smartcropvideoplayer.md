@@ -1,11 +1,11 @@
 ---
+title: ビデオプレーヤー
 description: スマート切り抜きビデオプレーヤーは、ビューア内でビデオコンテンツが表示される長方形の領域です。
 solution: Experience Manager
-title: ビデオプレーヤー
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ background-color: transparent;
  </tbody> 
 </table>
 
-例 — 14 ピクセル、ライトグレー、Arial で、半透明の黒の背景にクローズドキャプションのテキストを設定するには、次のように記述します。
+例 — 14 ピクセル、ライトグレー、Arial®の、半透明の黒い背景にクローズドキャプションのテキストを設定するには、次のように記述します。
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

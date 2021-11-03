@@ -1,13 +1,13 @@
 ---
+title: メール共有
 description: 電子メール共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 solution: Experience Manager
-title: メール共有
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-ダイアログがアクティブなときに Web ページを覆う背景オーバーレイは、以下の CSS クラスセレクターを使用して制御します。
+ダイアログボックスがアクティブなときに Web ページを覆う背景オーバーレイは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび閉じるボタンで構成されます。 ヘッダーコンテナは、以下の CSS クラスセレクターを使用して制御します
+ダイアログボックスのヘッダーは、アイコン、タイトルテキストおよび「閉じる」ボタンで構成されます。 ヘッダーコンテナは、以下の CSS クラスセレクターを使用して制御します
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader
@@ -282,7 +282,7 @@ background-color: #ffffff;
 
 「閉じる」ボタンのツールチップとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — パディング、24 x 17 ピクセルのアイコン、太字の 16 pt タイトル、28 x 28 ピクセルの閉じるボタンを、ダイアログコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置するダイアログヘッダーを設定するには、次のように記述します。
+例 — パディング、24 x 17 ピクセルのアイコン、太字の 16 pt タイトルを含むダイアログヘッダーを設定するには、次のように記述します。 最後に、28 x 28 ピクセルの「閉じる」ボタンを使用して、ダイアログコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に配置します。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ background-color: #ffffff;
 >
 >このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-また、両方のボタンは同じ共通の CSS クラスを共有します。この CSS クラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
+また、両方のボタンは、他のダイアログボックスのボタンと同じ CSS 設定を含むことができる、共通の CSS クラスを共有します。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ background-color: #ffffff;
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — 64 x 34 の「キャンセル」ボタンと 82 x 34 の「電子メールを送信」ボタンを含むダイアログボックスフッターを、ボタンの状態ごとにテキストの色と背景色が異なるように設定するには、次のように記述します。
+例 — 64 x 34 の「キャンセル」ボタンと 82 x 34 の「電子メールを送信」ボタンを含むダイアログボックスフッターを設定するには、次のように記述します。 最後に、ボタンの状態ごとにテキストの色と背景色が異なります。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの幅広いフィールド入力の CSS プロパティ**
+**ダイアログボックスの入力全体のフィールドの CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-例 — 1 ピクセルのグレーの境界線を持つフォームを設定し、すべての入力フィールドの周囲に 9 ピクセルのパディングを含めるには、次のように記述します。検証に失敗したフィールドに対して同じ境界線を赤で表示するには、幅が 250 ピクセルの「宛先」入力フィールドを使用し、残りの入力フィールドの幅を 300 ピクセルにします。
+例 — 1 ピクセルのグレーの境界線を持つフォームを設定し、すべての入力フィールドの周囲に 9 ピクセルのパディングを含めるには、次のように記述します。 検証に失敗したフィールドに対して同じ境界線を赤で表示するには、幅が 250 ピクセルの「宛先」入力フィールドを使用し、残りの入力フィールドの幅を 300 ピクセルにします。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ background-color: #ffffff;
 }
 ```
 
-E メールメッセージの入力フィールドは、さらに次を使用して制御します。
+E メールメッセージの入力フィールドは、次のアイテムも使用して制御します。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1210,11 +1210,11 @@ E メールメッセージの入力フィールドは、さらに次を使用し
 
 >[!NOTE]
 >
->このメッセージでは、 `state` 次の値を持つ属性セレクター： `verifyerror`, `senderror`、および `sendsuccess`. `verifyerror` は、インライン入力検証エラーが原因でメッセージが表示される場合に設定されます。 `senderror` は、バックエンドの電子メールサービスがエラーを報告したときに設定されます。 `sendsuccess` は、電子メールが正常に送信されたときに設定されます。 これにより、ダイアログボックスの状態に応じて異なるスタイルでメッセージをスタイル設定できます。
+>このメッセージでは、 `state` 次の値を持つ属性セレクター： `verifyerror`, `senderror`、および `sendsuccess`. 値 `verifyerror` は、インライン入力検証エラーが原因でメッセージが表示される場合に設定されます。 値 `senderror` は、バックエンドの電子メールサービスがエラーを報告する際に設定されます。 この `sendsuccess` の値は、電子メールが正常に送信されたときに設定されます。 これにより、ダイアログボックスの状態に応じて異なるスタイルでメッセージをスタイル設定できます。
 
 エラーメッセージはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — 10 ポイントの太字フォントを使用し、行の高さが 25 ピクセル、左側に 20 ピクセルのパディングがあるメッセージを設定するには、感嘆符アイコンを使用し、エラーの場合は赤いテキストを使用し、成功の場合はアイコンと緑のテキストを使用しません。
+例 — 10 ポイントの太字フォントを使用し、行の高さが 25 ピクセル、左に 20 ピクセルのパディングを使用するメッセージを設定するには、次のように記述します。 また、感嘆符アイコンを使用し、エラーが発生した場合は赤いテキストを使用し、成功した場合はアイコンと緑のテキストを使用しません。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

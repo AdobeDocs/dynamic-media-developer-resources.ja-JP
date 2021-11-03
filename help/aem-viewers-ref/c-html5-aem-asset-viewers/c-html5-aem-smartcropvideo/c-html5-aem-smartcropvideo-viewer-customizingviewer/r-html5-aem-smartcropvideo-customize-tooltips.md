@@ -1,20 +1,20 @@
 ---
-description: デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
-solution: Experience Manager
 title: ツールチップ
+description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなどの一部のユーザインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
+デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティに `!IMPORTANT` ルール。 ツールチップがビューアの CSS ファイル内でカスタマイズされている場合は、この操作は必要ありません。
+>埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティに `!IMPORTANT` ルール。 ビューアの CSS ファイルでツールチップがカスタマイズされている場合、このルールは不要です。
 
-例 — 角丸の半径が 3px のグレーの境界線、背景が黒、テキストが Arial で 11 ピクセルのサイズで書き込まれた白のツールチップを設定するには、次のように記述します。
+例 — 角丸の半径が 3 ピクセルのグレーの境界線、背景が黒、Arial®で書き込まれた白のテキストを含むツールチップを設定するには、次のように記述します。
 
 ```
 .s7tooltip { 

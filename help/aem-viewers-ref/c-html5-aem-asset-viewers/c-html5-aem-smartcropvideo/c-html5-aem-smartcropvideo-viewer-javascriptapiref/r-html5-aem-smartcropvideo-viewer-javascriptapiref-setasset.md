@@ -1,11 +1,11 @@
 ---
+title: setAsset
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス。
 solution: Experience Manager
-title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e5d71393-fcae-4bd4-8e78-a451b2f05ffc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%

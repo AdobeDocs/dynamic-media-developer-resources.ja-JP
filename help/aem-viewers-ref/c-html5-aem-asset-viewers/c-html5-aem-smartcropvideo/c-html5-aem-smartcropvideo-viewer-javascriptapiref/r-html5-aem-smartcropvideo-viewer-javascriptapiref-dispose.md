@@ -1,11 +1,11 @@
 ---
+title: 処分する
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス。
 solution: Experience Manager
-title: 処分する
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 また、Web ページコードでビューアのインスタンス変数を削除して、Web ブラウザーのメモリからビューアを完全に削除する必要があります。
 
-Web ページコードがビューア SDK コンポーネントに直接イベントリスナーを登録している場合、そのようなコンポーネントへの外部参照は Web ページコードによって明示的に登録解除され、呼び出しの前に外部コンポーネントの参照を削除する必要があります `dispose()`.
+Web ページコードがビューアで使用される Viewer SDK コンポーネントに直接イベントリスナーを登録している場合、またはそのようなコンポーネントへの外部参照を保存している場合は、Web ページコードによって明示的に登録解除する必要があります。 また、呼び出しの前に、このような外部コンポーネント参照を削除する必要があります `dispose()`.
 
-この後はビューア API にアクセスしないでください `dispose()` が呼び出されます。
+の後で Viewer API にアクセスしない `dispose()` が呼び出されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
