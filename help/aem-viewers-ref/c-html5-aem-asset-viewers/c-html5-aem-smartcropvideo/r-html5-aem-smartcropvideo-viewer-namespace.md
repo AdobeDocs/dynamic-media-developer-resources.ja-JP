@@ -2,10 +2,10 @@
 title: Viewer SDK の名前空間
 description: Viewer SDK の名前空間
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: d1f12c9d-9b00-44ee-bd91-76a4d882fecf
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

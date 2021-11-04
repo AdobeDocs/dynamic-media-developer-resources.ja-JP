@@ -2,10 +2,10 @@
 title: ツールチップ
 description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%

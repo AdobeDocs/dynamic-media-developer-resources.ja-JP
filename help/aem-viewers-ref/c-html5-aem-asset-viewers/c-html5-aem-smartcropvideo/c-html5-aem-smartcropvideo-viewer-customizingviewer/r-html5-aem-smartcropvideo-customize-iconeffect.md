@@ -2,10 +2,10 @@
 title: アイコンエフェクト
 description: 再生アイコンは、メインビュー領域に重ねて表示されます。 ビデオが一時停止したとき、またはビデオの最後に達したときに表示されます。また、iconeffect パラメーターの設定によって表示されます。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%

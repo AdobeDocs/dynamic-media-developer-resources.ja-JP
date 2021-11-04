@@ -2,10 +2,10 @@
 title: videoServerUrl
 description: スマート切り抜きビデオビューアの URL コマンド。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 7%

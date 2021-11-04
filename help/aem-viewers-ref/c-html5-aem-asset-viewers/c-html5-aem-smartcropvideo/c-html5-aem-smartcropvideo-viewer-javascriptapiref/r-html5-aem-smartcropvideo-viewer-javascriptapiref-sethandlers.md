@@ -2,10 +2,10 @@
 title: setHandlers
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 37d14494-cdb2-45f7-96e2-d7a9e90edad3
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 3%

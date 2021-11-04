@@ -2,10 +2,10 @@
 title: SmartCropVideoPlayer.preload
 description: ビューアがビデオコンテンツの読み込みを開始する前に開始するかどうかを示します。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 4%

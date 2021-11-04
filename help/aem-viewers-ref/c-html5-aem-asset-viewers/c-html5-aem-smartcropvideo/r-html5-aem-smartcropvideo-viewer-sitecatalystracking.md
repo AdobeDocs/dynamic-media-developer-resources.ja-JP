@@ -2,10 +2,10 @@
 title: Adobe Analytics追跡のサポート
 description: スマート切り抜きビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%

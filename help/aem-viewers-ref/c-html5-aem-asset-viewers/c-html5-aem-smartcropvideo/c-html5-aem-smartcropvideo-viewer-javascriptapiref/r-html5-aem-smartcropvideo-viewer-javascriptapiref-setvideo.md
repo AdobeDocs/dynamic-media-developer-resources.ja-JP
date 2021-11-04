@@ -2,10 +2,10 @@
 title: setVideo
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%

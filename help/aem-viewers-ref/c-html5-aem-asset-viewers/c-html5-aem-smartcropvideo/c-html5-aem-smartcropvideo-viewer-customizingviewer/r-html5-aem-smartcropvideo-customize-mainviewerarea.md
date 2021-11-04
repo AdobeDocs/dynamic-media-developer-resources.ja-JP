@@ -2,10 +2,10 @@
 title: メインビューア領域
 description: メインビュー領域は、スマート切り抜きビデオで占められます。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に収まるようにが設定されます。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%

@@ -2,10 +2,10 @@
 title: setContainerId
 description: スマート切り抜きビデオビューアの JavaScript API リファレンス。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 9f2857a4-108d-4689-9c39-cb2635405d0d
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%

@@ -2,10 +2,10 @@
 title: VideoScrubber.showchaptertitle
 description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 11%
