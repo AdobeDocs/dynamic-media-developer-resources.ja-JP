@@ -1,19 +1,19 @@
 ---
-title: スマート切り抜きビデオ
+title: スマート切り抜きビデオビューア
 description: スマート切り抜きビデオビューアは、H.264 形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生し、スマート切り抜きのサポートが追加されました。 Dynamic Mediaと共にDynamic Media ClassicまたはAdobe Experience Managerから配信されます。
 keywords: レスポンシブ
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# ビデオ{#video}
+# スマート切り抜きビデオ{#smart-crop-video}
 
 スマート切り抜きビデオビューアは、H.264 形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生し、スマート切り抜きのサポートが追加されました。 Dynamic Media Classicから、またはDynamic MediaとのExperience Managerから配信されます。
 
@@ -66,7 +66,7 @@ IS-Viewers に付属する実稼動用のHTMLページを使用して、スマ�
 
 ## スマート切り抜きビデオビューアを使用したソーシャルメディア共有ツール {#section-907d316fe1da4b87abb9775f02464704}
 
-スマート切り抜きビデオビューアは、ソーシャルメディア共有ツールをサポートしています。 これらは、ユーザーインターフェイスで 1 つのボタンとして使用でき、ユーザーがクリックまたはタップすると、共有ツールバーに展開されます。
+スマート切り抜きビデオビューアは、ソーシャルメディア共有ツールをサポートしています。 これらは、ユーザーインターフェイスで 1 つのボタンとして使用でき、ユーザーがクリックまたはタップすると共有ツールバーに展開されます。
 
 共有ツールバーには、Facebook、Twitter、電子メール共有、埋め込みコード共有、リンク共有など、サポートされる共有チャネルの各タイプ用のアイコンが表示されます。 電子メール共有、埋め込み共有またはリンク共有のツールをアクティブにすると、ビューアにモーダルダイアログボックスが表示され、対応するデータ入力フォームが表示されます。 facebookまたはTwitterを呼び出すと、ソーシャルメディアサービスの標準の共有ダイアログボックスにリダイレクトされます。 また、共有ツールが有効になると、ビデオ再生が自動的に一時停止します。
 
