@@ -4,8 +4,7 @@ description: パノラマビューアの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-exl-id: null
-source-git-commit: 2726733691296fb86b0022ac61ac654848fe83cf
+source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 6%

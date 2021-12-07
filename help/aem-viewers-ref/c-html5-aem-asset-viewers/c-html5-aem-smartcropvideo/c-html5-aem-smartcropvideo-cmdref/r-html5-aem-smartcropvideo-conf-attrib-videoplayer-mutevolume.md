@@ -4,8 +4,7 @@ description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
@@ -22,7 +21,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 に設定した場合 <span class="codeph"> 1 </span> ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオが自動再生される場合もあります。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 次に設定した場合： <span class="codeph"> 1 </span> ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオが自動再生される場合もあります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
