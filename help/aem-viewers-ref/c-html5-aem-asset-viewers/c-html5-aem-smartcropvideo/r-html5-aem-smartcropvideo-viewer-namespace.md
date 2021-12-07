@@ -4,8 +4,7 @@ description: Viewer SDK の名前空間
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 このビューアは、多くの Viewer SDK コンポーネントで構築されています。 通常、Web ページは、SDK コンポーネント API を直接操作する必要はありません。一般的なニーズはすべて、ビューア API 自体でカバーされています。
 
-ただし、一部の高度な使用例では、 `getComponent()` ビューア API を使用して、SDK 自体の柔軟な API をすべて使用できます。
+ただし、一部の高度な使用例では、 `getComponent()` ビューア API を使用し、SDK 自体の柔軟な API をすべて使用できます。
 
 ビューアが SDK コンポーネントの読み込みと初期化に使用する名前空間は、ビューアの動作環境によって異なります。 ビューアがAdobe Experience Managerで動作している場合、ビューアは、SDK コンポーネントを `s7viewers.s7sdk` 名前空間。 同様に、Dynamic Media Classicから提供されたビューアが SDK をに読み込みます。 `s7classic.s7sdk`.
 

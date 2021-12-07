@@ -4,8 +4,7 @@ description: 電子メール共有ツールは、ソーシャル共有パネル�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -128,7 +127,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定する必要があります（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
+   <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定する必要があります（タッチデバイスでは、このモードをお勧めします）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,7 +549,7 @@ background-color: #ffffff;
 >
 >ダイアログボックスのメイン領域では、オプションの `state` 属性セレクターを使用します。 これはに設定されています。 `sendsuccess` 電子メールフォームが送信され、ダイアログボックスに確認メッセージが表示されます。 確認メッセージが小さい限り、この属性セレクターを使用して、確認メッセージが表示される際のダイアログボックスの高さを小さくすることができます。
 
-例 — 最初は高さが 300 ピクセル、確認メッセージが表示されたときは高さが 100 ピクセルで、マージンが 10 ピクセルで、白の背景を使用するメインダイアログボックス領域を設定するには、次のように記述します。
+例 — 最初は高さが 300 ピクセル、確認メッセージが表示されたときは高さが 100 ピクセルで、マージンが 10 ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea { 

@@ -4,8 +4,7 @@ description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%
@@ -22,7 +21,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 再生/一時停止を切り替えるためのシングルクリック/タップのマッピングを設定します。 を <span class="codeph"> なし</span> は、シングルクリック/タップして再生/一時停止を無効にします。 に設定した場合 <span class="codeph"> playPause</span>をクリックすると、ビデオの再生と一時停止が切り替わります。 一部のデバイスでは、ネイティブのコントロールを使用できます。 この場合、 <span class="codeph"> singleclick</span> 動作が無効です。 </p> </td> 
+   <td colname="col2"> <p> 再生/一時停止を切り替えるためのシングルクリック/タップのマッピングを設定します。 を <span class="codeph"> なし</span> は、シングルクリック/タップして再生/一時停止を無効にします。 次に設定した場合： <span class="codeph"> playPause</span>をクリックすると、ビデオの再生と一時停止が切り替わります。 一部のデバイスでは、ネイティブのコントロールを使用できます。 この場合、 <span class="codeph"> singleclick</span> 動作が無効です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

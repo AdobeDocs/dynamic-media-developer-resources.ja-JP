@@ -5,8 +5,7 @@ keywords: レスポンシブ
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -206,7 +205,7 @@ background-position: -0px -1120px;
 * CSS 内で指定されている外部アセットへのパスは、ビューアのパスページの場所ではなく、CSS の場所を基準にHTMLされます。 デフォルトの CSS を別の場所にコピーする場合は、このルールを忘れないでください。 デフォルトのアセットをコピーするか、カスタム CSS 内でパスを更新します。
 * ビットマップアートワークの推奨される形式は PNG です。
 * ビットマップアートワークは、 `background-image` プロパティ。
-* この `width` および `height` ユーザーインターフェイス要素のプロパティは、論理サイズを定義します。 に渡すビットマップのサイズ `background-image` は論理サイズに影響しません。
+* この `width` および `height` 論理サイズを定義するユーザーインターフェイス要素のプロパティ。 に渡すビットマップのサイズ `background-image` は論理サイズに影響しません。
 
 * Retina のような高解像度画面の高ピクセル密度を使用するには、論理ユーザインターフェイス要素の 2 倍の大きさのビットマップアートワークを指定します。 次に、 `-webkit-background-size:contain` プロパティを使用して、背景を論理ユーザーインターフェイス要素のサイズまで縮小できます。
 * ユーザーインターフェイスからボタンを削除するには、 `display:none` を CSS クラスに追加する。

@@ -4,8 +4,7 @@ description: 再生/一時停止ボタンを使用すると、ユーザーがク
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -14,13 +13,13 @@ ht-degree: 2%
 
 # 再生/一時停止ボタン{#play-pause-button}
 
-再生/一時停止ボタンを使用すると、ユーザーがビデオコンテンツをクリックしたときに、ビデオプレーヤーでビデオコンテンツが再生または一時停止されます。
+The play/pause button causes the video player to play or pause the video content when a user clicks it.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-CSS を使用して、ボタンのサイズ、スキン、およびボタンを含むコントロールバーに対する位置を設定できます。
+You can size, skin, and position the button, relative to the control bar that contains it, by CSS.
 
-以下に示す CSS クラスセレクターで、ボタンの外観を制御します。
+The following CSS class selector controls the appearance of the button:
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton
@@ -36,11 +35,11 @@ CSS を使用して、ボタンのサイズ、スキン、およびボタンを�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む右の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>Position from the right border, including padding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>Position from the left border, including padding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
@@ -67,7 +66,7 @@ CSS を使用して、ボタンのサイズ、スキン、およびボタンを�
 
 >[!NOTE]
 >
->このボタンは、 `state`, `selected`、および `replay` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` 「再生」状態に対応し、 `selected='false'` は「一時停止」の状態に対応します。
+>This button supports both the `state`, `selected`, and `replay` attribute selectors, which can be used to apply different skins to different button states. 特に `selected='true'` 「再生」状態に対応し、 `selected='false'` は「一時停止」の状態に対応します。
 >
 >属性セレクター `replay='true'` は、ビデオが最後に到達したときに設定され、「 」ボタンを選択すると、最初から再生が再開されます。
 
@@ -75,7 +74,7 @@ CSS を使用して、ボタンのサイズ、スキン、およびボタンを�
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32 ピクセルの再生/一時停止ボタンを設定するには、次のように記述します。 コントロールバーの上および左端から 6 ピクセルの位置に配置します。 最後に、選択時または未選択時の 4 つのボタン状態ごとに異なる画像を表示します。
+To set up a Play/Pause button that is 32 x 32 pixels. コントロールバーの上および左端から 6 ピクセルの位置に配置します。 最後に、選択時または未選択時の 4 つのボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

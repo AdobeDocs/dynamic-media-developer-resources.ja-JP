@@ -4,8 +4,7 @@ description: イベントコールバック
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: f4db71f503749f086c86353578afe9dc368d04ae
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
