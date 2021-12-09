@@ -1,28 +1,28 @@
 ---
-description: 基本ズームビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+description: 基本ズームビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: cef585ae-44d7-406c-96f9-e03959a8e518
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # init{#init}
 
-基本ズームビューアのJavaScript APIリファレンス。
+基本ズームビューアの JavaScript API リファレンス。
 
 `init()`
 
-基本ズームビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
+基本ズームビューアの初期化を開始します。 この時点までに、ビューアのコードが ID で検索できるように、コンテナの DOM 要素を作成する必要があります。
 
-コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、`display:none`スタイルを割り当てて非表示にした場合）、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだ Web ページレイアウトに含まれていない場合 ( 例えば、 `display:none` スタイルの割り当て )、初期化プロセスを中断します。 これは、Web ページがコンテナ要素をレイアウトに戻す時点までおこないます。 このアクションが発生すると、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出します。以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクル中に 1 回だけ呼び出します。後続の呼び出しは無視されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

@@ -1,14 +1,14 @@
 ---
-description: closebutton
-solution: Experience Manager
 title: closebutton
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+description: 閉じるボタン。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 1</span>に設定すると閉じるボタンの表示が有効になり、<span class="codeph"> 0</span>に設定すると閉じるボタンが非表示になります。 </p> </td> 
+   <td colname="col2"> <p> に設定 <span class="codeph"> 1</span> 「閉じる」ボタンの表示を有効にする、または <span class="codeph"> 0</span> 閉じるボタンを非表示にするには </p> </td> 
   </tr> 
  </tbody> 
 </table>
