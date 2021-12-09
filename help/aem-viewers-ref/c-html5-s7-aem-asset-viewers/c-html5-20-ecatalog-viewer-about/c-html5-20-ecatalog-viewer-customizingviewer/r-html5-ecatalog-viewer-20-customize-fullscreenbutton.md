@@ -1,13 +1,13 @@
 ---
+title: 全画面表示ボタン
 description: ユーザーが選択した場合に、ビューアのフルスクリーンモードが開始または終了します。 このボタンは、メインコントロールバーに表示されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、ボタンのサイズ設定、スキン表示および配置をおこなうことができます。
 solution: Experience Manager
-title: 全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 28 x 28 ピクセルで、メインコントロールバーの下から 4 ピクセルおよび右端から 5 ピクセルの位置に配置し、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定します。
+例 — 28 x 28 ピクセルで、メインコントロールバーの下から 4 ピクセル、右端から 5 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

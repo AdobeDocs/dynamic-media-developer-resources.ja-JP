@@ -1,30 +1,30 @@
 ---
-description: eCatalogビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: 処分する
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+description: eCatalog ビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 827decd9-1f6c-4ac1-8fcc-acc93cfb859d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
 
 # 処分する{#dispose}
 
-eCatalogビューアのJavaScript APIリファレンス。
+eCatalog ビューアの JavaScript API リファレンス。
 
 `dispose()`
 
-ビューアのロジックで使用されるすべてのリソースを解放し、ビューアによって実行時に作成された内側のオブジェクトとコンポーネントをすべて削除することで、このビューアインスタンスを破棄します。
+ビューアのロジックで使用されるすべてのリソースを解放し、実行時にビューアで作成された内側のオブジェクトとコンポーネントをすべて削除して、このビューアインスタンスを破棄します。
 
-また、Webページコードで、ビューアのインスタンス変数を削除して、Webブラウザーのメモリからビューアを完全に削除する必要があります。
+また、Web ページコードでビューアのインスタンス変数を削除して、Web ブラウザーのメモリからビューアを完全に削除する必要があります。
 
-Webページコードがビューアで使用するビューアSDKコンポーネントに直接イベントリスナーを登録している場合、そのようなコンポーネントへの外部参照はWebページコードで明示的に登録解除する必要があり、 `dispose()`を呼び出す前に削除する必要があります。
+Web ページコードがビューアで使用される Viewer SDK コンポーネントに直接イベントリスナーを登録している場合、またはそのようなコンポーネントへの外部参照を保存している場合は、Web ページコードによって明示的に登録解除する必要があります。 また、呼び出しの前に、このような外部コンポーネント参照を削除する必要があります `dispose()`.
 
-`dispose()`の呼び出し後は、ビューアAPIにアクセスしないでください。
+の後で Viewer API にアクセスしない `dispose()` が呼び出されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

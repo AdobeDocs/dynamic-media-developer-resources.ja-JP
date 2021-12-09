@@ -1,40 +1,40 @@
 ---
-description: ビューアでは、メインビューの上のお気に入りアイコンが、ユーザが最初に追加した場所に表示されます。
-solution: Experience Manager
 title: お気に入りエフェクト
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+description: ビューアには、ユーザーが最初に追加した場所のメインビューの上にお気に入りアイコンが表示されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
 
 # お気に入りエフェクト{#favorites-effect}
 
-ビューアでは、メインビューの上のお気に入りアイコンが、ユーザが最初に追加した場所に表示されます。
+ビューアには、ユーザーが最初に追加した場所のメインビューの上にお気に入りアイコンが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-お気に入りアイコンの外観は、以下のCSSクラスセレクターを使用して制御します。
+お気に入りアイコンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon
 ```
 
-**お気に入りアイコンのCSSプロパティ**
+**お気に入りアイコンの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> アイコンに表示する画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 36 x 36ピクセルのお気に入りアイコンを設定します。
+例 — 36 x 36 ピクセルのお気に入りアイコンを設定します。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon { 
@@ -57,26 +57,26 @@ ht-degree: 1%
 }
 ```
 
-デスクトップシステムでは、コンポーネントは`cursortype`属性セレクターをサポートします。このセレクターは`.s7favoriteseffect`クラスに適用でき、選択したユーザーアクションに基づいてカーソルのタイプを制御します。 次の`cursortype`値がサポートされています。
+デスクトップシステムでは、コンポーネントは、 `cursortype` 属性セレクターで、 `.s7favoriteseffect` クラスを指定し、選択したユーザーアクションに基づいて、カーソルのタイプを制御します。 以下 `cursortype` の値はサポートされています。
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
-   <td colname="col2"> <p>新しいお気に入りアイコンを追加中のユーザーが表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col2"> <p>表示されたユーザーが新しいお気に入りアイコンを追加中です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
    <td colname="col2"> <p>表示されたユーザーは、既存のお気に入りアイコンを削除しています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
-   <td colname="col2"> <p>[お気に入り]編集がアクティブでない場合、通常の操作モードで表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
+   <td colname="col2"> <p>[ お気に入り ] 編集がアクティブでない場合、通常の操作モードで表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — コンポーネントの状態ごとに異なるマウスカーソルを設定します。
+例 — コンポーネントの状態のタイプごとに異なるマウスカーソルを設定するには、次のように記述します。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

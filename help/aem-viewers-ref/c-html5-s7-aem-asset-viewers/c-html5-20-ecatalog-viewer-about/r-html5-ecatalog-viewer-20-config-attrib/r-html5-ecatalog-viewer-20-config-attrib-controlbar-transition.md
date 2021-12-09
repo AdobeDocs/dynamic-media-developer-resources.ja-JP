@@ -1,41 +1,41 @@
 ---
-description: ControlBar.transition
-solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+description: コントロールバーとその内容の表示/非表示を切り替える際に使用する効果の種類を指定します。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade  </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示を切り替える効果の種類を指定します。 <span class="codeph"> none </span>を使用すると、表示と非表示がすぐにできます。<span class="codeph"> fade </span>は、徐々にフェードインおよびフェードアウトする効果を提供します（Internet Explorer 8ではサポートされていません）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade </span> </p> </td> 
+   <td colname="col2"> <p> コントロールバーとその内容の表示/非表示を切り替える際に使用する効果の種類を指定します。 用途 <span class="codeph"> なし </span> 即座に表示と非表示を切り替えるのに <span class="codeph"> フェード </span> は、徐々にフェードインおよびフェードアウトする効果を提供します（Internet Explorer 8 ではサポートされていません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーが最後に登録するマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントの自動非表示効果はトリガーされず、常に画面に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
+   <td colname="col2"> <p> コントロールバーが登録する最後のマウス/タッチイベントと、時間コントロールバーの非表示との間の時間を秒単位で指定します。 </p> <p> 次に設定した場合： <span class="codeph"> -1 </span>を指定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されたままになります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
-   <td colname="col2"> <p> フェードイン/フェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
+   <td colname="col2"> <p> フェードインおよびフェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）タッチデバイスでは、コントロールバーの自動非表示が無効な場合、このコマンドは無視されます。
+（オプション）このコマンドは、タッチデバイスでは無視され、コントロールバーの自動非表示が無効になります。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

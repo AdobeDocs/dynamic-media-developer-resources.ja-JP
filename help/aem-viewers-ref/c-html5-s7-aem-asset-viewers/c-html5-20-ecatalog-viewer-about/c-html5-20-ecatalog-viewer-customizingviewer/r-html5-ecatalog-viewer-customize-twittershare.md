@@ -1,11 +1,11 @@
 ---
+title: Twitter共有
 description: Twitter共有ツールは、ソーシャル共有パネルに追加されるボタンで構成されます。 このボタンを選択すると、ソーシャルサービスが提供する共有ダイアログボックスにリダイレクトされます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 solution: Experience Manager
-title: Twitter共有
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
