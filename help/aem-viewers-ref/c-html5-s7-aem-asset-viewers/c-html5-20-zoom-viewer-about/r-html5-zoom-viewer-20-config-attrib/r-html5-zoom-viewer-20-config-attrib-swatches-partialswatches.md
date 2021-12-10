@@ -1,14 +1,14 @@
 ---
+title: Swatches.partialswatches
 description: Swatches.partialswatches
 solution: Experience Manager
-title: Swatches.partialswatches
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b2a65077-c322-446a-8d71-bded292215bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> スウォッチが部分的に表示されている（スクロールが揃えられていない）場合に、コンポーネントでスクロールを停止できるかどうかを指定します。 推奨値は<span class="codeph"> false</span>または<span class="codeph"> 0</span>です。 </p> </td> 
+   <td> <p> スウォッチが部分的に表示されている（スクロールが揃えられていない）ときに、コンポーネントでスクロールを停止できるかどうかを指定します。 推奨される値は次のとおりです。 <span class="codeph"> false</span> または <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

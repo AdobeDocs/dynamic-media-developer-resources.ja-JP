@@ -1,13 +1,13 @@
 ---
+title: Swatches.align
 description: Swatches.align
 solution: Experience Manager
-title: Swatches.align
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 3cb91483-de8c-4d5c-9b46-7026c5001f3a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-コンポーネント領域内のスウォッチコンテナの内部整列（アンカー）を指定します。 スウォッチでは、スウォッチが整数個表示されるように、内部サムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 このコマンドは、コンポーネント内での内部スウォッチコンテナの配置を指定します。
+コンポーネント領域内のスウォッチコンテナの内部整列（アンカー）を指定します。 スウォッチでは、内部のサムネールコンテナのサイズが調整され、全体数のスウォッチのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 このコマンドは、内部スウォッチコンテナをコンポーネント内に配置する方法を指定します。
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> 水平方向のスウォッチの整列を設定します。 </p> </td> 
+   <td> <p> 水平スウォッチの整列を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td> <p> 垂直方向のスウォッチの整列を設定します。 </p> </td> 
+   <td> <p> 垂直スウォッチの整列を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

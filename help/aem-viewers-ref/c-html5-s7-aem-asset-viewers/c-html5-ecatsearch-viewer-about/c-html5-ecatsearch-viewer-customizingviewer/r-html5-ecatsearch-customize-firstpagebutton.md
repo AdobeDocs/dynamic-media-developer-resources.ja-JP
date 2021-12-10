@@ -1,33 +1,33 @@
 ---
-description: このボタンをクリックまたはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットのメインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
-solution: Experience Manager
 title: 最初のページボタン
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+description: このボタンをクリックまたはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットのメインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a84c8b20-93ea-4121-99b0-427e45ec0417
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
 
 # 最初のページボタン{#first-page-button}
 
-このボタンをクリックまたはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットのメインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 CSSを使用して、このボタンのサイズ設定、スキン表示、位置設定を行うことができます。
+このボタンを選択またはタップすると、カタログの最初のページに移動します。 このボタンは、デスクトップシステムおよびタブレットのメインコントロールバーに表示されます。携帯電話では、セカンダリコントロールバーに追加されます。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**メインビューア領域のCSSプロパティ**
+**メインビューア領域の CSS プロパティ**
 
-ボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 `.s7ecatalogsearchviewer .s7firstpagebutton .s7panleftbutton`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -57,23 +57,23 @@ ht-degree: 2%
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 28 x 28ピクセルで、メインコントロールバーの下から4ピクセルおよび左端から220ピクセルの位置に配置し、ボタンの4つの状態ごとに異なる画像を表示する最初のページボタンを設定します。
+例 — 28 x 28 ピクセルで、メインコントロールバーの下から 4 ピクセル、左端から 220 ピクセルの位置に配置する最初のページボタンを設定するには、次のように記述します。 最後に、は 4 つのボタンの状態ごとに異なる画像を表示します。
 
 ```
 .s7ecatalogsearchviewer .s7firstpagebutton .s7panleftbutton { 

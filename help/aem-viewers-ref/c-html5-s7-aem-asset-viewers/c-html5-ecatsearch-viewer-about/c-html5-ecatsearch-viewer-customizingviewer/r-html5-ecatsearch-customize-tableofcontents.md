@@ -1,69 +1,69 @@
 ---
-description: 目次は、メインコントロールバーにあるボタンです。 アクティブにすると、ページインデックスとラベルのリストを含むドロップダウンパネルが表示されます。
-solution: Experience Manager
 title: 目次
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+description: 目次は、メインコントロールバーのボタンです。 アクティブにすると、ページインデックスとラベルのリストが含まれたドロップダウンパネルが表示されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
 
 # 目次{#table-of-contents}
 
-目次は、メインコントロールバーにあるボタンです。 アクティブにすると、ページインデックスとラベルのリストを含むドロップダウンパネルが表示されます。
+目次は、メインコントロールバーのボタンです。 アクティブにすると、ページインデックスとラベルのリストが含まれたドロップダウンパネルが表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-設定に基づいて、カタログに存在するすべてのページをリストに含めることも、明示的なラベルが定義されたページのみをリストに含めることもできます。 デスクトップシステムでは、リストが使用可能な画面領域より長い場合、右側にスクロールバーが表示されます。
+設定に基づいて、リストには、カタログに存在するすべてのページを含めることも、明示的なラベルが定義されているページのみを含めることもできます。 デスクトップシステムでは、リストが使用可能な画面の領域より長い場合、右側にスクロールバーが表示されます。
 
-ビューアのユーザインターフェイスでの目次ボタンの位置とサイズは、以下のCSSクラスセレクターを使用して制御します。
+ビューアのユーザインターフェイスでの目次ボタンの位置とサイズは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents
 ```
 
-**目次のCSSプロパティ**
+**目次の CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> コントロールバーの上からのオフセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまたは（このボタンが行の最初のボタンである場合は）コントロールバーの左側までの距離です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> 左側の次のボタンまたはこのボタンが連続する最初のボタンの場合はコントロールバーの左側までの距離。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 目次ボタンの幅。 </p> </td> 
+   <td colname="col2"> <p> 目次ボタンの幅です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> 目次ボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p> 目次ボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — メインコントロールバーの下から4ピクセル、左から43ピクセルの位置に配置する目次ボタンを設定します。サイズは28 x 28ピクセルで、ボタンの4つの状態ごとに異なる画像が表示されます。
+例 — メインコントロールバーの下から 4 ピクセル、左から 43 ピクセルの位置に配置する目次ボタンを設定します。 サイズが 28 x 28 ピクセルで、ボタンの 4 つの状態ごとに異なる画像が表示されます。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents { 
@@ -85,26 +85,26 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-ドロップダウンパネルの外観は、以下のCSSクラスセレクターを使用して制御します。
+ドロップダウンパネルの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel
 ```
 
-**ドロップダウンパネルのCSSプロパティ**
+**ドロップダウンパネルの CSS プロパティ**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> ドロップダウンパネルの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> パネル境界とコンテンツの間の内部オフセット。 </p> </td> 
+   <td colname="col2"> <p> パネル境界とコンテンツとの間の内部オフセット。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p> パネルの周囲のドロップシャドウ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -112,9 +112,9 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->CSSからドロップダウンパネルのサイズや位置を制御することはできません。コンポーネントは、レイアウトをプログラムで管理します。
+>CSS からドロップダウンパネルのサイズや位置を制御することはできません。コンポーネントは、そのレイアウトをプログラムで管理します。
 
-例 — 半透明の黒の背景、コンテンツの周囲のマージンが5ピクセルで、ドロップシャドウを持つドロップダウンパネルを設定します。
+例 — 半透明の黒い背景、コンテンツの周囲のマージンが 5 ピクセル、ドロップシャドウを持つドロップダウンパネルを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel { 
@@ -124,26 +124,26 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-個々の項目のルックアンドフィールは、以下のCSSクラスセレクターを使用して制御します。
+個々の項目のルックアンドフィールは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7item
 ```
 
-**項目のCSSプロパティ**
+**項目の CSS プロパティ**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>フォント名 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>フォント名。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p>フォントサイズ </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>フォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>項目の高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -155,9 +155,9 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->ドロップダウンリスト項目では、 `state`属性セレクターがサポートされます。このセレクターは、項目にカーソルを合わせた状態と選択した状態とで異なるスキンを適用するのに使用できます。
+>ドロップダウンリスト項目は、 `state` 属性セレクター。項目の状態にカーソルを合わせたときや選択した状態に異なるスキンを適用するのに使用できます。
 
-例 — フォントがHelvetica 14ピクセルで、高さが19ピクセルのドロップダウン項目を設定します。 項目の背景は、カーソルを合わせたときに濃いグレーになり、背景は薄いグレーになります。
+例 — Helvetica® 14 ピクセルのフォントで高さ 19 ピクセルのドロップダウン項目を設定します。 項目の背景は、マウスポインターが置かれたときにダークグレーになり、選択したときにライトグレーになります。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7item { 
@@ -173,26 +173,26 @@ background-color: rgb(178, 178, 178);
 }
 ```
 
-ページインデックスを表示する要素は、以下のCSSクラスセレクターを使用して制御します。
+ページインデックスを表示する要素は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index
 ```
 
-**ページインデックスのCSSプロパティ**
+**ページインデックスの CSS プロパティ**
 
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
-   <td colname="col2"> <p> 要素の幅の最小値。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
+   <td colname="col2"> <p> 要素の最小の幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
-   <td colname="col2"> <p> 要素の幅の最大値。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col2"> <p> 要素の最大の幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
    <td colname="col2"> <p> ページインデックスとページラベルの間の距離。 </p> </td> 
   </tr> 
  </tbody> 
@@ -200,9 +200,9 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->`s7index` CSSクラスに`display:none`を設定することで、ページインデックスを完全に非表示にできます。
+>ページインデックスを完全に非表示にするには、 `display:none` の `s7index` CSS クラス。
 
-例1 — 最小幅が40ピクセル、最大幅が70ピクセル、右側にマージンが5ピクセルのページインデックスを設定します。
+例 1 — 最小幅が 40 ピクセル、最大幅が 70 ピクセル、右側にマージンが 5 ピクセルのページインデックスを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index { 
@@ -212,7 +212,7 @@ padding-right: 5px;
 }
 ```
 
-例2 — ページインデックスを非表示にする：
+例 2 — ページインデックスを非表示にする：
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index { 
@@ -220,28 +220,28 @@ display: none;
 }
 ```
 
-ページラベルは、以下のCSSクラスセレクターを使用して制御します。
+ページラベルは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7label
 ```
 
-**ページラベルのCSSプロパティ**
+**ページラベルの CSS プロパティ**
 
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
-   <td colname="col2"> <p> 要素の幅の最小値。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
+   <td colname="col2"> <p> 要素の最小の幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width  </span> </p> </td> 
-   <td colname="col2"> <p> 要素の幅の最大値。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col2"> <p> 要素の最大の幅。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 幅の最小値が40ピクセル、最大値が240ピクセルのページインデックスを設定します。
+例 — 幅の最小値が 40 ピクセル、最大値が 240 ピクセルのページインデックスを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7label { 
@@ -250,27 +250,27 @@ max-width: 240px;
 }
 ```
 
-ドロップダウンパネル内で垂直方向に収まらない項目が多く、システムがデスクトップの場合、パネルの右側に垂直方向のスクロールバーがレンダリングされます。 スクロールバー領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+ドロップダウンパネル内で垂直方向に収まらない項目が多く、システムがデスクトップの場合は、パネルの右側に垂直方向のスクロールバーがレンダリングされます。 スクロールバー領域の外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar
 ```
 
-**スクロールバーのCSSプロパティ**
+**スクロールバーの CSS プロパティ**
 
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p> スクロールバーの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> パネル領域の上端からのスクロールバーの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p> パネル領域の上部からのスクロールバーの垂直方向のオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> パネル領域の下端からのスクロールバーの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p> パネル領域の下端からの垂直スクロールバーのオフセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
@@ -279,7 +279,7 @@ max-width: 240px;
  </tbody> 
 </table>
 
-例 — 幅が28ピクセルで、パネルの上、右、下の領域に余白がないスクロールバーを設定します。
+例 — 幅が 28 ピクセルで、パネルの上、右、下の領域に余白がないスクロールバーを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar { 
@@ -290,28 +290,28 @@ max-width: 240px;
 }
 ```
 
-スクロールバートラックは、上下のスクロールボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。 このトラックは、以下のCSSクラスセレクターを使用して制御します。
+スクロールバートラックは、上下のスクロールボタンの間の領域です。 このコンポーネントは、トラックの位置と高さを自動的に設定します。 トラックは、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
 ```
 
-**スクロールトラックのCSSプロパティ**
+**スクロールトラックの CSS プロパティ**
 
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>トラックの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>トラックの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 幅が28ピクセルで、背景が半透明のグレーのスクロールバートラックを設定します。
+例 — 幅が 28 ピクセルで、背景が半透明のグレーのスクロールバートラックを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -320,48 +320,48 @@ max-width: 240px;
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 垂直位置は、コンポーネントのロジックで制御します。 ただし、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下のCSSクラスセレクターを使用して設定できます。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 垂直位置は、コンポーネントロジックによって制御されます。 ただし、サムの高さは、コンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下の CSS クラスセレクターを使用して設定できます。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**スクロールバーサムのCSSプロパティ**
+**スクロールバーサムの CSS プロパティ**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>サムの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>サムの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p> トラックの上端との間の垂直方向のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col2"> <p> トラックの上部との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>トラックの下端との間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> サムの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムでは、 `state`属性セレクターがサポートされます。このセレクターは、 `up`、 `down`、 `over`および`disabled`のサムの状態ごとに異なるスキンを適用するのに使用できます。
+>サムは `state` 属性セレクター。異なるスキンを `up`, `down`, `over`、および `disabled` サムの状態。
 
-例 — 28 x 45ピクセルで、上下に10ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定します。
+例 — 28 x 45 ピクセルで、上下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -386,7 +386,7 @@ max-width: 240px;
 }
 ```
 
-上下のスクロールボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+上下のスクロールボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton
@@ -396,38 +396,38 @@ max-width: 240px;
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-CSSの`top`、`left`、`bottom`および`right`プロパティを使用してスクロールボタンを配置することはできません。ビューアのロジックによって自動的に配置が決まります。
+CSS を使用してスクロールボタンを配置することはできません `top`, `left`, `bottom`、および `right` プロパティ；ビューアのロジックによって、自動的に配置が決まります。
 
-**上スクロールボタンと下スクロールボタンのCSSプロパティ**
+**上にスクロールボタンと下にスクロールボタンの CSS プロパティ**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSSスプライト</a>も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->ボタンでは、 `state`属性セレクターがサポートされます。このセレクターは、 `up`、 `down`、 `over`および`disabled`の各ボタンの状態に異なるスキンを適用するのに使用できます。
+>ボタンは、 `state` 属性セレクター。異なるスキンを `up`, `down`, `over`、および `disabled` ボタンの状態
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 28 x 32ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定します。
+例 — 28 x 32 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 

@@ -1,28 +1,28 @@
 ---
+title: Adobe Analytics追跡のサポート
 description: Adobe Analytics追跡のサポート
 solution: Experience Manager
-title: Adobe Analytics追跡のサポート
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
 
 # Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-## 標準のトラッキング {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 標準の追跡 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-ビデオビューアでは、 [!DNL Adobe Analytics]追跡機能がサポートされていて、この機能をすぐに使用できます。 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
+ビデオビューアは、 [!DNL Adobe Analytics] 追跡機能が標準で用意されています。 追跡を有効にするには、適切な会社プリセット名を `config2` パラメーター。
 
-また、ビューアは、設定済みのImage Serverに対して、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求も送信します。
+また、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に 1 つの追跡 HTTP 要求が送信されます。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -46,23 +46,23 @@ var zoomViewer = new s7viewers.ZoomViewer({
 });
 ```
 
-ビューアは、次のSDKユーザーイベントを追跡します。
+ビューアは、次の SDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアが最初に読み込まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> APIを使用して、ビューア内でアセットが入れ替わったとき。 </p> </td> 
+   <td colname="col2"> <p>ビューア内でアセットが入れ替えられたとき、 <span class="codeph"> setAsset() </span> API </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -70,11 +70,11 @@ var zoomViewer = new s7viewers.ZoomViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
+   <td colname="col2"> <p>画像がパンされました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチをクリックまたはタップして画像を変更します。 </p> </td> 
+   <td colname="col2"> <p> スウォッチをクリックまたはタップすると画像が変更されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
