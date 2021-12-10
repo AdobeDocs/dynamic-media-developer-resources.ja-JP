@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>ドロップダウン目次の項目の最大数。 </p> <p>さらに、外側のコンテナによって切り抜かれる場合に備えて、ドロップダウンの表示項目数を減らすこともできます。 </p> <p><span class="codeph"> 0</span>に設定すると、コンポーネントは追加先のコンテナに対して、可能な限り多くの項目を表示します。 </p> </td> 
+   <td> <p>ドロップダウン目次の項目の最大数。 </p> <p>また、外側のコンテナによって切り抜かれる場合に備えて、ドロップダウンに表示される項目の数を減らすこともできます。 </p> <p>に設定する場合 <span class="codeph"> 0</span> このコンポーネントは、追加先のコンテナに応じて、可能な限り多くの項目を表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

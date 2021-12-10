@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.align
 description: FavoritesView.align
 solution: Experience Manager
-title: FavoritesView.align
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 </p> <p>お気に入りビューでは、内部のサムネールコンテナのサイズが調整され、サムネールが整数の数だけ表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 </p> <p>お気に入りビューでは、内部のサムネールコンテナのサイズが調整され、全体の数のサムネールのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

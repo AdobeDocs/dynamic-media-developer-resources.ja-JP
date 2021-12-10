@@ -1,14 +1,14 @@
 ---
+title: PageView.fmt
 description: PageView.fmt
 solution: Experience Manager
-title: PageView.fmt
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 07aec907-fb9d-41c8-9f32-a4886605db35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントがImage Serverから画像を読み込む際に使用する画像形式を指定します。 末尾が<span class="codeph"> -alpha</span>の形式を指定すると、画像が透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景は、デフォルトで白です。 したがって、透明にするには、CSSの<span class="codeph"> background-color</span>プロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントが Image Server からの画像の読み込みに使用する画像形式を指定します。 指定した形式が <span class="codeph"> -alpha</span>を指定しない場合、コンポーネントは画像を透明なコンテンツとしてレンダリングします。 その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景は、デフォルトで白です。 したがって、透明にするには、 <span class="codeph"> background-color</span> CSS プロパティをに設定 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

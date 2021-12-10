@@ -1,20 +1,20 @@
 ---
+title: EmbedShare.embedsizes
 description: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`幅`*, *`高さ`*[,0|1][; *`幅`*, *`高さ`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
@@ -28,7 +28,7 @@ ht-degree: 18%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択する必要があるかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

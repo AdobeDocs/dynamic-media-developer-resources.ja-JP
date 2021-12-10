@@ -1,14 +1,14 @@
 ---
+title: FavoritesEffect.expiration
 description: FavoritesEffect.expiration
 solution: Experience Manager
-title: FavoritesEffect.expiration
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: ef4880c5-045c-487c-a73a-e87e54717029
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 日</span></span> </p> </td> 
-   <td colname="col2"> <p> お気に入りのコレクションが期限切れになるまでクライアントのシステムに保持される日数。 ユーザーがカタログを訪問し、お気に入りに変更（追加、削除など）を加えるたびに、有効期限タイマーがリセットされます。 </p> </td> 
+   <td colname="col2"> <p> お気に入りのコレクションが期限切れになるまでクライアントのシステムに保持される日数。 ユーザーがカタログを訪問し、お気に入り（追加や削除など）を変更するたびに、有効期限タイマーがリセットされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

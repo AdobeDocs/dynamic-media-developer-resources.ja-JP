@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.maxloadradius
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
-title: ThumbnailGridView.maxloadradius
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントの初期化時またはアセットの変更時に、サムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>を設定して、表示されている領域の周囲にある非表示の行/列の数を定義します。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p>に設定する場合 <span class="codeph"> -1</span> コンポーネントの初期化時やアセットの変更時に、サムネールが同時に読み込まれます。 </p> <p>に設定する場合 <span class="codeph"> 0</span> 表示されているサムネールのみが読み込まれます。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> は、表示されている領域の周囲にある非表示の行/列のプリロード数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

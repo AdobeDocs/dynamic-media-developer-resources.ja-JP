@@ -1,14 +1,14 @@
 ---
+title: 全画面表示ボタン
 description: ユーザーが選択した場合に、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 solution: Experience Manager
-title: 全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置し、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定するには、次のように記述します。
+例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

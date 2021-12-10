@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.align
 description: ThumbnailGridView.align
 solution: Experience Manager
-title: ThumbnailGridView.align
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 ThumbnailGridViewでは、サムネールが整数だけ表示されるように、内部のサムネールコンテナのサイズが調整されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
+   <td> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 ThumbnailGridView では、内部のサムネールコンテナのサイズが調整され、サムネールが整数だけ表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.bearing
 description: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.bearing
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> ドロップダウンパネルの外観の方向を制御します。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは、まずパネルの基本位置をボタンの下部に移動し、基本位置から右または左にパネルをロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかがチェックされます。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動し、右方向と左方向にロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定した場合、コンポーネントでも同様のロジックが使用されますが、最初にベースを右に移動し、下方向および上方向のロールアウトを試します。 次に、ベースを左に移動し、下方向と上方向のロールアウトを試みます。 </p> </td> 
+   <td> <p> ドロップダウンパネルの外観の方向をコントロールします。 </p> <p>に設定する場合 <span class="codeph"> fit-vertical</span>を選択した場合、コンポーネントはまず、パネルの基本位置をボタンの下部に移動し、基本位置から右または左にパネルをロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動しようとし、右と左の方向にロールアウトの試行を繰り返します。 </p> <p>に設定する場合 <span class="codeph"> フィットラテラル</span>の場合は、同様のロジックが使用されますが、まずベースを右に移動し、下向きや上向きのロールアウト方向を試します。 次に、ベースを左に移動し、下方向と上方向のロールアウトを試みます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

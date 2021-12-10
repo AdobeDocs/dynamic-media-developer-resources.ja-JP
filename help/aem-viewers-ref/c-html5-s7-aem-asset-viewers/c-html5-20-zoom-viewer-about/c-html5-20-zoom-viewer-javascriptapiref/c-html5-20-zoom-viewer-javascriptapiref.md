@@ -1,19 +1,19 @@
 ---
-description: ズームビューアのメインクラスはBasicZoomViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+title: ズームビューアの JavaScript API リファレンス
+description: ズームビューアのメインクラスは BasicZoomViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
-title: ズームビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 62aa6d43-db46-4250-878b-253ac5785ff7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# ズームビューアのJavaScript APIリファレンス{#javascript-api-reference-for-zoom-viewer}
+# ズームビューアの JavaScript API リファレンス{#javascript-api-reference-for-zoom-viewer}
 
-ズームビューアのメインクラスはBasicZoomViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+ズームビューアのメインクラスは BasicZoomViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-この後に示す例で、 `<instance>`は、`s7viewers.ZoomViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+以下の例では、 `<instance>` は、 `s7viewers.ZoomViewer` クラス。

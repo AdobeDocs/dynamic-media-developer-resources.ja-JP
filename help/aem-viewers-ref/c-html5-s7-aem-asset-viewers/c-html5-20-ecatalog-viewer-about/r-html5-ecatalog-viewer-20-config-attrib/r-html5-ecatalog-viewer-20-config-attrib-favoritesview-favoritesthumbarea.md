@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.favoritesThumbView
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> エリア</span></span> </p> </td> 
-   <td colname="col2"> <p> お気に入りサムネールの切り抜き領域を指定します。 フレームサイズの合計に対する相対値として表されます。範囲は<span class="codeph"> 0</span> ～ <span class="codeph"> 1.0</span>です。 </p> <p>値<span class="codeph"> 1</span>は、フレーム画像全体がサムネールに使用されることを意味します。 </p> <p>値<span class="codeph"> 0.1</span>は、フレームサイズの10%のみが使用されることを意味します。 </p> </td> 
+   <td colname="col2"> <p> お気に入りサムネールの切り抜き領域を指定します。 合計フレームサイズに対する相対値として表され、範囲は次のとおりです。 <span class="codeph"> 0</span> から <span class="codeph"> 1.0</span>. </p> <p>値： <span class="codeph"> 1</span> は、フレーム画像全体がサムネールに使用されることを意味します。 </p> <p>値： <span class="codeph"> 0.1</span> は、フレームサイズの 10%しか使用されていないことを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

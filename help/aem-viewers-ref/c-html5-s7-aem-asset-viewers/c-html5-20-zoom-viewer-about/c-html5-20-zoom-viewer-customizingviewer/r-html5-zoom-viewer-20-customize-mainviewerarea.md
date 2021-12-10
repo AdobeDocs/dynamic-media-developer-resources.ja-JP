@@ -1,28 +1,28 @@
 ---
-description: メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
-solution: Experience Manager
 title: メインビューア領域
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+description: メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に収まるようにが設定されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # メインビューア領域{#main-viewer-area}
 
-メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に合わせてが設定されます。
+メインビュー領域は、ズーム画像とスウォッチが表示される領域です。 通常、サイズが指定されていない場合は、使用可能なデバイス画面に収まるようにが設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-埋め込みモードで作業する場合（メインビューア領域に明示的なサイズを指定した場合）、ビューアは、単一の画像で作業しているスウォッチコンポーネントの高さだけメイン領域の高さを自動的に小さくするので、スウォッチは不要です。
+埋め込みモードで作業する場合（メインビューア領域に明示的なサイズを指定した場合）、ビューアは、単一の画像で作業しているスウォッチコンポーネントの高さ分、メイン領域の高さを自動的に小さくするので、スウォッチは不要です。
 
-**メインビューア領域のCSSプロパティ**
+**メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7zoomviewer
@@ -31,7 +31,7 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -45,13 +45,13 @@ ht-degree: 1%
    <td colname="col2"> <p>ビューアの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 白の背景(`#FFFFFF`)のビューアを設定し、サイズを512 x 288ピクセルにするには、次のように記述します。
+例 — 白の背景 ( `#FFFFFF`) をクリックし、サイズを 512 x 288 ピクセルにします。
 
 ```
 .s7zoomviewer { 

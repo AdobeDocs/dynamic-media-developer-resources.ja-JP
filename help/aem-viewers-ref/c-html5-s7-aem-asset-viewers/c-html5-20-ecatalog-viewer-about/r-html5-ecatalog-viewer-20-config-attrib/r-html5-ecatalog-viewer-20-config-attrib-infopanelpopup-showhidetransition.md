@@ -1,14 +1,14 @@
 ---
+title: InfoPanelPopup.showhidetransition
 description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
-title: InfoPanelPopup.showhidetransition
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 時間</span></span> </p> </td> 
-   <td> <p> 表示/非表示のアニメーションの時間（秒）。 </p> </td> 
+   <td> <p> 表示または非表示のアニメーションの時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

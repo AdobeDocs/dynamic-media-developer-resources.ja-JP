@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.iscommand
 description: すべてのサムネールに適用される画像サービングコマンド文字列。
 solution: Experience Manager
-title: FavoritesView.iscommand
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> URLで指定する場合、 <span class="codeph"> &amp;</span>および<span class="codeph"> =</span>のすべての出現箇所をそれぞれ<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>にHTTPエンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p> URL 内で指定する場合、 <span class="codeph"> &amp;</span> および <span class="codeph"> =</span> は、 <span class="codeph"> %26</span> および <span class="codeph"> %3D</span>、それぞれ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,10 +37,10 @@ ht-degree: 7%
 
 ## 例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-ビューアのURLで指定する場合。
+ビューアの URL で指定する場合。
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-configデータで指定する場合。
+config データで指定する場合。
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`
