@@ -1,22 +1,22 @@
 ---
-description: eCatalog検索ビューアのメインクラスはeCatalogSearchViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+title: eCatalog 検索ビューアの JavaScript API リファレンス
+description: eCatalog 検索ビューアのメインクラスは eCatalogSearchViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
-title: eCatalog検索ビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# eCatalog検索ビューアのJavaScript APIリファレンス{#javascript-api-reference-for-ecatalog-search-viewer}
+# eCatalog 検索ビューアの JavaScript API リファレンス{#javascript-api-reference-for-ecatalog-search-viewer}
 
-eCatalog検索ビューアのメインクラスはeCatalogSearchViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+eCatalog 検索ビューアのメインクラスは eCatalogSearchViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-この後に示す例で、 `<instance>`は、`s7viewers.eCatalogSearchViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+以下の例では、 `<instance>` は、 `s7viewers.eCatalogSearchViewer` クラス。
 
 * [処分する](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
