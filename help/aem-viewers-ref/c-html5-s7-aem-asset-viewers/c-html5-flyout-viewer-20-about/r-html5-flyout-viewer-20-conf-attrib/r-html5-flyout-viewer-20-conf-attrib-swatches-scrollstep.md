@@ -1,20 +1,20 @@
 ---
+title: Swatches.scrollstep
 description: Swatches.scrollstep
 solution: Experience Manager
-title: Swatches.scrollstep
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '32'
+ht-degree: 12%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 

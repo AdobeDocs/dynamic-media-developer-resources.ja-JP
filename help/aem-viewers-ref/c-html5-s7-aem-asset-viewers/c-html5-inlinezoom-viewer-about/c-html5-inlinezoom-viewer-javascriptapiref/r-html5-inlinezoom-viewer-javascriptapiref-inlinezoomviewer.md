@@ -1,37 +1,37 @@
 ---
-description: インラインズームビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: FlyoutViewer
-feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
+description: インラインズームビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 366deb3d-061e-454c-bcd1-e31965613a5c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '205'
 ht-degree: 3%
 
 ---
 
 # FlyoutViewer{#flyoutviewer}
 
-インラインズームビューアのJavaScript APIリファレンス。
+インラインズームビューアの JavaScript API リファレンス。
 
 `FlyoutViewer([config])`
 
-コンストラクタ；新しいインラインズームビューアインスタンスを作成します。
+コンストラクタ；インラインズームビューアインスタンスを作成します。
 
 ## パラメータ {#section-8bc3d1424c8444f193716fc8d9975765}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}オプショ </span> ンのJSON設定オブジェクトです。個々のセッターメソッドを呼び出すのを避けるために、ビューアのすべての設定をコンストラクターに渡すことができます。次のプロパティが含まれます。 </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> オプションの JSON 設定オブジェクト。すべてのビューア設定をコンストラクターに渡し、個々のセッターメソッドを呼び出さないようにします。 次のプロパティが含まれます。 </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId  </span> - { <span class="codeph"> String}ビュ </span> ーアの挿入先のDOMコンテナ(通常は <span class="codeph"> DIV  </span>)のID。このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、<span class="codeph"> init() </span>を実行する場合は、コンテナが存在する必要があります。 必須。 </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params  </span> - { <span class="codeph">  </span> Object}ビューアの設定パラメーターを含むJSONオブジェクト。プロパティ名はビューア固有の設定オプションまたはSDK修飾子で、そのプロパティの値は対応する設定値です。必須。 </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> handlers  </span> -  <span class="codeph">  </span> {Object}ビューアのイベントコールバックを含むJSONオブジェクト。プロパティ名はサポートされているビューアイベントの名前で、プロパティ値は適切なコールバックに対するJavaScript関数参照です。（オプション） <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local">イベントコールバック</a>を参照してください。 </p> </li> 
-      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedTexts  </span> - {  <span class="codeph"> Object} JSONオブジェクトとローカ </span>ライゼーションデータ。（オプション） </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local">ユーザーインターフェイス要素のローカライゼーション</a>を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i>ビューアSDKユーザーガイド</i>』と例を参照してください。 </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> DOM コンテナの ID ( 通常は <span class="codeph"> DIV </span>) をクリックします。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 <span class="codeph"> init() </span> が実行されます。 必須。 </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> ビューアの設定パラメーターを持つ JSON オブジェクト。このプロパティ名はビューア固有の設定オプションまたは SDK 修飾子で、そのプロパティの値は対応する設定値です。 必須。 </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> ハンドラー </span> - <span class="codeph"> {Object} </span> ビューアイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前で、プロパティ値は適切なコールバックへの JavaScript 関数参照です。 （オプション） <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> イベントコールバック </a> を参照してください。 </p> </li> 
+      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph"> オブジェクト </span>} ローカリゼーションデータを含む JSON オブジェクト。 （オプション） </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p>詳しくは、 <i>ビューア SDK ユーザーガイド</i> と例を参照してください。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

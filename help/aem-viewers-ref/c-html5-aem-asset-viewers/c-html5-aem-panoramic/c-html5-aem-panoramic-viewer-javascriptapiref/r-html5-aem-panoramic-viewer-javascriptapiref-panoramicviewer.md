@@ -4,9 +4,9 @@ description: コンストラクター。新しいHTML5 カルーセルビュー�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 ## パラメータ {#section-fa807db629ce43bab286b1e1dc96c492}
 
 config {Object} オプションの JSON 設定オブジェクトでは、すべてのビューア設定をコンストラクターに渡し、個々のセッターメソッドを呼び出さないようにできます。 次のプロパティが含まれます。
-* containerId - {String} ビューアの挿入先となる DOM コンテナ（通常は DIV）の ID。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありませんが、init() の実行時にコンテナが存在する必要があります。 必須
+* containerId - {String} ビューアの挿入先の DOM コンテナ（通常は DIV）の ID。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありませんが、init() の実行時にコンテナが存在する必要があります。 必須
 * params - {Object} ビューアの設定パラメーターを含む JSON オブジェクト。プロパティ名はビューア固有の設定オプションまたは SDK 修飾子で、そのプロパティの値は対応する設定値です。 必須
 * handlers - {Object} ビューアのイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックに対する JavaScript 関数参照です。 ビューアイベントについて詳しくは、イベントコールバックの節を参照してください。 オプション
 

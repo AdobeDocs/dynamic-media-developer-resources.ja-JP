@@ -1,22 +1,22 @@
 ---
-description: インラインズームビューアのメインクラスはFlyoutViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+title: インラインズームビューアの JavaScript API リファレンス
+description: インラインズームビューアのメインクラスは FlyoutViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
-title: インラインズームビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-# インラインズームビューアのJavaScript APIリファレンス{#javascript-api-reference-for-inline-zoom-viewer}
+# インラインズームビューアの JavaScript API リファレンス{#javascript-api-reference-for-inline-zoom-viewer}
 
-インラインズームビューアのメインクラスはFlyoutViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+インラインズームビューアのメインクラスは FlyoutViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-この後に示す例で、 `<instance>`は、`s7viewers.FlyoutViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+以下の例では、 `<instance>` は、 `s7viewers.FlyoutViewer` クラス。
 
 * [処分する](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

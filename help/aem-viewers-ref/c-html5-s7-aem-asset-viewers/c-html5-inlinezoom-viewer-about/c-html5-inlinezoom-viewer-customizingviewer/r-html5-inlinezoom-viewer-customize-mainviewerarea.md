@@ -1,13 +1,13 @@
 ---
+title: メインビューア領域
 description: メインビュー領域は、フライアウトビューとスウォッチが表示される領域です。
 solution: Experience Manager
-title: メインビューア領域
-feature: Dynamic Media Classic，ビューア，SDK/API，インラインズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域のCSSプロパティ**
+**メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下のCSSクラスセレクターを使用して制御します。
+表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7flyoutviewer
@@ -29,7 +29,7 @@ ht-degree: 3%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -43,13 +43,13 @@ ht-degree: 3%
    <td colname="col2"> <p>ビューアの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 白の背景(`#FFFFFF`)のフライアウトビューアを設定し、サイズを260 x 500ピクセルにするには、次のように記述します。
+例 — 白の背景 ( `#FFFFFF`) をクリックし、サイズを 260 x 500 ピクセルにします。
 
 ```
 .s7flyoutviewer { 

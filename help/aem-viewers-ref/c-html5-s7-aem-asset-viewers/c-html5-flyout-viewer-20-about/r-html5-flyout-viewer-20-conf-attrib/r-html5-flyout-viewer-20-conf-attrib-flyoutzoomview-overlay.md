@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フライアウトがアクティブな場合の、メインビューのハイライトの外観を制御します。 <span class="codeph"> 0</span>に設定すると、フライアウトウィンドウに現在表示されている領域が、 <span class="codeph"> .s7highlight</span>または<span class="codeph"> .s7cursor</span> CSSクラス名（ <span class="codeph"> highlightmode</span>修飾子の値に応じて異なる）で指定されたスタイルを使用してハイライトされます。 <span class="codeph"> 1</span>コンポーネントを「逆」モードにする場合は、現在表示されている領域が完全に透明になる（<span class="codeph"> highlightmode</span>が<span class="codeph"> highlightmode</span>に設定される）か、<span class="codeph"> .s7cursor</span> CSSクラス名(ケース<span class="codeph"> highlightmode</span>が<span class="codeph"> cursor</span>に設定され、周囲の領域は<span class="codeph"> .s7overlay</span> CSSクラス名で提供されるスタイルを使用して塗りつぶされます。 </p> </td> 
+   <td colname="col2"> <p> フライアウトがアクティブな場合のメインビューのハイライトの外観を制御します。 に設定する場合 <span class="codeph"> 0</span>に設定されている場合、フライアウトウィンドウに現在表示されている領域は、 <span class="codeph"> .s7highlight</span> または <span class="codeph"> .s7cursor</span> CSS クラス名 ( <span class="codeph"> highlightmode</span> 修飾子 ) です。 に設定する場合 <span class="codeph"> 1</span> コンポーネントが「逆」モードに入り、現在表示されている領域が完全に透明 ( <span class="codeph"> highlightmode</span> が <span class="codeph"> ハイライト</span>)、またはでスタイル設定される <span class="codeph"> .s7cursor</span> CSS クラス名（場合に応じて） <span class="codeph"> highlightmode</span> が <span class="codeph"> カーソル</span>) ですが、周囲の領域は、 <span class="codeph"> .s7overlay</span> CSS クラス名。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

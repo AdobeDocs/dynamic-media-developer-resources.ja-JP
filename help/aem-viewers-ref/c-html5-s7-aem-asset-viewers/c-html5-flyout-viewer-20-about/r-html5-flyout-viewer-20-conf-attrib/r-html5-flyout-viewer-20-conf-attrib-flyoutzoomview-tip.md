@@ -1,34 +1,34 @@
 ---
+title: FlyoutZoomView.tip
 description: FlyoutZoomView.tip
 solution: Experience Manager
-title: FlyoutZoomView.tip
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 122c6406-6fd7-4e45-bff2-11022a3f2cf7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`フェード`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>ヒントテキストが非表示になるまでの秒数を指定します。 <span class="codeph"> -1</span>に設定すると、ユーザがフライアウトをアクティブにした場合でも、メッセージが常に表示されます。 </p> </td> 
+   <td colname="col2"> <p>ヒントテキストが非表示になるまでの表示秒数を指定します。 に設定する場合 <span class="codeph"> -1</span>を指定した場合、ユーザーがフライアウトをアクティブにした場合でも、メッセージは常に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p>セット内の新しい画像を表示する際に、テキストが表示される回数を指定します。 値<span class="codeph"> -1</span>は、セット内の画像を表示する際に、テキストが常に表示されることを意味します。 </p> </td> 
+   <td colname="col2"> <p>セット内の新しい画像を表示する際に、テキストが表示される回数を指定します。 値： <span class="codeph"> -1</span> は、セット内の任意の画像を表示する際に、テキストが常に表示されることを意味します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span> </span> </p> </td> 
-   <td colname="col2"> <p>テキストを表示または非表示にするときに行うフェードアニメーションの時間を指定します。 値<span class="codeph"> 0</span>はフェードトランジションなしを意味します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> フェード</span> </span> </p> </td> 
+   <td colname="col2"> <p>テキストが表示または非表示になるときに行うフェードアニメーションの時間を指定します。 値： <span class="codeph"> 0</span> は、フェードトランジションがないことを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

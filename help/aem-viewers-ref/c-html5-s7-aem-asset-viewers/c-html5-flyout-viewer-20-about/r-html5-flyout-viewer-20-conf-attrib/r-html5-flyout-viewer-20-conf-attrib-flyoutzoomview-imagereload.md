@@ -1,30 +1,30 @@
 ---
+title: FlyoutZoomView.imagereload
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
-title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 483fa64b-5196-4477-8ea6-0f32c6557f72
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '118'
 ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`widthwidth`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`幅`*[; *`幅`*]]`
 
 <table id="table_42CA0074AD7C4F0D9FC81E9FCB0591C0"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> サイズ変更時にメインビューとフライアウトビューの新しい画像を取得する方法を設定します。 </p> <p><span class="codeph"> 0 </span>に設定すると、コンポーネントはサイズ変更時に新しい画像を読み込みません。フライアウトビューの画像解像度は変更されません。 </p> <p><span class="codeph"> 1 </span>に設定すると、メインビューにロードされる画像の幅のブレークポイントを1つ以上指定できます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントがサイズ変更時にメインビューとフライアウトビューの新しい画像を取得する方法を設定します。 </p> <p>に設定する場合 <span class="codeph"> 0 </span>の場合、コンポーネントはサイズ変更時に新しい画像を読み込みません。フライアウトビューの画像解像度は変更されません。 </p> <p>を <span class="codeph"> 1 </span> メインビューに読み込まれる画像の幅のブレークポイントを 1 つ以上指定できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> breakpoint,  <span class="varname"> width  </span>[; <span class="varname"> width  </span>]  </span> </p> </td> 
-   <td colname="col2"> <p> メインビューに読み込まれる画像の幅のブレークポイント。 コンポーネントは、常に最初の荷重に最適なサイズを使用します。 サイズ変更後は、メインビュー内の画像が常に最も近い大きなブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ブレークポイント <span class="varname"> 幅 </span>[; <span class="varname"> 幅 </span>] </span> </p> </td> 
+   <td colname="col2"> <p> メインビューに読み込まれる画像の幅のブレークポイント。 コンポーネントは、常に最初の読み込みに最適なサイズを使用します。 サイズ変更後は、メインビュー内の画像が常に最も近い大きいブレークポイントと等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

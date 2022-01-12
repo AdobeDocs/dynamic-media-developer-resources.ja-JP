@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 10%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> アセットの変更時にメインビューに適用される効果のタイプを指定します。 <span class="codeph"> none</span>は、トランジションなしを表し、メインビューの変更は即座におこなわれます。 <span class="codeph"> fade</span>は、クロスフェードトランジションを有効にし、古い画像がフェードアウトして新しい画像がフェードインします。 </p> </td> 
+   <td colname="col2"> <p> アセットの変更時にメインビューに適用される効果のタイプを指定します。 この <span class="codeph"> なし</span> を指定すると、トランジションなしで、メインビューの変更が即座に行われます。 この <span class="codeph"> フェード</span> クロスフェードトランジションを有効にし、古い画像がフェードアウトして新しい画像がフェードインします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p> アニメーションの完了に要する秒数。 </p> </td> 
+   <td colname="col2"> <p> アニメーションが完了するまでの時間（秒）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

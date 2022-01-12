@@ -1,14 +1,14 @@
 ---
+title: Swatches.buttonsnapmode
 description: Swatches.buttonsnapmode
 solution: Experience Manager
-title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 06ff32fb-71a8-4e10-b82b-494cca05068d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 8%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>スウォッチの横にボタンが整列します。 </p> </td> 
+   <td> <p>スウォッチの横にボタンを整列させます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
-   <td> <p>コンポーネントの境界の横にボタンを整列させます。 </p> </td> 
+   <td> <p>コンポーネントの境界線の横にボタンを整列させます。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overlay</span> </span> </p> </td> 
-   <td> <p>スウォッチの上にボタンがレンダリングされます。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> オーバーレイ</span> </span> </p> </td> 
+   <td> <p>スウォッチの上にボタンをレンダリングします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

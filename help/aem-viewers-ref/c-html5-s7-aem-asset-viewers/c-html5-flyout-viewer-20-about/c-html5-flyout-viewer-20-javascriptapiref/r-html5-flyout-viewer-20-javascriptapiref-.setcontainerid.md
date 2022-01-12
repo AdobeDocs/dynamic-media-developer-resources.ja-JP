@@ -1,30 +1,30 @@
 ---
-description: フライアウトビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+description: フライアウトビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 5e07cbba-c1c1-4c85-af2b-ab2d84fbb709
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-フライアウトビューアのJavaScript APIリファレンス。
+フライアウトビューアの JavaScript API リファレンス。
 
 ` setContainerId( *`containerId`*)`
 
-ビューアを挿入するDOMコンテナ（通常は`DIV`）のIDを設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、`init()`を実行する際にはコンテナが存在する必要があります。 `init()`の前に呼び出す必要があります。 ビューアの設定情報が`config` JSONオブジェクトを使用してコンストラクターに渡される場合は、このメソッドはオプションです。
+DOM コンテナの ID を設定します ( 通常は `DIV`) を使用して、ビューアを挿入します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 `init()` が実行されます。 の前に呼び出す必要があります。 `init()`. ビューアの設定情報が `config` JSON オブジェクトをコンストラクターに追加します。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}コン </span> テナのID。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナの ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

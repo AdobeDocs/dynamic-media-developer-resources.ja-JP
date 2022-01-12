@@ -1,14 +1,14 @@
 ---
+title: Swatches.iscommand
 description: Swatches.iscommand
 solution: Experience Manager
-title: Swatches.iscommand
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: ed587082-3306-4914-916f-db37a823e199
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> すべてのスウォッチに適用される画像サービングコマンド文字列。 URLで指定する場合は、必ず<span class="codeph"> &amp;</span>と<span class="codeph"> =</span>のすべての出現箇所を<span class="codeph"> %26</span>と<span class="codeph"> %3D</span>にそれぞれHTTPエンコードしてください。 </p> <p> <p>注意： 画像のサイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
+   <td colname="col2"> <p> すべてのスウォッチに適用される画像サービングコマンド文字列。 URL で指定する場合、 <span class="codeph"> &amp;</span> および <span class="codeph"> =</span> as <span class="codeph"> %26</span> および <span class="codeph"> %3D</span>、それぞれ。 </p> <p> <p>注意：画像サイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 ## 例 {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-ビューアのURLで指定する場合：
+ビューアの URL で指定する場合：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 

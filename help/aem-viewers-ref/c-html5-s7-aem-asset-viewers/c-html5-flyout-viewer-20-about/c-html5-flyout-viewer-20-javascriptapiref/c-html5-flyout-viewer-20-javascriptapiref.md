@@ -1,22 +1,22 @@
 ---
-description: フライアウトビューアのメインクラスはFlyoutViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+title: フライアウトビューアの JavaScript API リファレンス
+description: フライアウトビューアのメインクラスは FlyoutViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
-title: フライアウトビューアのJavaScript APIリファレンス
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# フライアウトビューアのJavaScript APIリファレンス{#javascript-api-reference-for-flyout-viewer}
+# フライアウトビューアの JavaScript API リファレンス{#javascript-api-reference-for-flyout-viewer}
 
-フライアウトビューアのメインクラスはFlyoutViewerです。 これは、 s7viewers名前空間で宣言されます。 このJavaScript APIは、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
+フライアウトビューアのメインクラスは FlyoutViewer です。 これは、 s7viewers 名前空間で宣言されています。 この JavaScript API は、このクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
-この後に示す例で、 `<instance>`は、`s7viewers.FlyoutViewer`クラスからインスタンス化された、JavaScriptビューアオブジェクトの実際の名前です。
+以下の例では、 `<instance>` は、 `s7viewers.FlyoutViewer` クラス。
 
 * [処分する](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
