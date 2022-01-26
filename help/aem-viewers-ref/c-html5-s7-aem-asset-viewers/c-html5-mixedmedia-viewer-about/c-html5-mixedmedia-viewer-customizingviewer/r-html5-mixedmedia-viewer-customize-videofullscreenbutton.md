@@ -1,11 +1,11 @@
 ---
+title: ビデオの全画面表示ボタン
 description: ユーザーが選択した場合、フルスクリーンボタンによって、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 solution: Experience Manager
-title: ビデオの全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%

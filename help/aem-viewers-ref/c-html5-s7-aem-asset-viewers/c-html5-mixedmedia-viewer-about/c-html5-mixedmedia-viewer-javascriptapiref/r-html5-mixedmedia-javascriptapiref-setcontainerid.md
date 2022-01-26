@@ -1,30 +1,30 @@
 ---
-description: 混在メディアビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+description: 混在メディアビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b6e191dc-3172-45ba-b6f6-258cfbd5855d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-混在メディアビューアのJavaScript APIリファレンス。
+混在メディアビューアの JavaScript API リファレンス。
 
 ` setContainerId( *`containerId`*)`
 
-ビューアを挿入するDOMコンテナ（通常はDIV）のIDを設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、`init()`を実行する際にはコンテナが存在する必要があります。 `init()`の前に呼び出す必要があります。 ビューアの設定情報が`config` JSONオブジェクトを使用してコンストラクターに渡される場合は、このメソッドはオプションです。
+ビューアを挿入する DOM コンテナ（通常は DIV）の ID を設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 `init()` が実行されます。 の前に呼び出す必要があります。 `init()`. ビューアの設定情報が `config` JSON オブジェクトをコンストラクターに追加します。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}コン </span> テナのID。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナの ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

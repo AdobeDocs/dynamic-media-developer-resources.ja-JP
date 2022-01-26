@@ -1,13 +1,13 @@
 ---
+title: 全画面表示ボタン
 description: ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 これは、ビューアが画像またはスピンセットを表示するときに使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 solution: Experience Manager
-title: 全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置し、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定するには、次のように記述します。
+例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

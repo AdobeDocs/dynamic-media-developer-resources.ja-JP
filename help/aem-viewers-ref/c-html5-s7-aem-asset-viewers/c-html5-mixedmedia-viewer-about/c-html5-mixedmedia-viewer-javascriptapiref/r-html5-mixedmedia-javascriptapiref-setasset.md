@@ -1,52 +1,52 @@
 ---
-description: 混在メディアビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+description: 混在メディアビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 # setAsset{#setasset}
 
-混在メディアビューアのJavaScript APIリファレンス。
+混在メディアビューアの JavaScript API リファレンス。
 
 ` setAsset( *`asset`*[,data]))`
 
-新しいアセットとオプションの追加アセットデータを設定します。 このパラメーターは、`init()`の前後にいつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
+新しいアセットとオプションの追加アセットデータを設定します。 このパラメーターは、いつでも（前後に）呼び出すことができます `init()`. 次の後に呼び出された場合 `init()`を指定した場合、ビューアは実行時にアセットをスワップします。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)も参照してください。
+関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`asset`*`  - {}新しいアセットIDまたは明示的な混在メディアセット。オプションとしての画像サービング修飾子を後に付けま `String` `?`す。
+`*`アセット`*` - { `String`} 個の新しいアセット ID または明示的な混在メディアセット。オプションの画像サービング修飾子をその後に追加できます。 `?`.
 
-IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。
+IR（画像レンダリング）または UGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされません。
 
-`*`data`*`  - {  `JSON`}新しいキャプションファイルの場所。
+`*`データ`*` - { `JSON`} 新しいキャプションファイルの場所。
 
-指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、混在メディアセットの最初のビデオに適用されます。後続のビデオはキャプションなしで再生されます。 このビューアは、次のコンポーネントIDをサポートしています。
+指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、混在メディアセットの最初のビデオに適用されます。後続のビデオはキャプションなしで再生されます。 このビューアでは、次のコンポーネント ID がサポートされています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>コンポーネントID </p> </th> 
-   <th colname="col2" class="entry"> <p>ビューアSDKコンポーネントのクラス名 </p> </th> 
+   <th colname="col1" class="entry"> <p>コンポーネント ID </p> </th> 
+   <th colname="col2" class="entry"> <p>ビューア SDK のコンポーネントのクラス名 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 事後的な  </span> </p> </td> 
-   <td colname="col2"> <p>ビデオの再生開始前に最初のフレームに表示する画像。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 事後的な </span> </p> </td> 
+   <td colname="col2"> <p>ビデオの再生を開始する前の最初のフレームに表示する画像。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caption  </span> </p> </td> 
-   <td colname="col2"> <p> 新しいキャプションファイルの場所。 </p> <p>指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、メディアセットの最初のビデオに適用されます。 後続のビデオはキャプションなしで再生されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 
+   <td colname="col2"> <p> 新しいキャプションファイルの場所。 </p> <p>指定しなかった場合、キャプションボタンはユーザーインターフェイスに表示されません。 このパラメーターで指定されたキャプションは、メディアセットの最初のビデオに適用されます。 以降のビデオはキャプションなしで再生されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ
 <instance>.setAsset("Scene7SharedAssets/Backpack_J;;advanced_image;,Scene7SharedAssets/Frame-6;;advanced_image;,Scene7SharedAssets/Frame-2;;advanced_image;,Scene7SharedAssets/SpinSet_Sample;;spin;,Scene7SharedAssets/ImageSet-Colors-Sample;;advanced_swatchset;,Scene7SharedAssets/Glacier_Climber_640x360;Scene7SharedAssets/Glacier_Climber_640x360;video;")
 ```
 
-セット内のすべての画像にシャープ修飾子を追加：
+セット内のすべての画像にシャープ修飾子が追加されました。
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Mixed_Media_Set_Sample?op_sharpen=1")

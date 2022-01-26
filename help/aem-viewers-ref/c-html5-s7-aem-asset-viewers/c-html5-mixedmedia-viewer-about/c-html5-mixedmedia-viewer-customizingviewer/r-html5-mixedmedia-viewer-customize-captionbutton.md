@@ -1,26 +1,26 @@
 ---
-description: クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対して、サイズ、スキン、および位置を設定できます。
-solution: Experience Manager
 title: キャプションボタン
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+description: クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSS を使用して、このボタンのサイズ、スキン、およびこのボタンを含むコントロールバーに対する位置を指定できます。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
 
 # キャプションボタン{#caption-button}
 
-クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対して、サイズ、スキン、および位置を設定できます。
+クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSS を使用して、このボタンのサイズ、スキン、およびこのボタンを含むコントロールバーに対する位置を指定できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域のCSSプロパティ**
+**メインビューア領域の CSS プロパティ**
 
-ボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton
@@ -29,7 +29,7 @@ ht-degree: 2%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -59,23 +59,23 @@ ht-degree: 2%
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、 `state`属性セレクターとselected属性セレクターがサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `selected='true'`はキャプションが表示されている状態に対応し、 `selected='false'`はキャプションが非表示の場合に使用されます。
+>このボタンは、 `state` 属性セレクターと選択された属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` は、キャプションが表示されている状態と、 `selected='false'` は、キャプションが非表示の場合に使用されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-例 — 28 x 28ピクセルで、コントロールバーの上から4ピクセルおよび右端から68ピクセルの位置に配置し、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示するクローズドキャプションボタンを設定します。
+例 — 28 x 28 ピクセルで、上から 4 ピクセル、コントロールバーの右端から 68 ピクセルの位置に配置するクローズドキャプションボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 

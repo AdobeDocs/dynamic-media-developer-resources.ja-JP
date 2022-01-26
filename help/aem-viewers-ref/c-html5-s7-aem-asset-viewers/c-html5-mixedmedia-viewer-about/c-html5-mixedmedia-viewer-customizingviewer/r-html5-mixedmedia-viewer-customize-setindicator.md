@@ -1,26 +1,26 @@
 ---
-description: 設定インジケーターは、タッチデバイスでビューアを使用したときに、メインスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+title: 指標を設定
+description: セットインジケーターは、タッチデバイスでビューアを使用したときにメインスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 solution: Experience Manager
-title: インジケーターの設定
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
-# インジケーターの設定{#set-indicator}
+# 指標を設定{#set-indicator}
 
-設定インジケーターは、タッチデバイスでビューアを使用したときに、メインスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+セットインジケーターは、タッチデバイスでビューアを使用したときにメインスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**設定インジケーターのCSSプロパティ**
+**設定インジケーターの CSS プロパティ**
 
-設定インジケーターコンテナの外観は、以下のCSSクラスセレクターを使用して制御します。
+設定インジケーターコンテナの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -29,19 +29,19 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターの16進形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>設定インジケーターの 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 白の背景でインジケーターを設定するには、次のように記述します。
+例 — 背景が白の設定インジケーターを作成するには：
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -49,14 +49,14 @@ ht-degree: 1%
 }
 ```
 
-個々のセットインジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。
+個々のセットインジケーターのドットの外観は、CSS クラスセレクターを使用して制御します。
 
 `.s7mixedmediaviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
@@ -70,37 +70,37 @@ ht-degree: 1%
    <td colname="col2"> <p>設定インジケーターのドットの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>左余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>上余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
-   <td colname="col2"> <p>右マージン（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col2"> <p>右余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>下余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p>境界線の半径（ピクセル単位） </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p>境界線の半径（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->インジケーターのドットでは、 `state`属性セレクターがサポートされます。このセレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 具体的には、 `state="selected"`はサムネールの現在のページに対応し、 `state="unselected"`はデフォルトのドットの状態に対応します。
+>インジケーターのドットを設定すると、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、現在のサムネールのページに対応します。 `state="unselected"` は、デフォルトのドットの状態に対応します。
 
-例 — 15 x 15ピクセルで、2ピクセルの水平マージン、5ピクセルの上マージン、1ピクセルの下マージン、12ピクセルの半径、デフォルトカラー、#939393アクティブカラーを持つインジケーターのドットを設定するには、次のように記述します。
+例 — 15 x 15 ピクセルで、2 ピクセルの水平マージン、5 ピクセルの上マージン、1 ピクセルの下マージン、12 ピクセルの半径、#D5D3D3 default color および#939393アクティブな色を持つ設定インジケーターのドットを作成するには、次のように記述します。
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 
