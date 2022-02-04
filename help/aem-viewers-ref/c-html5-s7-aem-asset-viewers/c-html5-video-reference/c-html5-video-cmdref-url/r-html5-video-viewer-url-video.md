@@ -1,20 +1,20 @@
 ---
-description: ビデオビューアのURLコマンド。
-solution: Experience Manager
 title: ビデオ
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+description: ビデオビューアの URL コマンド。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 17%
+source-wordcount: '34'
+ht-degree: 20%
 
 ---
 
 # ビデオ{#video}
 
-ビデオビューアのURLコマンド。
+ビデオビューアの URL コマンド。
 
 ` video= *`videoURL`*`
 
@@ -22,14 +22,14 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部ビデオの絶対URL。 </p> </td> 
+   <td colname="col2"> <p> 外部ビデオの絶対 URL です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。（`asset`パラメーターを使用しない限り）。 [外部ビデオサポート](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)を参照してください。
+必須。( `asset` パラメーターが使用されます。 詳しくは、 [外部ビデオのサポート](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

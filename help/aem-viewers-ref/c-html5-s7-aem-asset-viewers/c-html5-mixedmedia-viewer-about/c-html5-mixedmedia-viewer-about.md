@@ -1,12 +1,12 @@
 ---
+title: 混在メディア
 description: 混在メディアビューアはメディアビューアです。 このビューアは、画像、スウォッチセット、スピンセット、ビデオおよびアダプティブビデオセットを含むメディアセットをサポートします。
 keywords: レスポンシブ
 solution: Experience Manager
-title: 混在メディア
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%

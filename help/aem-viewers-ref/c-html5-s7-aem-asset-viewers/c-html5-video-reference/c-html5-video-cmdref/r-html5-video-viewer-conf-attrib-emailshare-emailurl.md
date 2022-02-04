@@ -1,14 +1,14 @@
 ---
+title: EmailShare.emailurl
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: EmailShare.emailurl
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '29'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Dynamic Media Classic OnDemand電子メールサービスのベースURLを指定します。 </p> </td> 
+   <td colname="col2"> <p> Dynamic Media Classic OnDemand 電子メールサービスのベース URL を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

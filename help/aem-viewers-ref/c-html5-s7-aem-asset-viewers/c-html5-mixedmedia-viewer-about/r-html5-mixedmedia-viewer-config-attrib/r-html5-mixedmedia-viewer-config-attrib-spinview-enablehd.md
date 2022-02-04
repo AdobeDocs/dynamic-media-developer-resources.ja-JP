@@ -1,14 +1,14 @@
 ---
+title: SpinView.enableHD
 description: SpinView.enableHD
 solution: Experience Manager
-title: SpinView.enableHD
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>が<span class="codeph"> 1</span>より大きいデバイス（iPhone4など高密度ディスプレイを使用するデバイス）の最適化の有効化、制限または無効化を行います。 有効にすると、デバイスのピクセル比が<span class="codeph"> 1</span>の場合と同じように、コンポーネントでISイメージリクエストのサイズが制限され、帯域幅が削減されます。 </p> </td> 
+   <td colname="col2"> <p> 次の場合に最適化を有効、制限、無効にします。 <span class="codeph"> devicePixelRatio</span> 次よりも大きい <span class="codeph"> 1</span>:iPhone4 などの高密度ディスプレイを持つデバイス。 有効にすると、デバイスのピクセル比がのみであるかのように、コンポーネントが IS イメージリクエストのサイズを制限します。 <span class="codeph"> 1</span> したがって、帯域幅が削減されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 番号</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> limit</span>設定を使用すると、指定された制限までの高ピクセル密度が有効になります。 </p> </td> 
+   <td colname="col2"> <p> を使用する場合、 <span class="codeph"> 制限</span> を設定すると、指定した制限値までの高ピクセル密度が有効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

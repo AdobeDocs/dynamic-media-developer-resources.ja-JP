@@ -1,28 +1,28 @@
 ---
-description: スピンビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+description: スピンビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
 
 # init{#init}
 
-スピンビューアのJavaScript APIリファレンス。
+スピンビューアの JavaScript API リファレンス。
 
 `init()`
 
-スピンビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで見つけられるように、コンテナの`DOM`要素を作成する必要があります。
+スピンビューアの初期化を開始します。 この時点までにコンテナは `DOM` 要素は、ビューアコードが ID で見つけられるように作成する必要があります。
 
-コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、`display:none`スタイルを割り当てて非表示にした場合）、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだ Web ページレイアウトに含まれていない場合 ( 例えば、 `display:none` style — ビューアは初期化プロセスを中断します。 Web ページがコンテナ要素をレイアウトに戻す瞬間まで休止し、その時点でビューアの読み込みが自動的に再開します。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出します。以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクルの間に 1 回だけ呼び出します。後続の呼び出しは無視されます。
 
 ## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

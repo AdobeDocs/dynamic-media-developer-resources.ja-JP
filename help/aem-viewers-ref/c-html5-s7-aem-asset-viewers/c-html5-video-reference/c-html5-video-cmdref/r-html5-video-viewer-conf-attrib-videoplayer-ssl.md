@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.ssl
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全なSSL接続(HTTPS)と安全でない接続(HTTP)のどちらで配信するかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルが埋め込みWebページのプロトコルから継承されます。 WebページがHTTPSで読み込まれる場合、ビデオもHTTPSで配信されます。また、WebページがHTTPSで読み込まれる場合も、ビデオがHTTPSで配信されます。 WebページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定した場合、ビデオ配信は、Webページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </span></p> <p>公開済みのビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオを安全な SSL 接続 (HTTPS) と安全でない接続 (HTTP) のどちらで配信するかを制御します。 </p> <p>に設定する場合 <span class="codeph"> auto</span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオは HTTPS でも（逆も）配信されます。 Web ページが HTTP 上にある場合、ビデオは HTTP 経由で配信されます。 </p> <p>に設定する場合 <span class="codeph"> オン</span>の場合、ビデオ配信は、Web ページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </p> <p>公開されたビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-[セキュアビデオ配信](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff)も参照してください。
+関連トピック [ビデオ配信を保護](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md#concept-cf9d1346a07d4429b0c6c32c9cac50ff).

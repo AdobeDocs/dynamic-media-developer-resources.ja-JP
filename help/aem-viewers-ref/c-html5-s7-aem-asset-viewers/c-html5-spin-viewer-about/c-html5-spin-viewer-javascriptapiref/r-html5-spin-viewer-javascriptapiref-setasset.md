@@ -1,20 +1,20 @@
 ---
-description: スピンビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+description: スピンビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
 
 # setAsset{#setasset}
 
-スピンビューアのJavaScript APIリファレンス。
+スピンビューアの JavaScript API リファレンス。
 
 ` setAsset( *`asset`*)`
 
@@ -22,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> アセット</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>}新しいアセットID、1次元または複数次元のスピンセット。オプションの画像サービング修飾子が<span class="codeph"> ?</span>の後に付加されます。 </p> <p> IR（画像レンダリング）またはUGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 文字列</span>} 個の新しいアセット id、オプションの画像サービング修飾子を後に付加した 1 次元または複数次元のスピンセット <span class="codeph"> ?</span>. </p> <p> IR（画像レンダリング）または UGC（ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-新しいアセットを設定します。 このパラメーターは、`init()`の前後にいつでも呼び出すことができます。 `init()`の後に呼び出した場合、ビューアは実行時にアセットを入れ替えます。
+新しいアセットを設定します。 このパラメーターは、いつでも（前後に）呼び出すことができます `init()`. 次の後に呼び出された場合 `init()`を指定した場合、ビューアは実行時にアセットをスワップします。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)も参照してください。
+関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-カタログに定義されているスピンセットへの1つの参照：
+カタログに定義されているスピンセットへの 1 つの参照：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")

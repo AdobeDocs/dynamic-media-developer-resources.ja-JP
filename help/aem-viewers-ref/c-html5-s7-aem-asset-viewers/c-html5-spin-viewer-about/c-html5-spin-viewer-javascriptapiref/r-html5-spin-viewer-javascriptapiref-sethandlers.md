@@ -1,32 +1,32 @@
 ---
-description: スピンビューアのJavaScript APIリファレンス
-solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+description: スピンビューアの JavaScript API リファレンス
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f9e0b93e-fb27-4530-93cf-8246948423d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
 
 # setHandlers{#sethandlers}
 
-スピンビューアのJavaScript APIリファレンス
+スピンビューアの JavaScript API リファレンス
 
 `setHandlers(handlers)`
 
-0個以上のコールバックハンドラーを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに以前に割り当てられたイベントハンドラーが完全に上書きされます。 `init()`の前に呼び出す必要があります。
+0 個以上のコールバックハンドラを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに対して以前に割り当てられていたイベントハンドラーが完全に上書きされます。 の前に呼び出す必要があります `init()`.
 
 ## パラメータ {#section-51f820ded5e842bebd123e37a35176c7}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}ビュー </span> アのイベントコールバックを含むJSONオブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックに対するJavaScript関数参照です。 </p> <p>ビューアイベントについて詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local">イベントコールバック</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ハンドラー </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> ビューアのイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックへの JavaScript 関数参照です。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md#concept-9c553c80eefd422faacf6522c69804bf" format="dita" scope="local"> イベントコールバック </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

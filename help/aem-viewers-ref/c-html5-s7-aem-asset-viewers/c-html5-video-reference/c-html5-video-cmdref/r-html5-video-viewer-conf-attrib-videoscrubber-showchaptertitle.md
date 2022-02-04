@@ -1,14 +1,14 @@
 ---
+title: VideoScrubber.showchaptertitle
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 

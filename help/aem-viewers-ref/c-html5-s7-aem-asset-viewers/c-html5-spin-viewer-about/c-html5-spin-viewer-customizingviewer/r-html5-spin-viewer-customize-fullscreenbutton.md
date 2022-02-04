@@ -1,13 +1,13 @@
 ---
+title: 全画面表示ボタン
 description: ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 solution: Experience Manager
-title: 全画面表示ボタン
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) を参照してください。
 
-例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置し、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するフルスクリーンボタンを設定するには、次のように記述します。
+例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

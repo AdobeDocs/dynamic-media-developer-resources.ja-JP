@@ -1,14 +1,14 @@
 ---
+title: SpinView.lockdirection
 description: SpinView.lockdirection
 solution: Experience Manager
-title: SpinView.lockdirection
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 2Dスピンセットの場合に、スピン方向の変更を許可するかどうかを指定します。 </p> <p><span class="codeph"> 1 </span>に設定した場合、コンポーネントはジェスチャの開始時に、主なドラッグ方向またはスワイプ方向（水平方向と垂直方向）を識別します。 その後、ジェスチャーが終わるまでその方向を維持します。 例えば、ユーザーが水平方向のスピンを開始し、ドラッグ操作を垂直方向に続行すると、コンポーネントは垂直方向のスピンを実行しません。代わりに、マウスまたはスワイプの水平移動のみを考慮します。 </p> <p>値<span class="codeph"> 0 </span>を指定すると、ユーザーはジェスチャの進行中にいつでもスピン方向を変更できます。 スピンセットが1Dの場合、この設定は影響を受けません。 </p> </td> 
+   <td colname="col2"> <p> 2D スピンセットがある場合に、スピン方向の変更を許可するかどうかを指定します。 </p> <p>に設定する場合 <span class="codeph"> 1 </span>を指定した場合、ジェスチャの開始時に、主なドラッグまたはスワイプの方向（水平方向と垂直方向）を識別します。 その後、ジェスチャーが終わるまでその方向を維持します。 例えば、ユーザーが水平方向のスピンを開始し、ドラッグ操作を垂直方向に続行すると、コンポーネントは垂直方向のスピンを実行しません。 代わりに、マウスまたはスワイプの水平方向の動きのみを考慮します。 </p> <p>値： <span class="codeph"> 0 </span> を使用すると、ジェスチャの進行中はいつでもスピン方向を変更できます。 スピンセットが 1D の場合、この設定は無効です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

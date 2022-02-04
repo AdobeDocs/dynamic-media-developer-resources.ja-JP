@@ -1,14 +1,14 @@
 ---
+title: Swatches.enabledragging
 description: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledragging
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fd432573-677f-4c46-9cc1-88089496ce75
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 5%
    <td> <p> マウスまたはタッチジェスチャを使用してスウォッチをスクロールする機能を有効または無効にします </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 0-1 </span>の範囲内で機能します。 実際の速度の誤った方向への移動は<span class="codeph"> % </span>の値です。 <span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 <span class="codeph"> 0 </span>に設定した場合、正しくない方向にはまったく移動できません。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> 内の関数 <span class="codeph"> 0-1 </span> 範囲。 これは、 <span class="codeph"> % </span> 実際の速度の誤った方向への移動の値。 これが <span class="codeph"> 1 </span>をクリックすると、マウスと共に移動します。 これが <span class="codeph"> 0 </span>を指定した場合、正しくない方向に移動することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

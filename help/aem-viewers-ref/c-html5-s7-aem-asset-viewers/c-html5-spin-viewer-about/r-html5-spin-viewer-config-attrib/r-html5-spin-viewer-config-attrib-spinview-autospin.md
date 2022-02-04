@@ -1,38 +1,38 @@
 ---
+title: SpinView.autospin
 description: SpinView.autospin
 solution: Experience Manager
-title: SpinView.autospin
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
 # SpinView.autospin{#spinview-autospin}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *``*][, *``*][, *`durationdirectionspin_number`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius=0|1[, *`duration`*][, *`方向`*][, *`spin_number`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最適な自動スピンエクスペリエンスを実現するには、<span class="codeph"> maxloadradius</span>を<span class="codeph"> -1</span>に設定して、すべてのフレームをプリロードすることをお勧めします。 ただし、これにより、負荷時間が長くなり、帯域幅使用量が増加します。 </p> </td> 
+   <td colname="col2"> <p> 自動スピンアニメーションを有効または無効にします。 最適な自動スピンエクスペリエンスを実現するには、 <span class="codeph"> maxloadradius</span> から <span class="codeph"> -1</span>. ただし、この設定により、負荷時間が長くなり、帯域幅使用量が増加します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p> 1回のフルスピンあたりの秒数。 </p> </td> 
+   <td colname="col2"> <p> 1 回のフルスピンあたりの秒数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> スピン方向は、東向きに<span class="codeph"> 0</span>、西向きに<span class="codeph"> 1</span>です。 </p> </td> 
+   <td colname="col2"> <p> スピンの方向 <span class="codeph"> 0</span> 東に紡ぎ <span class="codeph"> 1</span> 西に紡いでいるので </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 自動スピンが停止する前に実行された完全な回転数。 数値は浮動小数点数です。 無限自動スピンの場合は、 <span class="codeph"> -1</span>に設定します。 </p> </td> 
+   <td colname="col2"> <p> オートスピンが停止する前に行われた完全な回転数。 数値は浮動小数点数です。 に設定 <span class="codeph"> -1</span> 無限の自動スピンの場合 </p> </td> 
   </tr> 
  </tbody> 
 </table>

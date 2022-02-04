@@ -1,14 +1,14 @@
 ---
+title: VideoScrubber.showtime
 description: VideoScrubber.showtime
 solution: Experience Manager
-title: VideoScrubber.showtime
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '19'
+ht-degree: 26%
 
 ---
 

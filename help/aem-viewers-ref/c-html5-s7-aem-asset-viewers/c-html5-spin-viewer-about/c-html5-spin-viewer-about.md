@@ -1,12 +1,12 @@
 ---
+title: Spin
 description: スピンビューアは、画像の 360 度のビュー、または適切なスピンセットが使用されている場合は多次元ビューを提供する画像ビューアです。 このウィンドウには、ズームツールとスピンツール、フルスクリーンのサポートおよびオプションの閉じるボタンがあります。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 keywords: レスポンシブ
 solution: Experience Manager
-title: Spin
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

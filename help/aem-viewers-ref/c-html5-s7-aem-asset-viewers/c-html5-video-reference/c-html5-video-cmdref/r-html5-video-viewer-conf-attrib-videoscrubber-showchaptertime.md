@@ -1,14 +1,14 @@
 ---
+title: VideoScrubber.showchaptertime
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoScrubber.showchaptertime
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 60d36054-7b60-4ab1-8220-b183390e5d84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオチャプターラベルのタイトルバーのビデオチャプター時間を無効または有効にします。 </p> </td> 
+   <td colname="col2"> <p> ビデオチャプターラベルのタイトルバーにあるビデオチャプター時間を無効または有効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

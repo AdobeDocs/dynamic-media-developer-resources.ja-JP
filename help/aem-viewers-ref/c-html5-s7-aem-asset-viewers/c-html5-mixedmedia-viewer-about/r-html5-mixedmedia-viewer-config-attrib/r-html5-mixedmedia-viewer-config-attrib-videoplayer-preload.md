@@ -1,20 +1,20 @@
 ---
-description: ビューアがビデオコンテンツの読み込みを開始してから再生を開始するかどうかを示します。
-solution: Experience Manager
 title: VideoPlayer.preload
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+description: ビューアがビデオコンテンツの読み込みを開始する前に開始するかどうかを示します。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 90fb988a-255c-46fe-b05a-39c95ae8b95d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 4%
 
 ---
 
 # VideoPlayer.preload{#videoplayer-preload}
 
-ビューアがビデオコンテンツの読み込みを開始してから再生を開始するかどうかを示します。
+ビューアがビデオコンテンツの読み込みを開始する前に開始するかどうかを示します。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]preload=0|1`
 
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 1 </span>に設定すると、アセットの設定直後にビデオのダウンロードが開始されます。それ以外の場合は、エンドユーザーまたはAPI呼び出しによって再生が開始された後にのみ、プリロードが開始されます。 </p> <p><span class="codeph"> 0 </span>に設定すると、特定の機能は再生が開始するまで機能しない場合があります。特に、シーク操作はビデオフレームを更新しません。 ポスター画像が無効になっている場合、ビューアは最初のビデオフレームではなく空の領域として表示されます。 </p> <p>Internet Explorer 11およびEdgeブラウザーの特定のバージョンでは、ビデオのプリロードの無効化は無視される場合があります。 </p> </td> 
+   <td colname="col2"> <p> 次に設定した場合： <span class="codeph"> 1 </span> アセットが設定された直後にビデオのダウンロードが開始される。それ以外の場合は、エンドユーザーまたは API 呼び出しによって再生が開始された後にのみ、プリロードが開始されます。 </p> <p>次に設定した場合： <span class="codeph"> 0 </span> 特定の機能は、再生が開始するまで機能しない場合があります。特に、シーク操作では、ビデオフレームは更新されません。 ポスター画像が無効になっている場合、ビューアには、最初のビデオフレームではなく空の領域として表示されます。 </p> <p>Internet Explorer 11 および Edge ブラウザーの特定のバージョンでは、ビデオのプリロードの無効化が無視される場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

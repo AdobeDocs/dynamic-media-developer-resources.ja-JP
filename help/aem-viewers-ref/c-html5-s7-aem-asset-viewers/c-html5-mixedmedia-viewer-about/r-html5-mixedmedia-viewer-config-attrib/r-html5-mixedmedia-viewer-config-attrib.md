@@ -1,13 +1,13 @@
 ---
+title: コマンドリファレンス — 設定属性
 description: 混在メディアビューアの設定属性ドキュメント。
 solution: Experience Manager
-title: コマンドリファレンス — 設定属性
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: aa750941-0a2e-4591-bdff-5e71ecc342aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 混在メディアビューアの設定属性ドキュメント。
 
-設定コマンドは、URLまたは`setParam()`、`setParams()`、またはその両方のAPIメソッドを使用して設定できます。 設定属性は、サーバー側の設定レコードでも指定できます。
+任意の設定コマンドを URL で設定するか、 `setParam()`または `setParams()`、またはその両方の API メソッド。 設定属性は、サーバー側の設定レコードでも指定できます。
 
-一部の設定コマンドの前に、対応するビューアSDKコンポーネントのクラス名またはインスタンス名のプレフィックスが付く場合があります。 コンポーネントのインスタンス名は動的で、`setContainerId()` APIメソッドに渡されるビューアコンテナのDOM要素のIDに依存します。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例えば、`zoomstep`コマンドは次のように記述されています。
+一部の設定コマンドの前に、対応する Viewer SDK コンポーネントのクラス名またはインスタンス名のプレフィックスが付く場合があります。 コンポーネントのインスタンス名は動的で、に渡されるビューアのコンテナの DOM 要素の ID に依存します。 `setContainerId()` API メソッド。 ドキュメントには、このようなコマンド用のオプションのプレフィックスが含まれています。 例： `zoomstep` コマンドの説明は次のとおりです。
 
 `[ZoomView.|<containerId>_zoomView].zoomstep`
 
-つまり、このコマンドは次のように使用できます。
+つまり、次のように、このコマンドを使用できます。
 
 * `zoomstep` （短い構文）
 * `ZoomView.zoomstep` （コンポーネントクラス名で修飾）
-* `cont_zoomView.zoomstep` (コンポーネントIDで修飾、 `cont` はコンテナ要素のID)
+* `cont_zoomView.zoomstep` （コンポーネント ID で修飾、仮定） `cont` はコンテナ要素の ID です )
 
-[すべてのビューアに共通のコマンドリファレンス — 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
+関連トピック [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

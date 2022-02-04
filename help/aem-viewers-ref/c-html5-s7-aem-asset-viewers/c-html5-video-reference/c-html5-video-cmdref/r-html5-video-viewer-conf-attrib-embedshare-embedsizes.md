@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ビデオビューアの設定属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`幅`*, *`高さ`*[,0|1][; *`幅`*, *`高さ`*[,0|1]]`
 
 埋め込み共有モーダルダイアログボックスのサイズコンボボックスの埋め込みサイズのリストを指定します。
 
@@ -32,7 +32,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択する必要があるかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.waiticon
 description: 混在メディアビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.waiticon
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 

@@ -1,26 +1,26 @@
 ---
-description: スワットコバレイ
+title: スワットコーバー
+description: スワットコーバー
 solution: Experience Manager
-title: スワットコバレイ
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
-# スワットコバレイ{#swatchoverlay}
+# スワットコーバー{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>タッチ操作対応デバイスのビューアレイアウトを指定します。 パラメーターを<span class="codeph"> 1 </span>に設定すると、デスクトップ上のメインビューの下にスウォッチが表示されます。タッチ操作対応デバイスでは、スウォッチがメインビューの上にオーバーレイ表示されます。 </p> <p>パラメーターを<span class="codeph"> 0 </span>に設定すると、スウォッチはすべてのデバイスタイプでメインビューの下にレンダリングされます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>タッチ操作対応デバイスでのビューアのレイアウトを指定します。 パラメーターが <span class="codeph"> 1 </span>の場合、ビューアはデスクトップのメインビューの下にスウォッチを表示します。タッチ操作対応デバイスでは、スウォッチがメインビューの上にオーバーレイされます。 </p> <p>パラメーターが <span class="codeph"> 0 </span>の場合、スウォッチは、すべてのデバイスタイプでメインビューの下にレンダリングされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

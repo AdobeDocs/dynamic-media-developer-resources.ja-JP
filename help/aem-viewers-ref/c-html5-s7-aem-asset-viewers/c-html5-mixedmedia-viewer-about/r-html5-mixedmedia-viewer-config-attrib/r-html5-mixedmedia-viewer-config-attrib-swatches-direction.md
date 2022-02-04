@@ -1,14 +1,14 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> ビューでのスウォッチの塗りつぶし方法を指定します。 </p> <p> <span class="codeph"> left </span> は、左から右の塗りつぶし順序を設定します。 </p> <p> <span class="codeph"> rightを指 </span> 定すると順序が逆になり、右から左、上から下に順に表示されます。 </p> <p><span class="codeph"> auto </span>が設定されている場合、ロケールが<span class="codeph"> ja </span>に設定されているときに<span class="codeph"> right </span>モードが適用されます。それ以外の場合は、 leftが使用されます。 </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> ビュー内でのスウォッチの塗りの方法を指定します。 </p> <p> <span class="codeph"> left </span> 左から右の塗りつぶし順序を設定します。 </p> <p> <span class="codeph"> 右 </span> 順序を逆にして、ビューを右から左、上から下に表示します。 </p> <p>条件 <span class="codeph"> auto </span> が設定されている場合、コンポーネントが適用されます <span class="codeph"> 右 </span> ロケールが <span class="codeph"> ja </span>;それ以外の場合は、 left が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

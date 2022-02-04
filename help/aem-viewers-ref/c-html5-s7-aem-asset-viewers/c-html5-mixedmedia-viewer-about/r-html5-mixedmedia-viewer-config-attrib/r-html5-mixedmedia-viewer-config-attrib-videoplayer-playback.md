@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.playback
 description: 混在メディアビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.playback
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> ビューアで使用する再生のタイプを設定します。 <span class="codeph"> auto</span>が設定されている場合、ほとんどのデスクトップブラウザーとすべてのiOSデバイスで、ビューアはHLS形式のHTML5ストリーミングビデオを使用します。 古いInternet ExplorerやAndroidなどの特定のシステムでのプログレッシブHTML5再生にフォールバックされます。 </p> <p><span class="codeph"> progressive</span>を指定した場合、ビューアは、ブラウザーでネイティブサポートされているHTML5再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p>自動モードとプログレッシブモードでの再生の選択について詳しくは、ビューアSDKユーザガイドを参照してください。 </p> </td> 
+   <td colname="col2"> <p> ビューアで使用する再生の種類を設定します。 条件 <span class="codeph"> auto</span> が設定されている場合、ほとんどのデスクトップブラウザーとすべてのiOSデバイスで、ビューアは HLS 形式のHTML5 ストリーミングビデオを使用します。 古い Internet Explorer や Android™などの特定のシステムでは、プログレッシブHTML5 再生に戻ります。 </p> <p>If <span class="codeph"> 進行性</span> を指定した場合、ビューアは、ブラウザーでネイティブにサポートされているHTML5 再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p>自動モードとプログレッシブモードでの再生の選択について詳しくは、ビューア SDK ユーザガイドを参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

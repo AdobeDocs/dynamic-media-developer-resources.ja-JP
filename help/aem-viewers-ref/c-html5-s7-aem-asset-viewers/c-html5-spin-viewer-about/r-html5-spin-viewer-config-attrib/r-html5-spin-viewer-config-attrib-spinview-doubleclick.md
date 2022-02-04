@@ -1,13 +1,13 @@
 ---
+title: SpinView.doubleclick
 description: SpinView.doubleclick
 solution: Experience Manager
-title: SpinView.doubleclick
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 2e9b8f8e-aa36-4b47-a36d-7b7036e8722f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> ダブルクリック/タップとスピン操作のマッピングを設定します。 <span class="codeph"> none </span>に設定すると、ダブルクリック/タップによるスピンが無効になります。 <span class="codeph"> zoom </span>に設定すると、画像をクリックした場合に1回のスピンステップでスピンします。Ctrlキーを押しながらクリックすると、1つのスピンステップがスピンアウトします。 <span class="codeph"> reset </span>に設定すると、画像をシングルクリックした場合に、初期のスピンレベルまでスピンがリセットされます。 <span class="codeph"> zoomReset </span>では、現在のスピン率が指定の限界値以上の場合はリセットが適用され、それ以外の場合はスピンが適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> ダブルクリック/タップとスピン操作のマッピングを設定します。 を <span class="codeph"> なし </span> ダブルクリック/タップによるスピンを無効にします。 次に設定した場合： <span class="codeph"> ズーム </span>をクリックすると、画像が 1 回のスピンステップでスピンします。Ctrl キーを押しながらクリックすると、1 つのスピンステップをスピンアウトします。 を <span class="codeph"> リセット </span> を指定すると、画像をシングルクリックした場合にスピンが初期のスピンレベルにリセットされます。 の場合 <span class="codeph"> zoomReset </span>、現在のスピン率が指定された制限以上の場合はリセットが適用され、それ以外の場合はスピンが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 初期設定 {#section-7a2128fd488941948aff18421f533ccf}
 
-`reset` （デスクトップコンピューターの場合） `zoomReset` （タッチデバイスの場合）
+`reset` デスクトップコンピューターの場合： `zoomReset` （タッチデバイス）。
 
 ## 例 {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 

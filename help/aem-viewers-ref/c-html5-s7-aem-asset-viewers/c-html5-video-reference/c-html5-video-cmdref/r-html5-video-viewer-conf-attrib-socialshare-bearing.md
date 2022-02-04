@@ -1,13 +1,13 @@
 ---
+title: SocialShare.bearing
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: SocialShare.bearing
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、<span class="codeph"> right</span>に設定すると、追加の境界チェックなしで、パネルが指定の方向にロールアウトし、外部のコンテナによってパネルが切り取られます。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは最初にパネルの基本位置をSocialShareの下部に移動し、その基本位置から下、右または左にロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかがチェックされます。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動し、上、右、左の方向にロールアウト試行を繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定した場合、コンポーネントは同様のロジックを使用します。 ただし、まずベースを右に移動し、右、下、上のロールアウト方向を試してから、ベースを左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
+   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 </p> <p> に設定する場合 <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>または <span class="codeph"> 右</span>を指定した場合、追加の境界チェックなしでパネルが指定の方向にロールアウトするので、外側のコンテナによってパネルがクリップされる可能性があります。 </p> <p>に設定する場合 <span class="codeph"> fit-vertical</span>を指定した場合、まず、基本パネルの位置が SocialShare の下部に移動し、その基本位置から下部、右部または左側にパネルがロールアウトされようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントは、基本パネルの位置を上に移動し、上、右、左の方向でロールアウトの試行を繰り返します。 </p> <p>に設定する場合 <span class="codeph"> フィットラテラル</span>の場合、コンポーネントは同様のロジックを使用します。 ただし、まずベースを右に移動し、右、下、上のロールアウト方向を試してから、ベースを左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

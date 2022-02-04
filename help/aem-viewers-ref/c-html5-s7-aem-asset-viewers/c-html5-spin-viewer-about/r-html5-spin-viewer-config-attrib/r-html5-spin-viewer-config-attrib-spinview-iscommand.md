@@ -1,14 +1,14 @@
 ---
+title: SpinView.iscommand
 description: SpinView.iscommand
 solution: Experience Manager
-title: SpinView.iscommand
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 6924e133-31f4-4c00-8bcc-25749b52a68d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> スピン画像に適用される画像サービングコマンド文字列。 URLで指定する場合、 <span class="codeph"> &amp;</span>と<span class="codeph"> =</span>はすべて、 <span class="codeph"> %26</span>と<span class="codeph"> %3D</span>にそれぞれHTTPエンコードする必要があります。 </p> <p> <p>注意： 画像のサイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
+   <td colname="col2"> <p> スピン画像に適用される画像サービングコマンド文字列です。 URL 内で指定する場合、 <span class="codeph"> &amp;</span> および <span class="codeph"> =</span> は、 <span class="codeph"> %26</span> および <span class="codeph"> %3D</span>、それぞれ。 </p> <p> <p>注意：画像サイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +35,10 @@ ht-degree: 7%
 
 ## 例 {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 
-ビューアのURLで指定する場合：
+ビューアの URL で指定する場合：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-configデータで指定する場合：
+config データで指定する場合：
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: VideoPlayer.autoplay
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 75ac93b4-fd76-4a2c-ba6a-c99baefaecec
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> ビューアが読み込み時にビデオの再生を開始するかどうかを示します。 特定のモバイルデバイスなど、一部のシステムではAutoPlayがサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> ビューアが読み込み時にビデオの再生を開始するかどうかを示します。 一部のモバイルデバイスなど、一部のシステムでは AutoPlay がサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

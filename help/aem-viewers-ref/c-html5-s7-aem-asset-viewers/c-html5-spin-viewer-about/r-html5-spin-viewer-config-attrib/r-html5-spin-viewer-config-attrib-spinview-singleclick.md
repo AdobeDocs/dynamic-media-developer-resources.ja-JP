@@ -1,13 +1,13 @@
 ---
+title: SpinView.singleclick
 description: SpinView.singleclick
 solution: Experience Manager
-title: SpinView.singleclick
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 92a497dc-c6b5-4b2d-8095-08bc6ad3d189
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> シングルクリック/タップとズーム操作との対応関係を設定します。<span class="codeph"> none </span>に設定すると、シングルクリック/タップによるズームが無効になります。 <span class="codeph">スピン</span>に設定すると、画像をクリックすると、1段階ズームインします。Ctrlキーを押しながらクリックすると、1段階ズームアウトします。 <span class="codeph"> reset </span>に設定すると、画像をシングルクリックした場合に、初期のスピンレベルまでズームがリセットされます。 <span class="codeph"> zoomReset </span>の場合、現在のズーム率が指定の限界値以上であればリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> シングルクリック/タップとズーム操作のマッピングを設定します。を <span class="codeph"> なし </span> は、シングルクリック/タップによるズームを無効にします。 次に設定した場合： <span class="codeph"> スピン </span> 画像をクリックすると、1 段階ズームインします。Ctrl キーを押しながらクリックすると、1 段階だけズームアウトします。 を <span class="codeph"> リセット </span> を指定すると、画像をシングルクリックした場合に、初期のスピンレベルまでズームがリセットされます。 の場合 <span class="codeph"> zoomReset </span>、現在のズーム率が指定の限界値以上の場合はリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 初期設定 {#section-7a2128fd488941948aff18421f533ccf}
 
-`zoomReset` （デスクトップコンピューターの場合） `none` （タッチデバイスの場合）
+`zoomReset` デスクトップコンピュータの場合 `none` （タッチデバイス）。
 
 ## 例 {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 

@@ -1,32 +1,32 @@
 ---
-description: SpinViewがアイドル状態の場合に、各方向にプリロードする最大フレーム数を表します。
-solution: Experience Manager
 title: SpinView.maxloadradius
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+description: SpinView がアイドル状態の場合に各方向にプリロードするフレームの最大数を表します。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e64fcd95-9660-4c1f-91b2-3ffc5a7493ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-SpinViewがアイドル状態の場合に、各方向にプリロードする最大フレーム数を表します。
+SpinView がアイドル状態の場合に各方向にプリロードするフレームの最大数を表します。
 
-` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valuehighRes`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius= *`値`*[, *`highRes`*]`
 
 <table id="table_06BEA037FA82467CAA88D1CA62AE972E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> 値<span class="codeph"> -1</span>は、セット内のすべてのフレームをプリロードします。 プリロードされたフレームは、常に、SpinViewが最初に読み込まれた元の解像度で表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 値</span></span> </p> </td> 
+   <td colname="col2"> <p> 値： <span class="codeph"> -1</span> セット内のすべてのフレームをプリロードします。 プリロードされたフレームは、常に、SpinView が最初に読み込まれた元の解像度で表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> プリロードされたフレームの品質を制御します。 </p> <p><span class="codeph"> 1</span>に設定すると、フレームは高品質で読み込まれ、コンポーネントのサイズに一致します。 </p> <p><span class="codeph"> 0</span>に設定すると、低解像度のプレビュータイルのみが読み込まれます。 </p> <p>高解像度でプリロードすると、特に自動スピンが有効な場合に、エンドユーザーの操作性が向上します。 同時に、開始時間が遅くなり、ネットワーク消費が増えるので、慎重に使用する必要があります。 高解像度のプリロードを使用する場合、プリロードされたフレームは常に、コンポーネントが最初にロードされた元の解像度になります。 </p> </td> 
+   <td colname="col2"> <p> プリロードされたフレームの品質を制御します。 </p> <p>に設定する場合 <span class="codeph"> 1</span> フレームは、コンポーネントのサイズに合わせて高品質で読み込まれます。 </p> <p>に設定する場合 <span class="codeph"> 0</span> 低解像度のプレビュータイルのみが読み込まれます。</p> <p>高解像度でプリロードすると、特に自動スピンが有効な場合に、ユーザーのエクスペリエンスが向上します。 同時に、開始時間が長くなり、ネットワーク消費が増加するので、慎重に使用する必要があります。 高解像度のプリロードを使用する場合、プリロードされたフレームは常に、コンポーネントが最初に読み込まれた元の解像度になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

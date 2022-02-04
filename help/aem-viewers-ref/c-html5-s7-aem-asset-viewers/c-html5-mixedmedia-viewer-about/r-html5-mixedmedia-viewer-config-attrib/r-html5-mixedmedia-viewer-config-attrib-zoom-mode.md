@@ -1,14 +1,14 @@
 ---
+title: zoomMode
 description: ズーム操作のタイプを設定します。
 solution: Experience Manager
-title: zoomMode
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: a399ed5e-acc3-4c45-9c84-9fa572667489
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 2%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> continuousを使用す </span> ると、メインビューでクリック、ダブルタップまたはピンチアウトを行うたびに、画像が徐々にズームインします。最初のビューに戻るには、明示的にズームアウトするか、ズーム状態をリセットする必要があります。 </p> <p> <span class="codeph"> inlineを使用す </span> ると、インスタントズームが可能になり、デスクトップ上でメインビューにカーソルを合わせるときや、タッチデバイス上でタッチ&amp;ホールドするときに、ズームされた画像がすぐに表示されます。表示からマウスを移動したり、指を離すと、画像は自動的に初期状態に戻ります。<span class="codeph">インライン</span>モードでは、ネストされた画像セットは統合され、個々のサムネールとして表示されます。 <span class="codeph"> autoを指定す </span> ると、デスクトップではインラインモード、タッチデバイスでは連続モードがアクティブになります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 連続 </span> は、メインビューでのクリック、ダブルタップまたはピンチアウトに応じて画像が徐々にズームインするクラシックズームを有効にします。 最初のビューに戻るには、ズームアウトするか、ズーム状態をリセットします。 クラス </p> <p> <span class="codeph"> inline </span> インスタントズームを有効にします。デスクトップでメインビューにマウスポインターを置くと、またはタッチデバイスでタッチ&amp;ホールドすると、ズームされた画像がすぐに表示されます。 マウスをビューから移動したり、指を放した後、画像は自動的に初期状態に戻ります。 In <span class="codeph"> inline </span> モードの場合、ネストされた画像セットは統合され、個々のサムネールとして表示されます。 クラス <span class="codeph"> auto </span> は、デスクトップでインラインモードをアクティブにし、タッチデバイスでは連続モードをアクティブにします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

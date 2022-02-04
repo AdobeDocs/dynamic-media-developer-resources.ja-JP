@@ -1,30 +1,30 @@
 ---
-description: ビデオビューアのURLコマンド。
-solution: Experience Manager
 title: ナビゲーション
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+description: ビデオビューアの URL コマンド。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 13%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
 
 # ナビゲーション{#navigation}
 
-ビデオビューアのURLコマンド。
+ビデオビューアの URL コマンド。
 
 ` navigation= *`ファイル`*`
 
-ビューアでは、ホストされているWebVTTファイルによるビデオチャプターナビゲーションがサポートされています。 キュー位置の演算子はサポートされていません。
+ビューアでは、ホストされている WebVTT ファイルによるビデオチャプターナビゲーションがサポートされています。 キューの位置決め演算子はサポートされていません。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file</span> </span> </p> </td> 
-   <td colname="col2"> <p> WebVTTナビゲーションコンテンツのURLまたはパスを指定します。 画像サービングはWebVTTファイルをホストする必要があります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ファイル</span> </span> </p> </td> 
+   <td colname="col2"> <p> WebVTT ナビゲーションコンテンツの URL またはパスを指定します。 画像サービングは WebVTT ファイルをホストする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

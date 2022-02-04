@@ -1,38 +1,38 @@
 ---
+title: SpinView.iconeffect
 description: SpinView.iconeffect
 solution: Experience Manager
-title: SpinView.iconeffect
-feature: Dynamic Media Classic，ビューア，SDK/API，スピンセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e84336da-7f33-4fa9-b881-93b9db4bae8b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
 # SpinView.iconeffect{#spinview-iconeffect}
 
-` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *`count`*][, *`フェード`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 画像がリセット状態で、画像の操作に使用できるアクションがある場合、 <span class="codeph"> iconeffect</span>が画像の上部に表示されるようにします。 </p> </td> 
+   <td colname="col2"> <p> 有効にする <span class="codeph"> iconeffect</span> ：画像がリセット状態で、画像を操作するための使用可能なアクションを示す場合に、画像の上部に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> カウント</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> iconeffect</span>が表示され、再び表示される最大回数を指定します。 値<span class="codeph"> -1</span>は、アイコンが常に無限に再表示されることを示します。 </p> </td> 
+   <td colname="col2"> <p> 最大回数を指定します。 <span class="codeph"> iconeffect</span> が表示され、再度表示されます。 値： <span class="codeph"> -1</span> は、アイコンが無期限に常に再表示されることを示します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> フェード</span></span> </p> </td> 
    <td colname="col2"> <p>表示/非表示のアニメーションの時間を秒単位で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> iconeffect</span>が完全に表示されたままになる秒数を設定します。この秒数を超えると、自動的に非表示になります。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 <span class="codeph"> 0</span>に設定すると、自動非表示の動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p>秒数を設定します。 <span class="codeph"> iconeffect</span> は、自動的に非表示になる前に完全に表示されたままになります。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 設定 <span class="codeph"> 0</span> を指定すると、自動非表示の動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

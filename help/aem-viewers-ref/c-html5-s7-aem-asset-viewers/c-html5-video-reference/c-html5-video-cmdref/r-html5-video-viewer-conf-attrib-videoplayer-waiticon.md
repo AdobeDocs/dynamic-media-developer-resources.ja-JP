@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.waiticon
 description: ビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.waiticon
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c5061a5c-44d7-4b42-a062-5ee622829429
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 15%
+source-wordcount: '25'
+ht-degree: 20%
 
 ---
 

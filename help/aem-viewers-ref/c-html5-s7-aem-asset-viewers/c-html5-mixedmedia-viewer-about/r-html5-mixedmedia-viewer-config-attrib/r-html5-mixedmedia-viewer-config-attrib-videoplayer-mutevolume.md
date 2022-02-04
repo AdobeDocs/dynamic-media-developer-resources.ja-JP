@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: 混在メディアビデオビューアの設定属性。
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic，ビューア，SDK/API，混在メディアセット
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定すると、ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオも自動再生できます。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 次に設定した場合： <span class="codeph"> 1 </span> ボリュームはミュートされます。それ以外の場合は、ビデオはサウンドと共に再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオが自動再生される場合もあります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
