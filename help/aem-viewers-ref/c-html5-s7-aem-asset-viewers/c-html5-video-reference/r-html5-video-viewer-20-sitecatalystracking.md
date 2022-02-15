@@ -1,13 +1,13 @@
 ---
+title: Adobe Analytics追跡のサポート
 description: ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
-title: Adobe Analytics追跡のサポート
-feature: Dynamic Media Classic，ビューア，SDK/API，ビデオ
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 3%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 3%
 
 ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
-## 標準のトラッキング {#section-3b101fe30be943c1b679fd5c273569ca}
+## 標準の追跡 {#section-3b101fe30be943c1b679fd5c273569ca}
 
 ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
-追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
+追跡を有効にするには、適切な会社プリセット名を `config2` パラメーター。
 
-また、ビューアは、設定済みのImage Serverに対して、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求も送信します。
+また、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に 1 つの追跡 HTTP 要求が送信されます。
 
 ## カスタムトラッキング {#section-ab10bd7caf184721a366cf3953071934}
 
-サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+をサードパーティの分析システムと統合するには、 `trackEvent` ビューアのコールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -51,39 +51,39 @@ var videoViewer = new s7viewers.VideoViewer({
 });
 ```
 
-ビューアは、次のSDKユーザーイベントを追跡します。
+ビューアは、次の SDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアが最初に読み込まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> APIを使用して、ビューア内でアセットが入れ替わったとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアで <span class="codeph"> setAsset() </span> API </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>再生が開始されたとき。 </p> </td> 
+   <td colname="col2"> <p>再生が開始されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>再生が一時停止した。 </p> </td> 
+   <td colname="col2"> <p>再生が一時停止された。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>再生が停止した。 </p> </td> 
+   <td colname="col2"> <p>再生が停止しました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>再生が次のミリストンの1つに達する：0%、25%、50%、75%、100%です。 </p> </td> 
+   <td colname="col2"> <p>再生が次の 1 つのミリストーンに達しました。0%、25%、50%、75%、100%です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

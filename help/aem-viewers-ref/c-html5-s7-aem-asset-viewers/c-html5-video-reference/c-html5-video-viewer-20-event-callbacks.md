@@ -1,11 +1,11 @@
 ---
+title: イベントコールバック
 description: イベントコールバック
 solution: Experience Manager
-title: イベントコールバック
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
-source-git-commit: f4db71f503749f086c86353578afe9dc368d04ae
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

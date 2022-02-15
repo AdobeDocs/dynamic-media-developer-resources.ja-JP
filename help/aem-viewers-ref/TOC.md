@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップデバイスとタッチスクリーンデバイスで使用できるように Dynamic Media ビューアをカスタマイズします。インタラクティブな画像やビデオ、カルーセル、スピンセットなどを対象に含めます。
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -19,8 +19,8 @@ ht-degree: 6%
 + [同じサーバでの複数のビューアのインストール](t-installing-the-viewers.md)
 + ビューアリリースノート {#viewers-release-notes}
    + [ビューアリリースノート (5.16.1)](c-release-notes/c-rn-04-06-21.md)
-   + [ビューアリリースノート (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + アーカイブ {#archive}
+      + [ビューアリリースノート (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [ビューアリリースノート (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [ビューアリリースノート (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [ビューアリリースノート (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)

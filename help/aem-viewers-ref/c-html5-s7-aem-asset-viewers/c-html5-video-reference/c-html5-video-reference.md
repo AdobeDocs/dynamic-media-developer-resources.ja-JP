@@ -1,12 +1,12 @@
 ---
+title: ビデオ
 description: ビデオビューアは、H.264 形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生するビデオプレーヤーです。 Dynamic Mediaと共にDynamic Media ClassicまたはAdobe Experience Managerから配信されます。
 keywords: レスポンシブ
 solution: Experience Manager
-title: ビデオ
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    ビューアを表示するページに空の DIV 要素を追加します。 DIV 要素の ID は、後でビューア API に渡されるので、定義する必要があります。 DIV のサイズは CSS で指定されます。
 
-   プレースホルダー DIV は配置された要素で、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
+   プレースホルダ DIV は配置された要素です。つまり、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
 
    Internet Explorer で全画面表示機能が正しく機能することを確認します。 DOM 内に、プレースホルダー DIV よりも重ね順の高い要素が他にないことを確認します。
 
