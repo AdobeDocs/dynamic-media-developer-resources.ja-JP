@@ -1,21 +1,21 @@
 ---
-description: 画像サービングを使用するには、Dynamic Media Image Servingライセンスキーが必要です。画像サービングを使用する各システムにインストールする必要があります。
-solution: Experience Manager
 title: ライセンス
-feature: Dynamic Media Classic、SDK/API
+description: 画像サービングを使用するには、Dynamic Media画像サービングのライセンスキーが必要です。画像サービングを使用する各システムにインストールする必要があります。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dea93601-28f4-439d-9443-267bb8d8eefc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 # ライセンス{#licensing}
 
-画像サービングを使用するには、Dynamic Media Image Servingライセンスキーが必要です。画像サービングを使用する各システムにインストールする必要があります。
+画像サービングを使用するには、Dynamic Media画像サービングのライセンスキーが必要です。画像サービングを使用する各システムにインストールする必要があります。
 
-同様に、画像レンダリングを使用するには、Dynamic Media Image Renderingライセンスキーが必要です。 画像レンダリングは、画像サービングのライセンスなしで使用できます。また、その逆も可能です。
+同様に、画像レンダリングを使用するには、 Dynamic Media Image Rendering ライセンスキーが必要です。 画像レンダリングは、画像サービングのライセンスを持たずに使用することも、反対に使用することもできます。
 
-インストール手順には、必要なライセンスキーを取得してインストールする手順が含まれます。
+インストール手順には、必要なライセンスキーを取得してインストールする手順が含まれています。

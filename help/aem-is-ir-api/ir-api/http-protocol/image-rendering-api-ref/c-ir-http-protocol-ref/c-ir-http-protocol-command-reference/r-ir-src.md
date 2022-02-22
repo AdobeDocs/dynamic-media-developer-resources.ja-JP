@@ -1,22 +1,22 @@
 ---
-description: マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式、または1つまたは2つのイメージまたはマテリアルデータファイルとして、コンマで区切って指定します。
-solution: Experience Manager
 title: src
-feature: Dynamic Media Classic、SDK/API
+description: マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式で指定するか、1 つまたは 2 つのイメージまたはマテリアルデータファイルとして指定します。これらは、コンマで区切られます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
 # src{#src}
 
-マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式、または1つまたは2つのイメージまたはマテリアルデータファイルとして、コンマで区切って指定します。
+マテリアルファイル。 マテリアルデータは、単一のマテリアルカタログ参照の形式で指定するか、1 つまたは 2 つのイメージまたはマテリアルデータファイルとして指定します。これらは、コンマで区切られます。
 
-`src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedReqmaterialFile`*]`
+`src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
 `srcE= *`name`*`
 
@@ -29,23 +29,23 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> materialFile</span> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span> | <span class="varname"> imageFile</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> styleFile</span>|<span class="varname"> imageFile</span></span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;brace;'<span class="varname"> foreignReq</span>'&amp;rbrbrbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログID（<span class="codeph">属性：RootId</span>）。 </p></td> 
+  <td class="stentry"> <p>マテリアルカタログ ID (<span class="codeph"> attribute::RootId</span>) をクリックします。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>マテリアルカタログエントリ(<span class="codeph"> catalog::Id</span>)。 </p></td> 
+  <td class="stentry"> <p>素材カタログエントリ (<span class="codeph"> catalog::Id</span>) をクリックします。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>マテリアルスタイルファイル（<span class="filepath"> .vnc</span>または<span class="filepath"> .vnw</span>）。 </p></td> 
+  <td class="stentry"> <p>マテリアルスタイルファイル (<span class="filepath"> .vnc</span> または <span class="filepath"> .vnw</span>) をクリックします。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -57,11 +57,11 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>イメージレンダリングのリクエスト。 </p></td> 
+  <td class="stentry"> <p>画像レンダリングのリクエスト。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
-  <td class="stentry"> <p>外部サーバーにリクエストします。 </p></td> 
+  <td class="stentry"> <p>外部サーバーへのリクエスト。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
@@ -69,37 +69,37 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 索引</span> </p></td> 
-  <td class="stentry"> <p>埋め込みマテリアルの0を基準とするインデックス番号。 </p></td> 
+  <td class="stentry"> <p>埋め込みマテリアルの 0 を基準とするインデックス番号。 </p></td> 
  </tr> 
 </table>
 
-繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1つの画像が必要です。画像は、ファイルまたは埋め込み要求として指定できます。
+繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1 つの画像が必要です。画像は、ファイルまたは埋め込み要求として指定できます。
 
-キャビネットマテリアルにはキャビネットスタイルのファイル([!DNL .vnc])が必要です。このファイルはネストされた要求として指定できません。 テクスチャイメージファイルはキャビネット用にオプションで、指定した場合は、ファイルまたは埋め込み要求のいずれかになります。
+キャビネットのマテリアルにはキャビネットスタイルのファイル ( [!DNL .vnc]) で始まり、ネストされたリクエストとして指定することはできません。 テクスチャイメージファイルはキャビネット用のオプションで、指定した場合は、ファイルまたは埋め込み要求のどちらかです。
 
-窓の覆いのマテリアルには窓の覆いのスタイルファイル([!DNL .vnw])が必要です。これはネストされた要求としては指定できません。 テクスチャファイルはオプションで、指定する場合は、ファイルまたは埋め込み要求です。
+窓カバリングマテリアルには、窓カバリングスタイルファイル ( [!DNL .vnw]) で始まり、ネストされたリクエストとして指定することはできません。 テクスチャファイルはオプションで、指定した場合は、ファイルまたは埋め込み要求のどちらでもかまいません。
 
-画像レンダリングでは、マテリアルカタログ、カタログエントリ、データファイルを検索する際に、画像サービングと同じ規則が使用されます。 詳しくは、画像サービングのドキュメントの&#x200B;*`object`*&#x200B;データタイプの説明を参照してください。
+画像レンダリングでは、マテリアルカタログ、カタログエントリ、およびデータファイルを検索する際に、画像サービングと同じ規則が使用されます。 詳しくは、 *`object`* 詳しくは、画像サービングドキュメントのデータタイプを参照してください。
 
-*`materialFile`* は、に対する相対パスで `attribute::RootPath`す。
+*`materialFile`* 次に対する相対パスです： `attribute::RootPath`.
 
-*`foreignReq`* には、からの相対URLを指定できま `attribute::RootUrl`す。が設定されている場合は、絶対URLを `attribute::AllowDirectUrls` 指定できます。
+*`foreignReq`* 次に対する相対 URL を指定できます。 `attribute::RootUrl`、または `attribute::AllowDirectUrls` が設定されている。
 
-*`catId`*&#x200B;を指定しない場合は、セッションカタログが使用されます。
+If *`catId`* が指定されていない場合、セッションカタログが使用されます。
 
-`srcE=` ビネット `srcN=` に埋め込まれたマテリアルへのアクセスを提供します。
+`srcE=` および `srcN=` ビネットに埋め込まれたマテリアルにアクセスできます。
 
 ## サポートされているファイル形式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 画像レンダリングは、Dynamic Media画像サービングと同じソース画像形式をサポートします。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7 Pyramid TIFF(PTIFF)多解像度形式を使用する場合に最適です。 画像サービングには、サポートされている任意の形式からPTIFF画像を作成するImage Converter(IC)ユーティリティが含まれています。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Scene7 PTIFF(Pyramid Resolution) マルチ解像度形式を使用する場合に最も高いパフォーマンスを発揮します。 画像サービングには、サポートされる任意の形式から PTIFF 画像を作成する画像コンバーター (IC) ユーティリティが含まれています。
 
-サポートされているファイル形式の完全なリストについては、画像サービングのドキュメントのICユーティリティの説明を参照してください。
+サポートされるファイル形式の完全なリストについては、画像サービングドキュメントの IC ユーティリティの説明を参照してください。
 
 ## プロパティ {#section-e68d03788d534e2184147987d51dfd0f}
 
-マテリアル属性。 べた塗りを除くすべてのマテリアルに必須です（べた塗りのマテリアルには使用できません）。 すべての文字列では大文字と小文字が区別されます。 *`index`* は0以上に設定する必要があります。
+材料属性。 べた塗りを除くすべてのマテリアルに必須です（べた塗りのマテリアルには使用できません）。 すべての文字列では大文字と小文字が区別されます。 *`index`* 0 以上の値を指定する必要があります。
 
 ## 初期設定 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -107,11 +107,11 @@ ht-degree: 2%
 
 ## 例 {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-繰り返し可能なテクスチャを別々に持つ色付きキャビネット用のMSS:
+色彩を帯びたキャビネットの MSS で、繰り返し可能な別のテクスチャを使用：
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-同じマテリアルを、レコード&#39; `12-3-2`&#39;のマテリアルカタログ`'cat`&#39;に配置できます。
+同じ材料を材料カタログに含めることができます `'cat`「 」 （レコード「 」内） `12-3-2`&#39;:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ ht-degree: 2%
 
 ## 関連項目 {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[マテリアルカタログ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)、 [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)、 [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[マテリアルカタログ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

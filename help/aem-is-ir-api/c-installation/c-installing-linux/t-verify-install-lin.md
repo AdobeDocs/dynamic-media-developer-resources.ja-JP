@@ -1,22 +1,22 @@
 ---
-description: Linuxに画像サービングをインストールした後、インストールを確認します。
-solution: Experience Manager
 title: インストールの確認
-feature: Dynamic Media Classic、SDK/API
+description: Linux®に画像サービングをインストールした後、インストールを確認します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # インストールの確認{#verifying-the-installation}
 
-Linuxに画像サービングをインストールした後、インストールを確認します。
+Linux®に画像サービングをインストールした後、インストールを確認します。
 
-Image Serverは、Linuxデーモンとしてインストールされます。
+Image Server は、Linux®デーモンとしてインストールされます。
 
 **インストールを検証するには**
 
@@ -26,13 +26,14 @@ Image Serverは、Linuxデーモンとしてインストールされます。
 
    >[!NOTE]
    >
-   >これらのスクリプトを実行するには、root権限が必要です。
+   >これらのスクリプトを実行するには、ルート権限が必要です。
 
-1. 同じホストまたは別のホストでインターネットブラウザーを開き、デフォルトのサーバー応答を確認します。
+1. 同じホストまたは別のホストでインターネットブラウザーを開き、次の既定のサーバー応答を確認します。
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-応答で、「 `imageServer.` 」で始まる項目が存在することを確認します。これは、Platform ServerがImage Serverと正常に通信できたことを示します。
+応答内で、次で始まる項目が存在するかどうかを確認します： `imageServer`:Platform Server が Image Server と正常に通信できたことを示します。
+
 >追加の検証は、ドキュメントパッケージとデモパッケージのサンプルページ（インストールされている場合）を使用して実行できます。

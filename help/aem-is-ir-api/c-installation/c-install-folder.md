@@ -1,23 +1,23 @@
 ---
-description: 画像サービングのインストールフォルダー(install_folder)は、install_root/ImageServingです。
-solution: Experience Manager
 title: インストールフォルダー
-feature: Dynamic Media Classic、SDK/API
+description: 画像サービングのインストールフォルダー (install_folder) は、install_root/ImageServing です。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
 # インストールフォルダー{#install-folder}
 
-画像サービングのインストールフォルダー(install_folder)は、install_root/ImageServingです。
+画像サービングのインストールフォルダー (install_folder) は、install_root/ImageServing です。
 
-*[!DNL install_root]* デフォルトはWindows `C:\Program Files\Scene7` でに設定されます(インス *[!DNL install_root]* トール時に別のフォルダーを選択することもできます)。Linuxでは、*[!DNL install_root]*&#x200B;は常に[!DNL /usr/local/scene7]である必要があります（シンボリックリンクを使用できます）。
+*[!DNL install_root]* デフォルト： `C:\Program Files\Scene7` Windows の場合 ( *[!DNL install_root]* インストール時にフォルダを選択できます )。 Linux®では、 *[!DNL install_root]* は常に [!DNL /usr/local/scene7] （シンボリックリンクを使用できます）。
 
-このドキュメントでは、*[!DNL install_folder]*&#x200B;は「[!DNL ./]」で表される場合があります。
+このドキュメントでは、 *[!DNL install_folder]* は「 [!DNL ./]&#39;.
 
-UNIXではすべてのファイル・パスで大文字と小文字が区別され、Windowsでは大文字と小文字が区別されません。
+UNIX®ではすべてのファイル・パスで大文字と小文字が区別され、Windows では大文字と小文字が区別されません。

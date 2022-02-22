@@ -1,20 +1,20 @@
 ---
-description: テクスチャをシャープにします。 このマテリアルをレンダリングする際に適用するシャープを指定します。
-solution: Experience Manager
 title: 鋭い
-feature: Dynamic Media Classic、SDK/API
+description: テクスチャをシャープにします。 このマテリアルのレンダリング時に適用するシャープを指定します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '125'
 ht-degree: 6%
 
 ---
 
 # 鋭い{#sharp}
 
-テクスチャをシャープにします。 このマテリアルをレンダリングする際に適用するシャープを指定します。
+テクスチャをシャープにします。 このマテリアルのレンダリング時に適用するシャープを指定します。
 
 `sharp=0|1|2|3`
 
@@ -25,30 +25,30 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>通常のシャープニング（遅く）。 </p> </td> 
+  <td class="stentry"> <p>通常のシャープ（遅く） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0個の代替シャープニング（初期）。 </p> </td> 
+  <td class="stentry"> <p>0 個の代替シャープニング（早期）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>よりシャープにする（早期と後期）。 </p> </td> 
+  <td class="stentry"> <p>シャープ（早い方と遅い方）が多い。 </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` マテリアルのレンダリング後にシャープが適用されます。 `sharp=2` テクスチャを最初にスケーリングした後、シーンに変換する前に、シャープを適用します。 `sharp=3` 変換の前と後の両方にシャープを適用します。
+`sharp=1` マテリアルがレンダリングされた後にシャープを適用します。 `sharp=2` テクスチャを初めてスケーリングした後、ただしシーンに変換する前にシャープを適用します。 `sharp=3` 変換前と変換後の両方にシャープを適用します。
 
-シャープのアルゴリズムとシャープの量、およびその他のUSM（アンシャープマスク）パラメータは、ビネットが提供するデフォルトの材料テンプレートまたは`rs=`を使用して制御されます。
+シャープアルゴリズムとシャープの量、およびその他の USM（アンシャープマスク）のパラメータは、ビネットが提供するデフォルトのマテリアルテンプレートで制御するか、 `rs=`.
 
 ## プロパティ {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-マテリアル属性。 べた塗りマテリアルでは無視されます。
+材料属性。 べた塗りのマテリアルでは無視されます。
 
 ## 初期設定 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`（マテリアルがカタログエントリに基づく場合）、それ以外の場合 `attribute::Sharp`。
+`catalog::Sharp`マテリアルがカタログエントリに基づく場合は、それ以外の場合は `attribute::Sharp`.
 
 ## 関連項目 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)

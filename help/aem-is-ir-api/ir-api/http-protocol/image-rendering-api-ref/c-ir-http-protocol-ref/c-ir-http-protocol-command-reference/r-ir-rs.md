@@ -1,20 +1,20 @@
 ---
-description: 詳細なレンダリング設定。 現在の選択範囲をレンダリングする際に適用する詳細なレンダリング設定を指定します。
-solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic、SDK/API
+description: レンダリングの詳細設定。 現在の選択範囲のレンダリング時に適用する詳細なレンダリング設定を指定します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
 
 # rs{#rs}
 
-詳細なレンダリング設定。 現在の選択範囲をレンダリングする際に適用する詳細なレンダリング設定を指定します。
+レンダリングの詳細設定。 現在の選択範囲のレンダリング時に適用する詳細なレンダリング設定を指定します。
 
 `rs= *`val`*`
 
@@ -25,11 +25,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-レンダリングの外観を微調整するために使用します。 ビネットオーサリングツール(Dynamic Media Image Authoringパッケージの一部)のレンダリング機能を使用して、レンダリング設定文字列を作成します。
+レンダリングの外観を微調整するために使用します。 レンダリング設定文字列を作成するには、ビネットオーサリングツール (Dynamic Media Image Authoring パッケージの一部 ) のレンダリング機能を使用します。
 
 ## プロパティ {#section-9a2b2228789046658cb80eddf343af75}
 
-マテリアル属性。
+材料属性。
 
 ## 初期設定 {#section-f4751476c3134f16ac6283d6f0c46e47}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ## 例 {#section-47e4811882574441a4d517e42a35f352}
 
-画像オーサリングで何らかの実験を行った後、特定のアプリケーションおよびマテリアルに対して、アンシャープマスク(USM)が正しい量のシャープを提供すると判断されます。 USMを設定するレンダリング設定文字列は、このマテリアルで使用するように`rs=`コマンドにコピーされます。
+画像オーサリングで何らかの実験を行った後、アンシャープマスク (USM) によって、特定のアプリケーションおよびマテリアルに対して適切な量のシャープが提供されると判断されます。 USM を設定するレンダリング設定文字列が `rs=` このマテリアルで使用するコマンド：
 
 `…&rs=U2V20W50X2&…`
 

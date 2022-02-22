@@ -1,17 +1,17 @@
 ---
-description: Dynamic Media Image Serving APIリファレンスヘルプを参照してください。
-title: 画像サービングAPIリファレンス
-feature: Dynamic Media Classic、SDK/API
+title: 画像サービング API リファレンス
+description: Dynamic Media Image Serving API リファレンスヘルプを参照してください。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
 
-# 画像サービングAPIリファレンス{#image-serving-api-reference}
+# 画像サービング API リファレンス {#image-serving-api-reference}
 
-Dynamic Media Image Serving APIリファレンスヘルプを参照してください。
-
+Dynamic Media Image Serving API リファレンスヘルプを参照してください。

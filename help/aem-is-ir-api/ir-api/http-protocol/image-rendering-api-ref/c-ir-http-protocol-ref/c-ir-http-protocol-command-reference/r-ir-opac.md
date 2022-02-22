@@ -1,13 +1,13 @@
 ---
+title: opac
 description: 不透明度. マテリアルの不透明度を指定します。
 solution: Experience Manager
-title: opac
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 3%
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>マテリアルの不透明度（パーセント）0...100 </p> </td> 
  </tr> 
 </table>
 
 次のマテリアル/オブジェクトの組み合わせは、変数の不透明度をサポートしています。
 
-* テクスチャの重なり合うオブジェクトに適用された、べた塗りのテクスチャと繰り返し可能なテクスチャ。
-* 窓カバーフレームオブジェクトに適用される窓カバーマテリアル。
+* テクスチャの重なりオブジェクトに適用された、べた塗りのテクスチャと繰り返し可能なテクスチャ。
+* 窓被覆フレームオブジェクトに適用される窓被覆マテリアル。
 * テクスチャオブジェクトまたは壁オブジェクトに適用されるデカール。
 
-アルファチャンネルを持つイメージがマテリアルに含まれている場合、 `opac=`を使用してイメージを透明にできますが、不透明にすることはできません。
+マテリアルにアルファチャンネルを持つ画像が含まれる場合、 `opac=` を使用すると、画像がより透明になりますが、より不透明になりません。
 
 ## プロパティ {#section-352f7b82ede54159b6afb90ae4b559ec}
 
-マテリアル属性。 現在のオブジェクト選択またはマテリアルが不透明度をサポートしていない場合は無視されます。
+材料属性。 現在のオブジェクト選択またはマテリアルが不透明度をサポートしていない場合は無視されます。
 
 ## 初期設定 {#section-bd45105b1e614f96ad5d521e3ef65736}
 
-`opac=100`：完全に不透明なマテリアル（イメージにアルファチャンネルが含まれていない場合）。
+`opac=100`：完全に不透明なマテリアル（画像にアルファチャンネルが含まれていない場合）。

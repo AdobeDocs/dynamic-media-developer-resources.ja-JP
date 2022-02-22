@@ -1,9 +1,10 @@
 ---
-description: Dynamic Media Image Rendering APIリファレンスヘルプを参照してください。
-title: 画像レンダリングAPIリファレンス
-feature: null
-role: null
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: 画像レンダリング API リファレンス
+description: Dynamic Media画像レンダリング API リファレンスヘルプを参照してください。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
+role: Developer,User
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 0%
@@ -11,7 +12,6 @@ ht-degree: 0%
 ---
 
 
-# 画像レンダリングAPIリファレンス{#image-rendering-api-reference}
+# 画像レンダリング API リファレンス {#image-rendering-api-reference}
 
-Dynamic Media Image Rendering APIリファレンスヘルプを参照してください。
-
+Dynamic Media画像レンダリング API リファレンスヘルプを参照してください。

@@ -1,33 +1,33 @@
 ---
-description: 重なりオブジェクトを表示 現在の選択範囲で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
-solution: Experience Manager
 title: 表示
-feature: Dynamic Media Classic、SDK/API
+description: 重複オブジェクトを表示します。 現在の選択範囲内で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 8%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
 # 表示{#show}
 
-重なりオブジェクトを表示 現在の選択範囲で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
+重複オブジェクトを表示します。 現在の選択範囲内で、以前に非表示になっていたすべての重なりオブジェクト（窓の覆い枠オブジェクトを含む）を表示します。
 
 `Show[= *`val`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>無視。 </p></td> 
+  <td class="stentry"> <p>無視されました。 </p></td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-現在の選択範囲に重なりオブジェクトが含まれていない場合や、重なりオブジェクトが非表示の場合は無視されます。
+現在の選択に重なりオブジェクトが含まれていない場合や、重なりオブジェクトが非表示の場合は無視されます。
 
 ## 初期設定 {#section-04972797d24d4b9f93790a31dfaa4743}
 

@@ -1,20 +1,20 @@
 ---
-description: 返信画像をシャープにします。 オプションのシャープは、レンダリング画像がwid=またはhei=に基づいて拡大/縮小された後に適用される場合があります。
-solution: Experience Manager
 title: 鋭くする
-feature: Dynamic Media Classic、SDK/API
+description: 返信画像をシャープにします。 オプションのシャープは、レンダリング画像が wid=または hei=に基づいて拡大・縮小された後に適用される場合があります。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
 # 鋭くする{#sharpen}
 
-返信画像をシャープにします。 オプションのシャープは、レンダリング画像がwid=またはhei=に基づいて拡大/縮小された後に適用される場合があります。
+返信画像をシャープにします。 オプションのシャープは、レンダリング画像が wid=または hei=に基づいて拡大・縮小された後に適用される場合があります。
 
 `sharpen=0|1`
 
@@ -35,4 +35,4 @@ ht-degree: 10%
 
 ## 関連項目 {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) 、 [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

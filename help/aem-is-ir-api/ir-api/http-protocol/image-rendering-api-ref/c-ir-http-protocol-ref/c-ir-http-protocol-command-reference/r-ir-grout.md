@@ -1,50 +1,50 @@
 ---
-description: タイルグラウトの色と厚さ。 セラミックや天然石タイルのグラウトをシミュレートします。
-solution: Experience Manager
 title: グラウト
-feature: Dynamic Media Classic、SDK/API
+description: タイルグラウトの色と厚さ。 セラミックと天然石タイルのグラウトをシミュレートします。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
-# グラウト{#grout}
+# グラウト {#grout}
 
-タイルグラウトの色と厚さ。 セラミックや天然石タイルのグラウトをシミュレートします。
+タイルグラウトの色と厚さ。 セラミックと天然石タイルのグラウトをシミュレートします。
 
-grout= *`color`*[,*`width`*]
+グラウト= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color  </span> </span> </p> </td> 
-  <td class="stentry"> <p>グラウトの色（グレーまたはRGB）。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> カラー </span> </span> </p> </td>
+  <td class="stentry"> <p>グラウトの色 ( グレーまたはRGB)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-  <td class="stentry"> <p>グラウトの厚さ；シーンの座標単位（通常はインチ）（実数） </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
+  <td class="stentry"> <p>グラウトの厚さ；シーンの座標の単位（通常はインチ）（実数） </p> </td>
  </tr> 
 </table>
 
 グラウトの外観を最大限に制御するには、次の要件が適用されます。
 
-* タイルは四角または長方形でなければなりません。現時点では、他の図形はサポートされていません。
-* 画像には、1つのタイルのみを含める必要があります。
-* イメージ内の既定のグラウト（存在する場合）は、4つのエッジすべてで同じ厚さにする必要があります。
-* 既定のグラウトの厚さは、マテリアルカタログ( `catalog::GroutWidth` )で指定する必要があります。
+* タイルは四角形または長方形でなければなりません。現在、他の図形はサポートされていません。
+* 画像には 1 つのタイルのみを含める必要があります。
+* イメージ内の既定のグラウト（存在する場合）は、4 つのエッジすべてで同じ厚さにする必要があります。
+* 既定のグラウトの厚さは、材料カタログ ( `catalog::GroutWidth`) をクリックします。
 
 ## プロパティ {#section-de78b678245b4ffda48097c345949e77}
 
-マテリアル属性。 `*``*` colorは、RGBカラー値である必要があります。`*``*` widthは、0以上の実数にする必要があります。
+材料属性。 `*`カラー`*` RGBの色の値です。 `*`幅`*` は、0 以上の実数である必要があります。
 
-繰り返し= 4、5、7、8、9、14以上の場合や、繰り返し可能なテクスチャ以外のマテリアルに対して指定した場合は無視されます。
+繰り返し= 4、5、7、8、9、14 以上の場合、または繰り返し可能なテクスチャ以外のマテリアルに指定した場合は無視されます。
 
 ## 初期設定 {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-`grout=`を指定しない場合、イメージのグラウトは変更されません。 ` grout= *`color`*`を指定した場合、`*`width`*`はデフォルトで`catalog::GroutWidth`になります。
+If `grout=` が指定されていない場合、画像内のグラウトは変更されません。 If `grout= *`カラー`*` が指定されている場合、 `*`幅`*` デフォルト： `catalog::GroutWidth`.
 
 ## 関連項目 {#section-8d472906a44943f5a8557e98f2fbc71f}
 
