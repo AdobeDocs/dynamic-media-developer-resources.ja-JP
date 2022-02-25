@@ -1,38 +1,38 @@
 ---
-description: 基本ズームビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+description: 基本ズームビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 5a34ad67-3a4c-408c-8e20-bbab87bbd470
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 2%
 
 ---
 
 # setParam{#setparam}
 
-基本ズームビューアのJavaScript APIリファレンス。
+基本ズームビューアの JavaScript API リファレンス。
 
 ` setParam( *`名前、値`*)`
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションまたはソフトウェア開発キット修飾子です。 このパラメータは`init()`の前に呼び出されます。
+ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子のどちらかです。 このパラメーターは、 `init()`.
 
-ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
+ビューアの設定情報がで渡された場合は、このメソッドはオプションです。 `config` JSON オブジェクトをコンストラクターに渡します。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
+関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの名前。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名前 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> パラメーターの名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの値。値をパーセントでエンコードすることはできません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> パラメーターの値。 値をパーセントでエンコードすることはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

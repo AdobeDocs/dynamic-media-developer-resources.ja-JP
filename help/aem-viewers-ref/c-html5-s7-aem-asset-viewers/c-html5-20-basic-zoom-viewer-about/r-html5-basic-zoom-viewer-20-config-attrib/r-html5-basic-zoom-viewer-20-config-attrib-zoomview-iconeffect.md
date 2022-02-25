@@ -1,38 +1,38 @@
 ---
+title: ZoomView.iconeffect
 description: ZoomView.iconeffect
 solution: Experience Manager
-title: ZoomView.iconeffect
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: faec00b3-b981-4831-bc97-dff442389133
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`フェード`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 画像がリセット状態で、画像の操作に使用できるアクションがある場合に、IconEffectが画像の上部に表示されるようにします。 </p> </td> 
+   <td colname="col2"> <p> 画像がリセット状態で、画像を操作するために使用可能なアクションを示す場合に、IconEffect が画像の上部に表示されるようにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> IconEffectの表示および再表示の最大回数を指定します。 値<span class="codeph"> -1</span>は、アイコンが常に無限に再表示されることを示します。 </p> </td> 
+   <td colname="col2"> <p> IconEffect の表示および再表示の最大回数を指定します。 値： <span class="codeph"> -1</span> は、アイコンが無期限に常に再表示されることを示します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> フェード</span> </span> </p> </td> 
    <td colname="col2"> <p>表示/非表示のアニメーションの時間を秒単位で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>IconEffectが完全に表示された状態を、自動的に非表示にするまでの秒数を設定します。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 <span class="codeph"> 0</span>に設定すると、自動非表示の動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p>IconEffect が完全に表示されたまま、自動的に非表示になるまでの秒数を設定します。 つまり、フェードインアニメーションが完了してから、フェードアウトアニメーションが開始するまでの時間です。 設定 <span class="codeph"> 0</span> を指定すると、自動非表示の動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

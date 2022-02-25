@@ -1,32 +1,32 @@
 ---
-description: 基本ズームビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic，ビューア，SDK/API，ズーム
+description: 基本ズームビューアの JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: dae07170-24bb-4e8c-86d6-5313db33736f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-基本ズームビューアのJavaScript APIリファレンス。
+基本ズームビューアの JavaScript API リファレンス。
 
 ` setContainerId( *`containerId`*)`
 
-ビューアを挿入するDOMコンテナ（通常はDIV）のIDを設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、`init()`を実行する際にはコンテナが存在する必要があります。 `init()`の前に呼び出す必要があります。
+ビューアを挿入する DOM コンテナ（通常は DIV）の ID を設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 `init()` が実行されます。 の前に呼び出す必要があります。 `init()`.
 
-ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
+ビューアの設定情報がで渡された場合は、このメソッドはオプションです。 `config` JSON オブジェクトをコンストラクターに渡します。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}コン </span> テナのID。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナの ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
