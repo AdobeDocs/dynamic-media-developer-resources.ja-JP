@@ -1,11 +1,11 @@
 ---
+title: 情報パネルポップアップ
 description: 情報パネルポップアップは、Dynamic Media Classicで rollover_key プロパティが定義されている画像マップをユーザーがアクティブ化したとき、および情報パネル機能がビューアに対して適切に設定されている場合に、ビューア領域の中央に表示されます。
 solution: Experience Manager
-title: 情報パネルポップアップ
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 3%
