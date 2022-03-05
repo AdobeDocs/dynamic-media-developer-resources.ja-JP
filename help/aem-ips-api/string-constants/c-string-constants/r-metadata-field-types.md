@@ -1,20 +1,20 @@
 ---
-description: MetadataField/type、saveMetadataFieldParam/fieldType、およびcreateMetadataField/fieldTypeで使用されます。
+description: MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadataField/fieldType で使用されます。
 solution: Experience Manager
 title: メタデータフィールドタイプ
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
 # メタデータフィールドタイプ{#metadata-field-types}
 
-MetadataField/type、saveMetadataFieldParam/fieldType、およびcreateMetadataField/fieldTypeで使用されます。
+MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadataField/fieldType で使用されます。
 
 構文
 
@@ -22,7 +22,7 @@ MetadataField/type、saveMetadataFieldParam/fieldType、およびcreateMetadataF
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]:値とに初期化さ [!DNL `SingleFixedTag`] れた変更不可能な辞書を使用した場合の特 [!DNL `True`] 殊なケ [!DNL `False`]ース。
+* [!DNL `BooleanTag`]:～の特例 [!DNL `SingleFixedTag`] 値に初期化された変更不可能な辞書を使用 [!DNL `True`] および [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ MetadataField/type、saveMetadataFieldParam/fieldType、およびcreateMetadataF
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]:閉じた辞書の文字列値が0個以上です。辞書を変更できるのは管理者ユーザーのみです。
-* [!DNL `MultiTag`]:0個以上の文字列値。
-* [!DNL `SingleFixedTag`]:閉じた辞書の単一の文字列値。`setAssetMetadata`または`batchSetAssetMetadata`が辞書にない値で呼び出されると、エラーが返されます。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `MultiFixedTag`]:閉じた辞書から 0 個以上の文字列値を取得します。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `MultiTag`]:0 個以上の文字列値。
+* [!DNL `SingleFixedTag`]:閉じた辞書からの単一の文字列値。 If `setAssetMetadata` または `batchSetAssetMetadata` が辞書にない値で呼び出されると、フォルトが返されます。 辞書を変更できるのは管理者ユーザーのみです。
 
 * [!DNL `SingleTag`]:任意の単一文字列値。
 * [!DNL `String`]

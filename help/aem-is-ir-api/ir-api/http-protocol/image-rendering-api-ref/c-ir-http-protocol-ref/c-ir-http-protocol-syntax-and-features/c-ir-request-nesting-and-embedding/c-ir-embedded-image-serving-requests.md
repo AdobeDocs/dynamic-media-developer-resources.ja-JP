@@ -1,30 +1,30 @@
 ---
-description: Image Server(IS)要求は、マテリアルイメージとして使用できます。
+title: 埋め込み Image Server の要求
+description: Image Server(IS) 要求は、マテリアルイメージとして使用できます。
 solution: Experience Manager
-title: 埋め込み画像サーバーのリクエスト
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ece9738-45e0-43c0-ba1c-2a05ef1f39be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# 埋め込み画像サーバーのリクエスト{#embedded-image-server-requests}
+# 埋め込み Image Server の要求{#embedded-image-server-requests}
 
-Image Server(IS)要求は、マテリアルイメージとして使用できます。
+Image Server(IS) 要求は、マテリアルイメージとして使用できます。
 
-`src=`コマンドで、次のように要求を指定します。
+リクエストを `src=` コマンドを次のように指定します。
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-`is`トークンでは大文字と小文字が区別されます。
+この `is` トークンでは大文字と小文字が区別されます。
 
-ネストされたリクエストには、画像サービングのルートパス(通常は[!DNL http:// *[!DNL server]*/is/image/&quot;])を含めることはできませんが、前処理ルールトークンを含めることもできます。
+ネストされた要求に画像サービングのルートパスを含めることはできません ( 通常は [!DNL http:// *[!DNL server]*/is/image/"]) ですが、前処理ルールトークンを含めることができます。
 
-ネストされたリクエストで（リクエストURL、`catalog::Modifier`、`catalog::PostModifier`のいずれかで）指定された場合、次のISコマンドは無視されます。
+ネストされたリクエストで（リクエスト URL またはで）指定した場合、次の IS コマンドは無視されます。 `catalog::Modifier` または `catalog::PostModifier`):
 
 * `bgc=`
 * `fmt=`
@@ -35,8 +35,8 @@ Image Server(IS)要求は、マテリアルイメージとして使用できま�
 * `quantize=`
 * `req=`
 
-また、埋め込みISリクエストに適用される画像カタログの`attribute::MaxPix`と`attribute::DefaultPix`も無視されます。
+また、無視されます `attribute::MaxPix` および `attribute::DefaultPix` 埋め込み IS 要求に適用される画像カタログの
 
-ネストされたリクエストの結果イメージにマスク（アルファ）データが含まれる場合、常にマテリアルに渡されます。 不要なアルファを避けるには、べた塗りの背景画像レイヤーを使用します。
+ネストされたリクエストの結果イメージにマスク（アルファ）データが含まれる場合、そのイメージは常にマテリアルに渡されます。 不要なアルファを避けるには、べた塗りの背景画像レイヤーを使用します。
 
-埋め込みIS要求のイメージ結果は、必要に応じて`cache=on`を含めることでキャッシュできます。 デフォルトでは、中間データのキャッシュは無効になっています。 キャッシュは、中間画像が適切な期間内に別のリクエストで再利用されると予想される場合にのみ有効にする必要があります。 標準のサーバー側キャッシュ管理が適用されます。 データは可逆形式でキャッシュされます。
+埋め込まれた IS リクエストのイメージ結果は、必要に応じて `cache=on`. デフォルトでは、中間データのキャッシュは無効になっています。 キャッシュは、中間画像が別のリクエストで妥当な期間内に再利用される場合にのみ有効にする必要があります。 標準のサーバー側キャッシュ管理が適用されます。 データはロスレス形式でキャッシュされます。

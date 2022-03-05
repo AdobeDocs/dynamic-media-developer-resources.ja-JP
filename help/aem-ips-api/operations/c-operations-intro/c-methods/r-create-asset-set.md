@@ -1,24 +1,24 @@
 ---
-description: Image Serverに公開する未加工のセット定義文字列を持つ汎用アセットセットを作成します。
+description: 生のセット定義文字列を使用して汎用のアセットセットを作成し、Image Server に公開します。
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
 
 # createAssetSet{#createassetset}
 
-Image Serverに公開する未加工のセット定義文字列を持つ汎用アセットセットを作成します。
+生のセット定義文字列を使用して汎用のアセットセットを作成し、Image Server に公開します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-d670d3af552147199b65c7eb847544a3}
+## 認証済みユーザータイプ {#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ Image Serverに公開する未加工のセット定義文字列を持つ汎用�
 
 ## パラメータ {#section-3580b586296e42a5b21426085b1bb72d}
 
-**入力(createAssetSet)**
+**入力 (createAssetSet)**
 
 <table id="table_2C70C33A127242FC828FCD8EC852E1EC"> 
  <thead> 
@@ -42,60 +42,60 @@ Image Serverに公開する未加工のセット定義文字列を持つ汎用�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> アセットセットを含む会社のハンドル。 </td> 
+   <td colname="col4"> アセットセットを含む会社へのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 新しいアセットセットが作成されるフォルダーへのハンドル。 </td> 
+   <td colname="col4"> 新しいアセットセットが作成されるフォルダーのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> アセット名。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> アセットセットタイプに対してクライアントが作成した一意の識別子。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらは、対象のビューアで指定された形式に解決する必要があります。 </p> </td> 
+   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらは、対象のビューアで指定された形式に解決される必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPSはセットが参照する最初の画像アセットを使用しようとします。 </td> 
+   <td colname="col4"> 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPS はセットが参照する最初の画像アセットを使用しようとします。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinitionの代替関数**
+**setDefinition の代替関数**
 
-カタログの参照またはパブリッシュ時に解決される行で置換関数を指定できます。 置換文字列の形式は`${<substitution_func>}`です。 使用可能な関数を以下に列挙します。
+カタログの参照または公開時に解決される行で置換関数を指定できます。 代替文字列の形式は `${<substitution_func>}`. 使用可能な関数を以下に列挙します。
 
 >[!NOTE]
 >
->パラメーターリストのハンドルリテラルは、角括弧`([])`で囲む必要があります。 置換文字列の外にあるすべてのテキストは、解決時に出力文字列に字句でコピーされます。
+>パラメーターリストのハンドルリテラルは、角括弧で囲む必要があります `([])`. 置換文字列以外のすべてのテキストは、解決時に出力文字列にそのままコピーされます。
 
 | **置換関数** | **戻り値** |
 |---|---|
 | `getFilePath([asset_handle>])` | アセットのプライマリソースファイルパス。 |
-| `getCatalogId([<asset_handle>])` | アセットのカタログID。 |
+| `getCatalogId([<asset_handle>])` | アセットのカタログ ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | アセットのメタデータ値。 |
-| `getThumbCatalogId([<asset_handle>])` | アセットのカタログID（画像ベースのアセットのみ）。関連付けられたサムアセットのカタログID（他のアセットの場合）。 関連するサムアセットがない場合、この関数は空の文字列を返します。 |
+| `getThumbCatalogId([<asset_handle>])` | アセットのカタログ ID（画像ベースのアセットのみ）。関連付けられたサムアセットのカタログ ID（他のアセットの場合）。 関連するサムアセットが使用できない場合、この関数は空の文字列を返します。 |
 
-**メディアsetDefinition文字列のサンプル**
+**サンプルのメディア setDefinition 文字列**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
@@ -108,7 +108,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
 ```
 
-**出力(createAssetSet)**
+**出力 (createAssetSet)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

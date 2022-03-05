@@ -1,30 +1,30 @@
 ---
-description: 管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者情報などがあります。
+description: 管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 7%
+source-wordcount: '281'
+ht-degree: 8%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者情報などがあります。
+管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
 
 構文
 
-## 許可されたユーザーの種類 {#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 認証済みユーザータイプ {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
 ## パラメータ {#section-f8260bc8dd0a4570bc7f714f81ab975f}
 
-**入力(createMetadataFieldParam)**
+**入力 (createMetadataFieldParam)**
 
 <table id="table_E5B249BBED3B4D2F9CEE2CCF27472D1B"> 
  <thead> 
@@ -49,7 +49,7 @@ ht-degree: 7%
    <td colname="col4"> アセットタイプ. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 作成するメタデータフィールドの名前。 </td> 
@@ -64,19 +64,19 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>作成するメタデータフィールドのデフォルト値（例：<span class="codeph"> Scene 7</span>）。 </p> <p>デフォルト値はタグフィールドタイプではサポートされていないので、省略する必要があります。 タグフィールドタイプに空でないデフォルト値を指定すると、フォルトが返されます。 </p> </td> 
+   <td colname="col4"> <p>作成するメタデータフィールドのデフォルト値 ( 例： <span class="codeph"> Scene7</span>) をクリックします。 </p> <p>デフォルト値はタグフィールドタイプではサポートされておらず、省略する必要があります。 タグフィールドタイプに空でないデフォルト値が指定されている場合は、fault が返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> IPSシステム固有のメタデータを非表示または公開します。 </td> 
+   <td colname="col4"> IPS システム固有のメタデータを非表示または公開します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すブール型フラグです。 </p> <p>true に設定した場合、不正な値が <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -87,15 +87,15 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-**出力(createMetadataFieldReturn)**
+**出力 (createMetadataFieldReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | はい | 新しいメタデータフィールドへのハンドル。 |
+| `*`fieldHandle`*` | `xsd:string` | はい | 新しいメタデータフィールドのハンドル。 |
 
 ## 例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-このコードサンプルは、`createMetadataField`という名前の文字列タイプメタデータフィールドを作成します。 応答は、ハンドルを新しいメタデータフィールドに返します。
+このコードサンプルは、という名前の文字列タイプメタデータフィールドを作成します。 `createMetadataField`. 応答は、ハンドルを新しいメタデータフィールドに返します。
 
 **リクエスト**
 

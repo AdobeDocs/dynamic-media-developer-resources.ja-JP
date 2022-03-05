@@ -1,35 +1,35 @@
 ---
+title: カスタム変数
 description: リクエストのクエリ部分とビネット修飾子文字列には、ユーザ定義変数を含めることができます。
 solution: Experience Manager
-title: カスタム変数
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # カスタム変数{#custom-variables}
 
-requestsとvignette::Modifier文字列のクエリ部分には、ユーザ定義変数を含めることができます。
+requests と vignette::Modifier 文字列の query 部分には、ユーザ定義変数を含めることができます。
 
-` $ *[!DNL name]*= *[!DNL value]*`
+`$ [!DNL name] = [!DNL value]`
 
-** *[!DNL name]* **変数名。 「$.」を除く、任意の英字、数字、および安全な文字の組み合わせで構成することができます。
+`[!DNL name]`  — 変数名。 英字、数字、安全な文字の組み合わせで構成することができます ( `$`.
 
-** *[!DNL value]* **変数の設定先の値（文字列）。
+`[!DNL value]`  — 変数を設定する値（文字列）。
 
-変数は、上記の構文を使用して、他のサーバーコマンドと同様に定義されます。 変数を参照する前に、変数を定義する必要があります。 `vignette::Modifier`で定義された変数はURLリクエストで参照でき、逆も可能です。
+変数は、上記の構文を使用して、他のサーバーコマンドと同様に定義されます。 変数を参照する前に、変数を定義する必要があります。 で定義される変数 `vignette::Modifier` は URL リクエストで参照することも、逆に参照することもできます。
 
 >[!NOTE]
 >
->*[!DNL value]* は、安全なHTTP送信を実現するために、1パスでURLエンコードする必要があります。*[!DNL value]*&#x200B;がHTTP経由で再送信される場合は、二重エンコーディングが必要です。 これは、*[!DNL value]*&#x200B;がネストされた外部要求に置き換えられる場合に発生します。
+>`[!DNL value]` は、安全な HTTP 送信を目的として、1 パスで URL エンコードする必要があります。 次の場合は二重エンコーディングが必要です `[!DNL value]` は、HTTP を介して再送信されます。 この状況は、 `[!DNL value]` は、ネストされた外部リクエストに置き換えられます。
 
-変数は、コマンド値の任意の場所に変数名（先頭と末尾の$で囲む）を埋め込むことで参照されます。 例えば、コマンド名の後の「=」と、後続の「&amp;」またはリクエストの最後の間。 サーバは、$ *[!DNL name]*$を&#x200B;*[!DNL string]*&#x200B;に置き換えます。 コマンド名（コマンドの等号の前）と要求のパス部分で$ *[!DNL name]*$が存在する場合は、置換は行われません。
+変数は、変数名を埋め込むことで参照されます ( 先頭と末尾に `$`) をコマンド値の任意の場所に配置します。 例えば、 `=`  コマンド名とその後の `&` またはリクエストの終わり。 サーバは、このような `$ [!DNL name]$` と `[!DNL string]`. 置換は `$ [!DNL name]$` コマンド名（コマンドの等号の前）とリクエストのパス部分。
 
-カスタム変数はネストできません。 *[!DNL string]*&#x200B;内の$ *[!DNL name]*$は置き換えられません。 例えば、要求フラグメント`$var2=apple&$var1=my$var2$tree&text=$var1$`は`text=my$var2$tree`に解決されます。
+カスタム変数はネストできません。 次のいずれかの `$ [!DNL name]$` 範囲 `[!DNL string]` は置換されません。 例えば、要求フラグメントなどです。 `$var2=apple&$var1=my$var2$tree&text=$var1$` 解決済み `text=my$var2$tree`.
 
-$は予約文字ではありません。リクエスト内で別の場合に発生する可能性があります。 例えば、`src=my$texture$file.tif`は有効なコマンドです（[!DNL my$texture$file.tif]という名前のマテリアルカタログエントリまたはテクスチャファイルが存在する場合）が、`wid=$number$`は有効ではありません。`wid=`には数値引数が必要です。
+`$` は予約文字ではありません。リクエストで別の場合に発生する可能性があります。 例： `src=my$texture$file.tif` は有効なコマンドです ( マテリアルカタログのエントリまたはテクスチャファイルが `[!DNL my$texture$file.tif]` が存在する )、 `wid=$number$` がではないのは、 `wid=` には数値引数が必要です。

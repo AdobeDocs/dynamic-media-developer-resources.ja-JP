@@ -1,86 +1,86 @@
 ---
-description: ソースオブジェクト指定子。 画像、SVG、ICCプロファイルオブジェクトは、画像カタログエントリまたは相対ファイルパスとして指定できます
+description: ソースオブジェクト指定子。 画像、SVG、ICC プロファイルオブジェクトは、画像カタログエントリまたは相対ファイルパスとして指定できます
 solution: Experience Manager
 title: オブジェクト
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
 
 # オブジェクト{#object}
 
-ソースオブジェクト指定子。 画像、SVG、ICCプロファイルオブジェクトは、画像カタログエントリまたは相対ファイルパスとして指定できます
+ソースオブジェクト指定子。 画像、SVG、ICC プロファイルオブジェクトは、画像カタログエントリまたは相対ファイルパスとして指定できます
 
-`*``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
+`*`object`*[/]{[ *`rootId`*/] *`objId`*}| *`パス`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId  </span> </span> </p> </td> 
-  <td class="stentry"> <p>画像カタログの名前( <span class="codeph"> attribute::RootId </span>) </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId </span> </span> </p> </td> 
+  <td class="stentry"> <p>画像カタログの名前 ( <span class="codeph"> attribute::RootId </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId  </span> </span> </p> </td> 
-  <td class="stentry"> <p>指定した、メインまたはデフォルトの画像カタログ内の画像、SVG、テンプレートまたはICCプロファイルレコードのid </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span> </span> </p> </td> 
+  <td class="stentry"> <p>指定された、メインまたはデフォルトの画像カタログ内の画像、SVG、テンプレート、または ICC プロファイルレコードの id </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> パス  </span> </span> </p> </td> 
-  <td class="stentry"> <p>相対的な画像、マスク、またはICCプロファイルのファイルパスと名前 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> パス </span> </span> </p> </td> 
+  <td class="stentry"> <p>相対的な画像、マスク、または ICC プロファイルのファイルパスと名前 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> object  </span> </span> </p> </td> 
-  <td class="stentry"> <p>は、メインURLパス、または<span class="codeph"> src= </span>、<span class="codeph"> mask= </span>、<span class="codeph"> icc= </span>のいずれかのコマンドで使用されます。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> object </span> </span> </p> </td> 
+  <td class="stentry"> <p>は、メイン URL パスまたは <span class="codeph"> src= </span>, <span class="codeph"> mask= </span>または <span class="codeph"> icc= </span> command </p> </td> 
  </tr> 
 </table>
 
-*`rootId`* は、画像カタログを識別します。（詳しくは、[画像カタログ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照してください）。 URLパスで&#x200B;*`rootId`*&#x200B;を指定した場合、そのカタログがこのリクエストの&#x200B;*メインカタログ*&#x200B;になります。 それ以外の場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
+*`rootId`* は、画像カタログを識別します。 ( [画像カタログ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) （詳細は） If *`rootId`* が URL パスで指定されている場合、そのカタログは *メインカタログ* を設定します。 それ以外の場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
 
-サーバーは、最初、`src=`、`mask=`、`icc=`の各コマンドで&#x200B;*`rootId`*&#x200B;が省略されたと想定し、メインカタログ内のカタログエントリの検索を試みます。 サーバーは、*`object`*&#x200B;文字列全体を&#x200B;*`objId.`*&#x200B;として使用しようとします
+サーバーは最初に、 *`rootId`* が `src=`, `mask=`、および `icc=` コマンドおよびを使用すると、メインカタログ内のカタログエントリを検索します。 サーバーは、 *`object`* 文字列 *`objId.`*
 
-カタログエントリが見つかった場合は、そのエントリが使用されます。それ以外の場合は、サーバーは次に画像カタログの&#x200B;*`rootId`*&#x200B;の照合を試みます。 カタログが特定された場合は、*`objId`*&#x200B;を検索します。 とが見つかった場合は、それが使用されます。
+カタログエントリが見つかった場合は、そのエントリが使用されます。それ以外の場合、サーバは次に *`rootId`* 画像カタログの カタログが特定された場合は、そのカタログが検索されます *`objId`*. とが見つかった場合は、それが使用されます。
 
-それ以外の場合、*`object`*&#x200B;は明示的なファイルパスと見なされます。 この場合、`attribute::FullMatch`がメインカタログに設定されていると、このオブジェクトに対してカタログは無視され、代わりにデフォルトのカタログが使用されます。 `attribute::FullMatch`が設定されていない場合は、メインカタログを使用してさらに処理します。
+それ以外の場合は、 *`object`* は、明示的なファイルパスと見なされます。 この場合、 `attribute::FullMatch` がメインカタログに設定されている場合、このオブジェクトではカタログは無視され、代わりにデフォルトのカタログが使用されます。 If `attribute::FullMatch` が設定されていない場合、メインカタログを使用して以降の処理がおこなわれます。
 
-*`rootId`*&#x200B;と&#x200B;*`objId`*&#x200B;の両方で大文字と小文字が区別されます。 *`path`* は、UNIXでのみ大文字と小文字が区別されます。
+両方 *`rootId`* および *`objId`* は大文字と小文字を区別します。 *`path`* は、UNIX でのみ大文字と小文字が区別されます。
 
-先頭に「/」を指定した場合、メインカタログではなくデフォルトのカタログが検索されます。 これは、明示的なパスにメインカタログの`attribute::RootPath`ではなく`default::RootPath`が必要な場合に主に役立ちますが、デフォルトカタログ内のエントリにアクセスするためにも使用できます。これは、メインカタログ内のエントリで上書きされます。
+先頭に `/` を指定すると、デフォルトのカタログがメインカタログではなく検索されます。 これは、主に明示的なパスで `default::RootPath` メインカタログの `attribute::RootPath`を使用することもできますが、デフォルトのカタログ内のエントリにアクセスするために使用することもできます。これは、メインカタログ内のエントリによって上書きされます。
 
-*`path`*&#x200B;を物理ファイルパスに変換する方法について詳しくは、『*サーバ設定ガイド*』の&#x200B;*コンテンツの管理*&#x200B;を参照してください。
+参照： *コンテンツの管理* 内 *サーバー設定ガイド* 詳細は、 *`path`* は物理ファイルパスに変換されます。
 
 >[!NOTE]
 >
->*`object.`*&#x200B;では、コンマ&#39;,&#39;文字は使用できません
+>では、コンマ「,」文字は使用できません *`object.`*
 
 ## サポートされる画像ファイル形式 {#section-12c85aead78e4f759856ca9ff10637d7}
 
-サポートされているファイル形式の完全なリストについては、IC(Image Converter)ユーティリティの説明を参照してください。
+サポートされるファイル形式の完全なリストについては、IC（画像コンバータ）ユーティリティの説明を参照してください。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic Media Pyramid TIFF(PTIF)マルチ解像度形式を使用する場合に最適です。 ICユーティリティは、サポートされている任意のイメージ形式からPTIFイメージを作成するために使用します。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic Media Pyramid ResolutionTIFF(PTIF) マルチ解像度形式を使用する場合に最も高いパフォーマンスを発揮します。 IC ユーティリティは、サポートされている任意の画像形式から PTIF 画像を作成するために使用します。
 
 ## 例 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
-**2つの異なる画像カタログ内の画像とICCプロファイルへのアクセス**
+**2 つの異なる画像カタログ内の画像と ICC プロファイルへのアクセス**
 
-「 [!DNL myCatalog] 」と識別される画像カタログの画像「 [!DNL myImage] 」を取得し、画像カタログ「 [!DNL myProfiles] 」にあるICCプロファイル「 [!DNL sRGB] 」を添付します。
+画像「 」を取得 [!DNL myImage]&#39; （画像カタログ内）が「 [!DNL myCatalog]「 」と ICC プロファイル「 」を添付 [!DNL sRGB]「 」 （「 」という名前の画像カタログ内） [!DNL myProfiles]&#39;:
 
 ` http:// *`server`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
 レイヤーを使用した単一の画像カタログの使用
 
-**3つのレイヤーで構成され、すべて「 」から取得される単純な複合イメージを作 [!DNL myCatalog]成します。**
+**3 つのレイヤーで構成され、すべて「 」から取得した単純な合成イメージを作成します。 [!DNL myCatalog]&#39;:**
 
 ` http:// *`server`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
 **カタログを使用して属性を提供しながら、画像ファイルに直接アクセス**
 
-`myImageCatalog`で設定したデフォルトのjpg属性を使用して、[!DNL my/image/path/myImage.tif]にアクセスします。
+アクセス [!DNL my/image/path/myImage.tif]で設定したデフォルトの jpg 属性を使用 `myImageCatalog`:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 
 ## 関連項目 {#section-b6eccefad63f441d922699c4aba58fc9}
 
-[ICユーティリティ](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b)、 [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)、 [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)、 [attribute::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
+[IC ユーティリティ](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [attribute::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)

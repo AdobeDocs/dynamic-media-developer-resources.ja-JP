@@ -1,24 +1,24 @@
 ---
-description: このマテリアルカテゴリには、壁、木工、トリム、自動車用の塗料のほか、テクスチャが不要なその他の用途が含まれます。
-solution: Experience Manager
 title: べた塗り
-feature: Dynamic Media Classic、SDK/API
+description: このマテリアルカテゴリには、壁、木工、トリム、自動車、およびテクスチャが不要なその他のアプリケーション用の塗料が含まれます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
 # べた塗り{#solid-colors}
 
-このマテリアルカテゴリには、壁、木工、トリム、自動車用の塗料のほか、テクスチャが不要なその他の用途が含まれます。
+このマテリアルカテゴリには、壁、木工、トリム、自動車、およびテクスチャが不要なその他のアプリケーション用の塗料が含まれます。
 
-例えば、べた塗りを使用して、テクスチャの変更が不要なアパレルアイテムの色を変更したり、自動車内装のプラスチックトリムやカーペットの色を設定したりできます。 MSSに`src=`値が存在しない場合、マテリアルはソリッドカラーと見なされます。
+たとえば、テクスチャの変更が不要な衣料品の色を変更する場合や、自動車の内装のプラスチックトリムやカーペットの色を設定する場合には、ソリッドカラーを使用します。 マテリアルは、 `src=` の値が MSS に存在する。
 
-すべてのレンダリング可能なオブジェクトに、べた塗りを適用できます。
+すべてのレンダリング可能なオブジェクトにソリッドカラーを適用できます。
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
@@ -30,8 +30,8 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
-   <td colname="col2"> <p> グレーまたはRGBカラー値必須。 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
+   <td colname="col2"> <p> グレーまたはRGBのカラー値必須 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
  </tbody> 

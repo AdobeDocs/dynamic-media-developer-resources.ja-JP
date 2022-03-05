@@ -1,20 +1,20 @@
 ---
-description: color=属性とbgc=属性の色の値は、HTMLに似た、10進数、コンマ区切りのコンポーネント値のリスト、または16進表記を使用して指定できます。
-solution: Experience Manager
 title: カラー値
-feature: Dynamic Media Classic、SDK/API
+description: color=および bgc=属性の色の値は、10 進数、コンマ区切りのコンポーネント値のリスト、またはHTMLと同様の 16 進表記を使用して指定できます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 12%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
 # カラー値{#color-values}
 
-color=属性とbgc=属性の色の値は、HTMLに似た、10進数、コンマ区切りのコンポーネント値のリスト、または16進表記を使用して指定できます。
+のカラー値 `color=` および `bgc=` 属性は、10 進数、コンマ区切りのコンポーネント値のリスト、または 16 進表記を使用して指定できます。HTMLと同様です。
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -23,21 +23,21 @@ color=属性とbgc=属性の色の値は、HTMLに似た、10進数、コンマ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>赤、緑、青、グレー</i> </p></td> 
-  <td class="stentry"> <p>カラーコンポーネントの値（0 ～ 255、10進整数）。 </p></td> 
+  <td class="stentry"> <p>カラーコンポーネント値（0...255、10 進整数）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>6桁のパック16進数RGBカラー値(RRGGBB)。 </p></td> 
+  <td class="stentry"> <p>6 桁のパック 16 進RGBカラー値 (RRGGBB)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
-  <td class="stentry"> <p>パック2桁の16進グレーカラー値(0...FF)。 </p></td> 
+  <td class="stentry"> <p>パック 2 桁の 16 進数グレーカラー値 (0...FF)。 </p></td> 
  </tr> 
 </table>
 
 ## 例 {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-有効なカラー指定子と、対応するRGBカラー値解釈の例を以下に示します。
+有効な色指定子と、それに対応するRGBの色値解釈の例を以下に示します。
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
@@ -60,4 +60,4 @@ color=属性とbgc=属性の色の値は、HTMLに似た、10進数、コンマ�
 
 ## 関連項目 {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0),  [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [グラウト=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)

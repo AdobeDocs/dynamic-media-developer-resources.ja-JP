@@ -1,32 +1,32 @@
 ---
-description: IPS WebサービスAPIで処理される一般的な操作パラメーターについて説明します。
+description: IPS Web サービス API で処理される一般的な操作パラメーターについて説明します。
 solution: Experience Manager
 title: 操作メソッド
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # 操作メソッド{#operations-methods}
 
-この節では、IPS WebサービスAPIで処理される一般的な操作パラメーターについて説明します。
+この節では、IPS Web サービス API で処理される一般的な操作パラメーターについて説明します。
 
-各操作パラメーターの詳細については、[操作パラメーター](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)を参照してください。
+各操作パラメータの詳細については、 [操作のパラメーター](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
 ## ハンドル：について {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
-特定のAPI操作で返される参照IPSオブジェクトを処理します。 ハンドルを後続の操作呼び出しにパラメーターとして渡すこともできます。 ハンドルは、文字列データ型(`xsd:string`)です。
+特定の API 操作で返された参照 IPS オブジェクトを処理します。 ハンドルを後続の操作呼び出しにパラメーターとして渡すこともできます。 ハンドルは文字列データ型 ( `xsd:string`) をクリックします。
 
-ハンドルは、単一のアプリケーションセッション中にのみ使用することを意図しています。 さらに、IPSリリース間で形式が変わる可能性があるので、ハンドルは持続的に設定する必要があります。 インタラクティブアプリケーションを書き込む場合、セッションタイムアウトを実装し、特にIPSのアップグレード後に、セッション間のすべてのハンドルを破棄します。 非インタラクティブアプリケーションを書き込む場合は、適切な操作を呼び出して、アプリケーションが実行されるたびにハンドルを取得します。 以下のJava/Axis2コードサンプルは、正しくないコード実行を示しています。
+ハンドルは、単一のアプリケーションセッション中にのみ使用されます。 さらに、IPS リリース間で形式が変わる可能性があるので、処理を永続的にする必要があります。 インタラクティブアプリケーションを書き込む場合、セッションタイムアウトを実装し、特に IPS のアップグレード後に、セッション間のすべてのハンドルを破棄します。 非インタラクティブアプリケーションを作成する場合は、適切な操作を呼び出して、アプリケーションが実行されるたびにハンドルを取得します。 以下の Java/Axis2 コードのサンプルでは、コードの実行が正しく正しくなく正しく行われています。
 
 **不正なハンドルコード**
 
-このコードサンプルは、会社のハンドルにハードコードされた値(555)が含まれているので、正しくありません。
+このコードサンプルは、会社のハンドルにハードコードされた値 (555) が含まれているので、正しくありません。
 
 ```
 SearchAssetsParam searchParam = new SearchAssetsParam(); searchParam.setCompanyHandle("555");// INCORRECT 
@@ -36,7 +36,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **正しいハンドルコード**
 
-このコードサンプルは、有効なハンドルを返すために`getCompanyInfo`を呼び出すので、正しいものです。 ハードコードされた値に依存しません。 必要なハンドルを返すには、このメソッドまたはその他の同等のIPS APIを使用します。
+このコードサンプルは、 `getCompanyInfo` 有効なハンドルを返します。 ハードコードされた値に依存しません。 必要なハンドルを返すには、このメソッドまたは他の同等の IPS API を使用します。
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -51,15 +51,15 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-ほとんどの操作では、`companyHandle`パラメーターを渡して会社のコンテキストを設定する必要があります。 会社のハンドルは、`getCompanyInfo`、`addCompany`、`getCompanyMembership`などの特定の操作から返されるポインタです。
+ほとんどの操作では、 `companyHandle` パラメーター。 会社のハンドルは、 `getCompanyInfo`, `addCompany`、および `getCompanyMembership`.
 
 **userHandle**
 
-`userHandle`パラメーターは、特定のユーザーを対象とする操作のオプションパラメーターです。 デフォルトでは、これらの操作は呼び出し元のユーザー（認証用に資格情報が渡されるユーザー）をターゲットにします。 ただし、適切な権限を持つ管理者ユーザーは、別のユーザーを指定できます。 例えば、`setPassword`操作では通常、認証済みユーザーのパスワードが設定されますが、管理者は`userHandle`パラメーターを使用して、別のユーザーのパスワードを設定できます。
+この `userHandle` parameter は、特定のユーザーを対象とする操作のオプションのパラメータです。 デフォルトでは、これらの操作は呼び出し元のユーザー（認証用に資格情報が渡されたユーザー）をターゲットにします。 ただし、適切な権限を持つ管理者ユーザーは、別のユーザーを指定できます。 例えば、 `setPassword` operation は通常、認証済みユーザーのパスワードを設定しますが、管理者は `userHandle` パラメーターを使用して、別のユーザーのパスワードを設定します。
 
-会社コンテキスト（ `companyHandle`パラメーターを使用）を必要とする操作の場合、認証済みユーザーとターゲットユーザーの両方が、指定した会社のメンバーである必要があります。 会社のコンテキストを必要としない操作の場合、認証済みユーザーとターゲットユーザーの両方が、少なくとも1つの共通会社のメンバーである必要があります。
+会社のコンテキストを必要とする操作の場合 ( `companyHandle` パラメーター ) の場合、認証済みユーザーとターゲットユーザーの両方が、指定した会社のメンバーである必要があります。 会社のコンテキストを必要としない操作の場合、認証済みユーザーとターゲットユーザーの両方が、少なくとも 1 つの共通の会社のメンバーである必要があります。
 
-次の操作で、ユーザーハンドルを取得できます。
+次の操作でユーザーハンドルを取得できます。
 
 * `getUsers`
 * `getAllUsers`
@@ -68,15 +68,15 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 * `getGroupMembers`
 * `addUser`
 
-**accessUserHandleおよびaccessGroupHandle**
+**accessUserHandle および accessGroupHandle**
 
-デフォルトでは、アクセス権限（読み取り、書き込み、削除）を必要とする操作は、呼び出し元ユーザーの権限コンテキストで動作します。 特定の操作では、`accessUserHandle`または`accessGroupHandle`パラメーターを使用してこのコンテキストを変更できます。 `accessUserHandle`パラメーターを使用すると、管理者は別のユーザーとして実行できます。 `accessGroupHandle`パラメーターを使用すると、呼び出し元は特定のユーザーグループのコンテキストで操作できます。
+デフォルトでは、アクセス権限（読み取り、書き込み、削除）を必要とする操作は、呼び出し元ユーザーの権限コンテキストで動作します。 特定の操作を行うと、 `accessUserHandle` または `accessGroupHandle` パラメーター。 この `accessUserHandle` パラメーターを使用すると、管理者は別のユーザーを装うことができます。 この `accessGroupHandle` パラメータを使用すると、呼び出し元は特定のユーザーグループのコンテキストで操作できます。
 
-**responseFieldArrayとexcludeFieldArray**
+**responseFieldArray と excludeFieldArray**
 
-一部の操作では、呼び出し元が応答に含まれるフィールドを制限できます。 フィールドを制限すると、リクエストの処理に必要な時間とメモリを削減し、応答データのサイズを小さくすることができます。 呼び出し元は、`responseFieldArray`パラメーターを渡すか、`excludeFieldArray`パラメーターを使用して除外されたフィールドのリストを列挙することで、フィールドの特定のリストを要求できます。
+一部の操作では、呼び出し元が応答に含まれるフィールドを制限できます。 フィールドを制限すると、リクエストの処理に必要な時間とメモリを削減し、応答データのサイズを小さくすることができます。 呼び出し元は、 `responseFieldArray` パラメーターを使用するか、列挙型の除外されたフィールドのリストを使用して `excludeFieldArray` パラメーター。
 
-`responseFieldArray`と`excludeFieldArray`の両方で、`/`で区切られたノードパスを使用してフィールドを指定します。 例えば、`searchAssets`が各アセットの名前、最終変更日およびメタデータのみを返すように指定するには、次を参照します。
+両方 `responseFieldArray` および `excludeFieldArray` 次で区切ったノードパスを使用してフィールドを指定 `/`. 例えば、次のように指定します。 `searchAssets` は、各アセットの名前、最終変更日およびメタデータのみを返します。次を参照してください。
 
 ```
 <responseFieldArray> 
@@ -94,16 +94,16 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 </excludeFieldArray>
 ```
 
-ノードパスは、戻りノードのルートに対する相対パスであることに注意してください。 サブ要素を含まない複合タイプフィールド（`assetArray/items/imageInfo`など）を指定した場合、そのサブ要素がすべて含まれます。 複合型フィールドに1つ以上のサブ要素を指定した場合（例：`assetArray/items/imageInfo/originalPath`）、それらのサブ要素のみが含まれます。
+ノードのパスは、戻りノードのルートを基準とした相対パスになります。 サブ要素のない複合型フィールドを指定する場合 ( 例： `assetArray/items/imageInfo`) の場合、そのすべてのサブ要素が含まれます。 複雑なタイプのフィールドに 1 つ以上のサブ要素を指定する場合 ( 例： `assetArray/items/imageInfo/originalPath`) の場合、そのサブ要素のみが含まれます。
 
-リクエストに`responseFieldArray`または`excludeFieldArray`を含めない場合は、すべてのフィールドが返されます。
+次を含めない場合： `responseFieldArray` または `excludeFieldArray` リクエストでは、すべてのフィールドが返されます。
 
 **ロケール**
 
-IPS 4.0以降、IPS APIでは、`authHeader`ロケールパラメータを渡すことにより、操作のロケールコンテキストを設定できます。 ロケールパラメータが存在しない場合は、HTTPヘッダー`Accept-Language`が使用されます。 このヘッダーも存在しない場合は、IPSサーバのデフォルトロケールが使用されます。
+IPS 4.0 以降、IPS API では、 `authHeader` ロケールパラメーター。 ロケールパラメータが存在しない場合、HTTP ヘッダー `Accept-Language` が使用されます。 このヘッダーも存在しない場合は、IPS サーバのデフォルトのロケールが使用されます。
 
-特定の操作では、明示的なロケールパラメーターも使用しますが、操作ロケールのコンテキストとは異なる場合があります。 例えば、`submitJob`操作では、ジョブのログと電子メール通知に使用するロケールを設定する`locale`パラメーターを取ります。
+また、特定の操作では、明示的なロケールパラメータを使用します。このパラメータは、操作ロケールコンテキストとは異なる場合があります。 例えば、 `submitJob` 手術を受ける `locale` ジョブのログと電子メール通知に使用するロケールを設定するパラメーター。
 
-ロケールパラメーターは、`<language_code>[-<country_code>]`の形式を使用します。
+ロケールパラメーターは形式を使用します `<language_code>[-<country_code>]`
 
-言語コードが小文字の場合、ISO-639で指定された2文字のコード、オプションの国コードが大文字の場合、ISO-3266で指定された2文字のコードです。 例えば、米国英語のロケール文字列は`en-US`です。
+ここで、言語コードは ISO-639 で指定された小文字の 2 文字のコードで、オプションの国コードは ISO-3266 で指定された大文字の 2 文字のコードです。 例えば、米国英語のロケール文字列は次のようになります。 `en-US`.

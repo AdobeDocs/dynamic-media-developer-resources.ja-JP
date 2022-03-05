@@ -2,13 +2,13 @@
 description: 特定のフィールドで使用されている文字のリストを取得します。
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 11%
+source-wordcount: '174'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 許可されたユーザーの種類 {#section-7023871be4d2442daf51ff060ca06d9a}
+## 認証済みユーザータイプ {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,19 +27,19 @@ ht-degree: 11%
 
 ## パラメータ {#section-93107d87f1b24fc8ad276dfee5e30b63}
 
-**入力(getUserCharsParam)**
+**入力 (getUserCharsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | `*`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を決定します。 |
-| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか除外します。 IPS以外の管理者ユーザーは、API呼び出しをおこなう権限を持つ1社以上のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、承認エラーが返されます。 |
+| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか除外します。 IPS 管理者以外のユーザーは、API 呼び出しをおこなう権限を持つ 1 つ以上の会社のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、認証エラーが返されます。 |
 | `*`includInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルターします。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | グループに基づいて結果をフィルターします。 |
-| `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルターします。 |
-| `*`numChars`*` | `xsd:int` | いいえ | 1文字を超える文字を有効にする。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルタリングします。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | グループに基づいて結果をフィルタリングします。 |
+| `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルタリングします。 |
+| `*`numChars`*` | `xsd:int` | いいえ | 1 文字以上を有効にします。 |
 
-**出力(getUserCharsReturn)**
+**出力 (getUserCharsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -49,11 +49,11 @@ ht-degree: 11%
 
 このコードサンプルは、次の値を返します。
 
-* 特定の会社のユーザーの姓の最初の文字。
+* 特定の会社のユーザーの姓の名の最初の文字。
 * グループのセット。
 * 一連のユーザーの役割。
 
-User Char Filter Fields文字列定数は、返されるユーザー文字のタイプを決定します。
+User Char Filter Fields 文字列定数は、返されるユーザー文字の種類を決定します。
 
 **リクエスト**
 

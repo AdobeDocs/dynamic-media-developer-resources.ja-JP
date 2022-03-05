@@ -1,24 +1,24 @@
 ---
-description: setAssetMetadataで使用する特定のアセットのメタデータ値を設定します。 メタデータに加える変更について説明します。
+description: setAssetMetadata で使用する特定のアセットのメタデータ値を設定します。 メタデータに加える変更について説明します。
 solution: Experience Manager
 title: MetadataUpdate
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
 # MetadataUpdate{#metadataupdate}
 
-setAssetMetadataで使用する特定のアセットのメタデータ値を設定します。 メタデータに加える変更について説明します。
+setAssetMetadata で使用する特定のアセットのメタデータ値を設定します。 メタデータに加える変更について説明します。
 
 >[!NOTE]
 >
->単一の値フィールドを渡すと、アセットのタグ値が指定のタグ値にリセットされます。
+>単一の値フィールドが渡されると、アセットのタグ値は指定されたタグ値にリセットされます。
 
 ## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -37,7 +37,7 @@ setAssetMetadataで使用する特定のアセットのメタデータ値を設�
    <td colname="col3"> メタデータフィールドハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 値</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> メタデータの更新値。 </td> 
   </tr> 
@@ -54,12 +54,12 @@ setAssetMetadataで使用する特定のアセットのメタデータ値を設�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 二重メタデータ値（浮動小数値型フィールドのみ） </td> 
+   <td colname="col3"> 二重メタデータ値（浮動小数点型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 日付メタデータ値（日付型フィールドのみ） </td> 
+   <td colname="col3"> 日付メタデータ値（日付型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
@@ -82,7 +82,7 @@ setAssetMetadataで使用する特定のアセットのメタデータ値を設�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
-   <td colname="col3"> 指定された値が存在する場合、アセットのタグ値リストから削除します。 </td> 
+   <td colname="col3"> アセットのタグ値リスト（存在する場合）から指定した値を削除します。 </td> 
   </tr> 
  </tbody> 
 </table>
