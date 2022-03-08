@@ -2,12 +2,12 @@
 description: 会社をシステムに追加します。
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 9%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 9%
 
 システムに追加する会社の名前を送信し、オプションで会社の有効期限が切れるかどうかを送信します。
 
-この操作が呼び出されると、会社ハンドルと説明フィールドを含む`*`companyInfo`*`型が取得されます。 要求された会社名が既にシステムに存在する場合は、`ipsApiFault`がスローされます。
+この操作が呼び出されると、会社のハンドルと説明フィールドを含む companyInfo 型が取得されます。 リクエストされた会社名がシステムに既に存在する場合、 `ipsApiFault`.
 
-## 許可されたユーザーの種類 {#section-ae926c7672984be79f6102748accab72}
+## 認証済みユーザータイプ {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 ## パラメータ {#section-c64a21b72585447880760db9e7a12ccb}
 
-**入力(addCompanyParam)**
+**入力 (addCompanyParam)**
 
 <table id="table_AA915BAD2E8E4A1B9719725994309CE8"> 
  <thead> 
@@ -50,12 +50,12 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>会社の有効期限。 このフィールドのリクエストでタイムゾーンを指定します。 タイムゾーンは中央時間に調整されます。 </p> </td> 
+   <td colname="col4"> <p>会社の有効期限。 このフィールドのリクエストのタイムゾーンを指定します。 タイムゾーンは中央時間に調整されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力(addCompanyReturn)**
+**出力 (addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 ## 例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-この例は、IPSシステムに会社を追加するリクエストと、他の操作を実行するために必要な追加会社に関する情報を詳しく説明する応答を示しています。
+この例では、IPS システムに会社を追加するリクエストと、他の操作を実行するために必要な追加会社に関する情報を記述した応答を示します。
 
 **リクエスト**
 

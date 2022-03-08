@@ -2,13 +2,13 @@
 description: アセットの公開履歴を返します。
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 構文
 
-## 許可されたユーザーの種類 {#section-3b9d6a129093458fa8890139a2718912}
+## 認証済みユーザータイプ {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,18 +32,18 @@ ht-degree: 16%
 
 ## パラメータ {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**入力(getAssetPublishHistoryParam)**
+**入力 (getAssetPublishHistoryParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | アセットの公開履歴を持つ会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 確認する公開履歴を持つアセット。 |
+| companyHandle | `xsd:string` | はい | アセット公開履歴を持つ会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | 確認する公開履歴を持つアセット。 |
 
-**出力(getAssetPublishHistoryReturn)**
+**出力 (getAssetPublishHistoryReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | はい | アセットの公開履歴。 |
+| pubHistoryArray | `types:PublishHistoryArray` | はい | アセットの公開履歴。 |
 
 ## 例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

@@ -1,24 +1,24 @@
 ---
-description: アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
+description: アセットタイプ別にグループ化されたすべてのメタデータフィールドを返します。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-アセットタイプ別にグループ化された、すべてのメタデータフィールドを返します。
+アセットタイプ別にグループ化されたすべてのメタデータフィールドを返します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 認証済みユーザータイプ {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,17 +30,17 @@ ht-degree: 21%
 
 ## パラメータ {#section-5dd58970d61d4d4a928e36ffceca6f5e}
 
-**入力(getAssetMetadataFieldsParam)**
+**入力 (getAssetMetadataFieldsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | メタデータを取得する会社のハンドル。 |
+| companyHandle | `xsd:string` | はい | メタデータを取得する会社のハンドル。 |
 
-**出力(getAssetMetadataFieldsReturn)**
+**出力 (getAssetMetadataFieldsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | はい | アセットタイプ別のメタデータフィールドの配列。 |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | はい | アセットタイプ別のメタデータフィールドの配列。 |
 
 ## 例 {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -56,7 +56,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->簡潔にするために切り捨てられます。
+>簡潔にするために切り捨てられました。
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

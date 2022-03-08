@@ -2,13 +2,13 @@
 description: フォルダーの名前を変更します。
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 許可されたユーザーの種類 {#section-5a252b00937d4befbec76fa23fbae9df}
+## 認証済みユーザータイプ {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +33,19 @@ ht-degree: 20%
 
 ## パラメータ {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**入力(renameFolderParam)**
+**入力 (renameFolderParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 名前を変更するフォルダを持つ会社に対して処理します。 |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーを処理します。 |
-| `*`folderName`*` | `xsd:string` | はい | 新しいフォルダー名。 |
+| companyHandle | `xsd:string` | はい | 名前を変更するフォルダを持つ会社に対して処理します。 |
+| folderHandle | `xsd:string` | はい | フォルダーを処理します。 |
+| folderName | `xsd:string` | はい | 新しいフォルダー名。 |
 
-**出力(renameFolderReturn)**
+**出力 (renameFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | はい | 名前を変更したフォルダーを処理します。 |
+| folderHandle | `xsd:string` | はい | 名前を変更したフォルダーを処理します。 |
 
 ## 例 {#section-98bdd2f88d164f488676e90aba1dc864}
 

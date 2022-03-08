@@ -2,13 +2,13 @@
 description: グループの配列。
 solution: Experience Manager
 title: GroupArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3ddc10f-e153-4498-afeb-c97d7371e3d3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '17'
+ht-degree: 35%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:Group` | グループの配列。 |
+| 商品 | `types:Group` | グループの配列。 |

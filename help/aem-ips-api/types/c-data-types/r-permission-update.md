@@ -1,20 +1,20 @@
 ---
-description: 権限の変更について説明します。
+description: 権限の変更を記述します。
 solution: Experience Manager
 title: PermissionUpdate
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
 # PermissionUpdate{#permissionupdate}
 
-権限の変更について説明します。
+権限の変更を記述します。
 
 構文
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | グループハンドル。 |
-| `*`permissionType`*` | `xsd:string` | 権限のタイプ。 |
-| `*`isAllowed`*` | `xsd:boolean` | 権限の更新を許可するかどうかを指定します。 |
-| `*`isOverride`*` | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |
+| groupHandle | `xsd:string` | グループハンドル。 |
+| permissionType | `xsd:string` | 権限タイプ。 |
+| isAllowed | `xsd:boolean` | 権限の更新を許可するかどうかを指定します。 |
+| isOverride | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |

@@ -1,20 +1,20 @@
 ---
-description: アセット生成ステップに関する情報が格納される名前と値のペア。 getGenerationInfoを参照してください。
+description: アセット生成ステップに関する情報が格納される名前と値のペア。 getGenerationInfo を参照してください。
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
 # GenerationAttribute{#generationattribute}
 
-アセット生成ステップに関する情報が格納される名前と値のペア。 getGenerationInfoを参照してください。
+アセット生成ステップに関する情報が格納される名前と値のペア。 getGenerationInfo を参照してください。
 
 構文
 
@@ -22,5 +22,5 @@ ht-degree: 13%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 属性名。 |
-| `*`value`*` | `xsd:string` | 属性値 |
+| name | `xsd:string` | 属性名。 |
+| value | `xsd:string` | 属性値 |

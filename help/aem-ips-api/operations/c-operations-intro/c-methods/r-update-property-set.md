@@ -2,13 +2,13 @@
 description: プロパティ配列を使用してプロパティセットを更新します。
 solution: Experience Manager
 title: updatePropertySet
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 構文
 
-## 許可されたユーザーの種類 {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 認証済みユーザータイプ {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,21 +32,21 @@ ht-degree: 14%
 
 ## パラメータ {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**入力(updatePropertySetParam)**
+**入力 (updatePropertySetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | はい | プロパティセットに対するハンドル。 |
-| `*`replaceProperties`*` | `xsd:string` | いいえ | `true`に設定すると、プロパティが置き換えられます。 |
-| `*`propertyArray`*` | `types:PropertyArray` | はい | プロパティセットの更新されたプロパティの配列。 |
+| setHandle | `xsd:string` | はい | プロパティセットに対するハンドル。 |
+| replaceProperties | `xsd:string` | いいえ | に設定 `true` プロパティを置き換えます。 |
+| propertyArray | `types:PropertyArray` | はい | プロパティセットの更新されたプロパティの配列。 |
 
-**出力(updatePropertySetReturn)**
+**出力 (updatePropertySetReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-次のコードのサンプルを使用すると、プロパティ配列内のプロパティを使用してプロパティセットを更新できます。
+このコードのサンプルでは、プロパティ配列内のプロパティを使用してプロパティセットを更新します。
 
 **リクエスト**
 

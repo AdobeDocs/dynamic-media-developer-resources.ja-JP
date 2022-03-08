@@ -1,20 +1,20 @@
 ---
-description: ICCプロファイルフィールドの更新項目の配列。
+description: ICC プロファイルフィールドの更新項目の配列。
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 665280fe-ec76-48ce-b104-d65440c0f1ac
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
 # IccProfileFieldUpdateArray{#iccprofilefieldupdatearray}
 
-ICCプロファイルフィールドの更新項目の配列。
+ICC プロファイルフィールドの更新項目の配列。
 
 構文
 
@@ -22,4 +22,4 @@ ICCプロファイルフィールドの更新項目の配列。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 配列項目。 |
+| 商品 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 配列項目。 |

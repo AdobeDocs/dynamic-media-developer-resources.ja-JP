@@ -1,20 +1,20 @@
 ---
-description: Microsoft Excelファイルのプロパティ。
+description: Microsoft Excel ファイルのプロパティ。
 solution: Experience Manager
 title: ExcelInfo
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '30'
+ht-degree: 23%
 
 ---
 
 # ExcelInfo{#excelinfo}
 
-Microsoft Excelファイルのプロパティ。
+Microsoft Excel ファイルのプロパティ。
 
 構文
 
@@ -22,6 +22,6 @@ Microsoft Excelファイルのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルのパス。 |
-| `*`originalFile`*` | `xsd:string` | ファイル名。 |
-| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
+| originalPath | `xsd:string` | ファイルへのパス。 |
+| originalFile | `xsd:string` | ファイル名。 |
+| fileSize | `xsd:int` | ファイルサイズ. |

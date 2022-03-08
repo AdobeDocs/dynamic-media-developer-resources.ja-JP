@@ -2,13 +2,13 @@
 description: ビューアプリセットアセットのプロパティ。
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic,SDK/API，ビューアプリセット
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 16%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`type`*` | `xsd:string` | ビューアタイプの選択。 |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | ビューア設定の配列 |
+| タイプ | `xsd:string` | ビューアのタイプの選択。 |
+| configSettingArray | `types:ConfigSettingArray` | ビューア設定配列 |

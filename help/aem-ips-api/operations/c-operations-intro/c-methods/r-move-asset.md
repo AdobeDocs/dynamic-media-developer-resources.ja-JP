@@ -2,13 +2,13 @@
 description: アセットを特定のフォルダーに移動します。
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 構文
 
-## 許可されたユーザーの種類 {#section-e4f2d2a58132450aa36da6377134211e}
+## 認証済みユーザータイプ {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,17 +29,17 @@ ht-degree: 15%
 
 ## パラメータ {#section-dd0bbdf293aa4563af70a91f97c861f1}
 
-**入力(moveAssetParam)**
+**入力 (moveAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 移動するアセットに対して処理します。 |
-| `*`folderHandle`*` | `xsd:string` | はい | 宛先フォルダーを処理します。 |
+| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
+| assetHandle | `xsd:string` | はい | 移動するアセットに対して処理します。 |
+| folderHandle | `xsd:string` | はい | 保存先フォルダーを処理します。 |
 
-**出力(moveAssetReturn)**
+**出力 (moveAssetReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 

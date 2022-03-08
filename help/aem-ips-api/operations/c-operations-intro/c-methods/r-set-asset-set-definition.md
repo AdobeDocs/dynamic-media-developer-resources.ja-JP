@@ -2,12 +2,12 @@
 description: 既存のアセットセットのセット定義を更新します。
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 構文
 
-## 許可されたユーザーの種類 {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 認証済みユーザータイプ {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,27 +29,27 @@ ht-degree: 6%
 
 ## パラメータ {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**入力(setAssetDefinitionParam)**
+**入力 (setAssetDefinitionParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | アセットセットを持つ会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットセットハンドル |
-| `*`setDefinition`*` | `xsd:string` | はい | 定義文字列。 以下を参照してください。 |
+| companyHandle | `xsd:string` | はい | アセットが設定された会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットセットハンドル |
+| setDefinition | `xsd:string` | はい | 定義文字列。 以下を参照してください。 |
 
-**出力(setAssetSetDefinitionReturn)**
+**出力 (setAssetSetDefinitionReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
-## setDefinitionパラメータ：について {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition パラメータ：について {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**setDefinition関数**
+**setDefinition 関数**
 
-`setDefinition`置換関数をインラインで指定します。 これらは、カタログ検索中またはパブリッシュ時に解決されます。 置換文字列の形式は`${<substitution_func>}`で、次のようになります。
+指定 `setDefinition` 置き換え関数をインラインで指定します。 これらは、カタログ参照中または公開時に解決されます。 代替文字列の形式は `${<substitution_func>}`、およびを含めます。
 
 >[!NOTE]
 >
->パラメーターリスト内のハンドルリテラルは、角括弧`([])`で囲む必要があります。 解決時に、置換文字列の外側のテキストが出力文字列にコピーされます。
+>パラメーターリストのハンドルリテラルは、角括弧で囲む必要があります `([])`. 置換文字列の外側にあるテキストは、解決時に出力文字列にコピーされます。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -60,25 +60,25 @@ IPS APIは、この操作に対する応答を返しません。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> プライマリファイルのパス。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> カタログID。 </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col2"> カタログ ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> メタデータ値。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> カタログID。 画像ベースのアセット（画像、調整されたビュー、レイヤービュー）に適用されます。 <p>その他のアセットの場合は、サムアセットのカタログID（存在する場合）を返します。 サムアセットがアセットに関連付けられていない場合、この関数は空の文字列を返します。 </p> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col2"> カタログ ID。 画像ベースのアセット（画像、調整された表示、レイヤー表示）に適用されます。 <p>その他のアセットの場合は、サムネールアセットのカタログ ID（存在する場合）を返します。 サムアセットがアセットに関連付けられていない場合、この関数は空の文字列を返します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinitionの例**
+**setDefinition の例**
 
 このメディアセット定義文字列：
 

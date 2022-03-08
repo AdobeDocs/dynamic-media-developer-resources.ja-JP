@@ -1,24 +1,24 @@
 ---
-description: イメージセット内のメンバの配列を取得します。
+description: 画像セット内のメンバの配列を取得します。
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API，画像セット
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
 # getImageSetMembers{#getimagesetmembers}
 
-イメージセット内のメンバの配列を取得します。
+画像セット内のメンバの配列を取得します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 認証済みユーザータイプ {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,22 +31,22 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->画像とメンバセットのアセットに対する読み取りアクセス権が必要です。
+>画像およびメンバセットアセットへの読み取りアクセス権が必要です。
 
 ## パラメータ {#section-a67ba98095574533980997c83ceaa316}
 
-**入力(getImageSetMembersParam)**
+**入力 (getImageSetMembersParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 画像セットを含む会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 画像セットのアセットハンドル。 |
+| companyHandle | `xsd:string` | はい | 画像セットを含む会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | 画像セットのアセットハンドル。 |
 
-**出力(getImageSetMembersReturn)**
+**出力 (getImageSetMembersReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | いいえ | 画像セットメンバの配列。 |
+| memberArray | `types:ImageSetMemberArray` | いいえ | 画像セットメンバーの配列。 |
 
 ## 例 {#section-888a9a78033346f39b171229de93dfa0}
 

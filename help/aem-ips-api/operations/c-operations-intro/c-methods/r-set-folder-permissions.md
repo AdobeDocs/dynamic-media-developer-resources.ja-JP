@@ -1,24 +1,24 @@
 ---
-description: フォルダーの権限を設定します。
+description: フォルダー権限を設定します。
 solution: Experience Manager
 title: setFolderPermissions
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
 # setFolderPermissions{#setfolderpermissions}
 
-フォルダーの権限を設定します。
+フォルダー権限を設定します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-d3eb923fcf5741b99967634db809e09e}
+## 認証済みユーザータイプ {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,18 +26,18 @@ ht-degree: 14%
 
 ## パラメータ {#section-2a41135054954396b40f1228f2e63b42}
 
-**入力(setFolderPermissionsParam)**
+**入力 (setFolderPermissionsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル。 |
-| `*`setChildren`*` | `xsd:boolean` | はい | フォルダーに属する子に対する権限を設定します。 |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | はい | 権限配列。 |
+| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| folderHandle | `xsd:string` | はい | フォルダーハンドル。 |
+| setChildren | `xsd:boolean` | はい | フォルダーに属する子に対する権限を設定します。 |
+| permissionArray | `types:PermissionUpdateArray` | はい | 権限配列。 |
 
-**出力(setFolderPermissionsReturn)**
+**出力 (setFolderPermissionsReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-01730da4be874553ab44e3241cdf6357}
 

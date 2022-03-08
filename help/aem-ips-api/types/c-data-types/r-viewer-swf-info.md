@@ -1,20 +1,20 @@
 ---
-description: ビューアのSWFファイルアセットのプロパティ。
+description: ビューアアセットファイルSWFのプロパティ。
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic,SDK/API，ビューア
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
 # ViewerSwfInfo{#viewerswfinfo}
 
-ビューアのSWFファイルアセットのプロパティ。
+ビューアアセットファイルSWFのプロパティ。
 
 構文
 
@@ -22,6 +22,6 @@ ht-degree: 14%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 最初にアップロードされたビューアSWFファイルの相対パス |
-| `*`originalFile`*` | `xsd:string` | 元のビューアSWFファイルのファイル名 |
-| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
+| originalPath | `xsd:string` | 最初にアップロードされたビューアSWFファイルの相対パス。 |
+| originalFile | `xsd:string` | 元のビューアSWFファイルのファイル名 |
+| fileSize | `xsd:int` | ファイルサイズ. |

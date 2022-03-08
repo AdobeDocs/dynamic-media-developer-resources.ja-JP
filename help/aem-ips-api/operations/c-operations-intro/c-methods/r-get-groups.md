@@ -2,13 +2,13 @@
 description: 会社グループを返します。
 solution: Experience Manager
 title: getGroups
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 21%
+source-wordcount: '61'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 構文
 
-## 許可されたユーザーの種類 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 認証済みユーザータイプ {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,17 +26,17 @@ ht-degree: 21%
 
 ## パラメータ {#section-0e06195f23dd4c69922df210f566dd18}
 
-**入力(getGroupsParam)**
+**入力 (getGroupsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
 
-**出力(getGroupsReturn)**
+**出力 (getGroupsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | はい | グループの配列。 |
+| groupArray | `types:GroupArray` | はい | グループの配列。 |
 
 ## 例 {#section-ed0708f611574354bf0c6ea83912b531}
 

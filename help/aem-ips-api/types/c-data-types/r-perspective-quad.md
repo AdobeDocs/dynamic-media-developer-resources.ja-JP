@@ -1,20 +1,20 @@
 ---
-description: getPhotoshopPath操作で返される画像の位置座標。
+description: getPhotoshopPath 操作で返される画像の位置座標。
 solution: Experience Manager
 title: PerspectiveQuad
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
 # PerspectiveQuad{#perspectivequad}
 
-getPhotoshopPath操作で返される画像の位置座標。
+getPhotoshopPath 操作で返される画像の位置座標。
 
 構文
 
@@ -22,18 +22,18 @@ getPhotoshopPath操作で返される画像の位置座標。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | 左上のX軸座標。 |
-| `*`y0`*` | `xsd:double` | 左上のY軸座標。 |
-| `*`x1`*` | `xsd:double` | 右上のX軸座標。 |
-| `*`y1`*` | `xsd:double` | 右上のY軸座標。 |
-| `*`x2`*` | `xsd:double` | 右下のX軸座標。 |
-| `*`y2`*` | `xsd:double` | 右下のY軸座標。 |
-| `*`x3`*` | `xsd:double` | 左下x軸座標。 |
-| `*`y3`*` | `xsd:double` | 左下のY軸座標。 |
+| x0 | `xsd:double` | 左上の X 軸の座標。 |
+| y0 | `xsd:double` | 左上の Y 軸の座標。 |
+| x1 | `xsd:double` | 右上の X 軸座標。 |
+| y1 | `xsd:double` | 右上の Y 軸の座標。 |
+| x2 | `xsd:double` | 右下の X 軸座標。 |
+| y2 | `xsd:double` | 右下の Y 軸の座標。 |
+| x3 | `xsd:double` | 左下の X 軸座標。 |
+| y3 | `xsd:double` | 左下の Y 軸の座標。 |
 
 ## 例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-`PerspectiveQuad`型は次の順序でデータを返します。
+この `PerspectiveQuad` type は次の順序でデータを返します。
 
 ```
 <complexType name="PerspectiveQuad">

@@ -2,13 +2,13 @@
 description: アセットの権限を更新します。
 solution: Experience Manager
 title: updateAssetPermissions
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '54'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 構文
 
-## 許可されたユーザーの種類 {#section-3928e9badc3842e1859af4ed362df719}
+## 認証済みユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,17 +26,17 @@ ht-degree: 21%
 
 ## パラメータ {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**入力(updateAssetPermissionsParam)**
+**入力 (updateAssetPermissionsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
+| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| updateArray | `types:PermissionUpdateArray` | はい | アセットに適用する権限です。 |
 
-**出力(updateAssetPermissionsReturn)**
+**出力 (updateAssetPermissionsReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

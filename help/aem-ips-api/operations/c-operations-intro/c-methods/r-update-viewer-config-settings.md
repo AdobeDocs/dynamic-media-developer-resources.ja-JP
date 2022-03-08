@@ -2,13 +2,13 @@
 description: SWFビューアの設定を更新します。
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API，ビューアプリセット
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ SWFビューアの設定を更新します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## 認証済みユーザータイプ {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,14 +27,14 @@ SWFビューアの設定を更新します。
 
 ## パラメータ {#section-29790d933fb24aa392d0cb2d52d1310f}
 
-**入力(updateViewerConfigSettingsParam)**
+**入力 (updateViewerConfigSettingsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | はい | ビューアに適用する設定の配列。 |
+| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
+| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| configSettingArray | `types:ConfigSettingArray` | はい | ビューアに適用する設定の配列。 |
 
-**出力(updateViewerConfigSettingsReturn)**
+**出力 (updateViewerConfigSettingsReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。

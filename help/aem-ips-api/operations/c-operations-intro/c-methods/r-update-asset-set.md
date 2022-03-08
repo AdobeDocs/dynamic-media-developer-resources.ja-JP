@@ -2,13 +2,13 @@
 description: アセットセットを更新します。
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 20%
 
 ## パラメータ {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**入力(updateAssetSetParam)**
+**入力 (updateAssetSetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 変更する画像セットを含む会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 変更する画像セットのハンドル。 |
-| `*`setDefinition`*` | `xsd:string` | いいえ | 画像セットのメンバをリセットします。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
+| companyHandle | `xsd:string` | はい | 変更する画像セットを含む会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | 変更する画像セットのハンドル。 |
+| setDefinition | `xsd:string` | いいえ | 画像セットのメンバをリセットします。 |
+| thumbAssetHandle | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
 
-**出力(updateAssetSetReturn)**
+**出力 (updateAssetSetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

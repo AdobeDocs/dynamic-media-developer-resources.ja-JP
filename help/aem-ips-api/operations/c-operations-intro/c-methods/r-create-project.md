@@ -2,13 +2,13 @@
 description: 新しいプロジェクトを作成します。
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '76'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 構文
 
-## 許可されたユーザーの種類 {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 認証済みユーザータイプ {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,22 +29,22 @@ ht-degree: 18%
 
 ## パラメータ {#section-8c741884eb54489bbaad0c444fee80b6}
 
-**入力(createProjectParam)**
+**入力 (createProjectParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 新しいプロジェクトに関連付けられた会社のハンドル。 |
-| `*`projectName`*` | `xsd:string` | はい | 新しいプロジェクト名。 |
+| companyHandle | `xsd:string` | はい | 新しいプロジェクトに関連付けられた会社のハンドル。 |
+| projectName | `xsd:string` | はい | 新規プロジェクト名。 |
 
-**出力(createProjectParam)**
+**出力 (createProjectParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | はい | 新しいプロジェクトのハンドル。 |
+| projectHandle | `xsd:string` | はい | 新しいプロジェクトのハンドル。 |
 
 ## 例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-このコードサンプルは、ハンドルで指定された会社に`ApiTestProject`という名前のプロジェクトを作成します。 応答は、ハンドルをプロジェクトに返します。
+このコードサンプルは、 `ApiTestProject` 取っ手で指定された会社の。 応答は、ハンドルをプロジェクトに返します。
 
 **リクエスト**
 

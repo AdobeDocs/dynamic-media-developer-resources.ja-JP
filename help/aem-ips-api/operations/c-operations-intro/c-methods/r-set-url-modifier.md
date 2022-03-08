@@ -5,7 +5,7 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -33,10 +33,10 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
-| `*`urlModifier`*` | `xsd:string` | いいえ | 要求または要求の前に適用する画像サービングまたは画像レンダリングプロトコルコマンド `urlPostApplyModifier` コマンド |
-| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | 後に適用する画像サービングまたは画像レンダリングプロトコルコマンド `urlModifier` およびリクエストコマンド |
+| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| urlModifier | `xsd:string` | いいえ | 要求または要求の前に適用する画像サービングまたは画像レンダリングプロトコルコマンド `urlPostApplyModifier` コマンド |
+| urlPostApplyModifier | `xsd:string` | いいえ | 後に適用する画像サービングまたは画像レンダリングプロトコルコマンド `urlModifier` およびリクエストコマンド |
 
 **出力 (setUrlModifierReturn)**
 

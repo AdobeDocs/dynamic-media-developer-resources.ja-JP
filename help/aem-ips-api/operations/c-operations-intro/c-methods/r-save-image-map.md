@@ -2,13 +2,13 @@
 description: 新しい画像マップを作成するか、既存のマップを編集します。
 solution: Experience Manager
 title: saveImageMap
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '253'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 構文
 
-## 許可されたユーザーの種類 {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## 認証済みユーザータイプ {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## パラメータ {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**入力(saveImageMapParam)**
+**入力 (saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -46,71 +46,71 @@ ht-degree: 8%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 保存する画像マップを含む会社へのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 画像マップが属する画像アセットへのハンドル。 </td> 
+   <td colname="col4"> 画像マップが属する画像アセットのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 画像マップのハンドル。 NULLの場合に画像マップを作成します。 </td> 
+   <td colname="col4"> 画像マップのハンドル。 NULL の場合は画像マップを作成します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 作成または保存する画像マップの名前。 </td> 
+   <td colname="col4"> 作成または保存された画像マップの名前。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 領域の形状の選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 地域  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 地域 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 地域を定義するポイントのコンマ区切りリスト。 </td> 
+   <td colname="col4"> 地域を定義するポイントのコンマ区切りリストです。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> アクション </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>IPSインターフェイスで指定された画像マップに関連付けられている<span class="codeph"> href </span>値。 </p> <p><span class="codeph"> href </span>の値を取得するには、IPSインターフェイスの画像をクリックし、URLをコピーしてこの要素に貼り付け、IPS URLを適切なURLとして書式設定します。 例えば、 <span class="codeph"> &amp; </span>は<span class="codeph"> &amp;amp；になります。</span>と入力します。 </p> </td> 
+   <td colname="col4"> <p>この <span class="codeph"> href </span> IPS インターフェイスで指定された画像マップに関連付けられた値。 </p> <p>次の手順で <span class="codeph"> href </span> の値を指定する場合は、IPS インターフェイスの画像をクリックし、URL をコピーしてこの要素に貼り付け、IPS URL を適切な URL として書式設定します。 例： <span class="codeph"> &amp; </span> 次に <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 画像マップのリスト内の順序（Z軸）。 </td> 
+   <td colname="col4"> 画像マップのリスト内の順序（Z 軸）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 有効  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 有効 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"></td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力(saveImageMapReturn)**
+**出力 (saveImageMapReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | はい | 新しい画像マップまたは編集した画像マップのハンドル。 |
+| imageMapHandle | `xsd:string` | はい | 新しい画像マップまたは編集された画像マップのハンドル。 |
 
 ## 例 {#section-fdac488b640f427c8aa3d549c5032851}
 
-このコードサンプルを使用すると、アセットの新しい画像マップを作成できます。 領域の形状文字列定数で決まる形状タイプを使用し、新しい画像マップにハンドルを返します。
+このコードサンプルは、アセットの新しい画像マップを作成します。 領域の形状文字列定数で決定される形状タイプを使用し、新しい画像マップにハンドルを返します。
 
 **リクエスト**
 

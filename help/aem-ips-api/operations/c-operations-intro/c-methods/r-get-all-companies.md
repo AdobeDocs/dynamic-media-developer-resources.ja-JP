@@ -2,13 +2,13 @@
 description: すべての会社の配列を返します。
 solution: Experience Manager
 title: getAllCompanies
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 21%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 20%
 
 構文
 
-## 許可されたユーザーの種類 {#section-773db3753b4842e5a4623ad810176508}
+## 認証済みユーザータイプ {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
 ## パラメータ {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**入力(getAllCompaniesParam)**
+**入力 (getAllCompaniesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | はい | 期限切れの会社と期限切れでない会社を返す場合は、trueに設定します。 |
+| includeExpired | `xsd:boolean` | はい | 期限切れの会社と期限切れでない会社を返すには、true に設定します。 |
 
-**出力(getAllCompaniesReturn)**
+**出力 (getAllCompaniesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | はい | 会社の配列。 |
+| companyArray | `types:CompanyArray` | はい | 会社の配列。 |
 
 ## 例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-このコードサンプルは、IPSのすべての会社を配列で返します。 なお、サンプルの応答は簡潔にするために切り捨てられます。
+このコード例では、IPS 内のすべての会社を配列で返します。 なお、サンプル応答は簡潔にするために切り捨てられます。
 
 **リクエスト**
 

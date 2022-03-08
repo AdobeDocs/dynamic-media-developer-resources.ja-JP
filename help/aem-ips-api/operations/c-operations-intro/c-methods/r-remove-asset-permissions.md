@@ -2,13 +2,13 @@
 description: 選択したアセットから権限を削除します。
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '68'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 構文
 
-## 許可されたユーザーの種類 {#section-239058fdb4454e519ac327e621cb3abc}
+## 認証済みユーザータイプ {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,16 +26,16 @@ ht-degree: 16%
 
 ## パラメータ {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**入力(removeAssetPermissionsParam)**
+**入力 (removeAssetPermissionsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 削除する権限を持つアセットへのハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| assetHandle | `xsd:string` | はい | 削除する権限を持つアセットへのハンドル。 |
 
-**出力(removeAssetPermissionsReturn)**
+**出力 (removeAssetPermissionsReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 

@@ -1,24 +1,24 @@
 ---
-description: プロジェクト内のアセットを割り当てるか、更新します。
+description: プロジェクト内のアセットを割り当てたり、更新したりします。
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 20%
 
 ---
 
 # setProjectAssets{#setprojectassets}
 
-プロジェクト内のアセットを割り当てるか、更新します。
+プロジェクト内のアセットを割り当てたり、更新したりします。
 
 構文
 
-## 許可されたユーザーの種類 {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 認証済みユーザータイプ {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +29,23 @@ ht-degree: 18%
 
 ## パラメータ {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**入力(setProjectAssetsParam)**
+**入力 (setProjectAssetsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | はい | 会社の担当。 |
-| `*`projectHandle`*` | `xsd:string` | はい | プロジェクトハンドル。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
+| companyName | `xsd:string` | はい | 会社の取り扱い。 |
+| projectHandle | `xsd:string` | はい | プロジェクトハンドル。 |
+| assetHandleArray | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
 
-**出力(setProjectAssetsReturn)**
+**出力 (setProjectAssetsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に追加されたアセットの数。 |
+| successCount | `xsd:int` | はい | 正常に追加されたアセットの数。 |
 
 ## 例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-このコードサンプルを使用すると、アセットをプロジェクトに割り当てることができます。 リクエストは、成功数1を返します。
+このコードサンプルを使用すると、アセットをプロジェクトに割り当てることができます。 リクエストは、1 の成功数を返します。
 
 **リクエスト**
 

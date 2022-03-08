@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -39,19 +39,19 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 新しいアセットの派生元となるアセットを含む会社へのハンドル。 |
-| `*`ownerHandle`*` | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
-| `*`folderHandle`*` | `xsd:string` | はい | 新しい派生アセットが作成されるフォルダーのハンドル。 |
-| `*`name`*` | `xsd:string` | はい | 派生アセットの名前。 |
-| `*`type`*` | `xsd:string` | はい | 新しい派生アセットのアセットタイプ： `AdjustedView` または `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | いいえ | 適用される画像サービングまたは画像レンダリングプロトコルコマンド *前* 要求または `urlPostApplyModifier` コマンド |
-| `*`urlPostApplyModifier`*` | `xsd:string` | いいえ | 適用される画像サービングまたは画像レンダリングプロトコルコマンド *後* 要求に対して、または `urlPostApplyModifier` コマンド |
+| companyHandle | `xsd:string` | はい | 新しいアセットの派生元となるアセットを含む会社へのハンドル。 |
+| ownerHandle | `xsd:string` | はい | 新しい画像の派生元となるプライマリ画像アセットへのハンドル。 |
+| folderHandle | `xsd:string` | はい | 新しい派生アセットが作成されるフォルダーのハンドル。 |
+| name | `xsd:string` | はい | 派生アセットの名前。 |
+| タイプ | `xsd:string` | はい | 新しい派生アセットのアセットタイプ： `AdjustedView` または `LayerView`. |
+| urlModifier | `xsd:string` | いいえ | 適用される画像サービングまたは画像レンダリングプロトコルコマンド *前* 要求または `urlPostApplyModifier` コマンド |
+| urlPostApplyModifier | `xsd:string` | いいえ | 適用される画像サービングまたは画像レンダリングプロトコルコマンド *後* 要求に対して、または `urlPostApplyModifier` コマンド |
 
 **出力 (createDerivedAssetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | はい | 派生アセットのハンドル。 |
+| assetHandle | `xsd:string` | はい | 派生アセットのハンドル。 |
 
 ## 例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

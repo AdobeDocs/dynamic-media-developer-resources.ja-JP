@@ -2,13 +2,13 @@
 description: CompanyMembershipUpdate
 solution: Experience Manager
 title: CompanyMembershipUpdate
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c88202f3-df21-4026-aa92-212d3c05f242
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 12%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 会社に取り扱う。 |
-| `*`役割`*` | `xsd:string` | ユーザーが属する会社ごとに割り当てる役割。 |
-| `*`isActive`*` | `xsd:boolean` | 所属する各会社のユーザーのステータスを設定します。 |
+| companyHandle | `xsd:string` | 会社に対する取り扱い。 |
+| 役割 | `xsd:string` | ユーザーが属する会社ごとに割り当てる役割。 |
+| isActive | `xsd:boolean` | 所属する会社ごとに、ユーザーのステータスを設定します。 |

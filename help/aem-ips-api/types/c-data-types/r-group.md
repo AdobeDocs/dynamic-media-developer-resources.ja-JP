@@ -1,20 +1,20 @@
 ---
-description: 権限の割り当てに使用される名前付きユーザーのセット。
+description: 権限の割り当てに使用される名前付きユーザーセット。
 solution: Experience Manager
 title: グループ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 17%
+source-wordcount: '42'
+ht-degree: 19%
 
 ---
 
 # グループ{#group}
 
-権限の割り当てに使用される名前付きユーザーのセット。
+権限の割り当てに使用される名前付きユーザーセット。
 
 構文
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | グループハンドル。 |
-| `*`companyHandle`*` | `xsd:string` | 会社の担当。 |
-| `*`name`*` | `xsd:string` | グループ名。 |
-| `*`はSystemDefinedです`*` | `xsd:string` | グループがシステムによって定義されているかどうか。 |
+| groupHandle | `xsd:string` | グループハンドル。 |
+| companyHandle | `xsd:string` | 会社の取り扱い。 |
+| name | `xsd:string` | グループ名。 |
+| は SystemDefined です | `xsd:string` | グループがシステムによって定義されているかどうか。 |

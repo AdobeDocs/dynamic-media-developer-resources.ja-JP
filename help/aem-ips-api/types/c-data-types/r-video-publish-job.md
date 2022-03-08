@@ -2,13 +2,13 @@
 description: 設定したビデオ公開サーバーにファイルを公開します。
 solution: Experience Manager
 title: VideoPublishJob
-feature: Dynamic Media Classic,SDK/API，ビデオ
+feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 10%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 電子メールの設定の選択。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 完了通知を送信するURL。 |
-| `*`contextHandle`*` | `xsd:string` | パブリッシュコンテキストを処理します。 |
+| emailSetting | `xsd:string` | メール設定の選択。 |
+| httpCompletionUrl | `xsd:string` | 完了通知を送信する URL。 |
+| contextHandle | `xsd:string` | 公開コンテキストを処理します。 |

@@ -2,12 +2,12 @@
 description: バッチモードを使用してアセットメタデータを設定します。
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 13%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 構文
 
-## 許可されたユーザーの種類 {#section-5310d9fd00604cbf9756944900378855}
+## 認証済みユーザータイプ {#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,22 +29,22 @@ ht-degree: 13%
 
 ## パラメータ {#section-7111ac93bc7747f69ba14db4ac3912b0}
 
-**入力(batchSetAssetMetadataParam)**
+**入力 (batchSetAssetMetadataParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | バッチ操作で設定するメタデータの会社へのハンドル。 |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | はい | アセットに適用されたメタデータの更新の配列。 |
+| companyHandle | `xsd:string` | はい | バッチ操作で設定するメタデータを持つ会社のハンドル。 |
+| updateArray | `types:BatchMetadataUpdateArray` | はい | アセットに適用されたメタデータの更新の配列。 |
 
-**出力(batchSetAssetMetadataParam)**
+**出力 (batchSetAssetMetadataParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたメタデータの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試みたときに生成された警告の数です。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がメタデータの設定を試みたときに生成されたエラーの数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときに警告を生成するアセットに関連付けられた詳細の配列。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成するアセットに関連付けられた詳細の配列。 |
+| successCount | `xsd:int` | はい | 正常に設定されたメタデータの数。 |
+| warningCount | `xsd:int` | はい | 操作がメタデータの設定を試みたときに生成された警告の数です。 |
+| errorCount | `xsd:int` | はい | 操作がメタデータの設定を試みたときに生成されたエラーの数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとした際に警告を生成するアセットに関連付けられた詳細の配列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作がアセットのメタデータをバッチ設定しようとしたときにエラーを生成するアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-2de798ac920e4b47b971b1729a64395b}
 

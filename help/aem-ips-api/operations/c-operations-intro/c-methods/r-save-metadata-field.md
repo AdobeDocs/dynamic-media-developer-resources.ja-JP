@@ -2,13 +2,13 @@
 description: メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >このメソッドは非推奨です。
 
-## 許可されたユーザーの種類 {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## 認証済みユーザータイプ {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 ## パラメータ {#section-ec6827d485a143f4a059a92b18e40f4e}
 
-**入力(saveMetadataFieldParam)**
+**入力 (saveMetadataFieldParam)**
 
 <table id="table_C944A44352F2475A89CE86F3DB1B648A"> 
  <thead> 
@@ -45,7 +45,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社の取っ手。 </td> 
+   <td colname="col4"> 会社への取り扱い。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -57,10 +57,10 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> メタデータの保存元となるアセットタイプの選択。 </td> 
+   <td colname="col4"> メタデータを保存するアセットタイプの選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> フィールド名。 </td> 
@@ -81,26 +81,26 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> IPSシステム固有のメタデータを非表示または公開します。 </td> 
+   <td colname="col4"> IPS システム固有のメタデータを非表示または公開します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用される（検証される）かどうかを示すbooleanフラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>に無効な値が設定された場合に、フォルトがスローされます。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すブール型フラグです。 </p> <p>true に設定した場合、不正な値が <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力(saveMetadataFieldReturn)**
+**出力 (saveMetadataFieldReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | はい | 新しいメタデータフィールドのハンドル。 |
+| fieldHandle | `xsd:string` | はい | 新しいメタデータフィールドのハンドル。 |
 
 ## 例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-このコードサンプルを使用すると、 Asset TypeとMetadata Field Typesの文字列定数で制限される新しいメタデータフィールドが作成されます。 `fieldHandle`要素に有効なフィールドハンドル値がある場合、メタデータ値を変更し、リクエストで指定したのと同じフィールドハンドルを取得します。
+次のコードサンプルは、 Asset Type および Metadata Field Types 文字列定数で制約される新しいメタデータフィールドを作成します。 この `fieldHandle` 要素に有効なフィールドハンドル値がある場合、メタデータ値を変更し、リクエストで指定したのと同じフィールドハンドルを取得します。
 
 **リクエスト**
 

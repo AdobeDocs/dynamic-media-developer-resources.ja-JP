@@ -5,7 +5,7 @@ title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -112,7 +112,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | はい | アセットセットのハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットセットのハンドル。 |
 
 ## 例 {#section-fed53089de824d67ab96cd9103d384b4}
 

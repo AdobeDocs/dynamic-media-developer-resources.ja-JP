@@ -1,20 +1,20 @@
 ---
-description: cdnCacheInvalidation操作に応じて、指定された受信者に電子メールを送信します。
+description: cdnCacheInvalidation 操作に応じて、指定された受信者に電子メールを送信します。
 solution: Experience Manager
 title: EmailConfirmation
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 6%
 
 ---
 
 # EmailConfirmation{#emailconfirmation}
 
-cdnCacheInvalidation操作に応じて、指定された受信者に電子メールを送信します。
+cdnCacheInvalidation 操作に応じて、指定された受信者に電子メールを送信します。
 
 構文
 
@@ -22,5 +22,5 @@ cdnCacheInvalidation操作に応じて、指定された受信者に電子メー
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | trueの場合は、ユーザーのWebサービスユーザーアカウントが含まれます。これは、Dynamic Media CDNから電子メール確認を受け取るように指定された電子メールのリストです。 |
-| `*`ccOthersArray`*` | `types:EmailArray` | Dynamic Media CDNから確認通知を受信するように指定された電子メールアドレスの配列（最大5個）。 |
+| ccOriginator | `xsd:boolean` | true の場合は、ユーザーの Web サービスユーザーアカウントが含まれます。これは、Dynamic Media CDN から電子メール確認を受け取るように指定された電子メールのリストです。 |
+| ccOthersArray | `types:EmailArray` | Dynamic Media CDN から確認通知を受け取るように指定された電子メールアドレス（最大 5 つ）の配列。 |

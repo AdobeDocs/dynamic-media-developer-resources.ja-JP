@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | はい | 検索するごみ箱の状態を決定します。 |
-| `*`includeInactive`*` | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか除外します。 IPS 管理者以外のユーザーは、API 呼び出しをおこなう権限を持つ 1 つ以上の会社のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、認証エラーが返されます。 |
-| `*`includInvalid`*` | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルタリングします。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | いいえ | グループに基づいて結果をフィルタリングします。 |
-| `*`userRoleArray`*` | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルタリングします。 |
-| `*`numChars`*` | `xsd:int` | いいえ | 1 文字以上を有効にします。 |
+| charField | `xsd:string` | はい | 検索するごみ箱の状態を決定します。 |
+| includeInactive | `xsd:boolean` | はい | 非アクティブなユーザーを含めるか除外します。 IPS 管理者以外のユーザーは、API 呼び出しをおこなう権限を持つ 1 つ以上の会社のアクティブなメンバーである必要があります。 ユーザーがアクティブな会社メンバーシップを持っていない場合、認証エラーが返されます。 |
+| includInvalid | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
+| companyHandleArray | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルタリングします。 |
+| groupHandleArray | `types:HandleArray` | いいえ | グループに基づいて結果をフィルタリングします。 |
+| userRoleArray | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルタリングします。 |
+| numChars | `xsd:int` | いいえ | 1 文字以上を有効にします。 |
 
 **出力 (getUserCharsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | はい | 文字プレフィックスの配列。 |
+| userCharsArray | `types:StringArray` | はい | 文字プレフィックスの配列。 |
 
 ## 例 {#section-3702f165e8b041139a6144f4a76ca25f}
 

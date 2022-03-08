@@ -2,13 +2,13 @@
 description: 新しいパスワードを生成します。
 solution: Experience Manager
 title: generatePassword
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '59'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 構文
 
-## 許可されたユーザーの種類 {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 認証済みユーザータイプ {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,19 +32,19 @@ ht-degree: 18%
 
 ## パラメータ {#section-d516615c906240819a284786efb19863}
 
-**入力(generatePasswordParam)**
+**入力 (generatePasswordParam)**
 
 なし
 
-**出力(generatePasswordParam)**
+**出力 (generatePasswordParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`パスワード`*` | `xsd:string` | はい | 新しいパスワード。 |
+| パスワード | `xsd:string` | はい | 新しいパスワード。 |
 
 ## 例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-このコードサンプルは、パスワードを生成します。 リクエストは、単に要素や値を含まないパラメーターなので、通常と異なります。 IPSは、強力なパスワードを返します。
+このコードのサンプルでは、パスワードを生成します。 リクエストは単に要素や値を含まないパラメーターなので、通常とは異なります。 IPS は強力なパスワードを返します。
 
 **リクエスト**
 

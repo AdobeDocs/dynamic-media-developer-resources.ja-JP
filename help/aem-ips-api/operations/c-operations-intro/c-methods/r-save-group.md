@@ -2,13 +2,13 @@
 description: グループを作成または編集します。
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 19%
+source-wordcount: '92'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 構文
 
-## 許可されたユーザーの種類 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 認証済みユーザータイプ {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,20 +26,20 @@ ht-degree: 19%
 
 ## パラメータ {#section-743610e98dd5494baffcbad6401038eb}
 
-**入力(saveGroupParam)**
+**入力 (saveGroupParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 保存するグループを持つ会社へのハンドル。 |
-| `*`groupHandle`*` | `xsd:string` | いいえ | グループのハンドル。 |
-| `*`name`*` | `xsd:string` | はい | グループ名。 |
-| `*`isSystemDefined`*` | `xsd:boolean` | はい | `false` がデフォルトです。 |
+| companyHandle | `xsd:string` | はい | 保存するグループを持つ会社へのハンドル。 |
+| groupHandle | `xsd:string` | いいえ | グループへのハンドル。 |
+| name | `xsd:string` | はい | グループ名。 |
+| isSystemDefined | `xsd:boolean` | はい | `false` がデフォルトです。 |
 
-**出力(saveGroupReturn)**
+**出力 (saveGroupReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
+| groupHandle | `xsd:string` | はい | グループハンドル。 |
 
 ## 例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

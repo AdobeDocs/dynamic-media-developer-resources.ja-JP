@@ -2,13 +2,13 @@
 description: 既存のタグフィールドの辞書に新しいタグ値を追加します。
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 構文
 
-## 許可されたユーザーの種類 {#section-ba1d7040661e48b7a6b035494e065c91}
+## 認証済みユーザータイプ {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,17 +26,17 @@ ht-degree: 13%
 
 ## パラメータ {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**入力(addTagFieldValuesParam)**
+**入力 (addTagFieldValuesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
-| `*`fieldHandle`*` | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
-| `*`valueArray`*` | `xsd:string` | はい | フィールドの既存の辞書に追加するタグ値の配列。 |
+| companyHandle | `xsd:string` | はい | タグフィールドを含む会社のハンドル。 |
+| fieldHandle | `xsd:string` | はい | 変更するタグフィールドのハンドル。 |
+| valueArray | `xsd:string` | はい | フィールドの既存の辞書に追加するタグ値の配列。 |
 
-**出力(addTagFieldValuesParam)**
+**出力 (addTagFieldValuesParam)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-c4049392f1c548f883b8b1f8f167bada}
 

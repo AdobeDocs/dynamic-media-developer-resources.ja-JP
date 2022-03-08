@@ -1,20 +1,20 @@
 ---
-description: タグ値の更新エラーの配列。
+description: タグ値の配列の更新エラー。
 solution: Experience Manager
 title: TagValueUpdateFaultArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76622042-0fb4-4ec4-834b-d64d79af6a94
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
 # TagValueUpdateFaultArray{#tagvalueupdatefaultarray}
 
-タグ値の更新エラーの配列。
+タグ値の配列の更新エラー。
 
 構文
 
@@ -22,4 +22,4 @@ ht-degree: 16%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:TagValueUpdateFault` | タグ値の更新エラー（エラーメッセージ）の配列。 |
+| 商品 | `types:TagValueUpdateFault` | タグ値の配列による更新エラー（エラーメッセージ）。 |

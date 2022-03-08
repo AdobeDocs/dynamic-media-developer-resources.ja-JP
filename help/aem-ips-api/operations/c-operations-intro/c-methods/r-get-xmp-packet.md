@@ -1,24 +1,24 @@
 ---
-description: 指定されたアセットのXMP Metadataパケットを取得します。
+description: 指定されたアセットのXMP Metadata パケットを取得します。
 solution: Experience Manager
 title: getXMPPacket
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 21%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
 # getXMPPacket{#getxmppacket}
 
-指定されたアセットのXMP Metadataパケットを取得します。
+指定されたアセットのXMP Metadata パケットを取得します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 認証済みユーザータイプ {#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,18 +30,18 @@ ht-degree: 21%
 
 ## パラメータ {#section-b4075df0e4414b00b961d978d5471db9}
 
-**入力(getXMPPacketParam)**
+**入力 (getXMPPacketParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社は、返すパケット（`c|656`など）を処理します。 |
-| `*`assetHandle`*` | `xsd:string` | はい | XMPパケットを取得するアセット。 |
+| companyHandle | `xsd:string` | はい | 返すパケットを会社が処理します ( 例： `c|656`) をクリックします。 |
+| assetHandle | `xsd:string` | はい | XMPパケットを取得するアセット。 |
 
-**出力(getXMPPacketReturn)**
+**出力 (getXMPPacketReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | はい | [!DNL zlib-compressed] XMPパケット。 |
+| compressedPacket | `xsd:Base 64 binary` | はい | [!DNL zlib-compressed] XMPパケット。 |
 
 ## 例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

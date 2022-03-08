@@ -1,20 +1,20 @@
 ---
-description: PDFファイルから抽出された検索文字列レコード。
+description: 検索ファイルから抽出した検索PDFレコード。
 solution: Experience Manager
 title: SearchStrings
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '82'
+ht-degree: 12%
 
 ---
 
 # SearchStrings{#searchstrings}
 
-PDFファイルから抽出された検索文字列レコード。
+検索ファイルから抽出した検索PDFレコード。
 
 構文
 
@@ -22,12 +22,12 @@ PDFファイルから抽出された検索文字列レコード。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | 検索文字列のテキスト。 |
-| `*`keywordsArray`*` | `types:KeywordsArray` | 検索文字列内のキーワードの配列。 |
-| `*`status`*` | `xsd:boolean` | 検索文字列が有効で有効な場合はtrue。 |
-| `*`x`*` | `xsd:int` | 検索文字列のX軸位置。 |
-| `*`y`*` | `xsd:int` | 検索文字列のY軸位置。 |
-| `*`width`*` | `xsd:int` | 検索文字列の幅。 |
-| `*`height`*` | `xsd:int` | 検索文字列の高さ。 |
-| `*`fontName`*` | `xsd:string` | 検索文字列で使用されるフォントの名前。 |
-| `*`pointSize`*` | `xsd:string` | フォントサイズ |
+| searchString | `xsd:string` | 検索文字列テキスト。 |
+| keywordsArray | `types:KeywordsArray` | 検索文字列内のキーワードの配列。 |
+| status | `xsd:boolean` | 検索文字列が有効で有効な場合は true。 |
+| x | `xsd:int` | 検索文字列の X 軸位置。 |
+| y | `xsd:int` | 検索文字列の Y 軸の位置。 |
+| 幅 | `xsd:int` | 検索文字列の幅。 |
+| 高さ | `xsd:int` | 検索文字列の高さ。 |
+| fontName | `xsd:string` | 検索文字列で使用されるフォントの名前。 |
+| pointSize | `xsd:string` | フォントサイズ。 |

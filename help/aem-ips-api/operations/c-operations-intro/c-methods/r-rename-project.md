@@ -2,13 +2,13 @@
 description: プロジェクトの名前を変更します。
 solution: Experience Manager
 title: renameProject
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 構文
 
-## 許可されたユーザーの種類 {#section-093d1f611a1647568e885ddd842b8f78}
+## 認証済みユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,19 +29,19 @@ ht-degree: 21%
 
 ## パラメータ {#section-43ccd77648784be4a259a723c3e1db40}
 
-**入力(renameProjectParam)**
+**入力 (renameProjectParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社に対して処理します。 |
-| `*`projectHandle`*` | `xsd:string` | はい | プロジェクトを処理します。 |
-| `*`projectName`*` | `xsd:string` | はい | 新しいプロジェクト名。 |
+| companyName | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社に対して処理します。 |
+| projectHandle | `xsd:string` | はい | プロジェクトを処理します。 |
+| projectName | `xsd:string` | はい | 新規プロジェクト名。 |
 
-**出力(renameProjectParam)**
+**出力 (renameProjectParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | はい | 名前を変更したプロジェクトのハンドル。 |
+| projectHandle | `xsd:string` | はい | 名前を変更したプロジェクトのハンドル。 |
 
 ## 例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 

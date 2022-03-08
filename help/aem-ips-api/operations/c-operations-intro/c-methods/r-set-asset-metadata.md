@@ -1,24 +1,24 @@
 ---
-description: アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
+description: アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチに設定します。
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 10%
 
 ---
 
 # setAssetMetadata{#setassetmetadata}
 
-アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチで設定します。
+アセットのメタデータ値を設定します。 メタデータの更新の配列を使用して、値をバッチに設定します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-9dcacb0c924044648f8324bfed183dca}
+## 認証済みユーザータイプ {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,17 +33,17 @@ ht-degree: 9%
 
 ## パラメータ {#section-bcdcff30905e444388811e897b2824bd}
 
-**入力(setAssetMetadataParam)**
+**入力 (setAssetMetadataParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 更新するアセットを含む会社へのハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットのハンドル。 |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | はい | メタデータ更新配列の更新。 |
+| companyHandle | `xsd:string` | はい | 更新するアセットを含む会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットのハンドル。 |
+| updateArray | `types:MetadataUpdateArray` | はい | メタデータ更新配列の更新。 |
 
-**出力(setAssetMetadataReturn)**
+**出力 (setAssetMetadataReturn)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 

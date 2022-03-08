@@ -2,13 +2,13 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '85'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 構文
 
-## 許可されたユーザーの種類 {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 認証済みユーザータイプ {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,14 +32,12 @@ ht-degree: 18%
 >
 >* アセットを返すには、読み取りアクセス権が必要です。
 >* すべてのユーザーが共有会社にアクセスできます。
-
 >
-
 
 
 ## パラメータ {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**入力(getPublishContextsParam)**
+**入力 (getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -55,15 +53,15 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社に取り扱う。 </td> 
+   <td colname="col4"> 会社に対する取り扱い。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返すパブリッシュコンテキストのタイプ。 以下を含みます。 
+   <td colname="col4">返す公開コンテキストのタイプ。 次を含む： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> 画像サービング</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> ビデオ</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
@@ -72,11 +70,11 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-**出力(getPublishContextsReturn)**
+**出力 (getPublishContextsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | タイプ：PublishContextArray[たいぷ：PublishContextArray] | はい | 会社の公開コンテキストの配列。必要に応じてコンテキストタイプでフィルタリングします。 |
+| publishContextArray | types:PublishContextArray | はい | 会社の公開コンテキストの配列。必要に応じてコンテキストタイプでフィルタリングします。 |
 
 ## 例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

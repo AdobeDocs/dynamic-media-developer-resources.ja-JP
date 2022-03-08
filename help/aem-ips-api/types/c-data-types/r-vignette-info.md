@@ -1,18 +1,18 @@
 ---
 description: ビネットアセットのプロパティ。
 solution: Experience Manager
-title: VignetteInfo
-feature: Dynamic Media Classic、SDK/API
+title: ビネット情報
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '44'
+ht-degree: 15%
 
 ---
 
-# VignetteInfo{#vignetteinfo}
+# ビネット情報{#vignetteinfo}
 
 ビネットアセットのプロパティ。
 
@@ -22,10 +22,10 @@ ht-degree: 14%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ファイルのパス。 |
-| `*`originalFile`*` | `xsd:string` | ファイル名。 |
-| `*`fileSize`*` | `xsd:int` | ファイルサイズ. |
-| `*`imagePath`*` | `xsd:string` | 画像へのパス。 |
-| `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | ファイルへの最適化されたパス。 |
-| `*`optimizedFile`*` | `xsd:string` | ファイル名を最適化。 |
+| originalPath | `xsd:string` | ファイルへのパス。 |
+| originalFile | `xsd:string` | ファイル名。 |
+| fileSize | `xsd:int` | ファイルサイズ. |
+| imagePath | `xsd:string` | 画像へのパス。 |
+| imageFile | `xsd:string` |  |
+| optimizedPath | `xsd:string` | ファイルへの最適化されたパス。 |
+| optimizedFile | `xsd:string` | 最適化されたファイル名。 |

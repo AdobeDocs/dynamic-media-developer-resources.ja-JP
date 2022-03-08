@@ -1,24 +1,24 @@
 ---
-description: 1回のリクエストですべてのシステムプロパティを取得します。
+description: 1 回のリクエストですべてのシステムプロパティを取得します。
 solution: Experience Manager
 title: getSystemProperties
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 18%
+source-wordcount: '55'
+ht-degree: 20%
 
 ---
 
 # getSystemProperties{#getsystemproperties}
 
-1回のリクエストですべてのシステムプロパティを取得します。
+1 回のリクエストですべてのシステムプロパティを取得します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 認証済みユーザータイプ {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,19 +32,19 @@ ht-degree: 18%
 
 ## パラメータ {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**入力(getSystemPropertiesParam)**
+**入力 (getSystemPropertiesParam)**
 
 なし
 
-**出力(getSystemPropertiesReturn)**
+**出力 (getSystemPropertiesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`propertyArray`*` | `types:PropertyArray` | はい | システムプロパティの配列。 |
+| propertyArray | `types:PropertyArray` | はい | システムプロパティの配列。 |
 
 ## 例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-このコードサンプルは、システムプロパティの配列を返します。 簡潔にするために応答は切り捨てられました。
+このコード例は、システムプロパティの配列を返します。 簡潔にするために応答が切り捨てられました。
 
 **リクエスト**
 

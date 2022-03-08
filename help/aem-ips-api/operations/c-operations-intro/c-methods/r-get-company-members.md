@@ -1,24 +1,24 @@
 ---
-description: 会社のハンドルで指定された会社のユーザーを返します。
+description: 会社の取り扱いによって指定された会社のユーザーを返します。
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
 
 # getCompanyMembers{#getcompanymembers}
 
-会社のハンドルで指定された会社のユーザーを返します。
+会社の取り扱いによって指定された会社のユーザーを返します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-b2bc2fa0cc944cea8be82524838307cc}
+## 認証済みユーザータイプ {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,22 +27,22 @@ ht-degree: 17%
 
 ## パラメータ {#section-5602e4d6f2214e398e6a804e61f1a088}
 
-**入力(getCompanyMembersParam)**
+**入力 (getCompanyMembersParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | メンバーを取得する会社のハンドル。 |
-| `*`includeInvalid`*` | `xsd:boolean` | はい | 無効な会社を含めます。 |
+| companyHandle | `xsd:string` | はい | メンバーを取得する会社のハンドル。 |
+| includeInvalid | `xsd:boolean` | はい | 無効な会社を含めます。 |
 
-**出力(getCompanyMembersReturn)**
+**出力 (getCompanyMembersReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | はい | ユーザーメンバーシップの配列。 |
+| memberArray | `types:CompanyMemberArray` | はい | ユーザーメンバーシップの配列。 |
 
 ## 例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-このコード例は、会社のすべてのメンバーをユーザー配列で返します。 簡潔にするために応答は切り捨てられました。
+このコード例は、会社のすべてのメンバーをユーザー配列で返します。 応答は簡潔にするために切り捨てられました。
 
 **リクエスト**
 

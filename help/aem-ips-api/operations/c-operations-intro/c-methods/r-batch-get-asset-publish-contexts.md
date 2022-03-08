@@ -2,13 +2,13 @@
 description: 公開用にマークされたアセットの公開コンテキストを返します。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 構文
 
-## 許可されたユーザーの種類 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 認証済みユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,25 +34,23 @@ ht-degree: 15%
 >
 >* アセットを返すには、読み取りアクセス権が必要です。
 >* すべてのユーザーが共有会社にアクセスできます。
-
 >
-
 
 
 ## パラメータ {#section-1742fcb196224545b270eb8241f757a8}
 
-**入力(batchGetAssetPublishContextsParam)**
+**入力 (batchGetAssetPublishContextsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリを実行するアセットのリスト。 |
+| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
+| assetHandleArray | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
 
-**出力(batchGetAssetPublishContextsReturn)**
+**出力 (batchGetAssetPublishContextsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされる公開コンテキストの配列。 |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされる、公開コンテキストの配列。 |
 
 ## 例 {#section-457f6809ccfa425b9a0976313d613f4e}
 

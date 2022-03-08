@@ -2,13 +2,13 @@
 description: ズームターゲットを削除します。
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ズームターゲットを削除します。
 
-## 許可されたユーザーの種類 {#section-09ca82bc817e49048271c5cba545702e}
+## 認証済みユーザータイプ {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,16 +31,16 @@ ht-degree: 12%
 
 ## パラメータ {#section-225330a45e7a408f8375e084677d9cb1}
 
-**入力(deleteZoomTargetParam)**
+**入力 (deleteZoomTargetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | ズームターゲットが属する会社のハンドル。 |
-| `*`zoomTargetHandle`*` | `xsd:string` | はい | 削除するズームターゲットのハンドル。 |
+| companyHandle | `xsd:string` | はい | ズームターゲットが属する会社のハンドル。 |
+| zoomTargetHandle | `xsd:string` | はい | 削除するズームターゲットのハンドル。 |
 
-**出力(deleteZoomTargetParam)**
+**出力 (deleteZoomTargetParam)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 

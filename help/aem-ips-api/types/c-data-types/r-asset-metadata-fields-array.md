@@ -1,20 +1,20 @@
 ---
-description: AssetMetadataFieldsの配列。 getAssetMetadataFieldsで使用され、1回の呼び出しですべてのアセットメタデータフィールドを返し、結果はアセットタイプ別にグループ化されます。
-solution: Experience Manager
 title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
+description: AssetMetadataFields の配列。 getAssetMetadataFields で使用され、1 回の呼び出しですべてのアセットメタデータフィールドを返し、結果をアセットタイプ別にグループ化します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 
 # AssetMetadataFieldsArray{#assetmetadatafieldsarray}
 
-AssetMetadataFieldsの配列。 getAssetMetadataFieldsで使用され、1回の呼び出しですべてのアセットメタデータフィールドを返し、結果はアセットタイプ別にグループ化されます。
+AssetMetadataFields の配列。 getAssetMetadataFields で使用され、1 回の呼び出しですべてのアセットメタデータフィールドを返し、結果をアセットタイプ別にグループ化します。
 
 構文
 
@@ -22,4 +22,4 @@ AssetMetadataFieldsの配列。 getAssetMetadataFieldsで使用され、1回の�
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:AssetMetadataFields` | `AssetMetadataFields`配列項目。 |
+| 商品 | `types:AssetMetadataFields` | An `AssetMetadataFields` 配列項目。 |

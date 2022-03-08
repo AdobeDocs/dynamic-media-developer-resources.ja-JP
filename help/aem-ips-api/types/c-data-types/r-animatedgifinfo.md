@@ -1,20 +1,20 @@
 ---
-description: アニメーションGIFファイルアセットのプロパティ。
-solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic、SDK/API
+description: アニメーション化されたGIFファイルアセットのプロパティ。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '55'
+ht-degree: 12%
 
 ---
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-アニメーションGIFファイルアセットのプロパティ。
+アニメーション化されたGIFファイルアセットのプロパティ。
 
 構文
 
@@ -42,12 +42,12 @@ ht-degree: 11%
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedPath</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS最適化イメージファイルのパス。 </p> </td> 
+   <td colname="col3"> <p>IPS 最適化イメージファイルのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedFile</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS最適化イメージファイル。 </p> </td> 
+   <td colname="col3"> <p>IPS 最適化イメージファイル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 

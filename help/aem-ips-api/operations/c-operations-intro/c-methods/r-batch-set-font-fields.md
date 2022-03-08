@@ -2,13 +2,13 @@
 description: フォントメタデータフィールドを設定します。
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 フォントメタデータフィールドを設定します。
 
-## 許可されたユーザーの種類 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 認証済みユーザータイプ {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -26,22 +26,22 @@ ht-degree: 14%
 
 ## パラメータ {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**入力(batchSetFontFieldsParam)**
+**入力 (batchSetFontFieldsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | フォントを含む会社に対して処理します。 |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | はい | フォントフィールドの更新の配列。 |
+| companyHandle | `xsd:string` | はい | フォントを含む会社を処理します。 |
+| updateArray | `types:FontFieldUpdateArray` | はい | フォントフィールドの更新の配列。 |
 
-**出力(batchSetFontFieldsParam)**
+**出力 (batchSetFontFieldsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | はい | 正常に設定されたフォントフィールドの数。 |
-| `*`warningCount`*` | `xsd:int` | はい | フォントフィールドの設定操作で発生した警告の数。 |
-| `*`errorCount`*` | `xsd:int` | はい | 操作がフォントフィールドの設定を試みたときに生成されたエラーの数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
+| successCount | `xsd:int` | はい | 正常に設定されたフォントフィールドの数。 |
+| warningCount | `xsd:int` | はい | フォントフィールドの設定が試行された際に生成された警告の数。 |
+| errorCount | `xsd:int` | はい | 操作がフォントフィールドの設定を試みた際に生成されたエラーの数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

@@ -2,13 +2,13 @@
 description: アセットのXMPメタデータパケットを設定または更新します。
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 構文
 
-## 許可されたユーザーの種類 {#section-ee88a759f4774482a4734201a971f610}
+## 認証済みユーザータイプ {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,19 +30,19 @@ ht-degree: 24%
 
 ## パラメータ {#section-7a89621d441840faba639746b410a489}
 
-**入力(updateXMPPacketParam)**
+**入力 (updateXMPPacketParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| `*`assetHandle`*` | `xsd:string` | はい | アセットハンドル。 |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | はい | [!DNL zlib-compressed] 設定または更新するXMPパケット。 |
+| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| compressedPacket | `xsd:Base 64 binary` | はい | [!DNL zlib-compressed] 設定または更新するXMPパケット。 |
 
-**出力(updateXMPPacketReturn)**
+**出力 (updateXMPPacketReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`成功`*` | `xsd:boolean` | はい | パケットが更新された場合は`true`を返します。 |
+| 成功 | `xsd:boolean` | はい | 戻り値 `true` パケットが更新された場合。 |
 
 ## 例 {#section-38b556b94e5044bf97a954519ff6c212}
 

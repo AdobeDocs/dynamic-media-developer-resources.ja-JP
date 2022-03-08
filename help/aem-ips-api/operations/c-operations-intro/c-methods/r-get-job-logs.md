@@ -1,24 +1,24 @@
 ---
-description: 選択した会社の指定されたジョブログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+description: 選択した会社の指定されたジョブログを取得します。 文字、方向、開始日、終了日、行数で並べ替えることができます。
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 11%
 
 ---
 
 # getJobLogs{#getjoblogs}
 
-選択した会社の指定されたジョブログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+選択した会社の指定されたジョブログを取得します。 文字、方向、開始日、終了日、行数で並べ替えることができます。
 
 構文
 
-## 許可されたユーザーの種類 {#section-9df82972265d44c9ad91504a17c3ffa6}
+## 認証済みユーザータイプ {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,27 +32,27 @@ ht-degree: 11%
 
 ## パラメータ {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**入力(getJobLogsParam)**
+**入力 (getJobLogsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | いいえ | 会社が取り扱う。 |
-| `*`userHandle`*` | `xsd:string` | いいえ | 特定のユーザーが送信したジョブのログを取得します。 |
-| `*`sortBy`*` | `xsd:string` | いいえ | 並べ替えフィールドを選択できます。 |
-| `*`sortDirection`*` | `xsd:string` | いいえ | 並べ替え順（昇順または降順）。 |
-| `*`startDate`*` | `xsd:dateTime` | いいえ | ジョブログの開始日時。 このフィールドのリクエストでタイムゾーンを指定します。 |
-| `*`endDate`*` | `xsd:dateTime` | いいえ | ジョブログの終了日時。 このフィールドのリクエストでタイムゾーンを指定します。 |
-| `*`numRows`*` | `xsd:int` | いいえ | 返す行の最大数。 |
+| companyHandle | `xsd:string` | いいえ | 会社が処理します。 |
+| userHandle | `xsd:string` | いいえ | 特定のユーザーが送信したジョブのログを取得します。 |
+| sortBy | `xsd:string` | いいえ | 並べ替えフィールドを選択できます。 |
+| sortDirection | `xsd:string` | いいえ | 並べ替え順（昇順または降順）。 |
+| startDate | `xsd:dateTime` | いいえ | ジョブログの開始日時。 このフィールドのリクエストのタイムゾーンを指定します。 |
+| endDate | `xsd:dateTime` | いいえ | ジョブログの終了日時。 このフィールドのリクエストのタイムゾーンを指定します。 |
+| numRows | `xsd:int` | いいえ | 返す行の最大数。 |
 
-**出力(getJobLogsReturn)**
+**出力 (getJobLogsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | はい | ジョブログの配列。 |
+| jobLogArray | `types: JobLogArray` | はい | ジョブログの配列。 |
 
 ## 例 {#section-35871c94b4a44559912577efddbc46a6}
 
-このコードサンプルは、特定の会社のIPSジョブログを返します。 また、特定のユーザーや会社、ユーザーのジョブログを返す場合にも使用できます。
+このコード例は、特定の会社の IPS ジョブログを返します。 また、特定のユーザーや会社およびユーザーのジョブログを返す場合にも使用できます。
 
 **リクエスト**
 

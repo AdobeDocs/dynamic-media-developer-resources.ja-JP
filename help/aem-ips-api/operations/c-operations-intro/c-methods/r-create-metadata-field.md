@@ -5,7 +5,7 @@ title: createMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 8%
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | はい | 新しいメタデータフィールドのハンドル。 |
+| fieldHandle | `xsd:string` | はい | 新しいメタデータフィールドのハンドル。 |
 
 ## 例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 

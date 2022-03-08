@@ -1,20 +1,20 @@
 ---
-description: 画像セットメンバの配列。
+description: 画像セットメンバーの配列。
 solution: Experience Manager
 title: ImageSetMemberArray
-feature: Dynamic Media Classic,SDK/API，画像セット
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 364f9a58-2128-4d1c-bdad-1ae2677e8e48
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
 # ImageSetMemberArray{#imagesetmemberarray}
 
-画像セットメンバの配列。
+画像セットメンバーの配列。
 
 構文
 
@@ -22,4 +22,4 @@ ht-degree: 18%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:ImageSetMember` | 画像セットメンバの配列。 |
+| 商品 | `types:ImageSetMember` | 画像セットメンバーの配列。 |

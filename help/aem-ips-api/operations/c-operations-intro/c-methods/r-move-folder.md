@@ -2,13 +2,13 @@
 description: フォルダーを新しい場所に移動します。
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 26%
 
 構文
 
-## 許可されたユーザーの種類 {#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 認証済みユーザータイプ {#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,19 +29,19 @@ ht-degree: 26%
 
 ## パラメータ {#section-473c2e68bcc14a9ea2593bee26e679dd}
 
-**入力(moveFolderParam)**
+**入力 (moveFolderParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社に取り扱う。 |
-| `*`folderHandle`*` | `xsd:string` | はい | フォルダーハンドル。 |
-| `*`destFolderHandle`*` | `xsd:string` | はい | 宛先フォルダーを処理します。 |
+| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
+| folderHandle | `xsd:string` | はい | フォルダーハンドル。 |
+| destFolderHandle | `xsd:string` | はい | 保存先フォルダーを処理します。 |
 
-**出力(moveFolderReturn)**
+**出力 (moveFolderReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | はい | 移動したフォルダーを処理します。 |
+| folderHandle | `xsd:string` | はい | 移動したフォルダーを処理します。 |
 
 ## 例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

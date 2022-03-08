@@ -1,20 +1,20 @@
 ---
-description: CuePointファイルアセットのプロパティ。
+description: CuePoint ファイルアセットのプロパティ。
 solution: Experience Manager
 title: CuePointInfo
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d773cce9-837d-4ac1-99e6-1033eec93b55
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 # CuePointInfo{#cuepointinfo}
 
-CuePointファイルアセットのプロパティ。
+CuePoint ファイルアセットのプロパティ。
 
 構文
 
@@ -22,6 +22,6 @@ CuePointファイルアセットのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | CuePointファイルパス。 |
-| `*`originalFile`*` | `xsd:string` | CuePointファイル名。 |
-| `*`fileSize`*` | `xsd:int` | CuePointのファイルサイズ。 |
+| originalPath | `xsd:string` | CuePoint ファイルのパス。 |
+| originalFile | `xsd:string` | CuePoint ファイル名。 |
+| fileSize | `xsd:int` | CuePoint ファイルのサイズ。 |

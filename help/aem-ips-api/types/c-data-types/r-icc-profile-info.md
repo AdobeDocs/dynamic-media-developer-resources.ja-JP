@@ -1,20 +1,20 @@
 ---
-description: ICCプロファイルアセットのプロパティ。
+description: ICC プロファイルアセットのプロパティ。
 solution: Experience Manager
 title: IccProfileInfo
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
 # IccProfileInfo{#iccprofileinfo}
 
-ICCプロファイルアセットのプロパティ。
+ICC プロファイルアセットのプロパティ。
 
 構文
 
@@ -22,6 +22,6 @@ ICCプロファイルアセットのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | ICCプロファイルパス。 |
-| `*`originalFile`*` | `xsd:string` | 元のICCプロファイルの名前。 |
-| `*`fileSize`*` | `xsd:int` | ICCプロファイルのサイズ。 |
+| originalPath | `xsd:string` | ICC プロファイルのパス。 |
+| originalFile | `xsd:string` | 元の ICC プロファイルの名前。 |
+| fileSize | `xsd:int` | ICC プロファイルのサイズ。 |

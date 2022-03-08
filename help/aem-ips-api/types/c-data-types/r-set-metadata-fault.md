@@ -1,20 +1,20 @@
 ---
-description: batchSetAssetMetadata操作のセグメント更新に関する警告またはエラーの詳細。
+description: batchSetAssetMetadata 操作でのセグメント更新の警告またはエラーの詳細。
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 12%
 
 ---
 
 # SetMetadataFault{#setmetadatafault}
 
-batchSetAssetMetadata操作のセグメント更新に関する警告またはエラーの詳細。
+batchSetAssetMetadata 操作でのセグメント更新の警告またはエラーの詳細。
 
 構文
 
@@ -22,7 +22,7 @@ batchSetAssetMetadata操作のセグメント更新に関する警告または�
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | メタデータが正常に設定されなかったアセット。 |
-| `*`fieldHandle`*` | `xsd:string` | 値が正常に設定されなかったメタデータフィールドへのハンドル。 |
-| `*`コード`*` | `xsd:int` | 障害コード。 |
-| `*`理由`*` | `xsd:string` | フォルトの説明（プレーンテキスト）。 |
+| assetHandle | `xsd:string` | メタデータが正常に設定されなかったアセット。 |
+| fieldHandle | `xsd:string` | 値が正常に設定されなかったメタデータフィールドのハンドル。 |
+| コード | `xsd:int` | 障害コード。 |
+| 理由 | `xsd:string` | 障害の説明（プレーンテキスト）。 |

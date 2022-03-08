@@ -5,7 +5,7 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
@@ -31,16 +31,16 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | いいえ | プロパティセットタイプを所有する会社へのハンドル。 If `companyHandle` が渡されておらず、呼び出し元が `IpsAdmin`を指定した場合、グローバルプロパティセットタイプが作成されます。 |
-| `*`name`*` | `xsd:string` | はい | プロパティセットタイプの名前。 |
-| `*`propertyType`*` | `xsd:string` | はい | プロパティセットタイプの選択。 |
-| `*`allowMultiple`*` | `xsd:boolean` | はい | プログラムが複数のプロパティセットを持つことができるかどうかを指定します。 |
+| companyHandle | `xsd:string` | いいえ | プロパティセットタイプを所有する会社へのハンドル。 If `companyHandle` が渡されておらず、呼び出し元が `IpsAdmin`を指定した場合、グローバルプロパティセットタイプが作成されます。 |
+| name | `xsd:string` | はい | プロパティセットタイプの名前。 |
+| propertyType | `xsd:string` | はい | プロパティセットタイプの選択。 |
+| allowMultiple | `xsd:boolean` | はい | プログラムが複数のプロパティセットを持つことができるかどうかを指定します。 |
 
 **出力 (createPropertySetTypeReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | はい | タイプへのハンドル。 |
+| typeHandle | `xsd:string` | はい | タイプへのハンドル。 |
 
 ## 例 {#section-13396c9639a6475190e622eae3cdb534}
 

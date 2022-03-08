@@ -1,27 +1,27 @@
 ---
-description: 特定のグループから会社ユーザーを削除します。
+description: 特定のグループから会社のユーザーを削除します。
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 10%
 
 ---
 
 # removeGroupMembers{#removegroupmembers}
 
-特定のグループから会社ユーザーを削除します。
+特定のグループから会社のユーザーを削除します。
 
 **削除コマンドの違い**
 
-* `removeGroupMembers`:グループから複数のユーザーを削除します。
+* `removeGroupMembers`:1 つのグループから複数のユーザーを削除します。
 * `removeGroupMembership`:グループの配列から個々のユーザーを削除します。
 
-## 許可されたユーザーの種類 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 認証済みユーザータイプ {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +29,17 @@ ht-degree: 9%
 
 ## パラメータ {#section-b5596614a3be4ce5962455884e4636af}
 
-**入力(removeGroupMembersParam)**
+**入力 (removeGroupMembersParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 操作するユーザーを含む会社へのハンドル。 |
-| `*`groupHandle`*` | `xsd:string` | はい | グループハンドル。 |
-| `*`userHandleArray`*` | `types:HandleArray` | はい | グループメンバーシップを削除するユーザーのハンドルの配列。 |
+| companyHandle | `xsd:string` | はい | 取り扱うユーザーの会社へのハンドル。 |
+| groupHandle | `xsd:string` | はい | グループハンドル。 |
+| userHandleArray | `types:HandleArray` | はい | 削除するグループメンバーシップを持つユーザーのハンドルの配列です。 |
 
-**出力(removeGroupMembersParam)**
+**出力 (removeGroupMembersParam)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 

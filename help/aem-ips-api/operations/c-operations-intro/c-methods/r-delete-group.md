@@ -2,12 +2,12 @@
 description: グループを削除します。
 solution: Experience Manager
 title: deleteGroup
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '86'
 ht-degree: 13%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 構文
 
-## 許可されたユーザーの種類 {#section-ebcc67723663494db0562275b1873460}
+## 認証済みユーザータイプ {#section-ebcc67723663494db0562275b1873460}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,16 +26,16 @@ ht-degree: 13%
 
 ## パラメータ {#section-42775102ec724c36ae5241eea1a00b8e}
 
-**入力(deleteGroupParam)**
+**入力 (deleteGroupParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 削除するグループに属する会社のハンドル。 |
-| `*`groupHandle`*` | `xsd:string` | はい | 削除するグループのハンドル。 |
+| companyHandle | `xsd:string` | はい | 削除するグループに属する会社のハンドル。 |
+| groupHandle | `xsd:string` | はい | 削除するグループのハンドル。 |
 
-**出力(deleteGroupParam)**
+**出力 (deleteGroupParam)**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API はこの操作に対する応答を返しません。
 
 ## 例 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 

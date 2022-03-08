@@ -2,13 +2,13 @@
 description: フォルダを作成します。
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 17%
+source-wordcount: '118'
+ht-degree: 18%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->会社のルートを示す`/`を指定した場合でも、新しいフォルダーはImagesフォルダーの下位にあります。
+>新しいフォルダは、 `/` をクリックして、会社のルートを示します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## 認証済みユーザータイプ {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,22 +33,22 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->ユーザーは、親フォルダーに対する読み取り/書き込みアクセス権を持っている必要があります。
+>ユーザーは、親フォルダーへの読み取り/書き込みアクセス権を持っている必要があります。
 
 ## パラメータ {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**入力(createFolder)**
+**入力 (createFolder)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の取り扱い |
-| `*`folderPath`*` | `xsd:string` | はい | フォルダーとすべてのサブフォルダーをリーフレベルに取得するために使用されるルートフォルダー。 除外された場合は、会社のルートが使用されます。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い |
+| folderPath | `xsd:string` | はい | フォルダとすべてのサブフォルダをリーフレベルで取得するために使用するルートフォルダ。 除外された場合は、会社のルートが使用されます。 |
 
-**出力(createFolderParam)**
+**出力 (createFolderParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | はい | 新しいフォルダーのハンドル。 |
+| folderHandle | `xsd:string` | はい | 新しいフォルダーのハンドル。 |
 
 ## 例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

@@ -2,13 +2,13 @@
 description: メタデータフィールドのすべての値を返します。
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 構文
 
-## 許可されたユーザーの種類 {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 認証済みユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,18 +30,18 @@ ht-degree: 22%
 
 ## パラメータ {#section-600f36a32ff147cb83149943d37843e2}
 
-**入力(getDistinctMetadataValuesParam)**
+**入力 (getDistinctMetadataValuesParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | データを取得する会社へのハンドル。 |
-| `*`metadataKey`*` | `xsd:string` | はい | ドット表記のメタデータキー。 |
+| companyHandle | `xsd:string` | はい | データを取得する会社へのハンドル。 |
+| metadataKey | `xsd:string` | はい | ドット表記のメタデータキー。 |
 
-**出力(getDistinctMetadataValuesReturn)**
+**出力 (getDistinctMetadataValuesReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | はい | リクエストされたメタデータフィールドの値。 |
+| valueArray | `types:ValueArray` | はい | リクエストされたメタデータフィールドの値。 |
 
 ## 例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

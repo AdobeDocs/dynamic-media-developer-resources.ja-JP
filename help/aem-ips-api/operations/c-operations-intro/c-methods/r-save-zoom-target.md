@@ -2,13 +2,13 @@
 description: ズームターゲットを作成または編集します。
 solution: Experience Manager
 title: saveZoomTarget
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -29,29 +29,29 @@ ht-degree: 20%
 
 ## パラメータ {#section-4a23983cae4e49a098e9bbe736933996}
 
-**入力(saveZoomTargetParam)**
+**入力 (saveZoomTargetParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 保存するズームターゲットを持つ会社のハンドル。 |
-| `*`assetHandle`*` | `xsd:string` | はい | ズームターゲットのハンドル。 |
-| `*`zoomTargetHandle`*` | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
-| `*`name`*` | `xsd:string` | はい | ズームターゲット名 |
-| `*`xPosition`*` | `xsd:int` | はい | 左ピクセルの場所。 |
-| `*`yPosition`*` | `xsd:int` | はい | 上のピクセル位置。 |
-| `*`width`*` | `xsd:int` | はい | ズームターゲットの幅 |
-| `*`height`*` | `xsd:int` | はい | ズームターゲットの高さ |
-| `*`ユーザデータ`*` | `xsd:string` | はい | 顧客固有の情報。 任意のタイプのデータを含めることができます。 |
+| companyHandle | `xsd:string` | はい | 保存するズームターゲットを持つ会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | ズームターゲットのハンドル。 |
+| zoomTargetHandle | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
+| name | `xsd:string` | はい | ズームターゲット名 |
+| xPosition | `xsd:int` | はい | 左ピクセルの位置。 |
+| 位置 | `xsd:int` | はい | 上のピクセル位置。 |
+| 幅 | `xsd:int` | はい | ズームターゲットの幅 |
+| 高さ | `xsd:int` | はい | ズームターゲットの高さ |
+| ユーザデータ | `xsd:string` | はい | お客様固有の情報。 任意のタイプのデータを含めることができます。 |
 
-**出力(saveZoomTargetReturn)**
+**出力 (saveZoomTargetReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | はい | 新しく作成されたズームターゲットを処理します。 |
+| zoomTargetHandle | `xsd:string` | はい | 新しく作成したズームターゲットを処理します。 |
 
 ## 例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-このコードサンプルを使用すると、ズームターゲットを保存できます。 応答は、ズームターゲットハンドルを返します。
+このコードのサンプルを使用すると、ズームターゲットを保存できます。 応答は、ズームターゲットハンドルを返します。
 
 **リクエスト**
 

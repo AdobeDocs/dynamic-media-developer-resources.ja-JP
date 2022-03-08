@@ -2,13 +2,13 @@
 description: 実行するようにスケジュールされたジョブを取得します。
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 構文
 
-## 許可されたユーザーの種類 {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 認証済みユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,23 +31,23 @@ ht-degree: 21%
 
 ## パラメータ {#section-2af604ff8282460990b9237158187f8f}
 
-**入力(getScheduledJobsParam)**
+**入力 (getScheduledJobsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の取っ手。 |
-| `*`jobHandle`*` | `xsd:string` | いいえ | ジョブハンドル。 |
-| `*`originalName`*` | `xsd:string` | いいえ | `submitJob`で指定された名前。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| jobHandle | `xsd:string` | いいえ | ジョブハンドル。 |
+| originalName | `xsd:string` | いいえ | で指定された名前 `submitJob`. |
 
-**出力(getScheduledJobsReturn)**
+**出力 (getScheduledJobsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | はい | スケジュール済みジョブの配列。 |
+| jobArray | `types:ScheduledJobArray` | はい | スケジュール済みジョブの配列。 |
 
 ## 例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-このコード例は、すべてのスケジュール済みジョブをジョブ配列で返します。 配列自体には、ジョブに関する詳細情報が含まれます。
+このコード例では、スケジュールされたすべてのジョブをジョブ配列で返します。 配列自体には、ジョブに関する詳細情報が含まれます。
 
 **リクエスト**
 

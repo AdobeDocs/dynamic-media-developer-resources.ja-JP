@@ -2,13 +2,13 @@
 description: 画像ポータルに関連するシステムプロパティの文字列値を取得します。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 10%
 
 次のシステムプロパティがサポートされています。
 
-* `IpsVersion`:IPSバージョン番号。
-* `IpsImageServerUrl`:IPS Image Serverの完全な外部URLプレフィックス。
+* `IpsVersion`:IPS バージョン番号。
+* `IpsImageServerUrl`:IPS Image Server の完全な外部 URL プレフィックス。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:SVGアセットをレンダリングするためのURLプレフィックス。
-* `SvgRenderEnabled`:SVGアセットをでレンダリングできる場合はtrueで `SvgRenderRootUrl`す。
+* `SvgRenderRootUrl`:SVGアセットをレンダリングするための URL プレフィックス。
+* `SvgRenderEnabled`:True を指定すると、SVGアセットは `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`:アップロードで許可されるファイルデータの最大サイズ（バイト単位）で [!DNL POST]す。上限を超えるファイルは拒否されます。
+* `UploadPostMaxFileSize`:アップロードで許可されるファイルデータの最大サイズ（バイト単位） [!DNL POST]. 最大数を超えるファイルは拒否されます。
 
-## 許可されたユーザーの種類 {#section-2cd36bbd46ed414b8753569d5895530e}
+## 認証済みユーザータイプ {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,21 +41,21 @@ ht-degree: 10%
 
 ## パラメータ {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**入力(getPropertyParam)**
+**入力 (getPropertyParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | はい | 取得するプロパティの名前。 |
+| name | `xsd:string` | はい | 取得するプロパティの名前。 |
 
-**出力(getPropertyReturn)**
+**出力 (getPropertyReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | はい | プロパティ値。 |
+| value | `xsd:string` | はい | プロパティの値。 |
 
 ## 例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-このコードサンプルでは、 IPSプロパティの文字列定数を使用して、特定の値を返します。 この例では、IPSプロパティはIPSサーバのバージョンです。
+このコード例では、IPS プロパティの文字列定数を使用して、特定の値を返します。 この例では、IPS プロパティは IPS サーバのバージョンです。
 
 **リクエスト**
 

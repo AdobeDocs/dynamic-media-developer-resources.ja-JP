@@ -2,13 +2,13 @@
 description: 画像アセットに関連付けられている画像フィールドを更新します。
 solution: Experience Manager
 title: ImageFieldUpdate
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 9%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | アセットハンドル。 |
-| `*`resolution`*` | `xsd:double` | 画像の解像度（ピクセル/インチ）。 |
-| `*`anchorX`*` | `xsd:int` | X軸イメージアンカー |
-| `*`anchorY`*` | `xsd:int` | Y軸イメージアンカー |
-| `*`ユーザデータ`*` | `xsd:string` | `userData`メタデータフィールドの値。画像サービングのユーザーデータカタログフィールドに公開されます。 |
+| assetHandle | `xsd:string` | アセットハンドル。 |
+| resolution | `xsd:double` | 画像の解像度（ピクセル/インチ）。 |
+| anchorX | `xsd:int` | X 軸画像アンカー。 |
+| anchorY | `xsd:int` | Y 軸の画像アンカー。 |
+| ユーザデータ | `xsd:string` | の値 `userData` 画像サービングユーザーデータカタログフィールドに公開されるメタデータフィールド。 |

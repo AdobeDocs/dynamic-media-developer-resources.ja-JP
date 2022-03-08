@@ -1,24 +1,24 @@
 ---
-description: アセット画像に関連付けられているズームターゲットを設定します。 既存のズームターゲットが上書きされます。
+description: アセット画像に関連付けられるズームターゲットを設定します。 既存のズームターゲットが上書きされます。
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 13%
+source-wordcount: '121'
+ht-degree: 14%
 
 ---
 
 # setZoomTargets{#setzoomtargets}
 
-アセット画像に関連付けられているズームターゲットを設定します。 既存のズームターゲットが上書きされます。
+アセット画像に関連付けられるズームターゲットを設定します。 既存のズームターゲットが上書きされます。
 
 構文
 
-## 認証されたユーザータイプ {#section-c5e1863e9cb1426591bfea513620b6ab}
+## 認証済みユーザータイプ {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +29,23 @@ ht-degree: 13%
 
 ## パラメータ {#section-161f8c733cc4439f94a06e12119d4226}
 
-**入力(setZoomTargetsParam)**
+**入力 (setZoomTargetsParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | はい | 会社の担当。 |
-| `*`assetHandle`*` | `xsd:string` | はい | 設定するズームターゲットを持つアセット。 |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | はい | ズームターゲット定義の配列。 |
+| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| assetHandle | `xsd:string` | はい | 設定するズームターゲットを持つアセット。 |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | はい | ズームターゲット定義の配列。 |
 
-**出力(setZoomTargetsReturn)**
+**出力 (setZoomTargetsReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | はい | この操作で作成されたズームターゲットに対するハンドルのセット。 |
+| zoomTargetHandleArray | `types:HandleArray` | はい | この操作で作成されたズームターゲットに対する一連のハンドル。 |
 
 ## 例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-このコード例では、名前、位置（x軸とy軸）、幅、高さでズームターゲットの配列を定義し、その配列をアセットに割り当てます。 応答には、新しく作成されたズームターゲットへのハンドルが含まれます。
+このコード例では、名前、位置（x 軸と y 軸）、幅、高さでズームターゲットの配列を定義し、その配列をアセットに割り当てます。 応答には、新しく作成されたズームターゲットへのハンドルが含まれます。
 
 **リクエスト**
 

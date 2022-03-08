@@ -2,13 +2,13 @@
 description: CompanyMembershipUpdateArray
 solution: Experience Manager
 title: CompanyMembershipUpdateArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059c3b71-ef0f-4bab-b50c-57e4420e9566
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '14'
-ht-degree: 42%
+source-wordcount: '9'
+ht-degree: 66%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 42%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `*`商品`*` | `types:CompanyMembershipUpdate` |  |
+| 商品 | `types:CompanyMembershipUpdate` |  |

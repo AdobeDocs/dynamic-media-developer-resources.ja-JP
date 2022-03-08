@@ -1,17 +1,21 @@
 ---
-description: プライマリビデオをアダプティブビデオセットから除外します。
 title: ExcludeMasterVideoFromAVS
-feature: Dynamic Media Classic、SDK/API
+description: プライマリビデオをアダプティブビデオセットから除外します。
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '50'
 ht-degree: 10%
 
 ---
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
+
+>[!IMPORTANT]
+>
+>Adobeは、 `ExcludeMasterVideoFromAVS` パラメータ 2022 年 9 月
 
 プライマリビデオをアダプティブビデオセットから除外します。
 
@@ -31,7 +35,7 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>マスタービデオファイルをアダプティブビデオセットから除外します。 </p> <p>デフォルトはtrueです。 </p> </td> 
+   <td colname="col3"> <p>アダプティブビデオセットからマスタービデオファイルを除外します。 </p> <p>デフォルトは true です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

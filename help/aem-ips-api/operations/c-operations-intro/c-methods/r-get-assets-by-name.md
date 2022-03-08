@@ -2,13 +2,13 @@
 description: アセット名の配列に基づいてアセットを返します。
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 構文
 
-## 許可されたユーザーの種類 {#section-754790841ea242d5ae8bedd587d7730e}
+## 認証済みユーザータイプ {#section-754790841ea242d5ae8bedd587d7730e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## パラメータ {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**入力(getAssetsByNameParam)**
+**入力 (getAssetsByNameParam)**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -51,7 +51,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社の取っ手。 </td> 
+   <td colname="col4"> 会社への取り扱い。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
@@ -75,25 +75,25 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットに使用できるアセットタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットで使用できるアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットに対して除外されるアセットタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットに対して除外されたアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットに対して許可されるアセットのサブタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットに許可されるアセットのサブタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p><span class="codeph"> true</span>および<span class="codeph"> assetSubTypeArray</span>が空でない場合は、サブタイプが<span class="codeph"> assetSubTypeArray</span>に含まれるアセットのみが返されます。 </p> <p><span class="codeph"> false</span>の場合、サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は<span class="codeph"> false</span>です。 </p> </td> 
+   <td colname="col4"> <p>If <span class="codeph"> true</span> および <span class="codeph"> assetSubTypeArray</span> が空ではない場合、サブタイプが <span class="codeph"> assetSubTypeArray</span> が返されます。 </p> <p>If <span class="codeph"> false</span>を指定した場合、サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -110,15 +110,15 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-**出力(getAssetsByNameReturn)**
+**出力 (getAssetsByNameReturn)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | いいえ | フィルター条件に一致するアセットの配列。 |
+| assetArray | `types:AssetArray` | いいえ | フィルター条件に一致するアセットの配列。 |
 
 ## 例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-このコードサンプルを使用すると、2つのイメージタイプアセットを返すことができます。
+このコードサンプルは、2 つのイメージタイプアセットを返します。
 
 **リクエスト**
 

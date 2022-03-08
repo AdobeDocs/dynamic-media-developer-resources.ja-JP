@@ -5,7 +5,7 @@ title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 11%
@@ -98,7 +98,7 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:JobLogArray` | はい | ジョブログの配列。 |
+| jobLogArray | `types:JobLogArray` | はい | ジョブログの配列。 |
 
 ## 例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
