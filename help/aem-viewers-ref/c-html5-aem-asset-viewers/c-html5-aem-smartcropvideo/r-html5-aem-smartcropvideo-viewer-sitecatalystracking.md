@@ -4,7 +4,8 @@ description: スマート切り抜きビデオビューアでは、Adobe Analyti
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 をサードパーティの分析システムと統合するには、 `trackEvent` ビューアのコールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

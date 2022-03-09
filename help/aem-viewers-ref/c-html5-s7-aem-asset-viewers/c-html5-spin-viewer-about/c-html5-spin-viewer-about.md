@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ ht-degree: 0%
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ target="_blank">Open popup viewer</a>
 
    相対パスは次のようになります。
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ target="_blank">Open popup viewer</a>
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    次に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ target="_blank">Open popup viewer</a>
 
    次の設定が可能です。 `stagesize` 修飾子がDynamic Media Classicのビューアプリセットレコードに含まれていること。 または、を使用して、ビューア初期化コードで明示的に渡すこともできます。 `params` コレクション、またはコマンドリファレンスの節で説明されている API 呼び出しとして、次のように使用できます。
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `spinViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`, [!DNL http://s7d1.scene7.com/is/image/] は画像サービングの URL で、 [!DNL Scene7SharedAssets/SpinSet_Sample] はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ target="_blank">Open popup viewer</a>
 
    次のコードは、固定サイズのスピンビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ target="_blank">Open popup viewer</a>
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. この例では、Web ページがビューアのコンテナを許可しているとします。 `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 生成される Web ページHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ target="_blank">Open popup viewer</a>
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナを追加 `DIV` 既存の「所有者」に `DIV`. 次のコードは完全な例です。 ブラウザーのサイズ変更時にビューアのサイズがどのように変化するか、およびビューアの縦横比がアセットとどのように一致するかを確認できます。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みがある場合、Web ページのスタイル設定は異なります。 つまり、&quot;holder&quot;に両方のサイズを提供します。 `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みと同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、セッターベースの API を使用した固定サイズ埋め込みを示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

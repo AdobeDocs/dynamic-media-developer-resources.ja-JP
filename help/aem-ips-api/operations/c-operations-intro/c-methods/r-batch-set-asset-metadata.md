@@ -5,7 +5,7 @@ title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 13%
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <batchSetAssetMetadataParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
 <companyHandle>c|6</companyHandle>
 <updateArray>
@@ -84,7 +84,7 @@ ht-degree: 13%
 
 **応答**
 
-```java
+```java {.line-numbers}
 <batchSetAssetMetadataReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
    <successCount>4</successCount>
    <warningCount>0</warningCount>

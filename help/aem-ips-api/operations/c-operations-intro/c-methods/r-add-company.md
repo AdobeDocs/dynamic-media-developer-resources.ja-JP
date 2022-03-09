@@ -5,7 +5,7 @@ title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 9%
@@ -82,7 +82,7 @@ ht-degree: 9%
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:companyName>Planetary</ns1:companyName>
 </ns1:addCompanyParam>
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 **応答**
 
-```java
+```java {.line-numbers}
 <ns1:addCompanyReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:companyInfo>
       <ns1:companyHandle>137</ns1:companyHandle>

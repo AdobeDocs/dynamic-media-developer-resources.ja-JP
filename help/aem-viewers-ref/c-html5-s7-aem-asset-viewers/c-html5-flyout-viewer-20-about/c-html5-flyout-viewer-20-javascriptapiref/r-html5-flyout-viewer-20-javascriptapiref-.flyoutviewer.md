@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b64f16c8-03bf-4603-972f-845a4c1e2b02
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

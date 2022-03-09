@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 次に、HTMLを新しいウィンドウで開くビューアコードの例を示します。
 
-```
+```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    次の例では、ビューアページでビューアの外側の静的サイズを定義しています。HTML
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
    以下は、内部のビューアサイズを定義する例です `Container` アセットを切り替える際にメインビュー領域のサイズが変更されないようにする SDK コンポーネント：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `inlineZoomViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`; `http://s7d1.scene7.com/is/image/` は画像サービングの URL です。および `Scene7SharedAssets/ImageSet-Views-Sample` はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
    次のコードは、固定サイズのインラインズームビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. 次の例では、Web ページがビューアのコンテナを許可しているとします `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -283,7 +283,7 @@ ht-degree: 0%
 * 追加済み `imagereload` 明示的なブレークポイントを持つパラメーター
 * 絶対単位を使用してビューアの固定サイズを設定する代わりに、ビューアを設定する CSS を使用します `width` および `height` を 100%に設定します。
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -292,7 +292,7 @@ ht-degree: 0%
 
 次のコードは完全な例です。 ブラウザーのサイズが変更されたときにビューアのサイズが変化すること、およびビューアの縦横比がアセットと一致することに注意してください。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -337,7 +337,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みがある場合、Web ページのスタイル設定は異なります。 次の両方のサイズを `"holder"` DIV を指定し、ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に設定します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -363,7 +363,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みで使用した手順と同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -412,7 +412,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、固定サイズ埋め込みをセッターベースの API で使用する方法を示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

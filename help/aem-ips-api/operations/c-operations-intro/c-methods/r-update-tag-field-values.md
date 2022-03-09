@@ -5,7 +5,7 @@ title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 13%
@@ -100,7 +100,7 @@ ht-degree: 13%
 
 **応答**
 
-```java
+```java {.line-numbers}
 <updateTagFieldValuesReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    <successCount>2</successCount>
    <warningCount>0</warningCount>

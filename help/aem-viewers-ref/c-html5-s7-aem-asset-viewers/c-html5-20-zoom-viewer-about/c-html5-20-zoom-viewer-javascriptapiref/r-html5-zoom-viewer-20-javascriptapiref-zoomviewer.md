@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: fa52a017-0748-4e4f-8d91-ad1529fbfbdb
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var zoomViewer = new s7viewers.ZoomViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

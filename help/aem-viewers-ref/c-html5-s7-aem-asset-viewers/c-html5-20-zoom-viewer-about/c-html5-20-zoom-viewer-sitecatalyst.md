@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var zoomViewer = new s7viewers.ZoomViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

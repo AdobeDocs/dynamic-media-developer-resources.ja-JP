@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

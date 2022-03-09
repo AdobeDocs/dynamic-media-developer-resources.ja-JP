@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/MixedMediaViewer.js"></script>
 ```
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
    次の例では、ビューアページでビューアの外側の静的サイズを定義しています。HTML
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer { 
     width: 640px; 
     height: 480px; 
@@ -193,7 +193,7 @@ ht-degree: 0%
 
    以下は、内部のビューアサイズを定義する例です `Container` アセットを切り替える際にメインビュー領域のサイズが変更されないようにする SDK コンポーネント：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    次の設定が可能です。 `stagesize` 修飾子をDynamic Media Classicのビューアプリセットレコードで指定するか、を使用してビューア初期化コードで明示的に渡します。 `params` コレクション。 または、このヘルプの「コマンドリファレンス」の節で説明されている API 呼び出しとして、次のように指定します。
 
-   ```
+   ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
    ```
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `mixedMediaViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`; [!DNL http://s7d1.scene7.com/is/image/] は画像サービングの URL です。 [!DNL http://s7d1.scene7.com/is/content/] はビデオサーバーの URL です。および [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] はアセットです。
 
-```
+```html {.line-numbers}
 <script type="text/javascript"> 
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
@@ -240,7 +240,7 @@ mixedMediaViewer.init();
 
 次のコードは、固定サイズの混在メディアビューアを埋め込んだ簡単な Web ページの例です。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -272,7 +272,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. 次の例では、Web ページがビューアのコンテナを許可しているとします `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナ DIV を既存の `"holder"` DIV. 次のコードは完全な例です。 ブラウザーのサイズが変更されたときにビューアのサイズが変化すること、およびビューアの縦横比がアセットと一致することに注意してください。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みがある場合、Web ページのスタイル設定は異なります。 次の両方のサイズを `"holder"` DIV を指定し、ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に設定します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -361,7 +361,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みで使用した手順と同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -404,7 +404,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、固定サイズ埋め込みをセッターベースの API で使用する方法を示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

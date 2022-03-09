@@ -5,7 +5,7 @@ title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 15%
@@ -47,7 +47,7 @@ ht-degree: 15%
 
 **リクエスト**
 
-```java
+```javascript {.line-numbers}
 <batchSetFontFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
    <companyHandle>c|1</companyHandle>
    <updateArray>
@@ -66,7 +66,7 @@ ht-degree: 15%
 
 **応答**
 
-```java
+```javascript {.line-numbers}
 <batchSetFontFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
    <successCount>1</successCount>
    <warningCount>0</warningCount>

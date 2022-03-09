@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 0%
@@ -98,9 +98,8 @@ ht-degree: 0%
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
- <a 
-href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
+```html {.line-numbers}
+ <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +136,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/ZoomViewer.js"></script>
 ```
 
@@ -156,7 +155,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -170,7 +169,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    次の例では、ビューアページの外側の静的なサイズを定義します。HTML
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +184,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    以下は、内部のビューアサイズを定義する例です `Container` アセットを切り替える際にメインビュー領域のサイズが変更されないようにする SDK コンポーネント：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -198,7 +197,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    次の設定が可能です。 `stagesize` 修飾子がDynamic Media Classicのビューアプリセットレコードに含まれていること。 または、を使用して、ビューア初期化コードで明示的に渡すこともできます。 `params` コレクションまたは API 呼び出しを使用できます（このヘルプの「コマンドリファレンス」の節で説明）。以下に例を示します。
 
-   ```
+   ```html {.line-numbers}
     zoomViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -217,7 +216,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次の点を前提としています。 `zoomViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダ DIV の名前です。 `http://s7d1.scene7.com/is/image/` は画像サービングの URL で、 `Scene7SharedAssets/ImageSet-Views-Sample` はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var zoomViewer = new s7viewers.ZoomViewer({ 
     "containerId":"s7viewer", 
@@ -231,7 +230,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
    次のコードは、固定サイズのビデオビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -262,7 +261,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. 次の例では、Web ページがビューアのコンテナを許可しているとします `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -286,7 +285,7 @@ Web ページでビューアのコンテナの幅と高さの両方が設定さ�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナ DIV を既存の `"holder"` DIV. 次のコードは完全な例です。 ブラウザーのサイズが変更されたときにビューアのサイズが変化すること、およびビューアの縦横比がアセットと一致することに注意してください。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +321,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みがある場合、Web ページのスタイル設定は異なります。 次の両方のサイズを `"holder"` DIV を指定し、ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に設定します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -348,7 +347,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みで使用した手順と同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -390,7 +389,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、固定サイズ埋め込みをセッターベースの API で使用する方法を示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

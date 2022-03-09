@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 0cfde665-c578-41a0-a428-0db3cbdac6ae
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

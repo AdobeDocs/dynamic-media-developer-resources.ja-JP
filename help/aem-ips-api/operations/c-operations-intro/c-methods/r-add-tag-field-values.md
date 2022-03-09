@@ -5,7 +5,7 @@ title: addTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 14%
@@ -42,7 +42,7 @@ IPS API はこの操作に対する応答を返しません。
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <addTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    <companyHandle>c|3</companyHandle>
    <fieldHandle>m|3|ASSET|SingleFixedTag</fieldHandle>

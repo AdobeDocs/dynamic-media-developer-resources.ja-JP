@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2028'
 ht-degree: 0%
@@ -96,7 +96,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B" target="_blank">Open popup viewer</a>
 ```
 
@@ -133,7 +133,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/BasicZoomViewer.js"></script>
 ```
 
@@ -148,11 +148,11 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
    ビューアを表示するページに空の DIV 要素を追加します。 DIV 要素の ID は、後でビューア API に渡されるので、定義する必要があります。 DIV のサイズは CSS で指定されます。
 
-   プレースホルダー DIV は配置された要素で、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
+   プレースホルダ DIV は配置された要素です。つまり、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -166,7 +166,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
    次に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7basiczoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -175,7 +175,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
    次の設定が可能です。 `stagesize` 修飾子がDynamic Media Classicのビューアプリセットレコードに含まれていること。 または、を使用して、ビューア初期化コードで明示的に渡すこともできます。 `params` コレクション、または API 呼び出しとして（コマンドリファレンスの節で説明）使用できます。以下に例を示します。
 
-   ```
+   ```html {.line-numbers}
    basicZoomViewer.setParam("stagesize", "640,480");
    ```
 
@@ -191,7 +191,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `basicZoomViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`; `http://s7d1.scene7.com/is/image/` は画像サービングの URL で、 `Scene7SharedAssets/Backpack_B` はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
     "containerId":"s7viewer", 
@@ -205,7 +205,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
    次のコードは、固定サイズの基本ズームビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -236,7 +236,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. 次の例では、Web ページがビューアのコンテナを許可しているとします `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -260,7 +260,7 @@ IS-Viewers に付属する実稼動用HTMLページまたは埋め込みモー�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナ DIV を既存の `"holder"` DIV. 次のコードは完全な例です。 ブラウザーのサイズが変更されたときにビューアのサイズが変化すること、およびビューアの縦横比がアセットと一致することに注意してください。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みがある場合、Web ページのスタイル設定は異なります。 次の両方のサイズを `"holder"` DIV を指定し、ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に設定します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +322,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブ埋め込みに使用した手順と同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -364,7 +364,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、固定サイズ埋め込みをセッターベースの API で使用する方法を示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

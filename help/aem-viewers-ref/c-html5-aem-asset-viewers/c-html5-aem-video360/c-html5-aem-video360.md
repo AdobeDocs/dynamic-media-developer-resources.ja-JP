@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -100,7 +100,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +137,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
@@ -158,7 +158,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
    次に、定義済みのプレースホルダーの例を示します `DIV` 要素：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
@@ -172,7 +172,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
    以下は、HTMLページで静的ビューアサイズを定義する例です。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
     width: 640px; 
     height: 640px; 
@@ -181,7 +181,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
    次の設定が可能です。 `stagesize` 修飾子がAEM Assetsのビューアプリセットレコード — オンデマンド または、を使用して、ビューア初期化コードで明示的に渡すこともできます。 `params` コレクション、またはコマンドリファレンスの節で説明されている API 呼び出しとして、次のように指定します。
 
-   ```
+   ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
@@ -189,7 +189,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
 1. ビューアを作成および初期化する。
 
-   上記の手順を完了したら、のインスタンスを作成します。 `s7viewers.Video360Viewer` クラス、すべての設定情報をコンストラクタに渡し、を呼び出します。 `init()` メソッドを使用して、ビューアインスタンス上に配置できます。 設定情報は、JSON オブジェクトとしてコンストラクターに渡されます。 少なくとも、このオブジェクトには `containerId` ビューアのコンテナ ID とネストされたコンテナの名前が格納されるフィールド `params` ビューアでサポートされている設定パラメーターを持つ JSON オブジェクト。
+   上記の手順を完了したら、のインスタンスを作成します。 `s7viewers.Video360Viewer` クラス、すべての設定情報をコンストラクタに渡し、を呼び出します。 `init()` メソッドを使用して、ビューアインスタンス上に配置できます。 設定情報は、JSON オブジェクトとしてコンストラクターに渡されます。 少なくとも、このオブジェクトには `containerId` ビューアのコンテナ ID と入れ子になっているコンテナの名前が格納されるフィールド `params` ビューアでサポートされている設定パラメーターを持つ JSON オブジェクト。
 
    この場合、 `params` オブジェクトには、少なくとも `serverUrl` プロパティとして、最初のアセットを `asset` パラメーター。 JSON ベースの初期化 API を使用すると、1 行のコードと、として渡されるビデオサーバ URL を使用して、ビューアを作成し、開始できます。 `videoserverurl` プロパティ、初期アセット `asset` パラメーターとしてのインタラクティブデータ `interactivedata` プロパティ。 JSON ベースの初期化 API を使用すると、1 行のコードでビューアを作成し、起動できます。
 
@@ -205,7 +205,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
    * ビデオサーバーの URL は `https://s7d9.scene7.com/is/content`.
    * アセットは `Viewers/space_station_360-AVS`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var video360Viewer = new s7viewers.Video360Viewer({ 
     "containerId":"s7viewer", 
@@ -220,7 +220,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
    次のコードは、固定サイズの Video360 ビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -252,7 +252,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. 次の例では、Web ページがビューアのコンテナを許可しているとします `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -276,7 +276,7 @@ VR が有効でないデバイスで 360 ビデオを視聴する場合、エン
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナ DIV を既存の `"holder"` DIV. 次のコードは完全な例です。 ブラウザーのサイズが変更されたときにビューアのサイズが変化すること、およびビューアの縦横比がアセットと一致することに注意してください。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -309,7 +309,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 幅と高さが定義されたレスポンシブ埋め込みがある場合、Web ページのスタイル設定は異なります。 次の両方のサイズを `"holder"` DIV を指定し、ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に設定します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブ埋め込みに使用した手順と同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -378,7 +378,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、固定サイズ埋め込みをセッターベースの API で使用する方法を示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

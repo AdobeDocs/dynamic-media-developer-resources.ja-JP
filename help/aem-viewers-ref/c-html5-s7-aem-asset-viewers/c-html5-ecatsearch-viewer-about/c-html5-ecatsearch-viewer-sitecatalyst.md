@@ -1,11 +1,11 @@
 ---
-description: eCatalog検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+description: eCatalog 検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 solution: Experience Manager
 title: Adobe Analytics追跡のサポート
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 # Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-eCatalog検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+eCatalog 検索ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
 
-## 標準のトラッキング {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 標準の追跡 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-eCatalog検索ビューアでは、[!DNL Adobe Analytics]トラッキングがサポートされていて、この機能をすぐに使用できます。 追跡を有効にするには、適切な会社プリセット名を`config2`パラメーターとして渡します。
+eCatalog 検索ビューアは、 [!DNL Adobe Analytics] 追跡機能が標準で用意されています。 追跡を有効にするには、適切な会社プリセット名を `config2` パラメーター。
 
-また、ビューアは、設定済みのImage Serverに対して、ビューアのタイプとバージョン情報を含む単一の追跡HTTP要求も送信します。
+また、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に 1 つの追跡 HTTP 要求が送信されます。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、 `trackEvent`ビューアコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -48,23 +48,23 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 });
 ```
 
-ビューアは、次のSDKユーザーイベントを追跡します。
+ビューアは、次の SDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDKユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
+   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアが最初に読み込まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> APIを使用して、ビューア内でアセットが入れ替わったとき。 </p> </td> 
+   <td colname="col2"> <p>ビューア内でアセットが入れ替えられたとき、 <span class="codeph"> setAsset() </span> API </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -72,23 +72,23 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
+   <td colname="col2"> <p>画像がパンされました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチをクリックまたはタップすると、画像が変更されます。 </p> </td> 
+   <td colname="col2"> <p> スウォッチをクリックまたはタップすると画像が変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
-   <td colname="col2"> <p> メインビューで現在のフレームが変更されます。 </p> </td> 
+   <td colname="col2"> <p> 現在のフレームは、メインビューで変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ITEM </span> </p> </td> 
-   <td colname="col2"> <p>情報パネルポップアップがアクティブになります。 </p> </td> 
+   <td colname="col2"> <p>情報パネルのポップアップがアクティブになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーが画像マップをクリックするので、別のページに移動します。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが画像マップをクリックしたので、別のページに移動した。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

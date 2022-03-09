@@ -5,7 +5,7 @@ title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 11%
@@ -53,7 +53,7 @@ ht-degree: 11%
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <addProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
    <companyHandle>c|6</companyHandle>
    <projectHandle>p|6|ProjectTestAPI</projectHandle>
@@ -65,7 +65,7 @@ ht-degree: 11%
 
 **応答**
 
-```java
+```java {.line-numbers}
 <addProjectAssetsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
    <successCount>1</successCount>
    <warningCount>0</warningCount>

@@ -5,7 +5,7 @@ title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 12%
@@ -63,7 +63,7 @@ IPS API はこの操作に対する応答を返しません。
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:companyHandle>47</ns1:companyHandle>
    <ns1:groupHandleArray><ns1:items>225</ns1:items></ns1:groupHandleArray>

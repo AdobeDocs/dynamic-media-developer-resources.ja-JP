@@ -5,7 +5,7 @@ title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 13%
@@ -52,7 +52,7 @@ IPS API は、新しいユーザーを指定するユーザーハンドル要素
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <ns1:addUserParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:firstName>Joe</ns1:firstName>
    <ns1:lastName>User</ns1:lastName>
@@ -68,7 +68,7 @@ IPS API は、新しいユーザーを指定するユーザーハンドル要素
 
 **応答**
 
-```java
+```java {.line-numbers}
 <ns1:addUserReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>

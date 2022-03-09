@@ -5,7 +5,7 @@ title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 14%
@@ -50,7 +50,7 @@ ICC プロファイルメタデータフィールドを設定します。
 
 **リクエスト**
 
-```java
+```java {.line-numbers}
 <batchSetIccProfileFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
    <companyHandle>c|1</companyHandle>
    <updateArray>
@@ -66,7 +66,7 @@ ICC プロファイルメタデータフィールドを設定します。
 
 **応答**
 
-```java
+```java {.line-numbers}
 <batchSetIccProfileFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
    <successCount>1</successCount>
    <warningCount>0</warningCount>

@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
@@ -120,7 +120,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/VideoViewer.js"></script>
 ```
 
@@ -135,13 +135,13 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    ビューアを表示するページに空の DIV 要素を追加します。 DIV 要素の ID は、後でビューア API に渡されるので、定義する必要があります。 DIV のサイズは CSS で指定されます。
 
-   プレースホルダ DIV は配置された要素です。つまり、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
+   プレースホルダー DIV は配置された要素で、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
 
    Internet Explorer で全画面表示機能が正しく機能することを確認します。 DOM 内に、プレースホルダー DIV よりも重ね順の高い要素が他にないことを確認します。
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -155,7 +155,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    次に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -164,7 +164,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    次の設定が可能です。 `stagesize` 修飾子をDynamic Media Classicのビューアプリセットレコードで指定するか、を使用してビューア初期化コードで明示的に渡します。 `params` コレクション。 または、次に示すように、コマンドリファレンスの節で説明する API 呼び出しとして使用できます。
 
-   ```
+   ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -180,7 +180,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次の点を前提としています。 `videoViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`, [!DNL http://s7d1.scene7.com/is/image/] は画像サービングの URL で、 [!DNL http://s7d1.scene7.com/is/content/] はビデオサーバーの URL で、 [!DNL Scene7SharedAssets/Glacier_Climber_MP4] はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var videoViewer = new s7viewers.VideoViewer({ 
     "containerId":"s7viewer", 
@@ -195,7 +195,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    次のコードは、固定サイズのビデオビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. この例では、Web ページがビューアのコンテナを許可しているとします。 `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -251,7 +251,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナを追加 `DIV` 既存の「所有者」に `DIV`. 次のコードは完全な例です。 ブラウザーのサイズ変更時にビューアのサイズがどのように変化するか、およびビューアの縦横比がアセットとどのように一致するかを確認できます。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -290,7 +290,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 幅と高さが定義されたレスポンシブデザイン埋め込みがある場合、Web ページのスタイル設定は異なります。&quot;holder&quot;に両方のサイズを提供します `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -316,7 +316,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みと同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -359,7 +359,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、セッターベースの API を使用した固定サイズ埋め込みを示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

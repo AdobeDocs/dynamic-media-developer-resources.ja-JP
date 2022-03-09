@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

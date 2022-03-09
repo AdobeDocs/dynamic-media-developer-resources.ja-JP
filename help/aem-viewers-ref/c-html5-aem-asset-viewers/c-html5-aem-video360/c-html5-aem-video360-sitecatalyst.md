@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 4%
@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
 
-デフォルトでは、ビューアは、設定済みの Image Server に、ビューアのタイプとバージョン情報を含む単一の追跡 HTTP 要求を送信します。
+デフォルトでは、ビューアは、ビューアのタイプとバージョン情報を含む、設定済みの Image Server に対して 1 つの追跡 HTTP 要求を送信します。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、 `trackEvent` ビューアコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
-```
+```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -61,19 +61,19 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>（ビューアが最初に読み込まれたとき）。 </p> </td> 
+   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API を使用してビューア内でアセットが入れ替わったとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアで <span class="codeph"> setAsset() </span> API </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>（再生の開始時）。 </p> </td> 
+   <td colname="col2"> <p>再生の開始時。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>（再生が一時停止されたとき）。 </p> </td> 
+   <td colname="col2"> <p>再生が一時停止されたとき。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -81,11 +81,11 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%または 100%。 </p> </td> 
+   <td colname="col2"> <p>再生が次のいずれかのマイルストーンに達した場合：0%、25%、50%、75%、100%のいずれかです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがインタラクティブスウォッチをクリックするたびに、 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
+   <td colname="col2"> <p>ユーザーがインタラクティブスウォッチをクリックするたびに、そのスウォッチが表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

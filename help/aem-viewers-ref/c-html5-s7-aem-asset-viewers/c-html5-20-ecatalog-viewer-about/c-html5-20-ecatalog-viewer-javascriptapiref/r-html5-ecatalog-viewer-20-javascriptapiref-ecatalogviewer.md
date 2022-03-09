@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 111699a3-8a70-4caf-b7da-7b594b785f7c
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 3%
@@ -43,7 +43,7 @@ eCatalog ビューアの JavaScript API リファレンス。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

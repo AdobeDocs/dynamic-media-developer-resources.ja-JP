@@ -5,7 +5,7 @@ keywords: レスポンシブ
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 次に、ビューアを新しいウィンドウで開くHTMLコードの例を示します。
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    CSS のサイズ変更は、HTMLページまたはカスタムビューアの CSS ファイルに適用できます。この CSS ファイルは、後で AOD のビューアプリセットレコードに割り当てられるか、style コマンドを使用して明示的に渡されます。 CSS を使用したビューアのスタイル設定について詳しくは、ビューアのカスタマイズの節を参照してください。 以下に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    `stagesize` 修飾子は、次のように、 params コレクションを含むビューア初期化コード、またはコマンドリファレンスの節で説明されている API 呼び出しを使用して、明示的に渡すことができます。
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次の点を前提としています。 `panoramicViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`, [!DNL http://s7d1.scene7.com/is/image/] は画像サービングの URL で、 [!DNL Scene7SharedAssets/PanoramicImage-Sample] はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    次のコードは、固定サイズのパノラマビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 レスポンシブ埋め込みでは、Web ページには通常、ビューアのコンテナ DIV の実行時のサイズを指示する、何らかの柔軟なレイアウトが指定されています。 この例では、Web ページで、ビューアのコンテナ DIV が Web ブラウザーのウィンドウサイズの 80%を占めることを許可し、高さは無制限のままにしておくとします。 Web ページのHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナ DIV を既存の&quot;holder&quot; DIV に追加する必要があります。 次のコードは完全な例で、ブラウザーのサイズ変更時にビューアのサイズがどのように変化するか、およびビューアの縦横比がアセットとどのように一致するかを示します。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 幅と高さが定義されたレスポンシブデザイン埋め込みがある場合、Web ページのスタイル設定は異なります。&quot;holder&quot;に両方のサイズを提供します `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブ埋め込みと同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、セッターベースの API を使用した固定サイズ埋め込みを示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

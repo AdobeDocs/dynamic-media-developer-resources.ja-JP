@@ -6,7 +6,7 @@ title: eCatalog 検索
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -108,7 +108,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -145,7 +145,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
    次に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
    次の設定が可能です。 `stagesize` 修飾子をDynamic Media Classicのビューアプリセットレコードで指定するか、を使用してビューア初期化コードで明示的に渡します。 `params` コレクション、またはコマンドリファレンスの節で説明されている API 呼び出しとして、次のように使用できます。
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -195,7 +195,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `eCatalogSearchViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`; `https://s7d1.scene7.com/is/image/` は画像サービングの URL で、 `Viewers/Pluralist` はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
    次のコードは、固定サイズの eCatalog 検索ビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -242,7 +242,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. この例では、Web ページがビューアのコンテナを許可しているとします。 `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 生成される Web ページHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ eCatalog 検索ビューアでは、ソーシャル共有ツールがサポー�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナを追加 `DIV` 既存の「所有者」に `DIV`. 次のコードは完全な例です。 ブラウザーのサイズ変更時にビューアのサイズがどのように変化するか、およびビューアの縦横比がアセットとどのように一致するかを確認できます。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みの場合、Web ページのスタイル設定は異なります。 つまり、&quot;holder&quot;に両方のサイズを提供します。 `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みと同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、セッターベースの API を使用した固定サイズ埋め込みを示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

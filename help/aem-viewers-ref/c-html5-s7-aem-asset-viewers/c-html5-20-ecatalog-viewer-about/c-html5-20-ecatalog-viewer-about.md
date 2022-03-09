@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
 以下は、ビューアを新しいウィンドウでHTMLする開封コードの例です。
 
-```
+```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
 相対パスは次のようになります。
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
 ```
 
@@ -162,7 +162,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -176,7 +176,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
    次に、HTMLページで静的ビューアサイズを定義する例を示します。
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +185,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
    次の設定が可能です。 `stagesize` 修飾子がDynamic Media Classicのビューアプリセットレコードに含まれていること。 または、を使用して、ビューア初期化コードで明示的に渡すこともできます。 `params` コレクション、またはコマンドリファレンスの節で説明されている API 呼び出しとして、次のように使用できます。
 
-   ```
+   ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -200,7 +200,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
    次の例では、ビューアインスタンスを作成し、最低限必要な設定オプションをコンストラクターに渡して、 `init()` メソッド。 この例では、次のように仮定します。 `eCatalogViewer` はビューアインスタンスです。 `s7viewer` はプレースホルダーの名前です `DIV`; `https://s7d1.scene7.com/is/image/` は画像サービングの URL で、 `Viewers/Pluralist` はアセットです。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogViewer = new s7viewers.eCatalogViewer({ 
     "containerId":"s7viewer", 
@@ -214,7 +214,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
    次のコードは、固定サイズの eCatalog ビューアを埋め込んだ簡単な Web ページの例です。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -245,7 +245,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
 レスポンシブデザイン埋め込みでは、Web ページには通常、ビューアのコンテナの実行時のサイズを指示する柔軟なレイアウトが指定されています `DIV`. この例では、Web ページがビューアのコンテナを許可しているとします。 `DIV` を使用すると、web ブラウザーのウィンドウサイズの 40%を占め、高さは無制限のままになります。 生成される Web ページHTMLコードは次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -269,7 +269,7 @@ eCatalog ビューアは、ソーシャル共有ツールをサポートしま�
 
 上記の手順はすべて、固定サイズ埋め込みの場合と同じです。 コンテナを追加 `DIV` 既存の「所有者」に `DIV`. 次のコードは完全な例です。 ブラウザーのサイズ変更時にビューアのサイズがどのように変化するか、およびビューアの縦横比がアセットとどのように一致するかを確認できます。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -305,7 +305,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 幅と高さが定義されたフレキシブルサイズ埋め込みでは、Web ページのスタイル設定が異なります。 つまり、&quot;holder&quot;に両方のサイズを提供します。 `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -331,7 +331,7 @@ height: 60%;
 
 残りの埋め込み手順は、高さ無制限のレスポンシブデザイン埋め込みと同じです。 結果の例は次のようになります。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -373,7 +373,7 @@ JSON ベースの初期化を使用する代わりに、セッターベースの
 
 次の例は、セッターベースの API を使用した固定サイズ埋め込みを示しています。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

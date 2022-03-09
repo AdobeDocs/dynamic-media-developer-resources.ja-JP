@@ -1,52 +1,52 @@
 ---
-title: ビューア SDK チュートリアル
-description: ビューア SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
+title: Viewer SDK チュートリアル
+description: Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
-# ビューア SDK チュートリアル{#viewer-sdk-tutorial}
+# Viewer SDK チュートリアル{#viewer-sdk-tutorial}
 
-ビューア SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
+Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
 
-例えば、SDK はインタラクティブなズームとパンを提供します。 また、Dynamic Media Classic と呼ばれるバックエンドアプリケーションを通じてAdobeDynamic Mediaにアップロードされたアセットの 360 °の表示とビデオ再生も提供します。
+例えば、SDK は、インタラクティブなズームとパンを提供します。 また、Dynamic Media Classicと呼ばれるバックエンドアプリケーションを通じてAdobeDynamic Mediaにアップロードされたアセットの 360°の表示とビデオ再生も提供します。
 
-コンポーネントは HTML5 機能に依存していますが、Android™、Apple iOS デバイス、および Internet Explorer 以降を含むデスクトップで動作するように設計されています。 この種のエクスペリエンスは、サポートされるすべてのプラットフォームに対して 1 つのワークフローを提供できることを意味します。
+コンポーネントはHTML5 の機能に依存していますが、Android™、Apple iOSデバイス、および Internet Explorer 以降を含むデスクトップで動作するように設計されています。 この種のエクスペリエンスでは、サポートされるすべてのプラットフォームに対して 1 つのワークフローを提供できます。
 
-SDK は、ビューアコンテンツを構成する UI コンポーネントで構成されます。 これらのコンポーネントのスタイルは、CSS や、セット定義の取得、解析、追跡など、ある種のサポート役割を持つ非 UI コンポーネントを通じて設定できます。 すべてのコンポーネントの動作は、修飾子を使用してカスタマイズできます。この修飾子は、様々な方法で指定できます。例えば、URL の `name=value` ペアとして指定できます。
+SDK は、ビューアのコンテンツを構成する UI コンポーネントで構成されます。 CSS や、セット定義の取得、解析、追跡など、何らかの補助的な役割を持つ非 UI コンポーネントを使用して、これらのコンポーネントのスタイルを設定できます。 すべてのコンポーネントの動作は、次のように、様々な方法で指定できる修飾子を使用してカスタマイズできます。 `name=value` の組み合わせになります。
 
-このチュートリアルでは、基本ズームビューアを作成するのに役立つ、次の順序で作業を行います。
+このチュートリアルでは、基本ズームビューアを作成するのに役立つ、次のタスクの順序を説明します。
 
-* [Adobe Developer Connectionから最新のビューア SDK をダウンロードします。](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [ビューア SDK の読み込み](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [ビューアへのスタイルの追加](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Adobe Developer Connectionから最新の Viewer SDK をダウンロードします。](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Viewer SDK を読み込む](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [ビューアにスタイルを追加する](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [コンテナと ZoomView を含める](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [ビューアへの MediaSet および Swatches コンポーネントの追加](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [ビューアへのメディアセットおよびスウォッチコンポーネントの追加](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [ビューアへのボタンの追加](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [スウォッチの垂直方向の設定](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Adobe Developer Connectionから最新のビューア SDK をダウンロードします。 {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Adobe Developer Connectionから最新の Viewer SDK をダウンロードします。 {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. 最新のビューア SDK をAdobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) --> からダウンロードします。
+1. Adobe Developer Connectionから最新の Viewer SDK をダウンロードします。 <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >SDK はリモートで読み込まれるので、ビューア SDK パッケージをダウンロードしなくても、このチュートリアルを完了できます。 ただし、ビューアパッケージには、独自のビューアを作成するのに役立つ追加の例と API リファレンスガイドが含まれています。
+   >SDK はリモートで読み込まれるので、Viewer SDK パッケージをダウンロードしなくても、このチュートリアルを完了できます。 ただし、ビューアパッケージには、独自のビューアを作成するのに役立つ追加の例と API リファレンスガイドが含まれています。
 
-## ビューア SDK の読み込み {#section-98596c276faf4cf79ccf558a9f4432c6}
+## Viewer SDK を読み込む {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. まず、新しいページを設定して、作成する基本ズームビューアを開発します。
 
-   空の SDK アプリケーションを設定する際に使用するBootstrap（ローダー）コードの新しいページを考えてみましょう。 お気に入りのテキストエディターを開き、次の HTML マークアップを貼り付けます。
+   空の SDK アプリケーションを設定するために使用するBootstrap（ローダー）コードを新しいページと見なします。 お気に入りのテキストエディターを開き、そのエディターに次のHTMLマークアップを貼り付けます。
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
        <head> 
@@ -79,9 +79,9 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    </html>
    ```
 
-   `script` タグ内に次の JavaScript コードを追加して、`ParameterManager` を初期化します。 これにより、 `initViewer` 関数内で SDK コンポーネントを作成およびインスタンス化する準備ができます。
+   次の JavaScript コードを `script` タグを使用して、 `ParameterManager`. これにより、内で SDK コンポーネントを作成およびインスタンス化する準備ができます。 `initViewer` 関数：
 
-   ```
+   ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
       a function is optional, but this prevents variables from polluting the global object.  */ 
    (function () { 
@@ -115,17 +115,17 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
 
 1. ファイルを空のテンプレートとして保存します。 任意のファイル名を使用できます。
 
-   今後ビューアを作成する際は、この空のテンプレートファイルを参考にしてください。 このテンプレートは、ローカルで、Web サーバーから提供される場合に機能します。
+   今後ビューアを作成する際には、この空のテンプレートファイルを参照として使用します。 このテンプレートは、ローカルで、Web サーバーから提供される場合に機能します。
 
 次に、ビューアにスタイルを追加します。
 
-## ビューアへのスタイルの追加 {#section-3783125360a1425eae5a5a334867cc32}
+## ビューアにスタイルを追加する {#section-3783125360a1425eae5a5a334867cc32}
 
-1. 作成するこの完全なページビューア用に、いくつかの基本的なスタイルを追加できます。
+1. 作成しているこのフルページビューアに対して、いくつかの基本的なスタイルを追加できます。
 
-   次の `style` ブロックを `head` の下に追加します。
+   以下を追加します。 `style` ～の底を塞ぐ `head`:
 
-   ```
+   ```html {.line-numbers}
    <style> 
        html, body { 
            width: 100%; 
@@ -142,15 +142,15 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    </style>
    ```
 
-次に、コンポーネント `Container` と `ZoomView` を含めます。
+コンポーネントを含めるようにしました。 `Container` および `ZoomView`.
 
 ## コンテナと ZoomView を含める {#section-1a01730663154a508b88cc40c6f35539}
 
-1. コンポーネント `Container` と `ZoomView` を含めて、実際のビューアを作成します。
+1. コンポーネントを含めて実際のビューアを作成する `Container` および `ZoomView`.
 
-   [!DNL Utils.js] スクリプトの読み込み後に、次の `include` ステートメントを `<head>` 要素の末尾に挿入します。
+   次を挿入します。 `include` の `<head>` 要素 — 後 [!DNL Utils.js] スクリプトが読み込まれました：
 
-   ```
+   ```javascript {.line-numbers}
    <!-- 
        Add an "include" statement with a related module for each component that is needed for that particular  
        viewer. Check API documentation to see a complete list of components and their modules. 
@@ -163,15 +163,15 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
 
 1. 次に、様々な SDK コンポーネントを参照する変数を作成します。
 
-   次の変数を、メインの匿名関数の先頭（`s7sdk.Util.init()` のすぐ上）に追加します。
+   のすぐ上に、メインの匿名関数の先頭に次の変数を追加します。 `s7sdk.Util.init()`:
 
-   ```
+   ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. `initViewer` 関数内に次のコードを挿入して、修飾子を定義し、それぞれのコンポーネントをインスタンス化できるようにします。
+1. 以下を `initViewer` 関数を使用して、いくつかの修飾子を定義し、それぞれのコンポーネントをインスタンス化できます。
 
-   ```
+   ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
    params.push("serverurl", "http://s7d1.scene7.com/is/image"); 
    params.push("asset", "Scene7SharedAssets/ImageSet-Views-Sample"); 
@@ -190,9 +190,9 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. 上記のコードを正しく実行するには、`containerResize` イベントハンドラーとヘルパー関数を追加します。
+1. 上記のコードを正しく実行するには、 `containerResize` イベントハンドラーとヘルパー関数：
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
       various view components included in this viewer. */ 
    function containerResize(event) { 
@@ -205,34 +205,34 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    }
    ```
 
-1. ページをプレビューして、作成内容を確認します。 ページは次のようになります。
+1. 作成内容が表示されるように、ページをプレビューします。 ページは次のようになります。
 
-   ![ビューアの 1 つの画像の例](assets/viewer-1.jpg)
+   ![ビューアの例 1 つの画像](assets/viewer-1.jpg)
 
-次に、コンポーネント `MediaSet` と `Swatches` をビューアに追加します。
+次に、コンポーネントを追加します `MediaSet` および `Swatches` をビューアに追加します。
 
-## ビューアへの MediaSet および Swatches コンポーネントの追加 {#section-02b8c21dd842400e83eae2a48ec265b7}
+## ビューアへのメディアセットおよびスウォッチコンポーネントの追加 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. ユーザーがセットから画像を選択できるように、コンポーネント `MediaSet` と `Swatches` を追加できます。
+1. ユーザーがセットから画像を選択できるようにするには、コンポーネントを追加します `MediaSet` および `Swatches`.
 
-   以下の SDK を追加します。
+   次の SDK インクルードを追加します。
 
-   ```
+   ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
 1. 変数リストを次のように更新します。
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. `initViewer` 関数内で `MediaSet` および `Swatches` コンポーネントをインスタンス化します。
+1. インスタンス化 `MediaSet` および `Swatches` 内のコンポーネント `initViewer` 関数に置き換えます。
 
-   必ず `ZoomView` コンポーネントと `Container` コンポーネントの後に `Swatches` インスタンスをインスタンス化してください。それ以外の場合は、`Swatches` が重ね順に表示されません。
+   必ず、 `Swatches` インスタンスの `ZoomView` および `Container` コンポーネントを使用しない場合は、重なり順序に従って `Swatches`:
 
-   ```
+   ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
    mediaSet = new s7sdk.set.MediaSet(null, params, "mediaSet"); 
    
@@ -244,9 +244,9 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    swatches.addEventListener(s7sdk.event.AssetEvent.SWATCH_SELECTED_EVENT, swatchSelected, false);
    ```
 
-1. 次のイベントハンドラー関数を追加します。
+1. 次のイベントハンドラ関数を追加します。
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
       assign the asset to the Swatches when parsing is complete. */ 
    function onSetParsed(e) { 
@@ -266,9 +266,9 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    }
    ```
 
-1. 次の CSS を `style` 要素に追加して、スウォッチをビューアの下部に配置します。
+1. 次の CSS を `style` 要素：
 
-   ```
+   ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
    .s7swatches { 
        bottom: 0; 
@@ -280,39 +280,39 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
 
 1. ビューアをプレビューします。
 
-   スウォッチがビューアの左下に表示されます。 スウォッチをビューアの幅全体に合わせるには、ユーザがブラウザのサイズを変更するたびに、スウォッチのサイズを手動で変更する呼び出しを追加します。 `resizeViewer` 関数に次のコードを追加します。
+   スウォッチがビューアの左下に表示されます。 スウォッチをビューアの幅全体に合わせるには、ユーザがブラウザのサイズを変更するたびに、呼び出しを追加してスウォッチのサイズを手動で変更します。 以下を `resizeViewer` 関数：
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
-   これで、ビューアは次の画像のようになります。 ビューアのブラウザーウィンドウのサイズを変更して、結果の動作に注意してください。
+   これで、ビューアは次の画像のようになります。 ビューアのブラウザウィンドウのサイズを変更してみて、結果の動作に注意してください。
 
    ![ビューアの例 2 つの画像](assets/viewer-2.jpg)
 
-ズームイン、ズームアウトおよびズームリセットボタンをビューアに追加しました。
+次に、ズームイン、ズームアウトおよびズームリセットボタンをビューアに追加します。
 
 ## ビューアへのボタンの追加 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
-1. 現在、ユーザーはクリックまたはタッチジェスチャを使用してのみズームできます。 そのため、いくつかの基本ズームコントロールボタンをビューアに追加します。
+1. 現在、ユーザーはクリックまたはタッチジェスチャを使用してのみズームできます。 そのため、いくつかの基本的なズームコントロールボタンをビューアに追加します。
 
    次のボタンコンポーネントを追加します。
 
-   ```
+   ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
 1. 変数リストを次のように更新します。
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. `initViewer` 関数の下部にボタンをインスタンス化します。
+1. の下部にあるボタンをインスタンス化 `initViewer` 関数に置き換えます。
 
-   CSS で `z-index` を指定しない限り、順序は重要です。
+   この順序は、 `z-index` CSS 内：
 
-   ```
+   ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
    zoomInButton  = new s7sdk.common.ZoomInButton("s7container", params, "zoomInBtn"); 
    zoomOutButton = new s7sdk.common.ZoomOutButton("s7container", params, "zoomOutBtn"); 
@@ -324,9 +324,9 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. 次に、ファイルの最上部にある `style` ブロックに次の内容を追加して、ボタンの基本的なスタイルを定義します。
+1. 次に、ボタンの基本的なスタイルを定義します。 `style` ブロックをファイルの先頭に配置します。
 
-   ```
+   ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
    .s7button { 
        position:absolute; 
@@ -352,29 +352,29 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
 
 1. ビューアをプレビューします。 次のようになります。
 
-   ![ビューアの例 3 つの画像](assets/viewer-3.jpg)
+   ![ビューアの例：3 つの画像](assets/viewer-3.jpg)
 
-   次に、スウォッチが右上に垂直に整列するように設定します。
+   次に、スウォッチが右側に垂直に整列するように設定します。
 
 ## スウォッチの垂直方向の設定 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. 修飾子は `ParameterManager` インスタンス上で直接設定できます。
+1. 修飾子は、 `ParameterManager` インスタンス。
 
-   `initViewer` 関数の先頭に次のコードを追加して、`Swatches` サムのレイアウトを 1 行に設定できるようにします。
+   以下を `initViewer` 関数を使用して `Swatches` サムのレイアウトを 1 行として指定します。
 
-   ```
+   ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. `resizeViewer` 内で次のサイズ変更呼び出しを更新します。
+1. 内で次のサイズ変更呼び出しを更新します。 `resizeViewer`:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. `ZoomViewer.css` で次の `s7swatches` ルールを編集します。
+1. 次を編集します。 `s7swatches` ルール `ZoomViewer.css`:
 
-   ```
+   ```CSS {.line-numbers}
    .s7swatches { 
        top:0 ; 
        bottom: 0; 
@@ -387,6 +387,6 @@ SDK は、ビューアコンテンツを構成する UI コンポーネントで
 
    ![ビューアの例 4 つの画像](assets/viewer-4.jpg)
 
-   これで基本ズームビューアが完了しました。
+   これで、基本ズームビューアが完了しました。
 
-   このビューアチュートリアルでは、Dynamic Media Viewer SDK の基本事項に触れます。 SDK を操作する際に、様々な標準コンポーネントを使用して、ターゲットオーディエンスに対するリッチな表示エクスペリエンスを簡単に作成およびスタイル設定できます。
+   このビューアチュートリアルでは、Dynamic Media Viewer SDK が提供する内容の基本について説明します。 SDK を操作する際に、様々な標準コンポーネントを使用すると、ターゲットオーディエンスに対する豊富な表示エクスペリエンスを簡単に構築し、スタイルを設定できます。

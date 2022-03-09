@@ -5,7 +5,7 @@ title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 14%
@@ -44,7 +44,7 @@ IPS API はこの操作に対する応答を返しません。
 
 **リクエスト**
 
-```java
+```javascript {.line-numbers}
 <ns1:addCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:userHandle>621|jduvar@adobe.com</ns1:userHandle>
    <ns1:companyHandleArray>
