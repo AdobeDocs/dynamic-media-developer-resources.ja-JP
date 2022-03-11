@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン4.5の新しい操作方法と変更された操作方法について説明します。
+description: IPS API バージョン 4.5 の新しい操作方法および変更された操作方法について説明します。
 solution: Experience Manager
-title: 新規および変更された操作
-feature: Dynamic Media Classic、SDK/API
+title: 操作 — 新規および変更済み
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
 # 操作：新規および変更済み{#operations-new-and-modified}
 
-IPS APIバージョン4.5の新しい操作方法と変更された操作方法について説明します。
+IPS API バージョン 4.5 の新しい操作方法および変更された操作方法について説明します。
 
 構文
 
@@ -37,8 +37,8 @@ IPS APIバージョン4.5の新しい操作方法と変更された操作方法�
 
 ## 変更された操作 {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` には、 `animatedGifInfo`、、および `swcInfo`の各パ `cssInfo`ラメーターが含ま `javascriptInfo` れます。
-* `createMetadataField` には、オプションのパラメーターが含 `isHidden` まれています。
-* `saveMetadataField` には、オプションのパラメーターが含 `isHidden` まれています。
+* `Asset` 次を含む `animatedGifInfo`, `swcInfo`, `cssInfo`、および `javascriptInfo` パラメーター。
+* `createMetadataField` オプションの `isHidden` パラメーター。
+* `saveMetadataField` オプションの `isHidden` パラメーター。
 * `searchAssets`
-* `renameFiles`パラメーターは以前のリリースでは廃止され、`renameAsset`操作から削除されました。 仮想ファイルのパスは、新しいアセット名（ファイル拡張子を維持）に一致するように変更されますが、物理ファイルのパスは影響を受けません。 APIクライアントは、新しいAPIバージョンに更新する際に、このパラメーターへの参照を削除する必要があります。
+* この `renameFiles` パラメーターは以前のリリースで非推奨となり、から削除されました `renameAsset` 操作。 仮想ファイルのパスは、新しいアセット名（ファイル拡張子を維持）に一致するように変更されますが、物理ファイルのパスは影響を受けません。 API クライアントは、新しい API バージョンに更新する際に、このパラメーターへの参照を削除する必要があります。

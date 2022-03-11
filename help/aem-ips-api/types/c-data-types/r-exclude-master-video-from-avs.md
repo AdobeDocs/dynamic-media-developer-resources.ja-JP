@@ -4,10 +4,10 @@ description: プライマリビデオをアダプティブビデオセットか�
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Adobeは、 `ExcludeMasterVideoFromAVS` パラメータ 2022 年 9 月
+>Adobeは、 `ExcludeMasterVideoFromAVS` パラメーター 2022 年 9 月 1 日。 関連トピック [非推奨の呼び出し](/help/aem-ips-api/c-deprecated-calls.md).
 
 プライマリビデオをアダプティブビデオセットから除外します。
 
@@ -35,7 +35,7 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>アダプティブビデオセットからマスタービデオファイルを除外します。 </p> <p>デフォルトは true です。 </p> </td> 
+   <td colname="col3"> <p>プライマリビデオファイルをアダプティブビデオセットから除外します。 </p> <p>デフォルトは true です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
