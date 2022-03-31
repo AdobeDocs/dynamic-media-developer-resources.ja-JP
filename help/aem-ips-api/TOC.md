@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 画像制作システム API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（Image Production System）Web Service API を使用すると、外部アプリケーションとサードパーティの開発者は、IPS のアセットと機能にプログラムでアクセスできます。
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 9%
@@ -13,12 +13,12 @@ ht-degree: 9%
 
 # Dynamic Media 画像制作システム API {#image-production-api}
 
-+ [Dynamic Media Image Production System APIについて](c-overview.md)
++ [Dynamic Media Image Production System API について](c-overview.md)
 + [非推奨の呼び出し](c-deprecated-calls.md)
-+ [IPS WebサービスWSDLバージョン](c-wsdl-versions.md)
-+ 操作メソッド{#operation-methods}
++ [IPS Web サービス WSDL のバージョン](c-wsdl-versions.md)
++ 操作メソッド {#operation-methods}
    + [操作メソッド](operations/c-operations-intro/c-operations-intro.md)
-   + 操作パラメータ{#operation-parameters}
+   + 操作のパラメーター {#operation-parameters}
       + [操作パラメーターの概要](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -47,7 +47,7 @@ ht-degree: 9%
       + [createPropertySetType](operations/c-operations-intro/c-methods/r-create-property-set-type.md)
       + [createTemplate](operations/c-operations-intro/c-methods/r-create-template.md)
       + [createViewerPreset](operations/c-operations-intro/c-methods/r-create-viewer-preset.md)
-      + [createVignettePublishFormat](operations/c-operations-intro/c-methods/r-create-vignette-publish-format.md)
+      + [createVignetPublishFormat](operations/c-operations-intro/c-methods/r-create-vignette-publish-format.md)
       + [deleteAsset](operations/c-operations-intro/c-methods/r-delete-asset.md)
       + [deleteAssets](operations/c-operations-intro/c-methods/r-delete-assets.md)
       + [deleteAssetMetadata](operations/c-operations-intro/c-methods/r-delete-asset-metadata.md)
@@ -61,7 +61,7 @@ ht-degree: 9%
       + [deletePropertySet](operations/c-operations-intro/c-methods/r-delete-property-set.md)
       + [deletePropertySetType](operations/c-operations-intro/c-methods/r-delete-property-set-type.md)
       + [deleteTagFieldValues](operations/c-operations-intro/c-methods/r-delete-tag-field-values.md)
-      + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
+      + [deleteVignetPublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
       + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
@@ -116,7 +116,7 @@ ht-degree: 9%
       + [getUserInfo](operations/c-operations-intro/c-methods/r-get-user-info.md)
       + [getUsers](operations/c-operations-intro/c-methods/r-get-users.md)
       + [getViewerConfigSettings](operations/c-operations-intro/c-methods/r-get-viewer-config-settings.md)
-      + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
+      + [getVignetPublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPacket](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
       + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
@@ -176,7 +176,7 @@ ht-degree: 9%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ データ型{#data-types}
++ データタイプ {#data-types}
    + [データタイプ](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -234,7 +234,7 @@ ht-degree: 9%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -271,7 +271,7 @@ ht-degree: 9%
    + [ImageSetMemberUpdate](types/c-data-types/r-image-set-member-update.md)
    + [ImageSetMemberUpdateArray](types/c-data-types/r-image-set-member-update-array.md)
    + [InDesignInfo](types/c-data-types/r-in-design-info.md)
-   + [JavascriptInfo](types/c-data-types/r-javascriptinfo.md)
+   + [JavaScriptInfo](types/c-data-types/r-javascriptinfo.md)
    + [JobLog](types/c-data-types/r-job-log.md)
    + [JobLogArray](types/c-data-types/r-job-log-array.md)
    + [JobLogDetail](types/c-data-types/r-job-log-detail.md)
@@ -309,7 +309,7 @@ ht-degree: 9%
    + [PdfSettingsInfo](types/c-data-types/r-pdf-settings-info.md)
    + [権限](types/c-data-types/r-permissions.md)
    + [PermissionArray](types/c-data-types/r-permission-array.md)
-   + [PermissonSet](types/c-data-types/r-permission-set.md)
+   + [PermissionSet](types/c-data-types/r-permission-set.md)
    + [PermissionSetArray](types/c-data-types/r-permission-set-array.md)
    + [PermissionUpdate](types/c-data-types/r-permission-update.md)
    + [PermissionUpdateArray](types/c-data-types/r-permission-update-array.md)
@@ -324,7 +324,7 @@ ht-degree: 9%
    + [ProjectArray](types/c-data-types/r-project-array.md)
    + [プロパティ](types/c-data-types/r-property.md)
    + [PropertyArray](types/c-data-types/r-property-array.md)
-   + [PropertySet](types/c-data-types/r-property-set.md)
+   + [プロパティセット](types/c-data-types/r-property-set.md)
    + [PropertySetArray](types/c-data-types/r-property-set-array.md)
    + [PropertySetType](types/c-data-types/r-property-set-type.md)
    + [PropertySetTypeArray](types/c-data-types/r-property-set-type-array.md)
@@ -384,7 +384,7 @@ ht-degree: 9%
    + [VideoPublishJob](types/c-data-types/r-video-publish-job.md)
    + [ViewerPresetInfo](types/c-data-types/r-viewer-preset-info.md)
    + [ViewerSwfInfo](types/c-data-types/r-viewer-swf-info.md)
-   + [VignetteInfo](types/c-data-types/r-vignette-info.md)
+   + [ビネット情報](types/c-data-types/r-vignette-info.md)
    + [WatermarkInfo](types/c-data-types/r-watermark-info.md)
    + [WindowCoveringInfo](types/c-data-types/r-window-covering-info.md)
    + [WordInfo](types/c-data-types/r-word-info.md)
@@ -398,10 +398,10 @@ ht-degree: 9%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 文字列定数{#sting-constants}
++ 文字列定数 {#sting-constants}
    + [文字列定数](string-constants/c-string-constants/c-string-constants.md)
    + [アクティブなジョブ状態](string-constants/c-string-constants/r-active-job-states.md)
-   + [アセット検索システムのフィールド](string-constants/c-string-constants/r-asset-search-system-fields.md)
+   + [アセット検索システムフィールド](string-constants/c-string-constants/r-asset-search-system-fields.md)
    + [アセットの上書きモード](string-constants/c-string-constants/r-asset-overwrite-modes.md)
    + [アセットの並べ替えフィールド](string-constants/c-string-constants/r-asset-sort-fields.md)
    + [アセットタイプ](string-constants/c-string-constants/r-asset-types.md)
@@ -412,11 +412,11 @@ ht-degree: 9%
    + [フォントスタイル](string-constants/c-string-constants/r-font-styles.md)
    + [フォントタイプ](string-constants/c-string-constants/r-font-types.md)
    + [生成情報](string-constants/c-string-constants/r-generation-info.md)
-   + [Illustratorプロセス](string-constants/c-string-constants/r-illustrator-processes.md)
-   + [ジョブのログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
+   + [Illustrator Processes](string-constants/c-string-constants/r-illustrator-processes.md)
+   + [ジョブログファイルの種類](string-constants/c-string-constants/r-job-log-file-types.md)
    + [ジョブログの並べ替えフィールド](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [ジョブのログの種類](string-constants/c-string-constants/r-job-log-types.md)
-   + [ジョブトリガーの状態](string-constants/c-string-constants/r-job-trigger-states.md)
+   + [ジョブトリガー状態](string-constants/c-string-constants/r-job-trigger-states.md)
    + [ジョブタイプ](string-constants/c-string-constants/r-job-types.md)
    + [メタデータフィールドタイプ](string-constants/c-string-constants/r-metadata-field-types.md)
    + [数値/日付比較演算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
@@ -424,56 +424,56 @@ ht-degree: 9%
    + [権限タイプ](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshopアンカーモード](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshopレイヤーの命名モード](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
-   + [PostScriptのカラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
+   + [PostScript カラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [プロファイルクラス](string-constants/c-string-constants/r-profile-classes.md)
    + [公開状態](string-constants/c-string-constants/r-publish-state.md)
    + [プロパティセットタイプ](string-constants/c-string-constants/r-property-set-types.md)
    + [公開コンテキスト](string-constants/c-string-constants/r-publish-context.md)
-   + [発行タイプ](string-constants/c-string-constants/r-publish-types.md)
+   + [公開タイプ](string-constants/c-string-constants/r-publish-types.md)
    + [領域の形状](string-constants/c-string-constants/r-region-shape.md)
    + [検索一致モード](string-constants/c-string-constants/r-search-match-modes.md)
-   + [並べ替え方法](string-constants/c-string-constants/r-sort-directions.md)
+   + [並べ替え順](string-constants/c-string-constants/r-sort-directions.md)
    + [文字列比較演算子](string-constants/c-string-constants/r-string-comparison-operators.md)
    + [ごみ箱の状態](string-constants/c-string-constants/r-trash-state.md)
    + [ユーザー文字フィルターフィールド](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [ユーザーの役割](string-constants/c-string-constants/r-user-roles.md)
    + [ユーザーの並べ替えフィールド](string-constants/c-string-constants/r-user-sort-fields.md)
    + [ビューアの種類](string-constants/c-string-constants/r-viewer-type.md)
-+ 障害{#faults}
++ 障害 {#faults}
    + [障害の概要](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ 変更ログ{#change-log}
++ 変更ログ {#change-log}
    + [変更ログ](change-log/c-change-log.md)
-   + バージョン6.0 {#version-6-0}
+   + バージョン 6.0 {#version-6-0}
       + [バージョン 6.0](change-log/c-change-log/c-6/c-6.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-6/r-6-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-6/r-6-types.md)
-   + バージョン4.5 {#version-4-5}
+   + バージョン 4.5 {#version-4-5}
       + [バージョン 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [使用制限](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + バージョン4.4 {#version-4-4}
+   + バージョン 4.4 {#version-4-4}
       + [バージョン 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + バージョン4.2 {#version-4-2}
+   + バージョン 4.2 {#version-4-2}
       + [バージョン 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + バージョン4.0 {#version-4-0}
+   + バージョン 4.0 {#version-4-0}
       + [バージョン 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
-      + [新しい追加と変更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + バージョン3.8 {#version-3-8}
+      + [新規追加と変更](change-log/c-change-log/c-4-0/r-4-0-new.md)
+   + バージョン 3.8 {#version-3-8}
       + [バージョン 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + バージョン3.7 {#version-3-7}
+   + バージョン 3.7 {#version-3-7}
       + [バージョン 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [操作：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [データタイプ：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [文字列定数：新規および変更済み](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
-+ [HTTP POSTを使用してUploadFileにアセットをアップロードしています…](c-http-post.md)
++ [HTTP POST を使用して UploadFile にアセットをアップロード中…](c-http-post.md)
