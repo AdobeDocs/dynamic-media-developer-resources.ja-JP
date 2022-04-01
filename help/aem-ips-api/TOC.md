@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 画像制作システム API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（Image Production System）Web Service API を使用すると、外部アプリケーションとサードパーティの開発者は、IPS のアセットと機能にプログラムでアクセスできます。
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 9%
 
 ---
@@ -234,7 +234,6 @@ ht-degree: 9%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)

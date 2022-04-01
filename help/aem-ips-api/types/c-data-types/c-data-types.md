@@ -2,12 +2,12 @@
 description: データタイプ
 solution: Experience Manager
 title: データタイプ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '225'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,6 @@ ht-degree: 4%
 + [EmailArray](r-email-array.md)
 + [ExcludeByproductArray](r-exclude-byproduct-array.md)
 + [ExcludeByproductCondition](r-exclude-byproduct-condition.md)
-+ [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
 + [FlashInfo](r-flash-info.md)
@@ -107,7 +106,7 @@ ht-degree: 4%
 + [ImageSetMemberUpdate](r-image-set-member-update.md)
 + [ImageSetMemberUpdateArray](r-image-set-member-update-array.md)
 + [InDesignInfo](r-in-design-info.md)
-+ [JavascriptInfo](r-javascriptinfo.md)
++ [JavaScriptInfo](r-javascriptinfo.md)
 + [JobLog](r-job-log.md)
 + [JobLogArray](r-job-log-array.md)
 + [JobLogDetail](r-job-log-detail.md)
@@ -145,7 +144,7 @@ ht-degree: 4%
 + [PdfSettingsInfo](r-pdf-settings-info.md)
 + [権限](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
-+ [PermissonSet](r-permission-set.md)
++ [PermissionSet](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
@@ -160,7 +159,7 @@ ht-degree: 4%
 + [ProjectArray](r-project-array.md)
 + [プロパティ](r-property.md)
 + [PropertyArray](r-property-array.md)
-+ [PropertySet](r-property-set.md)
++ [プロパティセット](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
@@ -220,7 +219,7 @@ ht-degree: 4%
 + [VideoPublishJob](r-video-publish-job.md)
 + [ViewerPresetInfo](r-viewer-preset-info.md)
 + [ViewerSwfInfo](r-viewer-swf-info.md)
-+ [VignetteInfo](r-vignette-info.md)
++ [ビネット情報](r-vignette-info.md)
 + [WatermarkInfo](r-watermark-info.md)
 + [WindowCoveringInfo](r-window-covering-info.md)
 + [WordInfo](r-word-info.md)

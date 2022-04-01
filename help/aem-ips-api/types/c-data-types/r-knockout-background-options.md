@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 >* `kbTolerance`
 >* `kbFillMethod`
 >
->例：`KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
+>例：`kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
