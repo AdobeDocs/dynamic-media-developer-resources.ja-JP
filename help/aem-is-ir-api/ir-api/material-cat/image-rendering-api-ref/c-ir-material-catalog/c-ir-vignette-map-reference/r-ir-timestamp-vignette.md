@@ -5,9 +5,9 @@ title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ If `attribute::UseLastModified` が設定されている場合、最新 `vignett
 >
 >ビネットファイルの実際のファイル時間は、この目的には使用されません。
 
-`catalog::TimeStamp` は、カタログベースのキャッシュ検証にも使用されます ( ` [attribute::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)`) をクリックします。
+`catalog::TimeStamp` は、カタログベースのキャッシュ検証にも使用されます ( [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## プロパティ {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 

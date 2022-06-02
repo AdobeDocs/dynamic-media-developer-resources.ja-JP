@@ -1,28 +1,28 @@
 ---
-description: リクエストルール要素。 <ruleset>要素には、1つ以上のルールがオプションです。
-solution: Experience Manager
 title: ルール
-feature: Dynamic Media Classic、SDK/API
+description: リクエストルール要素。 1 つ以上のルールがオプションで <ruleset> 要素。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '297'
 ht-degree: 6%
 
 ---
 
 # ルール{#rule}
 
-リクエストルール要素。 `<ruleset>`要素では、1つ以上のルールがオプションです。
+リクエストルール要素。 1 つ以上のルールがオプションで `<ruleset>` 要素。
 
 ## 属性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
 `OnMatch = "break" | "continue" | "error"`: オプション. 初期設定は「break」です。
 
-`Replace = "first" | "all"`: オプション. 初期設定は「first」です。
+`Replace = "first" | "all"`: オプション. デフォルトは「first」です。
 
-`RequestType` =  *&quot;`types`&quot;*:オプション。ルールを適用する入力コンテキストを指定します。 *`types`* はコンマ区切りのリストで、次の表に示す1つ以上のトークンを含めることができます。`RequestType`を指定しない場合、ルールはサポートされているすべてのコンテキストで受信された要求に適用されます。
+`RequestType` = *&quot;`types`&quot;*:オプション。 ルールを適用する入力コンテキストを指定します。 *`types`* はコンマ区切りのリストで、次の表に示す 1 つ以上のトークンを含めることができます。 If `RequestType` が指定されていない場合、ルールはサポートされているすべてのコンテキストで受信したリクエストに適用されます。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -41,24 +41,24 @@ ht-degree: 6%
   <tr> 
    <td> <p> <span class="codeph"> ir</span> </p> </td> 
    <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
-   <td> <p>画像レンダリングリクエストに適用 </p> </td> 
+   <td> <p>画像レンダリング要求に適用 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 静的</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/content/</span> </p> </td> 
-   <td> <p>静的コンテンツリクエストに適用 </p> </td> 
+   <td> <p>静的コンテンツリクエストに適用済み </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**`Name = "text"`**: オプション. デバッグログとエラーメッセージの`<rule>`要素を識別するために使用します。
+**`Name = "text"`**: オプション. を識別するために使用されます。 `<rule>` デバッグログとエラーメッセージの要素
 
-`  *`属性`* ="value"`:オプション。`<rule>` 要素は、任意の組み合わせで次の属性を定義できます。指定した場合、ルールが正しく一致すると、このリクエストに対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
+`  *`属性`* ="value"`:オプション。 `<rule>` 要素は、任意の組み合わせで次の属性を定義できます。 指定した場合、ルールが正しく一致すると、このリクエストに対応するカタログ属性が上書きされます。 初期設定は `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> 属性  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> 属性 </span> </b> </th> 
    <th class="entry"> <p>対応する画像カタログ属性 </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -96,7 +96,7 @@ ht-degree: 6%
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> attribute::SavePath</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> WaterMark</span> </p> </td> 
+   <td> <p> <span class="codeph"> ウォーターマーク</span> </p> </td> 
    <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> attribute::WaterMark</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 詳しくは、対応する画像カタログ属性の説明を参照してください。
 
-有効期限属性は、デフォルトの属性値のみを上書きします。 特定の`catalog::Expiration`値が要求に適用される場合、上書きは無視されます。
+有効期限属性は、デフォルトの属性値のみを上書きします。 このオーバーライドは、 `catalog::Expiration` の値がリクエストに適用されます。
 
 ## データ {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ ht-degree: 6%
 
 ## 説明 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-`<expression>`と`<substitution>`の両方が指定され、取り込まれたサブ文字列が使用されない場合、一致した最初のサブ文字列が`<substitution>`に置き換えられます。
+両方の `<expression>` および `<substitution>` が指定され、取り込まれた部分文字列は使用されません。最初の一致した部分文字列は、 `<substitution>`.
 
-`<expression>`を指定しない場合、パスは一致し、パスの末尾に`<substitution>`が追加されます。
+If `<expression>` が指定されていない場合、パスは `<substitution>` はパスの末尾に追加されます。
 
-`<substitution>`を指定しない場合、パスやクエリの変換は行われませんが、指定したカタログ属性は上書きされます。 `<substitution>`が空の場合、一致する部分文字列が削除されます。
+If `<substitution>` が指定されていない場合、パスやクエリの変換は行われませんが、指定されたカタログ属性は上書きされます。 If `<substitution>` が空の場合、一致した部分文字列は削除されます。
 
-`<addressfilter>`は、一致が発生した場合と、クエリルールが適用される前にのみ適用されます。
+この `<addressfilter>` は、一致が発生した場合、およびクエリルールが適用される前にのみ適用されます。

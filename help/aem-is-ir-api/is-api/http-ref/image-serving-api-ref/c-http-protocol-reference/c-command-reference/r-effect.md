@@ -1,41 +1,41 @@
 ---
-description: '[効果レイヤ]を選択します。 エフェクトレイヤを選択し、現在のレイヤに関連付けられたリクエスト文字列の新しいレイヤセグメントを開始します。'
-solution: Experience Manager
 title: 効果
-feature: Dynamic Media Classic、SDK/API
+description: '[ 効果レイヤ ] を選択します。 効果レイヤを選択し、現在のレイヤに関連付けられている要求文字列の新しいレイヤセグメントを開始します。'
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
 # 効果{#effect}
 
-[効果レイヤ]を選択します。 エフェクトレイヤを選択し、現在のレイヤに関連付けられたリクエスト文字列の新しいレイヤセグメントを開始します。
+[ 効果レイヤ ] を選択します。 効果レイヤを選択し、現在のレイヤに関連付けられている要求文字列の新しいレイヤセグメントを開始します。
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>エフェクトレイヤー番号（整数が0に等しくない）。 </p></td> 
+  <td class="stentry"> <p>エフェクトレイヤー番号（整数は 0 に等しくありません）。 </p></td> 
  </tr> 
 </table>
 
-新しいセグメント内のすべてのコマンドが、指定したエフェクトレイヤに適用されます。 次の`layer=`コマンドや`effect=`コマンド、または要求の終わりによって、効果レイヤセグメントが終了します。
+新しいセグメント内のすべてのコマンドが、指定したエフェクトレイヤに適用されます。 エフェクトレイヤセグメントは次の `layer=` または `effect=` コマンドを使用するか、リクエストの最後に置き換えます。
 
-*`n`* は、外側のレイヤー効果（親レイヤーの背後の効果）の場合は0より小さく、内側のレイヤー効果（親レイヤー内の効果）の場合は0より大きい値にする必要があります。エフェクトレイヤ番号は、連続する必要はありません。
+*`n`* は、外側のレイヤー効果（親レイヤーの背後の効果）の場合は 0 より小さい値、内側のレイヤー効果（親レイヤー内の効果）の場合は 0 より大きい値にする必要があります。 エフェクトレイヤー番号は、連続する必要はありません。
 
-同じ親レイヤーに複数のエフェクトレイヤーがある場合、エフェクトレイヤー番号はz順を指定します。 番号の大きいレイヤーは、番号の小さいレイヤーの上に配置されます。
+同じ親レイヤーに対して複数のエフェクトレイヤーがある場合、エフェクトレイヤー番号は z オーダーを指定します。 高い番号のレイヤーは、下の番号のレイヤーの上に配置されます。
 
-`layer=comp`にエフェクトレイヤをアタッチできます。
+エフェクトレイヤーは `layer=comp`.
 
 ## プロパティ {#section-e11f795deff345779ce280a82cf221ca}
 
-エフェクトレイヤーコマンド *`n`* は0にできません。
+エフェクトレイヤーコマンド *`n`* は 0 にはできません。
 
 ## 初期設定 {#section-84bbe1cfe7a94040827c994323ac59d4}
 
@@ -47,4 +47,4 @@ ht-degree: 3%
 
 ## 関連項目 {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

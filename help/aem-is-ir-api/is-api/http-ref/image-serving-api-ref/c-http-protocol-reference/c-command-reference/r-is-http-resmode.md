@@ -1,11 +1,11 @@
 ---
+title: resMode
 description: 再サンプリングモード。 画像データの拡大/縮小に使用する再サンプリングや補間アルゴリズムを選択します。 また、ビュー変換時のテキストレイヤーの回転や合成画像のサイズ変更にも適用されます。
 solution: Experience Manager
-title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
