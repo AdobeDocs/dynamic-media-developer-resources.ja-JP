@@ -6,8 +6,8 @@ feature-set: Experience Manager Assets
 user-guide-description: IS（画像サービング）API と IR（画像レンダリング）API、および関連テクノロジーに関するドキュメントを表示します。
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

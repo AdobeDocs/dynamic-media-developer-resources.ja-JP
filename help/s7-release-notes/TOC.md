@@ -11,8 +11,8 @@ role: Developer,User
 user-guide-description: Adobe Experience Cloud の Adobe Experience Manager ソリューションの一部である Adobe Dynamic Media Classic の最新リリースノート。
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
