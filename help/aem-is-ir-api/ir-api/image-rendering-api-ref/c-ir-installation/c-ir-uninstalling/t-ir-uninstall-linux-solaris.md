@@ -1,45 +1,38 @@
 ---
-description: LinuxまたはSolarisシステムでImage Renderingをアンインストールするには、次の手順に従います。
+title: Linux®および Solaris™でのアンインストール
+description: 次の手順に従って、Linux®または Solaris™システムで Image Rendering をアンインストールします。
 solution: Experience Manager
-title: LinuxおよびSolarisでのアンインストール
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c81feaba-18da-441a-bfd5-40275558a384
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
 
-# LinuxおよびSolarisでのアンインストール{#uninstalling-on-linux-and-solaris}
+# Linux®および Solaris™でのアンインストール{#uninstalling-on-linux-and-solaris}
 
-LinuxまたはSolarisシステムでImage Renderingをアンインストールするには、次の手順に従います。
+次の手順に従って、Linux®または Solaris™システムで Image Rendering をアンインストールします。 使用できる方法は 2 つあります。 次のいずれかの操作を行います。
 
-LinuxまたはSolarisシステムでImage Renderingをアンインストールする方法は2つあります。
-
-**方法1**
+## 方法 1
 
 1. 検索 [!DNL uninstall.sh].
 
-   ImageRenderingのインストール元のディレクトリにあります。 このディレクトリが削除された場合は、元のインストールパッケージを解凍し、解凍して[!DNL uninstall.sh]を抽出する必要があります。
-1. [!DNL uninstall.sh]を実行し、画面の指示に従います。
+   ImageRendering がインストールされたディレクトリにあります。 このディレクトリが削除された場合は、元のインストールパッケージを非圧縮にし、抽出するために未保存にする必要があります [!DNL uninstall.sh].
+1. 実行 [!DNL uninstall.sh] 画面に表示される指示に従います。
 
->**方法2**
->
->1. ImageRenderingを停止します。` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
->1. システムからImageRenderingを削除します。
+## 方法 2
 
->
->   
-ImageRenderingを削除するコマンドは、システムによって異なります。
->
->   Linux:`rpm -e ImageRendering`
->
->   Solaris:`pkgrm ImageRendering`
->
->1. 手順2で削除しなかったディレクトリやファイルを削除します。
+1. 次の設定で ImageRendering を停止します。
 
->
+   ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 
+1. システムから ImageRendering を削除します。 使用するコマンドは、システムによって異なります。
+   * Linux®: `rpm -e ImageRendering`
+
+   * Solaris™: `pkgrm ImageRendering`
+
+1. 手順 2 で削除しなかったディレクトリやファイルを削除します。
 

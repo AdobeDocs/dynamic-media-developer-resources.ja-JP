@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 クライアント IP アドレスフィルター。 1 つ以上の IP アドレスまたはアドレス範囲を指定できます。
 
-指定した場合、登録されていない IP アドレスのクライアントから派生するこの画像カタログへの要求は拒否されます。 `localhost` は常に暗黙的に `ClientAddressFilter` 定義（明示的に指定されていない場合も含む） からのリクエスト `localhost` は、 `ClientAddressFilter` 仕様。
+指定した場合、登録されていない IP アドレスのクライアントからのこの画像カタログへの要求は拒否されます。 `localhost` は常に暗黙的に `ClientAddressFilter` 定義（明示的に指定されていない場合も含む） からのリクエスト `localhost` は、 `ClientAddressFilter` 仕様。
 
 ## プロパティ {#section-21a2992f108d42fb8660c0d65aa61e13}
 

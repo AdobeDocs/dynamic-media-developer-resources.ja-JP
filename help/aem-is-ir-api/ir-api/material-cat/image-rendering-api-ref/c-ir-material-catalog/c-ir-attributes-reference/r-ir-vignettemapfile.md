@@ -1,28 +1,28 @@
 ---
+title: VignetMapFile
 description: ビネットマップデータファイルのパス。 この画像カタログのビネットマップを含むファイルを指定します。
 solution: Experience Manager
-title: VignetteMapFile
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9b7c7b1-cc49-419f-8eea-0091ef8b3011
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# VignetteMapFile{#vignettemapfile}
+# VignetMapFile{#vignettemapfile}
 
 ビネットマップデータファイルのパス。 この画像カタログのビネットマップを含むファイルを指定します。
 
 ## プロパティ {#section-8f624cb8e49b44258a961fb7e464ce0a}
 
-テキスト文字列の値。 カタログフォルダを基準とした絶対ファイルパスまたはパス。
+テキスト文字列値。 カタログフォルダを基準とした絶対ファイルパスまたはパス。
 
 ## 初期設定 {#section-cc5c2e0ba54a4e5890a7330ee038fac8}
 
-空の場合は、このマテリアルカタログにビネットマップが含まれていないことを示します。
+空。このマテリアルカタログにビネットマップが含まれていないことを示します。
 
 ## 関連項目 {#section-e77e22ed4aaa4b99919f07afc5ecc404}
 

@@ -1,30 +1,28 @@
 ---
-description: IR 3.x互換モジュールを設定し、設定する必要があります。
+title: IR 3.x 互換モジュールの設定と設定
+description: IR 3.x 互換モジュールを設定して設定します。
 solution: Experience Manager
-title: IR 3.x互換モジュールのセットアップと設定
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 44fbc6be-7681-402a-936a-0511e138365c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# IR 3.x互換モジュールのセットアップと設定{#setup-and-configure-ir-x-compatibility-module}
-
-IR 3.x互換モジュールを設定し、設定する必要があります。
+# IR 3.x 互換モジュールの設定と設定{#setup-and-configure-ir-x-compatibility-module}
 
 1. Stop `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
-1. ImageServer Webアプリディレクトリに移動します。
-1. [!DNL ir]ディレクトリの内容を[!DNL ROOT]ディレクトリにコピーします。
-1. テキストエディターで[!DNL ROOT/WEB-INF/web.xml]を開きます。
-1. 行`<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`を検索します。
-1. `<servlet>`タグと`<servlet-mapping>`タグのコメントを解除します。
-1. `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`を再起動します。
+1. ImageServer Webapps ディレクトリに移動します。
+1. の内容をコピーします。 [!DNL ir] ディレクトリを [!DNL `ROOT`] ディレクトリ。
+1. 開く [!DNL `ROOT/WEB-INF/web.xml`] をクリックします。
+1. 行を検索 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. コメントを解除 `<servlet>` および `<servlet-mapping>` タグ。
+1. 再起動 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
-**Linuxの例**
+**Linux®の例**
 
 `cd /usr/local/scene7/ImageServing/webapps/ROOT`
 
@@ -32,12 +30,12 @@ IR 3.x互換モジュールを設定し、設定する必要があります。
 
 `cd WEB-INF`
 
-次に、お気に入りのエディターを使用して[!DNL web.xml]を編集し、`<servlet>`タグと`<servlet-mapping>`タグのコメントを解除します。
+次に、 [!DNL `web.xml`] お気に入りのエディターを使用して、コメントを解除します。 `<servlet>` および `<servlet-mapping>` タグ。
 
-**Windowsの例**
+**Windows の例**
 
-エクスプローラーを開き、`C:\Program Files\Scene7\ImageServing\webapps\ir`に移動します。
+エクスプローラーを開き、に移動します。 `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
-すべてのファイルとフォルダーを選択し、`C:\Program Files\Scene7\ImageServing\webapps\ROOT`内にコピーします。
+すべてのファイルとフォルダーを選択し、それらを内部にコピーする `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-次に、ファイル`c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`を編集し、`<servlet>`タグと`<servlet-mapping>`タグのコメントを解除します。
+次に、ファイルを編集します `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`、コメントを付けない `<servlet>` および `<servlet-mapping>` タグ。

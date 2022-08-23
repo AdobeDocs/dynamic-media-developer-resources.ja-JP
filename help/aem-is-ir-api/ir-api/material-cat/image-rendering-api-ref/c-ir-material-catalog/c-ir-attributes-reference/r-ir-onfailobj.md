@@ -1,14 +1,14 @@
 ---
+title: OnFailObj
 description: オブジェクト選択エラー処理。 指定されたパスがビネットオブジェクト階層で一致しないために obj=コマンドが失敗した場合に実行するアクションを指定します。
 solution: Experience Manager
-title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Inherit from <span class="codeph"> default::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>継承元 <span class="codeph"> default::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -31,7 +31,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Deselect; any attempts to apply a material or show/hide objects is ignored. </p> </td> 
+  <td class="stentry"> <p>選択を解除；マテリアルを適用したり、オブジェクトを表示/非表示にしたりしようとしても無視されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -45,7 +45,7 @@ ht-degree: 14%
 
 ## 初期設定 {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-Inherited from `default::OnFailObj` if not defined.
+継承元 `default::OnFailObj` （定義されていない場合）
 
 ## 関連項目 {#section-806dc2c5973c41f683af085b3315043c}
 

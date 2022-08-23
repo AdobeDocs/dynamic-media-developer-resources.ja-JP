@@ -1,13 +1,13 @@
 ---
+title: カタログデータフィールド
 description: 次のカタログデータフィールドを使用できます。
 solution: Experience Manager
-title: カタログデータフィールド
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319" type="reference" format="dita" scope="local"> TimeStamp</a> </p></td> 
-  <td class="stentry"> <p>材料修正タイムスタンプ。 </p></td> 
+  <td class="stentry"> <p>材料の変更のタイムスタンプ。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce" type="reference" format="dita" scope="local"> 有効期限</a> </p></td> 
@@ -37,16 +37,16 @@ ht-degree: 11%
 
 <table id="simpletable_58980295E92848B7BE471855D629F756"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>マテリアル属性 </p></td> 
+  <td class="stentry"> <p>材料属性 </p></td> 
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md#reference-59ebb624250a4965ad1737578a2ab590" type="reference" format="dita" scope="local"> パス </a> </p></td> 
-  <td class="stentry"> <p>画像データファイルのパスまたはURL。 </p></td> 
+  <td class="stentry"> <p>画像データファイルのパスまたは URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath  </a> </p></td> 
-  <td class="stentry"> <p>セカンダリのデータファイルパスまたはURL。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> 補助パス </a> </p></td> 
+  <td class="stentry"> <p>セカンダリのデータファイルのパスまたは URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> 解像度 </a> </p></td> 
@@ -58,22 +58,22 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552" type="reference" format="dita" scope="local"> カラー </a> </p></td> 
-  <td class="stentry"> <p>マテリアルカラー </p></td> 
+  <td class="stentry"> <p>材料の色。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor </a> </p></td> 
   <td class="stentry"> <p>色付け可能なマテリアルの減色カラー。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> イルム  </a> </p></td> 
-  <td class="stentry"> <p>イルミネーションマップセレクタ </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> イルム </a> </p></td> 
+  <td class="stentry"> <p>照明マップセレクタ。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> 光沢</a> </p></td> 
-  <td class="stentry"> <p>サーフェス光沢 </p></td> 
+  <td class="stentry"> <p>サーフェス光沢。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 粗さ  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 粗さ </a> </p></td> 
   <td class="stentry"> <p>表面粗さ。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -86,19 +86,19 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> Repeat</a> </p></td> 
-  <td class="stentry"> <p>繰り返し可能なテクスチャに対しては、繰り返しモードを使用します。 </p></td> 
+  <td class="stentry"> <p>繰り返し可能なテクスチャに対してモードを繰り返します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399" type="reference" format="dita" scope="local"> 行揃え</a> </p></td> 
-  <td class="stentry"> <p>オブジェクト間のテクスチャの整列。 </p></td> 
+  <td class="stentry"> <p>オブジェクト間でのテクスチャの配置。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> サイズ</a> </p></td> 
-  <td class="stentry"> <p>デカル転写/オーバーレイ画層のサイズ </p></td> 
+  <td class="stentry"> <p>デカール/オーバーレイ画層のサイズ。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
-  <td class="stentry"> <p>詳細なレンダリング設定。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
+  <td class="stentry"> <p>レンダリングの詳細設定。 </p></td> 
  </tr> 
 </table>
 
@@ -121,7 +121,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> パス</a> </p></td> 
-  <td class="stentry"> <p>ビネットファイルパス </p></td> 
+  <td class="stentry"> <p>ビネットファイルのパス。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> 修飾子</a> </p></td> 
@@ -129,7 +129,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> ユーザデータ</a> </p></td> 
-  <td class="stentry"> <p>ユーザー定義のデータ。 </p></td> 
+  <td class="stentry"> <p>ユーザー定義データ。 </p></td> 
  </tr> 
 </table>
 
@@ -146,23 +146,23 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md#reference-8f5a6e146b3b4e598dca1f370acf3bfb" type="reference" format="dita" scope="local"> 定義</a> </p></td> 
-  <td class="stentry"> <p>マクロの定義。 </p></td> 
+  <td class="stentry"> <p>マクロ定義。 </p></td> 
  </tr> 
 </table>
 
-次のフィールドは、ICCカラープロファイルマップファイルで認識されます。
+次のフィールドは、ICC カラープロファイルマップファイルで認識されます。
 
 <table id="simpletable_54ED156EDA394412B5C4C49AA3A32828"> 
  <thead class="sthead"> 
-  <td class="stentry"> ICCプロファイルマップ</td> 
+  <td class="stentry"> ICC プロファイルマップ</td> 
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2" type="reference" format="dita" scope="local"> 名前</a> </p></td> 
-  <td class="stentry"> <p>カラープロファイル名（インデックスキー） </p></td> 
+  <td class="stentry"> <p>カラープロファイル名（インデックスキー）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> ProfilePath</a> </p></td> 
-  <td class="stentry"> <p>ICCカラープロファイルのファイルパス </p></td> 
+  <td class="stentry"> <p>ICC カラープロファイルのファイルパス。 </p></td> 
  </tr> 
 </table>

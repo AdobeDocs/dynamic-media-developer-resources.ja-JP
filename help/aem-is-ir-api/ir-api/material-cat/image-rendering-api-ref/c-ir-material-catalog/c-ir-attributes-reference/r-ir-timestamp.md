@@ -1,24 +1,24 @@
 ---
+title: TimeStamp
 description: デフォルトの変更タイムスタンプ。 カタログの TimeStamp とビネットの TimeStamp のデフォルト値を指定します。 指定しなかった場合、サーバはこの catalog.ini ファイルの変更日時を使用します。
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # TimeStamp{#timestamp}
 
-デフォルトの変更タイムスタンプ。 catalog::TimeStamp と vignette::TimeStamp のデフォルト値を指定します。 指定しなかった場合、サーバはこの catalog.ini ファイルの変更日時を使用します。
+デフォルトの変更タイムスタンプ。 のデフォルト値を指定します。 `catalog::TimeStamp` および `vignette::TimeStamp`. 指定しなかった場合、サーバはこの catalog.ini ファイルの変更日時を使用します。
 
 ## プロパティ {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Java 形式の日時値。 1970 年 1 月 1 日 (UTC/GMT) 午前 0 時からのミリ秒の整数か、次のいずれかの形式を持つ日付/時間文字列値を指定できます。
+Java™形式の日付/時間値。 1970 年 1 月 1 日 (UTC/GMT) 午前 0 時からのミリ秒の整数か、次のいずれかの形式を持つ日付/時間文字列値を指定できます。
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
@@ -30,7 +30,7 @@ Java 形式の日時値。 1970 年 1 月 1 日 (UTC/GMT) 午前 0 時からの�
 
 *[!DNL offset]* は、GMT を基準とした、時間または時間：分単位のタイムゾーンオフセットです。 例えば、「PDT」は「GMT -7」と同じです。
 
-文字列形式の日付/時刻値の要素はすべて存在する必要があります。 日付/時刻の値が正しい形式でない場合、その値は無視され、[!DNL *[!DNL catalog]*&#x200B;代わりに、 .ini] ファイルが使用されます。
+文字列形式の日付/時刻値の要素はすべて存在する必要があります。 日付/時刻の値が正しい形式でない場合、その値は無視され、変更時刻は [!DNL *[!DNL catalog]*&#x200B;代わりに、 .ini] ファイルが使用されます。
 
 ## 初期設定 {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
