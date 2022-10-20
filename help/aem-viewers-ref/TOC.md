@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: デスクトップデバイスとタッチスクリーンデバイスで使用できるように Dynamic Media ビューアをカスタマイズします。インタラクティブな画像やビデオ、カルーセル、スピンセットなどを対象に含めます。
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2077'
+ht-degree: 6%
 
 ---
 
