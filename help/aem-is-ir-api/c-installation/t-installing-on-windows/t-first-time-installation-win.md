@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ ht-degree: 0%
    **重要：** このライセンスは、このホストにインストールされているネットワークインターフェイスカードの 1 つのMACアドレスに基づいています。 このカードを無効にしたり、削除したり、交換したりした場合、ライセンスは有効と認識されなくなります。 画像サービングに使用するハードウェア設定のライセンスを必ず取得してください。
 
    有効なライセンスがない状態で IS を引き続きインストールし、後でライセンスをインストールすることができます。 続行するには、「 」を選択します。 **[!UICONTROL 戻る]** に戻る [!DNL Authentication] ダイアログボックスで、 **[!UICONTROL 次へ]**.
-1. 「Platform Server 管理者設定」ページに進みます。 必要に応じて新しい値を入力するか、デフォルトを受け入れます。
+1. 「[!DNL Platform Server] 管理者設定」ページに表示されます。 必要に応じて新しい値を入力するか、デフォルトを受け入れます。
 
    次の項目を設定できます。
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> Platform Server HTTP 接続ポート </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP 接続ポート </p> </td>
       <td> <p>画像サービングおよび画像レンダリング用のメイン HTTP リスニングポート </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ ht-degree: 0%
       <td> <p>管理リスニングポート </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Platform サーバーのキャッシュサイズ (MB) </p> </td>
+      <td> <p> [!DNL Platform Server] キャッシュサイズ (MB) </p> </td>
       <td> <p>メイン応答キャッシュの初期サイズ </p> </td>
    </tr>
    <tr> 
-      <td> <p> Platform サーバーキャッシュの場所 </p> </td>
+      <td> <p> [!DNL Platform Server] キャッシュの場所 </p> </td>
       <td> <p>PS キャッシュフォルダー </p> </td>
    </tr>
    </tbody>

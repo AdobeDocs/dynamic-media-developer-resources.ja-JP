@@ -1,24 +1,24 @@
 ---
-description: サーバのスーパーバイザ構成設定が含まれます。
+description: サーバスーパーバイザの構成設定が含まれます。
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-サーバのスーパーバイザ構成設定が含まれます。
+サーバスーパーバイザの構成設定が含まれます。
 
-このXMLファイルを編集する際は、有効なXML構文を維持してください。そうしないと、Image Serverの起動に失敗する場合があります。
+この XML ファイルを編集する際は、有効な XML 構文を維持してください。そうしないと、Image Server の起動に失敗する場合があります。
 
-このファイルを編集した後、画像サービングを再起動して、変更が有効になるようにします。 以下に示す要素/属性の値のみを変更できます。 Dynamic Mediaテクニカルサポートの指示があった場合にのみ、このファイルのその他すべてのコンテンツを編集します。
+このファイルを編集した後に画像サービングを再起動し、変更が有効になることを確認します。 変更では、以下でハイライト表示されている要素/属性の値のみがサポートされます。 Dynamic Mediaテクニカルサポートの指示に従った場合にのみ、このファイルの他のすべてのコンテンツを編集します。
 
 ```
 <supervisor>
@@ -51,7 +51,7 @@ ht-degree: 0%
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="ps">
-            <description>Dynamic Media Platform Server</description>
+            <description>Dynamic Media [!DNL Platform Server]</description>
             <profile ref="Java32"/>
             <profile ref="PlatformServer"/>
             <profile ref="Tomcat"/>

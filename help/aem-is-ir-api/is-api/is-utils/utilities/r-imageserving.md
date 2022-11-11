@@ -1,20 +1,20 @@
 ---
-description: 画像サービング制御スクリプト このスクリプトは、Image Serving Serverスーパーバイザを起動、停止または再起動するために使用され、その後、他のすべての画像サービングコンポーネントを起動、停止または再起動します。
+description: 画像サービング制御スクリプト。 このスクリプトは、Image Serving Server Supervisor の起動、停止、再起動に使用されます。Image Serving Server Supervisor は、他のすべての画像サービングコンポーネントを起動、停止、または再起動します。
 solution: Experience Manager
-title: ImageServing
-feature: Dynamic Media Classic、SDK/API
+title: 画像サービング
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
-# ImageServing{#imageserving}
+# 画像サービング{#imageserving}
 
-画像サービング制御スクリプト このスクリプトは、Image Serving Serverスーパーバイザを起動、停止または再起動するために使用され、その後、他のすべての画像サービングコンポーネントを起動、停止または再起動します。
+画像サービング制御スクリプト。 このスクリプトは、Image Serving Server Supervisor の起動、停止、再起動に使用されます。Image Serving Server Supervisor は、他のすべての画像サービングコンポーネントを起動、停止、または再起動します。
 
 ## 使用方法 {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -32,23 +32,23 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 開始 </span> </p> </td> 
-   <td colname="col2"> <p> サーバスーパーバイザとその他のすべての画像サービングコンポーネントを起動します。 </p> </td> 
+   <td colname="col2"> <p> サーバスーパーバイザとその他すべての画像サービングコンポーネントを起動します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 停止  </span> </p> </td> 
-   <td colname="col2"> <p> サーバースーパーバイザを含む、すべての画像サービングコンポーネントを停止します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 停止 </span> </p> </td> 
+   <td colname="col2"> <p> サーバスーパーバイザを含むすべての画像サービングコンポーネントを停止します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 再起動 </span> </p> </td> 
-   <td colname="col2"> <p>サーバースーパーバイザを含む、すべての画像サービングコンポーネントを再起動します。 </p> </td> 
+   <td colname="col2"> <p>サーバースーパーバイザを含め、すべての画像サービングコンポーネントを再起動します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> { psを再起動する | is | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Tomcat/Platformサーバー、画像サーバー、またはSVGを再起動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> { ps を再起動 | is | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Tomcat/を再起動します[!DNL Platform Server]、Image Server、SVG。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ステータス[ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Image Server、Tomcat/Platform Server、SVGserverの稼動時間と現在のメモリ使用量の情報、または指定したサーバーの状態を返します。サーバスーパーバイザが実行されていない場合は、代わりに情報メッセージが返されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ステータス [ ps | is | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>Image Server(Tomcat/[!DNL Platform Server]、 、SVGserver、または指定したサーバーのみのステータス。サーバスーパーバイザが実行されていない場合は、代わりに情報メッセージが返されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

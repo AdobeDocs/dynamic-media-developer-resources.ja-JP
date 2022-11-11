@@ -5,9 +5,9 @@ title: トラブルシューティング
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ImageServer は、アップグレードインストール中に変更された�
 
 **キャッシュフォルダーが使用する実際のディスク容量を超えています ` *[!DNL cache.maxSize]*`設定[!DNL PlatformServer.conf]**
 
-これは問題を示すものではありません。 ファイルシステムのオーバーヘッドは、Platform Server のディスクキャッシュ設定に含まれません。 システムが報告する総量は、設定よりも大きく多くなる。 で指定した 2 倍のディスク容量を予約することをお勧めします。 ` *[!DNL cache.maxSize]*`.
+これは問題を示すものではありません。 ファイルシステムのオーバーヘッドは、 [!DNL Platform Server]のディスクキャッシュ設定です。 システムが報告する総量は、設定よりも大きく多くなる。 で指定した 2 倍のディスク容量を予約することをお勧めします。 ` *[!DNL cache.maxSize]*`.
 
 **is-docs の例の画像の破損**
 
@@ -43,11 +43,11 @@ ImageServer は、アップグレードインストール中に変更された�
 
 **大幅なアップタイム後のキャッシュミスが多すぎます**
 
-サーバーの使用状況に応じて、ディスク容量が使用可能な場合は、Platform Server のディスクキャッシュサイズを増やすことでパフォーマンスが向上する場合があります。 設定は、設定ファイルを手動で編集することで変更できます。 ドキュメントを参照してください。
+サーバーの使用状況に応じて、 [!DNL Platform Server] ディスク容量が使用可能な場合のディスクキャッシュサイズ。 設定は、設定ファイルを手動で編集することで変更できます。 ドキュメントを参照してください。
 
 **ログファイルがディスク容量を使い過ぎています**
 
-Image Server と Platform Server は、毎日新しいログファイルを開始します。 デフォルトでは、これらは [!DNL *[!DNL install_root]*/ImageServing/logs] と入力します。 ログファイルのサイズ、保持するログの数、ログの内容を設定できます。 ドキュメントを参照してください。
+Image Server と [!DNL Platform Server] 新しいログファイルを毎日開始します。 デフォルトでは、これらは [!DNL *[!DNL install_root]*/ImageServing/logs] と入力します。 ログファイルのサイズ、保持するログの数、ログの内容を設定できます。 ドキュメントを参照してください。
 
 **お使いのサーバにアンチウイルスソフトウェアがインストールされている場合**
 

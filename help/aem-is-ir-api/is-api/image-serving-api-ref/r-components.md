@@ -1,20 +1,20 @@
 ---
-description: 'Scene7画像サービングは、次のコンポーネントで構成されています '
+description: Scene7 画像サービングは、次のコンポーネントで構成されています
 solution: Experience Manager
 title: 画像サービングコンポーネント
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
 
 # 画像サービングコンポーネント{#image-serving-components}
 
-Scene7画像サービングは、次のコンポーネントで構成されています。
+Scene7 画像サービングは、次のコンポーネントで構成されています。
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -25,42 +25,42 @@ Scene7画像サービングは、次のコンポーネントで構成されて�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>サーバースーパーバイザ </p> </td> 
-   <td colname="col2"> <p>他のコンポーネントの起動、停止、および正常性の確保を担当するスタンドアロンの実行可能ファイル。 </p> </td> 
+   <td colname="col1"> <p>サーバスーパーバイザ </p> </td> 
+   <td colname="col2"> <p>他のコンポーネントの起動、停止、および正常性の確保を担当するスタンドアロン実行可能ファイル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>ほとんどのJavaベースのコンポーネントの環境を提供します。 </p> </td> 
+   <td colname="col2"> <p>ほとんどの Java ベースのコンポーネントの環境を提供します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>監視/警告サービス </p> </td> 
-   <td colname="col2"> <p>J2EEアプリケーション。 サーバーの監視とEメールの警告を提供します。 </p> </td> 
+   <td colname="col2"> <p>J2EE アプリケーション。 サーバーの監視と E メールの警告機能を提供します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Platform Server </p> </td> 
-   <td colname="col2"> <p>J2EEアプリケーション。 クライアント接続、ログ、他のコンポーネントとの通信を管理します。 <span class="filepath"> /is/image</span>でのHTTPアクセス。 </p> </td> 
+   <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
+   <td colname="col2"> <p>J2EE アプリケーション。 クライアント接続、ログ、他のコンポーネントとの通信を管理します。 HTTP アクセス： <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キャッシュサービス </p> </td> 
-   <td colname="col2"> <p>J2EEアプリケーション。 Platform Serverのデータキャッシュを管理します。 /is/cacheでのHTTPアクセス </p> </td> 
+   <td colname="col2"> <p>J2EE アプリケーション。 を管理する [!DNL Platform Server]のデータキャッシュを使用します。 /is/cache での HTTP アクセス </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>すべての画像処理および画像ファイルのI/O操作を実行します。 32ビットと64ビットの実行可能ファイルは、Linuxで使用できます（Windowsの場合は32ビットのみ）。 </p> </td> 
+   <td colname="col2"> <p>すべての画像処理および画像ファイルの I/O 操作を実行します。 Linux では、32 ビットと 64 ビットの実行可能ファイルの両方が使用可能です（Windows の場合は 32 ビットのみ）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Render Component </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> textPs=</span>操作が実行されると、テキストレンダリングサービスの1つ以上のインスタンスがアクティブになる場合があります。 </p> </td> 
+   <td colname="col2"> <p>テキストレンダリングサービスの 1 つ以上のインスタンスが、 <span class="codeph"> textPs=</span> 操作が実行されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVGレンダリングコンポーネント </p> </td> 
-   <td colname="col2"> <p>スタンドアロンJavaアプリケーション（Tomcatではホストされていません）。 </p> </td> 
+   <td colname="col2"> <p>スタンドアロン Java アプリケーション（Tomcat ではホストされていません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media画像レンダリング( Render Server) </p> </td> 
-   <td colname="col2"> <p>をアクティブ化するには、別のライセンスが必要です。 <span class="filepath"> /ir/render</span>でのHTTPアクセス。 すべての画像レンダリング機能は、個別の実行可能コンポーネントを使用せずに、Platform ServerとImage Serverに統合されます。 </p> </td> 
+   <td colname="col1"> <p>Dynamic Media画像レンダリング ( Render Server) </p> </td> 
+   <td colname="col2"> <p>ライセンス認証を行うには、別途ライセンスが必要です。 HTTP アクセス： <span class="filepath"> /ir/render</span>. すべての画像レンダリング機能が [!DNL Platform Server] と Image Server に別個の実行可能コンポーネントが存在しない。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-追加の設定は、デフォルトのカタログ([!DNL default.ini])または特定の画像カタログ（詳しくは、[画像カタログ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照）で提供されます。
+デフォルトのカタログ ( [!DNL default.ini]) または特定の画像カタログ ( [画像カタログ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) を参照 )。

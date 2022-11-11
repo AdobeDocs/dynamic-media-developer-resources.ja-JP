@@ -1,20 +1,20 @@
 ---
 title: キャッシュ
-description: キャッシュ制御。 クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と、内部 Platform Server キャッシュでのキャッシュを選択的に無効にすることができます。
+description: キャッシュ制御。 内部で、クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）とキャッシュを選択的に無効にできる [!DNL Platform Server] キャッシュ。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 # キャッシュ {#cache}
 
-キャッシュ制御。 クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と、内部 Platform Server キャッシュ内のキャッシュを選択的に無効にできます。
+キャッシュ制御。 内部のクライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）とキャッシュを選択的に無効にできます [!DNL Platform Server] キャッシュ。
 
 `cache= *`cacheControl`*`
 

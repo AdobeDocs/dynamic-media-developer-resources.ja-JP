@@ -1,13 +1,13 @@
 ---
 title: HTTP POST を使用した UploadFile Servlet へのアセットのアップロード
-description: アセットをDynamic Media Classicにアップロードする際には、アップロードしたファイルに関連付けられているすべてのログアクティビティを調整するためのジョブを設定する 1 つ以上の HTTPPOSTリクエストが必要になります。
+description: へのアセットのアップロード [!DNL Dynamic Media] Classic には、ジョブを設定する 1 つ以上の HTTPPOSTリクエストが含まれ、アップロードされたファイルに関連付けられているすべてのログアクティビティを調整します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---

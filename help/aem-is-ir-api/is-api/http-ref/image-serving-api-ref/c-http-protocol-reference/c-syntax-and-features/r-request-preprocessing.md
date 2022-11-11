@@ -1,37 +1,37 @@
 ---
-description: 画像サービングは、正規表現の一致と置換ルールに基づく、シンプルな要求プリプロセッサーを提供します。
+description: 画像サービングは、正規表現の一致と置き換えルールに基づく、シンプルなリクエストプリプロセッサーを提供します。
 solution: Experience Manager
-title: 前処理のリクエスト
-feature: Dynamic Media Classic、SDK/API
+title: 前処理をリクエスト
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# 前処理のリクエスト{#request-preprocessing}
+# 前処理をリクエスト{#request-preprocessing}
 
-画像サービングは、正規表現の一致と置換ルールに基づく、シンプルな要求プリプロセッサーを提供します。
+画像サービングは、正規表現の一致と置き換えルールに基づく、シンプルなリクエストプリプロセッサーを提供します。
 
-ルール（ルールセット）のコレクションを、デフォルトのカタログを含む各画像カタログに添付できます。 ルールはXML形式のファイルで指定します。
+ルール（ルールセット）のコレクションを、デフォルトのカタログを含む各画像カタログに添付できます。 ルールは XML 形式のファイルで指定します。
 
-リクエストの前処理ルールでは、パスの操作、コマンドの追加、コマンド値の変更、テンプレートやマクロの適用など、Platform Serverのパーサーによって処理される前に、リクエストのパスとクエリの部分を変更できます。 ルールは、通常、要求の難読化、ウォーターマーキング、HTTPサービスの特定のクライアントIPアドレスへの制限など、カタログ属性でのみ制御される特定のセキュリティ機能を設定および上書きする場合にも使用できます。
+リクエストの前処理ルールは、リクエストが [!DNL Platform Server]パスの操作、コマンドの追加、コマンド値の変更、テンプレートまたはマクロの適用を含むのパーサー。 また、ルールを使用して、要求の難読化、ウォーターマークなど、通常はカタログ属性でのみ制御される特定のセキュリティ機能を設定および上書きし、HTTP サービスを特定のクライアント IP アドレスに制限することもできます。
 
-リクエストの前処理ルールは、様々なアプリケーションに適しています。その一部を以下に示します。
+リクエストの前処理ルールは、様々なアプリケーションに適しています。一部は次のとおりです。
 
-* *仮想パス*&#x200B;メカニズムを実装します。これにより、要求パスをファイル、FTP、HTTPパスに再マッピングできます。
-* 透かしなどのセキュリティ機能を、画像名またはパスでフィルタリングして選択的に適用する。
-* 特定のIPアドレスからサーバーにアクセスする際の透かしなどのセキュリティ機能を省略する。
-* `defaultImage=`などのコマンドを、すべてのリクエストまたはURLパスまたはクエリ文字列に特定のパターンを示すリクエストに強制的に適用します。
-* CPU負荷の高いコマンドの使用を禁止して、サーバーの乱用を防ぎます。
-* ソース画像を`src=`ではなくリクエストパスで指定しながら、HTTPまたはFTPサーバー上に配置できるようにします。
-* 要求パスまたは画像名に応じて、画質設定（JPEG画質やシャープなど）を制御します。
+* の実装 *仮想パス* メカニズム：要求パスをファイル、FTP、HTTP パスに再マッピングできます。
+* 透かしなどのセキュリティ機能を、画像名またはパスでフィルタリングして、選択的に強制します。
+* 特定の IP アドレスからサーバーにアクセスする際に、透かしや他のセキュリティ機能を省略する。
+* 次のようなコマンドの適用を強制 `defaultImage=`を、URL パスまたはクエリ文字列に特定のパターンを示すすべてのリクエストまたはリクエストに対して適用できます。
+* CPU 負荷の高いコマンドを使用してサーバの乱用を防ぐことを禁止します。
+* ソース画像を HTTP または FTP サーバー上に配置し、リクエストパス上で指定する ( `src=`.
+* 要求パスまたは画像名に応じて、画質設定 (JPEGの画質やシャープニングなど ) を制御します。
 
-ルールセットの作成、使用、管理に関する詳細については、「[ルールセットのリファレンス](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)」を参照してください。
+ルールセットの作成、使用、管理について詳しくは、 [ルールセットの参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 
 ## 関連項目 {#see-also}
 
-[ルールセットの参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)、 [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
+[ルールセットの参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)

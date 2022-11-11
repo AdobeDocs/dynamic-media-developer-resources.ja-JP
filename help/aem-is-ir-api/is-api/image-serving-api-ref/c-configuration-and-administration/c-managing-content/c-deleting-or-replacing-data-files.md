@@ -5,9 +5,9 @@ title: データファイルの削除または置き換え
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >画像サービングで使用中の場合は、データファイルの置き換えや削除を行わないでください。 エラーが発生したり、サーバーがクラッシュしたりする場合があります。
 
-どの場合でも、更新されたデータがクライアントによって表示される前に、Platform Server のキャッシュとクライアントのキャッシュエントリが古くなる必要があります。 特定のキャッシュエントリは、 `cache=validate` コマンドを使用します。
+どの場合でも、 [!DNL Platform Server] 更新されたデータをクライアントが閲覧する前に、キャッシュとクライアントキャッシュのエントリが古くなる必要があります。 特定のキャッシュエントリは、 `cache=validate` コマンドを使用します。
 
 フォントファイルおよび ICC プロファイルファイルの変更は、キャッシュマネージャーによって直接追跡されません。 このようなリソースが ID を変更せずに変更された場合、サーバーキャッシュは変更を知らず、 `cache=validate` を指定すると、キャッシュエントリは更新されません。 `cache=update` を使用して、このようなキャッシュエントリを強制的に再生成することができます。
 

@@ -5,9 +5,9 @@ title: 一般
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## TC::PsPort — メインリスニングポート {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Platform Server のメインリスニングポートを指定します。 また、このポートは、画像サービング、画像レンダリング、Dynamic Mediaビューア（インストールされている場合）のドキュメントおよび例ページへのアクセスにも使用されます。
+のメインリスニングポートを指定します。 [!DNL Platform Server]. また、このポートは、画像サービング、画像レンダリング、Dynamic Mediaビューア（インストールされている場合）のドキュメントおよび例ページへのアクセスにも使用されます。
 
 ## IS::CacheServerUrl — サービスのルート URL をキャッシュする {#section-bcca227a1f91453b834db4ea050968e2}
 

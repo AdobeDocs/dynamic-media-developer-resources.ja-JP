@@ -5,9 +5,9 @@ title: 制限事項と既知の問題
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Dynamic Media Image Serving を使用する際には、いくつかの制限事�
 * テキストの最後の行が収まらない場合、行全体が切り取り値として表示されるのではなく、削除されます。
 * `\slmult` および `\sl` MS Word とは異なる動作をし、 `text=`現在の段落と後続の段落に対して有効になります。
 
-* `\sb` MS Word の最初の段落と `text=`、Adobe InDesignとPhotoshopではこの操作はおこないません。
+* `\sb` MS Word の最初の段落と `text=`、Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
 
-* `\sa` MS Word の最後の段落と `text=`、Adobe InDesignとPhotoshopではこの操作はおこないません。
+* `\sa` MS Word の最後の段落と `text=`、Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
 
 ## 下位互換性 {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ Digimarc ライブラリは、既に Digimarc 透かしが検出されている�
 
    画像サービングのピラミッド以外のTIFFの場合、 `MaxNonDsfSize` 内 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイル。
 
-* Adobe Photoshop CS3 では、初期設定では、レイヤー化PSDファイルは保存されません。
+* Adobe [!DNL Photoshop] CS3 は、初期設定では、レイヤー化PSDファイルを保存しません。
 
    *症状*:
 
-   Adobe Photoshop CS3 のレイヤーPSDファイルは、「このレイヤーPhotoshopファイルは、合成画像で保存されませんでした」というテキストを含む黒で表示されます。 画像サービングの返信画像または IPS の
+   Adobe [!DNL Photoshop] CS3 レイヤーPSDファイルが黒で表示され、「このレイヤーは次のように表示されます。 [!DNL Photoshop] ファイルは合成画像では保存されませんでした。」 画像サービングの返信画像または IPS の
 
    *回避策*：
 
-   互換性の最大化をオンにして、Adobe Photoshop CS3 ファイルを保存します。
+   保存Adobe [!DNL Photoshop] 互換性の最大化がオンになっている CS3 ファイル。
 
 * CMYK/JPEG返信画像に ICC プロファイルを割り当てると、一部のブラウザーで色が反転することがあります。*対策*:
 
@@ -116,7 +116,7 @@ Digimarc ライブラリは、既に Digimarc 透かしが検出されている�
 * 16bpc PNG 画像は、PhotoFont テキストではサポートされていません。
 * 埋め込まれたカラープロファイルを持つ PNG 画像のカラー補正では、ハードコードされたオプションが使用されます。 レンダリングインテントは相対的な色域を維持し、PhotoFont テキストの黒点補正がオンになっています。
 * 会社でロケール変換が有効になっている場合、ファイルベースの参照はサポートされません [!DNL ini] ファイル。
-* 画像サービングが閉じられていないPhotoshopパスを正しく書き込みません。
+* 画像サービングが閉じられていない書き込みをしない [!DNL Photoshop] パスが正しく設定されています。
 * 画像サービングは、現在、Adobe Media Encoder 4.0.1 以前を使用して書き出したTIFFファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere ProCS4、After Effects CS4、およびCreative Suite4 Production Premium に含まれています。
 * 使用 `text=` セルフサイズレイヤーでは、行の位置合わせに複数の設定を使用する RTF 文字列はサポートされません。
 

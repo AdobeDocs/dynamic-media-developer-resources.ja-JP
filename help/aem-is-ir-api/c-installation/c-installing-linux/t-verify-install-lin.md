@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Image Server は、Linux®デーモンとしてインストールされます。
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-応答内で、次で始まる項目が存在するかどうかを確認します： `imageServer`:Platform Server が Image Server と正常に通信できたことを示します。
+応答内で、次で始まる項目が存在するかどうかを確認します： `imageServer`は、 [!DNL Platform Server] は Image Server と正常に通信できませんでした。
 
 >追加の検証は、ドキュメントパッケージとデモパッケージのサンプルページ（インストールされている場合）を使用して実行できます。

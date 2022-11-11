@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '93'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 4%
 画像サービングのインストールには、次の 2 つの主要なサーバーコンポーネントが含まれます。
 
 * Image Server. スタンドアロンのネイティブコード実行可能ファイル。
-* Platform Server。 スタンドアロンの Java™ Web アプリケーションおよびアプリケーションサーバー。
+* [!DNL Platform Server]. スタンドアロンの Java™ Web アプリケーションおよびアプリケーションサーバー。
 
 画像レンダリングは、これら 2 つのサーバーコンポーネントの一部です。
 
-以降の手順では、 `install_root` は、画像サービングと画像レンダリングがインストールされているルートフォルダーを指します。 および `server:port` は、Platform Server のメインリスニングポートとして設定されたホスト名または IP アドレスとポート番号を指します。
+以降の手順では、 `install_root` は、画像サービングと画像レンダリングがインストールされているルートフォルダーを指します。 および `server:port` は、 [!DNL Platform Server].
 
 * [ライセンス](c-licensing.md)
 * [目次](c-contents.md)

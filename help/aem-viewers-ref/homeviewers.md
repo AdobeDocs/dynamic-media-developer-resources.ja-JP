@@ -1,14 +1,14 @@
 ---
 title: AdobeDynamic Mediaビューアリファレンスガイド
-description: AdobeDynamic Mediaビューアリファレンスガイド基本ズーム、ecatalog、ズーム、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンショナル、インタラクティブビデオ、インタラクティブ画像およびビデオ360ビューア
+description: AdobeDynamic Mediaビューアリファレンスガイド（基本ズーム、eCatalog、ズーム、eCatalog 検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンショナル、インタラクティブビデオ、インタラクティブ画像およびビデオ 360 ビューア）。
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
-# Dynamic Media ビューアリファレンスガイド{#dynamic-media-viewers-reference-guide}
+# [!DNL Dynamic Media] ビューアリファレンスガイド{#dynamic-media-viewers-reference-guide}
 
-デスクトップデバイスとタッチスクリーンデバイスで使用できるように Dynamic Media ビューアをカスタマイズします。 操作できるメディアタイプには、基本ズーム、ecatalog、ズーム、eCatalog検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンショナル、インタラクティブビデオ、インタラクティブ画像、ビデオ360ビューアが含まれます。
+カスタマイズ [!DNL Dynamic Media] デスクトップおよびタッチスクリーンデバイスで使用するビューア 操作できるメディアタイプには、基本ズーム、ecatalog、ズーム、eCatalog 検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンショナル、インタラクティブビデオ、インタラクティブ画像、ビデオ 360 ビューアが含まれます。

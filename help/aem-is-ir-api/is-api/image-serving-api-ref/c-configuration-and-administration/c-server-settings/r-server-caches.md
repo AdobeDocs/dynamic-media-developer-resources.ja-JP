@@ -5,9 +5,9 @@ title: サーバーキャッシュ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## PS::cache.rootPaths — データフォルダをキャッシュする {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Platform Server のディスクキャッシュのルートフォルダーです。 ファイルの絶対パスまたはファイルの絶対パス ( *[!DNL install_folder]*( セミコロン (;) で区切られます )。 HTTP 応答キャッシュのデータは、指定されたすべてのフォルダーに均等に配分されます。 補助キャッシュ（コンパイル済みの画像カタログと外部の画像データ）のキャッシュは、プライマリキャッシュフォルダ（リスト内の最初のフォルダ）に配置されます。
+のルートフォルダー [!DNL Platform Server]のディスクキャッシュ。 ファイルの絶対パスまたはファイルの絶対パス ( *[!DNL install_folder]*( セミコロン (;) で区切られます )。 HTTP 応答キャッシュのデータは、指定されたすべてのフォルダーに均等に配分されます。 補助キャッシュ（コンパイル済みの画像カタログと外部の画像データ）のキャッシュは、プライマリキャッシュフォルダ（リスト内の最初のフォルダ）に配置されます。
 
 ## PS::cache.maxSize — 応答データのキャッシュサイズ {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

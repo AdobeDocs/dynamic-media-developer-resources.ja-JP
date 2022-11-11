@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 </table>
 
 * トークン間の空白はオプションです。
-* 不明な属性名を持つレコードは、Platform Server では無視されます。
+* 属性名が不明なレコードは、 [!DNL Platform Server].
 * 属性名は、ASCII 文字、数字、「 — 」、「_」、「。」の任意の組み合わせで構成できます。
 * 同じ属性ファイル内で同じ属性名が複数回存在する場合は、最後に発生した属性名が優先されます。
 * 最初の文字として「#」を使用し、任意のレコードをパーサーによって無視されるコメントとしてマークします。
