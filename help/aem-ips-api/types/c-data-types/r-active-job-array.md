@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8fccfc0e-f715-4d97-ac29-c88313c3e49f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# ActiveJobArray{#activejobarray}
+# [!DNL ActiveJobArray]{#activejobarray}
 
 アクティブなジョブの配列。
 

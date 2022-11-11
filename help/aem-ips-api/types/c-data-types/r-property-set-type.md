@@ -1,20 +1,20 @@
 ---
-description: PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールドの有効な値。
+description: PropertySetType フィールドおよび createPropertySetTypeParam フィールドの有効な値。
 solution: Experience Manager
 title: PropertySetType
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
-# PropertySetType{#propertysettype}
+# [!DNL PropertySetType]{#propertysettype}
 
-PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールドの有効な値。
+PropertySetType フィールドおよび createPropertySetTypeParam フィールドの有効な値。
 
 次の値が含まれます。
 
@@ -36,22 +36,22 @@ PropertySetTypeフィールドおよびcreatePropertySetTypeParamフィールド
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> handleと入力します。 </td> 
+   <td colname="col3"> handle と入力します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">会社の担当。 <p>注意： 会社のハンドルが存在しない場合、タイプはグローバルです。 </p></td> 
+   <td colname="col3">会社の取り扱い。 <p>注意：会社のハンドルが存在しない場合、タイプはグローバルです。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 型名。 </td> 
+   <td colname="col3"> 名前を入力します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">プロパティセットタイプの1つ。 Input (<span class="codeph"> createPropertySetTypeParam</span>)を参照してください。 </td> 
+   <td colname="col3">プロパティセットタイプの 1 つ。 Input (<span class="codeph"> createPropertySetTypeParam</span>) をクリックします。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 

@@ -5,14 +5,14 @@ title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 4%
+source-wordcount: '187'
+ht-degree: 3%
 
 ---
 
-# JobLog{#joblog}
+# [!DNL JobLog]{#joblog}
 
 ジョブの実行後のジョブログ。
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 | jobSubType | `xsd:string` | 追加のジョブ情報。 |
 | startDate | `xsd:dateTime` | ジョブの開始日、時刻、およびタイムゾーン。 |
 | endDate | `xsd:dateTime` | ジョブの終了日、時刻、およびタイムゾーン。 |
-| description | `xsd:string` | 最初に指定されたジョブの説明 ( `submitJob`. |
+| [!DNL description] | `xsd:string` | 最初に指定されたジョブの説明 ( `submitJob`. |
 | fileSuccessCount | `xsd:int` | 正常に処理されたファイル数。 |
 | fileErrorCount | `xsd:int` | エラーの原因となったファイルの数。 |
 | fileWarningCount | `xsd:int` | 警告を生成したファイルの数。 |

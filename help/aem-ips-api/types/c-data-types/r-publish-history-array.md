@@ -5,14 +5,14 @@ title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c5c523-0157-449d-b03c-56b23501e822
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# PublishHistoryArray{#publishhistoryarray}
+# [!DNL PublishHistoryArray]{#publishhistoryarray}
 
 公開履歴の配列。
 

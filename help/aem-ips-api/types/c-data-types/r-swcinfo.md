@@ -5,14 +5,14 @@ title: SwcInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 585b044e-740f-4bd9-b01d-873418366662
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 22%
+source-wordcount: '30'
+ht-degree: 23%
 
 ---
 
-# SwcInfo{#swcinfo}
+# [!DNL SwcInfo]{#swcinfo}
 
 SWC ファイルアセットのプロパティ。
 

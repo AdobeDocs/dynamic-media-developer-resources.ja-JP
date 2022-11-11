@@ -5,14 +5,14 @@ title: PowerPointInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 31%
+source-wordcount: '21'
+ht-degree: 33%
 
 ---
 
-# PowerPointInfo{#powerpointinfo}
+# [!DNL PowerPointInfo]{#powerpointinfo}
 
 PowerPoint ファイルオプション。
 

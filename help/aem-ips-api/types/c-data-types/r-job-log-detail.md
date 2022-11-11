@@ -5,14 +5,14 @@ title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '60'
 ht-degree: 8%
 
 ---
 
-# JobLogDetail{#joblogdetail}
+# [!DNL JobLogDetail]{#joblogdetail}
 
 ジョブのログ情報。
 

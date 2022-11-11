@@ -2,17 +2,17 @@
 description: タグフィールドの検索条件を定義します。
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 タグフィールドの検索条件を定義します。
 
@@ -37,15 +37,15 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">タグフィールドのタイプと、値またはvalueArrayフィールドのどちらを使用するかによって異なります。 
+   <td colname="col3">タグフィールドのタイプと、値または valueArray フィールドを使用するかどうかに応じて異なります。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5"><span class="codeph">値</span>を渡す場合、<span class="codeph"> op</span>は文字列定数Matchesである必要があります。 この条件は、タグ値に関連付けられているアセットと一致します。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD"><span class="codeph"> valueArray</span>を渡す場合、opフィールドは、1つの値を持つタグフィールドまたは複数の値を持つタグフィールドの定数<span class="codeph"> MatchesAny</span>を指定できます。 <span class="codeph"> MatchesAny</span>条件は、<span class="codeph"> valueArray</span>内のタグ値の少なくとも1つに関連付けられているアセットと一致します。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数の値を持つタグフィールドの場合、opフィールドは定数<span class="codeph"> MatchesAll</span>に設定でき、<span class="codeph"> valueArray</span>フィールドを指定します。 この場合、条件は、<span class="codeph"> valueArray</span>（他のタグ値に加えて）すべてのタグ値に関連付けられているアセットのみと一致します。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">If <span class="codeph"> 値</span> が渡された。 <span class="codeph"> op</span> は、文字列定数 Matches である必要があります。 この条件は、タグ値に関連付けられているアセットと一致します。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">If <span class="codeph"> valueArray</span> が渡された場合、op フィールドに定数を指定できます <span class="codeph"> MatchesAny</span> 単一値のタグフィールドまたは複数値のタグフィールドの場合。 A <span class="codeph"> MatchesAny</span> 条件は、 <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数値のタグフィールドの場合、op フィールドを定数に設定できます <span class="codeph"> MatchesAll</span> と <span class="codeph"> valueArray</span> フィールドに入力します。 この場合、条件は、 <span class="codeph"> valueArray</span> （他のタグ値に加えて）。 </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 値</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 一致する値。 </td> 
   </tr> 

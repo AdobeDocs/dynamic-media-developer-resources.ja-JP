@@ -5,14 +5,14 @@ title: WatermarkInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-# WatermarkInfo{#watermarkinfo}
+# [!DNL WatermarkInfo]{#watermarkinfo}
 
 透かしアセットのプロパティ。
 

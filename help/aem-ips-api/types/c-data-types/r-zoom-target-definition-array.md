@@ -5,14 +5,14 @@ title: ZoomTargetDefinitionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '15'
-ht-degree: 40%
+source-wordcount: '14'
+ht-degree: 42%
 
 ---
 
-# ZoomTargetDefinitionArray{#zoomtargetdefinitionarray}
+# [!DNL ZoomTargetDefinitionArray]{#zoomtargetdefinitionarray}
 
 構文
 

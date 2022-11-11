@@ -5,14 +5,14 @@ title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
-# ImageFieldUpdate{#imagefieldupdate}
+# [!DNL ImageFieldUpdate]{#imagefieldupdate}
 
 画像アセットに関連付けられている画像フィールドを更新します。
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | assetHandle | `xsd:string` | アセットハンドル。 |
-| resolution | `xsd:double` | 画像の解像度（ピクセル/インチ）。 |
-| anchorX | `xsd:int` | X 軸画像アンカー。 |
-| anchorY | `xsd:int` | Y 軸の画像アンカー。 |
-| ユーザデータ | `xsd:string` | の値 `userData` 画像サービングユーザーデータカタログフィールドに公開されるメタデータフィールド。 |
+| [!DNL resolution] | `xsd:double` | 画像の解像度（ピクセル/インチ）。 |
+| [!DNL anchorX] | `xsd:int` | X 軸画像アンカー。 |
+| [!DNL anchorY] | `xsd:int` | Y 軸の画像アンカー。 |
+| [!DNL userData] | `xsd:string` | の値 `userData` 画像サービングユーザーデータカタログフィールドに公開されるメタデータフィールド。 |

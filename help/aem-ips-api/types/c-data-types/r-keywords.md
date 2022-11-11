@@ -5,14 +5,14 @@ title: キーワード
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 36%
+source-wordcount: '40'
+ht-degree: 35%
 
 ---
 
-# キーワード{#keywords}
+# [!DNL Keywords]{#keywords}
 
 構文
 

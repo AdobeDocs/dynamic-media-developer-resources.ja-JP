@@ -5,14 +5,14 @@ title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 19%
 
 ---
 
-# PerspectiveQuad{#perspectivequad}
+# [!DNL PerspectiveQuad]{#perspectivequad}
 
 getPhotoshopPath 操作で返される画像の位置座標。
 

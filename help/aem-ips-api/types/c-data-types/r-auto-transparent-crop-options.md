@@ -2,17 +2,17 @@
 description: 透明度に基づいて画像を自動的に切り抜く場合に使用するオプションです。
 solution: Experience Manager
 title: AutoTransparentCropOptions
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
-# AutoTransparentCropOptions{#autotransparentcropoptions}
+# [!DNL AutoTransparentCropOptions]{#autotransparentcropoptions}
 
 透明度に基づいて画像を自動的に切り抜く場合に使用するオプションです。
 
@@ -34,8 +34,8 @@ ht-degree: 11%
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">透明度に基づいて画像のエッジから空白を削除します。 用途： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0の場合は色が正確に一致します。 </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1：最も多くの色差を有効にします。 </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 に設定すると、色が完全に一致します。 </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1：最も多くの色の違いを有効にします。 </li>
     </ul></td> 
   </tr> 
  </tbody> 

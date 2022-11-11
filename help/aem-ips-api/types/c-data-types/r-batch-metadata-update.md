@@ -5,14 +5,14 @@ title: BatchMetadataUpdate
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 07998708-f7c2-42bc-b128-c81f86fd1760
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# BatchMetadataUpdate{#batchmetadataupdate}
+# [!DNL BatchMetadataUpdate]{#batchmetadataupdate}
 
 バッチモードでメタデータを更新します。
 

@@ -5,14 +5,14 @@ title: AssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 9%
 
 ---
 
-# AssetPublishContexts{#assetpublishcontexts}
+# [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
 アセットを、公開用にマークされた PublishContexts にマッピングします。
 

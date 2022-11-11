@@ -1,24 +1,24 @@
 ---
-description: CDN無効化リクエストで提供されたURLの1つに応答するメッセージの配列。
+description: CDN 無効化要求で指定された URL に応答するメッセージの配列。
 solution: Experience Manager
 title: OperationFaultArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '51'
 ht-degree: 7%
 
 ---
 
-# OperationFaultArray{#operationfaultarray}
+# [!DNL OperationFaultArray]{#operationfaultarray}
 
-CDN無効化リクエストで提供されたURLの1つに応答するメッセージの配列。
+CDN 無効化要求で指定された URL に応答するメッセージの配列。
 
-**次の日からサポート**
+**次以降にサポート**
 
-4.5.0（パッチ2011年2月）
+4.5.0、パッチ 2011-02
 
 ## パラメータ {#section-431990f541694b599c75103663e5f672}
 
@@ -33,8 +33,8 @@ CDN無効化リクエストで提供されたURLの1つに応答するメッセ�
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 型：OperationFault[たいぷ：OperationFault]</span> </p> </td> 
-   <td> <p> CDN無効化リクエストによって生成されたメッセージのリスト。 </p> </td> 
+   <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
+   <td> <p> CDN 無効化リクエストによって生成されたメッセージのリスト。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

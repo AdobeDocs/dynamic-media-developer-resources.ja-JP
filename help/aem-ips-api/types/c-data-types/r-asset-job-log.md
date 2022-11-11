@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 6%
+source-wordcount: '96'
+ht-degree: 7%
 
 ---
 
-# AssetJobLog{#assetjoblog}
+# [!DNL AssetJobLog]{#assetjoblog}
 
 特定のアセットに関連付けられたジョブログエントリの詳細。 getAssetJobLogs によって返されるデータ。
 
@@ -30,37 +30,37 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> ジョブハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> ジョブ名. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブログ内のメッセージ。 <p><span class="codeph"> logMessage</span> 応答フィールドは、 <span class="codeph"> authHeader</span> ロケールフィールド </p></td> 
+   <td colname="col3">ジョブログ内のメッセージ。 <p><span class="codeph"> [!DNL logMessage]</span> 応答フィールドは、 <span class="codeph"> authHeader</span> ロケールフィールド </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> ログエントリのジョブのタイプ。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> ジョブを送信したユーザーの電子メール。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> ジョブの日付。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:JobLogDetailArray</span> </td> 
    <td colname="col3"> 各ジョブログの補助ジョブログメッセージの配列。 </td> 
   </tr> 

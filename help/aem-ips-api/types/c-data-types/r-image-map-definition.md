@@ -5,14 +5,14 @@ title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '71'
 ht-degree: 12%
 
 ---
 
-# ImageMapDefinition{#imagemapdefinition}
+# [!DNL ImageMapDefinition]{#imagemapdefinition}
 
 ブラウザーでのクリックアクションのターゲット定義。
 

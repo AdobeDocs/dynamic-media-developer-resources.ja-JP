@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1195'
 ht-degree: 2%
 
 ---
@@ -248,8 +248,8 @@ IPS による管理用の新しいアセットタイプを追加しました。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> プロセス </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> [!DNL PostScriptOptions] </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL process] </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> なし </span> </p> </li> 
@@ -267,7 +267,7 @@ IPS による管理用の新しいアセットタイプを追加しました。
    <td colname="col4"> <p>ファイルを画像にラスタライズするときに有効になります。 元のファイルがこの方法でロゴのオーバーレイに定義されている場合、透明な背景が作成されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> プロセス </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
@@ -281,12 +281,12 @@ IPS による管理用の新しいアセットタイプを追加しました。
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;整数&gt; </span> </p> </td> 
    <td colname="col4"> <p>解像度をラスタライズする。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> カラースペース </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>レンダリング用のターゲットカラースペース。 </p> </td> 
   </tr> 
@@ -310,12 +310,12 @@ IPS による管理用の新しいアセットタイプを追加しました。
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolution </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;整数&gt; </span> </p> </td> 
    <td colname="col4"> <p>解像度をラスタライズする。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> カラースペース </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>レンダリング用のターゲットカラースペース。 </p> </td> 
   </tr> 
@@ -345,19 +345,19 @@ IPS による管理用の新しいアセットタイプを追加しました。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 決してない </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL never] </span> </p> </td> 
    <td colname="col2"> <p>応答を gzip で圧縮しないでください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SOAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL soap] </span> </p> </td> 
    <td colname="col2"> <p>authHeader/gzipResponse が true の場合のみ、Gzip 応答。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 受��入れる </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL accept] </span> </p> </td> 
    <td colname="col2"> <p>authHeader/gzipResponse が true の場合は Gzip。それ以外の場合、gzipResponse ヘッダーが存在せず、HTTP Accept-Encoding ヘッダーに gzip が含まれている場合は Gzip。 (初期設定). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> いつも </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL always] </span> </p> </td> 
    <td colname="col2"> <p>ヘッダー値に関係なく、常に gzip 応答です。 この値は、デバッグ目的でのみ使用します。 </p> </td> 
   </tr> 
  </tbody> 

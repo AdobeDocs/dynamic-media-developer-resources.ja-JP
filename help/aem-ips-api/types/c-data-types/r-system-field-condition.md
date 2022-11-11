@@ -5,14 +5,14 @@ title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
 
-# SystemFieldCondition{#systemfieldcondition}
+# [!DNL SystemFieldCondition]{#systemfieldcondition}
 
 searchAssets 操作のシステムフィールド検索条件。
 

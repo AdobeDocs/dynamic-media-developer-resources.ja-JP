@@ -5,14 +5,14 @@ title: MPEvent
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 14%
 
 ---
 
-# MPEvent{#mpevent}
+# [!DNL MPEvent]{#mpevent}
 
 MediaPortal イベント。
 

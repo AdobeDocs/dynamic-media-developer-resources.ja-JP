@@ -5,14 +5,14 @@ title: TaskItemProgressArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '34'
 ht-degree: 17%
 
 ---
 
-# TaskItemProgressArray{#taskitemprogressarray}
+# [!DNL TaskItemProgressArray]{#taskitemprogressarray}
 
 タスク項目に関する情報の配列です。
 

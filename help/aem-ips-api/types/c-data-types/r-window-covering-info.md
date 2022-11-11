@@ -5,14 +5,14 @@ title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '51'
 ht-degree: 13%
 
 ---
 
-# WindowCoveringInfo{#windowcoveringinfo}
+# [!DNL WindowCoveringInfo]{#windowcoveringinfo}
 
 ウィンドウカバリングファイルのプロパティ。
 

@@ -5,14 +5,14 @@ title: FontInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 22%
+source-wordcount: '21'
+ht-degree: 23%
 
 ---
 
-# FontInfo{#fontinfo}
+# [!DNL FontInfo]{#fontinfo}
 
 フォントアセットのプロパティ。
 

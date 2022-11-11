@@ -5,14 +5,14 @@ title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 10%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
-# ExcludeByproductCondition{#excludebyproductcondition}
+# [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
 検索結果から除外する生成エンジンと生成されたアセットタイプを決定します。
 
@@ -22,5 +22,5 @@ ht-degree: 10%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| エンジン | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、「生成情報」を参照してください。 |
+| [!DNL engine] | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、「生成情報」を参照してください。 |
 | generatedAssetType | `xsd:string` | 除外されたアセットタイプ。 値については、アセットタイプを参照してください。 |

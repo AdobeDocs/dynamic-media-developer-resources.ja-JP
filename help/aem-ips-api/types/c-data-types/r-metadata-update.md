@@ -5,14 +5,14 @@ title: MetadataUpdate
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
 
-# MetadataUpdate{#metadataupdate}
+# [!DNL MetadataUpdate]{#metadataupdate}
 
 setAssetMetadata で使用する特定のアセットのメタデータ値を設定します。 メタデータに加える変更について説明します。
 

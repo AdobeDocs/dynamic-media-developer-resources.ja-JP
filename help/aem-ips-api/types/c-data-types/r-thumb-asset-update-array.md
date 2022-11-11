@@ -5,14 +5,14 @@ title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58893b74-9a32-47f6-9c97-80db67ae1739
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
-# ThumbAssetUpdateArray{#thumbassetupdatearray}
+# [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
 サムネールアセットのメタデータが更新されました。
 

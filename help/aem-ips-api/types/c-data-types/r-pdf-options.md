@@ -5,14 +5,14 @@ title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '67'
 ht-degree: 11%
 
 ---
 
-# PDFOptions{#pdfoptions}
+# [!DNL PDFOptions]{#pdfoptions}
 
 PDFファイルオプション
 

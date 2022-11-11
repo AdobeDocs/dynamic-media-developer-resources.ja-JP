@@ -5,14 +5,14 @@ title: FontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-# FontFieldUpdateArray{#fontfieldupdatearray}
+# [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
 フォントフィールドの更新の配列。
 

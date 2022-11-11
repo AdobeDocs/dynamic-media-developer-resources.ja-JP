@@ -5,14 +5,14 @@ title: UserArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
 
-# UserArray{#userarray}
+# [!DNL UserArray]{#userarray}
 
 ユーザーの配列。
 

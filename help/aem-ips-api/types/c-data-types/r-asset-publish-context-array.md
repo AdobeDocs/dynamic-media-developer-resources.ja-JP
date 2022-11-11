@@ -5,14 +5,14 @@ title: AssetPublishContextArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 9eefcc8a-4779-4d03-8290-d1482fa09f58
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '15'
-ht-degree: 33%
+source-wordcount: '14'
+ht-degree: 35%
 
 ---
 
-# AssetPublishContextArray{#assetpublishcontextarray}
+# [!DNL AssetPublishContextArray]{#assetpublishcontextarray}
 
 構文
 

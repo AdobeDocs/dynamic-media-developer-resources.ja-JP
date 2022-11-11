@@ -5,14 +5,14 @@ title: PostScriptInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9d226927-3b00-4e11-b279-e866aa649477
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 41%
+source-wordcount: '16'
+ht-degree: 43%
 
 ---
 
-# PostScriptInfo{#postscriptinfo}
+# [!DNL PostScriptInfo]{#postscriptinfo}
 
 構文
 

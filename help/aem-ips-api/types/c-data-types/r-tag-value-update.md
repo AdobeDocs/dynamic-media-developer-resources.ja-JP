@@ -5,14 +5,14 @@ title: TagValueUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '30'
 ht-degree: 16%
 
 ---
 
-# TagValueUpdate{#tagvalueupdate}
+# [!DNL TagValueUpdate]{#tagvalueupdate}
 
 新旧のタグフィールド値を定義します。
 

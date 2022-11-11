@@ -5,14 +5,14 @@ title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1767e3c-7e77-44a3-9bd2-e7d7587c014f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
-# PublishStateUpdate{#publishstateupdate}
+# [!DNL PublishStateUpdate]{#publishstateupdate}
 
 アセットの公開状態を更新するために使用されるパラメーター。
 

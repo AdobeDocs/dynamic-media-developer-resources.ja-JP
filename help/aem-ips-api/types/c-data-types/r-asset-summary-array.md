@@ -5,14 +5,14 @@ title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# AssetSummaryArray{#assetsummaryarray}
+# [!DNL AssetSummaryArray]{#assetsummaryarray}
 
 アセットの概要の配列。
 

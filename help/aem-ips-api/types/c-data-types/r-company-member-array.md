@@ -5,14 +5,14 @@ title: CompanyMemberArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7f41ffa4-4077-4a27-baf6-e7b83449a868
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '9'
-ht-degree: 66%
+source-wordcount: '8'
+ht-degree: 75%
 
 ---
 
-# CompanyMemberArray{#companymemberarray}
+# [!DNL CompanyMemberArray]{#companymemberarray}
 
 構文
 

@@ -5,14 +5,14 @@ title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 11%
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 
-# IccProfileFieldUpdate{#iccprofilefieldupdate}
+# [!DNL IccProfileFieldUpdate]{#iccprofilefieldupdate}
 
 ICC プロファイルのプロパティの情報を更新します。
 
@@ -23,6 +23,6 @@ ICC プロファイルのプロパティの情報を更新します。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | assetHandle | `xsd:string` | 更新する ICC プロファイルアセットの処理。 |
-| クラス | `xsd:string` | プロファイルクラス（値については「プロファイルクラス」を参照）。 |
+| [!DNL class] | `xsd:string` | プロファイルクラス（値については「プロファイルクラス」を参照）。 |
 | colorSpace | `xsd:string` | プロファイルカラースペース（値については「カラースペース」を参照） |
 | pcsType | `xsd:string` | プロファイル接続スペース（値については「カラースペース」を参照） |

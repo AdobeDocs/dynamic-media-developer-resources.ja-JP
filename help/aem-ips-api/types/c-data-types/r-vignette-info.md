@@ -5,14 +5,14 @@ title: ビネット情報
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
-# ビネット情報{#vignetteinfo}
+# [!DNL VignetteInfo]{#vignetteinfo}
 
 ビネットアセットのプロパティ。
 

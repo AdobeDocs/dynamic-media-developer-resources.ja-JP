@@ -5,14 +5,14 @@ title: ImageFormatArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: daf6049f-24e8-4a4b-a9b3-c7f4f2e56f81
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
 
-# ImageFormatArray{#imageformatarray}
+# [!DNL ImageFormatArray]{#imageformatarray}
 
 画像形式の配列。
 

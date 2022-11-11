@@ -5,14 +5,14 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '66'
 ht-degree: 13%
 
 ---
 
-# PostScriptOptions{#postscriptoptions}
+# [!DNL PostScriptOptions]{#postscriptoptions}
 
 PostScript ファイルオプション。
 

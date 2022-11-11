@@ -5,14 +5,14 @@ title: CuePointInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d773cce9-837d-4ac1-99e6-1033eec93b55
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '30'
 ht-degree: 16%
 
 ---
 
-# CuePointInfo{#cuepointinfo}
+# [!DNL CuePointInfo]{#cuepointinfo}
 
 CuePoint ファイルアセットのプロパティ。
 

@@ -5,14 +5,14 @@ title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '81'
 ht-degree: 12%
 
 ---
 
-# SearchStrings{#searchstrings}
+# [!DNL SearchStrings]{#searchstrings}
 
 検索ファイルから抽出した検索PDFレコード。
 

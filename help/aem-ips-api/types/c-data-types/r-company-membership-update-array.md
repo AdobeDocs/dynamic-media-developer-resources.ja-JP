@@ -5,14 +5,14 @@ title: CompanyMembershipUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059c3b71-ef0f-4bab-b50c-57e4420e9566
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '9'
-ht-degree: 66%
+source-wordcount: '8'
+ht-degree: 75%
 
 ---
 
-# CompanyMembershipUpdateArray{#companymembershipupdatearray}
+# [!DNL CompanyMembershipUpdateArray]{#companymembershipupdatearray}
 
 構文
 

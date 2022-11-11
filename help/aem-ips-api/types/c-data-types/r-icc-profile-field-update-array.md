@@ -5,14 +5,14 @@ title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 665280fe-ec76-48ce-b104-d65440c0f1ac
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
-# IccProfileFieldUpdateArray{#iccprofilefieldupdatearray}
+# [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
 ICC プロファイルフィールドの更新項目の配列。
 

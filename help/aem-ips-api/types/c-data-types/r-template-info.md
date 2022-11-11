@@ -5,14 +5,14 @@ title: TemplateInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '37'
 ht-degree: 13%
 
 ---
 
-# TemplateInfo{#templateinfo}
+# [!DNL TemplateInfo]{#templateinfo}
 
 テンプレートアセットのプロパティ。
 

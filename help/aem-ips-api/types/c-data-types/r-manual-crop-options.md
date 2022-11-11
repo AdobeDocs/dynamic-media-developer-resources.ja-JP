@@ -5,14 +5,14 @@ title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 15%
+source-wordcount: '56'
+ht-degree: 16%
 
 ---
 
-# ManualCropOptions{#manualcropoptions}
+# [!DNL ManualCropOptions]{#manualcropoptions}
 
 画像の手動切り抜きオプション。
 

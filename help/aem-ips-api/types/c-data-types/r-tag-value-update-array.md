@@ -5,14 +5,14 @@ title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
-# TagValueUpdateArray{#tagvalueupdatearray}
+# [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
 タグ値の更新の配列。
 

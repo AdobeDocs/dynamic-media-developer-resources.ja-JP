@@ -5,14 +5,14 @@ title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '42'
 ht-degree: 16%
 
 ---
 
-# ViewerSwfInfo{#viewerswfinfo}
+# [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
 ビューアアセットファイルSWFのプロパティ。
 

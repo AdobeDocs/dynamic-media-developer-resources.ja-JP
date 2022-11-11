@@ -5,14 +5,14 @@ title: PermissionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 31%
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
 
-# PermissionArray{#permissionarray}
+# [!DNL PermissionArray]{#permissionarray}
 
 権限の配列。
 

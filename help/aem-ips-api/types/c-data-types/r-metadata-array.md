@@ -2,17 +2,17 @@
 description: メタデータの配列。
 solution: Experience Manager
 title: MetadataArray
-feature: Dynamic Media Classic,SDK/API，メタデータ
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1833237d-4ef9-4899-8d14-317db350b223
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '21'
+ht-degree: 23%
 
 ---
 
-# MetadataArray{#metadataarray}
+# [!DNL MetadataArray]{#metadataarray}
 
 メタデータの配列。
 

@@ -5,14 +5,14 @@ title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '37'
 ht-degree: 13%
 
 ---
 
-# ImageServingPublishJob{#imageservingpublishjob}
+# [!DNL ImageServingPublishJob]{#imageservingpublishjob}
 
 ファイルをイメージサーバにパブリッシュします。
 

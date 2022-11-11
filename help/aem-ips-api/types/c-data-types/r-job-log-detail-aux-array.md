@@ -5,14 +5,14 @@ title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 69662118-8dbc-47ce-a6e3-0f2edf0109ac
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '29'
 ht-degree: 20%
 
 ---
 
-# JobLogDetailAuxArray{#joblogdetailauxarray}
+# [!DNL JobLogDetailAuxArray]{#joblogdetailauxarray}
 
 補助ジョブログの詳細タイプの配列。
 

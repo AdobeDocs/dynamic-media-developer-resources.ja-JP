@@ -5,14 +5,14 @@ title: メタデータ
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 15%
+source-wordcount: '56'
+ht-degree: 14%
 
 ---
 
-# メタデータ{#metadata}
+# [!DNL Metadata]{#metadata}
 
 searchAssets から返されるメタデータフィールド。
 

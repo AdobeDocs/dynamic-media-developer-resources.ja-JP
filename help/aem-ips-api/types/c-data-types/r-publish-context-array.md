@@ -5,14 +5,14 @@ title: PublishContextArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39ea8c8e-2e46-4b8f-ad30-5afe85ce98cb
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 21%
+source-wordcount: '22'
+ht-degree: 22%
 
 ---
 
-# PublishContextArray{#publishcontextarray}
+# [!DNL PublishContextArray]{#publishcontextarray}
 
 公開コンテキストの配列。
 

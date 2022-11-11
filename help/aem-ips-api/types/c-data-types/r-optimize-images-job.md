@@ -5,14 +5,14 @@ title: OptimizeImagesJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 464c9b2e-3ae5-47f5-a5f2-9bc7047b8468
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 20%
+source-wordcount: '23'
+ht-degree: 21%
 
 ---
 
-# OptimizeImagesJob{#optimizeimagesjob}
+# [!DNL OptimizeImagesJob]{#optimizeimagesjob}
 
 画像最適化ジョブの詳細。
 

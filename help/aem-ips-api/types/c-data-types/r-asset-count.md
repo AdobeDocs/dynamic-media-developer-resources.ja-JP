@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '37'
 ht-degree: 10%
 
 ---
 
-# AssetCount{#assetcount}
+# [!DNL AssetCount]{#assetcount}
 
 会社のアセットのタイプと数。
 

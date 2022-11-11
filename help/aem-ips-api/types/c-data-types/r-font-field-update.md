@@ -5,14 +5,14 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 9%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# [!DNL FontFieldUpdate]{#fontfieldupdate}
 
 フォントプロパティの情報を更新します。
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 | fontName | `xsd:string` | フォント名。 |
 | postscriptName | `xsd:string` | PostScript フォント名。 |
 | rtfName | `xsd:string` | リッチテキストのフォント名。 |
-| フォントファミリー | `xsd:string` | フォントファミリー名。 |
-| style | `xsd:string` | フォントスタイル（値についてはフォントスタイルを参照） |
+| [!DNL fontFamily] | `xsd:string` | フォントファミリー名。 |
+| [!DNL style] | `xsd:string` | フォントスタイル（値についてはフォントスタイルを参照） |
 | typeName | `xsd:string` | フォントタイプ名。 |
-| タイプ | `xsd:string` | フォントの種類（値についてはフォントの種類を参照） |
+| [!DNL type] | `xsd:string` | フォントの種類（値についてはフォントの種類を参照） |

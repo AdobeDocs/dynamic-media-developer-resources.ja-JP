@@ -5,14 +5,14 @@ title: BatchMetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 24%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
-# BatchMetadataUpdateArray{#batchmetadataupdatearray}
+# [!DNL BatchMetadataUpdateArray]{#batchmetadataupdatearray}
 
 バッチメタデータの更新の配列。
 

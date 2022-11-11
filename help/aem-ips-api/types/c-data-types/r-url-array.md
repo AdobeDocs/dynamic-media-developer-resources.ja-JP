@@ -1,24 +1,24 @@
 ---
-description: CDNキャッシュを無効にするURLの配列。
+description: CDN キャッシュを無効にするための URL の配列。
 solution: Experience Manager
 title: UrlArray
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
-# UrlArray{#urlarray}
+# [!DNL UrlArray]{#urlarray}
 
-CDNキャッシュを無効にするURLの配列。
+CDN キャッシュを無効にするための URL の配列。
 
-**次の日からサポート**
+**次以降にサポート**
 
-4.5.0（パッチ2011年2月）
+4.5.0、パッチ 2011-02
 
 ## パラメータ {#section-20f617c881f34dc287989cbb20ee494d}
 
@@ -34,7 +34,7 @@ CDNキャッシュを無効にするURLの配列。
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> 無効にするURLのリスト。 WSDL定義で最大1,000個のURLに制限されます。 </p> </td> 
+   <td> <p> 無効にする URL のリスト。 WSDL 定義で最大 1000 個の URL に制限されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

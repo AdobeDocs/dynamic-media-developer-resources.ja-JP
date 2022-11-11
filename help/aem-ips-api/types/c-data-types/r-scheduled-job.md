@@ -5,14 +5,14 @@ title: ScheduledJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 4%
 
 ---
 
-# ScheduledJob{#scheduledjob}
+# [!DNL ScheduledJob]{#scheduledjob}
 
 実行がスケジュールされているジョブ。
 

@@ -5,14 +5,14 @@ title: TagConditionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5a1d4a-aa23-4761-b21f-0cf16fd2c584
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 26%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
-# TagConditionArray{#tagconditionarray}
+# [!DNL TagConditionArray]{#tagconditionarray}
 
 タグ条件の配列。
 

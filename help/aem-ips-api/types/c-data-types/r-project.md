@@ -5,14 +5,14 @@ title: プロジェクト
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 36%
+source-wordcount: '21'
+ht-degree: 38%
 
 ---
 
-# プロジェクト{#project}
+# [!DNL Project]{#project}
 
 名前付きアセットのセット。
 

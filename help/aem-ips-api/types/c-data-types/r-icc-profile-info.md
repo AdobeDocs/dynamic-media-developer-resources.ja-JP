@@ -5,14 +5,14 @@ title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
-# IccProfileInfo{#iccprofileinfo}
+# [!DNL IccProfileInfo]{#iccprofileinfo}
 
 ICC プロファイルアセットのプロパティ。
 

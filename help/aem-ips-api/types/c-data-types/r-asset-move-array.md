@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 9d3f0c27-7414-46d9-888a-85226b0fbac6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 30%
+source-wordcount: '19'
+ht-degree: 31%
 
 ---
 
-# AssetMoveArray{#assetmovearray}
+# [!DNL AssetMoveArray]{#assetmovearray}
 
 アセットの移動の配列。
 

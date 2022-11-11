@@ -5,14 +5,14 @@ title: PublishHistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
 
-# PublishHistory{#publishhistory}
+# [!DNL PublishHistory]{#publishhistory}
 
 アセットの公開履歴。
 

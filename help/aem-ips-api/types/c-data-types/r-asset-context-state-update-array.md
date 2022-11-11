@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 80b3e500-09ab-429b-b86c-bc8d09d28ca0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# AssetContextStateUpdateArray{#assetcontextstateupdatearray}
+# [!DNL AssetContextStateUpdateArray]{#assetcontextstateupdatearray}
 
 アセットコンテキストの状態が更新された配列。
 

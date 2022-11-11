@@ -1,20 +1,20 @@
 ---
-description: Render scene asset properties.
+description: シーンのアセットプロパティをレンダリングします。
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0ecbeb51-77c5-4d17-a0e8-8f700679125a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 25%
+source-wordcount: '23'
+ht-degree: 26%
 
 ---
 
-# RenderSceneInfo{#rendersceneinfo}
+# [!DNL RenderSceneInfo]{#rendersceneinfo}
 
-Render scene asset properties.
+シーンのアセットプロパティをレンダリングします。
 
 構文
 
@@ -22,4 +22,4 @@ Render scene asset properties.
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| url | `xsd:string` | Image server URL that represents the render scene. |
+| url | `xsd:string` | レンダリングシーンを表す Image Server URL。 |

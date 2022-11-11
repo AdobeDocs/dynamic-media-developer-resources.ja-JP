@@ -5,14 +5,14 @@ title: PermissionSetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6019cf9-8c3a-48a7-b7bb-fa2191a958fa
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '13'
-ht-degree: 46%
+source-wordcount: '12'
+ht-degree: 50%
 
 ---
 
-# PermissionSetArray{#permissionsetarray}
+# [!DNL PermissionSetArray]{#permissionsetarray}
 
 構文
 

@@ -5,14 +5,14 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
-# GenerationInfo{#generationinfo}
+# [!DNL GenerationInfo]{#generationinfo}
 
 PostScript ファイルのプロパティ。
 
@@ -22,7 +22,7 @@ PostScript ファイルのプロパティ。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| エンジン | `xsd:string` | 使用された生成エンジン（値については「生成情報」を参照）。 |
-| 作成者 | `types:Asset` | 生成で使用されるプライマリアセットのアセットレコード。 |
-| 生成 | `types:Asset` | 生成されたアセットのアセットレコード。 |
+| [!DNL engine] | `xsd:string` | 使用された生成エンジン（値については「生成情報」を参照）。 |
+| [!DNL originator] | `types:Asset` | 生成で使用されるプライマリアセットのアセットレコード。 |
+| [!DNL generated] | `types:Asset` | 生成されたアセットのアセットレコード。 |
 | attributeArray | `types:GenerationAttributeArray` | 生成プロセスに関連付けられた属性の配列。 |

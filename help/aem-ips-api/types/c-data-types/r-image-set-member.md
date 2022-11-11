@@ -5,14 +5,14 @@ title: ImageSetMember
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '68'
 ht-degree: 7%
 
 ---
 
-# ImageSetMember{#imagesetmember}
+# [!DNL ImageSetMember]{#imagesetmember}
 
 画像セットに属するアセット。
 

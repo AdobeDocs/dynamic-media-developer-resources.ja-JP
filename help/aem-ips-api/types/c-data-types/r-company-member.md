@@ -5,14 +5,14 @@ title: CompanyMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '47'
 ht-degree: 12%
 
 ---
 
-# CompanyMember{#companymember}
+# [!DNL CompanyMember]{#companymember}
 
 ユーザーが属する様々な会社を表します。
 

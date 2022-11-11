@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ad2a45fc-1f30-4b8b-be7c-84cc60c7bd4b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
 
-# AssetMetadataFields{#assetmetadatafields}
+# [!DNL AssetMetadataFields]{#assetmetadatafields}
 
 指定したアセットタイプのメタデータフィールド定義を返します。
 

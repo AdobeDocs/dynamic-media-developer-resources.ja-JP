@@ -5,14 +5,14 @@ title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: af931740-48da-47c4-af03-349517f4e2a8
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-# UploadUrlArray{#uploadurlarray}
+# [!DNL UploadUrlArray]{#uploadurlarray}
 
 アセットをアップロードするための URL の配列。
 

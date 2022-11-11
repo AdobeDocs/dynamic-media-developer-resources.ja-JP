@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 3%
 
 ---
 
-# KnockoutBackgroundOptions{#knockoutbackgroundoptions}
+# [!DNL KnockoutBackgroundOptions]{#knockoutbackgroundoptions}
 
 選択した画像の背景をマスク（ノックアウト）します。 このデータタイプを使用すると、他のレイヤーに、被写体画像の外側の透明度でオーバーレイできます。
 
