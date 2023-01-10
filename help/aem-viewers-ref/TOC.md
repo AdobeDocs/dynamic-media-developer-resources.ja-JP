@@ -932,7 +932,7 @@ ht-degree: 6%
       + [外部ビデオのサポート](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
       + [Viewer SDK の名前空間](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + ビデオ 360 {#video360}
-      + [ビデオ 360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
+      + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + コマンドリファレンス — 設定属性 {#command-reference-configuration-attributes-video360}
          + [コマンドリファレンス — 設定属性](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
