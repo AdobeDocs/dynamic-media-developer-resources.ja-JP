@@ -1,14 +1,14 @@
 ---
 title: スマート切り抜きビデオビューア
-description: スマート切り抜きビデオビューアは、H.264 形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生し、スマート切り抜きのサポートが追加されました。 Dynamic Mediaと共にDynamic Media ClassicまたはAdobe Experience Managerから配信されます。
+description: スマート切り抜きビデオビューアは、ストリーミングビデオとプログレッシブビデオを H.264 形式でエンコードし、スマート切り抜きのサポートが追加された状態で再生します。 Dynamic Mediaと共にDynamic Media ClassicまたはAdobe Experience Managerから配信されます。
 keywords: レスポンシブ
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Web ブラウザーのセキュリティ制限により、共有ツールはフ�
 
    ビューアを表示するページに空の DIV 要素を追加します。 DIV 要素の ID は、後でビューア API に渡されるので、定義する必要があります。 DIV のサイズは CSS で指定されます。
 
-   プレースホルダー DIV は配置された要素で、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
+   プレースホルダ DIV は配置された要素です。つまり、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
 
    Internet Explorer で全画面表示機能が正しく機能することを確認します。 DOM 内に、プレースホルダー DIV よりも重ね順の高い要素が他にないことを確認します。
 
