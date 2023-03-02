@@ -6,16 +6,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
+source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
 
 # スマート切り抜きビデオ{#smart-crop-video}
 
-スマート切り抜きビデオビューアは、H.264 形式でエンコードされたストリーミングビデオとプログレッシブビデオを再生し、スマート切り抜きのサポートが追加されました。 Dynamic Media Classicから、またはDynamic MediaとのExperience Managerから配信されます。
+スマート切り抜きビデオビューアは、ストリーミングビデオとプログレッシブビデオを H.264 形式でエンコードし、スマート切り抜きのサポートが追加された状態で再生します。 Dynamic Media Classicから、またはDynamic MediaとのExperience Managerから配信されます。
 
 詳しくは、 [必要システム構成と前提条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
