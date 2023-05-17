@@ -1,38 +1,50 @@
 ---
-description: この節では、HTTPプロトコルのコマンドについて説明します。
-solution: Experience Manager
 title: コマンドリファレンス
-feature: Dynamic Media Classic、SDK/API
+description: この節では、HTTP プロトコルのコマンドについて説明します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
 
 # コマンドリファレンス{#command-reference}
 
-この節では、HTTPプロトコルのコマンドについて説明します。
+この節では、HTTP プロトコルのコマンドについて説明します。
 
-**AEMのDynamic Mediaのみ**:ユーザーインターフェイスで使用できる基本的な画像設定のほか、AEM()で [!DNL Dynamic Media] は、「画像の変 [!DNL Adobe Experience Manager]更」フィールドで多数の高度な画像変更を指定で **き** ます。これらのパラメーターは以下で定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
+>[!TIP]
+>
+>Dynamic Mediaを使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを体験してみましょう [_スナップショット_](https://snapshot.scene7.com/).
+>
+> スナップショットは、最適化された動的な画像配信にDynamic Mediaが持つ力を説明する視覚的なデモツールです。 テスト画像またはDynamic Media URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、スマートイメージングの最適化で次のことを確認します。
+>* ファイルサイズ（WebP および AVIF 配信を使用）
+>* ネットワーク帯域幅
+>* DPR（デバイスのピクセル比）
+>
+>スナップショットの使い方を学ぶには、 [スナップショットトレーニングビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）。
 
-* カラー補正コマンド：`icc=`と`iccEmbed=`が表示されます。
-* 基本的なテンプレートコマンドとテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`と`textPs=`が表示されます。
-* ローカライゼーションコマンド：`locale=`と`req=xlate`が表示されます。
-* `req=set` は、一般的には使用できません。
+
+**Adobe Experience ManagerのDynamic Mediaのみ**  — ユーザーインターフェイスで使用できる基本的な画像設定以外に、 [!DNL Dynamic Media] AEM ( [!DNL Adobe Experience Manager]) では、多数の高度な画像変更をサポートしています。この変更は、 **画像の修飾子** フィールドに入力します。 これらのパラメーターは以下で定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
+
+* カラー補正コマンド： `icc=` および `iccEmbed=`.
+* 基本的なテンプレートコマンドとテキストレンダリングコマンド： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` および `textPs=`.
+* ローカライゼーションコマンド： `locale=` および `req=xlate`.
+* `req=set` は一般的には使用できません。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* コア以外のDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
+* 非コアDynamic Mediaサービス：SVG、画像レンダリングおよび Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5のドキュメントのDynamic Media [画像プリセットオプション](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)も参照してください。
+Dynamic Media [画像プリセットオプション](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) (AEM 6.5 ドキュメント )。
 
-* [align](r-align.md)
+* [整列](r-align.md)
 * [アンカー](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
@@ -58,7 +70,7 @@ AEM 6.5のドキュメントのDynamic Media [画像プリセットオプショ�
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [層](r-layer.md)
+* [レイヤー](r-layer.md)
 * [ロケール](r-locale.md)
 * [マップ](r-map.md)
 * [マスク](r-mask.md)
