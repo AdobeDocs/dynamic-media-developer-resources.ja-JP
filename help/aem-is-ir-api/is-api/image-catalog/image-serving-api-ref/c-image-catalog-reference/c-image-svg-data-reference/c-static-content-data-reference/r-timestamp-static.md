@@ -1,14 +1,14 @@
 ---
-description: TimeStamp
-solution: Experience Manager
 title: TimeStamp
+description: 「attribute::UseLastModified」が設定されている場合、「catalog::TimeStamp」値が HTTP 応答で Last-Modified HTTP ヘッダーとして返されます。 「attribute::UseLastModified」が設定されていない場合でも、Last-Modified ヘッダーは静的コンテンツに対して常に返されます。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 2%
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
