@@ -1,8 +1,10 @@
 ---
 title: AdobeDynamic Mediaビューアリファレンスガイド
 description: AdobeDynamic Mediaビューアリファレンスガイド（基本ズーム、eCatalog、ズーム、eCatalog 検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンショナル、インタラクティブビデオ、インタラクティブ画像およびビデオ 360 ビューア）。
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: c8f75aa2a2f6b9960b035788c12242c1d6209640
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
