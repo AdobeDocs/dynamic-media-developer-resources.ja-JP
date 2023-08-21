@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->Dynamic Mediaを使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを体験してみましょう [_スナップショット_](https://snapshot.scene7.com/).
+>Dynamic Mediaを使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを試してみましょう [_スナップショット_](https://snapshot.scene7.com/).
 >
 > スナップショットは、最適化された動的な画像配信にDynamic Mediaが持つ力を説明する視覚的なデモツールです。 テスト画像またはDynamic Media URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、スマートイメージングの最適化で次のことを確認します。
 >* ファイルサイズ（WebP および AVIF 配信を使用）
@@ -38,7 +38,7 @@ ht-degree: 6%
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非コアDynamic Mediaサービス：SVG、画像レンダリングおよび Web-to-Print。
+* コア以外のDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
@@ -57,9 +57,10 @@ Dynamic Media [画像プリセットオプション](https://experienceleague.ad
 * [切り抜き](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [効果](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [拡張](r-extend.md)
+* [延長する](r-extend.md)
 * [フィット](r-fit.md)
 * [反転](r-flip.md)
 * [fmt](r-is-http-fmt.md)
@@ -75,6 +76,7 @@ Dynamic Media [画像プリセットオプション](https://experienceleague.ad
 * [マップ](r-map.md)
 * [マスク](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [ネットワーク](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
