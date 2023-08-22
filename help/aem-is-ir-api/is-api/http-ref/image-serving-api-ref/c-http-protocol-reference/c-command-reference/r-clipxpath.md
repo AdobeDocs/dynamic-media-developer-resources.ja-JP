@@ -1,24 +1,24 @@
 ---
-description: 反転レイヤークリップパス 現在のレイヤの除外クリップパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分はすべて透明にレンダリングされます。
-solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic、SDK/API
+description: 反転レイヤクリップパス 現在の画層の除外クリップのパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分はすべて透明にレンダリングされます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
 
 # clipXPath{#clipxpath}
 
-反転レイヤークリップパス 現在のレイヤの除外クリップパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分はすべて透明にレンダリングされます。
+反転レイヤクリップパス 現在の画層の除外クリップのパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分はすべて透明にレンダリングされます。
 
 `clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *``*&#42;[, *`pathNamepathName`*]`
+`clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
@@ -27,15 +27,15 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCIIのみ）。 </p></td> 
+  <td class="stentry"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCII のみ）。 </p></td> 
  </tr> 
 </table>
 
-`*`pathName`*`や`*`pathDefinition`*`の説明など、追加情報については、[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)を参照してください。
+詳しくは、 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 追加情報 ( `*`pathName`*` および `*`pathDefinition`*`.
 
 ## プロパティ {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-レイヤー属性。 `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 `clipPath=`が指定されていない場合は無視されます。 エフェクトレイヤでは無視されます。
+レイヤー属性。 現在の画層または合成画像に適用されます ( `layer=comp`. 次の場合は無視 `clipPath=` が指定されていません。 効果画層で無視されます。
 
 ## 初期設定 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

@@ -1,14 +1,14 @@
 ---
+title: pathAttr
 description: テキストオンパスの属性。
 solution: Experience Manager
-title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 方向 </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> norm </span> | <span class="codeph"> 逆 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> norm </span> | <span class="codeph"> reverse </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos </span> </p> </td> 
@@ -35,11 +35,11 @@ ht-degree: 3%
 
 指定 `norm` 最初のパスの頂点の近くからテキストを描画し、 `reverse` を指定すると、最後の頂点の近くから、反対の方向にテキストが描画されます。
 
-*`startPos`* および *`endPos`* パス上のテキストの描画位置を調整できます。 0.0 はパスの最初の頂点に、1.0 は最後の頂点に対応します。中間値は、最初の頂点と最後の頂点の間のパスに沿った距離を表します。
+*`startPos`* および *`endPos`* パス上のテキストの描画位置を調整できます。 0.0 はパスの最初の頂点に対応し、1.0 は最後の頂点に対応します。中間値は、最初と最後の頂点の間のパスに沿った距離を表します。
 
 ## プロパティ {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-レイヤー属性。 画層が含まれない場合は無視 `textPs=` および `textPath=` コマンド
+レイヤー属性。 画層が含まれない場合は無視されます `textPs=` および `textPath=` コマンド。
 
 *`startPos`* は、0 以上 1.0 未満である必要があります。 *`endPos`* は、より大きい値にする必要があります *`startPos`* 開いたパスに適用される場合は 1.0 以下、または（以下） *`startPos`* + 1.0) を閉じたパスに適用した場合。
 

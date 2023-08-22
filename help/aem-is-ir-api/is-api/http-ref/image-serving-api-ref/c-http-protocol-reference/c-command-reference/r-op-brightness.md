@@ -1,33 +1,33 @@
 ---
-description: 明るさを調整します。 画像の明るさを増減します。
-solution: Experience Manager
 title: op_brightness
-feature: Dynamic Media Classic、SDK/API
+description: 明るさを調整します。 画像の明るさを増減させます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 390ed812-87ae-41e7-8021-65dd95915ae8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 3%
+source-wordcount: '75'
+ht-degree: 2%
 
 ---
 
 # op_brightness{#op-brightness}
 
-明るさを調整します。 画像の明るさを増減します。
+明るさを調整します。 画像の明るさを増減させます。
 
 `op_brightness= *`adj`*`
 
 <table id="simpletable_2B5DB95B1FF044C8BD226D4F8311E806"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>明るさの調整(-100...+100 int)。 </p></td> 
+  <td class="stentry"> <p>明るさの調整 (-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-レイヤコマンド `layer=comp`の場合は、現在のレイヤーまたは合成画像に適用されます。 エフェクトレイヤでは無視されます。 CMYK画像またはレイヤーは、操作が適用される前にRGBに変換されます。
+[ 画層 ] コマンド 現在の画層または合成画像に適用されます ( `layer=comp`. 効果画層で無視されます。 CMYK 画像またはレイヤーは、操作が適用される前にRGBに変換されます。
 
 ## 初期設定 {#section-be56be0759634c79b4f264f194a94dbc}
 

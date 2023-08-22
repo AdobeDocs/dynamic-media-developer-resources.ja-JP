@@ -1,14 +1,14 @@
 ---
+title: 反転
 description: レイヤを反転 切り抜き=を適用した後、回転=と extend=を適用した後、レイヤーを水平、垂直または両方に反転します。
 solution: Experience Manager
-title: 反転
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 3%
 
 テキストレイヤーにも適用できます。
 
-一部のコマンド ( `extend=`では、 `layer=comp` が選択されている。 この場合、画層 0 に自動的に割り当てられたすべてのコマンドは、適用先のコマンドの前に適用されます。 `layer=comp`. このようにして、 `layer=comp`, `extend=` 次の値より前に適用： `flip=`.
+一部のコマンド ( `extend=`を指定した場合に、合成レイヤーではなくレイヤー 0 に暗黙的に適用されます。 `layer=comp` が選択されている。 この場合、画層 0 に自動的に割り当てられたすべてのコマンドは、適用先のコマンドの前に適用されます。 `layer=comp`. このようにして、 `layer=comp`, `extend=` 次の値より前に適用： `flip=`.
 
 >[!NOTE]
 >
->反転レイヤーは、レイヤーアンカーに基づいて配置されます。flip=値が異なると、アンカーがレイヤーの中心にない場合に、レイヤーの位置が異なります。
+>反転レイヤーは、レイヤーアンカーに基づいて配置されます。反転=値が異なると、アンカーがレイヤーの中心に配置されていない場合に、レイヤーの位置が異なります。
 
 ## プロパティ {#section-294da2af7be746b5adfc35e29ee68217}
 
-[ 画層 ] コマンド 現在の画層または合成画像に適用します ( `layer=comp`. 効果画層で無視されます。
+[ 画層 ] コマンド 現在の画層または合成画像に適用されます ( `layer=comp`. 効果画層で無視されます。
 
 ## 初期設定 {#section-502044f81a89492198d5f12a738459ea}
 
