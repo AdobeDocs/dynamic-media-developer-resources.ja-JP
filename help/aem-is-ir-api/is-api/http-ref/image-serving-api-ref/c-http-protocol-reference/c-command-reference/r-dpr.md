@@ -4,10 +4,10 @@ description: Device Pixel Ratio(DPR)&mdash（CSS pixel ratio&mdash とも呼ば�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -44,6 +44,8 @@ DPR の最適化により、結果の画像が MaxPix Dynamic Mediaの設定よ�
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+DPR 値は、バンドルされた CDN の検出されたクライアント側の値に基づきます。 これらの値は不正確な場合があります。 例：iPhone5 と `dpr=2`、および dpr=3 のiPhone12、両方表示 `dpr=2`. 高解像度デバイスの場合は、送信 `dpr=2` 送信するよりも効果が高い `dpr=1`. ただし、この不正確さを克服する最善の方法は、クライアント側の DPR を使用して 100%の正確な値を得ることです。 また、起動された任意のデバイス (Appleかその他のデバイスかに関わらず ) で機能します。 詳しくは、 [クライアント側デバイスのピクセル比でのスマートイメージングの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## プロパティ
 
 
@@ -60,4 +62,4 @@ DPR の最適化により、結果の画像が MaxPix Dynamic Mediaの設定よ�
 
 ## 関連項目
 
-[network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

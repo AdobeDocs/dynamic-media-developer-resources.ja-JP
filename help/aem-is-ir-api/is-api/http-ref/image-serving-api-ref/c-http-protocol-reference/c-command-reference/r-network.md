@@ -4,10 +4,10 @@ description: ネットワーク帯域幅の最適化を使用して、実際の�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-DPR およびネットワーク帯域幅の値は、バンドルされた CDN の検出されたクライアント側の値に基づいています。 これらの値は不正確な場合があります。 例：iPhone5 と `dpr=2`、およびiPhone12 と `dpr=3`、両方を表示 `dpr=2`. 高解像度デバイスの場合は、送信 `dpr=2` は、dpr=1 を送信するよりも適しています。 ただし、この不正確さを克服する最善の方法は、クライアント側の DPR を使用して 100%の正確な値を得ることです。 また、起動された任意のデバイス (Appleかその他のデバイスかに関わらず ) で機能します。 詳しくは、 [クライアント側デバイスのピクセル比でのスマートイメージングの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+ネットワーク帯域幅の値は、バンドルされた CDN で検出されたクライアント側の値に基づきます。
 
 ## プロパティ
 
@@ -42,4 +42,4 @@ DPR およびネットワーク帯域幅の値は、バンドルされた CDN �
 
 ## 関連項目
 
-[drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [スマートイメージング](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
