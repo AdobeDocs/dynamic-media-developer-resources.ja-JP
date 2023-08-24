@@ -4,10 +4,10 @@ description: ネットワーク帯域幅の最適化を使用して、実際の�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ## プロパティ
 
-
+request 属性。 ネットワークの状態が良好な場合は、効果はありません。
 
 ## 初期設定
 
