@@ -1,20 +1,20 @@
 ---
-description: メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
-solution: Experience Manager
 title: saveMetadataField
+description: メタデータフィールドを作成または編集します。 メタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 9%
+source-wordcount: '214'
+ht-degree: 8%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-メタデータフィールドを作成または編集します。 新しいメタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
+メタデータフィールドを作成または編集します。 メタデータフィールドを作成するには、オプションのフィールドハンドルを省略します。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 9%
 * `IpsCompanyAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-ec6827d485a143f4a059a92b18e40f4e}
+## パラメーター {#section-ec6827d485a143f4a059a92b18e40f4e}
 
 **入力 (saveMetadataFieldParam)**
 
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 ## 例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-次のコードサンプルは、 Asset Type および Metadata Field Types 文字列定数で制約される新しいメタデータフィールドを作成します。 この `fieldHandle` 要素に有効なフィールドハンドル値がある場合、メタデータ値を変更し、リクエストで指定したのと同じフィールドハンドルを取得します。
+このコード例では、 Asset Type および Metadata Field Types 文字列定数で制約されるメタデータフィールドを作成します。 次の場合、 `fieldHandle` 要素に有効なフィールドハンドル値がある場合、メタデータ値を変更し、リクエストで指定したのと同じフィールドハンドルを取得します。
 
 **リクエスト**
 

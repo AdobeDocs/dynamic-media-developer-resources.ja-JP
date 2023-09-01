@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
@@ -37,15 +37,15 @@ ht-degree: 3%
  </tr> 
 </table>
 
-*`object`* 作業プロファイルと異なる場合に画像の変換先となる出力カラースペースプロファイルを指定します。 *`profile`* は、有効な `icc::Name` 画像カタログまたはデフォルトカタログの ICC プロファイルマップ内で定義されるか、プロファイルファイルの相対パス ( 通常は [!DNL .icc] または [!DNL .icm] サフィックス ) です。 詳しくは、 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) を参照してください。
+値 *`object`* 作業プロファイルと異なる場合に画像の変換先となる出力カラースペースプロファイルを指定します。 値 *`profile`* は、有効な `icc::Name` 画像カタログまたはデフォルトカタログの ICC プロファイルマップ内で定義されるか、プロファイルファイルの相対パス ( 通常は [!DNL .icc] または [!DNL .icm] サフィックス ) です。 詳しくは、 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) を参照してください。
 
 >[!NOTE]
 >
->*`object`* は、HTTP エンコードされている場合でも、「,」文字を含めることはできません。
+>値 *`object`* は、HTTP エンコードされている場合でも、「,」文字を含めることはできません。
 
-*`renderIntent`* デフォルトのレンダリングインテントを上書きできます。
+値 *`renderIntent`* デフォルトのレンダリングインテントを上書きできます。
 
-*`blackpointComp`* 出力プロファイルがこの機能をサポートしている場合、黒点補正を有効にします。
+値 *`blackpointComp`* 出力プロファイルがこの機能をサポートしている場合、黒点補正を有効にします。
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ ht-degree: 3%
 
 Note
 
-*`dither`* ディザリング（実際にはエラー拡散）を有効にします。これにより、カラーバンディングアーティファクトを回避または軽減できます。
+修飾子 *`dither`* ディザリング（実際にはエラー拡散）を有効にします。これにより、カラーバンディングアーティファクトを回避または軽減できます。
 
 ## プロパティ {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-要求属性。 画像タイプがで指定されている場合、サーバーはエラーを返します。 `fmt=` 一致しない *`profile`*.
+要求属性。 画像タイプが `fmt=` 一致しない *`profile`*.
 
-*`renderIntent`* および *`blackpointComp`* は、指定された ICC プロファイルと互換性がない場合は無視されます。 CMYK 出力デバイスプロファイルは、様々なレンダリング意図をサポートする可能性が高くなります。
+修飾子 *`renderIntent`* および *`blackpointComp`* は、指定された ICC プロファイルと互換性がない場合は無視されます。 CMYK 出力デバイスプロファイルは、様々なレンダリング意図をサポートする可能性が高くなります。
 
 ## 初期設定 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 

@@ -1,20 +1,20 @@
 ---
-description: 管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
-solution: Experience Manager
 title: createMetadataField
+description: 管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、メタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 8%
+source-wordcount: '284'
+ht-degree: 7%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、新しいメタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
+管理者は、コンテンツ管理システムとの連携やテンプレート操作のために、メタデータフィールドを作成できます。 作成されたメタデータフィールドの例としては、キーワード、画像の作成者に関する情報、著作権者の情報などがあります。
 
 構文
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 * `IpsAdmin`
 
-## パラメータ {#section-f8260bc8dd0a4570bc7f714f81ab975f}
+## パラメーター {#section-f8260bc8dd0a4570bc7f714f81ab975f}
 
 **入力 (createMetadataFieldParam)**
 
@@ -82,7 +82,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 選択したタグが指す共有列挙値のセットを作成できます。 </td> 
+   <td colname="col4"> 選択したタグが示す共有の特定の値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>

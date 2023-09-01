@@ -1,20 +1,20 @@
 ---
 title: rect
-description: 最終ビューの長方形。 最終的なビューイメージを複数のストリップまたはタイルに分解できます。これらは、別々に配信し、クライアントがシームレスに再アセンブルでき、エッジに沿ったアーティファクトはありません。
+description: 最終ビューの長方形。 最終的なビュー画像を複数のストリップまたはタイルに分解できます。これらは、別々に配信し、クライアントがシームレスに再アセンブルでき、エッジに沿ったアーティファクトはありません。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # rect{#rect}
 
-最終ビューの長方形。 最終的なビューイメージを複数のストリップまたはタイルに分解できます。これらは、別々に配信し、クライアントがシームレスに再アセンブルでき、エッジに沿ったアーティファクトはありません。
+最終ビューの長方形。 最終的なビュー画像を複数のストリップまたはタイルに分解できます。これらは、別々に配信し、クライアントがシームレスに再アセンブルでき、エッジに沿ったアーティファクトはありません。
 
 `rect= *`コード`*, *`サイズ`*[, *`スケール`*]`
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->JPEG圧縮を使用する場合に最適な結果を得るには、ストリップまたはタイルのサイズは、JPEGエンコーディングタイルのサイズ（16 x 16 ピクセル）の倍数にする必要があります。
+>最適な結果を得るには、JPEG圧縮を使用する場合、ストリップまたはタイルのサイズは、JPEGエンコーディングタイルのサイズ（16 x 16 ピクセル）の倍数にする必要があります。
 
 ## 例 {#section-932fcfcb41d74a29bc929e4430c49601}
 
-印刷可能な CMYK 画像を複数のフル解像度のストリップに分割して、ダウンロードファイルのサイズを小さくします。 連続した画像をリクエストする場合：
+印刷可能な CMYK 画像を複数のフル解像度のストリップに分割して、ダウンロードファイルのサイズを小さくします。 連続した画像をリクエストした場合：
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,9 +53,9 @@ ht-degree: 1%
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-この情報に基づいて、600 x 2000 ピクセルのストリップを 4 つ用意することにしました。 The `rect=` コマンドは、ストリップのサイズと位置を記述するために使用されます。
+この情報に基づいて、600x2000 ピクセルのストリップが 4 つ必要です。 The `rect=` コマンドは、ストリップのサイズと位置を記述するために使用されます。
 
-この画像は頻繁に変更されるので、 `id=` コマンドを使用して、CDN またはプロキシサーバーにキャッシュされた可能性のある古いバージョンの画像から、1 つ以上のストリップが発生する可能性を最小限に抑えることができます。 の値 `image.version` プロパティがこの目的で使用されます。
+この画像は頻繁に変更されるので、 `id=` コマンドが含まれます。 これにより、CDN またはプロキシサーバーにキャッシュされた画像の古いバージョンから 1 つ以上のストリップが生じる可能性を最小限に抑えることができます。 の値 `image.version` プロパティがこの目的で使用されます。
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 

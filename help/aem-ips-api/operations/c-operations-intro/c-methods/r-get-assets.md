@@ -1,20 +1,20 @@
 ---
-description: IPS からアセットを返します。
-solution: Experience Manager
 title: getAssets
+description: Image Production System(IPS) からアセットを返します。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 16%
+source-wordcount: '131'
+ht-degree: 13%
 
 ---
 
 # getAssets{#getassets}
 
-IPS からアセットを返します。
+Image Production System(IPS) からアセットを返します。
 
 構文
 
@@ -32,9 +32,9 @@ IPS からアセットを返します。
 
 >[!NOTE]
 >
->ユーザーがアクセスできるアセットのみを返します。
+>ユーザーがアクセス権を持つアセットのみを返します。
 
-## パラメータ {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
+## パラメーター {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
 **入力 (getAssetsParam)**
 
@@ -76,18 +76,18 @@ IPS からアセットを返します。
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>応答に含まれるフィールドおよびサブフィールド。 </p> </td> 
+   <td colname="col4"> <p>応答に含まれるフィールドとサブフィールド。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>応答から除外されたフィールドおよびサブフィールド。 </p> </td> 
+   <td colname="col4"> <p>応答から除外されるフィールドおよびサブフィールド。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**出力 (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 

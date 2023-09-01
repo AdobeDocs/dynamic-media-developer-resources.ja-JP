@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: 生のセット定義文字列を使用して汎用のアセットセットを作成し、Image Server に公開します。
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-3580b586296e42a5b21426085b1bb72d}
+## パラメーター {#section-3580b586296e42a5b21426085b1bb72d}
 
 **入力 (createAssetSet)**
 
@@ -69,7 +69,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらは、対象のビューアで指定された形式に解決される必要があります。 </p> </td> 
+   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらのパラメータは、対象ビューアで指定された形式に解決される必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ ht-degree: 6%
 
 **setDefinition の代替関数**
 
-カタログの参照または公開時に解決される行で置換関数を指定できます。 代替文字列の形式は `${<substitution_func>}`. 使用可能な関数を以下に列挙します。
+カタログの参照または公開時に解決される置換関数をインラインで指定できます。 代替文字列の形式は次のとおりです。 `${<substitution_func>}`. 使用可能な関数の概要を以下に示します。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 6%
 | `getFilePath([asset_handle>])` | アセットのプライマリソースファイルパス。 |
 | `getCatalogId([<asset_handle>])` | アセットのカタログ ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | アセットのメタデータ値。 |
-| `getThumbCatalogId([<asset_handle>])` | アセットのカタログ ID（画像ベースのアセットのみ）。関連付けられたサムアセットのカタログ ID（他のアセットの場合）。 関連するサムアセットが使用できない場合、この関数は空の文字列を返します。 |
+| `getThumbCatalogId([<asset_handle>])` | アセットのカタログ ID（画像ベースのアセットの場合のみ）。 関連付けられたサムアセットのカタログ ID（他のアセット用）。 関連するサムアセットが使用できない場合、この関数は空の文字列を返します。 |
 
 **サンプルのメディア setDefinition 文字列**
 
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-カタログ参照または公開時に、次のような文字列に解決されます。
+カタログ参照または公開時に、このプロセスは次のような文字列に解決されます。
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

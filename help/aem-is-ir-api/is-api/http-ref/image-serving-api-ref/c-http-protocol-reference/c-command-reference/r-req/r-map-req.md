@@ -1,14 +1,14 @@
 ---
+title: マップ
 description: 画像マップデータ。
 solution: Experience Manager
-title: マップ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 2%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 画像マップデータ。
 
-`req=map[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=map[,text|{xml[, *`エンコード`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
@@ -29,22 +29,22 @@ ht-degree: 2%
  </tr> 
 </table>
 
-追加のコマンドを指定せずに、単純なカタログエントリをクエリする場合、`catalog::Map`を変更せずに返します（`catalog::maxPix`に拡大/縮小されません）。
+戻り値 `catalog::Map` 追加のコマンドを指定せずに単純なカタログエントリを照会する場合は変更を加えずに、 `catalog::maxPix`) をクリックします。
 
-リクエストで他のコマンドが指定されている場合、合成画像マップが返されます。このマップは、画像データが`req=img`と一緒にあるように、リクエストに含まれるすべての`catalog::Map`および`map=`コマンドの拡大/縮小、切り抜き、回転、および重ね合わせによって得られます。
+要求で他のコマンドが指定されている場合は、複合イメージマップが返されます。 合成画像マップは、すべての画像の拡大/縮小、切り抜き、回転、レイヤーを行うことによって生成されます `catalog::Map` および/または `map=` イメージデータがを使用する場合と同様に、リクエストに含まれるコマンド `req=img`.
 
-`text`を指定するか、2番目のパラメーターを省略して、応答MIMEタイプ`text/plain`を持つ`HTML <AREA>`要素文字列の形式で画像マップデータを返します。
+指定 `text` または、2 番目のパラメーターを省略して、画像マップのデータを `HTML <AREA>` 応答 MIME タイプを持つ要素文字列 `text/plain`.
 
-`xml`を指定して、応答をHTMLではなくXMLで書式設定します。 オプションで、テキストエンコーディングを指定できます。 デフォルトは`UTF-8`です。
+指定 `xml` したがって、応答を XML 形式ではなくHTMLできます。 オプションでテキストエンコーディングを指定できます。 デフォルトはです。 `UTF-8`.
 
-指定したカタログオブジェクトのマップデータが見つからない場合や、画像を切り抜いた後に`<AREA>`要素が残らない場合は、空の文字列（または空の`<AREA>`要素）を返します。
+空の文字列（または空）を返します `<AREA>` 要素 ) 指定したカタログオブジェクトのマップデータが見つからなかった場合、または `<AREA>` 画像を切り抜いた後も、要素は残ります。
 
-HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
+HTTP 応答は、TTL に基づいてキャッシュ可能です。 `catalog::Expiration`.
 
-JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP 応答形式をサポートするリクエストでは、の拡張構文を使用して JS コールバックハンドラーの名前を指定できます。 `req=` パラメーター：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
+The `<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみ使用できます。 オプション。デフォルトはです。 `s7jsonResponse`.
 
-[画像マップ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)を参照してください。
+詳しくは、 [画像マップ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

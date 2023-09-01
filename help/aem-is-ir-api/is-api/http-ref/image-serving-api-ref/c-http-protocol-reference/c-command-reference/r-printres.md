@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-通常、印刷解像度は `catalog::PrintResolution` （カタログエントリの場合）。それ以外の場合は、ソース画像に埋め込まれた印刷解像度の値。 テンプレートまたはレイヤー状の複合画像の場合、応答ファイルに埋め込まれるデフォルトの印刷解像度は、最もレイヤー番号の小さいレイヤー画像の印刷解像度です。
+通常、印刷解像度は `catalog::PrintResolution` カタログエントリの場合は、ソース画像に埋め込まれた印刷解像度の値で指定します。 テンプレートまたはレイヤー化された複合画像がある場合、応答ファイルに埋め込まれるデフォルトの印刷解像度は、最もレイヤー番号の小さいレイヤー画像の印刷解像度です。
 
 印刷解像度を設定しても、返信画像のピクセルサイズは変更されません。
 
@@ -35,7 +35,8 @@ ht-degree: 2%
 
 ## 初期設定 {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` またはソース画像に埋め込まれたプリント解像度。
+`catalog::PrintResolution`
+または、ソース画像に埋め込まれた印刷解像度。
 
 ## 関連項目 {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

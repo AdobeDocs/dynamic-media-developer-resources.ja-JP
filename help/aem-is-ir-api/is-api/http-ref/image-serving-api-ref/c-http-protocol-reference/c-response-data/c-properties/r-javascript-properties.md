@@ -1,22 +1,22 @@
 ---
-description: 応答形式としてJavaScript™を指定した場合、応答データはJavaScript™インクルードファイルとして解析されるように形式設定されます。
+title: JavaScript プロパティ
+description: 応答形式として JavaScript を指定した場合、返信データは JavaScript&trade；インクルードファイルとして解析されるように形式設定されます。
 solution: Experience Manager
-title: JavaScript™のプロパティ
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# JavaScript™のプロパティ{#javascript-properties}
+# JavaScript プロパティ{#javascript-properties}
 
-応答形式としてJavaScript™を指定した場合、応答データはJavaScript™インクルードファイルとして解析されるように形式設定されます。
+応答形式として JavaScript を指定した場合、返信データは JavaScript インクルードファイルとして解析されるように形式設定されます。
 
-一般的なJavaScript™プロパティ応答は、次の一般的な構造を持ちます。
+一般的な JavaScript プロパティの応答は、次の一般的な構造を持ちます。
 
 ```
            
@@ -29,9 +29,9 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* は空にできます。各行の先頭と末尾、および=区切り文字の前と後の空白は省略可能です。 すべての値は一重引用符で囲まれます。 文字列内の一重引用符は、連続する2つの一重引用符でエスケープされます。
+The *`propertyValue`* は空にすることができます。 各行の先頭と末尾、および=区切り文字の前後の空白はオプションです。 すべての値は一重引用符で囲まれます。 文字列内の一重引用符は、連続する 2 つの一重引用符でエスケープされます。
 
-JavaScript™プロパティ応答を解析するには、プロパティファイルが読み込まれる前に、応答で参照されるオブジェクトまたはオブジェクトを作成する必要があります。 次に、`req=props`を使用してJavaScript™で応答画像のサイズを取得する例を示します。
+JavaScript プロパティ応答を解析するには、プロパティファイルが読み込まれる前に、応答で参照されるオブジェクトまたはオブジェクトを作成する必要があります。 次に、 `req=props` 応答の画像サイズを JavaScript で取得するには：
 
 ```
 <script> image = new Object; </script> 
