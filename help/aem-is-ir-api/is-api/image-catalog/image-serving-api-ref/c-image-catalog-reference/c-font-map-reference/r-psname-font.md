@@ -1,26 +1,26 @@
 ---
-description: Postscriptフォント名。 Postscriptフォント名。
-solution: Experience Manager
 title: PsName
-feature: Dynamic Media Classic、SDK/API
+description: Postscript フォントの名前。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
 # PsName{#psname}
 
-Postscriptフォント名。 Postscriptフォント名。
+Postscript フォントの名前です。
 
-現時点では、FXGレンダラーのみがPostscript名でフォントを参照できます。
+現在、Postscript 名でフォントを参照できるのは FXG レンダラーだけです。
 
 ## プロパティ {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-テキスト文字列。 （オプション）フォントマップ用のセカンダリインデックスキー。 同じ`font::PsName`値が、同じフォントマップファイルで1回だけ発生する場合があります。
+テキスト文字列。 オプション。フォントマップのセカンダリインデックスキー。 同じ `font::PsName` 値は同じフォントマップファイル内で 1 回だけ発生します。
 
 ## 初期設定 {#section-c5903d5340e740b69ec0150d2303a893}
 

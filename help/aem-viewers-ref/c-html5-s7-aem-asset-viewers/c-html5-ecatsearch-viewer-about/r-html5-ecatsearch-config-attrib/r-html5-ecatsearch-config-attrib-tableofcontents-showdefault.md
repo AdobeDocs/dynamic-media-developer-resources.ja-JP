@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '44'
 ht-degree: 9%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> <span class="codeph"> 1</span>に設定すると、ラベルが定義されていないページも含め、ドロップダウンパネルにすべてのページの要素が設定されます。 </p> <p><span class="codeph"> 0</span>に設定すると、明示的なラベルを持つ項目のみがドロップダウンパネルに表示されます。 </p> </td> 
+   <td> <p> に設定する場合 <span class="codeph"> 1</span>を選択すると、ドロップダウンパネルに、ラベルが定義されていないページも含め、すべてのページの要素が設定されます。 </p> <p>に設定する場合 <span class="codeph"> 0</span> 明示的なラベルを持つ項目のみがドロップダウンパネルに表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-89a21bad65674a948db84412eb3e46d7}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-661ec4a10fc8484c92707ef12f92ac00}
 

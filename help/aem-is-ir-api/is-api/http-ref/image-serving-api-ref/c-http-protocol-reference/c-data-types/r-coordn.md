@@ -1,34 +1,34 @@
 ---
-description: 正規化座標。 画像内の相対位置（画像オフセットや切り抜きパラメータなど）を、画像のサイズに合わせて正規化するために使用します。
-solution: Experience Manager
 title: coordN
-feature: Dynamic Media Classic、SDK/API
+description: 正規化された座標。 画像内の相対位置を指定するために使用します。例えば、画像のサイズに合わせて正規化された画像オフセットや切り抜きパラメータなどです。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a97a520-5049-4b26-826e-ae913f0ac511
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
 # coordN{#coordn}
 
-正規化座標。 画像内の相対位置（画像オフセットや切り抜きパラメータなど）を、画像のサイズに合わせて正規化するために使用します。
+正規化された座標。 画像内の相対位置を指定するために使用します。例えば、画像のサイズに合わせて正規化された画像オフセットや切り抜きパラメータなどです。
 
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>、 <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>、 <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>画像のサイズに正規化された座標オフセット（実数、実数） </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>, <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p>画像のサイズに合わせて正規化された座標オフセット（実数、実数） </p></td> 
  </tr> 
 </table>
 
-正の値は右下に移動します。
+正の値は右下に向かって移動します。
 
-多くの場合、参照位置が画像の中心になります。 この場合、0,0は画像の中心、-0.5、-0.5は左上隅、0.5,0.5は右下隅に対応します。
+多くの場合、参照位置は画像の中心です。 この場合、 `0,0` は、画像の中央に対応します。 `-0.5,-0.5` を左上隅に、 `0.5,0.5` を右下隅に追加します。
 
-また、レイヤー0のサイズを基準にして、画像サイズまたは長方形サイズを指定する場合にも使用します。 この場合、値は0より大きい値にする必要があります。 0は、特定のデフォルト値を使用する必要があることを示します。 1,1はレイヤ0と等しいサイズを指定します。
+また、レイヤー 0 のサイズを基準に画像サイズまたは長方形サイズを指定する場合にも使用します。 この場合、値は 0 より大きい値にする必要があります。 0 は、特定のデフォルト値を使用する必要があることを示す場合があります。 値： `1,1` は、レイヤ 0 と等しいサイズを指定します。

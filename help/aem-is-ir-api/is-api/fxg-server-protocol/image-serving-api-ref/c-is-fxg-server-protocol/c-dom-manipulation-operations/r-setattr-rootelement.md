@@ -1,20 +1,20 @@
 ---
-description: 属性をFXGルート要素に設定します。
-solution: Experience Manager
 title: setAttr.rootElement
-feature: Dynamic Media Classic、SDK/API
+description: 属性を FXG ルート要素に設定します。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 2%
 
 ---
 
 # setAttr.rootElement{#setattr-rootelement}
 
-属性をFXGルート要素に設定します。
+属性を FXG ルート要素に設定します。
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
@@ -30,6 +30,6 @@ ht-degree: 2%
 
 `setAttr.rootElement={viewHeight=300%26viewWidth=200}`
 
-ルート要素が次のように変更されました。
+これで、ルート要素が次のように変更されました。
 
 `<Graphic xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:s7="http://ns.adobe.com/S7FXG/2008" ai:appVersion="14.0.0.367" d:id="1" s7:appVersion="1.0.0.11" version="1.0" viewHeight="300" viewWidth="200">`

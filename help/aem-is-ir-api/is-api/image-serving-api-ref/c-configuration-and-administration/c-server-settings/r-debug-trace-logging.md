@@ -1,14 +1,14 @@
 ---
+title: Debug_trace ログ
 description: トレースログをデバッグするには、これらのサーバー設定を使用します。
 solution: Experience Manager
-title: Debug_trace ログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->すべてのログファイルを `TC::directory`. これにより、すべての画像サービングログファイルが、 `TC::maxDays`：ディスク容量不足によるサーバーの不安定性を防ぎます。
+>Adobeでは、 `TC::directory`. これにより、すべての画像サービングログファイルが、 `TC::maxDays`：ディスク容量不足によるサーバーの不安定性を防ぎます。
 
 ## SV::log — サーバスーパーバイザトレースログファイルのパス {#section-3697bc480ff646e79cacc2812c55ef26}
 
-サーバスーパーバイザログファイルのフォルダとベースファイル名。 パスは、絶対パスまたは相対パスにすることができます *[!DNL install_folder]*. サーバスーパーバイザはハイフンと現在の日付 ( *[!DNL -yyyy-mm-dd]*) をファイル名（ファイルサフィックスの前、存在する場合はその後）に追加します。 すべてのログファイルを [!DNL Platform Server] ログファイル ( `PS::LogFolder`) を使用して、 [!DNL Platform Server] ( `PS::LogDays`) をクリックします。 初期設定は [!DNL logs/Supervisor.log].
+サーバスーパーバイザログファイルのフォルダとベースファイル名。 パスは、絶対パスまたは相対パスにすることができます。 *[!DNL install_folder]*. サーバスーパーバイザは、ハイフンと現在の日付 ( *[!DNL -yyyy-mm-dd]*) をファイル名（ファイルサフィックスの前、存在する場合はその後）に追加します。 Adobeでは、 [!DNL Platform Server] ログファイル ( `PS::LogFolder`) を使用して、 [!DNL Platform Server] (`PS::LogDays`) をクリックします。 デフォルトはです。 [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 ## SV::tracelevel — サーバスーパーバイザトレースログレベル {#section-36f8634741da4c618d67aa628b5fe474}
 
-ログレベルは 1、2、3、4 のいずれかです。 初期設定は 2 です
+ログレベルは、1、2、3、4 のいずれかです。 初期設定値は 2 です。
 
 ## IS::Log - Image Server デバッグログファイルのパス {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Image Server トレースログファイルのフォルダとベースファイル名。 パスは、絶対パスまたは相対パスにすることができます *[!DNL install_folder]*. ImageServer は、ハイフンと現在の日付 ( *[!DNL -yyyy-mm-dd]*) をファイル名（ファイルサフィックスの前、存在する場合はその後）に追加します。 Image Server のログファイルは、 [!DNL Platform Server] ログファイル ( `PS::LogFolder`) を使用して、 [!DNL Platform Server] ( `PS::LogDays`) をクリックします。
+Image Server トレースログファイルのフォルダとベースファイル名。 パスは、絶対パスまたは相対パスにすることができます。 *[!DNL install_folder]*. ImageServer は、ハイフンと現在の日付 ( *[!DNL -yyyy-mm-dd]*) をファイル名（ファイルサフィックスの前、存在する場合はその後）に追加します。 Adobeでは、Image Server のログファイルを [!DNL Platform Server] ログファイル ( `PS::LogFolder`) を使用して、 [!DNL Platform Server] ( `PS::LogDays`) をクリックします。
 
 >[!NOTE]
 >
@@ -48,11 +48,11 @@ Image Server トレースログファイルのフォルダとベースファイ�
 
 レベル 2 では、ソース画像との接続と切断もログに記録されます。
 
-レベル 3 では、ピクセルデータの要求のログとその配信のログが [!DNL Platform Server].
+レベル 3 では、ピクセルデータの要求のログと、その配信のログが [!DNL Platform Server].
 
 レベル 4 では、 [!DNL Platform Server].
 
-ログファイルが非常に大きくなる可能性があるので、レベル 3 と 4 はデバッグ目的でのみ使用する必要があります。
+ログファイルが大きくなる可能性があるので、レベル 3 と 4 はデバッグ目的でのみ使用する必要があります。
 
 ## IS::TraceStatsInterval - Image Server 統計ログの間隔 {#section-1d8df96d61044e33a5b2b2b0309c2d59}
 

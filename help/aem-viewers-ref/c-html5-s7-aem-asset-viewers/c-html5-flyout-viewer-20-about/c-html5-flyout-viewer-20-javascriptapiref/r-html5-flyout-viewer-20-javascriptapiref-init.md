@@ -1,30 +1,30 @@
 ---
-description: フライアウトビューアのJavaScript APIリファレンス。
-solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，ビューア，SDK/API，フライアウト
+description: フライアウトビューアを初期化するための JavaScript API リファレンス。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e86f8c0f-c130-43c5-8c3a-07c6bc49e2f7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 1%
 
 ---
 
 # init{#init}
 
-フライアウトビューアのJavaScript APIリファレンス。
+フライアウトビューアの JavaScript API リファレンス。
 
 `init()`
 
-フライアウトビューアの初期化を開始します。 この時点までに、ビューアのコードがIDで見つけられるように、コンテナのDOM要素を作成する必要があります。
+フライアウトビューアの初期化を開始します。 この時点までに、ビューアのコードが ID で検索できるように、コンテナの DOM 要素を作成する必要があります。
 
-コンテナ要素がまだWebページレイアウトの一部ではない場合（例えば、`display:none`スタイルを割り当てて非表示にした場合）、Webページがコンテナ要素をレイアウトに戻す瞬間まで、ビューアは初期化プロセスを中断します。 この場合、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだ Web ページレイアウトに含まれていない場合 ( 例えば、 `display:none` スタイルを割り当てると、初期化プロセスが中断されます。 これは、Web ページがコンテナ要素をレイアウトに戻す時点までおこないます。 この場合、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に1回だけ呼び出す必要があり、それ以降の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクルの間に 1 回だけ呼び出す必要があり、それ以降の呼び出しは無視されます。
 
-## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
+## パラメーター {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 

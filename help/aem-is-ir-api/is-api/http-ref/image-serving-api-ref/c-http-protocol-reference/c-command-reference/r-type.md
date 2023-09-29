@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-サーバーは、val と `catalog::Type` リクエストされた静的コンテンツ項目の 値が一致する場合（大文字と小文字が区別される）、項目がクライアントに返されます。一致しない場合はエラーが返されます。
+サーバーが比較されます `val` ～の価値を持つ `catalog::Type` リクエストされた静的コンテンツ項目の 値が一致する場合（大文字と小文字が区別される）、項目がクライアントに返されます。一致しない場合はエラーが返されます。
 
 ## プロパティ {#section-529b088434a44a9f86a64ef548d2925b}
 

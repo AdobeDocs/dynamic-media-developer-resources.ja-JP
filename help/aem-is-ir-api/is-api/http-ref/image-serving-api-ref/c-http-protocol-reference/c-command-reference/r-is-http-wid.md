@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 表示の幅。 fit=がリクエストに存在しない場合の応答画像（画像を表示）の幅を指定します。
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -43,13 +43,13 @@ ht-degree: 2%
 
 ## 例 {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-200 x 200 の長方形に収まるように画像を要求します。画像が正方形でない場合は、右上に揃えます。 背景領域は、 `attribute::BkgColor`.
+200 x 200 の長方形に収まるように画像を要求します。正方形でない場合は、右上に画像を揃えます。 背景領域は、 `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`サーバ`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-同じ画像が 200 ピクセルの固定された幅で配信されますが、画像の縦横比を維持するために高さが可変です。 この場合、返される画像には背景の塗り領域がありません。 この場合、 align=はまったく効果を持ちません。
+同じ画像が 200 ピクセルの固定された幅で配信されますが、画像の縦横比を維持するために高さが可変です。 この場合、返される画像には背景の塗り領域がありません。 この場合、 `align=` 全く効果がなかっただろう
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`サーバ`*/myRootId/myImageId?wid=200`
 
 ## 関連項目 {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>レイヤーを水平方向に反転（左右） </p> </td> 
+  <td class="stentry"> <p>レイヤーを水平方向に反転します（左右）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
-  <td class="stentry"> <p>レイヤーを垂直方向に反転（上下）します。 </p> </td> 
+  <td class="stentry"> <p>レイヤーを垂直方向（上下）に反転します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ラウド </span> </p> </td> 
@@ -33,13 +33,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-テキストレイヤーにも適用できます。
+また、テキストレイヤーにも適用できます。
 
 一部のコマンド ( `extend=`を指定した場合に、合成レイヤーではなくレイヤー 0 に暗黙的に適用されます。 `layer=comp` が選択されている。 この場合、画層 0 に自動的に割り当てられたすべてのコマンドは、適用先のコマンドの前に適用されます。 `layer=comp`. このようにして、 `layer=comp`, `extend=` 次の値より前に適用： `flip=`.
 
 >[!NOTE]
 >
->反転レイヤーは、レイヤーアンカーに基づいて配置されます。反転=値が異なると、アンカーがレイヤーの中心に配置されていない場合に、レイヤーの位置が異なります。
+>反転レイヤーは、レイヤーアンカーに基づいて配置されます。 異なる `flip=` アンカーがレイヤーの中心にない場合、の値によってレイヤーの位置が異なります。
 
 ## プロパティ {#section-294da2af7be746b5adfc35e29ee68217}
 

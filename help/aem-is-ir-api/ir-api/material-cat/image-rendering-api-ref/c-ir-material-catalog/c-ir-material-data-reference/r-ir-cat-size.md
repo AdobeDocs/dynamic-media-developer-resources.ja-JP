@@ -1,14 +1,14 @@
 ---
+title: サイズ
 description: デカールのサイズ。 デカールマテリアルオブジェクトの幅、高さ、厚さ。
 solution: Experience Manager
-title: サイズ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 5%
 <table id="simpletable_E3503BD975F342C58DDB4C2B56BF0CEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p>12,3 </p></td> 
-  <td class="stentry"> <p>デカールは 12 x 3 インチのサイズに強制され、厚さはありません（ドロップシャドウはありません）。 </p></td> 
+  <td class="stentry"> <p>デカールのサイズは 12 x 3 インチに強制され、厚さはありません（ドロップシャドウはありません）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,5,1 </p></td> 
-  <td class="stentry"> <p>デカールの幅は 5 インチで、高さは画像の縦横比で決まり、ドロップシャドウは 1 インチの厚さに基づいてレンダリングされます。 </p></td> 
+  <td class="stentry"> <p>デカールの幅は 5 インチで、高さはイメージの縦横比で決まり、ドロップシャドウは 1 インチの厚さに基づいてレンダリングされます。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,0,.5 </p></td> 

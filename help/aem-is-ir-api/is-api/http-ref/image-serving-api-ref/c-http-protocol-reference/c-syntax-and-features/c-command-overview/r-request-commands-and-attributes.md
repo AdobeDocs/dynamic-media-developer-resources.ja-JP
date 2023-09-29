@@ -1,20 +1,20 @@
 ---
-description: これらのコマンドは、リクエスト内のどこに表示されるかに関係なく適用されます。
-solution: Experience Manager
 title: リクエストコマンド
-feature: Dynamic Media Classic、SDK/API
+description: これらのコマンドは、リクエスト内で表示される場所に関係なく適用されます。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
 
 # リクエストコマンド{#request-commands}
 
-これらのコマンドは、リクエスト内のどこに表示されるかに関係なく適用されます。
+これらのコマンドは、リクエスト内で表示される場所に関係なく適用されます。
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt</a> </p></td> 
-  <td class="stentry"> <p>イメージフォーマットを指定します。 </p></td> 
+  <td class="stentry"> <p>画像形式を指定します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
@@ -39,7 +39,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>Photoshopパスデータを返信画像に埋め込みます。 </p></td> 
+  <td class="stentry"> <p>返信画像にPhotoshopのパスデータを埋め込みます。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
@@ -75,10 +75,10 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id</a> </p> </td> 
-  <td class="stentry"> <p>画像/メタデータのバージョンID。 </p></td> 
+  <td class="stentry"> <p>画像/メタデータのバージョン ID。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> imageSet</a> </p> </td> 
-  <td class="stentry"> <p>このリクエストに使用する画像セットを指定します。 </p></td> 
+  <td class="stentry"> <p>このリクエストで使用する画像セットを指定します。 </p></td> 
  </tr> 
 </table>

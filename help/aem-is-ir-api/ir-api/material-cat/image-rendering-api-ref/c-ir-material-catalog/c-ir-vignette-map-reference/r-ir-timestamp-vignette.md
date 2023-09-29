@@ -1,13 +1,13 @@
 ---
+title: TimeStamp
 description: 変更のタイムスタンプ。 このビネットが最後に変更された日時を指定します。
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -16,31 +16,31 @@ ht-degree: 1%
 
 変更のタイムスタンプ。 このビネットが最後に変更された日時を指定します。
 
-If `attribute::UseLastModified` が設定されている場合、最新 `vignette::TimeStamp` および `catalog::TimeStamp`ビネットの値と、要求に関係するすべてのマテリアルが、最終変更ヘッダーとして HTTP 応答に返されます。
+次の場合 `attribute::UseLastModified` が設定されている場合、最新の `vignette::TimeStamp` および `catalog::TimeStamp`ビネットの値と、要求に関係するすべてのマテリアルが、最終変更ヘッダーとして HTTP 応答に返されます。
 
 >[!NOTE]
 >
 >ビネットファイルの実際のファイル時間は、この目的には使用されません。
 
-`catalog::TimeStamp` は、カタログベースのキャッシュ検証にも使用されます ( [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+The `catalog::TimeStamp` は、カタログベースのキャッシュ検証にも使用されます。 詳しくは、 [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## プロパティ {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
-Java 形式の日時値。 1970 年 1 月 1 日 (UTC/GMT) 午前 0 時からのミリ秒の整数か、次のいずれかの形式を持つ日付/時間文字列値を指定できます。
+Java™形式の日付/時間値。 1970 年 1 月 1 日 (UTC/GMT) の午前 0 時からのミリ秒の整数値、または次のいずれかの形式を持つ日付/時間文字列値を指定できます。
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:*[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* は 0 ～ 23 の範囲です。
 * *[!DNL zzz]* は、「GMT」や「PST」などの 3 文字または 4 文字のタイムゾーンコードです。 夏時間は、タイムゾーンコードで考慮する必要があります（例えば、太平洋標準時の場合は「PST」、太平洋夏時間の場合は「PDT」）。
 * *[!DNL offset]* は、GMT を基準とした、時間または時間：分単位のタイムゾーンオフセットです。 例えば、「PDT」は「GMT -7」と同じです。
 
-文字列形式の日付/時刻値の要素はすべて存在する必要があります。 日付/時刻の値が正しい形式でない場合、その値は無視され、[!DNL *[!DNL catalog]*&#x200B;代わりに、 .ini] ファイルが使用されます。
+文字列形式の日付/時刻値の要素はすべて存在する必要があります。 日付/時刻の値が正しい形式でない場合、その値は無視され、変更時刻は [!DNL *[!DNL catalog]*&#x200B;代わりに、 .ini] ファイルが使用されます。
 
 ## 初期設定 {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` が空の場合や存在しない場合。
+The `attribute::TimeStamp` は、空のフィールドまたは存在しないフィールドです。
 
 ## 関連項目 {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 

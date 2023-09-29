@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-スケーリングは適用されません。 `scl=1`. *`invFactor`* 1.0 を超えるダウンスケールと 1.0 より小さいスケールでは、合成イメージが拡大されます。
+スケーリングは適用されません。 `scl=1`. An *`invFactor`* 1.0 より大きく、1.0 より小さい値を指定すると、合成イメージが拡大されます。
 
 次の場合 `scl=` が指定され、 `wid=` および/または `hei=` が存在する場合は、画像は次の場所に切り抜かれます。 `wid=` および/または `hei=` 拡大・縮小後
 

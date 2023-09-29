@@ -1,24 +1,24 @@
 ---
-description: FlashストリーミングサーバのURLプレフィックス。 Flashストリーミングサーバーreq=mbrSetでマルチビットレートf4m応答を生成する際に使用されるURLプレフィックス。
-solution: Experience Manager
 title: HttpFlashStreamingContext
-feature: Dynamic Media Classic、SDK/API
+description: Flashストリーミングサーバの URL プレフィックス。 Flashストリーミングサーバー req=mbrSet でマルチビットレート f4m 応答を生成する際に使用される URL プレフィックス。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-FlashストリーミングサーバのURLプレフィックス。 Flashストリーミングサーバーreq=mbrSetでマルチビットレートf4m応答を生成する際に使用されるURLプレフィックス。
+Flashストリーミングサーバの URL プレフィックス。 Flashストリーミングサーバー req=mbrSet でマルチビットレート f4m 応答を生成する際に使用される URL プレフィックス。
 
 ## プロパティ {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-URLプレフィックスを表す文字列。 (例：`http://my.server.com/flash/streaming`)
+URL のプレフィックスを表す文字列。 例： `http://my.server.com/flash/streaming`.
 
 ## 初期設定 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

@@ -1,20 +1,20 @@
 ---
-description: Scene7 画像サービングは、次のコンポーネントで構成されています
-solution: Experience Manager
 title: 画像サービングコンポーネント
+description: Dynamic Media画像サービングは、次のコンポーネントで構成されています。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # 画像サービングコンポーネント{#image-serving-components}
 
-Scene7 画像サービングは、次のコンポーネントで構成されています。
+Dynamic Media画像サービングは、次のコンポーネントで構成されています。
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -30,7 +30,7 @@ Scene7 画像サービングは、次のコンポーネントで構成されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>ほとんどの Java ベースのコンポーネントの環境を提供します。 </p> </td> 
+   <td colname="col2"> <p>これにより、ほとんどの Java ベースのコンポーネントに対して環境が提供されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>監視/警告サービス </p> </td> 
@@ -46,7 +46,7 @@ Scene7 画像サービングは、次のコンポーネントで構成されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>すべての画像処理および画像ファイルの I/O 操作を実行します。 Linux では、32 ビットと 64 ビットの実行可能ファイルの両方が使用可能です（Windows の場合は 32 ビットのみ）。 </p> </td> 
+   <td colname="col2"> <p>すべての画像処理および画像ファイルの I/O 操作を実行します。 Linux®では、32 ビットと 64 ビットの実行可能ファイルの両方が使用可能です（Windows の場合は 32 ビットのみ）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE Text Render Component </p> </td> 
@@ -54,11 +54,11 @@ Scene7 画像サービングは、次のコンポーネントで構成されて�
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVGレンダリングコンポーネント </p> </td> 
-   <td colname="col2"> <p>スタンドアロン Java アプリケーション（Tomcat ではホストされていません）。 </p> </td> 
+   <td colname="col2"> <p>スタンドアロン Java™アプリケーション（Tomcat ではホストされていません）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media画像レンダリング ( Render Server) </p> </td> 
-   <td colname="col2"> <p>ライセンス認証を行うには、別途ライセンスが必要です。 HTTP アクセス： <span class="filepath"> /ir/render</span>. すべての画像レンダリング機能が [!DNL Platform Server] と Image Server に別個の実行可能コンポーネントが存在しない。 </p> </td> 
+   <td colname="col2"> <p>ライセンス認証を行うには、別のライセンスが必要です。 HTTP アクセス： <span class="filepath"> /ir/render</span>. すべての画像レンダリング機能は、 [!DNL Platform Server] と Image Server に別個の実行可能コンポーネントが存在しない。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 両方の `wid=` および `scl=` を指定した場合、合成画像は `align=`属性。 条件 `fit=` が存在する場合、 `hei=` 応答画像の高さ（最小）を正確に指定します。詳しくは、 [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) 」を参照してください。
 
-次の場合 `scl=` を指定しない場合、合成画像はサイズに合わせて拡大縮小されます。 両方の `wid=` および `hei=` が指定され、 `scl=` が指定されていない場合、画像は幅/平の長方形内に収まるように拡大縮小され、可能な限り背景領域が露出しにくくなります。この場合、画像はビューの長方形内に配置され、 `align=` 属性。 背景領域は次のように塗りつぶされます。 `bgc=`、またはで指定されていない場合は `attribute::BkgColor`.
+次の場合 `scl=` を指定しない場合、合成画像はサイズに合わせて拡大縮小されます。 両方の `wid=` および `hei=` が指定され、 `scl=` が指定されていない場合、画像は幅/平の長方形内に完全に収まるように拡大縮小され、可能な限り背景領域が露出しなくなります。 この場合、画像はビューの長方形内に、 `align=` 属性。 背景領域は次のように塗りつぶされます。 `bgc=`、またはで指定されていない場合は `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -43,11 +43,11 @@ ht-degree: 2%
 
 ## 例 {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-200 x 200 の長方形に収まるように画像を要求します。正方形でない場合は、左上に画像を揃えます。 背景領域は、 `attribute::BkgColor`.
+200 x 200 の長方形に収まるように画像を要求します。正方形でない場合は、左上に配置します。 背景領域は、 `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-同じ画像が、200 ピクセルの固定された高さで配信されますが、画像の縦横比に合わせて可変幅になります。 この場合、返される画像には背景の塗り領域がありません。 この場合、 `align=` 全く効果がなかっただろう
+同じ画像が、200 ピクセルの固定された高さで配信されますが、画像の縦横比に合わせて可変幅になります。 この場合、返される画像には背景の塗り領域がありません。 また、この場合、 `align=` 全く効果がなかっただろう
 
 `http://server/myRootId/myImageId?hei=200`
 

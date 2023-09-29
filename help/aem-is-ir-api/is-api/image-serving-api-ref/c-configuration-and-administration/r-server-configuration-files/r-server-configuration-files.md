@@ -1,24 +1,24 @@
 ---
-description: すべての設定ファイルは install_folder/conf に配置され、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要になる場合があります。
-solution: Experience Manager
 title: サーバー設定ファイル
+description: すべての設定ファイルは install_folder/conf にあり、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーを再起動します。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # サーバー設定ファイル{#server-configuration-files}
 
-すべての設定ファイルは install_folder/conf に配置され、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーの再起動が必要になる場合があります。
+すべての設定ファイルは、 `install_folder/conf` およびは、ほとんどのテキストエディターで編集できます。 変更を有効にするには、サーバーを再起動します。
 
 >[!NOTE]
 >
->ほとんどのサーバー設定ファイルには、このドキュメントでは説明しない追加のプロパティと値が含まれています。 このようなプロパティは、内部サーバーでの使用のためのもので、Dynamic Mediaテクニカルサポートから特に指示されない限り、変更しないでください。
+>ほとんどのサーバー設定ファイルには、このドキュメントでは説明しない追加のプロパティと値が含まれています。 このようなプロパティは、内部サーバーでの使用のためのもので、Dynamic Mediaテクニカルサポートから指示を受けない限り、変更できません。
 
 このドキュメントでは、次の設定ファイルの設定について説明します。
 
