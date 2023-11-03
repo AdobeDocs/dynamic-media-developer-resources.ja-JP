@@ -1,19 +1,20 @@
 ---
-title: 全画面表示ボタン
-description: フルスクリーンボタンをクリックすると、スマート切り抜きビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
+title: フルスクリーンボタン
+description: フルスクリーンボタンをクリックすると、スマート切り抜きビデオプレーヤーがフルスクリーンモードに入るか、終了します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 
-# 全画面表示ボタン{#full-screen-button}
+# フルスクリーンボタン{#full-screen-button}
 
-フルスクリーンボタンをクリックすると、スマート切り抜きビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
+フルスクリーンボタンをクリックすると、スマート切り抜きビデオプレーヤーがフルスクリーンモードに入るか、終了します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -51,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

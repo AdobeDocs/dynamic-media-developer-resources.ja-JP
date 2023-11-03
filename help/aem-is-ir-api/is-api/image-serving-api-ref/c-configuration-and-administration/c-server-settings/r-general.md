@@ -5,9 +5,9 @@ title: 一般
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Image Server がキャッシュサービスにアクセスできるようにす�
 
 ## IS::RemoteUrlDefaultExpiration — リモートImage Sourceのデフォルト TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
-HTTP 経由でリモートソースから取得された、キャッシュされた画像の TTL ( `src={…}` 構築。 リモートサーバーの HTTP 応答に Expiration ヘッダーが含まれていない場合にのみ使用されます。 秒単位の整数値。
+キャッシュされた画像の TTL （を使用してリモートソースから HTTP 経由で取得される） `src={…}` 構築。 リモートサーバーの HTTP 応答に Expiration ヘッダーが含まれていない場合にのみ使用されます。 秒単位の整数値。
 
 ## IS::RemoteUrlTimeout — リモートImage Sourceタイムアウト {#section-437646c479cc4bea81dae42100a3c50a}
 
-Image Server が、リモートサーバーが要求されたイメージファイルを HTTP 経由で配信してからエラーを返すのを待機する時間です。 秒単位の整数値。
+Image Server が、HTTP を介して要求されたイメージファイルをリモートサーバーが配信するのを待ってからエラーを返す時間。 秒単位の整数値。
 
 ## PS::allowDefaultCatalogRequests — デフォルトのカタログ要求を有効化/無効化 {#section-484e442a115a49b4ac269d1718b351e1}
 

@@ -1,20 +1,20 @@
 ---
-description: プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットをオブジェクト (PropertySetType/allowMultipleisfalse) にアタッチできず、オブジェクトに既に同じ種類のセットが関連付けられている場合は、新しいセットが既存のセットに置き換えられます。
+description: プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを 1 つのオブジェクトにアタッチできず (PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類の関連セットが存在する場合は、既存のセットが新しいセットに置き換えられます。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 8%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットをオブジェクト (PropertySetType/allowMultipleisfalse) にアタッチできず、オブジェクトに既に同じ種類のセットが関連付けられている場合は、新しいセットが既存のセットに置き換えられます。
+プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを 1 つのオブジェクトにアタッチできず (PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類の関連セットが存在する場合は、既存のセットが新しいセットに置き換えられます。
 
 構文
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-25258e75f5f3419bad165c797eb6cd8e}
+## パラメーター {#section-25258e75f5f3419bad165c797eb6cd8e}
 
 **入力 (createPropertySetParam)**
 

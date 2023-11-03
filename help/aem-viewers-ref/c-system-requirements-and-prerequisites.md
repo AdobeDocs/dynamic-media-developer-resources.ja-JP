@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Dynamic Media Viewer5 のHTML要件。
 
 * AdobeDynamic Media Image Serving 6.7.1 以降。
 * HTML5 ビューアには、SDK JavaScript サーバー側ライブラリ3.11.5以降が必要です。
-* *友人へのメール送信* social 機能には s7ondemand 5.0.9 以降が必要です。
+* *友達にメールを送信* social 機能には s7ondemand 5.0.9 以降が必要です。
 * eCatalog ビューア — [情報パネルポップアップ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバ 2.1.8 以降が必要です。
 * 検索機能コンポーネントを使用するには、 s7search 2.3.0 以降が必要です。
 
@@ -40,7 +40,7 @@ Dynamic Media Viewer5 のHTML要件。
    * macOS X 10.12
 * 次のブラウザー/プラットフォームバージョン以降でサポートされています。
    * Android™ OS 4.x
-   * ネイティブブラウザー上の BlackBerry® 10 ビデオの再生のみがサポートされています。
+   * ネイティブブラウザー上の BlackBerry® 10。 ビデオの再生のみがサポートされています。
    * Chrome 82
    * Edge
    * Firefox 77
@@ -78,7 +78,7 @@ Dynamic Media Viewer5 のHTML要件。
 
 <!-- CQDOC-19433 -->
 
-2022 年 9 月 30 日に、AdobeDynamic Mediaビューアは次のサポートを終了します。
+AdobeDynamic Mediaビューアは、2022 年 9 月 30 日に以下のサポートを終了しました。
 
 * TLS(Transport Layer Security)1.0 および 1.1
 * TLS 1.2 での以下の脆弱な暗号：
@@ -119,19 +119,19 @@ AdobeDynamic Mediaビューアでは、次の Web ブラウザーとオペレー
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

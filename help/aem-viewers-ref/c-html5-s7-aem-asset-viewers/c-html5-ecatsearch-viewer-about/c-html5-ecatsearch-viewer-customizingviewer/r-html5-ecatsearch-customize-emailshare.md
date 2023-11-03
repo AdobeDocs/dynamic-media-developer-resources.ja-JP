@@ -1,18 +1,18 @@
 ---
-title: メール共有
+title: 電子メール共有
 description: 電子メール共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3046'
 ht-degree: 2%
 
 ---
 
-# メール共有{#email-share}
+# 電子メール共有{#email-share}
 
 電子メール共有ツールは、ソーシャル共有パネルに追加されるボタンと、ツールがアクティブになったときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、Social 共有ツールで完全に管理されます。
 
@@ -118,18 +118,18 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザーウィンドウ全体に表示されない場合） </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザーウィンドウ全体に表示されない場合）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> ダイアログボックスの背景色 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定解除するか、100%に設定する必要があります（タッチデバイスではこのモードをお勧めします）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> ダイアログがブラウザーウィンドウ全体に表示される場合は、設定を解除するか、100%に設定する必要があります（タッチデバイスでは、このモードをお勧めします）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -190,11 +190,11 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>アイコンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>アイコンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> ヘッダーコンテナを基準とした水平方向のボタン位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -369,11 +369,11 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -402,15 +402,15 @@ background-color: #ffffff;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カラー </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
@@ -534,7 +534,7 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> ダイアログボックスのメイン領域の高さです。 この値は、ダイアログボックスがデスクトップモードで動作する場合にのみ指定する必要があります。 ダイアログボックスのサイズがブラウザーウィンドウ全体を占めるように設定されている場合は、この機能は適用されません。 </p> </td> 
   </tr> 
   <tr> 
@@ -552,7 +552,7 @@ background-color: #ffffff;
 >
 >ダイアログボックスのメイン領域では、オプションの `state` 属性セレクターを使用します。 これはに設定されています。 `sendsuccess` 電子メールフォームが送信され、ダイアログボックスに確認メッセージが表示されます。 確認メッセージが小さい限り、この属性セレクターを使用して、確認メッセージが表示される際のダイアログボックスの高さを小さくすることができます。
 
-例 — 最初は高さが 300 ピクセル、確認メッセージが表示されたときは高さが 100 ピクセルで、マージンが 10 ピクセルで、白の背景を使用するダイアログボックスのメイン領域を設定するには、次のように記述します。
+例 — 最初は高さが 300 ピクセル、確認メッセージが表示されたときは高さが 100 ピクセルで、マージンが 10 ピクセルで、白の背景を使用するメインダイアログボックス領域を設定するには、次のように記述します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea { 
@@ -642,7 +642,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>ラベルのフォントファミリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カラー </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>ラベルのテキストの色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -671,7 +671,7 @@ background-color: #ffffff;
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>静的ラベルの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -679,7 +679,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>テキストの水平方向揃え。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>静的ラベルの余白。 </p> </td> 
   </tr> 
   <tr> 
@@ -736,7 +736,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -753,7 +753,7 @@ background-color: #ffffff;
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -783,14 +783,14 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-このクラスを使用すると、基になる `TEXTAREA` 要素。
+このクラスを使用すると、基になる `TEXTAREA` 要素を選択します。
 
 **ダイアログボックスメッセージの CSS プロパティ**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>メッセージの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -820,11 +820,11 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カラー </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
@@ -910,11 +910,11 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -991,19 +991,19 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-この `background-image` プロパティはコンポーネントロジックによって設定されます。
+The `background-image` プロパティはコンポーネントロジックによって設定されます。
 
 **ダイアログボックスのサムネール画像の CSS プロパティ**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>サムネールの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの高さ </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
@@ -1038,7 +1038,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>パネルの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1063,7 +1063,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外側の余白。 </p> </td> 
   </tr> 
   <tr> 
@@ -1101,7 +1101,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外側の余白。 </p> </td> 
   </tr> 
   <tr> 
@@ -1138,7 +1138,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外側の余白。 </p> </td> 
   </tr> 
   <tr> 
@@ -1184,7 +1184,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
    <td colname="col2"> <p> メッセージ領域内のエラーアイコンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カラー </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>メッセージのテキストの色。 </p> </td> 
   </tr> 
   <tr> 
@@ -1253,7 +1253,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>スクロールパネルの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1278,7 +1278,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> スクロールバーの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -1318,7 +1318,7 @@ E メールメッセージの入力フィールドは、次のアイテムも使
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>トラックの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -1337,7 +1337,7 @@ background-color: #B2B2B2;
 }
 ```
 
-スクロールバーサムは、スクロールトラック領域内で垂直に移動します。 サムネールの垂直方向の位置は、コンポーネントのロジックによって完全に制御されますが、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下の CSS クラスセレクターを使用して設定できます。
+スクロールバーサムは、スクロールトラック領域内で垂直方向に移動します。 サムネールの垂直方向の位置は、コンポーネントのロジックによって完全に制御されますが、サムの高さはコンテンツの量に応じて動的に変化するわけではありません。 サムの高さやその他の要素は、以下の CSS クラスセレクターを使用して設定できます。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb
@@ -1348,11 +1348,11 @@ background-color: #B2B2B2;
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>サムの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>サムの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -1376,7 +1376,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->サムは `state` 属性セレクター。サムの状態ごとに異なるスキンを適用するのに使用できます。 `up`, `down`, `over`、および `disabled`.
+>サムは、 `state` 属性セレクター。サムの状態ごとに異なるスキンを適用するのに使用できます。 `up`, `down`, `over`、および `disabled`.
 
 例 — 28 x 45 ピクセルで、上と下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つスクロールバーサムを設定するには、次のように記述します。
 
@@ -1411,18 +1411,18 @@ background-color: #B2B2B2;
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS を使用してスクロールボタンを配置することはできません `top`, `left`, `bottom`、および `right` プロパティ。 代わりに、ビューアのロジックによって自動的に配置が決まります。
+CSS を使用してスクロールボタンを配置することはできません。 `top`, `left`, `bottom`、および `right` プロパティ。 代わりに、ビューアのロジックによって自動的に配置が決まります。
 
 **上下のスクロールボタンの CSS プロパティ**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 

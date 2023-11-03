@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 8%
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 ## フォルダーの目的 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-フォルダーを使用して、サブフォルダーとアセットを整理できます。 すべてのフォルダーとアセット名は一意である必要があります。 同じ名前を共有するフォルダーやアセットは、異なるフォルダー階層にある場合でも、名前空間の競合を引き起こします。
+フォルダーを使用して、サブフォルダーとアセットを整理できます。 すべてのフォルダーとアセット名は一意である必要があります。 同じ名前を共有するフォルダーやアセットは、異なるフォルダー階層にある場合でも名前空間の競合を引き起こします。
 構文
 
 ## 認証済みユーザータイプ {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
@@ -37,7 +37,7 @@ ht-degree: 8%
 >
 >ユーザーがフォルダーのデータを返すには、そのフォルダーへの読み取りアクセス権が必要です。
 
-## パラメータ {#section-0c1976503eaa418a9226b51667901176}
+## パラメーター {#section-0c1976503eaa418a9226b51667901176}
 
 **入力 (getFoldersParam)**
 

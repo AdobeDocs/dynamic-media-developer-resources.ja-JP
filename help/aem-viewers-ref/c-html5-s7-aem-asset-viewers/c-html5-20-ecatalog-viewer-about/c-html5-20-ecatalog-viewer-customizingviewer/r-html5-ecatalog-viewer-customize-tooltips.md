@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: f47ad399-dcf0-4860-81a3-31ff42cea648
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティに `!IMPORTANT` ルール。 ビューアの CSS ファイルでツールチップがカスタマイズされている場合、このルールは不要です。
+>埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティにを含める必要があります `!IMPORTANT` ルールを使用します。 ビューアの CSS ファイルでツールチップがカスタマイズされている場合、このルールは不要です。
 
 例 — 角丸の半径が 3 ピクセルのグレーの境界線、背景が黒で、テキストが Arial®で 11 ピクセルのサイズで書き込まれた白のツールチップを設定するには、次のように記述します。
 

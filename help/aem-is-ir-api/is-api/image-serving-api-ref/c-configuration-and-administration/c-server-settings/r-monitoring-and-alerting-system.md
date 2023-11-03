@@ -5,9 +5,9 @@ title: 監視および警告システム
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Alerting System Enable {#section-612f8ea61794426ab205e22e5f665fa9}
 
-を「true」に設定し、電子メール通知を設定することで、電子メール通知を有効にします。 を `false` すべての電子メールアラートをオフにします。これは、サーバーをメンテナンスのためにオフラインにする場合に役立ちます。 Boolean.
+を「true」に設定し、電子メール通知を設定することで、電子メール通知を有効にします。 をに設定します。 `false` すべての電子メールアラートをオフにします。これは、サーバーをメンテナンスのためにオフラインにする場合に役立ちます。 Boolean.
 
 ## AS::mailSender.host - SMTP ホスト {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -38,7 +38,7 @@ SMTP 電子メールサーバーのリスニングポート。
 
 ## AS::monitorAlertGenerator.alertInterval — 監視間隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-監視システムは、アラート間隔中にアラート条件を蓄積し、各間隔の終わりに蓄積されたすべてのアラートを含むアラート電子メールを送信します。 ミリ秒、整数値、60000以上。 通常は 5 または 10 分に設定します。
+監視システムは、アラート間隔中にアラート条件を蓄積し、各間隔の終わりに蓄積されたアラートを全て含むアラートメールを送信する。 ミリ秒、整数値、60000以上。 通常は 5 または 10 分に設定します。
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval — ヒープ領域のアラート間隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 

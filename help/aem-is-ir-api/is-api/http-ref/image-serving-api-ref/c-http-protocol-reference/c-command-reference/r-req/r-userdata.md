@@ -1,20 +1,20 @@
 ---
-description: 画像カタログのユーザデータ。 URLパスで指定された画像カタログエントリのユーザーデータを返します。
+description: 画像カタログのユーザデータ。 URL パスで指定された画像カタログエントリのユーザーデータを返します。
 solution: Experience Manager
 title: userdata
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
 
 # userdata{#userdata}
 
-画像カタログのユーザデータ。 URLパスで指定された画像カタログエントリのユーザーデータを返します。
+画像カタログのユーザデータ。 URL パスで指定された画像カタログエントリのユーザーデータを返します。
 
 `req=userdata[,text|{xml[, *`エンコード`*]}|json]`
 
@@ -25,18 +25,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-`catalog::UserData`の内容が返されます。 「text」形式を指定すると、`catalog::UserData`内の`??`のすべてのインスタンスが行終端子に置き換えられ、終端に1つの行終端子(CR/LF)が追加されます。 URLパスが有効なカタログエントリに解決されない場合、応答は1行のターミネータのみで構成されます。 「xml」または「json」形式が要求された場合は、適切な形式が適用されます。
+次の内容： `catalog::UserData` が返されます。 &#39;text&#39;形式を指定した場合、 `??` in `catalog::UserData`は行終端子に置き換えられ、1 行終端子 (CR/LF) が末尾に追加されます。 URL パスが有効なカタログエントリに解決されない場合、応答は 1 行のターミネータのみで構成されます。 「xml」または「json」形式が要求された場合は、適切な形式が適用されます。
 
 リクエスト文字列内の他のコマンドは無視されます。
 
-HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
+HTTP 応答は、TTL に基づいてキャッシュ可能です。 `catalog::Expiration`.
 
 >[!NOTE]
 >
->userdataプロパティのキー名では、コロンは使用できません。
+>userdata プロパティのキー名でコロンは使用できません。
 
-JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP 応答形式をサポートするリクエストでは、の拡張構文を使用して JS コールバックハンドラーの名前を指定できます。 `req=` パラメーター：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
+`<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみ使用できます。 オプション。初期設定は `s7jsonResponse`.

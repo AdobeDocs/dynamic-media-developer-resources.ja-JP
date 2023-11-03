@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
-  <td class="stentry"> <p>外部サーバーへのリクエスト。 </p></td> 
+  <td class="stentry"> <p>外部サーバーに対するリクエスト。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 繰り返し可能なテクスチャ、デカール、壁紙のマテリアルには、1 つの画像が必要です。画像は、ファイルまたは埋め込み要求として指定できます。
 
-キャビネットのマテリアルにはキャビネットスタイルのファイル ( [!DNL .vnc]) で始まり、ネストされたリクエストとして指定することはできません。 テクスチャイメージファイルはキャビネット用のオプションで、指定した場合は、ファイルまたは埋め込み要求のどちらかです。
+キャビネットのマテリアルにはキャビネットスタイルのファイル ( [!DNL .vnc]) で始まり、ネストされたリクエストとして指定することはできません。 テクスチャイメージファイルはキャビネット用のオプションで、指定した場合は、ファイルまたは埋め込み要求のどちらでもかまいません。
 
 窓カバリングマテリアルには、窓カバリングスタイルファイル ( [!DNL .vnw]) で始まり、ネストされたリクエストとして指定することはできません。 テクスチャファイルはオプションで、指定した場合は、ファイルまたは埋め込み要求のどちらでもかまいません。
 
@@ -83,9 +83,9 @@ ht-degree: 2%
 
 *`materialFile`* 次に対する相対パスです： `attribute::RootPath`.
 
-*`foreignReq`* 次に対する相対 URL を指定できます。 `attribute::RootUrl`、または `attribute::AllowDirectUrls` が設定されている。
+*`foreignReq`* 次に対する相対 URL を指定できます。 `attribute::RootUrl`またはの場合は絶対 URL `attribute::AllowDirectUrls` が設定されている。
 
-If *`catId`* が指定されていない場合、セッションカタログが使用されます。
+次の場合 *`catId`* が指定されていない場合、セッションカタログが使用されます。
 
 `srcE=` および `srcN=` ビネットに埋め込まれたマテリアルにアクセスできます。
 

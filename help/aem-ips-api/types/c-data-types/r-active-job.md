@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 * `JobUploadDirectoryJob`
 * `uploadUrlsJob`
 
-## パラメータ {#section-6590fe864a434000822b9ec384784512}
+## パラメーター {#section-6590fe864a434000822b9ec384784512}
 
 <table id="table_1C4DDAB4EB1341FDA92B6F14E0132F75"> 
  <thead> 
@@ -90,7 +90,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ジョブを実行するサーバーの名前。 </td> 
+   <td colname="col3"> ジョブを実行しているサーバーの名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
@@ -105,7 +105,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 進行状況</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> ジョブの進行状況（ジョブが完了するまでの距離）。 </td> 
+   <td colname="col3"> ジョブの進行状況（つまり、ジョブが完了するまでの距離）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -130,7 +130,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ImageServingRenderJob</span> </td> 
-   <td colname="col3"> 画像レンダリング公開ジョブのジョブ詳細。 </td> 
+   <td colname="col3"> 画像レンダリング公開ジョブのジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
@@ -149,7 +149,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：RipPdfsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：RipPdfsJob[ たいぷ：RipPdfsJob]</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 

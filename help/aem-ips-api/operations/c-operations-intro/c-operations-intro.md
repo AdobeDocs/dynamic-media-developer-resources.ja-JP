@@ -5,9 +5,9 @@ title: 操作メソッド
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 各操作パラメータの詳細については、 [操作のパラメーター](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## ハンドル：について {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## ハンドル：概要 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 特定の API 操作で返された参照 IPS オブジェクトを処理します。 ハンドルを後続の操作呼び出しにパラメーターとして渡すこともできます。 ハンドルは文字列データ型 ( `xsd:string`) をクリックします。
 
@@ -55,7 +55,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **userHandle**
 
-この `userHandle` parameter は、特定のユーザーを対象とする操作のオプションのパラメータです。 デフォルトでは、これらの操作は呼び出し元のユーザー（認証用に資格情報が渡されたユーザー）をターゲットにします。 ただし、適切な権限を持つ管理者ユーザーは、別のユーザーを指定できます。 例えば、 `setPassword` operation は通常、認証済みユーザーのパスワードを設定しますが、管理者は `userHandle` パラメーターを使用して、別のユーザーのパスワードを設定します。
+The `userHandle` parameter は、特定のユーザーを対象とする操作のオプションのパラメータです。 デフォルトでは、これらの操作は呼び出し元のユーザー（認証用に資格情報が渡されたユーザー）をターゲットにします。 ただし、適切な権限を持つ管理者ユーザーは、別のユーザーを指定できます。 例えば、 `setPassword` operation は通常、認証済みユーザーのパスワードを設定しますが、管理者は `userHandle` パラメーターを使用して、別のユーザーのパスワードを設定します。
 
 会社のコンテキストを必要とする操作の場合 ( `companyHandle` パラメーター ) の場合、認証済みユーザーとターゲットユーザーの両方が、指定した会社のメンバーである必要があります。 会社のコンテキストを必要としない操作の場合、認証済みユーザーとターゲットユーザーの両方が、少なくとも 1 つの共通の会社のメンバーである必要があります。
 
@@ -70,11 +70,11 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **accessUserHandle および accessGroupHandle**
 
-デフォルトでは、アクセス権限（読み取り、書き込み、削除）を必要とする操作は、呼び出し元ユーザーの権限コンテキストで動作します。 特定の操作を行うと、 `accessUserHandle` または `accessGroupHandle` パラメーター。 この `accessUserHandle` パラメーターを使用すると、管理者は別のユーザーを装うことができます。 この `accessGroupHandle` パラメータを使用すると、呼び出し元は特定のユーザーグループのコンテキストで操作できます。
+デフォルトでは、アクセス権限（読み取り、書き込み、削除）を必要とする操作は、呼び出し元ユーザーの権限コンテキストで動作します。 特定の操作を行うと、このコンテキストを `accessUserHandle` または `accessGroupHandle` パラメーター。 The `accessUserHandle` パラメーターを使用すると、管理者は別のユーザーを装うことができます。 The `accessGroupHandle` パラメータを使用すると、呼び出し元は特定のユーザーグループのコンテキストで操作できます。
 
 **responseFieldArray と excludeFieldArray**
 
-一部の操作では、呼び出し元が応答に含まれるフィールドを制限できます。 フィールドを制限すると、リクエストの処理に必要な時間とメモリを削減し、応答データのサイズを小さくすることができます。 呼び出し元は、 `responseFieldArray` パラメーターを使用するか、列挙型の除外されたフィールドのリストを使用して `excludeFieldArray` パラメーター。
+一部の操作では、呼び出し元が応答に含まれるフィールドを制限できます。 フィールドを制限すると、リクエストの処理に必要な時間とメモリを削減し、応答データのサイズを小さくすることができます。 呼び出し元は、 `responseFieldArray` パラメーターを使用するか、除外されたフィールドのリストを列挙した値を `excludeFieldArray` パラメーター。
 
 両方 `responseFieldArray` および `excludeFieldArray` 次で区切ったノードパスを使用してフィールドを指定 `/`. 例えば、次のように指定します。 `searchAssets` は、各アセットの名前、最終変更日およびメタデータのみを返します。次を参照してください。
 
@@ -102,7 +102,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 IPS 4.0 以降、IPS API では、 `authHeader` ロケールパラメーター。 ロケールパラメータが存在しない場合、HTTP ヘッダー `Accept-Language` が使用されます。 このヘッダーも存在しない場合は、IPS サーバのデフォルトのロケールが使用されます。
 
-また、特定の操作では、明示的なロケールパラメータを使用します。このパラメータは、操作ロケールコンテキストとは異なる場合があります。 例えば、 `submitJob` 手術を受ける `locale` ジョブのログと電子メール通知に使用するロケールを設定するパラメーター。
+また、特定の操作では、明示的なロケールパラメータを使用します。これは、操作ロケールのコンテキストとは異なる場合があります。 例えば、 `submitJob` 手術を受ける `locale` ジョブのログと電子メール通知に使用するロケールを設定するパラメーター。
 
 ロケールパラメーターは形式を使用します `<language_code>[-<country_code>]`
 

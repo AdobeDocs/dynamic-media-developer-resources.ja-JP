@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 4%
 
 `img`
 
-指定したコマンドを実行し、レンダリングされたイメージを返します。 返信データの形式と応答タイプは、 `fmt=`.
+指定したコマンドを実行し、レンダリングされたイメージを返します。 返信データの形式と応答の種類は、 `fmt=`.
 
 `imageprops`
 
@@ -113,7 +113,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td colname="col2"> <p>Enum </p> </td> 
-   <td colname="col3"> <p>応答画像のピクセルタイプ。は、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）です。 </p> </td> 
+   <td colname="col3"> <p>応答画像のピクセルタイプ。「CMYK」、「RGB」または「BW」（グレースケール画像の場合）を指定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -166,11 +166,11 @@ URL パスで指定されたビネットファイルまたはカタログエン�
 
 マップデータは、 `wid=` または `hei=` またはそれ以外の場合は変更されます。 応答の MIME タイプは次のとおりです。 `<text/xml>`.
 
-応答データは、 `<map>` 一連の `<area>` 要素 (HTML `<AREA>` タグを使用します。
+応答データは、 `<map>` 一連のを含む要素 `<area>` 要素 (HTML `<AREA>` タグを使用します。
 
-各 `<area>` 要素に標準を含める `type=` および `coord=` 属性、および `name=` 属性で、ビネットグループ名または名前パスを指定します。 複数 `<area>` 対応するオブジェクトグループのマスクに不連続な領域がある場合、同じ名前の要素が存在します。
+各 `<area>` 要素に標準を含める `type=` および `coord=` 属性、および `name=` 属性で、ビネットグループ名または名前パスを指定します。 複数 `<area>` 対応するオブジェクトグループのマスクに不連続な領域がある場合は、同じ名前の要素が存在します。
 
-デフォルトの属性に加えて、ビネットで追加の属性を定義できます（作成した場合）。 このようなカスタム属性は、オブジェクトグループ属性として定義されます。 カスタム属性の名前はで始める必要があります `map` 含まれる `<area>` 要素。 例えば、グループ属性に `map.href=http://www.scene7.com`、 `<area>` 要素を含む `href="http://www.scene7.com"`.
+デフォルトの属性に加えて、ビネットで追加の属性を定義できます（作成した場合）。 このようなカスタム属性は、オブジェクトグループ属性として定義されます。 カスタム属性の名前はで始める必要があります `map` 含まれる `<area>` 要素。 例えば、グループ属性に `map.href=http://www.scene7.com`を指定し、 `<area>` 要素を含む `href="http://www.scene7.com"`.
 
 空の XML ドキュメント `<map>` ビネットにマップデータが含まれていない場合は、要素が返されます。
 
@@ -180,7 +180,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
 
 `props`
 
-指定したコマンドを実行し、ビネットプロパティとグループまたはオブジェクトプロパティを返します。レンダリングされたイメージは返されません。 詳しくは、 [プロパティ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) ：返信構文と応答 MIME タイプの説明。 デフォルトの選択が適用されるのは、 `obj=` または `sel=` また、 [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)) をクリックします。
+指定したコマンドを実行し、ビネットプロパティとグループまたはオブジェクトプロパティを返します。レンダリングされたイメージは返されません。 詳しくは、 [プロパティ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) ：返信構文と応答の MIME タイプの説明。 デフォルトの選択が適用されるのは、次の場合を除きます。 `obj=` または `sel=` また、 [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)) をクリックします。
 
 応答には、次のプロパティが含まれる場合があります。
 
@@ -246,7 +246,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td> <p> <span class="codeph"> image.width </span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> 返信画像の幅（ピクセル単位） </p> </td> 
+   <td> <p> 返信画像の幅（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.attributes </span> </p> </td> 
@@ -271,7 +271,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td> <p> <span class="codeph"> selection.overlapping </span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> 現在の選択範囲内の重複オブジェクトの数。 </p> </td> 
+   <td> <p> 現在の選択範囲内の重なり合うオブジェクトの数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.renderable </span> </p> </td> 

@@ -5,7 +5,7 @@ title: Adobe Analytics追跡のサポート
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -24,7 +24,7 @@ eCatalog 検索ビューアは、 [!DNL Adobe Analytics] 追跡機能が標準�
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックを呼び出して処理する `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
@@ -54,7 +54,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
+   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -64,7 +64,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ビューア内でアセットが入れ替えられたとき、 <span class="codeph"> setAsset() </span> API </p> </td> 
+   <td colname="col2"> <p>ビューア内でアセットが入れ替えられたときに、 <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

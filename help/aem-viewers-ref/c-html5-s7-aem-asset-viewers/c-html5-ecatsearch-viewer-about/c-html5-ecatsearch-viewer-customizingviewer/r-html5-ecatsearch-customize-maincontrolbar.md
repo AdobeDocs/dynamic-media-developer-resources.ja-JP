@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 メインコントロールバーは、デスクトップシステムおよびタブレットの長方形の領域で、eCatalog 検索ビューアで使用できるすべてのユーザーインターフェイスコントロール（大きいページボタンを除く）が含まれます。
 
-携帯電話では、引き続き「サムネール」、「目次」、「ダウンロード」、「印刷」、「お気に入り」、「ソーシャル共有」、「全画面表示」および「閉じる」ボタンが保持されます。 ただし、最初のページボタンと最後のページボタンおよびページインジケーターは、メインコントロールバーから削除され、代わりにセカンダリコントロールバーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムおよび携帯電話ではビューア領域の上部に表示され、タブレットではビューア領域の下部に移動します。 ビューアの幅は常に、使用可能な全体になります。 CSS 内で、ビューアのコンテナを基準にして、カラー、高さ、垂直方向の位置を変更できます。
+携帯電話では、引き続き「サムネール」、「目次」、「ダウンロード」、「印刷」、「お気に入り」、「ソーシャル共有」、「フルスクリーン」および「閉じる」ボタンが保持されます。 ただし、最初のページボタンと最後のページボタンおよびページインジケーターは、メインコントロールバーから削除され、代わりにセカンダリコントロールバーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムおよび携帯電話ではビューア領域の上部に表示され、タブレットではビューア領域の下部に移動します。 ビューアの幅は常に、使用可能な全体になります。 CSS 内で、ビューアのコンテナを基準にして、カラー、高さ、垂直方向の位置を変更できます。
 
 メインコントロールバーの外観は、以下の CSS クラスセレクターを使用して制御します。
 
@@ -74,7 +74,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 掲載順位 </span> </p> </td> 
    <td colname="col2"> <p>に設定する場合 <span class="codeph"> 静的 </span> スクロール機能は無効です。 </p> <p>このプロパティをに設定します。 <span class="codeph"> 絶対 </span> をクリックして、スクロール機能を有効にします。 </p> </td> 
   </tr> 
  </tbody> 
@@ -120,11 +120,11 @@ CSS を使用して、スクロールボタン自体のサイズを設定した�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +140,7 @@ CSS を使用して、スクロールボタン自体のサイズを設定した�
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、コントロールバーの内容を左にスクロールできる場合の、最初のスクロールボタンの状態に対応します。 この `state="default"` は、コンテンツが左端までスクロールされた状態に対応し、スクロールボタンは、コンテンツを初期状態に戻すことを示します。
+>このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、コントロールバーの内容を左にスクロールできる場合の、最初のスクロールボタンの状態に対応します。 The `state="default"` は、コンテンツが左端までスクロールされた状態に対応し、スクロールボタンは、コンテンツを初期状態に戻すことを示します。
 
 ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 

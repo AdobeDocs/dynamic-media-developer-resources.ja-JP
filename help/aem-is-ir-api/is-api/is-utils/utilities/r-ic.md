@@ -5,10 +5,10 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 2%
+source-wordcount: '1204'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>options</i> </span> </span> </p> </td> 
-   <td colname="col2"> <p>コマンドオプション（以下を参照） </p> </td> 
+   <td colname="col2"> <p>コマンドオプション（以下を参照）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> <i>sourceFile</i> </span> </span> </p> </td> 
@@ -81,7 +81,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> 品質 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>JPEG品質 (0 ～ 100)デフォルトは 95 です )。 </p> </td> 
+   <td colname="col2"> <p>JPEG画質（0 ～ 100、デフォルトは 95）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplecrominance </span> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>用の印刷解像度 (dpi) <span class="codeph"> <span class="varname"> destFile </span> </span>;指定しなかった場合、 <span class="codeph"> srcFile </span> が <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>用の印刷解像度 (dpi) <span class="codeph"> <span class="varname"> destFile </span> </span>を指定しない場合、の印刷解像度 <span class="codeph"> srcFile </span> が次の場所にコピーされます： <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> 許容値 </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
@@ -106,9 +106,9 @@ ht-degree: 2%
 <p><i><b>corner</b></i> - ul | ur | ll | lr </p>
    <p> シードポイントを使用する画像のコーナーを指定します。 mode が 1 の場合は無視されます。</p>
    <p><i><b>mode</b></i> - 0 | 1</p>
-   <p>指定した角のピクセルの色に基づいて切り抜くには、0 に設定します。アルファデータがソースイメージに関連付けられている場合、プリマルチプライカラーデータに対して機能します。</p>
-   <p>アルファデータに基づいて切り抜くには、1 に設定します。corner は無視され、 0 は常にシード値です。アルファデータがソース画像に関連付けられていない場合、切り抜きは適用されません。</p> 
-   <p><i><b>許容値</b></i>  — 一致許容値。 実数値 0.0 ～ 1.0。ピクセルコンポーネントの値の一致に対する許容値を指定します。 完全に一致する場合は 0 に設定します。</p>
+   <p>指定したコーナーピクセルのカラーに基づいて切り抜くには 0 に設定します。アルファデータがソースイメージに関連付けられている場合は、プリマルチプライカラーデータに対して機能します。</p>
+   <p>アルファデータに基づいて切り抜くには 1 に設定します。角は無視され、常にシード値は 0 になります。アルファデータがソース画像に関連付けられていない場合は、切り抜きは適用されません。</p> 
+   <p><i><b>許容値</b></i>  — 一致許容値。 0.0 ～ 1.0 の実数値。ピクセルコンポーネントの値の一致に対する許容値を指定します。 完全に一致する場合は 0 に設定します。</p>
    <p><i><b>infoFile</b></i>  — 切り抜き情報データが書き込まれる XML 出力ファイルのパスと名前。</p>
 
 <p>  
@@ -127,7 +127,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> ファイル </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 のピクセルタイプとカラースペースを定義します。 <span class="codeph"> <span class="varname"> destFile </span> </span>. 次の場合、IC はこのプロファイルに変換されます <span class="codeph"> <span class="varname"> sourceFile </span> </span> には、埋め込まれたプロファイルがあるか、 <span class="codeph"> -imageprofile </span> も指定されます。 </p> </td> 
+   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 のピクセルタイプとカラースペースを定義します。 <span class="codeph"> <span class="varname"> destFile </span> </span>. 次の場合、IC はこのプロファイルに変換されます。 <span class="codeph"> <span class="varname"> sourceFile </span> </span> には、埋め込まれたプロファイルがあるか、 <span class="codeph"> -imageprofile </span> も指定されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
@@ -226,7 +226,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> 割合 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>メモリ使用量の制限。 デフォルトは、物理メモリの 25 %です。 どちらも <span class="codeph"> maxmem </span> nor <span class="codeph"> maxmempercent </span> は、maxmempercent デフォルトを使用して明示的に設定されます。 </p> </td> 
+   <td colname="col2"> <p>メモリ使用量の制限。 デフォルトは、物理メモリの 25 %です。 どちらでもない場合 <span class="codeph"> maxmem </span> nor <span class="codeph"> maxmempercent </span> は、maxmempercent デフォルトを使用して明示的に設定されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -バージョン </span> </p> </td> 
@@ -272,7 +272,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> CompServe </p> <b>GIF</b> </td> 
+   <td> <p> CompuServe </p> <b>GIF</b> </td> 
    <td> <p> インデックス付き </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> LZW </p> </td> 
@@ -290,14 +290,14 @@ ht-degree: 2%
    <td> <p> CMYK | CMYKA |RGB | RGBA | gray | grayA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 非圧縮 |圧縮 </p> </td> 
-   <td> <p> 結合された画像のみ；レイヤーと追加のチャンネルは無視されます。 </p> </td> 
+   <td> <p> 結合された画像のみ。レイヤーと追加のチャンネルは無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Macintosh </p> <b>PICT</b> </td> 
    <td> <p> RGB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> ビットマップデータのみベクトルデータは無視されます。 </p> </td> 
+   <td> <p> ビットマップデータのみ。ベクトルデータは無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 

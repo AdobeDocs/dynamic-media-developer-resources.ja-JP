@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ eCatalog ビューアに表示されるコンテンツには、ズームボタ�
 
 ビューア内のテキスト内のローカライズ可能なコンテンツは、SYMBOL と呼ばれる、特別な Viewer SDK 識別子で表されます。 SYMBOL には、英語のロケール ( `"en"`) が標準のビューアに付属しており、必要に応じてロケールのユーザ定義値も設定されている場合があります。
 
-ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされる各シンボルに対してユーザ定義の値があるかどうかが確認されます。 存在する場合は、ユーザー定義の値が使用されます。それ以外の場合は、標準のデフォルトテキストにフォールバックされます。
+ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされる各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値を使用します。それ以外の場合は、標準のデフォルトテキストにフォールバックされます。
 
-ユーザ定義のローカリゼーションデータは、ローカリゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケール、各ロケールの SYMBOL テキスト値、およびデフォルトのロケールのリストが含まれます。
+ユーザ定義のローカリゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケール、各ロケールの SYMBOL テキスト値、およびデフォルトのロケールのリストが含まれます。
 
 このようなローカリゼーションオブジェクトの例を次に示します。
 
@@ -54,7 +54,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>最上位ビューア要素の ARIA ラベル。 </p> </td> 
+   <td colname="col2"> <p>トップレベルのビューア要素の ARIA ラベル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.ROLE_DESCRIPTION </span> </p> </td> 
@@ -66,7 +66,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>閉じるボタン。 </p> </td> 
+   <td colname="col2"> <p>「閉じる」ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
@@ -78,15 +78,15 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>ズームのリセットボタン </p> </td> 
+   <td colname="col2"> <p>ズームのリセットボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>通常の状態のフルスクリーンボタン。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタン（通常の状態） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>全画面表示状態のフルスクリーンボタン。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーン状態のフルスクリーンボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -130,7 +130,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>サムネールモードのサムネールボタン </p> </td> 
+   <td colname="col2"> <p>サムネールモードのサムネールボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ThumbnailPageButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -138,7 +138,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>閉じるボタン。 </p> </td> 
+   <td colname="col2"> <p>「閉じる」ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InfoPanelPopup.TOOLTIP_CLOSE </span> </p> </td> 
@@ -186,7 +186,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
-   <td colname="col2"> <p>「メールアドレスを削除」ボタン。 </p> </td> 
+   <td colname="col2"> <p>「電子メールアドレスを削除」ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
@@ -294,11 +294,11 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook共有ボタン </p> </td> 
+   <td colname="col2"> <p>Facebookの共有ボタン </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Twitter共有ボタン </p> </td> 
+   <td colname="col2"> <p>Twitter共有ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -310,7 +310,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>[ 印刷 ] ダイアログボックスの右上の閉じるボタン。 </p> </td> 
+   <td colname="col2"> <p>[ 印刷 ] ダイアログボックスの右上の [ 閉じる ] ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE </span> </p> </td> 
@@ -322,7 +322,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
-   <td colname="col2"> <p>「範囲の指定」ラジオボタンのキャプション。 </p> </td> 
+   <td colname="col2"> <p>「次から範囲を拡大」ラジオボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_TO </span> </p> </td> 
@@ -349,7 +349,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「キャンセル」ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PRINT.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p> 「キャンセル」ボタン。 </p> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p> 「印刷に送信」ボタン </p> </td> 
+   <td colname="col2"> <p> 「印刷に送信」ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> お気に入りメニュー.TOOLTIP </span> </p> </td> 
@@ -366,7 +366,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>お気に入りの編集モードの「お気に入りを追加」ボタン </p> </td> 
+   <td colname="col2"> <p>[ お気に入りの編集 ] モードの [ お気に入りの追加 ] ボタン </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -394,7 +394,7 @@ Web ページコードでは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>読み込み時にビューアによって生成されるページラベル。 </p> <p>このシンボルの名前はテンプレートで、 <span class="codeph"> XX </span> は、横向きの 0 から始まる見開きインデックスで、オプションです。 <span class="codeph"> YY </span> は、 <span class="codeph"> XX </span>. </p> <p>最初に読み込まれたアセットにのみ適用されます。アセットが <span class="codeph"> setAsset() </span> API 呼び出し。 </p> </td> 
+   <td colname="col2"> <p>読み込み時にビューアによって生成されるページラベル。 </p> <p>このシンボルの名前はテンプレートで、 <span class="codeph"> XX </span> は、横向きの 0 を基準とする見開きインデックスで、オプションです。 <span class="codeph"> YY </span> は、次の条件を満たす見開き内の 0 を基準とするページインデックスです： <span class="codeph"> XX </span>. </p> <p>最初に読み込まれたアセットにのみ適用され、 <span class="codeph"> setAsset() </span> API 呼び出し。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 

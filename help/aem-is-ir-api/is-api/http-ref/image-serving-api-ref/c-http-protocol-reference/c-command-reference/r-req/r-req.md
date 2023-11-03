@@ -2,13 +2,13 @@
 description: リクエストタイプ。 リクエストのタイプを指定します。
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 9%
+source-wordcount: '90'
+ht-degree: 10%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 9%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-詳細な説明に特に記載がない限り、サーバーはMIMEタイプ`text/plain`の`text`応答を返します。 多くのリクエストタイプでは、`text`などの応答タイプを指定できます。通常は、`javascript`、`xml`、`json`です。 関連する応答のMIMEタイプは、それぞれ`text/plain`、`text/javascript`、`text/xml`、`text/javascript`です。
+詳細な説明に特に記載がない限り、サーバは `text` MIME タイプの応答 `text/plain`. 多くのリクエストタイプでは、次のような応答タイプを指定できます。 `text` これは通常、デフォルトの `javascript`, `xml`または `json`. 関連する応答の MIME タイプは次のとおりです `text/plain`, `text/javascript`, `text/xml`、および `text/javascript`、それぞれ。
 
-特に断りのない限り、応答は`name=value`のペアのセットとしてフォーマットされます。
+特に断りのない限り、応答はのセットとして形式設定されます。 `name=value` ペア。
 
-[プロパティ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)を参照してください。
+詳しくは、 [プロパティ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

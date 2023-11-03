@@ -4,9 +4,10 @@ description: クローズドキャプションの表示/非表示を切り替え
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -51,7 +52,7 @@ CSS を使用して、このボタンのサイズ、スキン、およびこの�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -72,7 +73,7 @@ CSS を使用して、このボタンのサイズ、スキン、およびこの�
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-28 x 28 ピクセルのクローズドキャプションボタンを設定するには、次のように記述します。 コントロールバーの上から 4 ピクセル、右端から 68 ピクセルの位置に配置されます。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
+28 x 28 ピクセルのクローズドキャプションボタンを設定するには、次の手順に従います。 コントロールバーの上から 4 ピクセル、右端から 68 ピクセルの位置に配置されます。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

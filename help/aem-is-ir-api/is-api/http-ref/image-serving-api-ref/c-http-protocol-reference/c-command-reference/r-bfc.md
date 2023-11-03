@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>ブラウザー形式変換機能を使用してJPEGまたは PNG 画像を小さいブラウザー固有のファイル形式に変換する場合に true を指定します ( <span class="codeph"> オン </span>) または false ( <span class="codeph"> オフ </span> ブラウザ固有の形式の変換がない場合 )。 </p> </td> 
+  <td class="stentry"> <p>ブラウザー形式変換機能を使用してJPEGまたは PNG 画像を小さいブラウザー固有のファイル形式に変換する場合に true を指定します ( <span class="codeph"> オン </span>) または false ( <span class="codeph"> オフ </span> ブラウザー固有の形式の変換を行わない場合にのみ使用 )。 </p> </td> 
  </tr> 
 </table>
 

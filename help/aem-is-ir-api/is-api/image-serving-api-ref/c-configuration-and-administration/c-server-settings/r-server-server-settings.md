@@ -5,9 +5,9 @@ title: サーバ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Image Server の 32 ビット版と 64 ビット版の両方が Linux で利用�
 
 ## SV::PsHeapSize - [!DNL Platform Server] ヒープサイズ {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-の Java ヒープサイズ [!DNL Platform Server]. デフォルト&quot; `512m`&quot; （512M バイト）
+の Java ヒープサイズ [!DNL Platform Server]. デフォルト値は&quot; `512m`&quot; （512M バイト）
 
 ## IS::TcpPort, PS::isConnection.port - Image Server リスニングポート {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
@@ -44,11 +44,11 @@ Image Server の 32 ビット版と 64 ビット版の両方が Linux で利用�
 
 物理メモリの割合で表される、インメモリイメージデータの近似制限。 有効な範囲は 10%～ 90%です。 Image Server は、イメージメモリの使用を、指定可能な場合は指定した量に制限しようとします。 この制限は、処理アクティビティが多い間、一時的に超える場合があります。
 
-## IS::WorkerThreads - Image Server ワーカースレッド数 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Image Server ワーカーThreadsの数 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Image Server が画像データの処理に使用するスレッドの最大数です。 初期設定は 0 で、Image Server は自動的にスレッド数を最適化できます。
 
-一部のオペレーティングシステムでは、高いコンテキストスイッチングオーバーヘッドを持つスレッディングモデルが搭載されています。 このような状況では、特定のスレッド数を選択すると（CPU 1 つにつき 1 つのスレッドなど）、サーバー全体のパフォーマンスが向上する場合があります。 最適な設定を見つけるには、いくつかの実験が必要になる場合があります。 詳しくは、画像サービングのリリースノートおよびオペレーティングシステムのドキュメントを参照してください。
+一部のオペレーティングシステムでは、高いコンテキストスイッチングオーバーヘッドを持つスレッディングモデルが搭載されています。 このような状況では、特定のスレッド数を選択すると（CPU 1 つにつき 1 つのスレッドが選択されるなど）、サーバー全体のパフォーマンスが向上する場合があります。 最適な設定を見つけるには、いくつかの実験が必要になる場合があります。 詳しくは、画像サービングのリリースノートおよびオペレーティングシステムのドキュメントを参照してください。
 
 ## IS::NumberOfTextServers — テキストサーバーインスタンスの数 {#section-971e20a90c1a473598fba738ed95671a}
 

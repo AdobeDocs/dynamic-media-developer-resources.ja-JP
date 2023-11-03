@@ -5,9 +5,9 @@ title: 画像カタログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 * 特定のメタデータおよび修飾子コマンドを使用して、画像の永続的な関連付けを許可します。
 
-   画像カタログ内のエントリは、ショートカット表記を使用して参照されます `*`rootId/objId`*`で、 `*`rootId`*` は画像カタログを識別し、 `*`objId`*` カタログ内のデータレコードを識別します。
+  画像カタログ内のエントリは、ショートカット表記を使用して参照されます。 `*`rootId/objId`*`です。 `*`rootId`*` は、画像カタログを識別し、 `*`objId`*` は、カタログ内のデータレコードを識別します。
 * 特定の要求属性のデフォルト (JPEGの品質や透かしを適用するかどうかなど ) を指定します。
 * フォント、ICC プロファイル、マクロ定義、要求テンプレートを管理します
 
-特定の画像カタログが定義されていない場合でも、画像カタログのすべての機能はデフォルトのカタログ ( [!DNL default.ini]) をクリックします。
+特定の画像カタログが定義されていない場合でも、画像カタログのすべての機能は、デフォルトのカタログ ( [!DNL default.ini]) をクリックします。
 
-If `*`rootId`*` の URL パスが一致する `attribute::RootId` 特定の画像カタログの場合、そのカタログがこのリクエストのメインカタログになります。 メインカタログには、要求全体のデフォルトの属性と設定が表示されます。 一致するものが見つからない場合は、代わりにデフォルトのカタログが使用されます。
+次の場合 `*`rootId`*` リクエストの URL パスが一致する `attribute::RootId` 特定の画像カタログの場合、そのカタログがこのリクエストのメインカタログになります。 メインカタログには、要求全体のデフォルトの属性と設定が表示されます。 一致するものが見つからない場合は、代わりにデフォルトのカタログが使用されます。
 
-カタログが `src=` または `mask=` コマンドは、現在の画層に次のカタログ属性とデータを提供します。
+以下の項目で識別されるカタログ `src=` または `mask=` コマンドは、現在の画層に次のカタログ属性とデータを提供します。
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +44,7 @@ If `*`rootId`*` の URL パスが一致する `attribute::RootId` 特定の画�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> デフォルト <span class="codeph"> catalog::Expiration</span> カタログレコードが関係しない場合は、現在の画層の有効期限 </p> </td> 
+   <td> <p> のデフォルト <span class="codeph"> catalog::Expiration</span> カタログレコードが関係しない場合は、現在の画層の有効期限 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
@@ -56,11 +56,11 @@ If `*`rootId`*` の URL パスが一致する `attribute::RootId` 特定の画�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> デフォルト <span class="codeph"> catalog::Resolution</span> のみ </p> </td> 
+   <td> <p> のデフォルト <span class="codeph"> catalog::Resolution</span> のみ </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Anchor</span> </p> </td> 
-   <td> <p> デフォルト <span class="codeph"> anchor=</span> 現在の画層の値 </p> </td> 
+   <td> <p> のデフォルト <span class="codeph"> anchor=</span> 現在の画層の値 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Expiration</span> </p> </td> 
@@ -76,11 +76,11 @@ If `*`rootId`*` の URL パスが一致する `attribute::RootId` 特定の画�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::MaskPath</span> </p> </td> 
-   <td> <p> デフォルト <span class="codeph"> mask=</span> 現在の画層の </p> </td> 
+   <td> <p> のデフォルト <span class="codeph"> mask=</span> 現在の画層の </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Modifier</span> </p> </td> 
-   <td> <p> 現在の画層のプレフィックスコマンド ( <span class="codeph"> catalog::Modifier</span> は、同じレイヤーに対して指定されている場合、URL 内の同じコマンドで上書きできます ) </p> </td> 
+   <td> <p> 現在の画層のプレフィックスコマンド ( <span class="codeph"> catalog::Modifier</span> は、同じレイヤーに対して指定されている場合、URL 内の同じコマンドで上書きできます )。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Path</span> </p> </td> 
@@ -99,7 +99,7 @@ If `*`rootId`*` の URL パスが一致する `attribute::RootId` 特定の画�
 
 同じレイヤー内で、 `src=` および `mask=` は、同じ画像カタログを参照する必要があります（存在する場合）。
 
-カタログが `icc=` コマンドは、カタログの ICC プロファイルテーブルからエントリを検索する目的でのみ使用します。 他のカタログ属性やデータは関係ありません。
+以下の項目で識別されたカタログ `icc=` コマンドは、カタログの ICC プロファイルテーブルからエントリを検索する目的でのみ使用します。 他のカタログ属性やデータは関係ありません。
 
 もし `*`rootId`*` カタログに解決され、 `*`objId`*` が `catalog::Id` このカタログでは、 `*`rootId/objId`*` は、次のようなカタログエントリに事実上置き換えられます。
 

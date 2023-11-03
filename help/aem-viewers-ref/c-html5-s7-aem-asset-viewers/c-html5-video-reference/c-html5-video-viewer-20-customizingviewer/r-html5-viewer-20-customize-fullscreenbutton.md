@@ -1,20 +1,20 @@
 ---
-title: 全画面表示ボタン
-description: フルスクリーンボタンをクリックすると、ビデオプレーヤーのフルスクリーンモードが開始または終了します。
+title: フルスクリーンボタン
+description: フルスクリーンボタンをクリックすると、ビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
-# 全画面表示ボタン{#full-screen-button}
+# フルスクリーンボタン{#full-screen-button}
 
-フルスクリーンボタンを使用すると、ビデオプレーヤーは、ユーザーがフルスクリーンモードを選択したときにフルスクリーンモードに入るか、終了します。
+フルスクリーンボタンを使用すると、ユーザーがフルスクリーンモードを選択したときに、ビデオプレーヤーがフルスクリーンモードに入るか、終了します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -52,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

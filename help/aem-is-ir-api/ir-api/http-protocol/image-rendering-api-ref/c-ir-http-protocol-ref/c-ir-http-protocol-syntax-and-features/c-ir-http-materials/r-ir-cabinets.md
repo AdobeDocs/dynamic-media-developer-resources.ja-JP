@@ -1,22 +1,22 @@
 ---
 title: キャビネット
-description: キャビネットマテリアルは、キャビネットスタイルファイル（.vnc ファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特別なデータファイルを指定します。
+description: キャビネットマテリアルは、キャビネットスタイルファイル（.vnc ファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 5%
+source-wordcount: '157'
+ht-degree: 4%
 
 ---
 
 # キャビネット{#cabinets}
 
-キャビネットマテリアルは、キャビネットスタイルファイル（.vnc ファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特別なデータファイルを指定します。
+キャビネットマテリアルは、キャビネットスタイルファイル（.vnc ファイル拡張子）、キャビネットの写真表現と、パラメトリックレイアウト定義およびキャビネットフロントのレンダリングに必要なその他の情報を含む特殊なデータファイルを指定します。
 
-[!DNL vnc] 繰り返し可能な木目テクスチャを含めるか、2 つ目の引数を使用して外部からテクスチャを指定して `src=`. 特定 [!DNL vnc] ファイルは、キャビネットの前面の選択した領域にカラーを付けたり、テクスチャを付けたりすることができます（通常は、ラミネートキャビネットスタイルに使用されます）。
+[!DNL vnc] ファイルには、繰り返し可能な木目テクスチャが含まれる場合もあれば、外部でテクスチャを提供する場合には、 `src=`. 特定 [!DNL vnc] ファイルは、キャビネットの前面の選択した領域にカラーを付けたり、テクスチャを付けたりすることができます（通常は、ラミネートキャビネットのスタイルに使用されます）。
 
 キャビネットマテリアルは、キャビネットオブジェクトにのみ適用できます。
 
@@ -31,12 +31,12 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>キャビネットスタイルファイル必須 </p> </td> 
+   <td colname="col2"> <p>キャビネットスタイルファイル（必須）。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>オプションのテクスチャイメージファイル (2 番目の値は <span class="codeph"> src= </span>) をクリックします。 </p> </td> 
+   <td colname="col2"> <p>オプションのテクスチャイメージファイル (2 つ目の値は <span class="codeph"> src= </span>) をクリックします。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 

@@ -5,10 +5,10 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '70'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 23%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-b4075df0e4414b00b961d978d5471db9}
+## パラメーター {#section-b4075df0e4414b00b961d978d5471db9}
 
 **入力 (getXMPPacketParam)**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 返すパケットを会社が処理します ( 例： `c|656`) をクリックします。 |
+| companyHandle | `xsd:string` | はい | 会社は、返すパケットを処理します ( 例： `c|656`) をクリックします。 |
 | assetHandle | `xsd:string` | はい | XMPパケットを取得するアセット。 |
 
 **出力 (getXMPPacketReturn)**

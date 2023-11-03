@@ -1,18 +1,18 @@
 ---
-title: 全画面表示ボタン
+title: フルスクリーンボタン
 description: ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 これは、ビューアが画像またはスピンセットを表示するときに使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
 
-# 全画面表示ボタン{#full-screen-button}
+# フルスクリーンボタン{#full-screen-button}
 
 ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 これは、ビューアが画像またはスピンセットを表示するときに使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
 

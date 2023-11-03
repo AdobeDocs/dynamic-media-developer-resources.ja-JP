@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 5%
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 5%
 
 ビネットマップエントリまたはビネットファイルを指定できます。 リモート URL は許可されていません。
 
-`vignette=` 要求 URL パスでビネットを指定する代わりに使用できます。 テンプレートの変数を介してビネットを指定するために使用します。
+`vignette=` 要求 URL パスでビネットを指定する代わりに使用できます。 テンプレート内の変数を使用してビネットを指定するために使用します。
 
-If *`catId`* が指定されていない場合、セッションカタログが使用されます。
+次の場合 *`catId`* が指定されていない場合、セッションカタログが使用されます。
 
 ## プロパティ {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 

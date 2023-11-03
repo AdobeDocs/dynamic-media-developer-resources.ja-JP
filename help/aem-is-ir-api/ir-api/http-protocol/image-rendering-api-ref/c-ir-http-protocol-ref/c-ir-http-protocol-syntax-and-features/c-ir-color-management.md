@@ -5,9 +5,9 @@ title: 画像レンダリングのカラーマネジメント*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 **関連項目**
 
-[International Color Consortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC プロファイルマップ
+[International Color Consortium](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC プロファイルマップ
 
 ## 初期設定のカラースペース {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 すべてのレンダリング操作は、作業用カラースペースで実行されます。
 
-**重要：** 作業用カラースペースの ICC プロファイルは、入力および出力変換をサポートする必要があります。 出力のみのプロファイルを作業用カラースペースとして使用すると、IR はマテリアルを変換できません。 同じ作業用カラースペースにマテリアルが存在する場合は、このようなカラープロファイルを引き続き使用できます。 他の色空間でマテリアルを適用しようとすると失敗します。
+**重要：** 作業用カラースペースの ICC プロファイルは、入力および出力変換をサポートする必要があります。 出力専用プロファイルを作業用カラースペースとして使用した場合、IR はマテリアルを変換できません。 同じ作業用カラースペースにマテリアルが存在する場合は、このようなカラープロファイルを引き続き使用できます。 他の色空間でマテリアルを適用しようとすると失敗する。
 
 ## 明示的なカラー値 {#section-31727bf1b23e477ca92572fbbf422d2f}
 
@@ -64,9 +64,9 @@ RGBの色の値 `color=`, `bgc=`, `catalog::BgColor`、および `catalog::Color
 
 ## 埋め込みカラープロファイル {#section-5ff733832d38429fbe02b3c1e9bb94a9}
 
-レンダリングされた画像に関連付けられたカラープロファイルを応答画像に埋め込むには、以下の指定を行います。 `iccEmbed=` を設定します。
+レンダリングされた画像に関連付けられたカラープロファイルを応答画像に埋め込むには、以下の指定を行います。 `iccEmbed=` リクエストに対して。
 
-If `icc=` が指定されていない場合、作業用カラースペースの ICC プロファイルが埋め込まれます。 カラーマネジメントが無効で、でプロファイルが指定されていない場合、プロファイルは埋め込まれません。 `icc=`.
+次の場合 `icc=` が指定されていない場合、作業用カラースペースの ICC プロファイルが埋め込まれます。 カラーマネジメントが無効で、でプロファイルが指定されていない場合、プロファイルは埋め込まれません。 `icc=`.
 
 ## ICC プロファイル［ICC ぷろふぁいる］ {#section-afeb76068b5042adb83261638e450140}
 

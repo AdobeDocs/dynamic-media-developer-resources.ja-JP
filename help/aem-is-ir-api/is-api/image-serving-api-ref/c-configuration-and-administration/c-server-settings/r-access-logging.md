@@ -5,10 +5,10 @@ title: アクセスログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 4%
 
 次のデータパターンを指定： [!DNL Platform Server] ログレコードにアクセスします。 パターン文字列は、対応する値で置き換えられる変数を指定します。 パターン文字列内のその他の文字はすべて、リテラルとしてログレコードに転送されます。
 
-キャッシュウォームアップユーティリティを使用するには、フィールドの区切り文字としてスペースを使用する必要があります。 この [!DNL Platform Server] フィールド値内のすべてのスペースおよび「%」文字を `%20` および `%25`、それぞれ。
+キャッシュウォームアップユーティリティを使用するには、フィールドの区切り文字としてスペースを使用する必要があります。 The [!DNL Platform Server] フィールド値内のすべてのスペースおよび「%」文字を `%20` および `%25`、それぞれ。
 
 次のパターン変数がサポートされています。
 
 <table id="table_7A07AFF34B5040A5B30F5735CFE9428F"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>分割測光</b> </th> 
+   <th class="entry"> <b>パターン</b> </th> 
    <th class="entry"> <b>説明</b> </th> 
   </tr> 
  </thead>
@@ -68,7 +68,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %D </span> </p> </td> 
-   <td> <p>リクエスト処理時間（ミリ秒）。 </p> </td> 
+   <td> <p>リクエストの処理時間（ミリ秒）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %I </span> </p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日付と時刻、形式 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> オフセット </span> </p> <p> ( <span class="varname"> SSS </span> ミリ秒 <span class="varname"> オフセット </span> は GMT 時間オフセット )。時間の値は、応答がクライアントに送信される際にキャプチャされます。 </p> </td> 
+   <td> <p>日付と時刻、形式 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> オフセット </span> </p> <p> ( <span class="varname"> SSS </span> はミリ秒です。 <span class="varname"> オフセット </span> は GMT 時間オフセット )。応答がクライアントに送信される際に時間値が取り込まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -128,7 +128,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %T </span> </p> </td> 
-   <td> <p>リクエスト処理時間（秒）。 </p> </td> 
+   <td> <p>リクエストの処理時間（秒）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
@@ -136,7 +136,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] キャッシュ管理キーワード： <span class="codeph"> { 再利用済み |作成済み |更新済み |リモート | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE |検証済み |無視 | UNDEFINED } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] キャッシュ管理キーワード： <span class="codeph"> { 再利用済み |作成済み |更新済み | REMOTE | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE |検証済み |無視 | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +148,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>この <span class="codeph"> etag </span> 応答ヘッダー値（応答データの MD5 署名）。 </p> </td> 
+   <td> <p>The <span class="codeph"> etag </span> 応答ヘッダー値（応答データの MD5 署名）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 

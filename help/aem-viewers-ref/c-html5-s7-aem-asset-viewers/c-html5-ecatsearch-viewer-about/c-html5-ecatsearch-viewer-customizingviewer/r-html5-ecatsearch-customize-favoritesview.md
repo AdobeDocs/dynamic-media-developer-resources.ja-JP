@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>サムネールの幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->サムネールは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、ユーザーが最近選択したサムネールに対応します。 While `state="default"` は、残りのサムネールに対応します。 および `state="over"` は、マウスポインターを置いたときに使用されます。
+>サムネールでは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、ユーザーが最近選択したサムネールに対応します。 While `state="default"` は、残りのサムネールに対応します。 および `state="over"` は、マウスポインターを置いたときに使用されます。
 
 例 — 75 x 75 ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
 

@@ -1,29 +1,29 @@
 ---
-description: 画像の変換の表示
+description: 画像の変換を表示
 solution: Experience Manager
-title: 画像の変換の表示
-feature: Dynamic Media Classic、SDK/API
+title: 画像の変換を表示
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fc20cbc2-9d66-4c52-80c2-9ba7c3b54744
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
-# 画像の変換の表示{#view-transform-for-images}
+# 画像の変換を表示{#view-transform-for-images}
 
-`req=img`リクエストに応じてクライアントに返されるイメージは、次の値を考慮して、複合イメージから派生します。`wid=`、`hei=`、`fit=`、`scl=`、`rgn=`、`attribute::DefaultPix`、`attribute::MaxPix`および合成画像のサイズ。
+イメージが `req=img` リクエストは、次の値を考慮して、合成イメージから派生します。 `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix`、および合成画像のサイズ。
 
-`wid=`と`hei=`を指定し、`scl=`が指定されていない場合、合成画像は、`wid=`と`hei=`で定義された表示範囲内に収まるように拡大/縮小されます。 ビューレクトの縦横比がコンポジット画像の縦横比と異なる場合、拡大/縮小されたコンポジット画像は、`align=`値を使用してビューレクト内に揃えられます（指定した場合、中央揃えになります）。 画像データで覆われていないスペースは`bgc=`で埋められます。指定しない場合は`attribute::BkgColor`で埋められます。
+次の場合 `wid=` および `hei=` が指定され、 `scl=` ではなく、合成画像は、 `wid=` および `hei=`. 表示方向の縦横比が合成画像の縦横比と異なる場合、拡大/縮小された合成画像は、 `align=` 値を指定する場合は、それ以外の場合は中央揃えにします。 画像データで覆われていないスペースは、 `bgc=` または、指定されていない場合は、 `attribute::BkgColor`.
 
-`scl=`を指定した場合、合成画像はその倍率で拡大/縮小されます。 `wid=`や`hei=`も指定した場合は、拡大/縮小された画像は`wid=`や`hei=`に切り抜かれ、必要に応じて空白が追加されます。 `align=` は、画像を切り抜く場所または余分なスペースを追加する場所を指定し、余分なスペースはまたはで埋め `bgc=` ま `attribute::BkgColor`す。
+次の場合 `scl=` を指定すると、合成イメージはその尺度係数で拡大・縮小されます。 次の場合 `wid=` および/または `hei=` を指定した場合、拡大/縮小された画像は次のように切り抜かれます。 `wid=` および/または `hei=` または必要に応じて余分なスペースを追加します。 `align=` は、画像を切り抜く場所または余分なスペースを追加する場所を指定し、余分なスペースは `bgc=` または `attribute::BkgColor`.
 
-`wid=`、`hei=`、`scl=`のいずれも指定されておらず、合成画像の幅または高さが`attribute::DefaultPix`を超える場合、合成画像は`attribute::DefaultPix`を超えないように拡大/縮小されます。 それ以外の場合は、合成画像は拡大・縮小せずに使用されます。
+どちらでもない場合 `wid=`, `hei=` nor `scl=` を指定し、合成画像の幅または高さが次の値を超えた場合に、 `attribute::DefaultPix`を指定した場合、合成画像は拡大/縮小され、 `attribute::DefaultPix`. それ以外の場合は、合成画像は拡大・縮小せずに使用されます。
 
-ビュー画像がそれ以上拡大・縮小されずに返されるようにするには、`scl=1`を指定します。
+これ以上拡大・縮小せずにビュー画像が返されるようにするには、 `scl=1`.
 
-`rgn=`を指定した場合、返信画像は切り抜かれ、最終的な返信画像のサイズに達します。 このサイズは`attribute::MaxPix`（定義されている場合）と比較され、返信画像のサイズがどちらのサイズよりも大きい場合はエラーが生成されます。
+次の場合 `rgn=` が指定された場合、返信画像は適切に切り抜かれ、最終的な返信画像のサイズに達します。 このサイズは、 `attribute::MaxPix` （定義されている場合）。返信画像のサイズがどちらのサイズよりも大きい場合は、エラーが生成されます。
 
-`fmt=`でアルファなしのデータを指定した場合、返信画像内の透明な領域はすべて`bgc=`または`attribute::BkgColor`で塗りつぶされます。
+次の場合 `fmt=` には、アルファを含まないデータを指定します。返信画像の透明な領域は、 `bgc=` または `attribute::BkgColor`.

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の水平および垂直マージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の水平および垂直のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> サムネールスウォッチの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>サムネールスウォッチの高さです。 </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->サムネールは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するために使用します。 特に `state="selected"` は、メインビューに現在表示されている画像のサムネールに対応します。 `state="default"` は残りのサムネールに対応し、 `state="over"` は、マウスポインターを置いたときに使用されます。
+>サムネールでは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するために使用します。 特に `state="selected"` は、メインビューに現在表示されている画像のサムネールに対応します。 `state="default"` は残りのサムネールに対応し、 `state="over"` は、マウスポインターを置いたときに使用されます。
 
 例 — 56 x 56 ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
 
@@ -150,7 +150,7 @@ ht-degree: 3%
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-CSS を使用してスクロールボタンを配置することはできません `top`, `left`, `bottom`、および `right` プロパティ。 代わりに、ビューアのロジックによって自動的に配置されます。
+CSS を使用してスクロールボタンを配置することはできません。 `top`, `left`, `bottom`、および `right` プロパティ。 代わりに、ビューアのロジックによって自動的に配置されます。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,11 +161,11 @@ CSS を使用してスクロールボタンを配置することはできませ�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> スクロールボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 

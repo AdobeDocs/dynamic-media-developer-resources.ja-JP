@@ -1,32 +1,32 @@
 ---
 title: キャプションボタン
-description: クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。
+description: クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
 
 # キャプションボタン{#caption-button}
 
-クローズドキャプション表示のオン/オフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。
+クローズドキャプションの表示/非表示を切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-CSSを使用して、このボタンのサイズ、スキン、およびこのボタンを含むコントロールバーに対する位置を指定できます。
+CSS を使用して、このボタンのサイズ、スキン、およびこのボタンを含むコントロールバーに対する位置を設定できます。
 
-このボタンの外観は、以下のCSSクラスセレクターを使用して制御します。
+このボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton
 ```
 
-**キャプションボタンのCSSプロパティ**
+**キャプションボタンの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -48,32 +48,32 @@ CSSを使用して、このボタンのサイズ、スキン、およびこの�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 全画面表示ボタンの幅。 </p> </td> 
+   <td colname="col2"> <p> フルスクリーンボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
-   <td colname="col2"> <p> CSSスプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSSスプライト</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、`state`属性セレクターと`selected`属性セレクターの両方がサポートされます。このセレクターは、ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に、 `selected='true'`はキャプションが表示されている状態に対応し、 `selected='false'`はキャプションが非表示の場合に使用されます。
+>このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` は、キャプションが表示されている状態と、 `selected='false'` は、キャプションが非表示の場合に使用されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-28 x 28ピクセルのクローズドキャプションボタンを設定するには、次のように記述します。 ボタンの位置は、コントロールバーの上端から4ピクセル、右端から68ピクセルにする必要があります。 また、選択時または未選択時の4つのボタンの状態ごとに異なる画像を表示する必要があります。
+28 x 28 ピクセルのクローズドキャプションボタンを設定するには、次の手順に従います。 ボタンは、コントロールバーの上から 4 ピクセル、右端から 68 ピクセルの位置に配置する必要があります。 また、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示する必要があります。
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

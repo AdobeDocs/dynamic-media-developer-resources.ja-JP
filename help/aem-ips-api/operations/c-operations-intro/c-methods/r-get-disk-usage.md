@@ -1,20 +1,20 @@
 ---
-description: 会社の構造（ファイル数など）に関する情報を返します。
+description: 会社の構造に関する情報（ファイル数など）を返します。
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 12%
 
 ---
 
 # getDiskUsage{#getdiskusage}
 
-会社の構造（ファイル数など）に関する情報を返します。
+会社の構造に関する情報（ファイル数など）を返します。
 
 ## 認証済みユーザータイプ {#authorized-user-types}
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
+## パラメーター {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
 **入力 (getDiskUsageParam)**
 

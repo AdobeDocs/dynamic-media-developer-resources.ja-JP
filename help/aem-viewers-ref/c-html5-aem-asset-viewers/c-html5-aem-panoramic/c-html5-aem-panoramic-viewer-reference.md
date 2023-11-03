@@ -5,9 +5,9 @@ keywords: レスポンシブ
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ HTML5 パノラマビューアは、パノラマ画像を表示する画像ビ�
 
 HTML5 パノラマビューアは、メインの JavaScript ファイルと、ビューアによって実行時にダウンロードされるヘルパーファイルのセットです。 ヘルパーファイルのセットは、1 つの JavaScript インクルードで、この特定のビューア、アセット、CSS で使用されるすべてのHTML5 Viewer SDK コンポーネントが含まれます。
 HTML5 パノラマビューアは、IS-Viewers に付属する実稼動用HTMLページを使用するポップアップモードと、API を使用して target Web ページに統合される埋め込みモードの両方で使用できます。
-設定とスキニングは、他のHTML5 ビューアと同様です。 スキニングはすべて、カスタム CSS を使用して適用できます。
+設定とスキニングは、他のHTML5 ビューアと同様です。 スキニングはすべて、カスタム CSS を使用して実行できます。
 
 詳しくは、 [すべてのビューアに共通のコマンドリファレンス — 設定属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [すべてのビューアに共通のコマンドリファレンス — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -47,7 +47,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>デスクトップ </p> </td> 
-   <td colname="col2"> <p>自動パンとドラッグで移動 </p> </td> 
+   <td colname="col2"> <p>自動パンとドラッグで移動。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>タッチデバイス </p> </td> 
@@ -62,7 +62,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 ## HTML5 パノラマビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-ビューアの動作に対するニーズは、Web ページごとに異なります。 Web ページにリンクが表示される場合があります。 このリンクを選択すると、ビューアが別のブラウザーウィンドウに開きます。 ホスティングページにビューアを埋め込む必要が生じる場合もあります。 後者の場合は、Web ページが静的レイアウトである場合や、「レスポンシブ」で、デバイスごと、ブラウザーウィンドウのサイズごとに表示方法が変わる場合があります。 これらのニーズに対応するために、ビューアでは次の 3 つの主要な操作モードがサポートされています。ポップアップ、固定サイズ埋め込み、レスポンシブ埋め込み。
+ビューアの動作に対するニーズは、Web ページごとに異なります。 Web ページにリンクが表示される場合があります。 このリンクを選択すると、ビューアが別のブラウザーウィンドウに開きます。 ホスティングページにビューアを埋め込む必要が生じる場合もあります。 後者の場合は、Web ページが静的レイアウトである場合や、「レスポンシブ」で、デバイスごと、ブラウザーウィンドウのサイズごとに表示方法が変わる場合があります。 これらのニーズに対応するために、ビューアでは、ポップアップ、固定サイズ埋め込み、レスポンシブ埋め込みの 3 つの主要な操作モードをサポートしています。
 
 **ポップアップモードについて**
 
@@ -107,7 +107,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
 1. ビューアの JavaScript ファイルを Web ページに追加する。
 
-   ビューアを作成するには、HTMLhead にスクリプトタグを追加する必要があります。 ビューア API を使用する前に、 [!DNL PanoramicViewer.js]. この [!DNL PanoramicViewer.js] ファイルは [!DNL html5/js/] 標準の IS-Viewers デプロイメントのサブフォルダー
+   ビューアを作成するには、HTMLhead にスクリプトタグを追加する必要があります。 ビューア API を使用する前に、必ず [!DNL PanoramicViewer.js]. The [!DNL PanoramicViewer.js] ファイルは、 [!DNL html5/js/] 標準の IS-Viewers デプロイメントのサブフォルダー
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -130,7 +130,7 @@ HTML5 パノラマビューアは、ドラッグまたはジャイロスコー�
 
    ビューアを表示するページに空の DIV 要素を追加します。 DIV 要素の ID は、後でビューア API に渡されるので、定義する必要があります。 DIV のサイズは CSS で指定されます。
 
-   プレースホルダー DIV は配置された要素で、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
+   プレースホルダ DIV は配置された要素です。つまり、 `position` CSS プロパティがに設定されている `relative` または `absolute`.
 
 
    次に、定義済みのプレースホルダ DIV 要素の例を示します。
@@ -275,7 +275,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 **幅と高さが定義されたレスポンシブデザイン埋め込み**
 
-幅と高さが定義されたレスポンシブデザイン埋め込みがある場合、Web ページのスタイル設定は異なります。&quot;holder&quot;に両方のサイズを提供します `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
+幅と高さが定義されたレスポンシブデザイン埋め込みがある場合、Web ページのスタイル設定は異なります。両方のサイズが「holder」に提供されます `DIV` ブラウザーウィンドウの中央に配置します。 また、Web ページでは `HTML` および `BODY` 要素を 100%に変更：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

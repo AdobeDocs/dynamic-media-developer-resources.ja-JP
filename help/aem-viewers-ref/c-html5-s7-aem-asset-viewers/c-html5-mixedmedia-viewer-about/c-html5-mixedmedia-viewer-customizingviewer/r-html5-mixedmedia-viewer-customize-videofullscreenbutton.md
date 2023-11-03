@@ -1,20 +1,20 @@
 ---
 title: ビデオの全画面表示ボタン
-description: ユーザーが選択した場合、フルスクリーンボタンによって、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
+description: ユーザーが選択した場合、フルスクリーンボタンにより、ビューアはフルスクリーンモードに入るか、終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # ビデオの全画面表示ボタン{#video-full-screen-button}
 
-ユーザーが選択した場合、フルスクリーンボタンによって、ビューアのフルスクリーンモードが開始または終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
+ユーザーが選択した場合、フルスクリーンボタンにより、ビューアはフルスクリーンモードに入るか、終了します。 ビューアがビデオを表示しているときに使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -52,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

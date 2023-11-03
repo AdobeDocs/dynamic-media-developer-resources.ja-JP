@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 5%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 5%
  </tr> 
 </table>
 
-サブグループまたは個々のオブジェクトは、完全修飾グループパスを使用して選択できます ( つまり、ターゲットグループまたはオブジェクトの名前を指定し、その前にすべての親グループを付け、 / （スラッシュ）で区切って指定します )。
+サブグループまたは個々のオブジェクトは、完全修飾グループパスを使用して選択できます ( つまり、ターゲットグループまたはオブジェクトの名前を、すべての親グループの前に/ （スラッシュ）で区切って指定します )。
 
 指定した名前のグループ/オブジェクトが見つからない場合、 `attribute::OnObjFail` が取得されました。
 
 ## プロパティ {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-選択コマンド；MSS 区切り文字。 オブジェクトの選択は、 `obj=` または `sel=`.
+選択コマンド； MSS 区切り文字。 オブジェクトの選択は、 `obj=` または `sel=`.
 
 グループ/オブジェクトのパスと名前は、大文字と小文字が区別されません。
 

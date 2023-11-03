@@ -1,26 +1,26 @@
 ---
-description: フォント指標のファイルパス。 ファイルサフィックスを含むフォントメトリックファイルのパスと名前。
+description: フォント指標のファイルパス。 ファイルサフィックスを含むフォント指標ファイルのパスと名前。
 solution: Experience Manager
 title: MetricsPath
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '105'
+ht-degree: 3%
 
 ---
 
 # MetricsPath{#metricspath}
 
-フォント指標のファイルパス。 ファイルサフィックスを含むフォントメトリックファイルのパスと名前。
+フォント指標のファイルパス。 ファイルサフィックスを含むフォント指標ファイルのパスと名前。
 
-Adobe Type1フォントに使用します。 指定しなかった場合、サーバーはプリンシパルフォントファイルが存在するフォルダーと同じフォルダー内でフォントメトリックファイルを探します。 必要なフォントメトリックファイルがレンダリング時に見つからない場合、エラーが発生します。
+Adobe Type1 フォントに使用します。 指定しなかった場合、サーバーは、プリンシパルフォントファイルが存在するフォルダー内のフォントメトリクスファイルを探します。 レンダリング時に必要なフォント指標ファイルが見つからない場合は、エラーが発生します。
 
 ## プロパティ {#section-955268c581574875b05253d9e14544f3}
 
-テキスト文字列。 Adobe Type1ファイルの場合はオプション。 空または有効なImage Serverファイルパス（絶対パスまたは`attribute::RootPath`に対する相対パス）を指定する必要があります。
+テキスト文字列。 Adobe Type1 ファイルの場合はオプションです。 空または有効な Image Server ファイルパス（絶対パスまたは相対パス）を指定する必要があります `attribute::RootPath`.
 
 ## 初期設定 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

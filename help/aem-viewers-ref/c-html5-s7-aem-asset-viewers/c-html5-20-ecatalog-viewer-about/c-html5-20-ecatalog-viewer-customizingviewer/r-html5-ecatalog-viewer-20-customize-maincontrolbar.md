@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 メインコントロールバーは、デスクトップシステムおよびタブレットの長方形の領域で、eCatalog ビューアで使用できるすべてのユーザーインターフェイスコントロール（大きいページボタンを除く）が含まれます。
 
-携帯電話では、引き続き「サムネール」、「目次」、「ダウンロード」、「印刷」、「お気に入り」、「ソーシャル共有」、「全画面表示」および「閉じる」ボタンが保持されます。 ただし、最初のページボタンと最後のページボタンおよびページインジケーターは、メインコントロールバーから削除され、代わりにセカンダリコントロールバーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムおよび携帯電話ではビューア領域の上部に表示され、タブレットではビューア領域の下部に移動します。 ビューアの幅は常に、使用可能な全体になります。 CSS 内で、ビューアのコンテナを基準にして、カラー、高さ、垂直方向の位置を変更できます。
+携帯電話では、引き続き「サムネール」、「目次」、「ダウンロード」、「印刷」、「お気に入り」、「ソーシャル共有」、「フルスクリーン」および「閉じる」ボタンが保持されます。 ただし、最初のページボタンと最後のページボタンおよびページインジケーターは、メインコントロールバーから削除され、代わりにセカンダリコントロールバーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムおよび携帯電話ではビューア領域の上部に表示され、タブレットではビューア領域の下部に移動します。 ビューアの幅は常に、使用可能な全体になります。 CSS 内で、ビューアのコンテナを基準にして、カラー、高さ、垂直方向の位置を変更できます。
 
 メインコントロールバーの外観は、以下の CSS クラスセレクターを使用して制御します。
 
@@ -74,7 +74,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 掲載順位 </span> </p> </td> 
    <td colname="col2"> <p>に設定する場合 <span class="codeph"> 静的 </span> スクロール機能は無効です。 </p> <p>このプロパティをに設定します。 <span class="codeph"> 絶対 </span> をクリックして、スクロール機能を有効にします。 </p> </td> 
   </tr> 
  </tbody> 
@@ -120,11 +120,11 @@ CSS を使用して、スクロールボタン自体のサイズを設定した�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 

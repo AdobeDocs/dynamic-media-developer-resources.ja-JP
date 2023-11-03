@@ -1,20 +1,20 @@
 ---
-description: ユーザー属性（名前、E メール、役割など）を
+description: ユーザー属性（名前、E メール、役割など）を設定します。
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 17%
+source-wordcount: '113'
+ht-degree: 15%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-ユーザー属性（名前、E メール、役割など）を
+ユーザー属性（名前、E メール、役割など）を設定します。
 
 構文
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-71b457921fe74acb862a1e112e550211}
+## パラメーター {#section-71b457921fe74acb862a1e112e550211}
 
 **入力 (setUserInfoParam)**
 

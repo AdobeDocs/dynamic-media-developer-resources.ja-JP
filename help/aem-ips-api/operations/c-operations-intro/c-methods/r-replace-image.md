@@ -5,10 +5,10 @@ title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 16%
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
+## パラメーター {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
 **入力 (replaceImageParam)**
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 ## 例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-このコードサンプルでは、画像を置き換え、 `urlModifier` 置き換え時に Image Server が何も実行しないことを指定するコマンドを使用する。
+このコードサンプルを使用すると、画像を置き換えて、 `urlModifier` 置き換え時に Image Server が何の操作も行わないように指定するコマンドを使用します。
 
 **リクエスト**
 

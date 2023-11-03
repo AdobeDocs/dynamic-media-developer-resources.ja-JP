@@ -5,9 +5,9 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 複数のテキストと画像のレイヤーを持つことができるレイヤー画像を作成します。
 
-この `urlModifier` パラメータは、URL 上でユーザが指定したコマンドの前に適用される Image Server カタログに保存される Image Server プロトコルコマンドを指定します。 この `urlPostApplyModifier` パラメータは、URL コマンドの後に適用されるプロトコルコマンドを指定します。このコマンドは、ユーザが指定した設定の競合を無効にします。
+The `urlModifier` パラメータは、URL 上でユーザが指定したコマンドの前に適用される Image Server カタログに保存される Image Server プロトコルコマンドを指定します。 The `urlPostApplyModifier` パラメータは、URL コマンドの後に適用されるプロトコルコマンドを指定します。このコマンドは、ユーザが指定した設定の競合を無効にします。
 
 ## 認証済みユーザータイプ {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
+## パラメーター {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
 
 **入力 (createTemplateParam)**
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 | name | `xsd:string` | はい | テンプレート名。 |
 | タイプ | `xsd:string` | はい | テンプレートタイプ。 |
 | urlModifier | `xsd:string` | はい | IS カタログに保存され、URL 上のユーザが指定したコマンドの前に適用される Image Server コマンドを指定します。 |
-| urlPostApplyModifier | `xsd:string` | いいえ | URL コマンドの後に適用するプロトコルコマンドを指定します。このコマンドは、ユーザが指定した設定の競合を無効にします。 |
+| urlPostApplyModifier | `xsd:string` | いいえ | URL コマンドの後に適用するプロトコルコマンドを指定します。このコマンドは、ユーザー指定の競合する設定を上書きします。 |
 
 **出力 (createTemplateParam)**
 

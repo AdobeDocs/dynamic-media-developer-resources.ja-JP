@@ -5,9 +5,9 @@ title: 制限事項と既知の問題
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dynamic Media Image Serving を使用する際には、いくつかの制限事�
 * 行数が `\copyfitmaxlines` 設定と、テキスト入力の明示的な行数。
 * 一致する中括弧と括弧は画像セットで必要です。 中括弧と括弧が一致しない場合は、URL エンコードする必要があります。
 * サーバーサイドのグローバル応答時間アラートには、エラー応答が含まれます。
-* この `id=` コマンドは現在、 `rect=` コマンドに、画像またはマスクの要求を含めます。
+* The `id=` コマンドは現在、 `rect=` コマンドに、画像またはマスクの要求を含めます。
 
 ## 既知の違い textPs=と text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -32,11 +32,11 @@ Dynamic Media Image Serving を使用する際には、いくつかの制限事�
 * `\charscaley` を使用する場合とは異なる尺度になる `text=` ただし、線の高さには影響しません。
 
 * テキストの最後の行が収まらない場合、行全体が切り取り値として表示されるのではなく、削除されます。
-* `\slmult` および `\sl` MS Word とは異なる動作をし、 `text=`現在の段落と後続の段落に対して有効になります。
+* `\slmult` および `\sl` MS Word とは異なる動作をし、 `text=`を指定した場合、現在の段落と後続の段落に対してのみ有効になります。
 
-* `\sb` MS Word の最初の段落と `text=`、Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
+* `\sb` MS Word の最初の段落に適用され、 `text=`, Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
 
-* `\sa` MS Word の最後の段落と `text=`、Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
+* `\sa` MS Word の最後の段落に適用され、 `text=`, Adobe InDesignおよび [!DNL Photoshop] この操作はおこなわないでください。
 
 ## 下位互換性 {#section-a76842f751944f4fb664af296d064122}
 
@@ -61,48 +61,48 @@ Digimarc ライブラリは、既に Digimarc 透かしが検出されている�
 * リダイレクトを返すリモート URL（HTTP ステータス 301、302、303）は拒否されます。
 * 設定時 `errorRedirect.rootUrl` このプロパティで定義されている IP アドレスをルールセットに含める必要があります `<addressfilter>` タグの値を設定します。
 
-   *例*:
+  *例*:
 
-   サーバー A が定義済み `errorRedirect.rootUrl=10.10.10.10` .
+  サーバー A が定義済み `errorRedirect.rootUrl=10.10.10.10` .
 
-   IP アドレスが10.10.10.10のサーバ B は、 `<addressfilter>` タグの値を ruleset ファイルに追加して、IP アドレス (10.10.10.10) を含めます。
+  IP アドレスが10.10.10.10のサーバ B は、 `<addressfilter>` タグの値を ruleset ファイルに追加して、IP アドレス (10.10.10.10) を含めます。
 
 * ポイントテキストと、位置を指定したテキストパスがクリップされる場合があります。
-* `text=` のみ適用 `\sa` および `\sb` を段落ごとではなく、テキストブロック全体に追加します。
+* `text=` 適用のみ `\sa` および `\sb` を段落ごとではなく、テキストブロック全体に追加します。
 
 * URL で定義されている会社と、 `src=` または `mask=` 修飾子を使用する場合は、定義されている会社の先頭にスラッシュを付ける必要があります。 `src=` または `mask=` この形式の要求が機能するための
 
-   *例*:
+  *例*:
 
-   `/is/image/MyCompany?src=/YourCompany/MyImage` .
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   次の代わりに使用します。 `/is/image/MyCompany?src=YourCompany/MyImage` .
+  次の代わりに使用します。 `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * ピラミッド以外の TIFF 要求またはビネット要求では、
 
-   *&quot;画像 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` には有効な DSF がなく、2.25MPixel の領域が 2MPixel の最大値を超えています。* .
+  *&quot;画像 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` には有効な DSF がなく、2.25MPixel の領域が 2MPixel の最大値を超えています」* .
 
-   ピラミッド Tiffs とビネットを使用することをお勧めします。 ピラミッド以外のタイフやビネットを使用する必要がある場合は、次の手順に従ってサイズ制限を増やします。
+  ピラミッド Tiffs とビネットを使用することをお勧めします。 ピラミッド以外のタイフやビネットを使用する必要がある場合は、次の手順に従ってサイズ制限を増やします。
 
-   *対策*:
+  *周りを回避する*:
 
-   画像レンダリングの非ピラミッドビネットの場合は、 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイル。
+  画像レンダリングの非ピラミッドビネットの場合は、 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイル。
 
-   画像サービングのピラミッド以外のTIFFの場合、 `MaxNonDsfSize` 内 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイル。
+  画像サービングのピラミッド以外のTIFFの場合、 `MaxNonDsfSize` （内） [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイル。
 
 * Adobe [!DNL Photoshop] CS3 は、初期設定では、レイヤー化PSDファイルを保存しません。
 
-   *症状*:
+  *症状*:
 
-   Adobe [!DNL Photoshop] CS3 レイヤーPSDファイルが黒で表示され、「このレイヤーは次のように表示されます。 [!DNL Photoshop] ファイルは合成画像では保存されませんでした。」 画像サービングの返信画像または IPS の
+  Adobe [!DNL Photoshop] CS3 レイヤーPSDファイルが黒で表示され、「このレイヤーは次のように表示されます。 [!DNL Photoshop] ファイルは合成画像では保存されませんでした。」 画像サービングの返信画像または IPS の
 
-   *回避策*：
+  *回避策*：
 
-   保存Adobe [!DNL Photoshop] 互換性の最大化がオンになっている CS3 ファイル。
+  保存するAdobe [!DNL Photoshop] 互換性の最大化がオンになっている CS3 ファイル。
 
-* CMYK/JPEG返信画像に ICC プロファイルを割り当てると、一部のブラウザーで色が反転することがあります。*対策*:
+* CMYK/JPEG返信画像に ICC プロファイルを割り当てると、一部のブラウザーで色が反転することがあります。*周りを回避する*:
 
-   次を使用して返信画像の形式を変更 `fmt=`
+  次を使用して返信画像の形式を変更 `fmt=`
 
 * ファイルヘッダーを含む、HTTP 応答画像の圧縮後のデータのサイズは 16 MB に制限されています。
 * &quot; ..&quot; は、HTTP リクエストのどのパス要素でも許可されていません。
@@ -120,19 +120,19 @@ Digimarc ライブラリは、既に Digimarc 透かしが検出されている�
 * 画像サービングは、現在、Adobe Media Encoder 4.0.1 以前を使用して書き出したTIFFファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere ProCS4、After Effects CS4、およびCreative Suite4 Production Premium に含まれています。
 * 使用 `text=` セルフサイズレイヤーでは、行の位置合わせに複数の設定を使用する RTF 文字列はサポートされません。
 
-   *例*
+  *例*
 
-   RTF 文字列は、セルフサイズのテキストレイヤーに左右の行揃えの両方を使用できません。
+  RTF 文字列は、セルフサイズのテキストレイヤーに左右の行揃えの両方を使用できません。
 
 * SVGには、SVGファイルに埋め込まれていない参照フォントのフォント参照パスに対する独自のプロパティがあります。
 
-   *症状*
+  *症状*
 
-   フォント定義を含むレンダリングされたSVG画像で、誤ったフォントが使用されています。
+  フォント定義を含むレンダリングされたSVG画像で、誤ったフォントが使用されています。
 
-   *回避策*
+  *回避策*
 
-   プロパティを設定します。 `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+  プロパティを設定します。 `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * 切り抜きは現在使用中です `bgColor=` の代わりに `color=` 新たに拡張された領域を埋める。
 
@@ -142,14 +142,14 @@ Digimarc ライブラリは、既に Digimarc 透かしが検出されている�
 ## 画像レンダリングにのみ適用できる制限 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * デカールと壁の材料は取り外しできません。
-* テクスチャのサイズは、ビネットビューのサイズに対して制限されます。 まれに、ビューサイズの 425%のデフォルトの制限が、非常に大きな繰り返し不可能なテクスチャを使用するアプリケーションに干渉する場合があります。 事前に定義された制限内で動作するようにアプリケーションやコンテンツを変更できない場合は、次のように割合を増やすことができます。 テキストエディターを使用して、を開きます。 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]を `IrMaxTextureSizeFactor` 新しい割合の値を入力します。 変更は直ちに有効になり、Image Server は再起動されません。
+* テクスチャのサイズは、ビネットビューのサイズに対して制限されます。 まれに、ビューサイズの 425%のデフォルトの制限が、非常に大きな繰り返し不可能なテクスチャを使用するアプリケーションに干渉する場合があります。 事前に定義された制限内で動作するようにアプリケーションやコンテンツを変更できない場合は、次のように割合を増やすことができます。 テキストエディターを使用して、を開きます。 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]を探します。 `IrMaxTextureSizeFactor` 新しい割合の値を入力します。 変更は直ちに有効になり、Image Server を再起動しません。
 
 * Nocache ヘッダーが設定されている場合でも、Netscape および Opera の JavaScript エンジンは応答データをキャッシュします。 これは、ステートフル要求の適切な機能を妨げます。
 
-   *回避策*
+  *回避策*
 
-   リクエスト文字列にタイムスタンプまたは一意の識別子（例： ）を追加する `"&.ts=currentTime`.
+  リクエスト文字列にタイムスタンプまたは他の一意の識別子（例： ）を追加する `"&.ts=currentTime`.
 
 ## 公益事業にのみ適用される制限 {#section-906a6b2378154b3da122b2332983f7a5}
 
-`ImageConvert`で停止すると、セグメント化障害でクラッシュする場合がある `control-c`.
+`ImageConvert`で停止すると、セグメント化障害でクラッシュする場合がある。 `control-c`.

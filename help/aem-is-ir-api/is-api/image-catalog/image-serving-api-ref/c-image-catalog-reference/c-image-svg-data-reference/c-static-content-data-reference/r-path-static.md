@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '139'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 サポートされている画像ファイル形式の完全なリストについては、画像コンバーター (IC) ユーティリティの説明を参照してください。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic Media PTIFF(Pyramid Resolution Format) マルチ解像度形式を使用する場合に最も高いパフォーマンスを発揮します。 IC ユーティリティは、サポートされている任意の画像形式から PTIFF 画像を作成するために使用します。
+複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic MediaピラミッドTIFF(PTIFF) 複数解像度形式を使用する場合に最も高いパフォーマンスを発揮します。 IC ユーティリティは、サポートされている任意の画像形式から PTIFF 画像を作成するために使用します。
 
 ## 初期設定 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

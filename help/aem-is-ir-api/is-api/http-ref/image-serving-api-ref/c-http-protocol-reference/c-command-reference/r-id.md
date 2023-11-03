@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 画像サービングにはバージョン管理メカニズムが含まれており、アプリケーションで古いキャッシュエントリが使用される可能性を減らすことができます。 このメカニズムは、 `req=props` 画像データおよびメタデータ（画像マップやズームターゲットデータなど）のバージョン識別子文字列を取得する。 次に、バージョン識別子文字列が、 `id=` コマンドを使用します。
 
-ソース画像またはメタデータが変更されると、対応するバージョン ID の値も変更されます。 最新のバージョン ID 値を `id=` コマンドを使用すると、古いキャッシュエントリにアクセスできなくなります。
+ソース画像またはメタデータが変更されると、対応するバージョン ID の値も変更されます。 最新のバージョン ID 値を `id=` コマンドを使用して、古いキャッシュエントリにアクセスできなくなります。
 
 次の表に、それぞれに使用するバージョン識別子文字列を示します `req=` 型：
 

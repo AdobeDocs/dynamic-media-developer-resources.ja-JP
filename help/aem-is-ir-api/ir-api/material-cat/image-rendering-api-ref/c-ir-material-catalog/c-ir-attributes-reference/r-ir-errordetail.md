@@ -1,20 +1,20 @@
 ---
 title: ErrorDetail
-description: エラーメッセージの詳細。 HTTP 経由で返されるエラーメッセージの詳細レベルを error.message 値として指定します。
+description: エラーメッセージの詳細。 HTTP を介して返されるエラーメッセージの詳細レベルを error.message 値として指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 5%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-エラーメッセージの詳細。 HTTP 経由で返されるエラーメッセージの詳細レベルを error.message 値として指定します。
+エラーメッセージの詳細。 HTTP を介して返されるエラーメッセージの詳細レベルを error.message 値として指定します。
 
 ## タイトル {#section-c10d75d72ee24d16a67cc8d927f1deba}
 
@@ -27,7 +27,7 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>概要メッセージ。 将来の使用のために予約されています。 現在、0 と同じ情報を返します。 </p></td> 
+  <td class="stentry"> <p>簡単なメッセージ。 将来の使用のために予約されています。 現在、0 と同じ情報を返します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 

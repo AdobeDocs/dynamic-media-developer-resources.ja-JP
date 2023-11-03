@@ -1,20 +1,20 @@
 ---
-description: イメージサーバプロキシを使用して、日本の携帯電話の画像のサイズを変更できます。
+description: Image Server プロキシを使用して、日本の携帯電話の画像のサイズを変更できます。
 solution: Experience Manager
 title: Image Server プロキシ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Image Server プロキシ{#image-server-proxy}
 
-イメージサーバプロキシを使用して、日本の携帯電話の画像のサイズを変更できます。
+Image Server プロキシを使用して、日本の携帯電話の画像のサイズを変更できます。
 
 ## URL の形式 {#section-2e8c40b0547c4f99874cdf502b338940}
 

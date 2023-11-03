@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 * `req=userdata`
 * `req=map`
 
-特定のタイプの応答（エラー応答など）は、常に即時有効期限（またはキャッシュ不可能としてタグ付け）としてマークされ、それ以外（例：プロパティやデフォルトの画像応答）は特別な有効期限設定 ( `attribute::NonImgExpiration` および `attribute::DefaultExpiration`) をクリックします。
+特定のタイプの応答（エラー応答など）は、常に即時有効期限（またはキャッシュ不可能としてタグ付け）としてマークされ、それ以外（例えば、プロパティやデフォルトの画像応答）は特別な有効期限設定 ( `attribute::NonImgExpiration` および `attribute::DefaultExpiration`) をクリックします。
 
 ## プロパティ {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 

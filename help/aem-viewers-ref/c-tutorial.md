@@ -1,11 +1,11 @@
 ---
 title: Viewer SDK チュートリアル
-description: Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
+description: Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントのセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Viewer SDK チュートリアル{#viewer-sdk-tutorial}
 
-Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
+Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコンポーネントのセットを提供します。 ビューアは、AdobeDynamic Mediaが提供するリッチメディアコンテンツを Web ページに埋め込むことができる Web ベースのアプリケーションです。
 
 例えば、SDK は、インタラクティブなズームとパンを提供します。 また、Dynamic Media Classicと呼ばれるバックエンドアプリケーションを通じてAdobeDynamic Mediaにアップロードされたアセットの 360°の表示とビデオ再生も提供します。
 
@@ -22,7 +22,7 @@ Viewer SDK は、カスタムビューア開発用の JavaScript ベースのコ
 
 SDK は、ビューアのコンテンツを構成する UI コンポーネントで構成されます。 CSS や、セット定義の取得、解析、追跡など、何らかの補助的な役割を持つ非 UI コンポーネントを使用して、これらのコンポーネントのスタイルを設定できます。 すべてのコンポーネントの動作は、次のように、様々な方法で指定できる修飾子を使用してカスタマイズできます。 `name=value` の組み合わせになります。
 
-このチュートリアルでは、基本ズームビューアを作成するのに役立つ、次のタスクの順序を説明します。
+このチュートリアルでは、基本ズームビューアを作成するのに役立つ、次のタスクの順序について説明します。
 
 * [Adobe Developer Connectionから最新の Viewer SDK をダウンロードします。](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Viewer SDK を読み込む](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
@@ -79,7 +79,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
    </html>
    ```
 
-   次の JavaScript コードを `script` タグを使用して、 `ParameterManager`. これにより、内で SDK コンポーネントを作成およびインスタンス化する準備ができます。 `initViewer` 関数：
+   次の JavaScript コードを `script` タグを使用して、 `ParameterManager`. これにより、内で SDK コンポーネントを作成およびインスタンス化する準備をするのに役立ちます。 `initViewer` 関数：
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,7 +115,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
 
 1. ファイルを空のテンプレートとして保存します。 任意のファイル名を使用できます。
 
-   今後ビューアを作成する際には、この空のテンプレートファイルを参照として使用します。 このテンプレートは、ローカルで、Web サーバーから提供される場合に機能します。
+   今後ビューアを作成する際に、この空のテンプレートファイルを参照として使用できます。 このテンプレートは、ローカルで、Web サーバーから提供される場合に機能します。
 
 次に、ビューアにスタイルを追加します。
 
@@ -148,7 +148,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
 
 1. コンポーネントを含めて実際のビューアを作成する `Container` および `ZoomView`.
 
-   次を挿入します。 `include` の `<head>` 要素 — 後 [!DNL Utils.js] スクリプトが読み込まれました：
+   次を挿入します。 `include` 文を `<head>` 要素 — 後 [!DNL Utils.js] スクリプトが読み込まれました：
 
    ```javascript {.line-numbers}
    <!-- 
@@ -178,8 +178,8 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -209,7 +209,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
 
    ![ビューアの例 1 つの画像](assets/viewer-1.jpg)
 
-次に、コンポーネントを追加します `MediaSet` および `Swatches` をビューアに追加します。
+次に、コンポーネントを追加します。 `MediaSet` および `Swatches` をビューアに追加します。
 
 ## ビューアへのメディアセットおよびスウォッチコンポーネントの追加 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -230,7 +230,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
 
 1. インスタンス化 `MediaSet` および `Swatches` 内のコンポーネント `initViewer` 関数に置き換えます。
 
-   必ず、 `Swatches` インスタンスの `ZoomView` および `Container` コンポーネントを使用しない場合は、重なり順序に従って `Swatches`:
+   必ず、 `Swatches` インスタンスの後に `ZoomView` および `Container` コンポーネントを使用しない場合は、重なり順序に従って `Swatches`:
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -244,7 +244,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
    swatches.addEventListener(s7sdk.event.AssetEvent.SWATCH_SELECTED_EVENT, swatchSelected, false);
    ```
 
-1. 次のイベントハンドラ関数を追加します。
+1. 次のイベントハンドラー関数を追加します。
 
    ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
@@ -360,7 +360,7 @@ SDK は、ビューアのコンテンツを構成する UI コンポーネント
 
 1. 修飾子は、 `ParameterManager` インスタンス。
 
-   以下を `initViewer` 関数を使用して `Swatches` サムのレイアウトを 1 行として指定します。
+   以下を `initViewer` 関数を使用して、 `Swatches` サムのレイアウトを 1 行として指定します。
 
    ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");

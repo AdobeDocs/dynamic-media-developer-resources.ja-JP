@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 3%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとその内容の表示/非表示を切り替える際に使用する効果の種類を指定します。 </p> <p>用途 <span class="codeph"> なし</span> すぐに表示/非表示にする 用途 <span class="codeph"> フェード</span> 徐々にフェードインおよびフェードアウトする効果を提供する。 </p> <p>Internet Explorer 8 では、fade はサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとその内容の表示/非表示を切り替える際に使用する効果の種類を指定します。 </p> <p>用途 <span class="codeph"> なし</span> すぐに表示/非表示にできます。 用途 <span class="codeph"> フェード</span> 徐々にフェードイン/フェードアウトする効果を提供する。 </p> <p>Internet Explorer 8 では、fade はサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーが登録する最後のマウス/タッチイベントと、コントロールバーが非表示になる時間との間の時間を秒単位で指定します。 </p> <p> 次に設定した場合： <span class="codeph"> -1</span>を指定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
+   <td colname="col2"> <p>コントロールバーが登録する最後のマウス/タッチイベントと、コントロールバーが非表示になる時間との間の時間を秒単位で指定します。 </p> <p> に設定した場合、 <span class="codeph"> -1</span>を指定した場合、コンポーネントは自動非表示の効果をトリガーせず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

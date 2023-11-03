@@ -1,20 +1,20 @@
 ---
 title: UseLastModified
-description: 最終変更の応答ヘッダーを有効にします。 画像レンダリングから発行されるキャッシュ可能な HTTP 応答に Last-Modified ヘッダーを含めるかどうかを指定します。
+description: 最終変更の応答ヘッダーを有効にします。 画像レンダリングから発行されるキャッシュ可能な HTTP 応答に Last-Modified ヘッダーを含めるかどうかを有効または無効にします。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
 
 # UseLastModified{#uselastmodified}
 
-最終変更の応答ヘッダーを有効にします。 画像レンダリングから発行されるキャッシュ可能な HTTP 応答に Last-Modified ヘッダーを含めるかどうかを指定します。
+最終変更の応答ヘッダーを有効にします。 画像レンダリングから発行されるキャッシュ可能な HTTP 応答に Last-Modified ヘッダーを含めるかどうかを有効または無効にします。
 
 サーバーが最新の `vignette::TimeStamp` および `catalog::TimeStamp` 応答に関係するすべてのビネットおよびマテリアルカタログ/カタログレコードの値を、最終変更ヘッダー値として指定します。
 
@@ -27,7 +27,7 @@ etag ヘッダーをサポートしない分散キャッシュネットワーク
 * `catalog::TimeStamp`, `vignette::TimeStamp`または `attribute::TimeStamp` が定義されていないので、 [!DNL catalog.ini] ファイルが `catalog::TimeStamp`.
 
 * ネットワークマウントを介してマテリアルカタログファイルを共有する代わりに、各サーバはローカルファイルシステム上のカタログファイルのインスタンスを持ちます。
-* 同じ [!DNL catalog.ini] ファイルの変更日が異なります。ファイルが不適切にコピーされたことが原因である可能性があります。
+* 同じの 2 つ以上のインスタンス [!DNL catalog.ini] ファイルの変更日が異なります。ファイルが不適切にコピーされたことが原因である可能性があります。
 
 ## プロパティ {#section-453952244193452caccfaf7f601007c1}
 

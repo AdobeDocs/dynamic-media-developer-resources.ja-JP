@@ -5,22 +5,22 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 exl-id: 3360a3bd-8a4a-4bf9-98bf-ada7c35c58f4
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Viewer SDK の名前空間{#viewer-sdk-namespace}
 
-このビューアは、多くの Viewer SDK コンポーネントで構築されています。 通常、Web ページは、SDK コンポーネント API を直接操作する必要はありません。一般的なニーズはすべて、ビューア API 自体でカバーされています。
+このビューアは、多くの Viewer SDK コンポーネントで構築されています。 通常、Web ページで SDK コンポーネント API を直接操作する必要はありません。一般的なニーズはすべて、ビューア API 自体で扱われます。
 
 ただし、一部の高度な使用例では、 `getComponent()` ビューア API を使用し、SDK 自体の柔軟な API をすべて使用できます。
 
 ビューアが SDK コンポーネントの読み込みと初期化に使用する名前空間は、ビューアの動作環境によって異なります。 ビューアがAdobe Experience Managerで動作している場合、ビューアは、SDK コンポーネントを `s7viewers.s7sdk` 名前空間。 同様に、Dynamic Media Classicから提供されたビューアが SDK をに読み込みます。 `s7classic.s7sdk`.
 
-どちらの場合も、ビューア内の SDK で使用される名前空間には、次のいずれかが含まれます `s7viewers` または `s7classic` というプレフィックスが付きます。 そして平原とは違う `s7sdk` SDK ユーザーガイドまたは SDK API ドキュメントで使用される名前空間です。
+どちらの場合も、ビューア内の SDK で使用される名前空間には、次のいずれかが含まれます。 `s7viewers` または `s7classic` というプレフィックスが付きます。 そして平原とは違う `s7sdk` SDK ユーザーガイドまたは SDK API ドキュメントで使用される名前空間です。
 
 そのため、内部のビューアコンポーネントと通信するカスタムアプリケーションコードを記述する際には、完全修飾 SDK 名前空間を使用することが重要です。
 

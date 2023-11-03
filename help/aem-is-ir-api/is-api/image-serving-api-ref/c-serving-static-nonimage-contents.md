@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 この機能を使用すると、各項目の TTL を個別に設定できます。
 
-画像サービングでは、次の [!DNL /is/content]:
+画像サービングは、次の [!DNL /is/content]:
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
@@ -68,7 +68,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
-  <td class="stentry"> <p>コマンド値。 </p> </td> 
+  <td class="stentry"> <p>コマンドの値。 </p> </td> 
  </tr> 
 </table>
 
@@ -98,15 +98,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>ファイル変更のタイムスタンプ。カタログベースの検証が <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>ファイル変更のタイムスタンプ。 <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
-   <td colname="col2"> <p>この静的コンテンツ項目に関連付けられたオプションのメタデータクライアントが <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>この静的コンテンツ項目に関連付けられたオプションのメタデータ。 <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>オプションのデータタイプ。を使用して、 <span class="codeph"> type=コマンド </span>. </p> </td> 
+   <td colname="col2"> <p>オプションのデータタイプ。を使用して静的コンテンツの要求を <span class="codeph"> type=コマンド </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

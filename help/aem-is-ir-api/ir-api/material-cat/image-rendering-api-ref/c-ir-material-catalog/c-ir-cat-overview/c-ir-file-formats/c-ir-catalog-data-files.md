@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 カタログデータファイルは、Microsoft® Excel や Access など、タブ区切りのテキストデータファイルをサポートするアプリケーションを使用して簡単に管理できます。
 
-カタログデータファイルは、基本的に 2 次元のテーブルで、データ列と任意の数のデータレコード（行）を識別するヘッダーレコードで構成されます。 ヘッダーとデータレコードの両方のフィールドが単一の `<TAB>` 文字。 レコードは 1 つの `<CR>` (ASCII コード `0xD`)、単一の `<LF>` (ASCII コード `0xA`) または `<CR><LF>` ペア。
+カタログデータファイルは、基本的に 2 次元のテーブルで、データ列と任意の数のデータレコード（行）を識別するヘッダーレコードで構成されます。 ヘッダーとデータレコードの両方のフィールドが単一の `<TAB>` 文字。 レコードは 1 つの `<CR>` （ASCII コード） `0xD`)、単一の `<LF>` （ASCII コード） `0xA`)、または `<CR><LF>` ペア。
 
 ヘッダーレコードには、各データフィールドの正確な名前が含まれている必要があります。 ヘッダー行では、空のフィールドは使用できません。 データフィールド名では、大文字と小文字が区別されません。 すべてのフィールド名は一意である必要があります。
 

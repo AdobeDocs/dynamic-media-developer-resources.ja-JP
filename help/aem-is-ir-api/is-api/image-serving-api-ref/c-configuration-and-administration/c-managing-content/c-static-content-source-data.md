@@ -5,9 +5,9 @@ title: 静的コンテンツソースデータ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ` *[!DNL catalogPath]*` は、絶対または相対ファイルパス/名前です。 *[!DNL requestPath]* は、相対ファイルパスまたはファイル名である必要があります。
 
-複数 `PS::staticContent.rootPaths` の値は、 [!DNL PlatformServer.conf]. これにより、ソース・データ・ファイルを複数のファイル・システムに分散させることができます。 この [!DNL Platform Server] は、データファイルが見つかるまで、指定された順序で代替パスを試みます。
+複数 `PS::staticContent.rootPaths` の値は、 [!DNL PlatformServer.conf]. これにより、ソース・データ・ファイルを複数のファイル・システムに分散させることができます。 The [!DNL Platform Server] は、データファイルが見つかるまで、指定された順序で代替パスを試みます。

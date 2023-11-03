@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >
 >レイヤーの直接には、次の変更が常に含まれます。 `extend=`.
 
-レイヤーの長方形の位置を定義します。レイヤーの長方形は、レイヤー 0 を基準にして配置されます。 `pos=`. `originN=0,0` 画層の原点を、画層の長方形の中心に配置します。 `originN=-0.5,-0.5` および `origin=0,0` は左上隅で、 `originN=0.5,0.5` は、レイヤーの長方形の右下隅です。
+レイヤーの長方形の位置を定義します。レイヤーの長方形をレイヤー 0 を基準にして、 `pos=`. `originN=0,0` 画層の原点を、画層の長方形の中心に配置します。 `originN=-0.5,-0.5` および `origin=0,0` は左上隅で、 `originN=0.5,0.5` は、レイヤーの長方形の右下隅です。
 
 ## プロパティ {#section-60f639e36ada43d1abc6bfc100afc925}
 

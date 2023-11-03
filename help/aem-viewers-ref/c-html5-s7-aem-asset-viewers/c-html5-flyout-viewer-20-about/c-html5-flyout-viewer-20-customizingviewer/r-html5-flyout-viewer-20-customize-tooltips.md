@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57d26a76-f4ee-44d5-b7a5-f3eb5c2a8759
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティに `!IMPORTANT` ルール。 ただし、ツールチップがビューアの CSS ファイル内でカスタマイズされている場合は、この操作は必要ありません。
+>埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティにを含める必要があります `!IMPORTANT` ルールを使用します。 ただし、ツールチップがビューアの CSS ファイル内でカスタマイズされている場合は、この操作は必要ありません。
 
-例 — 角丸の半径が 3 ピクセルのグレーの境界線、背景が黒、Arial®で書き込まれた白のテキストを含むツールチップを設定するには、次のように記述します。
+例 — 角丸の半径が 3 ピクセルのグレーの境界線、背景が黒、Arial®で書き込まれた白のテキストを含むツールチップを設定するには、次のように記述します。11 ピクセルのサイズです。
 
 ```
 .s7tooltip { 

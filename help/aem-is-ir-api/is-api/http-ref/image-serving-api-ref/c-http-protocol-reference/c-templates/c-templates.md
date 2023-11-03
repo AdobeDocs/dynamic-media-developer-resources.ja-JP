@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 テンプレートは、イメージカタログ内のレコードとして保存され、テンプレート本体は `catalog::Modifier` フィールド、および `catalog::Path` フィールドが空の場合、または動的に変更できない静的な背景画像を指定する場合。
 
-テンプレートは `template=` コマンド、または要求 URL のパスコンポーネント内で使用できます。 ほとんどのアプリケーションでは、 `template=` 」コマンドを使用して、テンプレートを指定します。 この `template=`コマンドは `catalog::PostModifier` フィールドで、 `catalog::Modifier` 入れ子にされた IS リクエスト ( `src=is{...}` 構築 )。 テンプレートレコードはで参照できません `src=` または `mask=`コマンド
+テンプレートは、 `template=` コマンド、または要求 URL のパスコンポーネント内で使用できます。 ほとんどのアプリケーションでは、 `template=` 」コマンドを使用して、テンプレートを指定します。 The `template=`コマンドは、 `catalog::PostModifier` フィールドでのみ使用され、 `catalog::Modifier` ネストされた IS リクエスト ( `src=is{...}` 構文を参照 )。 テンプレートレコードはで参照できません `src=` または `mask=`コマンド。
 
-任意 `src=` または `mask=`テンプレートに埋め込まれたコマンドは、要求のメインカタログや別の画像カタログに解決される場合があります。 指定しない場合 `rootId` が明示的に指定されている場合、メインカタログが想定されます。 で指定されたテンプレート `template=` は、メインカタログまたは別の画像カタログに配置することもできます。
+任意 `src=` または `mask=`テンプレートに埋め込まれたコマンドは、要求のメインカタログや別の画像カタログに解決される場合があります。 いいえの場合 `rootId` が明示的に指定されている場合、メインカタログが想定されます。 で指定されたテンプレート `template=` は、メインカタログまたは別の画像カタログに配置することもできます。
 
 テンプレートで使用されるすべての変数に対して、常にデフォルトの定義を含めることを強くお勧めします。 これにより、テンプレートの画像出力を、単に指定するだけで、常に表示できます `attribute::RootId` および `catalog::Id`を使用すると、テンプレートで使用される変数を知る必要がなくなります。
 
