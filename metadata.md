@@ -6,9 +6,10 @@ product: adobe dynamic media classic
 type: Documentation
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.ja-JP
 index: true
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+recommendations: noDisplay
+source-git-commit: 0803dd4f2eb0002e50ab2c506d0e9cb203f3d456
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.
 
 | メタデータ | 説明 |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用されます |
+| solution-title | 記事のヘッダーでリンクとして使用されます。 |
 | solution-hub-url | helpx ハブページを開きます |
 | solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
 | getting-started-url | helpx の概要ページへのリンク |
