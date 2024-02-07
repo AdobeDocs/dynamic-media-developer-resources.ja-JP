@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 * [getComponent](r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
 * [init](r-html5-inlinezoom-viewer-javascriptapiref-init.md)
 * [setAsset](r-html5-inlinezoom-viewer-javascriptapiref-setasset.md)
-* [setContainerId](r-html5-inlinezoom-viewer-javascriptapiref-.setcontainerid.md)
+* [setContainerId](r-html5-inlinezoom-viewer-javascriptapiref-setcontainerid.md)
 * [setHandlers](r-html5-inlinezoom-viewer-javascriptapiref-sethandlers.md)
 * [setLocalizedTexts](r-html5-inlinezoom-viewer-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
