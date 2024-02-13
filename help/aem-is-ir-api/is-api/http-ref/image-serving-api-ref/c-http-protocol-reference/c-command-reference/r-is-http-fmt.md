@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | 熱の | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | 説明 |
 |---|---|
@@ -28,6 +28,7 @@ ht-degree: 4%
 | `f4m` | Flashストリーミングサーバーのマニフェスト形式。 |
 | `gif-alpha` | 2 ～ 255 色とキーカラーの透明度を併せ持つGIF。 |
 | `gif` | 2～256 色のGIF。 |
+| `heic` | ロスレス HEIC。 この形式がサポートされていない場合は、デフォルトでブラウザーからダウンロードされます。 |
 | `jpeg` | 非可逆JPEG。 |
 | `jpeg2000-alpha` | アルファチャンネル付きの非可逆JPEG2000。 |
 | `jpeg2000` | 非可逆および非可逆JPEG2000。 |
@@ -50,14 +51,14 @@ ht-degree: 4%
 | `webp-alpha` | アルファチャンネル付きの非可逆 WebP。 |
 | `webp` | 非可逆および非可逆 WebP。 |
 
-| *`pixelType`* – rgb | グレー | cmyk |
+| *`pixelType`* - rgb | グレー | cmyk |
 | *`pixelType`* | 説明 |
 |---|---|
 | `cmyk` | CMYK 画像データを返します。 |
 | `gray` | グレースケールの画像データを返します。 |
 | `rgb` | RGB画像データを返す。 |
 
-| *`compression`* – none | lzw | zip | jpeg | 可逆 | ロスレス |
+| *`compression`* - jpeg | 可逆 | ロスレス | lzw | 除外 | zip |
 | *`compression`* | 説明 |
 |---|---|
 | `jpeg` | JPEG圧縮（非可逆）。 |
