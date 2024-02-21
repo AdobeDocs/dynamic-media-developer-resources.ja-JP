@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Mediaビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップおよびタッチスクリーンデバイスで使用するDynamic Mediaビューアをカスタマイズします。 インタラクティブ画像やビデオ、カルーセル、スピンセットなどを含めます。
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -738,7 +738,7 @@ ht-degree: 1%
       + [Adobe Analytics追跡のサポート](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [支援テクノロジーのサポート](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [ユーザーインターフェイス要素のローカライゼーション](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [ホットスポットと画像マップのサポート](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [ホットスポットと画像マップのサポート](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [画像をプリロード](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [Viewer SDK の名前空間](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + インタラクティブ画像 {#interactive-images}
