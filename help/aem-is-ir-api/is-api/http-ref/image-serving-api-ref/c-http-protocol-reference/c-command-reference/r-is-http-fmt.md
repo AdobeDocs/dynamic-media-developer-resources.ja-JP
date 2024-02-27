@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
+source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -93,18 +93,60 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
+   <td> <p>いいえ </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> ( <span class="codeph"> 可逆 </span>, <span class="codeph"> ロスレス </span>) </p> <p> <span class="codeph"> qlt= </span> 次の値は無視されます： <span class="codeph"> ロスレス </span>. </p> <p>WebP 形式でのクロミナンスダウンサンプリングの概念がないので、 <span class="codeph"> qlt </span> ( 例： <span class="codeph"> qlt=80,1 </span>)2 番目の値 ( <span class="codeph"> 1 </span>) は無視されます。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> eps </p> </td> 
+   <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col4"> <p>はい </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
+   <td colname="col2"> <p>rgb、グレー </p> <p>グレーまたは rgb に変換した後、データがパレットに変換されます。 </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col4"> <p>いいえ </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> quantize= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> 熱の </p> </td> 
+   <td colname="col2"> <p>rgb </p> <p> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/heic&gt; </span> </p> </td> 
+   <td colname="col4"> <p>いいえ </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
+   <td> <p>rgb、グレー </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p>いいえ </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> ( <span class="codeph"> 可逆 </span>, <span class="codeph"> ロスレス </span>) </p> <p> <span class="codeph"> qlt= </span> 次の値は無視されます： <span class="codeph"> ロスレス </span>. </p> <p>WebP 形式でのクロミナンスダウンサンプリングの概念がないので、 <span class="codeph"> qlt </span> ( 例： <span class="codeph"> qlt=80,1 </span>)2 番目の値 ( <span class="codeph"> 1 </span>) は無視されます。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>The <span class="codeph"> pscan= </span> パラメーターは pjpeg 形式にのみ適用されます。 </p> </td> 
-  </tr> 
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"> <p> png, png-alpha </p> </td> 
-   <td colname="col2"> <p>rgb、グレー </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
+   <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p>いいえ </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> ( <span class="codeph"> 可逆 </span>, <span class="codeph"> ロスレス </span>) </p> <p> <span class="codeph"> qlt= </span> 次の値は無視されます： <span class="codeph"> ロスレス </span>. </p> <p>WebP 形式でのクロミナンスダウンサンプリングの概念がないので、 <span class="codeph"> qlt </span> ( 例： <span class="codeph"> qlt=80,1 </span>)2 番目の値 ( <span class="codeph"> 1 </span>) は無視されます。 </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> PDF </p> </td> 
+   <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 次の場合を除き無視されます： <span class="codeph"> <span class="varname"> 圧縮 </span> </span> が <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -114,6 +156,20 @@ ht-degree: 2%
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
+   <td colname="col1"> <p> png, png-alpha </p> </td> 
+   <td colname="col2"> <p>rgb、グレー </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col4"> <p>はい </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> swf, swf3, swf-alpha, swf-alpha3 </p> </td> 
+   <td colname="col2"> <p>rgb、グレー </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>いいえ </p> <p> <p>注意：AdobeFlash Playerは、埋め込まれた ICC プロファイルを無視します。 </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
@@ -121,60 +177,11 @@ ht-degree: 2%
    <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>「tiff」のみ。「tiff-alpha」は jpeg 圧縮をサポートしていません。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 次の場合を除き無視されます： <span class="varname"> 圧縮 </span> が <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf, swf3, swf-alpha, swf-alpha3 </p> </td> 
-   <td colname="col2"> <p>rgb、グレー </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>いいえ </p> <p> <p>注意：AdobeFlash Playerは、埋め込まれた ICC プロファイルを無視します。 </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> PDF </p> </td> 
-   <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
-   <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> 次の場合を除き無視されます： <span class="codeph"> <span class="varname"> 圧縮 </span> </span> が <span class="codeph"> jpeg </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> eps </p> </td> 
-   <td colname="col2"> <p>rgb、グレー、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
-   <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
-   <td colname="col2"> <p>rgb、グレー </p> <p>グレーまたは rgb に変換した後、データがパレットに変換されます。 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
-   <td colname="col4"> <p>いいえ </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> quantize= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>いいえ </p> </td> 
    <td> <p> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> ( <span class="codeph"> 可逆 </span>, <span class="codeph"> ロスレス </span>) </p> <p> <span class="codeph"> qlt= </span> 次の値は無視されます： <span class="codeph"> ロスレス </span>. </p> <p>WebP 形式でのクロミナンスダウンサンプリングの概念がないので、 <span class="codeph"> qlt </span> ( 例： <span class="codeph"> qlt=80,1 </span>)2 番目の値 ( <span class="codeph"> 1 </span>) は無視されます。 </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
-   <td> <p>rgb、グレー </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
-   <td> <p>いいえ </p> </td> 
-   <td> <p>上記と同じ。 </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
-   <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
-   <td> <p>いいえ </p> </td> 
-   <td> <p>上記と同じ。 </p> </td> 
-  </tr>
-  <tr valign="top"> 
-   <td> <p> avif, avif-alpha </p> </td> 
-   <td> <p>rgb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
-   <td> <p>いいえ </p> </td> 
-   <td> <p>上記と同じ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
