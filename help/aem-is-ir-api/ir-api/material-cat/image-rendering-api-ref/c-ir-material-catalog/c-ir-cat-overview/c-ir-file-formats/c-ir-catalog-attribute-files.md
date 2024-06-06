@@ -1,38 +1,38 @@
 ---
 title: カタログ属性ファイル
-description: カタログ属性ファイルには任意の名前を付けることができますが、.ini ファイルのサフィックスを付ける必要があります。 これらは、任意のテキストエディターを使用して簡単に管理できます。
+description: カタログ属性ファイルには任意の名前を付けることができますが、.ini ファイルの拡張子を付ける必要があります。 任意のテキストエディターを使用して簡単に維持できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # カタログ属性ファイル{#catalog-attribute-files}
 
-カタログ属性ファイルには任意の名前を指定できますが、 `.ini` ファイルサフィックス。 これらは、任意のテキストエディターを使用して簡単に管理できます。
+カタログ属性ファイルには任意の名前を付けることができますが、 `.ini` ファイルサフィックス。 任意のテキストエディターを使用して簡単に維持できます。
 
-カタログ属性ファイルは、一連のテキストレコードで構成され、1 つのレコードで区切られます。 `<CR>` （ASCII コード 0xD）, `<LF>` （ASCII コード 0xA）、または `<CR><LF>` ペア。 各レコードは、属性名と 1 つ以上のコンマ区切りの属性値で構成されます。
+カタログ属性ファイルは、テキスト レコードのセットで構成され、1 つのレコードで区切られます `<CR>` （ASCII コード 0xD）、シングル `<LF>` （ASCII コード 0xA）、または `<CR><LF>` ペア。 各レコードは、属性名と、1 つ以上のコンマ区切り属性値で構成されます。
 
-`*`名前`*= *`値`*&#42;[, *`値`*]{<CR>|<LF>|<CR><LF>}`
+`*`名前`*= *`value`*&#42;[, *`value`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名前 </span> </span> </p> </td> 
-  <td class="stentry"> <p>属性名。1 つ以上の文字、数字、「 — 」および「_」で構成することができます。大文字と小文字は区別されません。 </p> </td> 
+  <td class="stentry"> <p>属性名。1 つ以上の文字、数字、– （ハイフン）、_（アンダースコア）で構成でき、大文字と小文字は区別されません。</p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
-  <td class="stentry"> <p>属性値。を含めることはできません <span class="codeph"> &lt;cr&gt; </span>または <span class="codeph"> &lt;lf&gt; </span> 改行文字の直前にある 1 つのバックスラッシュでエスケープしない限り、文字。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p>属性値。含めることはできません <span class="codeph"> &lt;cr&gt; </span>、または <span class="codeph"> &lt;lf&gt; </span> 改行文字の直前に 1 つのバックスラッシュを付けてエスケープしない限り、文字を使用します。 </p> </td> 
  </tr> 
 </table>
 
-* トークン間の空白はオプションです。
-* 不明な属性名を持つレコードは、 [!DNL Platform Server].
-* 属性名は、ASCII 文字、数字、「 — 」、「_」、「。」の任意の組み合わせで構成できます。
-* 同じ属性ファイル内で同じ属性名が複数回存在する場合は、最後に発生した属性名が優先されます。
-* 最初の文字として「#」を使用し、任意のレコードをパーサーによって無視されるコメントとしてマークします。
+* トークン間の空白は任意です。
+* この [!DNL Platform Server] は、不明な属性名を持つレコードを無視します。
+* 属性名は、ASCII 文字、数字、およびの任意の組み合わせで構成できます `-`, `_`、および `.` 文字。
+* 同じ属性ファイル内で同じ属性名が複数回出現する場合は、最後に出現した属性名が優先されます。
+* 使用方法 `#` パーサーが無視するコメントとしてレコードをマークする最初の文字として。
