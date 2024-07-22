@@ -1,26 +1,26 @@
 ---
-title: フルスクリーンボタン
-description: フルスクリーンボタンをクリックすると、ビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
+title: 全画面表示ボタン
+description: ユーザーがフルスクリーンボタンをクリックすると、ビデオプレーヤーがフルスクリーンモードに入るか、フルスクリーンモードを終了します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
-# フルスクリーンボタン{#full-screen-button}
+# 全画面表示ボタン{#full-screen-button}
 
-フルスクリーンボタンをクリックすると、ビデオプレーヤーがフルスクリーンモードに入るか、または終了します。
+ユーザーがフルスクリーンボタンをクリックすると、ビデオプレーヤーがフルスクリーンモードに入るか、フルスクリーンモードを終了します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-フルスクリーンボタンのサイズ、スキン、およびそのボタンを含むコントロールバーに対する位置を、CSS で設定できます。
+フルスクリーンボタンのサイズ、スキンおよび位置は、CSS を使用して、そのボタンを含むコントロールバーを基準にして調整できます。
 
-フルスクリーンボタンの外観は、CSS クラスセレクターを使用して制御します。
+フルスクリーンボタンの外観は、CSS クラスセレクターで制御します。
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton
@@ -31,28 +31,28 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含む上の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
+   <td colname="col2"> <p> 上部のボーダーから配置（パディングを含む）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含む右の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p> パディングを含めて、右側のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含む左の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p> パディングを含めて、左のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む下の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>下罫線からパディングを含めて移動します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p> フルスクリーンボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタンの高さです。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -60,20 +60,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` 「フルスクリーン」状態に対応し、 `selected='false'` は、「通常」の状態に対応します。
+>このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は「フルスクリーン」状態に対応し、`selected='false'` は「通常」状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32 ピクセルで、コントロールバーの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには また、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
+32 x 32 ピクセルの全画面表示ボタンを設定するには、コントロール バーの上端と右端から 6 ピクセルの位置に配置します。 また、選択または未選択の場合、4 つの異なるボタンの状態ごとに異なる画像を表示します。
 
 ```
 .s7interactivevideoviewer . s7fullscreenbutton { 

@@ -1,26 +1,26 @@
 ---
 title: ツールチップ
-description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
+description: デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップがあります。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57d26a76-f4ee-44d5-b7a5-f3eb5c2a8759
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
 # ツールチップ{#tooltips}
 
-デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスポインターを置いたときにツールチップが表示されます。
+デスクトップシステムでは、ボタンなどの一部のユーザーインターフェイス要素に、マウスのカーソルを合わせたときに表示されるツールチップがあります。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-ツールチップの外観は、以下の CSS クラスセレクターを使用して制御します。
+ツールチップの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7tooltip
@@ -36,23 +36,23 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> 背景の境界線の半径。 </p> </td> 
+   <td colname="col2"> <p> 背景境界線の半径。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p> 背景の境界線の色。 </p> </td> 
+   <td colname="col2"> <p> 背景の境界線のカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 背景色. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> 背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>テキストの色。 </p> </td> 
+   <td colname="col2"> <p>テキストのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>テキストのフォント名。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
+   <td colname="col2"> <p>テキストフォント名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合、すべてのプロパティにを含める必要があります `!IMPORTANT` ルールを使用します。 ただし、ツールチップがビューアの CSS ファイル内でカスタマイズされている場合は、この操作は必要ありません。
+>埋め込む web ページ内からツールヒントのスタイルをカスタマイズする場合、すべてのプロパティにルールを含める必要 `!IMPORTANT` あります。 ただし、ツールチップがビューアの CSS ファイルでカスタマイズされている場合は不要です。
 
-例 — 角丸の半径が 3 ピクセルのグレーの境界線、背景が黒、Arial®で書き込まれた白のテキストを含むツールチップを設定するには、次のように記述します。11 ピクセルのサイズです。
+例 – 3 ピクセルの角丸の半径を持つグレーの境界線、黒の背景、Arial® で書かれた白いテキストを持つツールチップを設定するには、11 ピクセルサイズです。
 
 ```
 .s7tooltip { 

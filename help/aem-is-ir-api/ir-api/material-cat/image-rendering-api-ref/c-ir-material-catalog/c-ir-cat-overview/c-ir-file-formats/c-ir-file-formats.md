@@ -1,6 +1,6 @@
 ---
 title: ファイル形式
-description: カタログ属性ファイルとカタログデータファイルは、どちらもプレーンテキストファイルです。
+description: カタログ属性ファイルとカタログ データ ファイルは、どちらもプレーンテキスト ファイルです。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 14%
 
 # ファイル形式{#file-formats}
 
-カタログ属性ファイルとカタログデータファイルは、どちらもプレーンテキストファイルです。
+カタログ属性ファイルとカタログ データ ファイルは、どちらもプレーンテキスト ファイルです。

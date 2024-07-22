@@ -1,6 +1,6 @@
 ---
 title: 画像レンダリング HTTP プロトコルコマンドの概要
-description: 画像レンダリングでサポートされるコマンドを以下に示します（カテゴリ別にグループ化）。
+description: 画像レンダリングでサポートされるコマンドを、カテゴリ別にグループ化して以下に示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 画像レンダリング HTTP プロトコルコマンドの概要{#image-rendering-http-protocol-command-overview}
 
-画像レンダリングでサポートされるコマンドを以下に示します（カテゴリ別にグループ化）。
+画像レンダリングでサポートされるコマンドを、カテゴリ別にグループ化して以下に示します。
 
 * [属性を表示](r-ir-view-attributes.md)
 * [選択コマンド](r-ir-selection-commands.md)
-* [材料属性](r-ir-material-attributes.md)
+* [マテリアル属性](r-ir-material-attributes.md)
 * [その他のコマンド](r-ir-miscellaneous-commands.md)

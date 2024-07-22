@@ -1,6 +1,6 @@
 ---
 title: プロパティ
-description: プロパティデータは、複数の req=タイプに応じて返されます。
+description: プロパティデータは、複数の req= タイプに応答して返されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # プロパティ{#properties}
 
-プロパティデータは、次の応答で返されます。 `req=` タイプ：
+プロパティデータは、次の `req=` タイプに応答して返されます。
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 応答は、 `catalog::UserData` プロパティ形式に従います。
+`userdata` の応答は、`catalog::UserData` のコンテンツがプロパティ形式に従う場合にのみ、プロパティ形式になります。
 
-* [テキスト (Java) プロパティ](r-text-java-properties.md)
+* [テキスト（Java）プロパティ](r-text-java-properties.md)
 * [JavaScript プロパティ](r-javascript-properties.md)
 * [XML プロパティ](r-xml-properties.md)
 * [JSONP プロパティ](r-json-properties.md)

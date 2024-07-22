@@ -1,5 +1,5 @@
 ---
-description: 複数のテキストと画像のレイヤーを持つことができるレイヤー画像を作成します。
+description: 複数のテキストと画像レイヤーを持つレイヤー化された画像を作成します。
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
 # createTemplate{#createtemplate}
 
-複数のテキストと画像のレイヤーを持つことができるレイヤー画像を作成します。
+複数のテキストと画像レイヤーを持つレイヤー化された画像を作成します。
 
-The `urlModifier` パラメータは、URL 上でユーザが指定したコマンドの前に適用される Image Server カタログに保存される Image Server プロトコルコマンドを指定します。 The `urlPostApplyModifier` パラメータは、URL コマンドの後に適用されるプロトコルコマンドを指定します。このコマンドは、ユーザが指定した設定の競合を無効にします。
+`urlModifier` パラメーターは、URL でユーザー指定のコマンドの前に適用される、Image Server カタログに保存されている Image Server プロトコルコマンドを指定します。 `urlPostApplyModifier` パラメーターは、競合するユーザー指定の設定を上書きする URL コマンドの後に適用されるプロトコル コマンドを指定します。
 
-## 認証済みユーザータイプ {#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 許可されているユーザータイプ {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,7 +28,7 @@ The `urlModifier` パラメータは、URL 上でユーザが指定したコマ�
 
 ## パラメーター {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
 
-**入力 (createTemplateParam)**
+**入力（createTemplateParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -36,18 +36,18 @@ The `urlModifier` パラメータは、URL 上でユーザが指定したコマ�
 | folderHandle | `xsd:string` | はい | テンプレートが存在するフォルダーを表すフォルダーハンドル。 |
 | name | `xsd:string` | はい | テンプレート名。 |
 | タイプ | `xsd:string` | はい | テンプレートタイプ。 |
-| urlModifier | `xsd:string` | はい | IS カタログに保存され、URL 上のユーザが指定したコマンドの前に適用される Image Server コマンドを指定します。 |
-| urlPostApplyModifier | `xsd:string` | いいえ | URL コマンドの後に適用するプロトコルコマンドを指定します。このコマンドは、ユーザー指定の競合する設定を上書きします。 |
+| urlModifier | `xsd:string` | はい | URL 上でユーザー指定のコマンドの前に適用される、IS カタログに格納された Image Server コマンドを指定します。 |
+| urlPostApplyModifier | `xsd:string` | いいえ | 競合するユーザー指定の設定を上書きする URL コマンドの後に適用されるプロトコル コマンドを指定します。 |
 
-**出力 (createTemplateParam)**
+**出力（createTemplateParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| assetHandle | `xsd:string` | はい | テンプレートのハンドル。 |
+| assetHandle | `xsd:string` | はい | テンプレートへのハンドル。 |
 
 ## 例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-このコード例では、ハンドルで指定されたフォルダーに、という名前のテンプレートを作成します。 `APIcreateTemplate`, a `urlModifier`、および `urlPostApplyModifier`. 応答は、新しく作成されたテンプレートにハンドルを返します。
+このコードサンプルでは、ハンドルで指定されたフォルダーに、名前 `APIcreateTemplate`、`urlModifier`、`urlPostApplyModifier` を使用してテンプレートを作成します。 応答は、新しく作成されたテンプレートへのハンドルを返します。
 
 **リクエスト**
 

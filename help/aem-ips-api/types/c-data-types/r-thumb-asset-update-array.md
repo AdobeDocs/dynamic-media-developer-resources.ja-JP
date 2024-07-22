@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| 商品 | `types:ThumbAssetUpdates` | サムアセットの更新の配列。 |
+| 商品 | `types:ThumbAssetUpdates` | サムアセットの配列が更新されます。 |

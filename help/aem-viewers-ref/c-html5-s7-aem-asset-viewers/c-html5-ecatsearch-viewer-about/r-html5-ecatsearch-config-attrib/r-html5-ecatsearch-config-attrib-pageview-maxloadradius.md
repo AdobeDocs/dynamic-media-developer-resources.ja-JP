@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p>に設定する場合 <span class="codeph"> -1</span> アイドル状態の場合は、すべてのカタログフレームがプリロードされます。 </p> <p> に設定する場合 <span class="codeph"> 0</span> このコンポーネントは、表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> ：アイドル状態でプリロードされる、現在表示されているフレームの周りの非表示のフレーム数を定義します。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph">-1 に設定すると </span> コンポーネントはアイドル状態であるときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0 に設定すると </span> コンポーネントは表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> を設定して、現在表示されているフレームの周囲の非表示フレームのうち、アイドル状態でプリロードされるフレームの数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

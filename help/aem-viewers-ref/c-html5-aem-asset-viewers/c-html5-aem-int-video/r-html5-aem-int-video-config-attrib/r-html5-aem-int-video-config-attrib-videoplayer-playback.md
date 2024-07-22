@@ -8,7 +8,7 @@ exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> ビューアで使用する再生のタイプを設定します。 </p> <p><span class="codeph"> auto</span>が設定されている場合、ほとんどのデスクトップブラウザーとすべてのiOSデバイスで、ビューアはHLS形式のHTML5ストリーミングビデオを使用します。 また、古いInternet ExplorerやAndroid™などの特定のシステムでのプログレッシブHTML5再生にフォールバックされます。 </p> <p><span class="codeph"> progressive</span>が設定されている場合、ビューアは、ブラウザーでネイティブサポートされているHTML5再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p><span class="codeph"> auto</span>および<span class="codeph">プログレッシブ</span>ネイティブモードでの再生の選択について詳しくは、『HTML5ビューアSDKユーザガイド』を参照してください。 </p> </td> 
+   <td colname="col2"> <p> ビューアが使用する再生のタイプを設定します。 </p> <p><span class="codeph"> auto</span> が設定されていると、ほとんどのデスクトップブラウザーとすべてのiOS デバイスで、ビューアは HLS 形式のHTML5 ストリーミングビデオを使用します。 また、古い Internet Explorer やAndroid™ などの特定のシステムでは、プログレッシブ HTML5 再生にフォールバックします。 </p> <p><span class="codeph"> プログレッシブ </span> が設定されている場合、ビューアは、ブラウザーでネイティブにサポートされているHTML5 での再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p>自動モードと <span class="codeph"> プログレッシブ </span> ネイティブモードでの再生 <span class="codeph"> 選択範囲について詳しくは </span>HTML5 ビューア SDK ユーザーガイドを参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

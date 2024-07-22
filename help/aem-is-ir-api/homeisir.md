@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # AdobeDynamic Media画像サービングおよび画像レンダリング API ホーム{#adobe-scene-image-serving-and-image-rendering-api-home}
 
-このドキュメントには、画像サービング API と画像レンダリング API に関する情報、および関連するテクノロジーが含まれます。 AEMとのDynamic Media Classic統合に取り組む場合は、この API の画像サービングの節を参照してください。
+このドキュメントには、画像サービング API と画像レンダリング API、および関連テクノロジーに関する情報が含まれています。 AEMとのDynamic Media Classic統合を作業する場合は、この API の画像サービスの部分を参照してください。

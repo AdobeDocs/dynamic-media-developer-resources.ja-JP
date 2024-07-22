@@ -1,6 +1,6 @@
 ---
 title: 検索効果
-description: ビューアは、メインビューに検索結果の領域を表示して、カタログ内の単語や語句をハイライトします。
+description: ビューアは、メインビューに検索結果領域を表示して、カタログ内で見つかった単語または語句をハイライト表示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # 検索効果{#search-effect}
 
-ビューアは、メインビューに検索結果の領域を表示して、カタログ内の単語や語句をハイライトします。
+ビューアは、メインビューに検索結果領域を表示して、カタログ内で見つかった単語または語句をハイライト表示します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-検索結果領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+検索結果領域の外観は、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -33,13 +33,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
    <td colname="col2"> <p>検索結果領域の背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 半透明で黄色い塗りつぶしで検索結果の領域を設定するには、次のように記述します。
+例 – 半透明の黄色の塗りつぶしを使用して検索結果領域を設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 

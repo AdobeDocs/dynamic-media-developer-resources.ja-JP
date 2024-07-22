@@ -1,26 +1,26 @@
 ---
-title: 指標を設定
-description: セットインジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+title: インジケーターを設定
+description: セットインジケーターは、タッチデバイスでビューアを使用したときに、スウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンが使用できない場合に、ユーザーがサムネールのページ間を移動するのに役立ちます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# 指標を設定{#set-indicator}
+# インジケーターを設定{#set-indicator}
 
-セットインジケーターは、タッチデバイスでビューアを使用したときにスウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンを使用できない場合に、サムネールのページ間を移動するのに役立ちます。
+セットインジケーターは、タッチデバイスでビューアを使用したときに、スウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンが使用できない場合に、ユーザーがサムネールのページ間を移動するのに役立ちます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**設定インジケーターの CSS プロパティ**
+**セットインジケーターの CSS プロパティ**
 
-設定インジケーターコンテナの外観は、以下の CSS クラスセレクターを使用して制御します。
+セットインジケーターコンテナの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7zoomviewer .s7setindicator
@@ -35,13 +35,13 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターの 16 進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケーターの 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 背景が白の設定インジケーターを作成するには：
+例 – 背景が白いセットインジケーターを作成するには：
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,7 +49,7 @@ ht-degree: 0%
 }
 ```
 
-個々のセットインジケーターのドットの外観は、CSS クラスセレクターを使用して制御します。
+個々のセットインジケータードットの外観は、CSS クラスセレクターで制御します。
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -62,12 +62,12 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターのドットの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケータードットの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターのドットの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケータードットの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
@@ -75,7 +75,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p>上余白（ピクセル単位）。 </p> </td> 
+   <td colname="col2"> <p>上マージン （ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
@@ -90,17 +90,17 @@ ht-degree: 0%
    <td colname="col2"> <p>境界線の半径（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>16 進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>背景色（16 進数形式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->インジケーターのドットを設定すると、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、現在のサムネールのページに対応します。 `state="unselected"` は、デフォルトのドットの状態に対応します。
+>セットインジケータードットは、`state` 属性セレクターをサポートしており、異なるサムネール状態に異なるスキンを適用するために使用できます。 特に、`state="selected"` は現在のサムネールのページに対応 `state="unselected"`、デフォルトのドット状態に対応します。
 
-例 — 15 x 15 ピクセルで、2 ピクセルの水平マージン、5 ピクセルの上マージン、1 ピクセルの下マージン、12 ピクセルの半径、#D5D3D3 default color および#939393アクティブな色の設定インジケーターのドットを作成するには、次のように記述します。
+例 – セットインジケーターのドットを 15 x 15 ピクセルに設定し、水平方向の余白 2 ピクセル、上部の余白 5 ピクセル、下部の余白 1 ピクセル、半径 12 ピクセル、デフォルトの色#D5D3D3 アクティブな色#939393 使用するには：
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

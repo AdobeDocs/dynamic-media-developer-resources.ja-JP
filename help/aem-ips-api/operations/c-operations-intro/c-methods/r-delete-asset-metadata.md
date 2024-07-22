@@ -1,24 +1,24 @@
 ---
-description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチに設定します。
+description: アセットのメタデータ値を削除します。 メタデータ削除の配列を操作して、値をバッチで設定します。
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API，メタデータ，アセット管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '126'
+ht-degree: 7%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチに設定します。
+アセットのメタデータ値を削除します。 メタデータ削除の配列を操作して、値をバッチで設定します。
 
 構文
 
-## 許可されたユーザーの種類 {#section-e913be43b684491daf02bc73211e4290}
+## 許可されているユーザータイプ {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +29,11 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび削除アクセス権を持っている必要があります。
+>ユーザーには、アセットに対する読み取りおよび削除のアクセス権が必要です。
 
-## パラメータ {#section-0eed164e278b456fbdfb7a50727a0416}
+## パラメーター {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**入力(deleteAssetMetadataParam)**
+**入力（deleteAssetMetadataParam）**
 
 <table id="table_A4438E2FE5F245E5B73F46CD887BE70F"> 
  <thead> 
@@ -55,7 +55,7 @@ ht-degree: 8%
    <td colname="col1"> <p>assetHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>削除するアセットのハンドル。 </p> </td> 
+   <td colname="col4"> <p>削除するアセットへのハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
@@ -65,16 +65,16 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型：MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> タイプ：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>アセットから削除するメタデータの配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力(deleteAssetMetadataParam)**
+**出力（deleteAssetMetadataParam）**
 
-IPS APIは、この操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-d5657289f5234bb0a613dcf691507958}
 
@@ -88,7 +88,7 @@ MetadataDelete
     </complexType>
 ```
 
-呼び出し例
+呼び出しの例
 
 ```java
 <ac:Request id="deleteAssetMetadata">

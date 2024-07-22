@@ -101,7 +101,7 @@ ht-degree: 17%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>エッジランダム化。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edgeランダム化ツール。 </p></td> 
  </tr> 
 </table>
 

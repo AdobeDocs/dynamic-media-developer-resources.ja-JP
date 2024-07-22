@@ -1,6 +1,6 @@
 ---
-title: Linux®での起動または停止
-description: Linux®で画像サービングを起動または停止する方法は 2 つあります。
+title: Linux® での起動または停止
+description: Linux® での画像サービングの開始と停止には、2 つのオプションがあります。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Linux®での起動または停止 {#starting-or-stopping-on-linux}
+# Linux® での起動または停止 {#starting-or-stopping-on-linux}
 
-Linux®で画像サービングを起動または停止する方法は 2 つあります。
+Linux® での画像サービングの開始と停止には、2 つのオプションがあります。
 
-* 画像サービングのステータスを検証する、または画像サービングを開始および停止するスクリプトは、 [!DNL ImageServing/bin] フォルダー：
+* 画像サービングのステータスを確認したり、画像サービングを開始および停止したりするスクリプトは、[!DNL ImageServing/bin] フォルダーにあります。
 
-   `ImageServing.sh {start|stop|restart|status}`
-* 次の代替手段は、システム管理者にとって理解しておく必要があります。
+  `ImageServing.sh {start|stop|restart|status}`
+* 次の代替手段は、システム管理者になじみがある必要があります。
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

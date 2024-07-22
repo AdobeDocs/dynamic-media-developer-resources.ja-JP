@@ -1,26 +1,26 @@
 ---
 title: 検索結果パネル
-description: 検索結果パネルは、上部にある検索入力ボックスと、情報メッセージや検索結果が表示されるメイン領域で構成されます。
+description: 検索結果パネルは、上部の検索入力ボックスと、情報メッセージまたは検索結果が表示されるメイン領域で構成されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
 # 検索結果パネル{#search-results-panel}
 
-検索結果パネルは、上部にある検索入力ボックスと、情報メッセージや検索結果が表示されるメイン領域で構成されます。
+検索結果パネルは、上部の検索入力ボックスと、情報メッセージまたは検索結果が表示されるメイン領域で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-パネルがアクティブな場合、ビューアのユーザインターフェイスは半透明の塗りで覆われます。 この塗りの色と不透明度は、以下の CSS クラスセレクターを使用して制御します。
+パネルがアクティブな場合、ビューアのユーザーインターフェイスは半透明の塗りつぶしで覆われます。 この塗りつぶしのカラーと不透明度は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -35,34 +35,34 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>オーバーレイの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
    <td colname="col2"> <p>カラーの不透明度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-検索結果パネルは、使用可能なすべてのビューアの高さを常に占めます。 ただし、幅を設定することはできます。 幅は、絶対ピクセル値に設定できます。これは、中サイズと大サイズのブレークポイントのデフォルト設定です。 または、幅を 100%に設定して、検索結果パネルをビューア領域全体に表示することもできます。 パネルの幅は、以下の CSS クラスセレクターを使用して制御します。
+検索結果パネルは、常に、使用可能なすべてのビューアの高さを占めます。 ただし、幅を設定することはできます。 幅は絶対ピクセル値に設定できます。この値は、中程度のサイズと大きいサイズのブレークポイントのデフォルト設定です。 または、幅を 100% に設定すると、検索結果パネルがビューア領域全体に表示されるようになります。 パネルの幅は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
 ```
 
-**検索結果スペースの CSS プロパティ**
+**検索結果空間の CSS プロパティ**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 検索結果スペースの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p> 検索結果のスペースの幅。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 大サイズと中サイズのブレークポイントに 250 ピクセル幅の検索結果パネルを設定し、小サイズのブレークポイントにフルサイズのパネルを使用するには、次のように記述します。
+例 – 幅 250 ピクセルの検索結果パネルを大および中サイズのブレークポイントに設定し、小サイズのブレークポイントでフルサイズのパネルを使用する
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -73,7 +73,7 @@ ht-degree: 1%
 }
 ```
 
-検索結果パネルの上部は、検索入力ボックス専用です。 入力ボックスの側面のパディングは、以下の CSS クラスセレクターを使用して制御します。
+検索結果パネルの上部は、検索入力ボックス専用です。 入力ボックスの端のパディングは、次の CSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
@@ -84,13 +84,13 @@ ht-degree: 1%
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> 入力ボックスの周囲のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-検索入力フィールドは、以下の CSS クラスセレクターを使用して制御します。
+検索入力フィールドは、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
@@ -101,20 +101,20 @@ ht-degree: 1%
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>検索入力フィールドの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
-   <td colname="col2"> <p> 入力フィールドの境界と入力テキストとの間の内側のパディング。 </p> </td> 
+   <td colname="col2"> <p> 入力フィールドの境界と入力テキストの間の内側のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
    <td colname="col2"> <p>検索入力フィールドの境界線。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>検索入力フィールドの余白 </p> </td> 
+   <td colname="col2"> <p>検索入力フィールドのマージン </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -123,7 +123,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 高さが 0 ピクセル、テキストフォントが 14 ピクセルの検索入力フィールドを設定するには、次のように記述します。
+例 – 0 ピクセルの高さと 14 ピクセルのテキストフォントを使用して検索入力フィールドを設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput { 
@@ -133,7 +133,7 @@ ht-degree: 1%
 }
 ```
 
-デフォルトでは、検索入力フィールドの左側にある「鏡のように見える」検索ボタンは、以下の CSS クラスセレクターを使用して制御します。
+デフォルトで「looking glass」の形式の検索入力フィールドの左側にある検索ボタンは、次の CSS クラスセレクターで制御されます。
 
 ```
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
@@ -144,24 +144,24 @@ ht-degree: 1%
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>検索入力ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>検索入力ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>「鏡のよう」アイコン画像の URL。 </p> </td> 
+   <td colname="col2"> <p>「鏡の中の」アイコン画像への URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
-   <td colname="col2"> <p>「鏡のよう」アイコンのサイズ。 </p> </td> 
+   <td colname="col2"> <p>「ルッキング グラス」アイコンのサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>検索入力ボタンの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
+   <td colname="col2"> <p>検索入力ボタンのボーダー。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
@@ -170,7 +170,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 26 x 26 ピクセルの「鏡のよう」アイコンを持つ検索ボタンを設定し、サイズが 30 ピクセルで 1 ピクセルの境界線を持つ検索ボタンを設定するには、次のように記述します。
+例 – 26 x 26 ピクセルの「Looking Glass」アイコンと、30 ピクセルのサイズで 1 ピクセルの境界線を持つ検索ボタンを設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ ht-degree: 1%
 }
 ```
 
-検索結果パネルでは、フィーチャを最初に呼び出したときにテキストプロンプトが表示される場合があります。 また、ユーザーの検索で結果が返されなかった場合にメッセージも表示されます。 どの場合でも、テキストは検索結果パネルのメイン部分に表示され、以下の CSS クラスセレクターで制御されます。
+フィーチャが最初に呼び出されたときに、検索結果パネルにテキスト プロンプトが表示される場合があります。 また、ユーザーの検索が結果を返さなかった場合もメッセージが表示されます。 どの場合でも、テキストは検索結果パネルのメイン部分に表示され、次の CSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -198,12 +198,12 @@ ht-degree: 1%
    <td colname="col2"> <p> テキストの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>テキストフォントの名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
-   <td colname="col2"> <p>水平方向のテキスト揃え。 </p> </td> 
+   <td colname="col2"> <p>テキストの水平方向の配置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -214,11 +214,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->このテキストパネルでは、 `state` 属性セレクター。異なるテキストメッセージに異なるスタイルを適用するために使用できます。 特に `state='prompt'` は、パネルを初めて呼び出したときに表示されるテキストプロンプトに対応します。 The `state='results'` は、検索ヒットに関する情報を示すテキストに対応します。 最後に、 `state='no_results'` は、検索クエリが結果を返さなかった場合に表示されるテキストに対応します。
+>このテキストパネルでは、`state` 属性セレクターがサポートされており、これを使用して、様々なテキストメッセージに異なるスタイルを適用できます。 特に、`state='prompt'` は、パネルが初めて呼び出されたときに表示されるテキストプロンプトに対応しています。 `state='results'` は、検索ヒット数に関する情報を含むテキストに対応します。 最後に、`state='no_results'` は、検索クエリが結果を返さなかった場合に表示されるテキストに対応します。
 
-メッセージテキストはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+メッセージテキストはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 18 ピクセルのグレーフォントを使用するテキストパネルを設定するには、次のように記述します。
+例 – グレーの 18 ピクセルフォントを使用するテキストパネルを設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -227,24 +227,24 @@ ht-degree: 1%
 }
 ```
 
-検索結果は、検索ヒットがあるページでは、1 列または 1 行のサムネールとしてレンダリングされます。 検索結果サムネールの間隔は、以下の CSS クラスセレクターを使用して制御します。
+検索結果は、検索ヒットを含むページの 1 列または 1 行のサムネールとしてレンダリングされます。 検索結果のサムネール間の間隔は、次の CSS クラスセレクターで制御します。
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**サムネールのセルの CSS プロパティ**
+**サムネールセルの CSS プロパティ**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の垂直方向のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell </span> に設定された上下の余白 <span class="codeph"> 合計と等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 10 ピクセルの間隔を設定するには：
+例 – 10 ピクセル間隔を設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -252,7 +252,7 @@ ht-degree: 1%
 }
 ```
 
-個々のサムネールの外観は、以下の CSS クラスセレクターを使用して制御します。
+個々のサムネールの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb
@@ -263,21 +263,21 @@ ht-degree: 1%
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの幅 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの高さ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールのボーダー。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 215 x 129 ピクセルで、デフォルトの境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
+例 – 215 x 129 ピクセルのサムネールで、デフォルトの境界線が薄いグレーで、選択した境界線が濃いグレーになるように設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -286,7 +286,7 @@ ht-degree: 1%
 }
 ```
 
-サムネールラベルの外観は、以下の CSS クラスセレクターを使用して制御します。
+サムネールラベルの外観は、次の CSS クラスセレクターで制御します。
 
 ```
  .s7ecatalogsearchviewer 
@@ -299,10 +299,10 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> テキストの色。 </p> </td> 
+   <td colname="col2"> <p> テキストのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>テキストフォントの名前。 </p> </td> 
   </tr> 
   <tr> 
@@ -312,7 +312,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 12 ピクセル、グレー、Helvetica®フォントを使用するラベルを設定するには、次のように記述します。
+例 – 12 ピクセル、グレー、Helvetica® フォントを使用するラベルを設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -322,45 +322,45 @@ ht-degree: 1%
 }
 ```
 
-マウス入力を使用するシステムでは、検索結果パネルの下部に 2 つのスクロールボタンが表示され、検索結果をユーザーがスクロールできます。 上下のスクロールボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+マウス入力を使用するシステムでは、ユーザーが検索結果をスクロールすると、検索結果パネルの下部に 2 つのスクロールボタンが表示されます。 上下のスクロールボタンの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-CSS の top、left、bottom および right プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアのロジックによって自動的に配置されます。
+CSS の top、left、bottom、right プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアロジックによって自動的に配置されます。
 
-**上下スクロールボタンの CSS プロパティ**
+**スクロールアップボタンとスクロールダウンボタンの CSS プロパティ**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>スクロールボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>スクロール ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` 属性セレクター。異なるスキンを適用するのに使用できます。 `"up"`, `"down"`, `"over"`、および `"disabled"` ボタンの状態。
+>このボタンでは、`"up"`、`"down"`、`"over"`、`"disabled"` のボタン状態に異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 125 x 35 ピクセルで、状態ごとに異なるアートワークを持つ上スクロールボタンを設定するには、次のように記述します。
+例 – 125 x 35 ピクセルで、状態ごとに異なるアートワークを持つスクロールアップボタンを設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

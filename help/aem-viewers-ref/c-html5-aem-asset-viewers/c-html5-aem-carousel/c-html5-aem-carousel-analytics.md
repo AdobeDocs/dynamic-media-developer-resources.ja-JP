@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics追跡のサポート
-description: Adobe Analytics追跡のサポート
+title: Adobe Analyticsのトラッキングのサポート
+description: Adobe Analyticsのトラッキングのサポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
@@ -8,17 +8,17 @@ exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-デフォルトでは、ビューアは、ビューアのタイプとバージョン情報を含む、設定済みの Image Server に対して 1 つのトラッキング HTTP 要求を送信します。
+デフォルトでは、ビューアは、設定された Image Server に対して、ビューアのタイプとバージョン情報を含む単一のトラッキング HTTP リクエストを送信します。
 
-をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、`trackEvent` ビューアのコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,12 +57,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
    <td colname="col2"> <p>ビューアが最初に読み込まれます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> バナー </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
    <td colname="col2"> <p>カルーセルバナーの画像が変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーはホットスポットをアクティブにします。 </p> </td> 
+   <td colname="col2"> <p>ユーザーはホットスポットをアクティベートします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

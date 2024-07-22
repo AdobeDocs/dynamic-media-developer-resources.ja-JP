@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: 基本ズームビューアの JavaScript API リファレンス。
+description: 基本ズームビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-基本ズームビューアの JavaScript API リファレンス。
+基本ズームビューアのJavaScript API リファレンス。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> オブジェクト</span>} ローカリゼーションデータを含む JSON オブジェクト。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション</a> を参照してください。 </p> <p> 関連トピック <i>ビューア SDK ユーザーガイド</i> と例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> ローカリゼーションデータを含む {<span class="codeph"> Object</span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーショ </a> を参照してください。 </p> <p> <i>Viewer SDK User Guide</i> も参照してください。また、オブジェクトのコンテンツに関する詳細については、例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1 つ以上のロケールのローカライゼーション SYMBOL 値を設定します。 このパラメーターは、の前に呼び出す必要があります `init()`.
+1 つまたは複数のロケールの SYMBOL 値を設定します。 このパラメーターは、`init()` 前に呼び出す必要があります。
 
-関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

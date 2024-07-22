@@ -1,6 +1,6 @@
 ---
-title: 素材カタログ
-description: 素材カタログ
+title: 材料カタログ
+description: 材料カタログ
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# 素材カタログ{#material-catalog}
+# 材料カタログ{#material-catalog}

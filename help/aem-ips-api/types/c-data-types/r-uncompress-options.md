@@ -1,6 +1,6 @@
 ---
 title: UnCompressOptions
-description: ZIP ファイルと TAR ファイルをプライマリアセットとして処理する（なし）か、その内容を抽出してアップロードする (UnCompress) ための設定をアップロードします。
+description: アップロード設定：ZIP および TAR ファイルをプライマリアセットとして処理（なし）またはコンテンツを抽出してアップロード（非圧縮）します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # [!DNL UnCompressOptions]{#uncompressoptions}
 
-ZIP ファイルと TAR ファイルをプライマリアセットとして処理する（なし）か、その内容を抽出してアップロードする (UnCompress) ための設定をアップロードします。
+アップロード設定：ZIP および TAR ファイルをプライマリアセットとして処理（なし）またはコンテンツを抽出してアップロード（非圧縮）します。
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ ZIP ファイルと TAR ファイルをプライマリアセットとして処�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> プロセス</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> プロセス </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>ZIP および TAR アーカイブファイルの処理を制御します。 次の 2 つのオプションが用意されています。 
+   <td colname="col3"> <p>ZIP および TAR アーカイブファイルの処理を制御します。 次の 2 つのオプションがあります。 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> なし：</span> プライマリアセットとして処理します。 </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解凍：</span> 内容を抽出して処理します。 </li>
-     </ul><p>注意：文字列定数では大文字と小文字が区別されます。 用途 <span class="codeph"> 圧縮解除</span>，ではない <span class="codeph"> 解凍</span>または <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress:</span> コンテンツを抽出して処理します。 </li>
+     </ul><p>メモ：文字列定数では大文字と小文字が区別されます。 UnCompress</span>、uncompress</span> または <span class="codeph"> unCompress</span><span class="codeph"> 使用 <span class="codeph"> ないでください。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ ZIP ファイルと TAR ファイルをプライマリアセットとして処�
 
 ## 使用者 {#section-b2a829cf5511412e968bb2000f85cc31}
 
-The `unCompressionOptions` タイプは次のユーザーが使用します。
+`unCompressionOptions` のタイプは、次のユーザーが使用します。
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

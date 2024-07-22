@@ -1,26 +1,26 @@
 ---
-title: フルスクリーンボタン
-description: ユーザーがクリックした場合に、ビューアのフルスクリーンモードが開始または終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+title: 全画面表示ボタン
+description: ユーザーがクリックしたときに、ビューアがフルスクリーンモードに入ったり終了したりします。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
-# フルスクリーンボタン{#full-screen-button}
+# 全画面表示ボタン{#full-screen-button}
 
-ユーザーが選択した場合に、ビューアがフルスクリーンモードに入るか、終了します。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+ユーザーが選択した場合に、ビューアがフルスクリーンモードに入ったり終了したりします。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+ボタンの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton
@@ -35,47 +35,47 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む上の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
+   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む右の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p>パディングを含めて、右側のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>パディングを含めて、左のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む下の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>下罫線からパディングを含めて移動します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` 「フルスクリーン」状態に対応し、 `selected='false'` は、「通常」の状態に対応します。
+>このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は「フルスクリーン」状態に対応し、`selected='false'` は「通常」状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 選択時と未選択時の 4 つのボタンの状態ごとに異なる画像を表示する必要があります。
+例 – 32 x 32 ピクセルで、ビューアの右上から 6 ピクセルに配置されるフルスクリーンボタンを設定する 選択または未選択の場合、4 つの異なるボタンの状態ごとに異なる画像を表示する必要があります。
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: '116'
+ht-degree: 2%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 4%
 
 インタラクティブビデオビューアの設定属性。
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示に使用する効果の種類を指定します。 </p> <p><span class="codeph"> none</span>に設定すると、すぐに表示/非表示になります。 </p> <p><span class="codeph"> fade</span>に設定すると、徐々にフェードイン/フェードアウトします。 Internet Explorer 8ではサポートされていません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|フェード </span> </p> </td> 
+   <td colname="col2"> <p> コントロール バーとその内容の表示/非表示を切り替えるために使用する効果の種類を指定します。 </p> <p><span class="codeph"> なし」に設定すると </span> 表示/非表示を即座に切り替えることができます。 </p> <p>徐々にフェードイン/フェードアウトする効果を得るには </span> フェードを <span class="codeph"> に設定します。 Internet Explorer 8 ではサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーによって登録された最後のマウス/タッチイベントから、コントロールバーが非表示になるまでの時間を秒単位で指定します。 <span class="codeph"> -1</span>に設定すると、コンポーネントの自動非表示効果がトリガーされないので、常に画面に表示されます。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーによって登録された最後のマウスまたはタッチイベントからタイムコントロールバーが非表示になるまでの時間（秒）を指定します。 <span class="codeph">-1 に設定すると </span> コンポーネントは自動的に隠す効果をトリガーしないので、常に画面に表示されたままになります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 期間</span></span> </p> </td> 
-   <td colname="col2"> <p> フェードイン/フェードアウトアニメーションの時間を秒単位で設定します。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
+   <td colname="col2"> <p> フェードイン/フェードアウトアニメーションのデュレーションを秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

@@ -1,7 +1,7 @@
 ---
-description: 画像サービングは、正規表現の一致と置き換えルールに基づく、シンプルなリクエストプリプロセッサーを提供します。
+description: 画像サービングは、正規表現の一致と置換ルールに基づいて、シンプルなリクエストプリプロセッサーを提供します。
 solution: Experience Manager
-title: 前処理をリクエスト
+title: リクエストの前処理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# 前処理をリクエスト{#request-preprocessing}
+# リクエストの前処理{#request-preprocessing}
 
-画像サービングは、正規表現の一致と置き換えルールに基づく、シンプルなリクエストプリプロセッサーを提供します。
+画像サービングは、正規表現の一致と置換ルールに基づいて、シンプルなリクエストプリプロセッサーを提供します。
 
-ルール（ルールセット）のコレクションを、デフォルトのカタログを含む各画像カタログに添付できます。 ルールは XML 形式のファイルで指定します。
+デフォルトのカタログを含め、各画像カタログにルールのコレクション（ルールセット）を添付できます。 ルールは、XML 形式のファイルで指定します。
 
-リクエストの前処理ルールは、リクエストが [!DNL Platform Server]パスの操作、コマンドの追加、コマンド値の変更、テンプレートまたはマクロの適用を含むのパーサー。 また、ルールを使用して、要求の難読化、ウォーターマークなど、通常はカタログ属性でのみ制御される特定のセキュリティ機能を設定および上書きし、HTTP サービスを特定のクライアント IP アドレスに制限することもできます。
+リクエスト前処理ルールでは、パスの操作、コマンドの追加、コマンド値の変更、テンプレートやマクロの適用など、リク [!DNL Platform Server] ストのパーサーで処理される前に、リクエストのパスとクエリの部分を変更できます。 また、ルールを使用して、通常はカタログ属性でのみ制御される特定のセキュリティ機能（リクエストの不明化、ウォーターマーキング、特定のクライアント IP アドレスへの HTTP サービスの制限など）を設定および上書きすることもできます。
 
-リクエストの前処理ルールは、様々なアプリケーションに適しています。一部は次のとおりです。
+リクエストの前処理ルールは様々なアプリケーションに適しています。その一部を次に示します。
 
-* の実装 *仮想パス* メカニズム：要求パスをファイル、FTP、HTTP パスに再マッピングできます。
-* 透かしなどのセキュリティ機能を、画像名またはパスでフィルタリングして、選択的に強制します。
-* 特定の IP アドレスからサーバーにアクセスする際に、透かしや他のセキュリティ機能を省略する。
-* 次のようなコマンドの適用を強制 `defaultImage=`を、URL パスまたはクエリ文字列に特定のパターンを示すすべてのリクエストまたはリクエストに対して適用できます。
-* CPU 負荷の高いコマンドを使用してサーバの乱用を防ぐことを禁止します。
-* ソース画像を HTTP または FTP サーバー上に配置し、リクエストパス上で指定する ( `src=`.
-* 要求パスまたは画像名に応じて、画質設定 (JPEGの画質やシャープニングなど ) を制御します。
+* リクエストパスをファイル、FTP、HTTP の各パスに再マッピングできる *仮想パス* メカニズムを実装する。
+* 画像の名前またはパスでフィルタリングした、透かしなどのセキュリティ機能を選択的に適用する。
+* 特定の IP アドレスからサーバーにアクセスする際に、透かしなどのセキュリティ機能を省略する。
+* `defaultImage=` などのコマンドを、すべてのリクエストまたは URL パスやクエリ文字列に特定のパターンを示すリクエストに強制的に適用します。
+* サーバーの不正使用を防ぐために、CPU を集中的に使用するコマンドの使用を許可しない。
+* ソース画像を `src=` ではなくリクエストパスで指定しながら、HTTP サーバーまたは FTP サーバーに配置できるようにします。
+* リクエストパスまたは画像名に応じて、画質の設定（JPEG画質やシャープニングなど）を制御します。
 
-ルールセットの作成、使用、管理について詳しくは、 [ルールセットの参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
+ルールセットの作成、使用および管理について詳しくは、[ ルールセット参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e) を参照してください。
 
 ## 関連項目 {#see-also}
 
-[ルールセットの参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
+[ 規則セットの参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)

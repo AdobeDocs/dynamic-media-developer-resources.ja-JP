@@ -1,23 +1,24 @@
 ---
 title: 外部ビデオのサポート
-description: ビューアは、Dynamic Media ClassicまたはAdobe Experience Manager - Dynamic Mediaの外部でホストされているビデオの再生をサポートします。
+description: このビューアでは、Dynamic Media ClassicまたはAdobe Experience Manager - Dynamic Mediaの外部でホストされるビデオの再生をサポートしています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2ab5a083-5995-440a-a9a6-6642277b8a58
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # 外部ビデオのサポート{#external-video-support}
 
-ビューアは、Dynamic Media ClassicまたはAdobe Experience Manager - Dynamic Mediaの外部でホストされているビデオの再生をサポートします。
+このビューアでは、Dynamic Media ClassicまたはAdobe Experience Manager - Dynamic Mediaの外部でホストされるビデオの再生をサポートしています。
 
-外部ビデオでサポートされる形式は、H.264 形式の MP4 または HLS ストリームの M3U8 マニフェストです。
+外部ビデオでサポートされている形式は、H.264 形式の MP4 か、HLS ストリームの M3U8 マニフェストです。
 
-ビューアは、Dynamic Media ClassicまたはExperience Manager- Dynamic Mediaビデオでも、外部ビデオでも動作します。 ビューアがDynamic Media Classic/Dynamic Mediaビデオで始まる場合、そのようなアセットタイプで使用すると、外部ビデオを次を使用してこのビューアに読み込むことはできません。 [`setVideo`]
-(../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c) メソッドを使用します。 そして逆の詩：ビューアが最初に外部ビデオで読み込まれた場合は、外部ビデオでのみ動作を続ける必要があります。
+ビューアは、Dynamic Media Classic、Experience Manager - Dynamic Media ビデオまたは外部ビデオと連携して動作します。 ビューアがDynamic Media Classic/Dynamic Mediaのビデオから始まる場合は、そのようなアセットタイプで使用してください。[`setVideo`] を使用して外部ビデオをこのビューアに読み込むことはできません
+（../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c） メソッド。 そして逆の節：ビューアが最初に外部ビデオで読み込まれた場合、外部ビデオでのみ作業し続ける必要があります。
 
-外部ビデオを操作する場合、ビューアは再生修飾子の値を無視し、外部ビデオ拡張機能から再生タイプを検出します。 外部ビデオの URL が次の語句で終わる場合 `.M3U8` ビューアでは HLS 再生が使用されていますが、それ以外の場合はプログレッシブ再生が使用されます。
+外部ビデオを操作する場合、ビューアは再生の修飾子の値を無視し、再生タイプを外部ビデオ拡張機能から検出します。 ビューアが HLS 再生を使用してい `.M3U8` 外部ビデオ URL がで終わる場合、それ以外の場合はプログレッシブ再生が使用されます。

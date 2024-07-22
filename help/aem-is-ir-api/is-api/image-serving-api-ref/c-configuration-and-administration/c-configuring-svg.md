@@ -1,24 +1,24 @@
 ---
-description: SvgRenderコンポーネントは、独立したJavaアプリケーションです。
+description: SvgRender コンポーネントは独立した Java アプリケーションです。
 solution: Experience Manager
 title: SVGの設定
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
 # SVGの設定{#configuring-svg}
 
-SvgRenderコンポーネントは、独立したJavaアプリケーションです。
+SvgRender コンポーネントは独立した Java アプリケーションです。
 
-SVG設定は、[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml]および[!DNL ServerSupervisorRegistry.xml]にあります。
+SVGの設定は、[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml] および [!DNL ServerSupervisorRegistry.xml] にあります。
 
-ソケット接続は、SvgRenderとImage Server間の通信に使用されます。 ポート番号は27346です。 必要に応じて、[!DNL svg.conf]に`SVGRender.port`を、[!DNL ImageServerRegistry.xml]に`<SVGTcpPort>`を新しい値に設定して変更できます。
+ソケット接続は、SvgRender と Image Server 間の通信に使用されます。 ポート番号は 27346 です。 必要に応じて、[!DNL svg.conf] に `SVGRender.port`、[!DNL ImageServerRegistry.xml] に `<SVGTcpPort>` を新しい値に設定して変更できます。
 
 ## 関連項目 {#section-c085b47d54d44059bdaa67fd5e226e91}
 

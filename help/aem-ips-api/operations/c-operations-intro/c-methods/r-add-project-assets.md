@@ -8,7 +8,7 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 認証済みユーザータイプ {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 許可されているユーザータイプ {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,29 +27,29 @@ ht-degree: 11%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-20d498e971b6466298e60c8a77fc32b2}
+## パラメーター {#section-20d498e971b6466298e60c8a77fc32b2}
 
-**入力 (addProjectAssetsParam)**
+**入力（addProjectAssetsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社に対する処理。 |
-| projectHandle | `xsd:string` | はい | アセットを追加するプロジェクトに対して処理します。 |
+| companyHandle | `xsd:string` | はい | 現在のプロジェクトに関連付けられている会社を処理します。 |
+| projectHandle | `xsd:string` | はい | アセットを追加するプロジェクトへのハンドル。 |
 | projectHandleArray | `xsd:HandleArray` | はい | 現在のプロジェクトに追加するアセットの配列。 |
 
-**出力 (addProjectAssetsParam)**
+**出力（addProjectAssetsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| successCount | `xsd:int` | はい | 正常に追加されたアセットの数。 |
-| warningCount | `xsd:int` | はい | 操作でプロジェクトにアセットを追加しようとしたときに生成される警告の数です。 |
-| errorCount | `xsd:int` | はい | 操作がプロジェクトにアセットを追加しようとしたときに生成されたエラーの数です。 |
-| warningDetailHandle | `xsd:AssetOperationFaultArray` | いいえ | 操作によってプロジェクトに追加されたときにアセットによって生成される警告の配列。 |
+| successCount | `xsd:int` | はい | 正常に追加されたアセット数。 |
+| warningCount | `xsd:int` | はい | 操作がアセットをプロジェクトに追加しようとしたときに生成された警告の数。 |
+| errorCount | `xsd:int` | はい | 操作がアセットをプロジェクトに追加しようとしたときに生成されたエラーの数。 |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | いいえ | 操作がアセットをプロジェクトに追加しようとしたときにアセットによって生成された警告の配列。 |
 | companyHandle | `xsd:AssetOperationFaultArray` | いいえ | 操作がアセットをプロジェクトに追加しようとしたときにアセットによって生成されたエラーの配列。 |
 
 ## 例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-次の例では、アセットハンドル配列内の 1 つのアセット（ハンドルで参照）を、リクエストで指定されたプロジェクトに追加します。 応答時に操作が正常に完了しました `successCount` 戻り値 `1`.
+この例では、アセットハンドル配列内の単一のアセット（ハンドルによって参照）を、リクエストで指定されたプロジェクトに追加します。 応答 `successCount` が `1` を返したときに、操作が正常に完了しました。
 
 **リクエスト**
 

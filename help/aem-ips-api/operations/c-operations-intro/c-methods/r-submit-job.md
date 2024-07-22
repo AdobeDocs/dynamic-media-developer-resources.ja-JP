@@ -8,7 +8,7 @@ exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 構文
 
-## 認証済みユーザータイプ {#section-eb7024277bec43c79e03f396205be16f}
+## 許可されているユーザータイプ {#section-eb7024277bec43c79e03f396205be16f}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,9 +28,9 @@ ht-degree: 8%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-31a07dbccf964850883e817384499459}
+## パラメーター {#section-31a07dbccf964850883e817384499459}
 
-**入力 (submitJobParam)**
+**入力（submitJobParam）**
 
 <table id="table_9CB1F668E036422E8CE4E0BBA42EC44C"> 
  <thead> 
@@ -46,40 +46,40 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>会社の取り扱い。 </p> </td> 
+   <td colname="col4"> <p>会社ハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブを送信したユーザーに対するハンドル。 </p> <p> <p>注意：システムは、 <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> が指定されていない場合、ジョブを送信した人が電子メールを受信します。 </p> </p> </td> 
+   <td colname="col4"> <p>ジョブを送信したユーザーへのハンドル。 </p> <p> <p>メモ：userHandle</span> で指定したユーザーにメールが送信 <span class="codeph"> れます。 userHandle</span><span class="codeph"> 指定されていない場合、ジョブを送信したユーザーがメールを受け取ります。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>ジョブ名. </p> </td> 
+   <td colname="col4"> <p>ジョブ名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブログの詳細と電子メールのローカライゼーションに使用されるロケールです。 </p> <p>ロケールは、 <span class="codeph"> &lt;language_code&gt;</span> および <span class="codeph"> [&lt;country_code&gt;]</span>（言語コードは ISO-639 で指定された小文字、2 文字のコードで、オプションの国コードは ISO-3166 で指定された大文字、2 文字のコードです）。 例えば、英語（米国）のロケール文字列は次のようになります。en-US. </p> </td> 
+   <td colname="col4"> <p>ジョブ ログの詳細および E メール ローカリゼーションに使用されるロケールです。 </p> <p>ロケールは <span class="codeph"> &lt;language_code&gt;</span> および <span class="codeph"> [&lt;country_code&gt;]</span> として指定します。言語コードは ISO-639 で指定される小文字の 2 文字コードで、オプションの国コードは ISO-3166 で指定される大文字の 2 文字コードです。 例えば、英語（米国）のロケール文字列は en-US になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブを実行する日時。 </p> <p>注意：リクエストのタイムゾーンを指定します。 タイムゾーンは、ターゲット IPS サーバーのタイムゾーンに合わせて調整されます。 </p> </td> 
+   <td colname="col4"> <p>ジョブを実行する日時。 </p> <p>メモ：リクエストのタイムゾーンを指定します。 タイムゾーンは、ターゲット IPS サーバーのタイムゾーンに合わせて調整されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブを実行するタイミングを決定します。 </p> <p> 次の値を指定できます。 <span class="codeph"> cron</span> ジョブを繰り返し実行する文字列。 </p> <p>スケジュールは、常にサーバーのローカルタイムゾーンに基づいて設定されます。 カスタムスケジュール形式については、IPS のドキュメントを参照してください。 </p> </td> 
+   <td colname="col4"> <p>ジョブを実行するタイミングを決定します。 </p> <p> ジョブを繰り返し実行する <span class="codeph"> cron</span> 文字列を指定できます。 </p> <p>スケジュールは、常にサーバーのローカルタイムゾーンを基準とした相対スケジュールになります。 カスタムスケジュール形式については、IPS ドキュメントを参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 説明</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> の説明 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p>ジョブの説明。 </p> </td> 
@@ -88,17 +88,17 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ExportJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>以前にアップロードしたファイルを書き出します。 </p> <p>詳しくは、 <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
+   <td colname="col4"> <p>以前にアップロードしたファイルを書き出します。 </p> <p><a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageServingPublishJob</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p>画像サービング公開ジョブの詳細。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageRenderingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageRenderingPublishJob</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p>画像レンダリング公開ジョブの詳細。 </p> </td> 
   </tr> 
@@ -106,11 +106,11 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：VideoPublishJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ビデオ公開ジョブの詳細。 </p> <p>詳しくは、 <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
+   <td colname="col4"> <p>ビデオ公開ジョブの詳細。 </p> <p>VideoPublishJob</a><a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ServerDirectoryPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> の種類：ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p>サーバーディレクトリ公開ジョブの詳細。 </p> </td> 
   </tr> 
@@ -118,7 +118,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：UploadDirectoryJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>アップロードディレクトリジョブの詳細。 </p> </td> 
+   <td colname="col4"> <p>ディレクトリのアップロードジョブの詳細。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
@@ -128,13 +128,13 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:OptimizeImagesJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：OptimizeImagesJob</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：RipPdfsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> の種類：RipPdfsJob</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
@@ -146,14 +146,14 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutomatedSetGenerationJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> の種類：AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>自動セットスクリプトを使用して、アセットリストをセットに処理します。 </p> <p>詳しくは、 <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
+   <td colname="col4"> <p>Automated Set スクリプトを使用して、アセットリストをセットに処理します。 </p> <p>AutomatedSetGenerationJob</a><a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力 (submitJobReturn)**
+**出力（submitJobReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -161,7 +161,7 @@ ht-degree: 8%
 
 ## 例 {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-このコードサンプルは、画像サービング公開ジョブを IPS に送信し、ジョブハンドルを返します。 リクエストでは 1 つのタイプのジョブのみを選択します。 理由： `userHandle` を省略すると、ジョブを送信したユーザーに電子メール通知が送信されます。 このサンプルジョブは、 `execTime` および `execSchedule` が省略された。
+このコードサンプルでは、公開ジョブを提供する画像を IPS に送信し、ジョブハンドルを返します。 リクエストで 1 つのタイプのジョブのみを選択します。 `userHandle` が省略されたため、ジョブを送信したユーザーにメール通知が送信されます。 このサンプルジョブは、`execTime` と `execSchedule` が省略されたので、すぐに実行されます。
 
 **リクエスト**
 
@@ -186,7 +186,7 @@ ht-degree: 8%
 
 ## 説明 {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-最大 1 つの `execTime` および `execSchedule`. どちらも渡されない場合、ジョブは直ちに実行されます。 次のいずれかを使用できます。
+指定できる値は、`execTime` と `execSchedule` のいずれか 1 つだけです。 どちらも渡されない場合、ジョブは直ちに実行されます。 次のうちいずれか 1 つのみを使用できます。
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

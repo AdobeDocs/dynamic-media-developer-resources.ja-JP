@@ -16,4 +16,4 @@ ht-degree: 0%
 
 カタログシステムキャッシュのルートフォルダー。
 
-絶対パスまたは [!DNL *[!DNL install_folder]*]。 デフォルトは [!DNL ./cache]。これは [!DNL *[!DNL install_folder]*/cache] に設定します。
+絶対パスまたは [!DNL *[!DNL install_folder]*] に対する相対パスのいずれかを指定できます。 デフォルトは [!DNL ./cache] で、[!DNL *[!DNL install_folder]*/cache] に対応します。

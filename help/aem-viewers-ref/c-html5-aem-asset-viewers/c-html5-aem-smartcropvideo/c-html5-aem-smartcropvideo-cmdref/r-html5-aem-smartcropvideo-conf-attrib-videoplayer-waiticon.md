@@ -4,10 +4,11 @@ description: スマート切り抜きビデオビューアの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8c86d721-e1c9-4114-9896-e2dd134fb625
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '30'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 17%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）の表示を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
@@ -28,7 +29,7 @@ ht-degree: 17%
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

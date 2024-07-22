@@ -1,26 +1,26 @@
 ---
-title: ズーム表示
-description: メインビューは、ズーム可能な画像で構成されます。
+title: ズームビュー
+description: メインビューは、ズーム可能な画像で構成されています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# ズーム表示{#zoom-view}
+# ズームビュー{#zoom-view}
 
-メインビューは、ズーム可能な画像で構成されます。
+メインビューは、ズーム可能な画像で構成されています。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+表示領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7zoomviewer .s7zoomview
@@ -35,17 +35,17 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> メインビューの 16 進数形式の背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カーソル </span> </p> </td> 
-   <td colname="col2"> <p>メインビュー上に表示されるカーソル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col2"> <p>メインビューの上にカーソルが表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 – メインビューを透明にする。
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,24 +53,24 @@ ht-degree: 0%
 }
 ```
 
-デスクトップシステムでは、コンポーネントがサポートしている `cursortype` 属性セレクター `.s7zoomview` クラス。 コンポーネントの状態とユーザーの操作に基づいて、カーソルのタイプを制御します。 以下 `cursortype` の値はサポートされています。
+デスクトップシステムでは、コンポーネントは `cursortype``.s7zoomview` クラスに適用できる属性セレクターをサポートしています。 コンポーネントの状態とユーザーの操作に基づいて、カーソルのタイプを制御します。 次の `cursortype` 値がサポートされています。
 
 * `default`
 
-   画像の解像度が小さい、またはコンポーネントの設定、あるいはその両方の理由で画像がズームできない場合に表示されます。
+  画像の解像度、コンポーネント設定、またはその両方が小さいために画像をズームできない場合に表示されます。
 
 * `zoomin`
 
-   画像がズームイン可能な場合に表示されます。
+  画像をズームインできる場合に表示されます。
 
 * `reset`
 
-   画像が最大ズームレベルで、初期状態にリセットできる場合に表示されます。
+  画像が最大ズームレベルにあり、初期状態にリセットできる場合に表示されます。
 
 * `drag`
 
-   ユーザーがズームイン状態の画像をパンしたときに表示されます。
+  ズームイン状態の画像をユーザーがパンすると表示されます。
 
 * `slide`
 
-   ユーザーが水平方向のスワイプまたはフリックを実行して画像の入れ替えを実行した場合に表示されます。
+  ユーザーが水平スワイプまたはフリックを行って画像の入れ替えを実行すると表示されます。

@@ -1,20 +1,20 @@
 ---
-description: IccProfileFieldUpdate/colorSpaceおよびIccProfileFieldUpdate/pcsTypeで使用されます。
+description: IccProfileFieldUpdate/colorSpace および IccProfileFieldUpdate/pcsType によって使用されます。
 solution: Experience Manager
 title: カラースペース
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f2989963-e0d4-42b8-9807-a63d43728540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '20'
+ht-degree: 10%
 
 ---
 
 # カラースペース{#color-spaces}
 
-IccProfileFieldUpdate/colorSpaceおよびIccProfileFieldUpdate/pcsTypeで使用されます。
+IccProfileFieldUpdate/colorSpace および IccProfileFieldUpdate/pcsType によって使用されます。
 
 構文
 

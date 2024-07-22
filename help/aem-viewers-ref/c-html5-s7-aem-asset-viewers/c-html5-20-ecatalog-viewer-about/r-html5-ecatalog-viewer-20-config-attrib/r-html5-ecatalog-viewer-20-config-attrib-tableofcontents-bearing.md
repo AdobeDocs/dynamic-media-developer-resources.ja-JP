@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '150'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> ドロップダウンパネルの外観の方向をコントロールします。 </p> <p>に設定する場合 <span class="codeph"> fit-vertical</span>を選択した場合、コンポーネントはまず、パネルの基本位置をボタンの下部に移動し、基本位置から右または左にパネルをロールアウトしようとします。 試行のたびに、外側のコンテナによってパネルが切り取られているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動しようとし、右と左の方向にロールアウトの試行を繰り返します。 </p> <p>に設定する場合 <span class="codeph"> フィットラテラル</span>の場合は、同様のロジックが使用されますが、まずベースを右に移動し、下向きや上向きのロールアウト方向を試します。 次に、ベースを左に移動し、下方向と上方向のロールアウトを試みます。 </p> </td> 
+   <td> <p> ドロップダウンパネルの外観の方向を制御します。 </p> <p><span class="codeph"> fit-vertical</span> に設定すると、コンポーネントはまず、基本パネルの位置をボタンの下部に移動し、基本パネルの位置からパネルを右または左にロールアウトしようとします。 試行のたびに、コンポーネントはパネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動しようと試み、ロールアウトの試行を右方向と左方向に繰り返します。 </p> <p><span class="codeph"> fit-lateral</span> に設定した場合、コンポーネントは同様のロジックを使用しますが、最初にベースを右に移動し、ロールアウト方向を上下に移動します。 次に、ベースを左に移動し、ロールアウト方向を上下に試します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## プロパティ {#section-55436ddd78b04f538dbb9a7a8463feae}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-049d3f94c9794510906c6f81d6cc5485}
 

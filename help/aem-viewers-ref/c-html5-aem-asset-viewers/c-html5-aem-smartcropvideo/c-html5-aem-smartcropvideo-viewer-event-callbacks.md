@@ -4,29 +4,30 @@ description: イベントコールバック
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 21962c01-f224-408d-8072-1c7f5d78ac4b
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # イベントコールバック{#event-callbacks}
 
-ビューアでは、Web ページでビューアの初期化処理または実行時の動作の追跡に使用される JavaScript イベントコールバックがサポートされています。
+ビューアは、JavaScript イベントコールバックをサポートしています。このコールバックは、web ページで、ビューアの初期化プロセスやランタイムの動作のトラッキングに使用されます。
 
-コールバックハンドラーは、イベント名と対応するハンドラー関数を `handlers` プロパティを `config` ビューアのコンストラクター内の JSON オブジェクト。 または、 `setHandlers()` API メソッド。
+コールバックハンドラーは、`handlers` プロパティを持つイベント名と対応するハンドラー関数をビューアのコンストラクター内 `config`JSON オブジェクトに渡すことによって割り当てられます。 または、API メソッドを使用するこ `setHandlers()` もできます。
 
-サポートされるビューアイベントには、次のものがあります。
+次のビューアイベントがサポートされています。
 
-* `initComplete`  — ビューアの初期化が完了し、すべての内部コンポーネントが作成されたときにトリガーが発生し、 `getComponent()` API コールバックハンドラーは引数を取りません。
+* `initComplete` - ビューアの初期化が完了し、すべての内部コンポーネントが作成されて API を使用できるようになっ `getComponent()` ときのトリガー。 コールバックハンドラーは引数を取りません。
 
-* `trackEvent` - Adobe Analyticsなどのイベントトラッキングシステムで処理できるビューア内でイベントが発生するたびにトリガーされます。 コールバックハンドラーは次の引数を取ります。
+* `trackEvent` - ビューア内でイベントが発生するたびに発生するトリガーです。Adobe Analyticsなど、イベントトラッキングシステムで処理される可能性があります。 コールバックハンドラーは次の引数を取ります。
 
-   * `objID {String}` 現在は使用されていません。
-   * `compClass {String}` 現在は使用されていません。
-   * `instName {String}` イベントをトリガーしたビューア SDK コンポーネントのインスタンス名。
-   * `eventInfo {String}` イベントペイロード。
+   * `objID {String}` は現在使用されていません。
+   * `compClass {String}` は現在使用されていません。
+   * イベントをトリガーしたビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベ `eventInfo {String}` トペイロード。
 
-関連トピック [SmartCropVideoViewer]
-(/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md) および [setHandlers](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-sethandlers.md).
+[SmartCropVideoViewer] も参照してください
+（/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md）と [setHandlers](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-sethandlers.md)。

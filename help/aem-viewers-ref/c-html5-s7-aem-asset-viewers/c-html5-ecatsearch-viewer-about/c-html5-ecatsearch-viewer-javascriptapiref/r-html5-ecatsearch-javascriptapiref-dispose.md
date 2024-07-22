@@ -1,6 +1,6 @@
 ---
 title: 処分する
-description: eCatalog ビューアの JavaScript API リファレンス。
+description: eCatalog ビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # 処分する{#dispose}
 
-eCatalog ビューアの JavaScript API リファレンス。
+eCatalog ビューアのJavaScript API リファレンス。
 
 [!DNL `dispose()`]
 
-ビューアのロジックで使用されるすべてのリソースを解放し、実行時にビューアで作成された内側のオブジェクトとコンポーネントをすべて削除して、このビューアインスタンスを破棄します。
+このビューアインスタンスを破棄するには、ビューアロジックで使用されているすべてのリソースを解放し、ビューアによって実行時に作成されたすべての内部オブジェクトとコンポーネントを削除します。
 
-また、Web ページコードでビューアのインスタンス変数を削除して、Web ブラウザーのメモリからビューアを完全に削除する必要があります。
+Web ページのコードでは、ビューアインスタンス変数も削除して、web ブラウザーのメモリからビューアが完全に削除されるようにしてください。
 
-Web ページコードで、ビューアが使用する Viewer SDK コンポーネントに直接イベントリスナーが登録されている、またはそのようなコンポーネントへの外部参照が保存されている場合は、Web ページコードによって明示的に登録解除する必要があります。 また、呼び出しの前に、このような外部コンポーネント参照を削除する必要があります [!DNL `dispose()`].
+Web ページコードが、ビューアで使用される Viewer SDK コンポーネントに対して直接イベントリスナーを登録した場合（またはそのようなコンポーネントへの外部参照を保存した場合）、Web ページコードによって明示的に登録解除する必要があります。 また、このような外部コンポーネント参照は、[!DNL `dispose()`] を呼び出す前に削除する必要があります。
 
-の後で Viewer API にアクセスしない [!DNL `dispose()`] が呼び出されます。
+[!DNL `dispose()`] が呼び出された後は、Viewer API にアクセスしないでください。
 
 ## パラメーター {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

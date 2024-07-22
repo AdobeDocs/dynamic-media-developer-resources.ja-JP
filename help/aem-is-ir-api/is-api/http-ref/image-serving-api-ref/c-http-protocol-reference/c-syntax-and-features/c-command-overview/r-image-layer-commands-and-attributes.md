@@ -1,20 +1,20 @@
 ---
-description: これらのコマンドは、共通のレイヤコマンドに加えて、イメージレイヤに適用されます。
+description: これらのコマンドは、一般的なレイヤーコマンドに加えて、画像レイヤーにも適用されます。
 solution: Experience Manager
-title: 画像レイヤーコマンド
-feature: Dynamic Media Classic、SDK/API
+title: イメージレイヤーコマンド
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
-# 画像レイヤーコマンド{#image-layer-commands}
+# イメージレイヤーコマンド{#image-layer-commands}
 
-これらのコマンドは、共通のレイヤコマンドに加えて、イメージレイヤに適用されます。
+これらのコマンドは、一般的なレイヤーコマンドに加えて、画像レイヤーにも適用されます。
 
 <table id="simpletable_F6799DA025A64970B95085FB9910E1EF"> 
  <tr class="strow"> 

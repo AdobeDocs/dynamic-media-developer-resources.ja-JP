@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: eCatalog ビューアの JavaScript API リファレンス。
+description: eCatalog ビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-eCatalog ビューアの JavaScript API リファレンス。
+eCatalog ビューアのJavaScript API リファレンス。
 
 ` setContainerId( *`containerId`*)`
 
-の ID を設定します。 `DOM` コンテナ ( 通常は `DIV`) を使用して、ビューアを挿入します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 `init()` が実行されます。 の前に呼び出す必要があります。 `init()`.
+ビューアが挿入される `DOM` コンテナの ID （通常は `DIV`）を設定します。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、`init()` を実行する場合は、コンテナが存在している必要があります。 `init()` る前に呼び出す必要があります。
 
-ビューアの設定情報が `config` JSON オブジェクトをコンストラクターに追加します。
+ビューアの設定情報が JSON オブジェクトとともにコンストラクターに渡され `config` 場合、このメソッドはオプションです。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナの ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} コンテナ </span>ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

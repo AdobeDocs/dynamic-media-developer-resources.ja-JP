@@ -1,28 +1,28 @@
 ---
-title: ユーザーインターフェイス要素のローカライゼーション
-description: フライアウトビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズームビューで表示される情報メッセージなどが含まれます。
+title: ユーザーインターフェイス要素のローカリゼーション
+description: Flyout ビューアに表示される特定のコンテンツは、ローカライゼーションの影響を受けます。 このコンテンツには、ロード時にフライアウト ズーム ビューによって表示されるユーザ インタフェース要素のツール ヒントと情報メッセージが含まれます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-# ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
+# ユーザーインターフェイス要素のローカリゼーション{#localization-of-user-interface-elements}
 
-フライアウトビューアに表示されるコンテンツには、ローカリゼーションの対象となるものもあります。 このコンテンツには、ユーザインターフェイス要素のツールチップや、読み込み時にフライアウトズームビューで表示される情報メッセージなどが含まれます。
+Flyout ビューアに表示される特定のコンテンツは、ローカライゼーションの影響を受けます。 このコンテンツには、ロード時にフライアウト ズーム ビューによって表示されるユーザ インタフェース要素のツール ヒントと情報メッセージが含まれます。
 
-ビューア内のテキスト内のローカライズ可能なコンテンツは、SYMBOL と呼ばれる、特別な Viewer SDK 識別子で表されます。 SYMBOL には、英語のロケール ( `"en"`) には、標準のビューアが付属しています。 また、必要な数のロケールに対して、ユーザ定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別な Viewer SDK 識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
-ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされる各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値を使用します。それ以外の場合は、標準のデフォルトテキストにフォールバックされます。
+ビューアは起動時、現在のロケールを調べて、そのロケールでサポートされている各 SYMBOL にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
 
-ユーザ定義のローカリゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされるロケール、各ロケールの SYMBOL テキスト値、およびデフォルトのロケールのリストが含まれます。
+ユーザー定義のローカライゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケール、各ロケールの SYMBOL テキスト値、デフォルトのロケールのリストが含まれます。
 
-このようなローカライゼーションオブジェクトの例を次に示します。
+このようなローカリゼーションオブジェクトの例を次に示します。
 
 ```
 { 
@@ -38,11 +38,11 @@ defaultLocale:"en"
 }
 ```
 
-上記の例では、ローカリゼーションオブジェクトで 2 つのロケール ( `"en"` および `"fr"`) を参照し、各ロケールで 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
+上記の例では、localization オブジェクトは 2 つのロケール（`"en"` と `"fr"`）を定義し、各ロケールで 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
 
-Web ページコードでは、ローカリゼーションオブジェクトをビューアのコンストラクターに渡す必要があります。この値は、 `localizedTexts` 設定オブジェクトのフィールド。 別のオプションとして、 `setLocalizedTexts(localizationInfo)` メソッド。
+Web ページのコードは、ローカリゼーションオブジェクトを、設定オブジェクトの `localizedTexts` フィールドの値として、ビューアコンストラクターに渡す必要があります。 別のオプションとして、`setLocalizedTexts(localizationInfo)` メソッドを呼び出してローカリゼーションオブジェクトを渡すこともできます。
 
-次のシンボルがサポートされています。
+次の記号がサポートされています。
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -54,39 +54,39 @@ Web ページコードでは、ローカリゼーションオブジェクトを�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>トップレベルのビューア要素の ARIA ラベル。 </p> </td> 
+   <td colname="col2"> <p>最上位のビューア要素の ARIA ラベル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>メインビューコンポーネントの ARIA ロールの説明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントの ARIA 役割の説明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA キーボードユーザー向けの使用ヒント。 </p> </td> 
+   <td colname="col2"> <p>キーボードユーザー向けの ARIA 使用ヒント。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>デスクトップシステムに関する情報メッセージ。 </p> </td> 
+   <td colname="col2"> <p>デスクトップシステムの情報メッセージ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>タッチデバイスに関する情報メッセージ。 </p> </td> 
+   <td colname="col2"> <p>タッチデバイスの情報メッセージ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>左スクロールボタンのツールチップ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>左スクロール ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>右スクロールボタンのツールチップ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>右スクロール ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>上スクロールボタンのツールチップ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>スクロールアップボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>下スクロールボタンに関するツールチップ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>下スクロール ボタンのツールヒント。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

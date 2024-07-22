@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 認証済みユーザータイプ {#section-754790841ea242d5ae8bedd587d7730e}
+## 許可されているユーザータイプ {#section-754790841ea242d5ae8bedd587d7730e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,9 +33,9 @@ ht-degree: 11%
 >
 >ユーザーが読み取りアクセス権を持つアセットのみを返します。
 
-## パラメータ {#section-f64e93c127b84a29aa3bf2fdd916cca9}
+## パラメーター {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**入力 (getAssetsByNameParam)**
+**入力（getAssetsByNameParam）**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -51,7 +51,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社への取り扱い。 </td> 
+   <td colname="col4"> 会社へのハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
@@ -67,50 +67,50 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 取得するアセット名の配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットで使用できるアセットタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットに許可されるアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットに対して除外されたアセットタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットから除外されたアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットに許可されるアセットのサブタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットに許可されるアセットサブタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>If <span class="codeph"> true</span> および <span class="codeph"> assetSubTypeArray</span> が空ではない場合、サブタイプが <span class="codeph"> assetSubTypeArray</span> が返されます。 </p> <p>If <span class="codeph"> false</span>を指定した場合、サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>true</span><span class="codeph">assetSubTypeArray</span> が空でない場合 <span class="codeph">、サブタイプが assetSubTypeArray</span> にあるアセットのみ <span class="codeph"> 返されます。 </p> <p><span class="codeph"> が false の場合 </span> サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span> です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 応答に含まれるフィールドとサブフィールドのリストが含まれます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 応答から除外されたフィールドとサブフィールドのリストが含まれます。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力 (getAssetsByNameReturn)**
+**出力（getAssetsByNameReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -118,7 +118,7 @@ ht-degree: 11%
 
 ## 例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-このコードサンプルは、2 つのイメージタイプアセットを返します。
+このコード例では、2 つの画像タイプアセットを返します。
 
 **リクエスト**
 

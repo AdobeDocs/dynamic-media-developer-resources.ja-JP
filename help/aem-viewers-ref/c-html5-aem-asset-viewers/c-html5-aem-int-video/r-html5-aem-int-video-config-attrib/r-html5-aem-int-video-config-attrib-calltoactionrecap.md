@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a91c957f-5ad2-4022-afde-de129b060576
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '34'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 15%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオ再生の終了時に「行動喚起」パネルを表示するかどうかを示します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> ビデオ再生の最後に「コールトゥアクション」パネルが表示されるかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

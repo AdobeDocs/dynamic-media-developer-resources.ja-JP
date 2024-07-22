@@ -1,6 +1,6 @@
 ---
 title: img
-description: 画像（デフォルト）。 標準の画像データをリクエストします。
+description: 画像（デフォルト）。 標準画像データをリクエストします。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # img{#img}
 
-画像（デフォルト）。 標準の画像データをリクエストします。
+画像（デフォルト）。 標準画像データをリクエストします。
 
 `req=img`
 
-返信データの形式と応答の MIME タイプは、 `fmt=`. 修飾子 `req=img` はデフォルトのリクエストタイプで、明示的には必要ありません。 HTTP 応答は、TTL に基づいてキャッシュ可能です。 `catalog::Expiration`.
+返信データの形式と応答の MIME タイプは、`fmt=` によって決まります。 修飾子 `req=img` はデフォルトのリクエストタイプで、明示的には必要ありません。 HTTP 応答は、`catalog::Expiration` に基づく TTL でキャッシュ可能です。
 
-その他のリクエストコマンドは、ドキュメントに従って適用されます。
+その他のリクエストコマンドは、ドキュメントに記載されているように適用されます。

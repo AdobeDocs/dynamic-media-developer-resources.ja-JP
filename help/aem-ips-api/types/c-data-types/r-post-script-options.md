@@ -24,6 +24,6 @@ PostScript ファイルオプション。
 |---|---|---|
 | プロセス | `xsd:string` | PostScript プロセスの選択。 |
 | resolution | `xsd:double` | ファイルの解像度。 |
-| colorspace | `xsd:string` | PostScript カラースペースモード。 |
-| 英 | `xsd:boolean` | ファイルを画像にラスタライズするかどうか。 その場合、元のファイルがこの方法で定義されている場合は、透明な背景が作成されます。 一般に、オーバーレイロゴの作成に使用されます。 |
-| extractSearchWords | `xsd:boolean` | PostScript ファイルから検索語を抽出するかどうか。 |
+| 色空間 | `xsd:string` | PostScript カラースペースモード。 |
+| 英 | `xsd:boolean` | ファイルを画像にラスタライズするかどうか。 元のファイルがそのように定義されている場合、透明な背景が作成されます。 通常、オーバーレイするロゴの作成に使用します。 |
+| extractSearchWords | `xsd:boolean` | 検索単語をPostScript ファイルから抽出するかどうか。 |

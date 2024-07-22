@@ -1,24 +1,24 @@
 ---
-description: 現在アクティブなジョブをすべて取得します。
+description: 現在アクティブなすべてのジョブを取得します。
 solution: Experience Manager
-title: getActiveJobs
+title: getActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 13%
 
 ---
 
-# getActiveJobs{#getactivejobs}
+# getActiveJob{#getactivejobs}
 
-現在アクティブなジョブをすべて取得します。
+現在アクティブなすべてのジョブを取得します。
 
 構文
 
-## 認証済みユーザータイプ {#section-125557a6ea7b4fc894d4bb468cd02118}
+## 許可されているユーザータイプ {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,25 +29,25 @@ ht-degree: 16%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-29018fba6bf34c1e80dcd479dd24f3b5}
+## パラメーター {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**入力 (getActiveJobsParam)**
+**入力（getActiveJobsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | 会社への取り扱い。 |
+| companyHandle | `xsd:string` | いいえ | 会社へのハンドル。 |
 | jobHandle | `xsd:string` | いいえ | ジョブのハンドル。 |
 | originalName | `xsd:string` | いいえ | 元のジョブ名。 |
 
-**出力 (getActiveJobsReturn)**
+**出力（getActiveJobsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| jobArray | `xsd:string` | はい | アクティブなジョブの配列。 |
+| jobArray | `xsd:string` | はい | アクティブなジョブの配列 |
 
 ## 例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-このコード例は、IPS で実行している会社のアクティブなジョブをすべて返します。 この場合、IPS スケジューリングコーディネータはアクティブなジョブが実行されていない状態で無効になっているので、応答は通常とは異なります。 通常の状況では、応答は多数のアクティブなジョブを返します。
+このコードサンプルでは、IPS で実行中の会社のすべてのアクティブなジョブを返します。 この場合、IPS スケジューリングコーディネーターが無効になっており、アクティブなジョブが実行されていないので、応答が異常になります。 通常の状況では、応答は複数のアクティブなジョブを返します。
 
 **リクエスト**
 

@@ -1,6 +1,6 @@
 ---
-title: 埋め込み Image Server の要求
-description: Image Server(IS) 要求は、マテリアルイメージとして使用できます。
+title: 埋め込み Image Server リクエスト
+description: Image Server （IS）リクエストは、素材画像として使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# 埋め込み Image Server の要求{#embedded-image-server-requests}
+# 埋め込み Image Server リクエスト{#embedded-image-server-requests}
 
-Image Server(IS) 要求は、マテリアルイメージとして使用できます。
+Image Server （IS）リクエストは、素材画像として使用できます。
 
-リクエストを `src=` コマンドを次のように指定します。
+`src=` コマンドでリクエストを次のように指定します。
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-この `is` トークンでは大文字と小文字が区別されます。
+`is` トークンでは大文字と小文字が区別されます。
 
-ネストされた要求に画像サービングのルートパスを含めることはできません ( 通常は [!DNL http:// *[!DNL server]*/is/image/"]) ですが、前処理ルールトークンを含めることができます。
+ネストされたリクエストには、画像サービングのルートパス（通常は  [!DNL http:// *[!DNL server]*/is/image/"]）を含めないでください。ただし、前処理ルールトークンを含めることができます。
 
-ネストされたリクエストで（リクエスト URL またはで）指定した場合、次の IS コマンドは無視されます。 `catalog::Modifier` または `catalog::PostModifier`):
+次の IS コマンドは、ネストされたリクエストで（リクエスト URL または `catalog::Modifier` または `catalog::PostModifier` で）指定された場合、無視されます。
 
 * `bgc=`
 * `fmt=`
@@ -35,8 +35,8 @@ Image Server(IS) 要求は、マテリアルイメージとして使用できま
 * `quantize=`
 * `req=`
 
-また、無視されます `attribute::MaxPix` および `attribute::DefaultPix` 埋め込み IS 要求に適用される画像カタログの
+また、埋め込まれた IS リクエストに適用される画像カタログの `attribute::MaxPix` と `attribute::DefaultPix` も無視されます。
 
-ネストされたリクエストの結果イメージにマスク（アルファ）データが含まれる場合、そのイメージは常にマテリアルに渡されます。 不要なアルファを避けるには、べた塗りの背景画像レイヤーを使用します。
+ネストされたリクエストの結果イメージにマスク（アルファ）データが含まれる場合、そのイメージは常にマテリアルに渡されます。 アルファが不要にならないようにするには、単色の背景画像レイヤーを使用します。
 
-埋め込まれた IS リクエストのイメージ結果は、必要に応じて `cache=on`. デフォルトでは、中間データのキャッシュは無効になっています。 キャッシュは、中間画像が別のリクエストで妥当な期間内に再利用される場合にのみ有効にする必要があります。 標準のサーバー側キャッシュ管理が適用されます。 データはロスレス形式でキャッシュされます。
+埋め込まれた IS リクエストの画像結果は、`cache=on` を含めることでオプションでキャッシュできます。 デフォルトでは、中間データのキャッシュは無効になっています。 キャッシュは、適切な期間内に別のリクエストで中間画像が再利用された場合にのみ有効にしてください。 標準のサーバーサイドキャッシュ管理が適用されます。 データは、可逆形式でキャッシュされます。

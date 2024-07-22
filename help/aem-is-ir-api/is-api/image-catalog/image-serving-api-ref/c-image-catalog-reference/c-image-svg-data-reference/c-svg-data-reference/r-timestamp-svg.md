@@ -1,43 +1,43 @@
 ---
-description: TimeStamp
+description: タイムスタンプ
 solution: Experience Manager
-title: TimeStamp
+title: タイムスタンプ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
-# TimeStamp{#timestamp}
+# タイムスタンプ{#timestamp}
 
-If `attribute::UseLastModified` が設定されている場合、 `catalog::TimeStamp` の値は、HTTP 応答で Last-Modified HTTP ヘッダーとして返されます。 静的コンテンツに対しては、常に Last-Modified ヘッダーが返されます ( `attribute::UseLastModified` が設定されていません。
+`attribute::UseLastModified` が設定されている場合、`catalog::TimeStamp` 値は HTTP 応答で Last-Modified HTTP ヘッダーとして返されます。 静的コンテンツに対しては、Last-Modified ヘッダーが設定されていない場合でも、常に `attribute::UseLastModified` が返されます。
 
-画像およびSVGコンテンツ `catalog::TimeStamp` は、カタログベースのキャッシュ検証にも使用されます ( [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+画像およびSVGのコンテンツの場合、`catalog::TimeStamp` はカタログベースのキャッシュ検証にも使用されます（[attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md)。
 
 ## プロパティ {#section-2298a384b5cb43929542655c5a49beb2}
 
-Java 形式の日時値。 1970 年 1 月 1 日 (UTC/GMT) 午前 0 時からのミリ秒の整数か、次のいずれかの形式を持つ日付/時間文字列値を指定できます。
+Java 形式の日付/時刻値。 1970 年 1 月 1 日深夜 10 時からのミリ秒数を表す整数、または日付/時刻を表す文字列値を指定します。次のいずれかの形式を使用できます。
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* *`zzz`*
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* は 0 ～ 23 の範囲です。
+*`hh`* の範囲は 0 ～ 23 です。
 
-*`zzz`* は、「GMT」や「PST」などの 3 文字または 4 文字のタイムゾーンコードです。 タイムゾーンコードの夏時間のアカウント。 例えば、太平洋標準時の場合は「PST」、太平洋夏時間の場合は「PDT」)。
+*`zzz`* は、「GMT」や「PST」など、3 文字または 4 文字のタイムゾーンコードです。 タイムゾーンコードの夏時間を考慮します。 例えば、太平洋標準時は「PST」、夏時間は「PDT」です）。
 
-*`offset`* は、時間単位のタイムゾーンオフセットです。 `hours:minutes`GMT を基準とした相対値。 例えば、「PDT」は「GMT -7」と同じです。
+*`offset`* は、GMT を基準とした時間または `hours:minutes` 単位のタイムゾーンオフセットです。 例えば、「PDT」は「GMT -7」と同等です。
 
-文字列形式の日付/時刻値の要素はすべて存在する必要があります。 日付/時刻値の形式が正しくない場合、その値は無視され、変更時刻は `*`カタログ`*.ini` ファイルが代わりに使用されます。
+文字列形式の日付/時刻値のすべての要素が存在する必要があります。 日付/時刻の値が正しくフォーマットされていない場合、値は無視され、代わりに `*`catalog`*.ini` ファイルの変更時刻が使用されます。
 
 ## 初期設定 {#section-0cbf801401ff4857bdda168fd12358af}
 
-`attribute::TimeStamp` フィールドが空の場合、または存在しない場合。
+フィールドが空か、存在しないかを `attribute::TimeStamp` します。
 
 ## 関連項目 {#section-c42a427aa4794c548408dc4de028d578}
 
-[attribute::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296), [attribute::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8), [attribute::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)
+[attribute::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296)、[attribute::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8)、[attribute::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)

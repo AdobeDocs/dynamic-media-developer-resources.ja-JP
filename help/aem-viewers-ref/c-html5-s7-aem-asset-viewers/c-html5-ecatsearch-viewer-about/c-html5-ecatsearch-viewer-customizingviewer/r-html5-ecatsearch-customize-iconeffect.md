@@ -1,26 +1,26 @@
 ---
-title: アイコンエフェクト
-description: ズームインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態のときに表示され、iconeffect パラメーターの設定にも依存します。
+title: アイコン効果
+description: ズームインジケーターがメインの表示領域に重なります。 画像がリセット状態の場合に表示され、iconeffect パラメーターにも依存します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 90877e39-04ac-4c6c-b7c9-98ffda9355f2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
-# アイコンエフェクト{#icon-effect}
+# アイコン効果{#icon-effect}
 
-ズームインジケーターは、メインビュー領域に重ねて表示されます。 画像がリセット状態のときに表示され、iconeffect パラメーターの設定にも依存します。
+ズームインジケーターがメインの表示領域に重なります。 画像がリセット状態の場合に表示され、iconeffect パラメーターにも依存します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+表示領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7iconeffect
@@ -40,14 +40,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ズームインジケーターの幅（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ズームインジケーターの高さ（ピクセル単位）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -55,9 +55,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->アイコンエフェクトは、 `media-type` 属性セレクターを使用します。このセレクターを使用すると、デバイスごとに異なるアイコンエフェクトを適用できます。 特に `media-type='standard'` マウス入力が通常使用されるデスクトップシステムに対応し、 `media-type='multitouch'` は、タッチ入力のデバイスに対応します。
+>アイコン効果は、`media-type` 属性セレクターをサポートしており、異なるデバイスに異なるアイコン効果を適用するために使用できます。 特に、`media-type='standard'` は、通常マウス入力が使用されるデスクトップシステムに対応し、`media-type='multitouch'` は、タッチ入力を持つデバイスに対応します。
 
-例 — デスクトップシステムとタッチデバイス用に、異なるアートを持つ 100 x 100 ピクセルのズームインジケーターを設定するには、次のように記述します。
+例 – デスクトップシステムとタッチデバイスで異なるアートを使用して 100 x 100 ピクセルのズームインジケーターを設定する場合。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7iconeffect { 

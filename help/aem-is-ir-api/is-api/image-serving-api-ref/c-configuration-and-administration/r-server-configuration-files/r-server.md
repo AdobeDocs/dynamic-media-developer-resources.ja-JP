@@ -1,5 +1,5 @@
 ---
-description: プラットフォームサーバー設定が含まれます。
+description: Platform サーバー設定が含まれます。
 solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # server.xml{#server-xml}
 
-プラットフォームサーバー設定が含まれます。
+Platform サーバー設定が含まれます。
 
-この XML ファイルを変更する場合は、有効な XML 構文を維持するように注意する必要があります。それ以外の場合は、 [!DNL Platform Server] を開始できない可能性があります。
+この XML ファイルを変更する場合、有効な XML 構文を維持するよう注意する必要があります。そうしないと、[!DNL Platform Server] が起動しない場合があります。
 
-変更を有効にするには、 [!DNL Platform Server] このファイルを編集した後、を再起動する必要があります。
+変更を有効にするには、このファイルの編集後に [!DNL Platform Server] を再起動する必要があります。
 
-次の図は、このファイルで変更できる設定を示しています。 これらの設定の説明については、このドキュメントの前の対応する節を参照してください。 この図は、 [!DNL server.xml].
+次の図は、このファイルで変更される可能性のある設定を示しています。 これらの設定の説明については、このドキュメントの前の対応する節を参照してください。 この図は、[!DNL server.xml] を完全に表現したものではないことに注意してください。
 
 ```
 <Server>

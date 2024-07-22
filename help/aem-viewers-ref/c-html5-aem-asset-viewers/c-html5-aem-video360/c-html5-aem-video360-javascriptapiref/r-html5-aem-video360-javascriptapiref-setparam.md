@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Video360 ビューアの JavaScript API リファレンス。
+description: Video360 ビューア用のJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,33 +8,33 @@ exl-id: eb739d2d-7512-49e2-be13-10f05e2fcc1e
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # setParam{#setparam}
 
-Video360 ビューアの JavaScript API リファレンス。
+Video360 ビューア用のJavaScript API リファレンス。
 
-` setParam( *`名前、値`*)`
+` setParam( *` 名前、値 `*)`
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子のいずれかです。 このパラメータは `init()` の前に呼び出されます。
+ビューアパラメーターを指定した値に設定します。 パラメーターは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子です。 このパラメーターは、`init()` 前に呼び出されます。
 
-ビューアの設定情報が `config` JSON オブジェクトを使用して渡された場合は、このメソッドはオプションです。
+ビューア設定情報が JSON オブジェクトとともにコンストラクターに渡された場合 `config` このメソッドはオプションです。
 
 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
 
-## パラメータ {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
+## パラメーター {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} パラ </span> メーターの名前。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> の名前 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーター </span> 名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} パラ </span> メーターの値。値をパーセントでエンコードすることはできません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーターの </span> 値。 値はパーセント エンコードできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

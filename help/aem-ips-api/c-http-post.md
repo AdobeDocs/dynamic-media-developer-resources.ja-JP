@@ -1,20 +1,20 @@
 ---
-title: HTTP POST を使用した UploadFile Servlet へのアセットのアップロード
-description: へのアセットのアップロード [!DNL Dynamic Media] Classic には、ジョブを設定する 1 つ以上の HTTPPOSTリクエストが含まれ、アップロードされたファイルに関連付けられているすべてのログアクティビティを調整します。
+title: HTTP POST を使用した UploadFile サーブレットへのアセットのアップロード
+description: ' [!DNL Dynamic Media] Classic へのアセットのアップロードには 1 つ以上の HTTP POSTリクエストが必要で、アップロードされたファイルに関連付けられたすべてのログアクティビティを調整するジョブを設定します。'
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 3%
+source-wordcount: '688'
+ht-degree: 0%
 
 ---
 
-# HTTP POST を使用した UploadFile Servlet へのアセットのアップロード{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
+# HTTP POST を使用した UploadFile サーブレットへのアセットのアップロード{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-アセットをDynamic Media Classicにアップロードする際には、アップロードしたファイルに関連付けられているすべてのログアクティビティを調整するためのジョブを設定する 1 つ以上の HTTPPOSTリクエストが必要になります。
+Dynamic Media Classicへのアセットのアップロードには 1 つ以上の HTTP POSTリクエストが関与し、アップロードされたファイルに関連付けられたすべてのログアクティビティを調整するジョブを設定します。
 
 次の URL を使用して、UploadFile サーブレットにアクセスします。
 
@@ -24,14 +24,14 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->アップロードPOSTに対するすべてのジョブリクエストは、同じ IP アドレスから送信される必要があります。
+>アップロードジョブのすべてのPOSTリクエストは、同じ IP アドレスから送信する必要があります。
 
-**Dynamic Media地域のアクセス URL**
+**Dynamic Media リージョンのアクセス URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>地域 </p> </th> 
+   <th colname="col1" class="entry"> <p>地理的位置 </p> </th> 
    <th colname="col2" class="entry"> <p>実稼動 URL </p> </th> 
    <th colname="col3" class="entry"> <p>ステージング URL （実稼動前の開発およびテストに使用） </p> </th> 
   </tr> 
@@ -57,42 +57,42 @@ https://<server>/scene7/UploadFile
 
 ## アップロードジョブのワークフロー {#section-873625b9512f477c992f5cdd77267094}
 
-アップロードジョブは、共通の `jobHandle` を使用して、処理を同じジョブに関連付けます。 各リクエストは `multipart/form-data` エンコードされ、次のフォーム部分で構成されます。
+アップロードジョブは、共通の `jobHandle` を使用して処理を同じジョブに関連付ける 1 つ以上の HTTP POST で構成されます。 各リクエストは `multipart/form-data` にエンコードされ、次のフォーム部分で構成されます。
 
 >[!NOTE]
 >
->アップロードPOSTに対するすべてのジョブリクエストは、同じ IP アドレスから送信される必要があります。
+>アップロードジョブのすべてのPOSTリクエストは、同じ IP アドレスから送信する必要があります。
 
 |  HTTPPOSTフォーム部分  |  説明  |
 |---|---|
-| `auth`  |   必須. 認証情報とクライアント情報を指定する XML authHeader ドキュメント。 詳しくは、 **認証をリクエスト** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   オプション. アップロードリクエストごとに、1 つ以上のファイルを含めてPOSTできます。 各ファイル部分には、Content-Disposition ヘッダーに filename パラメータを含めることができます。指定しない場合は、IPS でターゲットファイル名として使用されます。 `uploadPostParams/fileName` パラメーターが指定されています。 |
+| `auth`  |   必須。 認証およびクライアント情報を指定する XML authHeader ドキュメント。 **2}SOAP** の「リクエスト認証 ](/help/aem-ips-api/c-wsdl-versions.md)」を参照してください。[ |
+| `file params`  |   オプション。 POSTのリクエストごとに、アップロードする 1 つ以上のファイルを含めることができます。 各ファイル部分には、Content-Disposition ヘッダーに filename パラメーターを含めることができます。このパラメーターは、`uploadPostParams/fileName` パラメーターが指定されていない場合に、IPS でターゲットファイル名として使用されます。 |
 
-|  HTTPPOSTフォーム部分   |  uploadPostParams 要素名   |  種類   |  説明   |
+|  HTTPPOSTフォーム部分   |  uploadPostParams 要素名   |  タイプ   |  説明   |
 |---|---|---|---|
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント )   |   `companyHandle`  |  `xsd:string`  | 必須。ファイルのアップロード先の会社に対する処理。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `jobName`  |  `xsd:string`  | 次のいずれか `jobName` または `jobHandle` が必要です。 アップロードジョブの名前。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `jobHandle`  |  `xsd:string`  | 次のいずれか `jobName` または `jobHandle` が必要です。 前のリクエストで開始されたアップロードジョブの処理。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `locale`  |  `xsd:string`  | （オプション）ローカリゼーション用の言語および国コード。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `description`  |  `xsd:string`  | （オプション）ジョブの説明。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `destFolder`  |  `xsd:string`  | （オプション）filename プロパティにプレフィックスするターゲットフォルダーのパス。特に、ファイル名でのフルパスをサポートしていないブラウザーや他のクライアントで使用されます。  |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `fileName`  |  `xsd:string`  | （オプション）ターゲットファイルの名前。 filename プロパティを上書きします。 |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `endJob`  |  `xsd:boolean`  | （オプション）初期設定は false。 |
-| `uploadParams` (必須. XML `uploadParams` アップロードパラメーターを指定するドキュメント ) | `uploadParams`  |  `types:UploadPostJob`  | 既存のアクティブなジョブの後続のリクエストの場合はオプションです。 既存のジョブがある場合、 `uploadParams` が無視され、既存のジョブアップロードパラメーターが使用されます。 詳しくは、 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント）   |   `companyHandle`  |  `xsd:string`  | 必須。 ファイルのアップロード先の会社を表すハンドル。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `jobName`  |  `xsd:string`  | `jobName` または `jobHandle` のいずれかが必要です。 アップロードジョブの名前。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `jobHandle`  |  `xsd:string`  | `jobName` または `jobHandle` のいずれかが必要です。 前のリクエストで開始されたアップロードジョブへのハンドル。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `locale`  |  `xsd:string`  | オプション。 ローカライゼーションの言語と国コード。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `description`  |  `xsd:string`  | オプション。 ジョブの説明。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `destFolder`  |  `xsd:string`  | オプション。 ファイル名プロパティのプレフィックスとして使用されるターゲットフォルダーパス。特に、ファイル名でフルパスをサポートしていないブラウザーや他のクライアントの場合に有効です。  |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `fileName`  |  `xsd:string`  | オプション。 ターゲットファイルの名前。 filename プロパティを上書きします。 |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `endJob`  |  `xsd:boolean`  | オプション。 初期設定は false。 |
+| `uploadParams` （必須。 アップロードパラメーターを指定する XML `uploadParams` ドキュメント） | `uploadParams`  |  `types:UploadPostJob`  | 既存のアクティブなジョブに対する後続のリクエストである場合はオプションです。 既存のジョブがある場合、`uploadParams` は無視され、既存のジョブアップロードパラメーターが使用されます。 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) を参照してください |
 
-内 `<uploadPostParams>` ブロックは `<uploadParams>` 含まれるファイルの処理を指定するブロック。
+`<uploadPostParams>` ブロック内には、含まれるファイルの処理を指定する `<uploadParams>` ブロックがあります。
 
-詳しくは、 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
+[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) を参照してください。
 
-あなたは `uploadParams` パラメーターは、同じジョブの一部として、個々のファイルに対して変更される場合がありますが、そうではありません。 同じ `uploadParams` ジョブ全体のパラメーター。
+`uploadParams` のパラメータは、同じジョブの一部として個々のファイルに対して変更される可能性があると仮定しますが、そうではありません。 ジョブ全体に同じ `uploadParams` パラメーターを使用します。
 
-新しいアップロードPOSTの最初のジョブリクエストでは、 `jobName` パラメータ。後続のジョブステータスのポーリングとジョブログのクエリを簡単にするために、一意のジョブ名を使用するのが望ましい。 同じアップロードPOSTに対する追加のジョブリクエストでは、 `jobHandle` パラメーターの代わりに `jobName`、 `jobHandle` 最初のリクエストから返された値。
+新しいアップロードジョブに対する最初のPOSTリクエストでは、`jobName` パラメーターを指定する必要があります。一意のジョブ名を使用すると、その後のジョブステータスポーリングやジョブログクエリを簡単に実行できるようになります。 同じアップロードジョブに対する追加のPOSTリクエストでは、最初のリクエストから返された `jobHandle` 値を使用して、`jobName` ではなく `jobHandle` パラメーターを指定する必要があります。
 
-アップロードPOSTの最終的なジョブリクエストでは、 `endJob` パラメーターを true に設定して、今後のファイルがこのジョブに POST されないようにします。 これにより、すべての POSTed ファイルが取り込まれた後すぐにジョブを完了できます。 それ以外の場合、30 分以内に追加のPOSTリクエストを受信しなかった場合、ジョブはタイムアウトします。
+アップロードジョブの最後のPOSTリクエストでは、`endJob` パラメーターを true に設定して、このジョブに対して今後ファイルが POST されないようにする必要があります。 これにより、すべての POSTed ファイルが取り込まれた直後にジョブが完了します。 それ以外の場合、30 分以内に追加のPOSTリクエストを受信しないと、ジョブはタイムアウトします。
 
 ## UploadPOST 応答 {#section-421df5cc04d44e23a464059aad86d64e}
 
-成功したPOSTリクエストの場合、応答本文は XML です `uploadPostReturn` ドキュメントの次の場所に XSD が指定されているとします。
+リクエストが成功した場合、XSD が次のように指定するように、POST本文は XML `uploadPostReturn` ドキュメントです。
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -104,11 +104,11 @@ https://<server>/scene7/UploadFile
     </element>
 ```
 
-この `jobHandle` 返された `uploadPostParams`/ `jobHandle` 同じジョブに対する以降のPOSTリクエストのパラメーター。 また、 `getActiveJobs` 操作を実行するか、 `getJobLogDetails` 操作。
+返された `jobHandle` は、同じジョブに対する後続のPOSTリクエストの `uploadPostParams`/ `jobHandle` パラメーターに渡されます。 また、`getActiveJobs` 操作でジョブステータスをポーリングしたり、`getJobLogDetails` 操作でジョブのログをクエリしたりすることもできます。
 
-POSTリクエストの処理中にエラーが発生した場合、応答本文は、 [障害](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+POSTリクエストの処理中にエラーが発生した場合、レスポンス本文は、[Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b) に記載されている API フォールトタイプのいずれかから構成されます。
 
-## サンプルのPOSTリクエスト {#section-810fe32abdb9426ba0fea488dffadd1e}
+## POSTリクエストの例 {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## POST応答の例 — 成功 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## POSTの応答の例 – 成功 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## POST応答の例 — エラー {#section-efc32bb371554982858b8690b05090ec}
+## POSTの応答の例 – エラー {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

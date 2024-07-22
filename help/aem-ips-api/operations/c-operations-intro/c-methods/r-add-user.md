@@ -8,7 +8,7 @@ exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -16,31 +16,31 @@ ht-degree: 13%
 
 ユーザーアカウントを作成し、そのアカウントを 1 つ以上の会社に追加します。
 
-ユーザーを複数の会社に追加する場合、 `companyHandleArray`. この操作を実行すると、追加したユーザーにハンドルが返されます。
+1 人のユーザーを複数の会社に追加する場合は、`companyHandleArray` で会社が処理する会社を指定します。 この操作は、先ほど追加したユーザーにハンドルを返します。
 
-## 認証済みユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 許可されているユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-40390a512e314b8d80ecffbb7729f6fb}
+## パラメーター {#section-40390a512e314b8d80ecffbb7729f6fb}
 
-**入力 (addUserParam)**
+**入力（addUserParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | firstName | `xsd:string` | はい | ユーザーの名。 |
 | lastName | `xsd:string` | はい | ユーザーの姓。 |
-| 電子メール | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
-| defaultRole | `xsd:string` | はい | 所属する各会社のユーザーの役割を設定します。 ただし、 `IpsAdmin` の役割は、他の会社単位の設定より優先されます。 |
+| 電子メール | `xsd:string` | はい | ユーザーの E メールアドレス。 |
+| defaultRole | `xsd:string` | はい | ユーザーが属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin` の役割は、会社ごとのその他の設定を上書きします。 |
 | パスワード | `xsd:string` | はい | ユーザーのパスワードを設定します |
-| passwordExpires | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際にタイムゾーンを指定します。 タイムゾーンは中央時間に調整されます。 |
+| passwordExpires | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際にタイムゾーンを指定します。 タイムゾーンは中部標準時に調整されます。 |
 | isValid | `xsd:boolean` | はい | ユーザーが有効かどうかを判断します。 |
-| membershipArray | `xsd:CompanyMembershipUpdateArray` | はい | 会社が処理する配列。 |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
 
-**出力 (addUserParam)**
+**出力（addUserParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - システムに警告を送信する {#section-612f8ea61794426ab205e22e5f665fa9}
 
-を「true」に設定し、メール通知設定を設定することで、メール通知を有効にします。 に設定 `false` すべてのメールアラートをオフにします。メンテナンスのためにサーバーをオフラインにする場合に役立ちます。 ブール値。
+を「true」に設定し、メール通知設定を設定することで、メール通知を有効にします。 `false` に設定すると、すべてのメールアラートがオフになります。これは、メンテナンスのためにサーバーをオフラインにする場合に役立ちます。 ブール値。
 
 ## AS::mailSender.host - SMTP ホスト {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP E メール サーバーのリスニング ポート。
 
 ## AS::monitorAlertGenerator.messageFrom - メッセージ送信者 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-で使用される電子メールアドレス **[!UICONTROL 送信元]** メールフィールド。
+**[!UICONTROL 送信元]** メールフィールドで使用する必要があるメールアドレス。
 
 ## AS::monitorAlertGenerator.alertInterval – 監視間隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

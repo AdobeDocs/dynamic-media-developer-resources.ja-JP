@@ -7,35 +7,35 @@ role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`duration`*[, *`間隔`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`duration`*[, *`spacing`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>フレームの変更に適用する効果のタイプを指定します。 属性 <span class="codeph"> なし </span> は、何の移行も行わないことを意味します。フレームの変更がすぐに発生します。 属性 <span class="codeph"> フェード </span> は、前のフレームと新しいフレームの間のクロスフェードトランジションを意味します。 属性 <span class="codeph"> スライド </span> 前のフレームがビューからスライドアウトし、新しいフレームがスライドインするトランジションをアクティブにします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|フェード|スライド </span> </p> </td> 
+   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 アトリビュート <span class="codeph">none はトランジション </span> ないことを表し、フレームの変更は即座に行われます。 フェード </span> のアトリビュート <span class="codeph">、古いフレームと新しいフレームの間のクロス フェードのトランジションを意味します。 スライド </span> の属性 <span class="codeph"> は、古いフレームがビューからスライドし、新しいフレームがスライドするトランジションがアクティブになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
-   <td colname="col2"> <p>次の期間（秒）を指定します。 <span class="codeph"> フェード </span> または <span class="codeph"> スライド </span> 遷移効果。 </p> </td> 
+   <td colname="col2"> <p>フェード </span> またはスライド切り替え効果 <span class="codeph"> デュレーション （秒） <span class="codeph"> 指定 </span> ます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 間隔 </span> </span> </p> </td> 
-   <td colname="col2"> <p>内の隣接するフレーム間の間隔 <span class="codeph"> スライド </span> トランジションの範囲は <span class="codeph"> 0 </span> 経由 <span class="codeph"> 1 </span> とは、コンポーネントの幅を基準とした相対パスです。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing </span> </span> </p> </td> 
+   <td colname="col2"> <p>スライド </span> トランジション内の隣接 <span class="codeph"> るフレーム間の間隔は、0 </span> ～ <span class="codeph"> 1 </span> の範囲 <span class="codeph"> あり、コンポーネントの幅に対して相対的です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

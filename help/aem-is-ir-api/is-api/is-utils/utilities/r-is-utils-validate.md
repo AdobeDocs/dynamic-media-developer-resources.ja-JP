@@ -20,15 +20,15 @@ ht-degree: 1%
 
 ## 使用方法 {#usage}
 
-` validate *`fileType`* [ *`オプション`*] [ *`sourceFile`* [ … ]]`
+` validate *`fileType`* [ *`options`*] [ *`sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>ソースファイルのタイプ。少なくとも 1 つを指定する必要があります（– any は、IC でサポートされている同じ画像ファイルタイプを許可します）。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Sourceファイルタイプ。少なくとも 1 つを指定する必要があります（– any は、IC でサポートされているのと同じ画像ファイルタイプを許可します）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> オプション </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> options </span> </span> </p> </td> 
   <td class="stentry"> <p>その他のコマンドオプション（後述）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -39,14 +39,14 @@ ht-degree: 1%
 
 ## 戻り値 {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-成功した場合は 0 を返します。 エラーが発生した場合は、0 以外の値が返され、エラーの詳細がに送信されます。 `stderr`.
+成功した場合は 0 を返します。 エラーが発生した場合は、0 以外の値が返され、エラーの詳細が `stderr` に送信されます。
 
 ## オプション {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>イメージ ファイルのリストを含むテキスト ファイルを指定します。 ファイルごとに 1 レコード。 次の場合 <span class="codeph"> -fileList </span> 次を含む <span class="varname"> sourceFile </span> を指定しないでください。 </p> </td> 
+  <td class="stentry"> <p>イメージ ファイルのリストを含むテキスト ファイルを指定します。 ファイルごとに 1 レコード。 -fileList </span><span class="codeph"> 含める場合は、sourceFile </span><span class="varname"> 指定しないでください。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -65,8 +65,8 @@ ht-degree: 1%
   <td class="stentry"> <p> 画像が無効な場合に詳細情報を出力します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph">  – サイレント </span> </p> </td> 
-  <td class="stentry"> <p>無効 <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> 出力。 ステータスのみが返されます。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> – サイレント </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> 出力を無効にします。 ステータスのみが返されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 

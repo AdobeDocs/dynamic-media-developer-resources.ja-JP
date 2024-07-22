@@ -1,5 +1,5 @@
 ---
-description: アセットのバッチを公開する準備ができているかどうかを指定します。
+description: アセットのバッチを公開する準備ができているかどうかを判断します。
 solution: Experience Manager
 title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,17 +8,17 @@ exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # setAssetsPublishState{#setassetspublishstate}
 
-アセットのバッチを公開する準備ができているかどうかを指定します。
+アセットのバッチを公開する準備ができているかどうかを判断します。
 
-これは、 [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+これは、[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563) のバッチバージョンです。
 
-## 認証済みユーザータイプ {#section-0804726f683944dbbe9acfc3d35ccf25}
+## 許可されているユーザータイプ {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,30 +29,30 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび書き込みアクセス権を持っている必要があります。
+>ユーザーには、アセットへの読み取りおよび書き込みアクセス権が必要です。
 
-## パラメータ {#section-3e49d7859f8647b990d75373cc8dbc24}
+## パラメーター {#section-3e49d7859f8647b990d75373cc8dbc24}
 
-**入力 (setAssetsPublishStateParam)**
+**入力（setAssetsPublishStateParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
 | publishStateUpdateArray | `types:PublishStateUpdateArray` | はい | アセットの公開状態値の配列。 |
 
-**出力 (setAssetsPublishStateParam)**
+**出力（setAssetsPublishStateParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | successCount | `xsd:int` | はい | 正常に更新されたアセットの数。 |
-| warningCount | `xsd:int` | はい | 操作が更新を試みたときに警告が発生したアセットの数。 |
-| errorCount | `xsd:int` | はい | 操作が削除を試みたときにエラーが発生したアセットの数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 警告を生成したアセットの更新に関連する詳細。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | エラーを発生させたアセットの更新に関連する詳細。 |
+| warningCount | `xsd:int` | はい | 操作で更新しようとしたときに警告が生成されたアセットの数です。 |
+| errorCount | `xsd:int` | はい | 操作で削除しようとしたときにエラーが生成されたアセットの数です。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 警告が生成されたアセット更新に関連付けられた詳細。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | エラーを生成したアセット更新に関連付けられている詳細。 |
 
 ## 例 {#section-38cfdd3436214a06a1bae16875501d51}
 
-このコードサンプルは、アセットの公開状態を設定します。
+次のコードのサンプルでは、アセットの公開状態を設定します。
 
 **リクエスト**
 

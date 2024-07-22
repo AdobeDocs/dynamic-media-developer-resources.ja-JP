@@ -1,34 +1,34 @@
 ---
-description: eCatalogビューアのJavaScript APIリファレンス。
+description: eCatalog ビューアのJavaScript API リファレンス。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cbd7987b-5e47-4ac0-8235-a217e5e6dee9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
 # setParams{#setparams}
 
-eCatalogビューアのJavaScript APIリファレンス。
+eCatalog ビューアのJavaScript API リファレンス。
 
 [!DNL ` setParams( *`params`*)`]
 
-1つ以上のパラメーターに指定した値を設定します。 メソッド引数の構文は、URLクエリ文字列と同じです。 つまり、name=valueのペアを[!DNL `&`]で区切って表します。 クエリ文字列と同様に、名前と値はUTF8を使用してパーセントでエンコードされます。 [!DNL `init()`]を呼び出す前に、このパラメーターを呼び出す必要があります。
+1 つ以上のパラメーターを指定された値に設定します。 メソッド引数の構文は、URL クエリ文字列と同じです。 つまり、名前=値のペアを [!DNL `&`] で区切って表します。 クエリ文字列の場合と同様に、名前と値は UTF8 を使用してパーセント エンコードされます。 を呼び出す前に、このパラメーター [!DNL `init()`] 呼び出す必要があります。
 
-ビューアの設定情報が[!DNL `config`] JSONオブジェクトを使用して渡される場合は、このメソッドはオプションです。
+ビューアの設定情報が JSON オブジェクトとともにコンストラクターに渡され [!DNL `config`] 場合、このメソッドはオプションです。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=valueパラメーターのペアを&amp;で区 <span class="codeph"> 切ります</span>。 </p> </td> 
+   <td colname="col2"> <p> {string}</span> name=value パラメーターのペアを <span class="codeph"> &amp;</span> で区切って <span class="codeph"> 定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

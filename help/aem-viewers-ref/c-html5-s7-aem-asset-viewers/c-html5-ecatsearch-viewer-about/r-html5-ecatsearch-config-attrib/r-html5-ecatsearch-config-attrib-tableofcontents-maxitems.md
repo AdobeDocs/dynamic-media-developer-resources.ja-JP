@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>ドロップダウン目次の項目の最大数。 </p> <p>また、外側のコンテナによって切り抜かれる場合に備えて、ドロップダウンに表示される項目の数を減らすこともできます。 </p> <p>に設定する場合 <span class="codeph"> 0</span> このコンポーネントは、追加先のコンテナに応じて、可能な限り多くの項目を表示します。 </p> </td> 
+   <td> <p>ドロップダウンの目次の項目の最大数。 </p> <p>また、外側のコンテナによって切り抜かれた場合に備えて、ドロップダウンに表示される項目の数を減らすこともできます。 </p> <p>0<span class="codeph"> 設定すると </span> そのコンポーネントは、追加先のコンテナに指定された項目を可能な限り表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

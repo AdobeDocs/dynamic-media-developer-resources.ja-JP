@@ -1,20 +1,20 @@
 ---
-description: PhotoshopOptions/layerNamingで使用されます。
+description: PhotoshopOptions/layerNaming によって使用されます。
 solution: Experience Manager
-title: Photoshopレイヤーの命名モード
-feature: Dynamic Media Classic、SDK/API
+title: Photoshop レイヤーの命名モード
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# Photoshopレイヤーの命名モード{#photoshop-layer-naming-modes}
+# Photoshop レイヤーの命名モード{#photoshop-layer-naming-modes}
 
-PhotoshopOptions/layerNamingで使用されます。
+PhotoshopOptions/layerNaming によって使用されます。
 
 構文
 

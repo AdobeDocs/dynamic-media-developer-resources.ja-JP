@@ -1,20 +1,20 @@
 ---
-description: 使用可能なロケール固有のバージョン。 リクエストパスで指定された、使用可能なロケール固有のカタログIDのリストを返します。
+description: 使用可能なロケール固有のバージョン。 リクエストパスで指定されたカタログ ID の使用可能なロケール固有のバージョンのリストを返します。
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
 # xlate{#xlate}
 
-使用可能なロケール固有のバージョン。 リクエストパスで指定された、使用可能なロケール固有のカタログIDのリストを返します。
+使用可能なロケール固有のバージョン。 リクエストパスで指定されたカタログ ID の使用可能なロケール固有のバージョンのリストを返します。
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,16 +25,16 @@ ht-degree: 4%
  </tr> 
 </table>
 
-[Object Id Translation](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414)を参照してください。
+[ オブジェクト Id 変換 ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414) を参照してください。
 
-例：
+以下に例を挙げます。
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-HTTP応答は、`catalog::Expiration`に基づいてTTLでキャッシュ可能です。
+HTTP 応答は、`catalog::Expiration` に基づく TTL でキャッシュ可能です。
 
-JSONP応答形式をサポートするリクエストでは、 `req=`パラメーターの拡張構文を使用して、JSコールバックハンドラーの名前を指定できます。
+JSONP 応答形式をサポートするリクエストでは、パラメーターの拡張構文を使用して JS コールバックハンドラーの名前 `req=` 指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP応答に存在するJSハンドラーの名前です。a ～ z、A ～ Zおよび0 ～ 9文字のみ使用できます。 （オプション）初期設定は `s7jsonResponse`.
+`<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみを使用できます。 オプション。 デフォルトは `s7jsonResponse` です。

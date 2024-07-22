@@ -8,7 +8,7 @@ exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 21%
 
 構文
 
-## 認証済みユーザータイプ {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 許可されているユーザータイプ {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-f092ca72f2024d66a1cec690aeab870a}
+## パラメーター {#section-f092ca72f2024d66a1cec690aeab870a}
 
-**入力 (getAllUsersParam)**
+**入力（getAllUsersParam）**
 
 <table id="table_1FE6DDADBD134E6D8BD4B52F1EAD2E85"> 
  <thead> 
@@ -43,16 +43,16 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4">次に設定： 
+   <td colname="col4">に設定： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 無効なユーザーを含めます。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 無効なユーザーを省略する場合。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108">無効なユーザーを含めるには </span>true を <span class="codeph"> します。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 無効なユーザーを省略します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力 (getAllUsersReturn)**
+**出力（getAllUsersReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

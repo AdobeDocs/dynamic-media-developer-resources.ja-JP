@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics追跡のサポート
-description: eCatalog ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+title: Adobe Analyticsのトラッキングのサポート
+description: eCatalog ビューアでは、標準でAdobe Analyticsのトラッキングがサポートされています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
@@ -8,23 +8,23 @@ exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-eCatalog ビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+eCatalog ビューアでは、標準でAdobe Analyticsのトラッキングがサポートされています。
 
-## 標準の追跡 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 標準のトラッキング {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-eCatalog ビューアは、 [!DNL Adobe Analytics] 追跡機能が標準で用意されています。 追跡を有効にするには、適切な会社プリセット名を `config2` パラメーター。
+eCatalog ビューアでは、標準で [!DNL Adobe Analytics] の追跡がサポートされています。 トラッキングを有効にするには、適切な会社プリセット名 `config2` パラメーターとして渡します。
 
-また、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に 1 つの追跡 HTTP 要求が送信されます。
+また、ビューアは、1 つのトラッキング HTTP リクエストを、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に送信します。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックを呼び出して処理する `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、`trackEvent` ビューアのコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -54,7 +54,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>送信タイミング… </p> </th> 
+   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -64,7 +64,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ビューア内でアセットが入れ替えられたときに、 <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset （） </span> API を使用して、ビューア内でアセットがスワップされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -72,23 +72,23 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされました。 </p> </td> 
+   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチをクリックまたはタップすると画像が変更されます。 </p> </td> 
+   <td colname="col2"> <p> 画像を変更するには、スウォッチをクリックまたはタップします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
-   <td colname="col2"> <p> 現在のフレームは、メインビューで変更されます。 </p> </td> 
+   <td colname="col2"> <p> 現在のフレームがメイン ビューで変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ITEM </span> </p> </td> 
-   <td colname="col2"> <p>情報パネルのポップアップがアクティブになります。 </p> </td> 
+   <td colname="col2"> <p>情報パネルのポップアップがアクティブ化される。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーが画像マップをクリックしたので、別のページに移動した。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが画像マップをクリックしたために別のページに移動した。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

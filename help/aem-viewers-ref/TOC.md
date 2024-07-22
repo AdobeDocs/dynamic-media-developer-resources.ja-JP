@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Dynamic Media ビューアリファレンスガイド {#library}
 
-+ [Dynamic Media ビューアリファレンスガイド](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
-+ [ビューアライブラリの例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
++ [Dynamic Media ビューアリファレンスガイド ](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [ ビューアライブラリの例 ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバーへの複数のビューアのインストール](t-installing-the-viewers.md)
-+ ビューアのリリースノート {#viewers-release-notes}
++ ビューアリリースノート {#viewers-release-notes}
    + [ビューアリリースノート（5.16.5）](c-release-notes/c-rn-03-02-22.md)
    + アーカイブ {#archive}
       + [ビューアのリリースノート（5.16.1）](c-release-notes/c-archive/c-rn-04-06-21.md)
@@ -37,7 +37,7 @@ ht-degree: 1%
 + [互換性に関する注意事項](c-compatibility-notes.md)
 + [キーボードのアクセシビリティとナビゲーション](c-keyboard-accessibility.md)
 + [ビューア SDK チュートリアル](c-tutorial.md)
-+ AEM AssetsおよびDynamic Media Classicのビューア {#viewers-aem-assets-dmc}
++ AEM AssetsおよびDynamic Media Classic {#viewers-aem-assets-dmc} のビューア
    + [AEM AssetsおよびDynamic Media Classicのビューア](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + 基本ズーム {#basic-zoom}
       + [基本ズームビューア](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
@@ -55,7 +55,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 基本ズームビューアのJavaScript API リファレンス {#jsapi-basic-zoom}
+      + 基本的なズームビューア {#jsapi-basic-zoom} ード用のJavaScript API リファレンス
          + [基本ズームビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
          + [BasicZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-dispose.md)
@@ -68,7 +68,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setaram.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
-      + 基本ズームビューアのカスタマイズ {#customizing-basic-zoom}
+      + 基本ズームビューア {#customizing-basic-zoom} ークフローのカスタマイズ
          + [基本ズームビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
          + [フォーカスのハイライト](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-focushighlight.md)
@@ -132,7 +132,7 @@ ht-degree: 1%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-textpos.md)
-      + eCatalog ビューアのJavaScript API リファレンス {#jsapi-ecatalog}
+      + eCatalog ビューアアプリ {#jsapi-ecatalog} ーションのJavaScript API リファレンス
          + [eCatalog ビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-dispose.md)
          + [eCatalogViewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-ecatalogviewer.md)
@@ -145,7 +145,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + eCatalog ビューアのカスタマイズ {#customizing-ecatalog}
+      + eCatalog ビューア {#customizing-ecatalog} ージのカスタマイズ
          + [eCatalog ビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [「お気に入りに追加」ボタン](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -195,7 +195,7 @@ ht-degree: 1%
       + [ダウンロード](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [お気に入り機能](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
       + [ビューア SDK 名前空間](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
-   + eCatalog 検索 {#ecatalog-search}
+   + eCatalog Search {#ecatalog-search}
       + [eCatalog 検索](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + コマンドリファレンス – 設定属性 {#command-reference-configuration-attributes-ecatalog-search}
          + [コマンドリファレンス – 設定属性](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
@@ -248,7 +248,7 @@ ht-degree: 1%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + eCatalog 検索ビューアのJavaScript API リファレンス {#jsapi-ecatalog-search}
+      + eCatalog 検索ビューアアプリ {#jsapi-ecatalog-search} ーションのJavaScript API リファレンス
          + [eCatalog 検索ビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -261,7 +261,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + eCatalog 検索ビューアのカスタマイズ {#customize-ecatalog-search}
+      + eCatalog 検索ビューアのカスタマイ {#customize-ecatalog-search}
          + [eCatalog 検索ビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [「お気に入りに追加」ボタン](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -337,7 +337,7 @@ ht-degree: 1%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-scrollstep.md)
-      + Flyout ビューアのJavaScript API リファレンス {#jsapi-flyout}
+      + Flyout ビューア {#jsapi-flyout} のJavaScript API リファレンス
          + [Flyout ビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)
@@ -350,7 +350,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md)
-      + Flyout ビューアのカスタマイズ {#customize-flyout}
+      + Flyout ビューアのカスタマイ {#customize-flyout}
          + [Flyout ビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md)
          + [フライアウトズームビュー](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
          + [フォーカスのハイライト](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-focushighlight.md)
@@ -361,7 +361,7 @@ ht-degree: 1%
       + [支援テクノロジーのサポート](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [ユーザーインターフェイス要素のローカリゼーション](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
       + [ビューア SDK 名前空間](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
-   + インラインズーム {#inline-zoom}
+   + インライン ズーム {#inline-zoom}
       + [インラインズーム](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
       + コマンドリファレンス – 設定属性 {#command-reference-configuration-attributes-inline-zoom}
          + [コマンドリファレンス – 設定属性](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib.md)
@@ -382,7 +382,7 @@ ht-degree: 1%
          + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-pagemode.md)
          + [Swatches.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-scrollstep.md)
-      + インラインズームビューアのJavaScript API リファレンス {#jsapi-inline-zoom}
+      + インラインズームビューアアプリ {#jsapi-inline-zoom} ーションのJavaScript API リファレンス
          + [インラインズームビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/c-html5-inlinezoom-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
@@ -395,7 +395,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + インラインズームビューアのカスタマイズ {#customing-inline-zoom}
+      + インラインズームビューア {#customing-inline-zoom} ークフローのカスタマイズ
          + [インラインズームビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [メインビューア領域](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [フライアウトズームビュー](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
@@ -466,7 +466,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + 混在メディアビューア用のJavaScript API リファレンス {#jsapi-mixed-media}
+      + 混在メディアビューアアプリ {#jsapi-mixed-media} ーション用のJavaScript API リファレンス
          + [混在メディアビューア用のJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
@@ -479,7 +479,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + 混在メディアビューアのカスタマイズ {#customing-mixed-media}
+      + 混在メディアビューア {#customing-mixed-media} ージのカスタマイズ
          + [混在メディアビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [キャプションボタン](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -531,7 +531,7 @@ ht-degree: 1%
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-zoomstep.md)
          + [ZoomView.enableHD](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-zoomview-enablehd.md)
-      + スピンビューアのJavaScript API リファレンス {#jsapi-spin}
+      + スピンビューア {#jsapi-spin} ードのJavaScript API リファレンス
          + [スピンビューアのJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-getcomponent.md)
@@ -544,7 +544,7 @@ ht-degree: 1%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + スピンビューアのカスタマイズ {#customizing-spin}
+      + スピンビューアのカスタマイ {#customizing-spin}
          + [スピンビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [フォーカスのハイライト](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -594,7 +594,7 @@ ht-degree: 1%
          + [ナビゲーション](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [ビデオ](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + ビデオビューアへのJavaScript API リファレンス {#jsapi-video}
+      + JavaScript API リファレンスからビデオビューア {#jsapi-video} へ
          + [ビデオビューア用のJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
@@ -608,7 +608,7 @@ ht-degree: 1%
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
-      + ビデオビューアのカスタマイズ {#customizing-video-viewer}
+      + ビデオビューアの {#customizing-video-viewer} のカスタマイズ
          + [ビデオビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [キャプションボタン](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
          + [コントロールバー](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
@@ -661,7 +661,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + ズームビューア用のJavaScript API リファレンス {#jsapi-zoom}
+      + ズームビューア {#jsapi-zoom} ード用JavaScript API リファレンス
          + [ズームビューア用のJavaScript API リファレンス](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [処分する](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -674,7 +674,7 @@ ht-degree: 1%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparams.md)
          + [ZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-zoomviewer.md)
       + [イベントコールバック](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
-      + ズームビューアのカスタマイズ {#customizing-zoom}
+      + ズームビューア {#customizing-zoom} ードのカスタマイズ
          + [ズームビューアのカスタマイズ](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [「閉じる」ボタン](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [フォーカスのハイライト](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
@@ -693,7 +693,7 @@ ht-degree: 1%
       + [ユーザーインターフェイス要素のローカリゼーション](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [フルスクリーンサポート](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [ビューア SDK 名前空間](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ AEM Assets専用のビューア {#viewers-for-aem-assets-only}
++ AEM Assets専用ビューア {#viewers-for-aem-assets-only}
    + [AEM Assets専用のビューア](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + カルーセル {#carousel}
       + [カルーセル](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
@@ -711,7 +711,7 @@ ht-degree: 1%
       + コマンドリファレンス - URL {#command-reference-url-carousel}
          + [コマンドリファレンス - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
-      + カルーセルビューアのJavaScript API リファレンス {#jsapi-carousel}
+      + カルーセルビューア {#jsapi-carousel} のJavaScript API リファレンス
          + [カルーセルビューアのJavaScript API リファレンス](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [CarouselViewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [処分する](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
@@ -724,7 +724,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
-      + カルーセルビューアのカスタマイズ {#customizing-carousel}
+      + カルーセルビューアのカスタマイ {#customizing-carousel}
          + [カルーセルビューアのカスタマイズ](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
          + [カルーセルビュー](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [フォーカスのハイライト](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
@@ -751,7 +751,7 @@ ht-degree: 1%
       + コマンドリファレンス - URL {#command-reference-interactive-images}
          + [コマンドリファレンス - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [前兆](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + インタラクティブ画像ビューア用JavaScript API リファレンス {#jsapi-interactive-image}
+      + インタラクティブ画像ビューアアプリ {#jsapi-interactive-image} ーション用JavaScript API リファレンス
          + [インタラクティブ画像ビューア用JavaScript API リファレンス](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [処分する](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -763,7 +763,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
-      + インタラクティブ画像ビューアのカスタマイズ {#customizing-interactive-image}
+      + インタラクティブ画像ビューアの {#customizing-interactive-image} のカスタマイズ
          + [インタラクティブ画像ビューアのカスタマイズ](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [フォーカスのハイライト](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [ホットスポット](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
@@ -776,7 +776,7 @@ ht-degree: 1%
       + [ホットスポットのサポート](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-hotspot-support.md)
       + [画像をプリロード](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md)
       + [ビューア SDK 名前空間](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
-   + インタラクティブビデオ {#interactive-video}
+   + Interactive Video {#interactive-video}
       + [インタラクティブビデオ](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
       + コマンドリファレンス – 設定属性 {#command-reference-configuration-attributes-interactive-video}
          + [コマンドリファレンス – 設定属性](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib.md)
@@ -821,7 +821,7 @@ ht-degree: 1%
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [ナビゲーション](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + インタラクティブビデオビューア用のJavaScript API リファレンス {#jsapi-interactive-video}
+      + インタラクティブビデオビューア {#jsapi-interactive-video} ータ用JavaScript API リファレンス
          + [インタラクティブビデオビューア用のJavaScript API リファレンス](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [処分する](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -834,7 +834,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [イベントコールバック](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + インタラクティブビデオビューアのカスタマイズ {#customizing-interactive-video}
+      + インタラクティブビデオビューア {#customizing-interactive-video} ージのカスタマイズ
          + [インタラクティブビデオビューアのカスタマイズ](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [誘い文句（CTA、コールトゥアクション）](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [キャプションボタン](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
@@ -861,7 +861,7 @@ ht-degree: 1%
       + [ユーザーインターフェイス要素のローカリゼーション](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [フルスクリーンサポート](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [ビューア SDK 名前空間](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
-   + スマート切り抜きのビデオ {#smartcropvideo}
+   + スマート切り抜きビデオ {#smartcropvideo}
       + [スマート切り抜きのビデオ](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
       + コマンドリファレンス – 設定属性 {#command-reference-configuration-attributes-smartcropvideo}
          + [コマンドリファレンス – 設定属性](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/c-html5-aem-smartcropvideo-cmdref.md)
@@ -891,7 +891,7 @@ ht-degree: 1%
          + [caption](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-caption.md)
          + [ビデオ](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
-      + スマート切り抜きビデオビューア用のJavaScript API リファレンス {#jsapi-smartcropvideo}
+      + Smart Crop Video Viewer {#jsapi-smartcropvideo} のJavaScript API リファレンス
          + [スマート切り抜きビデオビューア用のJavaScript API リファレンス](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [処分する](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
@@ -905,7 +905,7 @@ ht-degree: 1%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md)
          + [SmartCropVideoViewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md)
       + [イベントコールバック](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md)
-      + スマート切り抜きビデオビューアのカスタマイズ {#customizing-smartcropvideo}
+      + スマート切り抜きビデオビューア {#customizing-smartcropvideo} ークフローのカスタマイズ
          + [スマート切り抜きビデオビューアのカスタマイズ](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md)
          + [キャプションボタン](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-captionbutton.md)
          + [コントロールバー](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-controlbar.md)
@@ -957,7 +957,7 @@ ht-degree: 1%
          + [コマンドリファレンス - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [ビデオ](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + Video360 ビューア用のJavaScript API リファレンス {#jsapi-video360}
+      + Video360 ビューア {#jsapi-video360} ード用のJavaScript API リファレンス
          + [Video360 ビューア用のJavaScript API リファレンス](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [処分する](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
@@ -971,7 +971,7 @@ ht-degree: 1%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [イベントコールバック](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + Video360 ビューアのカスタマイズ {#customizing-video360}
+      + Video360 ビューアの {#customizing-video360} のカスタマイズ
          + [Video360 ビューアのカスタマイズ](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [コントロールバー](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [共有を埋め込む](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)

@@ -1,7 +1,7 @@
 ---
-description: ビネットマップがマテリアルカタログに必要な場合は、ビネットマップファイルの相対パスまたは絶対パスを属性 VignetMapFile で指定する必要があります。
+description: マテリアル カタログにビネット マップが必要な場合、ビネット マップ ファイルの相対パスまたは絶対パスを属性 VignetteMapFile で指定する必要があります。
 solution: Experience Manager
-title: ビネットマップリファレンス
+title: ビネットマップ参照
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77e4d131-f043-4091-8bf7-f85cc0e98002
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# ビネットマップリファレンス{#vignette-map-reference}
+# ビネットマップ参照{#vignette-map-reference}
 
-ビネットマップがマテリアルカタログに必要な場合は、ビネットマップファイルの相対パスまたは絶対パスを attribute::VignetMapFile で指定する必要があります。
+マテリアル カタログにビネット マップが必要な場合、ビネット マップ ファイルの相対パスまたは絶対パスを attribute::VignetteMapFile で指定する必要があります。
 
-特定のマテリアルカタログのビネットマップファイルのエントリは、既定のカタログのビネットマップファイルのエントリを上書きします。
+特定の材料カタログのビネット マップ ファイルのエントリは、既定のカタログのビネット マップ ファイルのエントリを上書きします。

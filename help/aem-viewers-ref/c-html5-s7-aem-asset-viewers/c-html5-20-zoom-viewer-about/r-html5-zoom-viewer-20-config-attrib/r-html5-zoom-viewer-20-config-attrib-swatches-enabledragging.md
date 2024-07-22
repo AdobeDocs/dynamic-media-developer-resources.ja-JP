@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6ae18f94-7a0f-429e-9684-eff43f523b1d
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 6%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 6%
 <table id="table_B1363BFD20204093AAB326A1AB503B93"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> マウスまたはタッチジェスチャを使用してスウォッチをスクロールする機能を有効または無効にします </p> </td> 
+   <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td> <p> マウスまたはタッチ ジェスチャを使用してスウォッチをスクロールする機能を有効または無効にします </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> 内の関数 <span class="codeph"> 0-1 </span> 範囲。 これは、 <span class="codeph"> % </span> 実際の速度の誤った方向への移動の値。 これが <span class="codeph"> 1 </span>をクリックすると、マウスと共に移動します。 これが <span class="codeph"> 0 </span>を指定した場合、正しくない方向に移動することはできません。 </p> </td> 
+   <td> <p> <span class="codeph"> 0 ～ 1 </span> の範囲内の関数。 実際の速度の誤った方向に移動する場合の <span class="codeph"> %</span> 値です。 1</span> に設定 <span class="codeph"> ると、マウスと一緒に移動します。 0</span> に設定 <span class="codeph"> ると、まったく間違った方向に移動することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 構文
 
-## 認証済みユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 許可されているユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,25 +32,24 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->* アセットを返すには、読み取りアクセス権が必要です。
->* すべてのユーザーが共有会社にアクセスできます。
+>* アセットを返すには、ユーザーに読み取りアクセス権が必要です。
+>* すべてのユーザーは、共有会社にアクセスできます。
 >
 
+## パラメーター {#section-1742fcb196224545b270eb8241f757a8}
 
-## パラメータ {#section-1742fcb196224545b270eb8241f757a8}
-
-**入力 (batchGetAssetPublishContextsParam)**
-
-| 名前 | 種類 | 必須 | 説明 |
-|---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
-| assetHandleArray | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
-
-**出力 (batchGetAssetPublishContextsReturn)**
+**入力（batchGetAssetPublishContextsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされる、公開コンテキストの配列。 |
+| companyHandle | `xsd:string` | はい | 会社に渡す。 |
+| assetHandleArray | ` `types:HandleArray」 | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
+
+**出力（batchGetAssetPublishContextsReturn）**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| assetPublishContextsArray | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされるパブリッシュコンテキストの配列。 |
 
 ## 例 {#section-457f6809ccfa425b9a0976313d613f4e}
 

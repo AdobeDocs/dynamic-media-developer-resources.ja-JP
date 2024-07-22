@@ -1,20 +1,20 @@
 ---
 title: ページ
-description: ページを取得します。 複数ページの FXG 内の特定のページを取得します。
+description: ページを取得します。 複数ページの FXG で特定のページを取得します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 6%
 
 ---
 
 # ページ{#page}
 
-ページを取得します。 複数ページの FXG 内の特定のページを取得します。
+ページを取得します。 複数ページの FXG で特定のページを取得します。
 
 `page= *`val`*`
 
@@ -27,4 +27,4 @@ ht-degree: 6%
 
 ## 初期設定 {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-次の場合 `page` が指定されていない場合、ラスター出力用の最初のページと、PDF出力用のすべてのページが返されます。
+`page` が指定されていない場合は、ラスター出力用の最初のページが返され、PDF出力用のすべてのページが返されます。

@@ -1,5 +1,5 @@
 ---
-description: server.xml の Connector タグは、SSL 接続用に選択できる暗号を制限する ciphers 属性をサポートしています。
+description: server.xml のコネクタタグでは、SSL 接続に選択できる暗号を制限する ciphers 属性をサポートしています。
 solution: Experience Manager
 title: SSL 暗号の定義
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # SSL 暗号の定義{#defining-ssl-ciphers}
 
-server.xml の Connector タグは、SSL 接続用に選択できる暗号を制限する ciphers 属性をサポートしています。
+server.xml のコネクタタグでは、SSL 接続に選択できる暗号を制限する ciphers 属性をサポートしています。
 
-デフォルトでは、すべての暗号が利用可能です。 リストはコンマで区切られ、次の値のいずれかを含めることができます。
+デフォルトでは、すべての暗号を使用できます。 リストはコンマで区切られ、次の値のいずれかを含めることができます。
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 
@@ -48,8 +48,8 @@ server.xml の Connector タグは、SSL 接続用に選択できる暗号を制
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-いずれかの値が正しくない場合、Tomcat は 1 つの暗号をすべて有効にします。 だから、設定後に外部ツールでチェックして、どの暗号が実際に有効になっているかを調べる必要がある。
+いずれかの値が間違っている場合、Tomcat はすべての暗号を有効にします。 したがって、どの暗号が実際に有効になっているかを確認するには、設定後に外部ツールで確認する必要があります。
 
-例えば、次の設定では、「128 ビット」暗号スイート以降のみを有効にします。
+例えば、次の設定では「128 ビット」暗号スイート以降のみを有効にします。
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`

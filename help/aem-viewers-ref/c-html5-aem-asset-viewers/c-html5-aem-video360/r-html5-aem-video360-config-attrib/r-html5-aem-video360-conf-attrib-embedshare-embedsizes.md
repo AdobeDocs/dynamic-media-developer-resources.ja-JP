@@ -1,45 +1,45 @@
 ---
 title: EmbedShare.embedsizes
-description: ビデオ 360 ビューアの設定属性。
+description: Video360 ビューアの設定属性
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 12%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-ビデオ 360 ビューアの設定属性。
+Video360 ビューアの設定属性
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 
-埋め込み共有モーダルダイアログボックスのサイズコンボボックスの埋め込みサイズのリストを指定します。
+埋め込み共有モーダルダイアログボックスの「サイズ」コンボボックスの埋め込みサイズのリストを指定します。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 埋め込みの幅。 </p> </td> 
+   <td colname="col2"> <p> 埋め込み幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 高さ </span></span> </p> </td> 
    <td colname="col2"> <p>埋め込みの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> コンボボックスでこのリスト項目を最初に事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> このリスト項目を最初にコンボ ボックスで事前に選択するかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

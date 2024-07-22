@@ -8,7 +8,7 @@ exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 
 構文
 
-## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、「生成情報」を参照してください。 |
+| [!DNL engine] | `xsd:string` | 除外するアセットを作成した生成エンジン。 値については、世代情報を参照してください。 |
 | generatedAssetType | `xsd:string` | 除外されたアセットタイプ。 値については、アセットタイプを参照してください。 |

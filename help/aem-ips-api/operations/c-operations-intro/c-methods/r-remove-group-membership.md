@@ -8,7 +8,7 @@ exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -18,31 +18,31 @@ ht-degree: 10%
 
 **削除コマンドの違い**
 
-* `removeGroupMembers`:1 つのグループから複数のユーザーを削除します。
-* `removeGroupMembership`:グループの配列から個々のユーザーを削除します。
+* `removeGroupMembers`: グループから複数のユーザーを削除します。
+* `removeGroupMembership`：グループの配列から個々のユーザーを削除します。
 
-## 認証済みユーザータイプ {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## 許可されているユーザータイプ {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-d6a15fa70d3d4fc69da200cdaf59904e}
+## パラメーター {#section-d6a15fa70d3d4fc69da200cdaf59904e}
 
-**入力 (removeGroupMembershipParam)**
+**入力（removeGroupMembershipParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | グループメンバーシップを削除する会社のハンドル。 |
+| userHandle | `xsd:string` | いいえ | グループのメンバーシップを削除する会社へのハンドル。 |
 | groupHandleArray | `types:HandleArray` | はい | 会社を削除するグループへのハンドルの配列。 |
 
-**出力 (removeGroupMembershipReturn)**
+**出力（removeGroupMembershipReturn）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-f8d4181170a243efb9faf5824ae96197}
 
-このコード例では、ユーザーをグループから削除します。
+このコード例では、グループからユーザーを削除します。
 
 **リクエスト**
 

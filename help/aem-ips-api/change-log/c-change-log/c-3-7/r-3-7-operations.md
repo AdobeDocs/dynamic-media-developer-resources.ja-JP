@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
+description: IPS API バージョン 3.7 の新しい操作メソッドと変更された操作メソッドについて説明します。
 solution: Experience Manager
-title: 新規および変更された操作
-feature: Dynamic Media Classic、SDK/API
+title: 新規および変更済みの操作
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
-# 操作：新規および変更済み{#operations-new-and-modified}
+# 操作：新規および変更{#operations-new-and-modified}
 
-IPS APIバージョン3.7の新しい操作方法と変更された操作方法について説明します。
+IPS API バージョン 3.7 の新しい操作メソッドと変更された操作メソッドについて説明します。
 
 構文
 
@@ -40,14 +40,14 @@ IPS APIバージョン3.7の新しい操作方法と変更された操作方法�
 
 **searchAsset**
 
-* `name`パラメーターを削除しました。
-* `excludeFieldArray`を追加しました。
+* パラメーター `name` 削除しました。
+* `excludeFieldArray` を追加しました。
 
 **getFolders**
 
-* `excludeFieldArray`を追加しました。
+* `excludeFieldArray` を追加しました。
 
 **getFolderTree**
 
-* `excludeFieldArray`と`getUniqueMetadataValues`を追加しました。
-* `fieldHandle`を必須のパラメータにしました。
+* `excludeFieldArray` と `getUniqueMetadataValues` を追加しました。
+* `fieldHandle` を必須パラメーターにしました。

@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> サムネール画像を基準にラベルを描画する場所を指定します。 つまり、ラベルはサムネールに対して相対的に指定された位置の中央に配置されます。 </p> <p>When a <span class="codeph"> tooltip</span> を指定すると、ラベルのテキストが、サムネール画像の上にフローティングツールチップとして表示されます。 </p> <p>に設定する場合 <span class="codeph"> なし</span>の場合、ラベルの表示を切り替えます。 </p> </td> 
+   <td colname="col2"> <p> サムネール画像を基準にしてラベルを描画する場所を指定します。 つまり、ラベルは、サムネールに対して指定した位置に配置されます。 </p> <p><span class="codeph"> ツールチップ </span> が指定されている場合、ラベル テキストはサムネイル イメージ上にツールチップとして表示されます。 </p> <p><span class="codeph"> none</span> に設定すると、ラベル表示がオフになります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

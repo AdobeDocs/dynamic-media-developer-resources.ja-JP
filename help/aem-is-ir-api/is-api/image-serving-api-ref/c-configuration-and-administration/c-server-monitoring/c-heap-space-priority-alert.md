@@ -1,19 +1,19 @@
 ---
-description: Javaのガベージコレクションサイクルの直後に、空きJavaヒープ領域が指定したしきい値を下回ると、優先度アラートが送信されます。
+description: 優先度アラートは、Java のガベージコレクションサイクルの直後に、Java の空きヒープ領域が指定されたしきい値を下回ると送信されます。
 solution: Experience Manager
-title: ヒープ領域の優先度アラート
-feature: Dynamic Media Classic、SDK/API
+title: ヒープ領域優先度アラート
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# ヒープ領域の優先度アラート{#heap-space-priority-alert}
+# ヒープ領域優先度アラート{#heap-space-priority-alert}
 
-Javaのガベージコレクションサイクルの直後に、空きJavaヒープ領域が指定したしきい値を下回ると、優先度アラートが送信されます。
+優先度アラートは、Java のガベージコレクションサイクルの直後に、Java の空きヒープ領域が指定されたしきい値を下回ると送信されます。
 
-繰り返されるアラートは、Javaヒープ領域を増やすことで対処する必要があります。 その後、`AS::monitorAlertGenerator.heapSpaceResetInterval`で指定された遅延期間が終了するまで、この条件が発生しても電子メールアラートは送信されません。
+アラートを繰り返す場合は、Java のヒープ領域を増やして対処する必要があります。 この条件に続いて発生した場合は、`AS::monitorAlertGenerator.heapSpaceResetInterval` で指定された遅延期間が経過するまで、メールアラートは送信されません。

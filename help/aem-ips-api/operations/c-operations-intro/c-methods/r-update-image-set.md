@@ -8,7 +8,7 @@ exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 20%
 
 構文
 
-## パラメータ {#section-3be47dbbce474ce78676b05e163492e3}
+## パラメーター {#section-3be47dbbce474ce78676b05e163492e3}
 
-**入力 (updateImageSetParam)**
+**入力（updateImageSetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | 変更する画像セットを含む会社へのハンドル。 |
-| assetHandle | `xsd:string` | Ys | 変更する画像セットのハンドル。 |
-| memberArray | `types:ImageSetMemberUpdateArray` | いいえ | 画像セットのメンバをリセットします。 |
+| assetHandle | `xsd:string` | Ys | 変更する画像セットへのハンドル。 |
+| memberArray | `types:ImageSetMemberUpdateArray` | いいえ | 画像セットのメンバーをリセットします。 |
 | thumbAssetHandle | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
 
-**出力 (updateImageSetReturn)**
+**出力（updateImageSetReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

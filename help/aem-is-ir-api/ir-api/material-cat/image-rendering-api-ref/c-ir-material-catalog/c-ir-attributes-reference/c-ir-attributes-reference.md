@@ -1,6 +1,6 @@
 ---
 title: 属性リファレンス
-description: カタログの RootId を除く、すべてのカタログ属性はオプションです。 すべての属性は、既定のカタログ属性ファイル (default.ini) で必要です。
+description: カタログの RootId を除く、すべてのカタログ属性はオプションです。 既定のカタログ属性ファイル（default.ini）には、すべての属性が必要です。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 属性リファレンス{#attributes-reference}
 
-catalog::RootId を除く、すべてのカタログ属性はオプションです。 すべての属性は、既定のカタログ属性ファイル (default.ini) で必要です。
+catalog::RootId を除く、すべてのカタログ属性はオプションです。 既定のカタログ属性ファイル（default.ini）には、すべての属性が必要です。

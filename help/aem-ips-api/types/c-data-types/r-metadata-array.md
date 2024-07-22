@@ -8,7 +8,7 @@ exl-id: 1833237d-4ef9-4899-8d14-317db350b223
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 23%
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 構文
 
-## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 <table id="table_04100BB8ABD84EF68B0A7CE3AD946414"> 
  <thead> 
@@ -30,8 +30,8 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 項目</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> タイプ：メタデータ </span> </p> </td> 
    <td colname="col3"> <p>メタデータの配列。 </p> </td> 
   </tr> 
  </tbody> 

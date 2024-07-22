@@ -8,7 +8,7 @@ exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 再生/一時停止を切り替えるためのシングルクリック/タップのマッピングを設定します。 を <span class="codeph"> なし</span> は、シングルクリック/タップして再生/一時停止を無効にします。 次に設定した場合： <span class="codeph"> playPause</span>をクリックすると、ビデオの再生と一時停止が切り替わります。 一部のデバイスでは、ネイティブのコントロールを使用できます。 この場合、 <span class="codeph"> singleclick</span> 動作が無効です。 </p> </td> 
+   <td colname="col2"> <p> シングルクリックまたはタップして再生/一時停止を切り替えるためのマッピングを設定します。 なし <span class="codeph"> 設定すると </span> シングルクリックまたはタップして再生/一時停止できなくなります。 <span class="codeph"> playPause</span> に設定されている場合、ビデオをクリックすると、ビデオの再生と一時停止が切り替わります。 一部のデバイスでは、ネイティブコントロールを使用できます。 この場合、シングルクリック <span class="codeph"> 動作 </span> 無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

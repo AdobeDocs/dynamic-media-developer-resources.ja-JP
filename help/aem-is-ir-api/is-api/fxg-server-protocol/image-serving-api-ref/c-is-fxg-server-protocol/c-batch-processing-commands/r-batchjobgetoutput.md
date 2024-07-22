@@ -2,13 +2,13 @@
 description: 送信されたジョブの出力を取得します。
 solution: Experience Manager
 title: batchjobgetoutput
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '49'
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>送信時に取得されたジョブID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p>送信時に取得されたジョブ ID。 </p> </td> 
  </tr> 
 </table>
 
 戻り値：
 
-ジョブのPDF出力は応答でストリーミングされます。`jobid`が無効な場合、またはジョブが削除された場合にエラーが発生します。
+ジョブのPDF出力は、それに応じてストリーミングされます。`jobid` が無効な場合、またはジョブが削除された場合はエラーになります。
 
 ## 例 {#section-0319e615fa254132a9dab59351b4c252}
 

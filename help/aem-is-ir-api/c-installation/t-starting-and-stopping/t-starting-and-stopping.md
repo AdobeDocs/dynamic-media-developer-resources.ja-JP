@@ -1,6 +1,6 @@
 ---
 title: 画像サービングの開始と停止
-description: この節では、Windows および Linux®での画像サービングの起動と停止の手順を説明します。
+description: ここでは、Windows および Linux® で画像サービングを開始および停止する手順について説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 画像サービングの開始と停止{#starting-and-stopping-image-serving}
 
-この節では、Windows および Linux®での画像サービングの起動と停止の手順を説明します。
+ここでは、Windows および Linux® で画像サービングを開始および停止する手順について説明します。
 
 * [Windows での起動または停止](t-startstop-windows.md)
-* [Linux®での起動または停止](t-startstop-linux.md)
+* [Linux® での起動または停止](t-startstop-linux.md)

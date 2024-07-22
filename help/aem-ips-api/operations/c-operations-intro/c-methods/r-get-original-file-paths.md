@@ -8,7 +8,7 @@ exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 16%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 構文
 
-## 認証済みユーザータイプ {#section-da8d8561e9174e938f3595a5d6e50089}
+## 許可されているユーザータイプ {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,24 +32,24 @@ ht-degree: 16%
 >
 >アセットへの読み取りアクセス権が必要です。
 
-## パラメータ {#section-a6b394daba6e49a8882cf3051035d9d1}
+## パラメーター {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**入力 (getOriginalFilePathsParam)**
-
-| 名前 | 種類 | 必須 | 説明 |
-|---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
-| assetHandleArray | `types:HandleArray` | はい | 元のファイルパスを取得するアセットに対するハンドルの配列。 |
-
-**出力 (getOriginalFilePathsReturn)**
+**入力（getOriginalFilePathsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| originalFileArray | `types:StringArray` | はい | 元のファイルパスを表す文字列の配列です。 |
+| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
+| assetHandleArray | `types:HandleArray` | はい | 元のファイルパスを取得したいアセットへのハンドルの配列。 |
+
+**出力（getOriginalFilePathsReturn）**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| originalFileArray | `types:StringArray` | はい | 元のファイルパスを表す文字列の配列。 |
 
 ## 例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-このコードサンプルは、アセットハンドル配列の一意のアセットハンドルで指定されたアセットのファイルパスを返します。
+このコード例では、アセットハンドル配列内の一意のアセットハンドルで指定されたアセットのファイルパスを返します。
 
 **リクエスト**
 

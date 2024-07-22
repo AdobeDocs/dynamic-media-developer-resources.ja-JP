@@ -1,6 +1,6 @@
 ---
 title: AssetCount
-description: 会社のアセットのタイプと数。
+description: 会社のアセットタイプとカウント。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # [!DNL AssetCount]{#assetcount}
 
-会社のアセットのタイプと数。
+会社のアセットタイプとカウント。
 
-アセットタイプには以下が含まれます [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]など。
+アセットタイプには、[!DNL ViewerSWf]、[!DNL PDF]、[!DNL Cabinet] などがあります。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| assetType | `xsd:string` | カウントに関連付けられたアセットのタイプ。 |
-| カウント | `sd:int` | 数 `assetType` 会社内のアセット。 |
+| assetType | `xsd:string` | カウントに関連付けられているアセットのタイプ。 |
+| カウント | `sd:int` | 会社内の `assetType` アセットの数。 |

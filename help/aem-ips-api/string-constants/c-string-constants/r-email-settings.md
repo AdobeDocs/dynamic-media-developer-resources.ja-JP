@@ -1,20 +1,20 @@
 ---
-description: 様々な入力パラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください。
+description: 様々な入力パラメーターで使用される値について説明します。 詳しくは、この記事のリストを参照してください。
 solution: Experience Manager
-title: 電子メール設定
-feature: Dynamic Media Classic、SDK/API
+title: E メール設定
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
-# 電子メール設定{#email-settings}
+# E メール設定{#email-settings}
 
-様々な入力パラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください。
+様々な入力パラメーターで使用される値について説明します。 詳しくは、この記事のリストを参照してください。
 
 構文
 

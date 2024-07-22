@@ -1,20 +1,20 @@
 ---
-description: SystemFieldCondition/opとMetadataCondition/opで使用されます。
+description: SystemFieldCondition/op および MetadataCondition/op で使用されます。
 solution: Experience Manager
 title: 文字列比較演算子
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 
 # 文字列比較演算子{#string-comparison-operators}
 
-SystemFieldCondition/opとMetadataCondition/opで使用されます。
+SystemFieldCondition/op および MetadataCondition/op で使用されます。
 
 構文
 

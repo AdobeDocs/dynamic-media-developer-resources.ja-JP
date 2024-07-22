@@ -1,28 +1,28 @@
 ---
 title: 解像度
-description: 初期設定の解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合のデフォルトの解像度を指定します。
+description: デフォルトの解像度。 特定のカタログレコードに有効なカタログ解像度の値が含まれていない場合に使用する、デフォルトの解像度を指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd47f41a-b527-4c78-afb5-b9e9af0868cc
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
 # 解像度{#resolution}
 
-初期設定の解像度。 特定のカタログレコードに有効な `catalog::Resolution` の値です。
+デフォルトの解像度。 特定のカタログレコードに有効な `catalog::Resolution` 値が含まれていない場合のデフォルトの解決方法を指定します。
 
 ## プロパティ {#section-06d519158b9f479896f945747c670736}
 
-実数、より大きい `0`. 通常、1 インチあたりのピクセル数で表されますが、他の単位（例：1 メートルあたりのピクセル数）で表される場合もあります。
+`0` より大きい実数。 通常は 1 インチあたりのピクセル数で表しますが、1 メートルあたりのピクセル数など、他の単位の場合もあります。
 
 ## 初期設定 {#section-eea922c37c224e1dbcab3bc53ee13aca}
 
-継承元 `default::Resolution` が定義されていない場合、または空の場合は。
+定義されていない場合または空の場合は `default::Resolution` から継承します。
 
 ## 関連項目 {#section-fa286e5440f04d0aa07c7326cc0d72f1}
 

@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics追跡のサポート
-description: Adobe Analytics追跡のサポート
+title: Adobe Analyticsのトラッキングのサポート
+description: Adobe Analyticsのトラッキングのサポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
@@ -8,17 +8,17 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-デフォルトでは、ビューアは、ビューアのタイプとバージョン情報を含む、設定済みの Image Server に対して 1 回の追跡 HTTP 要求を送信します。
+デフォルトでは、ビューアは、ビューアのタイプとバージョン情報を含む単一のトラッキング HTTP リクエストを設定済み Image Server に送信します。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-をサードパーティの分析システムと統合するには、 `trackEvent` ビューアのコールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、ビューアのコールバック `trackEvent` リッスンし、必要に応じてコールバック関数の引数 `eventInfo` 処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -54,7 +54,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>ビューアが最初に読み込まれたとき。 </p> </td> 
+   <td colname="col2"> <p>ビューアが最初に読み込まれるとき。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,28 +1,28 @@
 ---
-title: ユーザーインターフェイス要素のローカライゼーション
-description: ビデオビューアに表示されるコンテンツには、ズームボタンやフルスクリーンボタンなど、ローカライゼーションの対象となるものもあります。
+title: ユーザーインターフェイス要素のローカリゼーション
+description: ビデオビューアに表示される特定のコンテンツは、ローカライゼーションの影響（ズームボタン、フルスクリーンボタンなど）を受けます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-# ユーザーインターフェイス要素のローカライゼーション{#localization-of-user-interface-elements}
+# ユーザーインターフェイス要素のローカリゼーション{#localization-of-user-interface-elements}
 
-ビデオビューアに表示されるコンテンツには、ズームボタンやフルスクリーンボタンなど、ローカライゼーションの対象となるものもあります。
+ビデオビューアに表示される特定のコンテンツは、ローカライゼーションの影響（ズームボタン、フルスクリーンボタンなど）を受けます。
 
-ビューア内のテキスト内のローカライズ可能なコンテンツは、SYMBOL と呼ばれる、特別な Viewer SDK 識別子で表されます。 SYMBOL には、英語のロケール ( `"en"`) には、標準のビューアが付属しています。 また、必要な数のロケールに対して、ユーザ定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別な Viewer SDK 識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
-ビューアが起動すると、現在のロケールがチェックされ、ロケールでサポートされる各シンボルに対してユーザ定義の値があるかどうかが確認されます。 ある場合は、ユーザー定義の値を使用します。それ以外の場合は、標準のデフォルトテキストにフォールバックされます。
+ビューアは起動時、現在のロケールを調べて、そのロケールでサポートされている各 SYMBOL にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
 
-ユーザ定義のローカリゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされるロケール、各ロケールの SYMBOL テキスト値、およびデフォルトのロケールのリストが含まれます。
+ユーザー定義のローカライゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケール、各ロケールの SYMBOL テキスト値、デフォルトのロケールのリストが含まれます。
 
-このようなローカライゼーションオブジェクトの例を次に示します。
+このようなローカリゼーションオブジェクトの例を次に示します。
 
 ```
 { 
@@ -38,71 +38,71 @@ defaultLocale:"en"
 }
 ```
 
-上記の例では、ローカリゼーションオブジェクトで 2 つのロケール ( `"en"` および `"fr"`) を参照し、各ロケールで 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
+上記の例では、localization オブジェクトは 2 つのロケール（`"en"` と `"fr"`）を定義し、各ロケールで 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
 
-Web ページコードでは、このようなローカリゼーションオブジェクトをの値としてビューアのコンストラクターに渡す必要があります。 `localizedTexts` 設定オブジェクトのフィールド。 別のオプションとして、 `setLocalizedTexts(localizationInfo)` メソッド。
+Web ページのコードは、このようなローカリゼーションオブジェクトを、設定オブジェクトのフィールドの値としてビューアのコンストラクター `localizedTexts` 渡す必要があります。 別のオプションとして、`setLocalizedTexts(localizationInfo)` メソッドを呼び出してローカリゼーションオブジェクトを渡すこともできます。
 
-次のシンボルがサポートされています。
+次の記号がサポートされています。
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>記号 </p> </th> 
-   <th colname="col2" class="entry"> <p>ツールチップの表示… </p> </th> 
+   <th colname="col2" class="entry"> <p>...のツールチップ </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>トップレベルのビューア要素の ARIA ラベル。 </p> </td> 
+   <td colname="col2"> <p>最上位のビューア要素の ARIA ラベル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>メインビューコンポーネントの ARIA ロールの説明。 </p> </td> 
+   <td colname="col1"> <p> ZoomView.ROLE_DESCRIPTION </span> を <span class="codeph"> きます。 </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントの ARIA 役割の説明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>ARIA キーボードユーザー向けの使用ヒント。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.USAGE_HINT </span> </p> </td> 
+   <td colname="col2"> <p>キーボードユーザー向けの ARIA 使用ヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>「閉じる」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>ズームインボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>「ズームイン」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>ズームアウトボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>ズームのリセットボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>ズームリセットボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>フルスクリーンボタン（通常の状態） </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p>全画面表示ボタンが通常の状態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>フルスクリーン状態のフルスクリーンボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>左にスクロールボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>左ボタンをスクロールします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>右スクロールボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>右にスクロール ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>上にスクロールボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>スクロールアップボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>下にスクロールボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>スクロールダウンボタン。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

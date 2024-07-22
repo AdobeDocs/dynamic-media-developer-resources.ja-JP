@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン6の新しいタイプと変更されたタイプについて説明します。
+description: IPS API バージョン 6 の新しいタイプと変更されたタイプについて説明します。
 solution: Experience Manager
-title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic、SDK/API
+title: 新規および変更済みのデータタイプ
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 1%
 
 ---
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
-IPS APIバージョン6の新しいタイプと変更されたタイプについて説明します。
+IPS API バージョン 6 の新しいタイプと変更されたタイプについて説明します。
 
 構文
 
@@ -38,36 +38,36 @@ IPS APIバージョン6の新しいタイプと変更されたタイプについ
 
 ## 変更されたタイプ {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**追加済み**
+**追加**
 
-* `numUrls`を`UploadUrlsJob`に追加しました。
+* `numUrls` を `UploadUrlsJob` に追加しました。
 
-* `fileName`を`Asset.`に追加しました。
+* が `fileName` を `Asset.` に追加しました
 
-* `isHidden`を`MetadataField`に追加しました。
+* `isHidden` を `MetadataField` に追加しました。
 
-* `taskState`を`TaskProgress`に追加しました。
+* `taskState` を `TaskProgress` に追加しました。
 
-* `exportJob`を`ActiveJob`と`ScheduledJob`に追加しました。
+* `ActiveJob` と `ScheduledJob` に `exportJob` を追加しました。
 
-* `optmizedPath`と`optimizedFile`を`PsdInfo`に追加しました。
+* `optmizedPath` と `optimizedFile` を `PsdInfo` に追加しました。
 
-* `contextHandle`を次の場所に追加しました。
+* `contextHandle` が次に追加されました：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* `Asset`に次のパラメーターを追加しました。
+* `Asset` に次のパラメーターを追加しました。
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**変更済み**
+**変更**
 
-* `User`で、`role`を`defaultRole`に変更しました。
+* `User` で、が `role` を `defaultRole` に変更しました。
 
-* `Folder`で、`permissions`を`permissionsSetHandle`に変更しました。
+* `Folder` で、が `permissions` を `permissionsSetHandle` に変更しました。
 
-* `AssetSummary`では、`type`と`name`はオプションになりました。
+* `AssetSummary` では、`type` と `name` がオプションになりました。

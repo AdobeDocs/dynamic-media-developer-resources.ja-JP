@@ -1,20 +1,20 @@
 ---
-description: JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
+description: JobLogDetail/logType および JobLog/logType で使用されます。
 solution: Experience Manager
-title: ジョブのログの種類
-feature: Dynamic Media Classic、SDK/API
+title: ジョブ ログの種類
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 
-# ジョブのログの種類{#job-log-types}
+# ジョブ ログの種類{#job-log-types}
 
-JobLogDetail/logTypeおよびJobLog/logTypeで使用されます。
+JobLogDetail/logType および JobLog/logType で使用されます。
 
 構文
 

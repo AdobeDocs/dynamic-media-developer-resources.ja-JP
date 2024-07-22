@@ -1,6 +1,6 @@
 ---
 title: タイプ
-description: マテリアルサーフェスのタイプ。 マテリアルのサーフェスタイプを指定します。
+description: マテリアルのサーフェス タイプ。 マテリアルのサーフェス タイプを指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,20 +8,20 @@ exl-id: 333b8954-e256-4ba1-8055-c4d625470673
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
 # タイプ{#type}
 
-マテリアルサーフェスのタイプ。 マテリアルのサーフェスタイプを指定します。
+マテリアルのサーフェス タイプ。 マテリアルのサーフェス タイプを指定します。
 
 `type=0...19`
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>不明、サーバはデフォルトを使用します </p></td> 
+  <td class="stentry"> <p>不明、サーバーは既定を使用します </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -29,15 +29,15 @@ ht-degree: 24%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>天然木 </p></td> 
+  <td class="stentry"> <p>天然木材 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>研磨金属 </p></td> 
+  <td class="stentry"> <p>ポリッシュ メタル </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p></td> 
-  <td class="stentry"> <p>ブラシ付き金属 </p></td> 
+  <td class="stentry"> <p>ブラシ仕上げメタル </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
@@ -89,11 +89,11 @@ ht-degree: 24%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p></td> 
-  <td class="stentry"> <p>織物 </p></td> 
+  <td class="stentry"> <p>ファブリック </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>シア・ファブリック </p></td> 
+  <td class="stentry"> <p>薄手の織物 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -101,15 +101,15 @@ ht-degree: 24%
  </tr> 
 </table>
 
-と共に使用 `gloss=` および `rough=` 反射と光沢効果の挙動を制御する。 異なるマテリアルは、たとえ `gloss=` および `rough=` 同じです。
+反射と光沢効果の動作を制御するために、`gloss=` と `rough=` で使用します。 `gloss=` と `rough=` が同じであっても、マテリアルが異なると効果が異なります。
 
 ## プロパティ {#section-2345b2508273426295ce8ac46182ea64}
 
-材料属性。 ビネットに 3-D 反射データが含まれていない場合や、ビネットで光沢効果が無効な場合は無視されます。
+マテリアル アトリビュート。 ビネットに 3-D 反射データが含まれていない場合、またはビネットで光沢効果が無効になっている場合は無視されます。
 
 ## 初期設定 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` マテリアルがカタログエントリに基づいている場合。 それ以外の場合 `type=0`. 指定しなかった場合、または `type=0`を指定した場合、サーバはターゲットオブジェクトと他のマテリアル属性に応じて適切なデフォルトを選択します。
+`catalog::Type` 材料がカタログエントリに基づいている場合。 それ以外の場合 `type=0`。 指定しない場合、または指定し `type=0` い場合、サーバーはターゲットオブジェクトとその他の材料属性に応じて適切なデフォルトを選択します。
 
 ## 関連項目 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 

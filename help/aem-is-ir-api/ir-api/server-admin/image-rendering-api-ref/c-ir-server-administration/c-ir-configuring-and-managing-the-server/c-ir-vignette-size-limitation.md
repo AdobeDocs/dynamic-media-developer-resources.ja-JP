@@ -1,6 +1,6 @@
 ---
 title: ビネットサイズの制限
-description: 画像レンダリングでは、非ピラミッドビネットに対して 2 メガピクセルのサイズ制限が適用されます。
+description: 画像レンダリングでは、ピラミッド以外のビネットに対して 2 メガピクセルのサイズ制限が適用されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # ビネットサイズの制限{#vignette-size-limitation}
 
-画像レンダリングでは、非ピラミッドビネットに対して 2 メガピクセルのサイズ制限が適用されます。
+画像レンダリングでは、ピラミッド以外のビネットに対して 2 メガピクセルのサイズ制限が適用されます。
 
-の値を変更 `IrMaxNonPyrVignetteSize` [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] ：アプリケーションで、この制限を超える画像領域（幅 x 高さ）を持つ非ピラミッドビネットをサポートする必要がある場合。
+アプリケーションで、この制限を超える画像領域（幅 x 高さ）を持つピラミッド以外のビネットのサポートが必要な場合は、[!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] の `IrMaxNonPyrVignetteSize` の値を変更します。
 
 >[!NOTE]
 >
->属性を調整する `attribute::MaxPix` および `IS::MaxMessageSize` ：非常に大きな応答画像サイズを許可する。 詳しくは、画像サービングのドキュメントを参照してください。
+>`attribute::MaxPix` および `IS::MaxMessageSize` の属性を調整して、非常に大きな応答画像サイズができるようにします。 詳しくは、画像サービングドキュメントを参照してください。

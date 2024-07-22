@@ -8,7 +8,7 @@ exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>カスタムCSSファイル、クローズドキャプションコンテンツまたはナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に<span class="filepath"> /</span>がない場合、ビューアのHTMLページからの相対パスになります。 パスの先頭に<span class="filepath"> /</span>がある場合は、同じサーバ上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、初期設定のCSSファイルの読み込みに影響しません。 </p> </td> 
+   <td colname="col2"> <p>カスタム CSS ファイル、クローズドキャプションコンテンツ、ナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に/</span> という <span class="filepath"> がない場合は、ビューアHTMLページの場所を基準とした相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、デフォルトの CSS ファイルの読み込みには影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-10ee45d637134e0fbcd943c62578cb78}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d411e450028c460392cb8508f8ccc5d9}
 

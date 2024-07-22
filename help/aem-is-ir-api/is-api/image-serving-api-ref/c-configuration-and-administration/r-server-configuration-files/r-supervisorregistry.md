@@ -1,5 +1,5 @@
 ---
-description: サーバスーパーバイザの構成設定が含まれます。
+description: サーバースーパーバイザーの構成設定が含まれます。
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-サーバスーパーバイザの構成設定が含まれます。
+サーバースーパーバイザーの構成設定が含まれます。
 
-この XML ファイルを編集する際は、有効な XML 構文を維持してください。そうしないと、Image Server の起動に失敗する場合があります。
+この XML ファイルを編集する場合は、有効な XML 構文を維持してください。そうしないと、Image Server の起動に失敗する可能性があります。
 
-このファイルを編集した後に画像サービングを再起動し、変更が有効になることを確認します。 変更では、以下でハイライト表示されている要素/属性の値のみがサポートされます。 Dynamic Mediaテクニカルサポートの指示に従った場合にのみ、このファイルの他のすべてのコンテンツを編集します。
+このファイルを編集した後で画像サービングを再起動して、変更が確実に有効になるようにします。 以下でハイライト表示された要素/属性値のみが変更できます。 このファイルのその他の内容は、Dynamic Media テクニカルサポートから指示があった場合にのみ編集してください。
 
 ```
 <supervisor>

@@ -2,13 +2,13 @@
 description: カラーデータタイプ。
 solution: Experience Manager
 title: カラー
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b47f772e-a15c-4277-b0d4-9147efb70156
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
@@ -16,4 +16,4 @@ ht-degree: 6%
 
 カラーデータタイプ。
 
-カラー値 16進数のパックRGB値。オプションで先頭に`0x`を付けます。 例えば、RGB値`128,255,0`を`0x80ff00`または`80ff00`として指定できます。
+カラー値。 16 進数のパックされたRGB値。オプションで `0x` が先行します。 例えば、RGB値 `128,255,0` は `0x80ff00` または `80ff00` として指定できます。

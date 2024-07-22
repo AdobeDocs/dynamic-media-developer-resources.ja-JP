@@ -1,20 +1,20 @@
 ---
-description: ActiveJobs/stateで使用されます。
+description: ActiveJobs/state によって使用されます。
 solution: Experience Manager
-title: アクティブなジョブ状態
-feature: Dynamic Media Classic、SDK/API
+title: アクティブなジョブの状態
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
-# アクティブなジョブ状態{#active-job-states}
+# アクティブなジョブの状態{#active-job-states}
 
-ActiveJobs/stateで使用されます。
+ActiveJobs/state によって使用されます。
 
 構文
 

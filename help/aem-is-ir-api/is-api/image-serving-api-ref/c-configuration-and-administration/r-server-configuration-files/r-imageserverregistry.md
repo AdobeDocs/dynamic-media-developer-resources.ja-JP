@@ -1,30 +1,30 @@
 ---
-description: Image Serverの設定が含まれます。
+description: Image Server の設定が含まれます。
 solution: Experience Manager
 title: ImageServerRegistry.xml
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-Image Serverの設定が含まれます。
+Image Server の設定が含まれます。
 
-このXMLファイルを変更する場合は、有効なXML構文を維持するように注意する必要があります。そうしないと、Image Serverの起動に失敗する場合があります。
+この XML ファイルを変更する場合、有効な XML 構文を維持するよう注意する必要があります。そうしないと、Image Server の起動に失敗する可能性があります。
 
-変更を有効にするには、このファイルを編集した後でImage Serverを再起動します。 変更では、以下に示す要素の値のみがサポートされます。 Dynamic Mediaテクニカルサポートの指示に従った場合にのみ、このファイルのその他のコンテンツを編集します。
+変更を有効にするには、このファイルを編集した後、Image Server を再起動します。 以下に示す要素の値のみが変更できます。 このファイルのその他の内容は、Dynamic Media テクニカルサポートから連絡があった場合にのみ編集してください。
 
 >[!NOTE]
 >
->要素の順序を含め、`<imageserverregistry>`の構造は変更しないでください。 このファイルを編集する際は注意が必要です。そうしないと、Image Serverの起動に失敗する場合があります。
+>要素の順序を含め、`<imageserverregistry>` の構造を変更しないでください。 このファイルを編集する場合は注意が必要です。編集しないと、Image Server の起動に失敗する可能性があります。
 
-次に、変更可能な要素を示します。 他の要素が存在し、この要素は変更できません。 以下の要素の順序は、ファイル内に存在する必要がある順序を反映しません。
+以下に、変更可能な要素を示します。 変更してはいけない他の要素が存在します。 以下の要素の順序は、ファイル内での要素の存在順序を反映していません。
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ Image Serverの設定が含まれます。
 
 ## 説明 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-複数の`<RootPath>`要素が存在する場合があります（ソースデータファイルフォルダーごとに1つ）。 Image Serverは、指定された順序でルートパスを検索し、特定のソースファイルを見つけます。
+複数の `<RootPath>` 要素が存在する場合があります（ソースデータファイルフォルダーごとに 1 つ）。 Image Server は、指定された順序でルートパスを検索して、特定のソースファイルを検索します。

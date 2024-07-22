@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b2a65077-c322-446a-8d71-bded292215bf
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 14%
 <table id="table_4B8CEC134277403A840A050BD8C8CE2B"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> スウォッチが部分的に表示されている（スクロールが揃えられていない）ときに、コンポーネントでスクロールを停止できるかどうかを指定します。 推奨される値は次のとおりです。 <span class="codeph"> false</span> または <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> スウォッチのいずれかが部分的に表示されている（スクロールが整列していない）場合に、コンポーネントでスクロールを停止できるようにするかどうかを指定します。 推奨値は <span class="codeph"> false</span> または <span class="codeph"> 0</span> です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

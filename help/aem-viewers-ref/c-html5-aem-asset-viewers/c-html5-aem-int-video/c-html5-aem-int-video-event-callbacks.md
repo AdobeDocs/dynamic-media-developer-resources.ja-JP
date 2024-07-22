@@ -14,24 +14,24 @@ ht-degree: 0%
 
 # イベントコールバック{#event-callbacks}
 
-ビューアでは、Webページでビューアの初期化プロセスや実行時の動作の追跡に使用されるJavaScriptイベントコールバックがサポートされています。
+ビューアは、JavaScript イベントコールバックをサポートしています。このコールバックは、web ページで、ビューアの初期化プロセスやランタイムの動作のトラッキングに使用されます。
 
-コールバックハンドラーを割り当てるには、イベント名と`handlers`プロパティを持つ対応するハンドラー関数を、ビューアのコンストラクター内の`config` JSONオブジェクトに渡します。 または、`setHandlers()` APIメソッドを使用することもできます。
+コールバックハンドラーは、`handlers` プロパティを持つイベント名と対応するハンドラー関数をビューアのコンストラクター内 `config`JSON オブジェクトに渡すことによって割り当てられます。 または、API メソッドを使用するこ `setHandlers()` もできます。
 
-サポートされるビューアイベントは次のとおりです。
+次のビューアイベントがサポートされています。
 
-* `initComplete` - APIを使用できるように、ビューアの初期化が完了し、すべての内部コンポーネントが作成されたときにトリガーさ `getComponent()` れます。コールバックハンドラーは引数を取りません。
-* `trackEvent` - Adobe Analyticsなどのイベントトラッキングシステムで処理できるイベントがビューア内で発生するたびにトリガーされます。コールバックハンドラーは次の引数を取ります。
+* `initComplete` - ビューアの初期化が完了し、すべての内部コンポーネントが作成されて API を使用できるようになっ `getComponent()` ときのトリガー。 コールバックハンドラーは引数を取りません。
+* `trackEvent` - ビューア内でイベントが発生するたびに発生するトリガーです。Adobe Analyticsなど、イベントトラッキングシステムで処理される可能性があります。 コールバックハンドラーは次の引数を取ります。
 
-   * `objID {String}` 現在は使用されていません。
-   * `compClass {String}` 現在は使用されていません。
-   * `instName {String}` イベントをトリガーしたビューアSDKコンポーネントのインスタンス名。
-   * `timeStamp {Number}` イベントのタイムスタンプ。
-   * `eventInfo {String}` イベントペイロード。
+   * `objID {String}` は現在使用されていません。
+   * `compClass {String}` は現在使用されていません。
+   * イベントをトリガーしたビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベ `timeStamp {Number}` トタイムスタンプ。
+   * イベ `eventInfo {String}` トペイロード。
 
-* `quickViewActivate`  — ユーザーがインタラクティブスウォッチコンポーネント内またはビデオ再生の最後に表示される「行動喚起」画面でインタラクティブスウォッチをクリックまたはタップしたときにトリガー。コールバックハンドラーは、次のフィールドを持つJSONオブジェクトである唯一の引数を受け取ります。
+* `quickViewActivate` - ユーザーがインタラクティブスウォッチコンポーネント内またはビデオ再生の最後に表示される「コールトゥアクション」画面でインタラクティブスウォッチをクリックまたはタップしたときのトリガー。 コールバックハンドラーは、次のフィールドを持つ JSON オブジェクトである唯一の引数を受け取ります。
 
-   * `sku` {  `String`}インタラクティブスウォッチに関連付けられているSKU値。
-   * `<additionalVariable>` {  `String`}インタラクティブスウォッチに関連付けられた追加の変数が0個以上ある。
+   * インタラクティブスウォッチに関連付けられている { `String`} SKU 値を `sku` します。
+   * インタラクティブスウォッチに関連付けられた追加の変数を { `String`}`<additionalVariable>` つ追加します。
 
-[InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd)および[setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643)も参照してください。
+[InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) および [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643) も参照してください。

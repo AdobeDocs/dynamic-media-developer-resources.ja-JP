@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: パノラマビューアの JavaScript API リファレンス
+description: パノラマビューア用JavaScript API リファレンス
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-パノラマビューアの JavaScript API リファレンス
+パノラマビューア用JavaScript API リファレンス
 
 `setHandlers(handlers)`
 
-0 個以上のコールバックハンドラを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに対して以前に割り当てられていたイベントハンドラーが完全に上書きされます。 の前に呼び出す必要があります `init()`.
+0 個以上のコールバックハンドラーを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに以前に割り当てられていたイベントハンドラーが完全に上書きされます。 `init()` 前に呼び出す必要があります。
 
 ## パラメータ {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ハンドラー </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> ビューアのイベントコールバックを含む JSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前、プロパティ値は適切なコールバックへの JavaScript 関数参照です。 </p> <p>ビューアイベントについて詳しくは、イベントコールバックの節を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> は、ビューアイベント </span> コールバックを持つ JSON オブジェクトを {Object} します。プロパティ名は、サポートされているビューアイベントの名前で、プロパティ値は、適切なコールバックへのJavaScript関数参照です。 </p> <p>ビューアイベントについて詳しくは、イベントコールバックの節を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

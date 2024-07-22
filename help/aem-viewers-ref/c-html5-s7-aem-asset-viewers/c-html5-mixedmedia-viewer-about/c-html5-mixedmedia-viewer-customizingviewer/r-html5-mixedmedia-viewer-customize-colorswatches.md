@@ -1,22 +1,22 @@
 ---
 title: カラースウォッチ
-description: カラースウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 カラースウォッチは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
+description: カラースウォッチは、サムネール画像の行と、左右にオプションのスクロールボタンで構成されます。 カラースウォッチがデスクトップに表示されるのは、コンテナの幅にすべてのサムネールが収まらない場合のみです。 モバイルデバイスで、またはサムネールがコンテナの幅に収まる場合、スクロールボタンが表示されません。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 # カラースウォッチ{#color-swatches}
 
-カラースウォッチは、一連のサムネール画像と、左側および右側のオプションのスクロールボタンで構成されます。 カラースウォッチは、デスクトップで、すべてのサムネールがコンテナの幅に収まらない場合にのみ表示されます。 モバイルデバイスの場合や、サムネールがコンテナの幅に収まる場合は、スクロールボタンは表示されません。
+カラースウォッチは、サムネール画像の行と、左右にオプションのスクロールボタンで構成されます。 カラースウォッチがデスクトップに表示されるのは、コンテナの幅にすべてのサムネールが収まらない場合のみです。 モバイルデバイスで、またはサムネールがコンテナの幅に収まる場合、スクロールボタンが表示されません。
 
-スウォッチコンテナの外観は、以下に示す CSS クラスセレクターを使用して制御します。
+スウォッチコンテナの外観は、CSS クラスセレクターで制御します。
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches
@@ -27,21 +27,21 @@ ht-degree: 3%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>スウォッチの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>スウォッチの高さです。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>スウォッチの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>ビューアのコンテナを基準とした、スウォッチの垂直方向のオフセット。 </p> </td> 
+   <td colname="col2"> <p>ビューアコンテナを基準とした垂直方向のスウォッチのオフセット。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 高さが 100 ピクセルのスウォッチを設定するには、次のように記述します。
+例 – 100 ピクセルの高さのスウォッチを設定する
 
 ```
 .s7mixedmediviewer .s7colorswatches .s7swatches { 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-スウォッチサムネールの間隔は、以下の CSS クラスセレクターを使用して制御します。
+スウォッチサムネール間の間隔は、次の CSS クラスセレクターで制御します。
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumbcell`
 
@@ -65,14 +65,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の水平および垂直のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の水平方向と垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell </span> に設定された左右の余白 <span class="codeph"> 合計と等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **例**
 
-垂直方向と水平方向の間隔を 10 ピクセルに設定するには、次のように記述します。
+垂直方向と水平方向の両方で 10 ピクセルに間隔を設定します。
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumbcell { 
@@ -80,7 +80,7 @@ ht-degree: 3%
 }
 ```
 
-個々のサムネールの外観は、以下の CSS クラスセレクターを使用して制御します。
+個々のサムネールの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumb`
 
@@ -93,25 +93,25 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの幅 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの高さ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールのボーダー。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムネールでは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、メインビューに現在表示されている画像のサムネールに対応します。 `state="default"` は残りのサムネールに対応し、 `state="over"` は、マウスポインターを置いたときに使用されます。
+>サムネールでは `state` 属性セレクターがサポートされており、これを使用して異なるスキンを異なるサムネール状態に適用できます。 特に、`state="selected"` は、現在メインビューに表示されている画像のサムネールに対応 `state="default"`、残りのサムネールに対応し、マウスのカーソルを合わせ `state="over"` ときに使用されます。
 
-例 — 56 x 56 ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
+例 – 56 x 56 ピクセルのサムネールで、デフォルトの境界線が薄いグレーになり、選択した境界線が濃いグレーになるようにします。
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumb { 
@@ -126,13 +126,13 @@ ht-degree: 3%
 }
 ```
 
-左右のスクロールボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+左右のスクロールボタンの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-CSS を使用してスクロールボタンを配置することはできません。 `top`, `left`, `bottom`、および `right` プロパティ。 代わりに、ビューアのロジックによって自動的に配置されます。
+CSS `top`、`left`、`bottom` および `right` プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアロジックによって自動的に配置されます。
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,29 +143,29 @@ CSS を使用してスクロールボタンを配置することはできませ�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>スクロールボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>スクロールボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>スクロール ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 `up`, `down`, `over`、および `disabled`.
+>このボタンは、`up`、`down`、`over`、`disabled` などの異なるボタン状態に異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-例 — 56 x 56 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには、次のように記述します。
+例 – 56 x 56 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定する場合
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton { 

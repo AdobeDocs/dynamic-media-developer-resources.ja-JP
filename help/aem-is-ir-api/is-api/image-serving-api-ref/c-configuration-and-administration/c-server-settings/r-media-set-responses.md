@@ -1,6 +1,6 @@
 ---
 title: メディアセットの応答
-description: このセクションの設定は、req=set 修飾子で取得されたメディアセット応答に適用されます。
+description: このセクションの設定は、req=set 修飾子によって取得されたメディアセット応答に適用されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # メディアセットの応答{#media-set-responses}
 
-このセクションの設定は、 `req=set` 修飾子
+このセクションの設定は、`req=set` 修飾子によって取得されたメディアセット応答に適用されます。
 
-## PS::fvctx.useCatalogRecordValidation — キャッシュポリシー {#section-9accb087d16548a988993bb30395a6f6}
+## PS::fvctx.useCatalogRecordValidation - キャッシュポリシー {#section-9accb087d16548a988993bb30395a6f6}
 
-このプロパティは、キャッシュから取得されたセット応答を再生成する必要があるかどうかを判断する際に、キャッシュポリシーを制御します。 プロパティが無効な場合、 [!DNL catalog.ini] ファイルが検証に使用されます。 プロパティが有効な場合、最新の `catalog::LastModified` すべての参照されたレコードのタイムスタンプが検証に使用されます。
+このプロパティは、キャッシュから取得された設定応答を再生成する必要があるかどうかを決定する際のキャッシュ ポリシーを制御します。 このプロパティが無効になっている場合は、[!DNL catalog.ini] ファイルのタイムスタンプが検証に使用されます。 プロパティが有効になっている場合は、参照されているすべてのレコードの最新の `catalog::LastModified` タイムスタンプが検証に使用されます。
 
-## PS::fvctx.nestingLimit — ネスティング制限 {#section-280210341f1647fea02590e7069934d2}
+## PS::fvctx.nestingLimit - ネスティングの制限 {#section-280210341f1647fea02590e7069934d2}
 
-任意の `req=set` 応答。 この深さを超えると、エラーが返されます。
+`req=set` 応答の最大ネスト深度。 この深さを超えると、エラーが返されます。
 
-## PS::fvctx.brochureLimit — パンフレットの制限 {#section-fe36e47db49244cea7f07e9dd3639440}
+## PS::fvctx.brochureLimit - パンフレットの制限 {#section-fe36e47db49244cea7f07e9dd3639440}
 
-内の e カタログパンフレットの最大数 `req=set` 応答。関連するすべてのメタデータが含まれます。 この制限を超えると、パンフレット項目に関連付けられたプライベートマップおよびユーザデータは抑制されます。
+関連付けられたすべてのメタデータを含む `req=set` 応答内の電子カタログパンフレットの最大数。 この制限を超えると、パンフレット項目に関連付けられているプライベート マップおよびユーザ データは省略されます。

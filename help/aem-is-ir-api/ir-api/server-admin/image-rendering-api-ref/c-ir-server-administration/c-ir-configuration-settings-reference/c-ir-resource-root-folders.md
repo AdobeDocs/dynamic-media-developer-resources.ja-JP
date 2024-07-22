@@ -1,5 +1,5 @@
 ---
-title: リソースのルートフォルダー (ir.resourceRootPaths)
+title: リソース ルート フォルダー（ir.resourceRootPaths）
 description: セミコロンで区切られたパスのリストは、相対ファイルパスを持つすべてのデータファイルのルートとして機能します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# リソースのルートフォルダー (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
+# リソース ルート フォルダー（ir.resourceRootPaths）{#resource-root-folders-ir-resourcerootpaths}
 
 セミコロンで区切られたパスのリストは、相対ファイルパスを持つすべてのデータファイルのルートとして機能します。
 
-絶対パスまたは次の値を基準とした相対パスを指定できます。 *[!DNL install_folder]*. 複数のパスが指定されている場合、サーバはファイルが見つかるまで、指定された順序で各ルートを試みます。 デフォルトはです。 [!DNL ./resources]（のデフォルトのルートパス） [!DNL install_folder/resources].
+絶対パス、または *[!DNL install_folder]* に対する相対パスを指定できます。 複数のパスが指定された場合、ファイルが見つかるまで、サーバーは指定された順序で各ルートを試します。 デフォルトは [!DNL ./resources] です。デフォルトのルートパスは [!DNL install_folder/resources] です。

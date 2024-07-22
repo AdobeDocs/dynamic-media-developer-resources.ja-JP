@@ -1,22 +1,22 @@
 ---
 title: 反射
-description: ビネットは、ほぼ 3D の反射データを含むように作成できます。
+description: ビネットを作成して、3D に近い反射データを含めることができます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
 # 反射{#reflections}
 
-ビネットは、ほぼ 3D の反射データを含むように作成できます。
+ビネットを作成して、3D に近い反射データを含めることができます。
 
-作成した場合は、次のマテリアル属性を使用して、マテリアルの反射サーフェスプロパティを定義します。
+作成した場合、次のマテリアル属性を使用してマテリアルの反射サーフェス プロパティを定義します。
 
 <table id="table_8769C726A17E412FB41F7CB87690B1FE"> 
  <thead> 
@@ -34,7 +34,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
-   <td> <p>光沢の変化（グレースケールの画像） </p> </td> 
+   <td> <p>グロスバリエーション（グレースケール画像） </p> </td> 
    <td> <p>なし </p> </td> 
   </tr> 
   <tr> 
@@ -44,12 +44,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
-   <td> <p>マテリアルタイプ </p> </td> 
+   <td> <p>材料タイプ </p> </td> 
    <td> <p>0 （不明） </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-レンダラーは、 `gloss=` および `rough=` ～に従って属性を持つ `type=`. 生地などの材料の種類によっては、石や金属などの材料の種類に比べて反射が少ないものもあります。 また、1 つに対して同じ光沢量を指定すると、反射効果が他のものとは異なる場合が多い。 属性 `gloss=` 粗さはかなり広い範囲を持つ。 `type=` が指定されていないか、に設定されています `0`.
+レンダラーは、`type=` に従って `gloss=` と `rough=` 属性の範囲を調整します。 布地などの一部のマテリアル タイプは、石や金属などのマテリアル タイプよりも反射が少なくなります。 また、一方に指定した量の光沢は、他方とは異なる反射効果を生じることがよくあります。 属性 `gloss=` と粗さは、`type=` が指定されていないか、または `0` に設定されている場合、かなり広い色域を持ちます。
 
-`glossmap=` マテリアルの光沢度をピクセル単位で制御するために使用します。
+`glossmap=` マテリアルの光沢をピクセル単位でコントロールするために使用します。

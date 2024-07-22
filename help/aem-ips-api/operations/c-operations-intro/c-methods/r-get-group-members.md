@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 18%
 
 構文
 
-## 認証済みユーザータイプ {#section-08a73460d122480292205bb8f2df9220}
+## 許可されているユーザータイプ {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-b798b06354c946abbb90fa72cc9c67fd}
+## パラメーター {#section-b798b06354c946abbb90fa72cc9c67fd}
 
-**入力 (getGroupMembersParam)**
+**入力（getGroupMembersParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
 | groupHandle | `xsd:string` |  | グループへのハンドル。 |
 
-**出力 (getGroupMembersReturn)**
+**出力（getGroupMembersReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 ## 例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-このコード例は、特定のグループに属するすべてのユーザーを含むユーザーハンドル配列を返します。
+このコードサンプルでは、特定のグループに属するすべてのユーザーを含んだユーザーハンドル配列を返します。
 
 **リクエスト**
 

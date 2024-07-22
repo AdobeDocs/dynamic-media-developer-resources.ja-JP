@@ -1,6 +1,6 @@
 ---
 title: SystemFieldConditionArray
-description: システムフィールド条件配列。
+description: システムフィールドの条件配列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-システムフィールド条件配列。
+システムフィールドの条件配列。
 
 構文
 

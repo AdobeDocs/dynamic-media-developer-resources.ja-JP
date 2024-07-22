@@ -1,6 +1,6 @@
 ---
 title: ズームビュー
-description: メインビューは静的な画像で構成されます。
+description: メインビューは静的画像で構成されています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # ズームビュー{#zoom-view}
 
-メインビューは静的な画像で構成されます。
+メインビューは静的画像で構成されています。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+表示領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7interactiveimage .s7zoomview
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> メインビューの 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にします。
+例 – メインビューを透明にする。
 
 ```
 .s7interactiveimage .s7zoomview { 

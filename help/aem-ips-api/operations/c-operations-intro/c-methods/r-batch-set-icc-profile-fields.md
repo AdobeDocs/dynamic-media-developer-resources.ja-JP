@@ -8,7 +8,7 @@ exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ICC プロファイルメタデータフィールドを設定します。
 
 構文
 
-## 認証済みユーザータイプ {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## 許可されているユーザータイプ {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,24 +27,24 @@ ICC プロファイルメタデータフィールドを設定します。
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-75a02b55ae0d444ca26b59aac6e86d6f}
+## パラメーター {#section-75a02b55ae0d444ca26b59aac6e86d6f}
 
-**入力 (batchSetIccProfileFields)**
-
-| 名前 | 種類 | 必須 | 説明 |
-|---|---|---|---|
-| companyHandle | `xsd:string` | はい | ICC プロファイルを含む会社を処理します。 |
-| 配列を更新 | `xsd:string` | はい | ICC プロファイルの更新の配列。 |
-
-**出力 (batchSetIccProfileFields)**
+**入力（batchSetIccProfileFields）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| successCount | `xsd:int` | はい | 正常に設定された ICC プロファイルフィールドの数。 |
-| warningCount | `xsd:int` | はい | 操作が ICC プロファイルフィールドの設定を試行したときに生成される警告の数です。 |
-| errorCount | `xsd:int` | はい | 操作が ICC プロファイルフィールドの設定を試みたときに生成されたエラーの数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告が生成されたアセットに関連付けられた詳細の配列。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 |
+| companyHandle | `xsd:string` | はい | ICC プロファイルを含む会社へのハンドル。 |
+| 配列を更新 | `xsd:string` | はい | ICC プロファイルのアップデートの配列。 |
+
+**出力（batchSetIccProfileFields）**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| successCount | `xsd:int` | はい | 正常に設定された ICC プロファイル フィールドの数です。 |
+| warningCount | `xsd:int` | はい | 操作が ICC プロファイルフィールドを設定しようとしたときに生成された警告の数。 |
+| errorCount | `xsd:int` | はい | 操作が ICC プロファイル フィールドを設定しようとしたときに生成されたエラーの数です。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとした際に警告を生成したアセットに関連付けられた詳細の配列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
 
 ## 例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

@@ -8,7 +8,7 @@ exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 23%
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 構文
 
-## 認証済みユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
+## 許可されているユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,17 +27,17 @@ ht-degree: 23%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-43ccd77648784be4a259a723c3e1db40}
+## パラメーター {#section-43ccd77648784be4a259a723c3e1db40}
 
-**入力 (renameProjectParam)**
+**入力（renameProjectParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyName | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社に対して処理します。 |
-| projectHandle | `xsd:string` | はい | プロジェクトを処理します。 |
-| projectName | `xsd:string` | はい | 新規プロジェクト名。 |
+| companyName | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社を処理します。 |
+| projectHandle | `xsd:string` | はい | プロジェクトへのハンドル。 |
+| projectName | `xsd:string` | はい | 新しいプロジェクト名。 |
 
-**出力 (renameProjectParam)**
+**出力（renameProjectParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 ## 例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-このコード例は、プロジェクトの名前を変更し、プロジェクトハンドルを返します。
+このコードサンプルでは、プロジェクトの名前を変更し、プロジェクトハンドルを返します。
 
 **リクエスト**
 

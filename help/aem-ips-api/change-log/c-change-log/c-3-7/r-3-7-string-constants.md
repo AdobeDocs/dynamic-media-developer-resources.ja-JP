@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン3.7の新しい文字列定数および変更された文字列定数について説明します。
+description: IPS API バージョン 3.7 の新しい文字列定数と変更された文字列定数について説明します。
 solution: Experience Manager
-title: 文字列定数の新規および変更
-feature: Dynamic Media Classic、SDK/API
+title: 文字列定数：新規および変更済み
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 6%
+source-wordcount: '42'
+ht-degree: 2%
 
 ---
 
-# 文字列定数：新規および変更済み{#string-constants-new-and-modified}
+# 文字列定数：新規および変更{#string-constants-new-and-modified}
 
-IPS APIバージョン3.7の新しい文字列定数および変更された文字列定数について説明します。
+IPS API バージョン 3.7 の新しい文字列定数と変更された文字列定数について説明します。
 
 構文
 
@@ -38,4 +38,4 @@ IPS APIバージョン3.7の新しい文字列定数および変更された文�
 
 **アセットタイプ**
 
-* `Zip`を追加しました。
+* `Zip` を追加しました。

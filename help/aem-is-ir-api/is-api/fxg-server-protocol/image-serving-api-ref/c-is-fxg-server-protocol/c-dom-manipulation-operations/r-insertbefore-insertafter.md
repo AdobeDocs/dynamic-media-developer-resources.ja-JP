@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-FXG ノード要素に `s7:elementID` 定義済みの場合は、このコマンドを使用して、そのノードの前または後に XML フラグメントを追加できます。
+FXG ノード要素に `s7:elementID` が定義されている場合、このコマンドを使用して、そのノードの前後に XML フラグメントを追加できます。
 
 ## 例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-次のような Group タグがある場合：
+次のようなグループタグがある場合：
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
-次に、
+その後：
 
 `insertBefore.inner_shape=<Rect x="74.354" y="182.762" width="75" height="75" s7:fillOverprint="false" s7:fillOverprintMode="true" visible="true" rotation="0"><fill><SolidColor color="%23ffffff" s7:cmykColor="%2300000000"/></fill></Rect>`
 

@@ -8,7 +8,7 @@ exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-デフォルトでは、ビューアは、ビューアのタイプとバージョン情報を含む、設定済みの Image Server に対して 1 つのトラッキング HTTP 要求を送信します。
+デフォルトでは、ビューアは、設定された Image Server に対して、ビューアのタイプとバージョン情報を含む単一のトラッキング HTTP リクエストを送信します。
 
-をサードパーティの分析システムと統合するには、 `trackEvent` viewer コールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、`trackEvent` ビューアのコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -58,7 +58,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーはホットスポットをアクティブにします。 </p> </td> 
+   <td colname="col2"> <p>ユーザーはホットスポットをアクティブ化します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

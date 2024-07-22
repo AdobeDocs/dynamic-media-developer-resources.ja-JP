@@ -1,6 +1,6 @@
 ---
-title: init
-description: ビデオビューアの JavaScript API リファレンス。
+title: 初期化
+description: ビデオビューア用のJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -8,23 +8,23 @@ exl-id: 9e83b773-c059-45c6-a249-ef0ed2799a05
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# init{#init}
+# 初期化{#init}
 
-ビデオビューアの JavaScript API リファレンス。
+ビデオビューア用のJavaScript API リファレンス。
 
 `init()`
 
-ビデオビューアの初期化を開始します。 この時点までに、ビューアのコードが ID で検索できるように、コンテナの DOM 要素を作成する必要があります。
+ビデオビューアの初期化を開始します。 この時点で、ビューアコードが ID で見つけられるように、コンテナ DOM 要素を作成する必要があります。
 
-コンテナ要素がまだ Web ページレイアウトに含まれていない場合 ( 例えば、 `display:none` スタイル ) の場合、ビューアは初期化プロセスを中断します。 これは、Web ページがコンテナ要素をレイアウトに戻す時点までおこないます。 この処理が行われると、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだ web ページレイアウトの一部ではない場合（スタイルで非表示になっている場合など） `display:none`、ビューアは初期化プロセスを中断します。 Web ページがコンテナ要素をレイアウトに戻す瞬間までこれを繰り返します。 この処理が行われると、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクルの間に 1 回だけ呼び出します。後続の呼び出しは無視されます。
+このメソッドは、ビューアのライフサイクル中に 1 回だけ呼び出します。以降の呼び出しは無視されます。
 
-## パラメータ {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
+## パラメーター {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 

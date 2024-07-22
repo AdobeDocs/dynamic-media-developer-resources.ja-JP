@@ -8,7 +8,7 @@ exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->この `renameFiles` パラメーターは以前のリリースで非推奨となり、から削除されました `renameAsset`. 仮想ファイルのパスは、新しいアセット名（ファイル拡張子を維持）に一致するように変更されますが、物理ファイルのパスは影響を受けません。 API クライアントは、新しい API バージョンに更新する際に、このパラメーターへの参照を削除する必要があります。
+>`renameFiles` パラメーターは以前のリリースでは非推奨（廃止予定）となり、`renameAsset` から削除されました。 仮想ファイルパスは、新しいアセット名に一致するように（ファイルの拡張子は維持されて）変更されますが、物理ファイルパスは影響を受けません。 API クライアントは、新しい API バージョンに更新する際に、このパラメーターへの参照を削除する必要があります。
 
-## 認証済みユーザータイプ {#section-cc27ad713c6d498b8f056850b20976f4}
+## 許可されているユーザータイプ {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,26 +31,26 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび書き込みアクセス権を持っている必要があります。
+>ユーザーには、アセットへの読み取りおよび書き込みアクセス権が必要です。
 
-## パラメータ {#section-ef95a994106841e0ab346dd4cf672258}
+## パラメーター {#section-ef95a994106841e0ab346dd4cf672258}
 
-**入力 (renameAssetParam)**
+**入力（renameAssetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | アセットが属する会社のハンドル。 |
 | assetHandle | `xsd:string` | はい | 名前を変更するアセットのハンドル。 |
 | newName | `xsd:string` | はい | アセットの新しい名前。 |
-| validateName | `xsd:boolean` | はい | この `validateName` が `true` また、アセットタイプには一意の IPS ID が必要です。その後、新しい名前がグローバルに一意であるかどうかがチェックされます。 `renameAsset` 一意でない場合はエラーをスローします。 |
+| validateName | `xsd:boolean` | はい | `validateName` が `true` で、アセットタイプに一意の IPS ID が必要な場合、新しい名前がグローバル一意性について確認され、一意でない場合は `renameAsset` でエラーがスローされます。 |
 
-**出力 (renameAssetReturn)**
+**出力（renameAssetReturn）**
 
-IPS API はこの操作に対する応答を返しません。 詳しくは、 `<ns1:validateName>` 要素を参照してください。
+IPS API は、この操作に対して応答を返しません。 この要素に関する注意事項については、`<ns1:validateName>` 要素の説明を参照してください。
 
 ## 例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-このコードサンプルは、アセットの名前を変更します
+このコードサンプルでは、アセットの名前を変更します
 
 **リクエスト**
 

@@ -1,5 +1,5 @@
 ---
-description: 画像レンダリングは、画像サービングの Image Server に埋め込まれ、 [!DNL Platform Server] コンポーネント。
+description: 画像レンダリングは、画像サービングの Image Server およびコンポーネント  [!DNL Platform Server]  埋め込まれます。
 solution: Experience Manager
 title: サーバーの起動と停止
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # サーバーの起動と停止{#starting-and-stopping-the-server}
 
-画像レンダリングは、画像サービングの Image Server に埋め込まれ、 [!DNL Platform Server] コンポーネント。
+画像レンダリングは、画像サービングの Image Server および [!DNL Platform Server] コンポーネントに埋め込まれます。
 
-詳しくは、画像サービングのドキュメントを参照してください。
+詳しくは、画像サービングドキュメントを参照してください。

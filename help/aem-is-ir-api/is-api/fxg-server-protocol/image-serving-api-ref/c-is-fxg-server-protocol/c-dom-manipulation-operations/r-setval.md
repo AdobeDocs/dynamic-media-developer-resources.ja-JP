@@ -1,6 +1,6 @@
 ---
 title: setVal
-description: s7elementID のテキストノード値を設定します。
+description: s7 要素 ID のテキストノードの値を設定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # setVal{#setval}
 
-s7:elementID のテキストノード値を設定します。
+s7:elementID のテキストノードの値を設定します。
 
 `setVal.elementID= *[!DNL value]*`
 
-FXG ノード要素に `s7:elementID` 定義済みの場合、そのノードのテキスト値を操作できます。
+FXG ノード要素に `s7:elementID` が定義されている場合、そのノードのテキスト値を操作できます。
 
 ## 例 {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-次を想定する： `s7:elementID="paragraph1"` 属性が `TextGraphic` ノードの場合、次の値が有効です。
+`TextGraphic` ノードに対して `s7:elementID="paragraph1"` 属性が定義されているとすると、次の属性は有効です。
 
 `&setVal.paragraph=Hello`
 

@@ -8,7 +8,7 @@ exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 許可されているユーザータイプ {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,21 +30,21 @@ ht-degree: 20%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-d516615c906240819a284786efb19863}
+## パラメーター {#section-d516615c906240819a284786efb19863}
 
-**入力 (generatePasswordParam)**
+**入力（generatePasswordParam）**
 
 なし
 
-**出力 (generatePasswordParam)**
+**出力（generatePasswordParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| パスワード | `xsd:string` | はい | 新しいパスワード。 |
+| パスワード | `xsd:string` | はい | 新しいパスワード |
 
 ## 例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-このコードのサンプルでは、パスワードを生成します。 リクエストは単に要素や値を含まないパラメーターなので、通常とは異なります。 IPS は強力なパスワードを返します。
+このコードサンプルでは、パスワードを生成します。 リクエストが、要素や値を含まない単なるパラメーターであるため、これは異常です。 IPS は強力なパスワードを返します。
 
 **リクエスト**
 

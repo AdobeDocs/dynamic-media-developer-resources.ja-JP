@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: パノラマビューアの JavaScript API リファレンス。
+description: パノラマビューアのJavaScript API リファレンス
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # setContainerId{#setcontainerid}
 
-パノラマビューアの JavaScript API リファレンス。
+パノラマビューアのJavaScript API リファレンス
 
 ` setContainerId( *`containerId`*)`
 
-ビューアを挿入する DOM コンテナ（通常は DIV）の ID を設定します。 このメソッドを呼び出すまでにコンテナ要素を作成する必要はありません。 ただし、コンテナは、 `init()` が実行されます。 の前に呼び出す必要があります。 `init()`.
+ビューアが挿入される DOM コンテナの ID （通常は DIV）を設定します。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、`init()` を実行する場合は、コンテナが存在している必要があります。 `init()` る前に呼び出す必要があります。
 
-このメソッドは、ビューアの設定情報が `config` JSON オブジェクトをコンストラクターに追加します。
+ビューア設定情報が `config` の JSON オブジェクトと共にコンストラクターに渡される場合、このメソッドはオプションです。
 
 ## パラメータ {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -28,7 +28,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナの ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} コンテナ </span>ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

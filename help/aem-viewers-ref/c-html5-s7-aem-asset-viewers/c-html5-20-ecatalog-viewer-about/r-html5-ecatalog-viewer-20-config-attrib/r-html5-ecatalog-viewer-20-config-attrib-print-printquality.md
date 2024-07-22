@@ -7,27 +7,27 @@ role: Developer,User
 exl-id: a6282054-e64a-4fb1-aa8d-2d8cb935d505
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '18'
+ht-degree: 16%
 
 ---
 
 # Print.printquality{#print-printquality}
 
-` [Print.|<containerId>_print.]printquality= *`サイズ`*`
+` [Print.|<containerId>_print.]printquality= *` サイズ `*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> サイズ</span></span> </p> </td> 
-   <td colname="col2"> <p> 印刷に送信される画像の最大サイズです。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> サイズ </span></span> </p> </td> 
+   <td colname="col2"> <p> 印刷するために送信する画像の最大サイズ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

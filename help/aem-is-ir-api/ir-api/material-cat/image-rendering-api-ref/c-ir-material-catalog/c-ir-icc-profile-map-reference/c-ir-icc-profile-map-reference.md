@@ -1,7 +1,7 @@
 ---
-description: 画像カタログに ICC プロファイルマップが必要な場合は、プロファイルマップファイルの相対パスまたは絶対パスを属性 IccProfileMapFile で指定する必要があります。
+description: 画像カタログに ICC プロファイルマップが必要な場合は、属性 IccProfileMapFile にプロファイルマップファイルの相対パスまたは絶対パスを指定する必要があります。
 solution: Experience Manager
-title: ICC プロファイルマップリファレンス
+title: ICC プロファイルマップ参照
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# ICC プロファイルマップリファレンス{#icc-profile-map-reference}
+# ICC プロファイルマップ参照{#icc-profile-map-reference}
 
 画像カタログに ICC プロファイルマップが必要な場合は、プロファイルマップファイルの相対パスまたは絶対パスを attribute::IccProfileMapFile で指定する必要があります。
 
-特定のマテリアルカタログの ICC プロファイルマップのエントリは、デフォルトカタログの ICC プロファイルマップのエントリを上書きします。
+特定の材料カタログの ICC プロファイルマップのエントリは、デフォルトカタログの ICC プロファイルマップのエントリを上書きします。
 
-画像レンダリングは、ICC の仕様に準拠するカラープロファイルファイルをサポートします。
+画像レンダリングでは、ICC 仕様に準拠したカラープロファイルファイルをサポートしています。

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '124'
+ht-degree: 2%
 
 ---
 
@@ -16,40 +16,40 @@ ht-degree: 0%
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-コンポーネントの外観をコントロールします。 `PageView.frametransition` が `turn` または `auto` （デスクトップシステムの場合）
+`PageView.frametransition` が `turn` に設定されている場合、またはデスクトップシステムで `auto` に設定されている場合のコンポーネントの外観を制御します。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 見開きの左右のページを区切るページ区切りのシャドウの幅（ピクセル単位）。 また、めくるページの横に表示される実行中のシャドウの幅も制御します。 </p> </td> 
+   <td colname="col1"> <p> dividerWidth<span class="codeph"><span class="varname"> 指定 </span></span> </p> </td> 
+   <td colname="col2"> <p> スプレッド内で左右のページを区切るページディバイダーのシャドウの幅（ピクセル単位）。 また、ターニングページの横に表示される連続影の幅も制御します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> シャドウの色（RRGGBB 形式）。 </p> </td> 
+   <td colname="col1"> <p>dividerOpacity<span class="codeph"><span class="varname"> 指定 </span></span> </p> </td> 
+   <td colname="col2"> <p> RRGGBB 形式の影の色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>シャドウの不透明度 <span class="codeph"> 0</span> から <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col1"> <p>dividerOpacity<span class="codeph"><span class="varname"> 指定 </span></span> </p> </td> 
+   <td colname="col2"> <p>0</span> ～ <span class="codeph"> 1</span> の範囲のシャドウ <span class="codeph"> 不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> フラグ ( <span class="codeph"> 0</span> または <span class="codeph"> 1</span>) をクリックします。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">borderOnOff</span></span> </p> </td> 
+   <td colname="col2"> <p> 回転するページの周囲の境界線をオンまたはオフにするフラグ（<span class="codeph"> 0</span> または <span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">borderColor</span></span> </p> </td> 
    <td colname="col2"> <p> 境界線のカラー（RRGGBB 形式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> ページめくりアニメーション中に使用されるコンポーネント領域の塗りのベタ塗りのカラー（RRGGBB 形式）。 </p> </td> 
+   <td colname="col1"> <p>fillColor<span class="codeph"><span class="varname"> 指定 </span></span> </p> </td> 
+   <td colname="col2"> <p> ページターンアニメーション中に使用されるコンポーネント領域の塗りつぶしの色（RRGGBB 形式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-54c634116cfe4f17813318e07539264c}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-43fd13f639c2480c82658fafeeaf0846}
 

@@ -1,6 +1,6 @@
 ---
 title: color
-description: 前景色. 色付け可能なマテリアルのソリッドカラーマテリアルまたは加算カラーを指定します。
+description: 前景色。 単色のマテリアルの色、または色を付けることができるマテリアルの追加色を指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,30 +8,30 @@ exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
-# カラー {#color}
+# color {#color}
 
-前景色. 色付け可能なマテリアルのソリッドカラーマテリアルまたは加算カラーを指定します。
+前景色。 単色のマテリアルの色、または色を付けることができるマテリアルの追加色を指定します。
 
 `color= *`color`*`
 
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 色 </span> </p> </td> 
   <td class="stentry"> <p>RGBまたはグレーのカラー値。 </p></td> 
  </tr> 
 </table>
 
 ## プロパティ {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-材料属性。 べた塗りのマテリアルには必須で、その他のすべてのマテリアルにはオプションです。
+マテリアル アトリビュート。 単色マテリアルの場合は必須で、その他のマテリアルの場合はオプションです。
 
 ## 初期設定 {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` マテリアルがカタログエントリに基づいている場合。 それ以外の場合は、 `none` 色彩を帯びない
+`catalog::Color` 材料がカタログエントリに基づいている場合。 それ以外の場合は、無色にする `none` 合があります。
 
 ## 関連項目 {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 

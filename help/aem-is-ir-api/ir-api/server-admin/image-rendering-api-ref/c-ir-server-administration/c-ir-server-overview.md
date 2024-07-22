@@ -1,5 +1,5 @@
 ---
-description: このドキュメントでは、Dynamic Media Image Rendering サーバーの管理方法を説明します。
+description: このドキュメントでは、Dynamic Media画像レンダリングサーバーの管理方法について説明します。
 solution: Experience Manager
 title: サーバー管理の概要
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # サーバー管理の概要{#server-administration-overview}
 
-このドキュメントでは、Dynamic Media Image Rendering サーバーの管理方法を説明します。
+このドキュメントでは、Dynamic Media画像レンダリングサーバーの管理方法について説明します。
 
-画像レンダリングは、次の 2 つの主要なコンポーネントで構成されます。
+画像レンダリングは、次の 2 つの主要コンポーネントで構成されます。
 
-* Java パッケージは画像サービングと共にデプロイされます [!DNL Platform Server] およびは、クライアント接続、キャッシュ、マテリアルカタログを管理します。
-* ネイティブコードモジュールは、Image Server の拡張ライブラリとしてデプロイされ、コアの画像レンダリング機能を実装します。
+* Java パッケージは、画像サービングサー [!DNL Platform Server] スと共にデプロイされ、クライアント接続、キャッシュ、マテリアルカタログを管理します。
+* ネイティブコードモジュールは、Image Server の拡張機能ライブラリとしてデプロイされ、コア画像レンダリング機能を実装します。
 
-両方のコンポーネントをまとめて *Render Server*.
+両方のコンポーネントをまとめて *Render Server* と呼びます。
 
-画像レンダリングは、多くのサーバ機能を画像サービングと共有し、すべてのオプションは設定ファイルを編集することで設定します。 追加の設定属性は、デフォルトのカタログ ( [!DNL default.ini]) または特定のマテリアルカタログ 詳細は、マテリアルカタログを参照してください。
+画像レンダリングは、多くのサーバー機能を画像サービングと共有し、すべてのオプションは設定ファイルを編集することで設定されます。 追加の設定属性は、既定のカタログ（[!DNL default.ini]）または特定の材料カタログによって提供されます。 詳細については、「マテリアル カタログ」を参照してください。
 
-Image Rendering のインストールフォルダー ( *[!DNL install_folder]*) は [!DNL *[!DNL install_root]*/ImageRendering] を呼び出します。 Windows の場合、デフォルトは *[!DNL install_root]* が `C:\Program Files\Scene7`. インストール時に別のフォルダを指定することもできます。 Linux の場合、 *[!DNL install_root]* は常に [!DNL /usr/local/scene7]. シンボリックリンクを使用できます。
+画像レンダリングのインストールフォルダー（*[!DNL install_folder]*）は [!DNL *[!DNL install_root]*/ImageRendering] です。 Windows の場合、デフォルト *[!DNL install_root]* は `C:\Program Files\Scene7` です。 インストール時に別のフォルダーを指定することもできます。 Linux の場合、*[!DNL install_root]* は常に [!DNL /usr/local/scene7] である必要があります。 シンボリックリンクを使用できます。
 
-UNIX ではすべてのファイル・パスで大文字と小文字が区別され、Windows では大文字と小文字が区別されません。
+すべてのファイルパスは、UNIX では大文字と小文字が区別され、Windows では大文字と小文字が区別されません。

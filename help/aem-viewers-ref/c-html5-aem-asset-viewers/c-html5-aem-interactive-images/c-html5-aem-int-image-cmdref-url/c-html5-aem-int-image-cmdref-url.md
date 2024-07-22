@@ -1,6 +1,6 @@
 ---
-title: コマンドリファレンス — URL
-description: ビデオビューア用のコマンドリファレンスドキュメント。
+title: コマンドリファレンス - URL
+description: ビデオ・ビューアのコマンド・リファレンス・ドキュメント
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# コマンドリファレンス — URL{#command-reference-url}
+# コマンドリファレンス - URL{#command-reference-url}
 
-ビデオビューア用のコマンドリファレンスドキュメント。
+ビデオ・ビューアのコマンド・リファレンス・ドキュメント

@@ -1,6 +1,6 @@
 ---
-title: 鋭くする
-description: 返信画像をシャープにします。 オプションのシャープは、レンダリング画像が wid=または hei=に基づいて拡大・縮小された後に適用される場合があります。
+title: シャープ
+description: 返信画像をシャープにします。 オプションのシャープニングは、wid=または hei=に基づいてレンダリングされたイメージを拡大縮小した後に適用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,24 +8,24 @@ exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
-# 鋭くする{#sharpen}
+# シャープ{#sharpen}
 
-返信画像をシャープにします。 オプションのシャープは、レンダリング画像が wid=または hei=に基づいて拡大・縮小された後に適用される場合があります。
+返信画像をシャープにします。 オプションのシャープニングは、wid=または hei=に基づいてレンダリングされたイメージを拡大縮小した後に適用できます。
 
 `sharpen=0|1`
 
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>シャープは適用されません。 </p></td> 
+  <td class="stentry"> <p>シャープニングなし。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>シャープ. </p></td> 
+  <td class="stentry"> <p>シャープニング。 </p></td> 
  </tr> 
 </table>
 

@@ -1,24 +1,24 @@
 ---
-description: 画像の背景色または透明度に基づいて切り抜く領域を返します。
+description: 背景色または透明度に基づいて、画像の切り抜き領域を返します。
 solution: Experience Manager
-title: getAutoCropRect
+title: getAutoCropDirect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e291597a-b863-42dd-88dc-13398b734410
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
-# getAutoCropRect{#getautocroprect}
+# getAutoCropDirect{#getautocroprect}
 
-画像の背景色または透明度に基づいて切り抜く領域を返します。
+背景色または透明度に基づいて、画像の切り抜き領域を返します。
 
 構文
 
-## 認証済みユーザータイプ {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 許可されているユーザータイプ {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -28,27 +28,27 @@ ht-degree: 15%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-965d5973b8344d43a74b3e07cf0b7eb3}
+## パラメーター {#section-965d5973b8344d43a74b3e07cf0b7eb3}
 
-**入力 (getAutoCropRectParam)**
+**入力（getAutoCropRectParam）**
 
 >[!NOTE]
 >
->このメソッドを呼び出す際には、 autoColorCropOptions または autoTransparentCropOptions を指定します。
+>このメソッドを呼び出す場合は、autoColorCropOptions または autoTransparentCropOptions を指定します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 操作するアセットを持つ会社へのハンドル。 |
-| assetHandle | `xsd:string` | はい | 操作するアセットのハンドル。 |
-| autoColorCropOptions | `types:AutoColorCropOptions` | いいえ | 色に基づいて切り抜きの長方形を計算します。 詳しくは、 [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | いいえ | 透明度に基づいて切り抜きの長方形を計算します。 詳しくは、 [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| companyHandle | `xsd:string` | はい | 操作するアセットを持つ会社のハンドル。 |
+| assetHandle | `xsd:string` | はい | 操作するアセットへのハンドル。 |
+| autoColorCropOptions | `types:AutoColorCropOptions` | いいえ | カラーに基づいてトリミング長方形を計算します。 [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6) を参照してください。 |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | いいえ | 透明度に基づいてトリミング長方形を計算します。 [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b) を参照。 |
 
-**出力 (getAutoCropRectReturn)**
+**出力（getAutoCropRectReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| xOffset | `xsd:int` | はい | 計算された切り抜き領域の開始左のピクセル座標。 |
-| yOffset | `xsd:int` | はい | 計算された切り抜き領域の最初の上のピクセル座標。 |
+| xOffset | `xsd:int` | はい | 計算された切り抜き領域の左ピクセル開始座標。 |
+| yOffset | `xsd:int` | はい | 計算された切り抜き領域の開始トップピクセル座標。 |
 | 幅 | `xsd:int` | はい | 計算された切り抜き領域の幅（ピクセル単位）。 |
 | 高さ | `xsd:int` | はい | 計算された切り抜き領域の高さ（ピクセル単位）。 |
 
@@ -82,4 +82,3 @@ ht-degree: 15%
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-

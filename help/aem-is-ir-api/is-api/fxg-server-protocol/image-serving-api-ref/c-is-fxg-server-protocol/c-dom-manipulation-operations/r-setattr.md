@@ -1,6 +1,6 @@
 ---
 title: setAttr
-description: 指定された s7 elementID に任意の属性を設定します。
+description: 特定の s7 要素 ID に任意の属性を設定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # setAttr{#setattr}
 
-指定した s7:elementID の任意の属性を設定します。
+指定された s7:elementID に任意の属性を設定します。
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-FXG ノード要素に `s7:elementID` 定義済みの場合は、そのノードのアトリビュートを操作できます。 属性と値のペアは必要な数だけ設定できます。 属性を FXG で既に定義している必要はありませんが、ノード要素に対して有効である必要があります。 範囲内のすべての値 `{}` はエスケープする必要があります。
+FXG ノード要素に `s7:elementID` が定義されている場合は、そのノードのアトリビュートを操作できます。 属性と値のペアは、必要なだけ設定できます。 属性は、FXG ですでに定義されている必要はありませんが、ノード要素に対して有効である必要があります。 `{}` の間のすべての値はエスケープする必要があります。
 
 ## 例 {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-次を想定する： `s7:elementID="Group1"` 属性が `BitmapGraphic` ノードの場合、次の値が有効です。
+`BitmapGraphic` ノードに対して `s7:elementID="Group1"` 属性が定義されているとすると、次の属性は有効です。
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-次の例では、 *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]*、および *[!DNL scaleY]* （の） `BitmapGraphic` およびは、既存の値を上書きします。
+この例では、`BitmapGraphic` の *[!DNL x]*、*[!DNL y]*、*[!DNL rotation]*、*[!DNL scaleX]* および *[!DNL scaleY]* を設定し、既存の値を上書きします。

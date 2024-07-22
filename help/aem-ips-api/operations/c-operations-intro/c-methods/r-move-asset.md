@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 構文
 
-## 認証済みユーザータイプ {#section-e4f2d2a58132450aa36da6377134211e}
+## 許可されているユーザータイプ {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,23 +27,23 @@ ht-degree: 17%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-dd0bbdf293aa4563af70a91f97c861f1}
+## パラメーター {#section-dd0bbdf293aa4563af70a91f97c861f1}
 
-**入力 (moveAssetParam)**
+**入力（moveAssetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
-| assetHandle | `xsd:string` | はい | 移動するアセットに対して処理します。 |
-| folderHandle | `xsd:string` | はい | 保存先フォルダーを処理します。 |
+| companyHandle | `xsd:string` | はい | 会社に渡す。 |
+| assetHandle | `xsd:string` | はい | 移動するアセットへのハンドル。 |
+| folderHandle | `xsd:string` | はい | 宛先フォルダーへのハンドル。 |
 
-**出力 (moveAssetReturn)**
+**出力（moveAssetReturn）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-このコードサンプルを使用すると、アセットをフォルダーに移動できます。
+このコードのサンプルでは、アセットをフォルダーに移動します。
 
 **リクエスト**
 

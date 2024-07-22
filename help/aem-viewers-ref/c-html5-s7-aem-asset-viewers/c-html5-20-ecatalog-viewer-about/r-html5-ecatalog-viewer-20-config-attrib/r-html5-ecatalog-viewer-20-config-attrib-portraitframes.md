@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>に設定 <span class="codeph"> split</span> モバイルデバイスで縦向きの場合に、ビューアを別のページとして見開き 2 ページで表示する。 に設定 <span class="codeph"> 実線</span> デバイスの向きに関係なく、常に見開き 2 ページを実線画像として表示する。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> split に設定すると </span> モバイルデバイスで縦向きに使用されたときにビューアに二重ページが個別のページとして表示されます。 <span class="codeph"> solid に設定すると </span> デバイスの向きに関係なく、常に二重ページのスプレッドをソリッド画像として表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-a66ce10d6c0b449883f654e7e0657e2c}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-2879062cee1d4030b43ba3b19693f4f8}
 

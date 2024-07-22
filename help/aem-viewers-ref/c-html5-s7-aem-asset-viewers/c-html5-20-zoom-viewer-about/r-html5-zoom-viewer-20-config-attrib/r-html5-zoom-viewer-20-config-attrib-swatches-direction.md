@@ -8,7 +8,7 @@ exl-id: 906541bc-46dd-4a7c-8ee9-eb45ec3bd340
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> ビュー内でのスウォッチの塗りの方法を指定します。 </p> <p> <span class="codeph"> left </span> 左から右の塗りつぶし順序を設定します。 </p> <p> <span class="codeph"> 右 </span> 順序を逆にして、ビューを右から左、上から下に表示します。 </p> <p>条件 <span class="codeph"> auto </span> が設定されている場合、コンポーネントが適用されます <span class="codeph"> 右 </span> ロケールが <span class="codeph"> ja </span>;それ以外の場合は、 left が使用されます。 </p> </td> 
+   <td> <p> スウォッチがビューに表示される方法を指定します。 </p> <p> <span class="codeph"> left </span> は、左から右への塗りつぶし順序を設定します。 </p> <p> 右 </span> を <span class="codeph"> リックすると、ビューが右から左に、上から下に埋められるように順序が逆になります。 </p> <p>自動 </span> が設定され <span class="codeph"> いる場合、ロケールが ja</span> に設定されてい <span class="codeph"> ときにコンポーネントは右 </span> モード <span class="codeph"> 適用します。それ以外の場合は、左が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

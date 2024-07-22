@@ -1,20 +1,20 @@
 ---
-description: searchAssetsParam/sortByで使用されます。
+description: searchAssetsParam/sortBy で使用されます。
 solution: Experience Manager
-title: アセットの並べ替えフィールド
-feature: Dynamic Media Classic,SDK/API，アセット管理
+title: アセット並べ替えフィールド
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6652fe0e-4042-40b0-b5ec-e8533ee42aa2
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
-# アセットの並べ替えフィールド{#asset-sort-fields}
+# アセット並べ替えフィールド{#asset-sort-fields}
 
-searchAssetsParam/sortByで使用されます。
+searchAssetsParam/sortBy で使用されます。
 
 構文
 

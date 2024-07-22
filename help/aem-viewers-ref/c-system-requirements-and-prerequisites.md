@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media Viewer5 のHTML要件
-description: Dynamic Media Viewer5 のHTML要件。
+title: Dynamic Media HTML5 ビューアの動作環境
+description: Dynamic Media HTML5 ビューアの必要システム構成
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -8,14 +8,14 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
-# Dynamic MediaHTML5 ビューアの必要システム構成{#system-requirements}
+# Dynamic Media HTML5 ビューアの動作環境{#system-requirements}
 
-Dynamic Media Viewer5 のHTML要件。
+Dynamic Media HTML5 ビューアの必要システム構成
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,62 +25,62 @@ Dynamic Media Viewer5 のHTML要件。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* AdobeDynamic Media Image Serving 6.7.1 以降。
-* HTML5 ビューアには、SDK JavaScript サーバー側ライブラリ3.11.5以降が必要です。
-* *友達にメールを送信* social 機能には s7ondemand 5.0.9 以降が必要です。
-* eCatalog ビューア — [情報パネルポップアップ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバ 2.1.8 以降が必要です。
-* 検索機能コンポーネントを使用するには、 s7search 2.3.0 以降が必要です。
+* Adobe Dynamic Media画像サービング 6.7.1 以降。
+* HTML5 ビューアには、SDK JavaScript サーバーサイドライブラリ 3.11.5 以降が必要です。
+* *友達にメールを送信* ソーシャル機能には、s7ondemand 5.0.9 以降が必要です。
+* eCatalog ビューア - [ 情報パネルポップアップ ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバー 2.1.8 以降が必要です。
+* 検索機能コンポーネントには s7search 2.3.0 以降が必要です。
 
 ## ビューアの必要システム構成 {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**コンポーネントビューアに対するクライアントブラウザーの最小要件：**
+**コンポーネントビューア用のクライアントブラウザーの最小要件：**
 
-* 次のオペレーティングシステムバージョン以降でサポートされています。
+* 次のバージョン以降のオペレーティングシステムでサポートされています。
    * Microsoft® Windows® 7
    * macOS X 10.12
-* 次のブラウザー/プラットフォームバージョン以降でサポートされています。
+* 次のブラウザー/プラットフォームバージョン以降でサポート：
    * Android™ OS 4.x
-   * ネイティブブラウザー上の BlackBerry® 10。 ビデオの再生のみがサポートされています。
-   * Chrome 82
+   * ネイティブブラウザーの BlackBerry® 10。 ビデオの再生のみがサポートされています。
+   * Chrome82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
-   * iPad 2（Safari および Chrome ブラウザーのみ）
+   * iOS
+   * iPad 2 （Safari およびChrome ブラウザーのみ）
    * iPhone 3GS
    * Safari 11
-* モバイルデバイス上の Internet Explorer はサポートされていません。
+* モバイルデバイスでの Internet Explorer はサポートされていません。
 * *PanoramicViewer* は、次のブラウザー/プラットフォームバージョン以降でサポートされています。
-   * Android™ 4.4（電話デバイスのみ）
-   * Chrome 82
+   * Android™ 4.4 （電話デバイスのみ）
+   * Chrome82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS 10
+   * iOS10
    * Safari 11
 * *Video360Viewer* および *DimensionalViewer* は、次のブラウザー/プラットフォームバージョン以降でサポートされています。
-   * Android™ 5（電話デバイスのみ）
-   * Chrome 82
+   * Android™ 5 （スマートフォンのみ）
+   * Chrome82
    * Edge
    * Firefox 77
-   * iOS 12
+   * iOS12
    * Safari 12
-* *ZoomVerticalViewer* は、次のブラウザー/プラットフォームバージョン以降でサポートされています。
+* *ZoomVerticalViewer* は、次のバージョン以降のブラウザー/プラットフォームでサポートされています。
    * Android™ 4.x
-   * Chrome 82
+   * Chrome82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS 10
+   * iOS10
    * Safari 11
 
 ## TLS 1.0 および 1.1 のサポート終了 {#tls}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Mediaビューアは、2022 年 9 月 30 日に以下のサポートを終了しました。
+2022 年 9 月 30 日（PT）をもって、AdobeDynamic Media ビューアは以下のサポートを終了しました。
 
-* TLS(Transport Layer Security)1.0 および 1.1
+* TLS （Transport Layer Security） 1.0 および 1.1
 * TLS 1.2 での以下の脆弱な暗号：
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
@@ -97,21 +97,21 @@ AdobeDynamic Mediaビューアは、2022 年 9 月 30 日に以下のサポー�
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Dynamic Media Viewers でサポートされていない Web ブラウザーとオペレーティングシステムの組み合わせ {#browser-os-support}
+## Dynamic Media ビューアでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Mediaビューアでは、次の Web ブラウザーとオペレーティングシステムの組み合わせはサポートされていません。
+AdobeDynamic Media ビューアでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
 
-* Internet Explorer 11 + Windows 7
-* Internet Explorer 11 + Windows 8.1
-* Internet Explorer 11 + Windows Phone 8.1
-* Internet Explorer 11 + Windows Phone 8.1 の更新
-* Safari 6 + iOS 6.0.1
-* Safari 7 + iOS 7.1
-* Safari 7 + OS X 10.9 Mavericks
-* Safari 8 + iOS 8.4
-* Safari 8 + OS X 10.10 ヨセミテ
+* Internet Explorer 11 と Windows 7
+* Internet Explorer 11 と Windows 8.1
+* Internet Explorer 11 と Windows Phone 8.1
+* Internet Explorer 11 と Windows Phone 8.1 Update
+* Safari 6 とiOS 6.0.1
+* Safari 7 とiOS 7.1
+* Safari 7 と OS X 10.9 Mavericks
+* Safari 8 とiOS 8.4
+* Safari 8 と OS X 10.10 Yosemite
 
 <!-- CQDOC-19433 -->
 

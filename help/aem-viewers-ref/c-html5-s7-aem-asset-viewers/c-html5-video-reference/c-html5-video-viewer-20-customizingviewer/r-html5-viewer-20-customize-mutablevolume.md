@@ -1,26 +1,26 @@
 ---
 title: 可変ボリューム
-description: ミュート可能ボリュームコントロールは、最初は、ユーザーがビデオプレーヤーのサウンドをミュートまたはミュート解除するボタンとして表示されます。
+description: 可変ボリュームコントロールは、最初はユーザーがビデオプレーヤーのサウンドをミュートまたはミュート解除できるボタンとして表示されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 2%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # 可変ボリューム{#mutable-volume}
 
-ミュート可能ボリュームコントロールは、最初は、ユーザーがビデオプレーヤーのサウンドをミュートまたはミュート解除するボタンとして表示されます。
+可変ボリュームコントロールは、最初はユーザーがビデオプレーヤーのサウンドをミュートまたはミュート解除できるボタンとして表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ユーザーがボタンの上にロールオーバーすると、スライダが表示され、ボリュームを設定できます。 可変ボリュームコントロールは、CSS を使用して、そのコントロールバーを基準にして、サイズ変更、スキン、配置を行うことができます。
+ユーザーがボタンの上にマウスポインターを置くと、ボリュームを設定できるスライダーが表示されます。 可変ボリュームコントロールは、CSS によって、そのコントロールを含むコントロールバーに対してサイズ、スキン、および位置を調整できます。
 
-可変ボリューム領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+可変ボリューム領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7videoviewer .s7mutablevolume
@@ -31,35 +31,35 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含む上の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
+   <td colname="col2"> <p> 上部のボーダーから配置（パディングを含む）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含む右の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p> パディングを含めて、右側のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p> 可変ボリュームコントロールの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>可変ボリュームコントロールの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> 可変ボリュームコントロールの色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ミュート/ミュート解除ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+ミュート/ミュート解除ボタンの外観は、次の CSS クラスセレクターで制御されます。
 
 ```
 .s7videoviewer .s7mutablevolume .s7mutebutton
 ```
 
-ボタンの状態ごとに背景画像を制御できます。 ボタンのサイズは、ボリュームコントロールのサイズから継承されます。
+ボタンの状態ごとに背景画像を制御できます。 ボタンのサイズは、音量コントロールのサイズから継承されます。
 
 **ボタン画像の CSS プロパティ**
 
@@ -71,83 +71,83 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` は「ミュート」状態に対応し、 `selected='false'` は、「ミュート解除済み」の状態に対応します。
+>このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は「ミュート」状態に対応し、`selected='false'` は「ミュート解除」状態に対応します。
 
-垂直ボリュームバー領域は、以下の CSS クラスセレクターを使用して制御します。
+垂直方向の音量バー領域は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume
 ```
 
-**垂直ボリュームバー領域の CSS プロパティ**
+**縦棒グラフ領域の CSS プロパティ**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 垂直ボリュームの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> 垂直方向のボリュームの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直ボリュームの幅。 </p> </td> 
+   <td colname="col2"> <p> 垂直方向のボリュームの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p> 垂直ボリュームの高さ。 </p> </td> 
+   <td colname="col2"> <p> 垂直方向のボリュームの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-垂直ボリュームコントロール内のトラックは、以下の CSS クラスセレクターを使用して制御します。
+垂直方向の音量コントロール内のトラックは、次の CSS クラスセレクターで制御されます。
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7videoviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**垂直ボリュームコントロールの CSS プロパティ**
+**垂直音量制御の CSS プロパティ**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> 垂直ボリュームコントロールの背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>垂直ボリュームコントロールの幅。 </p> </td> 
+   <td colname="col2"> <p>垂直方向の音量コントロールの幅。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>垂直ボリュームコントロールの高さ。 </p> </td> 
+   <td colname="col2"> <p>垂直方向の音量コントロールの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-垂直ボリュームノブは、以下の CSS クラスセレクターを使用して制御します。
+垂直方向のボリュームノブは、次の CSS クラスセレクターで制御します。
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**垂直ボリュームコントロールノブの CSS プロパティ**
+**垂直音量調整ノブの CSS プロパティ**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 垂直ボリュームコントロールノブのアートワーク。 </p> </td> 
+   <td colname="col2"> <p> 垂直ボリュームコントロールのノブのアートワーク。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
@@ -158,17 +158,17 @@ ht-degree: 2%
    <td colname="col2"> <p>垂直ボリュームコントロールノブの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>垂直ボリュームコントロールノブの水平方向の位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>垂直方向のボリュームコントロールノブの水平方向の位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32 ピクセルで、コントロールバーの上から 6 ピクセル、右端から 38 ピクセルの位置に配置するミュートボタンを設定するには、次のように記述します。 選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示します。
+上部から 6 ピクセル、コントロールバーの右端から 38 ピクセルの位置にある 32 x 32 ピクセルのミュートボタンを設定します。 選択または未選択の場合、4 つの異なるボタンの状態ごとに異なる画像を表示します。
 
 ```
 .s7videoviewer .s7mutablevolume { 
@@ -203,7 +203,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-次の例は、可変ボリュームコントロール内のボリュームスライダのスタイルを設定する方法を示しています。
+次に、可変ボリュームコントロール内でボリュームスライダーのスタイルを設定する方法の例を示します。
 
 ```
 .s7videoviewer .s7mutablevolume .s7verticalvolume { 
@@ -231,7 +231,7 @@ background-image:url(images/volumeKnob.png);
 }
 ```
 
-次の例は、再生中にサウンドが無効になるようにビデオプレーヤーをカスタマイズする方法を示しています。 ビューアの埋め込みコードに次のコードを追加します。
+次に、再生中にサウンドを無効にするためにビデオプレーヤーをカスタマイズする方法の例を示します。 ビューアの埋め込みコードに次のコードを追加します。
 
 ```
                 "handlers":{ 
@@ -242,4 +242,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-上記のコード例では、ボリュームレベルはに設定されています。 `0` の `mutableVolume` コンポーネント。 その後、同じコンポーネントが非アクティブ化されるので、エンドユーザーは使用できません。
+上記のコード例では、`mutableVolume` コンポーネントの音量レベルが `0` に設定されています。 その後、同じコンポーネントが非アクティブ化され、エンドユーザーは使用できなくなります。

@@ -1,24 +1,24 @@
 ---
 title: メインコントロールバー
-description: メインコントロールバーは、デスクトップシステムおよびタブレットの長方形の領域で、eCatalog 検索ビューアで使用できるすべてのユーザーインターフェイスコントロール（大きいページボタンを除く）が含まれます。
+description: メイン コントロール バーは、デスクトップ システムおよびタブレット上の四角形の領域で、eCatalog 検索ビューアで使用できるすべてのユーザ インタフェース コントロール（[ 大きなページ ] ボタンを除く）が含まれています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 0%
 
 ---
 
 # メインコントロールバー{#main-control-bar}
 
-メインコントロールバーは、デスクトップシステムおよびタブレットの長方形の領域で、eCatalog 検索ビューアで使用できるすべてのユーザーインターフェイスコントロール（大きいページボタンを除く）が含まれます。
+メイン コントロール バーは、デスクトップ システムおよびタブレット上の四角形の領域で、eCatalog 検索ビューアで使用できるすべてのユーザ インタフェース コントロール（[ 大きなページ ] ボタンを除く）が含まれています。
 
-携帯電話では、引き続き「サムネール」、「目次」、「ダウンロード」、「印刷」、「お気に入り」、「ソーシャル共有」、「フルスクリーン」および「閉じる」ボタンが保持されます。 ただし、最初のページボタンと最後のページボタンおよびページインジケーターは、メインコントロールバーから削除され、代わりにセカンダリコントロールバーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムおよび携帯電話ではビューア領域の上部に表示され、タブレットではビューア領域の下部に移動します。 ビューアの幅は常に、使用可能な全体になります。 CSS 内で、ビューアのコンテナを基準にして、カラー、高さ、垂直方向の位置を変更できます。
+携帯電話では、サムネール、目次、ダウンロード、印刷、お気に入り、ソーシャル共有、全画面表示、閉じるボタンが保持されます。 ただし、メイン コントロール バーから [ 最初のページ ] ボタンと [ 最後のページ ] ボタン、およびページ インジケータは削除され、代わりにセカンダリ コントロール バーに追加されます。 デフォルトでは、メインコントロールバーはデスクトップシステムや携帯電話のビューアエリアの上部に表示され、タブレットのビューアエリアの下部に移動します。 常に、使用可能なビューアの幅全体を使用します。 ビューアのコンテナを基準にして、CSS でカラー、高さ、垂直方向の位置を変更できます。
 
-メインコントロールバーの外観は、以下の CSS クラスセレクターを使用して制御します。
+メインコントロールバーの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogsearchviewer .s7controlbar`
 
@@ -31,7 +31,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
    <td colname="col2"> <p>ビューアの上部からの位置。 </p> </td> 
   </tr> 
   <tr> 
@@ -39,17 +39,17 @@ ht-degree: 1%
    <td colname="col2"> <p>ビューアの下部からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>メイン コントロール バーの高さです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>メイン コントロール バーの背景色です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**例**  — 高さが 36 ピクセルで、ビューアのコンテナの上に配置するグレーのメインコントロールバーを設定します。
+**例** – 高さが 36 ピクセルで、ビューアコンテナの上部に配置されるグレーのメインコントロールバーを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -59,9 +59,9 @@ ht-degree: 1%
 }
 ```
 
-メインコントロールバーでは、オプションのスクロール機能がサポートされています。 ビューアの幅が小さすぎて、コントロールバーにプリセットされているすべてのボタンに収まるのに十分なスペースがない場合に、このアクティベートが有効になります。 この場合、コントロールバーの右側に 2 つの状態の矢印ボタンが表示されます。 このボタンをクリックまたはタップすると、スクロールボタンの状態に応じて、すべてのコントロールバー要素を左または右にスクロールします。 この機能の主な使用例は、小さい画面を縦向きで使用するモバイルデバイスです。
+メインコントロールバーは、オプションのスクロール機能をサポートしています。 このオプションは、ビューアの幅が小さすぎて、コントロールバーにプリセットされたすべてのボタンを収めるだけのスペースがない場合にアクティブになります。 この場合は、コントロールバーの右側に 2 つの状態の矢印ボタンが表示されます。 このボタンをクリックまたはタップすると、スクロールボタンの状態に応じて、すべてのコントロールバー要素が左または右にスクロールします。 この機能の主なユースケースは、縦向きの小さな画面を持つモバイルデバイスです。
 
-スクロール機能は、メインコントロールバーに対して有効で、セカンダリコントロールバーに対しては無効です。 この機能は、次の CSS クラスセレクターを使用してオン/オフを切り替えます。
+スクロール機能はメインコントロールバーで有効になり、セカンダリコントロールバーでは無効になります。 この機能は、次の CSS クラスセレクターを使用してオン/オフを切り替えます。
 
 `.s7ecatalogsearchviewer .s7controlbar .s7innercontrolbarcontainer`
 
@@ -74,15 +74,15 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 掲載順位 </span> </p> </td> 
-   <td colname="col2"> <p>に設定する場合 <span class="codeph"> 静的 </span> スクロール機能は無効です。 </p> <p>このプロパティをに設定します。 <span class="codeph"> 絶対 </span> をクリックして、スクロール機能を有効にします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col2"> <p>静的に設定すると <span class="codeph"> スクロール機能 </span> 無効になります。 </p> <p>このプロパティを絶対 </span> に設定 <span class="codeph"> てスクロール機能を有効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-スクロールボタンは、ボタンを適切に配置する特別なコンテナ要素に追加されます。 スクロールボタンの高さがコントロールバーの高さより小さい場合に、コントロールバーの背景の他の部分とは異なるスタイルでボタンの周囲の領域を設定できます。
+スクロールボタンは、ボタンを適切に配置する特別なコンテナ要素に追加されます。 スクロールボタンの高さがコントロールバーの高さより小さい場合に、ボタンの周囲の領域を他のコントロールバーの背景とは異なるスタイルで表示できます。
 
-このスクロールボタンコンテナの外観は、以下の CSS クラスセレクターを使用して制御します。
+このスクロールボタンコンテナの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollbuttoncontainer`
 
@@ -95,19 +95,19 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>通常は、スクロールボタン自体の幅と等しいか、それより大きい値を設定する必要があります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>通常は、スクロールボタン自体の幅と同じか、それよりも大きい値を指定する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>コンテナの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSS を使用して、スクロールボタン自体のサイズを設定したり、スキンを設定したりできます。
+CSS を使用して、スクロールボタン自体のサイズを設定したりスキンを作成したりできます。
 
-このボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+このボタンの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollleftrightbutton`
 
@@ -120,31 +120,31 @@ CSS を使用して、スクロールボタン自体のサイズを設定した�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p>CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、コントロールバーの内容を左にスクロールできる場合の、最初のスクロールボタンの状態に対応します。 The `state="default"` は、コンテンツが左端までスクロールされた状態に対応し、スクロールボタンは、コンテンツを初期状態に戻すことを示します。
+>このボタンは、`state` および `selected` 属性セレクターをサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、コントロールバー `state="selected"` 内容を左にスクロールできる場合は、最初のスクロールボタンの状態に対応します。 `state="default"` は、コンテンツが左側にスクロールされ、スクロールボタンによって初期状態に戻された場合の状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-**例**  — 携帯電話のメインコントロールバーでスクロール機能を有効にするには また、64 x 64 ピクセルで、選択時または未選択時の 4 つのボタンの状態ごとに異なる画像を表示するスクロールボタンを設定します。
+**例** – 携帯電話用のメインコントロールバーのスクロール機能を有効にします。 次のように、選択または未選択の場合に 4 つの異なるボタン状態ごとに異なる画像を表示する、64 x 64 ピクセルのスクロールボタンを設定します。
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

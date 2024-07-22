@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 会社の構造に関する情報（ファイル数など）を返します。
 
-## 認証済みユーザータイプ {#authorized-user-types}
+## 許可されているユーザータイプ {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,21 +25,21 @@ ht-degree: 12%
 
 ## パラメーター {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**入力 (getDiskUsageParam)**
+**入力（getDiskUsageParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | ディスク使用量を取得する会社のハンドル。 |
+| companyHandle | `xsd:string` | はい | 取得するディスク使用量の会社に対するハンドル。 |
 
-**出力 (getDiskUsageReturn)**
+**出力（getDiskUsageReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | はい | 会社のディスク使用のアレイ。 |
+| diskUsageArray | `types:DiskUsageArray` | はい | 会社のディスク使用の配列。 |
 
 ## 例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-このリクエストの名前はわかりにくくなっています。 会社が使用しているディスク容量を反映するスカラー値を返すのではなく、会社の構造に関する他の情報も取得します。
+このリクエストの名前は誤解を招きます。 企業が使用しているディスク容量を反映するスカラー値を返すだけでなく、企業の構造に関する他の情報も取得します。
 
 **リクエスト**
 

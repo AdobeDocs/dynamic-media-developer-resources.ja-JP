@@ -1,20 +1,20 @@
 ---
-description: 様々なパラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください
+description: 様々なパラメーターで使用される値を記述します。 詳しくは、この記事のリストを参照してください
 solution: Experience Manager
 title: ユーザーの役割
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
 # ユーザーの役割{#user-roles}
 
-様々なパラメーターで使用される値を示します。 詳しくは、この記事のリストを参照してください
+様々なパラメーターで使用される値を記述します。 詳しくは、この記事のリストを参照してください
 
 構文
 

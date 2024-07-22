@@ -1,6 +1,6 @@
 ---
-title: キーボードのアクセシビリティとナビゲーション
-description: ビューアのユーザーインターフェイスで公開されているすべての機能は、キーボードからアクセスできます。
+title: キーボードアクセシビリティとナビゲーション
+description: ビューアのユーザーインターフェイスに表示されるすべての機能は、キーボードでアクセスできます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# キーボードのアクセシビリティとナビゲーション{#keyboard-accessibility-and-navigation}
+# キーボードアクセシビリティとナビゲーション{#keyboard-accessibility-and-navigation}
 
-ビューアのユーザーインターフェイスで公開されているすべての機能は、キーボードからアクセスできます。
-エンドユーザーは `Left`, `Right`, `UP`、および `DOWN` キーを押すと、画像がパンされます。
-The `Esc` キーストロークを使用して画像をリセットできます。
+ビューアのユーザーインターフェイスに表示されるすべての機能は、キーボードでアクセスできます。
+エンドユーザーは、`Left`、`Right`、`UP` および `DOWN` のキーストロークを使用して画像をパンできます。
+`Esc` のキーストロークを使用して、画像をリセットできます。
 

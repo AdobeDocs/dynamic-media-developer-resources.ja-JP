@@ -1,28 +1,28 @@
 ---
 title: IccRenderIntent
-description: カラー変換レンダリングの方法。 レンダリングインテントに対して「icc=」が指定されていない場合の、カラー変換用のデフォルトのレンダリングインテントを提供します。
+description: カラー変換レンダリングの方法。 レンダリングインテントに「icc=」が指定されていない場合のカラー変換のデフォルトのレンダリングインテントを提供します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
 # IccRenderIntent{#iccrenderintent}
 
-カラー変換レンダリングの方法。 レンダリング方法が指定されていない場合に、色変換の既定のレンダリング方法を指定します。 `icc=`.
+カラー変換レンダリングの方法。 レンダリングインテントが `icc=` で指定されていない場合に、カラー変換のデフォルトのレンダリングインテントを提供します。
 
 ## プロパティ {#section-2540099fb2fc47d29b04642da4f5922a}
 
-列挙。 知覚的には 0、相対的な色域を維持するには 1、彩度には 2、絶対的な色域を維持するには 3 に設定します。
+列挙値。 知覚的な場合は 0、相対的な色域を維持する場合は 1、彩度の場合は 2、絶対的な色域を維持する場合は 3 に設定します。
 
 ## 初期設定 {#section-61a05067905b44099c228e15de279dbd}
 
-継承元 `default::IccRenderIntent` が定義されていない場合、または空の場合は。
+定義されていない場合または空の場合は `default::IccRenderIntent` から継承します。
 
 ## 関連項目 {#section-7da9ff3038ca452a9f7375a1ca0581af}
 

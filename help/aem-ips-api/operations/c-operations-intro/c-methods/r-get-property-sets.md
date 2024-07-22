@@ -1,5 +1,5 @@
 ---
-description: タイプハンドルに関連付けられたプロパティセットを取得します。
+description: 型ハンドルに関連付けられたプロパティ セットを取得します。
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 15%
 
 ---
 
 # getPropertySets{#getpropertysets}
 
-タイプハンドルに関連付けられたプロパティセットを取得します。
+型ハンドルに関連付けられたプロパティ セットを取得します。
 
 構文
 
-## 認証済みユーザータイプ {#section-da858360b72941bfa8d9558b4da7d4da}
+## 許可されているユーザータイプ {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,17 +30,17 @@ ht-degree: 18%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-d8da2847e77e4a95a4441d9848cac775}
+## パラメーター {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**入力 (getPropertySetsParam)**
+**入力（getPropertySetsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| primaryOwnerHandle | `xsd:string` | はい | データベースオブジェクトに連結されたデータの主所有者。 |
-| secondaryOwnerHandle | `xsd:string` | いいえ | データのセカンダリ所有者（オプション）。 |
+| typeHandle | `xsd:string` | はい | プロパティセットタイプへのハンドル。 |
+| primaryOwnerHandle | `xsd:string` | はい | データベース オブジェクトにバインドされたデータのプライマリ所有者です。 |
+| secondaryOwnerHandle | `xsd:string` | いいえ | データのオプションのセカンダリ所有者。 |
 
-**出力 (getPropertySetsReturn)**
+**Output （getPropertySetsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -48,7 +48,7 @@ ht-degree: 18%
 
 ## 例 {#section-1358af974eab4259864910337a6f0bd2}
 
-このコード例は、タイプハンドルで指定された主所有者のプロパティセットを返します。
+このコード例では、型ハンドルで指定されたプライマリ所有者のプロパティ セットを返します。
 
 **リクエスト**
 

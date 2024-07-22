@@ -1,53 +1,53 @@
 ---
-title: origin
-description: 画層の原点。
+title: 起源
+description: レイヤーの原点。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
 
-# origin{#origin}
+# 起源{#origin}
 
-画層の原点。
+レイヤーの原点。
 
-`origin= *`コード`*`
+`origin= *`coord`*`
 
 `originN= *`coordN`*`
 
 <table id="simpletable_A270FD92B1E841FE81F5AB300351FE01"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> コード</span> </p></td> 
-  <td class="stentry"> <p>レイヤー rect の左上隅からのピクセルオフセット（整数、整数）。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> coord</span> </p></td> 
+  <td class="stentry"> <p>レイヤー長方形の左上隅からのピクセルオフセット （int、int）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> coordN</span> </p></td> 
-  <td class="stentry"> <p>レイヤーの直角の中心からの正規化されたオフセット（実数、実数）。 </p></td> 
+  <td class="stentry"> <p>レイヤーの中心からの正規化されたオフセット（実際、実際）。 </p></td> 
  </tr> 
 </table>
 
 >[!NOTE]
 >
->レイヤーの直接には、次の変更が常に含まれます。 `extend=`.
+>レイヤー rect には、`extend=` による変更が常に含まれます。
 
-レイヤーの長方形の位置を定義します。レイヤーの長方形をレイヤー 0 を基準にして、 `pos=`. `originN=0,0` 画層の原点を、画層の長方形の中心に配置します。 `originN=-0.5,-0.5` および `origin=0,0` は左上隅で、 `originN=0.5,0.5` は、レイヤーの長方形の右下隅です。
+レイヤーの長方形の位置合わせポイントを定義します。レイヤーの長方形は、`pos=` を介してレイヤー 0 を基準にレイヤーの長方形を配置するために使用されます。 レイヤーの原点 `originN=0,0` レイヤーの長方形の中心に配置します。 `originN=-0.5,-0.5` と `origin=0,0` はレイヤーの左上隅、`originN=0.5,0.5` はレイヤーの長方形の右下隅です。
 
 ## プロパティ {#section-60f639e36ada43d1abc6bfc100afc925}
 
-レイヤー属性。 現在の画層に適用されます。 `layer=comp`. レイヤー変換の影響を受けません ( `crop=`, `scale=`, `rotate=`, `flip=`) を適用します。 上書き `anchor=`. 効果画層で無視されます。
+レイヤー属性。 現在の画層、または `layer=comp` の場合は画層 0 に適用されます。 レイヤーソースに適用されるレイヤー変換（`crop=`、`scale=`、`rotate=`、`flip=`）の影響を受けません。 `anchor=` を上書きします。 エフェクトレイヤーで無視されます。
 
 ## 初期設定 {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-次の場合 `origin=` を指定しない場合、レイヤーの原点は、レイヤー変換を画像アンカーに適用することで決定されます。 画像アンカーが不明な場合は、レイヤーの長方形の中心 ( `originN=0,0`) が使用されます。
+`origin=` が指定されていない場合、レイヤーの原点は、レイヤーの変換を画像アンカーに適用することによって決定されます。 画像アンカーが不明な場合は、レイヤーの長方形の中心（`originN=0,0`）が使用されます。
 
 ## 例 {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
-詳しくは、の例 A を参照してください。 [テンプレート](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例 A を参照してください。
 
 ## 関連項目 {#section-a9f9c42c86fe45798deb2daaf27ea5b7}
 

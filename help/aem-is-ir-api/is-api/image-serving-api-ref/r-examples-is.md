@@ -1,6 +1,6 @@
 ---
 title: Image Server の例
-description: このページは、Image Server の例にリンクする必要があります。
+description: このページは、Image Server の例にリンクしています。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Image Server の例{#image-server-examples}
 
-このトピックは、Image Server の例にリンクする必要があります。
+このトピックは、Image Server の例にリンクしている必要があります。
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

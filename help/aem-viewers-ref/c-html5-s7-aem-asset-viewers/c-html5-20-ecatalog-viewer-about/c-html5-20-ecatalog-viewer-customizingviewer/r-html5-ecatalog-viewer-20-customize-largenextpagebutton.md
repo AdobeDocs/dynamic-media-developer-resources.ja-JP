@@ -1,26 +1,26 @@
 ---
-title: 次の大きいページボタン
-description: このボタンをクリックまたはタップすると、カタログの次のページに移動します。 このボタンは、メインコントロールバーに表示されます。 このボタンは、携帯電話では画面のスペースを節約するために表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+title: 大きい次のページのボタン
+description: このボタンをクリックまたはタップすると、カタログ内の次のページに移動します。 このボタンはメイン コントロール バーに表示されます。 このボタンは、画面の領域を節約するために携帯電話には表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8147cdf8-298c-4713-a5a5-b34674f6b2c8
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 2%
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
-# 次の大きいページボタン{#large-next-page-button}
+# 大きい次のページのボタン{#large-next-page-button}
 
-このボタンを選択またはタップすると、カタログの次のページに移動します。 このボタンは、メインコントロールバーに表示されます。 このボタンは、携帯電話では画面のスペースを節約するために表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+このボタンを選択またはタップすると、カタログ内の次のページに移動します。 このボタンはメイン コントロール バーに表示されます。 このボタンは、画面の領域を節約するために携帯電話には表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+ボタンの外観は、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogviewer .s7ecatrightbutton .s7panrightbutton`
 
@@ -33,47 +33,47 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの上の境界線からの位置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
+   <td colname="col2"> <p>メイン コントロール バーの上端からパディングを含めて配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの右の境界線からの位置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p>メインコントロールバーの右端からパディングを含めて配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの左の境界線からの位置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>メイン コントロール バーの左の境界線からパディングを含めて配置します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>メインコントロールバーの下の境界線からの位置（パディングを含む）。 </p> </td> 
+   <td colname="col2"> <p>メイン コントロール バーの下枠からパディングを含めて配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。
+>このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
-例 — 56 x 56 ピクセルで、垂直方向に中央揃えし、ビューアの右の境界線にアンカーし、4 つのボタンの状態ごとに異なる画像を表示する大きな次のページボタンを設定します。
+例 – 56 x 56 ピクセルで、ビューアの右枠線に垂直に中央に配置され、アンカーされている大きな「次のページ」ボタンを設定し、4 つの異なるボタンの状態ごとに異なる画像を表示する
 
 ```
 .s7ecatalogviewer .s7ecatrightbutton .s7panrightbutton { 

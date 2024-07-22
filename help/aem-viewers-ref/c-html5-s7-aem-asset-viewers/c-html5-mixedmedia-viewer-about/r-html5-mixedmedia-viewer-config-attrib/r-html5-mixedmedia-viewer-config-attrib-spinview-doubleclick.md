@@ -8,7 +8,7 @@ exl-id: 65e2f2c9-ee2c-45a8-9935-a33089b8c379
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> ダブルクリック/タップとスピン操作のマッピングを設定します。 を <span class="codeph"> なし </span> ダブルクリック/タップによるスピンを無効にします。 次に設定した場合： <span class="codeph"> ズーム </span>をクリックすると、画像が 1 回のスピンステップでスピンします。Ctrl キーを押しながらクリックすると、1 つのスピンステップをスピンアウトします。 を <span class="codeph"> リセット </span> を指定すると、画像をシングルクリックした場合にスピンが初期のスピンレベルにリセットされます。 の場合 <span class="codeph"> zoomReset </span>、現在のスピン率が指定された制限以上の場合はリセットが適用され、それ以外の場合はスピンが適用されます。 </p> </td> 
+   <td colname="col2"> <p> ダブルクリックまたはタップによるスピンアクションのマッピングを設定します。 <span class="codeph"> なし」に設定すると、ダブルクリック </span> スピンのタップが無効になります。 ズーム </span> を <span class="codeph"> に設定した場合、画像をクリックすると 1 回のスピンステップでスピンします。Ctrl キーを押しながらクリックすると、1 回のスピンステップでスピンします。 <span class="codeph"> reset </span> に設定すると、画像を 1 回クリックするだけで、スピンが初期スピンレベルにリセットされます。 zoomReset </span> では、現在 <span class="codeph"> スピン率が指定した制限以上の場合はリセットが適用され、それ以外の場合はスピンが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-65be9301796240e38f31818229da7acc}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` デスクトップコンピュータの場合 `zoomReset` （タッチデバイス）。
+`reset` デスクトップコンピューターの場合 `zoomReset`、タッチデバイスの場合です。
 
 ## 例 {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

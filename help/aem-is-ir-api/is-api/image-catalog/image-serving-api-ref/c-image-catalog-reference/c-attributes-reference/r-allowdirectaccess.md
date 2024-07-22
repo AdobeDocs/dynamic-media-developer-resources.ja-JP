@@ -16,18 +16,18 @@ ht-degree: 0%
 
 パスベースのアセットへの直接アクセスを許可します。
 
-この属性を定義した場合、指定したオブジェクトタイプに対して、パスベースのアクセスが許可または制限されます。 `include` または `exclude` キーワードが使用されます。
+この属性を定義した場合、`include` キーワードと `exclude` キーワードのどちらが使用されているかに応じて、指定したオブジェクトタイプに対するパスベースのアクセスが許可または制限されます。
 
 >[!NOTE]
 >
->次の場合、 `AllowDirectAccess` 属性が指定されていない場合、デフォルト値は `exclude`.
+>`AllowDirectAccess` 属性を指定しない場合、デフォルト値は `exclude` です。
 
-* `include` は、指定したオブジェクト型に対するアクセスを許可し、その他すべてに対するアクセスを制限します。
-* `exclude` は、指定したオブジェクトタイプへのアクセスを制限し、その他すべてに対するアクセスを許可します。
+* `include` は、指定したオブジェクトタイプへのアクセスを許可し、その他すべてのタイプへのアクセスを制限します。
+* `exclude` は、指定したオブジェクトタイプのアクセスを制限し、その他すべてのオブジェクトタイプのアクセスを許可します。
 
-どちらでもない場合 `include` nor `exclude` が指定されている場合、 `include` が想定されます。
+`include` も `exclude` も指定されていない場合、`include` が想定されます。
 
-以下のタイプを制御できます。
+次のタイプを制御できます。
 
 * `SVG`
 * `IS`
@@ -39,26 +39,26 @@ ht-degree: 0%
 
 ## 例 {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* 次の場合のみ直接アクセスを許可 `IS` および `STATIC` オブジェクトタイプ
+* `IS` および `STATIC` オブジェクト タイプに対してのみ直接アクセスを許可する
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* 以下を除くすべてのオブジェクトタイプに対する直接アクセスを許可 `IS` および `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* `IS` および `STATIC``AllowDirectAccess=exclude:IS,STATIC` を除くすべてのオブジェクトタイプに直接アクセスを許可する
 
-* 次の直接アクセスを許可： *いいえ* オブジェクトタイプ（なしを含む）
+* *いいえ* オブジェクトタイプへの直接アクセスを許可する（つまり、なしを含める）
 
   `AllowDirectAccess=include:`
 
-* 次の直接アクセスを許可： *すべて* オブジェクトのタイプ（「なしを除外」）
+* *すべて* オブジェクトタイプに直接アクセスを許可（つまり、なしを除外）
 
   `AllowDirectAccess=exclude:`
 
-* と同等 `include:IS,STATIC` ( `include`/ `exclude` が存在しない。 `include` が想定される場合 )
+* `include:IS,STATIC` と同等です（`include`/ `exclude` が存在しない場合、`include` が想定されます）
 
   `AllowDirectAccess=IS,STATIC`
 
-  はデフォルト値で、 `AllowDirectAccess` この会社の属性が指定されていません。
+  なお、は、この会社に `AllowDirectAccess` 属性が指定されていない場合に使用されるデフォルト値です。
 
-* なしを含める（と同じ） `include:` ( `include`/ `exclude` が存在しない。 `include` が想定される場合 )
+* 何も含まない、`include:` と同等（`include`/ `exclude` が存在しない場合、`include` が想定されます）
 
   `AllowDirectAccess=`

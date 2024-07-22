@@ -1,5 +1,5 @@
 ---
-description: 特定の会社（ハンドルで識別）、電子メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
+description: 特定の会社（ハンドルで識別）、メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
@@ -8,19 +8,19 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
 # checkLogin{#checklogin}
 
-特定の会社（ハンドルで識別）、電子メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
+特定の会社（ハンドルで識別）、メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
 
 >[!NOTE]
 >
->会社の処理を省略した場合、このメソッドはデフォルトユーザーのログインを確認します。
+>会社ハンドルが省略された場合、このメソッドはデフォルトユーザーのログインをチェックします。
 
-## 認証済みユーザータイプ {#section-df8b26b550854f899948276adaca083a}
+## 許可されているユーザータイプ {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,17 +32,17 @@ ht-degree: 13%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-1ad4c0b4803b4388aedd655030676cb3}
+## パラメーター {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**入力 (checkLoginParam)**
+**入力（checkLoginParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
-| 電子メール | `xsd:string` | はい | ユーザーの電子メールアドレス。 |
+| 電子メール | `xsd:string` | はい | ユーザーの E メールアドレス。 |
 | パスワード | `xsd:string` | はい | ユーザーのパスワード。 |
 
-**出力 (checkLoginParam)**
+**出力（checkLoginParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ## 例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-このサンプルコードでは、会社のハンドルパラメータ、電子メールアドレス、およびパスワードを使用して、ユーザが IPS にログインできるかどうかを判断します。 ユーザーが *can* ログインすると、このメソッドは文字列を返します。 `ValidLogin`. ユーザーが *できません* ログインすると、このメソッドは文字列を返します。 `InvalidLogin`.
+このサンプルコードでは、会社のハンドルパラメーター、メールアドレスおよびパスワードを使用して、ユーザーが IPS にログインできるかどうかを判断します。 ユーザー *can* がログインすると、このメソッドは文字列 `ValidLogin` を返します。 ユーザー *ログインできない* 場合、このメソッドは文字列 `InvalidLogin` を返します。
 
 **リクエスト**
 

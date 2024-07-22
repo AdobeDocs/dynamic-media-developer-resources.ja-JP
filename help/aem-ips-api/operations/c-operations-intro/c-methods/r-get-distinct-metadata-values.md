@@ -8,7 +8,7 @@ exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 24%
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 構文
 
-## 認証済みユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 許可されているユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,16 +28,16 @@ ht-degree: 24%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-600f36a32ff147cb83149943d37843e2}
+## パラメーター {#section-600f36a32ff147cb83149943d37843e2}
 
-**入力 (getDistinctMetadataValuesParam)**
+**入力（getDistinctMetadataValuesParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | データを取得する会社へのハンドル。 |
 | metadataKey | `xsd:string` | はい | ドット表記のメタデータキー。 |
 
-**出力 (getDistinctMetadataValuesReturn)**
+**出力（getDistinctMetadataValuesReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

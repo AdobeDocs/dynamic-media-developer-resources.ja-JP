@@ -8,7 +8,7 @@ exl-id: 5fd3aa39-edb0-4434-aa5f-e511c84cf950
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオを安全な SSL 接続 (HTTPS) と安全でない接続 (HTTP) のどちらで配信するかを制御します。 </p> <p>に設定する場合 <span class="codeph"> auto</span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオは HTTPS でも（逆も）配信されます。 Web ページが HTTP 上にある場合、ビデオは HTTP 経由で配信されます。 </p> <p>に設定する場合 <span class="codeph"> オン</span>の場合、ビデオ配信は、Web ページのプロトコルに関係なく、常に安全な接続を介しておこなわれます。 </p> <p>公開されたビデオ配信にのみ影響し、オーサーモードのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオをセキュア SSL 接続（HTTPS）と非セキュア接続（HTTP）のどちらで配信するかを制御します。 </p> <p>自動に設定 <span class="codeph"> ると </span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオも HTTPS で配信されます。逆も同様です。 Web ページが HTTP で送信されている場合、ビデオは HTTP 経由で配信されます。 </p> <p><span class="codeph"> on</span> に設定すると、ビデオ配信は、web ページのプロトコルに関係なく、常に安全な接続で行われます。 </p> <p>公開済みビデオ配信にのみ影響し、オーサーモードでのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-関連トピック [ビデオ配信を保護](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
+[ セキュアなビデオ配信 ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb) も参照してください。

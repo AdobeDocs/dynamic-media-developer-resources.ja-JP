@@ -1,6 +1,6 @@
 ---
-title: 支援技術のサポート
-description: すべてのビューアコンポーネントは、ARIA（アクセシブルなリッチインターネットアプリケーション）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+title: 支援テクノロジーのサポート
+description: すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# 支援技術のサポート{#assistive-technology-support}
+# 支援テクノロジーのサポート{#assistive-technology-support}
 
-すべてのビューアコンポーネントは、ARIA（アクセシブルなリッチインターネットアプリケーション）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を強化します。
+すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
 
-最上位レベルのビューア要素には、デフォルトでビューア名に設定されている役割`region`と`aria-label`属性があります。 ラベルは`Container.LABEL`ローカリゼーション記号で制御できます。
+最上位のビューア要素にはロール `region` があり、`aria-label` の属性はデフォルトでビューアの名前に設定されています。 `Container.LABEL` のローカリゼーションシンボルを使用してラベルを制御できます。
 
-ボタンには、役割`button`と、`aria-label`属性を持つ説明テキストが設定されます。 `aria-label`属性の値は、ボタンのローカライゼーション記号の値から設定されます。 ボタンが無効になると、それに応じて`aria-disabled`属性が設定されます。
+ボタンには、役割 `button` と、`aria-label` 属性を持つ説明テキストが設定されています。 属性の値は `aria-label` ボタンのローカリゼーションシンボルの値から入力されます。 ボタンが無効の場合、それに応じ `aria-disabled` 属性が設定されます。
 
-スライダコンポーネントには、現在のスライダ位置を示す属性`aria-valuenow`、`aria-valuemin`、`aria-valuemax`を持つ役割`slider`があります。
+スライダーのコンポーネントには、現在のスライダーの位置を表す属性 `aria-valuenow`、`aria-valuemin`、`aria-valuemax` を持つ役割 `slider` があります。
 
-サムネールには、`ThumbnailGridView.LABEL`ローカライゼーションシンボルで制御される`dialog`属性が付いた役割`aria-label`があります。 個々のサムネールには役割`button`があります。 サムネールを選択すると、`aria-selected`属性が`true`に設定されます。
+サムネールの役割は、`ThumbnailGridView.LABEL` のローカリゼーションシンボル `aria-label` よって制御される属性を持つ `dialog` です。 個々のサムネールには役割 `button` があります。 サムネールを選択すると、属性が `true``aria-selected` 設定されます。
 
-スウォッチを表示するコンポーネントの役割`listbox`は、`aria-label`属性がそのコンポーネントの`LABEL`ローカライゼーションシンボルの値に設定されています。 個々のスウォッチには、セット内のスウォッチの位置を表す`option`属性と`aria-setsize`属性が割り当てられています。 `aria-posinset`スウォッチを選択すると、`aria-selected`属性が`true`に設定されます。
+スウォッチを表示するコンポーネントの役割 `listbox` には、`aria-label` の属性がそのコンポーネントの `LABEL` ローカリゼーションシンボルの値に設定されています。 個々のスウォッチには、セット内のスウォッチの位置を記述する `aria-setsize` 属性と `aria-posinset` 属性の役割 `option` があります。 スウォッチが選択されている場合は、`aria-selected` 属性が `true` に設定されます。
 
-ドロップダウンリストは、追加の`aria-haspopup`属性が`true`および`aria-controls`属性に設定されたボタンによってアクティブ化され、実際のドロップダウンパネル要素を参照します。 ドロップダウンパネル自体には、役割`menu`と役割`menuitem`を持つサブ要素があります。 各メニュー項目には、`aria-label`属性が指定されています。
+ドロップダウンリストは、追加の `aria-haspopup` 属性が `true` に設定されたボタンと、実際のドロップダウンパネル要素 `aria-controls` 参照する属性によってアクティブ化されます。 ドロップダウンパネル自体には、役割 `menu` があり、その役割 `menuitem` を持つサブ要素があります。 各メニュー項目には、`aria-label` 属性が指定されています。
 
-モーダルダイアログボックスには、役割`dialog`があります。 ダイアログボックスのヘッダー要素は`aria-labelledby`属性で参照されます。
+モーダルダイアログボックスには役割 `dialog` があります。 ダイアログボックスのヘッダー要素は、`aria-labelledby` 属性によって参照されます。

@@ -2,13 +2,13 @@
 description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
-feature: Dynamic Media Classic，ビューア，SDK/API,eCatalog検索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 9ec5ed03-1d8f-4e67-a9a3-bdf160b105c5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントでImage Serverから画像を読み込む際に使用する画像形式を指定します。 形式は、Image Serverおよびクライアントブラウザーでサポートされる任意の値です。 </p> <p>画像形式が<span class="codeph"> -alpha</span>で終わる場合、画像は透明なコンテンツとしてレンダリングされます。 その他のすべての画像形式の値では、画像は不透明として扱われます。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。 形式は、Image Server とクライアントブラウザーでサポートされている任意の値です。 </p> <p>画像形式が – alpha</span> で終わ <span class="codeph"> 場合、コンポーネントは画像を透明コンテンツとしてレンダリングします。 その他のすべての画像形式の値では、コンポーネントは画像を不透明として扱います。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

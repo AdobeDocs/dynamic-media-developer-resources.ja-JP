@@ -1,6 +1,6 @@
 ---
-title: べた塗り
-description: このマテリアルカテゴリには、壁、木工、トリム、自動車、およびテクスチャが不要なその他のアプリケーション用の塗料が含まれます。
+title: 単色
+description: この材料カテゴリには、壁、木工、およびトリム、自動車、およびテクスチャが必要ないその他の用途のための塗料が含まれます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# べた塗り{#solid-colors}
+# 単色{#solid-colors}
 
-このマテリアルカテゴリには、壁、木工、トリム、自動車、およびテクスチャが不要なその他のアプリケーション用の塗料が含まれます。
+この材料カテゴリには、壁、木工、およびトリム、自動車、およびテクスチャが必要ないその他の用途のための塗料が含まれます。
 
-たとえば、テクスチャの変更が不要な衣料品の色を変更する場合や、自動車の内装のプラスチックトリムやカーペットの色を設定する場合には、ソリッドカラーを使用します。 マテリアルは、 `src=` の値が MSS に存在する。
+例えば、単色を使用して、テクスチャの変更を必要としないアパレルアイテムの色を変更したり、自動車内装のプラスチック製のトリムやカーペットの色を設定したりできます。 MSS に `src=` 値が存在しない場合、マテリアルはソリッド カラーと見なされます。
 
-すべてのレンダリング可能なオブジェクトにソリッドカラーを適用できます。
+レンダリング可能なすべてのオブジェクトに単色を適用できます。
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
@@ -31,7 +31,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
-   <td colname="col2"> <p> グレーまたはRGBのカラー値必須 </p> </td> 
+   <td colname="col2"> <p> グレーまたはRGBのカラー値。必須。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
  </tbody> 

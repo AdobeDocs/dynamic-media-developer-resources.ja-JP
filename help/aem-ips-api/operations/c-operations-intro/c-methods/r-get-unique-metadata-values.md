@@ -8,7 +8,7 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 28%
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 
 構文
 
-## 認証済みユーザータイプ {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 許可されているユーザータイプ {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,16 +28,16 @@ ht-degree: 28%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-b9d1413811c24566b6d095701f0f66db}
+## パラメーター {#section-b9d1413811c24566b6d095701f0f66db}
 
-**入力 (getUniqueMetadataValuesParam)**
+**入力（getUniqueMetadataValuesParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に対する取り扱い。 |
-| fieldHandle | `xsd:string` | いいえ | メタデータフィールドに対する処理。 |
+| companyHandle | `xsd:string` | はい | 会社に渡す。 |
+| fieldHandle | `xsd:string` | いいえ | メタデータフィールドへのハンドル。 |
 
-**出力 (getUniqueMetadataValuesReturn)**
+**出力（getUniqueMetadataValuesReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 ## 例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-このコードサンプルでは、フィールドハンドルを使用して特定のメタデータ値を返します。
+このコードサンプルでは、フィールドハンドルを使用して、特定のメタデータ値を返します。
 
 **リクエスト**
 

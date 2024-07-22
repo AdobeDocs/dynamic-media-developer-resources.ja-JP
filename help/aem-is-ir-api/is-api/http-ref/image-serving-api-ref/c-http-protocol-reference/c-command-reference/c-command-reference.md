@@ -1,50 +1,50 @@
 ---
 title: コマンドリファレンス
-description: この節では、HTTP プロトコルのコマンドについて説明します。
+description: ここでは、HTTP プロトコル・コマンドについて説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 6%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
 # コマンドリファレンス{#command-reference}
 
-この節では、HTTP プロトコルのコマンドについて説明します。
+ここでは、HTTP プロトコル・コマンドについて説明します。
 
 >[!TIP]
 >
->Dynamic Mediaを使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを試してみましょう [_スナップショット_](https://snapshot.scene7.com/).
+>Dynamic Media [_Snapshot_](https://snapshot.scene7.com/) を使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを体験してみましょう。
 >
-> スナップショットは、最適化された動的な画像配信にDynamic Mediaが持つ力を説明する視覚的なデモツールです。 テスト画像またはDynamic Media URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、スマートイメージングの最適化で次のことを確認します。
->* ファイルサイズ（WebP および AVIF 配信を使用）
+> スナップショットは、最適化された動的な画像配信におけるDynamic Mediaのパワーをわかりやすく伝えるために作られた、視覚的なデモツールです。 テスト画像やDynamic Mediaの URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、次の項目に対するスマートイメージング最適化を確認します。
+>* ファイルサイズ （WebP および AVIF 配信を使用）
 >* ネットワーク帯域幅
->* DPR（デバイスのピクセル比）
+>* DPR （デバイスピクセル比）
 >
->スナップショットの使い方を学ぶには、 [スナップショットトレーニングビデオ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）。
+>スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）を再生してください。
 
 
-**Adobe Experience ManagerのDynamic Mediaのみ**  — ユーザーインターフェイスで使用できる基本的な画像設定以外に、 [!DNL Dynamic Media] AEM ( [!DNL Adobe Experience Manager]) では、多数の高度な画像変更をサポートしています。この変更は、 **画像の修飾子** フィールドに入力します。 これらのパラメーターは以下で定義します。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
+**Adobe Experience ManagerのDynamic Mediaのみ** - ユーザーインターフェイスで使用できる基本画像設定以外に、AEM（[!DNL Adobe Experience Manager]）の [!DNL Dynamic Media] では、「**画像修飾子**」フィールドで指定できる高度な画像修正が多数サポートされています。 これらのパラメーターは、以下で定義されます。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
 
-* カラー補正コマンド： `icc=` および `iccEmbed=`.
-* 基本的なテンプレートコマンドとテキストレンダリングコマンド： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` および `textPs=`.
-* ローカライゼーションコマンド： `locale=` および `req=xlate`.
-* `req=set` は一般的には使用できません。
+* カラー補正コマンド：`icc=` および `iccEmbed=`。
+* 基本テンプレートおよびテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` および `textPs=`。
+* ローカリゼーションコマンド：`locale=` および `req=xlate`。
+* `req=set` は、一般的には使用できません。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* コア以外のDynamic Mediaサービス：SVG、画像レンダリング、Web-to-Print。
+* 非コア Dynamic Media サービス：SVG、画像レンダリングおよび Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Dynamic Media [画像プリセットオプション](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) (AEM 6.5 ドキュメント )。
+AEM 6.5 ドキュメントのDynamic Media[ 画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) も参照してください。
 
-* [整列](r-align.md)
+* [align](r-align.md)
 * [アンカー](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
@@ -60,11 +60,11 @@ Dynamic Media [画像プリセットオプション](https://experienceleague.ad
 * [dpr](r-dpr.md)
 * [効果](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [延長する](r-extend.md)
-* [フィット](r-fit.md)
+* [extend](r-extend.md)
+* [発作](r-fit.md)
 * [反転](r-flip.md)
 * [fmt](r-is-http-fmt.md)
-* [hei](r-is-http-hei.md)
+* [ヘイ](r-is-http-hei.md)
 * [非表示](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
@@ -93,22 +93,22 @@ Dynamic Media [画像プリセットオプション](https://experienceleague.ad
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [origin](r-origin.md)
+* [起源](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
-* [視点](r-perspective.md)
-* [pos](r-pos.md)
+* [透視図](r-perspective.md)
+* [位置](r-pos.md)
 * [printRes](r-printres.md)
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
-* [量子化する](r-is-http-quantize.md)
+* [量子化](r-is-http-quantize.md)
 * [rect](r-rect.md)
-* [req](r-req/r-req.md)
-* [res](r-res.md)
+* [要](r-req/r-req.md)
+* [件の](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [循環](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [スケール](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [サイズ](r-size-reference.md)
 * [src](r-src.md)

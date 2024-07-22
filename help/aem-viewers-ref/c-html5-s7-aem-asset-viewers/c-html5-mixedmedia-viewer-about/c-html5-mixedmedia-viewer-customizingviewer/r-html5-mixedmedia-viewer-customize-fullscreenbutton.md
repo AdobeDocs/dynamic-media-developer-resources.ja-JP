@@ -1,26 +1,26 @@
 ---
-title: フルスクリーンボタン
-description: ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 これは、ビューアが画像またはスピンセットを表示するときに使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+title: 全画面表示ボタン
+description: このボタンをクリックすると、ユーザーが選択したビューアが全画面表示モードに入るか終了します。 ビューアで画像やスピンセットを表示する際に使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 0%
 
 ---
 
-# フルスクリーンボタン{#full-screen-button}
+# 全画面表示ボタン{#full-screen-button}
 
-ユーザが選択した場合、このボタンを押すと、ビューアはフルスクリーンモードに入るか、終了します。 これは、ビューアが画像またはスピンセットを表示するときに使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 CSS を使用して、このボタンのサイズ、スキン、および配置を設定できます。
+このボタンをクリックすると、ユーザーが選択したビューアが全画面表示モードに入るか終了します。 ビューアで画像やスピンセットを表示する際に使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-ボタンの外観は、以下の CSS クラスセレクターを使用して制御します。
+ボタンの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
@@ -35,47 +35,47 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> トップ </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む上の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
+   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む右の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p>パディングを含めて、右側のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む左の境界線からの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>パディングを含めて、左のボーダーから配置します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含む下の境界線からの位置。 </p> </td> 
+   <td colname="col2"> <p>下罫線からパディングを含めて移動します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの特定の状態に対して表示される画像。 </p> </td> 
+   <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` および `selected` 属性セレクター。ボタンの状態ごとに異なるスキンを適用するのに使用できます。 特に `selected='true'` 「フルスクリーン」状態に対応し、 `selected='false'` は、「通常」の状態に対応します。
+>このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は「フルスクリーン」状態に対応し、`selected='false'` は「通常」状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
-例 — 32 x 32 ピクセルで、ビューアの上および右端から 6 ピクセルの位置に配置するフルスクリーンボタンを設定するには、次のように記述します。 最後に、は、選択時または未選択時の 4 つの異なるボタン状態ごとに異なる画像を表示します。
+例 – 32 x 32 ピクセルのフルスクリーンボタンをビューアの上端と右端から 6 ピクセルの位置に設定する 最後に、は、選択または未選択の場合、4 つの異なるボタン状態ごとに異なる画像を表示します。
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: スピンビューアの JavaScript API リファレンス。
+description: スピンビューアのJavaScript API リファレンスです。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-スピンビューアの JavaScript API リファレンス。
+スピンビューアのJavaScript API リファレンスです。
 
-` setParam( *`名前、値`*)`
+` setParam( *` 名前、値 `*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名前 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> パラメーターの名前。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> の名前 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーター </span> 名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> パラメーターの値。 値をパーセントでエンコードすることはできません。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーターの </span> 値。 値はパーセント エンコードできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子のどちらかです。 このパラメーターは、 `init()`.
+ビューアパラメーターを指定した値に設定します。 パラメーターは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子です。 このパラメーターは、`init()` 前に呼び出されます。
 
-ビューアの設定情報が `config` JSON オブジェクトをコンストラクターに追加します。
+ビューアの設定情報が JSON オブジェクトとともにコンストラクターに渡され `config` 場合、このメソッドはオプションです。
 
-関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae) も参照してください。
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

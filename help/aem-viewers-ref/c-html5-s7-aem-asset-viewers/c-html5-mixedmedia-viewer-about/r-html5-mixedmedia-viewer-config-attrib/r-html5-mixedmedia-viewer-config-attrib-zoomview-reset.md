@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 95bf90d1-071e-467a-87aa-122911125233
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 12%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> フレーム（画像）が変更された場合に、ビューポートをリセットします。 次に設定した場合： <span class="codeph"> 0</span>に設定すると、新たに設定された画像の縦横比を保ちながら、できる限り適切に合うように現在のビューポートが保持されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> フレーム（イメージ）が変更されたときにビューポートをリセットします。 <span class="codeph"> 0</span> に設定すると、新しく設定した画像の縦横比を維持しながら、現在のビューポートが可能な限りフィットして保持されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-65be9301796240e38f31818229da7acc}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

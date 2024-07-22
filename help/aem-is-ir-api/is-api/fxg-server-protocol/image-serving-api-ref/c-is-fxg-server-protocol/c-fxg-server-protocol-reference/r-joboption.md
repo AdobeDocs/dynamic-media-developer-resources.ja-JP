@@ -1,31 +1,31 @@
 ---
-description: PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorのPDFとして保存オプションダイアログまたはInDesignのPDFプリセットで生成されるファイルです。
+description: PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、「別名で保存PDFオプション」ダイアログまたはInDesignのPDFプリセットでIllustratorによって生成されるファイルです。
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 46%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
 # joboption{#joboption}
 
-PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、IllustratorのPDFとして保存オプションダイアログまたはInDesignのPDFプリセットで生成されるファイルです。
+PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、「別名で保存PDFオプション」ダイアログまたはInDesignのPDFプリセットでIllustratorによって生成されるファイルです。
 
-` joboption= *`value`*`
+` joboption= *` 値 `*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
-  <td class="stentry"> <p>ジョブオプションファイルのIPSID。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 値 </span></span> </p> </td> 
+  <td class="stentry"> <p>ジョブオプションファイルの IPSID。 </p></td> 
  </tr> 
 </table>
 
-ジョブオプションファイルは、IPS/Dynamic Media Classicを使用してアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFが生成される際に使用されます。
+ジョブオプションファイルは、IPS/Dynamic Media Classicでアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFの生成時に使用されます。
 
 現在、次のオプションがサポートされています。
 
@@ -36,7 +36,7 @@ PDFジョブオプションを適用します。 ジョブオプションファ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>画像 </p></td> 
-  <td class="stentry"> <p> ダウンサンプル、カラー、グレー、モノラルの解像度、しきい値、圧縮 </p> </td> 
+  <td class="stentry"> <p> カラー、グレー、モノラルのダウンサンプル、解像度、しきい値、圧縮 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>フォント </p></td> 
@@ -44,7 +44,7 @@ PDFジョブオプションを適用します。 ジョブオプションファ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>カラー </p></td> 
-  <td class="stentry"> <p> Color Strategy（画像だけタグ付けはすべてタグ付けとして扱われます） </p> <p> 文書レンダリングインテント </p> <p> 4.2.5 では以下の作業用スペースのみサポートされています。 </p> <p> 
+  <td class="stentry"> <p> カラー戦略（画像にタグ付けするだけでは、すべてをタグ付けとして扱われます） </p> <p> 文書レンダリングインテント </p> <p> 4.2.5 では、次の作業スペースのみがサポートされます。 </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,10 +73,10 @@ PDFジョブオプションを適用します。 ジョブオプションファ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>詳細設定 </p></td> 
-  <td class="stentry"> <p>「OPI コメントを保存」は常にオン. </p></td> 
+  <td class="stentry"> <p>OPI コメントを保持は常にオンになっています。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>規格 </p></td> 
-  <td class="stentry"> <p>準拠の規格。 </p></td> 
+  <td class="stentry"> <p>コンプライアンス基準。 </p></td> 
  </tr> 
 </table>

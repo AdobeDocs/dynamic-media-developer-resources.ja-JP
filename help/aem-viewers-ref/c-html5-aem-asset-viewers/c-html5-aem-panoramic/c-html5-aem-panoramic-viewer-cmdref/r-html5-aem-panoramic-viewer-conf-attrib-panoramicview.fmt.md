@@ -1,6 +1,6 @@
 ---
 title: PanoramicView.fmt
-description: コンポーネントで Image Server から画像を読み込む際に使用する画像形式を指定します。
+description: コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-コンポーネントで Image Server から画像を読み込む際に使用する画像形式を指定します。 末尾が「 —alpha」の形式を指定すると、画像が透明にレンダリングされます。 その他のすべての画像形式では、画像は不透明として扱われます。 コンポーネントの背景は、デフォルトで透明です。 したがって、不透明にするには、 `background-color` CSS プロパティをに設定 `desired_color`
+コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。 指定した形式が「– alpha」で終わる場合、コンポーネントは画像を透明としてレンダリングします。 その他のすべての画像形式では、コンポーネントは画像を不透明として扱います。 コンポーネントの背景は、デフォルトでは透明になっています。 したがって、不透明にするには、`background-color` CSS プロパティを `desired_color` に設定します
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントで Image Server からの画像の読み込みに使用する画像形式を指定します。 末尾が「 —alpha」の形式を指定した場合、コンポーネントは画像を透明なコンテンツとしてレンダリングします。その他のすべての画像形式の場合、コンポーネントは画像を不透明として処理します。 コンポーネントの背景は、デフォルトで透明です。 したがって、不透明にするには、CSS プロパティ background-color を目的の色に設定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。 指定した形式が「– alpha」で終わる場合、コンポーネントは画像を透明なコンテンツとしてレンダリングします。その他のすべての画像形式では、コンポーネントは画像を不透明として処理します。 コンポーネントの背景は、デフォルトでは透明になっています。 したがって、不透明にするには、背景色 CSS プロパティを目的の色に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

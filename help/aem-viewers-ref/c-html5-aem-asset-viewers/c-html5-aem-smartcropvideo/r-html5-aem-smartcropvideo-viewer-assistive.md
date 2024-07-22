@@ -1,10 +1,11 @@
 ---
 title: 支援テクノロジーのサポート
-description: すべてのビューアコンポーネントは、ARIA（アクセシブルなリッチインターネットアプリケーション）の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
+description: すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -13,14 +14,14 @@ ht-degree: 0%
 
 # 支援テクノロジーのサポート{#assistive-technology-support}
 
-すべてのビューアコンポーネントは、ARIA（アクセシブルなリッチインターネットアプリケーション）の役割と属性をサポートしており、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
+すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
 
-トップレベルのビューア要素には役割があります `region` および `aria-label` 属性は、デフォルトでビューアの名前に設定されます。 ラベルは `Container.LABEL` ローカリゼーションシンボル。
+最上位のビューア要素にはロール `region` があり、`aria-label` の属性はデフォルトでビューアの名前に設定されています。 `Container.LABEL` のローカリゼーションシンボルを使用してラベルを制御できます。
 
-ボタンには役割があります `button` と説明テキストセット `aria-label` 属性。 の値 `aria-label` 属性は、ボタンのローカライゼーション記号の値を使用して設定されます。 ボタンが無効な場合、 `aria-disabled` 属性が適切に設定されます。
+ボタンには、役割 `button` と、`aria-label` 属性を持つ説明テキストが設定されています。 属性の値は `aria-label` ボタンのローカリゼーションシンボルの値から入力されます。 ボタンが無効の場合、それに応じ `aria-disabled` 属性が設定されます。
 
-スライダーコンポーネントは役割を持ちます `slider` 属性を持つ `aria-valuenow`, `aria-valuemin`、および `aria-valuemax` 現在のスライダ位置を表します。
+スライダーのコンポーネントには、現在のスライダーの位置を表す属性 `aria-valuenow`、`aria-valuemin`、`aria-valuemax` を持つ役割 `slider` があります。
 
-ドロップダウンリストは、追加の `aria-haspopup` 属性を `true` および `aria-controls` 実際のドロップダウンパネル要素を参照する属性。 ドロップダウンパネル自体には、の役割があります `menu` 役割を持つサブ要素を持つ `menuitem`. 各メニュー項目には、 `aria-label` 属性が指定されました。
+ドロップダウンリストは、追加の `aria-haspopup` 属性が `true` に設定されたボタンと、実際のドロップダウンパネル要素 `aria-controls` 参照する属性によってアクティブ化されます。 ドロップダウンパネル自体には、役割 `menu` があり、その役割 `menuitem` を持つサブ要素があります。 各メニュー項目には、`aria-label` 属性が指定されています。
 
-モーダルダイアログボックスには役割があります `dialog`. このダイアログボックスのヘッダー要素は、 `aria-labelledby` 属性。
+モーダルダイアログボックスには役割 `dialog` があります。 ダイアログボックスのヘッダー要素は、`aria-labelledby` 属性によって参照されます。

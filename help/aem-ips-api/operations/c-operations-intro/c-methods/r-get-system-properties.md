@@ -8,7 +8,7 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 構文
 
-## 認証済みユーザータイプ {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 許可されているユーザータイプ {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,13 +30,13 @@ ht-degree: 20%
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## パラメータ {#section-b2a4fb7068424223aec87c50f0586d73}
+## パラメーター {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**入力 (getSystemPropertiesParam)**
+**入力（getSystemPropertiesParam）**
 
 なし
 
-**出力 (getSystemPropertiesReturn)**
+**出力（getSystemPropertiesReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 ## 例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-このコード例は、システムプロパティの配列を返します。 簡潔にするために応答が切り捨てられました。
+このコードサンプルは、システムプロパティの配列を返します。 簡潔にするために、応答は切り捨てられました。
 
 **リクエスト**
 

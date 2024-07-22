@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
+description: IPS API バージョン 4.4 の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
-title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic、SDK/API
+title: 新規および変更済みのデータタイプ
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 3%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
-IPS APIバージョン4.4の新しいデータ型と変更されたデータ型について説明します。
+IPS API バージョン 4.4 の新しいデータ型と変更されたデータ型について説明します。
 
 構文
 

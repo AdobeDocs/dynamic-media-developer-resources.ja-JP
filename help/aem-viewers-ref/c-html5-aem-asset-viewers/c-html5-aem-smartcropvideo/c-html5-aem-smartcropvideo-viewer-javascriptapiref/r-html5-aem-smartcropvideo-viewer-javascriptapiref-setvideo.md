@@ -1,42 +1,43 @@
 ---
 title: setVideo
-description: スマート切り抜きビデオビューアの JavaScript API リファレンス
+description: スマート切り抜きビデオビューア用のJavaScript API リファレンス
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 1%
 
 ---
 
 # setVideo{#setvideo}
 
-スマート切り抜きビデオビューアの JavaScript API リファレンス
+スマート切り抜きビデオビューア用のJavaScript API リファレンス
 
 `setVideo(videoUrl[, data])`
 
-新しい外部ビデオとオプションの追加ビデオデータを設定します。 いつでも呼び出すことができます（前後） `init()`. の後に呼び出された場合 `init()`を指定した場合、ビューアは実行時にビデオを入れ替えます。
+新しい外部ビデオとオプションの追加ビデオデータを設定します。 `init()` の前と後の両方でいつでも呼び出すことができます。 `init()` 後に呼び出された場合、ビューアは実行時にビデオをスワップします。
 
-関連トピック [init]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)。
+[init] も参照してください
+（../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6）を参照してください。
 
-## パラメータ {#section-b6affc90b3a84584b684641c86862e01}
+## パラメーター {#section-b6affc90b3a84584b684641c86862e01}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> 文字列 </span>} 新しいビデオの絶対 URL。 </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} 新しいビデオへの絶対 URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> データ </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} 次のオプションフィールドを含む JSON オブジェクト（大文字と小文字が区別されます）: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} 次のオプションフィールドを含む JSON オブジェクト（大文字と小文字を区別）: </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> 事後的な </span>  — ビデオの再生開始前の最初のフレームに表示する画像。 詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> caption </span>  — 新しいキャプションファイルの場所。 キャプションファイルが指定されていない場合、キャプションボタンはユーザーインターフェイスに表示されません。 </li> 
-      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> ナビゲーション </span> - WebVTT ナビゲーションコンテンツの URL またはパス。 WebVTT ファイルは画像サービングから提供される必要があります。 </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - ビデオの再生が開始される前に、最初のフレームに表示する画像。 VideoPlayer.posterimage の </a> キュメント <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> 参照してください。 </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> caption </span> – 新しいキャプションファイルの場所。 キャプションファイルが指定されていない場合、「キャプション」ボタンはユーザーインターフェイスに表示されません。 </li> 
+      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> ナビゲーション </span> - WebVTT ナビゲーションコンテンツの URL またはパス。 WebVTT ファイルは、画像サービングで提供される必要があります。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

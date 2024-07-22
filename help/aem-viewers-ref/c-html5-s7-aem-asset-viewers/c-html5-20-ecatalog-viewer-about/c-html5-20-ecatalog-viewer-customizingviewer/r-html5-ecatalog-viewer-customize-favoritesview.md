@@ -1,47 +1,47 @@
 ---
 title: お気に入り表示
-description: お気に入りビューは、サムネール画像の列で構成されます。
+description: お気に入り表示は、サムネール画像の列で構成されています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
 # お気に入り表示{#favorites-view}
 
-お気に入りビューは、サムネール画像の列で構成されます。
+お気に入り表示は、サムネール画像の列で構成されています。
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-お気に入りビューコンテナの外観は、以下の CSS クラスセレクターを使用して制御します。
+お気に入り表示コンテナの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer .s7favoritesview
 ```
 
-お気に入りビューの位置と高さは、ビューで管理します。CSS では、幅の定義のみ可能です。
+お気に入りビューの位置と高さはビューで管理されます。CSS では、幅の定義のみ可能です。
 
 **お気に入りビューの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> お気に入りビューの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> [ お気に入り ] ビューの背景色 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>ビューの幅。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 幅が 100 ピクセルで、背景が半透明のグレーのお気に入りビューを設定するには、次のように記述します。
+例 – 幅 100 ピクセルのお気に入りビューを半透明のグレーの背景で設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -50,24 +50,24 @@ ht-degree: 1%
 }
 ```
 
-お気に入りサムネールの間隔は、以下の CSS クラスセレクターを使用して制御します。
+お気に入りのサムネール間の間隔は、次の CSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**お気に入りサムネールの CSS プロパティ**
+**お気に入りのサムネールの CSS プロパティ**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の垂直方向のマージンのサイズ。 実際のサムネールの間隔は、 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell </span> に設定されている上下の余白 <span class="codeph"> 合計と等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 10 ピクセルの間隔を設定するには：
+例 – 10 ピクセル間隔を設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell { 
@@ -75,36 +75,36 @@ ht-degree: 1%
 }
 ```
 
-個々のサムネールの外観は、以下の CSS クラスセレクターを使用して制御します。
+個々のサムネールの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**お気に入りサムネールの CSS プロパティ**
+**お気に入りのサムネールの CSS プロパティ**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの幅 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>サムネールの高さ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p>サムネールの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
+   <td colname="col2"> <p>サムネールのボーダー。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->サムネールでは、 `state` 属性セレクター。サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に `state="selected"` は、ユーザーが最近選択したサムネールに対応します。 属性 `state="default"` は、残りのサムネールに対応します。 また、属性 `state="over"` は、マウスポインターを置いたときに使用されます。
+>サムネールでは `state` 属性セレクターがサポートされており、これを使用して異なるスキンを異なるサムネール状態に適用できます。 特に、`state="selected"` は、ユーザーが最近選択したサムネールに対応します。 残りのサムネールに対応する属性 `state="default"`。 また、属性 `state="over"` は、マウスのカーソルを合わせたときに使用されます。
 
-例 — 75 x 75 ピクセルで、初期設定の境界線がライトグレー、選択された境界線がダークグレーのサムネールを設定するには、次のように記述します。
+例 – 75 x 75 ピクセルのサムネールで、デフォルトの境界線が薄いグレーで、選択した境界線が濃いグレーになるように設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -119,7 +119,7 @@ ht-degree: 1%
 }
 ```
 
-サムネールラベルの外観は、以下の CSS クラスセレクターを使用して制御します。
+サムネールラベルの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label
@@ -140,7 +140,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-例 — 14 ピクセルの Helvetica®フォントを持つラベルを設定するには、次のように記述します。
+例 – 14 ピクセルの Helvetica® フォントでラベルを設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 

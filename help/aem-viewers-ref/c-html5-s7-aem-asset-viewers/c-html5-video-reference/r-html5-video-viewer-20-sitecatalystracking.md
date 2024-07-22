@@ -1,32 +1,32 @@
 ---
-title: Adobe Analytics追跡のサポート
-description: ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+title: Adobe Analyticsのトラッキングのサポート
+description: ビデオビューアでは、Adobe Analyticsのトラッキングが標準でサポートされています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics追跡のサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+ビデオビューアでは、Adobe Analyticsのトラッキングが標準でサポートされています。
 
-## 標準の追跡 {#section-3b101fe30be943c1b679fd5c273569ca}
+## 標準のトラッキング {#section-3b101fe30be943c1b679fd5c273569ca}
 
-ビデオビューアでは、Adobe Analyticsの追跡機能がサポートされていて、この機能をすぐに使用できます。
+ビデオビューアでは、Adobe Analyticsのトラッキングが標準でサポートされています。
 
-追跡を有効にするには、適切な会社プリセット名を `config2` パラメーター。
+トラッキングを有効にするには、適切な会社プリセット名 `config2` パラメーターとして渡します。
 
-また、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に 1 つの追跡 HTTP 要求が送信されます。
+また、ビューアは、1 つのトラッキング HTTP リクエストを、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に送信します。
 
 ## カスタムトラッキング {#section-ab10bd7caf184721a366cf3953071934}
 
-をサードパーティの分析システムと統合するには、 `trackEvent` ビューアのコールバックとプロセス `eventInfo` 必要に応じて、コールバック関数の引数です。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、ビューアのコールバック `trackEvent` リッスンし、必要に応じてコールバック関数の引数 `eventInfo` 処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +67,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>ビューアで <span class="codeph"> setAsset() </span> API </p> </td> 
+   <td colname="col2"> <p>setAsset （） </span> API を使用して、ビューア内 <span class="codeph"> アセットが入れ替えられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -75,15 +75,15 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>再生が一時停止された。 </p> </td> 
+   <td colname="col2"> <p>再生が一時停止した。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>再生が停止しました。 </p> </td> 
+   <td colname="col2"> <p>再生が停止した。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>再生が次の 1 つのミリストーンに達しました。0%、25%、50%、75%、100%です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マイルストーン </span> </p> </td> 
+   <td colname="col2"> <p>再生が次のマイルストーンのいずれかに達します：0%、25%、50%、75%、100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

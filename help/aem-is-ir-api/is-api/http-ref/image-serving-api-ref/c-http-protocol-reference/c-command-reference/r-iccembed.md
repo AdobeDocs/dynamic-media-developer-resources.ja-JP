@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: カラープロファイルを埋め込みます。 作業用 ICC カラープロファイルまたは icc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
+description: カラープロファイルを埋め込みます。 作業中の ICC カラープロファイルまたは icc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # iccEmbed{#iccembed}
 
-カラープロファイルを埋め込みます。 作業用 ICC カラープロファイルまたは icc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
+カラープロファイルを埋め込みます。 作業中の ICC カラープロファイルまたは icc=で指定されたプロファイルを返信画像に埋め込むかどうかを指定します。
 
 `iccEmbed=0|1`
 
 ## プロパティ {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-要求属性。 埋め込み可能なプロファイルがない場合は無視されます。
+リクエスト属性。 埋め込みに使用できるプロファイルがない場合は無視されます。
 
 ## 初期設定 {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`（出力画像に ICC プロファイルを埋め込まない場合） 出力画像形式が ICC プロファイルの埋め込みをサポートしていない場合は無視されます。
+出力画像に ICC プロファイルを埋め込まない `iccEmbed=0` 合。 出力画像形式が ICC プロファイルの埋め込みをサポートしていない場合は無視されます。
 
-詳しくは、 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) 」を参照してください。
+詳しくは、[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) を参照してください。
 
 ## 関連項目 {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

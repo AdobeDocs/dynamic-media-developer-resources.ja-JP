@@ -1,5 +1,5 @@
 ---
-description: フォルダーの権限を更新します。
+description: フォルダー権限を更新します。
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -8,36 +8,36 @@ exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 19%
+ht-degree: 15%
 
 ---
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-フォルダーの権限を更新します。
+フォルダー権限を更新します。
 
 構文
 
-## 認証済みユーザータイプ {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 許可されているユーザータイプ {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-339e6e17c5504e1ea79fbdc05f618050}
+## パラメーター {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**入力 (updateFolderPermissionsParam)**
+**入力（updateFolderPermissionsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
 | folderHandle | `xsd:string` | はい | フォルダーハンドル。 |
-| updateChildren | `xsd:boolean` | はい | 最上位フォルダの権限セットを持つ子を更新するかどうかを決定します。 |
-| updateArray | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列です。 |
+| updateChildren | `xsd:boolean` | はい | 最上位フォルダーに設定された権限で子を更新するかどうかを決定します。 |
+| updateArray | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列。 |
 
-**出力 (updateFolderPermissionsReturn)**
+**出力（updateFolderPermissionsReturn）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

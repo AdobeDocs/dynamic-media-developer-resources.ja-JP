@@ -7,7 +7,7 @@ exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 18%
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 ビデオキャプションのプロパティ
 
-## パラメータ {#section-14d2cf17c4404266b6d85ffbaaee94e1}
+## パラメーター {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
 <table id="table_BAE71BF478874997807F690EB5F91ECD"> 
  <thead> 
@@ -29,7 +29,7 @@ ht-degree: 18%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>アップロードされたビデオの相対パス。 </p> </td> 
+   <td colname="col3"> <p>アップロードしたビデオの相対パス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
@@ -39,7 +39,7 @@ ht-degree: 18%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> fileSize</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
-   <td colname="col3"> <p>ファイルサイズ. </p> </td> 
+   <td colname="col3"> <p>ファイルサイズ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: createAssetSet
-description: 生のセット定義文字列を使用して汎用のアセットセットを作成し、Image Server に公開します。
+description: Image Server に公開する生のセット定義文字列を使用して、汎用アセットセットを作成します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -8,17 +8,17 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # createAssetSet{#createassetset}
 
-生のセット定義文字列を使用して汎用のアセットセットを作成し、Image Server に公開します。
+Image Server に公開する生のセット定義文字列を使用して、汎用アセットセットを作成します。
 
 構文
 
-## 認証済みユーザータイプ {#section-d670d3af552147199b65c7eb847544a3}
+## 許可されているユーザータイプ {#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## パラメーター {#section-3580b586296e42a5b21426085b1bb72d}
 
-**入力 (createAssetSet)**
+**入力（createAssetSet）**
 
 <table id="table_2C70C33A127242FC828FCD8EC852E1EC"> 
  <thead> 
@@ -45,16 +45,16 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> アセットセットを含む会社へのハンドル。 </td> 
+   <td colname="col4"> 資産セットを含む会社へのハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 新しいアセットセットが作成されるフォルダーのハンドル。 </td> 
+   <td colname="col4"> 新しいアセットセットが作成されたフォルダーへのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> アセット名。 </td> 
@@ -63,39 +63,39 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> アセットセットタイプに対してクライアントが作成した一意の識別子。 </td> 
+   <td colname="col4"> アセットセットタイプ用にクライアントで作成された一意の ID。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらのパラメータは、対象ビューアで指定された形式に解決される必要があります。 </p> </td> 
+   <td colname="col4"> セット定義文字列のパラメーター。 <p>これらのパラメーターは、ターゲットビューアで指定される形式に解決される必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しなかった場合、IPS はセットが参照する最初の画像アセットを使用しようとします。 </td> 
+   <td colname="col4"> 新しい画像セットのサムネールとして機能するアセットのハンドル。 指定しない場合、IPS はセットによって参照される最初の画像アセットを使用しようとします。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinition の代替関数**
+**setDefinition の置換関数**
 
-カタログの参照または公開時に解決される置換関数をインラインで指定できます。 代替文字列の形式は次のとおりです。 `${<substitution_func>}`. 使用可能な関数の概要を以下に示します。
+カタログ検索または公開時に解決される置換関数をインラインで指定できます。 置換文字列の形式は `${<substitution_func>}` です。 使用可能な関数の概要を以下に示します。
 
 >[!NOTE]
 >
->パラメーターリストのハンドルリテラルは、角括弧で囲む必要があります `([])`. 置換文字列以外のすべてのテキストは、解決時に出力文字列にそのままコピーされます。
+>パラメーターリストのハンドル リテラルは、角かっこ `([])` で囲む必要があります。 置換文字列以外のテキストはすべて、解決中に出力文字列にそのままコピーされます。
 
 | **置換関数** | **戻り値** |
 |---|---|
 | `getFilePath([asset_handle>])` | アセットのプライマリソースファイルパス。 |
 | `getCatalogId([<asset_handle>])` | アセットのカタログ ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | アセットのメタデータ値。 |
-| `getThumbCatalogId([<asset_handle>])` | アセットのカタログ ID（画像ベースのアセットの場合のみ）。 関連付けられたサムアセットのカタログ ID（他のアセット用）。 関連するサムアセットが使用できない場合、この関数は空の文字列を返します。 |
+| `getThumbCatalogId([<asset_handle>])` | アセットのカタログ ID （画像ベースのアセットのみ）。 関連付けられたサムアセットのカタログ ID （他のアセット用）。 関連するサムアセットが使用できない場合、この関数は空の文字列を返します。 |
 
-**サンプルのメディア setDefinition 文字列**
+**サンプルの Media setDefinition 文字列**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
@@ -108,7 +108,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
 ```
 
-**出力 (createAssetSet)**
+**出力（createAssetSet）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|

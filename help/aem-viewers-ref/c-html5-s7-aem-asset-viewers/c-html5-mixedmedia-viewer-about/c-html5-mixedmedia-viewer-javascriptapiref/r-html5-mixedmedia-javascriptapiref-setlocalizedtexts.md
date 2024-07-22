@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: 混在メディアビューアの JavaScript API リファレンス。
+description: 混在メディアビューア用のJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-混在メディアビューアの JavaScript API リファレンス。
+混在メディアビューア用のJavaScript API リファレンス。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> オブジェクト</span>} ローカリゼーションデータを含む JSON オブジェクト。 </p> <p>詳しくは、 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション</a> を参照してください。 </p> <p>関連トピック <i>ビューア SDK ユーザーガイド</i> と例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> ローカリゼーションデータを含む {<span class="codeph"> Object</span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーショ </a> を参照してください。 </p> <p><i>Viewer SDK User Guide</i> も参照してください。また、オブジェクトのコンテンツに関する詳細については、例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1 つ以上のロケールのローカライゼーション SYMBOL 値を設定します。 このパラメーターは、の前に呼び出す必要があります `init()`.
+1 つまたは複数のロケールの SYMBOL 値を設定します。 このパラメーターは、`init()` 前に呼び出す必要があります。
 
-関連トピック [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae) も参照してください。
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

@@ -8,7 +8,7 @@ exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 13%
 
 構文
 
-## パラメータ {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | maskHandle | `xsd:string` | マスクハンドル。 |
 | name | `xsd:string` | マスク名。 |
 | maskPath | `xsd:string` | マスクの相対パス。 |
-| maskFile | `xsd:string` | マスクファイル. |
-| lastModified | `types:dateTime` | マスクが最後に変更された日付、時刻、およびタイムゾーン。 |
+| maskFile | `xsd:string` | ファイルをマスク。 |
+| lastModified | `types:dateTime` | マスクが最後に変更された日時およびタイムゾーン。 |

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>に設定 <span class="codeph"> 1 </span> をクリックして、「閉じる」ボタンを表示できるようにします。 または、に設定します。 <span class="codeph"> 0 </span> 「閉じる」ボタンを非表示にします。 </p> <p>「閉じる」ボタンは、タッチデバイスでのみサポートされます。デスクトップシステムでは表示できません。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">1 </span> に設定すると、「閉じる」ボタンの表示が有効になります。 または、<span class="codeph"> 0 </span> に設定すると、「閉じる」ボタンが非表示になります。 </p> <p>「閉じる」ボタンは、タッチデバイスでのみサポートされており、デスクトップシステムでは表示できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

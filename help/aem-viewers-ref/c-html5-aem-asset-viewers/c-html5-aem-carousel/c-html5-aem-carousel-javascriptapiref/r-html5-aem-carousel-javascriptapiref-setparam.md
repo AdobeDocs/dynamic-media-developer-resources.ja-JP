@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: カルーセルビューアのJavaScript APIリファレンス。
+description: カルーセルビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -8,33 +8,33 @@ exl-id: 0829933f-a90b-4066-9904-748f2a727169
 source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # setParam{#setparam}
 
-カルーセルビューアのJavaScript APIリファレンス。
+カルーセルビューアのJavaScript API リファレンス。
 
-` setParam( *`名前、値`*)`
+` setParam( *` 名前、値 `*)`
 
-ビューアのパラメータを指定した値に設定します。 パラメータは、ビューア固有の設定オプションまたはソフトウェア開発キット修飾子です。 このパラメータは`init()`の前に呼び出されます。
+ビューアパラメーターを指定した値に設定します。 パラメーターは、ビューア固有の設定オプションか、ソフトウェア開発キットの修飾子です。 このパラメーターは、`init()` 前に呼び出されます。
 
-ビューアの設定情報が`config` JSONオブジェクトを使用して渡された場合は、このメソッドはオプションです。
+ビューア設定情報が JSON オブジェクトとともにコンストラクターに渡された場合 `config` このメソッドはオプションです。
 
-[外部参照](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md)も参照してください。
+[xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md) も参照してください。
 
-## パラメータ {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
+## パラメーター {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの名前。 </p> </td>
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> の名前 </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーター </span> 名前。 </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value  </span> </span> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> {string}パラメ </span> ーターの値。値をパーセントでエンコードすることはできません。 </p> </td>
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string} パラメーターの </span> 値。 値はパーセント エンコードできません。 </p> </td>
   </tr>
  </tbody>
 </table>

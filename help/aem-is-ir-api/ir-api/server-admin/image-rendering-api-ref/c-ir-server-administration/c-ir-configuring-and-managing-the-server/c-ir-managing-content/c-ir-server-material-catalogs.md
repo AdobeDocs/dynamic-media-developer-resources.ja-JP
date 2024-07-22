@@ -1,7 +1,7 @@
 ---
-description: マテリアルカタログは、多くのイメージレンダリング設定を提供します。
+description: マテリアル カタログには、多くのイメージ レンダリング環境設定が用意されています。
 solution: Experience Manager
-title: マテリアルカタログ
+title: 材料カタログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c0b030b7-bcfb-4e6d-b74a-4533bdb801bf
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# マテリアルカタログ{#material-catalogs}
+# 材料カタログ{#material-catalogs}
 
-マテリアルカタログは、多くのイメージレンダリング設定を提供します。
+マテリアル カタログには、多くのイメージ レンダリング環境設定が用意されています。
 
-マテリアルカタログは、実際のファイルパスへの要求で使用されるビネットとマテリアル ID をマッピングし、マテリアルに関連付けられたすべてのメタデータを保存し、テンプレート用のコンテナを提供できます。 ICC プロファイルとコマンドマクロを追跡します。
+マテリアル カタログは、リクエストで使用されるビネットとマテリアル ID を実際のファイル パスにマッピングし、マテリアルに関連付けられたすべてのメタデータを保存して、テンプレートのコンテナを提供できます。 ICC プロファイルとコマンドマクロを追跡します。
 
-マテリアルカタログは、画像レンダリングの Java コンポーネント ( [!DNL Platform Server]) をクリックします。 カタログ属性ファイルには [!DNL .ini] サフィックスを付けて、登録済みのカタログフォルダ ([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7)) をクリックします。 既定のマテリアルカタログ ( [!DNL default.ini]) が常に存在し、画像サービングを正しく機能させるには、すべての属性を設定する必要があります。
+マテリアルカタログには、画像レンダリングの Java コンポーネント（と [!DNL Platform Server] 連配置）でのみアクセスできます。 カタログ属性ファイルには [!DNL .ini] の接尾辞を付け、登録されたカタログフォルダー（[ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7)）に配置する必要があります。 デフォルトの素材カタログ（[!DNL default.ini]）は常に存在し、画像サービングが正しく機能するようにすべての属性を入力する必要があります。

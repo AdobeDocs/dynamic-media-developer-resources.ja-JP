@@ -8,7 +8,7 @@ exl-id: 4f25112b-9e51-4a0e-9500-1b5ab0f4de87
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-コンポーネント領域内のスウォッチコンテナの内部整列（アンカー）を指定します。 スウォッチでは、内部のサムネールコンテナのサイズが調整され、全体数のスウォッチのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 このコマンドは、内部スウォッチコンテナをコンポーネント内に配置する方法を指定します。
+コンポーネント領域内のスウォッチコンテナの内部配置（アンカー）を指定します。 スウォッチでは、内部のサムネールコンテナのサイズが調整されて、整数のスウォッチのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間に何らかのパディングが生じます。 このコマンドは、内部スウォッチコンテナをコンポーネント内にどのように配置するかを指定します。
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> 水平スウォッチの整列を設定します。 </p> </td> 
+   <td> <p> 水平方向のスウォッチの配置を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td> <p> 垂直スウォッチの整列を設定します。 </p> </td> 
+   <td> <p> 垂直方向のスウォッチの配置を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-65be9301796240e38f31818229da7acc}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

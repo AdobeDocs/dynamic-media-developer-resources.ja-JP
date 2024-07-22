@@ -1,26 +1,26 @@
 ---
-description: ビネット識別子。 ビネットマップファイル内のレコードをサーバが検索するインデックスキー値。
+description: ビネット識別子。 ビネット マップ ファイル内のレコードがサーバーによって検索されるインデックス キー値です。
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic、SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
 # ID{#id}
 
-ビネット識別子。 ビネットマップファイル内のレコードをサーバが検索するインデックスキー値。
+ビネット識別子。 ビネット マップ ファイル内のレコードがサーバーによって検索されるインデックス キー値です。
 
-通常は、SKU番号など、短く一意の識別子。 また、ファイルパスのように見える、より複雑な文字列にすることもできます。
+通常は、SKU 番号などの短い一意の ID です。 また、ファイルパスのように見えるより複雑な文字列になる場合もあります。
 
 ## プロパティ {#section-267bbf34677e4401abbaf6fdce52191b}
 
-テキスト文字列。 必須。ビネットマップテーブルのプライマリインデックスキー。 各`vignette::Id`の値は、テーブル内で一意である必要があり、「,」文字を含めることはできません。
+テキスト文字列 必須。 ビネット マップ テーブルのプライマリ インデックス キーです。 各 `vignette::Id` 値は、テーブル内で一意である必要があり、「,」文字を含めることはできません。
 
 ## 初期設定 {#section-736d3419b19045efa00887cb595b0337}
 

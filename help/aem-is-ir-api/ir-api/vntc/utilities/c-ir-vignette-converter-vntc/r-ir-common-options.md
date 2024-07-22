@@ -1,76 +1,76 @@
 ---
 title: 共通オプション
-description: sourceFile のタイプに関係なく、次のオプションを適用できます。
+description: 次のオプションは、sourceFile のタイプに関係なく適用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # 共通オプション{#common-options}
 
-sourceFile のタイプに関係なく、次のオプションを適用できます。
+次のオプションは、sourceFile のタイプに関係なく適用できます。
 
 <table id="simpletable_3BFC3737C891411D84405CEEF6B19542"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> 文字列 </span> </span> </p> </td> 
-  <td class="stentry"> <p>出力ファイルを配置するフォルダー ( <span class="codeph"> -log </span> を指定した場合 )。 絶対パスまたは現在の作業ディレクトリへの相対パスを指定できます。 フォルダー階層は存在しない場合は作成されますが、で指定されたファイルには適用されません。 <span class="codeph"> -log </span>. 指定しなかった場合、出力ファイルは <span class="varname"> sourceFile </span> があります。 次の場合 <span class="varname"> destFile </span> が指定されている場合、常にその場所に書き込まれ、 <span class="codeph"> -destpath </span> セカンダリ出力ファイルにのみ適用されます。 </p> </td> 
+  <td class="stentry"> <p>出力ファイルを配置するフォルダ（– log </span> が指定されてい <span class="codeph"> 場合はログ・ファイルを含む）。 絶対パスまたは現在の作業ディレクトリへの相対パスを指定できます。 フォルダー階層は存在しない場合は作成されますが、-log </span> で指定したファイル <span class="codeph"> は適用されません。 指定しない場合、出力ファイルは <span class="varname"> sourceFile フ </span> イルが配置されているフォルダーに書き込まれます。 destFile </span> が指定され <span class="varname"> いる場合は、常にその場所に書き込まれ、-destpath </span><span class="codeph"> セカンダリ出力ファイルにのみ適用されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -イメージ </span> </p> </td> 
-  <td class="stentry"> <p>指定した場合、ビネットから（第 1）のビュー画像を抽出し、キャビネットスタイルから適切なパネル画像を抽出するか、窓カバースタイルの第 1 の照明画像を抽出する。 抽出された画像は、フル解像度の画像ファイルとしてTIFFされます。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> – 画像 </span> </p> </td> 
+  <td class="stentry"> <p>指定した場合、（最初の）ビューイメージがビネットから抽出され、適切なパネル イメージがキャビネット スタイルから抽出され、ウィンドウのカバースタイルの最初のイルミネーション イメージが抽出されます。 抽出された画像はフル解像度のTIFFファイルとして保存されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -info </span> </p> </td> 
-  <td class="stentry"> <p>ターゲットファイルの生成を防ぎます。 から属性をすばやく抽出するのに便利です。 <span class="varname"> sourceFile </span>. オプションのサムネール ( <span class="codeph"> -thumbwidth </span>)，画像 ( <span class="codeph"> -image </span>)、およびログファイル ( <span class="codeph"> -log </span>) が生成されます。 </p> </td> 
+  <td class="stentry"> <p>ターゲットファイルを生成できないようにします。 <span class="varname"> sourceFile フ </span> イルから属性をすばやく抽出する場合に役立ちます。 オプションのサムネール（<span class="codeph"> -thumbwidth </span>）、画像（<span class="codeph"> -image </span>）、ログファイル（<span class="codeph"> -log </span>）のみが生成されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>出力ファイルに埋め込まれたRGBおよびグレースケールの画像データに対して、可逆 PNG ではなく可逆JPEGエンコーディングを選択します。 アルファ (RGBA) を持つ画像は、常に PNG エンコーディングを使用して保存されます。 <span class="varname"> ival </span> JPEGの品質 (1...100) を指定します。85 以上が推奨されます。 デフォルトはです。 <span class="codeph"> -jpegquality 0 </span>:PNG エンコーディングを選択します。 </p> </td> 
+  <td class="stentry"> <p>出力ファイルに埋め込まれたRGBおよびグレースケール画像データに対して、可逆圧縮 PNG ではなく非可逆圧縮JPEGエンコーディングを選択します。 アルファ版（RGBA）の画像は、常に PNG エンコーディングを使用して保存されます。 <span class="varname"> ival </span> はJPEGの質を指定します（1...100）。85 以上を指定することをお勧めします。 デフォルトは <span class="codeph"> -jpegquality 0 </span> で、PNG エンコーディングが選択されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> パス </span> </span> </p> </td> 
-  <td class="stentry"> <p>指定されたパス/名前でログファイルを作成します。 保存先フォルダーに書き込まれるすべての出力ファイルのフルパスは、ログファイルと、バージョン情報や発生した警告やエラーなどの追加設定に書き込まれます ( <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> 出力 </a> を参照 )。 次の場合、ログファイルは作成されません。 <span class="codeph"> -log </span> が指定されていない場合、すべてのテキスト出力は <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> path </span> </span> </p> </td> 
+  <td class="stentry"> <p>指定されたパス/名前でログ ファイルを作成します。 出力先フォルダーに書き込まれるすべての出力ファイルの完全パスがログファイルおよび一部の追加設定（バージョン情報や発生した警告またはエラーなど）に書き込まれます（詳しくは、<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> Output </a> を参照してください）。 -log </span> が指定されていない場合 <span class="codeph"> ログファイルは作成されません。この場合、すべてのテキスト出力が <span class="codeph"> の stdout </span> に書き込まれます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>優先度を下げる <span class="filepath"> vntc </span> プロセス。 このプロセスを使用して、 <span class="filepath"> vntc </span> は、ビネットの処理中に CPU 全体を引き継ぐことはありません。 これにより、オペレーティングシステムは、より重要な他のプロセスにより多くの時間を割くことができます。 <span class="varname"> ival </span> 優先度の低い割合 (0..100) を指定します。 デフォルトはです。 <span class="codeph"> -lowerpriority 0 </span>: <span class="filepath"> vntc </span> プロセス。 </p> </td> 
+  <td class="stentry"> <p><span class="filepath"> vntc </span> プロセスの優先順位を下げます。 このプロセスは、ヴィネットを処理している間 <span class="filepath">vntc </span> が CPU 全体を占有しないようにするために使用できます。 これにより、オペレーティングシステムは他のより重要なプロセスにより多くの時間を与えることができます。 </span><span class="varname"> は、優先度の低い方の割合を指定します（0..100）。 デフォルトは <span class="codeph"> -lowerpriority 0 </span> で、<span class="filepath"> vntc </span> プロセスの優先順位は下がりません。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>メモリの最大容量を指定します。 <span class="filepath"> vntc </span> はバイト単位で使用できます。 条件 <span class="filepath"> vntc </span> 最大メモリ制限に達すると、処理が停止し、エラーが発生します。 The <span class="varname"> ival </span> 最大メモリ制限をバイト単位で指定します (0.. 3,758,096,384(3.5 GB)。 条件 <span class="varname"> ival </span> が 0 の場合、最大メモリ制限はオフになります。 デフォルトはです。 <span class="codeph"> -maxmem 3221225472 </span>：最大メモリ容量は 3 GB です。 </p> </td> 
+  <td class="stentry"> <p>vntc </span> ーバーが使用できるメモリ <span class="filepath"> 最大量をバイト単位で指定します。 vntc </span><span class="filepath"> 最大メモリ制限に達すると、処理が停止し、エラーが発生します。 <span class="varname"> ival </span> は、最大メモリ制限をバイト （0.. 3,758,096,384 （3.5 GB））。 ival </span> が 0<span class="varname"> 場合、最大メモリ制限はオフになります。 デフォルトは <span class="codeph"> -maxmem 3221225472 </span> です。これは、最大メモリ制限が 3 GB であることを意味します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -separator " <span class="varname"> 文字列 </span>" </span> </p> </td> 
-  <td class="stentry"> <p>自動生成される出力ファイル名のファイル名とサイズ/解像度サフィックスの間に配置する区切り文字を指定します。 指定しない場合のデフォルト値は「 — 」です。 次の場合は無視 <span class="varname"> destFile </span> または <span class="codeph"> -info </span> が指定されている。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -separator " <span class="varname"> string </span>" </span> </p> </td> 
+  <td class="stentry"> <p>自動生成された出力ファイル名について、ファイル名とサイズ/解像度の接尾辞の間に配置する区切り文字を指定します。 指定しない場合のデフォルトは「–」です。 destFile </span> または <span class="codeph"> -info </span> が指定されてい <span class="varname"> 場合は無視されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> シャープ <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>処理中に再サンプリング（拡大・縮小）された画像のシャープを有効にします。 キャビネット形式のファイルでのサムネールのシャープニングにのみ適用されます。 </p> <p>0 を指定するとシャープが無効（デフォルト）になり、1 を指定すると通常のシャープが有効になり、2 を指定すると明るさのみにアンシャープマスクが有効になり、3 を指定すると各カラーコンポーネントにアンシャープマスクが有効になります。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -sharpen <span class="varname"> ival </span> </span> </p> </td> 
+  <td class="stentry"> <p>処理中に再サンプリング（拡大/縮小）された画像のシャープニングを有効にします。 キャビネットスタイルのファイルのサムネールのシャープニングにのみ適用されます。 </p> <p>シャープを無効にする場合は 0 （デフォルト）、通常のシャープを有効にする場合は 1、明るさのみのアンシャープマスクを有効にする場合は 2、色の各成分のアンシャープマスクを有効にする場合は 3 を指定します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -tracelevel </span> </p> </td> 
-  <td class="stentry"> <p>ログレベルを設定します。 デフォルトは 1 で、すべての情報、警告およびエラーメッセージを出力します。 エラーメッセージ以外のすべてのメッセージを無効にするには、0 に設定します。 </p> </td> 
+  <td class="stentry"> <p>ログレベルを設定します。 デフォルトは 1 で、すべての情報、警告、およびエラーメッセージが出力されます。 0 に設定すると、エラーメッセージ以外はすべて無効になります。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> 量 </span> <span class="varname"> 半径 </span> <span class="varname"> しきい値 </span> </span> </p> </td> 
-  <td class="stentry"> <p>アンシャープマスクのパラメーターを設定します。 次の場合は無視 <span class="codeph"> シャープ </span> が 0 または 1 に設定されている場合は必須です。 <span class="codeph"> シャープ </span> が 2 または 3 に設定されている。 The <span class="varname"> 量 </span> は、0.0 ～ 500.0 の範囲の実数です。 <span class="varname"> 半径 </span> は 0.0 ～ 10.0 の範囲の実数値で、 <span class="varname"> しきい値 </span> は 0 ～ 255 の整数です。 詳しくは、 <span class="codeph"> op_usm= </span> （画像サービングプロトコルリファレンス）を参照してください。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> 半径 </span><span class="varname"></span> しきい値 <span class="varname"></span> </span> </p> </td> 
+  <td class="stentry"> <p>アンシャープマスクのパラメータを設定します。 -sharpen </span><span class="codeph">0 または 1 に設定されている場合は無視されます。-sharpen </span><span class="codeph">2 または 3 に設定されている場合は必須です。 <span class="varname"> 量 </span> は 0.0～500.0 の範囲の実数値、<span class="varname"> 半径 </span> は 0.0～10.0 の範囲の実数値、<span class="varname"> しきい値 </span> は 0～255 の整数です。 詳しくは <span class="codeph"> 画像サービングプロトコルリファレンスの op_usm= </span> の説明を参照してください。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>特定のビネットが適切な実稼動ビネットであることを検証します。 The <span class="varname"> ival </span> ビネットの最小ファイルバージョンを表します。 </p> </td> 
+  <td class="stentry"> <p>指定したビネットが適切な実稼動ビネットであることを検証します。 <span class="varname"> ival </span> は、ビネットの最小ファイルバージョンを表します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -version <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>出力ファイルのファイルバージョン。 指定する場合は、0 または有効なビネットファイルバージョン（デフォルトのファイルバージョン以下）を指定する必要があります。 0 に設定した場合、または指定しなかった場合、出力ファイルは最新のファイルバージョンを使用して作成されます。 次の場合は無視 <span class="codeph"> -info </span> が指定されている。 </p> </td> 
+  <td class="stentry"> <p>出力ファイルのファイルバージョン。 指定する場合は、0 または有効なヴィネットファイルバージョン （デフォルトのファイルバージョンを超えない）にする必要があります。 0 に設定した場合、または指定しなかった場合、出力ファイルは最新のファイル バージョンを使用して作成されます。 -info </span> が指定され <span class="codeph"> いる場合は無視されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -versioninfo </span> </p> </td> 
-  <td class="stentry"> <p>このユーティリティのバージョン情報を返します。 ファイル名やその他のオプションを指定せずに指定します。 </p> </td> 
+  <td class="stentry"> <p>このユーティリティのバージョン情報を返します。 ファイル名および他のオプションを指定せずに指定します。 </p> </td> 
  </tr> 
 </table>

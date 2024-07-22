@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 構文
 
-## 認証済みユーザータイプ {#section-1c15a74c41194744a81f5ca86fe26585}
+## 許可されているユーザータイプ {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,24 +29,24 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->ユーザーは、フォルダーとそのすべての子フォルダーに対する読み取りおよび削除アクセス権を持っている必要があります。
+>ユーザーには、フォルダーとそのすべての子に対する読み取りおよび削除アクセス権が必要です。
 
-## パラメータ {#section-a793c98a481a4f26ab50bc69b16b57e7}
+## パラメーター {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**入力 (deleteFolderParam)**
+**入力（deleteFolderParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | フォルダーが属する会社のハンドル。 |
-| folderHandle | `xsd:string` | はい | 削除するフォルダーのハンドル。 |
+| companyHandle | `xsd:string` | はい | フォルダーが属する会社へのハンドル。 |
+| folderHandle | `xsd:string` | はい | 削除するフォルダーへのハンドル。 |
 
-**出力 (deleteFolderParam)**
+**出力（deleteFolderParam）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-このサンプルコードでは、会社のルートからフォルダーを削除します。 別の操作から取得する必要があるフォルダーハンドルが必要です。
+このサンプルコードでは会社のルートからフォルダーを削除します。 別の操作から取得する必要があるフォルダーハンドルが必要です。
 
 **リクエスト**
 

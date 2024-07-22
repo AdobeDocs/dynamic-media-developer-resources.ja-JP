@@ -1,38 +1,38 @@
 ---
 title: FXG サーバープロトコル
-description: 基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
+description: グラフィックを操作するには、コンパス点と同様の参照点を使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 69%
+source-wordcount: '273'
+ht-degree: 18%
 
 ---
 
 # FXG サーバープロトコル{#fxg-server-protocol}
 
-基準点を使用してグラフィックを操作できます。基準点はコンパスの軸のように機能します。
+グラフィックを操作するには、コンパス点と同様の参照点を使用できます。
 
-基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は `northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast` です。 たとえば、中心の基準点を使用すると、グラフィックを中心に 45 °回転できます。 次の図は、基準点の位置、図、`northWest` 基準点から 20°回転した図、`east` 基準点から 20°回転した図を示しています。
+基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は、`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast` です。 例えば、中心基準点を使用すると、グラフィックをその中心で 45 度回転できます。 次の図に、基準点の位置、グラフィック、`northWest` の基準点から 20°回転したグラフィック、および `east` の基準点から 20°回転したグラフィックを示します。
 
-![基準点のイメージ](assets/wp_ref_points.png)
+![ 基準点の画像 ](assets/wp_ref_points.png)
 
-* A.基準点の位置
-* ロ。図
-* C.図形が `northWest` 基準点から 20°回転した状態
-* D.図形が `east` 基準点から 20°回転した状態
+* A.参照点の位置
+* ロ。グラフィック
+* C. グラフィックが `northWest` の基準点から 20°回転します
+* D. グラフィックが `east` の基準点から 20 度回転します
 
 構文を次に示します。
 
 `referencePoint <string> (northWest, north, northEast, west, center, east, southWest, south, southEast, none, inherit)`
 
-初期設定値は none です。`inherit` 値は、`s7:referencePoint` でない場合に、ページまたはグループレベルの最上位からすべての子に `none` 値を渡します。`none` に設定した場合は、オブジェクトに基準点がなく、FXG 座標系が使用されていることを示します。
+デフォルト値は「なし」です。 `inherit` の値は、`none` でない限り、ページまたはグループレベルの最上位からすべての子に `s7:referencePoint` の値を渡します。 `none` の設定は、オブジェクトの基準点がなく、FXG 座標系が使用されることを意味します。
 
 >[!NOTE]
 >
 >基準点を使用し、操作後にオブジェクトが移動しないようにするには、操作した後でオブジェクトの x と y の値を更新します。
 
-`s7:referencePoint`   の値をグループ（またはパス、Line 要素または明確な幅と高さの定義がない任意の要素）とともに使用する場合は、値がグループの累積バウンディングボックスに適用されます。例えば、グループ内のすべてのオブジェクトのバウンディングボックスの左上の点はグループの `northWest` 基準点として機能し、右下の点は `southEast` 基準点として機能します。
+`s7:referencePoint` の値がグループ（または、パス、線要素、または明示的な幅と高さの定義を持たない要素）で使用されている場合、その値はグループの累積境界ボックスに適用されます。 たとえば、グループ内のすべてのオブジェクトの境界ボックスの左上の点は、グループの `northWest` の基準点として機能します。右下の点は、`southEast` の基準点として機能します。

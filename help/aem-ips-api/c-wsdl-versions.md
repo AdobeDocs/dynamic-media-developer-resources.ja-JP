@@ -1,5 +1,5 @@
 ---
-description: IPS Web サービスは、IPS Web サービスコンポーネントがインストールされている IPS インストールからアクセスされる WSDL (Web Services Description Language) ドキュメントのセットによってサポートされます。 各 IPS API リリースには、バージョン管理されたターゲット XML 名前空間を参照する新しい WSDL ファイルが含まれています。 以前の WSDL 名前空間バージョンも、既存のアプリケーションとの下位互換性を保つためにサポートされていました。
+description: IPS Web サービスは、IPS Web サービスコンポーネントがインストールされている IPS インストールからアクセスする WSDL （Web Services Description Language） ドキュメントのセットによってサポートされています。 各 IPS API リリースには、バージョン管理されたターゲット XML 名前空間を参照する新しい WSDL ファイルが含まれています。 既存のアプリケーションとの下位互換性を保つために、以前のバージョンの WSDL 名前空間もサポートされています。
 solution: Experience Manager
 title: IPS Web サービス WSDL のバージョン
 feature: Dynamic Media Classic,SDK/API
@@ -7,41 +7,41 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '901'
+ht-degree: 0%
 
 ---
 
 # IPS Web サービス WSDL のバージョン{#ips-web-service-wsdl-versions}
 
-IPS Web サービスは、IPS Web サービスコンポーネントがインストールされている IPS インストールからアクセスされる WSDL (Web Services Description Language) ドキュメントのセットによってサポートされます。 各 IPS API リリースには、バージョン管理されたターゲット XML 名前空間を参照する新しい WSDL ファイルが含まれています。 以前の WSDL 名前空間バージョンも、既存のアプリケーションとの下位互換性を保つためにサポートされていました。
+IPS Web サービスは、IPS Web サービスコンポーネントがインストールされている IPS インストールからアクセスする WSDL （Web Services Description Language） ドキュメントのセットによってサポートされています。 各 IPS API リリースには、バージョン管理されたターゲット XML 名前空間を参照する新しい WSDL ファイルが含まれています。 既存のアプリケーションとの下位互換性を保つために、以前のバージョンの WSDL 名前空間もサポートされています。
 
 ## WSDL アクセス {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-次に示すように、Scene7 WSDL にアクセスします。
+Scene7 WSDL にアクセスします（下図を参照）。
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-のデフォルト値 `<IPS_webapp>` 次に該当 `scene7`.
+`<IPS_webapp>` のデフォルト値は `scene7` です。
 
 **サービスの場所**
 
-サービス URL は、IPS Web Service WSDL ドキュメントのサービスセクションで指定されます。 サービス URL は、通常、次の形式です。
+サービス URL は、IPS web サービス WSDL ドキュメントのサービスセクションで指定されます。 サービス URL は、通常、次の形式で指定します。
 
 ```
 https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/ 
 services/IpsApiService 
 ```
 
-**Dynamic Media地域のアクセス URL**
+**Dynamic Media リージョンのアクセス URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>地域 </p> </th> 
+   <th colname="col1" class="entry"> <p>地理的位置 </p> </th> 
    <th colname="col2" class="entry"> <p>実稼動 URL </p> </th> 
    <th colname="col3" class="entry"> <p>ステージング URL （実稼動前の開発およびテストに使用） </p> </th> 
   </tr> 
@@ -67,7 +67,7 @@ services/IpsApiService
 
 ## サポートされる WSDL {#section-ebbba69880f94e9c823f1147974eb404}
 
-最新バージョンの IPS API で機能を使用する場合は、コードの変更が必要になる場合があります。 IPS API は、次のバージョンの WSDL をサポートしています。
+最新バージョンの IPS API の機能を使用する場合は、コードを変更する必要がある場合があります。 IPS API では、次のバージョンの WSDL がサポートされています。
 
 <table id="table_6FABCC4E7786448CB56C343E3C0B36CA"> 
  <thead> 
@@ -114,36 +114,36 @@ services/IpsApiService
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 以前 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
+   <td colname="col1"> <p>4.0 より前 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-新機能を使用するために変更が必要な既存のアプリケーションは、最新の API バージョンにアップグレードする必要があり、既存のコードを変更する必要がある場合があります。 詳細は、変更ログを参照してください。
+新しい機能を使用するために変更が必要な既存のアプリケーションは、最新の API バージョンにアップグレードする必要があり、既存のコードを変更する必要が生じる場合があります。 詳しくは、変更ログを参照してください。
 
 ## SOAP {#section-51e7ecbd1d7f451b9e4f6bf7e1579cae}
 
-**連結**
+**バインディング**
 
-IPS API Web サービスは、SOAP バインディングのみをサポートします。
+IPS API web サービスは、SOAP バインディングのみをサポートしています。
 
 **サポートされるトランスポート**
 
-IPS API SOAP バインディングは、HTTP トランスポートのみをサポートしています。 HTTPS リクエストメソッドを使用して、すべての SOAPPOSTを実行します。
+IPS API のSOAP バインディングは、HTTP トランスポートのみをサポートしています。 すべてのSOAP リクエストは HTTPS POST方式を使用して行います。
 
 **SOAP アクションヘッダー**
 
-要求を処理するには、SOAPAction HTTP ヘッダーに要求された操作の名前を設定します。 WSDL 結合セクションの操作名属性で、名前を指定します。
+リクエストを処理するには、SOAPAction HTTP ヘッダーをリクエストされた操作の名前に設定します。 WSDL 結合セクションの操作名属性が名前を指定します。
 
 **メッセージの形式**
 
-document/literal スタイルは、XML スキーマ定義言語 ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) をクリックし、WSDL ファイルで指定します。 すべての型には、WSDL ファイルで指定されたターゲット名前空間の値を使用して修飾名が必要です。
+ドキュメント/リテラルスタイルは、XML スキーマ定義言語（[https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)）に基づき、WSDL ファイルで指定された型を持つすべての入力および出力メッセージで使用されます。 すべてのタイプには、WSDL ファイルで指定されたターゲット名前空間の値を使用して、修飾名が必要です。
 
 **認証をリクエスト**
 
-API リクエストに認証資格情報を渡す推奨される方法は、 `authHeader` 要素が IPS API WSDL で定義されている。
+API リクエストで認証資格情報を渡すための推奨される方法は、IPS API WSDL で定義された `authHeader` 要素を使用することです。
 
 ```
 <element name="authHeader"> 
@@ -172,39 +172,39 @@ API リクエストに認証資格情報を渡す推奨される方法は、 `au
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ユーザ </span> </p> </td> 
-   <td colname="col2"> <p> 有効な IPS ユーザ電子メール。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> user </span> </p> </td> 
+   <td colname="col2"> <p> 有効な IPS ユーザーメール。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パスワード </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> password </span> </p> </td> 
    <td colname="col2"> <p>ユーザーアカウントのパスワード。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> 要求のオプションのロケールです。 詳しくは、 <b>ロケール</b> 」を参照してください。 </p> </td> 
+   <td colname="col2"> <p> リクエストのオプションのロケール。 詳しくは、<b> ロケール </b> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
-   <td colname="col2"> <p> アプリケーション名を呼び出しています。 このパラメーターはオプションですが、すべてのリクエストに含めることをお勧めします。 </p> </td> 
+   <td colname="col2"> <p> 呼び出し元のアプリケーション名。 このパラメーターはオプションですが、すべてのリクエストに含めることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
    <td colname="col2"> <p> アプリケーションのバージョンを呼び出しています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
-   <td colname="col2"> <p> 応答 XML の gzip 圧縮を有効または無効にするオプションのフラグです。 デフォルトでは、HTTP Accept-Encoding ヘッダーが gzip のサポートを示している場合、応答は gzip 形式で圧縮されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> </p> </td> 
+   <td colname="col2"> <p> 応答 XML の gzip 圧縮を有効または無効にするオプションのフラグ。 HTTP Accept-Encoding ヘッダーが gzip のサポートを示している場合、デフォルトでは、応答は gzip で圧縮されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 障害応答の HTTP ステータスコードを上書きするオプションのパラメーターです。 デフォルトでは、障害応答は HTTP ステータスコード 500（内部サーバーエラー）を返します。 AdobeFlashを含む一部のクライアントプラットフォームは、ステータスコード 200(OK) が返されない限り、応答本文を読み取れません。 </p> </td> 
+   <td colname="col2"> <p> 障害応答の HTTP ステータスコードを上書きするオプションのパラメーター。 デフォルトでは、障害応答は HTTP ステータスコード 500 （内部サーバーエラー）を返します。 AdobeFlashを含む一部のクライアントプラットフォームでは、ステータスコード 200 （OK）が返されない限り、応答本文を読み取ることができません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-The `authHeader` 要素は常に名前空間で定義されます `http://www.scene7.com/IpsApi/xsd`（API バージョンとは無関係）
+`authHeader` 要素は、API のバージョンに関係なく、常に名前空間 `http://www.scene7.com/IpsApi/xsd` で定義されます。
 
-次に、 `authHeader` 要素が SOAP 要求ヘッダーに含まれている：
+リクエスト SOAP ヘッダーで `authHeader` 要素を使用する例を次に示します。
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ The `authHeader` 要素は常に名前空間で定義されます `http://www.sc
 
 **その他のリクエスト認証方法**
 
-何らかの理由でクライアントアプリケーションが `authHeader` SOAP ヘッダー、API リクエストは、HTTP 基本認証（RFC 2617 で指定）を使用して資格情報を指定することもできます。
+何らかの理由でクライアントアプリケーションが `authHeader` SOAP ヘッダーを渡すことができない場合、API リクエストは、HTTP 基本認証（RFC 2617 で指定）を使用して資格情報を指定することもできます。
 
-HTTP Basic 認証の場合、各 SOAP 認証要求の HTTP ヘッダーセクションには、次の形式のPOSTを含める必要があります。
+HTTP 基本認証の場合、各SOAPPOSTリクエストの HTTP ヘッダーセクションには、次の形式のヘッダーを含める必要があります。
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-ここで、 `base64()` は、標準の Base64 エンコーディングを適用します。 `<IPS_user_email>` は、有効な IPS ユーザの電子メールアドレス、および `<password>` は、ユーザーのパスワードです。
+`base64()` は標準の Base64 エンコーディングを適用します。`<IPS_user_email>` は有効な IPS ユーザーのメールアドレスで、`<password>` はユーザーのパスワードです。
 
-最初のリクエストで事前に Authorization ヘッダーを送信します。 リクエストに認証資格情報が含まれていない場合、 `IpsApiService` 次のステータスコードで応答しない： `401 (Unauthorized)`. 代わりに、 `500 (Internal Server Error)` は、リクエストが認証できなかったことを示す SOAP フォルト本文と共に返されます。
+最初のリクエストで Authorization ヘッダーを事前に送信します。 認証資格情報がリクエストに含まれていない場合、`IpsApiService` はステータスコード `401 (Unauthorized)` で応答しません。 代わりに、`500 (Internal Server Error)` のステータスコードが、リクエストを認証できなかったことを示すSOAP フォールト本文と共に返されます。
 
-IPS 3.8 以前は、SOAP ヘッダーによる認証は、 `AuthUser` および `AuthPassword` 名前空間の要素 `http://www.scene7.com/IpsApi`. 以下に例を挙げます。
+IPS 3.8 以前は、名前空間 `http://www.scene7.com/IpsApi` の `AuthUser` 要素と `AuthPassword` 要素を使用して、SOAP Header を介した認証が実装されていました。 以下に例を挙げます。
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ IPS 3.8 以前は、SOAP ヘッダーによる認証は、 `AuthUser` および 
 </soap:Header>
 ```
 
-このスタイルは後方互換性のために引き続きサポートされますが、非推奨（廃止予定）となり、 `authHeader` 要素を選択します。
+このスタイルは後方互換性のために引き続きサポートされますが、`authHeader` 要素を優先して非推奨になりました。
 
-**認証をリクエスト**
+**リクエストの認証**
 
-呼び出し元の資格情報が認証されると、リクエストがチェックされ、呼び出し元がリクエストされた操作を実行する権限を持っているかが確認されます。 認証は、呼び出し元のユーザーの役割に基づいており、ターゲットの会社、ターゲットのユーザー、その他の操作パラメーターの確認も必要になる場合があります。 また、画像ポータルユーザーは、特定のフォルダーおよびアセット操作を実行するために必要な権限を持つグループに属している必要があります。 操作のリファレンスの節では、各操作の認証要件の詳細を説明します。
+呼び出し元の資格情報が認証されると、リクエストがチェックされ、呼び出し元がリクエストされた操作を実行する権限を持っていることが確認されます。 認証は呼び出し元のユーザーの役割に基づいており、ターゲットの会社、ターゲットユーザー、その他の操作パラメーターの確認が必要になる場合もあります。 また、Image Portal ユーザーは、特定のフォルダーおよびアセット操作を実行するために必要な権限を持つグループに属している必要があります。 操作のリファレンスセクションでは、各操作の認証要件の詳細を説明します。
 
 **SOAP リクエストと応答のサンプル**
 
-次の例は、完全な `addCompany` 操作（HTTP ヘッダーを含む）:
+次の例は、HTTP ヘッダーを含む、完全な `addCompany` 操作を示しています。
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -273,7 +273,7 @@ Content-Type: text/xml; charset=UTF-8
  </soapenv:Envelope>
 ```
 
-対応する応答は次のようになります。
+対応する応答：
 
 ```
 HTTP/1.1 200 OK 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**SOAP 障害**
+**SOAP フォールト**
 
-操作で例外条件が発生した場合、SOAP 障害が通常の応答の代わりに SOAP メッセージの本文として返されます。 例えば、管理者以外のユーザーが `addCompany` リクエストの場合、次の応答が返されます。
+オペレーションが例外条件に遭遇すると、通常のレスポンスの代わりにSOAPフォルトがSOAPメッセージの本文として返されます。 例えば、管理者以外のユーザーが前の `addCompany` リクエストを送信しようとすると、次の応答が返されます。
 
 ```
 HTTP/1.1 500 Internal Server Error 

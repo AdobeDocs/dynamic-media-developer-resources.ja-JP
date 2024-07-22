@@ -8,7 +8,7 @@ exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 14%
 
 構文
 
-## 認証済みユーザータイプ {#section-ae926c7672984be79f6102748accab72}
+## 許可されているユーザータイプ {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-0e925b91d63e48aa91f0b0014e6a0cab}
+## パラメーター {#section-0e925b91d63e48aa91f0b0014e6a0cab}
 
-**入力 (addCompanyMembershipParam)**
+**入力（addCompanyMembershipParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | メンバーシップを追加するユーザーのハンドル。 |
+| userHandle | `xsd:string` | いいえ | メンバーシップを追加するユーザーへのハンドル。 |
 | membershipArray | `types:CompanyMembershipUpdateArray` | はい | ユーザーを追加する会社の配列。 |
 
-**出力 (addCompanyMembershipReturn)**
+**出力（addCompanyMembershipReturn）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-5469f88bac7047cca131faa6b021e437}
 

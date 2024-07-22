@@ -4,10 +4,11 @@ description: スマート切り抜きビデオビューアの URL コマンド�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 11%
 
 ---
 
@@ -21,15 +22,15 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部ビデオの絶対 URL です。 </p> </td> 
+   <td colname="col2"> <p> 外部ビデオの絶対 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。( `asset` パラメーターが使用されます。 詳しくは、 [外部ビデオのサポート]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+必須。 （パラメーター `asset` 使用していない場合）。 [ 外部ビデオのサポート ] を参照してください。
+（../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3）。）
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

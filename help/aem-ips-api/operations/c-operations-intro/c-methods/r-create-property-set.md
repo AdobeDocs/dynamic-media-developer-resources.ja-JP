@@ -1,5 +1,5 @@
 ---
-description: プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを 1 つのオブジェクトにアタッチできず (PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類の関連セットが存在する場合は、既存のセットが新しいセットに置き換えられます。
+description: プロパティ セットは、プロパティ セットの種類に応じて、さまざまな IPS オブジェクトにアタッチできる名前と値のペアのアプリケーション固有のセットです。 プロパティ セット タイプによって、オブジェクトに複数のセットをアタッチできない（PropertySetType/allowMultipleisfalse）状態で、オブジェクトに同じタイプのセットが既に関連付けられている場合は、新しいセットが既存のセットに置き換わります。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # createPropertySet{#createpropertyset}
 
-プロパティセットは、プロパティセットの種類に応じて、様々な IPS オブジェクトにアタッチできる、アプリケーション固有の名前と値のペアのセットです。 プロパティセットの種類で、複数のセットを 1 つのオブジェクトにアタッチできず (PropertySetType/allowMultipleisfalse)、オブジェクトに既に同じ種類の関連セットが存在する場合は、既存のセットが新しいセットに置き換えられます。
+プロパティ セットは、プロパティ セットの種類に応じて、さまざまな IPS オブジェクトにアタッチできる名前と値のペアのアプリケーション固有のセットです。 プロパティ セット タイプによって、オブジェクトに複数のセットをアタッチできない（PropertySetType/allowMultipleisfalse）状態で、オブジェクトに同じタイプのセットが既に関連付けられている場合は、新しいセットが既存のセットに置き換わります。
 
 構文
 
-## 認証済みユーザータイプ {#section-f9b6187ba636475787c997fc27bb192a}
+## 許可されているユーザータイプ {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,25 +27,25 @@ ht-degree: 7%
 
 ## パラメーター {#section-25258e75f5f3419bad165c797eb6cd8e}
 
-**入力 (createPropertySetParam)**
+**入力（createPropertySetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | はい | プロパティセットタイプのハンドル。 |
-| primaryOwnerHandle | `xsd:string` | はい | プロパティセットのプライマリ所有者へのハンドル。 |
-| secondaryOwnerHandle | `xsd:string` | いいえ | プロパティセットのセカンダリ所有者へのハンドル。 |
+| typeHandle | `xsd:string` | はい | プロパティセットタイプへのハンドル。 |
+| primaryOwnerHandle | `xsd:string` | はい | プロパティ セットのプライマリ所有者へのハンドル。 |
+| secondaryOwnerHandle | `xsd:string` | いいえ | プロパティ セットのセカンダリ所有者へのハンドル。 |
 | propertyArray | `types:PropertyArray` | はい | プロパティの配列。 |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
 
-**出力 (createPropertySetParam)**
+**Output （createPropertySetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | はい | 新しいプロパティセットへのハンドル。 |
+| setHandle | `xsd:string` | はい | 新しいプロパティ セットへのハンドル。 |
 
 ## 例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-このコードのサンプルを使用すると、プロパティの名前と値を含むプロパティセットを作成できます。 応答は、新しいプロパティセットにハンドルを返します。
+このコード例では、プロパティの名前と値を含むプロパティセットを作成します。 応答は、新しいプロパティセットへのハンドルを返します。
 
 **リクエスト**
 

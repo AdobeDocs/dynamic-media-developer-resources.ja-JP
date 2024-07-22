@@ -1,5 +1,5 @@
 ---
-title: すべてのビューアに共通のコマンドリファレンス — 設定属性
+title: すべてのビューアに共通のコマンドリファレンス – 設定属性
 description: すべてのビューアに共通の設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# すべてのビューアに共通のコマンドリファレンス — 設定属性{#command-reference-common-to-all-viewers-configuration-attributes}
+# すべてのビューアに共通のコマンドリファレンス – 設定属性{#command-reference-common-to-all-viewers-configuration-attributes}
 
 すべてのビューアに共通の設定属性。

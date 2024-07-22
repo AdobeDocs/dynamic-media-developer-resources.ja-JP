@@ -8,7 +8,7 @@ exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 20%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->このコマンドは、ビデオ画像ビューアには適用されません。
+>このコマンドはビデオ画像ビューアには適用されません。
 
 ` config2= *`companypreset`*`
 
@@ -26,14 +26,14 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>設定プリセットの名前。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span> 設定プリセットの名前。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-10ee45d637134e0fbcd943c62578cb78}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-d411e450028c460392cb8508f8ccc5d9}
 

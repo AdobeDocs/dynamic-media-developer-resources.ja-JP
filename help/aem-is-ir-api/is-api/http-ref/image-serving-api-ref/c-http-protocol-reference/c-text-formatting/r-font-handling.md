@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 RTF 文字列で参照されるすべてのフォントは、デフォルトのカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
 
-斜体および太字テキストの最高品質は、対応するフォントファイルを登録することで達成されます。 使用できない場合、サーバは標準面から太字や斜体のフォントを合成できます。 ( 詳しくは、 [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+斜体や太字のテキストの最高品質は、対応するフォントファイルを登録することによって達成されます。 使用できない場合、サーバーは標準の書体から太字や斜体の書体を合成できます。 （[attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md) を参照。
 
-指定されたフォントの種類 `attribute::DefaultFont` は、RTF 文字列で明示的に何も指定されていない場合に使用されます。
+`attribute::DefaultFont` で指定されたフォントフェイスは、RTF 文字列で指定されていない場合に使用されます。
 
-画像サービングは、TrueType、OpenType®、Adobe Type1（Windows のみ）のフォントをサポートしています。
+画像サービングは、TrueType、OpenType®、Adobe Type 1 （Windows のみ）フォントをサポートしています。
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## 関連項目 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[フォントマップリファレンス](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[ フォントマップ参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)、[attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)、[attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

@@ -1,6 +1,6 @@
 ---
-title: 資料
-description: '[ イメージレンダリング ] は、ビネット内のグループまたはオブジェクトにマテリアルを適用します。'
+title: 素材
+description: イメージ レンダリングは、ビネット内のグループまたはオブジェクトにマテリアルを適用します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# 資料{#materials}
+# 素材{#materials}
 
-[ イメージレンダリング ] は、ビネット内のグループまたはオブジェクトにマテリアルを適用します。
+イメージ レンダリングは、ビネット内のグループまたはオブジェクトにマテリアルを適用します。
 
-マテリアルは、 *属性*. 一部の属性は、特定の材料に対して必要なものや、オプションの属性、存在する場合は無視される属性があります。 多くの属性にはデフォルト値があります。 すべてのマテリアルをすべてのオブジェクトに適用できるわけではありません（たとえば、キャビネットのマテリアルをソファに適用することはできません）。
+マテリアルは、一連の *属性* で構成されます。 特定のマテリアルに必須の属性もあれば、オプションの属性もあり、存在する場合は無視される属性もあります。 多くの属性にはデフォルト値があります。 すべてのマテリアルがすべてのオブジェクトに適用できるわけではありません（たとえば、キャビネット マテリアルはソファに適用できません）。
 
-MSS(Material Specification Segment) 内で発生するが、上記または以下の特定の材料テーブルにリストされていない属性は、サーバーでは無視されます。
+材料仕様セグメント （MSS）内に存在するが、上または下の特定の材料表にリストされていない属性は、サーバーによって無視されます。
 
-次の表に、基本的なマテリアル属性を示します。 IR は、制御用の追加の属性をサポートします [高度なレンダリング効果](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281).
+次の表に、基本的な材料属性を示します。 赤外線は、制御する追加のアトリビュート [ 高度なレンダリング エフェクト ](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281) をサポートします。
 
-特に断りのない限り、すべてのマテリアル属性はオプションで、適切なデフォルト値を持ちます。
+特に明記されていない限り、すべてのマテリアル属性はオプションで、適切な既定値が設定されています。
 
-* [べた塗り](r-ir-solid-colors.md)
-* [繰り返し可能なテクスチャ](r-ir-repeatable-textures.md)
+* [単色](r-ir-solid-colors.md)
+* [反復可能なテクスチャ](r-ir-repeatable-textures.md)
 * [壁の境界](r-ir-wall-borders.md)
-* [デカル](r-ir-decals.md)
+* [デカール](r-ir-decals.md)
 * [キャビネット](r-ir-cabinets.md)
-* [ウィンドウカバリング](r-ir-window-coverings.md)
+* [窓の覆い](r-ir-window-coverings.md)

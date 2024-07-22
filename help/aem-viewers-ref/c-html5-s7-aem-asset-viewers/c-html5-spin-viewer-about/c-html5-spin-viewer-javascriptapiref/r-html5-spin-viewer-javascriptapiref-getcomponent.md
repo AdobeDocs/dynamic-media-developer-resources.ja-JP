@@ -1,34 +1,34 @@
 ---
 title: getComponent
-description: スピンビューアの JavaScript API リファレンス
+description: スピンビューアのJavaScript API リファレンス
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f0cb5a99-814f-4c4d-bfe3-bb670c8f9926
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-スピンビューアの JavaScript API リファレンス
+スピンビューアのJavaScript API リファレンス
 
 `getComponent(componentId)`
 
-ビューアで使用される Viewer SDK コンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準提供ビューアの動作を拡張またはカスタマイズできます。 このメソッドを呼び出すのは、 `initComplete` ビューアのコールバックが実行された。実行されなかった場合、ビューアのロジックによってコンポーネントがまだ作成されていない可能性があります。
+ビューアが使用する Viewer SDK コンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは `initComplete` ビューアコールバックが実行された後にのみ呼び出します。それ以外の場合、コンポーネントはビューアロジックによってまだ作成されていない可能性があります。
 
-## パラメータ {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
+## パラメーター {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` ビューアで使用されるビューア SDK コンポーネントの ID。 このビューアでは、次のコンポーネント ID がサポートされています。
+`*`componentID`*` - ビューアが使用する Viewer SDK コンポーネントの ID を `{String}` します。 このビューアは、次のコンポーネント ID をサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>コンポーネント ID </p> </th> 
-   <th colname="col2" class="entry"> <p>ビューア SDK のコンポーネントのクラス名 </p> </th> 
+   <th colname="col2" class="entry"> <p>ビューア SDK コンポーネントのクラス名 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -79,13 +79,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK API を操作する場合は、「 [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef).
+SDK API を使用する場合は、[Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef) に記載されているように、正しい完全修飾 SDK 名前空間を使用することが重要です。
 
-特定のコンポーネントについて詳しくは、 Viewer SDK API のドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、Viewer SDK API ドキュメントを参照してください。
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Viewer SDK コンポーネントへのリファレンス。 メソッドはを返します。 `null` ( `componentId` はサポートされていないビューアコンポーネントです。または、ビューアのロジックによってコンポーネントがまだ作成されていない場合も同様です。
+`{Object}` Viewer SDK コンポーネントへのリファレンスです。 `componentId` がサポートされているビューアコンポーネントでない場合や、コンポーネントがまだビューアロジックで作成されていない場合、メソッドは `null` を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

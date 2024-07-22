@@ -1,6 +1,6 @@
 ---
 title: フォーカスのハイライト
-description: フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライト。
+description: フォーカスされたビューアのユーザーインターフェイス要素の周囲に表示された入力フォーカスハイライト。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 # フォーカスのハイライト{#focus-highlight}
 
-フォーカスされたビューアのユーザインターフェイス要素の周囲に表示される入力フォーカスのハイライト。
+フォーカスされたビューアのユーザーインターフェイス要素の周囲に表示された入力フォーカスハイライト。
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-フォーカスハイライトの外観は、以下の CSS クラスセレクターを使用して制御します。
+フォーカスハイライトの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer *:focus
 ```
 
-**フォーカスハイライトの CSS プロパティ**
+**フォーカスハイライト表示の CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 概要 </span> </p> </td> 
-   <td colname="col2"> <p> フォーカスのハイライトのスタイル。 </p> </td> 
+   <td colname="col2"> <p> フォーカスハイライトのスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — すべてのビューアユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、ビューアのスタイルシートに次の CSS セレクターを追加します。
+例 – すべてのビューアのユーザーインターフェイス要素に対してデフォルトのブラウザーフォーカスハイライトを無効にするには、ビューアのスタイルシートに次の CSS セレクターを追加します。
 
 ```
 .s7ecatalogviewer *:focus { 

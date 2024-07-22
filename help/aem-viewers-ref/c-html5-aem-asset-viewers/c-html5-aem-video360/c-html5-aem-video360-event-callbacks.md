@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
 # イベントコールバック{#event-callbacks}
 
-ビューアでは、Web ページでビューアの初期化プロセスや実行時の動作の追跡に使用される JavaScript イベントコールバックがサポートされています。
+ビューアは、JavaScript イベントコールバックをサポートしています。このコールバックは、web ページで、ビューアの初期化プロセスやランタイムの動作のトラッキングに使用されます。
 
-コールバックハンドラーを割り当てるには、イベント名と `handlers` プロパティを持つ対応するハンドラー関数を、ビューアのコンストラクター内の `config` JSON オブジェクトに渡します。 または、`setHandlers()` API メソッドを使用することもできます。
+コールバックハンドラーは、`handlers` プロパティを持つイベント名と対応するハンドラー関数をビューアのコンストラクター内 `config`JSON オブジェクトに渡すことによって割り当てられます。 または、API メソッドを使用するこ `setHandlers()` もできます。
 
-サポートされるビューアイベントは次のとおりです。
+次のビューアイベントがサポートされています。
 
-* `initComplete`  — ビューアの初期化が完了し、すべての内部コンポーネントが作成されたら、API を使用できるように `getComponent()` します。コールバックハンドラーは引数を取りません。
-* `trackEvent` - Adobe Analyticsなどのイベントトラッキングシステムで処理できるイベントがビューア内で発生するたびにトリガーされます。コールバックハンドラーは次の引数を取ります。
+* `initComplete` - ビューアの初期化が完了し、すべての内部コンポーネントが作成されて API を使用できるようになっ `getComponent()` ときのトリガー。 コールバックハンドラーは引数を取りません。
+* `trackEvent` - ビューア内でイベントが発生するたびに発生するトリガーです。Adobe Analyticsなど、イベントトラッキングシステムで処理される可能性があります。 コールバックハンドラーは次の引数を取ります。
 
-   * `objID {String}` 現在は使用されていません。
-   * `compClass {String}` 現在は使用されていません。
-   * `instName {String}` イベントをトリガーしたHTML5 ビューア SDK コンポーネントのインスタンス名。
-   * `timeStamp {Number}` イベントのタイムスタンプ。
-   * `eventInfo {String}` イベントペイロード。
+   * `objID {String}` は現在使用されていません。
+   * `compClass {String}` は現在使用されていません。
+   * イベントをトリガーしたHTML5 ビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベ `timeStamp {Number}` トタイムスタンプ。
+   * イベ `eventInfo {String}` トペイロード。
 
 [Video360Viewer](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md#reference-bd16cadc0c054fafb0db4994741d47cd) および [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643) も参照してください。

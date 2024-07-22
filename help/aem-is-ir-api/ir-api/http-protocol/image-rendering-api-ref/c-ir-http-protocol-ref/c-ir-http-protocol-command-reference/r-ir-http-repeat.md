@@ -97,7 +97,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>エッジランダム化。 </p> </td> 
+  <td class="stentry"> <p>Edgeランダム化ツール。 </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 初期設定 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`マテリアルがカタログエントリに基づいている場合、それ以外の場合 `0` （ストレートリピート）
+マテリアルがカタログエントリに基づいている場合は `catalog::Repeat`、それ以外の場合は `0` （ストレートリピート）。
 
 ## 関連項目 {#section-ac99113b64654d75a3a86e41db546269}
 

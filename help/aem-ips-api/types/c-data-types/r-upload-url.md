@@ -1,5 +1,5 @@
 ---
-description: URL を使用したアセットのアップロード。
+description: URL 経由でアセットをアップロードする場合。
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-URL を使用したアセットのアップロード。
+URL 経由でアセットをアップロードする場合。
 
 構文
 
@@ -23,4 +23,4 @@ URL を使用したアセットのアップロード。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | sourceUrl | `xsd:string` | アセットのアップロード元のソース URL。 |
-| destPath | `xsd:string` | アップロード先の IPS ファイルのパスと名前。 |
+| destPath | `xsd:string` | アップロード先の IPS ファイルパスとファイルの名前。 |

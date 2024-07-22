@@ -1,35 +1,35 @@
 ---
-title: フィット
-description: 応答の画像フィットモード。 尺度係数の計算方法を指定します。この値は、 wid=および hei=および scl=で応答サイズが指定されていない場合に、合成画像を応答画像に合わせて拡大縮小するために使用されます。
+title: 発作
+description: 応答画像適合モード。 スケール係数の計算方法を指定します。この係数は、応答サイズが wid=および hei=で指定され、scl=が存在しない場合に、合成画像を応答画像にスケールするために使用されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
-# フィット{#fit}
+# 発作{#fit}
 
-応答の画像フィットモード。 尺度係数の計算方法を指定します。この値は、 wid=および hei=および scl=で応答サイズが指定されていない場合に、合成画像を応答画像に合わせて拡大縮小するために使用されます。
+応答画像適合モード。 スケール係数の計算方法を指定します。この係数は、応答サイズが wid=および hei=で指定され、scl=が存在しない場合に、合成画像を応答画像にスケールするために使用されます。
 
-` fit= *`mode`*, *`アップスケール`*`
+` fit= *`mode`*, *`upscale`*`
 
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mode </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fit|constrain|crop|wrap|stretch|hfit|vfit </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> フィット|拘束|切り抜き|折り返し|ストレッチ|hfit|vfit </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> アップスケール </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
  </tr> 
 </table>
 
-以下のモードオプションの説明では、 *`xScale`* は、合成画像の幅と応答画像の幅の比率です。 *`yScale`* は、合成画像の高さと応答画像の高さの比率です。
+次のモードオプションの説明では、*`xScale`* は合成画像の幅と応答画像の幅の比率、*`yScale`* は合成画像の高さと応答画像の高さの比率であると想定しています。
 
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
@@ -40,43 +40,43 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> フィット </span> </p> </td> 
-   <td colname="col2"> <p>合成イメージを拡大/縮小し、 <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span>空白を最小限に抑え、切り抜きをおこないません。 応答画像のサイズが <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span>. より小さい <span class="varname"> xScale </span> および <span class="varname"> yScale </span> が適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fit </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるように合成画像を拡大/縮小します。スペースは最小限で、切り抜きは行われません。 応答画像は、wid= </span> および <span class="codeph"> hei= </span><span class="codeph"> 指定された正確なサイズです。 xScale </span> と yScale </span><span class="varname"> 中で小さい方 <span class="varname"> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 制約する </span> </p> </td> 
-   <td colname="col2"> <p>次のように合成画像を拡大・縮小します。 <span class="codeph"> フィット </span> それは、と割り当てられた空間に収まるように <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span>が返されますが、実際の応答画像は、 <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> 空白を避けるため。 より小さい <span class="varname"> xScale </span> および <span class="varname"> yScale </span> が適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> constraint </span> </p> </td> 
+   <td colname="col2"> <p>合成画像を <span class="codeph"> fit </span> のように拡大縮小して、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるようにします。ただし、実際の応答画像は、空白を避けるために、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されたサイズよりも小さい場合があります。 xScale </span> と yScale </span><span class="varname"> 中で小さい方 <span class="varname"> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 切り抜き </span> </p> </td> 
-   <td colname="col2"> <p>最小限の切り抜きと空白を含めずに、応答画像全体を埋めるように合成画像を拡大・縮小します。 より大きい <span class="varname"> xScale </span> および <span class="varname"> yScale </span> が適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> crop </span> </p> </td> 
+   <td colname="col2"> <p>合成画像のサイズを調整して、応答画像全体に表示します。切り抜きは最小限に抑えられ、空白文字は入りません。 xScale </span> と yScale </span><span class="varname"> 大きい方 <span class="varname"> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> まとめる </span> </p> </td> 
-   <td colname="col2"> <p>次のように合成画像を拡大・縮小します。 <span class="codeph"> 切り抜き </span> 応答画像全体をカバーするように設定しますが、実際の応答画像は、 <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> 切り抜きを避けるため。 より大きい <span class="varname"> xScale </span> および <span class="varname"> yScale </span>が適用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> wrap </span> </p> </td> 
+   <td colname="col2"> <p>切り抜き </span> と同様 <span class="codeph"> 合成画像を拡大縮小して、応答画像全体を覆いますが、実際の応答画像は、切り抜きを避けるために <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されるよりも大きくなる場合があります。 xScale </span> と yScale </span><span class="varname"> 大きい方 <span class="varname"> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> ストレッチ </span> </p> </td> 
-   <td colname="col2"> <p>合成画像を x と y で個別に拡大/縮小し、切り抜きや空白を含めずに、応答画像全体を埋めます。 通常、これにより画像の縦横比が変更されます。 <span class="varname"> xScale </span> は水平方向の拡大/縮小に使用され、 <span class="varname"> yScale </span> 垂直方向の拡大/縮小に使用します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stretch </span> </p> </td> 
+   <td colname="col2"> <p>合成画像を x と y で個別に拡大縮小し、切り抜きや空白の挿入を行わずに、応答画像全体を埋めます。 これにより、通常、画像の縦横比が変更されます。 <span class="varname"> xScale </span> は水平スケーリングに、yScale </span> は垂直スケーリングに使用 <span class="varname"> れます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> hit </span> </p> </td> 
-   <td colname="col2"> <p>適用 <span class="varname"> xScale </span> 画像を水平方向にきつく合わせ、切り抜きや空白が上部や下部に表示されるようにします。 特殊なアプリケーションに役立ちます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
+   <td colname="col2"> <p>xScale </span><span class="varname"> 適用して、画像を水平方向にしっかりと収め、上部や下部に切り抜きや空白を配置します。 特殊な用途に便利です。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vfit </span> </p> </td> 
-   <td colname="col2"> <p>適用 <span class="varname"> yScale </span> 左右に切り抜きや空白が生じやすく、画像を縦にぴったりと合わせる。 特殊なアプリケーションに役立ちます。 </p> </td> 
+   <td colname="col2"> <p>yScale </span><span class="varname"> 適用して、画像を垂直方向にしっかりとフィットさせます。場合によっては、左や右に切り抜きや空白が表示されます。 特殊な用途に便利です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定 *`upscale`* を「1」に設定するか、「0」に設定して制限します*`xScale`*および *`yScale`* を 1:1 に制限します。 アップスケーリングが無効になっている場合、複合画像が応答画像より小さい場合は、空白が追加で存在する可能性があります。
+*`upscale`* を「1」に設定するとアップスケールが許可され、「0」に設定すると*`xScale`*が制限され、「*`yScale`*」は 1:1 に制限されます。 アップスケールが無効な場合、合成画像が応答画像よりも小さい場合、追加の空白が存在する可能性があります。
 
-切り抜きと空白はデフォルトで中央揃えになり、位置は `align=`. 空白の塗りの色と不透明度は、 `bgc=`.
+デフォルトでは、切り抜きと空白は中央に配置されます。それらの位置は `align=` で制御できます。 ホワイトスペースの塗りつぶしの色と不透明度は、`bgc=` によって決まります。
 
 ## プロパティ {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-属性を表示します。 現在の画層設定に関係なく適用されます。 少なくとも 1 つの `wid=` または `hei=` また、を指定する必要があります。指定しない場合は、エラーが返されます。両方の `wid=` および `hei=` は、フィットモードが説明どおりに動作するように指定する必要があります。 次の場合にエラーが返されます。 `req=tmb` も指定されます。
+ビュー属性。 現在のレイヤ設定に関係なく適用されます。 `wid=` または `hei=` の少なくとも 1 つを指定する必要があります。指定しないと、エラーが返されます。説明に従ってはめあいモードが動作するには、`wid=` と `hei=` の両方を指定する必要があります。 `req=tmb` も指定されている場合は、エラーが返されます。
 
 ## 初期設定 {#section-3a553b4b29ef447a8331d6954f3f06da}
 

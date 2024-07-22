@@ -1,5 +1,5 @@
 ---
-description: プロパティセットタイプは、プロパティセットの管理に使用する様々な設定を指定します。
+description: プロパティ セット タイプは、プロパティ セットの管理に役立つ各種の設定を指定します。
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -8,43 +8,43 @@ exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-プロパティセットタイプは、プロパティセットの管理に使用する様々な設定を指定します。
+プロパティ セット タイプは、プロパティ セットの管理に役立つ各種の設定を指定します。
 
 構文
 
-## 認証済みユーザータイプ {#section-48e5f908276c4a549fd33a8828bad326}
+## 許可されているユーザータイプ {#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-43dece72eb9f44df80f4a119dd2c008b}
+## パラメーター {#section-43dece72eb9f44df80f4a119dd2c008b}
 
-**入力 (createPropertySetTypeParam)**
+**入力（createPropertySetTypeParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | プロパティセットタイプを所有する会社へのハンドル。 If `companyHandle` が渡されておらず、呼び出し元が `IpsAdmin`を指定した場合、グローバルプロパティセットタイプが作成されます。 |
+| companyHandle | `xsd:string` | いいえ | プロパティ セット タイプを所有する会社へのハンドル。 `companyHandle` が渡されず、呼び出し元が `IpsAdmin` の場合は、グローバルプロパティセットタイプが作成されます。 |
 | name | `xsd:string` | はい | プロパティセットタイプの名前。 |
-| propertyType | `xsd:string` | はい | プロパティセットタイプの選択。 |
-| allowMultiple | `xsd:boolean` | はい | プログラムが複数のプロパティセットを持つことができるかどうかを指定します。 |
+| propertyType | `xsd:string` | はい | プロパティセットのタイプを選択します。 |
+| allowMultiple | `xsd:boolean` | はい | プログラムが複数のプロパティ セットを持つことができるかどうかを決定します。 |
 
-**出力 (createPropertySetTypeReturn)**
+**Output （createPropertySetTypeReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | はい | タイプへのハンドル。 |
+| typeHandle | `xsd:string` | はい | 型へのハンドル。 |
 
 ## 例 {#section-13396c9639a6475190e622eae3cdb534}
 
-このコード例では、 `PropertySet Types` 定数。 プロパティセットタイプを所有する会社へのハンドル。 companyHandle が渡されず、呼び出し元が IpsAdmin の場合、グローバルプロパティセットの種類が作成されます。
+このコード例では、`PropertySet Types` 定数で指定された名前と型を持つプロパティ セットを作成します。 プロパティ セット タイプを所有する会社へのハンドル。 companyHandle が渡されず、呼び出し元が IpsAdmin の場合、グローバルプロパティセットタイプが作成されます。
 
 **リクエスト**
 

@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Video360 ビューアの JavaScript API リファレンス。
+description: Video360 ビューア用のJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Video360 ビューアの JavaScript API リファレンス。
+Video360 ビューア用のJavaScript API リファレンス。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-1 つ以上のロケールのローカリゼーションシンボルの値を設定します。 このパラメータは `init()` の前に呼び出す必要があります。
+1 つまたは複数のロケールの SYMBOL 値を設定します。 このパラメーターは、`init()` 前に呼び出す必要があります。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo  </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Object </span>} JSON オブジェクトとローカリゼーションデータ。 </p> <p>詳しくは、 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、『<i> ビューア SDK ユーザーガイド </i>』および例も参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
+   <td colname="col2"> <p> ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p><i>Viewer SDK User Guide</i> も参照してください。また、オブジェクトのコンテンツに関する詳細については、例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

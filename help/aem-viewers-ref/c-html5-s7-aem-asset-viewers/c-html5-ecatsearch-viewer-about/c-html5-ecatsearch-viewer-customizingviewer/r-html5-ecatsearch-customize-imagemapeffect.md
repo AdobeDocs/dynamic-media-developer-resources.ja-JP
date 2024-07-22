@@ -1,26 +1,26 @@
 ---
-title: 画像マップ効果
-description: mode パラメータの値に応じて、ビューアは、Dynamic Media Classicで最初にマップが作成された場所に、メインビューの上に画像マップアイコンを表示するか、元の画像マップの形状に一致する正確な領域をレンダリングします。
+title: 画像マップエフェクト
+description: ビューアは、mode パラメーターの値に応じて、Dynamic Media Classicでマップが最初に作成された場所に画像マップアイコンをメインビューの上に表示したり、元の画像マップの形状に一致する正確な領域をレンダリングしたりします。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
-# 画像マップ効果{#image-map-effect}
+# 画像マップエフェクト{#image-map-effect}
 
-mode パラメータの値に応じて、ビューアは、Dynamic Media Classicで最初にマップが作成された場所に、メインビューの上に画像マップアイコンを表示するか、元の画像マップの形状に一致する正確な領域をレンダリングします。
+ビューアは、mode パラメーターの値に応じて、Dynamic Media Classicでマップが最初に作成された場所に画像マップアイコンをメインビューの上に表示したり、元の画像マップの形状に一致する正確な領域をレンダリングしたりします。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-画像マップアイコンの外観は、以下の CSS クラスセレクターを使用して制御します。
+画像マップアイコンの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7icon
@@ -28,7 +28,7 @@ mode パラメータの値に応じて、ビューアは、Dynamic Media Classic
 
 >[!NOTE]
 >
->この `s7mapoverlay` 以前に画像マップアイコンのスタイル設定に使用されていた CSS クラスは、非推奨（廃止予定）となりました。use `s7icon` 代わりに、
+>過去に画像マップアイコンのスタイル設定に使用されていた `s7mapoverlay` CSS クラスは非推奨（廃止予定）になりました。代わりに `s7icon` を使用します。
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -40,18 +40,18 @@ mode パラメータの値に応じて、ビューアは、Dynamic Media Classic
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>画像マップアイコンのアートワーク。 </p> </td> 
+   <td colname="col2"> <p>画像マップ アイコン アートワーク。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p>関連トピック <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p>画像マップアイコンの幅（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
    <td colname="col2"> <p>画像マップアイコンの高さ（ピクセル単位）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,9 +59,9 @@ mode パラメータの値に応じて、ビューアは、Dynamic Media Classic
 
 >[!NOTE]
 >
->画像マップアイコンは、 `state` 属性セレクター。このセレクターを使用して、アイコンの状態に応じて異なるスキンを適用できます。 `default` および `active`.
+>画像マップアイコンは、`state` 属性セレクターをサポートしています。このセレクターを使用して、`default` と `active` のアイコン状態に異なるスキンを適用できます。
 
-例 — 28 x 28 ピクセルで、2 つの異なるアイコン状態ごとに異なる画像を表示する画像マップアイコンを設定します。
+例 – 28 x 28 ピクセルの画像マップアイコンを設定します。このアイコンは、2 つの異なるアイコン状態のそれぞれに異なる画像を表示します。
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7icon { 
@@ -77,9 +77,9 @@ opacity: 1;
 }
 ```
 
-関連トピック [画像マップのサポート](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+[ 画像マップのサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a) も参照してください。
 
-画像マップ領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+画像マップ領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region
@@ -94,21 +94,21 @@ opacity: 1;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りのカラー。 </p> <p>#RRGGBB、RGB(R,G,B) または RGBA(R,G,B,A) 形式で指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）のフォーマットで指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りのカラー。 </p> <p>#RRGGBB、RGB(R,G,B) または RGBA(R,G,B,A) 形式で指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）のフォーマットで指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 枠線 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 </p> <p>指定形式 <span class="codeph"> <span class="varname"> 幅 </span> 実線 <span class="varname"> カラー </span> </span>で、 <span class="codeph"> <span class="varname"> 幅 </span> </span> はピクセル単位で表され、 <span class="codeph"> <span class="varname"> カラー </span> </span> は#RRGGBB、RGB(R,G,B) または RGBA(R,G,B,A) として設定されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 </p> <p><span class="codeph"> <span class="varname"> 幅 </span> 単色 <span class="varname"> 色 </span></span> として指定します。<span class="codeph"> <span class="varname"> 幅 </span></span> はピクセルで表され、<span class="codeph"><span class="varname"> 色 </span></span> は#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）に設定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 透明な画像マップ領域を `1` ピクセルの黒い境界線：
+例 – ピクセルの黒い境界線を持つ透明画像マップ領域 `1` 設定する
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 

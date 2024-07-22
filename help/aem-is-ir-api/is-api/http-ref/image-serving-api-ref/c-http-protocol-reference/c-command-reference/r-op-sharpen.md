@@ -1,36 +1,36 @@
 ---
 title: op_sharpen
-description: 画像をシャープにします。 layer=comp の場合に、基本的なシャープフィルターをレイヤーまたは最終的なビュー画像に適用します。
+description: 画像をシャープにする。 layer=comp の場合は、すべての拡大縮小の後、レイヤーまたは最終ビューイメージに基本的なシャープフィルターを適用します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
 # op_sharpen{#op-sharpen}
 
-画像をシャープにします。 layer=comp の場合に、基本的なシャープフィルターをレイヤーまたは最終的なビュー画像に適用します。
+画像をシャープにする。 layer=comp の場合は、すべての拡大縮小の後、レイヤーまたは最終ビューイメージに基本的なシャープフィルターを適用します。
 
 `op_sharpen=0|1`
 
-レイヤーマスクや合成マスクもシャープにされます。
+レイヤーマスクまたはコンポジットマスクもシャープになります。
 
 ## プロパティ {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-画層属性またはビュー属性。 現在の画層に適用されます。 `layer=comp`. 効果画層で無視されます。
+レイヤ アトリビュートまたはビューアトリビュート。 現在の画層、または `layer=comp` の場合は最終表示イメージに適用されます。 エフェクトレイヤーで無視されます。
 
 ## 初期設定 {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`（シャープ効果なし）
+シャープニング効果がない場合は `op_sharpen=0` を使用します。
 
 ## 例 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-画像の再サンプリングによって生じるぼかしを補正します。 また、JPEGの品質を高めて、シャープにされたエッジに沿ったJPEGアーティファクトの追加を防ぎます。
+画像の再サンプリングによって発生するわずかなブラーを補正します。 また、JPEGの質を高めて、鋭利なエッジに沿ってJPEGのアーチファクトが発生しないようにします。
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

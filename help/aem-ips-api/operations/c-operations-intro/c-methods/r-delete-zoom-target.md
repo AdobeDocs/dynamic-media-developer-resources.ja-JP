@@ -8,7 +8,7 @@ exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 13%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 ズームターゲットを削除します。
 
-## 認証済みユーザータイプ {#section-09ca82bc817e49048271c5cba545702e}
+## 許可されているユーザータイプ {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,20 +27,20 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->ユーザーは、アセットに対する読み取りおよび書き込みアクセス権を持っている必要があります。
+>ユーザーには、アセットへの読み取りおよび書き込みアクセス権が必要です。
 
-## パラメータ {#section-225330a45e7a408f8375e084677d9cb1}
+## パラメーター {#section-225330a45e7a408f8375e084677d9cb1}
 
-**入力 (deleteZoomTargetParam)**
+**入力（deleteZoomTargetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | ズームターゲットが属する会社のハンドル。 |
-| zoomTargetHandle | `xsd:string` | はい | 削除するズームターゲットのハンドル。 |
+| companyHandle | `xsd:string` | はい | ズームターゲットが属する会社へのハンドル。 |
+| zoom ターゲット ハンドル | `xsd:string` | はい | 削除するズームターゲットへのハンドル。 |
 
-**出力 (deleteZoomTargetParam)**
+**出力（deleteZoomTargetParam）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 

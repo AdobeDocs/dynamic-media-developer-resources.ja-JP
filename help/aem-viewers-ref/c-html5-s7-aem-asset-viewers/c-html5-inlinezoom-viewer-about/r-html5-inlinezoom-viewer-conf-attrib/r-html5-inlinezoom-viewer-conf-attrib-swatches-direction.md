@@ -8,7 +8,7 @@ exl-id: 8294c9f0-4c4e-4095-beeb-94d8dcfc2cd7
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> ビュー内でのスウォッチの塗りの方法を指定します。 </p> <p> <span class="codeph"> left </span> 左から右の塗りつぶし順序を設定します。 <span class="codeph"> 右 </span> 順序を逆にして、ビューを右から左、上から下の方向に表示します。 条件 <span class="codeph"> auto </span> が設定されている場合、ロケールが <span class="codeph"> "ja" </span>を使用し、それ以外の場合は left を使用します。 </p> </td> 
+   <td colname="col2"> <p> スウォッチがビューに表示される方法を指定します。 </p> <p> <span class="codeph"> left </span> は左から右への塗りつぶし順序を設定します。<span class="codeph"> right </span> は順序を逆にして、ビューが右から左、上から下の方向に塗りつぶされるようにします。 自動 </span> が設定され <span class="codeph"> いる場合、ロケールが「ja」 </span> に設定されているとコンポーネントは右モード <span class="codeph"> 適用され、それ以外の場合は左を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

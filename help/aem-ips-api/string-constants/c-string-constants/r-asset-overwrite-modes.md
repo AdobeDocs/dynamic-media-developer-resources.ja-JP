@@ -1,20 +1,20 @@
 ---
-description: setCompanySettingsParam/overwriteModeで使用されます。
+description: setCompanySettingsParam/overwriteMode によって使用されます。
 solution: Experience Manager
 title: アセットの上書きモード
-feature: Dynamic Media Classic,SDK/API，アセット管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1a62026c-bad1-4459-8fe6-a94b87939ce1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
 # アセットの上書きモード{#asset-overwrite-modes}
 
-setCompanySettingsParam/overwriteModeで使用されます。
+setCompanySettingsParam/overwriteMode によって使用されます。
 
 構文
 

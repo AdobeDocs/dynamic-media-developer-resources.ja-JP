@@ -1,6 +1,6 @@
 ---
 title: インストールの確認
-description: Linux®に画像サービングをインストールした後、インストールを確認します。
+description: Linux® で画像サービングをインストールしたら、インストールを確認します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # インストールの確認{#verifying-the-installation}
 
-Linux®に画像サービングをインストールした後、インストールを確認します。
+Linux® で画像サービングをインストールしたら、インストールを確認します。
 
-Image Server は、Linux®デーモンとしてインストールされます。
+Image Server は Linux® デーモンとしてインストールされます。
 
-**インストールを検証するには**
+**インストールを確認するには**
 
-1. 画像サービングが自動的に起動するように設定され、実行中であることを確認します。
+1. 画像サービングが自動的に開始するように設定され、実行中であることを確認します。
 
    `> /sbin/service ImageServing status`
 
    >[!NOTE]
    >
-   >これらのスクリプトを実行するには、ルート権限が必要です。
+   >これらのスクリプトを実行するには、root 権限が必要です。
 
-1. 同じホストまたは別のホストでインターネットブラウザーを開き、次の既定のサーバー応答を確認します。
+1. 同じホストまたは別のホストでインターネット ブラウザを開き、既定のサーバー応答を確認します。
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-応答内で、次で始まる項目が存在するかどうかを確認します： `imageServer`は、 [!DNL Platform Server] は Image Server と正常に通信できませんでした。
+応答で、`imageServer` で始まる項目が存在するかどうかを確認します。これは、[!DNL Platform Server] が Image Server と正常に通信できることを示しています。
 
->追加の検証は、ドキュメントパッケージとデモパッケージのサンプルページ（インストールされている場合）を使用して実行できます。
+>インストールされている場合は、ドキュメントパッケージとデモパッケージのサンプルページを使用して、追加の検証を実行できます。

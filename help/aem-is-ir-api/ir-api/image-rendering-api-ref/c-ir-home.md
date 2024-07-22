@@ -1,6 +1,6 @@
 ---
 title: 画像レンダリング API
-description: 『画像レンダリング API リファレンス』には、Dynamic Media Image Rendering API の設定と使用に関する情報が記載されています。
+description: 画像レンダリング API リファレンスには、Dynamic Media画像レンダリング API の設定と使用に関する情報が含まれています。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 画像レンダリング API{#image-rendering-api}
 
-『画像レンダリング API リファレンス』には、Dynamic Media Image Rendering API の設定と使用に関する情報が記載されています。
+画像レンダリング API リファレンスには、Dynamic Media画像レンダリング API の設定と使用に関する情報が含まれています。
 
 * [設定](c-ir-installation/c-ir-installation.md)
 * [ライセンス](c-ir-installation/c-ir-licensing.md)
-* [IR 3.x 互換モジュールの設定と設定](c-ir-installation/t-ir-setup-compatibility-module.md)
-* [画像レンダリングの設定](c-ir-installation/c-ir-setup-ir.md)
+* [IR 3.x 互換モジュールのセットアップと設定](c-ir-installation/t-ir-setup-compatibility-module.md)
+* [画像レンダリングのセットアップと設定](c-ir-installation/c-ir-setup-ir.md)
 * [画像レンダリングのアンインストール](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
 * [サーバー管理](c-ir-server-administration/c-ir-server-administration.md)

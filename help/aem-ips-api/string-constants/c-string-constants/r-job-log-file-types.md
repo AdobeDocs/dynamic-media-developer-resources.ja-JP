@@ -1,20 +1,20 @@
 ---
-description: JobLogDetial/assetTypeで使用されます。
+description: JobLogDetail/assetType によって使用されます。
 solution: Experience Manager
-title: ジョブのログファイルの種類
-feature: Dynamic Media Classic、SDK/API
+title: ジョブ ログ ファイル タイプ
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# ジョブのログファイルの種類{#job-log-file-types}
+# ジョブ ログ ファイル タイプ{#job-log-file-types}
 
-JobLogDetial/assetTypeで使用されます。
+JobLogDetail/assetType によって使用されます。
 
 構文
 

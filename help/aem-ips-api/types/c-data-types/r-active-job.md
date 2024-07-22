@@ -1,26 +1,26 @@
 ---
 title: ActiveJob
-description: サーバーで実行されるジョブ。 また、スケジュール済みジョブのインスタンスです。
+description: サーバー上で実行されるジョブ。 また、スケジュールされたジョブのインスタンスでもあります。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 1%
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
 # [!DNL ActiveJob]{#activejob}
 
-サーバーで実行されるジョブ。 また、スケジュール済みジョブのインスタンスです。
+サーバー上で実行されるジョブ。 また、スケジュールされたジョブのインスタンスでもあります。
 
 ジョブは次の 3 つの状態で存在します。
 
-* 実行がスケジュールされています。
+* 実行するようにスケジュールされました。
 * 現在実行中です。
-* 実行が完了しました（および既にジョブログに情報を書き込んでいます）。
+* 実行が完了しました（ジョブ ログに情報が書き込まれています）。
 
 ジョブタイプを返すには、ジョブタイプの値を指定します。 次のジョブを返すことができます。
 
@@ -45,30 +45,30 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 会社に対する取り扱い。 </td> 
+   <td colname="col3"> 会社に渡す。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ジョブを処理します。 </td> 
+   <td colname="col3"> ジョブへのハンドル。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名前</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> ジョブの一意の名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">元の <span class="codeph"> ActiveJob</span> ジョブで送信されたタイプ。 </td> 
+   <td colname="col3">ジョブと共に送信される <span class="codeph"> ActiveJob</span> タイプの元の名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> システムから返されるジョブタイプの選択。 </td> 
+   <td colname="col3"> システムによって返されるジョブタイプの選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> の状態 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> システムから返されるアクティブなジョブ状態の選択。 </td> 
   </tr> 
@@ -80,12 +80,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブログの詳細と電子メールのローカライゼーションのロケールです。 <p>ロケールをとして指定します。 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>（言語コードは ISO-639 で指定された小文字 2 文字のコードで、オプションの国コードは ISO-3166 で指定された大文字 2 文字のコードです）。 例えば、英語（米国）のロケール文字列は次のようになります。 <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">ジョブ ログの詳細および E メール ローカリゼーションのロケールです。 <p>ロケールを <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span> として指定します。言語コードは ISO-639 で指定された小文字の 2 文字コードで、オプションの国コードは ISO-3166 で指定された大文字の 2 文字コードです。 例えば、英語（米国）のロケール文字列は <span class="codeph"> en-US</span> になります。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 説明</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> の説明 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">元々で指定されていたジョブの説明 <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">最初に submitJob</span> で指定され <span class="codeph"> ジョブの説明。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -100,36 +100,36 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> アクティブなジョブの合計サイズ。 </td> 
+   <td colname="col3"> アクティブジョブの合計サイズ。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 進行状況</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> ジョブの進行状況（つまり、ジョブが完了するまでの距離）。 </td> 
+   <td colname="col3"> ジョブの進行状況（ジョブが完了にどの程度近づいているか）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> ジョブの進行状況を示すテキストメッセージです。 </td> 
+   <td colname="col3"> ジョブの進行状況を説明するテキストメッセージ。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 前回の進行状況更新の日付、時刻、タイムゾーン。 </td> 
+   <td colname="col3"> 前回の進行状況更新の日付、時刻、およびタイムゾーン。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TaskProgressArray</span> </td> 
-   <td colname="col3"> 非同期タスクの進捗状況情報。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：TaskProgressArray</span> </td> 
+   <td colname="col3"> 非同期タスクの進行状況情報。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 画像サービング公開ジョブのジョブの詳細。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageServingPublishJob</span> </td> 
+   <td colname="col3"> 画像サービング公開ジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingRenderJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageServingRenderJob</span> </td> 
    <td colname="col3"> 画像レンダリング公開ジョブのジョブの詳細。 </td> 
   </tr> 
   <tr> 
@@ -139,22 +139,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> サーバーディレクトリ公開ジョブのジョブ詳細。 </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：ImageServingPublishJob</span> </td> 
+   <td colname="col3"> サーバーディレクトリ公開ジョブのジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：UploadUrlsJob</span> </td> 
-   <td colname="col3"> アップロード URL ジョブのジョブ詳細。 </td> 
+   <td colname="col3"> アップロード URL ジョブのジョブの詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：RipPdfsJob[ たいぷ：RipPdfsJob]</span> </td> 
+   <td colname="col2"> <span class="codeph"> の種類：RipPdfsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:OptimizeImagesJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：OptimizeImagesJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -165,12 +165,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：UploadPostJob</span> </td> 
-   <td colname="col3"> ジョブの詳細、デスクトップのアップロードを追跡します。 </td> 
+   <td colname="col3"> ジョブの詳細、デスクトップアップロードのトラッキング。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ExportJob</span> </td> 
-   <td colname="col3">以前にアップロードしたファイルの承認済み書き出しを許可します。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 書き出しジョブ</a>. </td> 
+   <td colname="col3">以前にアップロードしたファイルの承認済みエクスポートを許可します。 エクスポ <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> トジョブ </a> を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>

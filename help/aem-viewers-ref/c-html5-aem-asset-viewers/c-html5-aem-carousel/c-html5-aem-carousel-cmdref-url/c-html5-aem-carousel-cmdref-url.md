@@ -1,5 +1,5 @@
 ---
-title: コマンドリファレンス — URL
+title: コマンドリファレンス - URL
 description: カルーセルビューアのコマンドリファレンスドキュメント。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# コマンドリファレンス — URL{#command-reference-url}
+# コマンドリファレンス - URL{#command-reference-url}
 
 カルーセルビューアのコマンドリファレンスドキュメント。

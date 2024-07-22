@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-この節の最初で説明するようにビューアが設定で動作する場合、公開されたビデオ配信は、HTTPS（セキュア）モードと HTTP（セキュアでない）モードの両方で発生する可能性があります。 デフォルト設定では、ビデオ配信プロトコルは、埋め込み Web ページの配信プロトコルに厳密に従っています。 ただし、 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 設定属性。 （作成者モードのビデオプレビューは、常に HTTPS 経由で安全に配信されます）。
+この節の最初で説明したように、ビューアが設定で動作する場合、公開されたビデオ配信は HTTPS （セキュア）モードと HTTP （セキュアでない）モードの両方で発生する可能性があります。 デフォルト設定では、ビデオ配信プロトコルは埋め込み web ページの配信プロトコルに厳密に従います。 ただし、[VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 設定属性を使用して web ページを埋め込むことで使用されるプロトコルに関係なく、HTTPS ビデオ配信を強制することは可能です。 （オーサーモードでのビデオプレビューは、常に HTTPS 経由で安全に配信されます）。
 
-公開方法に応じて [!DNL Dynamic Media] Adobe Experience Manager、 `VideoPlayer.ssl` 設定属性の適用方法は、次に示すように異なります。
+Adobe Experience Managerで使用するビデオの公開方法 [!DNL Dynamic Media] 応じて、`VideoPlayer.ssl` 設定属性の適用の仕方が異なります（下図を参照）。
 
-* 次を公開する場合： [!DNL Dynamic Media] ビデオに URL を追加すると、 `VideoPlayer.ssl` を URL に追加します。 例えば、セキュアなビデオ配信を強制するには、次の文字列を追加します。 `&VideoPlayer.ssl=on` を次のビューア URL の例の最後に追加します。
+* URL を含む [!DNL Dynamic Media] ビデオを公開する場合は、`VideoPlayer.ssl` を URL に追加します。 例えば、セキュアなビデオ配信を強制するには、次のビューア URL 例の末尾に `&VideoPlayer.ssl=on` を追加します。
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  関連トピック [Web アプリケーションへの URL のリンク](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+  [Web アプリケーションへの URL のリンク ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic) も参照してください。
 
-* 次を公開する場合： [!DNL Dynamic Media] 埋め込みコードを含むビデオ： `VideoPlayer.ssl` を埋め込みコードスニペット内の他のビューア設定パラメータのリストに追加します。 例えば、HTTPS ビデオ配信を強制するには、 `&VideoPlayer.ssl=on` 次の例のようになります。
+* 埋め込みコードを使用して [!DNL Dynamic Media] ビデオを公開する場合は、埋め込みコードスニペットにある他のビューア設定パラメーターのリストに `VideoPlayer.ssl` を追加します。 例えば、HTTPS ビデオを強制的に配信するには、次の例のように `&VideoPlayer.ssl=on` を追加します。
 
   ```html {.line-numbers}
   <style type="text/css"> 
@@ -77,4 +77,4 @@ ht-degree: 0%
   </script>
   ```
 
-  関連トピック [Web ページへのビデオの埋め込み](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+  [Web ページへのビデオの埋め込み ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic) も参照してください。

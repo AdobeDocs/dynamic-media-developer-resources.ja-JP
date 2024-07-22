@@ -16,4 +16,4 @@ ht-degree: 0%
 
 材料カタログ フォルダの場所（すべての catalog.ini ファイルが存在する必要があります）。
 
-絶対パスまたは [!DNL *[!DNL install_folder]*]。 デフォルトは [!DNL ./catalog]。これは [!DNL *[!DNL install_folder]*/catalog] を選択します。
+絶対パスまたは [!DNL *[!DNL install_folder]*] に対する相対パスのいずれかを指定できます。 デフォルトは [!DNL ./catalog] で、[!DNL *[!DNL install_folder]*/catalog] に対応します。

@@ -1,6 +1,6 @@
 ---
-title: フォーカスハイライト
-description: フォーカスされたビューアの UI 要素の周囲に表示される入力フォーカスのハイライトは、CSS クラスセレクターを使用して制御します。
+title: フォーカスのハイライト
+description: フォーカスされたビューア UI 要素の周囲に表示される入力フォーカスハイライトは、CSS クラスセレクターで制御します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# フォーカスハイライト{#focus-highlight}
+# フォーカスのハイライト{#focus-highlight}
 
-フォーカスされたビューアの UI 要素の周囲に表示される入力フォーカスのハイライトは、CSS クラスセレクターを使用して制御します。
+フォーカスされたビューア UI 要素の周囲に表示される入力フォーカスハイライトは、CSS クラスセレクターで制御します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS プロパティ**
 
-外観は、以下の CSS クラスセレクターを使用して制御します。
+外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7interactiveimage *:focus
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 概要  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 概要 </span> </p> </td> 
    <td colname="col2"> <p>フォーカスハイライトのスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — すべてのビューアユーザインターフェイス要素の初期設定のブラウザフォーカスハイライトを無効にするには、次の CSS セレクターをビューアのスタイルシートに追加します。
+例 – すべてのビューアのユーザーインターフェイス要素に対してデフォルトのブラウザーフォーカスハイライトを無効にするには、次の CSS セレクターをビューアのスタイルシートに追加します。
 
 ```
 .s7interactiveimage *:focus { 

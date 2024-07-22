@@ -1,24 +1,24 @@
 ---
 title: HttpAppleStreamingContext
-description: Appleストリーミングサーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート m3u8 応答を生成する際に使用される、Appleストリーミングサーバー URL プレフィックス。
+description: Apple ストリーミングサーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート m3u8 応答を生成する際に使用される、Apple ストリーミングサーバーの URL プレフィックス。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Appleストリーミングサーバーの URL プレフィックス。 でマルチビットレート m3u8 応答を生成する際に使用される、Appleストリーミングサーバー URL プレフィックス。 `req=mbrSet`.
+Apple ストリーミングサーバーの URL プレフィックス。 `req=mbrSet` でマルチビットレート m3u8 応答を生成する際に使用されるApple ストリーミングサーバーの URL プレフィックス。
 
 ## プロパティ {#properties}
 
-URL のプレフィックスを表す文字列。 例： `http://my.server.com/apple/streaming`.
+URL プレフィックスを表す文字列。 例：`http://my.server.com/apple/streaming`。
 
 ## 初期設定 {#section-bdd70081d50844c295f0de0154c1d738}
 

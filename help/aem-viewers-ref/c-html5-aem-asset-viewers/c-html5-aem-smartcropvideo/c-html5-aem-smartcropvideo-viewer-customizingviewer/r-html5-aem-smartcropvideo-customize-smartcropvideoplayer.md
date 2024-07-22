@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-再生中のビデオのサイズがスマート切り抜きビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはスマート切り抜きビデオプレーヤーの長方形の表示領域内に中央揃えになります。
+再生中のビデオのサイズがスマート切り抜きビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツは、スマート切り抜きビデオプレーヤーの長方形表示領域の中央に配置されます。
 
-以下に示す CSS クラスセレクターで、スマート切り抜きビデオプレーヤーの外観を制御します。
+次の CSS クラスセレクターは、スマート切り抜きビデオプレーヤーの外観を制御します。
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer
@@ -30,15 +30,15 @@ ht-degree: 1%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>メインビューの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-システムでビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、 [ユーザーインターフェイス要素のローカライゼーション](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
-例 — スマート切り抜きビデオプレーヤーのサイズが 512 x 288 ピクセルに設定されたスマート切り抜きビデオビューアを設定するには、次のように記述します。
+例 – スマート切り抜きビデオプレーヤーサイズを 512 x 288 ピクセルに設定してスマート切り抜きビデオビューアを設定する
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer{ 
@@ -46,7 +46,7 @@ background-color: transparent;
 }
 ```
 
-クローズドキャプションは、スマート切り抜きビデオプレーヤー内の内部コンテナに配置されます。 そのコンテナの位置は、サポートされている WebVTT の位置決め演算子で制御します。 キャプションテキスト自体はコンテナ内にあり、そのスタイルは以下の CSS クラスセレクターを使用して制御します。
+クローズドキャプションは、スマート切り抜きビデオプレーヤー内の内部コンテナに配置されます。 そのコンテナの位置は、サポートされる WebVTT 位置決め演算子で制御されます。 キャプションテキスト自体はそのコンテナ内にあり、そのスタイルは次の CSS クラスセレクターで制御されます。
 
 `. s7smartcropvideoviewer .s7videoplayer .s7caption`
 
@@ -55,29 +55,29 @@ background-color: transparent;
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>クローズドキャプションのテキストの背景。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>クローズドキャプションテキストの背景。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>クローズドキャプションのテキストの色。 </p> </td> 
+   <td colname="col2"> <p>字幕のテキストの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p> クローズドキャプションのフォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
+   <td colname="col2"> <p> 字幕のフォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> クローズドキャプションのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>クローズドキャプションのフォント。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
+   <td colname="col2"> <p>字幕フォント。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 14 ピクセル、ライトグレー、Arial®の、半透明の黒い背景にクローズドキャプションのテキストを設定するには、次のように記述します。
+例 – クローズドキャプションのテキストを 14 ピクセル、薄いグレー、Arial® の半透明の黒い背景に設定する場合：
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 
@@ -89,7 +89,7 @@ background-color: transparent;
 }
 ```
 
-バッファリングアニメーションの外観は、以下の CSS クラスセレクターを使用して制御します。
+バッファリングアニメーションの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7waiticon
@@ -106,29 +106,29 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
    <td colname="col2"> <p> アニメーションアイコンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p> アニメーション アイコンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの左余白（通常はアイコンの幅の半分を引いたもの）。 </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの左余白。通常は、アイコンの幅の半分を引きます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> アニメーションアイコンの上余白（通常はアイコンの高さの半分を引いた値）。 </p> </td> 
+   <td colname="col2"> <p> アニメーション アイコン上余白（通常はアイコンの高さの半分を引いた値） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> ノブのアートワーク。 </p> </td> 
+   <td colname="col2"> <p> ノブ アートワーク。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 幅が 101 ピクセル、高さが 29 ピクセルのバッファリングアニメーションを設定するには、次のように記述します。
+例 – 幅 101 ピクセル、高さ 29 ピクセルのバッファリングアニメーションを設定するには：
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7waiticon { 

@@ -1,6 +1,6 @@
 ---
 title: キャッシュ
-description: キャッシュ制御。 内部で、クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）とキャッシュを選択的に無効にできる [!DNL Platform Server] キャッシュ。
+description: キャッシュコントロール。 クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と内部キャッシュのキャッシュを選択的に無効にするこ  [!DNL Platform Server]  ができます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # キャッシュ {#cache}
 
-キャッシュ制御。 内部のクライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）とキャッシュを選択的に無効にできます [!DNL Platform Server] キャッシュ。
+キャッシュコントロール。 クライアント側キャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と内部 [!DNL Platform Server] キャッシュのキャッシュを選択的に無効にできます。
 
 `cache= *`cacheControl`*`
 
@@ -23,31 +23,31 @@ ht-degree: 2%
 <table id="simpletable_CBB5DFBD48B444A4AA806B11299BC43E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> cacheControl</span> </p> </td> 
-  <td class="stentry"> <p>オン |オフ | validate </p></td> 
+  <td class="stentry"> <p>日付： | オフ |検証 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> clientControl </span> </p> </td> 
-  <td class="stentry"> <p>オン |オフ </p></td> 
+  <td class="stentry"> <p>日付： | オフ </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> serverControl </span> </p></td> 
-  <td class="stentry"> <p>オン |オフ </p></td> 
+  <td class="stentry"> <p>日付： | オフ </p></td> 
  </tr> 
 </table>
 
-1 つのみの場合 *`cacheControl`* 値を指定した場合、クライアントキャッシュとサーバーキャッシュの両方に適用されます。
+*`cacheControl`* 値を 1 つだけ指定した場合は、クライアントとサーバーの両方のキャッシュに適用されます。
 
-&#39; `validate`&#39;キーワードを使用すると、テクスチャまたはビネットファイルが変更された後に、キャッシュエントリが自動的に期限切れになるのを待たずに、サーバキャッシュエントリを更新できます。 クライアントのキャッシュは、このコマンドの影響を受けません。
+&#39; `validate`&#39; キーワードを使用すると、テクスチャ ファイルまたはビネット ファイルが変更された後にサーバーキャッシュ エントリを更新できます。キャッシュ エントリが自動的に期限切れになるのを待つ必要はありません。 クライアント キャッシュは、このコマンドの影響を受けません。
 
-ネストされた要求で指定した場合、 `cache=on` ネストされた要求で生成された画像の永続的なサーバー側のキャッシュを有効にします。 同じネストされたリクエストが同じパラメーターを使用して繰り返し呼び出される場合にのみ、ネストされたリクエストのキャッシュを有効にしてください。
+ネストされたリクエストで指定した場合、`cache=on` は、ネストされたリクエストによって生成された画像のサーバーサイドの永続的なキャッシュを有効にします。 ネストされたリクエストのキャッシュを有効にするのは、同じネストされたリクエストが同じパラメーターで繰り返し呼び出される場合のみにしてください。
 
 ## プロパティ {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-リクエストの任意の場所で発生する場合があります。 リクエストが返信画像を返さない場合は無視されます。 プロパティ *`clientControl`* は、クライアント側のキャッシュがマテリアルカタログで無効になっている場合は無視されます ( `attribute::Expiration` は負の値です )。 プロパティ *`serverControl`* は、サーバーキャッシュが無効な場合は無視されます ( `PlatformServer::cache.enable`) をクリックします。
+は、リクエスト内のどこでも発生する可能性があります。 リクエストが返信画像を返さない場合は無視されます。 材料カタログによってクライアント側のキャッシュが無効になっている場合（`attribute::Expiration` の値が負の場合）、プロパティ *`clientControl`* は無視されます。 サーバーキャッシュが無効になっている場合（`PlatformServer::cache.enable`）、プロパティ *`serverControl`* は無視されます。
 
 ## 初期設定 {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 
-`cache=on,on` HTTP リクエストの場合、 `cache=off` ネストされた/埋め込み要求用。
+`cache=on,on` HTTP リクエストの場合は、ネストされたリクエストまたは埋め込まれたリクエストの `cache=off`。
 
 ## 関連項目 {#section-2f5853751dab49579e97418fa766bdf9}
 

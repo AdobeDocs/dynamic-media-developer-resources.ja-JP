@@ -8,7 +8,7 @@ exl-id: b85426c6-6f35-40c0-b78b-eeac27a699e6
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>スウォッチの横にボタンを整列させます。 </p> </td> 
+   <td> <p>ボタンをスウォッチの隣に揃えます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
-   <td> <p>コンポーネントの境界線の横にボタンを整列させます。 </p> </td> 
+   <td> <p>ボタンをコンポーネントの境界線の隣に揃えます。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> オーバーレイ</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> オーバーレイ </span> </span> </p> </td> 
    <td> <p>スウォッチの上にボタンをレンダリングします。 </p> </td> 
   </tr> 
  </tbody> 
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

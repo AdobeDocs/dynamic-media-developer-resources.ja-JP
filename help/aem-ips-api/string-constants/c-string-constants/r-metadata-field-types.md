@@ -1,5 +1,5 @@
 ---
-description: MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadataField/fieldType で使用されます。
+description: MetadataField/type、saveMetadataFieldParam/fieldType、createMetadataField/fieldType で使用されます。
 solution: Experience Manager
 title: メタデータフィールドタイプ
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # メタデータフィールドタイプ{#metadata-field-types}
 
-MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadataField/fieldType で使用されます。
+MetadataField/type、saveMetadataFieldParam/fieldType、createMetadataField/fieldType で使用されます。
 
 構文
 
@@ -22,7 +22,7 @@ MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadata
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]:～の特例 [!DNL `SingleFixedTag`] 値に初期化された変更不可能な辞書を使用 [!DNL `True`] および [!DNL `False`].
+* [!DNL `BooleanTag`]：値 [!DNL `True`] および [!DNL `False`] に初期化された変更不可能な辞書を持つ [!DNL `SingleFixedTag`] の特殊ケース。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ MetadataField/type、saveMetadataFieldParam/fieldType、および createMetadata
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]:閉じた辞書から 0 個以上の文字列値を取得します。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `MultiFixedTag`]：閉じられたディクショナリから取得した 0 個以上の文字列値。 管理者ユーザーのみが辞書を変更できます。
 * [!DNL `MultiTag`]:0 個以上の文字列値。
-* [!DNL `SingleFixedTag`]:閉じた辞書からの単一の文字列値。 If `setAssetMetadata` または `batchSetAssetMetadata` が辞書にない値で呼び出されると、フォルトが返されます。 辞書を変更できるのは管理者ユーザーのみです。
+* [!DNL `SingleFixedTag`]：閉じられたディクショナリの単一の文字列値。 ディクショナリにない値で `setAssetMetadata` または `batchSetAssetMetadata` が呼び出された場合は、fault が返されます。 管理者ユーザーのみが辞書を変更できます。
 
-* [!DNL `SingleTag`]:任意の単一文字列値。
+* [!DNL `SingleTag`]：任意の単一の文字列値。
 * [!DNL `String`]

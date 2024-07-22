@@ -1,7 +1,7 @@
 ---
-description: この [!DNL Platform Server] は、このログファイルにレコードを書き込んで、警告とエラーを記録し、起動、シャットダウン、カタログ読み込みの各イベントを記録します。
+description: ' [!DNL Platform Server]  は、警告とエラーを記録したり、起動、シャットダウン、およびカタログ読み込みイベントの記録を保持するために、このログ ファイルにレコードを書き込みます。'
 solution: Experience Manager
-title: トレースログ
+title: トレース ログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 0bc16400-0ac3-4a11-9d28-c1f47a7020de
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# トレースログ{#trace-log}
+# トレース ログ{#trace-log}
 
-この [!DNL Platform Server] は、このログファイルにレコードを書き込んで、警告とエラーを記録し、起動、シャットダウン、カタログ読み込みの各イベントを記録します。
+[!DNL Platform Server] は、警告とエラーを記録し、起動、シャットダウン、およびカタログ読み込みイベントの記録を保持するために、このログ ファイルにレコードを書き込みます。

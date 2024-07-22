@@ -1,5 +1,5 @@
 ---
-description: 会社に対するハンドルを使用してプロパティセット型を取得し、プロパティセット型の名前を取得します。 型に対するハンドルとプロパティ型を持つ型構造体を取得します。
+description: 会社へのハンドルとプロパティ セット タイプの名前を使用して、プロパティ セット タイプを取得します。 型のハンドルを持つ型構造とプロパティ型を取得します。
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
 # getPropertySetType{#getpropertysettype}
 
-会社に対するハンドルを使用してプロパティセット型を取得し、プロパティセット型の名前を取得します。 型に対するハンドルとプロパティ型を持つ型構造体を取得します。
+会社へのハンドルとプロパティ セット タイプの名前を使用して、プロパティ セット タイプを取得します。 型のハンドルを持つ型構造とプロパティ型を取得します。
 
 構文
 
-## 認証済みユーザータイプ {#section-2b291d32f95b4a3d854429124cbae24c}
+## 許可されているユーザータイプ {#section-2b291d32f95b4a3d854429124cbae24c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,16 +30,16 @@ ht-degree: 11%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-c9a53400c44744668bd7915f72d2bf3d}
+## パラメーター {#section-c9a53400c44744668bd7915f72d2bf3d}
 
-**入力 (getPropertySetTypeParam)**
+**入力（getPropertySetTypeParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | 会社への取り扱い。 プロパティセットタイプは複数の会社に属することができるので、オプションです。 |
-| name | `xsd:string` | はい | プロパティセットタイプ名。 |
+| companyHandle | `xsd:string` | いいえ | 会社へのハンドル。 プロパティ セット タイプは複数の会社に属する可能性があるため、省略可能です。 |
+| name | `xsd:string` | はい | プロパティセットのタイプ名。 |
 
-**出力 (getPropertySetTypeReturn)**
+**Output （getPropertySetTypeReturn）**
 
 <table id="table_F2724F6B706C4F658AED99290E29F3E6"> 
  <thead> 
@@ -53,7 +53,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：PropertySetType</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4">以下を含むタイプ構造。 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 ## 例 {#section-1b57199415e34a8fa449f864f8895b14}
 
-このコードのサンプルは、名前別にプロパティセットタイプを返します。
+このコード例では、名前でプロパティセットのタイプを返します。
 
 **リクエスト**
 

@@ -1,18 +1,18 @@
 ---
-description: getVignetPublishFormats
+description: getVistaPublishFormats
 solution: Experience Manager
-title: getVignetPublishFormats
+title: getVistaPublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 24%
+ht-degree: 19%
 
 ---
 
-# getVignetPublishFormats{#getvignettepublishformats}
+# getVistaPublishFormats{#getvignettepublishformats}
 
 構文
 
@@ -23,19 +23,19 @@ ht-degree: 24%
 * `TrialSiteAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
+## パラメーター {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**入力 (getVignetPublishFormatsParam)**
-
-| 名前 | 種類 | 必須 | 説明 |
-|---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
-
-**出力 (getVignettePublishFormatsReturn)**
+**入力（getVignettePublishFormatsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| vignetFormatArray | `types:VignettePublishFormatArray` | はい | ビネット公開形式の配列。 |
+| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
+
+**出力（getVignettePublishFormatsReturn）**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| vignetteFormatArray | `types:VignettePublishFormatArray` | はい | ビネット公開形式の配列。 |
 
 ## 例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 

@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン6の新しい操作方法と変更された操作方法について説明します。
+description: IPS API バージョン 6 の新しい操作メソッドと変更された操作メソッドについて説明します。
 solution: Experience Manager
-title: 新規および変更された操作
-feature: Dynamic Media Classic、SDK/API
+title: 新規および変更済みの操作
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
 
-# 操作：新規および変更済み{#operations-new-and-modified}
+# 操作：新規および変更{#operations-new-and-modified}
 
-IPS APIバージョン6の新しい操作方法と変更された操作方法について説明します。
+IPS API バージョン 6 の新しい操作メソッドと変更された操作メソッドについて説明します。
 
 構文
 
@@ -29,61 +29,59 @@ IPS APIバージョン6の新しい操作方法と変更された操作方法に
 
 ## 変更された操作 {#section-f4e8755527444266ae806e3f4c851ae6}
 
-**追加済み**
+**追加**
 
-* `isHidden`と`initialTagValue`を次の場所に追加しました。
+* `isHidden` と `initialTagValue` が次に追加されました：
 
    * `saveMetadataField`
-   * ` `updateMetadataField&quot;
+   * ` `updateMetadataField」
    * `createMetadataField`
 
-* `thumbAssetHandle`を次の場所に追加しました。
+* `thumbAssetHandle` が次に追加されました：
 
    * `createImageSet`
    * `createAssetSet`
 
-   `companyHandle`を次の場所に追加しました。
+  `companyHandle` が次に追加されました：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   `contextHandle`を次の場所に追加しました。
+  `contextHandle` が次に追加されました：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
-* includeInactiveを次の場所に追加しました。
+* includeInactive が次に追加されました。
 
    * `getUsers` をクリックします。
    * `getUserChars` をクリックします。
 
-* `permissionArray`を`createPropertySet`に追加しました。
+* `permissionArray` を `createPropertySet` に追加しました。
 
-* `exportJob`を`submitJob`に追加しました。
+* `exportJob` を `submitJob` に追加しました。
 
-**変更済み**
+**変更**
 
-* `addUser`と`setUser`で、`role`を`defaultRole`に変更しました。
+* `addUser` と `setUser` で、`role` を `defaultRole` に変更しました。
 
-* `getCompanyMembers`で、`userArray`を`memberArray`に変更しました。
+* `getCompanyMembers` で、が `userArray` を `memberArray` に変更しました。
 
-* `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
+* `getCompanyMembership` で、が `companyArray` を `membershipArray` に変更しました。
 
-* `addUser`、`setCompanyMembership`、および`addCompanyMembership`で、`membershipArray`を`companyHandleArray`に変更しました。
+* `addUser`、`setCompanyMembership` および `addCompanyMembership` では、が `membershipArray` から `companyHandleArray` に変更されました。
 
-* `getCompanyMembership`で、`companyArray`を`membershipArray`に変更しました。
+* `getCompanyMembership` で、が `companyArray` を `membershipArray` に変更しました。
 
-* `getUserChars`では、`includeInvalid`はオプションになりました。
+* `getUserChars` では、`includeInvalid` はオプションになりました。
 
-**削除**
+**削除済み**
 
-* `renameAsset`から`renameFiles`を削除しました。
+* `renameFiles` を `renameAsset` から削除しました。
 
-* `getXMPPanelViewDefinition`を削除しました。
-* `searchAssetsByFulltext`と`searchAssetsBySimilarity`を削除しました。
+* `getXMPPanelViewDefinition` を削除しました。
+* `searchAssetsByFulltext` と `searchAssetsBySimilarity` を削除しました。

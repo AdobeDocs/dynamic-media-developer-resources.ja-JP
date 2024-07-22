@@ -1,6 +1,6 @@
 ---
-title: リクエストのネストと埋め込み
-description: 画像レンダリングを使用すると、画像サービング要求と HTTP 要求を外部サーバに埋め込んで、繰り返し可能なテクスチャやデカルに使用されるマテリアル画像を取得できます。
+title: ネストと埋め込みのリクエスト
+description: 画像レンダリングを使用すると、画像サービングリクエストや外部サーバーへの HTTP リクエストを埋め込んで、繰り返し可能なテクスチャやデカールに使用するマテリアル画像を取得できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# リクエストのネストと埋め込み{#request-nesting-and-embedding}
+# ネストと埋め込みのリクエスト{#request-nesting-and-embedding}
 
-画像レンダリングを使用すると、画像サービング要求と HTTP 要求を外部サーバに埋め込んで、繰り返し可能なテクスチャやデカルに使用されるマテリアル画像を取得できます。
+画像レンダリングを使用すると、画像サービングリクエストや外部サーバーへの HTTP リクエストを埋め込んで、繰り返し可能なテクスチャやデカールに使用するマテリアル画像を取得できます。
 
-これらのメカニズムは、キャビネットおよび窓カバリング材料ではサポートされていません。
+これらのメカニズムは、キャビネットおよび窓覆いマテリアルではサポートされていません。
 
-関連トピック [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) および画像サービングリファレンス
+[src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) および画像サービングのリファレンスも参照してください。

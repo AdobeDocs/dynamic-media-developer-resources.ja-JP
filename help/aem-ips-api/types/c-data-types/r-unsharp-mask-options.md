@@ -1,26 +1,26 @@
 ---
-description: 最適化されたピラミッド TIF ファイルの画像のシャープネスを向上させる設定です。
+description: 最適化されたピラミッド TIF ファイルの画像のシャープネスを向上させるための設定。
 solution: Experience Manager
-title: UnsharpMaskOptions
+title: アンシャープマスクオプション
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 11%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
 # [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
-最適化されたピラミッド TIF ファイルの画像のシャープネスを向上させる設定です。
+最適化されたピラミッド TIF ファイルの画像のシャープネスを向上させるための設定。
 
-`unsharpMaskOptions=[ *`適用量、半径、しきい値、モノクロ`*]`
+`unsharpMaskOptions=[ *` 量、半径、しきい値、モノクロ `*]`
 
-## パラメータ {#section-c3f0d03136ba4422819cb463bd393885}
+## パラメーター {#section-c3f0d03136ba4422819cb463bd393885}
 
-値を指定 `unsharpMaskOptions` オプション `minOccurs=" *`n`*".`
+`minOccurs=" *`n`*".` を使用してオプション `unsharpMaskOptions` 値を指定します
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -43,26 +43,26 @@ ht-degree: 11%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 半径</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
-   <td colname="col3"><p>画像の端の周りのピクセル数を設定して、シャープを制御します。 適切な値は、画像のサイズに依存します。 
+   <td colname="col3"><p>画像のエッジの周囲のピクセル数を設定してシャープネスを制御します。 適切な値は、画像のサイズに依存します。 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">範囲：0.0 ～ 250.0 </li>
-      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">値が小さいと、エッジのピクセルのみがシャープになります。 </li>
+      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">値を小さくすると、エッジのピクセルのみがシャープになります。 </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">値を大きくすると、ピクセルの幅が広くなります。 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> しきい値</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>周囲の領域と異なるピクセルをどの程度違えば、そのピクセルをエッジのピクセルと見なしてシャープにできるかを決定します。 
+   <td colname="col3"><p>周囲の領域と異なるピクセルをエッジピクセルと見なしてシャープにする方法を決定します。 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
-      <li id="li_CFEE76DB78BF437E8463C9089486F8A6">範囲：0 ～ 255（整数のみ）。 </li>
+      <li id="li_CFEE76DB78BF437E8463C9089486F8A6">範囲：0～255 （整数のみ）。 </li>
       <li id="li_77113DC2698A4D48B11288718766E6A2">デフォルト：6 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> モノクロ</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>次の値が含まれます <span class="codeph"> 0</span> または <span class="codeph"> 1</span> のみ。 </p><p>に設定 <span class="codeph"> 0</span> 各色成分を個別に適用するか、 <span class="codeph"> 1</span> 画像の明るさ（強さ）のみに適用します。 レイヤーマスクやコンポジットマスクもシャープになります。 </p><p><span class="codeph"><span class="varname"> モノクロ</span></span> はグレースケール画像では無視されます。 </p></td>
+   <td colname="col3"><p>値には、<span class="codeph"> 0</span> または <span class="codeph"> 1</span> のみが含まれます。 </p><p>各色成分に個別に適用する場合は <span class="codeph"> 0</span> に、画像の明るさ（強さ）にのみ適用する場合は <span class="codeph"> 1</span> に設定します。 レイヤーマスクまたはコンポジットマスクもシャープになります。 </p><p>モノクロ <span class="codeph"><span class="varname"> は </span></span> グレースケール画像では無視されます。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ ht-degree: 11%
 
 ## 使用者 {#section-db8124a5468b498694a780f8a56a4560}
 
-この `unsharpMaskOptions` タイプは次のユーザーが使用します。
+`unsharpMaskOptions` のタイプは、次のユーザーが使用します。
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -92,5 +92,4 @@ ht-degree: 11%
 
 >[!MORELIKETHIS]
 >
->* [画像サービング API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-
+>* [ 画像サービス API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # ホットスポットと画像マップのサポート{#hotspot-and-image-maps-support}
 
-ビューアでは、メインビューの上部にあるホットスポットアイコンと画像マップ領域のレンダリングがサポートされています。 ホットスポットアイコンと領域の外観は、ホットスポットと画像マップのカスタマイズの節で説明されているように、CSS を通じて制御します。
+ビューアは、メインビューの上部にあるホットスポットアイコンと画像マップ領域のレンダリングをサポートしています。 ホットスポットのアイコンと領域の外観は、ホットスポットと画像マップのカスタマイズの節で説明しているように、CSS で制御されます。
 
-詳しくは、 [ホットスポットと画像マップ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+[ ホットスポットと画像マップ ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
 
-ホットスポットと地域は、JavaScript コールバックを呼び出すことで、ホストしている Web ページでクイックビュー機能を有効にするか、ユーザーを外部 Web ページにリダイレクトすることができます。
+ホットスポットとリージョンは、JavaScript コールバックをトリガーしてホスティング web ページ上でクイックビュー機能をアクティブ化するか、ユーザーを外部 web ページにリダイレクトできます。
 
-## クイックビューのホットスポット {#section-cda48fc9730142d0bb3326bac7df3271}
+## クイックビューホットスポット {#section-cda48fc9730142d0bb3326bac7df3271}
 
-これらのタイプのホットスポットまたは画像マップは、Adobe Experience ManagerのDynamic Mediaの「クイックビュー」アクションタイプを使用してオーサリングする必要があります。 ユーザーがそのようなホットスポットまたは画像マップをアクティブにすると、ビューアは `quickViewActivate` JavaScript コールバックを呼び出し、ホットスポットまたは画像マップのデータをそれに渡します。 埋め込み Web ページがこのコールバックをリッスンする必要があります。 ページのトリガー時に、独自のクイックビュー実装が開きます。
+このようなホットスポットや画像マップは、Adobe Experience ManagerのDynamic Mediaにある「クイックビュー」アクションタイプを使用して作成する必要があります。 ユーザーがそのようなホットスポットまたは画像マップをアクティブ化すると、ビューアは `quickViewActivate` JavaScript コールバックを実行し、ホットスポットまたは画像マップのデータをそれに渡します。 埋め込まれる web ページは、このコールバックをリッスンすることが想定されます。 ページをトリガーすると、独自のクイックビュー実装が開きます。
 
 ## 外部 Web ページにリダイレクト {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Experience ManagerのDynamic Mediaのアクションタイプ「クイックビュー」用に作成されたホットスポットまたは画像マップは、ユーザーを外部 URL にリダイレクトします。 オーサリング時におこなった設定に応じて、URL は新しいブラウザータブ、同じウィンドウ、または名前付きブラウザーウィンドウで開きます。
+Experience ManagerのDynamic Mediaでアクションタイプ「クイックビュー」用に作成したホットスポットまたは画像マップは、外部の URL にリダイレクトされます。 オーサリング時に行った設定に応じて、URL は新しいブラウザータブ、同じウィンドウ、または名前付きブラウザウィンドウで開きます。

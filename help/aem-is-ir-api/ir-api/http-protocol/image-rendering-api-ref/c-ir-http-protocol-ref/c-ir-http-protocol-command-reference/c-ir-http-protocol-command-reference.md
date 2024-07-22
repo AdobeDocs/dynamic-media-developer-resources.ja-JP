@@ -1,6 +1,6 @@
 ---
-title: HTTP プロトコルのコマンドリファレンス
-description: このコマンドリファレンスは、HTTP プロトコルコマンドの詳細を提供します。
+title: HTTP プロトコルコマンドリファレンス
+description: このコマンドリファレンスでは、HTTP プロトコルコマンドの詳細を示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP プロトコルのコマンドリファレンス {#http-protocol-command-reference}
+# HTTP プロトコルコマンドリファレンス {#http-protocol-command-reference}
 
-このコマンドリファレンスは、HTTP プロトコルコマンドの詳細を提供します。
+このコマンドリファレンスでは、HTTP プロトコルコマンドの詳細を示します。

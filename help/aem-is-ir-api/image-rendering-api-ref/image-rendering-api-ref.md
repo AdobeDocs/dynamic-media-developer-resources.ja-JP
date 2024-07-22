@@ -1,6 +1,6 @@
 ---
 title: 画像レンダリング API リファレンス
-description: Dynamic Media画像レンダリング API リファレンスヘルプを参照してください。
+description: Dynamic Media画像レンダリング API リファレンスのヘルプを参照してください。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 画像レンダリング API リファレンス {#image-rendering-api-reference}
 
-Dynamic Media画像レンダリング API リファレンスヘルプを参照してください。
+Dynamic Media画像レンダリング API リファレンスのヘルプを参照してください。

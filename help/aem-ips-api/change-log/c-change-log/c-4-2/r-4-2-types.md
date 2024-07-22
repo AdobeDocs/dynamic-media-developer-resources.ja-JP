@@ -1,20 +1,20 @@
 ---
-description: IPS APIバージョン4.2の新しいデータ型と変更されたデータ型について説明します。
+description: IPS API バージョン 4.2 の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
-title: 新規および変更されたデータタイプ
-feature: Dynamic Media Classic、SDK/API
+title: 新規および変更済みのデータタイプ
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '53'
+ht-degree: 1%
 
 ---
 
 # データタイプ：新規および変更済み{#data-types-new-and-modified}
 
-IPS APIバージョン4.2の新しいデータ型と変更されたデータ型について説明します。
+IPS API バージョン 4.2 の新しいデータ型と変更されたデータ型について説明します。
 
 構文
 
@@ -36,7 +36,7 @@ IPS APIバージョン4.2の新しいデータ型と変更されたデータ型�
 * `MaskInfo`
 * `RTFInfo`
 
-削除されたパラメータ：
+削除されたパラメーター：
 
 * `ImageSetInfo`
 * `RenderSetInfo`

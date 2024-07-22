@@ -1,23 +1,23 @@
 ---
-title: AdobeDynamic Media開発者リソース
+title: Dynamic Media開発者向けリソースのAdobe
 cloud: Experience Cloud
 product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media 開発者向けリソース
-breadcrumb-title: Dynamic Media の開発者向けリソース
-user-guide-description: ビューアリファレンスガイド、画像制作システム API、画像処理およびレンダリング API、以前の Scene7 のリリースノートなど、Dynamic Media の開発者向けリソースにアクセスできます。
+user-guide-title: Adobe Dynamic Media開発者向けリソース
+breadcrumb-title: Dynamic Media開発者向けリソース
+user-guide-description: ビューアリファレンスガイド、Image Production System API、画像サービングおよびレンダリング API、アーカイブされたDynamic Media リリースノートなどのScene7開発者向けリソースにアクセスできます。
 feature-set: Experience Manager Assets
 index: y
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 88%
+ht-degree: 2%
 
 ---
 
 
-# Dynamic Media の開発者向けリソース{#landing}
+# Dynamic Media開発者向けリソース{#landing}
 
 + [ホーム](home.md)
 

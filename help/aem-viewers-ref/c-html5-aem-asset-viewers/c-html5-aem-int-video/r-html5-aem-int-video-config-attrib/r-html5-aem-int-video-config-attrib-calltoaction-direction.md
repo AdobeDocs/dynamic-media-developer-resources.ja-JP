@@ -8,7 +8,7 @@ exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 5%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> ビュー内でのサムネールの表示方法を指定します。 </p> <p><span class="codeph"> left </span>に設定して、左から右への入力順序を設定します。 </p> <p><span class="codeph"> right </span>に設定すると順序が逆になり、右から左、上から下の方向に表示されます。 </p> <p>ロケールが<span class="codeph"> "ja" </span>に設定されている場合に、コンポーネントに正しいモードを適用させるには、 <span class="codeph"> auto </span>に設定します。それ以外の場合は、 <span class="codeph">左</span>が使用されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> ビュー内でのサムネイルの埋め込み方法を指定します。 </p> <p>左 </span> に設定 <span class="codeph"> ると、左から右への塗り潰し順序を設定できます。 </p> <p>[ 右 <span class="codeph"> 設定 ] を選択すると </span> ビューが右から左、上から下の方向に埋められるように順序が逆になります。 </p> <p>ロケール <span class="codeph"> 「ja」 </span> ードに設定されている場合にコンポーネントが右モードを適用する <span class="codeph"> は、自動 </span> ードに設定します。それ以外の場合は、左 </span> ード <span class="codeph"> 使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

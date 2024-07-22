@@ -1,6 +1,6 @@
 ---
 title: 設定
-description: 画像レンダリングを使用するには、事前に画像レンダリングを設定する必要があります。
+description: 使用する前に、イメージ レンダリングを設定する必要があります。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # 設定{#configuration}
 
-画像レンダリングを使用するには、事前に画像レンダリングを設定する必要があります。
+使用する前に、イメージ レンダリングを設定する必要があります。

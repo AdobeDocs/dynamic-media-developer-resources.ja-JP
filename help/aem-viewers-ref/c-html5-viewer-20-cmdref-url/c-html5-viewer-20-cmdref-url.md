@@ -1,5 +1,5 @@
 ---
-title: すべてのビューアに共通のコマンドリファレンス — URL
+title: すべてのビューアに共通のコマンド参照 – URL
 description: すべてのビューアに共通のコマンドリファレンスドキュメント。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# すべてのビューアに共通のコマンドリファレンス — URL{#command-reference-common-to-all-viewers-url}
+# すべてのビューアに共通のコマンド参照 – URL{#command-reference-common-to-all-viewers-url}
 
 すべてのビューアに共通のコマンドリファレンスドキュメント。
 
-以下に示すコマンドは、URLを使用して、またはAPI `setParam()`または`setParams()`メソッドを使用して適用されます。
+以下に示すコマンドは、URL を使用するか、API `setParam()` または `setParams()` メソッドを使用して適用されます。

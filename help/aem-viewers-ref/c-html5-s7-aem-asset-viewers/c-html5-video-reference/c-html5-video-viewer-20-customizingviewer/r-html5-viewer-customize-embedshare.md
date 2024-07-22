@@ -42,18 +42,18 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` 属性セレクター。異なるボタンの状態に異なるスキンを適用するために使用できます。
+>このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-を設定することで、ボタンをソーシャル共有パネルから削除することができます `display:none` CSS クラスの CSS プロパティ。
+CSS クラスに CSS プロパティを設定することで、ソーシャル共有パネルからボタン `display:none` 削除することができます。
 
-ボタンのツールチップはローカライズできます。 参照： [ユーザーインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – 28 x 28 ピクセルで、4 つの異なるボタン状態ごとに異なる画像を表示する埋め込み共有ボタンを設定するには：
 
@@ -87,11 +87,11 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
    <td colname="col2"> <p>背景オーバーレイの不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>背景のオーバーレイカラー。 </p> </td> 
   </tr> 
  </tbody> 
@@ -121,7 +121,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
    <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザー全体を取らない場合）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>ダイアログボックスの背景色。 </p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ background-color: #ffffff;
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> ヘッダーコンテンツの内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ background-color: #ffffff;
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> ヘッダーアイコンとタイトルの内部パディング </p> </td> 
   </tr> 
  </tbody> 
@@ -203,7 +203,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,7 +219,7 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
    <td colname="col2"> <p>フォントの線幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -227,11 +227,11 @@ background-color: #ffffff;
    <td colname="col2"> <p>フォントの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>フォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>内部テキストのパディング。 </p> </td> 
   </tr> 
  </tbody> 
@@ -248,11 +248,11 @@ background-color: #ffffff;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上位 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
    <td colname="col2"> <p> ヘッダーコンテナに対する垂直方向のボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> ヘッダーコンテナに対する水平方向のボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>ボタンの内側のパディング。 </p> </td> 
   </tr> 
   <tr> 
@@ -273,16 +273,16 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、 `state` 属性セレクター。異なるボタンの状態に異なるスキンを適用するために使用できます。
+>このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 参照： [ユーザーインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – パディング、24 x 14 ピクセルのアイコン、太字の 16 ポイントのタイトルを使用してダイアログヘッダーを設定する 最後に、28 x 28 ピクセルの「閉じる」ボタンが、ダイアログボックスのコンテナの上から 2 ピクセル、右から 2 ピクセルの位置に表示されます。
 
@@ -352,7 +352,7 @@ background-color: #ffffff;
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> フッターとボタンの間の内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
@@ -379,11 +379,11 @@ background-color: #ffffff;
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->「すべてを選択」ボタンは、 `state` 属性セレクター。異なるボタンの状態に異なるスキンを適用するために使用できます。
+>「すべてを選択」ボタンでは、`state` 属性セレクターがサポートされており、異なるボタン状態に異なるスキンを適用するために使用できます。
 
 「キャンセル」ボタンは、次の CSS クラスセレクターで制御されます。
 
@@ -412,11 +412,11 @@ background-color: #ffffff;
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->キャンセルボタンは、 `state` 属性セレクター。異なるボタンの状態に異なるスキンを適用するために使用できます。
+>キャンセル ボタンでは、`state` 属性セレクターがサポートされており、これを使用して、ボタンの状態に応じて異なるスキンを適用できます。
 
 さらに、両方のボタンは共通の CSS クラスを共有します。このクラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
 
@@ -437,7 +437,7 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントの線幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -445,7 +445,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>ボタンのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,17 +453,17 @@ background-color: #ffffff;
    <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置揃えに影響します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ボックス影 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ボックスの影の </span> </p> </td> 
    <td colname="col2"> <p>ドロップシャドウ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> マージン （右） </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
    <td colname="col2"> <p>ボタンの右の余白。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 参照： [ユーザーインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – 64 x 34 の「キャンセル」ボタンを持つダイアログボックスのフッターを設定し、ボタンの状態ごとにテキストカラーと背景色が異なるようにするには、次の手順に従います。
 
@@ -540,11 +540,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> メイン ダイアログ ボックス領域の高さです。 このオプションは、ダイアログボックスがデスクトップモードで動作する場合にのみ指定してください。 ダイアログ ボックスのサイズがブラウザ ウィンドウ全体に表示される場合は、この設定は適用されません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>メインのダイアログボックス領域の背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>外側余白。 </p> </td> 
   </tr> 
  </tbody> 
@@ -573,7 +573,7 @@ background-color: #ffffff;
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>内側のパディング </p> </td> 
   </tr> 
  </tbody> 
@@ -600,7 +600,7 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
    <td colname="col2"> <p>ラベルのフォントの線幅。 </p> </td> 
   </tr> 
   <tr> 
@@ -608,17 +608,17 @@ background-color: #ffffff;
    <td colname="col2"> <p>ラベルのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>ラベルのフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>ラベルのテキストの色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ダイアログ ボックス ラベルのツール ヒントはローカライズできます。 参照： [ユーザーインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ダイアログ ボックス ラベルのツール ヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – すべてのラベルを 9 ピクセルのフォントを使用してグレー、太字に設定するには：
 
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**ダイアログボックスの入力全体フィールドの CSS プロパティ**
+**ダイアログボックス入力全体フィールドの CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -645,7 +645,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>内側のパディング </p> </td> 
   </tr> 
  </tbody> 
@@ -666,7 +666,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックスの入力コンテナの CSS プロパティ**
+**ダイアログボックス入力コンテナの CSS プロパティ**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -679,7 +679,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>埋め込みコードコンテナを囲むボーダー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>内側のパディング </p> </td> 
   </tr> 
  </tbody> 
@@ -701,7 +701,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックスの入力コンテナの CSS プロパティ**
+**ダイアログボックス入力コンテナの CSS プロパティ**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -712,7 +712,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-例 – が使用できるように埋め込みコードを設定する `break-word` 折り返し：
+例 – でのワードラッピングを使用するように埋め込みコード `break-word` 設定するには：
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogmessage { 
@@ -731,7 +731,7 @@ background-color: #ffffff;
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>内側のパディング </p> </td> 
   </tr> 
  </tbody> 
@@ -756,7 +756,7 @@ background-color: #ffffff;
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 垂直方向の位置揃え </span> </p> </td> 
    <td colname="col2"> <p>垂直方向のラベルの配置。 </p> </td> 
   </tr> 
   <tr> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->コンボボックスは、 `expanded` 可能な値を持つ属性セレクター `true` および `false`. この `true` 値は、コンボボックスに事前定義済みの埋め込みサイズのいずれかが表示されるときに使用されるので、使用可能なすべての幅を取る必要があります。 この `false` 値は、コンボボックスで「カスタムサイズ」オプションが選択されている場合に使用します。そのため、カスタムの幅および高さの入力フィールドを配置できるように、値を縮小する必要があります。
+>コンボボックスでは、`true` および `false` の可能な値を持つ `expanded` 属性セレクターがサポートされています。 `true` の値は、コンボボックスに事前定義済みの埋め込みサイズのいずれかが表示される場合に使用されるので、使用可能なすべての幅を取る必要があります。 `false` の値は、コンボボックスで「カスタムサイズ」オプションが選択されている場合に使用されます。そのため、カスタムの幅および高さの入力フィールドを配置できるように、値を縮小する必要があります。
 
 例 – 事前定義済みの項目を表示する場合に埋め込みサイズ コンボボックスの幅を 300 ピクセルに、カスタムサイズを表示する場合に幅を 110 ピクセルに設定する：
 
@@ -843,11 +843,11 @@ background-color: #ffffff;
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上位 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
    <td colname="col2"> <p>コンボボックス内の垂直方向のボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>コンボボックス内の水平ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
@@ -864,12 +864,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-このボタンは、 `state` 属性セレクター。異なるボタンの状態に異なるスキンを適用するために使用できます。
+このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
 例 – 「ドロップダウン」ボタンを 28 x 28 ピクセルに設定し、状態ごとに別々の画像を持つ場合：
 
@@ -900,7 +900,7 @@ background-color: #ffffff;
 
 パネルのサイズと位置は、コンポーネントによって制御されます。 CSS を使用して変更することはできません。
 
-**コンボボックスのドロップダウンの CSS プロパティ**
+**コンボボックスドロップダウンの CSS プロパティ**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
@@ -930,7 +930,7 @@ background-color: #ffffff;
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p>項目の背景。 </p> </td> 
   </tr> 
  </tbody> 
@@ -968,7 +968,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,7 +994,7 @@ background-color: #ffffff;
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> 「埋め込みサイズ」コンボボックスからの距離。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1027,11 +1027,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 入力フィールドの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 余白 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p> フィールドの余白を入力します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> 入力フィールドのパディング。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1089,7 +1089,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>スクロール バーの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上位 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
    <td colname="col2"> <p> スクロールパネルの上部からオフセットされた垂直スクロールバー。 </p> </td> 
   </tr> 
   <tr> 
@@ -1097,7 +1097,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> スクロールパネルの下部からオフセットされた垂直スクロールバー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> 水平スクロールバーをスクロールパネルの右端からオフセットします。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1129,7 +1129,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>トラックの幅 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> 背景色を追跡する。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1179,7 +1179,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->親指はをサポート `state` 属性セレクター。様々なスキンを様々なサムステートに適用するために使用できます。 `up`, `down`, `over`、および `disabled`.
+>Thumb は、`up`、`down`、`over`、`disabled` などの異なるサムステートに異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
 例 – 28 x 45 ピクセルのスクロールバーの親指を設定し、上下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つ場合：
 
@@ -1216,7 +1216,7 @@ background-color: #B2B2B2;
 
 CSS の top、left、bottom、right プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアロジックによって自動的に配置されます。
 
-**上部および下部のスクロールボタンの CSS プロパティ**
+**上下のスクロールボタンの CSS プロパティ**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
@@ -1234,16 +1234,16 @@ CSS の top、left、bottom、right プロパティを使用してスクロー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>参照： <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>. </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->これらのボタンは、 `state` ボタンの状態に応じて異なるスキンを適用するために使用できる属性セレクター： `up`, `down`, `over`、および `disabled`.
+>これらのボタンは、`state` 属性セレクターをサポートしています。このセレクターを使用して、ボタンの状態（`up`、`down`、`over`、`disabled`）に応じて異なるスキンを適用できます。
 
-ボタンのツールチップはローカライズできます。 参照： [ユーザーインターフェイス要素のローカリゼーション](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – 28 x 32 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには：
 

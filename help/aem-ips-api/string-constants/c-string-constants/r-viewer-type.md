@@ -1,20 +1,20 @@
 ---
-description: ViewerPresetInfoで使用されます。
+description: ViewerPresetInfo によって使用されます。
 solution: Experience Manager
-title: ビューアの種類
-feature: Dynamic Media Classic,SDK/API，ビューア
+title: ビューアのタイプ
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 33%
+source-wordcount: '12'
+ht-degree: 16%
 
 ---
 
-# ビューアの種類{#viewer-type}
+# ビューアのタイプ{#viewer-type}
 
-ViewerPresetInfoで使用されます。
+ViewerPresetInfo によって使用されます。
 
 構文
 

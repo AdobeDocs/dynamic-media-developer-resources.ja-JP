@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 574cb37c-009a-43c7-ae55-8b26c0c096c5
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 に設定する場合 <span class="codeph"> -1</span> コンポーネントの初期化時またはアセットの変更時に、すべてのスウォッチが同時に読み込まれます。 に設定する場合 <span class="codeph"> 0</span> 表示されているスウォッチのみが読み込まれます。 </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> は、表示されている領域の周囲にある非表示の行/列のプリロード数を定義します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 <span class="codeph">-1 に設定すると </span> コンポーネントが初期化されたときやアセットが変更されたときに、すべてのスウォッチが同時に読み込まれます。 <span class="codeph"> 0 に設定すると </span> 表示されているスウォッチのみが読み込まれます。 </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> は、可視領域の周囲の非表示の行/列のプリロード数を定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

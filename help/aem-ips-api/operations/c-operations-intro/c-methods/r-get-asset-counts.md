@@ -1,5 +1,5 @@
 ---
-description: 特定の会社に関連付けられているアセットとアセット数を取得します。
+description: 特定の会社に関連付けられているアセットとその数を取得します。
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,18 +8,18 @@ exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
 # getAssetCounts{#getassetcounts}
 
-特定の会社に関連付けられているアセットとアセット数を取得します。
+特定の会社に関連付けられているアセットとその数を取得します。
 
-この `countArray` 返されるは、 `assetTypes` ( データタイプ `xsd:string`)、それぞれに独自のカウントフィールド ( データタイプ `xsd:int`) を使用して、配列の要素ごとに複数のアセットタイプを表現できます。
+返される `countArray` は、`assetTypes` の配列（データタイプ `xsd:string`）で構成され、それぞれに独自のカウントフィールド（データタイプ `xsd:int`）があり、配列の要素ごとに複数のアセットタイプを表現できます。
 構文
 
-## 認証済みユーザータイプ {#section-6234754722184e828352f10eb18fbce9}
+## 許可されているユーザータイプ {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,23 +31,23 @@ ht-degree: 10%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-2a9581315eca427d8a3d26cc3fca7b1f}
+## パラメーター {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**入力 (getAssetCountsParam)**
-
-| 名前 | 種類 | 必須 | 説明 |
-|---|---|---|---|
-| companyHandle | `xsd:string` | はい | カウントするアセットを含む会社へのハンドル。 |
-
-**出力 (getAssetCountsReturn)**
+**入力（getAssetCountsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| countArray | `types:AssetCountArray` | いいえ | アセットタイプの配列で、それぞれに独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
+| companyHandle | `xsd:string` | はい | カウントするアセットを持つ会社へのハンドル。 |
+
+**出力（getAssetCountsReturn）**
+
+| 名前 | 種類 | 必須 | 説明 |
+|---|---|---|---|
+| countArray | `types:AssetCountArray` | いいえ | アセットタイプの配列。各アセットタイプには独自のカウントフィールドがあり、配列の要素ごとに複数のアセットタイプを表現できます。 |
 
 ## 例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-このコードサンプルでは、会社のハンドルを `getAssetCountsParam` アセット数を取得するために IPS Web サービスサーバに送信されました。
+このコードサンプルでは、アセットカウントを取得するために IPS Web サービスサーバーに送信される `getAssetCountsParam` のフィールドとして、会社のハンドルを使用しています。
 
 **リクエスト**
 

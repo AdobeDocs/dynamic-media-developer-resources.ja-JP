@@ -1,6 +1,6 @@
 ---
 title: Windows での起動または停止
-description: Image Server を起動または停止するメカニズムがいくつか存在し、 [!DNL Platform Server] Windows の場合
+description: Image Server および Windows を起動または停止するメカニズムはいくつか  [!DNL Platform Server]  ります
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Windows での起動または停止{#starting-or-stopping-on-windows}
 
-Image Server を起動または停止するメカニズムがいくつか存在し、 [!DNL Platform Server] （Windows の場合）
+Windows 上で Image Server および [!DNL Platform Server] を起動または停止するメカニズムはいくつかあります。
 
 1. 画像サービングを開始または停止するには、次のいずれかを選択します。
 
-* Windows サービスCampaign コントロールパネルを使用して、 `Dynamic Media Image Serving` サービス。
-* **[!UICONTROL スタートメニュー]**> **[!UICONTROL すべてのプログラム]**> **[!UICONTROL Dynamic Media(Scene7)]**> **[!UICONTROL 画像サービング]**> **[!UICONTROL 制御サービス]** には、 `Dynamic Media Image Serving` サービス。
+* Windows サービス Campaign コントロールパネルを使用すると、`Dynamic Media Image Serving` サービスの開始、停止、再起動、および状態の確認を行うことができます。
+* **[!UICONTROL スタート メニュー]**> **[!UICONTROL すべてのプログラム]**> **[!UICONTROL Dynamic Media（Scene7）]**> **[!UICONTROL 画像サービング]**> **[!UICONTROL コントロール サービス]** には、`Dynamic Media Image Serving` サービスの開始、停止、再開のコマンドが用意されています。

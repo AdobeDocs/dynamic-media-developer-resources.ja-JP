@@ -1,6 +1,6 @@
 ---
 title: op_blur
-description: ぼかし画像。 画像データにぼかしフィルターを適用します。
+description: ブラー画像。 画像データにぼかしフィルターを適用します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # op_blur{#op-blur}
 
-ぼかし画像。 画像データにぼかしフィルターを適用します。
+ブラー画像。 画像データにぼかしフィルターを適用します。
 
-`op_blur= *`半径`*`
+`op_blur= *` 半径 `*`
 
 <table id="simpletable_1DD41D819BE74130A77ECFC28486F70A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 半径</span> </p> </td> 
-  <td class="stentry"> <p>ぼかしフィルターの半径（ピクセル単位、実数 0 ～ 100）。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> 半径 </span> </p> </td> 
+  <td class="stentry"> <p>ブラーのフィルタ半径（ピクセル単位）（実数 0..100）。 </p></td> 
  </tr> 
 </table>
 
-*`radius`* は、合成画像を基準とするピクセル単位です。 レイヤー効果のぼかしにも使用されます。
+合成画像に対する相対的なピクセル数を *`radius`* します。 レイヤー効果をぼかすために使用されます。
 
 ## プロパティ {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-[ 画層 ] コマンド 現在の画層または合成画像に適用されます ( `layer=comp`.
+[ 画層 ] コマンド： 現在のレイヤーまたは合成イメージ（`layer=comp` の場合）に適用されます。
 
 ## 初期設定 {#section-a976cb86620d489085a8fc9bae2626c0}
 
-`op_blur=0`（ぼかし効果がない場合）。
+ブラー効果を適用しない場合は、`op_blur=0` を使用します。
 
 ## 例 {#section-1ebacde68388492eb108ae0fcd7424db}
 
-画像の背景をぼかします。 別のマスク画像は、 `catalog::MaskPath`. 注意： `layer=0`は、明示的に指定する必要があります。それ以外の場合は、 `op_blur` が合成画像全体に適用されます。
+画像の背景をぼかします。 個別のマスク画像が `catalog::MaskPath` によって参照されます。 `layer=0` を明示的に指定する必要があります。指定しない `op_blur`、合成画像全体に適用されます。
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

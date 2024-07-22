@@ -8,7 +8,7 @@ exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 24%
+ht-degree: 18%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 24%
 
 構文
 
-## 認証済みユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
+## 許可されているユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
 * `ImagePortalAdmin`
 
-## パラメータ {#section-392cb3076cf84790a32fd913f2b111a3}
+## パラメーター {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**入力 (updateAssetPermissionsParam)**
+**入力（updateAssetPermissionsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社の取り扱い。 |
+| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
 | assetHandle | `xsd:string` | はい | アセットハンドル。 |
-| updateArray | `types:PermissionUpdateArray` | はい | アセットに適用する権限です。 |
+| updateArray | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
 
-**出力 (updateAssetPermissionsReturn)**
+**Output （updateAssetPermissionsReturn）**
 
-IPS API はこの操作に対する応答を返しません。
+IPS API は、この操作に対して応答を返しません。
 
 ## 例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

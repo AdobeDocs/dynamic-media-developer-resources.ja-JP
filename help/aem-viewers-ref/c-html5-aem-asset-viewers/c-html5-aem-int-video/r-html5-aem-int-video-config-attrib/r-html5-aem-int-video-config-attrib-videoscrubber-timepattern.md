@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d39ddf38-9157-412a-83a4-c1af4944a904
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '122'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 時間の吹き出しに表示する時間のパターンを設定します。<span class="codeph"> h</span>は時間を表し、<span class="codeph"> m</span>は分を表し、<span class="codeph"> s</span>は秒を表します。 </p> <p>各時間単位に使用される文字の数によって、その単位に表示する桁数が決まります。 指定した桁に収まらない数値は、後続の単位に表示されます。 </p> <p>例えば、現在のムービー時間が67分5秒の場合、<span class="codeph"> m:ss</span>は67:05と表示されます。 時間パターンが<span class="codeph"> h:mm:s</span>の場合は、同じ時間が1:07:5と表示されます。 </p> </td> 
+   <td colname="col2"> <p> タイムバブルに表示される時間のパターンを設定します。<span class="codeph"> h</span> は時間を、<span class="codeph"> m</span> は分を、<span class="codeph"> s</span> は秒を表します。 </p> <p>時間単位ごとに使用される文字数によって、その単位に表示する桁数が決まります。 数値が指定の数字に収まらない場合は、対応する値が後続の単位で表示されます。 </p> <p>例えば、現在のムービーの時間が 67 分 5 秒の場合、<span class="codeph"> m:ss</span> のタイムパターンは 67:05 と表示されます。 時間パターンが <span class="codeph"> h:mm:s</span> の場合は、同じ時間が 1:07:5 と表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-1e637b22e8a44d759d588e47576891e6}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

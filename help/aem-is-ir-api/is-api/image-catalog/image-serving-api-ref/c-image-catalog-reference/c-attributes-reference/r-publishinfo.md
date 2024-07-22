@@ -1,5 +1,5 @@
 ---
-description: カタログ注釈文字列。 カタログのバージョンや公開日などを識別するために使用できるテキスト文字列。
+description: カタログ注釈文字列。 カタログのバージョン、公開日などを識別するために使用できるテキスト文字列。
 solution: Experience Manager
 title: PublishInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # PublishInfo{#publishinfo}
 
-カタログ注釈文字列。 カタログのバージョンや公開日などを識別するために使用できるテキスト文字列。
+カタログ注釈文字列。 カタログのバージョン、公開日などを識別するために使用できるテキスト文字列。
 
-このフィールドの内容は、 `req=catalogprops`. この属性は、それ以外では使用されません。
+このフィールドのコンテンツは `req=catalogprops` と共に返されます。 それ以外の場合、この属性は使用されません。
 
 ## プロパティ {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
-テキスト文字列。
+テキスト文字列
 
 ## 初期設定 {#section-82e5a885e142414f996c609efbb962b1}
 
-継承元 `default::PublishInfo` が定義されていない場合、または空の場合は。
+定義されていない場合または空の場合は `default::PublishInfo` から継承します。
 
 ## 関連項目 {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

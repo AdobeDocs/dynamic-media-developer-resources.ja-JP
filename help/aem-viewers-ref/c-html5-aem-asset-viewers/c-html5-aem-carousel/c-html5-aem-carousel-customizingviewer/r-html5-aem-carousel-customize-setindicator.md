@@ -1,26 +1,26 @@
 ---
-title: インジケーターの設定
-description: 設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
+title: インジケーターを設定
+description: セットインジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
-# インジケーターの設定{#set-indicator}
+# インジケーターを設定{#set-indicator}
 
-設定インジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
+セットインジケーターは、ビューアの下部にレンダリングされる一連のドットです。 セット内の現在の位置が表示されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**設定インジケーターのCSSプロパティ**
+**セットインジケーターの CSS プロパティ**
 
-設定インジケーターコンテナの外観は、以下のCSSクラスセレクターを使用して制御します。
+セットインジケーターコンテナの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7carouselviewer .s7setindicator
@@ -29,23 +29,23 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターの16進形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケーターの 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->セットインジケーターでは、mode属性セレクターがサポートされます。このセレクターを使用して、点線と数値の操作モードに対して異なるスタイルを適用できます。 特に、`mode="numeric"`は数値演算モードに対応する。`mode="dotted"`は、デフォルトのドットの状態に対応します。
+>セットインジケーターは、点線と数値の操作モードに異なるスタイルを適用するために使用できるモード属性セレクターをサポートしています。 特に、`mode="numeric"` は数値操作モードに対応し、`mode="dotted"` はデフォルトのドット状態に対応します。
 
-例として、白の背景を持つ設定インジケーターを設定するとします。
+例えば、背景が白いセットインジケーターを設定するとします。
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -53,56 +53,56 @@ ht-degree: 1%
 }
 ```
 
-個々のセットインジケーターのドットの外観は、CSSクラスセレクターを使用して制御します。 これは、点線と数値の両方の操作モードの項目に適用されます。
+個々のセットインジケータードットの外観は、CSS クラスセレクターで制御します。 点線と数値の両方の操作モードの項目に適用されます。
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSSプロパティ </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS プロパティ </p> </th> 
    <th colname="col2" class="entry"> <p>説明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターのドットの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケータードットの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>設定インジケーターのドットの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col2"> <p>設定されたインジケータードットの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>左余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p>上余白（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col2"> <p>上マージン （ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
-   <td colname="col2"> <p>右マージン（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col2"> <p>右余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>下余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p>境界線の半径（ピクセル単位） </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p>境界線の半径（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>16進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p>背景色（16 進数形式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
    <td colname="col2"> <p>フォントの名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>フォントのサイズ。 </p> </td> 
   </tr> 
   <tr> 
@@ -110,11 +110,11 @@ ht-degree: 1%
    <td colname="col2"> <p>フォントの色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
-   <td colname="col2"> <p>バナーインデックスの垂直方向の配置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 垂直方向の位置揃え </span> </p> </td> 
+   <td colname="col2"> <p>バナーインデックスの垂直方向揃え。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 行の高さ  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
    <td colname="col2"> <p>バナーインデックスのテキストの高さ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -122,9 +122,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->インジケーター項目でサポートされる`state`属性セレクターは、サムネールの状態ごとに異なるスキンを適用するのに使用できます。 特に、`state="selected"`はセット内の現在の要素に対応します。`state="unselected"`は、デフォルトの項目状態に対応します。
+>セットインジケーター項目は `state` 属性セレクターをサポートしており、これを使用して、異なるスキンを異なるサムネール状態に適用できます。 特に、`state="selected"` はセット内の現在の要素に対応し、`state="unselected"` はデフォルトの項目状態に対応します。
 
-例として、デスクトップシステムの設定インジケーターを点線モードで設定するとします。 ビューアの下端から20ピクセルの位置に配置します。 また、選択されていないドットは、50%の透明度、15 x 15ピクセル、7ピクセルの角を丸めた黒にします。 選択したドットは、90%の透明度を持つ黒、18 x 18ピクセル、9ピクセルの丸い角を持つ。 ドット間の間隔は5ピクセルです。
+例えば、デスクトップシステムでセットインジケーターを点線モードで設定するとします。 ビューアの下部から 20 ピクセルの位置に挿入します。 また、選択していないドットを 50% の透明度で黒に、7 ピクセルの角を丸めた 15 x 15 ピクセルにする必要があります。 選択されたドットは、透明度が 90% の黒、角が 9 ピクセルの丸い 18 x 18 ピクセルです。 ドットの間隔は 5 ピクセルです。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

@@ -7,22 +7,22 @@ role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-相対画像 URL のルート URL。 相対画像 URL のルート URL を指定します。 この`attribute::RootUrl` は、 `attribute::RootPath` 時に `src=` 値は { 中括弧 } で囲みます。
+相対画像 URL のルート URL。 相対画像 URL のルート URL を指定します。 `src=` 値が { 中括弧 } で囲まれている場合、`attribute::RootPath` の代わりに `attribute::RootUrl` が使用されます。
 
 ## プロパティ {#section-69cd0f71ea614770a8778c745d23197a}
 
-テキスト文字列値。 先頭のプロトコル識別子を含む絶対 URL ルートパス。 次のプロトコルがサポートされています。HTTP、HTTPS、FTP。
+テキスト文字列値。 先頭のプロトコル識別子を含む、URL ルートパスの絶対パス。 HTTP、HTTPS、FTP の各プロトコルがサポートされています。
 
 ## 初期設定 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-継承元 `default::RootUrl` （定義されていない場合） 定義済みで空の場合、このマテリアルカタログでは相対 URL はサポートされません。
+定義されていない場合は `default::RootUrl` から継承します。 定義されているが空の場合、このマテリアル カタログでは相対 URL はサポートされません。
 
 ## 関連項目 {#section-e33bbe7034b24367b68f9142718a8be1}
 

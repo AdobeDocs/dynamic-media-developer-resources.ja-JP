@@ -1,29 +1,29 @@
 ---
-description: コマンド値は、値文字列に予約文字「=」、「&」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
+description: コマンド値は、%xx エスケープ シーケンスを使用して HTTP エンコードする必要があります。値の文字列に予約文字'='、'&'、および'%'が含まれないようにする必要があります。
 solution: Experience Manager
-title: 画像サービングのHTTPエンコーディング
+title: 画像サービング HTTP エンコーディング
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 23%
+source-wordcount: '227'
+ht-degree: 16%
 
 ---
 
-# 画像サービングのHTTPエンコーディング{#image-serving-http-encoding}
+# 画像サービング HTTP エンコーディング{#image-serving-http-encoding}
 
-コマンド値は、値文字列に予約文字「=」、「&amp;」、「%」が含まれないように、%xxエスケープシーケンスを使用してHTTPエンコードする必要があります。
+コマンド値は、%xx エスケープ シーケンスを使用して HTTP エンコードする必要があります。値の文字列に予約文字&#39;=&#39;、&#39;&amp;&#39;、および&#39;%&#39;が含まれないようにする必要があります。
 
-それ以外の場合は、標準のHTTPエンコーディングルールが適用されます。 HTTPの仕様には、安全でない文字と、`<return>`や`<tab>`などの制御文字のエンコードが必要です。 文字のURLエンコードは、「%」記号に続き、その文字のISO-Latinコードポイントの2桁の16進表現（大文字と小文字を区別しない）が続きます。 安全でない文字とコードポイントは次のとおりです。
+それ以外の場合は、標準の HTTP エンコーディングルールが適用されます。 HTTP の仕様では、安全でない文字のエンコードと、制御文字（`<return>` や `<tab>` など）のエンコードが必要です。 文字の URL エンコーディングは、「%」記号と、その文字の ISO ラテン コードポイントの 2 桁の 16 進数表現（大文字と小文字を区別しない）で構成されます。 安全でない文字とコードポイントは次のとおりです。
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 安全でない文字 </th> 
-   <th colname="col2" class="entry"> コードポイント（16進） </th> 
-   <th colname="col3" class="entry"> コードポイント（12月） </th> 
+   <th colname="col1" class="entry"> 危険な文字 </th> 
+   <th colname="col2" class="entry"> コードポイント（16 進数） </th> 
+   <th colname="col3" class="entry"> コードポイント（12） </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -33,7 +33,7 @@ ht-degree: 23%
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt;&gt; </p> </td> 
+   <td colname="col1"> <p>&lt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -43,7 +43,7 @@ ht-degree: 23%
    <td colname="col3"> <p>62 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>" </p> </td> 
+   <td colname="col1"> <p>“ </p> </td> 
    <td colname="col2"> <p>22 </p> </td> 
    <td colname="col3"> <p>34 </p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ ht-degree: 23%
   </tr> 
   <tr> 
    <td colname="col1"> <p>| </p> </td> 
-   <td colname="col2"> <p>7C </p> </td> 
+   <td colname="col2"> <p>7 度 </p> </td> 
    <td colname="col3"> <p>124 </p> </td> 
   </tr> 
   <tr> 
@@ -111,8 +111,8 @@ ht-degree: 23%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 予約文字 </th> 
-   <th colname="col2" class="entry"> コードポイント（16進） </th> 
-   <th colname="col3" class="entry"> コードポイント（12月） </th> 
+   <th colname="col2" class="entry"> コードポイント（16 進数） </th> 
+   <th colname="col3" class="entry"> コードポイント（Dec） </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -173,14 +173,14 @@ ht-degree: 23%
 
 `…&$text=rate&weight=85% 27#&…`
 
-難読化を適用しない場合、上記のリクエストフラグメントを次のようにエンコードする必要があります。
+不明化が適用されない場合、上記のリクエストフラグメントは次のようにエンコードする必要があります。
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-難読化を適用する場合、エンコーディングは「=」、「&amp;」および「%」文字の削除に制限できます。
+不明化が適用されている場合、エンコーディングを制限して、「=」、「&amp;」、「%」の文字を削除できます。
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 関連項目 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[要求の難読化](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、 [HTTP/1.1仕様(RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[ リクエストの不明化 ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、[HTTP/1.1 仕様（RFC 2616） ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

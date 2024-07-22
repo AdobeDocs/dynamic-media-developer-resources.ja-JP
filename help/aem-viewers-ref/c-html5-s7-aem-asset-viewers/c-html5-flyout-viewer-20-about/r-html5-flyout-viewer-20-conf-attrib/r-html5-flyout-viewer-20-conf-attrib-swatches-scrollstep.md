@@ -8,7 +8,7 @@ exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 ## プロパティ {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-a08032f0fcf041c09e63c0238a339fc9}
 

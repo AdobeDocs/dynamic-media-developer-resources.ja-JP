@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 3%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 **メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+表示領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7ecatalogviewer .s7pageview
@@ -35,17 +35,17 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 16 進数形式のメインビューの背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> メインビューの背景色（16 進数形式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> カーソル </span> </p> </td> 
-   <td colname="col2"> <p>メインビュー上に表示されるカーソル。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col2"> <p>メイン ビューに表示されるカーソル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — メインビューを透明にするには、次のように記述します。
+例 – メインビューを透明にする。
 
 ```
 .s7ecatalogviewer .s7pageview { 
@@ -53,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-デスクトップシステムでは、コンポーネントは、 `cursortype` 適用可能な属性セレクター `.s7pageview` クラスを参照し、コンポーネントの状態とユーザーアクションに基づいて、カーソルのタイプを制御します。 以下 `cursortype` の値はサポートされています。
+デスクトップシステムでは、コンポーネントは、クラスに適用できる `cursortype` 属性セレクター `.s7pageview` サポートしており、コンポーネントの状態とユーザーアクションに基づいてカーソルのタイプを制御します。 次の `cursortype` 値がサポートされています。
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,29 +64,29 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> デフォルト </span> </p> </td> 
-   <td colname="col2"> <p>画像の解像度が小さい、コンポーネントの設定、またはその両方の理由で画像がズームできない場合に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
+   <td colname="col2"> <p>画像の解像度が低い、コンポーネント設定がある、またはその両方が原因で画像をズームできない場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
-   <td colname="col2"> <p>画像がズームイン可能な場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>画像をズームインできる場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> リセット </span> </p> </td> 
-   <td colname="col2"> <p>画像が最大ズームレベルで、初期状態にリセットできる場合に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
+   <td colname="col2"> <p>画像が最大ズームレベルにあり、初期状態にリセットできる場合に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ドラッグ </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがズームイン状態の画像をパンしたときに表示されます。 </p> </td> 
+   <td colname="col2"> <p>ズームイン状態の画像をユーザーがパンすると表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> スライド </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーが水平方向のスワイプまたはフリックを実行して画像の入れ替えを実行した場合に表示されます。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが水平方向のスワイプまたはフリックを行って画像の入れ替えを実行すると表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-カタログ見開きの左右のページを視覚的に区切るページ区切りは、以下の CSS クラスセレクターを使用して制御します。
+カタログスプレッドの左右のページを視覚的に区切るページディバイダーは、次の CSS クラスセレクターで制御します。
 
 `.s7ecatalogviewer .s7pageview .s7pagedivider`
 
@@ -99,17 +99,17 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> ページ区切りの幅。 に設定 <span class="codeph"> 0 </span> px を指定すると、区切りが完全に非表示になります。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col2"> <p> ページ区切りの幅。 ディバイダーを完全に非表示にするには、<span class="codeph"> 0 </span> px に設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>ページ区切りとして使用する画像。 </p> </td> 
+   <td colname="col2"> <p>ページディバイダーとして使用する画像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — 幅が 40 ピクセルで、半透明の画像を含むページ区切りを使用する場合。
+例 – 半透明の画像を持つ 40 ピクセルの幅のページディバイダーを持つこと。
 
 ```
 .s7ecatalogviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->次の場合に `frametransition` 修飾子が次の値に設定されている `turn` または `auto` （デスクトップシステムの場合）ページ区切りの外観は、 `pageturnstyle` 修飾子と `.s7pagedivider` CSS クラスは無視されます。
+>`frametransition` 修飾子が `turn` または `auto` （デスクトップシステム上）に設定されている場合、ページディバイダーの外観は `pageturnstyle` 修飾子で制御され、`.s7pagedivider` CSS クラスは無視されます。
 
-メインビューア領域上でのカスタムマウスカーソルの表示を設定できます。 この機能は、 `.s7ecatalogviewer .s7pageview` CSS クラス：
+メインビューア領域でのカスタムマウスカーソルの表示を設定できます。 この機能は、CSS クラスに適用された追加の属性セレクターで制御 `.s7ecatalogviewer .s7pageview` れます。
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,29 +133,29 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> デフォルト </span> </p> </td> 
-   <td colname="col2"> <p> 通常は矢印で、ズーム不可の画像に対して表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
+   <td colname="col2"> <p> 通常、矢印はズームできない画像を示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
-   <td colname="col2"> <p> いつ画像がズームインできるかを表示します。 </p> </td> 
+   <td colname="col2"> <p> 画像をズームインできるタイミングを表示します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> リセット </span> </p> </td> 
-   <td colname="col2"> <p>画像が最大ズームに達し、リセット可能な場合に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
+   <td colname="col2"> <p>画像が最大ズーム時を示し、リセット可能です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ドラッグ </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがズームインされた画像に対してドラッグ操作を実行したときに表示されます </p> </td> 
+   <td colname="col2"> <p>ユーザーがズームインされた画像にドラッグ操作を実行すると表示されます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> スライド </span> </p> </td> 
-   <td colname="col2"> <p>ユーザーがスライドジェスチャを使用して画像の入れ替えを実行したときに表示されます </p> </td> 
+   <td colname="col2"> <p>ユーザーがスライド ジェスチャを使用して画像の入れ替えを実行したときに表示します </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — コンポーネントの状態のタイプごとに異なるマウスカーソルを持ちます。
+例 – コンポーネントの状態のタイプごとに異なるマウスカーソルがある
 
 ```
 .s7ecatalogviewer .s7pageview[cursortype="default"] { 

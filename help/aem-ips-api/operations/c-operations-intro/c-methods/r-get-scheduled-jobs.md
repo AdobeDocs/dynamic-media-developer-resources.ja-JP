@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 構文
 
-## 認証済みユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 許可されているユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,25 +29,25 @@ ht-degree: 22%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-2af604ff8282460990b9237158187f8f}
+## パラメーター {#section-2af604ff8282460990b9237158187f8f}
 
-**入力 (getScheduledJobsParam)**
+**入力（getScheduledJobsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
 | jobHandle | `xsd:string` | いいえ | ジョブハンドル。 |
-| originalName | `xsd:string` | いいえ | で指定された名前 `submitJob`. |
+| originalName | `xsd:string` | いいえ | `submitJob` で指定された名前。 |
 
-**出力 (getScheduledJobsReturn)**
+**出力（getScheduledJobsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| jobArray | `types:ScheduledJobArray` | はい | スケジュール済みジョブの配列。 |
+| jobArray | `types:ScheduledJobArray` | はい | スケジュールされたジョブの配列 |
 
 ## 例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-このコード例では、スケジュールされたすべてのジョブをジョブ配列で返します。 配列自体には、ジョブに関する詳細情報が含まれます。
+このコードサンプルでは、スケジュールされたすべてのジョブをジョブ配列内に返します。 配列自体には、ジョブに関する詳細情報が含まれています。
 
 **リクエスト**
 

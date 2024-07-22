@@ -8,7 +8,7 @@ exl-id: e87981f8-8174-432a-89ea-fae74d0584ad
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> ダブルクリック/タップとズーム操作のマッピングを設定します。 を <span class="codeph"> なし </span> を指定すると、ダブルクリック/タップによるズームが無効になります。 次に設定した場合： <span class="codeph"> ズーム </span> 画像をクリックすると、1 段階ズームインします。Ctrl キーを押しながらクリックすると、1 段階だけズームアウトします。 を <span class="codeph"> リセット </span> を指定すると、画像をシングルクリックした場合に、初期のズームレベルまでズームがリセットされます。 の場合 <span class="codeph"> zoomReset </span>、現在のズーム率が指定の限界値以上の場合はリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
+   <td colname="col2"> <p> ダブルクリックまたはタップしてズームアクションへのマッピングを設定します。 なし </span> を <span class="codeph"> に設定すると、ダブルクリックやズームのタップが無効になります。 <span class="codeph"> ズームに設定した場合 </span> 画像をクリックすると、1 回のズームステップでズームします。Ctrl キーを押しながらクリックすると、1 回のズームステップでズームします。 リセット </span> に設定 <span class="codeph"> ると、画像を 1 回クリックするだけで、ズームが初期ズームレベルにリセットされます。 zoomReset </span> では、現在 <span class="codeph"> ズーム率が指定した制限以上の場合はリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-65be9301796240e38f31818229da7acc}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` デスクトップコンピュータの場合 `zoomReset` （タッチデバイス）。
+`reset` デスクトップコンピューターの場合 `zoomReset`、タッチデバイスの場合です。
 
 ## 例 {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 25d4aa58-e16e-4b96-bca0-e98d542b7b81
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **メインビューア領域の CSS プロパティ**
 
-ツールヒントの外観は、以下の CSS クラスセレクターを使用して制御します。
+ツールチップの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7tooltip
@@ -35,27 +35,27 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> 背景の境界線の半径 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> 背景境界線の半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p> 背景の境界線の色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col2"> <p> 背景の境界線のカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 背景色. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col2"> <p> 背景色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>テキストの色。 </p> </td> 
+   <td colname="col2"> <p>テキストのカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>テキストのフォント名。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
+   <td colname="col2"> <p>テキストフォント名。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>テキストのフォントサイズ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->埋め込み Web ページ内からツールチップスタイルをカスタマイズする場合は、すべてのプロパティに `!IMPORTANT` ルールを含める必要があります。 これは、ビューアの CSS ファイルでツールヒントがカスタマイズされている場合は不要です。
+>埋め込む web ページ内からツールヒントのスタイルをカスタマイズする場合、すべてのプロパティにルールを含める必要 `!IMPORTANT` あります。 ビューアの CSS ファイルでツールヒントがカスタマイズされている場合は、これは必要ありません。
 
-例 — 角丸の半径が 3 ピクセル、背景が黒、白のテキストが Arial、11 ピクセルのグレーの境界線を持つツールヒントを設定するには、次のように記述します。
+例 – 3 ピクセルの角の半径を持つグレーの境界線と、黒い背景、Arial の白いテキストを持つツールヒントを 11 ピクセルサイズで設定するには、次のようにします。
 
 ```
 .s7tooltip { 

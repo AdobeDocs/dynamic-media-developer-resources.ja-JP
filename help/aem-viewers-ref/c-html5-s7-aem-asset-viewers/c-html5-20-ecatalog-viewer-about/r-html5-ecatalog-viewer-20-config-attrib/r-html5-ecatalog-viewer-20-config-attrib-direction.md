@@ -1,6 +1,6 @@
 ---
 title: 方向
-description: メインビューとサムネールでのページの表示方法を指定します。 また、カタログフレーム間を変更するために、ユーザがビューアのユーザインターフェイスを操作する方法も指定します。
+description: メインビューとサムネールでページを表示する方法を指定します。 また、ユーザがカタログフレーム間を変更するためにビューアのユーザ インタフェースとどのようにやり取りするかについても指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -20,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>メインビューとサムネールでのページの表示方法を指定します。 また、カタログフレーム間を変更するために、ユーザがビューアのユーザインターフェイスを操作する方法も指定します。 </p> <p>条件 <span class="codeph"> left </span> を使用すると、最初のページの右揃えを設定し、最後のページの左揃えを設定します。 個々のページサブ画像をステッチして、左から右へのレンダリング順序を指定します。 また、右から左のスライドアニメーションを使用してカタログを進めるようにメインビューを設定します ( 場合によっては <span class="codeph"> PageView.frametransition </span> を slide に設定した場合 )。 最後に、左から右の塗りの順序にサムネールが設定されます。 </p> <p>同様に、 <span class="codeph"> 右 </span> を使用すると、最初のページの左揃えが設定され、最後のページの右揃えが設定されます。 個々のページサブ画像をステッチして、右から左にレンダリングする順序を指定します。 また、左から右のスライドアニメーションを使用してカタログを進めるようにメインビューを設定します ( 場合によっては <span class="codeph"> PageView.frametransition </span> を slide に設定した場合 )。 最後に、サムネールの順序を逆にして、サムネールビューが右から左、上から下の方向に埋められるようにします。 </p> <p>条件 <span class="codeph"> auto </span> が設定されている場合、ビューアは適用されます <span class="codeph"> 右 </span> ロケールが <span class="codeph"> ja; </span>それ以外の場合は、 <span class="codeph"> left </span> モード。 </p> </td> 
+   <td colname="col2"> <p>メインビューとサムネールでページを表示する方法を指定します。 また、ユーザがカタログフレーム間を変更するためにビューアのユーザ インタフェースとどのようにやり取りするかについても指定します。 </p> <p>左 </span><span class="codeph"> 使用すると、最初のページに右揃えが設定され、最後のページに左揃えが設定されます。 ページの個々のサブ画像をステッチして、左から右にレンダリングする順序を設定します。 また、PageView.frametransition </span> がスライドに設定されている場合は、右から左にスライドするアニメーションを使用してカタログを進め <span class="codeph"> ようにメイン ビューを設定します。 最後に、サムネールは左から右への塗りつぶし順序に設定されます。 </p> <p>同様に、右 </span> ージ <span class="codeph"> 使用すると、最初のページには左揃えが設定され、最後のページには右揃えが設定されます。 右から左にレンダリングする順序で個々のページサブ画像をステッチします。 また、メイン ビューで左から右へのスライド アニメーションを使用してカタログを進めるように設定します（PageView.frametransition </span> がスライド <span class="codeph"> 設定されている場合）。 最後に、サムネールの順序を反転して、サムネール表示を右から左、上から下の方向に埋めます。 </p> <p><span class="codeph"> auto </span> が設定されていると、locale が <span class="codeph"> ja<span class="codeph"> 設定されているときに、ビューアは右 </span> モードを適用します。それ以外の場合は </span> 左 </span> モード <span class="codeph"> 使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-a66ce10d6c0b449883f654e7e0657e2c}
 
-（オプション）
+オプション。
 
 ## 初期設定 {#section-2879062cee1d4030b43ba3b19693f4f8}
 

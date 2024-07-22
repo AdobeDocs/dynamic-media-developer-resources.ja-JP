@@ -1,5 +1,5 @@
 ---
-description: 指定した会社に関連付けられたプロパティセットの種類を取得します。会社が指定されていない場合は、グローバルプロパティセットの種類を取得します。
+description: 指定された会社に関連付けられたプロパティ セット タイプ、または会社が指定されていない場合はグローバル プロパティ セット タイプを取得します。
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # getPropertySetTypes{#getpropertysettypes}
 
-指定した会社に関連付けられたプロパティセットの種類を取得します。会社が指定されていない場合は、グローバルプロパティセットの種類を取得します。
+指定された会社に関連付けられたプロパティ セット タイプ、または会社が指定されていない場合はグローバル プロパティ セット タイプを取得します。
 
 構文
 
-## 認証済みユーザータイプ {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## 許可されているユーザータイプ {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,9 +30,9 @@ ht-degree: 13%
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
 
-## パラメータ {#section-ac3ed9e036b54ea993f544046ff0e15d}
+## パラメーター {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**入力 (getPropertySetTypesParam)**
+**入力（getPropertySetTypesParam）**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -48,16 +48,16 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">プロパティセットタイプが関連付けられている会社へのハンドル。 <p>グローバルプロパティセットタイプを返す場合は、省略します。 </p> </td> 
+   <td colname="col4">プロパティセットタイプが関連付けられている会社へのハンドル。 <p>グローバルプロパティセットタイプを返す場合は、を省略します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**出力 (getPropertySetTypesReturn)**
+**Output （getPropertySetTypesReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| typeArray | `types:PropertySetTypeArray` | はい | 指定した会社に関連付けられたプロパティセットタイプの配列、または会社が指定されていない場合はグローバルプロパティセットタイプ。 |
+| typeArray | `types:PropertySetTypeArray` | はい | 指定された会社に関連付けられたプロパティ セット タイプの配列、または会社が指定されていない場合はグローバル プロパティ セット タイプ。 |
 
 ## 例 {#section-280c406a90864409856aee44d4069a52}
 

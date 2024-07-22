@@ -1,53 +1,53 @@
 ---
 title: op_usm
-description: アンシャープマスク。 アンシャープは、layer=comp の場合、すべての拡大・縮小の後で、レイヤーまたは最終的なビュー画像をマスクします。
+description: アンシャープマスク。 アンシャープマスクは、レイヤー=comp の場合、すべての拡大縮小の後にレイヤーまたは最終ビューイメージをマスクします。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
 # op_usm{#op-usm}
 
-アンシャープマスク。 アンシャープは、layer=comp の場合、すべての拡大・縮小の後で、レイヤーまたは最終的なビュー画像をマスクします。
+アンシャープマスク。 アンシャープマスクは、レイヤー=comp の場合、すべての拡大縮小の後にレイヤーまたは最終ビューイメージをマスクします。
 
-パラメータは、最大解像度の画像に適用されると想定され、ダウンサンプリングされた画像を処理する際に縮小されます。
+このパラメーターは、フル解像度画像に適用されると想定され、ダウンサンプリングされた画像の処理時に縮小されます。
 
-`op_usm= *`量`*[, *`半径`*[, *`しきい値`*[, *`モノクロ`*]]]`
+`op_usm= *`amount`*[, *`radius`*[, *`threshold`*[, *`monochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 値</span></span> </p></td> 
-  <td class="stentry"> <p>フィルタ強度係数（実数 0 ～ 5） </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 額 </span></span> </p></td> 
+  <td class="stentry"> <p>フィルター強度係数（実際の 0...5）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径</span></span> </p></td> 
-  <td class="stentry"> <p>フィルターカーネル半径（ピクセル単位、実数 0 ～ 250）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径 </span></span> </p></td> 
+  <td class="stentry"> <p>フィルターカーネル半径（ピクセル単位）（実際の 0...250）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> しきい値</span></span> </p></td> 
-  <td class="stentry"> <p>フィルタしきい値レベル（整数 0 ～ 255）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> きい値 </span></span> </p></td> 
+  <td class="stentry"> <p>フィルターしきい値（int 0...255）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> モノクロ</span></span> </p></td> 
-  <td class="stentry"> <p>各カラーコンポーネントに個別に適用する場合は 0 に、画像の明るさ（強さ）にのみ適用する場合は 1 に設定します。 </p> <p> <span class="codeph"><span class="varname"> モノクロ</span></span> は、グレースケール画像では無視されます。 </p></td> 
+  <td class="stentry"> <p>モノクロ <span class="codeph"><span class="varname"></span></span> </p></td> 
+  <td class="stentry"> <p>0 に設定すると各色成分に個別に適用され、1 に設定すると画像の明るさ（強さ）にのみ適用されます。 </p> <p> モノクロ <span class="codeph"><span class="varname"> は </span></span> グレースケール画像では無視されます。 </p></td> 
  </tr> 
 </table>
 
-レイヤーマスクや合成マスクもシャープにされます。
+レイヤーマスクまたはコンポジットマスクもシャープになります。
 
 ## プロパティ {#section-fb5311b34d164946b74dadb32359518a}
 
-画層属性またはビュー属性。 現在の画層に適用されます。 `layer=comp`. 効果画層で無視されます。
+レイヤ アトリビュートまたはビューアトリビュート。 現在の画層、または `layer=comp` の場合は最終表示イメージに適用されます。 エフェクトレイヤーで無視されます。
 
 ## 初期設定 {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` アンシャープマスク効果がないので。
+アンシャープマスク効果がない場合は `op_usm=0,0,0,0` を使用します。
 
 ## 関連項目 {#section-63f186b8a1b34ec4bb895230838502a4}
 

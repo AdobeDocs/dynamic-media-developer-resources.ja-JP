@@ -1,20 +1,20 @@
 ---
-description: SystemFieldCondition/fieldで使用されます。
+description: SystemFieldCondition/field によって使用されます。
 solution: Experience Manager
-title: アセット検索システムのフィールド
-feature: Dynamic Media Classic,SDK/API，アセット管理
+title: アセット検索システムフィールド
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4ceba799-ff4d-4671-88cc-d85650d4995c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# アセット検索システムのフィールド{#asset-search-system-fields}
+# アセット検索システムフィールド{#asset-search-system-fields}
 
-SystemFieldCondition/fieldで使用されます。
+SystemFieldCondition/field によって使用されます。
 
 構文
 

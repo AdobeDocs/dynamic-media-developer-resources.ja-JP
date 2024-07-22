@@ -1,6 +1,6 @@
 ---
-title: スピン表示
-description: 現在のアセットがスピンセットの場合、メインビューはスピン画像で構成されます。
+title: スピンビュー
+description: メインビューは、現在のアセットがスピンセットの場合のスピン画像で構成されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# スピン表示{#spin-view}
+# スピンビュー{#spin-view}
 
-現在のアセットがスピンセットの場合、メインビューはスピン画像で構成されます。
+メインビューは、現在のアセットがスピンセットの場合のスピン画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **メインビューア領域の CSS プロパティ**
 
-表示領域の外観は、以下の CSS クラスセレクターを使用して制御します。
+表示領域の外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
    <td colname="col2"> <p> スピンビューの 16 進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 — スピンビューを透明にするには
+例 – スピンビューを透明にする。
 
 ```
 .s7mixedmediaviewer .s7spinview { 

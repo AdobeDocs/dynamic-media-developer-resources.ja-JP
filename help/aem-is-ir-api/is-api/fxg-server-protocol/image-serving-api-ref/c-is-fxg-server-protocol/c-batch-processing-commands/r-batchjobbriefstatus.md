@@ -1,6 +1,6 @@
 ---
-title: batchjobbreifstatus
-description: 送信されたジョブの要約されたステータスを取得します。
+title: batchjobbriefstatus
+description: 送信されたジョブの概要ステータスを取得します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# batchjobbreifstatus{#batchjobbriefstatus}
+# batchjobbriefstatus{#batchjobbriefstatus}
 
-送信されたジョブの要約されたステータスを取得します。
+送信されたジョブの概要ステータスを取得します。
 
 このパラメーター：
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ジョブ </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
   <td class="stentry"> <p>送信時に取得されたジョブ ID。 </p> </td> 
  </tr> 
 </table>
 
 戻り値：
 
-XML フォーマットのジョブの簡単なステータス。jobid が無効な場合、またはジョブが削除された場合にエラーが発生します。
+ジョブの簡単なステータス（XML 形式）。ジョブ ID が無効な場合、またはジョブが削除された場合にエラーが発生します。
 
 ## 例 {#section-806460949bb043438ad4dd4e7ab74145}
 

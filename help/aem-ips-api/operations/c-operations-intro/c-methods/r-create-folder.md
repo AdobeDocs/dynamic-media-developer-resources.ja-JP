@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->新しいフォルダは、 `/` をクリックして、会社のルートを示します。
+>会社のルートを示す `/` を指定した場合でも、新しいフォルダーは Images フォルダーの下位になります。
 
 構文
 
-## 認証済みユーザータイプ {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## 許可されているユーザータイプ {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +33,18 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->ユーザーは、親フォルダーへの読み取り/書き込みアクセス権を持っている必要があります。
+>ユーザーには、親フォルダーに対する読み取り/書き込みアクセス権が必要です。
 
-## パラメータ {#section-c00d8d89cf114886a535056f2a1bf892}
+## パラメーター {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**入力 (createFolder)**
+**入力（createFolder）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社への取り扱い |
-| folderPath | `xsd:string` | はい | フォルダとすべてのサブフォルダをリーフレベルで取得するために使用するルートフォルダ。 除外された場合は、会社のルートが使用されます。 |
+| companyHandle | `xsd:string` | はい | 会社へのハンドル |
+| folderPath | `xsd:string` | はい | フォルダーとリーフレベルまでのすべてのサブフォルダーを取得するために使用されるルートフォルダー。 除外する場合は、会社ルートが使用されます。 |
 
-**出力 (createFolderParam)**
+**出力（createFolderParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
