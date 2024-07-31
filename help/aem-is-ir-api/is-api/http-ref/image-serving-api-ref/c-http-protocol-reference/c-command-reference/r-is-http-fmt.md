@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -51,14 +51,16 @@ ht-degree: 2%
 | `webp-alpha` | アルファチャンネル付きの可逆および可逆性 WebP。 |
 | `webp` | 非可逆および非可逆 WebP |
 
-| *`pixelType`* - rgb | グレー | cmyk |
+*`pixelType`* - rgb |灰色 | cmyk
+
 | *`pixelType`* | 説明 |
 |---|---|
 | `cmyk` | CMYK 画像データを返します。 |
 | `gray` | グレースケールの画像データを返します。 |
 | `rgb` | RGBの画像データを返します。 |
 
-| *`compression`* - jpeg | 非可逆 | 可逆 | lzw | 除外 | zip |
+*`compression`* - jpeg |非可逆 |可逆 | lzw |なし |郵便番号
+
 | *`compression`* | 説明 |
 |---|---|
 | `jpeg` | JPEG圧縮（非可逆）。 |
