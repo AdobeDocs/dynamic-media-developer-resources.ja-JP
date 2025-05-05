@@ -26,18 +26,18 @@ ht-degree: 7%
    + [ライセンス](c-installation/c-licensing.md)
    + [目次](c-installation/c-contents.md)
    + [インストールフォルダー](c-installation/c-install-folder.md)
-   + Windows {#windows-install} へのインストール
+   + Windows へのインストール {#windows-install}
       + [Windows へのインストール](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [初めてのインストール](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [管理者とは別のユーザーアカウントでをインストールする](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [を 4.7.4 以降から更新する](c-installation/t-installing-on-windows/t-update-win.md)
       + [インストールの確認](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Linux {#linux-install} へのインストール
+   + Linux へのインストール {#linux-install}
       + [Linux へのインストール](c-installation/c-installing-linux/c-installing-linux.md)
       + [初めてのインストール](c-installation/c-installing-linux/t-first-install-lin.md)
       + [を 4.7.4 以降から更新する](c-installation/c-installing-linux/t-update-lin.md)
       + [インストールの確認](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 画像サービング {#start-stop-image-servicing} ークフローの開始と停止
+   + 画像サービング ークフローの開始と停止 {#start-stop-image-servicing}
       + [画像サービングの開始と停止](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Windows での起動または停止](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Linux での起動または停止](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -92,7 +92,7 @@ ht-degree: 7%
          + [サーバーの監視](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [標準アラート](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [ヒープ領域優先度アラート](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + コンテンツ {#manage-content} ータの管理
+      + コンテンツ ータの管理 {#manage-content}
          + [コンテンツの管理](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [画像カタログ](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [Source データ](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
@@ -522,7 +522,7 @@ ht-degree: 7%
       + [ライセンス](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [IR 3.x 互換モジュールのセットアップと構成](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [画像レンダリングのセットアップと設定](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 画像レンダリング {#uninstalling-image-rendering} のアンインストール
+      + 画像レンダリング のアンインストール {#uninstalling-image-rendering}
          + [画像レンダリングのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Linux および Solaris でのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Windows でのアンインストール](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -530,7 +530,7 @@ ht-degree: 7%
       + [サーバー管理](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [サーバー管理の概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [サーバー管理の概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + サーバー {#configuring-and-managing-the-server} の設定と管理
+      + サーバー の設定と管理 {#configuring-and-managing-the-server}
          + [サーバーの設定と管理：概要](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [設定ファイル](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [サーバーの起動と停止](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -539,7 +539,7 @@ ht-degree: 7%
          + [メモリに関する考慮事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [動的ディスク容量に関する考慮事項](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [ビネットサイズの制限](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + コンテンツ {#managing-content} ータの管理
+         + コンテンツ ータの管理 {#managing-content}
             + [コンテンツの管理](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [材料カタログ](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [Source データ](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
@@ -581,7 +581,7 @@ ht-degree: 7%
             + [反射](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [光沢効果](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [レンダリングの詳細設定](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + {#request-nesting-and-embedding} のネストおよび埋め込みのリクエスト
+         + のネストおよび埋め込みのリクエスト{#request-nesting-and-embedding}
             + [ネストと埋め込みのリクエスト *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [埋め込み Image Server リクエスト](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [ネストされた画像レンダリングリクエスト](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)

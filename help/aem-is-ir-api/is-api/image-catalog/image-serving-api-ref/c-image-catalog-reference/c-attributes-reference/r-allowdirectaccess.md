@@ -43,7 +43,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* `IS` および `STATIC``AllowDirectAccess=exclude:IS,STATIC` を除くすべてのオブジェクトタイプに直接アクセスを許可する
+* `IS` および `STATIC` `AllowDirectAccess=exclude:IS,STATIC` を除くすべてのオブジェクトタイプに直接アクセスを許可する
 
 * *いいえ* オブジェクトタイプへの直接アクセスを許可する（つまり、なしを含める）
 

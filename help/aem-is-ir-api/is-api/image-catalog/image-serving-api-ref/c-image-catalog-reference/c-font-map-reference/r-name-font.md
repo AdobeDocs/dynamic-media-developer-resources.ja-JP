@@ -1,5 +1,5 @@
 ---
-description: 書体名。 RTF \fonttbl コマンドで指定されたフォント書体名。
+description: 書体名。 RTF fonttbl コマンドで指定されたフォント書体名。
 solution: Experience Manager
 title: 名前
 feature: Dynamic Media Classic,SDK/API

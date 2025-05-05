@@ -58,12 +58,12 @@ ht-degree: 16%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
+   <td colname="col1"> <p>&lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
+   <td colname="col1"> <p>&rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +88,17 @@ ht-degree: 16%
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
+   <td colname="col1"> <p>&lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
+   <td colname="col1"> <p>&rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;grave; </p> </td> 
+   <td colname="col1"> <p>&grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 

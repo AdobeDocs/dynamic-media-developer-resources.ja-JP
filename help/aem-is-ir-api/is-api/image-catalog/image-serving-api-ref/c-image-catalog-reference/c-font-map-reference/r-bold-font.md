@@ -1,5 +1,5 @@
 ---
-description: 太字のフラグ。 このフォント マップ レコードによって参照されるフォント ファイルが、RTF boldface コマンド （\b）によって要求されたときに使用される必要があるかどうかを指定します。
+description: 太字のフラグ。 このフォント マップ レコードによって参照されるフォント ファイルが、RTF boldface コマンド （b）によって要求されたときに使用される必要があるかどうかを指定します。
 solution: Experience Manager
 title: 太字
 feature: Dynamic Media Classic,SDK/API

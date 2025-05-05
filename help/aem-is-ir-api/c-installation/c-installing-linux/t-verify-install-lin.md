@@ -32,7 +32,7 @@ Image Server は Linux® デーモンとしてインストールされます。
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 応答で、`imageServer` で始まる項目が存在するかどうかを確認します。これは、[!DNL Platform Server] が Image Server と正常に通信できることを示しています。
 

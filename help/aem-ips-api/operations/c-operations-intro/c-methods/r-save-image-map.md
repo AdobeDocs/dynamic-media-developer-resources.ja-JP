@@ -85,7 +85,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>IPS インターフェイスで指定された、画像マップに関連付けられた <span class="codeph"> href </span> 値。 </p> <p><span class="codeph"> href </span> 値を取得するには、IPS インターフェイス内の画像をクリックし、URL をコピーしてこの要素に貼り付け、IPS URL を適切な URL としてフォーマットします。 例えば、<span class="codeph"> &amp; </span> は&amp;amp; </span><span class="codeph"> なります。 </p> </td> 
+   <td colname="col4"> <p>IPS インターフェイスで指定された、画像マップに関連付けられた <span class="codeph"> href </span> 値。 </p> <p><span class="codeph"> href </span> 値を取得するには、IPS インターフェイス内の画像をクリックし、URL をコピーしてこの要素に貼り付け、IPS URL を適切な URL としてフォーマットします。 例えば、<span class="codeph"> &amp; </span> は&amp; </span><span class="codeph"> なります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 

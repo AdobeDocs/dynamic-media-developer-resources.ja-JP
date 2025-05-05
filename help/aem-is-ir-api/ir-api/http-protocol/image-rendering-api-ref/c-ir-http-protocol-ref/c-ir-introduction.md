@@ -95,6 +95,6 @@ Dynamic Mediaの画像オーサリングと画像レンダリング、一般的�
 
 **一般用語**
 
-** *`MSS`* ** Material Specification Segment：要求内の 2 つの選択コマンド間の材料属性のセット。
+**&#x200B; *`MSS`* &#x200B;** Material Specification Segment：要求内の 2 つの選択コマンド間の材料属性のセット。
 
-** *`vignette`* ** Dynamic Media画像オーサリングで画像レンダリングと共に使用するために作成された画像。
+**&#x200B; *`vignette`* &#x200B;** Dynamic Media画像オーサリングで画像レンダリングと共に使用するために作成された画像。

@@ -41,12 +41,12 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &lbrace; </span> </td> 
    <td> <p>中括弧。 </p> </td> 
    <td> <p>中括弧は HTTP エンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &rbrace; </span> </td> 
    <td> <p>中括弧。 </p> </td> 
    <td> <p>中括弧は HTTP エンコードする必要があります。 </p> </td> 
   </tr> 
