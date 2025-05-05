@@ -178,7 +178,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次の例では、固定の外部ビューアで動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja)
 
    メインビューのサイズを静的にするには、`.s7zoomviewer` `.s7container` CSS セレクターを使用するか、修飾子を使用して、内部の `Container` SDK コンポーネントのビューアサイズを絶対単位で定義 `stagesize` ます。
 
@@ -193,7 +193,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のデモページは、固定されたメインビューサイズでのビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja)
 
    `stagesize` 修飾子は、Dynamic Media Classicのビューアプリセットレコードで設定できます。 または、以下に示すように、`params` コレクションを使用して、または API 呼び出しとして、ビューア初期化コードを使用して明示的に渡すこともできます。
 

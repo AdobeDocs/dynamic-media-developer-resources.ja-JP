@@ -28,7 +28,7 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/Video360Viewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&Video360Player.ssl=on
   ```
 
-  [Web アプリケーションへの URL のリンク ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic) も参照してください。
+  [Web アプリケーションへの URL のリンク ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。
 
 * 埋め込みコードを使用してDynamic Media ビデオを公開する場合は、埋め込みコードスニペットにある他のビューア設定パラメーターのリストに `Video360Player.ssl` を追加します。 例えば、HTTPS ビデオを強制的に配信するには、次の例のように `&Video360Player.ssl=on` を追加します。
 
@@ -57,4 +57,4 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
   </script>
   ```
 
-  [Web ページへのビデオの埋め込み ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic) も参照してください。
+  [Web ページへのビデオの埋め込み ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。

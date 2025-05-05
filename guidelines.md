@@ -37,7 +37,7 @@ Adobeは、AdobeのDynamic Mediaユーザーが、競争の厳しい環境でビ
 
 ドキュメントの改善に役立つアイデアの投稿を歓迎します。 ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、 *投稿* のみ。 これらを、Dynamic Mediaの使用方法、プロジェクトの実装方法、技術的な問題の解決方法に関する質問に回答するために使用することはできません。
 
-Dynamic Mediaの使用方法や技術的な問題に関して質問がある場合は、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) または [Experience Managerコミュニティ。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+Dynamic Mediaの使用方法や技術的な問題に関して質問がある場合は、 [Experience Cloudエンタープライズサポートポータル](https://experienceleague.adobe.com/ja?support-solution=General&amp;support-tab=home#support) または [Experience Managerコミュニティ。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ja)
 
 ***ドキュメントへの投稿は、Adobeカスタマーケアの代わりとなるものではありません。*** また、サポート関連の質問に対する回答を求める寄稿は拒否されます。
 

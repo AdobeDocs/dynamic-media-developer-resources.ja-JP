@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## デモ URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=ja)
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
@@ -244,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=ja)
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 

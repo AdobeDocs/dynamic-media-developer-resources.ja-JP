@@ -58,4 +58,4 @@ Adobeの従業員で貢献がある場合は、 `AdobeDocs` 組織を会社用 G
 
 ## その他の情報
 
-詳しくは、 [Adobeドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) GitHub オーサリングプラットフォームの使用方法の詳細については、を参照してください。
+詳しくは、 [Adobeドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja) GitHub オーサリングプラットフォームの使用方法の詳細については、を参照してください。

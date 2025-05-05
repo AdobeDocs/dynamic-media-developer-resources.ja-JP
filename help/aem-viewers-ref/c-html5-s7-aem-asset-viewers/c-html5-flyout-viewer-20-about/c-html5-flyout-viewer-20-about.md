@@ -149,7 +149,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のサンプルページでは、固定の外部ビューア領域での動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=ja)
 
    メインビューのサイズを静的にするには、CSS セレクターを使用して、内部の `Container` SDK コンポーネントのビューアサイズ `.s7flyoutviewer .s7container` 絶対単位で定義します。 さらに、デフォルトのビューア CSS で `.s7flyoutviewer` の最上位レベルの CSS クラスに定義された固定サイズを `auto` に設定して上書きする必要があります。
 
@@ -168,7 +168,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のサンプルページは、固定のメインビューサイズを使用したビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=ja)
 
    また、デフォルトのビューア CSS では、すぐに使用できる外部領域のサイズが固定されています。
 
@@ -302,7 +302,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
 
 ## 幅と高さが定義された柔軟なサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 
