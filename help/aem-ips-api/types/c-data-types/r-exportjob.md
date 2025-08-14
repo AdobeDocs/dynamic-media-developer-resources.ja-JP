@@ -53,7 +53,7 @@ ExportJob は、次のアセットタイプをサポートしていません。
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> リクエストに追加される <span class="codeph"> ImageServer</span> レンダリング URL 文字列を指定します。 </p> <p>IS 修飾子の送信について詳しくは <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"></a> IS のドキュメントを参照してください。 </p> </td> 
+   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> リクエストに追加される <span class="codeph"> ImageServer</span> レンダリング URL 文字列を指定します。 </p> <p>IS 修飾子の送信について詳しくは <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ja" scope="external" format="html"></a> IS のドキュメントを参照してください。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

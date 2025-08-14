@@ -170,7 +170,7 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ExportJob</span> </td> 
-   <td colname="col3">以前にアップロードしたファイルの承認済みエクスポートを許可します。 エクスポ <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> トジョブ </a> を参照してください。 </td> 
+   <td colname="col3">以前にアップロードしたファイルの承認済みエクスポートを許可します。 エクスポ <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=ja" format="http" scope="external"> トジョブ </a> を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>

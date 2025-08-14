@@ -25,7 +25,7 @@ ht-degree: 4%
 >* ネットワーク帯域幅
 >* DPR （デバイスピクセル比）
 >
->スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）を再生してください。
+>スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=ja) （3 分 17 秒）を再生してください。
 
 
 **Adobe Experience Managerのみの場合** - ユーザーインターフェイスで使用できる基本画像設定に加え、AEMの [!DNL Dynamic Media] （[!DNL Adobe Experience Manager]）では、「**画像修飾子**」フィールドで指定できる高度な画像修正が多数サポートされています。 これらのパラメーターは、以下で定義されます。 ただし、次の機能はAEMの Dynamic Media ではサポートされていません。
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 ドキュメントの Dynamic Media[ 画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) も参照してください。
+AEM 6.5 ドキュメントの Dynamic Media[ 画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=ja#dynamic) も参照してください。
 
 * [align](r-align.md)
 * [アンカー](r-anchor.md)
