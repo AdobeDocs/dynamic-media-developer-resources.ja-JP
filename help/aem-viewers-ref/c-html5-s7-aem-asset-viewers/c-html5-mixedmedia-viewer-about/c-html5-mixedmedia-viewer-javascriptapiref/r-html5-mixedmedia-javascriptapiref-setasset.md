@@ -42,7 +42,7 @@ IR （画像レンダリング）または UGC （ユーザー生成コンテン
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> postrimage </span> </p> </td> 
-   <td colname="col2"> <p>ビデオの再生が開始される前に最初のフレームに表示される画像。 </p> <p>VideoPlayer.posterimage の </a> キュメント <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p>ビデオの再生が開始される前に最初のフレームに表示される画像。 </p> <p>VideoPlayer.posterimage の <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> キュメント </a> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 

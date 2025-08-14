@@ -18,8 +18,8 @@ SvgRender コンポーネントは独立した Java アプリケーションで�
 
 SVGの設定は、[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml] および [!DNL ServerSupervisorRegistry.xml] にあります。
 
-ソケット接続は、SvgRender と Image Server 間の通信に使用されます。 ポート番号は 27346 です。 必要に応じて、[!DNL svg.conf] に `SVGRender.port`、[!DNL ImageServerRegistry.xml] に `<SVGTcpPort>` を新しい値に設定して変更できます。
+ソケット接続は、SvgRender と Image Server 間の通信に使用されます。 ポート番号は 27346 です。 必要に応じて、`SVGRender.port` に [!DNL svg.conf]、`<SVGTcpPort>` に [!DNL ImageServerRegistry.xml] を新しい値に設定して変更できます。
 
 ## 関連項目 {#section-c085b47d54d44059bdaa67fd5e226e91}
 
-[SVG設定](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-svg.md#reference-232104868b2d4af9a4ac9c87552c0bb5)
+[SVGの設定](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-svg.md#reference-232104868b2d4af9a4ac9c87552c0bb5)

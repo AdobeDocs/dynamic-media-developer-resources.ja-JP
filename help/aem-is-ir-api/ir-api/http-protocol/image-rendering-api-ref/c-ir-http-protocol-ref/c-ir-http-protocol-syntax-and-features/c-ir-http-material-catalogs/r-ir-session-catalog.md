@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:RootUrl</span> </p> </td> 
-   <td> <p> src=</span> コマンドの相対 HTTP ファイルパス <span class="codeph"> ルート URL </p> </td> 
+   <td> <p> src=<span class="codeph"> コマンドの相対 HTTP ファイルパス </span> ルート URL </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:ShowOverlapObjs</span> </p> </td> 
@@ -66,11 +66,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
-   <td> <p> qlt=</span><span class="codeph"> デフォルト値 </p> </td> 
+   <td> <p> qlt=<span class="codeph"></span> デフォルト値 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:TiffEncoding</span> </p> </td> 
-   <td> <p> TIFF画像出力用の圧縮タイプ </p> </td> 
+   <td> <p> TIFF画像出力の圧縮タイプ </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:Sharpen</span> </p> </td> 

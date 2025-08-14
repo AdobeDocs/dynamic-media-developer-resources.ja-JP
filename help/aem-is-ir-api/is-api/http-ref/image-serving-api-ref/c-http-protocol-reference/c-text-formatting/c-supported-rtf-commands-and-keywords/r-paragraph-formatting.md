@@ -53,22 +53,22 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \lastql </span> </td> 
    <td> <p>段落の最後の行を左揃えにします。 </p> </td> 
-   <td> <p>デフォルト。<span class="codeph"> textPs= </span> のみ。\qj </span> がアクティブ <span class="codeph"> ない場合は無視されます。 </p> </td> 
+   <td> <p>デフォルト。<span class="codeph"> textPs= </span> のみ。\qj <span class="codeph"> がアクティブ </span> ない場合は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr </span> </td> 
    <td> <p>両端揃えの段落の最後の行を右揃えにします。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj </span> がアクティブでない場合 <span class="codeph"> 無視されます。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj <span class="codeph"> がアクティブでない場合 </span> 無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqc </span> </td> 
    <td> <p>両端揃え段落の最後の行を中央揃えにします。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj </span> がアクティブ <span class="codeph"> ない場合は無視されます。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj <span class="codeph"> がアクティブ </span> ない場合は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj </span> </td> 
    <td> <p>両端揃えの段落の最後の行を固定（ストレッチ）します。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj </span> がアクティブ <span class="codeph"> ない場合は無視されます。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ。\qj <span class="codeph"> がアクティブ </span> ない場合は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi <span class="varname"> N </span> </span> </td> 
@@ -93,17 +93,17 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \slmult <span class="varname"> N </span> </span> </td> 
    <td> <p>行間隔の複数フラグ。 </p> </td> 
-   <td> <p>\sl </span> が twip の場合 <span class="codeph">0 （デフォルト）、\sl </span> がデフォルトの間隔の倍数の場合 <span class="codeph">1 に設定します。 </p> </td> 
+   <td> <p>\sl <span class="codeph"> が twip の場合 </span>0 （デフォルト）、\sl <span class="codeph"> がデフォルトの間隔の倍数の場合 </span>1 に設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sb <span class="varname"> N </span> </span> </td> 
    <td> <p>段落の前の余分なスペース。 </p> </td> 
-   <td> <p>Twip; <span class="codeph"> text= </span>\sb </span><span class="codeph"> テキストボックスの最初の段落に適用されます <span class="codeph">、textPs= </span> は適用されません。 </p> </td> 
+   <td> <p>Twip; <span class="codeph"> text= </span>\sb <span class="codeph"></span> テキストボックスの最初の段落に適用されます <span class="codeph">、textPs= </span> は適用されません。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sa <span class="varname"> N </span> </span> </td> 
    <td> <p>段落の後の余白。 </p> </td> 
-   <td> <p>Twip; <span class="codeph"> text= </span> は\sa </span><span class="codeph"> テキストボックスの最後の段落に適用されます <span class="codeph">、textPs= </span> は適用されません。 </p> </td> 
+   <td> <p>Twip; <span class="codeph"> text= </span> は\sa <span class="codeph"></span> テキストボックスの最後の段落に適用されます <span class="codeph">、textPs= </span> は適用されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

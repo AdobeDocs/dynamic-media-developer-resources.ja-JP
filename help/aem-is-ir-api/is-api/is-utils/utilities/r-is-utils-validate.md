@@ -46,7 +46,7 @@ ht-degree: 1%
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>イメージ ファイルのリストを含むテキスト ファイルを指定します。 ファイルごとに 1 レコード。 -fileList </span><span class="codeph"> 含める場合は、sourceFile </span><span class="varname"> 指定しないでください。 </p> </td> 
+  <td class="stentry"> <p>イメージ ファイルのリストを含むテキスト ファイルを指定します。 ファイルごとに 1 レコード。 -fileList <span class="codeph"></span> 含める場合は、sourceFile <span class="varname"></span> 指定しないでください。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 

@@ -16,7 +16,7 @@ ht-degree: 7%
 
 画像セットに関連付けられたアセットのリストを設定します。
 
-この操作は、`ImageSets` と `SpinSets` の `pageReset` パラメーターを無視し、値を強制的に true にします。
+この操作は、`pageReset` と `ImageSets` の `SpinSets` パラメーターを無視し、値を強制的に true にします。
 
 ## 許可されているユーザータイプ {#section-8968d6a39a344cfc8521020d92ae8916}
 

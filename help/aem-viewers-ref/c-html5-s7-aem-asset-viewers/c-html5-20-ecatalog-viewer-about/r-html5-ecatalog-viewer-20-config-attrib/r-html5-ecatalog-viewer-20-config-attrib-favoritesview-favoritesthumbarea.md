@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 領域 </span></span> </p> </td> 
-   <td colname="col2"> <p> お気に入りのサムネールの切り抜き領域を指定します。 合計フレームサイズに対する相対値として表されます。範囲は <span class="codeph">0 </span> ～ <span class="codeph"> 1.0 </span> です。 </p> <p>値が <span class="codeph">1 の場合は </span> フレーム画像全体がサムネールに使用されます。 </p> <p>0.1</span> の値を <span class="codeph"> えると、フレームサイズの 10% のみが使用されます。 </p> </td> 
+   <td colname="col2"> <p> お気に入りのサムネールの切り抜き領域を指定します。 合計フレームサイズに対する相対値として表されます。範囲は <span class="codeph">0 </span> ～ <span class="codeph"> 1.0 </span> です。 </p> <p>値が <span class="codeph">1 の場合は </span> フレーム画像全体がサムネールに使用されます。 </p> <p>0.1<span class="codeph"> の値を </span> えると、フレームサイズの 10% のみが使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

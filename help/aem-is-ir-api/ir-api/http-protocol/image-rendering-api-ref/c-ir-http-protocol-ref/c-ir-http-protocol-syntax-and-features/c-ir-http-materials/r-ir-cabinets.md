@@ -36,7 +36,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>オプションのテクスチャ イメージ ファイル（src= </span> の <span class="codeph">2 番目の値）。 </p> </td> 
+   <td colname="col2"> <p>オプションのテクスチャ イメージ ファイル（src= <span class="codeph"> の </span>2 番目の値）。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 

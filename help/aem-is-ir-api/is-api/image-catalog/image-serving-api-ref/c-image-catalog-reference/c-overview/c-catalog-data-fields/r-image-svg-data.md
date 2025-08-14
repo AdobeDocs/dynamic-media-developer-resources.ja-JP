@@ -1,7 +1,7 @@
 ---
-description: 次のフィールドは、画像データファイルとSVGデータファイルで認識されます。
+description: 次のフィールドは、image およびSVG データファイルで認識されます。
 solution: Experience Manager
-title: Image_SVGのデータ
+title: Image_SVG data
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Image_SVGのデータ{#image-svg-data}
+# Image_SVG data{#image-svg-data}
 
-次のフィールドは、画像データファイルとSVGデータファイルで認識されます。
+次のフィールドは、image およびSVG データファイルで認識されます。
 
 ## カタログ管理 {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> Path</a></span> </p> </td> 
-   <td colname="col2"> <p>画像/SVGファイルのパス。 </p> </td> 
+   <td colname="col2"> <p>Image/SVG ファイルのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> 解像度 </a></span> </p> </td> 

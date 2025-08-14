@@ -1,5 +1,5 @@
 ---
-description: Flashアプリケーションの web ドメイン。 AdobeFlashアプリケーションでは、fmt=swf または fmt=swf3 で配信される画像のプロパティにアクセスする必要がある場合があります。
+description: Flash アプリケーション web ドメイン。 Adobe Flash アプリケーションでは、fmt=swf または fmt=swf3 で配信される画像のプロパティにアクセスする必要がある場合があります。
 solution: Experience Manager
 title: TrustedDomains
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # TrustedDomains{#trusteddomains}
 
-Flashアプリケーションの web ドメイン。 AdobeFlashアプリケーションでは、fmt=swf または fmt=swf3 で配信される画像のプロパティにアクセスする必要がある場合があります。
+Flash アプリケーション web ドメイン。 Adobe Flash アプリケーションでは、fmt=swf または fmt=swf3 で配信される画像のプロパティにアクセスする必要がある場合があります。
 
 swf は、信頼するアプリケーションドメインの名前を登録して、明示的にアクセスを許可する必要があります。
 

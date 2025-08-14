@@ -1,6 +1,6 @@
 ---
 title: インストールの確認
-description: Dynamic Media イメージサービングをインストールしたら、インストールを確認します。
+description: Dynamic Media 画像サービングをインストールしたら、インストールを確認します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # インストールの確認 {#verifying-the-installation}
 
-Dynamic Media イメージサービングをインストールしたら、インストールを確認します。
+Dynamic Media 画像サービングをインストールしたら、インストールを確認します。
 
 Image Server は Windows サービスとしてインストールされます。
 
@@ -23,7 +23,7 @@ Image Server は Windows サービスとしてインストールされます。
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 応答内に「`imageServer.`」項目があるかどうかを確認します。これは、Image Server がリッスンしていることを示します。
 >インストールされている場合は、ドキュメントパッケージとデモパッケージのサンプルページを使用して、追加の検証を実行できます。

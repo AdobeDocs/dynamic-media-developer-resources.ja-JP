@@ -1,5 +1,5 @@
 ---
-description: サムネイルのデフォルトの背景色 出力サムネール画像内で実際の画像データが含まれない領域を埋めるために使用されるRGB値。
+description: サムネイルのデフォルトの背景色 実際の画像データを含まない出力サムネール画像の領域を埋めるために使用されるRGB値。
 solution: Experience Manager
 title: ThumbBkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ThumbBkgColor{#thumbbkgcolor}
 
-サムネイルのデフォルトの背景色 出力サムネール画像内で実際の画像データが含まれない領域を埋めるために使用されるRGB値。
+サムネイルのデフォルトの背景色 実際の画像データを含まない出力サムネール画像の領域を埋めるために使用されるRGB値。
 
 サムネールリクエスト（`req=tmb`）にのみ使用され、`catalog::ThumbType` が 2 または 3 に設定されている場合に使用されます。
 

@@ -31,13 +31,13 @@ eCatalog Search Viewer は、電子パンフレットをスプレッド別また
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## eCatalog ビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog 検索ビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（1 つのJavaScriptに、この特定のビューア、アセット、CSS で使用されるすべての Viewer SDK コンポーネントが含まれます）を表します
+eCatalog 検索ビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（1 つのJavaScriptに、この特定のビューアで使用されるすべてのビューア SDK コンポーネント、アセット、CSS が含まれます）を表します
 
-eCatalog 検索ビューアは、IS-Viewers に付属する実稼動用のHTMLページを使用してポップアップモードで使用することも、ドキュメント化された API を使用してターゲットの web ページに統合する埋め込みモードで使用することもできます。
+eCatalog 検索ビューアは、IS-Viewers に付属する実稼動用のHTML ページを使用してポップアップモードで使用することも、ドキュメント化された API を使用して対象の web ページに統合する埋め込みモードで使用することもできます。
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行います。
 
@@ -86,7 +86,7 @@ eCatalog 検索ビューアは、他のモバイルアプリケーションで�
 
 eCatalog 検索ビューアは、ソーシャル共有ツールをサポートしています。 これらは、ユーザーがクリックまたはタップすると共有ツールバーに展開されるメインコントロールバーのボタンとして使用できます。
 
-共有ツールバーには、サポートされている共有チャネルのタイプ（Facebook、Twitter、メール共有、埋め込みコード共有、リンク共有など）ごとのアイコンが表示されます。 メール共有、埋め込み共有、リンク共有の各ツールがアクティベートされると、ビューアは対応するデータ入力フォームを含むモーダルダイアログボックスを表示します。 facebookまたはTwitterが呼び出されると、ビューアはソーシャルサービスからの標準の共有ダイアログにユーザーをリダイレクトします。 Web ブラウザーのセキュリティ制限により、共有ツールは全画面表示モードでは使用できません。
+共有ツールバーには、サポートされている共有チャネルのタイプ（Facebook、Twitter、メール共有、埋め込みコード共有、リンク共有など）ごとのアイコンが含まれています。 メール共有、埋め込み共有、リンク共有の各ツールがアクティベートされると、ビューアは対応するデータ入力フォームを含むモーダルダイアログボックスを表示します。 Facebook または Twitter が呼び出されると、ビューアはソーシャルサービスからの標準の共有ダイアログにユーザーをリダイレクトします。 Web ブラウザーのセキュリティ制限により、共有ツールは全画面表示モードでは使用できません。
 
 ビューアの検索機能は、メインツールバーの探しているガラスアイコンとして使用できます。 アイコンをクリックまたはタップすると、入力フィールド付きの検索パネルがアクティブになります。 キーワードまたは語句を入力して Enter キーを押すと、ビューアはパネルに検索結果をレンダリングし、見つかった単語をメインビューにハイライト表示します。
 
@@ -100,13 +100,13 @@ Web ページによって、ビューアの動作に対するニーズは異な�
 
 ポップアップモードは、モバイルデバイスで最も一般的です。 Web ページは、JavaScript呼び出し、HTML要素 `window.open()` の適切な設定、またはその他の適切なメソッド `A` 使用して、ビューアを読み込みます。
 
-標準提供のHTMLページをポップアップ表示に使用することをお勧めします。 この場合、[!DNL eCatalogSearchViewer.html] という名前で、標準の IS-Viewers デプロイメントの [!DNL html5/] サブフォルダー内に配置されます。
+ポップアップ操作モードには、標準のHTML ページを使用することをお勧めします。 この場合、[!DNL eCatalogSearchViewer.html] という名前で、標準の IS-Viewers デプロイメントの [!DNL html5/] サブフォルダー内に配置されます。
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
 カスタム CSS を適用すると、視覚的にカスタマイズできます。
 
-次に、ビューアを新しいウィンドウで開くHTMLコードの例を示します。
+次に、新しいウィンドウでビューアを開くHTML コードの例を示します。
 
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
@@ -122,7 +122,7 @@ Web ページによって、ビューアの動作に対するニーズは異な�
 
 レスポンシブデザインの埋め込みは、コンテナコンポー `DIV` ントのサイズ変更に応じて、実行時にビューアのサイズを変更する必要がある場合を想定しています。 最も一般的なユースケースは、柔軟なページレイアウトを使用する web ページにビューアを追加する場合です。
 
-レスポンシブデザインの埋め込みモードでは、web ページのコンテナコンポー `DIV` ントのサイズがどのように調整されるかに応じて、ビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 この機能により、アセットが側面にパディングを入れずに、ビューに完全に収まります。 このユースケースは、Bootstrapや基盤などのレスポンシブレイアウトフレームワークを使用する web ページで最も一般的です。
+レスポンシブデザインの埋め込みモードでは、web ページのコンテナコンポー `DIV` ントのサイズがどのように調整されるかに応じて、ビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 この機能により、アセットが側面にパディングを入れずに、ビューに完全に収まります。 このユースケースは、Bootstrapや Foundation などのレスポンシブレイアウトフレームワークを使用した web ページで最も一般的です。
 
 そうでない場合、web ページでビューアのコンテナ `DIV` の幅と高さの両方が設定されていると、ビューアはその領域だけを埋め、web ページレイアウトが提供するサイズに従います。 良い例は、ビューアをモーダルオーバーレイに埋め込む場合です。この場合、オーバーレイは web ブラウザーのウィンドウサイズに応じてサイズが調整されます。
 
@@ -137,11 +137,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 1. Web ページへのビューアJavaScript ファイルの追加
 
-   ビューアを作成するには、HTMLの先頭にスクリプトタグを付ける必要があります。 ビューア API を使用する前に、必ず [!DNL eCatalogSearchViewer.js] を含めてください。 [!DNL eCatalogSearchViewer.js] ファイルは、標準の IS-Viewers デプロイメントの [!DNL html5/js/] サブフォルダーにあります。
+   ビューアを作成するには、HTMLのヘッドにスクリプトタグを追加する必要があります。 ビューア API を使用する前に、必ず [!DNL eCatalogSearchViewer.js] を含めてください。 [!DNL eCatalogSearchViewer.js] ファイルは、標準の IS-Viewers デプロイメントの [!DNL html5/js/] サブフォルダーにあります。
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-ビューアがAdobe Dynamic Media サーバーの 1 つにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 それ以外の場合は、IS-Viewers がインストールされているAdobe Dynamic Media サーバーの 1 つへのフルパスを指定します。
+ビューアがAdobe Dynamic Media サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-Viewers がインストールされているAdobe Dynamic Media サーバーのいずれかに対するフルパスを指定します。
 
 相対パスは次のようになります。
 
@@ -165,11 +165,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    ビューアの静的サイズは、トップレベル CSS クラスに対して絶対単位で宣言す `.s7ecatalogsearchviewer` か、修飾子を使用して設定 `stagesize` きます。
 
-   サイズ設定は、HTMLページに直接 CSS に配置するか、カスタムビューア CSS ファイルに配置できます。この CSS ファイルは、後でDynamic Media Classicのビューアプリセットレコードに割り当てられたり、style コマンドを使用して明示的に渡されたりします。
+   サイズ設定は CSS のHTML ページに直接配置することも、カスタムビューア CSS ファイルに配置することもできます。この CSS ファイルは、後でDynamic Media Classicのビューアプリセットレコードに割り当てられたり、style コマンドを使用して明示的に渡されたりします。
 
    CSS を使用したビューアのスタイル設定について詳しくは、[eCatalog ビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
-   HTMLページで静的ビューアのサイズを定義する例を以下に示します。
+   HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
@@ -189,7 +189,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    上記の手順を完了したら、クラスのインスタンスを作成し、すべての設定情報 `s7viewers.eCatalogSearchViewer` そのコンストラクターに渡して、ビューアインスタンスのメソッド `init()` 呼び出します。 設定情報は、JSON オブジェクトとしてコンストラクターに渡されます。 少なくとも、このオブジェクトにはビューアコンテナ ID の名前を保持する `containerId` フィールドと、ビューアでサポートされてい `params` 設定パラメーターを含んだネストされた JSON オブジェクトが含まれています。 この場合、`params` オブジェクトには、少なくとも画像サービング URL がプロパティとして渡され、初期アセット `serverUrl` パラメーターとして渡されてい `asset` 必要があります。 JSON ベースの初期化 API を使用すると、1 行のコードでビューアを作成して開始できます。
 
-   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 ただし、互換性を最大限に高めるには、終了 `BODY` タグの直前または body `onload()` イベントで `init()` メソッドを呼び出します。
+   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 ただし、互換性を最大限に高めるには、終了 `init()` タグの直前または body `BODY` イベントで `onload()` メソッドを呼び出します。
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 この場合、ビューアの読み込みが自動的に再開されます。
 
@@ -240,7 +240,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 **高さが制限されないレスポンシブデザインの埋め込み**
 
-レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 この例では、web ページで、ビューアのコンテナ `DIV` ージの高さを制限せずに、web ブラウザーのウィンドウサイズの 40% を使用するとします。 生成される web ページHTMLコードは次のようになります。
+レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 この例では、web ページで、ビューアのコンテナ `DIV` ージの高さを制限せずに、web ブラウザーのウィンドウサイズの 40% を使用するとします。 生成される web ページのHTML コードは次のようになります。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

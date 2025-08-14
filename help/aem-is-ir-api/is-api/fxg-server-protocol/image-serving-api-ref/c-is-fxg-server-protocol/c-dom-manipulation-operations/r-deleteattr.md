@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 2%
 
 ---
 
 # deleteAttr{#deleteattr}
 
-指定された s7:elementID の属性を削除します。
+特定の s7:elementID の属性を削除します。
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 

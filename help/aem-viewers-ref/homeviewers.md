@@ -1,6 +1,6 @@
 ---
-title: AdobeDynamic Media ビューアリファレンスガイド
-description: AdobeDynamic Media ビューアリファレンスガイド：基本ズーム、ecatalog、ズーム、ecatalog 検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンション、インタラクティブビデオ、インタラクティブ画像、ビデオ 360 ビューア。
+title: Adobe Dynamic Media ビューアリファレンスガイド
+description: Adobe Dynamic Media ビューアリファレンスガイド：基本ズーム、ecatalog、ズーム、ecatalog 検索、フライアウト、インラインズーム、混在メディア、スピン、ビデオ、カルーセル、ディメンション、インタラクティブビデオ、インタラクティブ画像、ビデオ 360 ビューア。
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f

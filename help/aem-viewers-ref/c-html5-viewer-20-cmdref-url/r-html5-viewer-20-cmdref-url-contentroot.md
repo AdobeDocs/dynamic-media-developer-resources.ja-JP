@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>カスタム CSS ファイル、クローズドキャプションコンテンツ、ナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に/</span> という <span class="filepath"> がない場合は、ビューアHTMLページの場所を基準とした相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、デフォルトの CSS ファイルの読み込みには影響しません。 </p> </td> 
+   <td colname="col2"> <p>カスタム CSS ファイル、クローズドキャプションコンテンツ、ナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に/<span class="filepath"> という </span> がない場合は、ビューアのHTML ページの場所に対する相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、デフォルトの CSS ファイルの読み込みには影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

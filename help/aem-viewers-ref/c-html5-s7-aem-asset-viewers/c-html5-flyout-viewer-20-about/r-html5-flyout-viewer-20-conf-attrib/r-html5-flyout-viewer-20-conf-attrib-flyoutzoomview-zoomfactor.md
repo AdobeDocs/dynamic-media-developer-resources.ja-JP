@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> フライアウト ビューのイメージの倍率を、メイン ビューを基準にして指定します。 1.0</span> 以上の整数値または浮動小数点値 <span class="codeph"> ある必要があります。 </p> </td> 
+   <td colname="col2"> <p> フライアウト ビューのイメージの倍率を、メイン ビューを基準にして指定します。 1.0<span class="codeph"> 以上の整数値または浮動小数点値 </span> ある必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p>アップスケ <span class="codeph"><span class="varname"> ル </span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントによる小さい画像の処理方法を指定します。 </p> <p><span class="codeph">1 に設定すると </span> コンポーネントはメイン画像を拡大/縮小して、メインビュー内に収まるようにします。 また、設定済みのフライアウトウィンドウ領域を完全に満たすように、ズーム画像を拡大します。 </p> <p><span class="codeph"> 0</span> に設定すると、小さな画像は元の解像度で表示され、メイン表示領域とフライアウトウィンドウの中央に表示されます。 メインビューの <span class="codeph"> s7flyoutzoomview クラスおよびフライアウトウィンドウの s7flyoutzoom</span>CSS クラスの背景や類似の CSS プロパティを使用して </span> 画像の周囲に表示され <span class="codeph"> 追加の空白を設定することができます。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントによる小さい画像の処理方法を指定します。 </p> <p><span class="codeph">1 に設定すると </span> コンポーネントはメイン画像を拡大/縮小して、メインビュー内に収まるようにします。 また、設定済みのフライアウトウィンドウ領域を完全に満たすように、ズーム画像を拡大します。 </p> <p><span class="codeph"> 0</span> に設定すると、小さな画像は元の解像度で表示され、メイン表示領域とフライアウトウィンドウの中央に表示されます。 メインビューの <span class="codeph"> s7flyoutzoomview クラスおよびフライアウトウィンドウの s7flyoutzoom</span>CSS クラスの背景や類似の CSS プロパティを使用して <span class="codeph"> 画像の周囲に表示され </span> 追加の空白を設定することができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -33,7 +33,7 @@ ht-degree: 2%
 
 画像レイヤーのソース画像を指定します。
 
-カタログエントリまたは画像/SVGファイルのい *`object`* れかです。
+カタログエントリまたは image/SVG ファイルのい *`object`* れかです。
 
 [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) を参照してください。
 
@@ -43,9 +43,9 @@ ht-degree: 2%
 
 ## プロパティ {#section-2c22bb89a35d470f833df8ba898efd93}
 
-レイヤー属性。 `layer=comp` の場合は `layer=0` に適用されます。 同じレイヤー内で `text=` と `textPs=` を相互に排他的です。`text=`、`textPs=`、`src=` のいずれかの最後のオカレンスが優先され、これが画像レイヤーかテキストレイヤーかを判断します。 エフェクトレイヤーで無視されます。
+レイヤー属性。 `layer=0` の場合は `layer=comp` に適用されます。 同じレイヤー内で `text=` と `textPs=` を相互に排他的です。`text=`、`textPs=`、`src=` のいずれかの最後のオカレンスが優先され、これが画像レイヤーかテキストレイヤーかを判断します。 エフェクトレイヤーで無視されます。
 
-*`object`*は、`catalog::Modifier` に `src=` または `mask=` コマンドを含む別のカタログレコードに解決されない場合があります。 （同様の効果を得るにはリクエストのネストを使用します）。
+*`object`*は、`src=` に `mask=` または `catalog::Modifier` コマンドを含む別のカタログレコードに解決されない場合があります。 （同様の効果を得るにはリクエストのネストを使用します）。
 
 `is`、`ir`、`fxg` の各プレフィックスでは大文字と小文字が区別されます。
 

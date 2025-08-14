@@ -33,7 +33,7 @@ ht-degree: 0%
 
 有効なビデオエントリに `catalog::VideoBitRate` の値が含まれているという以前の要件が緩和されました。 エントリには `catalog::VideoBitRate`*or*`catalog::AudioBitRate`*or* `catalog::TotalStreamBitRate` の値を含めることができます。 ビデオエントリを有効にするには、これらのうち 1 つだけを定義する必要があります。 `catalog::Path` と有効なビデオファイル拡張子の要件は変更されていません。
 
-レスポンスは、AppleおよびFlashストリーミングサーバで使用することを目的としており、これらの仕様に構造的に適合しています。 URL は、プレフィックス `attribute::HttpAppleStreamingContext` および `attribute::HttpFlashStreamingContext` を使用して生成されます。
+応答は、Appleおよび Flash ストリーミングサーバーでの使用を目的としているので、これらの仕様に構造的に準拠しています。 URL は、プレフィックス `attribute::HttpAppleStreamingContext` および `attribute::HttpFlashStreamingContext` を使用して生成されます。
 
 m3u8 の応答には、ビデオセットに mp4 ファイルが存在する場合にのみ mp4 ファイルが含まれます。 mp4 ファイルが存在しない場合、これらの応答には f4v ファイルのみが含まれます。 mp4 ファイルも f4v ファイルも存在しない場合、応答は空になります。
 

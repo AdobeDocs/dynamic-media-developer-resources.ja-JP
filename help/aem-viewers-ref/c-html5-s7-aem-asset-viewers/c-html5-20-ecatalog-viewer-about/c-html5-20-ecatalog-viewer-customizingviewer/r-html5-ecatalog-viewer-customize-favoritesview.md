@@ -62,7 +62,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell </span> に設定されている上下の余白 <span class="codeph"> 合計と等しくなります。 </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell <span class="codeph"> に設定されている上下の余白 </span> 合計と等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

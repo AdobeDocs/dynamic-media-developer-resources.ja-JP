@@ -18,7 +18,7 @@ ht-degree: 0%
 
 `ic` は、画像ファイルを最適化された Pyramid TIFF形式（PTIFF）に変換するコマンドラインツールです。 画像サービングでは変換せずに画像を処理できますが、512 x 512 ピクセルを超えるすべての画像を PTIFF に変換することをお勧めします。 この変換により、最適なサーバーパフォーマンスとリソース使用が確保され、応答時間が最小限に抑えられます。
 
-写真コンテンツを含む PTIFF ファイルはJPEGエンコードすることをお勧めします（`-jpegcompress` を指定します）。 コンピューター生成コンテンツには、可逆圧縮（`-deflatecompress` または `-lzwcompress`）の利点があります。 色変換や画素種変換が必要でない場合は、JPEG元画像データをデコードせずに PTIFF に転送し、画質劣化を防止する。 この場合、指定した圧縮オプションは、低解像度のピラミッドレベルにのみ適用されます。
+写真コンテンツを含む PTIFF ファイルはJPEGでエンコードすることをお勧めします（`-jpegcompress` を指定します）。 コンピューター生成コンテンツには、可逆圧縮（`-deflatecompress` または `-lzwcompress`）の利点があります。 色変換や画素種変換が必要でない場合は、JPEGソース画像データをデコードせずに PTIFF に転送し、画質劣化を防止する。 この場合、指定した圧縮オプションは、低解像度のピラミッドレベルにのみ適用されます。
 
 大きな画像を変換しない場合は、使用するメモリ量を制御するパラメーターを設定する必要はありません。 ただし、その場合は、以下に説明 `ic` る `-maxmem` 設定を使用して、より多くのメモリを提供します。 必要なメモリ量を計算する際の経験則として、画像の幅に画像の高さを掛け、さらにチャネル数を掛けます。 例えば、アルファ値が 3 倍のRGB画像には 4 を指定します。 さらに、チャネルがコンポーネントあたり 8 ビットではなく 16 ビットの場合、最終的な結果は 8 倍になります。
 
@@ -77,15 +77,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>JPEGエンコーディングを使用します。 <span class="codeph"> <span class="varname"> sourceFile </span> </span> にアルファ版のデータが含まれる場合は無視されます。 </p> </td> 
+   <td colname="col2"> <p>JPEG エンコーディングを使用します。 <span class="codeph"> <span class="varname"> sourceFile </span> </span> にアルファ版のデータが含まれる場合は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> quality </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>JPEGの品質（0～100、デフォルトは 95）。 </p> </td> 
+   <td colname="col2"> <p>JPEGの画質（0 ～ 100、デフォルトは 95）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominance </span> </p> </td> 
-   <td colname="col2"> <p>JPEGのクロマダウンサンプリングを無効にします（テキストやグラフィックのカラーの品質が向上します）。 これは、CMYK またはグレースケールの出力画像には影響しません。 </p> </td> 
+   <td colname="col2"> <p>JPEGのクロマダウンサンプリングを無効にします（テキストやグラフィックのカラーの品質を向上させることができます）。 これは、CMYK またはグレースケールの出力画像には影響しません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> amount </span>&gt; &lt; <span class="varname"> radius </span>&gt; &lt; <span class="varname"> threshold </span>&gt; &lt; <span class="varname"> monochrome </span>&gt; </span> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> <span class="varname"> destFile </span> </span> の印刷解像度（dpi）です。指定しない場合、srcFile </span> の印刷解像度 <span class="codeph"><span class="varname"> destFile </span> </span><span class="codeph"> コピーされます。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> <span class="varname"> destFile </span> </span> の印刷解像度（dpi）です。指定しない場合、srcFile <span class="codeph"> の印刷解像度 </span><span class="codeph"> destFile <span class="varname"> </span></span> コピーされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> tolerance </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
@@ -115,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>可能な場合は、XMP メタデータ <span class="codeph">、<span class="varname"> sourceFile </span> </span> から <span class="varname"> destFile </span> </span> に変更な <span class="codeph"> でコピーします。 </p> </td> 
+   <td colname="col2"> <p>可能な場合は、XMPのメタデータ <span class="codeph">、<span class="varname"> sourceFile </span> </span> から destFile <span class="codeph"> <span class="varname"></span> 変更 </span> ずにコピーします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
@@ -123,11 +123,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 sourceFile </span> </span> のカラースペース <span class="codeph"> 定義 <span class="varname">、ピクセルタイプと一致する必要があります。 <span class="varname"> sourceFile </span> </span> にプロファイルが埋め込まれていない場合にのみ指定 <span class="codeph"> てください。これは、埋め込まれたプロファイルを上書きするからです。 </p> </td> 
+   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 sourceFile <span class="codeph"> <span class="varname"> のカラースペース </span> 定義 </span>、ピクセルタイプと一致する必要があります。 <span class="codeph"> sourceFile <span class="varname"> </span> にプロファイルが埋め込まれていない場合にのみ指定 </span> てください。これは、埋め込まれたプロファイルを上書きするからです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 <span class="varname"> destFile </span> </span> のピクセルタイプとカラースペース <span class="codeph"> 定義します。 <span class="varname"> sourceFile </span> </span> に埋め込まれたプロファイルがある場合 <span class="codeph">、または – imageprofile </span> も指定されてい <span class="codeph"> 場合、IC はこのプロファイルに変換します。 </p> </td> 
+   <td colname="col2"> <p>ICC プロファイルファイルのパスと名前。 <span class="codeph"> destFile <span class="varname"> </span> のピクセルタイプとカラースペース </span> 定義します。 <span class="codeph"> sourceFile <span class="varname"> </span> に埋め込まれたプロファイルがある場合 </span>、または – imageprofile <span class="codeph"> も指定されてい </span> 場合、IC はこのプロファイルに変換します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
@@ -159,7 +159,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>JPEG入力画像のデコードおよび再エンコーディングを強制します。 </p> <p> <b> 注意：</b> このオプションを適用すると、画質が低下する場合があります。 </p> </td> 
+   <td colname="col2"> <p>JPEG入力画像のデコードと再エンコーディングを強制します。 </p> <p> <b> 注意：</b> このオプションを適用すると、画質が低下する場合があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -183,7 +183,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> – 上書き </span> </p> </td> 
-   <td colname="col2"> <p>destFile </span> </span> の既存の <span class="codeph"> を上書き <span class="varname"> きるようにします。 デフォルトでは、上書きを防ぐために、数値のサフィックスがファイル名に追加されます。 </p> </td> 
+   <td colname="col2"> <p>destFile <span class="codeph"> <span class="varname"> の既存の </span> を上書き </span> きるようにします。 デフォルトでは、上書きを防ぐために、数値のサフィックスがファイル名に追加されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -</span> </p> </td> 
@@ -226,7 +226,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> percent </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>メモリ使用制限。 デフォルトは物理メモリの 25% です。 maxmem </span> も maxmempercent </span> も明示的 <span class="codeph"> 設定され <span class="codeph"> いない場合は、maxmempercent のデフォルトが使用されます。 </p> </td> 
+   <td colname="col2"> <p>メモリ使用制限。 デフォルトは物理メモリの 25% です。 maxmem <span class="codeph"> も maxmempercent </span> も明示的 <span class="codeph"> 設定され </span> いない場合は、maxmempercent のデフォルトが使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -version </span> </p> </td> 
@@ -255,7 +255,7 @@ ht-degree: 0%
    <td> <p> RGB | インデックス作成 </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> 非圧縮 | URL </p> </td> 
-   <td> <p> 5/6 ビット/チャンネルは、16 ビットRGB（5-5-5 および 5-6-5 ビット/チャンネル）のサポートを示します。 </p> </td> 
+   <td> <p> 5/6 bit/channel は、16 ビット RGB （5-5-5 および 5-6-5 ビット/channel）のサポートを示します。 </p> </td> 
   </tr> 
   <tr> 
    <td> EPS<b> す </b>。 <p> （Encapsulated Postscript） </p> </td> 
@@ -279,7 +279,7 @@ ht-degree: 0%
    <td> <p> パレット内に透明度の値が存在する場合は、アルファに変換されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> JPG</b> <p> （JFIF/JPEG） </p> </td> 
+   <td> JPG<b> す </b>。 <p> （JFIF/JPEG） </p> </td> 
    <td> <p> CMYK |RGB |灰色 </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
@@ -307,7 +307,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> TIFF</b> </td> 
+   <td> TIFF<b> す </b>。 </td> 
    <td> <p> CMYK | CMYKA |RGB | RGBA |灰色 | grayA | インデックス作成 </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 非圧縮 |郵便番号 | LZW |JPEG | CCITT ルール | CCITT G3 | CCITT G4 | パッケージビット </p> </td> 
@@ -316,7 +316,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-埋め込まれた ICC プロファイルは、EPS、JPG、PSD、PNG およびTIFFファイルで認識されます。
+埋め込まれた ICC プロファイルは、EPS、JPG、PSD、PNG およびTIFF ファイルで認識されます。
 
 埋め込みパスとXMP メタデータは、EPS、JPG、PSDおよびTIFFの各ファイルで認識されます。
 
@@ -326,10 +326,10 @@ ht-degree: 0%
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-*`srcFolder`* 内のすべての画像をJPEGでエンコードされたピラミッドTIFFに変換し、*`destFolder`* 内に配置する：
+*`srcFolder`* 内のすべての画像をJPEGでエンコードされた Pyramid TIFF に変換し、*`destFolder`* に配置します。
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-*`srcFolder`* 内のすべての画像を変換します。 JPG ファイルのエンコードされた画像データは、これらの画像の残りの画像ピラミッドと、JPG以外のすべての入力ファイルの出力画像全体に対して、全解像度レベルの損失のない LZW 圧縮に使用されます。 ピクセルタイプ、埋め込みカラープロファイル、XMP メタデータなど。 が維持されます。
+*`srcFolder`* 内のすべての画像を変換します。 JPG ファイルのエンコードされた画像データは、これらの画像の残りの画像ピラミッドと、すべての非JPG入力ファイルの出力画像全体に対して、全解像度レベルの損失のない LZW 圧縮に使用されます。 ピクセルタイプ、埋め込みカラープロファイル、XMP メタデータなど。 が維持されます。
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

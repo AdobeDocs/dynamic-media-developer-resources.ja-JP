@@ -33,7 +33,7 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
    <td> <p>書体。 </p> </td> 
-   <td> <p> \fontbl </span> インデックスを <span class="codeph"> します。 </p> </td> 
+   <td> <p> \fontbl <span class="codeph"> インデックスを </span> します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs <span class="varname"> N </span> </span> </td> 

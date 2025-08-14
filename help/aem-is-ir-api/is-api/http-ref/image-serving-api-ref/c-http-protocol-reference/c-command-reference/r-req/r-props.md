@@ -75,7 +75,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> 返信画像のタイプは、CMYK </span>、RGB</span> ま <span class="codeph"> は <span class="codeph"> BW </span> （グレースケール画像の場合）のい <span class="codeph"> れかです。 </p> </td> 
+   <td> <p> 返信画像のタイプは、CMYK <span class="codeph">、RGB </span> ま <span class="codeph"> は </span> BW <span class="codeph"> （グレースケール画像の場合）のい </span> れかです。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
@@ -90,7 +90,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> JPEG品質。 （<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span> を参照。） </p> </td> 
+   <td> <p> JPEGの品質。 （<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span> を参照。） </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 
@@ -132,7 +132,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr> 
    <td> <p> <span class="codeph"> path </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p>部分的に解決されたファイル パス。 （static::Path </span><span class="codeph"> 参照。 </p> </td> 
+   <td> <p>部分的に解決されたファイル パス。 （static::Path <span class="codeph"></span> 参照。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> length </span> </p> </td> 
@@ -147,7 +147,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr> 
    <td> <p> <span class="codeph"> lastModified </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> 変更日時（static::TimeStamp </span> またはオブジェクトファイル <span class="codeph"> ら） </p> </td> 
+   <td> <p> 変更日時（static::TimeStamp <span class="codeph"> またはオブジェクトファイル </span> ら） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> userType </span> </p> </td> 

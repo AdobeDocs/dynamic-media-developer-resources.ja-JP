@@ -49,7 +49,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 });
 ```
 
-ビューアは、次の SDK ユーザーイベントを追跡します。
+ビューアは、次のSDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
@@ -65,7 +65,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset （） </span> API を使用してビューアでアセット <span class="codeph"> スワップした場合。 </p> </td> 
+   <td colname="col2"> <p>setAsset （） <span class="codeph"> API を使用してビューアでアセット </span> スワップした場合。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 

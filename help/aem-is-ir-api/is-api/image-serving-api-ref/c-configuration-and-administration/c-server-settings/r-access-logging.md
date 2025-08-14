@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## TC::directory - ログファイルのフォルダ {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-[!DNL Platform Server] がログファイルを書き込むフォルダー。 絶対パスまたは *`install_folder`* に対する相対パスを指定できます。 デフォルトは [!DNL &#x200B; *`install_folder`*/logs] です。
+[!DNL Platform Server] がログファイルを書き込むフォルダー。 絶対パスまたは *`install_folder`* に対する相対パスを指定できます。 デフォルトは [!DNL  *`install_folder`*/logs] です。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## TC::prefix - アクセスログファイル名 {#section-1003856323b844049632710a5a056aa7}
 
-アクセスログデータが書き込まれるファイルの名前プレフィックス。 日付とファイルサフィックス（[!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]）が、指定された文字列に追加されます。 アクセスログファイルの名前は、トレースログファイルの名前とは異なる必要があります。 デフォルトは「`access-`」です。
+アクセスログデータが書き込まれるファイルの名前プレフィックス。 日付とファイルサフィックス（[!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]）が、指定された文字列に追加されます。 アクセスログファイルの名前は、トレースログファイルの名前とは異なる必要があります。 デフォルトは「`access-`」です。
 
 ## TC::pattern - アクセスログのパターン {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>リクエストメソッド（<span class="codeph"> GET</span>、<span class="codeph"> POST</span> など）。 </p> </td> 
+   <td> <p>リクエストメソッド（<span class="codeph"> GET </span>、<span class="codeph"> POST </span> など）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>%r </span> と同じ <span class="codeph"> すが、ログ解析の問題を回避するために、URI に制限付き HTTP エンコードを適用します。 </p> </td> 
+   <td> <p>%r <span class="codeph"> と同じ </span> すが、ログ解析の問題を回避するために、URI に制限付き HTTP エンコードを適用します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -148,7 +148,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>応答ヘッダー値（応答データ </span>MD5 署名）の <span class="codeph"> の etag。 </p> </td> 
+   <td> <p>応答ヘッダー値（応答データ <span class="codeph">MD5 署名）の </span> の etag。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>キャッシュエントリを配信したキャッシュクラスター内のピアサーバーの IP アドレス。または <span class="codeph"> CacheUse </span> が REMOTE_CREATED</span> ードでも REMOTE_UPDATED </span> ードでも <span class="codeph"> い場合は「–」 <span class="codeph"> 指定します。 </p> </td> 
+   <td> <p>キャッシュエントリを配信したキャッシュクラスター内のピアサーバーの IP アドレス。または <span class="codeph"> CacheUse </span> が REMOTE_CREATED<span class="codeph"> ードでも REMOTE_UPDATED </span> ードでも <span class="codeph"> い場合は「–」 </span> 指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -195,7 +195,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>%B </span><span class="codeph"> 似ていますが、304 （変更されていない）応答の値が含まれます。 </p> </td> 
+   <td> <p>%B <span class="codeph"></span> 似ていますが、304 （変更されていない）応答の値が含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 

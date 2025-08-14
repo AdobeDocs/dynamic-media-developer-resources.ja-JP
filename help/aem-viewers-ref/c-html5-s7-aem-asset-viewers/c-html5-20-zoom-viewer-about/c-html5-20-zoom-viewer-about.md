@@ -31,9 +31,9 @@ ht-degree: 0%
 
 ## ズームビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-ズームビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（この特定のビューア、アセット、CSS で使用されるすべての Viewer SDK コンポーネントに含まれる 1 つのJavaScriptに相当します）を表します。
+ズームビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（この特定のビューア、アセット、CSS で使用されるすべてのビューア SDK コンポーネントに含まれる 1 つのJavaScriptに相当します）を表します。
 
-ズームビューアは、IS-Viewers に付属の実稼動用HTMLページを使用したポップアップモードか、埋め込みモードで使用できます。この場合、ドキュメント化された API を使用して対象の web ページに統合されます。
+ズームビューアは、IS-Viewers に付属している実稼動用HTML ページを使用したポップアップモードか、埋め込みモードで使用できます。この場合、ドキュメント化された API を使用して対象の web ページに統合されます。
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行います。
 
@@ -90,13 +90,13 @@ Web ページによって、ビューアの動作に対するニーズは異な�
 
 このモードは、モバイルデバイスで最も一般的です。 Web ページは、JavaScript呼び出し、HTML要素 `window.open()` の適切な設定、またはその他の適切なメソッド `A` 使用して、ビューアを読み込みます。
 
-ポップアップ操作モードには、標準のHTMLページを使用することをお勧めします。 標準提供のHTMLページは `ZoomViewer.html` と呼ばれ、標準の IS-Viewers デプロイメントの `html5/` サブフォルダーに次のように配置されています。
+ポップアップオペレーションモードには、標準のHTMLページを使用することをお勧めします。 標準提供のHTML ページは `ZoomViewer.html` と呼ばれ、標準の IS-Viewers デプロイメントの `html5/` サブフォルダーに次のように配置されています。
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
 カスタム CSS を適用して、ページの外観をカスタマイズします。
 
-以下は、新しいウィンドウでビューアを開くHTMLコードの例です。
+以下は、新しいウィンドウでビューアを開くHTML コードの例です。
 
 ```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
@@ -113,7 +113,7 @@ target="_blank">Open popup viewer</a>
 
 レスポンシブデザインの埋め込みモードでは、コンテナビュー `DIV` ーのサイズが変更されるので、実行時にビューアのサイズを変更する必要があると想定します。 最も一般的なユースケースは、柔軟なレイアウトを使用する web ページにビューアを追加することです。
 
-レスポンシブデザインの埋め込みモードでは、web ページのコンテナコンポー `DIV` ントのサイズがどのように調整されるかに応じて、ビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 このロジックにより、アセットがビューに完全に収まり、側面にパディングが表示されなくなります。 このユースケースは、Bootstrapや基盤などのレスポンシブレイアウトフレームワークを使用する web ページで最も一般的です。
+レスポンシブデザインの埋め込みモードでは、web ページのコンテナコンポー `DIV` ントのサイズがどのように調整されるかに応じて、ビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 このロジックにより、アセットがビューに完全に収まり、側面にパディングが表示されなくなります。 このユースケースは、Bootstrapや Foundation などのレスポンシブレイアウトフレームワークを使用する web ページで最も一般的です。
 
 Web ページでビューアのコンテナ `DIV` の幅と高さの両方が設定されている場合、ビューアはその領域を埋め、web ページが提供するサイズに従います。 例えば、ビューアをモーダルオーバーレイに埋め込む場合、オーバーレイは web ブラウザーのウィンドウサイズに応じてサイズが変更されます。
 
@@ -128,7 +128,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 1. Web ページへのビューアJavaScript ファイルの追加
 
-   ビューアを作成するには、HTMLの先頭にスクリプトタグを付ける必要があります。 ビューア API を使用する前に、必ず [!DNL ZoomViewer.js] を含めてください。 [!DNL ZoomViewer.js] ファイルは、標準の IS-Viewers デプロイメントの [!DNL html5/js/] サブフォルダーにあります。
+   ビューアを作成するには、HTMLのヘッドにスクリプトタグを追加する必要があります。 ビューア API を使用する前に、必ず [!DNL ZoomViewer.js] を含めてください。 [!DNL ZoomViewer.js] ファイルは、標準の IS-Viewers デプロイメントの [!DNL html5/js/] サブフォルダーにあります。
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -142,7 +142,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 >[!NOTE]
 >
->ページ上のメインビューアのJavaScript `include` ファイルのみを参照します。 実行時にビューアのロジックによってダウンロードされる可能性がある web ページコード内の追加のJavaScript ファイルを参照しないでください。 特に、ビューアによって読み込まれるHTML5 SDK `Utils.js` ライブラリをコンテキストパス（いわゆる統合 SDK `include`）から直接参照 `/s7viewers` ないでください。 これは、`Utils.js` や類似のランタイム・ビューア・ライブラリの場所はビューアのロジックによって完全に管理され、ビューア・リリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリ・ビューア `includes` をサーバ上に保持しません。
+>ページ上のメインビューアのJavaScript `include` ファイルのみを参照します。 実行時にビューアのロジックによってダウンロードされる可能性がある web ページコード内の追加のJavaScript ファイルを参照しないでください。 特に、ビューアによって読み込まれるHTML5 SDK `Utils.js` ライブラリを、コンテキストパス（いわゆる統合SDK `/s7viewers`）から直接参照 `include` ないでください。 これは、`Utils.js` や類似のランタイム・ビューア・ライブラリの場所はビューアのロジックによって完全に管理され、ビューア・リリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes` をサーバーに保持しません。
 >
 >
 >その結果、ビューアが使用するセカンダリ JavaScript `include` ージをページ上で直接参照すると、今後、新しい製品バージョンがデプロイされた際に、ビューアの機能が損なわれます。
@@ -167,7 +167,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    CSS を使用したビューアのスタイル設定について詳しくは、[ ズームビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
-   以下に、HTMLページで静的な外部ビューアのサイズを定義する例を示します。
+   HTML ページで静的な外部ビューアのサイズを定義する例を以下に示します。
 
    ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
@@ -178,11 +178,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次の例では、固定の外部ビューアで動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   メインビューのサイズを静的にするには、`.s7zoomviewer` `.s7container` CSS セレクターを使用するか、修飾子を使用して、内部の `Container` SDK コンポーネントのビューアサイズを絶対単位で定義 `stagesize` ます。
+   メインビューの寸法を静的にするには、`Container` `.s7zoomviewer` CSS セレクターを使用するか、修飾子を使用して、内部の `.s7container` SDK コンポーネントのビューアサイズを絶対単位で定義 `stagesize` ます。
 
-   次に、アセットを切り替えるときにメイン表示領域のサイズが変更されないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
+   次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
 
    ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
@@ -193,7 +193,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のデモページは、固定されたメインビューサイズでのビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    `stagesize` 修飾子は、Dynamic Media Classicのビューアプリセットレコードで設定できます。 または、以下に示すように、`params` コレクションを使用して、または API 呼び出しとして、ビューア初期化コードを使用して明示的に渡すこともできます。
 
@@ -210,7 +210,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    設定情報は、JSON オブジェクトとしてコンストラクターに渡されます。 少なくとも、このオブジェクトには `containerId` ビューアコンテナ ID の名前を保持するフィールドと、ビューアがサポートする設定パラメーター `params` 含むネストされた JSON オブジェクトが必要です。 この場合、`params` オブジェクトには、少なくとも画像サービング URL がプロパティとして渡され、初期アセットがパラメーター `serverUrl` して渡されてい `asset` 必要があります。 JSON ベースの初期化 API を使用すると、1 行のコードでビューアを作成して開始できます。
 
-   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 互換性を最大限に高めるには、終了 `BODY` タグの直前または body `onload()` イベントで `init()` メソッドを呼び出します。
+   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 互換性を最大限に高めるには、終了 `init()` タグの直前または body `BODY` イベントで `onload()` メソッドを呼び出します。
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 このアクションが発生すると、ビューアの読み込みが自動的に再開されます。
 
@@ -259,7 +259,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 ## 高さが制限されないレスポンシブデザインの埋め込み {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
-レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占め、高さは無制限であるとします。 Web ページのHTMLコードは次のようになります。
+レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占め、高さは無制限であるとします。 Web ページのHTML コードは次のようになります。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

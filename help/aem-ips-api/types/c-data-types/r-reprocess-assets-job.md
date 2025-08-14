@@ -1,5 +1,5 @@
 ---
-description: PDFの再取り込みや画像の再最適化など、以前にアップロードしたプライマリファイルの再処理を可能にするジョブタイプ。
+description: PDF の再取り込みや画像の再最適化など、以前にアップロードしたプライマリファイルの再処理を可能にするジョブタイプ。
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-PDFの再取り込みや画像の再最適化など、以前にアップロードしたプライマリファイルの再処理を可能にするジョブタイプ。
+PDF の再取り込みや画像の再最適化など、以前にアップロードしたプライマリファイルの再処理を可能にするジョブタイプ。
 
 構文
 
@@ -82,7 +82,7 @@ PDFの再取り込みや画像の再最適化など、以前にアップロー�
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>Image Server にPDFファイルをアップロードするためのオプション。 </p> </td> 
+   <td colname="col3"> <p>PDF ファイルを Image Server にアップロードするためのオプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -142,7 +142,7 @@ PDFの再取り込みや画像の再最適化など、以前にアップロー�
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> タイプ：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Image Server にInDesignファイルをアップロードするためのオプション。 </p> </td> 
+   <td colname="col3"> <p>InDesign ファイルを image server にアップロードするためのオプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
@@ -152,7 +152,7 @@ PDFの再取り込みや画像の再最適化など、以前にアップロー�
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 型：UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>最適化されたピラミッド TIF ファイルを作成するときに、アンシャープマスク設定を制御するオプション。 これらの設定を使用して、画像のシャープネスを向上させます。 </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=ja"> UnsharpMaskOptions</a> を参照してください。 </p> </td> 
+   <td colname="col3"> <p>最適化されたピラミッド TIF ファイルを作成するときに、アンシャープマスク設定を制御するオプション。 これらの設定を使用して、画像のシャープネスを向上させます。 </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

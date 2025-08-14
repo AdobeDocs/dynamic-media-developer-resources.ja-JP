@@ -32,7 +32,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
-   <td colname="col3">PropertySet の配列は </span> ビデオ <span class="codeph"> トランスコードするためのビデオエンコーディングプリセットの参照を処理します。 </td> 
+   <td colname="col3">PropertySet の配列は <span class="codeph"> ビデオ </span> トランスコードするためのビデオエンコーディングプリセットの参照を処理します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -42,7 +42,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ThumbnailOptions</span> </td> 
-   <td colname="col3">オプション。 サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間（ビデオ開始からのミリ秒単位）を渡します。 値の範囲は、0 ～ ビデオの最後です。 <p>メモ：時間を誤って指定した場合、generateThumbnail</span><span class="codeph"> デフォルトで true に設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a> を参照してください。 </p></td> 
+   <td colname="col3">オプション。 サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間（ビデオ開始からのミリ秒単位）を渡します。 値の範囲は、0 ～ ビデオの最後です。 <p>メモ：時間を誤って指定した場合、generateThumbnail<span class="codeph"></span> デフォルトで true に設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a> を参照してください。 </p></td> 
   </tr> 
  </tbody> 
 </table>

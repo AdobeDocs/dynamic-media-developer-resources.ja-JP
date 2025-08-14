@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチがビューに表示される方法を指定します。 </p> <p>左 </span> に設定 <span class="codeph"> ると、左から右への塗り潰し順序を設定できます。 </p> <p>[ 右 <span class="codeph"> 設定 ] を選択すると </span> ビューが右から左、上から下の方向に埋められるように順序が逆になります。 </p> <p>自動 </span> が設定され <span class="codeph"> いる場合、ロケールが「<span class="codeph"> ja </span>」に設定されているとコンポーネントは右モードを適用し、それ以外の場合は左 </span> ード <span class="codeph"> 使用します。 </p> </td> 
+   <td colname="col2"> <p> スウォッチがビューに表示される方法を指定します。 </p> <p>左 <span class="codeph"> に設定 </span> ると、左から右への塗り潰し順序を設定できます。 </p> <p>[ 右 <span class="codeph"> 設定 ] を選択すると </span> ビューが右から左、上から下の方向に埋められるように順序が逆になります。 </p> <p>自動 <span class="codeph"> が設定され </span> いる場合、ロケールが「<span class="codeph"> ja </span>」に設定されているとコンポーネントは右モードを適用し、それ以外の場合は左 <span class="codeph"> ード </span> 使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

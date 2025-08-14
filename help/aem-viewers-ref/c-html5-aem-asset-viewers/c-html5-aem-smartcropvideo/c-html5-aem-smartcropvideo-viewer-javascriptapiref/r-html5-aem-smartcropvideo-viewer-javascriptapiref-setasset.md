@@ -35,7 +35,7 @@ ht-degree: 1%
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} 次のオプションフィールドを含む JSON オブジェクト（大文字と小文字を区別）: </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
-      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - ビデオの再生が開始される前に、最初のフレームに表示する画像。 VideoPlayer.posterimage の </a> キュメント <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> 参照してください。 </li> 
+      <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - ビデオの再生が開始される前に、最初のフレームに表示する画像。 VideoPlayer.posterimage の <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> キュメント </a> 参照してください。 </li> 
       <li id="li_BBFF3965B69A4AC8A469FDB69097B25A"> <span class="codeph"> caption </span> – 新しいクローズドキャプションファイルの場所。 ファイルが指定されていない場合、クローズドキャプションボタンはユーザーインターフェイスに表示されません。 </li> 
      </ul> </p> </td> 
   </tr> 

@@ -97,7 +97,7 @@ CSS を使用すると、フォントスタイル、サイズ、外観、垂直�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
-   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8 の場合は、filter:alpha （opacity-...） </span> を使用 <span class="codeph"> ます。 </p> </td> 
+   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8 の場合は、filter:alpha （opacity-...） <span class="codeph"> を使用 </span> ます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

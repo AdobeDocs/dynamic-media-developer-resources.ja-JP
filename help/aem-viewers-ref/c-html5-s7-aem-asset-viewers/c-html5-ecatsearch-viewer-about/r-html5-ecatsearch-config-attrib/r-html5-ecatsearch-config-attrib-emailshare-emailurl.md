@@ -20,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Dynamic Media OnDemand メールサービスのベース URL を指定します。 </p> </td> 
+   <td colname="col2"> <p> Dynamic Media オンデマンド メールサービスのベース URL を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

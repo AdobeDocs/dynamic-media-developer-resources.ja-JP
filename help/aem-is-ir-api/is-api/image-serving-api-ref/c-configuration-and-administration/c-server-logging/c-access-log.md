@@ -20,6 +20,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->画像サービング用のクライアントトラフィック（[!DNL /is/image/*]）と画像レンダリング用のクライアントトラフィック（[!DNL /ir/render/*]）に加えて、アクセスログには、特定の内部トラフィックが含まれる場合があります。[!DNL Platform Server] カタログシステムへのアクセス（[!DNL /is-catalog/*]）、キャッシュ共有およびエラーリダイレクトリクエスト（[!DNL /is/cache/*]）、Dynamic Media ビューアなどの [!DNL Platform Server] にデプロイされた他のパッケージへのアクセス（[!DNL /is-viewers/*]）、[!DNL Platform Server] が提供する静的トラフィックおよび静的コンテンツリクエスト（[!DNL /is-docs/*] など）です。
+>画像サービング用のクライアントトラフィック（[!DNL /is/image/*]）と画像レンダリング用のクライアントトラフィック（[!DNL /ir/render/*]）に加えて、アクセスログには、特定の内部トラフィックが含まれる場合があります。[!DNL Platform Server] カタログシステムへのアクセス（[!DNL /is-catalog/*]）、キャッシュ共有およびエラーリダイレクトリクエスト（[!DNL /is/cache/*]）、[!DNL Platform Server] にデプロイされたその他のパッケージへのアクセス（Dynamic Media ビューア（[!DNL /is-viewers/*]）、[!DNL Platform Server] が処理する静的トラフィックおよび静的コンテンツリクエスト（[!DNL /is-docs/*] など）です。
 
 [!DNL /is-catalog] および [!DNL /is/cache] のルートパスを持つリクエストは、常にクライアントトラフィック分析から除外する必要があります。

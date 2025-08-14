@@ -25,11 +25,11 @@ ht-degree: 5%
  </tr> 
 </table>
 
-詳細（*`pathDefinition`* の説明など）については、[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) を参照してください。 パス定義を指定しない場合、`textFlowXPath=` は無視されます。
+詳細（[ の説明など）については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`* を参照してください。 パス定義を指定しない場合、`textFlowXPath=` は無視されます。
 
 ## プロパティ {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視するか、`textFlowPath=` なしで指定した場合は無視されます。 `layer=comp` に対して指定されている場合は、`layer=0` に適用されます。
+テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視するか、`textFlowPath=` なしで指定した場合は無視されます。 `layer=0` に対して指定されている場合は、`layer=comp` に適用されます。
 
 ## 初期設定 {#section-9405cda904684d829ed12a9e40a4dc46}
 

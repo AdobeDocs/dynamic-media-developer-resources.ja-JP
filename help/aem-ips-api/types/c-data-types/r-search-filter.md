@@ -61,7 +61,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> strictSubTypeCheck</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>assetSubTypeArray</span> が渡された場合に、サブタイプを含まないアセットを返すかどうか <span class="codeph"> 指定するオプションのブール値フラグ。 </p> <p>true の場合、指定されたサブタイプのいずれかが含まれるアセットのみが返されます。 </p> <p>false の場合、サブタイプのないアセットも返されます。 </p> <p>初期設定は false。 </p> </td> 
+   <td colname="col3"> <p>assetSubTypeArray<span class="codeph"> が渡された場合に、サブタイプを含まないアセットを返すかどうか </span> 指定するオプションのブール値フラグ。 </p> <p>true の場合、指定されたサブタイプのいずれかが含まれるアセットのみが返されます。 </p> <p>false の場合、サブタイプのないアセットも返されます。 </p> <p>初期設定は false。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -69,7 +69,7 @@ ht-degree: 2%
    <td colname="col3">に設定： 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>：元のアセットのみを返します。 </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：生成されたコンテンツを返します。 例えば、アップロードされたPDFからの画像などです。 </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：生成されたコンテンツを返します。 例えば、アップロードされたPDFの画像などです。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -82,8 +82,8 @@ ht-degree: 2%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">以下を指定します。 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E">MarkedForPublish</span> を <span class="codeph"> リックして、公開されたアセットのみを返します。 </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672">NotMarkedForPublish</span> を <span class="codeph"> リックして、未公開のアセットのみを返します。 </li> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E">MarkedForPublish<span class="codeph"> を </span> リックして、公開されたアセットのみを返します。 </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672">NotMarkedForPublish<span class="codeph"> を </span> リックして、未公開のアセットのみを返します。 </li> 
     </ul> <p>メモ：公開済みの状態タイプを <i> すべて </i> 検索するには、空白のままにします。 </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 2%
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
      <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> すべて </span> ごみ箱の状態に関係なく、アセットを返します。 </li> 
      <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph">NotInTrash</span>」をクリックして、「通常」のアセットを返します。 </li> 
-     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6">ごみ箱 </span> を <span class="codeph"> リックして、ごみ箱からアセットを返します。 </li> 
+     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6">ごみ箱 <span class="codeph"> を </span> リックして、ごみ箱からアセットを返します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

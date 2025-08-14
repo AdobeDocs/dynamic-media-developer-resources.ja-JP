@@ -1,6 +1,6 @@
 ---
 title: パノラマビューア用JavaScript API リファレンス
-description: HTML5 パノラマビューアのメインクラスは PanoramicViewer です。 s7viewers 名前空間で宣言されます。 このJavaScript API は、この特定のクラスのコンストラクター、メソッド、コールバックをカバーしています。
+description: HTML5 パノラマビューアの主なクラスは、PanoramicViewer です。 s7viewers 名前空間で宣言されます。 このJavaScript API は、この特定のクラスのコンストラクター、メソッド、コールバックをカバーしています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 # パノラマビューア用JavaScript API リファレンス{#javascript-api-reference-for-panoramic-viewer}
 
-HTML5 パノラマビューアのメインクラスは PanoramicViewer です。 s7viewers 名前空間で宣言されます。 このJavaScript API は、この特定のクラスのコンストラクター、メソッド、コールバックをカバーしています。
+HTML5 パノラマビューアの主なクラスは、PanoramicViewer です。 s7viewers 名前空間で宣言されます。 このJavaScript API は、この特定のクラスのコンストラクター、メソッド、コールバックをカバーしています。
 
 以下に示す例ではすべて、`<instance>` は `s7viewers.PanoramicViewer` クラスからインスタンス化されたJavaScript ビューアオブジェクトの実際の名前を表しています。

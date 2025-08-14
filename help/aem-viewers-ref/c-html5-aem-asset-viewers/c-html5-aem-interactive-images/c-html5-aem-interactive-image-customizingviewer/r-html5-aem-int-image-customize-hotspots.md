@@ -1,6 +1,6 @@
 ---
 title: ホットスポット
-description: ビューアには、ホットスポットが元々AEM AssetsのDynamic Mediaで作成された場所にあるホットスポットアイコンがメインビューの上にオンデマンドで表示されます。
+description: ビューアは、ホットスポットが元々AEM Assetsの Dynamic Media でオンデマンドで作成された場所で、メインビューにホットスポットアイコンを表示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ホットスポット{#hotspots}
 
-ビューアには、ホットスポットが元々AEM AssetsのDynamic Mediaで作成された場所にあるホットスポットアイコンがメインビューの上にオンデマンドで表示されます。
+ビューアは、ホットスポットが元々AEM Assetsの Dynamic Media でオンデマンドで作成された場所で、メインビューにホットスポットアイコンを表示します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

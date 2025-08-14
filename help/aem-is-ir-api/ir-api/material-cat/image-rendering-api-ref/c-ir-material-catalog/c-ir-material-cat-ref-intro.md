@@ -1,5 +1,5 @@
 ---
-description: このドキュメントでは、Dynamic Media画像レンダリングの資料カタログについて説明します。
+description: このドキュメントでは、Dynamic Media 画像レンダリングの資料カタログについて説明します。
 solution: Experience Manager
 title: はじめに
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # はじめに{#introduction}
 
-このドキュメントでは、Dynamic Media画像レンダリングの資料カタログについて説明します。
+このドキュメントでは、Dynamic Media 画像レンダリングの資料カタログについて説明します。
 
 **対象オーディエンス**
 
-このドキュメントは、Web サイトやカスタムアプリケーションにDynamic Media画像レンダリングを活用する、経験豊富なプログラマーや Web サイト開発者を対象としています。
+このドキュメントは、Web サイトやカスタムアプリケーションに Dynamic Media 画像レンダリングを活用する、経験豊富なプログラマーや Web サイト開発者を対象としています。
 
-Dynamic Mediaの画像オーサリングと画像レンダリング、一般的な HTTP プロトコルの標準と規則、基本的な画像用語について、読者が熟知していることを前提としています。
+Dynamic Media の画像オーサリングと画像レンダリング、一般的な HTTP プロトコルの標準と規則、基本的な画像用語について、読者が熟知していることを前提としています。
 
 **ドキュメント規則**
 

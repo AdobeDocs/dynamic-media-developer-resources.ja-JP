@@ -1,5 +1,5 @@
 ---
-description: SVGファイルアセットのプロパティ。
+description: SVG ファイルアセットのプロパティ。
 solution: Experience Manager
 title: SvgInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL SvgInfo]{#svginfo}
 
-SVGファイルアセットのプロパティ。
+SVG ファイルアセットのプロパティ。
 
 構文
 

@@ -97,9 +97,9 @@ ht-degree: 1%
 
 ## 翻訳プロセス {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-上記の翻訳マップの例とリクエスト `/is/image/myCat/myItem?req=&locale=nl` を指定すると、サーバーはまず、ロケールマップで「`nl`」を探します。 一致するエントリ `nl,N` は、*`stringElement`* ごとに、`^loc=N^` でマークされた *`localizedString`* を返す必要があることを示しています。 この *`localizationToken`* が *`stringElement`* に存在しない場合は、空の値が返されます。
+上記の翻訳マップの例とリクエスト `/is/image/myCat/myItem?req=&locale=nl` を指定すると、サーバーはまず、ロケールマップで「`nl`」を探します。 一致するエントリ `nl,N` は、*`stringElement`* ごとに、*`localizedString`* でマークされた `^loc=N^` を返す必要があることを示しています。 この *`localizationToken`* が *`stringElement`* に存在しない場合は、空の値が返されます。
 
-例えば、`myCat/myItem` の `catalog::UserData` に次の改行が含まれているとします（わかりやすくするために挿入されます）。
+例えば、`catalog::UserData` の `myCat/myItem` に次の改行が含まれているとします（わかりやすくするために挿入されます）。
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
@@ -149,7 +149,7 @@ ht-degree: 1%
    <td> <p>英語 </p> <p>英国 – 英語 </p> <p>ドイツ語 </p> <p>オーストリア </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> この例では、<span class="varname"> locId</span>DDE は attribute::LocaleStrMap </span> に存在 <span class="codeph"> ないので、この <span class="varname"> locId </span> に関連付けられた部分文字列は返されません。 </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> この例では、<span class="varname"> locId</span>DDE は attribute::LocaleStrMap <span class="codeph"> に存在 </span> ないので、この <span class="varname"> locId </span> に関連付けられた部分文字列は返されません。 </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>その他すべて </p> </td> 
    <td> <p>英語 </p> <p>米国 – 英語 </p> <p>ドイツ語 </p> <p>- </p> </td> 
   </tr> 

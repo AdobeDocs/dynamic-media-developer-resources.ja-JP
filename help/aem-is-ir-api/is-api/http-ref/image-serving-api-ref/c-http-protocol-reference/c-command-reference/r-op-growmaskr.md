@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## プロパティ {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-現在の画層、または `layer=comp` の場合は画層 `0` に適用されます。
+現在の画層、または `0` の場合は画層 `layer=comp` に適用されます。
 
 ## 初期設定 {#section-14c908bb87cb42acbea709effea2f964}
 

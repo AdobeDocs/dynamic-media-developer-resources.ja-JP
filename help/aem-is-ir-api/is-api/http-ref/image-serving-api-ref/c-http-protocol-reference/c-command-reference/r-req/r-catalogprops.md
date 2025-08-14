@@ -80,7 +80,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:LastModified</span>、または存在しない場合は <span class="varname"> カタログの.ini</span> ファイルの最終変更時刻 </span><span class="filepath"> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:LastModified</span>、または存在しない場合は <span class="varname"> カタログの.ini</span> ファイルの最終変更時刻 <span class="filepath"></span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 

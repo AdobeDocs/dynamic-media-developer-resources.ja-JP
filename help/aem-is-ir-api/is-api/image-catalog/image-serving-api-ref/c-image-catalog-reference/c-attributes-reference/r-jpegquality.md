@@ -1,5 +1,5 @@
 ---
-description: デフォルトのJPEGエンコーディング属性。 JPEG返信画像のデフォルトの属性を指定します。
+description: デフォルトのJPEG エンコーディング属性。 JPEG返信画像のデフォルト属性を指定します。
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # JpegQuality{#jpegquality}
 
-デフォルトのJPEGエンコーディング属性。 JPEG返信画像のデフォルトの属性を指定します。
+デフォルトのJPEG エンコーディング属性。 JPEG返信画像のデフォルト属性を指定します。
 
 ## プロパティ {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-整数とフラグ（コンマ区切り）。 最初の値は 1 ～ 100 の範囲で、画質を定義します。 2 つ目の値は、通常動作の場合は 0 を指定し、JPEGエンコーダで通常使用されるRGB色度ダウンサンプリングを無効にするには 1 を指定します。
+整数とフラグ（コンマ区切り）。 最初の値は 1 ～ 100 の範囲で、画質を定義します。 2 つ目の値は、通常の動作の場合は 0 を指定し、JPEG エンコーダで通常使用されるRGBの色度ダウンサンプリングを無効にするには 1 を指定します。
 
 ## 初期設定 {#section-0b25eddd59bc434abfe38eeea9d45df3}
 

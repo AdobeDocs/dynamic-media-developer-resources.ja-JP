@@ -18,7 +18,7 @@ ht-degree: 2%
 
 特定の画像カタログのフォントマップのエントリは、デフォルトカタログのフォントマップのエントリを上書きします。
 
-画像サービングは、Adobe Type 1、OpenType、TrueType のフォントをサポートしています。
+画像サービングは、Adobe Type 1、OpenTypeおよび TrueType フォントをサポートしています。
 
 `textPs=` は、CID、ATC およびビットマップフォントもサポートしています。
 

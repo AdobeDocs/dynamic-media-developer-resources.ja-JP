@@ -48,7 +48,7 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ` http:// *` サーバー `*/myRootId?req=catalogprops`
 
-HTMLファイルに埋め込まれたクライアントサイドのJavaScriptから、画像カタログエントリのプロパティにアクセスします。
+HTML ファイルに埋め込まれたクライアントサイドのJavaScriptから、画像カタログエントリのプロパティにアクセスします。
 
 ```
 <script language="JavaScript"> 

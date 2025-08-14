@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ビネット ID （ビネット：:Id</span><span class="codeph"> 一致）。 </p></td> 
+  <td class="stentry"> <p>ビネット ID （ビネット：:Id<span class="codeph"></span> 一致）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ファイル </span> </p></td> 

@@ -23,6 +23,6 @@ ht-degree: 9%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | serverName | `xsd:string` | 公開履歴を所有するサーバーの名前。 |
-| contextName | `xsd:string` | Publish履歴コンテキスト名。 |
-| publishFormat | `xsd:string` | Publish形式。 |
+| contextName | `xsd:string` | 公開履歴コンテキスト名。 |
+| publishFormat | `xsd:string` | 公開形式。 |
 | lastPublished | `xsd:dateTime` | アセットが最後に公開された日時。 |

@@ -1,5 +1,5 @@
 ---
-description: PDFファイルのプロパティ。
+description: PDF ファイルのプロパティ。
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-PDFファイルのプロパティ。
+PDF ファイルのプロパティ。
 
 構文
 

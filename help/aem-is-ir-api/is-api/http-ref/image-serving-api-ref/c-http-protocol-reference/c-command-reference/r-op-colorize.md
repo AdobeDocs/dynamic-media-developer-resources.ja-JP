@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> color </span> </p> </td> 
-  <td class="stentry"> <p>置き換えるRGBの色。 </p> </td> 
+  <td class="stentry"> <p>RGBのカラーを置き換えます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> off </span> </p> </td> 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->前記色付けアルゴリズムは、前記画像データの輝度情報のみを用いる。 グレースケールへの変換はシンプルで、カラーマネジメントは行われません。 入力 `op_colorize` グレースケールまたは CMYK の場合でも、常にRGBデータを出力します。
+>前記色付けアルゴリズムは、前記画像データの輝度情報のみを用いる。 グレースケールへの変換はシンプルで、カラーマネジメントは行われません。 入力 `op_colorize` グレースケールまたは CMYK の場合でも、RGB データは常に出力されます。
 
 ## プロパティ {#section-c0f8bd424b864153a1108f384939f55b}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 *`color`* は、*`color`* のピクセルタイプに対応する作業用カラースペースに存在すると想定されます。 レイヤー画像のピクセルの種類がマージ時に異なる場合、*`color`* は正確に変換されます。
 
-CMYK 画像はRGBに変換されてから処理が行われます。
+操作を適用する前に、CMYK 画像がRGBに変換されます。
 
 ## 初期設定 {#section-0c3ea13efbac432c8970862d223e39b3}
 

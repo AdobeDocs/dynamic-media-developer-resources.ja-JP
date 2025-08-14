@@ -21,13 +21,13 @@ ht-degree: 2%
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> 色 </span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>RGBまたはグレーのカラー値。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>RGBまたはグレーの値。 </p></td> 
  </tr> 
 </table>
 
 画像レンダリングのテクスチャの色付けアルゴリズムは簡単です。`bgc=` のコンポーネント値がテクスチャピクセルの値から減算され、`color=` が追加されて、最終的に結果が `0,0,0` にクリップされて `255,255,255` になります。
 
-テクスチャのカラー化を一般的に使用する場合、`bgc=` の値はテクスチャ イメージの中で最も重要または支配的なカラーになります。 Dynamic Media画像オーサリングには、テクスチャ画像から適切な `bgc=` 色の値を抽出する半自動ツールが用意されています。
+テクスチャのカラー化を一般的に使用する場合、`bgc=` の値はテクスチャ イメージの中で最も重要または支配的なカラーになります。 Dynamic Media 画像オーサリングには、テクスチャ画像から適切な `bgc=` 色の値を抽出する半自動ツールが用意されています。
 
 テクスチャ マテリアルをテクスチャ化できないビネット オブジェクトに適用すると、`bgc=` が指定されていない場合、前景色として適用さ `color=` ます。
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ## 例 {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-生地のRGBの色が支配的なアパレル生地に 120,34,193 色を付けます。
+RGBの主要な色を持つテクスチャを持つアパレル生地に色を付けます 120,34,193 :
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 

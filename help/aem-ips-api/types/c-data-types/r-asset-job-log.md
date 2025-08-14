@@ -42,7 +42,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブ・ログ内のメッセージ。 <p>応答フィ [!DNL logMessage]</span> ルド <span class="codeph">、authHeader</span> ロケールフィールド <span class="codeph"> 基づいてローカライズされます。 </p></td> 
+   <td colname="col3">ジョブ・ログ内のメッセージ。 <p>応答フィ <span class="codeph"> ルド [!DNL logMessage]</span>、authHeader<span class="codeph"> ロケールフィールド </span> 基づいてローカライズされます。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 

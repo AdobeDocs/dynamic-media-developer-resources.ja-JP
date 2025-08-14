@@ -48,7 +48,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 });
 ```
 
-ビューアは、次の SDK ユーザーイベントを追跡します。
+ビューアは、次のSDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
@@ -64,7 +64,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset （） </span> API を使用して、ビューア内 <span class="codeph"> アセットが入れ替えられます。 </p> </td> 
+   <td colname="col2"> <p>setAsset （） <span class="codeph"> API を使用して、ビューア内 </span> アセットが入れ替えられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

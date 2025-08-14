@@ -18,17 +18,17 @@ ht-degree: 4%
 
 >[!TIP]
 >
->Dynamic Media [_Snapshot_](https://snapshot.scene7.com/) を使用して、Dynamic Mediaの画像修飾子とスマートイメージングのメリットを体験してみましょう。
+>Dynamic Media [_スナップショット_](https://snapshot.scene7.com/) を使用して、Dynamic Media の画像修飾子とスマートイメージングのメリットを体験してみましょう。
 >
-> スナップショットは、最適化された動的な画像配信におけるDynamic Mediaのパワーをわかりやすく伝えるために作られた、視覚的なデモツールです。 テスト画像やDynamic Mediaの URL を試して、様々なDynamic Media画像修飾子の出力を視覚的に観察し、次の項目に対するスマートイメージング最適化を確認します。
+> スナップショットは、最適化された動的な画像配信における Dynamic Media のパワーをわかりやすく伝えるために作られた、視覚的なデモツールです。 テスト画像や Dynamic Media の URL を試して、様々な Dynamic Media 画像修飾子の出力を視覚的に観察し、次の項目に対するスマートイメージング最適化を確認します。
 >* ファイルサイズ （WebP および AVIF 配信を使用）
 >* ネットワーク帯域幅
 >* DPR （デバイスピクセル比）
 >
->スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=ja) （3 分 17 秒）を再生してください。
+>スナップショットの使用がどれほど簡単かを知るには、[ スナップショットのトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3 分 17 秒）を再生してください。
 
 
-**Adobe Experience ManagerのDynamic Mediaのみ** - ユーザーインターフェイスで使用できる基本画像設定以外に、AEM（[!DNL Adobe Experience Manager]）の [!DNL Dynamic Media] では、「**画像修飾子**」フィールドで指定できる高度な画像修正が多数サポートされています。 これらのパラメーターは、以下で定義されます。 ただし、次の機能はAEMのDynamic Mediaではサポートされていません。
+**Adobe Experience Managerのみの場合** - ユーザーインターフェイスで使用できる基本画像設定に加え、AEMの [!DNL Dynamic Media] （[!DNL Adobe Experience Manager]）では、「**画像修飾子**」フィールドで指定できる高度な画像修正が多数サポートされています。 これらのパラメーターは、以下で定義されます。 ただし、次の機能はAEMの Dynamic Media ではサポートされていません。
 
 * カラー補正コマンド：`icc=` および `iccEmbed=`。
 * 基本テンプレートおよびテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` および `textPs=`。
@@ -38,11 +38,11 @@ ht-degree: 4%
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非コア Dynamic Media サービス：SVG、画像レンダリングおよび Web-to-Print。
+* 非コア Dynamic Media サービス：SVG、画像レンダリング、Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 ドキュメントのDynamic Media[ 画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=ja#dynamic) も参照してください。
+AEM 6.5 ドキュメントの Dynamic Media[ 画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) も参照してください。
 
 * [align](r-align.md)
 * [アンカー](r-anchor.md)

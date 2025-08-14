@@ -77,7 +77,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
   <tr> 
    <td> <p> 画像 <span class="codeph">。 embeddedXmpData</span> </p> </td> 
    <td> <p> ブール </p> </td> 
-   <td> <p> 画像にXMP データが含まれる場合は 1 を入力します。 </p> </td> 
+   <td> <p> 画像にXMP データが含まれている場合は 1 を入力します </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">.mask</span> </p> </td> 

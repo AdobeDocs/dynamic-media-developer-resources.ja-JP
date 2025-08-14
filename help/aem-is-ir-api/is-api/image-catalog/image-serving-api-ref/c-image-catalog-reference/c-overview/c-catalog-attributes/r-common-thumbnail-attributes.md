@@ -26,7 +26,7 @@ ht-degree: 0%
   <td class="stentry"> <p>サムネールの水平方向の配置。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ThumbVertAlign<a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbvertalign.md#reference-d47c6b34588c4855b04ad134e472f04f" type="reference" format="dita" scope="local"><span class="codeph"> 定 </a></span> </p></td> 
+  <td class="stentry"> <p>ThumbVertAlign<span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbvertalign.md#reference-d47c6b34588c4855b04ad134e472f04f" type="reference" format="dita" scope="local"> 定 </a></span> </p></td> 
   <td class="stentry"> <p>サムネールの垂直方向の整列。 </p></td> 
  </tr> 
 </table>

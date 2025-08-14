@@ -53,7 +53,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
 
 `<reqHandler>` 構文は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみを使用できます。 オプション。 デフォルトは `s7jsonResponse` です。
 
-Dynamic Media画像サービングビューアパッケージには、画像サービングから JSONP 形式のデータをリクエストおよび解析するユーティリティが含まれています。
+Dynamic Media 画像サービングビューアパッケージには、画像サービングから JSONP 形式のデータを要求および解析するユーティリティが含まれています。
 
 JSONP 形式について詳しくは、[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) を参照してください。
 

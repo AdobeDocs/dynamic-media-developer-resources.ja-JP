@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 初期設定 {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0` （変化なし）。 CMYK 画像またはレイヤーは、操作が適用される前にRGBに変換されます。
+`op_contrast=0` （変化なし）。 操作を適用する前に、CMYK 画像またはレイヤーがRGBに変換されます。
 
 ## 例 {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 

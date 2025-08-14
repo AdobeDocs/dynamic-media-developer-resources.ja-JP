@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Windows システムで画像レンダリングをアンインストールするには、次の手順に従います。
 
-1. ` *[!DNL install_folder]*\_uninst\uninstaller.exe` を実行してアンインストーラーを起動するか、[ スタート ] メニューで **[!UICONTROL プログラム]** > **[!UICONTROL Scene7]** > **[!UICONTROL 画像レンダリング]** > **[!UICONTROL アンインストール]** を選択します。
+1. ` *[!DNL install_folder]*\_uninst\uninstaller.exe` を実行してアンインストーラーを起動するか、スタート メニューで **[!UICONTROL プログラム]**/**[!UICONTROL Scene7]**/**[!UICONTROL イメージ レンダリング]**/**[!UICONTROL アンインストール]** を選択します。

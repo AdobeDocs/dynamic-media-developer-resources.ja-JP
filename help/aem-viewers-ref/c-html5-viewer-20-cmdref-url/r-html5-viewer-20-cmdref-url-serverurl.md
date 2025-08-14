@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>画像サービングのルートパスの相対パスまたは絶対パス。 </p> <p> ビューアが画像を取得する画像サービングへの相対パスまたは絶対パスを指定します。 パスの先頭に/</span> という <span class="filepath"> がない場合は、ビューアHTMLページの場所を基準とした相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> ビューアでメール共有モジュールが有効になっている場合は、絶対パスのみを使用します。 </p> </td> 
+   <td colname="col2"> <p>画像サービングのルートパスの相対パスまたは絶対パス。 </p> <p> ビューアが画像を取得する画像サービングへの相対パスまたは絶対パスを指定します。 パスの先頭に/<span class="filepath"> という </span> がない場合は、ビューアのHTML ページの場所に対する相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> ビューアでメール共有モジュールが有効になっている場合は、絶対パスのみを使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

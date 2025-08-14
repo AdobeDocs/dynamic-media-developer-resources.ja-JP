@@ -16,7 +16,7 @@ ht-degree: 0%
 
 インタラクティブビデオビューアに表示される特定のコンテンツは、ローカライゼーションの対象となります。 このようなコンテンツには、ユーザーインターフェイス要素のツールヒントや、ビデオを再生できない場合に表示されるエラーメッセージが含まれます。
 
-ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別な Viewer SDK 識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別なビューアSDK識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
 ビューアは起動時、現在のロケールを調べて、そのロケールでサポートされる各 SYMBOL にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
 
@@ -154,15 +154,15 @@ Web ページのコードは、ローカリゼーションオブジェクトを�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook共有ボタン。 </p> </td> 
+   <td colname="col2"> <p>Facebook 共有ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> TwitterShare.TOOLTIP </span> を <span class="codeph"> きます </p> </td> 
-   <td colname="col2"> <p>Twitter共有ボタン。 </p> </td> 
+   <td colname="col1"> <p> TwitterShare.TOOLTIP <span class="codeph"> を </span> きます </p> </td> 
+   <td colname="col2"> <p>Twitter 共有ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>コールトゥアクションパネルの「閉じる」ボタン。 </p> </td> 
+   <td colname="col2"> <p>Call to action パネルの「閉じる」ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

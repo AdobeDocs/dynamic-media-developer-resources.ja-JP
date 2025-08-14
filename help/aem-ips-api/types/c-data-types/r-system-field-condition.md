@@ -16,7 +16,7 @@ ht-degree: 5%
 
 searchAssets 操作のシステムフィールド検索条件。
 
-単項比較の場合は、システムフィールドタイプに応じて 1 つの値（`boolVal`、`longVal`、`doubleVal`、`dateVal`）のみを渡します。 検索範囲の場合、`min<Type>` パラメーターと `max<Type>` パラメーターを渡し、`Between` または `NotBetween` の `op` 値を渡します。
+単項比較の場合は、システムフィールドタイプに応じて 1 つの値（`boolVal`、`longVal`、`doubleVal`、`dateVal`）のみを渡します。 検索範囲の場合、`min<Type>` パラメーターと `max<Type>` パラメーターを渡し、`op` または `Between` の `NotBetween` 値を渡します。
 
 ## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

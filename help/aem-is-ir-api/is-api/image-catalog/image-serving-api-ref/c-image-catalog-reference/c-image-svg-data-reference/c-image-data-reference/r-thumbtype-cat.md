@@ -25,11 +25,11 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>フィット （2） </p></td> 
-  <td class="stentry"> <p>画像全体をサムネールの長方形に合わせます。 <span class="codeph"> 画像は、属性：:ThumbHorizAlign</span> 属性：:ThumbVertAlign</span> を使用してサムネールの長方形内に配置さ <span class="codeph">、追加のスペースは属性：:ThumbBkgColor</span> で埋め <span class="codeph"> れます。 </p></td> 
+  <td class="stentry"> <p>画像全体をサムネールの長方形に合わせます。 <span class="codeph"> 画像は、属性：:ThumbHorizAlign</span> 属性：:ThumbVertAlign<span class="codeph"> を使用してサムネールの長方形内に配置さ </span>、追加のスペースは属性：:ThumbBkgColor<span class="codeph"> で埋め </span> れます。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>テクスチャ （3） </p></td> 
-  <td class="stentry"> <p>解像度に基づいて画像を切り抜きます。 画像は、カタログ：:ThumbRes</span> とカタログ：:Resolution</span><span class="codeph"> 比率 <span class="codeph"> よって拡大縮小されます。 結果の画像がサムネールよりも大きい場合は、収まるように切り抜かれます。拡大縮小された画像がサムネールよりも小さい場合は、残りの領域が <span class="codeph"> の属性：:ThumbBkgColor</span> で塗りつぶされます。 <span class="codeph"> 属性：:ThumbHorizAlign</span> および <span class="codeph"> 属性：:ThumbVertAlign</span> を使用して、大きい画像の切り抜き長方形の位置またはサムネール内の小さい画像の位置を決定します。 </p></td> 
+  <td class="stentry"> <p>解像度に基づいて画像を切り抜きます。 画像は、カタログ：:ThumbRes<span class="codeph"> とカタログ：:Resolution</span><span class="codeph"> 比率 </span> よって拡大縮小されます。 結果の画像がサムネールよりも大きい場合は、収まるように切り抜かれます。拡大縮小された画像がサムネールよりも小さい場合は、残りの領域が <span class="codeph"> の属性：:ThumbBkgColor</span> で塗りつぶされます。 <span class="codeph"> 属性：:ThumbHorizAlign</span> および <span class="codeph"> 属性：:ThumbVertAlign</span> を使用して、大きい画像の切り抜き長方形の位置またはサムネール内の小さい画像の位置を決定します。 </p></td> 
  </tr> 
 </table>
 

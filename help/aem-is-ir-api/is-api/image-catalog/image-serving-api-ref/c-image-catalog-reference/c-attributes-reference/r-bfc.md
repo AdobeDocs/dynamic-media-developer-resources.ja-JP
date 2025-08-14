@@ -23,7 +23,7 @@ ht-degree: 4%
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
-  <td class="stentry"> <p>ブラウザーフォーマット変換機能を変換するJPEGまたは PNG 画像を小さいブラウザーベースのファイル形式に変換する場合に、オン（<span class="codeph"> true </span>）とオフ（<span class="codeph"> false </span>）のどちらにするかを指定します。 </p> </td> 
+  <td class="stentry"> <p>ブラウザーフォーマット変換機能を変換するJPEGまたは PNG 画像を、ブラウザー固有の小さいファイル形式に変換する機能を、オン（<span class="codeph"> true </span>）とオフ（<span class="codeph"> false </span>）のどちらにするかを指定します。 </p> </td> 
  </tr> 
 </table>
 
@@ -33,4 +33,4 @@ ht-degree: 4%
 
 ## 関連項目
 
-[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [ スマートイメージング ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=ja)
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [ スマートイメージング ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

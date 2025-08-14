@@ -185,7 +185,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 各サムネールの周囲の水平方向と垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell </span> に設定された左右の余白 <span class="codeph"> 合計と等しくなります。 </p> </td> 
+   <td colname="col2"> <p> 各サムネールの周囲の水平方向と垂直方向の余白のサイズ。 実際のサムネールの間隔は、.s7thumbcell <span class="codeph"> に設定された左右の余白 </span> 合計と等しくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -305,14 +305,14 @@ CSS `top`、`left`、`bottom` および `right` プロパティを使用して�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSS スプライトを使用する場合の、アートワークスプライト内の位置。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態（「`up`」、「`down`」、「`over`」、「`disabled`」）に異なるスキンを適用するために使用できる `state` 属性セレクターがサポートされています。
+>このボタンでは、ボタンの状態（「`state`」、「`up`」、「`down`」、「`over`」）に異なるスキンを適用するために使用できる `disabled` 属性セレクターがサポートされています。
 
 ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 

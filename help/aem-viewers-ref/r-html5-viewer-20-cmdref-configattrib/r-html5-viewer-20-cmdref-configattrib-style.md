@@ -22,12 +22,12 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> CSS の相対位置または絶対位置。 </p> <p>カスタム CSS ファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span> が相対パスの場合は、ビューアHTMLページの場所と、contentUrl=</span> パラメーターの値 <span class="codeph"> 対して解決されます。 </p> </td> 
+   <td colname="col2"> <p> CSS の相対位置または絶対位置。 </p> <p>カスタム CSS ファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span> が相対パスの場合は、ビューアのHTML ページの場所と、contentUrl=<span class="codeph"> パラメーターの値 </span> 対して解決されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSS ファイル内のすべてのアセット参照は、呼び出し元のHTMLページの場所ではなく、CSS ファイルの場所に対して解決されます。
+CSS ファイル内のすべてのアセット参照は、呼び出し元のHTML ページの場所ではなく、CSS ファイルの場所に対して解決されます。
 
 ## プロパティ {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

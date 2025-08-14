@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK 名前空間 </a> を参照してください。 </p> <p><i>Viewer SDK User Guide</i> とオブジェクトのコンテンツに関する詳細情報の例を参照してください。 オプション。 </p> </td> 
+   <td colname="col2"> <p> ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> ビューアのSDK名前空間 </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは <i></i> ビューアのSDKユーザーガイド」と例を参照してください。 オプション。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -43,7 +43,7 @@ ht-degree: 13%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | 会社に渡す。 |
-| assetHandleArray | ` `types:HandleArray」 | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
+| assetHandleArray | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
 
 **出力（batchGetAssetPublishContextsReturn）**
 

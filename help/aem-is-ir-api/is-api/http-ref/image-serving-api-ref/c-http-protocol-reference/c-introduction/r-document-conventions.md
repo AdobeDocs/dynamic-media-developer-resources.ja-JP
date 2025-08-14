@@ -43,7 +43,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
-  <td class="stentry"> <p>先頭に「icc: </span>」 <span class="codeph"> 付いた名前は、ICC カラープロファイルマップ内のフィールドを参照します。 </p> </td> 
+  <td class="stentry"> <p>先頭に「icc: <span class="codeph">」 </span> 付いた名前は、ICC カラープロファイルマップ内のフィールドを参照します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> font::Item </span> </p> </td> 

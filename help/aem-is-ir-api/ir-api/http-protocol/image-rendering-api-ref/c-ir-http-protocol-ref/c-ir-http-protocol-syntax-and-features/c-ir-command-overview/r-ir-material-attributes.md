@@ -70,7 +70,7 @@ ht-degree: 0%
   <td class="stentry"> <p>サーフェス マテリアル タイプ。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>グラウト <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"><span class="codeph"> る </a></span> </p></td> 
+  <td class="stentry"> <p>グラウト <span class="codeph"><a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> る </a></span> </p></td> 
   <td class="stentry"> <p>グラウトの厚さとカラーをタイル化します。 </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -30,7 +30,7 @@ IP アドレスのコンマ区切りリスト。 個々のアドレスには、I
 
 `<addressfilter>` が空であるか、指定されていない場合、アクセスは制限されません。
 
-`<rule>` 要素の `<expression>` が存在しないか空の場合、`<addressfilter>` はすべてのリクエストに適用されます。
+`<expression>` 要素の `<rule>` が存在しないか空の場合、`<addressfilter>` はすべてのリクエストに適用されます。
 
 `localhost` は、明示的に指定されない場合でも、常に `ClientAddressFilter` 定義の暗黙的な一部となります。 `localhost` からのリクエストは、`ClientAddressFilter` の仕様に関係なく、拒否されません。
 

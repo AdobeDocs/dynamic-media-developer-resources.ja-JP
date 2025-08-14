@@ -1,6 +1,6 @@
 ---
 title: HTTP プロトコルの構文と機能
-description: この節では、Dynamic Media画像レンダリングの HTTP プロトコル構文と機能について説明します。
+description: この節では、HTTP プロトコル構文と、Dynamic Media 画像レンダリングの機能について説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # HTTP プロトコルの構文と機能{#http-protocol-syntax-and-features}
 
-この節では、Dynamic Media画像レンダリングの HTTP プロトコル構文と機能について説明します。
+この節では、HTTP プロトコル構文と、Dynamic Media 画像レンダリングの機能について説明します。
 
 * [画像レンダリングの HTTP プロトコル基本構文](r-ir-basic-syntax.md)
 * [画像レンダリング HTTP プロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)

@@ -62,12 +62,12 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">IPS システム固有のメタデータを表示または非表示にします。 getMetadataFields</a> お <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> び getAssetMetadataFields</a> から返さ <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> ます。 </td> 
+   <td colname="col3">IPS システム固有のメタデータを表示または非表示にします。 getMetadataFields<a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> お </a> び getAssetMetadataFields<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> から返さ </a> ます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>値の設定時にメタデータフィールドタイプを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> に無効な値が設定されてい <span class="codeph"> とエラーが発生します。 </p> </td> 
+   <td colname="col3"> <p>値の設定時にメタデータフィールドタイプを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata<span class="codeph"> /</span> batchSetAssetMetadata<span class="codeph"> に無効な値が設定されてい </span> とエラーが発生します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

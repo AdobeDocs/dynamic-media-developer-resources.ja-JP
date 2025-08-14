@@ -93,7 +93,7 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>true</span><span class="codeph">assetSubTypeArray</span> が空でない場合 <span class="codeph">、サブタイプが assetSubTypeArray</span> にあるアセットのみ <span class="codeph"> 返されます。 </p> <p><span class="codeph"> が false の場合 </span> サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span> です。 </p> </td> 
+   <td colname="col4"> <p>true<span class="codeph"></span>assetSubTypeArray<span class="codeph"> が空でない場合 </span>、サブタイプが assetSubTypeArray<span class="codeph"> にあるアセットのみ </span> 返されます。 </p> <p><span class="codeph"> が false の場合 </span> サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span> です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 

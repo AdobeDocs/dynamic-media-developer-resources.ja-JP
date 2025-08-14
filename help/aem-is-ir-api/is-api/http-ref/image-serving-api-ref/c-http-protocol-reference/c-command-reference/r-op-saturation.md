@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 初期設定 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`、彩度の変化はありません。 CMYK 画像またはレイヤーは、操作が適用される前にRGBに変換されます。
+`op_saturation=0`、彩度の変化はありません。 操作を適用する前に、CMYK 画像またはレイヤーがRGBに変換されます。
 
 ## 例 {#section-033b272f1b7e4efeb94e841fd8095357}
 

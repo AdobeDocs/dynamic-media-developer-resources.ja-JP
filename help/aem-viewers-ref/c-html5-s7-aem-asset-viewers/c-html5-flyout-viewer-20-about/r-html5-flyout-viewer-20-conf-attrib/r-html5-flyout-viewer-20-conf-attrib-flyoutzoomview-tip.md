@@ -28,7 +28,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span> </span> </p> </td> 
-   <td colname="col2"> <p>テキストが表示または非表示になるときに発生するフェードアニメーションの持続時間を指定します。 0</span> の値 <span class="codeph"> は、フェードトランジションがないことを意味します。 </p> </td> 
+   <td colname="col2"> <p>テキストが表示または非表示になるときに発生するフェードアニメーションの持続時間を指定します。 0<span class="codeph"> の値 </span> は、フェードトランジションがないことを意味します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

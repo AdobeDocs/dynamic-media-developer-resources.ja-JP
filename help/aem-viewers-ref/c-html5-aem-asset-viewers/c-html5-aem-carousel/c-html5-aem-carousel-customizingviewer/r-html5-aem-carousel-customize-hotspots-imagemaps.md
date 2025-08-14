@@ -1,6 +1,6 @@
 ---
 title: ホットスポットと画像マップ
-description: ビューアには、ホットスポットが元々AEM AssetsのDynamic Mediaで作成された場所にあるホットスポットアイコンがメインビューの上にオンデマンドで表示されます。
+description: ビューアは、ホットスポットが元々AEM Assetsの Dynamic Media でオンデマンドで作成された場所で、メインビューにホットスポットアイコンを表示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ホットスポットと画像マップ{#hotspots-and-image-maps}
 
-ビューアには、ホットスポットが元々AEM AssetsのDynamic Mediaで作成された場所にあるホットスポットアイコンがメインビューの上にオンデマンドで表示されます。
+ビューアは、ホットスポットが元々AEM Assetsの Dynamic Media でオンデマンドで作成された場所で、メインビューにホットスポットアイコンを表示します。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -84,15 +84,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p>画像マップ領域の塗りつぶしの色。 </p> <p>この色 <span class="codeph">#RRGGBB </span>、<span class="codeph">RGB（R,G,B） </span>、または <span class="codeph"> RGBA （R,G,B,A） </span> 形式で指定します。 </p> </td> 
+   <td colname="col2"> <p>画像マップ領域の塗りつぶしの色。 </p> <p>この色 <span class="codeph">、RGB（R,G,B） </span> または <span class="codeph"> RGBA （R,G,B,A） </span> の形式 <span class="codeph">#RRGGBB </span> で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>画像マップ領域の塗りつぶしの色。 </p> <p>この色 <span class="codeph">#RRGGBB </span>、<span class="codeph">RGB（R,G,B） </span>、または <span class="codeph"> RGBA （R,G,B,A） </span> 形式で指定します。 </p> </td> 
+   <td colname="col2"> <p>画像マップ領域の塗りつぶしの色。 </p> <p>この色 <span class="codeph">、RGB（R,G,B） </span> または <span class="codeph"> RGBA （R,G,B,A） </span> の形式 <span class="codeph">#RRGGBB </span> で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 幅 </span><span class="codeph"> をピクセル単位で表す「<span class="codeph"> 幅 </span> <span class="codeph"> 単色 </span>」と指定する必要があります。<span class="codeph"> 色 </span> は、<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB（R,G,B） </span> または <span class="codeph"> RGBA （R,G,B,A） </span> です。 </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 幅 <span class="codeph"></span> をピクセル単位で表す <span class="codeph"> 幅 </span> <span class="codeph"> 単色 </span>」として指定する必要があります。<span class="codeph"> 色 </span> は、<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB（R,G,B） </span>、または <span class="codeph"> RGBA （R,G,B,A） </span> です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

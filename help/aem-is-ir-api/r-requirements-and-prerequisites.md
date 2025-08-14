@@ -1,6 +1,6 @@
 ---
 title: システム要件および前提条件
-description: Dynamic Media画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
+description: Dynamic Media 画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # システム要件および前提条件{#system-requirements-and-prerequisites}
 
-Dynamic Media画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
+Dynamic Media 画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
 
 ## サーバハードウェア {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -22,7 +22,7 @@ Dynamic Media画像サービングを使用する前に、お使いのシステ�
 
 >[!NOTE]
 >
->AMD64 および Intel® EM64T を搭載したプロセッサを搭載したシステムは、通常、NUMA （Non-Uniform Memory Architecture）プラットフォームとして設定されます。 つまり、カーネルは、単一のメモリノードを構築するのではなく、ブート時に複数のメモリノードを構築します。 複数のノード構成体を使用すると、他のノードが消費される前に、1 つ以上のノードでメモリが枯渇する可能性があります。 メモリ不足が発生すると、使用可能なメモリがあるにもかかわらず、カーネルはプロセス（Image Server や [!DNL Platform Server] など）を強制終了する可能性があります。 そのため、Adobeでは、そのようなシステムを実行している場合は、NUMA をオフにすることをお勧めします。 `numa=off` start オプションを使用して、カーネルがこれらのプロセスを停止するのを避けます。
+>AMD64 および Intel® EM64T を搭載したプロセッサを搭載したシステムは、通常、NUMA （Non-Uniform Memory Architecture）プラットフォームとして設定されます。 つまり、カーネルは、単一のメモリノードを構築するのではなく、ブート時に複数のメモリノードを構築します。 複数のノード構成体を使用すると、他のノードが消費される前に、1 つ以上のノードでメモリが枯渇する可能性があります。 メモリ不足が発生すると、使用可能なメモリがあるにもかかわらず、カーネルはプロセス（Image Server や [!DNL Platform Server] など）を強制終了する可能性があります。 そのため、Adobeでは、このようなシステムを実行する場合は、NUMA をオフにすることをお勧めします。 `numa=off` start オプションを使用して、カーネルがこれらのプロセスを停止するのを避けます。
 
 **Windows**
 
@@ -54,7 +54,7 @@ Dynamic Media画像サービングを使用する前に、お使いのシステ�
 
 ## サーバーソフトウェア {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media イメージサービングには、次のサーバーソフトウェアが必要です。
+Dynamic Media 画像サービングには、次のサーバーソフトウェアが必要です。
 
 **Windows**
 

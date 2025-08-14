@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> サムネール画像を基準にしてラベルを描画する場所を指定します。 つまり、ラベルは、サムネールに対して指定した位置に配置されます。 </p> <p>ツールヒント </span><span class="codeph"> 指定すると、ラベルのテキストがフローティングツールヒントとしてサムネール画像の上に表示されます。 ラベルをオフにするには </span><span class="codeph"> なし」に設定します。 </p> </td> 
+   <td> <p> サムネール画像を基準にしてラベルを描画する場所を指定します。 つまり、ラベルは、サムネールに対して指定した位置に配置されます。 </p> <p>ツールヒント <span class="codeph"></span> 指定すると、ラベルのテキストがフローティングツールヒントとしてサムネール画像の上に表示されます。 ラベルをオフにするには <span class="codeph"></span> なし」に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

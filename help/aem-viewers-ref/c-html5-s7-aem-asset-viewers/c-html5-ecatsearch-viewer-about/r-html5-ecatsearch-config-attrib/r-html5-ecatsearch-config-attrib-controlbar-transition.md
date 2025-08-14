@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|フェード </span> </p> </td> 
-   <td colname="col2"> <p> コントロール バーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 「なし」 </span> を使用 <span class="codeph"> ると、表示と非表示を瞬時に切り替えることができます。<span class="codeph"> のフェードイン </span> フェードアウト効果により、フェードインとフェードアウトが徐々に変化します（Internet Explorer 8 ではサポートされていません）。 </p> </td> 
+   <td colname="col2"> <p> コントロール バーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 「なし」 <span class="codeph"> を使用 </span> ると、表示と非表示を瞬時に切り替えることができます。<span class="codeph"> のフェードイン </span> フェードアウト効果により、フェードインとフェードアウトが徐々に変化します（Internet Explorer 8 ではサポートされていません）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 

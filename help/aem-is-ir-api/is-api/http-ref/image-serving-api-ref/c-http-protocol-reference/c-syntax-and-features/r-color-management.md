@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## デフォルトのカラースペース {#section-8cfe60808bce49968091995e4e521dba}
 
-各画像カタログ（およびデフォルトカタログ）では、このカタログのデフォルトカラースペースを構成する ICC プロファイルのセット（グレースケール、RGB、CMYK データ用にそれぞれ 1 つの入力プロファイルと 1 つの出力プロファイル）を定義できます。 参照：
+各画像カタログ（およびデフォルトカタログ）では、このカタログのデフォルトカラースペースを構成する ICC プロファイルのセット（グレースケール、RGB、CMYK のデータ用にそれぞれ 1 つの入力プロファイルと 1 つの出力プロファイル）を定義できます。 参照：
 [attribute::IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
 [attribute::IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
 [attribute::IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
@@ -54,7 +54,7 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 
 >[!NOTE]
 >
->`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`、`op_saturation=` のコマンドは、RGB処理です。 これらの操作を行うと、レイヤーのカラースペースにRGBピクセルタイプがある場合にのみ、色の忠実性が維持されます。 RGB以外の場合は、ナイーブな色変換を使用してRGBに変換され、その結果、色の忠実性が制限されます。 このようなレイヤーのレイヤーカラースペースは、不定と見なす必要があります。
+>`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=` および `op_saturation=` コマンドは、RGBの操作です。 これらの操作を行うと、レイヤーのカラースペースにRGB ピクセルタイプが含まれている場合にのみ、色の忠実性が維持されます。 RGB以外の場合は、ナイーブな色変換を使用してRGBに変換され、その結果、色の忠実性が制限されます。 このようなレイヤーのレイヤーカラースペースは、不定と見なす必要があります。
 
 カラー変換オプションには、`icc=` が用意されています。`icc=` が指定されていない場合は、`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`、`attribute::IccDither` が用意されています。
 
@@ -76,13 +76,13 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 
 ## 含まれる ICC カラープロファイル {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-画像サービングには、デフォルトの画像カタログ内のほとんどの標準Adobe ICC プロファイルが含まれています。 これらのプロファイルには、共通の名前（例えば、Photoshopに見られる）を使用するか、識別情報をわずかに短くすることでアクセスできます。 次の表に、すべての標準 ICC プロファイルを示します。 `icc=` コマンドでプロファイルを共通名で参照する場合は、スペースを `%20` としてエンコードする必要があります。
+画像サービングでは、デフォルトの画像カタログに、ほとんどの標準のAdobe ICC プロファイルが含まれています。 これらのプロファイルには、共通の名前（例えば、Photoshopに見られる）を使用するか、識別情報をわずかに短くすることでアクセスできます。 次の表に、すべての標準 ICC プロファイルを示します。 `icc=` コマンドでプロファイルを共通名で参照する場合は、スペースを `%20` としてエンコードする必要があります。
 
 追加のプロファイルは、標準プロファイル（デフォルトカタログまたは特定の画像カタログ）に追加できます。 詳しくは、[ICC プロファイルマップ参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) を参照してください。
 
 >[!NOTE]
 >
->次の表は、*Dynamic Media ハイブリッド* にのみ適用されます（実行モードで実行 `dynamicmedia` れます）。
+>次の表は、（実行モードで実行されている *Dynamic Media ハイブリッド* のみ `dynamicmedia` 適用されます。
 
 | 識別子 | 共通名 | ファイル名 |
 |-- |-- |-- |
@@ -100,7 +100,7 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 | **CMYK** |  |  |
 | `CoatedFogra27` | Coated FOGRA27 （ISO 12647-2:2004） | CoatedFOGRA27.icc |
 | `CoatedFogra39` | Coated FOGRA39 （ISO 12647-2:2004） | CoatedFOGRA39.icc |
-| `CoatedGraCol` | Coated GRACoL 2006 （ISO 12647-2:2004） | CoatedGRACoL2006.icc |
+| `CoatedGraCol` | コート GRACoL 2006 （ISO 12647-2:2004） | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europe ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Euroscale Coated | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -121,7 +121,7 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 | `WebCoatedGrade5` | Web Coated SWOP 2006 Grade 5 用紙 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
-次の表は、*Dynamic Media Classic画像サービング* および *Dynamic Media* （`dynamicmedia_scene7` 実行モードで動作）に適用されます。
+次の表は、*Dynamic Media Classic画像サービング* および *Dynamic Media* （実行モードで動作） `dynamicmedia_scene7` 適用されます。
 
 | 識別子 | 共通名 | ファイル名 |
 |-- |-- |-- |
@@ -139,7 +139,7 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 | **CMYK** |  |  |
 | `CoatedFogra27` | Coated FOGRA27 （ISO 12647-2:2004） | CoatedFOGRA27.icc |
 | `CoatedFogra39` | Coated FOGRA39 （ISO 12647-2:2004） | CoatedFOGRA39.icc |
-| `Coated GRACoL 2006 (ISO 12647-2:2004)` | Coated GRACoL 2006 （ISO 12647-2:2004） | CoatedGRACoL2006.icc |
+| `Coated GRACoL 2006 (ISO 12647-2:2004)` | コート GRACoL 2006 （ISO 12647-2:2004） | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europe ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -162,4 +162,4 @@ Source画像には、ICC プロファイルを埋め込んで、入力カラー�
 
 ## 関連項目 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](https://www.color.org/index.xalter)、[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)、[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)、[attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;、[attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;、[attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)、[attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)、[attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)、[ICC プロファイルマップ参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)、[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [&#128279;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88) [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)、bgc=reference
+[International Color Consortium](https://www.color.org/index.xalter)、[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)、[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)、[attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;、[attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;、[attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)、[attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)、[attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)、[ICC プロファイルマップ参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)、[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88) [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)、bgc=reference

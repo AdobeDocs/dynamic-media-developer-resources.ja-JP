@@ -1,6 +1,6 @@
 ---
-title: Twitter共有
-description: Twitter共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンを選択すると、ソーシャルサービスから提供される共有ダイアログボックスにユーザーがリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+title: Twitter 共有
+description: Twitter 共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンを選択すると、ソーシャルサービスから提供される共有ダイアログボックスにユーザーがリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Twitter共有{#twitter-share}
+# Twitter 共有{#twitter-share}
 
-Twitter共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンを選択すると、ソーシャルサービスから提供される共有ダイアログボックスにユーザーがリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+Twitter 共有ツールは、ソーシャル共有パネルに追加されたボタンで構成されます。 ボタンを選択すると、ソーシャルサービスから提供される共有ダイアログボックスにユーザーがリダイレクトされます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-「Twitter共有」ボタンの外観は、次の CSS クラスセレクターで制御します。
+Twitter 共有ボタンの外観は、次の CSS クラスセレクターで制御します。
 
 ```
 .s7interactivevideoviewer .s7twittershare
 ```
 
-**Twitter共有ツールの CSS プロパティ**
+**Twitter 共有ツールの CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -42,7 +42,7 @@ Twitter共有ツールは、ソーシャル共有パネルに追加されたボ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ CSS クラスに CSS プロパティを設定することで、ソーシャル�
 
 ## 例 {#section-5a8837ea208e48ed8dfa6a3c1a514492}
 
-28 x 28 ピクセルのTwitter共有ボタンを設定し、4 つの異なるボタンの状態ごとに異なる画像を表示するには：
+28 x 28 ピクセルの Twitter 共有ボタンを設定し、4 つの異なるボタン状態ごとに異なる画像を表示するには：
 
 ```
 .s7interactivevideoviewer .s7twittershare { 

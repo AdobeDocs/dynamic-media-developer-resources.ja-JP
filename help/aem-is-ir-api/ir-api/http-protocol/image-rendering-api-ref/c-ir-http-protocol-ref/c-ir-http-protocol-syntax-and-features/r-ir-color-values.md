@@ -1,6 +1,6 @@
 ---
 title: カラー値
-description: color=属性と bgc=属性のカラー値は、10 進数のコンポーネント値のリスト、コンマ区切りのコンポーネント値のリスト、またはHTMLと同様の 16 進表記を使用して指定できます。
+description: color=属性と bgc=属性のカラー値は、10 進数のコンポーネント値のリスト、コンマ区切りのコンポーネント値、またはHTMLと同様の 16 進表記を使用して指定できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -27,7 +27,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>6 桁の 16 進RGBカラー値（RRGGBB）をパックしました。 </p></td> 
+  <td class="stentry"> <p>6 桁の 16 進数のRGB カラー値（RRGGBB）をパックしました。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 

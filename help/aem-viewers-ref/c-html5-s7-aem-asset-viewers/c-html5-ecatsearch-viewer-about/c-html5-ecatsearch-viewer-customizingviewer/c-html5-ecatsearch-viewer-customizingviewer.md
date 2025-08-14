@@ -167,8 +167,8 @@ background-position: -0px -560px;
 
 ## 一般的なスタイル設定のメモとアドバイス {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* CSS を使用してビューアユーザーインターフェイスをカスタマイズする場合、`!IMPORTANT` ルールを使用してビューア要素のスタイルを設定することはできません。 特に、ビューア `!IMPORTANT` たはビューア SDK で提供されるデフォルトまたは実行時のスタイル設定を上書きする場合は、このルールを使用しないでください。 これは、適切なコンポーネントの動作に影響を与える可能性があるためです。 代わりに、適切な特異性を持つ CSS セレクターを使用して、このリファレンスガイドに記載されている CSS プロパティを設定する必要があります。
-* CSS 内の外部アセットへのすべてのパスは、ビューアHTMLページの場所ではなく CSS の場所に対して解決されます。 デフォルトの CSS を別の場所にコピーする場合は、このルールに注意してください。 デフォルトアセットもコピーするか、カスタム CSS 内のパスを更新します。
+* CSS を使用してビューアユーザーインターフェイスをカスタマイズする場合、`!IMPORTANT` ルールを使用してビューア要素のスタイルを設定することはできません。 特に、ビューア `!IMPORTANT` たはビューアのSDKで提供されるデフォルトまたは実行時のスタイル設定を上書きする場合は、このルールを使用しないでください。 これは、適切なコンポーネントの動作に影響を与える可能性があるためです。 代わりに、適切な特異性を持つ CSS セレクターを使用して、このリファレンスガイドに記載されている CSS プロパティを設定する必要があります。
+* CSS 内の外部アセットへのすべてのパスは、ビューアのHTML ページの場所ではなく、CSS の場所に対して解決されます。 デフォルトの CSS を別の場所にコピーする場合は、このルールに注意してください。 デフォルトアセットもコピーするか、カスタム CSS 内のパスを更新します。
 * ビットマップアートワークの形式は PNG が推奨されます。
 * ビットマップアートワークは、`background-image` プロパティを使用してユーザーインターフェイス要素に割り当てられます。
 * ユーザーインターフェイス要素の `width` プロパティと `height` プロパティは、その論理サイズを定義します。 `background-image` に渡されるビットマップのサイズは、論理サイズに影響しません。
@@ -185,7 +185,7 @@ eCatalog 検索ビューアに適用されるユーザーインターフェイ�
 * [ダウンロード](r-html5-ecatsearch-customize-download.md)
 * [メール共有](r-html5-ecatsearch-customize-emailshare.md)
 * [共有を埋め込む](r-html5-ecatsearch-customize-embedshare.md)
-* [Facebook共有](r-html5-ecatsearch-customize-facebookshare.md)
+* [Facebook 共有](r-html5-ecatsearch-customize-facebookshare.md)
 * [お気に入りエフェクト](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [お気に入りメニュー](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [お気に入り表示](r-html5-ecatsearch-customize-favoritesview.md)
@@ -216,7 +216,7 @@ eCatalog 検索ビューアに適用されるユーザーインターフェイ�
 * [サムネール](r-html5-ecatsearch-customize-thumbnails.md)
 * [「サムネール」ボタン](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [ツールチップ](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter共有](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter 共有](r-html5-ecatsearch-customize-twittershare.md)
 * [「すべてのお気に入りを表示」ボタン](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [「ズームイン」ボタン](r-html5-ecatsearch-customize-zoominbutton.md)
 * [ズームアウトボタン](r-html5-ecatsearch-customize-zoomoutbutton.md)

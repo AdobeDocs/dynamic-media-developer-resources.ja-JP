@@ -147,7 +147,7 @@ CSS を使用して、背景、境界線、透明度などの属性を制御で�
 
 **カーソルの CSS プロパティ**
 
-パラメーター `highlightmode` `cursor` に設定すると、メインビューのハイライト表示は固定サイズのカーソルアートワークに置き換えられ、CSS クラスセレクターで制御されます。
+パラメーター `highlightmode``cursor` に設定すると、メインビューのハイライト表示は固定サイズのカーソルアートワークに置き換えられ、CSS クラスセレクターで制御されます。
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -261,7 +261,7 @@ CSS を使用すると、フォントスタイル、サイズ、外観、垂直�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
-   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8 の場合は、filter:alpha （opacity-...） </span> を使用 <span class="codeph"> ます。 </p> </td> 
+   <td colname="col2"> <p>メッセージテキストの背景の不透明度。 </p> <p>Internet Explorer 8 の場合は、filter:alpha （opacity-...） <span class="codeph"> を使用 </span> ます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

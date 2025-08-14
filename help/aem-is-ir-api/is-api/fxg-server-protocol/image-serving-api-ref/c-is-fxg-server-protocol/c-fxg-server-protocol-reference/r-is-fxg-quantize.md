@@ -1,6 +1,6 @@
 ---
 title: 量子化
-description: カラー量子化。 GIFの出力変換に使用するカラー量子化属性を指定します。
+description: カラー量子化。 GIF出力変換のカラー量子化属性を指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 量子化{#quantize}
 
-カラー量子化。 GIFの出力変換に使用するカラー量子化属性を指定します。
+カラー量子化。 GIF出力変換のカラー量子化属性を指定します。
 
 ` quantize= *`type`*[, *`dither`*[, *`numColors`*[, *`colorList`*]]]`
 
@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>16 進数 6 形式の強制RGBカラーのコンマ区切りリスト。 「<span class="codeph"> アダプティブフ </span> ーム」パレットに含める強制的な色を指定できます。 指定された色の数が numColors</span> より少ない場合 <span class="codeph">、追加の色が画像の内容に基づいて計算されます。 </p> <p>fmt=gif </span> または <span class="codeph">=gif-alpha </span> の場合 <span class="codeph"> のみ使用されます。 それ以外の場合は無視されます。 <span class="codeph"> <span class="varname"> colorList </span> </span> で指定するカラーは、hex6 フォーマットのRGB値である必要があります（<span class="codeph"> color </span> を参照）。他のカラー指定子は使用できません。 </p> </td> 
+  <td class="stentry"> <p>16 進数形式の強制RGB カラーのコンマ区切りリスト。 「<span class="codeph"> アダプティブフ </span> ーム」パレットに含める強制的な色を指定できます。 指定された色の数が numColors<span class="codeph"> より少ない場合 </span>、追加の色が画像の内容に基づいて計算されます。 </p> <p>fmt=gif <span class="codeph"> または </span>=gif-alpha <span class="codeph"> の場合 </span> のみ使用されます。 それ以外の場合は無視されます。 <span class="codeph"> <span class="varname"> colorList </span> </span> で指定するカラーは、hex6 フォーマットのRGB値である必要があります（<span class="codeph"> color </span> を参照）。他のカラー指定子は使用できません。 </p> </td> 
  </tr> 
 </table>
 
@@ -43,10 +43,10 @@ ht-degree: 1%
 
 ## 例 {#section-b3a979dc9ae3459baa093bf17310988f}
 
-「`web`」パレットを使用し、ディザリングを行わずにGIFのサムネールを生成します。
+「`web`」パレットを使用し、ディザリングを行わずにGIF サムネールを生成します。
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-キーカラーの透明度と強制的なカラーを白黒に設定したバイトーンGIFに画像を変換します。
+キーカラーの透明度とカラーを白黒に強制するバイトーンのGIFに画像を変換します。
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

@@ -1,5 +1,5 @@
 ---
-description: Flashファイルのプロパティ。
+description: Flash ファイルのプロパティ。
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL FlashInfo]{#flashinfo}
 
-Flashファイルのプロパティ。
+Flash ファイルのプロパティ。
 
 構文
 

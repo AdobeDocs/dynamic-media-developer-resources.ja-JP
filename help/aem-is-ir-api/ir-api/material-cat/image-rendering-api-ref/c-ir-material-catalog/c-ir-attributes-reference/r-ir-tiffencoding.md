@@ -1,6 +1,6 @@
 ---
 title: TiffEncoding
-description: TIFFのエンコード形式。 TIFFイメージの圧縮形式を指定します（fmt= コマンドの 3 番目の値のデフォルトです）。
+description: TIFFのエンコーディング形式。 TIFFイメージの圧縮形式を指定します（fmt= コマンドの 3 番目の値のデフォルト）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # TiffEncoding{#tiffencoding}
 
-TIFFのエンコード形式。 TIFFイメージの圧縮形式を指定します（`fmt=` コマンドの 3 番目の値のデフォルト）。
+TIFFのエンコーディング形式。 TIFF画像の圧縮形式を指定します（事実上、`fmt=` コマンドの 3 番目の値のデフォルト）。
 
 圧縮しない場合は `0`、LZW の場合は `1`、deflate （ZIP）の場合は `2`、JPEG圧縮の場合は `3` に設定します。
 

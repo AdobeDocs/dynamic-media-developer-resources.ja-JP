@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic リリースノート
-description: 「Adobe Experience CloudのAdobe Experience Manager ソリューションの一部である、Adobe Dynamic Media Classicのリリースノート」
+description: Adobe Experience CloudのAdobe Dynamic Media Classic ソリューションの一部である、Adobe Experience Managerのリリースノートです。
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic

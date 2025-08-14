@@ -1,5 +1,5 @@
 ---
-description: ここでは、Dynamic Media画像サービングの HTTP プロトコルについて説明します。
+description: このドキュメントでは、Dynamic Media 画像サービングの HTTP プロトコルについて説明します。
 solution: Experience Manager
 title: はじめに
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 4%
 
 # はじめに{#introduction}
 
-ここでは、Dynamic Media画像サービングの HTTP プロトコルについて説明します。
+このドキュメントでは、Dynamic Media 画像サービングの HTTP プロトコルについて説明します。
 
-公開されているプロトコルの側面のみが記載されています。 このサーバは、Dynamic Media クライアントソフトウェアで使用するために予約されている追加のコマンドをサポートする場合があります。
+公開されているプロトコルの側面のみが記載されています。 サーバーは、Dynamic Media クライアントソフトウェアで使用するために予約されている追加のコマンドをサポートする場合があります。

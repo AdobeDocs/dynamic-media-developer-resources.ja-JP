@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p><i>Viewer SDK User Guide</i> とオブジェクトのコンテンツに関する詳細情報の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p> ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーション </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは <i></i> ビューアのSDKユーザーガイド」と例を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

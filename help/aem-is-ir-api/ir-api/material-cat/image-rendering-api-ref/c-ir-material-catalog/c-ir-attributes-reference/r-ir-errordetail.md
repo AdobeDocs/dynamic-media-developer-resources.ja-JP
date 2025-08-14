@@ -35,7 +35,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完全なデバッグ情報 該当する場合、Java™ スタックトレースを追加します。 エラー画像にスタックトレースが含まれることはなく、代わりに$error.message</span> のレベル 2 情報 <span class="codeph"> 返します。 </p></td> 
+  <td class="stentry"> <p>完全なデバッグ情報 該当する場合、Java™ スタックトレースを追加します。 エラー画像にスタックトレースが含まれることはなく、代わりに$error.message<span class="codeph"> のレベル 2 情報 </span> 返します。 </p></td> 
  </tr> 
 </table>
 

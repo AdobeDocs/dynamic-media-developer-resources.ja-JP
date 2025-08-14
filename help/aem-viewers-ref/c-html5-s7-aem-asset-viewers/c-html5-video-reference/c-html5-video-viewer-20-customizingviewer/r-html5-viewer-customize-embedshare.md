@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -243,7 +243,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7closebutton
 ```
 
-**閉じるボタンの**&#x200B;の CSS プロパティ
+**閉じるボタンの**の CSS プロパティ
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -273,7 +273,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -330,7 +330,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**ダイアログボックスのフッター**&#x200B;の CSS プロパティ
+**ダイアログボックスのフッター**の CSS プロパティ
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +531,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**ダイアログボックスの表示エリアの CSS プロパティ &#x200B;**
+**ダイアログボックスの表示エリアの CSS プロパティ **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -595,7 +595,7 @@ background-color: #ffffff;
 
 このクラスは、フォームユーザーインターフェイスの様々な場所でテキストに適用できるので、ラベルのサイズや位置の制御には適していません。
 
-**ダイアログボックスのラベルの CSS プロパティ。 &#x200B;**
+**ダイアログボックスのラベルの CSS プロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->コンボボックスでは、`true` および `false` の可能な値を持つ `expanded` 属性セレクターがサポートされています。 `true` の値は、コンボボックスに事前定義済みの埋め込みサイズのいずれかが表示される場合に使用されるので、使用可能なすべての幅を取る必要があります。 `false` の値は、コンボボックスで「カスタムサイズ」オプションが選択されている場合に使用されます。そのため、カスタムの幅および高さの入力フィールドを配置できるように、値を縮小する必要があります。
+>コンボボックスでは、`expanded` および `true` の可能な値を持つ `false` 属性セレクターがサポートされています。 `true` の値は、コンボボックスに事前定義済みの埋め込みサイズのいずれかが表示される場合に使用されるので、使用可能なすべての幅を取る必要があります。 `false` の値は、コンボボックスで「カスタムサイズ」オプションが選択されている場合に使用されます。そのため、カスタムの幅および高さの入力フィールドを配置できるように、値を縮小する必要があります。
 
 例 – 事前定義済みの項目を表示する場合に埋め込みサイズ コンボボックスの幅を 300 ピクセルに、カスタムサイズを表示する場合に幅を 110 ピクセルに設定する：
 
@@ -864,7 +864,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -968,7 +968,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1179,7 +1179,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->Thumb は、`up`、`down`、`over`、`disabled` などの異なるサムステートに異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>Thumb は、`state`、`up`、`down`、`over` などの異なるサムステートに異なるスキンを適用するために使用できる `disabled` 属性セレクターをサポートしています。
 
 例 – 28 x 45 ピクセルのスクロールバーの親指を設定し、上下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つ場合：
 
@@ -1234,7 +1234,7 @@ CSS の top、left、bottom、right プロパティを使用してスクロー�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ージ <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

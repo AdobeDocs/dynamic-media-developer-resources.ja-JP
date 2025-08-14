@@ -42,7 +42,7 @@ ht-degree: 0%
   <td class="stentry"> <p>返信画像にPhotoshop パスデータを埋め込みます。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> xmpEmbed</a> を <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> 用 </p></td> 
+  <td class="stentry"> <p> xmpEmbed<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> を </a> 用 </p></td> 
   <td class="stentry"> <p>返信画像にXMP メタデータを埋め込みます。 </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -26,12 +26,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> オプション </span>JSON 設定オブジェクト {Object}<span class="codeph">、すべてのビューア設定をコンストラクターに渡し、個々の setter メソッドを呼び出さないようにします。 次のプロパティが含まれます。 </p> <p> 
+   <td colname="col2"> <p> オプション <span class="codeph">JSON 設定オブジェクト {Object}</span>、すべてのビューア設定をコンストラクターに渡し、個々の setter メソッドを呼び出さないようにします。 次のプロパティが含まれます。 </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ビューア </span> 挿入する DOM コンテナの ID （通常は <span class="codeph"> DIV </span>）。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、init （） </span> が実行される場合 <span class="codeph"> コンテナが存在する必要があります。 必須。 </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} ビューア設定パラメーターを持つ JSON オブジェクトを </span> します。プロパティ名はビューア固有の設定オプションまたは SDK 修飾子であり、そのプロパティの値は対応する設定値です。 必須。 </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ビューア </span> 挿入する DOM コンテナの ID （通常は <span class="codeph"> DIV </span>）。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、init （） <span class="codeph"> が実行される場合 </span> コンテナが存在する必要があります。 必須。 </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} ビューア設定パラメーターを持つ JSON オブジェクトを </span> します。プロパティ名はビューア固有の設定オプションまたはSDK修飾子で、そのプロパティの値は対応する settings 値です。 必須。 </li> 
       <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> handlers </span> - <span class="codeph"> {Object} ビューアイベントコールバックを持つ JSON オブジェクトを </span> します。プロパティ名はサポートされているビューアイベントの名前で、プロパティ値は適切なコールバックへのJavaScript関数参照です。 オプション。 <p>ビューアイベントについて詳しくは、<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> Event callbacks </a> を参照してください。 </p> </li> 
-      <li id="li_D344288C9B584E569F7BF92D960F9DF8"> <p> <span class="codeph"> localizedTexts </span> - ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 オプション。 </p> <p>詳しくは、<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK 名前空間 </a> を参照してください。 </p> <p><i>Viewer SDK User Guide</i> とオブジェクトのコンテンツに関する詳細情報の例を参照してください。 オプション。 </p> </li> 
+      <li id="li_D344288C9B584E569F7BF92D960F9DF8"> <p> <span class="codeph"> localizedTexts </span> - ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 オプション。 </p> <p>詳しくは、<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> ビューアのSDK名前空間 </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは <i></i> ビューアのSDKユーザーガイド」と例を参照してください。 オプション。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

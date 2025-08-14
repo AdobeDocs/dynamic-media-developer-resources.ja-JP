@@ -37,7 +37,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：AnimatedGifInfo</span> </td> 
-   <td colname="col3"> アニメーション GIF ファイルに関する詳細。 </td> 
+   <td colname="col3"> アニメーション化されたGIF ファイルに関する詳細。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
@@ -177,7 +177,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> の種類：PdfSettingsInfo</span> </td> 
-   <td colname="col3"> PDF設定アセットのプロパティ </td> 
+   <td colname="col3"> PDF設定アセットのプロパティ。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
@@ -232,7 +232,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：SvgInfo</span> </td> 
-   <td colname="col3"> SVGアセットのプロパティ。 </td> 
+   <td colname="col3"> SVG アセットのプロパティ。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 

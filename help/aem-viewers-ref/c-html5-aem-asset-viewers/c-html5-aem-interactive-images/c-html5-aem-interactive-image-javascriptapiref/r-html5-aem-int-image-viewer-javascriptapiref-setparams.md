@@ -30,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> {string}</span> name=value パラメーターのペアを <span class="codeph"> &amp;</span> で区切って <span class="codeph"> 定します。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">{string} name=value パラメーターのペアを </span> &amp;<span class="codeph"> で区切って </span> 定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

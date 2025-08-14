@@ -22,7 +22,7 @@ CDN 無効化リクエストで指定された URL の 1 つに応答する詳�
 
 ## パラメーター {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| **&#x200B; Name** | **&#x200B; Type** | **&#x200B; Description** |
+| ** Name** | ** Type** | ** Description** |
 |---|---|---|
 | コード | `xsd:int` | CDN から提供されたエラーコード |
 | 理由 | `xsd:string` | CDN から提供されたエラーメッセージ |

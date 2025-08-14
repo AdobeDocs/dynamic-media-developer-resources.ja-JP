@@ -30,7 +30,7 @@ ht-degree: 0%
   <td class="stentry"> <p>赤、緑、青を個別に調整します。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> op_colorize</a> を <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> します </p></td> 
+  <td class="stentry"> <p> op_colorize<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> を </a> します </p></td> 
   <td class="stentry"> <p>画層データを色付けします。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,7 +78,7 @@ ht-degree: 0%
   <td class="stentry"> <p>レイヤーのクリップ形状を指定します。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> clipXPath</a> を <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> します </p></td> 
+  <td class="stentry"> <p> clipXPath<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> を </a> します </p></td> 
   <td class="stentry"> <p>レイヤーの反転したクリップシェイプを指定します。 </p></td> 
  </tr> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: ここでは、Dynamic Media画像レンダリングの HTTP プロトコルについて説明します。
+description: ここでは、Dynamic Media 画像レンダリングの HTTP プロトコルについて説明します。
 solution: Experience Manager
 title: HTTP プロトコルリファレンス
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # HTTP プロトコルリファレンス{#http-protocol-reference}
 
-ここでは、Dynamic Media画像レンダリングの HTTP プロトコルについて説明します。
+ここでは、Dynamic Media 画像レンダリングの HTTP プロトコルについて説明します。

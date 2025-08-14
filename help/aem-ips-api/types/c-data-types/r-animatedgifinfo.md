@@ -1,6 +1,6 @@
 ---
 title: AnimatedGifInfo
-description: アニメーションGIFファイルアセットのプロパティ。
+description: アニメーション化されたGIF ファイルアセットのプロパティ。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-アニメーションGIFファイルアセットのプロパティ。
+アニメーション化されたGIF ファイルアセットのプロパティ。
 
 構文
 
@@ -32,7 +32,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>GIFファイルへのパス。 </p> </td> 
+   <td colname="col3"> <p>GIF ファイルへのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 

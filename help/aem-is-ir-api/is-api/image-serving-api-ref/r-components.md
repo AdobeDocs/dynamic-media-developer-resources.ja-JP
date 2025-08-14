@@ -1,6 +1,6 @@
 ---
 title: 画像サービングコンポーネント
-description: Dynamic Media画像サービングは、次のコンポーネントで構成されています。
+description: Dynamic Media 画像サービングは、次のコンポーネントで構成されています。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 画像サービングコンポーネント{#image-serving-components}
 
-Dynamic Media画像サービングは、次のコンポーネントで構成されています。
+Dynamic Media 画像サービングは、次のコンポーネントで構成されています。
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -38,7 +38,7 @@ Dynamic Media画像サービングは、次のコンポーネントで構成さ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
-   <td colname="col2"> <p>J2EE アプリケーション。 クライアント接続、ログ、他のコンポーネントとの通信を管理します。 /is/image</span><span class="filepath">HTTP アクセス。 </p> </td> 
+   <td colname="col2"> <p>J2EE アプリケーション。 クライアント接続、ログ、他のコンポーネントとの通信を管理します。 /is/image<span class="filepath"></span>HTTP アクセス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キャッシュサービス </p> </td> 
@@ -50,15 +50,15 @@ Dynamic Media画像サービングは、次のコンポーネントで構成さ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>テキストレンダリングコンポーネントの作成 </p> </td> 
-   <td colname="col2"> <p>textPs=</span> 操作が実行されると、テキストレンダリングサービスの 1 つ以上のインスタンスがアクティブ <span class="codeph"> なる場合があります。 </p> </td> 
+   <td colname="col2"> <p>textPs=<span class="codeph"> 操作が実行されると、テキストレンダリングサービスの 1 つ以上のインスタンスがアクティブ </span> なる場合があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVGレンダリングコンポーネント </p> </td> 
+   <td colname="col1"> <p>SVG レンダリングコンポーネント </p> </td> 
    <td colname="col2"> <p>スタンドアロン Java™ アプリケーション（Tomcat はホストしていません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media画像レンダリング（別名： レンダリングサーバー） </p> </td> 
-   <td colname="col2"> <p>ライセンス認証には別のライセンスが必要です。 /ir/render</span> で <span class="filepath">HTTP アクセス。 すべての画像レンダリング機能は、[!DNL Platform Server] と Image Server に統合されており、別個の実行可能コンポーネントはありません。 </p> </td> 
+   <td colname="col1"> <p>Dynamic Media 画像レンダリング（別名： レンダリングサーバー） </p> </td> 
+   <td colname="col2"> <p>ライセンス認証には別のライセンスが必要です。 /ir/render<span class="filepath"> で </span>HTTP アクセス。 すべての画像レンダリング機能は、[!DNL Platform Server] と Image Server に統合されており、別個の実行可能コンポーネントはありません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

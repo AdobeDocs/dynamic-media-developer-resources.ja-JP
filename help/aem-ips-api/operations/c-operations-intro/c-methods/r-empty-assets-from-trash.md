@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '252'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Assetsは、手動で空になるまで、またはゴミ箱から出るまで�
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | xsd:string | はい | アセットを所有する会社へのハンドル。 |
-| assetHandleArray | 型：HandleArray | はい | ごみ箱から空にする項目を表すハンドルの配列。 |
+| assetHandleArray | タイプ :HandleArray | はい | ごみ箱から空にする項目を表すハンドルの配列。 |
 
 **出力（emptyAssetsFromTrashParam）**
 
@@ -43,8 +43,8 @@ Assetsは、手動で空になるまで、またはゴミ箱から出るまで�
 | successCount | xsd:Int | はい | アセット数がごみ箱から正常に空になりました。 |
 | warningCount | xsd:Int | はい | 操作がごみ箱からアセットを空にしようとしたときに生成された警告の数。 |
 | errorCount | xsd:Int | はい | 操作がごみ箱からアセットを空にしようとしたときに生成されたエラーの数。 |
-| warningDetailArray | タイプ：AssetOperationFaultArray | いいえ | 操作がごみ箱からアセットを空にしようとした際に警告を生成した、アセットに関連付けられている詳細の配列。 |
-| errorDetailArray | タイプ：AssetOperationFaultArray | いいえ | 操作がごみ箱から空にしようとした際にエラーが発生したアセットに関連付けられている詳細の配列。 |
+| warningDetailArray | タイプ :AssetOperationFaultArray | いいえ | 操作がごみ箱からアセットを空にしようとした際に警告を生成した、アセットに関連付けられている詳細の配列。 |
+| errorDetailArray | タイプ :AssetOperationFaultArray | いいえ | 操作がごみ箱から空にしようとした際にエラーが発生したアセットに関連付けられている詳細の配列。 |
 
 ## 例 {#section-6154a873b6c342bf92e2036280cafdcf}
 

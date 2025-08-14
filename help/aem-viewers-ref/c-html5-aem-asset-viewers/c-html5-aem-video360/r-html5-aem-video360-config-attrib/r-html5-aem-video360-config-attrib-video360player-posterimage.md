@@ -27,7 +27,7 @@ Video360 ビューアの設定属性
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph">?</span> as <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> この修飾子は、Dynamic MediaのDynamic Media ClassicまたはAdobe Experience Managerでホストされるビデオコンテンツに対して機能します。 </p> <p>デフォルトのポスター画像が表示されないようにするには、「なし」 <span class="codeph"> ポスター画像値 </span> して指定します。 </p> </td> 
+     </ul> </p> <p> この修飾子は、Dynamic Media ClassicまたはAdobe Experience Manager（Dynamic Media）でホストされるビデオコンテンツに対して機能します。 </p> <p>デフォルトのポスター画像が表示されないようにするには、「なし」 <span class="codeph"> ポスター画像値 </span> して指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

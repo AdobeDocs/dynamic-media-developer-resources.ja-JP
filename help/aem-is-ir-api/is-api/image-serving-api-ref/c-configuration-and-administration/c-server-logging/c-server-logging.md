@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [!DNL Platform Server] と Image Server は、以下に説明する 3 種類のログファイルを作成します。
 
-他の画像サービングコンポーネントや、Dynamic Media ビューアなどの他の特定のDynamic Media パッケージでも、同じフォルダーにログファイルを作成する場合があります。 これらのログファイルはDynamic Mediaの内部使用のためのものであり、トラブルシューティング目的でDynamic Media テクニカルサポートからリクエストされる場合があります。
+他の画像サービングコンポーネントや、Dynamic Media ビューアなどの他の特定の Dynamic Media パッケージでも、同じフォルダーにログファイルを作成する場合があります。 これらのログファイルは Dynamic Media の内部使用のためのものであり、トラブルシューティング目的で Dynamic Media テクニカルサポートから要求される場合があります。
 
 * [アクセスログ](c-access-log.md)
 * [トレース ログ](c-trace-log.md)

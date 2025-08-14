@@ -1,7 +1,7 @@
 ---
 description: PDFOptions/type で使用されます。
 solution: Experience Manager
-title: PDFプロセス
+title: PDF プロセス
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# PDFプロセス{#pdf-processes}
+# PDF プロセス{#pdf-processes}
 
 PDFOptions/type で使用されます。
 

@@ -1,5 +1,5 @@
 ---
-description: 裁ち落とし余白を設定します。 PDFファイルに設定されている裁ち落とし余白を設定します。
+description: 裁ち落とし余白を設定します。 PDF ファイルで設定された裁ち落とし余白を設定します。
 solution: Experience Manager
 title: 裁ち余白
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 裁ち余白{#bleedmargin}
 
-裁ち落とし余白を設定します。 PDFファイルに設定されている裁ち落とし余白を設定します。
+裁ち落とし余白を設定します。 PDF ファイルで設定された裁ち落とし余白を設定します。
 
 ポイント `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]`
 

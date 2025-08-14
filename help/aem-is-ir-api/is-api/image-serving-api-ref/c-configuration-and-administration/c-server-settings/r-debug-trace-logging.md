@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## SV::log - サーバースーパーバイザートレース ログ ファイルのパス {#section-3697bc480ff646e79cacc2812c55ef26}
 
-サーバースーパーバイザーログファイルのフォルダーとベースファイル名。 パスは絶対パスでも、*[!DNL install_folder]* からの相対パスでも構いません。 サーバースーパーバイザーは、ファイル名にハイフンと現在の日付（*[!DNL -yyyy-mm-dd]*）を（存在する場合はファイルサフィックスの前に）追加します。 Adobeでは、[!DNL Platform Server] （`PS::LogDays`）で実装されているログファイル管理を使用するために、すべてのログファイルを [!DNL Platform Server] ログファイル（`PS::LogFolder`）と同じフォルダーに送信することをお勧めします。 デフォルトは [!DNL logs/Supervisor.log] です。
+サーバースーパーバイザーログファイルのフォルダーとベースファイル名。 パスは絶対パスでも、*[!DNL install_folder]* からの相対パスでも構いません。 サーバースーパーバイザーは、ファイル名にハイフンと現在の日付（*[!DNL -yyyy-mm-dd]*）を（存在する場合はファイルサフィックスの前に）追加します。 Adobeでは、[!DNL Platform Server] （`PS::LogFolder`）で実装されているログファイル管理を使用するために、すべてのログファイルを [!DNL Platform Server] ログファイル（`PS::LogDays`）と同じフォルダーに送信することをお勧めします。 デフォルトは [!DNL logs/Supervisor.log] です。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## IS::Log - Image Server デバッグ ログ ファイルのパス {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Image Server のトレースログファイルのフォルダーとベースファイル名。 パスは絶対パスでも、*[!DNL install_folder]* からの相対パスでも構いません。 ImageServer は、ファイル名（存在する場合はファイルサフィックスの前）にハイフンと現在の日付（*[!DNL -yyyy-mm-dd]*）を追加します。 Adobeでは、[!DNL Platform Server] が実装したログファイル管理を使用するために、Image Server ログファイルを [!DNL Platform Server] ログファイル（`PS::LogFolder`）と同じフォルダーに送信することをお勧めします（`PS::LogDays` を参照）。
+Image Server のトレースログファイルのフォルダーとベースファイル名。 パスは絶対パスでも、*[!DNL install_folder]* からの相対パスでも構いません。 ImageServer は、ファイル名（存在する場合はファイルサフィックスの前）にハイフンと現在の日付（*[!DNL -yyyy-mm-dd]*）を追加します。 Adobeでは、[!DNL Platform Server] で実装されているログファイル管理を使用するために、Image Server ログファイルを `PS::LogFolder` ログファイル（[!DNL Platform Server]）と同じフォルダーに送信することをお勧めします（`PS::LogDays` を参照）。
 
 >[!NOTE]
 >

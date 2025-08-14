@@ -1,5 +1,5 @@
 ---
-description: ここでは、Dynamic Media画像サービングの HTTP プロトコルについて説明します。
+description: このドキュメントでは、Dynamic Media 画像サービングの HTTP プロトコルについて説明します。
 solution: Experience Manager
 title: HTTP プロトコルリファレンス
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # HTTP プロトコルリファレンス{#http-protocol-reference}
 
-ここでは、Dynamic Media画像サービングの HTTP プロトコルについて説明します。
+このドキュメントでは、Dynamic Media 画像サービングの HTTP プロトコルについて説明します。
 
 * [はじめに](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
 * [構文と機能](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)

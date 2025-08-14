@@ -41,11 +41,11 @@ ht-degree: 2%
 
 `http:// *` サーバー `*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-ビューのサイズを設定するには、`wid=` と `hei=` を使用するのではなく、`size=` をレイヤ 0 に適用します。 この方法を使用すると、`labelImage` の最終的なサイズを変更せずに `myImageId` のサイズを変更できます。 また、`scl=1` を指定します。指定しない場合は、合成イメージのサイズが `attribute::DefaultPix` に変更されます（0,0 に設定されている場合を除く）。 修飾子 `color=` は、回転前にテキストボックスに半不透明の背景色を追加します。
+ビューのサイズを設定するには、`size=` と `wid=` を使用するのではなく、`hei=` をレイヤ 0 に適用します。 この方法を使用すると、`myImageId` の最終的なサイズを変更せずに `labelImage` のサイズを変更できます。 また、`scl=1` を指定します。指定しない場合は、合成イメージのサイズが `attribute::DefaultPix` に変更されます（0,0 に設定されている場合を除く）。 修飾子 `color=` は、回転前にテキストボックスに半不透明の背景色を追加します。
 
 両方のレイヤーの原点は、目的の配置を達成するために左上隅に設定されます。 レイヤ 1 の原点は `labelImage` 回転した後に適用されます。
 
-回転したテキストの例については、[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の [ 例 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) を参照してください。
+回転したテキストの例については、[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) の [ 例 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) を参照してください。
 
 ## 関連項目 {#section-c371ee0845994b7382c02e782d1bc595}
 

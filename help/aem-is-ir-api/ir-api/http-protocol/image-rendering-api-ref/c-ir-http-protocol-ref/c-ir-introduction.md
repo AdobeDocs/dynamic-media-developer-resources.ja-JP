@@ -1,6 +1,6 @@
 ---
 title: はじめに
-description: ここでは、Dynamic Media画像レンダリングの HTTP プロトコルについて説明します。
+description: ここでは、Dynamic Media 画像レンダリングの HTTP プロトコルについて説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # はじめに{#introduction}
 
-ここでは、Dynamic Media画像レンダリングの HTTP プロトコルについて説明します。
+ここでは、Dynamic Media 画像レンダリングの HTTP プロトコルについて説明します。
 
-公開されているプロトコルの側面のみが記載されています。 このサーバは、Dynamic Media クライアントソフトウェアで使用するために予約されている追加のコマンドをサポートする場合があります。
+公開されているプロトコルの側面のみが記載されています。 サーバーは、Dynamic Media クライアントソフトウェアで使用するために予約されている追加のコマンドをサポートする場合があります。
 
 **対象オーディエンス**
 
-このドキュメントは、Web サイトまたはカスタムアプリケーションにDynamic Media画像レンダリングを使用する、経験豊富なプログラマーおよび Web サイト開発者を対象としています。
+このドキュメントは、Web サイトまたはカスタムアプリケーションに Dynamic Media 画像レンダリングを使用する、経験豊富なプログラマーおよび Web サイト開発者を対象としています。
 
-Dynamic Mediaの画像オーサリングと画像レンダリング、一般的な HTTP プロトコルの標準と規則、基本的な画像用語について、読者が熟知していることを前提としています。
+Dynamic Media の画像オーサリングと画像レンダリング、一般的な HTTP プロトコルの標準と規則、基本的な画像用語について、読者が熟知していることを前提としています。
 
 **ドキュメント規則**
 
@@ -95,6 +95,6 @@ Dynamic Mediaの画像オーサリングと画像レンダリング、一般的�
 
 **一般用語**
 
-**&#x200B; *`MSS`* &#x200B;** Material Specification Segment：要求内の 2 つの選択コマンド間の材料属性のセット。
+** *`MSS`* ** Material Specification Segment：要求内の 2 つの選択コマンド間の材料属性のセット。
 
-**&#x200B; *`vignette`* &#x200B;** Dynamic Media画像オーサリングで画像レンダリングと共に使用するために作成された画像。
+** *`vignette`* ** Dynamic Media 画像オーサリングで画像レンダリングと共に使用するために準備された画像。

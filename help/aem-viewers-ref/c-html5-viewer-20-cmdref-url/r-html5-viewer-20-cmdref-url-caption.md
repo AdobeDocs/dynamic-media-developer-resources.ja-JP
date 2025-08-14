@@ -51,7 +51,7 @@ ht-degree: 2%
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>テストの整合性 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
-   <td colname="col4"> <p> テキストの配置を制御します。 </p> <p>デフォルトは中 </span> で <span class="codeph">。 </p> </td> 
+   <td colname="col4"> <p> テキストの配置を制御します。 </p> <p>デフォルトは中 <span class="codeph"> で </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 

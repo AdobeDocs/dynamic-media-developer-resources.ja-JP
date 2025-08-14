@@ -16,7 +16,7 @@ ht-degree: 0%
 
 スマート切り抜きビデオビューアに表示される特定のコンテンツは、ローカライゼーションの影響を受けます。 このコンテンツには、ユーザーインターフェイス要素のツールヒントと、ビデオを再生できない場合に表示されるエラーメッセージが含まれています。
 
-ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別な Viewer SDK 識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別なビューアSDK識別子で表されます。 すべての SYMBOL には、デフォルトのビューアに付属する英語ロケール（`"en"`）のテキスト値が関連付けられています。 また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
 ビューアは起動時、現在のロケールを調べて、そのロケールでサポートされている各 SYMBOL にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
 
@@ -181,7 +181,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>メールが正常に送信されなかった場合に表示されるエラーメッセージ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.TOOLTIP </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.TOOLTIP <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「埋め込み共有」ボタンのツールヒント </p> </td> 
   </tr> 
   <tr> 
@@ -209,7 +209,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「キャンセル」ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.ACTION </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.ACTION <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「すべてを選択」ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
@@ -217,7 +217,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「すべてを選択」ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.CUSTOM_SIZE </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.CUSTOM_SIZE <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>埋め込みサイズ コンボボックスの最後の「カスタムサイズ」エントリのテキスト。 </p> </td> 
   </tr> 
   <tr> 
@@ -249,16 +249,16 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「すべてを選択」ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> LinkShare.TOOLTIP アクション </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> LinkShare.TOOLTIP アクション <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「すべてを選択」ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>「Facebook共有」ボタンのツールヒント </p> </td> 
+   <td colname="col2"> <p>Facebook 共有ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> TwitterShare.TOOLTIP </span> を <span class="codeph"> きます </p> </td> 
-   <td colname="col2"> <p>「Twitter共有」ボタンのツールヒント </p> </td> 
+   <td colname="col1"> <p> TwitterShare.TOOLTIP <span class="codeph"> を </span> きます </p> </td> 
+   <td colname="col2"> <p>「Twitter 共有」ボタンのツールヒント。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 

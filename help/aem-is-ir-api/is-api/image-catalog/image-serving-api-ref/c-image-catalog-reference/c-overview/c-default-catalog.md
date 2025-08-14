@@ -24,4 +24,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL default.ini] を除くすべてのカタログ属性ファイルには、一意の `attribute::RootId` 値を含める必要があります。 [!DNL default.ini] の `attribute::RootId` は空である必要があります。
+>[!DNL default.ini] を除くすべてのカタログ属性ファイルには、一意の `attribute::RootId` 値を含める必要があります。 `attribute::RootId` の [!DNL default.ini] は空である必要があります。

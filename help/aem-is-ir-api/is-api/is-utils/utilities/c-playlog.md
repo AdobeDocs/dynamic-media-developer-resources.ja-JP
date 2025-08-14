@@ -51,11 +51,11 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>詳細モードで、生成されたリクエスト URL を stdout </span> に出力 <span class="codeph"> ます。 </p> </td> 
+  <td class="stentry"> <p>詳細モードで、生成されたリクエスト URL を stdout <span class="codeph"> に出力 </span> ます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
-  <td class="stentry"> <p>stdout </span> に書式 <span class="codeph"> 出力します。 </p> </td> 
+  <td class="stentry"> <p>stdout <span class="codeph"> に書式 </span> 出力します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 

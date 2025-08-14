@@ -6,7 +6,7 @@ user-guide-description: IPS （Image Production System） web サービス API �
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -419,16 +419,16 @@ ht-degree: 3%
    + [ジョブタイプ](string-constants/c-string-constants/r-job-types.md)
    + [メタデータフィールドタイプ](string-constants/c-string-constants/r-metadata-field-types.md)
    + [数値/日付比較演算子](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [PDFプロセス](string-constants/c-string-constants/r-pdf-processes.md)
+   + [PDF プロセス](string-constants/c-string-constants/r-pdf-processes.md)
    + [権限タイプ](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop アンカーモード](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Photoshop レイヤーの命名モード](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript カラースペースモード](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [プロファイルクラス](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish州](string-constants/c-string-constants/r-publish-state.md)
+   + [公開状態](string-constants/c-string-constants/r-publish-state.md)
    + [プロパティ セット タイプ](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish コンテキスト](string-constants/c-string-constants/r-publish-context.md)
-   + [Publishタイプ](string-constants/c-string-constants/r-publish-types.md)
+   + [公開コンテキスト](string-constants/c-string-constants/r-publish-context.md)
+   + [公開タイプ](string-constants/c-string-constants/r-publish-types.md)
    + [領域形状](string-constants/c-string-constants/r-region-shape.md)
    + [検索一致モード](string-constants/c-string-constants/r-search-match-modes.md)
    + [並べ替え方向](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,7 +438,7 @@ ht-degree: 3%
    + [ユーザーの役割](string-constants/c-string-constants/r-user-roles.md)
    + [ユーザー並べ替えフィールド](string-constants/c-string-constants/r-user-sort-fields.md)
    + [ビューアのタイプ](string-constants/c-string-constants/r-viewer-type.md)
-+ 障害 {#faults}
++ フォールト {#faults}
    + [フォールトの概要](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)

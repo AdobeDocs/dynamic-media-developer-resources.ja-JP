@@ -1,5 +1,5 @@
 ---
-description: Dynamic Media開発者のみが使用します。
+description: Dynamic Media 開発者のみが使用します。
 solution: Experience Manager
 title: ConfigSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL ConfigSetting]{#configsetting}
 
-Dynamic Media開発者のみが使用します。
+Dynamic Media 開発者のみが使用します。
 
 構文
 

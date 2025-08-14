@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## Onmatch 属性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-デフォルトの動作は `<rule>` 要素の `OnMatch` 属性で変更できます。 `OnMatch` は、`break` （デフォルト）、`continue`、`error` のいずれかに設定できます。
+デフォルトの動作は `OnMatch` 要素の `<rule>` 属性で変更できます。 `OnMatch` は、`break` （デフォルト）、`continue`、`error` のいずれかに設定できます。
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 

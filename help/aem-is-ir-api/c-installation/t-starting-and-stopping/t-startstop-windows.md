@@ -19,4 +19,4 @@ Windows 上で Image Server および [!DNL Platform Server] を起動または�
 1. 画像サービングを開始または停止するには、次のいずれかを選択します。
 
 * Windows サービス Campaign コントロールパネルを使用すると、`Dynamic Media Image Serving` サービスの開始、停止、再起動、および状態の確認を行うことができます。
-* **[!UICONTROL スタート メニュー]**> **[!UICONTROL すべてのプログラム]**> **[!UICONTROL Dynamic Media（Scene7）]**> **[!UICONTROL 画像サービング]**> **[!UICONTROL コントロール サービス]** には、`Dynamic Media Image Serving` サービスの開始、停止、再開のコマンドが用意されています。
+* **[!UICONTROL スタートメニュー]**>**[!UICONTROL すべてのプログラム]**>**[!UICONTROL Dynamic Media （Scene7）]**>**[!UICONTROL 画像サービング]**>**[!UICONTROL コントロールサービス]** には、`Dynamic Media Image Serving` サービスを開始、停止、再開するコマンドが用意されています。

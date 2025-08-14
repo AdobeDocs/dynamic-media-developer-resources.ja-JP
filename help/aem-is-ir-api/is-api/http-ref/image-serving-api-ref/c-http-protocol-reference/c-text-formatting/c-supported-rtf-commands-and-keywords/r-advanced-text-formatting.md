@@ -68,7 +68,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>縦書き文字の拡大/縮小。 </p> </td> 
-   <td> <p>正または負の割合。デフォルトは 100、Dynamic Media拡張機能。 </p> <p> <span class="codeph"> \charscaley </span> は、<span class="codeph"> text= </span> を適用した場合に行間隔も拡大/縮小します。 textPs= </span><span class="codeph">、縦書きの文字の拡大/縮小の量に関係なく、行間隔を常に保持します。 </p> </td> 
+   <td> <p>正または負の割合。デフォルトは 100。Dynamic Media 拡張機能。 </p> <p> <span class="codeph"> \charscaley </span> は、<span class="codeph"> text= </span> を適用した場合に行間隔も拡大/縮小します。 textPs= <span class="codeph"></span>、縦書きの文字の拡大/縮小の量に関係なく、行間隔を常に保持します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -83,22 +83,22 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>コピー調整を有効にし、許容される最大フォントサイズを設定します。 </p> </td> 
-   <td> <p>Font size in half-points; <span class="codeph"> textPs= </span> only; Dynamic Media extension. </p> </td> 
+   <td> <p>ハーフポイント単位のフォントサイズ。<span class="codeph"> textPs= </span> のみ。Dynamic Media 拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>最大コピーフィット線（ソフト制限）。 </p> </td> 
-   <td> <p>行の制限なし：0 で <span class="codeph">。textPs= </span> のみ。Dynamic Media拡張機能。 </p> </td> 
+   <td> <p>行の制限なし：0、<span class="codeph"> textPs= </span> のみ、Dynamic Media 拡張機能。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>最大コピーフィット線（切り捨て）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。Dynamic Media拡張機能。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ。Dynamic Media 拡張機能です。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 
    <td> <p>文字の方向。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> のみ。欧文以外のフォントでは無視されます。\stextflow1 </span> が有効でない場合 <span class="codeph"> 無視されます。 </p> <p>垂直方向に 0 を指定します（既定値）。 </p> <p>1 を時計回りに 90 度回転します。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> のみ。欧文以外のフォントでは無視されます。\stextflow1 <span class="codeph"> が有効でない場合 </span> 無視されます。 </p> <p>垂直方向に 0 を指定します（既定値）。 </p> <p>1 を時計回りに 90 度回転します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

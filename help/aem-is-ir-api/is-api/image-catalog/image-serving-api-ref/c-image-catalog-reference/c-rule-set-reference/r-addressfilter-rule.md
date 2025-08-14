@@ -32,7 +32,7 @@ IP アドレスのコンマ区切りリスト。 個々のアドレスには、I
 
 `<addressfilter>` が空であるか、指定されていない場合、アクセスは制限されません。
 
-`<rule>` 要素の `<expression>` が存在しないか空の場合、`<addressfilter>` はすべてのリクエストに適用されます。
+`<expression>` 要素の `<rule>` が存在しないか空の場合、`<addressfilter>` はすべてのリクエストに適用されます。
 
 ## 関連項目 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

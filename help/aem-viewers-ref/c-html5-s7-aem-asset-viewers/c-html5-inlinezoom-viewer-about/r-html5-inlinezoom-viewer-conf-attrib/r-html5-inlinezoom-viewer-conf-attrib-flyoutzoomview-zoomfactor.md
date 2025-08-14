@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> フライアウト ビューのイメージの倍率を、メイン ビューを基準にして指定します。 1.0</span> 以上の整数値または浮動小数点値 <span class="codeph"> ある必要があります。 </p> </td> 
+   <td colname="col2"> <p> フライアウト ビューのイメージの倍率を、メイン ビューを基準にして指定します。 1.0<span class="codeph"> 以上の整数値または浮動小数点値 </span> ある必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: 指定された URL のリストをDynamic Media CDN （コンテンツ配布ネットワーク）プロバイダーに転送して、HTTP 応答の既存のキャッシュを無効にします。
+description: 指定された URL リストを Dynamic Media CDN （コンテンツ配布ネットワーク）プロバイダーに転送して、HTTP 応答の既存のキャッシュを無効にします。
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-指定された URL のリストをDynamic Media CDN （コンテンツ配布ネットワーク）プロバイダーに転送して、HTTP 応答の既存のキャッシュを無効にします。
+指定された URL リストを Dynamic Media CDN （コンテンツ配布ネットワーク）プロバイダーに転送して、HTTP 応答の既存のキャッシュを無効にします。
 
 ## cdnCacheInvalidation：概要 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-CDN キャッシュの無効化は、これらの URL のすべての HTTP リクエストを、この無効化リクエストが CDN ネットワークを介して処理された後、Dynamic Media ネットワーク上の現在の公開済みデータに対して強制的に再検証します。 Dynamic Media サービスの URL 構造に接続されておらず、会社の作成時に割り当てられたDynamic Mediaの会社ルート ID と直接一致する URL があると、リクエスト全体で API エラーが発生します。 CDN でサポートされていない無効な URL が無効と見なされた場合も、リクエスト全体で API エラーが発生します。
+CDN キャッシュの無効化は、これらの URL のすべての HTTP リクエストを、この無効化リクエストが CDN ネットワークを介して処理された後、Dynamic Media ネットワーク上の現在の公開済みデータに対して強制的に再検証します。 Dynamic Media サービスの URL 構造に接続されておらず、会社の作成時に割り当てられた Dynamic Media の会社ルート ID と直接一致する URL は、リクエスト全体で API エラーになります。 CDN でサポートされていない無効な URL が無効と見なされた場合も、リクエスト全体で API エラーが発生します。
 
 **使用頻度：ルール**
 
-この機能の使用頻度を制御するルールは、Dynamic Mediaの CDN パートナーによって制御されます。 CDN には、ユーザーに対するサービスの最適なパフォーマンスを維持するために、これらの無効化の応答性を低下させる裁量が保持されます。 この機能の過剰使用をDynamic Mediaに通知された場合、Adobeは、会社ごとに、またはサービス全体で機能を無効にする必要があります。
+この機能の使用頻度を制御するルールは、Dynamic Media の CDN パートナーによって制御されます。 CDN には、ユーザーに対するサービスの最適なパフォーマンスを維持するために、これらの無効化の応答性を低下させる裁量が保持されます。 この機能の過剰使用の通知を Dynamic Media に受け取った場合、Adobeは、会社単位またはサービス全体でこの機能を無効にする必要があります。
 
 **確認メール**
 
-Dynamic Media CDN パートナーからの確認メールは、リストの作成者に、または最大 5 つの他のメールアドレスに送信できます。 メールで参照されている URL がクリアされたことを CDN ネットワーク全体に通知すると、API は確認を送信します。 提供される URL の数が、1 回の通知でDynamic Mediaが CDN パートナーに配信できる数を超える場合、`cdnCacheInvalidation` への 1 回の呼び出しで複数のメールを送信できます。 現在のところ、リクエストが 100 個の URL を超える場合ですが、CDN パートナーのリクエストに基づいて変更される可能性があります。
+Dynamic Media CDN パートナーからの確認メールは、リストの作成者または最大 5 つの他のメールアドレスに送信できます。 メールで参照されている URL がクリアされたことを CDN ネットワーク全体に通知すると、API は確認を送信します。 提供される URL の数が、1 回の通知で Dynamic Media が CDN パートナーに配信できる数を超える場合、`cdnCacheInvalidation` への 1 回の呼び出しで複数のメールを送信できます。 現在のところ、リクエストが 100 個の URL を超える場合ですが、CDN パートナーのリクエストに基づいて変更される可能性があります。
 
 **サポート開始済み**
 
@@ -61,7 +61,7 @@ Dynamic Media CDN パートナーからの確認メールは、リストの作�
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> のタイプ：UrlArray</span> </p> </td> 
    <td> <p> はい </p> </td> 
-   <td> <p> CDN キャッシュから無効にする最大 1,000 個の URL のリスト。 すべての URL が、無効にするDynamic Mediaの会社ルート ID を含んでいる必要があります。 </p> </td> 
+   <td> <p> CDN キャッシュから無効にする最大 1,000 個の URL のリスト。 すべての URL が、無効にする Dynamic Media の会社ルート ID を含んでいる必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: TrustedDomains
-description: Flashアプリケーションの web ドメイン。 AdobeFlashでは、swf フォーマットで配信された画像のプロパティにアクセスする必要がある場合があります。 swf は、信頼するアプリケーションドメインの名前を登録して、明示的にアクセスを許可する必要があります。
+description: Flash アプリケーション web ドメイン。 Adobe Flash アプリケーションでは、swf 形式で配信された画像のプロパティにアクセスする必要がある場合があります。 swf は、信頼するアプリケーションドメインの名前を登録して、明示的にアクセスを許可する必要があります。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # TrustedDomains{#trusteddomains}
 
-Flashアプリケーションの web ドメイン。 AdobeFlashでは、swf フォーマットで配信された画像のプロパティにアクセスする必要がある場合があります。 swf は、信頼するアプリケーションドメインの名前を登録して、明示的にアクセスを許可する必要があります。
+Flash アプリケーション web ドメイン。 Adobe Flash アプリケーションでは、swf 形式で配信された画像のプロパティにアクセスする必要がある場合があります。 swf は、信頼するアプリケーションドメインの名前を登録して、明示的にアクセスを許可する必要があります。
 
 ## プロパティ {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

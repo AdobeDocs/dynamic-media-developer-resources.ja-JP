@@ -18,7 +18,7 @@ IPS Web サービスは、IPS Web サービスコンポーネントがインス�
 
 ## WSDL アクセス {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-Scene7 WSDL にアクセスします（下図を参照）。
+以下に示すように、Scene7 WSDL にアクセスします。
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Dynamic Media リージョンのアクセス URL**
+**Dynamic Media 地域のアクセス URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,7 +131,7 @@ IPS API web サービスは、SOAP バインディングのみをサポートし
 
 **サポートされるトランスポート**
 
-IPS API のSOAP バインディングは、HTTP トランスポートのみをサポートしています。 すべてのSOAP リクエストは HTTPS POST方式を使用して行います。
+IPS API SOAP バインディングは、HTTP トランスポートのみをサポートしています。 すべてのSOAP リクエストは HTTPS POST メソッドを使用して行います。
 
 **SOAP アクションヘッダー**
 
@@ -197,7 +197,7 @@ API リクエストで認証資格情報を渡すための推奨される方法�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 障害応答の HTTP ステータスコードを上書きするオプションのパラメーター。 デフォルトでは、障害応答は HTTP ステータスコード 500 （内部サーバーエラー）を返します。 AdobeFlashを含む一部のクライアントプラットフォームでは、ステータスコード 200 （OK）が返されない限り、応答本文を読み取ることができません。 </p> </td> 
+   <td colname="col2"> <p> 障害応答の HTTP ステータスコードを上書きするオプションのパラメーター。 デフォルトでは、障害応答は HTTP ステータスコード 500 （内部サーバーエラー）を返します。 Adobe Flash を含む一部のクライアントプラットフォームでは、ステータスコード 200 （OK）が返されない限り、応答本文を読み取ることができません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ API リクエストで認証資格情報を渡すための推奨される方法�
 
 何らかの理由でクライアントアプリケーションが `authHeader` SOAP ヘッダーを渡すことができない場合、API リクエストは、HTTP 基本認証（RFC 2617 で指定）を使用して資格情報を指定することもできます。
 
-HTTP 基本認証の場合、各SOAPPOSTリクエストの HTTP ヘッダーセクションには、次の形式のヘッダーを含める必要があります。
+HTTP 基本認証の場合、各SOAP POST リクエストの HTTP ヘッダーセクションには、
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
@@ -229,7 +229,7 @@ HTTP 基本認証の場合、各SOAPPOSTリクエストの HTTP ヘッダーセ�
 
 最初のリクエストで Authorization ヘッダーを事前に送信します。 認証資格情報がリクエストに含まれていない場合、`IpsApiService` はステータスコード `401 (Unauthorized)` で応答しません。 代わりに、`500 (Internal Server Error)` のステータスコードが、リクエストを認証できなかったことを示すSOAP フォールト本文と共に返されます。
 
-IPS 3.8 以前は、名前空間 `http://www.scene7.com/IpsApi` の `AuthUser` 要素と `AuthPassword` 要素を使用して、SOAP Header を介した認証が実装されていました。 以下に例を挙げます。
+IPS 3.8 以前は、名前空間 `AuthUser` の `AuthPassword` 要素と `http://www.scene7.com/IpsApi` 要素を使用して、SOAP Header を介した認証が実装されていました。 以下に例を挙げます。
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -244,7 +244,7 @@ IPS 3.8 以前は、名前空間 `http://www.scene7.com/IpsApi` の `AuthUser` �
 
 呼び出し元の資格情報が認証されると、リクエストがチェックされ、呼び出し元がリクエストされた操作を実行する権限を持っていることが確認されます。 認証は呼び出し元のユーザーの役割に基づいており、ターゲットの会社、ターゲットユーザー、その他の操作パラメーターの確認が必要になる場合もあります。 また、Image Portal ユーザーは、特定のフォルダーおよびアセット操作を実行するために必要な権限を持つグループに属している必要があります。 操作のリファレンスセクションでは、各操作の認証要件の詳細を説明します。
 
-**SOAP リクエストと応答のサンプル**
+**SOAPのリクエストと応答のサンプル**
 
 次の例は、HTTP ヘッダーを含む、完全な `addCompany` 操作を示しています。
 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP フォールト**
 
-オペレーションが例外条件に遭遇すると、通常のレスポンスの代わりにSOAPフォルトがSOAPメッセージの本文として返されます。 例えば、管理者以外のユーザーが前の `addCompany` リクエストを送信しようとすると、次の応答が返されます。
+オペレーションが例外条件に遭遇すると、通常のレスポンスの代わりにSOAPメッセージの本文としてSOAP障害が返される。 例えば、管理者以外のユーザーが前の `addCompany` リクエストを送信しようとすると、次の応答が返されます。
 
 ```
 HTTP/1.1 500 Internal Server Error 

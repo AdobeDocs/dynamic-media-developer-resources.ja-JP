@@ -18,11 +18,11 @@ ht-degree: 0%
 
 `getComponent(componentId)`
 
-ビューアが使用する Viewer SDK コンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは `initComplete` ビューアコールバックが実行された後にのみ呼び出します。それ以外の場合、コンポーネントはビューアロジックによってまだ作成されていない可能性があります。
+ビューアによって使用されるビューアSDKコンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは `initComplete` ビューアコールバックが実行された後にのみ呼び出します。それ以外の場合、コンポーネントはビューアロジックによってまだ作成されていない可能性があります。
 
 ## パラメーター {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - ビューアが使用する Viewer SDK コンポーネントの ID を `{String}` します。 このビューアは、次のコンポーネント ID をサポートしています。
+`*`componentID`*` - ビューアが使用するビューア SDK コンポーネントの ID を `{String}` します。 このビューアは、次のコンポーネント ID をサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -123,13 +123,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、「[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)」で説明されているように、正しい完全修飾された SDK 名前空間を使用することが重要です。
+SDK API を使用する場合は、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) に記載されているように、正しい完全修飾のSDK名前空間を使用することが重要です。
 
-特定のコンポーネントについて詳しくは、Viewer SDK API ドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 
 ## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Viewer SDK コンポーネントへのリファレンスです。 `componentId` がサポートされているビューアコンポーネントでない場合や、コンポーネントがまだビューアロジックで作成されていない場合、メソッドは `null` を返します。
+`{Object}` ビューアのSDK コンポーネントへの参照。 `null` がサポートされているビューアコンポーネントでない場合や、コンポーネントがまだビューアロジックで作成されていない場合、メソッドは `componentId` を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

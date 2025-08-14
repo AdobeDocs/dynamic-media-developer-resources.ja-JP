@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> 画像がリセット状態にあり </span> 画像とのやり取りに使用可能なアクションを示唆する場合に、<span class="codeph"> iconeffect を画像の上部に表示できるようにします。 </p> </td> 
+   <td colname="col2"> <p> 画像がリセット状態にあり <span class="codeph"> 画像とのやり取りに使用可能なアクションを示唆する場合に、</span> iconeffect を画像の上部に表示できるようにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数 </span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> iconeffect が自動的に非表示になるまでに完全に表示され続ける秒数を設定し </span> す。 つまり、フェードイン アニメーションが完了した後、フェードアウト アニメーションが開始するまでの時間です。 0</span><span class="codeph"> 設定すると、自動非表示動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> iconeffect が自動的に非表示になるまでに完全に表示され続ける秒数を設定し </span> す。 つまり、フェードイン アニメーションが完了した後、フェードアウト アニメーションが開始するまでの時間です。 0<span class="codeph"></span> 設定すると、自動非表示動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

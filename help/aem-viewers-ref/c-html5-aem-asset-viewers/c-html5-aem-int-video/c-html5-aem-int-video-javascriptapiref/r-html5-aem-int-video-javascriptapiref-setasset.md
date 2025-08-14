@@ -32,7 +32,7 @@ ht-degree: 1%
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
    <td colname="col2"> <p> { <span class="codeph"> JSON </span>} 次のオプションフィールドを含む JSON オブジェクト（大文字と小文字を区別）: </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
-      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage </span> - ビデオの再生が開始される前に、最初のフレームに表示する画像。 VideoPlayer.posterimage の </a> キュメント <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> 参照してください。 </li> 
+      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage </span> - ビデオの再生が開始される前に、最初のフレームに表示する画像。 VideoPlayer.posterimage の <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> キュメント </a> 参照してください。 </li> 
       <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> caption </span> – 新しいキャプションファイルの場所。 指定しない場合、「キャプション」ボタンはユーザーインターフェイスに表示されません。 </li> 
       <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> ナビゲーション </span> - WebVTT ナビゲーションコンテンツの URL またはパス。 WebVTT ファイルは、画像サービングで提供される必要があります。 </li> 
       <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData </span> - WebVTT インタラクティブデータコンテンツの URL またはパス。 WebVTT ファイルは、画像サービングで提供される必要があります。 </li> 

@@ -27,7 +27,7 @@ ht-degree: 0%
 * [画像カタログ](r-image-catalogs.md)
 * [オブジェクト ID 変換](r-object-id-translation.md)
 * [テキスト文字列のローカライズ](r-text-string-localization.md)
-* [SVGサポート](r-svg-support.md)
+* [SVG サポート](r-svg-support.md)
 * [リクエストの前処理](r-request-preprocessing.md)
 * [画像マップ](r-image-maps.md)
 * [画像サービングカラーマネジメント](r-color-management.md)

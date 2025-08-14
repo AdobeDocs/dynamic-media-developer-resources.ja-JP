@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この `<substitution>` 要素が属する `<rule>`,element に `replace="all"` が指定されている場合、入力文字列内のすべての一致が置換されます。 デフォルトでは、最初の一致のみが置換文字列に置き換えられます。
+>この `replace="all"` 要素が属する `<rule>`,element に `<substitution>` が指定されている場合、入力文字列内のすべての一致が置換されます。 デフォルトでは、最初の一致のみが置換文字列に置き換えられます。
 
 ## Note {#section-cedf2adabaaf441c9f598fb0ea180246}
 

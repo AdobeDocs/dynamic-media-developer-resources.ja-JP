@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|スライド|フェード </span> </span> </p> </td> 
-   <td colname="col2"> <p> フライアウト ビューを表示または非表示にするときに適用する効果のタイプを指定します。 <span class="codeph"> none </span> を指定すると、フライアウト画像はアクティブ化されて準備が整うと即座に表示されます。スライド </span> を指定す <span class="codeph"> と、スライドアニメーションが左から右の方向に再生されます。<span class="codeph"> fade </span> を指定すると、フライアウト画像にアルファ遷移が適用されます。 </p> </td> 
+   <td colname="col2"> <p> フライアウト ビューを表示または非表示にするときに適用する効果のタイプを指定します。 <span class="codeph"> none </span> を指定すると、フライアウト画像はアクティブ化されて準備が整うと即座に表示されます。スライド <span class="codeph"> を指定す </span> と、スライドアニメーションが左から右の方向に再生されます。<span class="codeph"> fade </span> を指定すると、フライアウト画像にアルファ遷移が適用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 

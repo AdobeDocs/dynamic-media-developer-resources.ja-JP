@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## プロパティ {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-は、リクエスト内のどこでも発生する可能性があります。 リクエストが返信画像を返さない場合は無視されます。 材料カタログによってクライアント側のキャッシュが無効になっている場合（`attribute::Expiration` の値が負の場合）、プロパティ *`clientControl`* は無視されます。 サーバーキャッシュが無効になっている場合（`PlatformServer::cache.enable`）、プロパティ *`serverControl`* は無視されます。
+は、リクエスト内のどこでも発生する可能性があります。 リクエストが返信画像を返さない場合は無視されます。 材料カタログによってクライアント側のキャッシュが無効になっている場合（*`clientControl`* の値が負の場合）、プロパティ `attribute::Expiration` は無視されます。 サーバーキャッシュが無効になっている場合（*`serverControl`*）、プロパティ `PlatformServer::cache.enable` は無視されます。
 
 ## 初期設定 {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 

@@ -94,15 +94,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::Expiration </span> </p> </td> 
-   <td colname="col2"> <p>このコンテンツ項目の TTL は、属性：:Expiration </span> が指定されていない場合 <span class="codeph">、または空の場合に使用されます。 </p> </td> 
+   <td colname="col2"> <p>このコンテンツ項目の TTL は、属性：:Expiration <span class="codeph"> が指定されていない場合 </span>、または空の場合に使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>ファイル変更のタイムスタンプ。属性：:CacheValidationPolicy </span> でカタログベースの検証が有効 <span class="codeph"> なっている場合に必要です。 </p> </td> 
+   <td colname="col2"> <p>ファイル変更のタイムスタンプ。属性：:CacheValidationPolicy <span class="codeph"> でカタログベースの検証が有効 </span> なっている場合に必要です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
-   <td colname="col2"> <p>この静的コンテンツ項目に関連付けられたオプションのメタデータです。req=userdata </span> を持つクライアント <span class="codeph"> 使用できます。 </p> </td> 
+   <td colname="col2"> <p>この静的コンテンツ項目に関連付けられたオプションのメタデータです。req=userdata <span class="codeph"> を持つクライアント </span> 使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 

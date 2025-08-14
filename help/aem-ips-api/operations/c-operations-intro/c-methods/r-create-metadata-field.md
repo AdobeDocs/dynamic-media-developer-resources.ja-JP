@@ -76,7 +76,7 @@ ht-degree: 6%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値の設定時にメタデータフィールドを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span> に無効な値が設定されてい <span class="codeph"> とエラーが発生します。 </p> </td> 
+   <td colname="col4"> <p>値の設定時にメタデータフィールドを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata<span class="codeph"> /</span> batchSetAssetMetadata<span class="codeph"> に無効な値が設定されてい </span> とエラーが発生します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

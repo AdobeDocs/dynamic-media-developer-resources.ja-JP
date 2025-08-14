@@ -1,5 +1,5 @@
 ---
-description: PDFファイルオプション。
+description: PDF ファイルオプション。
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-PDFファイルオプション。
+PDF ファイルオプション。
 
 構文
 
@@ -22,9 +22,9 @@ PDFファイルオプション。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| プロセス | `xsd:string` | 「PDFプロセス」の選択。 |
+| プロセス | `xsd:string` | 「PDF プロセス」の選択。 |
 | resolution | `xsd:double` | ファイルの解像度。 |
 | 色空間 | `xsd:string` | ポストスクリプトのカラースペースモードの選択。 |
 | pdfCatalog | `xsd:boolean` | レンダリング後に複数ページのPDFを eCatalog に組み合わせるかどうか（デフォルトは true）。 |
-| extractSearchWords | `xsd:boolean` | PDFファイルから検索語を抽出するかどうか。 |
-| extractLinks | `xsd:boolean` | IPS 内でラスタライズされたページに割り当てられた画像マップにPDFリンクを抽出するかどうかを指定します。 |
+| extractSearchWords | `xsd:boolean` | 検索単語をPDF ファイルから抽出するかどうか。 |
+| extractLinks | `xsd:boolean` | IPS 内でラスタライズされたページに割り当てられた画像マップにPDF リンクを抽出するかどうかを指定します。 |

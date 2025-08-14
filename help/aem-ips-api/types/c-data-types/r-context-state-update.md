@@ -51,4 +51,4 @@ ht-degree: 7%
 
 >[!MORELIKETHIS]
 >
->* [Publishの州 ](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [ 公開状態 ](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

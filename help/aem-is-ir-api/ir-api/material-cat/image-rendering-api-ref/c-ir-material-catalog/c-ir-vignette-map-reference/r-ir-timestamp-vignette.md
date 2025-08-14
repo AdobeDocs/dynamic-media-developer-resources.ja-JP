@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,11 @@ Java™ 形式の日付/時刻値。 1970 年 1 月 1 日深夜 0 時からの�
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* は 0～23 の範囲です。
 * *[!DNL zzz]* は、「GMT」や「PST」など、3 文字または 4 文字のタイムゾーンコードです。 夏時間は、タイムゾーンコードで考慮する必要があります（例えば、太平洋標準時は「PST」、太平洋夏時間は「PDT」など）。
-* *[!DNL offset]* は、GMT を基準とした時間または時間：分のタイムゾーンオフセットです。 例えば、「PDT」は「GMT -7」と同等です。
+* *[!DNL offset]* は、GMT を基準とした時間または時 :minutes 単位のタイムゾーンオフセットです。 例えば、「PDT」は「GMT -7」と同等です。
 
 文字列形式の日付/時刻値のすべての要素が存在する必要があります。 日付/時刻の値が正しく設定されていない場合、この値は無視され、[!DNL *[!DNL catalog]*.ini] ファイルの変更時刻が代わりに使用されます。
 

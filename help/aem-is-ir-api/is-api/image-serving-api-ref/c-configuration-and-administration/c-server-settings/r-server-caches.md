@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS::cache.maxSize – 応答データのキャッシュ サイズ {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP 応答キャッシュの最大サイズ （バイト単位）です。 この設定では、キャッシュする実際のデータの量が制限されます。ファイルシステムのオーバーヘッドは考慮されません。 （[ 応答データキャッシュ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca) を参照。） 複数のキャッシュデータフォルダーが指定されている場合、キャッシュデータはすべてのフォルダーに均等に配分されます。 [!DNL PlatformServer.conf] 単位の `cache.maxSize` の値はバイト単位です。
+HTTP 応答キャッシュの最大サイズ （バイト単位）です。 この設定では、キャッシュする実際のデータの量が制限されます。ファイルシステムのオーバーヘッドは考慮されません。 （[ 応答データキャッシュ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca) を参照）複数のキャッシュデータフォルダーが指定されている場合、キャッシュデータはすべてのフォルダーに均等に配分されます。 `cache.maxSize` 単位の [!DNL PlatformServer.conf] の値はバイト単位です。
 
 ## PS::cache.maxEntries – 応答データキャッシュの最大エントリ数 {#section-5603e327e90542a5b50aeeb27b080410}
 

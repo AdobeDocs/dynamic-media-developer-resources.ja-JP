@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> フレーム </span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの読み込み時に表示する、ゼロベースのスプレッド インデックスを指定します。 このインデックスは、横長モードでのスプレッドのインデックスと一致します。 ビューアを縦向きに回転すると、ビューアは frameIdx</span> が指すスプレッドの左端のページ <span class="codeph"> 表示します。 </p> </td> 
+   <td colname="col2"> <p> ビューアの読み込み時に表示する、ゼロベースのスプレッド インデックスを指定します。 このインデックスは、横長モードでのスプレッドのインデックスと一致します。 ビューアを縦向きに回転すると、ビューアは frameIdx<span class="codeph"> が指すスプレッドの左端のページ </span> 表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

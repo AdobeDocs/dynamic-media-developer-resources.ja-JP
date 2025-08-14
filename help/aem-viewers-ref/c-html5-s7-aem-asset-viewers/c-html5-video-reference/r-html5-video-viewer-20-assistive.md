@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ボタンには、役割 `button` と、`aria-label` 属性を持つ説明テキストが設定されています。 属性の値は `aria-label` ボタンのローカリゼーションシンボルの値から入力されます。 ボタンが無効の場合、それに応じ `aria-disabled` 属性が設定されます。
 
-スライダーのコンポーネントには、現在のスライダーの位置を表す属性 `aria-valuenow`、`aria-valuemin`、`aria-valuemax` を持つ役割 `slider` があります。
+スライダーのコンポーネントには、現在のスライダーの位置を表す属性 `slider`、`aria-valuenow`、`aria-valuemin` を持つ役割 `aria-valuemax` があります。
 
 ドロップダウンリストは、追加の `aria-haspopup` 属性が `true` に設定されたボタンと、実際のドロップダウンパネル要素 `aria-controls` 参照する属性によってアクティブ化されます。 ドロップダウンパネル自体には、役割 `menu` があり、その役割 `menuitem` を持つサブ要素があります。 各メニュー項目には、`aria-label` 属性が指定されています。
 

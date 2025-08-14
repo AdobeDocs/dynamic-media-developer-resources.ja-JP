@@ -1,5 +1,5 @@
 ---
-description: 画像マップデータ。 完全な <AREA>HTMLが存在しないか、前後に並べ替えられます。
+description: 画像マップデータ。 HTML <AREA> 要素の全体がゼロまたは複数あり、前から後ろに並べ替えられています。
 solution: Experience Manager
 title: マップ
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # マップ{#map}
 
-画像マップデータ。 全ての要素を含まない、または前後に並べ替えたHTML`<AREA>` です。
+画像マップデータ。 HTML `<AREA>` の要素全体が前から後ろに並べ替えられていません。
 
 サーバは SHAPE 属性と COORDS 属性を解釈し、変更する場合があります（このリリースでは SHAPE=CIRCLE はサポートされていません）。 `<AREA>` の他のすべての属性は、変更されずに渡されます。 COORDS アトリビュートで指定する座標値は、変更されていないソース イメージの左上隅からのピクセル オフセットでなければなりません。 （`%` 座標は、このリリースではサポートされていないため、正しく処理されない可能性があります）。
 
 ## プロパティ {#section-f52d89fd399b4356ac05277e6c12f956}
 
-テキスト文字列値。 指定する場合は、1 つ以上の完全なHTML`<AREA>` 要素にする必要があります。
+テキスト文字列値。 指定する場合は、1 つ以上の完全なHTML `<AREA>` 要素にする必要があります。
 
 このフィールドは、テキスト文字列のローカリゼーションに参加します。 詳しくは、[HTTP プロトコルリファレンス ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
 

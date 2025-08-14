@@ -31,7 +31,7 @@ Flyout ビューアは、画像ビューアです。 ユーザーがアクティ
 
 ## Flyout ビューアの使用 {#section-f21ac23d3f6449ad9765588d69584772}
 
-Flyout ビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（この特定のビューア、アセット、CSS で使用されるすべての Viewer SDK コンポーネントに含まれる 1 つのJavaScript）を表します
+Flyout ビューアは、実行時にビューアによってダウンロードされるメインのJavaScript ファイルと一連のヘルパーファイル（1 つのJavaScriptに、この特定のビューア、アセット、CSS で使用されるすべてのビューア SDK コンポーネントが含まれます）を表します
 
 Flyout ビューアは、埋め込み用途のみを目的としています。つまり、ドキュメントに記載された API を使用して web ページに統合されます。 Flyout ビューアでは、実稼動用の Web ページは使用できません。
 
@@ -82,7 +82,7 @@ Web ページによって、ビューアの動作に対するニーズは異な�
 
 Flyout ビューアでレスポンシブデザインの埋め込みモードを使用する場合は、`imagereload` パラメーターを使用して、メインビュー画像の明示的なブレークポイントを指定してください。 Web ページの CSS に記述されているビューア幅のブレークポイントを使用して、ブレークポイントを一致させるのが理想です。
 
-レスポンシブデザインの埋め込みモードでは、web ページコンテナの `DIV` ージのサイズがどのように調整されるかによってビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 つまり、アセットは側面にパディングを入れずに、ビューに完全に収まります。 この特定のユースケースは、Bootstrapや基盤などのレスポンシブデザインレイアウトフレームワークを使用する web ページで最も一般的です。
+レスポンシブデザインの埋め込みモードでは、web ページコンテナの `DIV` ージのサイズがどのように調整されるかによってビューアの動作が異なります。 Web ページでコンテナ `DIV` の幅のみが設定され、高さが制限されない場合、ビューアは、使用されるアセットの縦横比に応じて自動的に高さを選択します。 つまり、アセットは側面にパディングを入れずに、ビューに完全に収まります。 この特定のユースケースは、Bootstrapや Foundation などのレスポンシブデザインレイアウトフレームワークを使用する web ページで最も一般的です。
 
 Web ページでビューアのコンテナ `DIV` の幅と高さの両方が設定されている場合、ビューアはその領域のみを埋め、web ページレイアウトで提供されるサイズに従います。 良いユースケースの例は、ビューアをモーダルオーバーレイに埋め込む場合です。この場合、オーバーレイは web ブラウザーのウィンドウサイズに従ってサイズが調整されます。
 
@@ -97,11 +97,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 1. Web ページへのビューアJavaScript ファイルの追加
 
-   ビューアを作成するには、HTMLの先頭にスクリプトタグを付ける必要があります。 ビューア API を使用する前に、必ず `FlyoutViewer.js` を含めてください。 `FlyoutViewer.js` は、標準の IS-Viewers デプロイメントの次の [!DNL html5/js/] サブフォルダーにあります。
+   ビューアを作成するには、HTMLのヘッドにスクリプトタグを追加する必要があります。 ビューア API を使用する前に、必ず `FlyoutViewer.js` を含めてください。 `FlyoutViewer.js` は、標準の IS-Viewers デプロイメントの次の [!DNL html5/js/] サブフォルダーにあります。
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-ビューアがAdobe Dynamic Media サーバーの 1 つにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 それ以外の場合は、IS-Viewers がインストールされているAdobe Dynamic Media サーバーの 1 つへのフルパスを指定します。
+ビューアがAdobe Dynamic Media サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-Viewers がインストールされているAdobe Dynamic Media サーバーのいずれかに対するフルパスを指定します。
 
 相対パスは次のようになります。
 
@@ -111,7 +111,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 >[!NOTE]
 >
->ページ上のメインビューアのJavaScript `include` ファイルのみを参照します。 実行時にビューアのロジックによってダウンロードされる可能性がある web ページコード内の追加のJavaScript ファイルを参照しないでください。 特に、ビューアによって読み込まれるHTML5 SDK `Utils.js` ライブラリをコンテキストパス（いわゆる統合 SDK `include`）から直接参照 `/s7viewers` ないでください。 これは、`Utils.js` や類似のランタイム・ビューア・ライブラリの場所はビューアのロジックによって完全に管理され、ビューア・リリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリ・ビューア `includes` をサーバ上に保持しません。
+>ページ上のメインビューアのJavaScript `include` ファイルのみを参照します。 実行時にビューアのロジックによってダウンロードされる可能性がある web ページコード内の追加のJavaScript ファイルを参照しないでください。 特に、ビューアによって読み込まれるHTML5 SDK `Utils.js` ライブラリを、コンテキストパス（いわゆる統合SDK `/s7viewers`）から直接参照 `include` ないでください。 これは、`Utils.js` や類似のランタイム・ビューア・ライブラリの場所はビューアのロジックによって完全に管理され、ビューア・リリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes` をサーバーに保持しません。
 >
 >
 >その結果、ビューアが使用するセカンダリ JavaScript `include` ージをページ上で直接参照すると、今後、新しい製品バージョンがデプロイされた際に、ビューアの機能が損なわれます。
@@ -134,11 +134,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    このビューアには、複数項目セットを扱う際のサムネールが表示されます。 デスクトップ システムでは、サムネイルはメイン ビューの下に配置されます。 同時に、ビューアでは API を使用して、実行時にメインアセットを入れ替え `setAsset()` ことができます。 開発者は、新しいアセットに項目が 1 つしかない場合に、ビューアが下部のサムネール領域をどのように管理するかを制御できます。 外側のビューアのサイズはそのままにして、メインビューの高さを上げてサムネール領域を占有することができます。 または、メインビューのサイズを静的に保ち、外側のビューア領域を折りたたんで、web ページのコンテンツを上に移動させ、サムネールから残った空きページ領域を使用することもできます。
 
-   外部ビューアの境界をそのままにするには、最上位の CSS クラス `.s7flyoutviewer` サイズを絶対単位で定義します。 CSS のサイズ設定は、HTMLページに直接配置するか、カスタムビューア CSS ファイルに配置することができます。また、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡すこともできます。
+   外部ビューアの境界をそのままにするには、最上位の CSS クラス `.s7flyoutviewer` サイズを絶対単位で定義します。 CSS のサイズ設定は、HTML ページに直接配置するか、カスタムビューア CSS ファイルに配置することができます。また、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡すこともできます。
 
    CSS を使用したビューアのスタイル設定について詳しくは、[Flyout ビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) を参照してください。
 
-   HTMLページで静的な外部ビューアのサイズを定義する例を次に示します。
+   HTML ページで静的な外部ビューアのサイズを定義する例を次に示します。
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -149,11 +149,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のサンプルページでは、固定の外部ビューア領域での動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=ja)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   メインビューのサイズを静的にするには、CSS セレクターを使用して、内部の `Container` SDK コンポーネントのビューアサイズ `.s7flyoutviewer .s7container` 絶対単位で定義します。 さらに、デフォルトのビューア CSS で `.s7flyoutviewer` の最上位レベルの CSS クラスに定義された固定サイズを `auto` に設定して上書きする必要があります。
+   メインビューの寸法を静的にするには、CSS セレクターを使用して、内部の `Container` SDK コンポーネントのビューアサイズ `.s7flyoutviewer .s7container` 絶対単位で定義します。 さらに、デフォルトのビューア CSS で `.s7flyoutviewer` の最上位レベルの CSS クラスに定義された固定サイズを `auto` に設定して上書きする必要があります。
 
-   次に、アセットを切り替えるときにメイン表示領域のサイズが変更されないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
+   次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -168,7 +168,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    次のサンプルページは、固定のメインビューサイズを使用したビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=ja)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    また、デフォルトのビューア CSS では、すぐに使用できる外部領域のサイズが固定されています。
 
@@ -176,7 +176,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    上記の手順を完了したら、クラスのインスタンスを作成し、すべての設定情報 `s7viewers.FlyoutViewer` そのコンストラクターに渡して、ビューアインスタンスのメソッド `init()` 呼び出します。 設定情報は、JSON オブジェクトとしてコンストラクターに渡されます。 少なくとも、このオブジェクトにはビューアコンテナ ID の名前を保持する `containerId` フィールドと、ビューアがサポートす `params` 設定パラメーターを含むネストされた JSON オブジェクトが必要です。 この場合、`params` オブジェクトには、少なくとも画像サービング URL がプロパティとして渡され、初期アセット `serverUrl` パラメーターとして渡されてい `asset` 必要があります。 JSON ベースの初期化 API を使用すると、1 行のコードでビューアを作成して開始できます。
 
-   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 互換性を最大限に高めるには、終了 `BODY` タグの直前または body `onload()` イベントで `init()` メソッドを呼び出します。
+   ビューアコードが ID でコンテナ要素を見つけられるように、ビューアコンテナを DOM に追加することが重要です。 一部のブラウザーでは、web ページの最後まで DOM の構築が遅れます。 互換性を最大限に高めるには、終了 `init()` タグの直前または body `BODY` イベントで `onload()` メソッドを呼び出します。
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 このアクションが発生すると、ビューアの読み込みが自動的に再開されます。
 
@@ -225,7 +225,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 ## 高さが制限されないレスポンシブデザインの埋め込み {#section-056cb574713c4d07be6d07cf3c598839}
 
-レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占め、高さは無制限であるとします。 Web ページのHTMLコードは次のようになります。
+レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占め、高さは無制限であるとします。 Web ページのHTML コードは次のようになります。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -302,7 +302,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 [ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
+[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 幅と高さが定義された柔軟なサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 

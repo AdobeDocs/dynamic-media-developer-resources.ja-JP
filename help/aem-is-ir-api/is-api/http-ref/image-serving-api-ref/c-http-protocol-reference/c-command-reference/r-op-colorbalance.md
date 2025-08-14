@@ -1,6 +1,6 @@
 ---
 title: op_colorbalance
-description: カラーバランスを調整します。 各RGBの色成分の値を個別に調整します。
+description: カラーバランスを調整します。 各RGB カラーコンポーネントの値を個別に調整します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # op_colorbalance{#op-colorbalance}
 
-カラーバランスを調整します。 各RGBの色成分の値を個別に調整します。
+カラーバランスを調整します。 各RGB カラーコンポーネントの値を個別に調整します。
 
 `op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
@@ -33,11 +33,11 @@ ht-degree: 1%
  </tr> 
 </table>
 
-グレーと CMYK の入力画像データは、ネイティブコンバージョンを使用してRGBに変換されますが、カラーマネジメントが有効な場合は正確ではありません。
+グレーと CMYK の入力画像データは、ネイティブ変換を使用してRGBに変換されますが、カラーマネジメントが有効な場合は正確ではありません。
 
 ## プロパティ {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-[ 画層 ] コマンド： 現在のレイヤーまたは合成イメージ（`layer=comp` の場合）に適用されます。 エフェクトレイヤーで無視されます。 CMYK 画像およびレイヤーは、操作が適用される前にRGBに変換されます。
+[ 画層 ] コマンド： 現在のレイヤーまたは合成イメージ（`layer=comp` の場合）に適用されます。 エフェクトレイヤーで無視されます。 CMYK 画像とレイヤーは、操作が適用される前にRGBに変換されます。
 
 ## 初期設定 {#section-08d84ef715964f7daea86f5ef237d199}
 

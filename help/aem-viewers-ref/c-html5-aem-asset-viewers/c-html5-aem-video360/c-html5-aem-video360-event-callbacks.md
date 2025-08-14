@@ -25,7 +25,7 @@ ht-degree: 0%
 
    * `objID {String}` は現在使用されていません。
    * `compClass {String}` は現在使用されていません。
-   * イベントをトリガーしたHTML5 ビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベントをトリガーしたHTML5 ビューアのSDK コンポーネントのインスタンス名を `instName {String}` します。
    * イベ `timeStamp {Number}` トタイムスタンプ。
    * イベ `eventInfo {String}` トペイロード。
 

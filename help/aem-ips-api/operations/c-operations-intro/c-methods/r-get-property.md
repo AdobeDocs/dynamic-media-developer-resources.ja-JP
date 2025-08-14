@@ -22,8 +22,8 @@ ht-degree: 9%
 * `IpsImageServerUrl`:IPS 画像サーバーの完全な外部 URL プレフィックス。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:SVGアセットをレンダリングするための URL プレフィックス。
-* `SvgRenderEnabled`:SVGアセットを `SvgRenderRootUrl` でレンダリングできる場合は、true を指定します。
+* `SvgRenderRootUrl`:SVG アセットをレンダリングするための URL プレフィックス。
+* `SvgRenderEnabled`:SVG アセットを `SvgRenderRootUrl` でレンダリングできる場合は true。
 
 * `UploadPostMaxFileSize`：アップロードフ [!DNL POST] ールドで許可されるファイルデータの最大サイズ（バイト単位）。 上限を超えるファイルは拒否されます。
 

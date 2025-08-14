@@ -16,7 +16,7 @@ ht-degree: 0%
 
 このセクションでは、カタログデータフィールドについて説明します。
 
-* [Image_SVGのデータ](r-image-svg-data.md)
+* [Image_SVG data](r-image-svg-data.md)
 * [静的コンテンツデータ](r-static-contents-data.md)
 * [マクロの定義](r-macro-definitions.md)
 * [フォントマップ](r-font-maps.md)

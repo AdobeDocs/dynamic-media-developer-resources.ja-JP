@@ -1,5 +1,5 @@
 ---
-description: PDFファイルのテキストをアウトラインに変換します。
+description: PDF ファイルのテキストをアウトラインに変換します。
 solution: Experience Manager
 title: convertTextToOutlines
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # convertTextToOutlines{#converttexttooutlines}
 
-PDFファイルのテキストをアウトラインに変換します。
+PDF ファイルのテキストをアウトラインに変換します。
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
@@ -25,4 +25,4 @@ PDFファイルのテキストをアウトラインに変換します。
 
 URL コマンド `convertTextToOutlines=1` を使用して、PDF ファイル内のすべてのテキストをアウトライン付きパスに変更します。
 
-テキストをアウトラインに変換するなど、PDFファイル内のテキストに何らかのエフェクトが適用されると、最終的にレンダリングされるイメージのサイズは縮小または「統合」されます。
+テキストをアウトラインに変換するなど、PDF ファイル内のテキストに何らかのエフェクトが適用されると、最終的にレンダリングされるイメージのサイズは縮小または「統合」されます。

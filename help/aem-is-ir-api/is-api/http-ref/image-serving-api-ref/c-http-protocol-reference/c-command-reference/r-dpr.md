@@ -36,7 +36,7 @@ ht-degree: 2%
 
 全社レベルの DPR 設定がオフの場合でも、`dpr=on,dprValue` を使用できます。
 
-DPR の最適化により、結果の画像がDynamic Mediaの MaxPix 設定よりも大きくなる場合、画像の縦横比を保つことで MaxPix の幅が常に認識されます。
+DPR の最適化により、結果の画像が Dynamic Media の MaxPix 設定よりも大きくなる場合、画像の縦横比を維持することで MaxPix の幅が常に認識されます。
 
 | 要求された画像サイズ | DPR 値 | 配信される画像サイズ |
 |-|-|-|
@@ -45,7 +45,7 @@ DPR の最適化により、結果の画像がDynamic Mediaの MaxPix 設定よ�
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-DPR 値は、バンドルされた CDN のクライアント側の検出値に基づいています。 これらの値は不正確な場合があります。 例えば、`dpr=2` を使用するiPhone5 と dpr=3 を使用するiPhone12 では、どちらも `dpr=2` と表示されます。 それでも、高解像度デバイスの場合は、`dpr=1` を送信するより `dpr=2` を送信する方が適切です。 この不正確さを克服する最善の方法は、クライアントサイドの DPR を使用して 100% 正確な値を指定することです。 また、起動されたデバイスがAppleか他のデバイスかに関わらず、任意のデバイスで機能します。 [ クライアントサイドのデバイスピクセル比（DPR）を使用したスマートイメージングについて ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=ja) を参照してください。
+DPR 値は、バンドルされた CDN のクライアント側の検出値に基づいています。 これらの値は不正確な場合があります。 例えば、`dpr=2` を使用するiPhone5 と dpr=3 を使用するiPhone12 では、どちらも `dpr=2` と表示されます。 それでも、高解像度デバイスの場合は、`dpr=2` を送信するより `dpr=1` を送信する方が適切です。 この不正確さを克服する最善の方法は、クライアントサイドの DPR を使用して 100% 正確な値を指定することです。 また、起動されたデバイスがAppleか他のデバイスかに関わらず、任意のデバイスで機能します。 [ クライアントサイドのデバイスピクセル比（DPR）を使用したスマートイメージングについて ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en) を参照してください。
 
 ## プロパティ
 
@@ -63,4 +63,4 @@ DPR 値は、バンドルされた CDN のクライアント側の検出値に�
 
 ## 関連項目
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)、[ ネットワーク ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)、[ スマートイメージング ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=ja)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)、[ ネットワーク ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)、[ スマートイメージング ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

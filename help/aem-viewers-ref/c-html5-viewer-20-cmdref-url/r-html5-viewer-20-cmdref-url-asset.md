@@ -50,7 +50,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 画像 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 単一の画像を指定します。 画像名に存在する安全でない文字に、ダブル HTTP エンコーディングを適用します。 </p> <p>または、画像セットへの参照を指定します。 ビューアは、req=set IS </span> リクエスト <span class="codeph"> 使用して、サーバーから画像セットを取得します。 </p> </td> 
+   <td colname="col2"> <p> 単一の画像を指定します。 画像名に存在する安全でない文字に、ダブル HTTP エンコーディングを適用します。 </p> <p>または、画像セットへの参照を指定します。 ビューアは、req=set IS <span class="codeph"> リクエスト </span> 使用して、サーバーから画像セットを取得します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList </span> </span> </p> </td> 
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>次の構文を使用して、明示的な多次元スピンセットを指定します。 </p> <p> <span class="codeph"> （（<span class="varname"> horizontalSpinSet </span>） [,（<span class="varname"> horizontalSpinSet </span>） ]） </span> </p> <p> <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> は、指定した水平軸のフレームのコンマ区切りリストです。 </span><span class="codeph"><span class="varname"> すべての horizontalSpinSet</span> フレーム数は同じにする必要があります。 </p> <p> <p>メモ：この機能はAdobe Dynamic Media Classicでサポートされます。Adobe Experience Manager Assetsではサポートされません。 </p> </p> </td> 
+   <td colname="col2"> <p>次の構文を使用して、明示的な多次元スピンセットを指定します。 </p> <p> <span class="codeph"> （（<span class="varname"> horizontalSpinSet </span>） [,（<span class="varname"> horizontalSpinSet </span>） ]） </span> </p> <p> <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> は、指定した水平軸のフレームのコンマ区切りリストです。 <span class="codeph"><span class="varname"></span> すべての horizontalSpinSet</span> フレーム数は同じにする必要があります。 </p> <p> <p>メモ：この機能はAdobe Dynamic Media Classicでサポートされます。Adobe Experience Manager Assetsではサポートされません。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾子 </span> </span> </p> </td> 

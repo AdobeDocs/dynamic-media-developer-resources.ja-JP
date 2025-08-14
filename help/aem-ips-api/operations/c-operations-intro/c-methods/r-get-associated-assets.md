@@ -117,13 +117,13 @@ ht-degree: 5%
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span> には、このアセットが作成された方法がリストされます。 例えば、assetHandler</span> がPDF<span class="codeph"> 画像ページであった場合、これにはPDFプロセッサーツールが含まれ、PdfFile アセットを参照します。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span> には、このアセットが作成された方法がリストされます。 例えば、assetHandler<span class="codeph"> がPDF</span> 画像ページであった場合、これにはPDF プロセッサツールが含まれ、PdfFile アセットを参照します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatedArray</span> は、このアセットの作成方法を反転します。 例えば、<span class="codeph"> generatedArray</span> には、PdfFile アセットの場合 </span> この <span class="codeph"> assetHandler から生成された画像のリストを含めることができます。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span> は、このアセットの作成方法を反転します。 例えば、<span class="codeph"> generatedArray</span> には、PdfFile アセットの場合 <span class="codeph"> この </span> assetHandler から生成された画像のリストを含めることができます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
@@ -134,11 +134,11 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-パラメーター `responseFieldArray` または `excludeFieldArray` を使用して、応答サイズを制限できます。 特に、`generatorArray` または `generatedArray` で返される `GenerationInfo` 項目は、デフォルトで作成者と生成されたアセットレコードの両方が含まれます。 PDFのアセットタイプの場合、この動作により、応答内の「作成者」PDFアセットレコードの不要な複数コピーが生成されます。 `excludeFieldArray` に `generatedArray/items/originator` を追加すると、この問題を解決できます。 または、`responseFieldArray` に含める応答フィールドの明示的なリストを指定できます。
+パラメーター `responseFieldArray` または `excludeFieldArray` を使用して、応答サイズを制限できます。 特に、`GenerationInfo` または `generatorArray` で返される `generatedArray` 項目は、デフォルトで作成者と生成されたアセットレコードの両方が含まれます。 PDF アセットタイプの場合、この動作により、応答内の「作成者」PDF アセットレコードの不要な複数コピーが生成されます。 `generatedArray/items/originator` に `excludeFieldArray` を追加すると、この問題を解決できます。 または、`responseFieldArray` に含める応答フィールドの明示的なリストを指定できます。
 
 ## 例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-次の基本的な例は、PDFから抽出された画像のジェネレーターのハンドルに対するリクエストです。 PDFの `assetHandle` を含む `containerArray` 目を持つ長さの 1 が含まれます。
+次の基本的な例は、PDFから抽出された画像のジェネレーターのハンドルに対するリクエストです。 PDFの `containerArray` を含む `assetHandle` 目を持つ長さの 1 が含まれます。
 
 **リクエスト**
 

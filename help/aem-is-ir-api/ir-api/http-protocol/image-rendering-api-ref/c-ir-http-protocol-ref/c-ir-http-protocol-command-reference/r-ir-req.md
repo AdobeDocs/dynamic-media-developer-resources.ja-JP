@@ -49,7 +49,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> userdata </span> </p> </td> 
-  <td class="stentry"> <p>Vignette::UserData </span> の内容 <span class="codeph"> 返します。 </p> </td> 
+  <td class="stentry"> <p>Vignette::UserData <span class="codeph"> の内容 </span> 返します。 </p> </td> 
  </tr> 
 </table>
 
@@ -113,7 +113,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td colname="col2"> <p>列挙 </p> </td> 
-   <td colname="col3"> <p>レスポンスイメージのピクセルタイプ。使用できる値は、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）です。 </p> </td> 
+   <td colname="col3"> <p>レスポンスイメージのピクセルタイプ。「CMYK」、「RGB」または「BW」（グレースケール画像の場合）のいずれかです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -123,7 +123,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.timeStamp </span> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>変更日時（カタログ：:TimeStamp </span> またはビネットファイル <span class="codeph"> より）。 </p> </td> 
+   <td colname="col3"> <p>変更日時（カタログ：:TimeStamp <span class="codeph"> またはビネットファイル </span> より）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.width </span> </p> </td> 
@@ -138,17 +138,17 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res </span> </p> </td> 
    <td colname="col2"> <p>実数 </p> </td> 
-   <td colname="col3"> <p>マテリアルの解像度 </a> 単位（通常はピクセル/インチ） <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 表す最大オブジェクト解像度。 </p> </td> 
+   <td colname="col3"> <p>マテリアルの解像度 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 単位（通常はピクセル/インチ） </a> 表す最大オブジェクト解像度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res.avg </span> </p> </td> 
    <td colname="col2"> <p>実数 </p> </td> 
-   <td colname="col3"> <p>マテリアル解像度 </a> 単位 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> おける平均オブジェクト解像度（通常はピクセル/インチ <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> マテリアル解像度 </a>h）。 </p> </td> 
+   <td colname="col3"> <p>マテリアル解像度 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 単位 </a> おける平均オブジェクト解像度（通常はピクセル/インチ <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> マテリアル解像度 </a>h）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res.min </span> </p> </td> 
    <td colname="col2"> <p>実数 </p> </td> 
-   <td colname="col3"> <p>マテリアルの解像度 </a> 単位（通常はピクセル/インチ） <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> おける最小オブジェクト解像度。 </p> </td> 
+   <td colname="col3"> <p>マテリアルの解像度 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 単位（通常はピクセル/インチ） </a> おける最小オブジェクト解像度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.version </span> </p> </td> 
@@ -166,11 +166,11 @@ URL パスで指定されたビネットファイルまたはカタログエン�
 
 マップ データは、`wid=`、`hei=`、またはその他の方法で変更されたサイズに変更されません。 応答の MIME タイプは `<text/xml>` です。
 
-レスポンスデータは、タグのHTMLに似た、一連の `<area>` 要素を含む `<map>` 要素で構成され `<AREA>` す。
+レスポンスデータは、HTML `<map>` タグと同様に、`<area>` の要素のセットを含む `<AREA>` 要素で構成されます。
 
 各 `<area>` 要素には、標準の `type=` 属性と `coord=` 属性、およびビネット グループ名または名前パスを指定する `name=` 属性が含まれます。 対応するオブジェクトグループのマスクが不連続な領域を持つ場合、同じ名前の `<area>` 要素が複数存在します。
 
-ビネットは、デフォルトの属性に加えて、追加の属性を定義することもできます（作成した場合）。 このようなカスタム属性は、オブジェクトグループ属性として定義されます。 カスタム属性の名前は、`<area>` 要素に含める `map` で始める必要があります。 例えば、グループ属性に `map.href=http://www.scene7.com` が含まれる場合、対応する `<area>` 要素には `href="http://www.scene7.com"` が含まれます。
+ビネットは、デフォルトの属性に加えて、追加の属性を定義することもできます（作成した場合）。 このようなカスタム属性は、オブジェクトグループ属性として定義されます。 カスタム属性の名前は、`map` 要素に含める `<area>` で始める必要があります。 例えば、グループ属性に `map.href=http://www.scene7.com` が含まれる場合、対応する `<area>` 要素には `href="http://www.scene7.com"` が含まれます。
 
 ビネットにマップデータが含まれていない場合、空の `<map>` 要素を含む XML ドキュメントが返されます。
 
@@ -226,7 +226,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
   <tr> 
    <td> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td> <p> 文字列 </p> </td> 
-   <td> <p> 返信画像のタイプは、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）にすることができます。 </p> </td> 
+   <td> <p> 返信画像のタイプは、「CMYK」、「RGB」または「BW」（グレースケール画像の場合）にすることができます </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -264,7 +264,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
    <td> <p> 現在の選択範囲のインデント値。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.attributes </span>ion.name </span> を選択してくださ <span class="codeph">。 </p> </td> 
+   <td> <p> <span class="codeph"> selection.attributes <span class="codeph">ion.name </span> を選択してくださ </span>。 </p> </td> 
    <td> <p> 文字列 </p> </td> 
    <td> <p> 現在のオブジェクト選択のフルネームのパス。 </p> </td> 
   </tr> 
@@ -298,7 +298,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
 
 `userdata`
 
-`vignette::UserData` のコンテンツを返します。 サーバーは、`vignette::UserData` 内の `'??'` をすべて行終端文字（`<cr><lf>`）で置き換えます。 返信は、応答の MIME タイプを &lt;text/plain> に設定したテキストデータ形式になります。
+`vignette::UserData` のコンテンツを返します。 サーバーは、`'??'` 内の `vignette::UserData` をすべて行終端文字（`<cr><lf>`）で置き換えます。 返信は、応答の MIME タイプを &lt;text/plain> に設定したテキストデータ形式になります。
 
 URL パスで指定されたオブジェクトが有効なビネット マップ エントリに解決されない場合、または `vignette::UserData` が空の場合、返信には行終端文字（`CR/LF`）のみが含まれます。
 

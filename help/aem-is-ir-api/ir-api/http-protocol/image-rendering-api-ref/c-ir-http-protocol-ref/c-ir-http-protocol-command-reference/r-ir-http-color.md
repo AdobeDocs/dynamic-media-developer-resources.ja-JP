@@ -21,7 +21,7 @@ ht-degree: 8%
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 色 </span> </p> </td> 
-  <td class="stentry"> <p>RGBまたはグレーのカラー値。 </p></td> 
+  <td class="stentry"> <p>RGBまたはグレーの値。 </p></td> 
  </tr> 
 </table>
 

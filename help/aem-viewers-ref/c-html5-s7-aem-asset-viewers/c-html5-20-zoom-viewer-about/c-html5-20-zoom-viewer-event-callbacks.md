@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * `objID {String}` は現在使用されていません。
    * `compClass {String}` は現在使用されていません。
-   * イベントをトリガーしたビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベントをトリガーしたビューアのSDK コンポーネントのインスタンス名を `instName {String}` します。
    * イベ `timeStamp {Number}` トタイムスタンプ。
    * `eventInfo {String}` イベントペイロード
 

@@ -1,6 +1,6 @@
 ---
 title: カラー処理
-description: RTF 仕様では、&bsol;colortbl で指定されたRGBカラー値が許可されています。 各コンポーネントは、&bsol;red、&bsol;green および&bsol;blue コマンドと共に個別に提供されます。
+description: RTF 仕様では、&bsol;colortbl で指定されたRGB カラー値が許可されています。 各コンポーネントは、&bsol;red、&bsol;green および&bsol;blue コマンドと共に個別に提供されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # カラー処理{#color-handling}
 
-RTF 仕様では、`\colortbl` で指定されたRGBカラー値が許可されています。 各コンポーネントは、`\red`、`\green`、`\blue` の各コマンドと個別に提供されます。
+RTF 仕様では、`\colortbl` で指定されたRGB カラー値が許可されています。 各コンポーネントは、`\red`、`\green`、`\blue` の各コマンドと個別に提供されます。
 
 独自の RTF 拡張コマンド `\cmykcolortbl` を使用すると、`\cyan`、`\magenta`、`\yellow` および `\black` コマンドで提供される各カラーコンポーネントで CMYK 色を指定できます。
 
 `\colortbl` の色成分の値は、0 ～ 255 の範囲です。 `\cmykcolortbl` のコンポーネント値は 0 ～ 100 の範囲です。
 
-`textPs=` がサポートする RTF 拡張コマンド `\*\iscolortbl` では、RGB、グレー、CMYK、アルファを完全にサポートする、標準の画像サービングカラー値を使用したカラーテーブルを指定できます。 次の構文で表されます。
+`\*\iscolortbl` がサポートする RTF 拡張コマンド `textPs=` では、RGB、グレー、CMYK、アルファを完全にサポートする標準の画像サービングカラー値を使用して、カラーテーブルを指定できます。 次の構文で表されます。
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 1 つ以上の IS カラー値を *[!DNL colors]* し、「;」で区切ります。
 
-同じ `text=` または RTF 文字列で複数の種類のカラーテーブル `textPs=` 指定できます。 各カラーテーブルには、異なる数のエントリを含めることができます。 画像サービングでは、カラーを次の順序で検索しようとします。`\cmykcolortbl` より前の `\iscolortbl` （テキストレイヤーのピクセルタイプが CMYK の場合のみ） `\colortbl`。 た `textPs=` えば、必要に応じて、CMYK とRGBの間でカラーが正確に変換されます（例えば、RGBカラーが指定されていて、CMYK 出力が必要な場合）。 特定のインデックス値の色が見つからない場合は、デフォルトの色（黒）が使用されます。
+同じ `text=` または RTF 文字列で複数の種類のカラーテーブル `textPs=` 指定できます。 各カラーテーブルには、異なる数のエントリを含めることができます。 画像サービングでは、カラーを次の順序で検索しようとします。`\iscolortbl` より前の `\cmykcolortbl` （テキストレイヤーのピクセルタイプが CMYK の場合のみ） `\colortbl`。 た `textPs=` えば、必要に応じて、CMYK とRGBの間でカラーが正確に変換されます（例えば、RGB カラーが指定されていても、CMYK 出力が必要な場合など）。 特定のインデックス値の色が見つからない場合は、デフォルトの色（黒）が使用されます。
 
 IS カラー値の構文の説明については、[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) を参照してください。
 

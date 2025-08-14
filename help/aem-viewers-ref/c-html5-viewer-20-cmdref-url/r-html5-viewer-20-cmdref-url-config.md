@@ -22,7 +22,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
-   <td colname="col2"> <p>ビューア設定のカタログ / ID。 </p> <p> catalog::UserData </span> のビューア設定プロパティを含む画像カタログエントリ <span class="codeph"> 指定します。 このコマンドが存在する場合、ビューアは configId </span> の <span class="codeph"> req=userdata </span> コマンド <span class="codeph"> サーバーに送信し、応答からプロパティを抽出します。 プロパティは、ビューアの初期化に使用されます。 URL 文字列が同じプロパティを指定する場合は、catalog::UserData </span> の値 <span class="codeph"> 上書きします。 </p> </td> 
+   <td colname="col2"> <p>ビューア設定のカタログ / ID。 </p> <p> catalog::UserData <span class="codeph"> のビューア設定プロパティを含む画像カタログエントリ </span> 指定します。 このコマンドが存在する場合、ビューアは configId <span class="codeph"> の </span> req=userdata <span class="codeph"> コマンド </span> サーバーに送信し、応答からプロパティを抽出します。 プロパティは、ビューアの初期化に使用されます。 URL 文字列が同じプロパティを指定する場合は、catalog::UserData <span class="codeph"> の値 </span> 上書きします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

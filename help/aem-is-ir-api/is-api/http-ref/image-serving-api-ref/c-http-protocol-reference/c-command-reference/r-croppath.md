@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCII のみ）。 </p> <p> pathName</span></span><span class="codeph"><span class="varname">、レイヤーソース画像に埋め込まれたパスの名前です。 パスは、画像コンテンツとの相対的な整合性を維持するために、必要に応じて自動的に変換されます。 複数の <span class="codeph"><span class="varname"> pathName</span></span> が指定されている場合、サーバーは各パスのバウンディングボックスまで 1 つずつ切り抜きます。 ソース画像に見つからない <span class="codeph"><span class="varname"> pathName</span></span> は無視されます。 </p> </td> 
+   <td colname="col2"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCII のみ）。 </p> <p> pathName<span class="codeph"><span class="varname"></span></span>、レイヤーソース画像に埋め込まれたパスの名前です。 パスは、画像コンテンツとの相対的な整合性を維持するために、必要に応じて自動的に変換されます。 複数の <span class="codeph"><span class="varname"> pathName</span></span> が指定されている場合、サーバーは各パスのバウンディングボックスまで 1 つずつ切り抜きます。 ソース画像に見つからない <span class="codeph"><span class="varname"> pathName</span></span> は無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

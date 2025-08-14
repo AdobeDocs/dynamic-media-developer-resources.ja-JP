@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## TC::PsPort - メインリスニングポート {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-[!DNL Platform Server] のメイン リスニング ポートを指定します。 また、画像サービング、画像レンダリングおよびDynamic Media ビューア（インストールされている場合）のドキュメントページやサンプルページにもアクセスするために使用します。
+[!DNL Platform Server] のメイン リスニング ポートを指定します。 また、このポートは、画像サービング、画像レンダリングおよび Dynamic Media ビューア（インストールされている場合）のドキュメントページとサンプルページにもアクセスするために使用されます。
 
 ## IS::CacheServerUrl - キャッシュサービスのルート Url {#section-bcca227a1f91453b834db4ea050968e2}
 
-Image Server がキャッシュサービスにアクセスできるようにする HTTP ルートパスを指定します。 `TC::PsPort` に一致するポート番号を使用して、[!DNL http://localhost:TC::PsPort /is/cache/secondary] に設定する必要があります。
+Image Server がキャッシュサービスにアクセスできるようにする HTTP ルートパスを指定します。 [!DNL http://localhost:TC::PsPort /is/cache/secondary] に一致するポート番号を使用して、`TC::PsPort` に設定する必要があります。
 
 ## IS::RemoteUrlDefaultExpiration - リモートImage Sourceのデフォルト TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
@@ -42,4 +42,4 @@ Image Server が、リクエストされた画像ファイルを HTTP 経由で�
 
 ## PS::saveToFile.saveTimeout - ファイル保存のタイムアウト {#section-d22afd8ad86144b28684ed95a59db40e}
 
-`timeout=` が指定されていない場合の `req=saveToFile` のデフォルトのタイムアウト値。 `msec`。 指定した時間内に保存操作が完了しない場合は、エラーが返されます。
+`req=saveToFile` が指定されていない場合の `timeout=` のデフォルトのタイムアウト値。 `msec`。 指定した時間内に保存操作が完了しない場合は、エラーが返されます。

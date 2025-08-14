@@ -16,7 +16,7 @@ ht-degree: 0%
 
 eCatalog ビューアに表示される特定のコンテンツは、ローカライゼーションの影響を受けます（ズームボタン、ページ変更ボタン、サムネールボタン、フルスクリーンボタン、閉じるボタン、スクロールバーボタンなど）。
 
-ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別な Viewer SDK 識別子で表されます。 どの SYMBOL にも、すぐに使用できるビューアに用意されている英語ロケール（`"en"`）のデフォルトのテキスト値が関連付けられています。また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別なビューアSDK識別子で表されます。 どの SYMBOL にも、すぐに使用できるビューアに用意されている英語ロケール（`"en"`）のデフォルトのテキスト値が関連付けられています。また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
 
 ビューアは起動時、現在のロケールを調べて、ロケールでサポートされる各記号にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
 
@@ -197,11 +197,11 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「キャンセル」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.ACTION </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.ACTION <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「すべてを選択」ボタンのキャプション。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.TOOLTIP_ACTION </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.TOOLTIP_ACTION <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「すべて選択」ボタンをクリックします。 </p> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>メールが正常に送信されなかった場合に表示されるエラーメッセージ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.TOOLTIP </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.TOOLTIP <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>「共有を埋め込む」ボタン。 </p> </td> 
   </tr> 
   <tr> 
@@ -257,7 +257,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>「キャンセル」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> EmbedShare.CUSTOM_SIZE </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> EmbedShare.CUSTOM_SIZE <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>埋め込みサイズ コンボボックスの最後の「カスタムサイズ」エントリのテキスト。 </p> </td> 
   </tr> 
   <tr> 
@@ -294,11 +294,11 @@ Web ページのコードは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook共有ボタン。 </p> </td> 
+   <td colname="col2"> <p>Facebook 共有ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> TwitterShare.TOOLTIP </span> を <span class="codeph"> きます </p> </td> 
-   <td colname="col2"> <p>Twitter共有ボタン。 </p> </td> 
+   <td colname="col1"> <p> TwitterShare.TOOLTIP <span class="codeph"> を </span> きます </p> </td> 
+   <td colname="col2"> <p>Twitter 共有ボタン。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -369,7 +369,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>お気に入りを編集モードの「お気に入りを追加」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AddFavoriteButton.TOOLTIP_UNSELECTED </span> を <span class="codeph"> リックします </p> </td> 
+   <td colname="col1"> <p> AddFavoriteButton.TOOLTIP_UNSELECTED <span class="codeph"> を </span> リックします </p> </td> 
    <td colname="col2"> <p>通常モードの「お気に入りを追加」ボタン。 </p> </td> 
   </tr> 
   <tr> 
@@ -377,7 +377,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>お気に入りを編集モードの「お気に入りを削除」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> RemoveFavoriteButton.TOOLTIP_UNSELECTED </span> を <span class="codeph"> します </p> </td> 
+   <td colname="col1"> <p> RemoveFavoriteButton.TOOLTIP_UNSELECTED <span class="codeph"> を </span> します </p> </td> 
    <td colname="col2"> <p>通常モードの「お気に入りを削除」ボタン。 </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>読み込み時にビューアによって生成されるページラベル。 </p> <p>そのシンボルの名前はテンプレートで、<span class="codeph"> XX </span> は横向きのゼロベースの拡散インデックスで、オプションの <span class="codeph"> YY </span> は XX </span> のターゲットとなる拡散内のゼロベースのページインデックス <span class="codeph"> す。 </p> <p>最初に読み込まれたアセットにのみ適用されます。<span class="codeph"> setAsset （） </span> API 呼び出しを使用してアセットが変更された場合は無視されます。 </p> </td> 
+   <td colname="col2"> <p>読み込み時にビューアによって生成されるページラベル。 </p> <p>そのシンボルの名前はテンプレートで、<span class="codeph"> XX </span> は横向きのゼロベースの拡散インデックスで、オプションの <span class="codeph"> YY </span> は XX <span class="codeph"> のターゲットとなる拡散内のゼロベースのページインデックス </span> す。 </p> <p>最初に読み込まれたアセットにのみ適用されます。<span class="codeph"> setAsset （） </span> API 呼び出しを使用してアセットが変更された場合は無視されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -409,7 +409,7 @@ Web ページのコードは、このようなローカリゼーションオブ�
    <td colname="col2"> <p>メインコントロールバーのスクロール右ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> SearchPanel.PLACEHOLDER </span> を <span class="codeph"> きます </p> </td> 
+   <td colname="col1"> <p> SearchPanel.PLACEHOLDER <span class="codeph"> を </span> きます </p> </td> 
    <td colname="col2"> <p>ユーザーが検索テキストの入力を開始する前に、検索入力ボックス内に表示されるローカライズされたプロンプト。 </p> </td> 
   </tr> 
   <tr> 

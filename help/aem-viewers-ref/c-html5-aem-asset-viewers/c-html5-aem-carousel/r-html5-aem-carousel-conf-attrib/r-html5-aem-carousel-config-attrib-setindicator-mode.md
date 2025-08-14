@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> セットインジケーターのレンダリングスタイルを設定します。 </p> <p>点線 </span> に設定す <span class="codeph"> と、コンポーネントはすべてのページで同じインジケーターをレンダリングします。 </p> <p><span class="codeph"> numeric に設定すると </span> 各インジケーター要素の中に 1 から始まるページ番号が配置されます。 </p> <p><span class="codeph"> 数値 </span> 操作モードは、タッチ入力を持つデバイスではサポートされていません。 代わりに、コンポーネントは </span> こ <span class="codeph"> ようなデバイスでドットを使用します。 </p> </td> 
+   <td colname="col2"> <p> セットインジケーターのレンダリングスタイルを設定します。 </p> <p>点線 <span class="codeph"> に設定す </span> と、コンポーネントはすべてのページで同じインジケーターをレンダリングします。 </p> <p><span class="codeph"> numeric に設定すると </span> 各インジケーター要素の中に 1 から始まるページ番号が配置されます。 </p> <p><span class="codeph"> 数値 </span> 操作モードは、タッチ入力を持つデバイスではサポートされていません。 代わりに、コンポーネントは <span class="codeph"> こ </span> ようなデバイスでドットを使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

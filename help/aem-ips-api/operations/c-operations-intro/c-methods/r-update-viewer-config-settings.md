@@ -1,5 +1,5 @@
 ---
-description: SWFビューアの設定を更新します。
+description: SWF ビューア設定を更新します。
 solution: Experience Manager
 title: updateViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-SWFビューアの設定を更新します。
+SWF ビューア設定を更新します。
 
 構文
 

@@ -20,23 +20,23 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> テンプレ <span class="codeph"><span class="varname"> ト </span></span> </p> </td> 
-   <td> <p>情報サーバーから返されたデータが結合されるコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、この DTD に続く XML です。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>情報サーバーから返されたデータが結合されるコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、この DTD に続く XML です。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは <span class="codeph"> &lt;info&gt;</span> 要素で始める必要があります。この要素には、オプションのデフォルト <span class="codeph"> &lt;var&gt;</span> 要素を含めることができます。 テンプレートコンテンツ自体 <span class="codeph">TEMPLATE_CONTENT</span> はHTMLテキストです。 さらに、コンテンツテンプレートには、<span class="codeph"> $</span> 文字で囲まれた変数名を含めることができます。 これらの文字は、情報サーバーが返す変数値またはデフォルトの変数値に置き換えられます。 </p> <p>テンプレートで定義されるデフォルト変数は、グローバル（rollover 属性が設定されていない場合）または特定のロールオーバーキーに固有（rollover 属性が存在する場合）のいずれかです。 </p> <p>テンプレート処理中は、ロールオーバーキー専用の変数がグローバル変数よりも優先されます。 </p> </td> 
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;/info&gt;</code> </p> <p>つまり、テンプレートは <span class="codeph"> &lt;info&gt;</span> 要素で始める必要があります。この要素には、オプションのデフォルト <span class="codeph"> &lt;var&gt;</span> 要素を含めることができます。 テンプレートコンテンツ自体 <span class="codeph">TEMPLATE_CONTENT</span> はHTMLのテキストです。 さらに、コンテンツテンプレートには、<span class="codeph"> $</span> 文字で囲まれた変数名を含めることができます。 これらの文字は、情報サーバーが返す変数値またはデフォルトの変数値に置き換えられます。 </p> <p>テンプレートで定義されるデフォルト変数は、グローバル（rollover 属性が設定されていない場合）または特定のロールオーバーキーに固有（rollover 属性が存在する場合）のいずれかです。 </p> <p>テンプレート処理中は、ロールオーバーキー専用の変数がグローバル変数よりも優先されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->情報パネルポップアップを設定する場合、情報パネルに渡されるHTMLコードとJavaScript コードはクライアントのコンピューター上で実行されることに注意してください。 そのため、このようなHTMLコードとJavaScript コードが安全であることを確認してください。
+>情報パネルポップアップを設定する場合、情報パネルに渡されたHTML コードとJavaScript コードはクライアントのコンピューター上で実行されます。 そのため、このようなHTML コードとJavaScript コードが安全であることを確認してください。
 
 ## プロパティ {#section-6dd7785357d740d095fa9f7fd0f67da4}
 

@@ -67,7 +67,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：InDesignOptions</span> </td> 
-   <td colname="col3"> InDesignファイルをサーバーにアップロードするためのオプション。 </td> 
+   <td colname="col3"> InDesign ファイルをサーバーにアップロードするためのオプション。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
@@ -87,7 +87,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">ジョブで送信された URL の数を返します。 getActiveJobs</a> お <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> び getScheduledJobs</a> で使用 <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> れます。 </td> 
+   <td colname="col3">ジョブで送信された URL の数を返します。 getActiveJobs<a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> お </a> び getScheduledJobs<a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> で使用 </a> れます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 上書き </span> </span> </td> 
@@ -97,7 +97,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：PDFOptions</span> </td> 
-   <td colname="col3"> Image Server にPDFファイルをアップロードするためのオプション。 </td> 
+   <td colname="col3"> PDF ファイルを Image Server にアップロードするためのオプション。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

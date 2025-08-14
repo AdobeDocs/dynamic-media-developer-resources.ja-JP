@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Dynamic Media リリースノート{#dynamic-media-release-notes}
 
-[!DNL Adobe Experience Cloud] の [!DNL Adobe Experience Manager] ソリューションの [!DNL Adobe Dynamic Media Classic] 部に関する最新のリリースノート。
+[!DNL Adobe Dynamic Media Classic] の [!DNL Adobe Experience Manager] ソリューションの [!DNL Adobe Experience Cloud] 部に関する最新のリリースノート。

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 画像レンダリングでは、ピラミッド以外のビネットに対して 2 メガピクセルのサイズ制限が適用されます。
 
-アプリケーションで、この制限を超える画像領域（幅 x 高さ）を持つピラミッド以外のビネットのサポートが必要な場合は、[!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] の `IrMaxNonPyrVignetteSize` の値を変更します。
+アプリケーションで、この制限を超える画像領域（幅 x 高さ）を持つピラミッド以外のビネットのサポートが必要な場合は、[!DNL `IrMaxNonPyrVignetteSize` /ImageServing/conf /ImageServerRegistry.conf] の *[!DNL install_root]* の値を変更します。
 
 >[!NOTE]
 >

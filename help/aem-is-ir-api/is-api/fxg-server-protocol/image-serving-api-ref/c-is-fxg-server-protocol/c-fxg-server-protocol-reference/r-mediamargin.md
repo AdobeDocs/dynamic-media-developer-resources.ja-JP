@@ -1,5 +1,5 @@
 ---
-description: メディアの余白を設定します。 PDFファイルに設定されているメディアの余白を設定します。
+description: メディアの余白を設定します。 PDF ファイルで設定されるメディアの余白を設定します。
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # mediaMargin{#mediamargin}
 
-メディアの余白を設定します。 PDFファイルに設定されているメディアの余白を設定します。
+メディアの余白を設定します。 PDF ファイルで設定されるメディアの余白を設定します。
 
 ポイント ` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]`
 

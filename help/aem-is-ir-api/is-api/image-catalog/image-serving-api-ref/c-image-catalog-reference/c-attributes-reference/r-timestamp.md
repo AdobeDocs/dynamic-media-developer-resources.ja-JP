@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 時間値 *`zzz`* は、`GMT` や `PST` など、3 文字または 4 文字のタイムゾーンコードです。 夏時間は、タイムゾーンコードで考慮する必要があります（例えば、太平洋標準時の `PST` と太平洋夏時間の `PDT`）。
 
-時間値 *`offset`* は、GMT を基準とした時間または時間：分のタイムゾーンオフセットです。 例えば、`PDT` は `GMT -7` と同等です。
+時間値 *`offset`* は、GMT を基準とした時間または時間 :minutes 単位のタイムゾーンオフセットです。 例えば、`PDT` は `GMT -7` と同等です。
 
 文字列形式の日付/時刻値のすべての要素が存在する必要があります。 日付/時刻の値が正しくフォーマットされていない場合、この値は無視され、代わりに [!DNL *`catalog`*.ini] ファイルの変更時刻が使用されます。
 

@@ -26,11 +26,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>双三次補間を選択します。 バイリニア補間よりも CPU に負荷がかかりますが、エイリアシングのアーティファクトが目立たない鮮明な画像が得られます。 </p> </td> 
+   <td colname="col2"> <p>双三次補間を選択します。 バイリニア補間よりもCPUを多用しますが、エイリアシングのアーティファクトが目立たない鮮明なイメージが生成されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>修正されたランチョス ウィンドウ関数を補間アルゴリズムとして選択します。 CPU コストが高く、2 立方バイトよりもわずかにシャープな結果を得ることができます。 シ <span class="codeph"> プな </span> は sharp2 </span> に置き換えられました。これにより、エイリアシング <span class="codeph"> アーティファクト（モアレ）が発生する可能性が低くなります。 </p> </td> 
+   <td colname="col2"> <p>修正されたランチョス ウィンドウ関数を補間アルゴリズムとして選択します。 CPUのコストが高く、2 立方バイトよりもわずかにシャープな結果を得ることができます。 シ <span class="codeph"> プな </span> は sharp2 <span class="codeph"> に置き換えられました。これにより、エイリアシング </span> アーティファクト（モアレ）が発生する可能性が低くなります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

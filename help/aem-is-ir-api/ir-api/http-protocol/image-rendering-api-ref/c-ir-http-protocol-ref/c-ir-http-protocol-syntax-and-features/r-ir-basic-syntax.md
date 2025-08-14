@@ -1,6 +1,6 @@
 ---
 title: 画像レンダリングの HTTP プロトコル基本構文
-description: ここでは、Dynamic Media画像レンダリング HTTP プロトコルの基本構文について説明します。
+description: この節では、Dynamic Media 画像レンダリング HTTP プロトコルの基本構文について説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 画像レンダリングの HTTP プロトコル基本構文{#image-rendering-http-protocol-basic-syntax}
 
-ここでは、Dynamic Media画像レンダリング HTTP プロトコルの基本構文について説明します。
+この節では、Dynamic Media 画像レンダリング HTTP プロトコルの基本構文について説明します。
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 **コメント**
 
-コメントは、任意の場所のリクエスト文字列に埋め込むことができ、ピリオド（.）で識別されます。 コマンド区切り記号（&amp;）の直後 コメントは、（エンコードされていない）コマンド区切り記号が次に現れることによって終了します。 この機能は、画像サービング以外の情報（タイムスタンプ、データベース ID など）をリクエストに追加するために使用できます。
+コメントは、任意の場所のリクエスト文字列に埋め込むことができ、コマンド区切り記号（&amp;）の直後にピリオド（.）を付けることで識別されます。 コメントは、（エンコードされていない）コマンド区切り記号が次に現れることによって終了します。 この機能は、画像サービング以外の情報（タイムスタンプ、データベース ID など）をリクエストに追加するために使用できます。
 
 **HTTP デコード**
 

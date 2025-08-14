@@ -57,7 +57,7 @@ CMYK 出力デバイスプロファイルは、異なるレンダリングイン
 
 ## 初期設定 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-カラーマネジメントが有効になっていて、`icc=` が指定されていない場合、サーバーは `fmt=` で指定された画像タイプに一致する画像を出力プロファイル（`attribute::IccProfile*`）に変換して配信します。
+カラーマネジメントが有効になっていて、`icc=` が指定されていない場合、サーバーは `attribute::IccProfile*` で指定された画像タイプに一致する画像を出力プロファイル（`fmt=`）に変換して配信します。
 
 指定しない場合、*`renderIntent`* は `attribute::IccRenderIntent` から、*`blackpointComp`* は `attribute::IccBlackPointCompensation` から継承されます。
 

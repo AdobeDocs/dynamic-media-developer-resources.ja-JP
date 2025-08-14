@@ -24,6 +24,6 @@ ht-degree: 11%
 |---|---|---|
 | name | `xsd:string` | 画像マップ定義の名前。 |
 | shapeType | `xsd:string` | 領域シェイプ値の 1 つ。 |
-| 地域 | `xsd:string` | 画像マップの座標。 形式は、タグ属性 `<area>`HTMLに基づきます。 |
+| 地域 | `xsd:string` | 画像マップの座標。 形式は、HTML `<area>` タグ属性に基づきます。 |
 | action | `xsd:string` | HTML `<area>` タグに含めるその他の属性（`href` URL など）。 |
 | 有効 | `xsd:boolean` | 画像マップが有効な場合は true。 |

@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> devicePixelRatio</span> が 1</span> より大きいデバイス <span class="codeph"> 最適化を有効、制限または無効 <span class="codeph"> します。 iPhone4 などの高密度ディスプレイを使用するデバイスや、同様のデバイスに影響します。 アクティブの場合、コンポーネントは、デバイスのピクセル比が <span class="codeph"> 1</span> であるかのように IS 画像リクエストのサイズを制限し、帯域幅を減らします。 </p> </td> 
+   <td colname="col2"> <p> devicePixelRatio<span class="codeph"> が 1</span> より大きいデバイス <span class="codeph"> 最適化を有効、制限または無効 </span> します。 iPhone4 などの高密度ディスプレイを使用するデバイスや、同様のデバイスに影響します。 アクティブの場合、コンポーネントは、デバイスのピクセル比が <span class="codeph"> 1</span> であるかのように IS 画像リクエストのサイズを制限し、帯域幅を減らします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数 </span></span> </p> </td> 

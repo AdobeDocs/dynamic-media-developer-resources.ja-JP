@@ -23,8 +23,8 @@ ht-degree: 3%
    <td colname="col2"> <p>画像マップの外観を指定します。 </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
       <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> デ <span class="codeph"> クトップデバイス </span> タッチデバイスには、アイコンとマップアイコンが静的に表示されます。 </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> 画像マップ領域 </span> レンダリングされる領域 <span class="codeph">。デスクトップでは、ロールオーバー時やタッチデバイス時に表示され、常に表示されます。 </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> デスクトップシステムの自動 </span> ールで <span class="codeph">、画像マップの領域はロールオーバー時に表示され、タッチデバイスのマップアイコンは常に表示されます。 </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> 画像マップ領域 <span class="codeph"> レンダリングされる領域 </span>。デスクトップでは、ロールオーバー時やタッチデバイス時に表示され、常に表示されます。 </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> デスクトップシステムの自動 <span class="codeph"> ールで </span>、画像マップの領域はロールオーバー時に表示され、タッチデバイスのマップアイコンは常に表示されます。 </p> </li> 
       <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none </span> 画像マップを無効にします。 </p> </li> 
      </ul> </p> </td> 
   </tr> 

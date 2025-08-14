@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオ再生の最後に「コールトゥアクション」パネルが表示されるかどうかを示します。 </p> </td> 
+   <td colname="col2"> <p> ビデオ再生の最後に「call-to-action」パネルが表示されるかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

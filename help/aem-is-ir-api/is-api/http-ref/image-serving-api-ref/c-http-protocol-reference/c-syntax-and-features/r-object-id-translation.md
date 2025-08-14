@@ -26,11 +26,11 @@ ht-degree: 2%
 
 ## 範囲 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-画像、SVG、静的コンテンツカタログ内のエントリへのすべての参照は翻訳フォントに考慮され、ICC プロファイル参照は翻訳されません。 [!DNL /is/image] と [!DNL /is/static requests] のパスの *`object`* に加えて、これらのコマンドとカタログ属性は、ID 変換の対象となります（`src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage` および `attribute::Watermark`）。
+画像、SVG、静的コンテンツカタログ内のエントリへのすべての参照は翻訳フォントに考慮され、ICC プロファイル参照は翻訳されません。 *`object`* と [!DNL /is/image] のパスの [!DNL /is/static requests] に加えて、これらのコマンドとカタログ属性は、ID 変換の対象となります（`src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage` および `attribute::Watermark`）。
 
 ## ID 翻訳マップ {#section-9e417b352c314dfe94e831fdd62cddc8}
 
-汎用オブジェクト ID と `locale=` 値の入力として指定される、ローカライズされたコンテンツの ID を決定するためにサーバーで使用されるルールを `attribute::LocaleMap` で定義します。
+汎用オブジェクト ID と `attribute::LocaleMap` 値の入力として指定される、ローカライズされたコンテンツの ID を決定するためにサーバーで使用されるルールを `locale=` で定義します。
 
 `attribute::LocaleMap` は、入力 *ロケール* のリスト（`locale=` で指定された値に一致）で構成され、それぞれに出力ロケールのサフィックスが 1 つ以上ありません（`*`locSuffixes`*`）。
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 地域の基準に対応するために、ロケール（例：ヨーロッパ、中東、北米）をグループ化することが望ましい場合が多くあります。 これは、複数層のルックアップを使用して実現できます。
 
-この例では、西および中東での使用に対応するコレクションをサポートします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。その後、画像を `w1` と `w3` で共有する場合を除き、両方のコレクションが特定のロケール（中東の 2 つのバリアントには `m1`、`m2`、西洋の 3 つのロケールには `w1`、`w2` および `w3`）に対してさらに絞り込まれます。 不明なロケールは汎用コレクションにのみマッピングされ、ロケール固有の画像にはアクセスできません。
+この例では、西および中東での使用に対応するコレクションをサポートします。 どちらのコレクションも汎用の画像コレクションに基づいて作成し、いくつかの画像を追加または変更します。その後、画像を `m1` と `m2` で共有する場合を除き、両方のコレクションが特定のロケール（中東の 2 つのバリアントには `w1`、`w2`、西洋の 3 つのロケールには `w3`、`w1` および `w3`）に対してさらに絞り込まれます。 不明なロケールは汎用コレクションにのみマッピングされ、ロケール固有の画像にはアクセスできません。
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -78,15 +78,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> w2 </span> </p> </td> 
-   <td> <p> myImg-W2、myImg-W、myImg </span> の <span class="codeph"> </p> </td> 
+   <td> <p> myImg-W2、myImg-W、myImg <span class="codeph"> の </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> m1 </span> </p> </td> 
-   <td> <p> myImg-M1、myImg-M、myImg </span> の <span class="codeph"> </p> </td> 
+   <td> <p> myImg-M1、myImg-M、myImg <span class="codeph"> の </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> m2 </span> </p> </td> 
-   <td> <p> myImg-M2、myImg-M、myImg </span> の <span class="codeph"> </p> </td> 
+   <td> <p> myImg-M2、myImg-M、myImg <span class="codeph"> の </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>その他すべて </p> </td> 
@@ -119,11 +119,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> de </span>, <span class="codeph"> de_at </span>, <span class="codeph"> de_de </span> </p> </td> 
-   <td> <p> myImg_470, myImg_480, myImg_1, myImg_2, myImg_3 </span> を <span class="codeph"> します </p> </td> 
+   <td> <p> myImg_470, myImg_480, myImg_1, myImg_2, myImg_3 <span class="codeph"> を </span> します </p> </td> 
   </tr> 
   <tr> 
    <td> <p>その他すべて </p> </td> 
-   <td> <p> myImg_1、myImg_2、myImg_3</span> を <span class="codeph"> します </p> </td> 
+   <td> <p> myImg_1、myImg_2、myImg_3<span class="codeph"> を </span> します </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 画像サービングコンポーネントは、サーバースーパーバイザー（Linux デーモンまたは Windows サービス）によって管理されます（S7Supervisor.exe は、サービスCampaign コントロールパネルに「Dynamic Media画像サービング」と表示されます）。
+description: 画像サービングコンポーネントは、サーバースーパーバイザー（Linux デーモンまたは Windows サービスの 1 つ）によって管理されます（S7Supervisor.exe は、サービスCampaign コントロールパネルで「Dynamic Media 画像サービング」と表示されます）。
 solution: Experience Manager
 title: サーバースーパーバイザー
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # サーバースーパーバイザー{#server-supervisor}
 
-画像サービングコンポーネントは、サーバースーパーバイザー（Linux デーモンまたは Windows サービス）によって管理されます（S7Supervisor.exe は、サービスCampaign コントロールパネルに「Dynamic Media画像サービング」と表示されます）。
+画像サービングコンポーネントは、サーバースーパーバイザー（Linux デーモンまたは Windows サービスの 1 つ）によって管理されます（S7Supervisor.exe は、サービスCampaign コントロールパネルで「Dynamic Media 画像サービング」と表示されます）。
 
 サーバースーパーバイザーは、他の画像サービングコンポーネントの起動と停止に加えて、これらの他のコンポーネントの正常性を確保する役割を担います。 コンポーネントがクラッシュした場合は、サービスの中断を最小限に抑えるために自動的に再起動されます。
 

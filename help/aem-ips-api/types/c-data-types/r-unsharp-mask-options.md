@@ -20,7 +20,7 @@ ht-degree: 8%
 
 ## パラメーター {#section-c3f0d03136ba4422819cb463bd393885}
 
-`minOccurs=" *`n`*".` を使用してオプション `unsharpMaskOptions` 値を指定します
+`unsharpMaskOptions`n`minOccurs=" *` を使用してオプション `*".` 値を指定します
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -92,4 +92,4 @@ ht-degree: 8%
 
 >[!MORELIKETHIS]
 >
->* [ 画像サービス API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=ja)
+>* [ 画像サービス API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

@@ -1,5 +1,5 @@
 ---
-description: このドキュメントでは、Dynamic Media画像レンダリングサーバーの管理方法について説明します。
+description: このドキュメントでは、Dynamic Media 画像レンダリングサーバーの管理方法について説明します。
 solution: Experience Manager
 title: サーバー管理の概要
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # サーバー管理の概要{#server-administration-overview}
 
-このドキュメントでは、Dynamic Media画像レンダリングサーバーの管理方法について説明します。
+このドキュメントでは、Dynamic Media 画像レンダリングサーバーの管理方法について説明します。
 
 画像レンダリングは、次の 2 つの主要コンポーネントで構成されます。
 

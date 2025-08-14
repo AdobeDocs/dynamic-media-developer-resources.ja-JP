@@ -22,7 +22,7 @@ ht-degree: 0%
 * Dynamic Media Classic内のバックエンドで作成者が定義したラベル。
 * ビューアによって自動的に生成されたラベル。
 
-シンボルベースのラベルは、[ ユーザーインターフェイス要素のローカライズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) で説明されているように、`MediaSet.LABEL_XX[_YY]` および `MediaSet.LABEL_DELIM` のシンボルを使用して定義されます。 このようなラベルは、ecatalog スプレッド全体に対して定義できます。その場合は、短い SYMBOL 構文（`MediaSet.LABEL_XX`）を使用する必要があります。 または、完全な SYMBOL 構文（`MediaSet.LABEL_XX_YY`）を使用して、ページごとに個別に指定します。
+シンボルベースのラベルは、`MediaSet.LABEL_XX[_YY]` ユーザーインターフェイス要素のローカライズ `MediaSet.LABEL_DELIM` で説明されているように、[ および ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) のシンボルを使用して定義されます。 このようなラベルは、ecatalog スプレッド全体に対して定義できます。その場合は、短い SYMBOL 構文（`MediaSet.LABEL_XX`）を使用する必要があります。 または、完全な SYMBOL 構文（`MediaSet.LABEL_XX_YY`）を使用して、ページごとに個別に指定します。
 
 ecatalog スプレッドで両方のページのラベルを定義すると、ビューアはこれらのラベルを SYMBOL を使用して 1 つの文字列に連結 `MediaSet.LABEL_DELIM` ます。 シンボルベースのラベルは、バックエンドで定義されたラベルや、ビューアで自動生成されたラベルよりも優先されます。
 

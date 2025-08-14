@@ -47,7 +47,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>tif-α </p> </td> 
-  <td class="stentry"> <p>アルファチャンネルのTIFF。 </p> </td> 
+  <td class="stentry"> <p>アルファチャンネルのTIFF </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,7 +57,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>Macromedia swf ファイルに埋め込まれた非可逆JPEGおよび圧縮済みマスク。 </p> </td> 
+  <td class="stentry"> <p>非可逆JPEGと、Macromedia swf ファイルに埋め込まれた圧縮マスク。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -72,12 +72,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif </p> </td> 
-  <td class="stentry"> <p>256 色のGIF。 </p> </td> 
+  <td class="stentry"> <p>256 色のGIF </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif-alpha </p> </td> 
-  <td class="stentry"> <p>255 色とキーカラーの透明度を備えたGIF。 </p> </td> 
+  <td class="stentry"> <p>255 色のGIFとキーカラーの透明度。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType</span> </p> </td> 
@@ -116,11 +116,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-`icc=` が指定されていない場合、*`pixelType`* Effects はカラースペース変換を出力します。*`pixelType`* に対応するデフォルトのカラープロファイルが適用されます。 カラーマネジメントが無効の場合、ネイティブ変換が適用されます。 *`pixelType`* `icc=` が指定されている場合、出力ピクセルのタイプを決定する無視されます。
+*`pixelType`* が指定されていない場合、`icc=` Effects はカラースペース変換を出力します。*`pixelType`* に対応するデフォルトのカラープロファイルが適用されます。 カラーマネジメントが無効の場合、ネイティブ変換が適用されます。 *`pixelType`* `icc=` が指定されている場合、出力ピクセルのタイプを決定する無視されます。
 
 *`compression`* tif、tif-alpha、またはPDFが *`format`* として指定されている場合にのみ使用できます。 これらの画像形式でサポートされる圧縮オプションについては、次の表を参照してください。
 
-`qlt-`JPEG、JPEG圧縮を使用したPDF、JPEG圧縮を使用したTIFF、SWFファイルなどのJPEGエンコーディングオプションを設定します。 `fmt=gif` または `fmt=gif-alpha` の場合は `quantize=` を使用します。 詳細は、コマンドの説明を参照してください。 その他の形式には、設定可能なオプションはありません。
+`qlt-` JPEG、JPEG圧縮を使用したTIFF、JPEG圧縮を使用したPDF、SWF ファイルの各フォーマットに対して、JPEG エンコーディングオプションを設定します。 `quantize=` または `fmt=gif` の場合は `fmt=gif-alpha` を使用します。 詳細は、コマンドの説明を参照してください。 その他の形式には、設定可能なオプションはありません。
 
 すべての形式およびピクセルタイプで、1 ピクセルあたり 8 ビットのコンポーネントが返されます。
 
@@ -163,13 +163,13 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, グレー，cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> （none|lzw|zip|jpeg）, pathEmbed=, qlt </span> </p> <p>（<span class="codeph"> qlt= </span> は、tiffCompression </span> が「jpeg」 <span class="varname"> 設定されている場合を除いて無視されます）。 </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> （none|lzw|zip|jpeg）, pathEmbed=, qlt </span> </p> <p>（<span class="codeph"> qlt= </span> は、tiffCompression <span class="varname"> が「jpeg」 </span> 設定されている場合を除いて無視されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb、グレー </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>いいえ </p> <p>（Flash Playerは、埋め込まれた ICC プロファイルを無視します）。 </p> </td> 
+   <td colname="col4"> <p>いいえ </p> <p>（Flash Player は、埋め込まれた ICC プロファイルを無視します）。 </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>、<span class="codeph"> 属性：:TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, グレー，cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> （なし|zip|jpeg）,qlt= </span> </p> <p> （<span class="codeph"> qlt= </span> は、tiffCompression </span> が「jpeg」 <span class="varname"> 設定されている場合を除いて無視されます）。 </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> （なし|zip|jpeg）,qlt= </span> </p> <p> （<span class="codeph"> qlt= </span> は、tiffCompression <span class="varname"> が「jpeg」 </span> 設定されている場合を除いて無視されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -206,7 +206,7 @@ ht-degree: 4%
 
 ## 初期設定 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* デフォルト値は `attribute::Format` で、*`tiffCompression`* デフォルト値は `attribute::TiffEncoding` です。 *`pixelType`* `icc=` が指定されていない場合は、デフォルトで `rgb` に設定されます。それ以外の場合は、指定された ICC プロファイルのピクセルタイプに対応します。
+*`format`* デフォルト値は `attribute::Format` で、*`tiffCompression`* デフォルト値は `attribute::TiffEncoding` です。 *`pixelType`* `rgb` が指定されていない場合は、デフォルトで `icc=` に設定されます。それ以外の場合は、指定された ICC プロファイルのピクセルタイプに対応します。
 
 ## 関連項目 {#section-c55efc881fc94c70bff91b870e026a7b}
 

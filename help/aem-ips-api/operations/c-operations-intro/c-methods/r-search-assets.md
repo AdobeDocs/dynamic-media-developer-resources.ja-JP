@@ -96,7 +96,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> Publish州の選択。 </td> 
+   <td colname="col4"> 公開状態の選択。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -108,7 +108,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p><span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph">conditionMatchMode</span> </p> <p> systemFieldConditionArray</span> および <span class="codeph"> metadataConditionArray</span> を <span class="codeph"> します。 デフォルトは <span class="codeph"> MatchAll</span> です。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph">conditionMatchMode</span> </p> <p> systemFieldConditionArray<span class="codeph"> および </span> metadataConditionArray<span class="codeph"> を </span> します。 デフォルトは <span class="codeph"> MatchAll</span> です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -120,7 +120,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>systemFieldCondition</span> の一致を組み合わせるための検索一致モード <span class="codeph"> 選択します。 デフォルトは <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>systemFieldCondition<span class="codeph"> の一致を組み合わせるための検索一致モード </span> 選択します。 デフォルトは <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -144,7 +144,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">Search Match metadataCondition</span> の一致を組み合わせ <span class="codeph"> ためのモード。 デフォルトは <span class="codeph"> MatchAll</span> です。 </td> 
+   <td colname="col4">Search Match metadataCondition<span class="codeph"> の一致を組み合わせ </span> ためのモード。 デフォルトは <span class="codeph"> MatchAll</span> です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,13 +174,13 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">true</span><span class="codeph">assetSubTypeArray</span> が空でない場合 <span class="codeph">、サブタイプが assetSubTypeArray</span> に含まれるアセットのみ <span class="codeph"> 返されます。 false<span class="codeph"> 場合 </span> （デフォルト）、サブタイプが定義されていないアセットが返されます。 </td> 
+   <td colname="col4">true<span class="codeph"></span>assetSubTypeArray<span class="codeph"> が空でない場合 </span>、サブタイプが assetSubTypeArray<span class="codeph"> に含まれるアセットのみ </span> 返されます。 false<span class="codeph"> 場合 </span> （デフォルト）、サブタイプが定義されていないアセットが返されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> true の場合、PDFページの画像を取り込むなど、プライマリアセットの取り込み中に生成された副産物アセットは、検索結果から除外されます。 初期設定は false。 </td> 
+   <td colname="col4"> true の場合、取り込まれたPDF ページ画像など、プライマリアセットの取り込み中に生成された副産物アセットは、検索結果から除外されます。 初期設定は false。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
@@ -204,7 +204,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">recordsPerPage</span> ページのサイズに基づいて、返す結果 <span class="codeph"> ページを指定します。 </td> 
+   <td colname="col4">recordsPerPage<span class="codeph"> ページのサイズに基づいて、返す結果 </span> ページを指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

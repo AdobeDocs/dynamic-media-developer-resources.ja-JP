@@ -1,6 +1,6 @@
 ---
 title: Adobe Analyticsのトラッキングのサポート
-description: HTML5 Video360 ビューアは、Adobe Analyticsのトラッキングを標準でサポートしています。
+description: HTML5 Video360 ビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-HTML5 Video360 ビューアは、Adobe Analyticsのトラッキングを標準でサポートしています。
+HTML5 Video360 ビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
 
 トラッキングを有効にするには、適切な会社プリセット名 `config2` パラメーターとして渡します。
 
@@ -47,7 +47,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 });
 ```
 
-ビューアは、次の SDK ユーザーイベントを追跡します。
+ビューアは、次のSDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
@@ -63,7 +63,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset （） </span> API を使用してビューアでアセット <span class="codeph"> スワップした場合。 </p> </td> 
+   <td colname="col2"> <p>setAsset （） <span class="codeph"> API を使用してビューアでアセット </span> スワップした場合。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 

@@ -32,7 +32,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">true</span> に設定されている場合はサイトマップ <span class="codeph"> 生成します。 <p><p>メモ：サイトマップ生成設定が「手動」に設定され、<span class="codeph"> forceUpdate</span> が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
+   <td colname="col3">true<span class="codeph"> に設定されている場合はサイトマップ </span> 生成します。 <p><p>メモ：サイトマップ生成設定が「手動」に設定され、<span class="codeph"> forceUpdate</span> が設定されていない場合、サイトマップは生成されません。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

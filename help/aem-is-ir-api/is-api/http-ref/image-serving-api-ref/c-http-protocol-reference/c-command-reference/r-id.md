@@ -35,7 +35,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> req=props</b> からの <b> バージョン識別子 </th> 
+   <th class="entry"> req=props<b> からの </b> バージョン識別子 </th> 
   </tr> 
  </thead>
  <tbody> 

@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: Flash ストリーミング サーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート f4m 応答を生成する際に使用される、Flashストリーミングサーバーの URL プレフィックス。
+description: Flash ストリーミングサーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート f4m 応答を生成する際に使用される Flash ストリーミングサーバーの URL プレフィックス。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash ストリーミング サーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート f4m 応答を生成する際に使用される、Flashストリーミングサーバーの URL プレフィックス。
+Flash ストリーミングサーバーの URL プレフィックス。 req=mbrSet を使用してマルチビットレート f4m 応答を生成する際に使用される Flash ストリーミングサーバーの URL プレフィックス。
 
 ## プロパティ {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

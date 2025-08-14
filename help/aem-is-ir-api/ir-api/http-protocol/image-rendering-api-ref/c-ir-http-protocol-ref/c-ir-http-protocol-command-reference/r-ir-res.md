@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-デカール マテリアルがある場合、`size=` と `res=` の両方が指定されていると、`size=` が優先されます。
+デカール マテリアルがある場合、`size=` と `size=` の両方が指定されていると、`res=` が優先されます。
 
 ## プロパティ {#section-6a458ddc202f46e0b668c9f040a65cef}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 初期設定 {#section-ee4088a994014df59105fc1dbb2aa042}
 
-マテリアルがカタログ エントリに基づいている場合は `catalog::Resolution`、指定さ `res= is` ない場合、または 0 以下の値に設定される場合は `attribute::Resolution` です。
+マテリアルがカタログ エントリに基づいている場合は `catalog::Resolution`、指定さ `attribute::Resolution` ない場合、または 0 以下の値に設定される場合は `res= is` です。
 
 ## 関連項目 {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 

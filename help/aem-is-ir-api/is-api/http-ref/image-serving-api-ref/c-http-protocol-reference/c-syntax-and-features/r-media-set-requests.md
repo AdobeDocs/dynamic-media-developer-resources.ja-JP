@@ -29,7 +29,7 @@ ht-degree: 0%
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>シンプルな画像 </p></td> 
-  <td class="stentry"> <p>カタログ：:ImageSet</span> が定義 <span class="codeph"> れていない画像レコード。 </p></td> 
+  <td class="stentry"> <p>カタログ：:ImageSet<span class="codeph"> が定義 </span> れていない画像レコード。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>シンプルなビデオ </p></td> 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=` 修飾子は、`catalog::UserData` フィールドと共に使用して、画像およびスウォッチのラベルを生成します。 `catalog:UserData` フィールドはキーと値のペアのセットとして解析され、このセットの labelkey インデックスが解析されて、指定されたキーの値が取得されます。 次に、この値が *`s`* と *`i`* の *`l`* 属性で返されます。
+`labelkey=` 修飾子は、`catalog::UserData` フィールドと共に使用して、画像およびスウォッチのラベルを生成します。 `catalog:UserData` フィールドはキーと値のペアのセットとして解析され、このセットの labelkey インデックスが解析されて、指定されたキーの値が取得されます。 次に、この値が *`l`* と *`s`* の *`i`* 属性で返されます。
 
 ## 適用される制限 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ## 例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-`req=set` のリクエストに対する XML 応答のサンプルについては、「HTMLの例」ヘッダーのプロパティ ページを参照してください。
+`req=set` のリクエストに対する XML 応答のサンプルについては、HTMLの例ヘッダーのプロパティ ページを参照してください。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

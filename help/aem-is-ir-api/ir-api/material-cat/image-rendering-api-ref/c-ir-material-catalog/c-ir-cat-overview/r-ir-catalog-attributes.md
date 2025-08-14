@@ -61,24 +61,24 @@ ht-degree: 1%
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ShowOverlapObjs </a> を <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> します </p></td> 
+  <td class="stentry"> <p>ShowOverlapObjs <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> を </a> します </p></td> 
   <td class="stentry"> <p>オーバーラップ オブジェクトの初期表示/非表示状態。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
-  <td class="stentry"> <p>src=</span> URL<span class="codeph"> 絶対パスを許可します。 </p></td> 
+  <td class="stentry"> <p>src=<span class="codeph"> URL</span> 絶対パスを許可します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
-  <td class="stentry"> <p>src=</span> の相対 URL<span class="codeph"> ルート URL。 </p></td> 
+  <td class="stentry"> <p>src=<span class="codeph"> の相対 URL</span> ルート URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
-  <td class="stentry"> <p>obj=</span> が失敗 <span class="codeph"> た場合の動作。 </p></td> 
+  <td class="stentry"> <p>obj=<span class="codeph"> が失敗 </span> た場合の動作。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513" type="reference" format="dita" scope="local"> OnFailSel </a> </p></td> 
-  <td class="stentry"> <p>sel=</span> が失敗 <span class="codeph"> た場合の動作。 </p></td> 
+  <td class="stentry"> <p>sel=<span class="codeph"> が失敗 </span> た場合の動作。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> ErrorImage </a> </p></td> 
@@ -102,7 +102,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
-  <td class="stentry"> <p>swf</span> 応答画像へのアクセス <span class="filepath"> 許可された web ドメイン。 </p></td> 
+  <td class="stentry"> <p>swf<span class="filepath"> 応答画像へのアクセス </span> 許可された web ドメイン。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> </a> </p></td> 
@@ -160,7 +160,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
-  <td class="stentry"> <p>TIFFのエンコード形式。 </p></td> 
+  <td class="stentry"> <p>TIFFのエンコーディング形式。 </p></td> 
  </tr> 
 </table>
 

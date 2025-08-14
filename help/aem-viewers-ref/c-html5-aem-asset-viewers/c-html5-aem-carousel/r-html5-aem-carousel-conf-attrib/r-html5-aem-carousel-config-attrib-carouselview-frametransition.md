@@ -20,15 +20,15 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|フェード|スライド </span> </p> </td> 
-   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 例えば、<span class="codeph"> none </span> はトランジションを表しません。フレームの変更は即座に行われます。 また、 </p> <p> フェード </span> ード <span class="codeph">、古いフレームと新しいフレームの間のクロスフェードトランジションを意味します。 最後に </p> <p> <span class="codeph"> のスライド </span> は、古いフレームがビューからスライドし、新しいフレームがスライドするトランジションをアクティブにします。 </p> </td> 
+   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 例えば、<span class="codeph"> none </span> はトランジションを表しません。フレームの変更は即座に行われます。 また、 </p> <p> フェード <span class="codeph"> ード </span>、古いフレームと新しいフレームの間のクロスフェードトランジションを意味します。 最後に </p> <p> <span class="codeph"> のスライド </span> は、古いフレームがビューからスライドし、新しいフレームがスライドするトランジションをアクティブにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
-   <td colname="col2"> <p>フェード </span> またはスライド切り替え効果 <span class="codeph"> デュレーション （秒） <span class="codeph"> 指定 </span> ます。 </p> </td> 
+   <td colname="col2"> <p>フェード <span class="codeph"> またはスライド切り替え効果 </span> デュレーション （秒） <span class="codeph"> 指定 </span> ます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing </span> </span> </p> </td> 
-   <td colname="col2"> <p>スライド </span> トランジション内の隣接 <span class="codeph"> るフレーム間の間隔は、0 </span> ～ <span class="codeph"> 1 </span> の範囲 <span class="codeph"> あり、コンポーネントの幅に対して相対的です。 </p> </td> 
+   <td colname="col2"> <p>スライド <span class="codeph"> トランジション内の隣接 </span> るフレーム間の間隔は、0 <span class="codeph"> ～ </span> 1 <span class="codeph"> の範囲 </span> あり、コンポーネントの幅に対して相対的です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

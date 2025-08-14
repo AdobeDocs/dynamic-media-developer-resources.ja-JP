@@ -97,7 +97,7 @@ searchAssets で使用する検索語句を追加します。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 大文字と小文字を区別 </span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Metadata Server の大文字と小文字の区別を設定します。 <span class="codeph"> searchAssetsByMetadata</span> 呼び出しで使用されます。 </p> <p>searchAssetsByMetadata</a><a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col3"> <p> Metadata Server の大文字と小文字の区別を設定します。 <span class="codeph"> searchAssetsByMetadata</span> 呼び出しで使用されます。 </p> <p>searchAssetsByMetadata<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"></a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

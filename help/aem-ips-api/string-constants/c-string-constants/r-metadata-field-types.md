@@ -22,7 +22,7 @@ MetadataField/type、saveMetadataFieldParam/fieldType、createMetadataField/fiel
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]：値 [!DNL `True`] および [!DNL `False`] に初期化された変更不可能な辞書を持つ [!DNL `SingleFixedTag`] の特殊ケース。
+* [!DNL `BooleanTag`]：値 [!DNL `SingleFixedTag`] および [!DNL `True`] に初期化された変更不可能な辞書を持つ [!DNL `False`] の特殊ケース。
 
 * [!DNL `Color`]
 * [!DNL `Date`]

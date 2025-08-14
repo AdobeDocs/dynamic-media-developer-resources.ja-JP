@@ -36,7 +36,7 @@ ht-degree: 10%
 | retainPublishState | `xsd:boolean` | いいえ | アセットが再アップロードされたときに公開状態を保持する場合は、`true` に設定します。 |
 | defaultSourceProfileHandle | `xsd:string` | いいえ | デフォルトのソースカラープロファイルとして使用する IccProfile アセット。 |
 | defaultDisplayProfileHandle | `xsd:string` | いいえ | デフォルトの表示カラープロファイルとして使用する IccProfile アセット。 |
-| iptcExifMappingXsltHandle | `xsd:string` | いいえ | IPTC および EXIF メタデータを IPS メタデータフィールドにマッピングするために使用される XSL アセット。 |
+| iptcExifMappingXsltHandle | `xsd:string` | いいえ | IPTCおよび EXIF メタデータの IPS メタデータフィールドへのマッピングに使用される XSL アセット。 |
 | xmpMappingXsltHandle | `xsd:string` | いいえ | XMP メタデータを IPS メタデータフィールドにマッピングするために使用される XSL アセット。 |
 | diskSpaceWarningMin | `xsd:int` | いいえ | 警告メッセージが送信される前に使用可能な最小空きディスク領域（KB 単位）。 |
 | emailTrashCleanupWarning | `xsd:boolean` | いいえ | `true` に設定すると、アセットがごみ箱から空になるたびに会社管理者に通知が送信されます。 |

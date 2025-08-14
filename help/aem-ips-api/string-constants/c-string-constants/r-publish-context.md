@@ -1,7 +1,7 @@
 ---
 description: getActivePublishContextsReturn/publishContext で使用されます。
 solution: Experience Manager
-title: Publish コンテキスト
+title: 公開コンテキスト
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Publish コンテキスト{#publish-context}
+# 公開コンテキスト{#publish-context}
 
 getActivePublishContextsReturn/publishContext で使用されます。
 

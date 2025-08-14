@@ -1,7 +1,7 @@
 ---
-description: このセクションでは、SVGデータ属性について説明します。
+description: この節では、SVGのデータ属性について説明します。
 solution: Experience Manager
-title: SVGデータ参照
+title: SVG データ参照
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# SVGデータ参照{#svg-data-reference}
+# SVG データ参照{#svg-data-reference}
 
-このセクションでは、SVGデータ属性について説明します。
+この節では、SVGのデータ属性について説明します。
 
 * [有効期限](r-expiration-svg.md)
 * [ID](r-id-svg.md)

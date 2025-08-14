@@ -23,7 +23,7 @@ IPS API v4.0 の新しい変更点と実装された変更点について説明�
 
 フィールド `PostScriptOptions/alpha` 追加しました。
 
-`getProperty` 操作に `VideoRootUrl` と `SwfRootUrl` のプロパティを追加しました。
+`VideoRootUrl` 操作に `SwfRootUrl` と `getProperty` のプロパティを追加しました。
 
 呼び出し元のアプリケーションを追跡するために、オプションの `appName` パラメーターと `appVersion` パラメーターを `authHeader` に追加しました。 `ipsApiService.log` にログを追加しました。
 
@@ -35,7 +35,7 @@ WSDL 生成サーブレットにオプションの `serviceUrl` パラメータ�
 
 主 `'Asset'` クロスアセットメタデータフィールドを許可するために、アセットタイプの文字列定数を追加しました。
 
-`searchAssets` 用 `trashState` パラメーターを実装しました。
+`trashState` 用 `searchAssets` パラメーターを実装しました。
 
 操作 `getAssetPublishHistory` 実装しました。
 
@@ -53,7 +53,7 @@ CRUD 操作を実装しました。
 
 `ImageServingPublishSettings`、`getImageServingPublishSettings`、`setImageServingPublishSettings` を追加しました。
 
-新しい `createMetadataField` および `updateMetadataField` の操作に置き換えて、`saveMetadataField` の操作を非推奨（廃止予定）としました。
+新しい `saveMetadataField` および `createMetadataField` の操作に置き換えて、`updateMetadataField` の操作を非推奨（廃止予定）としました。
 
 バッチ削除操作 `deleteAssetsParam` 実装しました。
 
@@ -65,13 +65,13 @@ CRUD 操作を実装しました。
 
 実装 `getAssetCounts`。
 
-アセットに `RenderSet` メンバーを含めるためのサポートを `setImageSetMembers` に追加 `ImageSet` ました。
+アセットに `setImageSetMembers` メンバーを含めるためのサポートを `RenderSet` に追加 `ImageSet` ました。
 
 操作 `replaceImage` 追加しました。
 
 操作 `copyImage` 追加しました。
 
-`LayerViewInfo`、`TemplateInfo`、`WatermarkInfo` に `setUrlModifier` 操作フィールドと `urlModifier/urlPostApplyModifier` フィールドを追加しました。
+`setUrlModifier`、`urlModifier/urlPostApplyModifier`、`LayerViewInfo` に `TemplateInfo` 操作フィールドと `WatermarkInfo` フィールドを追加しました。
 
 操作 `createDerivedAsset` 追加しました。 現在、`ownerHandle` は画像アセットを参照する必要があり、タイプは `AdjustedView` または `LayerView` です。
 
@@ -79,7 +79,7 @@ CRUD 操作を実装しました。
 
 Web サービス API に移植される、`CompanySettings` の IPS 会社設定。
 
-操作 `excludeByproducts` フィルターフラグ `searchAssets` 追加しました。 このフラグを true に設定すると、`PSDlayer` イメージとPDFの取り込まれたイメージが実行されます。
+操作 `excludeByproducts` フィルターフラグ `searchAssets` 追加しました。 このフラグを true に設定すると、画像とPDF`PSDlayer` 取り込まれた画像が実行されます。
 
 操作 `getGenerationInfo` 追加しました。
 
@@ -115,7 +115,7 @@ Web サービス API に移植される、`CompanySettings` の IPS 会社設定
 
 操作 `getAssociatedAssets` 実装しました。
 
-以前 `ReprocessAssets` アップロードしたプライマリソースファイルの再処理（PDFの再取り込みや画像の再最適化など）を可能にするジョブタイプが追加されました。
+以前 `ReprocessAssets` アップロードしたプライマリソースファイルの再処理（PDF の再取り込みや画像の再最適化など）を可能にするジョブタイプが追加されました。
 
 `PropertySetType` フィールドタイプの名前を `propertyType` に変更しました。 この名前の変更は、`createPropertySetType` パラメーターと応答 `getPropertySetType/getPropertySetTypes` 影響します。
 
@@ -166,7 +166,7 @@ API 操作のロケールを設定するためのオプションのロケール�
 
 gzip 応答制御のためのSOAPおよび HTTP ヘッダーのサポートを実装しました。
 
-`authHeader` に `gzipResponse` フラグを追加しました。 存在しない場合、API は HTTP `Accept-Encoding` ヘッダーを確認します。
+`gzipResponse` に `authHeader` フラグを追加しました。 存在しない場合、API は HTTP `Accept-Encoding` ヘッダーを確認します。
 
 厳密に型指定されたメタデータフィールド条件の searchAssets のサポートを追加しました。
 
@@ -174,7 +174,7 @@ gzip 応答制御のためのSOAPおよび HTTP ヘッダーのサポートを�
 * ブール値フィールドの場合、`boolVal` は `Equals` の op で渡すことができます。
 * Int フィールドの場合、`longVal` は数値比較演算子（`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`）で渡され、`minLong/maxLong` は数値範囲演算子（`Between, NotBetween`）で渡されます。
 * Float フィールドの場合、`doubleVal` は数値比較演算子（`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`）で渡され、`minDouble/maxDouble` は数値範囲演算子（`Between, NotBetween`）で渡されます。
-* 日付フィールドの場合、数値比較演算子（`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`）を使用して `dateVal` を渡すか、数値範囲演算子（`Between, NotBetween`）を使用して minDate/maxDate を渡すことができます。
+* 日付フィールドの場合、数値比較演算子（`dateVal`）を使用して `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals` を渡すか、数値範囲演算子（`Between, NotBetween`）を使用して minDate/maxDate を渡すことができます。
 
 説明、`jobSubType`、`originalJobName` の各フィールドを `JobLog` タイプに追加しました。
 
@@ -185,16 +185,16 @@ gzip 応答制御のためのSOAPおよび HTTP ヘッダーのサポートを�
 さらに、次のフィールドは `getJobLogs` と `getJobLogDetails` の両方に含まれていません。 以前のバージョンでは、`getJobLogDetails` でのみ使用できました。
 
 * `endDate` （ジョブが完了した場合）。
-* `fileDuplicateCount` （以前は常に `getJobLogs` と `0` っていました）
-* `fileUpdateCount` （以前は常に `getJobLogs` と `0` 合され、`fileSuccessCount` に含まれていましたが、現在は別々のフィールドに分割されています）。
+* `fileDuplicateCount` （以前は常に `0` と `getJobLogs` っていました）
+* `fileUpdateCount` （以前は常に `0` と `getJobLogs` 合され、`fileSuccessCount` に含まれていましたが、現在は別々のフィールドに分割されています）。
 
 `JobLogDetail` タイプに assetHandle フィールドを追加しました。
 
 `submitJob` にオプションの説明パラメーターを追加しました。 このパラメーターは、`getScheduledJobs`、`getActiveJobs`、`getJobLogs` で取得するために渡されます。
 
-「SKU システム」フィールドを非推奨（廃止予定）にしました。 フィールドが `searchAssets` に `SystemFieldCondition` として渡された場合、このフィールドは無視されます。
+「SKU システム」フィールドを非推奨（廃止予定）にしました。 フィールドが `SystemFieldCondition` に `searchAssets` として渡された場合、このフィールドは無視されます。
 
-`searchAssets` に `excludeAssetTypeArray` フィルターを追加しました。
+`excludeAssetTypeArray` に `searchAssets` フィルターを追加しました。
 
 `MaskInfo` タイプを `Asset` に追加しました。
 
@@ -322,12 +322,12 @@ IPS で管理する新しいアセットタイプを追加しました。
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>レンダリング後に複数ページのPDFを eCatalog に結合するかどうかを定義します（デフォルトは true）。 </p> </td> 
+   <td colname="col4"> <p>レンダリング後に複数ページのPDFを eCatalog に組み合わせるかどうかを定義します（デフォルトは true）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>後で検索サーバーに提供するために、PDFの単語を DB に抽出するかどうかを指定します（デフォルトは false）。 </p> </td> 
+   <td colname="col4"> <p>後で検索サーバーに提供するために、PDFの単語を DB に抽出するかどうかを定義します（デフォルトは false）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

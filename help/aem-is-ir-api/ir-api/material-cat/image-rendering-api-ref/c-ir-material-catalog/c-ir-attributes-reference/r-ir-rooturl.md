@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-相対画像 URL のルート URL。 相対画像 URL のルート URL を指定します。 `src=` 値が { 中括弧 } で囲まれている場合、`attribute::RootPath` の代わりに `attribute::RootUrl` が使用されます。
+相対画像 URL のルート URL。 相対画像 URL のルート URL を指定します。 `attribute::RootUrl` 値が `attribute::RootPath` で囲まれている場合、`src=` の代わりに {curly braces} が使用されます。
 
 ## プロパティ {#section-69cd0f71ea614770a8778c745d23197a}
 

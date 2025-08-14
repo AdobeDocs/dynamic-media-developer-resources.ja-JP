@@ -24,7 +24,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 0 ～ 1 </span> の範囲内の関数。 実際の速度の誤った方向に移動する場合の <span class="codeph"> %</span> 値です。 1</span> に設定 <span class="codeph"> ると、マウスと一緒に移動します。 0</span> に設定 <span class="codeph"> ると、まったく間違った方向に移動することはできません。 </p> </td> 
+   <td> <p> <span class="codeph"> 0 ～ 1 </span> の範囲内の関数。 実際の速度の誤った方向に移動する場合の <span class="codeph"> %</span> 値です。 1<span class="codeph"> に設定 </span> ると、マウスと一緒に移動します。 0<span class="codeph"> に設定 </span> ると、まったく間違った方向に移動することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

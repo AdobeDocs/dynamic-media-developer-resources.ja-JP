@@ -1,5 +1,5 @@
 ---
-description: PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、「別名で保存PDFオプション」ダイアログまたはInDesignのPDFプリセットでIllustratorによって生成されるファイルです。
+description: PDF ジョブオプションを適用します。 ジョブオプションファイルまたはPDF プリセットは、「PDFとして保存」オプションダイアログまたはInDesignのPDF プリセットでIllustratorによって生成されるファイルです。
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # joboption{#joboption}
 
-PDFジョブオプションを適用します。 ジョブオプションファイルまたはPDFプリセットは、「別名で保存PDFオプション」ダイアログまたはInDesignのPDFプリセットでIllustratorによって生成されるファイルです。
+PDF ジョブオプションを適用します。 ジョブオプションファイルまたはPDF プリセットは、「PDFとして保存」オプションダイアログまたはInDesignのPDF プリセットでIllustratorによって生成されるファイルです。
 
 ` joboption= *` 値 `*`
 
@@ -25,7 +25,7 @@ PDFジョブオプションを適用します。 ジョブオプションファ�
  </tr> 
 </table>
 
-ジョブオプションファイルは、IPS/Dynamic Media Classicでアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDFオプションは、PDFの生成時に使用されます。
+ジョブオプションファイルは、IPS/Dynamic Media Classicでアップロードおよび公開できます。 ジョブオプションファイルに含まれるPDF オプションは、PDFの生成時に使用されます。
 
 現在、次のオプションがサポートされています。
 

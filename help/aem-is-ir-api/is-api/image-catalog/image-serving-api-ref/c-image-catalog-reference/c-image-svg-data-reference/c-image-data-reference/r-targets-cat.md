@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ズームターゲットデータ。 なし、またはそれ以上のズームターゲットプロパティ。ズームビューアクライアントと組み合わせて使用できます。
 
-サーバーは、「`??`」レコードのターミネータトークンを置き換えた後、`req=targets` に応答してこのフィールドの内容を返します。
+サーバーは、「`req=targets`」レコードのターミネータトークンを置き換えた後、`??` に応答してこのフィールドの内容を返します。
 
 各ズームターゲットには、最大 4 つのプロパティを関連付けることができます。
 
@@ -42,7 +42,7 @@ ht-degree: 1%
   <td class="stentry"> <p>画像の左上からズームターゲットの長方形の左上へのピクセルオフセット（int、int）。0 以上である必要があります。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> 幅 <span class="varname"> 高さ </span></span> の <span class="codeph"> </p> </td> 
+  <td class="stentry"> <p> 幅 <span class="codeph"> 高さ <span class="varname"></span> の </span> </p> </td> 
   <td class="stentry"> <p>ズームターゲット長方形のピクセルサイズ （int、int）。0 より大きい値を指定する必要があります。 </p> </td> 
  </tr> 
  <tr class="strow"> 

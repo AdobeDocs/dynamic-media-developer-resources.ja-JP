@@ -103,7 +103,7 @@ ht-degree: 7%
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>recordsPerPage</span> ページのサイズに基づいて、返す結果 <span class="codeph"> ページを指定します。 </p> </td> 
+   <td colname="col4"> <p>recordsPerPage<span class="codeph"> ページのサイズに基づいて、返す結果 </span> ページを指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 

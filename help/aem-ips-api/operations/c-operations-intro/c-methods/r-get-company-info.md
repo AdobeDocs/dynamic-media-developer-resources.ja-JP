@@ -46,13 +46,13 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>companyHandle</span> </span><span class="varname"><span class="codeph"> たは <span class="varname"> companyName</span> </span><span class="codeph"> いずれかが必要です。 </p> </td> 
+   <td colname="col3"> <p>companyHandle<span class="codeph"> <span class="varname"></span></span> たは <span class="codeph"> companyName<span class="varname"> </span></span> いずれかが必要です。 </p> </td> 
    <td colname="col4"> <p>情報を取得する会社のハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>companyHandle</span> </span><span class="varname"><span class="codeph"> たは <span class="varname"> companyName</span> </span><span class="codeph"> いずれかが必要です。 </p> </td> 
+   <td colname="col3"> <p>companyHandle<span class="codeph"> <span class="varname"></span></span> たは <span class="codeph"> companyName<span class="varname"> </span></span> いずれかが必要です。 </p> </td> 
    <td colname="col4"> <p>情報を取得する会社の名前。 </p> </td> 
   </tr> 
  </tbody> 

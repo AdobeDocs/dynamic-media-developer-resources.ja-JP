@@ -1,7 +1,7 @@
 ---
 description: ImageServingPublishJob/publishType によって使用されます。
 solution: Experience Manager
-title: Publishタイプ
+title: 公開タイプ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2bf45005-c1ad-4df9-9042-d3557b7b028c
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Publishタイプ{#publish-types}
+# 公開タイプ{#publish-types}
 
 ImageServingPublishJob/publishType によって使用されます。
 

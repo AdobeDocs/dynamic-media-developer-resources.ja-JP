@@ -39,9 +39,9 @@ ht-degree: 2%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">タグフィールドのタイプと、値フィールドまたは valueArray フィールドが使用されているかどうかによって異なります。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">値 </span> が渡され <span class="codeph"> 場合、op</span> は文字列定数 <span class="codeph"> ある必要があります一致。 この条件は、タグ値に関連付けられているアセットすべてに一致します。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">valueArray</span> が渡され <span class="codeph"> 場合、単一値または複数値のタグフィールドの op フィールドは MatchesAny</span><span class="codeph"> 定数になります。 <span class="codeph"> MatchesAny</span> 条件は、valueArray</span> のタグ値の少なくとも 1 つに関連付けられているアセット <span class="codeph"> 一致します。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数値のタグフィールドの場合、op フィールドを <span class="codeph"> valueArray</span> フィールドと共に MatchesAll</span><span class="codeph"> 定数に設定できます。 この場合、条件が一致するのは、（他のタグ値に加えて） <span class="codeph"> valueArray</span> 内のすべてのタグ値に関連付けられているアセットのみです。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">値 <span class="codeph"> が渡され </span> 場合、op<span class="codeph"> は文字列定数 </span> ある必要があります一致。 この条件は、タグ値に関連付けられているアセットすべてに一致します。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">valueArray<span class="codeph"> が渡され </span> 場合、単一値または複数値のタグフィールドの op フィールドは MatchesAny<span class="codeph"></span> 定数になります。 <span class="codeph"> MatchesAny</span> 条件は、valueArray<span class="codeph"> のタグ値の少なくとも 1 つに関連付けられているアセット </span> 一致します。 </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数値のタグフィールドの場合、op フィールドを <span class="codeph"> valueArray</span> フィールドと共に MatchesAll<span class="codeph"></span> 定数に設定できます。 この場合、条件が一致するのは、（他のタグ値に加えて） <span class="codeph"> valueArray</span> 内のすべてのタグ値に関連付けられているアセットのみです。 </li>
     </ul></td> 
   </tr> 
   <tr> 

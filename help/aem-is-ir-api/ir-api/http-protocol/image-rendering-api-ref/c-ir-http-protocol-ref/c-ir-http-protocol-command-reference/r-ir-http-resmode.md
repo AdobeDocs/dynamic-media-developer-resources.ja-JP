@@ -26,15 +26,15 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>バイキュービック補間を選択します。 バイリニア補間よりも CPU に負荷がかかりますが、エイリアシングのアーティファクトが目立たない鮮明な画像が得られます。 </p> </td> 
+   <td colname="col2"> <p>バイキュービック補間を選択します。 バイリニア補間よりもCPUを使用する方が多いですが、エイリアシングのアーティファクトが目立たない鮮明なイメージが生成されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>修正されたランチョス ウィンドウ関数を補間アルゴリズムとして選択します。 CPU コストが高く、バイキュービック演算よりもわずかにシャープな結果が得られる場合があります。 </p> <p> シ <span class="codeph"> プな </span><span class="codeph"> は sharp2 </span> に置き換えられました。これにより、エイリアシングのアーティファクト（モアレとも呼ばれる）が発生する可能性が低くなります。 </p> </td> 
+   <td colname="col2"> <p>修正されたランチョス ウィンドウ関数を補間アルゴリズムとして選択します。 CPUのコストが高い場合、バイキュービック演算よりもわずかにシャープな結果が得られる場合があります。 </p> <p> シ <span class="codeph"> プな </span><span class="codeph"> は sharp2 </span> に置き換えられました。これにより、エイリアシングのアーティファクト（モアレとも呼ばれる）が発生する可能性が低くなります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>画像サイズを縮小するための <span class="keyword"> Adobe Photoshop </span> デフォルトのリサンプラーを選択します。これは、Adobe Photoshop </span> では「バイキュービックシャーパー」と呼ば <span class="keyword"> ます。 </p> </td> 
+   <td colname="col2"> <p>画像サイズを縮小するための <span class="keyword"> Adobe Photoshop </span> デフォルトのリサンプラーを選択します。これは、Adobe Photoshop <span class="keyword"> では「バイキュービックシャーパー」と呼ば </span> ます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

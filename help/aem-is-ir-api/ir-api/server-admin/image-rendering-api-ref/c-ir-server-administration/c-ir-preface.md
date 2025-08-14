@@ -1,5 +1,5 @@
 ---
-description: このドキュメントでは、サーバー管理の問題と、Dynamic Media画像レンダリングの設定について説明します。
+description: このドキュメントでは、サーバー管理の問題と Dynamic Media 画像レンダリングの設定について説明します。
 solution: Experience Manager
 title: サーバー管理の概要
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # サーバー管理の概要{#server-administration-preface}
 
-このドキュメントでは、サーバー管理の問題と、Dynamic Media画像レンダリングの設定について説明します。
+このドキュメントでは、サーバー管理の問題と Dynamic Media 画像レンダリングの設定について説明します。
 
 **対象オーディエンス**
 
-このドキュメントは、Dynamic Media画像レンダリングのインストール、設定および管理を必要とするシステム管理者および web マスターを対象としています。
+このドキュメントは、Dynamic Media 画像レンダリングのインストール、設定、管理を必要とするシステム管理者および Web マスターを対象としています。
 
 **ドキュメント規則**
 

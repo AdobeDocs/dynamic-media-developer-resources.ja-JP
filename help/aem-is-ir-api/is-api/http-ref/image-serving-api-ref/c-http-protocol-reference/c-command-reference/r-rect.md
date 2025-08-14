@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> サイズ </span> </p></td> 
-  <td class="stentry"> <p>ROI のサイズ （ピクセル単位） （整数、整数）。 返信画像のサイズを指定します。 画像は、ビュー画像で覆われていない領域（またはリクエストに fmt=*-alpha</span> が存在 <span class="codeph"> る場合は透明な領域）に <span class="codeph"> bgc=</span> で埋められます。 </p></td> 
+  <td class="stentry"> <p>ROI のサイズ （ピクセル単位） （整数、整数）。 返信画像のサイズを指定します。 画像は、ビュー画像で覆われていない領域（またはリクエストに fmt=*-alpha<span class="codeph"> が存在 </span> る場合は透明な領域）に <span class="codeph"> bgc=</span> で埋められます。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> スケール </span> </p></td> 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->最適な結果を得るには、JPEG圧縮を使用する場合、ストリップまたはタイルのサイズをJPEGエンコーディングタイルのサイズ（16 x 16 ピクセル）の倍数にする必要があります。
+>最適な結果を得るには、JPEG圧縮を使用する場合、ストリップまたはタイルのサイズをJPEG エンコーディングタイルサイズ（16 x 16 ピクセル）の倍数にする必要があります。
 
 ## 例 {#section-932fcfcb41d74a29bc929e4430c49601}
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 ROI のうちビュー画像の外側に広がる領域には、`bgc=` が埋め込まれます。
 
-`scl=`、`wid=`、`hei=`、`fit=`、`rgn=` および `align=` を使用した *後* 最終的なスケーリングおよびフィッティングには、重要な `rect=` が適用されます。
+`rect=`、*、*、`scl=`、`wid=` および `hei=` を使用した `fit=` 後 `rgn=` 最終的なスケーリングおよびフィッティングには、重要な `align=` が適用されます。
 
 ## 初期設定 {#section-b296d3bbfb19441f87137a452b70f19a}
 

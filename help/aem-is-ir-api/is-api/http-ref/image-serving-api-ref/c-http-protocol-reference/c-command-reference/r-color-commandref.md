@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color </span> </span> </p> </td> 
-  <td class="stentry"> <p>グレー、RGB、または CMYK カラー値（アルファ付きまたはアルファなし） </p> </td> 
+  <td class="stentry"> <p>グレー、RGBまたは CMYK カラー値（アルファ付きまたはアルファなし）。 </p> </td> 
  </tr> 
 </table>
 

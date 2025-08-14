@@ -46,7 +46,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 });
 ```
 
-ビューアは、次の SDK ユーザーイベントを追跡します。
+ビューアは、次のSDK ユーザーイベントを追跡します。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 

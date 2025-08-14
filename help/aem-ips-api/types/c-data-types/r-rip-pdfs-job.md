@@ -1,6 +1,6 @@
 ---
 title: RipPdfsJob
-description: 既存のPDFアセットをリプリップするプロセス。
+description: 既存のPDF アセットをリッピングするプロセス。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-既存のPDFアセットをリプリップするプロセス。
+既存のPDF アセットをリッピングするプロセス。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>取り込むPDFファイルの配列へのハンドル。 </p> </td> 
+   <td colname="col3"> <p>取り込むPDF ファイルの配列へのハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 

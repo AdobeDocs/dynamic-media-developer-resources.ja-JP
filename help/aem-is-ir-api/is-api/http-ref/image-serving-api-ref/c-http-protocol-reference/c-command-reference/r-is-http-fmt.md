@@ -25,28 +25,28 @@ ht-degree: 2%
 | `avif-alpha` | アルファチャンネル付きの非可逆および非可逆 AVIF。 |
 | `avif` | 非可逆および非可逆 AVIF。 |
 | `eps` | 非圧縮バイナリでカプセル化されたPostScript。 |
-| `f4m` | Flashストリーミングサーバーマニフェスト形式。 |
-| `gif-alpha` | 2～255 色のGIFとキーカラーの透明度。 |
-| `gif` | 2～256 色のGIF。 |
+| `f4m` | Flash ストリーミングサーバーマニフェスト形式。 |
+| `gif-alpha` | 2～255 色のGIFにキーカラーの透明度を追加。 |
+| `gif` | GIF（2～256 色） |
 | `heic` | 可逆ハイク。 この形式がサポートされていない場合、デフォルトでブラウザーからダウンロードされます。 |
 | `jpeg` | 非可逆JPEG。 |
-| `jpeg2000-alpha` | アルファチャンネル付き非可逆JPEG2000。 |
-| `jpeg2000` | 非可逆および非可逆JPEG2000。 |
-| `jpegxr-alpha` | アルファチャンネル付きの非可逆および非可逆JPEGXR。 |
-| `jpegxr` | 非可逆および非可逆JPEGXR。 |
+| `jpeg2000-alpha` | アルファチャンネル付き非可逆式JPEG 2000。 |
+| `jpeg2000` | 非可逆および非可逆JPEG 2000。 |
+| `jpegxr-alpha` | アルファチャンネル付き非可逆および非可逆JPEG XR。 |
+| `jpegxr` | 非可逆および非可逆JPEG XR。 |
 | `jpg` | 非可逆JPG。 |
 | `m3u8` | Apple Streaming Server マニフェスト形式。 |
 | `pdf` | PDFに埋め込まれた画像。 |
-| `pjpeg` | プログレッシブJPEG。 |
+| `pjpeg` | プログレッシブ JPEG。 |
 | `png-alpha` | アルファチャンネル付き 24 ビットの可逆圧縮 PNG |
 | `png` | 24 ビットロスレス PNG。 |
 | `png8-alpha` | アルファチャンネル付き 8 ビットの可逆圧縮 PNG |
 | `png8` | 8 ビットロスレス PNG |
-| `swf-alpha` | 非可逆JPEGおよび圧縮されたマスクをAdobeの AS2 swf ファイルに埋め込みます。 |
+| `swf-alpha` | 非可逆JPEGと、Adobe AS2 swf ファイルに埋め込まれた圧縮マスク。 |
 | `swf` | Adobe AS2 swf ファイルに埋め込まれた非可逆JPEG。 |
-| `swf3-alpha` | 非可逆JPEGおよび圧縮されたマスクをAdobeの AS3 swf ファイルに埋め込みます。 **メモ：** swf および swf-alpha 形式は、ActionScript 2 （Flash Player 8 以前）で最も適しています。 swf3 および swf3-alpha のフォーマットは、ActionScript3 のアプリケーション（Flash Player 9 以降）で使用することをお勧めします。 |
+| `swf3-alpha` | 非可逆JPEGと、Adobe AS3 swf ファイルに埋め込まれた圧縮マスク。 **注意：** swf および swf-alpha 形式は、ActionScript 2 アプリケーション（Flash Player 8 以前）で最もよく使用されます。 swf3 および swf3-alpha の形式は、ActionScript3 アプリケーション（Flash Player 9 以降）での使用をお勧めします。 |
 | `swf3` | Adobe AS3 swf ファイルに埋め込まれた非可逆JPEG。 |
-| `tif-alpha` | アルファチャンネルのTIFF。 |
+| `tif-alpha` | アルファチャンネルのTIFF |
 | `tif` | TIFF。 |
 | `webp-alpha` | アルファチャンネル付きの可逆および可逆性 WebP。 |
 | `webp` | 非可逆および非可逆 WebP |
@@ -65,7 +65,7 @@ ht-degree: 2%
 |---|---|
 | `jpeg` | JPEG圧縮（非可逆）。 |
 | `lossy` | JPEG 2000、JPEG XR 圧縮（非可逆）、および WebP |
-| `lossless` | HEIC、JPEG 2000、およびJPEG XR compression （ロスレス）、および WebP |
+| `lossless` | HEIC、JPEG 2000、JPEG XR 圧縮（可逆圧縮）、WebP |
 | `lzw` | LZW （Lempel-Ziv-Welch）圧縮（ロスレス） |
 | `none` | 非圧縮。 |
 | `zip` | 「圧縮を圧縮する」（可逆圧縮） |
@@ -73,11 +73,11 @@ ht-degree: 2%
 * クライアント *`format`* 送信する画像データの画像エンコーディング形式と、HTTP 応答ヘッダーに対応する応答 MIME タイプを指定します。
 * *`pixelType`* は、`icc=` が指定されていない場合に出力カラースペース変換を行うために使用できます。
 
-  *`pixelType`* に対応するデフォルトのカラープロファイルが適用されます。 カラーマネジメントが無効の場合、ネイティブ変換が適用されます。 `icc=` が指定されている場合、*`pixelType`* は無視されます。これにより出力ピクセルのタイプが決まります。
+  *`pixelType`* に対応するデフォルトのカラープロファイルが適用されます。 カラーマネジメントが無効の場合、ネイティブ変換が適用されます。 *`pixelType`* が指定されている場合、`icc=` は無視されます。これにより出力ピクセルのタイプが決まります。
 
 * *`compression`* は、`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`、`jpegxr` または `jpegxr-alpha` が *`format`* として指定されている場合にのみ許可されます。 これらの画像形式でサポートされる圧縮オプションについては、次の表を参照してください。
 
-`qlt=` を使用して、JPEG、JPEG圧縮によるPDF、JPEG圧縮によるTIFF、SWFなどのJPEGエンコーディングオプションを設定できます。 WebP、JPEG 2000、およびJPEG XR でも `qlt=` を使用しますが、値によってフォーマットが異なります。 `fmt=gif` または `fmt=gif-alpha` の場合は `quantize=` を使用します。 詳細は、コマンドの説明を参照してください。 その他の形式には、設定可能なオプションはありません。
+`qlt=` を使用して、JPEG、JPEG圧縮のTIFF、JPEG圧縮のPDFおよびSWFの各形式に対してJPEG エンコーディングオプションを設定できます。 WebP、JPEG 2000、JPEG XR でも `qlt=` を使用しますが、値の結果はフォーマットによって異なります。 `quantize=` または `fmt=gif` の場合は `fmt=gif-alpha` を使用します。 詳細は、コマンドの説明を参照してください。 その他の形式には、設定可能なオプションはありません。
 
 すべての *`formats`* および *`pixelTypes`* に対して、1 ピクセルあたり 8 ビットのコンポーネントが返されます（GIFの場合は 1 ピクセルあたり 8 ビット）。
 
@@ -148,7 +148,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, グレー，cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> （<span class="codeph"> none|zip|jpeg </span>）、<span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> は、<span class="varname"> 圧縮 </span> </span> が jpeg </span><span class="codeph"> 設定されていない限り、無視 <span class="codeph"> れます。 </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> （<span class="codeph"> none|zip|jpeg </span>）、<span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> は、<span class="codeph"> 圧縮 <span class="varname"> </span> が jpeg </span><span class="codeph"> 設定されていない限り、無視 </span> れます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 2%
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb、グレー </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>いいえ </p> <p> <p>注記：AdobeFlash Playerでは、埋め込まれた ICC プロファイルは無視されます。 </p> </p> </td> 
+   <td colname="col4"> <p>いいえ </p> <p> <p>メモ：Adobe Flash Player は、埋め込まれた ICC プロファイルを無視します。 </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>、<span class="codeph"> 属性：:TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -176,7 +176,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, グレー，cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>はい </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> （<span class="codeph"> none|lzw|zip|jpeg </span>） </p> <p>「tiff」のみ。「tiff-alpha」は jpeg 圧縮をサポートしません。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> は、圧縮 </span> が jpeg </span><span class="varname"> 設定されていない限り無視 <span class="codeph"> れます。 </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 圧縮 </span> </span> <p> （<span class="codeph"> none|lzw|zip|jpeg </span>） </p> <p>「tiff」のみ。「tiff-alpha」は jpeg 圧縮をサポートしません。 </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> は、圧縮 <span class="varname"> が jpeg </span><span class="codeph"> 設定されていない限り無視 </span> れます。 </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp、webp-alpha </p> </td> 
@@ -192,15 +192,15 @@ ht-degree: 2%
 
 リクエスト属性。 `req=img` （デフォルト）または `req=mask` の場合は、現在のレイヤー設定に関係なく適用されます。それ以外の場合は無視されます。
 
-`iccProfile=` が指定されている場合、*`type`* は無視されます。
+*`type`* が指定されている場合、`iccProfile=` は無視されます。
 
 ## 初期設定 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`、*`defaultType`* は次のように処理されます。`icc=` が指定されている場合、*`defaultType`* は指定された ICC プロファイルのピクセルタイプに対応します。 `icc=` が指定されていない場合、*`defaultType`* は `req=mask` の場合は `gray`、それ以外の場合は `rgb` です。
+` fmt=jpeg, *`defaultType`*,none`、*`defaultType`* は次のように処理されます。`icc=` が指定されている場合、*`defaultType`* は指定された ICC プロファイルのピクセルタイプに対応します。 `icc=` が指定されていない場合、*`defaultType`* は `gray` の場合は `req=mask`、それ以外の場合は `rgb` です。
 
 ## 例 {#section-b93222e652df404a84c69025247f07df}
 
-**小さい低画質のプレビュー画像をJPEG形式でリクエストする（デフォルト）:**
+**JPEG形式の小さい低画質のプレビュー画像をリクエスト（デフォルト）:**
 
 ` http:// *` サーバー `*/myRootId/myImageId?qlt=60&wid=200`
 
@@ -224,11 +224,11 @@ ht-degree: 2%
 
 ` http:// *` サーバー `*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**ピクセルタイプ変換を行わずに、JPEG圧縮機能を備えた TIF ファイルとして提供する：**
+**ピクセルタイプ変換を行わずに、JPEG圧縮を使用してこの画像を TIF ファイルとして配信する：**
 
 ` http:// *` サーバー `*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**キーカラーの透明度と強制的なカラーを白黒に設定したバイトーンGIFに画像を変換：**
+**キーカラーの透明度を持つバイトーンのGIFに画像を変換し、カラーを白黒に強制：**
 
 ` http:// *` サーバー `*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

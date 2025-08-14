@@ -141,7 +141,7 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> catalog-service.conf </span> </p> <p> ImageServerRegistry.xml </span> を <span class="filepath"> す </p> <p> <span class="filepath">.conf </span> </p> <p> <span class="filepath"> server.xml </span> </p> <p> <span class="filepath"> SupervisorRegistry.xml </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> catalog-service.conf </span> </p> <p> ImageServerRegistry.xml <span class="filepath"> を </span> す </p> <p> <span class="filepath">.conf </span> </p> <p> <span class="filepath"> server.xml </span> </p> <p> <span class="filepath"> SupervisorRegistry.xml </span> </p> </td> 
    <td colname="col4"> <p>詳しくは、ドキュメントを参照してください。 </p> </td> 
   </tr> 
   <tr> 

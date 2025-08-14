@@ -1,7 +1,7 @@
 ---
 description: searchAssetsParam/publishState、setAssetPublishStateParam/publishState および ContextStateUpdate/publishState で使用されます。
 solution: Experience Manager
-title: Publish州
+title: 公開状態
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 ---
 
-# Publish州{#publish-state}
+# 公開状態{#publish-state}
 
 searchAssetsParam/publishState、setAssetPublishStateParam/publishState および ContextStateUpdate/publishState で使用されます。
 

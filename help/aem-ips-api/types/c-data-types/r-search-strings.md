@@ -1,5 +1,5 @@
 ---
-description: PDFファイルから抽出された検索文字列レコード。
+description: PDF ファイルから抽出された検索文字列レコード。
 solution: Experience Manager
 title: SearchString
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-PDFファイルから抽出された検索文字列レコード。
+PDF ファイルから抽出された検索文字列レコード。
 
 構文
 

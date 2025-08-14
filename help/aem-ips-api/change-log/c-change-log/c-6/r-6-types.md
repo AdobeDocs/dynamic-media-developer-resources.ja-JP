@@ -48,7 +48,7 @@ IPS API バージョン 6 の新しいタイプと変更されたタイプにつ
 
 * `taskState` を `TaskProgress` に追加しました。
 
-* `ActiveJob` と `ScheduledJob` に `exportJob` を追加しました。
+* `exportJob` と `ActiveJob` に `ScheduledJob` を追加しました。
 
 * `optmizedPath` と `optimizedFile` を `PsdInfo` に追加しました。
 

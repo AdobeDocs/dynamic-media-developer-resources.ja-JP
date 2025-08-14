@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> シングルクリックまたはタップによるズームアクションのマッピングを設定します。 なし <span class="codeph"> 設定すると </span> シングルクリック/タップズームが無効になります。 <span class="codeph"> ズームに設定した場合 </span> 画像をクリックすると、1 回のズームステップでズームします。Ctrl キーを押しながらクリックすると、1 回のズームステップでズームします。 <span class="codeph"> reset </span> に設定すると、画像を 1 回クリックするだけで、ズームが初期スピンレベルにリセットされます。 zoomReset </span> では、現在 <span class="codeph"> ズーム率が指定した制限以上の場合はリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
+   <td colname="col2"> <p> シングルクリックまたはタップによるズームアクションのマッピングを設定します。 なし <span class="codeph"> 設定すると </span> シングルクリック/タップズームが無効になります。 <span class="codeph"> ズームに設定した場合 </span> 画像をクリックすると、1 回のズームステップでズームします。Ctrl キーを押しながらクリックすると、1 回のズームステップでズームします。 <span class="codeph"> reset </span> に設定すると、画像を 1 回クリックするだけで、ズームが初期スピンレベルにリセットされます。 zoomReset <span class="codeph"> では、現在 </span> ズーム率が指定した制限以上の場合はリセットが適用され、それ以外の場合はズームが適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

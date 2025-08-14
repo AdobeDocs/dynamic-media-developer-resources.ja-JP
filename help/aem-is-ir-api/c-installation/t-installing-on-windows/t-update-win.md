@@ -1,6 +1,6 @@
 ---
 title: を 4.7.4 以降から更新する
-description: Dynamic Media画像サービングをアップグレードする際は、次の手順を使用します。
+description: Dynamic Media 画像サービングをアップグレードする際は、次の手順を使用します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # を 4.7.4 以降から更新する{#updating-from-is-or-later}
 
-Dynamic Media画像サービングをアップグレードする際は、次の手順を使用します。
+Dynamic Media 画像サービングをアップグレードする際は、次の手順を使用します。
 
 古いバージョンの画像サービングからアップグレードする場合は、サポートに連絡して正しいプロセスを確認してください。
 

@@ -20,7 +20,7 @@ Adobe Type 1 フォントに使用します。 指定しない場合、サーバ
 
 ## プロパティ {#section-955268c581574875b05253d9e14544f3}
 
-テキスト文字列 Adobe Type 1 ファイルの場合はオプションです。 空か、Image Server の有効なファイルパス（絶対パスまたは `attribute::RootPath` からの相対パス）である必要があります。
+テキスト文字列 Adobe Type 1 ファイルではオプションです。 空か、Image Server の有効なファイルパス（絶対パスまたは `attribute::RootPath` からの相対パス）である必要があります。
 
 ## 初期設定 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

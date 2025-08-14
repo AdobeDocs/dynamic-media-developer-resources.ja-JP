@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ddd.ddd.ddd.ddd]* 形式の *[!DNL ipAddress]* IP アドレス
+* *[!DNL ipAddress]* 形式の *[!DNL ddd.ddd.ddd.ddd]* IP アドレス
 
 * *[!DNL netmask]* ネットマスク （0...32）
 

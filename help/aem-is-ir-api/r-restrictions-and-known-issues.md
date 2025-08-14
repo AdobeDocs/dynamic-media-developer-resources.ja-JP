@@ -1,5 +1,5 @@
 ---
-description: Dynamic Media画像サービングを使用する際には、いくつかの制限と既知の問題について考慮する必要があります。
+description: Dynamic Media 画像サービングを使用する際は、いくつかの制限と既知の問題を考慮する必要があります。
 solution: Experience Manager
 title: 制限と既知の問題
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # 制限と既知の問題{#restrictions-and-known-issues}
 
-Dynamic Media画像サービングを使用する際には、いくつかの制限と既知の問題について考慮する必要があります。
+Dynamic Media 画像サービングを使用する際は、いくつかの制限と既知の問題を考慮する必要があります。
 
 ## ドキュメントのエラッタ {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -65,7 +65,7 @@ Digimarc ライブラリは、画像に Digimarc 透かしが検出されてい�
 
   サーバー A は、`errorRedirect.rootUrl=10.10.10.10` を定義しています。
 
-  IP アドレスが 10.10.10.10 のサーバー B は、IP アドレス（10.10.10.10）を含むようにルールセット・ファイルの `<addressfilter>` タグ値を設定します。
+  IP アドレスが 10.10.10.10 のサーバー B は、IP アドレス（`<addressfilter>`）を含むようにルールセット・ファイルの 10.10.10.10 タグ値を設定します。
 
 * ポイント テキストと配置されたテキスト パスにクリッピングが発生する場合があります。
 * `text=` は、段落ごとではなく、テキストブロック全体に対してのみ `\sa` と `\sb` を適用します。
@@ -88,19 +88,19 @@ Digimarc ライブラリは、画像に Digimarc 透かしが検出されてい�
 
   画像レンダリングの非ピラミッド型ビネットの場合、[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイルの IrMaxNonPyrVignetteSize のプロパティ値を増やします。
 
-  画像サービングの非ピラミッド型TIFFの場合、[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定ファイルの `MaxNonDsfSize` のプロパティ値を増やします。
+  画像サービング非ピラミッド TIFF の場合、`MaxNonDsfSize` 設定ファイルの [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] のプロパティ値を増やします。
 
-* CS3[!DNL Photoshop]Adobeでは、レイヤー化されたPSDファイルは、デフォルトでは合成イメージとして保存されません。
+* Adobe [!DNL Photoshop] CS3 では、レイヤー化されたPSD ファイルは、デフォルトでは合成画像として保存されません。
 
   *症状*:
 
-  CS3 レイヤーPSDファイル [!DNL Photoshop]Adobeは、「このレイヤー [!DNL Photoshop] ファイルは合成画像で保存されませんでした」というテキストで黒で表示されます。 画像サービング返信画像の場合はまたは IPS 内の場合。
+  Adobe [!DNL Photoshop] CS3 レイヤー化されたPSD ファイルが黒で表示され、「このレイヤー化された [!DNL Photoshop] ファイルは合成画像で保存されませんでした」というテキストが表示されます。 画像サービング返信画像の場合はまたは IPS 内の場合。
 
   *回避策*：
 
-  Adobeを CS3 ファイル [!DNL Photoshop] 保存します（互換性の最大化をオンにします）。
+  互換性の最大化をオンにして、Adobe [!DNL Photoshop] CS3 ファイルを保存します。
 
-* ICC プロファイルを CMYK/JPEGの返信画像に割り当てると、一部のブラウザーで色が反転します。*回避策*:
+* ICC プロファイルを CMYK/JPEG返信画像に割り当てると、一部のブラウザーでカラーが反転します。*回避策*:
 
   `fmt=` を使用して返信画像形式を変更する
 
@@ -117,14 +117,14 @@ Digimarc ライブラリは、画像に Digimarc 透かしが検出されてい�
 * カラープロファイルが埋め込まれた PNG 画像のカラー補正では、ハードコーディングされたオプションが使用されます。 レンダリングインテントが相対的な色域を維持し、PhotoFont テキストに対して Blackpoint 補正がオンになる。
 * 会社の [!DNL ini] ファイルでロケールの翻訳が有効な場合、ファイルベースの参照はサポートされません。
 * 画像サービングで、閉じられていない [!DNL Photoshop] パスが正しく書き込まれない。
-* 画像サービングでは、現在、Adobe Media Encoder 4.0.1 以前を使用して書き出されたTIFFファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere Pro CS4、After Effects CS4 およびCreative Suite 4 Production Premium に含まれています。
+* 画像サービングでは、現在、Adobe Media Encoder 4.0.1 以前を使用して書き出されたTIFF ファイルの処理をサポートしていません。 Adobe Media Encoderは、Premiere Pro CS4、After Effects CS4 および Creative Suite 4 Production Premium に含まれています。
 * 自己サイズ変更レイヤーで `text=` を使用しても、行揃えに複数の設定を使用する RTF 文字列はサポートされません。
 
   *例*
 
   RTF 文字列では、セルフサイズのテキストレイヤーに対して左揃えと右揃えの両方を使用することはできません。
 
-* SVGには、SVGファイルに埋め込まれていない、参照先フォントのフォント参照パスに対する独自のプロパティがあります。
+* SVGには、SVG ファイルに埋め込まれていない、参照先フォントのフォント参照パスを取得するための独自のプロパティがあります。
 
   *症状*
 
@@ -132,9 +132,9 @@ Digimarc ライブラリは、画像に Digimarc 透かしが検出されてい�
 
   *回避策*
 
-  [!DNL install_root/ImageServing/conf/PlatformServer.conf] でプロパティ `svgProvider.fontRoot=` を設定します。
+  `svgProvider.fontRoot=` でプロパティ [!DNL install_root/ImageServing/conf/PlatformServer.conf] を設定します。
 
-* 現在、切り抜きは、`color=` の代わりに `bgColor=` を使用して、新しく拡張された領域を埋めています。
+* 現在、切り抜きは、`bgColor=` の代わりに `color=` を使用して、新しく拡張された領域を埋めています。
 
 * カラープロファイルに関連するベースカラースペースと一致しない `bgColor=` 合、カラー変換が正しく行われない可能性があります。
 * レイヤーにマスクまたはアルファデータがない場合、外側のレイヤーエフェクトはレンダリングされません。
@@ -152,4 +152,4 @@ Digimarc ライブラリは、画像に Digimarc 透かしが検出されてい�
 
 ## ユーティリティにのみ適用される制限 {#section-906a6b2378154b3da122b2332983f7a5}
 
-`ImageConvert` `control-c` で停止したときに、セグメント化エラーでクラッシュすることがあります。
+`ImageConvert``control-c` で停止したときに、セグメント化エラーでクラッシュすることがあります。

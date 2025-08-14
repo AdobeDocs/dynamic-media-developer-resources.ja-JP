@@ -45,7 +45,7 @@ ht-degree: 17%
    <td colname="col3"> はい </td> 
    <td colname="col4">に設定： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108">無効なユーザーを含めるには </span>true を <span class="codeph"> します。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108">無効なユーザーを含めるには <span class="codeph">true を </span> します。 </li> 
      <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 無効なユーザーを省略します。 </li> 
     </ul> </td> 
   </tr> 

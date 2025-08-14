@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>材料スタイル ファイル（.vnc</span> または.vnw</span><span class="filepath"> な <span class="filepath">） </p></td> 
+  <td class="stentry"> <p>材料スタイル ファイル（.vnc<span class="filepath"> または.vnw</span><span class="filepath"> な </span>） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -91,9 +91,9 @@ ht-degree: 1%
 
 ## サポートされているファイル形式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-画像レンダリングは、Dynamic Media画像サービングと同じソース画像形式をサポートします。
+画像レンダリングは、Dynamic Media 画像サービングと同じソース画像形式をサポートします。
 
-複数の解像度の画像データを必要とするアプリケーションは、Scene7 Pyramid Format （PTIFF）の多解像度TIFFを使用する場合に最も高いパフォーマンスを発揮します。 画像サービングには、サポートされている任意の形式から PTIFF 画像を作成する画像コンバーター（IC）ユーティリティが含まれています。
+複数の解像度の画像データを必要とするアプリケーションは、Scene7 Pyramid TIFF（PTIFF）のマルチ解像度フォーマットを使用する場合に最も高いパフォーマンスを発揮します。 画像サービングには、サポートされている任意の形式から PTIFF 画像を作成する画像コンバーター（IC）ユーティリティが含まれています。
 
 サポートされるファイル形式の完全なリストについては、画像サービングドキュメントの IC ユーティリティの説明を参照してください。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-レコード「`12-3-2`」の材料カタログ「`'cat`」に同じ材料が含まれている可能性があります：
+レコード「`'cat`」の材料カタログ「`12-3-2`」に同じ材料が含まれている可能性があります：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 

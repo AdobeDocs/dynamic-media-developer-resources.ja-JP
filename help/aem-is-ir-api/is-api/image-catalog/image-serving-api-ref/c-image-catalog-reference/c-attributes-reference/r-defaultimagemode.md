@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ## 制限 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-ネストされた画像レンダリング、FXG または `req=set` リクエストが失敗すると、画像サービングは `DefaultImageMode=0` に戻ります。
+ネストされた画像レンダリング、FXG または `DefaultImageMode=0` リクエストが失敗すると、画像サービングは `req=set` に戻ります。
 
 ## 初期設定 {#section-9e318524a2a5496386901286748c7ee7}
 

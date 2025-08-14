@@ -75,7 +75,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>静的に設定すると <span class="codeph"> スクロール機能 </span> 無効になります。 </p> <p>このプロパティを絶対 </span> に設定 <span class="codeph"> てスクロール機能を有効にします。 </p> </td> 
+   <td colname="col2"> <p>静的に設定すると <span class="codeph"> スクロール機能 </span> 無効になります。 </p> <p>このプロパティを絶対 <span class="codeph"> に設定 </span> てスクロール機能を有効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +133,7 @@ CSS を使用して、スクロールボタン自体のサイズを設定した�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p>CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

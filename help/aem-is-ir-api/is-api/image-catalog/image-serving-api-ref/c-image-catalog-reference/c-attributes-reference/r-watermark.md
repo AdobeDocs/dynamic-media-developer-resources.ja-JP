@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-テキスト文字列 指定する場合、この画像カタログ（または [!DNL default.ini] で指定する場合はデフォルトのカタログ）の有効な `Catalog::Id` 値である必要があります。
+テキスト文字列 指定する場合、この画像カタログ（または `Catalog::Id` で指定する場合はデフォルトのカタログ）の有効な [!DNL default.ini] 値である必要があります。
 
 ## 初期設定 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 

@@ -1,5 +1,5 @@
 ---
-description: トリミング余白を設定します。 PDFファイルに設定されているトリム余白を設定します。
+description: トリミング余白を設定します。 PDF ファイルで設定されるトリミング余白を設定します。
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-トリミング余白を設定します。 PDFファイルに設定されているトリム余白を設定します。
+トリミング余白を設定します。 PDF ファイルで設定されるトリミング余白を設定します。
 
 ポイント ` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]`
 

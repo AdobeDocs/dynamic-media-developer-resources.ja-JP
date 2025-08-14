@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-6d586a632daa4261a8ce62db56140b36}
 
-レイヤー属性。 `layer=comp` の場合は `layer=0` に適用されます。 この画層に `textPs=` が指定されていない場合、または `textPath=` が指定されている場合は無視されます。
+レイヤー属性。 `layer=0` の場合は `layer=comp` に適用されます。 この画層に `textPs=` が指定されていない場合、または `textPath=` が指定されている場合は無視されます。
 
 ## 初期設定 {#section-49a9f5819c994c27928282c14b2bb2a7}
 

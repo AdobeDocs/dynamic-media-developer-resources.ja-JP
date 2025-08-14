@@ -1,5 +1,5 @@
 ---
-description: ベータ版 WSDL で使用できるこれらの新しいまたは変更された操作とデータタイプは、Dynamic Mediaで開発されたアプリケーション以外では使用できません。
+description: ベータ版 WSDL で使用できるこれらの新しいまたは変更された操作とデータタイプは、Dynamic Media で開発されたアプリケーション以外では使用できません。
 solution: Experience Manager
 title: 使用制限
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 使用制限{#restricted-use}
 
-ベータ版 WSDL で使用できるこれらの新しいまたは変更された操作とデータタイプは、Dynamic Mediaで開発されたアプリケーション以外では使用できません。
+ベータ版 WSDL で使用できるこれらの新しいまたは変更された操作とデータタイプは、Dynamic Media で開発されたアプリケーション以外では使用できません。
 
 これらの操作やタイプは、その後のシステム更新で、無効化、変更または非推奨（廃止予定）になる場合があります。
 
@@ -56,33 +56,33 @@ ht-degree: 0%
 
 * `ScheduledJob` が `createVideoSitemapJob` タイプを含むように変更されました
 
-* オプションの `contextHandle` を含むように `ImageServingPublishJob` を変更しました
+* オプションの `ImageServingPublishJob` を含むように `contextHandle` を変更しました
 
-* オプションの `contextHandle` を含むように `ImageRenderingPublishJob` を変更しました
+* オプションの `ImageRenderingPublishJob` を含むように `contextHandle` を変更しました
 
-* オプションの `initialTagField` を含むように `MetadataField` を変更しました
+* オプションの `MetadataField` を含むように `initialTagField` を変更しました
 
 * `MetadataCondition` が追加され、オプションの `caseSensitive` パラメーターが追加されました
 
-* `PropertySet` が `permissions` としてオプションの `PermissionArray` を含むように変更されました
+* `PropertySet` が `PermissionArray` としてオプションの `permissions` を含むように変更されました
 
-* オプションの `xmpKeywords`、`xmpTemplateId`、`xmpTemplateOverride` パラメーターを含むように `UploadDirectoryJob` を変更しました
+* オプションの `UploadDirectoryJob`、`xmpKeywords`、`xmpTemplateId` パラメーターを含むように `xmpTemplateOverride` を変更しました
 
-* オプションの `contextHandle` を含むように `VideoPublishJob` を変更しました
+* オプションの `VideoPublishJob` を含むように `contextHandle` を変更しました
 
 **変更された操作**
 
-* オプションの `thumbAssetHandle` を含むように `createAssetSet` を変更しました
+* オプションの `createAssetSet` を含むように `thumbAssetHandle` を変更しました
 
-* オプションの `thumbAssetHandle` を含むように `createImageSet` を変更しました
+* オプションの `createImageSet` を含むように `thumbAssetHandle` を変更しました
 
-* オプションの `initialTagValue` パラメーターを含むように `createMetadataField` を変更しました
+* オプションの `createMetadataField` パラメーターを含むように `initialTagValue` を変更しました
 
-* `createPropertySet` が `permissionArray` としてオプションの `PermissionUpdateArray` を含むように変更されました
+* `createPropertySet` が `PermissionUpdateArray` としてオプションの `permissionArray` を含むように変更されました
 
-* オプションの `contextHandle` パラメーターを含むように `getImageServingPublishSettings` を変更しました
+* オプションの `getImageServingPublishSettings` パラメーターを含むように `contextHandle` を変更しました
 
-* オプションの `contextHandle` パラメーターを含むように `getImageRenderingPublishSettings` を変更しました
+* オプションの `getImageRenderingPublishSettings` パラメーターを含むように `contextHandle` を変更しました
 
 * 一連のオプションパラメーターを含むように `searchAssetsByFullText` を変更しました。
 
@@ -99,10 +99,10 @@ ht-degree: 0%
    * `sortDirection`
    * 7 つのパラメ `haystackSearch` ターのシーケンス
 
-* `setAssetPublishState` が `contextHandleArray` としてオプションの `HandleArray` を含むように変更されました
+* `setAssetPublishState` が `HandleArray` としてオプションの `contextHandleArray` を含むように変更されました
 
-* オプションの `contextHandle` パラメーターを含むように `setImageServingPublishSettings` を変更しました
+* オプションの `setImageServingPublishSettings` パラメーターを含むように `contextHandle` を変更しました
 
-* オプションの `contextHandle` パラメーターを含むように `setImageRenderingPublishSettings` を変更しました
+* オプションの `setImageRenderingPublishSettings` パラメーターを含むように `contextHandle` を変更しました
 
-* オプションの `createVideoSitemap` ジョブタイプを含むように `submitJob` を変更しました
+* オプションの `submitJob` ジョブタイプを含むように `createVideoSitemap` を変更しました

@@ -1,6 +1,6 @@
 ---
 title: ビネット
-description: ビネットは、画像レンダリングで使用するためにDynamic Media画像オーサリングで作成された画像です。
+description: ビネットは、画像レンダリングで使用するために Dynamic Media 画像オーサリングで作成された画像です。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ビネット{#vignettes}
 
-ビネットは、画像レンダリングで使用するためにDynamic Media画像オーサリングで作成された画像です。
+ビネットは、画像レンダリングで使用するために Dynamic Media 画像オーサリングで作成された画像です。
 
 IR は基本的に *2D* と *3D* の 2 種類のケラレをサポートしています。 ルームシーンは通常、反射をレンダリングできる 3D ビネットですが、アパレルや室内装飾品などのその他のシーンは通常、反射をレンダリングできない 2D ビネットです。
 

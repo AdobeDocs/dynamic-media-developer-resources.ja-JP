@@ -38,7 +38,7 @@ ht-degree: 4%
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> なし：</span> プライマリアセットとして処理します。 </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress:</span> コンテンツを抽出して処理します。 </li>
-     </ul><p>メモ：文字列定数では大文字と小文字が区別されます。 UnCompress</span>、uncompress</span> または <span class="codeph"> unCompress</span><span class="codeph"> 使用 <span class="codeph"> ないでください。 </p></p> </td> 
+     </ul><p>メモ：文字列定数では大文字と小文字が区別されます。 UnCompress<span class="codeph">、uncompress</span> または <span class="codeph"> unCompress</span><span class="codeph"> 使用 </span> ないでください。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

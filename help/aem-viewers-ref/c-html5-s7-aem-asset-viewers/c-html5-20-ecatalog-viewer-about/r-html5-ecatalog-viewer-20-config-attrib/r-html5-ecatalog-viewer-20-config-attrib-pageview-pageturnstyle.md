@@ -30,7 +30,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p>dividerOpacity<span class="codeph"><span class="varname"> 指定 </span></span> </p> </td> 
-   <td colname="col2"> <p>0</span> ～ <span class="codeph"> 1</span> の範囲のシャドウ <span class="codeph"> 不透明度。 </p> </td> 
+   <td colname="col2"> <p>0<span class="codeph"> ～ </span> 1<span class="codeph"> の範囲のシャドウ </span> 不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname">borderOnOff</span></span> </p> </td> 

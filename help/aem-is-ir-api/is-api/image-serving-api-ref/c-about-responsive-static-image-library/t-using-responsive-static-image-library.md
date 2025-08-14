@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **レスポンシブ画像ライブラリを使用するには**
 
-1. プリセットと共にレスポンシブ画像ライブラリを使用する場合は、Dynamic Media Classicで [ 画像プリセットを作成 ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ja#image-sizing) します。
+1. プリセットと共にレスポンシブ画像ライブラリを使用する場合は、Dynamic Media Classicで [ 画像プリセットを作成 ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) します。
 
    レスポンシブ画像ライブラリで使用する画像プリセットを定義する場合は、画像サイズに影響を与える設定（`wid=`、`hei=`、`scl=` など）を使用しないでください。 画像プリセットでは、「サイズ」フィールドを指定しないでください。 代わりに、空の値のままにします。
 1. ライブラリのJavaScript ファイルを Web ページに追加します。
@@ -30,9 +30,9 @@ ht-degree: 0%
 
    ライブラリは、操作対象の画像インスタンスから特定の設定属性を読み取ります。 このような画像に対して `s7responsiveImage` API 関数が呼び出される前に属性を定義します。
 
-   既存の画像 URL を `data-src` 属性に配置することをお勧めします。 次に、既存の `src` 属性を、1x1GIF画像がデータ URI としてエンコードされるように設定します。 これにより、読み込み時に web ページから送信される HTTP リクエストの数が減ります。 ただし、SEO （検索エンジン最適化）が必要な場合は、画像インスタンスに `title` 属性を設定する方が良いでしょう。
+   既存の画像 URL を `data-src` 属性に配置することをお勧めします。 次に、既存の `src` 属性を、データ URI としてエンコードされた 1x1 GIF画像を持つように設定します。 これにより、読み込み時に web ページから送信される HTTP リクエストの数が減ります。 ただし、SEO （検索エンジン最適化）が必要な場合は、画像インスタンスに `title` 属性を設定する方が良いでしょう。
 
-   次に、画像の属性を定義し `data-breakpoints` データ URI としてエンコードされた 1x1GIFを使用する例を示します。
+   次に、画像の属性を定義し、データ URI`data-breakpoints` してエンコードされた 1x1 GIFを使用する例を示します。
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 **スマート切り抜きの使用**
 
-AEM 6.4 とDynamic Media Viewers 5.9 では、次の 2 つのスマート切り抜きモードを使用できます。
+AEM 6.4 と Dynamic Media Viewers 5.9 では、次の 2 つのスマート切り抜きモードを使用できます。
 
 * **手動** - ユーザー定義のブレークポイントと、対応する画像サービスコマンドは、画像要素の属性内で定義します。
 * **スマート切り抜き** – 計算されたスマート切り抜きレンディションは、配信サーバーから自動的に取得されます。 最適なレンディションは、画像要素のランタイムサイズを使用して選択されます。

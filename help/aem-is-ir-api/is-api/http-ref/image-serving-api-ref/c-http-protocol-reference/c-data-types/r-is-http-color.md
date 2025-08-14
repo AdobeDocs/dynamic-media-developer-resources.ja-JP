@@ -19,7 +19,7 @@ ht-degree: 3%
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&lcub;&lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> red</span>,<span class="varname"> green</span>,<span class="varname"> blue</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> yellow</span>, <span class="varname"> black</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub;&amp;lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> red</span>,<span class="varname"> green</span>,<span class="varname"> blue</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> yellow</span>, <span class="varname"> black</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> red</span>、<span class="varname"> green</span>、<span class="varname"> blue</span>、<span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -43,7 +43,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>パックされた 6 桁の 16 進RGBカラー値（RRGGBB） </p></td> 
+  <td class="stentry"> <p>パック 6 桁の 16 進数のRGB カラー値（RRGGBB） </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
@@ -55,13 +55,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-RGBカラーの小数部の値は、0 ～ 255 の範囲です。 CMYK およびグレーの小数点以下のコンポーネント値は、0 ～ 100% の範囲です。 すべての 16 進数コンポーネント値の範囲は 0...0xFF です。
+RGB カラーの小数点以下のコンポーネント値の範囲は 0 ～ 255 です。 CMYK およびグレーの小数点以下のコンポーネント値は、0 ～ 100% の範囲です。 すべての 16 進数コンポーネント値の範囲は 0...0xFF です。
 
 カラーコンポーネントの値は、アルファ値とは無関係であると見なされます（乗算前ではありません）。
 
 すべてのカラー値、接頭辞、接尾辞では、大文字と小文字が区別されません。
 
-CMYK カラー値には、タイプのサフィックス「k」が必要です。 オプションで、RGBカラー値とグレーカラー値に対して型サフィックスを指定できます。
+CMYK カラー値には、タイプのサフィックス「k」が必要です。 オプションで、RGBとグレーのカラー値に対して種類のサフィックスを指定できます。
 
 16 進数のグレー値には、プレフィックス &#39;0x&#39;が必要です。
 

@@ -25,13 +25,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-詳細（*`pathDefinition`* の説明など）については、[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) を参照してください。
+詳細（[ の説明など）については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`* を参照してください。
 
-`textFlowPath=` が存在する場合、RTF の余白コマンド `\margl`、`\margr`、`\margt`、`\margb` は無視されます。 パス定義を指定しない場合、`textFlowPath=` は無視されます。
+`\margl` が存在する場合、RTF の余白コマンド `\margr`、`\margt`、`\margb`、`textFlowPath=` は無視されます。 パス定義を指定しない場合、`textFlowPath=` は無視されます。
 
 ## プロパティ {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視されます。 `layer=comp` に対して指定されている場合は、`layer=0` に適用されます。
+テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視されます。 `layer=0` に対して指定されている場合は、`layer=comp` に適用されます。
 
 ## 初期設定 {#section-68c4559b9e8242059b82e5a39a455dfc}
 

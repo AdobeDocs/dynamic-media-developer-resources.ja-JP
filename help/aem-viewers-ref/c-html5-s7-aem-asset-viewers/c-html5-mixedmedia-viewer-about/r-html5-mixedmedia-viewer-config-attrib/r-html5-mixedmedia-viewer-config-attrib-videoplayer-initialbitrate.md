@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 値 </span> </span> </p> </td> 
-   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用するビデオのビットレート（キロビット/秒または kbps）を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは、ビットレートが次に低いビデオを開始します。 </p> <p>0</span> に設定 <span class="codeph"> ると、ビデオプレーヤーはできるだけ低いビットレートから開始します。 HTML5 HLS ビデオ（Windows 10 では Firefox、Chromeおよび Internet Explorer 11 ブラウザー）をネイティブサポートしていないシステムで、再生モードが「<span class="codeph"> auto </span>」に設定されている場合にのみ適用されます。 </p> </td> 
+   <td colname="col2"> <p>デスクトップでのビデオの初期再生に使用するビデオのビットレート（キロビット/秒または kbps）を設定します。 </p> <p>このビットレート値がアダプティブビデオセットに存在しない場合、ビデオプレーヤーは、ビットレートが次に低いビデオを開始します。 </p> <p>0<span class="codeph"> に設定 </span> ると、ビデオプレーヤーはできるだけ低いビットレートから開始します。 HTML5 HLS ビデオ（Windows 10 では Firefox、Chrome、Internet Explorer 11）をネイティブサポートしていないシステム、および再生モードが自動 <span class="codeph"> 動に設定されている場合にのみ適用 </span> れます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -39,21 +39,21 @@ ExportJob は、次のアセットタイプをサポートしていません。
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> 型：HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>書き出 <span class="codeph"> 必要な assetHandle</span> リストです。 HandleArray</a> を参照 <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> てください。 </p> </td> 
+   <td colname="col3" valign="top"> <p>書き出 <span class="codeph"> 必要な assetHandle</span> リストです。 HandleArray<a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> を参照 </a> てください。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>書き出しの種類 <span class="codeph"> 指定します。可能な値 </span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">fmt=orig</span><span class="codeph"> 場合、アセットはオリジナルとしてエクスポートされます </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">fmt=convert</span> の場 <span class="codeph">、アセットは <span class="codeph"> is_modifer</span> またはマクロの入力パラメーターで指定された形式 <span class="codeph"> 変換 </span> れます </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">fmt=orig<span class="codeph"></span> 場合、アセットはオリジナルとしてエクスポートされます </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">fmt=convert<span class="codeph"> の場 </span>、アセットは <span class="codeph"> is_modifer</span> またはマクロの入力パラメーターで指定された形式 <span class="codeph"> 変換 </span> れます </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> リクエストに追加される <span class="codeph"> ImageServer</span> レンダリング URL 文字列を指定します。 </p> <p>IS 修飾子の送信について詳しくは </a><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ja" scope="external" format="html"> IS のドキュメントを参照してください。 </p> </td> 
+   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> リクエストに追加される <span class="codeph"> ImageServer</span> レンダリング URL 文字列を指定します。 </p> <p>IS 修飾子の送信について詳しくは <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"></a> IS のドキュメントを参照してください。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

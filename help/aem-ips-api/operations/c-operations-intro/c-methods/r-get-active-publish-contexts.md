@@ -42,4 +42,4 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | はい | アクティブな公開コンテキストの配列。Publish Context から 0 個以上の値を含めることができます。 |
+| contextArray | `types:StringArray` | はい | アクティブな公開コンテキストの配列。公開コンテキストの 0 個以上の値を含めることができます。 |

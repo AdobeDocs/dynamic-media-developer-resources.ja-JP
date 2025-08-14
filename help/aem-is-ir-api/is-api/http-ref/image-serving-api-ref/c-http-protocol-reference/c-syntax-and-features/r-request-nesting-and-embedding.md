@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 埋め込み画像レンダーリクエスト {#section-69c5548db930412b9b90d9b2951a6969}
 
-サーバーでDynamic Media画像レンダリングが有効になっている場合、src= （または mask=） コマンドで指定することで、レンダリングリクエストをレイヤーソースとして使用できます。 次の構文を使用します。
+サーバーで Dynamic Media 画像レンダリングが有効になっている場合、src=（または mask=）コマンドで指定することで、レンダリングリクエストをレイヤーソースとして使用できます。 次の構文を使用します。
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ FXG グラフィックレンダラー（[!DNL AGMServer]）がインストール
 
 >[!NOTE]
 >
->FXG グラフィックスレンダリングは、Dynamic Mediaがホストする環境でのみ使用でき、追加のライセンスが必要になる場合があります。 詳しくは、Dynamic Media テクニカルサポートにお問い合わせください。
+>FXG グラフィックスレンダリングは、Dynamic Media がホストされる環境でのみ使用でき、追加のライセンスが必要になる場合があります。 詳しくは、Dynamic Media テクニカルサポートにお問い合わせください。
 
 *[!DNL renderRequest]* は、HTTP ルートパスの ` http:// *[!DNL server]*/agm/render/` を除く、通常の FXG レンダーリクエストです。
 
@@ -149,9 +149,9 @@ FXG グラフィックレンダラー（[!DNL AGMServer]）がインストール
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Dynamic Media画像レンダリングのリクエストの埋め込み**
+**Dynamic Media 画像レンダリングのリクエストの埋め込み**
 
-[!DNL myCatalog/myTemplate] に保存されているテンプレートを使用します。Dynamic Media画像レンダリングを使用して、テンプレートのレイヤー 2 の画像を生成します。
+[!DNL myCatalog/myTemplate] に保存されているテンプレートを使用します。Dynamic Media 画像レンダリングを使用して、テンプレートのレイヤー 2 の画像を生成します。
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

@@ -1,6 +1,6 @@
 ---
 title: 画像サービス API リファレンス
-description: Dynamic Media画像サービス API リファレンスヘルプを参照してください。
+description: Dynamic Media 画像サービス API リファレンスヘルプを表示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 画像サービス API リファレンス {#image-serving-api-reference}
 
-Dynamic Media画像サービス API リファレンスヘルプを参照してください。
+Dynamic Media 画像サービス API リファレンスヘルプを表示します。

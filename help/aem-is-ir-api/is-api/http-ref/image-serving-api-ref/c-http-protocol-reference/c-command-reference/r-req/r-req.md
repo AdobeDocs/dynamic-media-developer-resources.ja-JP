@@ -39,7 +39,7 @@ ht-degree: 8%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-詳細な説明に特に記載がない限り、サーバーは MIME タイプ `text/plain` の応答 `text` 返します。 多くのリクエストタイプでは、応答のタイプ（通常は default、`javascript`、`xml`、`json` である `text` など）を指定できます。 関連付けられている応答の MIME タイプは、それぞれ `text/plain`、`text/javascript`、`text/xml`、`text/javascript` です。
+詳細な説明に特に記載がない限り、サーバーは MIME タイプ `text` の応答 `text/plain` 返します。 多くのリクエストタイプでは、応答のタイプ（通常は default、`text`、`javascript`、`xml` である `json` など）を指定できます。 関連付けられている応答の MIME タイプは、それぞれ `text/plain`、`text/javascript`、`text/xml`、`text/javascript` です。
 
 特に指定がない限り、応答は応答を `name=value` ペアのセットとしてフォーマットします。
 

@@ -26,7 +26,7 @@ IPS API バージョン 3.8 の新しい文字列定数と変更された文字�
 
 * 値：`Rectangle` および `Polygon`
 
-**Publishの州**
+**公開状態**
 
 * 使用者：`searchAssetsParam/publishState` および `setAssetPublishStateParam/publishState`。
 

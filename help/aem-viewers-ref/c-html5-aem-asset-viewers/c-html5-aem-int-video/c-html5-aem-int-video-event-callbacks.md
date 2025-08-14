@@ -25,13 +25,13 @@ ht-degree: 0%
 
    * `objID {String}` は現在使用されていません。
    * `compClass {String}` は現在使用されていません。
-   * イベントをトリガーしたビューア SDK コンポーネントのインスタンス名を `instName {String}` します。
+   * イベントをトリガーしたビューアのSDK コンポーネントのインスタンス名を `instName {String}` します。
    * イベ `timeStamp {Number}` トタイムスタンプ。
    * イベ `eventInfo {String}` トペイロード。
 
-* `quickViewActivate` - ユーザーがインタラクティブスウォッチコンポーネント内またはビデオ再生の最後に表示される「コールトゥアクション」画面でインタラクティブスウォッチをクリックまたはタップしたときのトリガー。 コールバックハンドラーは、次のフィールドを持つ JSON オブジェクトである唯一の引数を受け取ります。
+* `quickViewActivate` - ユーザーがインタラクティブスウォッチコンポーネント内またはビデオ再生の最後に表示される「call to action」画面でインタラクティブスウォッチをクリックまたはタップしたときのトリガー。 コールバックハンドラーは、次のフィールドを持つ JSON オブジェクトである唯一の引数を受け取ります。
 
-   * インタラクティブスウォッチに関連付けられている { `String`} SKU 値を `sku` します。
-   * インタラクティブスウォッチに関連付けられた追加の変数を { `String`}`<additionalVariable>` つ追加します。
+   * インタラクティブスウォッチに関連付けられている { `sku`} SKU 値を `String` します。
+   * インタラクティブスウォッチに関連付けられた追加の変数を { `<additionalVariable>`}`String` つ追加します。
 
 [InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) および [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643) も参照してください。

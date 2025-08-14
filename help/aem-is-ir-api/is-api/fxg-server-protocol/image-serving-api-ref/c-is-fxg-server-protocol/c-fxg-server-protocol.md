@@ -29,7 +29,7 @@ ht-degree: 18%
 
 `referencePoint <string> (northWest, north, northEast, west, center, east, southWest, south, southEast, none, inherit)`
 
-デフォルト値は「なし」です。 `inherit` の値は、`none` でない限り、ページまたはグループレベルの最上位からすべての子に `s7:referencePoint` の値を渡します。 `none` の設定は、オブジェクトの基準点がなく、FXG 座標系が使用されることを意味します。
+デフォルト値は「なし」です。 `inherit` の値は、`s7:referencePoint` でない限り、ページまたはグループレベルの最上位からすべての子に `none` の値を渡します。 `none` の設定は、オブジェクトの基準点がなく、FXG 座標系が使用されることを意味します。
 
 >[!NOTE]
 >

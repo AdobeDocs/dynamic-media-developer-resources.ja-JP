@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト </a> ール <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
@@ -95,15 +95,15 @@ opacity: 1;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）のフォーマットで指定します。 </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）形式で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）のフォーマットで指定します。 </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）形式で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 </p> <p><span class="codeph"> <span class="varname"> 幅 </span> 単色 <span class="varname"> 色 </span></span> として指定します。<span class="codeph"> <span class="varname"> 幅 </span></span> はピクセルで表され、<span class="codeph"><span class="varname"> 色 </span></span> は#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）に設定されます。 </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 </p> <p><span class="codeph"> <span class="varname"> 幅 </span> 単色 <span class="varname"> 色 </span></span> と指定します。<span class="codeph"> <span class="varname"> 幅 </span></span> はピクセル単位で表され、<span class="codeph"> <span class="varname"> 色 </span></span> は#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）に設定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

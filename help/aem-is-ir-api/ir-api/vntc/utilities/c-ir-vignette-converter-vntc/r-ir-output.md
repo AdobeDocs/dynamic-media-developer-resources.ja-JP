@@ -16,7 +16,7 @@ ht-degree: 0%
 
 vntc は、テキスト・データを生成し、stderr またはログ・ファイルに送信します。
 
-データは、テキストレコードごとに 1 つの `name=value` プロパティとしてフォーマットされます。 文字列値は引用符で囲まれていません。 `-log` が指定されている場合でも、警告およびエラーメッセージは常に `stderr` に送信されます。
+データは、テキストレコードごとに 1 つの `name=value` プロパティとしてフォーマットされます。 文字列値は引用符で囲まれていません。 `stderr` が指定されている場合でも、警告およびエラーメッセージは常に `-log` に送信されます。
 
 特定のプロパティは、同じ出力で複数回発生する可能性があります。 0 から始まるシーケンス番号が、これらのプロパティの名前にピリオドで区切って追加されます。 このようなプロパティは、プロパティ名の後に `. *`n`*` サフィックスを付けて以下に示します。
 
@@ -25,11 +25,11 @@ vntc は、テキスト・データを生成し、stderr またはログ・フ�
 <table id="simpletable_32AAA1A2DDB04BC6B86885E6223BF609"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>,<span class="varname"> ival</span>,<span class="varname"> ival</span></span> </p> </td> 
-  <td class="stentry"> <p>キャビネット スタイルのRGBの背景色。 キャビネット スタイルのみ。 </p></td> 
+  <td class="stentry"> <p>キャビネットスタイルのRGBの背景色 キャビネット スタイルのみ。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>デフォルトの出力ファイルのバージョン。 また、このリリースの vntc</span> で生成できる最も高いファイル バージョン番号 <span class="filepath"> あります。 </p></td> 
+  <td class="stentry"> <p>デフォルトの出力ファイルのバージョン。 また、このリリースの vntc<span class="filepath"> で生成できる最も高いファイル バージョン番号 </span> あります。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> エラー。<span class="varname"> n</span>=<span class="varname"> 文字列 </span></span> </p></td> 
@@ -45,7 +45,7 @@ vntc は、テキスト・データを生成し、stderr またはログ・フ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">iccProfile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> sourceFile</span> に埋め込まれた iccProfile の名前。 </p> <p>sourceFile</span> がカラ <span class="varname"> 管理されていない場合は空です。 ビネットのみ。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> sourceFile</span> に埋め込まれた iccProfile の名前。 </p> <p>sourceFile<span class="varname"> がカラ </span> 管理されていない場合は空です。 ビネットのみ。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> 情報。<span class="varname"> n</span>=<span class="varname"> 文字列 </span></span> </p></td> 
@@ -53,19 +53,19 @@ vntc は、テキスト・データを生成し、stderr またはログ・フ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceIsMaster=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> sourceFile</span> がマスターのビネットの場合 <span class="varname">ival</span> は 1、vnUpdate</span> または vntc</span> で以前に処理されてい <span class="filepath"> 場合 <span class="filepath">0 です。 ビネットのみ。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> sourceFile</span> がマスターのビネットの場合 <span class="varname">ival</span> は 1、vnUpdate<span class="filepath"> または vntc</span> で以前に処理されてい <span class="filepath"> 場合 </span>0 です。 ビネットのみ。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>sourceFile</span> がJPEG画像データを含むキャビネットスタイルの場合 <span class="varname">ival</span> が 0 の <span class="varname"> （この場合は警告も出力されます）、それ以外の場合は 1 です。 スタイル ファイルのみをカバーするキャビネットと窓。 </p></td> 
+  <td class="stentry"> <p>sourceFile<span class="varname"> がJPEG画像データを含むキャビネットスタイルの場合 </span>ival<span class="varname"> が 0 である </span> （この場合は警告も出力されます）、それ以外の場合は 1 です。 スタイル ファイルのみをカバーするキャビネットと窓。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>実行中の <span class="filepath"> vntc</span> プロセスに適用される最大メモリ制限です。 文字列 </span><span class="varname">、<span class="varname"> ival</span>、<span class="varname"> ivalK</span>、<span class="varname"> ivalM</span>、<span class="varname"> ivalG</span>、<span class="codeph"> 0</span> （無効）のいずれかです。 ここで、<span class="varname"> K</span>、<span class="varname"> M</span> および <span class="varname"> G</span> は、キロバイト（1024 バイト）、メガバイト（1048576 バイト）、ギガバイト（1073741824 バイト）を表します。 </p></td> 
+  <td class="stentry"> <p>実行中の <span class="filepath"> vntc</span> プロセスに適用される最大メモリ制限です。 文字列 <span class="varname"></span>、<span class="varname"> ival</span>、<span class="varname"> ivalK</span>、<span class="varname"> ivalM</span>、<span class="varname"> ivalG</span>、<span class="codeph"> 0</span> （無効）のいずれかです。 ここで、<span class="varname"> K</span>、<span class="varname"> M</span> および <span class="varname"> G</span> は、キロバイト（1024 バイト）、メガバイト（1048576 バイト）、ギガバイト（1073741824 バイト）を表します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>出力ビネットの最も低い解像度のピラミッドレベルのスケール。 -pyramid</span> が指定され <span class="codeph"> いる場合にのみ存在します。 </p></td> 
+  <td class="stentry"> <p>出力ビネットの最も低い解像度のピラミッドレベルのスケール。 -pyramid<span class="codeph"> が指定され </span> いる場合にのみ存在します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
@@ -101,7 +101,7 @@ vntc は、テキスト・データを生成し、stderr またはログ・フ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>sourceFile</span> のファイル <span class="varname"> バージョン。 </p></td> 
+  <td class="stentry"> <p>sourceFile<span class="varname"> のファイル </span> バージョン。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceSize=<span class="varname"> ival</span>,<span class="varname"> ival</span></span> </p></td> 
@@ -123,7 +123,7 @@ vntc は、テキスト・データを生成し、stderr またはログ・フ�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>vnt</span><span class="varname"> sourceFile</span> がビネットの場合 <span class="codeph">vnc</span>sourceFile</span> がキャビネットスタイルの場合 <span class="varname">vnc<span class="codeph">、sourceFile</span> がウィンドウカバースタイルの場合 <span class="varname">vnw</span> を <span class="codeph"> します。 </p></td> 
+  <td class="stentry"> <p>vnt<span class="codeph"></span> sourceFile<span class="varname"> がビネットの場合 </span>vnc<span class="codeph">sourceFile</span> がキャビネットスタイルの場合 <span class="varname">vnc</span>、sourceFile<span class="codeph"> がウィンドウカバースタイルの場合 </span>vnw<span class="varname"> を </span> します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 

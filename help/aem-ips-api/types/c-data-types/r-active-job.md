@@ -85,7 +85,7 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> の説明 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初に submitJob</span> で指定され <span class="codeph"> ジョブの説明。 </td> 
+   <td colname="col3">最初に submitJob<span class="codeph"> で指定され </span> ジョブの説明。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -170,7 +170,7 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：ExportJob</span> </td> 
-   <td colname="col3">以前にアップロードしたファイルの承認済みエクスポートを許可します。 エクスポ <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=ja" format="http" scope="external"> トジョブ </a> を参照してください。 </td> 
+   <td colname="col3">以前にアップロードしたファイルの承認済みエクスポートを許可します。 エクスポ <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> トジョブ </a> を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>

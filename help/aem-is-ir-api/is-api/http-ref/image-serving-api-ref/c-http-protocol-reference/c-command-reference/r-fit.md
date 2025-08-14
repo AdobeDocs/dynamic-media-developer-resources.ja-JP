@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -41,31 +41,31 @@ ht-degree: 1%
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> fit </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるように合成画像を拡大/縮小します。スペースは最小限で、切り抜きは行われません。 応答画像は、wid= </span> および <span class="codeph"> hei= </span><span class="codeph"> 指定された正確なサイズです。 xScale </span> と yScale </span><span class="varname"> 中で小さい方 <span class="varname"> 適用されます。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるように合成画像を拡大/縮小します。スペースは最小限で、切り抜きは行われません。 応答画像は、wid= <span class="codeph"> および </span> hei= <span class="codeph"></span> 指定された正確なサイズです。 xScale <span class="varname"> と yScale </span><span class="varname"> 中で小さい方 </span> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> constraint </span> </p> </td> 
-   <td colname="col2"> <p>合成画像を <span class="codeph"> fit </span> のように拡大縮小して、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるようにします。ただし、実際の応答画像は、空白を避けるために、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されたサイズよりも小さい場合があります。 xScale </span> と yScale </span><span class="varname"> 中で小さい方 <span class="varname"> 適用されます。 </p> </td> 
+   <td colname="col2"> <p>合成画像を <span class="codeph"> fit </span> のように拡大縮小して、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で割り当てられたスペースに収まるようにします。ただし、実際の応答画像は、空白を避けるために、<span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されたサイズよりも小さい場合があります。 xScale <span class="varname"> と yScale </span><span class="varname"> 中で小さい方 </span> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> crop </span> </p> </td> 
-   <td colname="col2"> <p>合成画像のサイズを調整して、応答画像全体に表示します。切り抜きは最小限に抑えられ、空白文字は入りません。 xScale </span> と yScale </span><span class="varname"> 大きい方 <span class="varname"> 適用されます。 </p> </td> 
+   <td colname="col2"> <p>合成画像のサイズを調整して、応答画像全体に表示します。切り抜きは最小限に抑えられ、空白文字は入りません。 xScale <span class="varname"> と yScale </span><span class="varname"> 大きい方 </span> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> wrap </span> </p> </td> 
-   <td colname="col2"> <p>切り抜き </span> と同様 <span class="codeph"> 合成画像を拡大縮小して、応答画像全体を覆いますが、実際の応答画像は、切り抜きを避けるために <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されるよりも大きくなる場合があります。 xScale </span> と yScale </span><span class="varname"> 大きい方 <span class="varname"> 適用されます。 </p> </td> 
+   <td colname="col2"> <p>切り抜き <span class="codeph"> と同様 </span> 合成画像を拡大縮小して、応答画像全体を覆いますが、実際の応答画像は、切り抜きを避けるために <span class="codeph"> wid= </span> および <span class="codeph"> hei= </span> で指定されるよりも大きくなる場合があります。 xScale <span class="varname"> と yScale </span><span class="varname"> 大きい方 </span> 適用されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> stretch </span> </p> </td> 
-   <td colname="col2"> <p>合成画像を x と y で個別に拡大縮小し、切り抜きや空白の挿入を行わずに、応答画像全体を埋めます。 これにより、通常、画像の縦横比が変更されます。 <span class="varname"> xScale </span> は水平スケーリングに、yScale </span> は垂直スケーリングに使用 <span class="varname"> れます。 </p> </td> 
+   <td colname="col2"> <p>合成画像を x と y で個別に拡大縮小し、切り抜きや空白の挿入を行わずに、応答画像全体を埋めます。 これにより、通常、画像の縦横比が変更されます。 <span class="varname"> xScale </span> は水平スケーリングに、yScale <span class="varname"> は垂直スケーリングに使用 </span> れます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
-   <td colname="col2"> <p>xScale </span><span class="varname"> 適用して、画像を水平方向にしっかりと収め、上部や下部に切り抜きや空白を配置します。 特殊な用途に便利です。 </p> </td> 
+   <td colname="col2"> <p>xScale <span class="varname"></span> 適用して、画像を水平方向にしっかりと収め、上部や下部に切り抜きや空白を配置します。 特殊な用途に便利です。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> vfit </span> </p> </td> 
-   <td colname="col2"> <p>yScale </span><span class="varname"> 適用して、画像を垂直方向にしっかりとフィットさせます。場合によっては、左や右に切り抜きや空白が表示されます。 特殊な用途に便利です。 </p> </td> 
+   <td colname="col2"> <p>yScale <span class="varname"></span> 適用して、画像を垂直方向にしっかりとフィットさせます。場合によっては、左や右に切り抜きや空白が表示されます。 特殊な用途に便利です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

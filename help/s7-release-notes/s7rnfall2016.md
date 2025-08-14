@@ -1,6 +1,6 @@
 ---
 title: Scene7 2016 年秋リリース
-description: 「Adobe Experience CloudのAdobe Experience Manager ソリューションの一部である、Adobe Scene7 2016 年秋リリースの最新リリースノート」
+description: Adobe Experience CloudのAdobe Experience Manager ソリューションの一部である、Adobe Scene7 の 2016 年秋リリースの最新リリースノートです。
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Scene7 2016 年秋リリース{#scene-fall-release}
 
-Adobe Experience CloudのAdobe Experience Manager ソリューションに関する 2016 年秋Adobe Scene7 リリースの最新リリースノートです。
+Adobe Experience CloudのAdobe Experience Manager ソリューションに関する Adobe Scene7 の 2016 年秋リリースの最新リリースノートです。
 
 ## Scene7 2016 年秋リリース {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-[!DNL Adobe Experience Cloud] の [!DNL Adobe Experience Manager] ソリューション [!DNL Adobe Scene7]2016 年秋リリース部分に関する最新のリリースノート。
+[!DNL Adobe Scene7] の [!DNL Adobe Experience Manager] ソリューション [!DNL Adobe Experience Cloud]2016 年秋リリース部分に関する最新のリリースノート。
 
 * [一般](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -30,18 +30,18 @@ Adobe Experience CloudのAdobe Experience Manager ソリューションに関す
 
 ## 一般 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobeは、パフォーマンスの向上という全体的なメリットを活かして、コンテンツの HTTP/2 配信が可能になったことをお知らせします。
+Adobeは、パフォーマンスの向上という総合的なメリットを備えた、コンテンツの HTTP/2 配信が可能になったことをお知らせします。
 
-[ コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=ja#dynamic) を参照してください。
+[ コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic) を参照してください。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-完全なドキュメントについては、[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=jaを参照してください ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ja)
+完全なドキュメントについては、[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.htmlを参照してください ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新機能、機能強化、バグ修正**
 
 * ユーザーインターフェイスからビデオレコ [!DNL Adobe Scene7 Publishing System] ト機能を削除しました。
-* 必要かつ可能な場合、すべてのScene7 サーブレットに認証を追加しました
+* 必要に応じて、すべての Scene7 サーブレットに認証を追加しました。
 * ごみ箱のリスト表示に関するバグ修正。
 * セキュリティ上の問題を理由に、User Management から **Dynamic Media Classic（Scene7）管理者を作成** ユーザー機能を削除しました。
 * FTP WebAdmin で OKTA 認証がサポートされるようになりました。
@@ -50,42 +50,42 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 * WebAdmin のルートディスクがいっぱいになる問題を解決。
 * ユーザーの無効化がユーザーインターフェイスにすぐに反映されない問題を修正しました。
 * 後でユーザーを再作成できなかったユーザーの削除に関連するバグ修正。
-* 特定の設定を制御するための認証を含まない新しいScene7 ユーザーに送信されるようこそメールに関するバグ修正。
+* 特定の設定を制御するための認証を含まない新しい Scene7 ユーザーに送信されるようこそメールに関連するバグ修正。
 * 名前に特殊文字が含まれるフォルダーがある場合、FTP フォルダーリストを取得できない問題を修正しました。
-* Scene7環境用の OKTA サービスプロバイダーの設定。
-* ビューア分析のExperience Cloud組織 ID がサポートされるようになりました。
-* Scene7 SAML Consumer を実装しました。
+* Scene7 環境用の OKTA サービスプロバイダーの設定。
+* ビューア分析用のExperience Cloud組織 ID のサポートを追加しました。
+* Scene7 SAML コンシューマーを実装しました。
 
 ## ビューア（画像サービング 5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
+完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
 
 **画像サービス 5.5.3 のバグ修正**
 
 * RequireJS および DOJO ライブラリとの互換性。
 
-  ビューアのデプロイメント中の統合 SDK JS キャッシュ。
+  ビューアのデプロイメント中のSDK JS のキャッシュの統合。
 
 ## ビューア（画像サービング 5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
+完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
 
 **画像サービス 5.5.2 のバグ修正**
 
 * Windows 7 の Internet Explorer 11 でビデオを再生できない。
-* `initialframe` は、HTML5 eCatalog のモバイルデバイスのポートレートモードに影響を与えていませんでした。
+* `initialframe` は、HTML5 eCatalog のモバイルデバイスの縦長モードに影響を与えていませんでした。
 
 ## ビューア（画像サービング 5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
+完全なドキュメントについては、[ ビューアリファレンスガイド ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
 
 **画像サービス 5.5.1 の新機能、機能強化およびバグ修正**
 
 * 検索機能を備えたHTML5 eCatalog ビューア。
-* ほとんどのデスクトップシステムのデフォルトのビデオ配信方法として、HLS ストリーミングビデオ再生を追加しました。 Flashベースの HDS ビデオストリーミングは、代替再生オプションとして引き続き利用できます。
+* ほとんどのデスクトップシステムのデフォルトのビデオ配信方法として、HLS ストリーミングビデオ再生を追加しました。 Flash ベースのHDS ビデオストリーミングは、引き続き代替再生オプションとして使用できます。
 * Chrome ブラウザーを実行するマウス入力とタッチ入力の両方のデバイスがサポートされるようになりました。
-* Analytics 統合でExperience Cloud組織 ID がサポートされるようになりました。
-* AppMeasurementJavaScript ライブラリをバージョン 1.6.1 に更新します。
+* Analytics 統合にExperience Cloud組織 ID サポートを追加しました。
+* AppMeasurement JavaScript ライブラリをバージョン 1.6.1 に更新します。
 * eCatalog ビューアでの右から左への向きのサポートが追加されました。
 * `tip=0,-1,0` が範囲外のエラーを引き起こした問題を修正しました。
 
@@ -104,7 +104,7 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * Galaxy SIII
 
-   * ズームおよび eCatalog HTML5 ビューアでメモリリークが発生。 フレーム間でナビゲーションを繰り返すと、ブラウザーがクラッシュする場合があります。
+   * Zoom および eCatalog HTML5 ビューアでメモリリークが発生する。 フレーム間でナビゲーションを繰り返すと、ブラウザーがクラッシュする場合があります。
    * ビューアをダブルタップすると、ブラウザー側の拡大縮小を有効にしたビューアだけでなく、ページ全体がズームする場合があります。
 
 * ギャラクシー S4
@@ -121,16 +121,16 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * HTC モバイルデバイス
 
-   * HTC モバイルデバイスAdobeの結果は、ネイティブのピンチズームを無効にできないことが HTC UI ラッパー（HTC Sense）の「機能」であることを示しています。 この問題により、ビューアで「ピンチしてズーム」ジェスチャーを使用すると、ページ全体がズームする場合があります。 代わりに、ダブルタップを使用することをお勧めします。
+   * HTC モバイルデバイス Adobeの調査結果から、ネイティブのピンチズームを無効にできないことが HTC UI ラッパー（HTC Sense）の「機能」であることがわかりました。 この問題により、ビューアで「ピンチしてズーム」ジェスチャーを使用すると、ページ全体がズームする場合があります。 代わりに、ダブルタップを使用することをお勧めします。
    * 画像マップが小さく、接近している場合、画像マップアイコンが重なることがあります。
 
 * HTML5 ビデオ
 
    * Internet Explorer 9：カスタムのポスター画像が表示されない。
-   * `IntialBitRate` 修飾子は、ソフトウェア HLS およびFlash HDS 再生でのみサポートされます。 再生がネイティブプレーヤーを使用している場合は機能しません。
+   * `IntialBitRate` 修飾子は、ソフトウェアのHLSおよび Flash HDS再生でのみサポートされます。 再生がネイティブプレーヤーを使用している場合は機能しません。
    * OGG および WebM プログレッシブ再生は現在サポートされていません。
    * ブラウザーの拡大縮小により、ビデオプレーヤーのサイズが正しく表示されない場合があります（Windows OS のコントロールパネルの「ディスプレイ」設定を含む）。
-   * Safari での HLS ストリーミングを使用したビデオシークに一貫性がない場合があります。
+   * Safari でのHLS ストリーミングを使用したビデオシークは、一貫性がない場合があります。
 
 * Internet Explorer
 
@@ -145,9 +145,9 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * Safari
 
-   * Safari 6.1 以降：Flashプラグインの設定により、インターネットビデオの再生が妨げられる場合があります。
-   * Safari での HLS ストリーミングを使用したビデオの「シーク」に一貫性がない場合があります。
-   * HLS ストリーミングを使用する Safari 6 でビデオの終わりをシークできない。
+   * Safari 6.1 以降：インターネットプラグイン設定により、Flash ビデオの再生が妨げられる場合があります。
+   * Safari でのHLS ストリーミングを使用したビデオの「シーク」に一貫性がない場合があります。
+   * HLS ストリーミングを使用して Safari 6 でビデオの最後をシークできない。
 
 **既知の問題と制限**
 
@@ -164,7 +164,7 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
    * 画像プリセットはサポートされていません。
    * CSS を使用するか、親ノードから動的に分離 `display:none` ることでビューアを DOM に追加したり削除したりすることは、現在サポートされていません。
 
-* HTML5 すべてのビューア
+* HTML5 のすべてのビューア
 
    * テーブルにビューアを埋め込むと、非ネイティブのフルスクリーンモードでビューアのサイズや配置が正しくなくなることがあります。 代わりに、DIV を使用することをお勧めします。
    * コード内でインスタンス名が明示的に指定されているパラメーターでは、URL 内のインスタンス名も上書きされる必要があります（例：`zoomView.iconfeffect=0`）。
@@ -174,7 +174,7 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * HTML5 eCatalog
 
-   * 他のHTMLページに移動して戻ると、ビューアが最初のページにリセットされることがあります。
+   * HTMLの他のページに移動して戻ることで、ビューアが最初のページにリセットされる場合があります。
    * iOS デバイスを回転した後、ページレイアウトが正しく表示されないことがあります。 ページにズームすると、レイアウトが修正されます。
    * 内部リンクは、複数ページスプレッドの一番左のページにのみ適用されます。 縦長モードのモバイルデバイスに影響します。
    * InitialFrame は、複数ページスプレッドの一番左のページにのみリンクします。 縦長モードのモバイルデバイスに影響します。
@@ -190,20 +190,20 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * HTML5 ビデオ
 
-   * ポスター画像に「最大サイズ」エラーが発生する場合があります。 会社は、画像サービス Publishの制限設定を増やす必要があります。
-   * HTMLページをホストする場合、ビデオキャプションには会社のルールセットが必要です（Scene7 サーバーではなく）外部サーバーから提供されます。 サポートが必要な場合は、Adobeサポートに問い合わせてください。
+   * ポスター画像に「最大サイズ」エラーが発生する場合があります。 会社は画像サービング公開の制限設定を増やす必要があります。
+   * HTML ページをホストする場合、ビデオキャプションには会社のルールセットが必要です（Scene7 サーバーではなく）外部サーバーから提供されます。 サポートが必要な場合は、Adobe サポートに問い合わせてください。
    * Analytics トラッキングで、バッファリングに起因する誤った再生率が報告される場合があります
    * iPadまたはAndroid™ デバイスで、ポスター画像ではなく黒いフレームが表示される場合があります。
    * iPadまたはAndroid™ デバイスでビューアを読み込むと、画面に黒いフレームが点滅する場合があります。
    * iPad デバイスで背景が白/透明に設定されている場合、VideoPlayer コンポーネントの側面に黒い境界線が表示されます。
    * iOS 7 を使用しているiPadで、ビデオの最後のフレームがゆがむ場合があります。
-   * Chrome、Firefox および Internet Explorer のブラウザーでは、HLS ストリーミングモードでのビデオシーク中に、ときどきマクロブロックが発生することがあります。
+   * Chrome、Firefox および Internet Explorer のブラウザーで、HLS ストリーミングモードのビデオシーク中にマクロブロックが発生することがあります。
       * ポスター画像は、初めての訪問者にはMicrosoft®Edge ブラウザーに表示されない場合があります。
       * プログレッシブ再生を使用している場合、Internet Explorer 9 でビデオが読み込まれると、ポスター画像が非表示になる場合があります。
 
 ## Scene7 HTML5 ビューア SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-このユーザガイドは、クライアントインストールのAdobe HTML5 Viewer SDK フォルダーにあります。 コンポーネント API のドキュメントは、クライアントインストールの docs サブフォルダーにあります。
+このユーザーガイドは、クライアントインストールのAdobe HTML5 Viewer SDK フォルダーにあります。 コンポーネント API のドキュメントは、クライアントインストールの docs サブフォルダーにあります。
 
 **3.0.2 のバグ修正**
 
@@ -214,11 +214,11 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
 * 一般
 
-   * ほとんどのデスクトップシステムのデフォルトのビデオ配信方法として、HLS ストリーミングビデオ再生を追加しました。 Flashベースの HDS ビデオストリーミングは、代替再生オプションとして引き続き利用できます。
+   * ほとんどのデスクトップシステムのデフォルトのビデオ配信方法として、HLS ストリーミングビデオ再生を追加しました。 Flash ベースのHDS ビデオストリーミングは、引き続き代替再生オプションとして使用できます。
    * eCatalog ビューアで新しい検索機能をサポートするために、SearchManager、SearchPanel、SearchEffect および SearchButton の各コンポーネントを追加しました。
    * Chrome ブラウザーで動作するマウス入力とタッチ入力の両方のデバイスがサポートされるようになりました。
    * OS の将来のバージョンをサポートするために、Android™ のバージョン検出をリファクタリング。
-   * eCatalog 固有の SDK コンポーネントで、右から左の向きのサポートを追加しました。
+   * eCatalog 固有のSDK コンポーネントで、右から左への向きのサポートを追加しました。
 
 * ControlBar
 
@@ -281,7 +281,7 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 
    * フルスクリーンモードは、デバイス画面全体を占有するのではなく、アプリケーションのサイズをブラウザーウィンドウのサイズに合わせます。
    * カスタムカーソルがタッチデバイスで機能しない。
-   * タッチデバイスでのページスケーリングは、現在サポートされていません。 HTML 5 ビューアを埋め込むには、適切な設定を持つビューポートのメタタグが必要です。
+   * タッチデバイスでのページスケーリングは、現在サポートされていません。 HTML5 ビューアの埋め込みには、適切な設定を持つ viewport meta タグが必要です。
 
 * Xoom
 
@@ -341,11 +341,11 @@ Adobeは、パフォーマンスの向上という全体的なメリットを活
 * VideoPlayer
 
    * フォールバックを自動に設定してシークが 100% に設定されている場合、ビデオフレームが更新されない。
-   * Chrome、Firefox、Internet Explorer のブラウザーで、HLS ストリーミングモードのビデオシーク中にマクロブロックが発生することがあります。
+   * Chrome、Firefox および Internet Explorer のブラウザーで、HLS ストリーミングモードのビデオシーク中にマクロブロックが発生する場合があります。
    * ポスター画像は、初めての訪問者にはMicrosoft®Edge ブラウザーに表示されない場合があります。
    * プログレッシブ再生を使用している場合、Internet Explorer 9 でビデオが読み込まれると、ポスター画像が非表示になる場合があります。
 
-## Dynamic Media画像サービング 6.3.2 および画像レンダリング 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media 画像サービング 6.3.2 および画像レンダリング 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC ユーティリティ - `downsample2x2` フラグはサポートされなくなりました。 このフラグは、IPS で使用されなくなった低品質の 2 x 2 ダウンサンプラでした。
 * CORS ヘッダー – 現在、CORS ヘッダーは、`/is/content/` リクエスト用に設定されています。

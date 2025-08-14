@@ -1,5 +1,5 @@
 ---
-description: InDesignファイルのプロパティ。
+description: InDesign ファイルのプロパティ。
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-InDesignファイルのプロパティ。
+InDesign ファイルのプロパティ。
 
 構文
 

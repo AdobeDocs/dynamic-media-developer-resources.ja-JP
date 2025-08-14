@@ -32,7 +32,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>IconEffect が自動的に非表示になるまでに完全に表示される秒数を設定します。 つまり、フェードイン アニメーションが完了した後、フェードアウト アニメーションが開始するまでの時間です。 0</span><span class="codeph"> 設定すると、自動非表示動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p>IconEffect が自動的に非表示になるまでに完全に表示される秒数を設定します。 つまり、フェードイン アニメーションが完了した後、フェードアウト アニメーションが開始するまでの時間です。 0<span class="codeph"></span> 設定すると、自動非表示動作が無効になります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

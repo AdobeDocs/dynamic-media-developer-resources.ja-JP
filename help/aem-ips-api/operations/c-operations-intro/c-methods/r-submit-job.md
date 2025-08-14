@@ -52,7 +52,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブを送信したユーザーへのハンドル。 </p> <p> <p>メモ：userHandle</span> で指定したユーザーにメールが送信 <span class="codeph"> れます。 userHandle</span><span class="codeph"> 指定されていない場合、ジョブを送信したユーザーがメールを受け取ります。 </p> </p> </td> 
+   <td colname="col4"> <p>ジョブを送信したユーザーへのハンドル。 </p> <p> <p>メモ：userHandle<span class="codeph"> で指定したユーザーにメールが送信 </span> れます。 userHandle<span class="codeph"></span> 指定されていない場合、ジョブを送信したユーザーがメールを受け取ります。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -106,7 +106,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：VideoPublishJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ビデオ公開ジョブの詳細。 </p> <p>VideoPublishJob</a><a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col4"> <p>ビデオ公開ジョブの詳細。 </p> <p>VideoPublishJob<a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"></a> 参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
@@ -148,7 +148,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> の種類：AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>Automated Set スクリプトを使用して、アセットリストをセットに処理します。 </p> <p>AutomatedSetGenerationJob</a><a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> 参照してください。 </p> </td> 
+   <td colname="col4"> <p>Automated Set スクリプトを使用して、アセットリストをセットに処理します。 </p> <p>AutomatedSetGenerationJob<a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"></a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

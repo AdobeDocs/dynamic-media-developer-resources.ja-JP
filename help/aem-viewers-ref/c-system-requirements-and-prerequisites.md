@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media HTML5 ビューアの動作環境
-description: Dynamic Media HTML5 ビューアの必要システム構成
+title: Dynamic Media HTML5 ビューアの必要システム構成
+description: Dynamic Media HTML5 ビューアの必要システム構成です。
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ---
 
-# Dynamic Media HTML5 ビューアの動作環境{#system-requirements}
+# Dynamic Media HTML5 ビューアの必要システム構成{#system-requirements}
 
-Dynamic Media HTML5 ビューアの必要システム構成
+Dynamic Media HTML5 ビューアの必要システム構成です。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,8 +25,8 @@ Dynamic Media HTML5 ビューアの必要システム構成
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media画像サービング 6.7.1 以降。
-* HTML5 ビューアには、SDK JavaScript サーバーサイドライブラリ 3.11.5 以降が必要です。
+* Adobe Dynamic Media 画像サービング 6.7.1 以降。
+* HTML5 ビューアを使用するには、SDK JavaScript サーバーサイドライブラリ 3.11.5 以降が必要です。
 * *友達にメールを送信* ソーシャル機能には、s7ondemand 5.0.9 以降が必要です。
 * eCatalog ビューア - [ 情報パネルポップアップ ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバー 2.1.8 以降が必要です。
 * 検索機能コンポーネントには s7search 2.3.0 以降が必要です。
@@ -78,7 +78,7 @@ Dynamic Media HTML5 ビューアの必要システム構成
 
 <!-- CQDOC-19433 -->
 
-2022 年 9 月 30 日（PT）をもって、AdobeDynamic Media ビューアは以下のサポートを終了しました。
+2022 年 9 月 30 日（PT）をもって、Adobe Dynamic Media ビューアは以下のサポートを終了しました。
 
 * TLS （Transport Layer Security） 1.0 および 1.1
 * TLS 1.2 での以下の脆弱な暗号：
@@ -101,7 +101,7 @@ Dynamic Media HTML5 ビューアの必要システム構成
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media ビューアでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
+Adobe Dynamic Media ビューアでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
 
 * Internet Explorer 11 と Windows 7
 * Internet Explorer 11 と Windows 8.1

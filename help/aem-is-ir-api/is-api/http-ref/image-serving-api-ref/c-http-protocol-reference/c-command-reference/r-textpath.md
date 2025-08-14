@@ -25,7 +25,7 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-詳細（*`pathDefinition`* の説明など）については、[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) を参照してください。
+詳細（[ の説明など）については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`* を参照してください。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ RTF コマンド `\ql`、`\qc`、`\qr`、`\li`、`\ri` を使用して、レン�
 
 ## プロパティ {#section-068137df436c46b9b55d271eb60e7285}
 
-テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視されます。 `layer=comp` に対して指定されている場合は、`layer=0` に適用されます。 `textPs=` が存在する場合、無視されます。
+テキストレイヤー属性（`textPs=` のみ）。 他のレイヤーで無視されます。 `layer=0` に対して指定されている場合は、`layer=comp` に適用されます。 `textPs=` が存在する場合、無視されます。
 
 レイヤーに `textPath=` と `textFlowPath=` の両方が含まれる場合は、エラーが返されます。
 

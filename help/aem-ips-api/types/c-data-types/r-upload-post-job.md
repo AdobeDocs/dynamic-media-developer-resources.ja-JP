@@ -20,7 +20,7 @@ getActiveJobs を使用してデスクトップアップロードを追跡しま
 
 >[!NOTE]
 >
->アップロードジョブのすべてのPOSTリクエストは、同じ IP アドレスから送信する必要があります。
+>アップロードジョブのすべての POST リクエストは、同じ IP アドレスから送信する必要があります。
 
 ## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -74,7 +74,7 @@ getActiveJobs を使用してデスクトップアップロードを追跡しま
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：InDesignOptions</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>Image Server にInDesignファイルをアップロードするためのオプション。 </p> </td> 
+   <td colname="col4"> <p>InDesign ファイルを Image Server にアップロードするためのオプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
@@ -110,7 +110,7 @@ getActiveJobs を使用してデスクトップアップロードを追跡しま
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：PDFOptions</span> </td> 
    <td colname="col3"> <p>いいえ</p> </td> 
-   <td colname="col4"> <p>Image Server にPDFファイルをアップロードするためのオプション。 </p> </td> 
+   <td colname="col4"> <p>PDF ファイルを Image Server にアップロードするためのオプション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

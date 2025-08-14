@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ` *[!DNL catalogPath]*` は、絶対または相対のファイルパスまたは名前です。 *[!DNL requestPath]* は、相対ファイルパスまたはファイル名である必要があります。
 
-[!DNL PlatformServer.conf] では、複数の `PS::staticContent.rootPaths` 値を定義できます。 これにより、ソース・データ・ファイルを複数のファイル・システムに分散させることができます。 [!DNL Platform Server] は、データファイルが見つかるまで、指定された順序で代替パスを試みます。
+`PS::staticContent.rootPaths` では、複数の [!DNL PlatformServer.conf] 値を定義できます。 これにより、ソース・データ・ファイルを複数のファイル・システムに分散させることができます。 [!DNL Platform Server] は、データファイルが見つかるまで、指定された順序で代替パスを試みます。

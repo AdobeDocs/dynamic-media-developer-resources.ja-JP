@@ -18,7 +18,7 @@ ht-degree: 1%
 
 IR 変数は、ビネット、ロゴ画像、カスタムテキストを識別するために使用されます。
 
-マテリアル カタログ `myCat` のビネット マップの *template* という名前のレコードの `vignette::Modifier` フィールドには、次の項目が含まれます。
+マテリアル カタログ `vignette::Modifier` のビネット マップの *template* という名前のレコードの `myCat` フィールドには、次の項目が含まれます。
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
