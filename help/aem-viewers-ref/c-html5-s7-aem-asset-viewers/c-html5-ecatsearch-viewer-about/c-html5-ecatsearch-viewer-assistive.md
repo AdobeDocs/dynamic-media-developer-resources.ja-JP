@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ホットスポット、地域および画像マップには、役割 `button` と、ホットスポットまたは画像マップのラベルの値を `aria-label` つ属性を持つ説明テキストが設定されています。 ユーザーがホットスポットまたは画像マップにフォーカスを置くと、`aria-describedby` を使用してキーボードユーザーに対するナビゲーションヒントが提供され、使用ヒントのテキストは `USAGE_HINT` のローカライズ記号から得られます。
 
-サムネールの役割は、`dialog` のローカリゼーションシンボル `aria-label` よって制御される属性を持つ `ThumbnailGridView.LABEL` です。 個々のサムネールには役割 `button` があります。 サムネールを選択すると、属性が `aria-selected``true` 設定されます。
+サムネールの役割は、`dialog` のローカリゼーションシンボル `aria-label` よって制御される属性を持つ `ThumbnailGridView.LABEL` です。 個々のサムネールには役割 `button` があります。 サムネールを選択すると、属性が `aria-selected` `true` 設定されます。
 
 スウォッチを表示するコンポーネントの役割 `listbox` には、`aria-label` の属性がそのコンポーネントの `LABEL` ローカリゼーションシンボルの値に設定されています。 個々のスウォッチには、セット内のスウォッチの位置を記述する `option` 属性と `aria-setsize` 属性の役割 `aria-posinset` があります。 スウォッチを選択すると、`aria-selected` 属性が `true` に設定されます。
 

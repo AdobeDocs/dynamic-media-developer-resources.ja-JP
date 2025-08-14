@@ -65,7 +65,7 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST フォーム部分  |  説明  |
 |---|---|
-| `auth`  |   必須。 認証およびクライアント情報を指定する XML authHeader ドキュメント。 **2}SOAP** の「リクエスト認証 [」を参照してください。](/help/aem-ips-api/c-wsdl-versions.md) |
+| `auth`  |   必須。 認証およびクライアント情報を指定する XML authHeader ドキュメント。 **2&rbrace;SOAP** の「リクエスト認証 [」を参照してください。](/help/aem-ips-api/c-wsdl-versions.md) |
 | `file params`  |   オプション。 POST リクエストごとに、アップロードする 1 つ以上のファイルを含めることができます。 各ファイル部分には、Content-Disposition ヘッダーに filename パラメーターを含めることができます。このパラメーターは、`uploadPostParams/fileName` パラメーターが指定されていない場合に、IPS でターゲットファイル名として使用されます。 |
 
 |  HTTP POST フォーム部分   |  uploadPostParams 要素名   |  タイプ   |  説明   |

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 スライダーのコンポーネントには、現在のスライダーの位置を表す属性 `slider`、`aria-valuenow`、`aria-valuemin` を持つ役割 `aria-valuemax` があります。
 
-サムネールの役割は、`dialog` のローカリゼーションシンボル `aria-label` よって制御される属性を持つ `ThumbnailGridView.LABEL` です。 個々のサムネールには役割 `button` があります。 サムネールを選択すると、属性が `aria-selected``true` 設定されます。
+サムネールの役割は、`dialog` のローカリゼーションシンボル `aria-label` よって制御される属性を持つ `ThumbnailGridView.LABEL` です。 個々のサムネールには役割 `button` があります。 サムネールを選択すると、属性が `aria-selected` `true` 設定されます。
 
 スウォッチを表示するコンポーネントの役割 `listbox` には、`aria-label` の属性がそのコンポーネントの `LABEL` ローカリゼーションシンボルの値に設定されています。 個々のスウォッチには、セット内のスウォッチの位置を記述する `option` 属性と `aria-setsize` 属性の役割 `aria-posinset` があります。 スウォッチが選択されている場合は、`aria-selected` 属性が `true` に設定されます。
 

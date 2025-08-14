@@ -29,7 +29,7 @@ IS ビューアファイルをハードドライブにコピーし、`s7viewers.
 **同じサーバーに複数のビューアをインストールするには：**
 
 1. ビューアの.war の名前を目的のコンテキストに変更し、ファイルを目的の場所にデプロイします。
-1. `this.isViewerRoot``config.js` パラメーターを設定します。
+1. `this.isViewerRoot` `config.js` パラメーターを設定します。
 1. 新しく作成したビューアフォルダーのルートにある `config.js` を開きます。
 1. パラメーター `this.isViewerRoot = "/s7viewers"` を `s7viewers.war` ファイルのコンテキストに設定します。 例：`"/s7viewers-4.0"`。
 1. ファイルを保存して閉じます。
