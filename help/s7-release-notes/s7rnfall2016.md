@@ -32,11 +32,11 @@ Adobe Experience CloudのAdobe Experience Manager ソリューションに関す
 
 Adobeは、パフォーマンスの向上という総合的なメリットを備えた、コンテンツの HTTP/2 配信が可能になったことをお知らせします。
 
-[&#x200B; コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic) を参照してください。
+[&#x200B; コンテンツの HTTP/2 配信の FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=ja#dynamic) を参照してください。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-完全なドキュメントについては、[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.htmlを参照してください &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+完全なドキュメントについては、[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=jaを参照してください &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ja)
 
 **新機能、機能強化、バグ修正**
 
@@ -58,7 +58,7 @@ Adobeは、パフォーマンスの向上という総合的なメリットを備
 
 ## ビューア（画像サービング 5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
+完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
 
 **画像サービス 5.5.3 のバグ修正**
 
@@ -68,7 +68,7 @@ Adobeは、パフォーマンスの向上という総合的なメリットを備
 
 ## ビューア（画像サービング 5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
+完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
 
 **画像サービス 5.5.2 のバグ修正**
 
@@ -77,7 +77,7 @@ Adobeは、パフォーマンスの向上という総合的なメリットを備
 
 ## ビューア（画像サービング 5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) を参照してください。
+完全なドキュメントについては、[&#x200B; ビューアリファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) を参照してください。
 
 **画像サービス 5.5.1 の新機能、機能強化およびバグ修正**
 

@@ -273,7 +273,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
 
 **幅と高さが定義されたレスポンシブデザインの埋め込み**
 
