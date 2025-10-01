@@ -23,7 +23,7 @@ Flyout ビューアは、画像ビューアです。 ユーザーがアクティ
 
 ビューアのタイプは 504 です。
 
-[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -37,7 +37,7 @@ Flyout ビューアは、埋め込み用途のみを目的としています。�
 
 設定とスキニングは、他のビューアと同様です。 カスタム CSS を使用してスキニングを適用できます。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## Flyout ビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -70,7 +70,7 @@ Flyout ビューアは、埋め込み用途のみを目的としています。�
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## Flyout ビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -136,7 +136,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    外部ビューアの境界をそのままにするには、最上位の CSS クラス `.s7flyoutviewer` サイズを絶対単位で定義します。 CSS のサイズ設定は、HTML ページに直接配置するか、カスタムビューア CSS ファイルに配置することができます。また、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡すこともできます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[Flyout ビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[Flyout ビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) を参照してください。
 
    HTML ページで静的な外部ビューアのサイズを定義する例を次に示します。
 
@@ -300,9 +300,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 幅と高さが定義された柔軟なサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 

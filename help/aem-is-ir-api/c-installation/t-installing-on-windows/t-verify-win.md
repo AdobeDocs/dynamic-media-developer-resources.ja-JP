@@ -23,7 +23,7 @@ Image Server は Windows サービスとしてインストールされます。
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 応答内に「`imageServer.`」項目があるかどうかを確認します。これは、Image Server がリッスンしていることを示します。
 

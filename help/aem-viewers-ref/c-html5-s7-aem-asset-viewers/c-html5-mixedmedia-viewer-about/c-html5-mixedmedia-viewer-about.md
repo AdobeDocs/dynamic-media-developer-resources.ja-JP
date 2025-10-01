@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ビューアのタイプは 505 です。
 
-[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -41,7 +41,7 @@ IS-Viewers に付属の実稼動用HTML ページを使用して、混在メデ�
 
 ビューアの設定とスキニングのタスクは、他のビューアと似ています。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## 混在メディアビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -86,7 +86,7 @@ IS-Viewers に付属の実稼動用HTML ページを使用して、混在メデ�
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## 混在メディアビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -174,7 +174,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    外部ビューアの境界をそのままにするには、最上位の CSS クラス `.s7mixedmediaviewer` サイズを絶対単位で定義します。 CSS でのサイズ設定は、HTML ページまたはカスタムビューア CSS ファイルに直接配置し、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡したりできます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[ 混在メディアビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; 混在メディアビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) を参照してください。
 
    HTML ページで静的な外部ビューアのサイズを定義する例を次に示します。
 
@@ -327,9 +327,9 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 幅と高さが定義された柔軟なサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 

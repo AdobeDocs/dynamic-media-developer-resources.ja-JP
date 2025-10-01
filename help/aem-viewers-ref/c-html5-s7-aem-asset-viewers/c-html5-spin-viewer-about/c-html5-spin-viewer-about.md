@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ビューアのタイプは 503 です。
 
-[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行うことができます。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## スピンビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## スピンビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -163,7 +163,7 @@ Web ページにスピンビューアを追加するには、次の操作を行�
 
    サイズ設定は CSS で、HTML ページに直接配置することも、カスタムビューアの CSS ファイルに配置することもできます。 後でDynamic Media Classicのビューアプリセットレコードに割り当てられるか、スタイルコマンドを使用して明示的に渡されます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[ スピンビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; スピンビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -292,9 +292,9 @@ var spinViewer = new s7viewers.SpinViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みについて、より現実的なユースケースを示します。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 

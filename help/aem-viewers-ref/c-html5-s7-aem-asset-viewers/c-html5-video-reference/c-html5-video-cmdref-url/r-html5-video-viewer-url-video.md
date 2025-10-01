@@ -29,7 +29,7 @@ ht-degree: 14%
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。 （パラメーター `asset` 使用していない場合）。 [ 外部ビデオのサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)）を参照してください。
+必須。 （パラメーター `asset` 使用していない場合）。 [&#x200B; 外部ビデオのサポート &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)）を参照してください。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -27,7 +27,7 @@ eCatalog Search Viewer は、電子パンフレットをスプレッド別また
 
 ビューアのタイプ 513。
 
-[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 <!--
 ## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
@@ -44,7 +44,7 @@ eCatalog 検索ビューアは、IS-Viewers に付属する実稼動用のHTML �
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## eCatalog 検索ビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -172,7 +172,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    サイズ設定は CSS のHTML ページに直接配置することも、カスタムビューア CSS ファイルに配置することもできます。この CSS ファイルは、後でDynamic Media Classicのビューアプリセットレコードに割り当てられたり、style コマンドを使用して明示的に渡されたりします。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[eCatalog ビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[eCatalog ビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -302,7 +302,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みについて、より現実的なユースケースを示します。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 

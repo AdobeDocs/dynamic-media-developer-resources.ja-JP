@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
-[ 必要システム構成 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; 必要システム構成 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## インタラクティブビデオビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 設定とスキニングは、このガイドで説明する他のビューアの設定と似ています。 すべてのスキニングは、カスタム（CSS）カスケーディングスタイルシート（CSS）を使用して行います。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## インタラクティブビデオビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 また、ビューアは、様々なソーシャルメディア共有ツールもサポートしています。 ユーザーインターフェイスでは 1 つのボタンとして使用でき、ユーザーがクリックまたはタップすると、共有ツールバーに展開されます。 共有ツールバーには、Facebook、Twitter、メール共有、埋め込みコード共有、リンク共有など、サポートされている共有チャネルのタイプごとのアイコンが含まれています。 メール共有、埋め込み共有、リンク共有の各ツールがアクティベートされると、ビューアは対応するデータ入力フォームを含むモーダルダイアログボックスを表示します。 Facebook または Twitter が呼び出されると、ビューアはソーシャルメディアサービスから標準の共有ダイアログボックスにユーザーをリダイレクトします。 また、共有ツールがアクティブになると、ビデオの再生は自動的に一時停止します。 Web ブラウザーのセキュリティ制限により、共有ツールは全画面表示モードでは使用できません。
 
-ビューアは完全にキーボードでアクセス可能です。 詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+ビューアは完全にキーボードでアクセス可能です。 詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## インタラクティブビデオビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -129,7 +129,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    HTMLページに直接 CSS でサイズ設定を指定できます。 または、カスタムビューア CSS ファイルに配置することもできます。このファイルは、後でAdobe Experience Manager Assetsのビューアプリセットレコードにオンデマンドで割り当てられたり、コマンドを使用して明示的に渡され `style` りします。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[ インタラクティブビデオビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; インタラクティブビデオビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -279,9 +279,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[ 代替デモの場所 ](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **幅と高さが定義されたレスポンシブ埋め込み**
 
