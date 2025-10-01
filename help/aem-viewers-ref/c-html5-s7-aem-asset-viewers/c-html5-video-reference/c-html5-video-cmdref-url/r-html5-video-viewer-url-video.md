@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 14%
@@ -38,5 +38,5 @@ ht-degree: 14%
 ## 例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
-video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
+video=https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html
 ```

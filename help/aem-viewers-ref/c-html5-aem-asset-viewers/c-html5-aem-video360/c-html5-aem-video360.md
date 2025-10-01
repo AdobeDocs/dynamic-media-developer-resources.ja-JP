@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 2d4a26d04e11f544b4cbabaca592d77cfa2241d3
 workflow-type: tm+mt
-source-wordcount: '2561'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,12 @@ Video360 ビューアは、基になるシステムでサポートされてい�
 
 ビューアのタイプは 517 です。
 
-## デモ URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+<!--
+## Demo URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
+
+-->
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
@@ -98,11 +101,15 @@ Web ページによって、ビューアの動作に対するニーズは異な�
 
 カスタム CSS を適用すると、視覚的にカスタマイズできます。
 
-次に、新しいウィンドウでビューアを開くHTML コードの例を示します。
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
+-->
 
+<!--
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **固定サイズ埋め込みモードとレスポンシブデザイン埋め込みモードについて**
 
@@ -197,13 +204,17 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 その際、ビューアの読み込みが自動的に再開されます。
 
-   以下に、ビューアインスタンスを作成し、必要な最小限の設定オプションをコンストラクターに渡して、`init()` メソッドを呼び出す例を示します。 この例では、次のことを前提としています。
+<!--
+   The following is an example of creating a viewer instance, passing the minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes the following:
 
-   * ビューアインスタンスは `video360Viewer` です。
-   * プレースホルダー `DIV` の名前は `s7viewer` です。
-   * 画像サービング URL は `https://s7d9.scene7.com/is/image` です。
-   * ビデオサーバーの URL は `https://s7d9.scene7.com/is/content` です。
-   * アセットは `Viewers/space_station_360-AVS` です。
+    * The viewer instance is `video360Viewer`. 
+    * The name of placeholder `DIV` is `s7viewer`. 
+    * The Image Serving URL is `https://s7d9.scene7.com/is/image`. 
+    * The video server URL is `https://s7d9.scene7.com/is/content`. 
+    * The asset is `Viewers/space_station_360-AVS`.
+-->
+
+<!--
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -218,8 +229,13 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    </script>
    ```
 
-   次のコードは、Video360 ビューアを固定サイズで埋め込む単純な web ページの完全な例です。
+-->
 
+<!--
+   The following code is a complete example of a trivial web page that embeds the Video360 Viewer with a fixed size:
+-->
+
+<!--
    ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
@@ -246,12 +262,16 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    </script> 
    </body> 
    </html>
-   ```
+ ```
+ -->
 
-**高さが制限されないレスポンシブデザインの埋め込み**
+<!--  
+**Responsive design embedding with unrestricted height**
 
-レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占め、高さは無制限であるとします。 Web ページのHTML コードは次のようになります。
+With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer's container `DIV`. For the following example, assume that the web page allows the viewer's container `DIV` to take 40% of the web browser window size, leaving its height unrestricted. The web page HTML code would look like the following:
+-->
 
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -267,15 +287,21 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 </body> 
 </html>
 ```
+-->
 
-このようなページにビューアを追加する手順は、固定サイズの埋め込みを行う手順と似ています。 唯一の違いは、ビューアのサイズを明示的に定義する必要がないことです。
+<!--
+Adding the viewer to such a page is similar to the steps for fixed size embedding. The only difference is that you do not need to explicitly define the viewer size.
 
-1. Web ページへのビューアJavaScript ファイルの追加
-1. コンテナ DIV の定義。
-1. ビューアの作成と初期化。
+1. Adding the viewer JavaScript file to your web page. 
+1. Defining the container DIV. 
+1. Creating and initializing the viewer.
 
-上記の手順はすべて、固定サイズの埋め込みと同じです。 コンテナ DIV を既存の `"holder"` DIV に追加します。 次のコードは完全な例です。 ブラウザーのサイズを変更するとビューアのサイズがどのように変化するか、ビューアの縦横比がアセットとどのように一致するかを確認します。
+All the steps above are the same as with the fixed size embedding. Add the container DIV to the existing `"holder"` DIV. 
 
+The following code is a complete example. Notice how viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
+-->
+
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -304,11 +330,15 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </body> 
 </html>
 ```
+-->
 
-**幅と高さが定義されたレスポンシブ埋め込み**
+<!--
+**Responsive Embedding with Width and Height Defined**
 
-幅と高さが定義されたレスポンシブ埋め込みがある場合、web ページのスタイル設定は異なります。 `"holder"` DIV のサイズとブラウザーウィンドウの中央に合わせたサイズの両方が提供されます。 また、web ページでは、`HTML` と `BODY` 要素のサイズが 100% に設定されます。
+If there is responsive embedding with width and height defined, the web page styling is different. It provides both sizes to the `"holder"` DIV and center it in the browser window. Also, the web page sets the size of the `HTML` and `BODY` element to 100 percent.
+-->
 
+<!--
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -332,8 +362,12 @@ height: 60%;
 </body> 
 </html>
 ```
+-->
 
-残りの埋め込みステップは、高さが制限されないレスポンシブ埋め込みに使用されるステップと同じです。 結果の例を次に示します。
+<!--
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. 
+
+The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -372,11 +406,19 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
-**Setter ベースの API を使用した埋め込み**
+-->
 
-JSON ベースの初期化を使用する代わりに、setter ベースの API および no-args コンストラクターを使用することができます。 この API コンストラクターを使用すると、パラメーターは取得されず、`setContainerId()`、`setParam()`、`setAsset()` の API メソッドを使用して、個別のJavaScript呼び出しで設定パラメーターが指定されます。
 
-次の例は、setter ベースの API を使用した固定サイズの埋め込みの使用を示しています。
+<!--
+**Embedding Using Setter-based API**
+
+Instead of using JSON-based initialization, it is possible to use setter-based API and no-args constructor. Using this API constructor does not take any parameters and configuration parameters are specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
+
+The following example illustrates using fixed size embedding with the setter-based API:
+
+-->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -403,3 +445,6 @@ video360Viewer.init();
 </body> 
 </html>
 ```
+
+-->
+

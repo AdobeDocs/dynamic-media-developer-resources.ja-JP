@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +37,10 @@ Video360 ビューア用のJavaScript API リファレンス
 
 なし
 
-## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+<!--
+## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setVideo("https://s7d9.scene7.com/is/content/Viewers/space_station_360")
 ```
+-->

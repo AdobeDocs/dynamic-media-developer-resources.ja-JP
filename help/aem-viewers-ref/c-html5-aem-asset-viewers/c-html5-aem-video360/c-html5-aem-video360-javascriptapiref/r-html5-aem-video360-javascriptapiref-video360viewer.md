@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,8 @@ Video360 ビューア用のJavaScript API リファレンス。
 
 なし
 
-## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+<!--
+## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -67,3 +68,4 @@ defaultLocale:"en"
 } 
 });
 ```
+-->

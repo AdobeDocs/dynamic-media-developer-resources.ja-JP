@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ eCatalog Viewer は、電子パンフレットをスプレッド別またはペ�
 
 このビューアは ecatalog で機能し、オプションの画像マップとソーシャル共有ツールをサポートしています。 ズームツール、カタログナビゲーションツール、全画面表示のサポート、サムネール、オプションの「閉じる」ボタンを備えています。 このビューアでは、ソーシャル共有ツール、印刷、ダウンロード、お気に入りもサポートされています。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 
-## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+-->
 
 ## eCatalog ビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 

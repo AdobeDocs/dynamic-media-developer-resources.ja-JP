@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## デモ URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ja)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ ht-degree: 0%
 
 カスタム CSS を適用すると、視覚的にカスタマイズできます。
 
-次に、新しいウィンドウでビューアを開くHTML コードの例を示します。
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **固定サイズ埋め込みモードとレスポンシブデザイン埋め込みモードについて**
 
@@ -161,6 +167,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 この機能が発生すると、ビューアの読み込みが自動的に再開されます。
 
+
    次に、ビューアインスタンスを作成し、必要な最小限の設定オプションをコンストラクターに渡して `init()` メソッドを呼び出す例を示します。 この例では、`carouselViewer` がビューアインスタンス、`s7viewer` がプレースホルダー `DIV` の名前、`https://adobedemo62-h.assetsadobe.com/is/image` が画像サービング URL、`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` がアセットであることを前提としています。
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    }).init(); 
    </script>
    ```
+
 
    次のコードは、カルーセルビューアを固定サイズで埋め込む簡単な web ページの完全な例です。
 
@@ -206,7 +214,9 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
 **高さが制限されないレスポンシブデザインの埋め込み**
 
-レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。 次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占めるとします。 そして、その高さは無制限に残されています。 Web ページのHTML コードは次のようになります。
+レスポンシブデザインの埋め込みを使用すると、通常、web ページには、ビューアのコンテナ `DIV` ージの実行時サイズを指定する何らかの柔軟なレイアウトが配置されます。
+
+次の例では、web ページで、ビューアのコンテナ `DIV` が web ブラウザーのウィンドウサイズの 40% を占めるとします。 そして、その高さは無制限に残されています。 Web ページのHTML コードは次のようになります。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ja)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 
 幅と高さが定義されたフレキシブルサイズの埋め込みでは、web ページのスタイル設定が異なります。 `"holder"` DIV のサイズとブラウザーウィンドウの中央に合わせたサイズの両方が提供されます。 また、web ページでは、`HTML` と `BODY` 要素のサイズが 100% に設定されます。
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **Setter ベースの API を使用した埋め込み**
 
 JSON ベースの初期化を使用する代わりに、setter ベースの API および no-args コンストラクターを使用することができます。 この API コンストラクターを使用すると、パラメーターは取得されず、`setContainerId()`、`setParam()`、`setAsset()` の API メソッドを使用して、個別のJavaScript呼び出しで設定パラメーターが指定されます。
+
 
 次の例は、setter ベースの API を使用した固定サイズの埋め込みの使用を示しています。
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

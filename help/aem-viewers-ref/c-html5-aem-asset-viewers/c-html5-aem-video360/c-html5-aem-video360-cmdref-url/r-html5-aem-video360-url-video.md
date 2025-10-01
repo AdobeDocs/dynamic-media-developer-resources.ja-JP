@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
@@ -35,8 +35,10 @@ Video360 ビューアの URL コマンド。
 
 なし
 
-## 例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+<!--
+## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 video=https://s7d9.scene7.com/is/content/Viewers/space_station_360-AVS
 ```
+-->

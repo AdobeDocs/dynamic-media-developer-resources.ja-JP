@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -46,8 +46,10 @@ ht-degree: 1%
 
 なし
 
-## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+<!--
+## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```javascript {.line-numbers}
-<instance>.setVideo("https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4")
+<instance>.setVideo("https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html")
 ```
+-->
