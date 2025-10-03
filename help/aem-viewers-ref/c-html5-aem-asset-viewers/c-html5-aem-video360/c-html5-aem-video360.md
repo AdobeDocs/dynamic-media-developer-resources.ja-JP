@@ -33,7 +33,7 @@ Video360 ビューアは、基になるシステムでサポートされてい�
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
-[ 必要システム構成 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; 必要システム構成 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## Video360 ビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -43,7 +43,7 @@ HTML5 Video360 ビューアは、IS-Viewers に付属の実稼動用HTML ペー�
 
 設定とスキニングは、このガイドで説明する他のビューアの設定と似ています。 すべてのスキニングは、カスタム（CSS）カスケーディングスタイルシート（CSS）を使用して行います。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 360 ビデオコンテンツには、標準の非 360 ビデオよりも高いエンコーディング設定が必要です。 つまり、同じ知覚可能な品質を達成するには、360 コンテンツが非 360 ビデオよりも高解像度である必要があります。 360 ビデオについては、次のアダプティブビデオプリセット設定を検討することをお勧めします。
 
@@ -79,7 +79,7 @@ VR ヘッドセットや VR HMD マウントでは、VR モードでは他の再
 
 ビューアは、タッチスクリーンとマウスを使用した Windows デバイスでは、タッチ入力とマウス入力の両方をサポートしていますが、このサポートは、Chrome、Internet Explorer 11、Edgeの web ブラウザーのみに制限されています。
 
-ビューアは完全にキーボードでアクセス可能です。 詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+ビューアは完全にキーボードでアクセス可能です。 詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## Video360 ビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -170,7 +170,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    サイズ設定は、CSS のHTML ページに直接配置することも、カスタムビューア CSS ファイルに配置することもできます。この CSS ファイルは、後でAdobe Experience Manager Assetsのビューアプリセットレコードにオンデマンドで割り当てられたり、コマンドを使用して明示的に渡され `style` りします。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[Video360 ビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[Video360 ビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 

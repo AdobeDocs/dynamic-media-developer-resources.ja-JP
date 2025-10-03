@@ -29,7 +29,7 @@ Video360 ビューアの URL コマンド。
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。 （パラメーター `asset` 使用していない場合）。 [ 外部ビデオのサポート ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)）を参照してください。
+必須。 （パラメーター `asset` 使用していない場合）。 [&#x200B; 外部ビデオのサポート &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)）を参照してください。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

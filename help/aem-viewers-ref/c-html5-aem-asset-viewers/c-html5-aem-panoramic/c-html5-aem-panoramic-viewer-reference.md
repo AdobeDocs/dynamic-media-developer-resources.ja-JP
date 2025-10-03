@@ -16,7 +16,7 @@ ht-degree: 0%
 
 HTML5 パノラマビューアは、パノラマ画像を表示する画像ビューアです。 このビューアの目的は、正距円筒図法とも呼ばれる球状のパノラマを表示することです。 ジャイロスコープ動作による自動パンニング、パンに対応しています。 デスクトップおよびモバイルデバイスで動作するように設計されています。 対応するモバイルデバイスでは、バーチャルリアリティ表示モードを使用できます。
 
-[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 
 ビューアのタイプ 514。
@@ -33,7 +33,7 @@ HTML5 パノラマビューアは、実行時にビューアがダウンロー�
 HTML5 パノラマビューアは、IS-Viewers に付属の実稼動用HTML ページを使用したポップアップモードと、ドキュメント化された API を使用して Target Web ページに統合する埋め込みモードの両方で使用できます。
 設定とスキニングは、他のHTML5 ビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行うことができます。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## HTML5 パノラマビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -271,7 +271,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
 

@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
-[ 必要システム構成 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[&#x200B; 必要システム構成 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## カルーセルビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 設定とスキニングは、このヘルプで説明する他のビューアの設定と似ています。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## カルーセルビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## カルーセルビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -140,7 +140,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    HTMLページに直接 CSS でサイズ設定を指定できます。 サイズ設定はカスタムビューアの CSS ファイルに入れることができます。この CSS ファイルは、後でAEM Assetsのビューアプリセットレコードにオンデマンドで割り当てられるか、`style` コマンドを使用して明示的に渡されます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[ カルーセルビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; カルーセルビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
