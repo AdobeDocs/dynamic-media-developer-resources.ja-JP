@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,15 @@ eCatalog Viewer は、電子パンフレットをスプレッド別またはペ�
 
 ビューアのタイプは 507 です。
 
-[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 このビューアは ecatalog で機能し、オプションの画像マップとソーシャル共有ツールをサポートしています。 ズームツール、カタログナビゲーションツール、全画面表示のサポート、サムネール、オプションの「閉じる」ボタンを備えています。 このビューアでは、ソーシャル共有ツール、印刷、ダウンロード、お気に入りもサポートされています。 デスクトップおよびモバイルデバイスで動作するように設計されています。
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
--->
+
 
 ## eCatalog ビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -41,7 +41,7 @@ eCatalog ビューアは、IS-Viewers に付属する実稼動用のHTML ペー�
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## eCatalog ビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -82,7 +82,7 @@ eCatalog ビューアでは、他のモバイルアプリケーションに共�
 
 このビューアは、タッチスクリーンとマウスを備えた Windows デバイスでのタッチ入力とマウス入力の両方もサポートしています。 ただし、このサポートは、Chrome、Internet Explorer 11、Edgeの web ブラウザーのみに制限されます。
 
-このビューアは、[&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) で説明されているように、完全にキーボードでアクセスできます。
+このビューアは、[ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) で説明されているように、完全にキーボードでアクセスできます。
 
 ## eCatalog ビューアを使用したソーシャルメディア共有ツール {#section-eb575084a99647c3a9591f439f40b412}
 
@@ -174,7 +174,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    HTMLページに直接 CSS でサイズ設定を指定できます。 または、サイズ設定をカスタムビューアの CSS ファイルに入れます。この CSS ファイルは、後でDynamic Media Classicのビューアプリセットレコードに割り当てられたり、style コマンドを使用して明示的に渡されたりします。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[eCatalog ビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[eCatalog ビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -301,7 +301,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みについて、より現実的なユースケースを示します。
 
-[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 

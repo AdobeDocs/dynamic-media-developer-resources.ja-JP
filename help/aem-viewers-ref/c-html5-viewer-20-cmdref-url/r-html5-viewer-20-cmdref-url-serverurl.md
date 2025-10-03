@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 2%
@@ -45,6 +45,10 @@ serverUrl=http://s7d9.scene7.com/is/image/
 serverUrl=http://aodmarketingna.assetsadobe.com/is/image
 ```
 
+<!--
+
 ```
 serverUrl=https://adobedemo62-h.assetsadobe.com/is/image
 ```
+
+-->

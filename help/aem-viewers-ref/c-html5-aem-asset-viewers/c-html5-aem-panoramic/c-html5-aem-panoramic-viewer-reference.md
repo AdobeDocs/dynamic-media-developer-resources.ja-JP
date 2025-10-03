@@ -5,9 +5,9 @@ keywords: 応答
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 HTML5 パノラマビューアは、パノラマ画像を表示する画像ビューアです。 このビューアの目的は、正距円筒図法とも呼ばれる球状のパノラマを表示することです。 ジャイロスコープ動作による自動パンニング、パンに対応しています。 デスクトップおよびモバイルデバイスで動作するように設計されています。 対応するモバイルデバイスでは、バーチャルリアリティ表示モードを使用できます。
 
-[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 
 ビューアのタイプ 514。
@@ -33,7 +33,7 @@ HTML5 パノラマビューアは、実行時にビューアがダウンロー�
 HTML5 パノラマビューアは、IS-Viewers に付属の実稼動用HTML ページを使用したポップアップモードと、ドキュメント化された API を使用して Target Web ページに統合する埋め込みモードの両方で使用できます。
 設定とスキニングは、他のHTML5 ビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行うことができます。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## HTML5 パノラマビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -271,9 +271,13 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 **幅と高さが定義されたレスポンシブデザインの埋め込み**
 

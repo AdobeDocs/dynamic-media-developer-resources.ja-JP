@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **レスポンシブ画像ライブラリを使用するには**
 
-1. プリセットと共にレスポンシブ画像ライブラリを使用する場合は、Dynamic Media Classicで [&#x200B; 画像プリセットを作成 &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ja#image-sizing) します。
+1. プリセットと共にレスポンシブ画像ライブラリを使用する場合は、Dynamic Media Classicで [ 画像プリセットを作成 ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) します。
 
    レスポンシブ画像ライブラリで使用する画像プリセットを定義する場合は、画像サイズに影響を与える設定（`wid=`、`hei=`、`scl=` など）を使用しないでください。 画像プリセットでは、「サイズ」フィールドを指定しないでください。 代わりに、空の値のままにします。
 1. ライブラリのJavaScript ファイルを Web ページに追加します。
@@ -32,13 +32,13 @@ ht-degree: 0%
 
    既存の画像 URL を `data-src` 属性に配置することをお勧めします。 次に、既存の `src` 属性を、データ URI としてエンコードされた 1x1 GIF画像を持つように設定します。 これにより、読み込み時に web ページから送信される HTTP リクエストの数が減ります。 ただし、SEO （検索エンジン最適化）が必要な場合は、画像インスタンスに `title` 属性を設定する方が良いでしょう。
 
-<!--
-   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
+
+   次に、画像の属性を定義し、データ URI`data-breakpoints` してエンコードされた 1x1 GIFを使用する例を示します。
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
--->
+
 
 1. ライブラリが管理するすべての画像インスタンスに対して、`s7responsiveImage` API 関数を呼び出します。
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 画像要素のサイズを柔軟に調整するには、web ページが責任を負います。 レスポンシブ画像ライブラリ自体は、固定サイズの画像と「可変」画像を区別しません。 固定サイズの画像に適用した場合、新しい画像は 1 回だけ読み込まれます。
 
-<!--
-The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
+
+次のコードは、レスポンシブ画像ライブラリによって管理される単一の流動画像を持つ単純な web ページの完全な例です。 この例には、web ブラウザーのウィンドウサイズに合わせて画像を「レスポンシブ」にするための追加の CSS スタイルが含まれています。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -84,9 +84,8 @@ The following code is a complete example of a trivial web page that has a single
   </script> 
  </body> 
 </html>
-
 ```
--->
+
 
 **スマート切り抜きの使用**
 

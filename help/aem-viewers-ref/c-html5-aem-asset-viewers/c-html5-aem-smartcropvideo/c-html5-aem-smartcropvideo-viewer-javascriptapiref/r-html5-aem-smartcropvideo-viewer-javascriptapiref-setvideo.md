@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 0%
+source-wordcount: '134'
+ht-degree: 1%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 0%
 
 なし
 
-<!--
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+
+## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setVideo("https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4")
 ```
--->
+

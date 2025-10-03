@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2245'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ビューアのタイプは 504 です。
 
-[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 設定とスキニングは、他のビューアと同様です。 カスタム CSS を使用してスキニングを適用できます。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## インラインズームビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## インラインズームビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -160,7 +160,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    外部ビューアの境界をそのままにするには、最上位の CSS クラス `.s7flyoutviewer` サイズを絶対単位で定義します。 CSS でのサイズ設定は、HTML ページまたはカスタムビューア CSS ファイルに直接配置し、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡したりできます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; インラインズームビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[ インラインズームビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) を参照してください。
 
    HTML ページで静的な外部ビューアのサイズを定義する例を次に示します。
 
@@ -171,30 +171,38 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    }
    ```
 
-   次のサンプルページでは、固定の外部ビューア領域での動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=ja)
+<!--
 
-   メインビューの寸法を静的にするには、CSS セレクターを使用して、内部の `Container` SDK コンポーネントのビューアサイズ `.s7flyoutviewer .s7container` 絶対単位で定義します。 さらに、デフォルトのビューア CSS で `.s7flyoutviewer` の最上位レベルの CSS クラスに定義された固定サイズを `auto` に設定して上書きする必要があります。
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
-   次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7flyoutviewer { 
-    width: auto; 
-    height: auto; 
-   }  
-   #s7viewer.s7flyoutviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+メインビューの寸法を静的にするには、CSS セレクターを使用して、内部の `Container` SDK コンポーネントのビューアサイズ `.s7flyoutviewer .s7container` 絶対単位で定義します。 さらに、デフォルトのビューア CSS で `.s7flyoutviewer` の最上位レベルの CSS クラスに定義された固定サイズを `auto` に設定して上書きする必要があります。
 
-   次のサンプルページは、固定のメインビューサイズを使用したビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
+次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=ja)
+```html {.line-numbers}
+#s7viewer.s7flyoutviewer { 
+ width: auto; 
+ height: auto; 
+}  
+#s7viewer.s7flyoutviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   また、デフォルトのビューア CSS では、すぐに使用できる外部領域のサイズが固定されています。
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically: -->
+
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
+
+-->
+
+また、デフォルトのビューア CSS では、すぐに使用できる外部領域のサイズが固定されています。
 
 1. ビューアの作成と初期化。
 
@@ -329,9 +337,13 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## 幅と高さが定義された柔軟なサイズ埋め込み {#section-0a329016f9414d199039776645c693de}
 

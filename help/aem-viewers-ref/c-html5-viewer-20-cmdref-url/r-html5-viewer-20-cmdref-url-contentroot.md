@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 3%
@@ -45,6 +45,10 @@ contentUrl=/skins/
 contentUrl=http://aodmarketingna.assetsadobe.com/
 ```
 
+<!--
+
 ```
 contentUrl=https://demos-pub.assetsadobe.com/
 ```
+
+-->

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ビューアのタイプは 502 です。
 
-[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## ズームビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## ズームビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -165,7 +165,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    外側のビューアの境界をそのままにするには、`.s7zoomviewer` の最上位レベル CSS クラスのサイズを絶対単位で定義します。 CSS でのサイズ設定は、HTMLページに直接配置できます。 または、カスタムビューア CSS ファイルに入れて、後でDynamic Media Classicのビューアプリセットレコードに割り当てたり、style コマンドを使用して明示的に渡したりできます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; ズームビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[ ズームビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的な外部ビューアのサイズを定義する例を以下に示します。
 
@@ -176,33 +176,41 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    }
    ```
 
-   次の例では、固定の外部ビューアで動作を確認できます。 セットを切り替えても、外側のビューアのサイズは変わりません。
+<!-- You can see the behavior with a fixed outer viewer in the following example. Notice that when you switch between sets, the outer viewer size does not change: -->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ja)
+<!--
 
-   メインビューの寸法を静的にするには、`Container` `.s7zoomviewer` CSS セレクターを使用するか、修飾子を使用して、内部の `.s7container` SDK コンポーネントのビューアサイズを絶対単位で定義 `stagesize` ます。
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7zoomviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+メインビューの寸法を静的にするには、`Container` `.s7zoomviewer` CSS セレクターを使用するか、修飾子を使用して、内部の `.s7container` SDK コンポーネントのビューアサイズを絶対単位で定義 `stagesize` ます。
 
-   次のデモページは、固定されたメインビューサイズでのビューアの動作を示しています。 セットを切り替えると、メインビューは静的なままになり、web ページコンテンツは垂直方向に移動します。
+次に、アセットを切り替えるときにメイン表示領域のサイズが変わらないように、内部の `Container` SDK コンポーネントのビューアサイズを定義する例を示します。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ja)
+```html {.line-numbers}
+#s7viewer.s7zoomviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   `stagesize` 修飾子は、Dynamic Media Classicのビューアプリセットレコードで設定できます。 または、以下に示すように、`params` コレクションを使用して、または API 呼び出しとして、ビューア初期化コードを使用して明示的に渡すこともできます。
+<!-- The following demo page shows the viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically. -->
 
-   ```html {.line-numbers}
-    zoomViewer.setParam("stagesize", 
-   "640,480");
-   ```
+<!--
 
-   この例では、CSS ベースのアプローチをお勧めします。
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+
+-->
+
+`stagesize` 修飾子は、Dynamic Media Classicのビューアプリセットレコードで設定できます。 または、以下に示すように、`params` コレクションを使用して、または API 呼び出しとして、ビューア初期化コードを使用して明示的に渡すこともできます。
+
+```html {.line-numbers}
+ zoomViewer.setParam("stagesize", 
+"640,480");
+```
+
+この例では、CSS ベースのアプローチをお勧めします。
 
 1. ビューアの作成と初期化。
 
@@ -315,7 +323,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## 幅と高さが定義された柔軟なサイズの埋め込み {#section-3674e6c032594441a6576b7fb1de6e64}
 

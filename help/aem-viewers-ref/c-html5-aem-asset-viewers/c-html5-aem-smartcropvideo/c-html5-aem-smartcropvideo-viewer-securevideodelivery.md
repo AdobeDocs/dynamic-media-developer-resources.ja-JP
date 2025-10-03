@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: b809a11f-3c2d-4abd-b317-fabb36245b1b
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ ht-degree: 0%
 
 Adobe Experience Managerで使用する Dynamic Media ビデオの公開方法に応じて、`SmartCropVideoPlayer.ssl` 設定属性の適用の仕方が異なります（以下を参照）。
 
-* URL を含む Dynamic Media ビデオを公開する場合は、`SmartCropVideoPlayer.ssl` を URL に追加します。 例えば、セキュアなビデオ配信を強制するには、次のビューア URL 例の末尾に `&SmartCropVideoPlayer.ssl=on` を追加します。
+* URL を含む Dynamic Media ビデオを公開する場合は、`SmartCropVideoPlayer.ssl` を URL に追加します。
+
+<!-- For example, to force secure video delivery, you append `&SmartCropVideoPlayer.ssl=on` to the end of the following viewer URL example: -->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/SmartCropVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&SmartCropVideoPlayer.ssl=on
   ```
 
-  [Web アプリケーションへの URL のリンク ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。
+  -->
 
-* 埋め込みコードを使用して Dynamic Media ビデオを公開する場合は、埋め込みコードスニペットにある他のビューア設定パラメーターのリストに `SmartCropVideoPlayer.ssl` を追加します。 例えば、HTTPS ビデオを強制的に配信するには、次の例のように `&SmartCropVideoPlayer.ssl=on` を追加します。
+[Web アプリケーションへの URL のリンク ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic) も参照してください。
+
+* 埋め込みコードを使用して Dynamic Media ビデオを公開する場合は、埋め込みコードスニペットにある他のビューア設定パラメーターのリストに `SmartCropVideoPlayer.ssl` を追加します。
+
+<!-- For example, to force HTTPS video delivery, you append `&SmartCropVideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```
   <style type="text/css"> 
@@ -57,4 +67,6 @@ Adobe Experience Managerで使用する Dynamic Media ビデオの公開方法�
   </script>
   ```
 
-  [Web ページへのビデオの埋め込み ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。
+  -->
+
+[Web ページへのビデオの埋め込み ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic) も参照してください。

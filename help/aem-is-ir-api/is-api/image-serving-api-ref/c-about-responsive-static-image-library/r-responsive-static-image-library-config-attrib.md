@@ -5,9 +5,9 @@ title: コマンドリファレンス – 設定属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 オプション。
 
 画像サービングが提供する画像への URL。 URL が存在しない場合、ライブラリはフォールバックとして属性に設定された値 `src` 使用します。 この属性は、初期画像と、レスポンシブ画像ライブラリが様々な場所から管理する動的画像を提供します。
-<!--
-**Example** 
+
+**例**
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -35,15 +35,15 @@ ht-degree: 0%
 
 `data-src` が設定されていない場合、`src` は必須であり、画像サービングが提供する画像への URL を含める必要があります。
 
-<!--
-**Example**
 
-Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
+**例**
+
+`src` 属性にデータ URI を使用し、`data-src` 属性に画像サービング URL を使用します。
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
--->
+
 
 ## data-breakpoint {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -55,26 +55,26 @@ Using data URI for the `src` attribute and Image Serving URL for the `data-src` 
 
 複数の画像サービングコマンドまたは画像プリセット名は、「`&`」文字で区切られています。 画像サービングコマンドの値にコンマが含まれている場合、そのコンマは `%2C` に置き換えられます。 画像プリセット名はドル記号（`$`）で囲まれます。
 
-<!--
-**Examples**
 
-**Using breakpoints only**
+**例**
+
+**ブレークポイントのみ使用**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Using Image Serving commands**
+**画像サービングコマンドの使用**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Using Image Presets**
+**画像プリセットの使用**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Using Image Presets & Image Serving commands**
+**画像プリセットおよび画像サービングコマンドの使用**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
--->
+
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

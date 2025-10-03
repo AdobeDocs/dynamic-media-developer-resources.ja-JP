@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 0%
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ja)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 -->
 
 ## システム要件 {#section-b7270cc4290043399681dc504f043609}
 
-[&#x200B; 必要システム構成 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ 必要システム構成 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 ## カルーセルビューアの使用 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 設定とスキニングは、このヘルプで説明する他のビューアの設定と似ています。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## カルーセルビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## カルーセルビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -140,7 +140,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    HTMLページに直接 CSS でサイズ設定を指定できます。 サイズ設定はカスタムビューアの CSS ファイルに入れることができます。この CSS ファイルは、後でAEM Assetsのビューアプリセットレコードにオンデマンドで割り当てられるか、`style` コマンドを使用して明示的に渡されます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; カルーセルビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[ カルーセルビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -167,8 +167,13 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    同時に、コンテナ要素は、まだ web ページレイアウトの一部である必要はありません。 例えば、割り当てられたスタイルを使用して非表示 `display:none` する場合があります。 この場合、ビューアは、web ページがコンテナ要素をレイアウトに戻す瞬間まで、初期化プロセスを遅延します。 この機能が発生すると、ビューアの読み込みが自動的に再開されます。
 
+<!--
 
-   次に、ビューアインスタンスを作成し、必要な最小限の設定オプションをコンストラクターに渡して `init()` メソッドを呼び出す例を示します。 この例では、`carouselViewer` がビューアインスタンス、`s7viewer` がプレースホルダー `DIV` の名前、`https://adobedemo62-h.assetsadobe.com/is/image` が画像サービング URL、`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` がアセットであることを前提としています。
+   The following is an example of creating a viewer instance, passing minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes `carouselViewer` is the viewer instance; `s7viewer` is the name of placeholder `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is the Image Serving URL, and `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is the asset:
+
+-->
+
+<!--
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -182,8 +187,13 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    </script>
    ```
 
+-->
 
-   次のコードは、カルーセルビューアを固定サイズで埋め込む簡単な web ページの完全な例です。
+<!--
+   The following code is a complete example of a trivial web page that embeds the Carousel Viewer with a fixed size:
+-->
+
+<!--
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,6 +221,8 @@ Web ページにビューアを追加するには、次の手順を実行しま�
    </body> 
    </html>
    ```
+-->
+
 
 **高さが制限されないレスポンシブデザインの埋め込み**
 
@@ -240,7 +252,11 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 1. コンテナ `DIV` を定義します。
 1. ビューアの作成と初期化。
 
-上記の手順はすべて、固定サイズの埋め込みと同じです。 コンテナ `DIV` を既存の `"holder"` `DIV` に追加します。 次のコードは完全な例です。 ブラウザーのサイズを変更するとビューアのサイズがどのように変化するか、ビューアの縦横比がアセットとどのように一致するかを確認します。
+上記の手順はすべて、固定サイズの埋め込みと同じです。 コンテナ `DIV` を既存の `"holder"` `DIV` に追加します。
+
+<!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,14 +286,21 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-以下の例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
+-->
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ja](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ja)
+<!-- The following examples page illustrates more real-life uses of responsive design embedding with unrestricted height: -->
+
+<!--
+
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+
+-->
 
 **幅と高さが定義された柔軟なサイズの埋め込み**
 
-幅と高さが定義されたフレキシブルサイズの埋め込みでは、web ページのスタイル設定が異なります。 `"holder"` DIV のサイズとブラウザーウィンドウの中央に合わせたサイズの両方が提供されます。 また、web ページでは、`HTML` と `BODY` 要素のサイズが 100% に設定されます。
+幅と高さが定義されたフレキシブルサイズの埋め込みでは、web ページのスタイル設定が異なります。 `"holder"` DIV のサイズとブラウザーウィンドウの中央に配置されるサイズの両方が指定されます。 また、web ページでは、`HTML` と `BODY` 要素のサイズが 100% に設定されます。
 
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -303,7 +326,7 @@ height: 60%;
 </html>
 ```
 
-残りの埋め込みステップは、高さが制限されないレスポンシブ埋め込みに使用されるステップと同じです。 結果の例を次に示します。
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,13 +364,16 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+-->
+
 
 **Setter ベースの API を使用した埋め込み**
 
 JSON ベースの初期化を使用する代わりに、setter ベースの API および no-args コンストラクターを使用することができます。 この API コンストラクターを使用すると、パラメーターは取得されず、`setContainerId()`、`setParam()`、`setAsset()` の API メソッドを使用して、個別のJavaScript呼び出しで設定パラメーターが指定されます。
 
+<!-- The following example illustrates using fixed size embedding with the setter-based API: -->
 
-次の例は、setter ベースの API を使用した固定サイズの埋め込みの使用を示しています。
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -373,4 +399,6 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+
+-->
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 スマート切り抜きビデオビューアでは、スマート切り抜きのサポートを追加して、H.264 形式でエンコードされたストリーミングおよびプログレッシブビデオを再生します。 Dynamic Media と共にDynamic Media ClassicまたはExperience Managerから配信されます。
 
-[&#x200B; システム要件と前提条件 &#x200B;](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
+[ システム要件と前提条件 ](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842) を参照してください。
 
 単一のビデオとアダプティブビデオセットの両方がサポートされています。 また、ビューアでは、外部の場所でホストされているプログレッシブビデオおよびHLS ストリームの操作もサポートされています。 これは、HTML5 ビデオをサポートするデスクトップとモバイルの両方の web ブラウザーで動作するように設計されています。 このビューアでは、ビデオコンテンツ、ビデオチャプターナビゲーションおよびソーシャルメディア共有ツールの上に表示されるオプションのクローズドキャプションもサポートされます。
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ビューアのタイプ 518。
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## デモ URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS](https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS)
--->
+
 
 ## スマート切り抜きビデオビューアの使用 {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -39,7 +39,7 @@ IS-Viewers に付属の実稼動用HTMLページを使用して、ポップア�
 
 ビューアの設定とスキニングのタスクは、他のビューアと似ています。 すべてのスキニングは、カスタム CSS を使用して行います。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) および [ すべてのビューアに共通のコマンドリファレンス - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください
 
 ## スマート切り抜きビデオビューアの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -64,7 +64,7 @@ IS-Viewers に付属の実稼動用HTMLページを使用して、ポップア�
 
 このビューアは完全にキーボードでアクセス可能です。
 
-詳しくは [&#x200B; キーボードアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
+詳しくは [ キーボードアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861) を参照してください。
 
 ## スマート切り抜きビデオビューアを使用したソーシャルメディア共有ツール {#section-907d316fe1da4b87abb9775f02464704}
 
@@ -162,7 +162,7 @@ Web ページにビューアを追加するには、次の手順を実行しま�
 
    サイズ設定は、HTML ページの直接の CSS、またはカスタムビューアの CSS ファイルに入れることができます。 その後、コンテンツフラグメントはDynamic Media Classicのビューアプリセットレコードに割り当てられるか、スタイルコマンドを使用して明示的に渡されます。
 
-   CSS を使用したビューアのスタイル設定について詳しくは、[&#x200B; スマート切り抜きビデオビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) を参照してください。
+   CSS を使用したビューアのスタイル設定について詳しくは、[ スマート切り抜きビデオビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) を参照してください。
 
    HTML ページで静的ビューアサイズを定義する例を以下に示します。
 
@@ -293,9 +293,13 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 次のページの例では、高さが制限されないレスポンシブデザインの埋め込みを使用した実際の使用例を示しています。
 
-[&#x200B; ライブデモ &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[ ライブデモ ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[&#x200B; 代替デモの場所 &#x200B;](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 **幅と高さが定義されたレスポンシブデザインの埋め込み**
 
