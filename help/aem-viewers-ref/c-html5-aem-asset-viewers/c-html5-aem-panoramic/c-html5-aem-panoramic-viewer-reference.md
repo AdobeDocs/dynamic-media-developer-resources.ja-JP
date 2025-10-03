@@ -275,7 +275,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
 
 -->
 

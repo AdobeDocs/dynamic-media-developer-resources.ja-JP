@@ -34,7 +34,7 @@ Adobe Experience Managerで使用するビデオの公開方法 [!DNL Dynamic Me
 
 -->
 
-[Web アプリケーションへの URL のリンク &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic) も参照してください。
+[Web アプリケーションへの URL のリンク &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。
 
 * 埋め込みコードを使用して [!DNL Dynamic Media] ビデオを公開する場合は、埋め込みコードスニペットにある他のビューア設定パラメーターのリストに `VideoPlayer.ssl` を追加します。
 
@@ -88,4 +88,4 @@ Adobe Experience Managerで使用するビデオの公開方法 [!DNL Dynamic Me
   ```
 -->
 
-[Web ページへのビデオの埋め込み &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic) も参照してください。
+[Web ページへのビデオの埋め込み &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic) も参照してください。
