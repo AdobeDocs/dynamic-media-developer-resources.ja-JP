@@ -31,7 +31,7 @@ Video360 ビューアの設定属性
 
 オプション。 ビューアが外部ビデオを操作する場合は無視されます。
 
-詳しくは、[ 外部ビデオのサポート ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
+詳しくは、[&#x200B; 外部ビデオのサポート &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
 
 ## 初期設定 {#section-71fb773f814649b2885aefee68073641}
 

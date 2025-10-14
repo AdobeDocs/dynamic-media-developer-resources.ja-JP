@@ -31,7 +31,7 @@ ht-degree: 2%
 
 オプション。
 
-ビューアが外部ビデオを操作する場合は無視されます。 [ 外部ビデオのサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) を参照してください。
+ビューアが外部ビデオを操作する場合は無視されます。 [&#x200B; 外部ビデオのサポート &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) を参照してください。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

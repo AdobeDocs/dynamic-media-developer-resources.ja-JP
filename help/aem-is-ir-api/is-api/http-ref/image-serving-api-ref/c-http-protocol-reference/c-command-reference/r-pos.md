@@ -47,7 +47,7 @@ posN= *`coordN`*
 
 ## 例 {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例 A を参照してください。
+[&#x200B; テンプレート &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例 A を参照してください。
 
 ## 関連項目 {#section-812d95575ba542808e8387d0a8650606}
 

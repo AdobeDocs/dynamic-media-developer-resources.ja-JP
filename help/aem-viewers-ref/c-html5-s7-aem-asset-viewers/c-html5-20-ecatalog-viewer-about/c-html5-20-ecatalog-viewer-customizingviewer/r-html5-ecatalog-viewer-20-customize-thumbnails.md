@@ -360,7 +360,7 @@ CSS `top`、`left`、`bottom` および `right` プロパティを使用して�
 >
 >これらのボタンは、`state` 属性セレクターをサポートしています。このセレクターを使用して、ボタンの様々な状態 `up`、`down`、`over`、`disabled` に様々なスキンを適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 28 x 32 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定する場合
 

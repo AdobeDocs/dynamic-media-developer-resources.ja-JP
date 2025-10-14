@@ -69,7 +69,7 @@ ht-degree: 3%
 
 `imageprops`
 
-URL パスで指定されたビネットファイルまたはカタログエントリの、選択されたプロパティを返します。 返信構文と応答の MIME タイプについて詳しくは、[ プロパティ ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) を参照してください。 リクエスト内のその他のコマンドは無視されます。 次のプロパティが返されます。
+URL パスで指定されたビネットファイルまたはカタログエントリの、選択されたプロパティを返します。 返信構文と応答の MIME タイプについて詳しくは、[&#x200B; プロパティ &#x200B;](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) を参照してください。 リクエスト内のその他のコマンドは無視されます。 次のプロパティが返されます。
 
 <table id="table_A30296D29B5D43F1B5383A887252C6B4"> 
  <thead> 
@@ -180,7 +180,7 @@ URL パスで指定されたビネットファイルまたはカタログエン�
 
 `props`
 
-指定されたコマンドを実行し、レンダリングされたイメージではなく、ビネット プロパティとグループまたはオブジェクト プロパティを返します。 返信構文と応答の MIME タイプについて詳しくは、[ プロパティ ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) を参照してください。 `obj=` または `sel=` も指定されていない限り、デフォルトの選択が適用されます（[`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) を参照）。
+指定されたコマンドを実行し、レンダリングされたイメージではなく、ビネット プロパティとグループまたはオブジェクト プロパティを返します。 返信構文と応答の MIME タイプについて詳しくは、[&#x200B; プロパティ &#x200B;](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) を参照してください。 `obj=` または `sel=` も指定されていない限り、デフォルトの選択が適用されます（[`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) を参照）。
 
 応答には、次のプロパティが含まれる場合があります。
 

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 画像に個別のマスクを付加できます。
 
-サーバーは、[Source データの管理 ](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) に記載されているパス解決ルールを使用して、データファイルを検索します。
+サーバーは、[Source データの管理 &#x200B;](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) に記載されているパス解決ルールを使用して、データファイルを検索します。
 
 ## プロパティ {#section-cdc3b7e2811e41008479cd97887c01b7}
 

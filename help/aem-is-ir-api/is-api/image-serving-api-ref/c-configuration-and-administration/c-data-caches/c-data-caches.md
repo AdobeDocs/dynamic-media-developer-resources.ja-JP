@@ -23,4 +23,4 @@ ht-degree: 6%
 
 ## 関連項目 {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[ サーバーキャッシュ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)、[ キャッシュクラスタリング ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[&#x200B; サーバーキャッシュ &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)、[&#x200B; キャッシュクラスタリング &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)

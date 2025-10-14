@@ -30,36 +30,36 @@ ht-degree: 0%
 
 **&#x200B; `Text=` では、常に上部に狭い余白が表示されます。**
 
-![ テキストの配置の例 1 イメージ ](assets/tp01.png)
+![&#x200B; テキストの配置の例 1 イメージ &#x200B;](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
 **&#x200B; `textPs=` では、テキストがテキストボックスの上部にしっかりと揃えられるので、Arial®:**&#x200B;などの一般的なフォントでも、わずかなクリッピングが発生します。
 
-![ テキストの配置の例 2 つの画像 ](assets/tp02.png)
+![&#x200B; テキストの配置の例 2 つの画像 &#x200B;](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
 **&#x200B; `text=` は、クリッピングを避けるために、レンダリングされたテキストを自動的に下に移動します。**
 
-![ テキストの配置の例 3 つの画像 ](assets/tp03.png)
+![&#x200B; テキストの配置の例 3 つの画像 &#x200B;](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
 **&#x200B; `textPs=` は文字の盛り上がった部分を含む文字を移動しないため、文字が画層 0:**&#x200B;上にある場合にクリッピングが発生します。
 
-![ テキストの配置の例 4 つの画像 ](assets/tp04.png)
+![&#x200B; テキストの配置の例 4 つの画像 &#x200B;](assets/tp04.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
 **上部の 10 pt （200 twip）の余白で、このテキストがクリッピングなしでレンダリングされます。**
 
-![ テキストの配置の例 5 つの画像 ](assets/tp05.png)
+![&#x200B; テキストの配置の例 5 つの画像 &#x200B;](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
 **特定のスクリプトフォントのレンダリング済みグリフが、テキストボックスの外側で大幅に拡張される場合があります。**
 
-![ テキストの配置の例 6 画像 ](assets/tp06.png)
+![&#x200B; テキストの配置の例 6 画像 &#x200B;](assets/tp06.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs={\fonttbl{\f1\fcharset0%20FluffyFont;}}\f1\fs88%20fluffy%20font%20problems`

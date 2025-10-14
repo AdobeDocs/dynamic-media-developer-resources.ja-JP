@@ -79,7 +79,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK名前空間 ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md#concept-53e47e46d7954e2b9681d13d716fd1ca) で説明されているように、完全修飾されたSDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK名前空間 &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md#concept-53e47e46d7954e2b9681d13d716fd1ca) で説明されているように、完全修飾されたSDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 

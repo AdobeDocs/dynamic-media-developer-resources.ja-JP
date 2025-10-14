@@ -28,7 +28,7 @@ Dynamic Media HTML5 ビューアの必要システム構成です。
 * Adobe Dynamic Media 画像サービング 6.7.1 以降。
 * HTML5 ビューアを使用するには、SDK JavaScript サーバーサイドライブラリ 3.11.5 以降が必要です。
 * *友達にメールを送信* ソーシャル機能には、s7ondemand 5.0.9 以降が必要です。
-* eCatalog ビューア - [ 情報パネルポップアップ ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバー 2.1.8 以降が必要です。
+* eCatalog ビューア - [&#x200B; 情報パネルポップアップ &#x200B;](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバー 2.1.8 以降が必要です。
 * 検索機能コンポーネントには s7search 2.3.0 以降が必要です。
 
 ## ビューアの必要システム構成 {#section-cc72b1e209524d038b4d5b92b35e998e}

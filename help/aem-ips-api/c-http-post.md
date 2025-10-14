@@ -106,7 +106,7 @@ POST リクエストが成功した場合、応答本文は XML `uploadPostRetur
 
 返された `jobHandle` は、同じジョブに対する後続の POST リクエストの `uploadPostParams`/ `jobHandle` パラメーターに渡されます。 また、`getActiveJobs` 操作でジョブステータスをポーリングしたり、`getJobLogDetails` 操作でジョブのログをクエリしたりすることもできます。
 
-POST リクエストの処理中にエラーが発生した場合、応答本文は、[ フォールト ](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b) に説明されているように、API フォールトタイプの 1 つで構成されます。
+POST リクエストの処理中にエラーが発生した場合、応答本文は、[&#x200B; フォールト &#x200B;](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b) に説明されているように、API フォールトタイプの 1 つで構成されます。
 
 ## POST リクエストの例 {#section-810fe32abdb9426ba0fea488dffadd1e}
 

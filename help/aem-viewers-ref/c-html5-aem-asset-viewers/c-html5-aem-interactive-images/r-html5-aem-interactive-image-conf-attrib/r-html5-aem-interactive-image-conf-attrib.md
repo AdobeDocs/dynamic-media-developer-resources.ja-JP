@@ -28,4 +28,4 @@ ht-degree: 0%
 * `ZoomView.fmt` （コンポーネントクラス名で修飾）
 * `cont_zoomView.fmt` （コンポーネント ID で修飾。`cont` はコンテナ要素の ID と仮定）
 
-[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) も参照してください。
+[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) も参照してください。

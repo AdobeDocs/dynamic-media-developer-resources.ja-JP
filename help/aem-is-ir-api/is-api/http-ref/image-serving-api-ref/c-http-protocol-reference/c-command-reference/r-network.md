@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # ネットワーク{#network}
 
-「ネットワーク帯域幅」をオンにすると、提供される画質が、実際のネットワーク帯域幅に基づいて自動的に調整されます。 ネットワーク帯域幅が不十分な場合は、[DPR （デバイスピクセル比） ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) 最適化がオンになっていても、自動的にオフになります。
+「ネットワーク帯域幅」をオンにすると、提供される画質が、実際のネットワーク帯域幅に基づいて自動的に調整されます。 ネットワーク帯域幅が不十分な場合は、[DPR （デバイスピクセル比） &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) 最適化がオンになっていても、自動的にオフになります。
 
 必要に応じて、画像の URL にを付けて、個々の画像レベルでネットワーク帯域幅の最適化をオプトアウト `network=off` きます。
 
@@ -43,4 +43,4 @@ ht-degree: 4%
 
 ## 関連項目
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)、[drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)、[ スマートイメージング ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=ja)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)、[drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)、[&#x200B; スマートイメージング &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=ja)

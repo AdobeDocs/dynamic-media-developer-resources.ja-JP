@@ -22,4 +22,4 @@ ht-degree: 0%
 
 プロパティ値に行区切り記号を含めることはできません。
 
-プロパティデータに適用されるその他のルールについては、[ テキスト文字列 ](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63) を参照してください。
+プロパティデータに適用されるその他のルールについては、[&#x200B; テキスト文字列 &#x200B;](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63) を参照してください。

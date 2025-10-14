@@ -174,7 +174,7 @@ CSS の top、left、bottom、right プロパティを使用してスクロー�
 >
 >このボタンは、`state`、`up`、`down`、`over` などの異なるボタン状態に異なるスキンを適用するために使用できる `disabled` 属性セレクターをサポートしています。
 
-ボタンのツールチップはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 56 x 56 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定する場合
 

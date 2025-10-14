@@ -30,4 +30,4 @@ ht-degree: 1%
 
 ## 関連項目 {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[ アクセス ログ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)、[ デバッグ/トレース ログ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[&#x200B; アクセス ログ &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)、[&#x200B; デバッグ/トレース ログ &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

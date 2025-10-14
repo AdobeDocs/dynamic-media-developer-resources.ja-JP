@@ -35,4 +35,4 @@ ht-degree: 0%
 
 次の画像は、画像の異なる縦横比と異なるテキスト文字列の合成結果を示しています。
 
-![ 例 B 画像 ](assets/exampleb.png)
+![&#x200B; 例 B 画像 &#x200B;](assets/exampleb.png)

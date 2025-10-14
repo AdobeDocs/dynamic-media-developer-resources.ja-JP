@@ -71,7 +71,7 @@ CSS を使用して、ボタンのサイズ、スキンおよび位置を、ボ�
 >
 >ビデオが最後に達し、ボタンを選択すると再生が最初から再開される際に、属性 `replay='true'` が設定されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 

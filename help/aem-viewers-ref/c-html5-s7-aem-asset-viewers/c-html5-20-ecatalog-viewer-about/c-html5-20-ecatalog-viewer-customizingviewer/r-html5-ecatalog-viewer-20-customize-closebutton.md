@@ -71,7 +71,7 @@ ht-degree: 0%
 >
 >このボタンでは、`state` 属性セレクターがサポートされています。このセレクターを使用して、異なるボタン状態に異なるスキンを適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 56 x 56 ピクセルで、メインコントロールバーの上端と右端から 4 ピクセルの位置にある「閉じる」ボタンを設定する 最後に、は、4 つの異なるボタン状態ごとに異なる画像を表示します。
 

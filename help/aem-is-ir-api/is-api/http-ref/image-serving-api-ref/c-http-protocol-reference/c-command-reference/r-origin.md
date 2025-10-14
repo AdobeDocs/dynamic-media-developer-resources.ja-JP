@@ -47,7 +47,7 @@ ht-degree: 2%
 
 ## 例 {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
-[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例 A を参照してください。
+[&#x200B; テンプレート &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例 A を参照してください。
 
 ## 関連項目 {#section-a9f9c42c86fe45798deb2daaf27ea5b7}
 

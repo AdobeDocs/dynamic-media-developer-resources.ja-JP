@@ -16,7 +16,7 @@ ht-degree: 0%
 
 次に、Scene7 画像サービングテキストエンジンでサポートされているキーワードとコマンドのリストを示します。
 
-各キーワードまたはコマンドの詳細については、公開されている [RTF 1.6 仕様 ](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) を参照してください。
+各キーワードまたはコマンドの詳細については、公開されている [RTF 1.6 仕様 &#x200B;](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) を参照してください。
 
 以下にリストされていない RTF コマンドは、パーサーで無視されます。
 

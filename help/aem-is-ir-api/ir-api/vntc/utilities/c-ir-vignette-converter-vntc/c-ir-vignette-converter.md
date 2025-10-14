@@ -18,7 +18,7 @@ Vignette Converter （vntc）は、画像オーサリングで作成したコン
 
 [!DNL vntc] は [!DNL *[!DNL install_root]*\ImageServing\bin] にあります。 これには次の機能があります。
 
-* プライマリビネットを単一解像度、複数解像度またはピラミッド実稼動ビネットに変換します（[ ビネットの拡大縮小 ](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585) を参照）。
+* プライマリビネットを単一解像度、複数解像度またはピラミッド実稼動ビネットに変換します（[&#x200B; ビネットの拡大縮小 &#x200B;](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585) を参照）。
 * スタイル ファイルをカバーする実稼動キャビネットと窓を作成します（`-resolution` と `-jpegquality` を参照）。
 
 * 旧バージョンのイメージ レンダリングで使用できるように、ビネット、キャビネット、およびウィンドウの覆いのスタイル ファイルの異なるファイル バージョンを作成します。

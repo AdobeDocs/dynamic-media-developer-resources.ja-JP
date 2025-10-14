@@ -20,6 +20,6 @@ ht-degree: 0%
 
 返信データの形式と応答の MIME タイプは、`fmt=` によって決まります。 `fit=` を除くすべてのコマンドをサポートします。
 
-[ サムネールの拡大・縮小 ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) を参照してください。
+[&#x200B; サムネールの拡大・縮小 &#x200B;](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) を参照してください。
 
 `catalog::Expiration` に基づいて、HTTP 応答を TTL と共にキャッシュできます。

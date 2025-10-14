@@ -18,7 +18,7 @@ Image Server プロキシを使用すると、日本の携帯電話用の画像�
 
 ## URL の形式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS プロキシの URL 形式は、通常の IS リクエストに非常によく似ています。 プロキシに渡された IS 修飾子は、Image Server に渡されます。 IS 修飾子に関する情報は、[HTTP プロトコルリファレンス ](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e) を参照してください。
+IS プロキシの URL 形式は、通常の IS リクエストに非常によく似ています。 プロキシに渡された IS 修飾子は、Image Server に渡されます。 IS 修飾子に関する情報は、[HTTP プロトコルリファレンス &#x200B;](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e) を参照してください。
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 

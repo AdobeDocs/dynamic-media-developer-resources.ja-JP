@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 起動と停止 {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-Server Supervisor が起動、停止、およびイメージ サービング ユーティリティ スクリプトを使用して再起動されます。 詳しくは、[ ユーティリティのドキュメント ](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) を参照してください。
+Server Supervisor が起動、停止、およびイメージ サービング ユーティリティ スクリプトを使用して再起動されます。 詳しくは、[&#x200B; ユーティリティのドキュメント &#x200B;](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) を参照してください。
 
 サーバースーパーバイザーを起動および停止すると、他のすべての画像サービングコンポーネントが自動的に起動および停止します。
 

@@ -37,7 +37,7 @@ Source オブジェクト指定子。 Image、SVG、および ICC プロファ�
  </tr> 
 </table>
 
-*`rootId`* は画像カタログを識別します。 （詳しくは、[ 画像カタログ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) を参照してください。） URL パスで *`rootId`* が指定されている場合、そのカタログはこのリクエストの *メインカタログ* になります。 それ以外の場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
+*`rootId`* は画像カタログを識別します。 （詳しくは、[&#x200B; 画像カタログ &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) を参照してください。） URL パスで *`rootId`* が指定されている場合、そのカタログはこのリクエストの *メインカタログ* になります。 それ以外の場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
 
 サーバは最初に、*`rootId`*、`src=`、`mask=` のコマンドで `icc=` が省略されていると仮定し、メイン カタログ内のカタログ エントリを検索しようとします。 実際には、サーバーは *`object`* 文字列全体を *`objId.`* のように使用しようとします
 
@@ -83,4 +83,4 @@ Source オブジェクト指定子。 Image、SVG、および ICC プロファ�
 
 ## 関連項目 {#section-b6eccefad63f441d922699c4aba58fc9}
 
-[IC ユーティリティ ](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [attribute::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
+[IC ユーティリティ &#x200B;](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [attribute::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)

@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 例 {#section-a33f6239476a4b438d939656ad99aa76}
 
-[ の一般的な用途については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)rotate=`scl=` の例を参照してください。
+[&#x200B; の一般的な用途については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)rotate=`scl=` の例を参照してください。
 
 ## 関連項目 {#section-ccefd5de59924059903d66d4974ce317}
 

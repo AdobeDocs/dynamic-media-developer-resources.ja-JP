@@ -95,7 +95,7 @@ Video360 ビューア用のJavaScript API リファレンス。
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK名前空間 ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK名前空間 &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、*HTML5 Viewer SDK API* ドキュメントを参照してください。
 

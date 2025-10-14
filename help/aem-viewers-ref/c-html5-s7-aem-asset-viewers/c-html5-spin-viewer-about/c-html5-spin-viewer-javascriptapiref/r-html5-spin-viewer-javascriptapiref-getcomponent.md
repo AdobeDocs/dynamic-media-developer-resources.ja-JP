@@ -79,7 +79,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md#concept-fa293878c9ff4758ae888415c70fbeef) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 

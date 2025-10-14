@@ -16,7 +16,7 @@ ht-degree: 0%
 
 eCatalog ビューアは、メインビューの上にある画像マップアイコンのレンダリングをサポートしています。
 
-マップアイコンの外観は、[ 画像マップエフェクト ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289) で説明されているように、CSS で制御されます。
+マップアイコンの外観は、[&#x200B; 画像マップエフェクト &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289) で説明されているように、CSS で制御されます。
 
 画像マップは、外部 Web ページへのリダイレクト、情報パネルのポップアップのアクティブ化、内部ハイパーリンクの 3 つのアクションのいずれかを実行します。
 

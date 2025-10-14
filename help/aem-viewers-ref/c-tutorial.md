@@ -24,12 +24,12 @@ SDKは、ビューアコンテンツを構成する UI コンポーネントで�
 
 このチュートリアルでは、基本的なズームビューアの作成に役立つ、次のタスクの順序を示します。
 
-* [Adobe Developer Connectionから最新のビューアSDKをダウンロードします ](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
-* [ ビューアのSDKの読み込み ](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [ ビューアへのスタイルの追加 ](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
-* [ コンテナと ZoomView を含む ](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [ ビューアへのメディアセットコンポーネントとスウォッチコンポーネントの追加 ](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
-* [ ビューアへのボタンの追加 ](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
+* [Adobe Developer Connectionから最新のビューアSDKをダウンロードします &#x200B;](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [&#x200B; ビューアのSDKの読み込み &#x200B;](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
+* [&#x200B; ビューアへのスタイルの追加 &#x200B;](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [&#x200B; コンテナと ZoomView を含む &#x200B;](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
+* [&#x200B; ビューアへのメディアセットコンポーネントとスウォッチコンポーネントの追加 &#x200B;](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [&#x200B; ビューアへのボタンの追加 &#x200B;](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [スウォッチの垂直方向の設定](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
 ## Adobe Developer Connectionから最新のビューアSDKをダウンロードします {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
@@ -207,7 +207,7 @@ SDKは、ビューアコンテンツを構成する UI コンポーネントで�
 
 1. ページをプレビューして、作成した内容を確認します。 ページは次のようになります。
 
-   ![ ビューアの例 1 イメージ ](assets/viewer-1.jpg)
+   ![&#x200B; ビューアの例 1 イメージ &#x200B;](assets/viewer-1.jpg)
 
 次に、コンポーネント `MediaSet` と `Swatches` をビューアに追加します。
 
@@ -288,7 +288,7 @@ SDKは、ビューアコンテンツを構成する UI コンポーネントで�
 
    ビューアは次の画像のようになります。 ビューアのブラウザーウィンドウのサイズを変更してみて、結果として生じる動作に注目してください。
 
-   ![ ビューアの例 2 つの画像 ](assets/viewer-2.jpg)
+   ![&#x200B; ビューアの例 2 つの画像 &#x200B;](assets/viewer-2.jpg)
 
 次に、ビューアにズームイン、ズームアウト、ズームリセットのボタンを追加します。
 
@@ -352,7 +352,7 @@ SDKは、ビューアコンテンツを構成する UI コンポーネントで�
 
 1. ビューアをプレビューします。 次のようになります。
 
-   ![ ビューアの例 3 つの画像 ](assets/viewer-3.jpg)
+   ![&#x200B; ビューアの例 3 つの画像 &#x200B;](assets/viewer-3.jpg)
 
    次に、スウォッチを右側に垂直に並べるように設定します。
 
@@ -385,7 +385,7 @@ SDKは、ビューアコンテンツを構成する UI コンポーネントで�
 
 1. ビューアをプレビューします。 次のようになります。
 
-   ![ ビューアの例 4 つの画像 ](assets/viewer-4.jpg)
+   ![&#x200B; ビューアの例 4 つの画像 &#x200B;](assets/viewer-4.jpg)
 
    これで、基本ズームビューアが完成しました。
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ビューアは、メインビューの上部にあるホットスポットアイコンと画像マップ領域のレンダリングをサポートしています。 ホットスポットのアイコンと領域の外観は、ホットスポットと画像マップのカスタマイズの節で説明しているように、CSS で制御されます。
 
-[ ホットスポットと画像マップ ](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
+[&#x200B; ホットスポットと画像マップ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
 
 ホットスポットとリージョンは、JavaScript コールバックをトリガーしてホスティング web ページ上でクイックビュー機能をアクティブ化するか、ユーザーを外部 web ページにリダイレクトできます。
 

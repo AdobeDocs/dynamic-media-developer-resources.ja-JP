@@ -191,7 +191,7 @@ eCatalog ビューアのJavaScript API リファレンス
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK名前空間 ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK名前空間 &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、*ビューア SDK API* のドキュメントを参照してください。
 

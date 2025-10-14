@@ -53,7 +53,7 @@ Facebook 共有ツールは、ソーシャル共有パネルに追加された�
 
 CSS クラスに CSS プロパティを設定することで、ソーシャル共有パネルからボタン `display:none` 削除することができます。
 
-ボタンのツールチップはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 **例** - 28 x 28 ピクセルで、4 つの異なるボタン状態ごとに異なる画像を表示する Facebook 共有ボタンを設定するには：
 

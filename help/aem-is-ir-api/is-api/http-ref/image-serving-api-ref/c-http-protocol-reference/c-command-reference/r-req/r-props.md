@@ -31,7 +31,7 @@ JSONP 応答形式をサポートするリクエストでは、パラメータ�
 
 `<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみを使用できます。 オプション。 デフォルトは `s7jsonResponse` です。
 
-返信構文と応答の MIME タイプについて詳しくは、[ プロパティ ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) を参照してください。 HTTP 応答は、`attribute::NonImgExpiration` に基づく TTL でキャッシュ可能です。
+返信構文と応答の MIME タイプについて詳しくは、[&#x200B; プロパティ &#x200B;](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) を参照してください。 HTTP 応答は、`attribute::NonImgExpiration` に基づく TTL でキャッシュ可能です。
 
 /is/image リクエストに対して、次のプロパティが返されます。
 

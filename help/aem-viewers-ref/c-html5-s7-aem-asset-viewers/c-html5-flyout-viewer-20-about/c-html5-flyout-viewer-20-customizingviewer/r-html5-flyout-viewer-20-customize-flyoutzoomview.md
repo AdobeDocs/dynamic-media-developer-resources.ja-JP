@@ -266,7 +266,7 @@ CSS を使用すると、フォントスタイル、サイズ、外観、垂直�
  </tbody> 
 </table>
 
-ヒント メッセージはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
+ヒント メッセージはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
 
 例 – 白い Arial® 12 ピクセルのフォント、メインビューの下部からの 50 ピクセルのオフセット、パディング、丸い境界線を使用して、半透明の先端メッセージを設定するには：
 

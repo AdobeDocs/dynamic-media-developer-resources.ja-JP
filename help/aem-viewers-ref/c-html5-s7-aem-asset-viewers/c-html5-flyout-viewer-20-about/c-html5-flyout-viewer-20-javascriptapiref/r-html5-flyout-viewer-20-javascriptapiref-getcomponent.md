@@ -55,7 +55,7 @@ Flyout ビューアのJavaScript API リファレンス
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md#concept-453501a601634dd1bca7b96878c22605) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 

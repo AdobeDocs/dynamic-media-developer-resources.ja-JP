@@ -55,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ビューア SDK名前空間 ](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ビューア SDK名前空間 &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 

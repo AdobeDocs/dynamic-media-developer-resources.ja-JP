@@ -216,7 +216,7 @@ ht-degree: 0%
 >
 >このテキストパネルでは、`state` 属性セレクターがサポートされており、これを使用して、様々なテキストメッセージに異なるスタイルを適用できます。 特に、`state='prompt'` は、パネルが初めて呼び出されたときに表示されるテキストプロンプトに対応しています。 `state='results'` は、検索ヒット数に関する情報を含むテキストに対応します。 最後に、`state='no_results'` は、検索クエリが結果を返さなかった場合に表示されるテキストに対応します。
 
-メッセージテキストはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+メッセージテキストはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – グレーの 18 ピクセルフォントを使用するテキストパネルを設定するには：
 
@@ -358,7 +358,7 @@ CSS の top、left、bottom、right プロパティを使用してスクロー�
 >
 >このボタンでは、`state`、`"up"`、`"down"`、`"over"` のボタン状態に異なるスキンを適用するために使用できる `"disabled"` 属性セレクターをサポートしています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 125 x 35 ピクセルで、状態ごとに異なるアートワークを持つスクロールアップボタンを設定するには：
 

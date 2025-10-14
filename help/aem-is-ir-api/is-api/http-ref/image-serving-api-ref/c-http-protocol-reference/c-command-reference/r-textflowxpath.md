@@ -25,7 +25,7 @@ ht-degree: 5%
  </tr> 
 </table>
 
-詳細（[ の説明など）については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`* を参照してください。 パス定義を指定しない場合、`textFlowXPath=` は無視されます。
+詳細（[&#x200B; の説明など）については、](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`* を参照してください。 パス定義を指定しない場合、`textFlowXPath=` は無視されます。
 
 ## プロパティ {#section-cd1ebb151d4a405fbfc508d46522d686}
 

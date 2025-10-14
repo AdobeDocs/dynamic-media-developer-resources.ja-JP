@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Adobeは、`ExcludeMasterVideoFromAVS` パラメーターのサポートを 2022 年 9 月 1 日（PT）に終了します。 [ 非推奨の呼び出し ](/help/aem-ips-api/c-deprecated-calls.md) も参照してください。
+>Adobeは、`ExcludeMasterVideoFromAVS` パラメーターのサポートを 2022 年 9 月 1 日（PT）に終了します。 [&#x200B; 非推奨の呼び出し &#x200B;](/help/aem-ips-api/c-deprecated-calls.md) も参照してください。
 
 プライマリビデオをアダプティブビデオセットから除外します。
 

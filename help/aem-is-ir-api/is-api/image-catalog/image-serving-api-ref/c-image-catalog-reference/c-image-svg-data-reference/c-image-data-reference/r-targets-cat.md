@@ -57,7 +57,7 @@ ht-degree: 1%
 
 ターゲット。 *`num`*.rect は各ズームターゲットに必要で、画像内で長方形を完全に指定する必要があります。 その他のプロパティはすべてオプションです。
 
-テキスト文字列のローカライゼーションには *`label`* と *`userData`* が使用されます。 詳しくは、[HTTP プロトコルリファレンス ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
+テキスト文字列のローカライゼーションには *`label`* と *`userData`* が使用されます。 詳しくは、[HTTP プロトコルリファレンス &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
 
 スピンおよびパンフレットのビューアクライアントに関係するアプリケーションの場合、画像セットを定義したのと同じカタログレコードでズームターゲットを定義する必要があります。 画像セットのメンバーのカタログレコード内のズームターゲット定義は、ビューアでは無視されます。
 
@@ -65,7 +65,7 @@ Dynamic Media ビューアでは、`catalog::Modifier` のコマンドで既に�
 
 ## プロパティ {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
-[ プロパティデータ ](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) 値。
+[&#x200B; プロパティデータ &#x200B;](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) 値。
 
 ## 初期設定 {#section-feab29f6575e482391086a57f547543c}
 
@@ -73,4 +73,4 @@ Dynamic Media ビューアでは、`catalog::Modifier` のコマンドで既に�
 
 ## 関連項目 {#section-83dea73b1dbf4aa1b64b0aae2933e6e1}
 
-[catalog::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256)、[catalog::Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)、[req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)、[ テキスト文字列のローカライズ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[catalog::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256)、[catalog::Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)、[req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)、[&#x200B; テキスト文字列のローカライズ &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

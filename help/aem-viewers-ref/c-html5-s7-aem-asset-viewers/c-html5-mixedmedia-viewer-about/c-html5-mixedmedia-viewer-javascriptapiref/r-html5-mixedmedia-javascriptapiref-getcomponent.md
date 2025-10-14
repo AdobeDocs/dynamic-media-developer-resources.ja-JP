@@ -123,7 +123,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) に記載されているように、正しい完全修飾のSDK名前空間を使用することが重要です。
+SDK API を使用する場合は、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) に記載されているように、正しい完全修飾のSDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
 

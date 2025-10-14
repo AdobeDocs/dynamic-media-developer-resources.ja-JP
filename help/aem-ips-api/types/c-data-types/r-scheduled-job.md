@@ -43,7 +43,7 @@ ht-degree: 3%
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 以前にアップロードしたファイルの承認済みエクスポートを許可します。 [ エクスポートジョブ ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ja) を参照してください。 |
+| exportJob | `types:ExportJob` | 以前にアップロードしたファイルの承認済みエクスポートを許可します。 [&#x200B; エクスポートジョブ &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ja) を参照してください。 |
 
 ## 説明 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

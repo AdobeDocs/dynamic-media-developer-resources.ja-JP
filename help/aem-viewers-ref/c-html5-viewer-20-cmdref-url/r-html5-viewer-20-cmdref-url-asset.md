@@ -27,7 +27,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-このパラメーターを使用しない限り、こ `video` プロパティは必須です。 詳しくは、「ビデオ」の [ 外部ビデオのサポート ](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) または「ビデオ 360」の [ 外部ビデオのサポート ](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
+このパラメーターを使用しない限り、こ `video` プロパティは必須です。 詳しくは、「ビデオ」の [&#x200B; 外部ビデオのサポート &#x200B;](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) または「ビデオ 360」の [&#x200B; 外部ビデオのサポート &#x200B;](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
 
 または
 

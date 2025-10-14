@@ -37,7 +37,7 @@ ht-degree: 1%
 
 マスクがソリッドカラーレイヤーにアタッチされている場合、イメージレイヤー内の画像に使用されるのと同じルールを使用して、マスクを切り抜いたり拡大縮小したりできます。 `size=`、`scale=`、または `res=` を使用して、マスクをスケールできます。
 
-レイヤーマスクは、レイ *`nestedRequest`* ーの形式で指定することもできます。 ネストされたリクエストまたは埋め込まれたリクエストは、中括弧で囲まれます。 埋め込み画像サービングリクエストの前に `is` を、埋め込み画像レンダリングリクエストの前に `ir` を付けます。 プレフィックスが指定されていない場合、外部サーバーへのリクエストが想定されます。 詳しくは、[ リクエストのネストと埋め込み ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) を参照してください。
+レイヤーマスクは、レイ *`nestedRequest`* ーの形式で指定することもできます。 ネストされたリクエストまたは埋め込まれたリクエストは、中括弧で囲まれます。 埋め込み画像サービングリクエストの前に `is` を、埋め込み画像レンダリングリクエストの前に `ir` を付けます。 プレフィックスが指定されていない場合、外部サーバーへのリクエストが想定されます。 詳しくは、[&#x200B; リクエストのネストと埋め込み &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) を参照してください。
 
 ## プロパティ {#section-a093043dc249423b8ae322cefb0d545d}
 
@@ -59,4 +59,4 @@ ht-degree: 1%
 
 ## 関連項目 {#section-7ed5201d91594e5f872438a92eaf1c89}
 
-[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md) , [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) , [ ネストと埋め込みのリクエスト ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md) , [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) , [&#x200B; ネストと埋め込みのリクエスト &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)

@@ -45,7 +45,7 @@ ht-degree: 2%
 
 両方のレイヤーの原点は、目的の配置を達成するために左上隅に設定されます。 レイヤ 1 の原点は `labelImage` 回転した後に適用されます。
 
-回転したテキストの例については、[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) の [ 例 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) を参照してください。
+回転したテキストの例については、[&#x200B; テンプレート &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) の [&#x200B; 例 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) を参照してください。
 
 ## 関連項目 {#section-c371ee0845994b7382c02e782d1bc595}
 

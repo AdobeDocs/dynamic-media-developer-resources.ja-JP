@@ -20,7 +20,7 @@ ht-degree: 0%
 
 材料仕様セグメント （MSS）内に存在するが、上または下の特定の材料表にリストされていない属性は、サーバーによって無視されます。
 
-次の表に、基本的な材料属性を示します。 赤外線は、制御する追加のアトリビュート [ 高度なレンダリング エフェクト ](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281) をサポートします。
+次の表に、基本的な材料属性を示します。 赤外線は、制御する追加のアトリビュート [&#x200B; 高度なレンダリング エフェクト &#x200B;](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md#concept-bf8b6d8460244b9cacc7f4a3df4c5281) をサポートします。
 
 特に明記されていない限り、すべてのマテリアル属性はオプションで、適切な既定値が設定されています。
 

@@ -20,4 +20,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->すべてのレイヤーが統合された後、合成画像は、[view コマンドおよび属性 ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90) で指定されたとおりに、最終的な応答画像に変換されます。
+>すべてのレイヤーが統合された後、合成画像は、[view コマンドおよび属性 &#x200B;](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90) で指定されたとおりに、最終的な応答画像に変換されます。

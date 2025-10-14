@@ -63,4 +63,4 @@ Dynamic Media 画像サービングは、次のコンポーネントで構成さ
  </tbody> 
 </table>
 
-追加の設定は、デフォルトカタログ（[!DNL default.ini]）または特定の画像カタログ（詳しくは [ 画像カタログ ](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) を参照）によって提供されます。
+追加の設定は、デフォルトカタログ（[!DNL default.ini]）または特定の画像カタログ（詳しくは [&#x200B; 画像カタログ &#x200B;](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) を参照）によって提供されます。

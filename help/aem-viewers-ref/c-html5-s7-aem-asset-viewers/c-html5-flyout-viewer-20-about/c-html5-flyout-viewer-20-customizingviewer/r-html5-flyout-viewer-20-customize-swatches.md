@@ -183,7 +183,7 @@ CSS `top`、`left`、`bottom` および `right` プロパティを使用して�
 >
 >このボタンは、ボタンの状態 `state`、`up`、`down`、`over` に様々なスキンを適用するために使用される `disabled` 属性セレクターをサポートしています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) を参照してください。
 
 例 – 56 x 56 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには：
 

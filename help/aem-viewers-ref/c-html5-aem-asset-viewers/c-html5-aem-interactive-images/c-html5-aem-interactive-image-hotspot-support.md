@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ビューアは、メインビューの上部にあるホットスポットアイコンのレンダリングをサポートしています。 ホットスポットアイコンの外観は、ホットスポットの節で説明しているように CSS で制御します。
 
-[ ホットスポット ](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
+[&#x200B; ホットスポット &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
 
 ホットスポットは、JavaScript コールバックをトリガーしてホスティング web ページ上でクイックビュー機能をアクティブ化するか、外部 web ページにユーザーをリダイレクトすることができます。
 

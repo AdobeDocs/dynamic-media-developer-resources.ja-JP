@@ -28,7 +28,7 @@ SVGは、画像ファイルが許可されている場所（URL パス、`src=`�
 
 埋め込み画像サービングリクエストのクエリ部分にある重要な変数は、直接置き換えられません。 代わりに、使用可能なすべての変数定義がリクエストに追加され、リクエストの解析時に画像サービングで変数を置き換えることができます。
 
-詳細は、[ 代替変数 ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) を参照してください。
+詳細は、[&#x200B; 代替変数 &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) を参照してください。
 
 ## 画像参照 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
@@ -74,4 +74,4 @@ ICC プロファイルベースのカラー仕様は、現時点ではサポー�
 
 ## 関連項目 {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 仕様 ](https://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 仕様 &#x200B;](https://www.w3.org/TR/SVG11/)

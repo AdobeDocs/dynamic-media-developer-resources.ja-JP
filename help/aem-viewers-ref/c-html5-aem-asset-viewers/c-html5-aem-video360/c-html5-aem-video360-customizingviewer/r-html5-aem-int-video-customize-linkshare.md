@@ -53,7 +53,7 @@ ht-degree: 0%
 
 CSS クラスに CSS プロパティを設定することで、ソーシャル共有パネルからボタン `display:none` 削除することができます。
 
-ボタンのツールチップはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 例 – 28 x 28 ピクセルのリンク共有ボタンを設定し、4 つの異なるボタン状態のそれぞれに異なる画像を表示するには、次のようにします。
 
@@ -282,7 +282,7 @@ background-color: #ffffff;
 >
 >このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 **例** - パディング、22 x 12 ピクセルのアイコン、太字の 16 ポイントのタイトルを含むダイアログボックスヘッダーを設定します。 最後に、ダイアログボックスのコンテナの上から 2 ピクセル、右から 2 ピクセルの位置にある 28 x 28 ピクセルの「閉じる」ボタンを選択します。
 
@@ -463,7 +463,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 **例** - 64 x 34 の「キャンセル」ボタンを持つダイアログボックスのフッターを設定する場合。ボタンの状態ごとに異なるテキストの色と背景色が使用されます。
 
@@ -616,7 +616,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ダイアログ ボックスのラベルはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ダイアログ ボックスのラベルはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 **例** – すべてのラベルを 9 ピクセルフォントで太字にするグレーで設定するには、次の手順を実行します。
 

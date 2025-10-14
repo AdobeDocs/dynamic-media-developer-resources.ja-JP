@@ -20,7 +20,7 @@ ht-degree: 0%
 
 画像実稼働システムの API 呼び出しと、[!DNL Dynamic Media] で使用されなくなった関連パラメーター。
 
-* `ExcludeMasterVideoFromAVS` - [ データタイプ ](/help/aem-ips-api/types/c-data-types/c-data-types.md) から非推奨（廃止予定）。 このパラメーターにより、プライマリビデオがアダプティブビデオセットから除外されます。<!-- Adobe is ending support for this parameter on September 1, 2022. -->
-* `addMediaPortalEvent` - [ 操作 ](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 このパラメーターを使用すると、IPS にメディアポータルイベントを追加できます。
-* `getMediaPortalEvent` - [ 操作 ](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 このパラメーターを使用すると、指定した条件に一致するメディアポータルイベントを取得できます。
-* `getCdnCacheInvalidationStatus` - [ 操作 ](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 `cdnCacheInvalidation` パラメーターによってキャッシュがほぼ直ちに（約 5 秒）無効化されるので、このパラメーターは非推奨（廃止予定）になりました。 したがって、無効化ステータスのポーリングは不要になりました。
+* `ExcludeMasterVideoFromAVS` - [&#x200B; データタイプ &#x200B;](/help/aem-ips-api/types/c-data-types/c-data-types.md) から非推奨（廃止予定）。 このパラメーターにより、プライマリビデオがアダプティブビデオセットから除外されます。<!-- Adobe is ending support for this parameter on September 1, 2022. -->
+* `addMediaPortalEvent` - [&#x200B; 操作 &#x200B;](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 このパラメーターを使用すると、IPS にメディアポータルイベントを追加できます。
+* `getMediaPortalEvent` - [&#x200B; 操作 &#x200B;](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 このパラメーターを使用すると、指定した条件に一致するメディアポータルイベントを取得できます。
+* `getCdnCacheInvalidationStatus` - [&#x200B; 操作 &#x200B;](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md) から非推奨（廃止予定）になりました。 `cdnCacheInvalidation` パラメーターによってキャッシュがほぼ直ちに（約 5 秒）無効化されるので、このパラメーターは非推奨（廃止予定）になりました。 したがって、無効化ステータスのポーリングは不要になりました。

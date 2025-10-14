@@ -133,7 +133,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-バナーツールチップはローカライズ可能である。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+バナーツールチップはローカライズ可能である。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -314,7 +314,7 @@ CSS `top`、`left`、`bottom` および `right` プロパティを使用して�
 >
 >このボタンでは、ボタンの状態（「`state`」、「`up`」、「`down`」、「`over`」）に異なるスキンを適用するために使用できる `disabled` 属性セレクターがサポートされています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 ## 例 {#section-e6ce4fa084b84288bc7583342b2c510c}
 

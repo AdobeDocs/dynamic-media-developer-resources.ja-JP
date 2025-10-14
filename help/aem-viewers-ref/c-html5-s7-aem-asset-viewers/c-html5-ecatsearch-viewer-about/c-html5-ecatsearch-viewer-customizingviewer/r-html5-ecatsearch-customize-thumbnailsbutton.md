@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は、サムネールモードがアクティブ状態の場合はビューアの状態に対応し、`selected='false'` はメイン表示のデフォルト状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 28 x 28 ピクセルで、メインコントロールバーの下部から 4 ピクセル、左端から 5 ピクセルの位置にあるサムネールボタンを設定します。 最後に、は、選択または未選択の場合、4 つの異なるボタン状態ごとに異なる画像を表示します。
 

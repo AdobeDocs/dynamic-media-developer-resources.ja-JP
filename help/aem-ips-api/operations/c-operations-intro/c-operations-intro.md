@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ここでは、IPS Web サービス API で処理される一般的な操作パラメーターについて説明します。
 
-各操作パラメーターの詳細については、「[ 操作パラメーター ](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)」を参照してください。
+各操作パラメーターの詳細については、「[&#x200B; 操作パラメーター &#x200B;](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)」を参照してください。
 
 ## ハンドル：概要 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 

@@ -16,7 +16,7 @@ ht-degree: 5%
 
 getActiveJobs を使用してデスクトップアップロードを追跡します。
 
-[HTTP POST を使用したアセットのアップロード ](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d) も参照してください。
+[HTTP POST を使用したアセットのアップロード &#x200B;](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d) も参照してください。
 
 >[!NOTE]
 >

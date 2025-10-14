@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## プロパティ {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-オプションのネットマスクを使用した IP アドレスのコンマ区切りリスト （[CIDR 表記 ](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) が使用されています）:
+オプションのネットマスクを使用した IP アドレスのコンマ区切りリスト （[CIDR 表記 &#x200B;](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) が使用されています）:
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 

@@ -30,4 +30,4 @@ ht-degree: 2%
 
 ## 関連項目 {#section-d31268a02fe345e3abf0a4eb95a1dac5}
 
-[HTTP/1.1 仕様（RFC 2616） ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[HTTP/1.1 仕様（RFC 2616） &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

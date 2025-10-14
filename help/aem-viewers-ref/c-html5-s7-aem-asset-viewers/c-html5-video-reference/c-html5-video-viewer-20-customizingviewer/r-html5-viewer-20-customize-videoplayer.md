@@ -37,7 +37,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – ビデオプレーヤーのサイズが 512 x 288 ピクセルに設定されたビデオビューアを設定するには
 

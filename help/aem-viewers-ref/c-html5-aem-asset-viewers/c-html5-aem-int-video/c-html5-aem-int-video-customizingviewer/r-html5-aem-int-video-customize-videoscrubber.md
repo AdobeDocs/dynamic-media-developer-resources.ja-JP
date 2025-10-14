@@ -156,7 +156,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-ビデオスクラバーツールチップは局在可能である。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ビデオスクラバーツールチップは局在可能である。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 **例** - ビデオスクラバーとカスタムのトラックカラー（高さ 10 ピクセル）でビデオビューアを設定するには： コントロールバーの上端と左端から 10 ピクセル、35 ピクセルの位置を指定します。
 

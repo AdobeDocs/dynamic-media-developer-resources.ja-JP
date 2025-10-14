@@ -18,7 +18,7 @@ ht-degree: 18%
 
 基準点を使用すると、特定の基準点に基づいて、画像を回転、スケール、サイズ変更することができます。基準点は、`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`、`southeast` です。 例えば、中心基準点を使用すると、グラフィックをその中心で 45 度回転できます。 次の図に、基準点の位置、グラフィック、`northWest` の基準点から 20°回転したグラフィック、および `east` の基準点から 20°回転したグラフィックを示します。
 
-![ 基準点の画像 ](assets/wp_ref_points.png)
+![&#x200B; 基準点の画像 &#x200B;](assets/wp_ref_points.png)
 
 * A.参照点の位置
 * ロ。グラフィック

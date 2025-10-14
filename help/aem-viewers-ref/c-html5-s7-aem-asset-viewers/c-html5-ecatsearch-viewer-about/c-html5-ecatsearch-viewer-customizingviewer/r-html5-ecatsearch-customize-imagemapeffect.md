@@ -77,7 +77,7 @@ opacity: 1;
 }
 ```
 
-[ 画像マップのサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a) も参照してください。
+[&#x200B; 画像マップのサポート &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a) も参照してください。
 
 画像マップ領域の外観は、次の CSS クラスセレクターで制御します。
 

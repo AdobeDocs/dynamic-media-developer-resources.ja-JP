@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >このボタンは、`state` 属性セレクターと選択属性セレクターをサポートしています。これらを使用して、異なるボタン状態に異なるスキンを適用できます。 特に、`selected='true'` はキャプションが表示される状態に対応し、`selected='false'` はキャプションが非表示の場合に使用されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 例 – 28 x 28 ピクセルのクローズドキャプションボタンを設定するには、上部から 4 ピクセル、コントロールバーの右端から 68 ピクセルの位置に配置します。 最後に、は、選択または未選択の場合、4 つの異なるボタン状態ごとに異なる画像を表示します。
 

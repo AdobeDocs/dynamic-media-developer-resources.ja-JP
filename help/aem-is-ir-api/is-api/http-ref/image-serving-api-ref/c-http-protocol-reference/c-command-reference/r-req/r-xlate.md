@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-[ オブジェクト Id 変換 ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414) を参照してください。
+[&#x200B; オブジェクト Id 変換 &#x200B;](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414) を参照してください。
 
 以下に例を挙げます。
 

@@ -30,8 +30,8 @@ ht-degree: 0%
 * ソース画像を `src=` ではなくリクエストパスで指定しながら、HTTP サーバーまたは FTP サーバーに配置できるようにします。
 * リクエストパスまたは画像名に応じて、画質の設定（JPEG画質やシャープニングなど）を制御します。
 
-ルールセットの作成、使用および管理について詳しくは、[ ルールセット参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e) を参照してください。
+ルールセットの作成、使用および管理について詳しくは、[&#x200B; ルールセット参照 &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e) を参照してください。
 
 ## 関連項目 {#see-also}
 
-[ 規則セットの参照 ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
+[&#x200B; 規則セットの参照 &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [attribute::RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)

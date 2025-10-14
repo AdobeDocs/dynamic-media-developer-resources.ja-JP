@@ -104,7 +104,7 @@ CSS を使用すれば、フォントスタイル、サイズの外観、垂直�
  </tbody> 
 </table>
 
-ヒント メッセージはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ヒント メッセージはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
 
 例 – 白い Arial® 12 ピクセルのフォント、メインビューの下部からの 50 ピクセルのオフセット、パディング、丸い境界線を持つ、半透明の先端メッセージを設定するには：
 

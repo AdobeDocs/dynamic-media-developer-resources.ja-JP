@@ -43,4 +43,4 @@ ht-degree: 8%
 
 特に指定がない限り、応答は応答を `name=value` ペアのセットとしてフォーマットします。
 
-[ プロパティ ](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) を参照してください。
+[&#x200B; プロパティ &#x200B;](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) を参照してください。

@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >特に、`selected='false'` は最初のスクロールボタンの状態に対応し、`selected='true'` は検索パネルがアクティブな状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
 
 例 – 28 x 28 ピクセルの検索ボタンを設定し、選択または未選択の場合に 4 つの異なるボタン状態ごとに異なる画像を表示します。
 

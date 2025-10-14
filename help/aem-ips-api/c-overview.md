@@ -24,8 +24,8 @@ IPS API は、標準のSOAPおよび HTTP プロトコルを使用し、これ�
 
 >[!MORELIKETHIS]
 >
->* [IPS Web サービス WSDL のバージョン ](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
->* [ 運用の方法 ](operations/c-operations-intro/c-methods/c-methods.md)
->* [ データタイプ ](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
->* [ 文字列定数 ](string-constants/c-string-constants/c-string-constants.md)
->* [ フォールト ](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
+>* [IPS Web サービス WSDL のバージョン &#x200B;](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
+>* [&#x200B; 運用の方法 &#x200B;](operations/c-operations-intro/c-methods/c-methods.md)
+>* [&#x200B; データタイプ &#x200B;](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
+>* [&#x200B; 文字列定数 &#x200B;](string-constants/c-string-constants/c-string-constants.md)
+>* [&#x200B; フォールト &#x200B;](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)

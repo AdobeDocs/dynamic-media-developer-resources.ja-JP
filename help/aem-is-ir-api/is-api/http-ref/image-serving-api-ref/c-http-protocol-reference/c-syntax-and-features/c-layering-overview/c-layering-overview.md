@@ -18,7 +18,7 @@ ht-degree: 5%
 
 ## 関連トピック {#section-9d47587692d94637af61de851f3d118f}
 
-* [ テンプレート ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
+* [&#x200B; テンプレート &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
 * [レイヤー効果](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md)
 * [レイヤ=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)
 * [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)

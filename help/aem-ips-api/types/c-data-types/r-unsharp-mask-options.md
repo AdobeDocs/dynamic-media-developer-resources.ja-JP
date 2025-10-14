@@ -92,4 +92,4 @@ ht-degree: 8%
 
 >[!MORELIKETHIS]
 >
->* [ 画像サービス API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=ja)
+>* [&#x200B; 画像サービス API リファレンス：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=ja)

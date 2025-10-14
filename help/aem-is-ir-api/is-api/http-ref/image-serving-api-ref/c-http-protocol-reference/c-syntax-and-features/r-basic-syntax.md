@@ -85,4 +85,4 @@ HTTP プロトコルの基本的な構文は次のとおりです。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[ データタイプ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1 仕様 ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[&#x200B; データタイプ &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1 仕様 &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

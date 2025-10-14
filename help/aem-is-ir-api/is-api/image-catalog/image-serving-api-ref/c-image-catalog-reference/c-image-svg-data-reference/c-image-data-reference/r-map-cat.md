@@ -22,7 +22,7 @@ ht-degree: 3%
 
 テキスト文字列値。 指定する場合は、1 つ以上の完全なHTML `<AREA>` 要素にする必要があります。
 
-このフィールドは、テキスト文字列のローカリゼーションに参加します。 詳しくは、[HTTP プロトコルリファレンス ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
+このフィールドは、テキスト文字列のローカリゼーションに参加します。 詳しくは、[HTTP プロトコルリファレンス &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
 
 ## 初期設定 {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 
@@ -30,4 +30,4 @@ ht-degree: 3%
 
 ## 関連項目 {#section-d66a32e1f12f4cb0ad22ddd78be36ec4}
 
-[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) , [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [ テキスト文字列のローカライズ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) , [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [&#x200B; テキスト文字列のローカライズ &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

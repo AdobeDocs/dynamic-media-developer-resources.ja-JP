@@ -38,4 +38,4 @@ ht-degree: 1%
 
 ## 関連項目 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC ユーティリティ ](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)、[attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)、[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC ユーティリティ &#x200B;](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)、[attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)、[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
