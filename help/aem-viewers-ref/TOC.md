@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Dynamic Media ビューアリファレンスガイド {#library}
 
-+ [Dynamic Media ビューアリファレンスガイド &#x200B;](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Dynamic Media ビューアリファレンスガイド &#x200B;](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) -->
 + [&#x200B; ビューアライブラリの例 &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバーへの複数のビューアのインストール](t-installing-the-viewers.md)
