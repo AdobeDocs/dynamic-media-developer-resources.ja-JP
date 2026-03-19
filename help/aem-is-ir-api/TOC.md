@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media 画像サービングおよび画像レンダリ
 breadcrumb-title: Dynamic Media 画像サービングおよび画像レンダリング API
 feature-set: Experience Manager Assets
 user-guide-description: IS （画像サービング） API と IR （画像レンダリング） API、および関連テクノロジーに関するドキュメントを表示します。
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Dynamic Media 画像サービングおよび画像レンダリング API {#image-serving-api}
 
-+ [Dynamic Media 画像サービングおよび画像レンダリング API ホーム &#x200B;](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ja) -->
++ [Dynamic Media 画像サービングおよび画像レンダリング API ホーム](homeisir.md)
 + [このリリースについて](r-about-this-release.md)
 + [システム要件および前提条件](r-requirements-and-prerequisites.md)
 + [ディスク容量の要件と推奨事項](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 7%
       + [キャビネット スタイル ファイルのオプション](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [戻り値](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [出力](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

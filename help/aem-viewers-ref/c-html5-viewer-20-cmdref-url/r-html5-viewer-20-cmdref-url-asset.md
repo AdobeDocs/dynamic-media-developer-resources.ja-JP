@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-このパラメーターを使用しない限り、こ `video` プロパティは必須です。 詳しくは、「ビデオ」の [&#x200B; 外部ビデオのサポート &#x200B;](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) または「ビデオ 360」の [&#x200B; 外部ビデオのサポート &#x200B;](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
+このパラメーターを使用しない限り、こ `video` プロパティは必須です。 詳しくは、「ビデオ」の [ 外部ビデオのサポート ](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) または「ビデオ 360」の [ 外部ビデオのサポート ](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) を参照してください。
 
 または
 
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>次の構文を使用して、明示的な多次元スピンセットを指定します。 </p> <p> <span class="codeph"> （（<span class="varname"> horizontalSpinSet </span>） [,（<span class="varname"> horizontalSpinSet </span>） ]） </span> </p> <p> <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> は、指定した水平軸のフレームのコンマ区切りリストです。 <span class="codeph"><span class="varname"></span> すべての horizontalSpinSet</span> フレーム数は同じにする必要があります。 </p> <p> <p>メモ：この機能はAdobe Dynamic Media Classicでサポートされます。Adobe Experience Manager Assetsではサポートされません。 </p> </p> </td> 
+   <td colname="col2"> <p>次の構文を使用して、明示的な多次元スピンセットを指定します。 </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> は、指定した水平軸のフレームのコンマ区切りリストです。 <span class="codeph"><span class="varname"></span> すべての horizontalSpinSet</span> フレーム数は同じにする必要があります。 </p> <p> <p>メモ：この機能はAdobe Dynamic Media Classicでサポートされます。Adobe Experience Manager Assetsではサポートされません。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修飾子 </span> </span> </p> </td> 

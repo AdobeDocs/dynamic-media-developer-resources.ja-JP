@@ -1,11 +1,12 @@
 ---
 title: ユーザーインターフェイス要素のローカリゼーション
 description: スマート切り抜きビデオビューアに表示される特定のコンテンツは、ローカライゼーションの影響を受けます。 このコンテンツには、ユーザーインターフェイス要素のツールヒントと、ビデオを再生できない場合に表示されるエラーメッセージが含まれています。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%

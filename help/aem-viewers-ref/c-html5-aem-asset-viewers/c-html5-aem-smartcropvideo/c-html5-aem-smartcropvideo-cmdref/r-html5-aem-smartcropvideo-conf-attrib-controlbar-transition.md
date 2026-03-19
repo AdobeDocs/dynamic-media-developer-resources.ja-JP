@@ -1,11 +1,12 @@
 ---
 title: ControlBar.transition
 description: スマート切り抜きビデオビューアの設定属性。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7b4db11b-e9ac-4a52-9206-083989128bc6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 2%

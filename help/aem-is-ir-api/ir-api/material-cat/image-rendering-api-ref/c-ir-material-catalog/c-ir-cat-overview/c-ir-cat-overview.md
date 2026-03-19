@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ ht-degree: 0%
 
 Render Server を正しく機能させるには、デフォルト カタログのカタログ属性ファイルの名前を [!DNL default.ini] にする必要があります。 また、カタログフォルダーに常に存在し、`attribute::RootId` と様々なカタログデータファイルへの参照を除く、すべての必要な属性（すべてのオプション）を完全に入力する必要があります。
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->

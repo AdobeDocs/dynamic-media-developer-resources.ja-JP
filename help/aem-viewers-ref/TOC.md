@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップデバイスとタッチスクリーンデバイスで使用するために Dynamic Media ビューアをカスタマイズします。 インタラクティブ画像とビデオ、カルーセル、スピンセットなどを含めます。
-source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -13,8 +13,8 @@ ht-degree: 1%
 
 # Dynamic Media ビューアリファレンスガイド {#library}
 
-+ [Dynamic Media ビューアリファレンスガイド &#x200B;](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) -->
-+ [&#x200B; ビューアライブラリの例 &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
++ [Dynamic Media ビューアリファレンスガイド](homeviewers.md)
++ [ ビューアライブラリの例 ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバーへの複数のビューアのインストール](t-installing-the-viewers.md)
 + ビューアのリリースノート {#viewers-release-notes}
@@ -1012,3 +1012,4 @@ ht-degree: 1%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

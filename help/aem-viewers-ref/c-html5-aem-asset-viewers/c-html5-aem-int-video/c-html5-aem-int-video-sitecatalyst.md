@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: HTML5 Video360 ビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

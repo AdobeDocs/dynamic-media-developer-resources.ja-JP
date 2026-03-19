@@ -2,9 +2,8 @@
 title: コマンドリファレンス – 設定属性
 description: パノラマビューアの設定属性ドキュメント。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -12,6 +11,10 @@ ht-degree: 0%
 ---
 
 # コマンドリファレンス – 設定属性{#command-reference-configuration-attributes}
+
+<!--
+feature: Dynamic Media Classic,Viewers,SDK/API
+-->
 
 パノラマビューアの設定属性ドキュメント。
 
@@ -30,6 +33,6 @@ ht-degree: 0%
 * `cont_panoramicView.vrrender` （コンポーネント ID で修飾。cont はコンテナ要素の ID と仮定）
 
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) を参照してください。
+[ すべてのビューアに共通のコマンドリファレンス – 設定属性 ](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) を参照してください。
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください。
+[ すべてのビューアに共通のコマンドリファレンス - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226) を参照してください。

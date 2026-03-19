@@ -1,11 +1,12 @@
 ---
 title: フルスクリーンサポート
 description: ビューアは、フルスクリーン操作モードをサポートします。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: fbf2b9cb-9187-4ce9-99d5-07ca20b7fa7d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%

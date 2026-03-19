@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: Adobe Analyticsのトラッキングのサポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%

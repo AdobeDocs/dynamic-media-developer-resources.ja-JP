@@ -1,10 +1,11 @@
 ---
 title: ビデオプレーヤー
 description: スマート切り抜きビデオプレーヤーは、ビューア内でビデオコンテンツが表示される長方形の領域です。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -36,7 +37,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 例 – スマート切り抜きビデオプレーヤーサイズを 512 x 288 ピクセルに設定してスマート切り抜きビデオビューアを設定する
 

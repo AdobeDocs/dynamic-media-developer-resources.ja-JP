@@ -1,11 +1,12 @@
 ---
 title: ビデオスクラバー
 description: ビデオスクラバーは、ユーザーが現在再生中のビデオ内の任意の時間位置を動的に探すことができる水平スライダーコントロールです。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -156,7 +157,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-ビデオスクラバーツールチップは局在可能である。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ビデオスクラバーツールチップは局在可能である。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
 
 **例** – 高さが 10 ピクセルのカスタムトラックカラーのビデオスクラバーでビデオビューアを設定するには 最後に、コントロールバーの上端と左端から 10 ピクセルと 35 ピクセルの位置を指定します。
 

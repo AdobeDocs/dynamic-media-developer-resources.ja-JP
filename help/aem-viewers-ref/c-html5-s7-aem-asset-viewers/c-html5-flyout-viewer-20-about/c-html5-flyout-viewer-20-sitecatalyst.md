@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: Flyout ビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%

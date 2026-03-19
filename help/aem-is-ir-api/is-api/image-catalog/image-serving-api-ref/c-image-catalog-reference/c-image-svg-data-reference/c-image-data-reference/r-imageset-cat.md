@@ -5,9 +5,9 @@ title: 画像セット
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`swatch`*]` |
-| `*`swatch`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`swatch`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | 画像参照（カタログ/ID） |
 | `*`swatchId`*` | 画像参照（カタログ/ID） |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`label`*]'}'` |
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | 基本スウォッチセットを定義するカタログレコードへの参照（カタログ/ID） |
 
 **基本スピンセット**
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | 基本スピンセットを定義するカタログレコードへの参照（カタログ/ID） |
 
 **ページセット**
@@ -93,12 +93,12 @@ ht-degree: 1%
 
 | `*`mediaSet`*` | `*`item`* &#42;[ , *`item`* ]` |
 |---|---|
-| `*` 項目 `*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserved`* ] ] ]` |
+| `*` 項目 `*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`video`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| basic \| advanced_image \| img \| img \| advanced_set \| advanced_imageset \| advanced_swatchset \| spin \| ビデオ `]` |
 | `*`swatchId`*` | 画像 ID |
 | `*` ビデオ `*` | ビデオ/アニメーション ファイル パスまたは静的カタログ ID |
 | `*`recut`*` | 再入力定義 XML ファイルのパスまたは静的カタログ ID |
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 テキスト文字列 `catalog::Id` 値のコンマ区切りリスト、Image Server の絶対ファイルパス、または `attribute::RootPath` を基準としたファイルパス。 同じ画像がセット内で複数回参照される場合があります。 定義するカタログレコードは、セットの任意の場所に表示されます。
 
-このフィールドは、テキスト文字列のローカリゼーションに参加します。 *`label`* 文字列（*`solidColorSpecifier`* の一部）に加えて、区切りフィールドに少なくとも 1 つの「`^loc=…^`」ローカリゼーショントークンが含まれている場合、すべてのフィールドがローカライズされます。 詳しくは、[HTTP プロトコルリファレンス &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
+このフィールドは、テキスト文字列のローカリゼーションに参加します。 *`label`* 文字列（*`solidColorSpecifier`* の一部）に加えて、区切りフィールドに少なくとも 1 つの「`^loc=…^`」ローカリゼーショントークンが含まれている場合、すべてのフィールドがローカライズされます。 詳しくは、[HTTP プロトコルリファレンス ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) の *テキスト文字列のローカリゼーション* を参照してください。
 
 ## 初期設定 {#section-c3a60e360393478284f0f2d2da5b963b}
 

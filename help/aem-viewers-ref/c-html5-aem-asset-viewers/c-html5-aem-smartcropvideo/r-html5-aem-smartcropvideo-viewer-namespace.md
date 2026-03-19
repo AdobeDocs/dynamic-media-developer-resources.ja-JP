@@ -1,11 +1,12 @@
 ---
 title: ビューア SDK名前空間
 description: ビューア SDK名前空間
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6cbf7eef-0d17-4411-9a74-22455009f66d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%

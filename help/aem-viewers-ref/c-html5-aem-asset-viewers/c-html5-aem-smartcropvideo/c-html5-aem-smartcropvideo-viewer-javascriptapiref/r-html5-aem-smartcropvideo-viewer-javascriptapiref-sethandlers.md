@@ -1,11 +1,12 @@
 ---
 title: setHandlers
 description: スマート切り抜きビデオビューア用のJavaScript API リファレンス。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 2f9e0381-650d-4f13-b2ae-8d810c8488f4
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 3%

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 17%
@@ -380,8 +380,12 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-<!-- RB: I don't know why this is in here; it was added by someone else: 
-Alternate Shader Rendering (default on) checkbox provides a more precise Advanced Shader diffuse rendering pipeline. For a number of effects it also provides an alternate Advanced Shader rendering pipeline. Note that the underlying OpenGL hardware must provide support for the Advanced (Per-Pixel) GLSL Shaders for this option to be vailable; else this checkbox is automatically disabled. -->
+<!--
+ RB: I don't know why this is in here; it was added by someone else: 
+Alternate Shader Rendering (default on) checkbox provides a more precise Advanced Shader diffuse rendering pipeline. For a number of effects it also provides an alternate Advanced Shader rendering pipeline. Note that the underlying OpenGL hardware must provide support for the Advanced (Per-Pixel) GLSL Shaders for this option to be vailable; else this checkbox is automatically disabled.
+-->
 
-<!-- RB: I don't know why this is in here; it was added by someone else:
-It should probably also go into the different renders - Render Effects and Alternate Shader - or link to descriptions of each. -->
+<!--
+ RB: I don't know why this is in here; it was added by someone else:
+It should probably also go into the different renders - Render Effects and Alternate Shader - or link to descriptions of each.
+-->

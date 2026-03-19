@@ -1,11 +1,12 @@
 ---
 title: コントロールバー
 description: コントロールバーは、再生/一時停止ボタンや音量コントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールの背後にある、を含む長方形領域です。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

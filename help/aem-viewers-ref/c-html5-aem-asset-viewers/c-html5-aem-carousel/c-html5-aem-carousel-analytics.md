@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: Adobe Analyticsのトラッキングのサポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%

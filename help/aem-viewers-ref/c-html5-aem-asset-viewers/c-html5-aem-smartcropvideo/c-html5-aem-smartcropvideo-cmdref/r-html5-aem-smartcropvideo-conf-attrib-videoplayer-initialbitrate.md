@@ -1,11 +1,12 @@
 ---
 title: SmartCropVideoPlayer.initialbitrate
 description: スマート切り抜きビデオビューアの設定属性。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 4fc4fefa-b094-4e2e-b8ec-a439f8a1a56c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 2%

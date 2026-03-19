@@ -1,11 +1,12 @@
 ---
 title: Adobe Analyticsのトラッキングのサポート
 description: Adobe Analyticsのトラッキングのサポート
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
-role: Developer,User,Data Engineer,Data Architect
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,User
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%

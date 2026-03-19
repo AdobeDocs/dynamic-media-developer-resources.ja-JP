@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: 基本ズームビューアでは、すぐに使用できるAdobe Analyticsのトラッキングがサポートされています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%

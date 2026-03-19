@@ -5,9 +5,9 @@ title: 画像サービス HTTP プロトコルの基本構文
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ HTTP プロトコルの基本的な構文は次のとおりです。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> コマンド </span> </span> </p> </td> 
-  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p><code>{</code><span class="varname">cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname"> 値 </span><code>]</code> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> マクロ </span> </span> </p> </td> 
@@ -85,4 +85,4 @@ HTTP プロトコルの基本的な構文は次のとおりです。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[&#x200B; データタイプ &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1 仕様 &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[ データタイプ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1 仕様 ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

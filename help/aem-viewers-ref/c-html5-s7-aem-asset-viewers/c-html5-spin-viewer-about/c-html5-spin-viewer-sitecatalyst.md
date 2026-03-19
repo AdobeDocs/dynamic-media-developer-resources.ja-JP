@@ -3,9 +3,9 @@ title: Adobe Analyticsのトラッキングのサポート
 description: スピンビューアでは、標準でAdobe Analyticsのトラッキングがサポートされています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

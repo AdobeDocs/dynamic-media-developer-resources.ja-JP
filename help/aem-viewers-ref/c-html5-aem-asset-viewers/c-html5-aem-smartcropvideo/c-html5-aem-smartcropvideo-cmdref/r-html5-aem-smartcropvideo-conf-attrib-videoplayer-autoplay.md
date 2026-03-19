@@ -1,11 +1,12 @@
 ---
 title: SmartCropVideoPlayer.autoplay
 description: スマート切り抜きビデオビューアの設定属性。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 1f01f2fe-7f04-4923-be75-e9dd97ab3e21
-source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 6%

@@ -3,9 +3,9 @@ title: Analytics トラッキングのサポート
 description: Analytics トラッキングのサポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

@@ -8,8 +8,8 @@ user-guide-title: Adobe Dynamic Media 開発者向けリソース
 breadcrumb-title: Dynamic Media 開発者リソース
 user-guide-description: ビューアリファレンスガイド、画像実稼働システム API、画像サービングおよびレンダリング API、アーカイブされた Scene7 リリースノートなどの Dynamic Media 開発者リソースにアクセスします。
 feature-set: Experience Manager Assets
-index: y
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+index: true
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -21,7 +21,8 @@ ht-degree: 2%
 
 + [ホーム](home.md)
 
-<!--This TOC may not be necessary. Not sure, so leaving it in.
+<!--
+This TOC may not be necessary. Not sure, so leaving it in.
 + [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
 + [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)

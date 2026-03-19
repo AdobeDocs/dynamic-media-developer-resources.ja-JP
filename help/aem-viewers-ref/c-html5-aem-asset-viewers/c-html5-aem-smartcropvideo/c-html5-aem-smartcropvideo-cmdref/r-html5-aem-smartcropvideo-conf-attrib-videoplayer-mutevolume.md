@@ -1,11 +1,12 @@
 ---
 title: SmartCropVideoPlayer.mutevolume
 description: スマート切り抜きビデオビューアの設定属性。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
-source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
