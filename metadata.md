@@ -6,7 +6,7 @@ product: adobe dynamic media classic
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
+git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.ja-JP
 index: true
 recommendations: noDisplay
 source-git-commit: dc5fd28e05fa2eac63eee3cca08b33a5993f0d61
