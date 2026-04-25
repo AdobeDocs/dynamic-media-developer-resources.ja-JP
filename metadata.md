@@ -3,28 +3,30 @@ cloud: Experience Cloud
 description: Dynamic Media Classic
 solution: Dynamic Media Classic
 product: adobe dynamic media classic
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.ja-JP
+git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
 index: true
 recommendations: noDisplay
-source-git-commit: 0803dd4f2eb0002e50ab2c506d0e9cb203f3d456
+source-git-commit: dc5fd28e05fa2eac63eee3cca08b33a5993f0d61
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
 
-# 内部使用のメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトレベルのメタデータが含まれています。 任意のユーザーガイドのmetadata.md コンテンツを変更する場合は、任意のTOC.md ファイルで変更します。
 
-| メタデータ | 説明 |
+| メタデータ | 機能 |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用されます。 |
+| solution-title | 記事ヘッダーにリンクとして使用 |
 | solution-hub-url | helpx ハブページを開きます |
-| solution-icon | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
-| getting-started-url | helpx の概要ページへのリンク |
-| tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
-| mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。 デフォルトは 2 です。 |
-| git-repo | 内部で使用するプライマリソースリポジトリの場所を指定します |
+| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。 まだ実装されていません |
+| getting-started-url | Helpx入門ページへのリンク |
+| tutorials-url | ビデオチュートリアルへのリンク - helpx チュートリアルまたはKT チュートリアル |
+| ミニ目次レベル | 右側のパネルに表示される見出しレベルの数を指定します。 デフォルトは2です |
+| git-repo | 内部使用のプライマリソースリポジトリの場所を指定します |
