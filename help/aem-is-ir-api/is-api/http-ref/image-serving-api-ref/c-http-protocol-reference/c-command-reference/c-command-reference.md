@@ -1,50 +1,60 @@
 ---
-title: コマンドリファレンス
-description: ここでは、HTTP プロトコル・コマンドについて説明します。
+title: コマンド参照
+description: この節では、HTTP プロトコルコマンドについて説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+TQID: 'https://experienceleague.adobe.com/NURaQ7eznu6tyM5IhrlLMxaZ1L38L7t9lHb826jSyfs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: 324
+ht-degree: 3%
 
 ---
 
-# コマンドリファレンス{#command-reference}
+# コマンド参照{#command-reference}
 
-ここでは、HTTP プロトコル・コマンドについて説明します。
+この節では、HTTP プロトコルコマンドについて説明します。
 
 >[!TIP]
 >
->Dynamic Media [_スナップショット_](https://snapshot.scene7.com/) を使用して、Dynamic Media の画像修飾子とスマートイメージングのメリットを体験してみましょう。
+>Dynamic Media [_スナップショット_](https://snapshot.scene7.com/)を使用して、Dynamic Media画像修飾子とスマートイメージングのメリットを試してみて確認します。
 >
-> スナップショットは、最適化された動的な画像配信における Dynamic Media のパワーをわかりやすく伝えるために作られた、視覚的なデモツールです。 テスト画像や Dynamic Media の URL を試して、様々な Dynamic Media 画像修飾子の出力を視覚的に観察し、次の項目に対するスマートイメージング最適化を確認します。
->* ファイルサイズ （WebP および AVIF 配信を使用）
+> Snapshotは、最適化されたダイナミックな画像配信を実現するDynamic Mediaの機能を示すように設計された、視覚的なデモンストレーションツールです。 テスト画像またはDynamic Media URLを試して、様々なDynamic Media画像修飾子の出力を視覚的に確認し、次の点に関するスマートイメージングの最適化を確認します。
+>* ファイルサイズ（WebPおよびAVIF配信用）
 >* ネットワーク帯域幅
->* DPR （デバイスピクセル比）
+>* DPR （デバイスピクセルレシオ）
 >
->スナップショットの使用がどれほど簡単かを知るには、[&#x200B; スナップショットのトレーニングビデオ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=ja) （3 分 17 秒）を再生してください。
+>スナップショットを簡単に使用する方法を説明するには、[&#x200B; スナップショットトレーニングビデオ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=ja)を再生します（3分17秒）。
 
 
-**Adobe Experience Managerのみの場合** - ユーザーインターフェイスで使用できる基本画像設定に加え、AEMの [!DNL Dynamic Media] （[!DNL Adobe Experience Manager]）では、「**画像修飾子**」フィールドで指定できる高度な画像修正が多数サポートされています。 これらのパラメーターは、以下で定義されます。 ただし、次の機能はAEMの Dynamic Media ではサポートされていません。
+**Adobe Experience ManagerのDynamic Mediaの場合のみ** - ユーザーインターフェイスで使用できる基本的な画像設定を超えて、AEM （[!DNL Adobe Experience Manager]）の[!DNL Dynamic Media]では、**画像修飾子** フィールドで指定できる多数の高度な画像変更がサポートされています。 これらのパラメーターは以下で定義されます。 ただし、次の機能は、AEMのDynamic Mediaではサポートされていないことに注意してください。
 
-* カラー補正コマンド：`icc=` および `iccEmbed=`。
-* 基本テンプレートおよびテキストレンダリングコマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` および `textPs=`。
-* ローカリゼーションコマンド：`locale=` および `req=xlate`。
-* `req=set` は、一般的には使用できません。
+* 色補正コマンド：`icc=`および`iccEmbed=`。
+* 基本的なテンプレートとテキスト レンダリング コマンド：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`および`textPs=`。
+* ローカリゼーションコマンド：`locale=`および`req=xlate`。
+* `req=set`は一般的な使用には使用できません。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非コア Dynamic Media サービス：SVG、画像レンダリング、Web-to-Print。
+* コア以外のDynamic Media サービス：SVG、画像レンダリング、Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 ドキュメントの Dynamic Media[&#x200B; 画像プリセットオプション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=ja#dynamic) も参照してください。
+AEM 6.5 ドキュメントのDynamic Media [画像プリセットオプション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=ja#dynamic)も参照してください。
 
-* [align](r-align.md)
+* [整列](r-align.md)
 * [アンカー](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
@@ -58,13 +68,13 @@ AEM 6.5 ドキュメントの Dynamic Media[&#x200B; 画像プリセットオプ
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [dpr](r-dpr.md)
-* [効果](r-effect.md)
+* [エフェクト](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [extend](r-extend.md)
-* [発作](r-fit.md)
+* [拡張](r-extend.md)
+* [フィット](r-fit.md)
 * [反転](r-flip.md)
 * [fmt](r-is-http-fmt.md)
-* [ヘイ](r-is-http-hei.md)
+* [へい](r-is-http-hei.md)
 * [非表示](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
@@ -93,22 +103,22 @@ AEM 6.5 ドキュメントの Dynamic Media[&#x200B; 画像プリセットオプ
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [起源](r-origin.md)
+* [オリジン](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
-* [透視図](r-perspective.md)
-* [位置](r-pos.md)
+* [遠近法](r-perspective.md)
+* [pos](r-pos.md)
 * [printRes](r-printres.md)
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
 * [量子化](r-is-http-quantize.md)
 * [rect](r-rect.md)
-* [要](r-req/r-req.md)
-* [件の](r-res.md)
+* [req](r-req/r-req.md)
+* [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [循環](r-rotate.md)
-* [スケール](r-is-http-scale.md)
+* [拡大・縮小](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [サイズ](r-size-reference.md)
 * [src](r-src.md)

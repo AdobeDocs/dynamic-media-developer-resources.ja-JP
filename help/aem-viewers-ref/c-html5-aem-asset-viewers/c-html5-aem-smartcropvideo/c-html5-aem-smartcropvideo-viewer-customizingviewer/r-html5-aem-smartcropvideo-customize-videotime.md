@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 0ef09f06-c2d5-4c84-8ff9-4e94e9e54d40
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Ln-FEgGu-vFMAL25NbhWYqoBm7NSN1waCeQE85xdxOk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 199
 ht-degree: 0%
 
 ---
@@ -19,40 +27,40 @@ ht-degree: 0%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ビデオ時間のフォントファミリー、フォントサイズ、フォントカラーは、CSS が制御できるプロパティの 1 つです。 また、CSS を使用して、タグを含むコントロールバーに対して相対的にタグを配置することもできます。
+ビデオタイムのフォントファミリー、フォントサイズ、フォントカラーは、CSSで制御できるプロパティの1つです。 また、それを含むコントロールバーに対して、CSSで配置することもできます。
 
-ビデオ時間の外観は、次の CSS クラスセレクターで制御します。
+ビデオ時間のアピアランスは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7videotime
 ```
 
-## ビデオ時間の CSS プロパティ {#css-properties-of-video-time}
+## ビデオタイムのCSS プロパティ {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む上部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含めて、右側のボーダーから配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む右端からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p> ビデオ時間コントロールの幅。 このプロパティは、Internet Explorer 8 以降が正常に機能するために必要です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p> ビデオタイムコントロールの幅。 このプロパティは、Internet Explorer 8以降が正しく機能するために必要です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
    <td colname="col2"> <p>時間表示テキストに使用するフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
    <td colname="col2"> <p>時間表示テキストに使用するフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
    <td colname="col2"> <p>時間表示テキストに使用するフォントカラー。 </p> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +68,7 @@ ht-degree: 0%
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-ビデオ時間をライトグレー（16 進 `#BBBBBB`）に設定します。12 ピクセルのサイズで、コントロールバーの上部から 15 ピクセル、コントロールバーの右端から 80 ピクセルの位置に配置します。
+ビデオ時間をライトグレー（12 ピクセルの大きさ`#BBBBBB`）に設定し、コントロールバーの上部から15 ピクセル、コントロールバーの右端から80 ピクセルに配置します。
 
 ```
 .s7smartcropvideoviewer .s7videotime { 

@@ -1,30 +1,38 @@
 ---
-title: Adobe Analyticsのトラッキングのサポート
-description: 混在メディアビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
+title: Adobe Analytics トラッキングのサポート
+description: Mixed Media Viewerは、Adobe Analyticsのトラッキングをすぐにサポートします。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/QHSaSBq-EQB396OmZBcxQKPXwvBfnv98KdMmSa31RGA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 200
 ht-degree: 0%
 
 ---
 
-# Adobe Analyticsのトラッキングのサポート{#support-for-adobe-analytics-tracking}
+# Adobe Analytics トラッキングのサポート{#support-for-adobe-analytics-tracking}
 
-混在メディアビューアでは、Adobe Analyticsのトラッキングをすぐに使用できます。
+Mixed Media Viewerは、Adobe Analyticsのトラッキングをすぐにサポートします。
 
-## 標準のトラッキング {#section-ba994f079d0343c8ae48adffaa3195a3}
+## すぐに利用できるトラッキング機能 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-混在メディアビューアでは [!DNL Adobe Analytics] 標準のトラッキングがサポートされています。 トラッキングを有効にするには、適切な会社プリセット名 `config2` パラメーターとして渡します。
+混在メディアビューアは、標準で[!DNL Adobe Analytics]追跡をサポートしています。 トラッキングを有効にするには、適切な会社プリセット名を`config2` パラメーターとして渡します。
 
-また、ビューアは、1 つのトラッキング HTTP リクエストを、ビューアのタイプとバージョン情報と共に、設定済みの Image Server に送信します。
+ビューアは、ビューアのタイプとバージョン情報を使用して、設定されたImage Serverに1つのトラッキング HTTP リクエストを送信します。
 
 ## カスタムトラッキング {#section-cda48fc9730142d0bb3326bac7df3271}
 
-サードパーティの分析システムと統合するには、`trackEvent` ビューアのコールバックをリッスンし、必要に応じてコールバック関数の `eventInfo` 引数を処理する必要があります。 次のコードは、このようなハンドラー関数の例です。
+サードパーティの分析システムと統合するには、`trackEvent` ビューアのコールバックをリッスンし、必要に応じてコールバック関数の`eventInfo`引数を処理する必要があります。 以下のコードは、そのようなハンドラー関数の例です。
 
 ```javascript {.line-numbers}
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -49,54 +57,54 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 });
 ```
 
-ビューアは、次のSDK ユーザーイベントを追跡します。
+ビューアは、次のSDK ユーザーイベントをトラッキングします。
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK ユーザーイベント </p> </th> 
-   <th colname="col2" class="entry"> <p>次の場合に送信… </p> </th> 
+   <th colname="col2" class="entry"> <p>送信日時… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">を読み込み</span> </p> </td> 
    <td colname="col2"> <p>ビューアが最初に読み込まれます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset （） <span class="codeph"> API を使用して、ビューア内 </span> アセットが入れ替えられます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> スワップ </span> </p> </td> 
+   <td colname="col2"> <p>アセットは、<span class="codeph"> setAsset （） </span> APIを使用してビューアでスワップされます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p>画像がズームされます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ズーム </span> </p> </td> 
+   <td colname="col2"> <p>画像はズームされます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>画像がパンされます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">計画</span> </p> </td> 
+   <td colname="col2"> <p>画像が計画されています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
-   <td colname="col2"> <p> 画像を変更するには、スウォッチをクリックまたはタップします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> スウォッチ </span> </p> </td> 
+   <td colname="col2"> <p> スウォッチをクリックまたはタップすると、画像が変更されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span>を再生 </p> </td> 
    <td colname="col2"> <p>再生が開始されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>再生が一時停止した。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">一時停止</span> </p> </td> 
+   <td colname="col2"> <p>再生が一時停止しています。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>再生が停止した。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">分岐点</span> </p> </td> 
+   <td colname="col2"> <p>再生が停止しています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> マイルストーン </span> </p> </td> 
-   <td colname="col2"> <p>再生が次のマイルストーンのいずれかに達します：0%、25%、50%、75%、100%。 </p> </td> 
+   <td colname="col2"> <p>再生は、0%、25%、50%、75%、100%のいずれかのミルストーンに達します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> スピン </span> </p> </td> 
    <td colname="col2"> <p>スピンが実行されます。 </p> </td> 
   </tr> 
  </tbody> 

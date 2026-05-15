@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 4e1ce754-6967-492b-a617-764ee3ec3a55
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/SrU-S0MXheOW2wRlOIhNAJ0FdHIxxQuMBaeyMilo0FQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 76
+ht-degree: 3%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。 指定した形式が「– alpha」で終わ <span class="codeph"> 場合、コンポーネントは画像を透明コンテンツとしてレンダリング </span> ます。 他のすべての画像形式では、コンポーネントは画像を不透明として扱います。 コンポーネントの背景は、デフォルトで白になります。 したがって、透明にするには、<span class="codeph"> background-color</span>CSS プロパティを透明に設定 <span class="codeph"> ます </span>。 </p> </td> 
+   <td colname="col2"> <p> Image Serverから画像を読み込むためにコンポーネントで使用する画像形式を指定します。 指定された形式が<span class="codeph"> "-alpha"</span>で終わる場合、コンポーネントは画像を透明コンテンツとしてレンダリングします。 その他のすべての画像形式では、コンポーネントは画像を不透明として扱います。 デフォルトでは、コンポーネントの背景は白です。 したがって、透明にするには、<span class="codeph"> background-color</span> CSS プロパティを<span class="codeph"> transparent</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

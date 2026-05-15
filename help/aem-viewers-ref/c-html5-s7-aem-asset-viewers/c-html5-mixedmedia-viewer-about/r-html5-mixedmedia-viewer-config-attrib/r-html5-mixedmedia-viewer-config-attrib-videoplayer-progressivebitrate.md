@@ -5,22 +5,30 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/b-bT-L2HzXaPfnA5enf-9G3UqJkc90TqzfJYCPp-hiE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 3%
 
 ---
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *` 値 `*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`値`*`
 
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 値 </span></span> </p> </td> 
-   <td colname="col2"> <p> 現在のシステムがアダプティブビデオ再生をサポートしていない場合に、アダプティブビデオセットから再生するビデオのビットレートを（キロビット/秒または kbps）で指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定した値よりも高い場合、ロジックは最低画質のビットレートを選択します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">値</span></span> </p> </td> 
+   <td colname="col2"> <p> 現在のシステムでアダプティブビデオの再生がサポートされていない場合に備えて、アダプティブビデオセットから再生するビデオビットレートを（キロビット/秒またはkbps単位で）指定します。 </p> <p>コンポーネントは、指定された値に最も近い（ただし、それを超えない）ビットレートでビデオストリームをピックアップします。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定された値よりも高い場合、ロジックは最も低い画質のビットレートを選択します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

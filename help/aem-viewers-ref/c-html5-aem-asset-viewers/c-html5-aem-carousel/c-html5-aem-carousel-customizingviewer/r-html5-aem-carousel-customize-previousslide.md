@@ -1,26 +1,34 @@
 ---
 title: 前のスライド
-description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドにユーザーが戻ります。 このボタンは、タッチデバイスでは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
+description: このボタンをクリックまたはタップすると、カルーセルセットの前のスライドにユーザーが戻ります。 このボタンはタッチデバイスには表示されません。 CSSを使用して、このボタンのサイズ、肌、位置を調整できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/OgdkTYp7hDcxtQbKczwlpuhblPGna-HHvambnqrXrV4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
 
 # 前のスライド{#previous-slide}
 
-このボタンを選択すると、カルーセルセット内の前のスライドにユーザーが戻ります。 このボタンは、タッチデバイスでは表示されません。 このボタンのサイズ、スキンおよび位置は、CSS を使用して設定できます。
+このボタンを選択すると、カルーセルセットの前のスライドにユーザーが戻ります。 このボタンはタッチデバイスには表示されません。 CSSを使用して、このボタンのサイズ、肌、位置を調整できます。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-ボタンの外観は、次の CSS クラスセレクターで制御します。
+ボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 `.s7carouselviewer .s7panleftbutton`
 
@@ -33,51 +41,51 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの境界線の上から配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の上からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの境界線の右側から配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の右側からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>ビューアの境界線の左側から移動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">さんが</span>を残しました </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の左側からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>ビューアのボーダーの下部から配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p>ビューアの境界線の下部からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>カーソルの種類。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カーソル </span> </p> </td> 
+   <td colname="col2"> <p>カーソルの種類： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)を参照してください。
 
-例えば、60 x 60 ピクセルの前のスライドボタンを設定するとします。 ビューアの左側の境界線から 10 ピクセルの位置を設定し、垂直方向に中央揃えにします。 また、4 つの異なるボタンの状態ごとに異なる画像を表示する必要があります。
+例えば、以前のスライドボタンを60 x 60 ピクセルに設定するとします。 左のビューアの境界線から10 ピクセルの位置に配置し、垂直方向に中央に配置します。 また、4つの異なるボタンの状態ごとに異なる画像を表示します。
 
 ```
 .s7carouselviewer .s7panleftbutton { 

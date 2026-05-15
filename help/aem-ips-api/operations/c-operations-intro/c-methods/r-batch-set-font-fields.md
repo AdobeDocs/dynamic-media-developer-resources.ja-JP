@@ -5,9 +5,19 @@ title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/IkKqBLa2j-YKPTp5Nsttxb8GgpPgcSee1zG0asjxNyQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 12%
 
 ---
@@ -16,7 +26,7 @@ ht-degree: 12%
 
 フォントメタデータフィールドを設定します。
 
-## 許可されているユーザータイプ {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 承認済みユーザータイプ {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,18 +40,18 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | フォントを含む会社へのハンドル。 |
-| updateArray | `types:FontFieldUpdateArray` | はい | フォントフィールドの更新配列。 |
+| companyHandle | `xsd:string` | はい | フォントを含む会社に対して処理を行います。 |
+| updateArray | `types:FontFieldUpdateArray` | はい | フォントフィールド更新の配列。 |
 
-**出力（batchSetFontFieldsParam）**
+**Output （batchSetFontFieldsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| successCount | `xsd:int` | はい | 正常に設定されたフォントフィールドの数。 |
-| warningCount | `xsd:int` | はい | フォントフィールドを設定しようとしたときに生成された警告の数。 |
-| errorCount | `xsd:int` | はい | 操作でフォントフィールドを設定しようとしたときに生成されたエラーの数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとした際に警告を生成したアセットに関連付けられた詳細の配列。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列です。 |
+| successCount | `xsd:int` | はい | フォントフィールドを正常に設定した数。 |
+| warningCount | `xsd:int` | はい | 操作がフォントフィールドを設定しようとしたときに生成された警告の数。 |
+| errorCount | `xsd:int` | はい | 操作がフォントフィールドを設定しようとしたときに生成されたエラーの数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときに警告を生成したアセットに関連付けられた詳細の配列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作が更新を適用しようとしたときにエラーを生成したアセットに関連付けられた詳細の配列。 |
 
 ## 例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

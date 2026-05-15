@@ -1,20 +1,28 @@
 ---
 title: Video360Player.posterimage
-description: Video360 ビューアの設定属性
+description: Video360 Viewerの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/LtpJ2MbHJ038-dI9WI-b3XUoVoxx2OG11SbAupux-BI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 77
 ht-degree: 5%
 
 ---
 
 # Video360Player.posterimage{#video-player-posterimage}
 
-Video360 ビューアの設定属性
+Video360 Viewerの設定属性。
 
 ` [Video360Player.|<containerId>_video360Player.]posterimage=none|[? *`isCommands`*]`
 
@@ -22,12 +30,12 @@ Video360 ビューアの設定属性
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|[?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 画像サービング修飾子。ポスター画像の外観を制御します。 URL で指定されている場合は、次の内容が HTTP エンコードされます。 </p> <p> 
+   <td colname="col2"> <p> 画像ポスター画像の外観を制御する修飾子を提供します。 URLで指定した場合は、次のHTTP エンコードを行います。 </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph">?</span> as <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> <span class="codeph"> %3F</span>として </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p> この修飾子は、Dynamic Media ClassicまたはAdobe Experience Manager（Dynamic Media）でホストされるビデオコンテンツに対して機能します。 </p> <p>デフォルトのポスター画像が表示されないようにするには、「なし」 <span class="codeph"> ポスター画像値 </span> して指定します。 </p> </td> 
+     </ul> </p> <p> この修飾子は、Dynamic Media ClassicまたはAdobe Experience Manager Dynamic Mediaでホストされているビデオコンテンツで機能します。 </p> <p>デフォルトのポスター画像が表示されないようにするには、ポスター画像の値として<span class="codeph"> none</span>を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

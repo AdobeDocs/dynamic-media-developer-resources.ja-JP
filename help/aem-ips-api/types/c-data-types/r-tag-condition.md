@@ -5,9 +5,17 @@ title: TagCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/5y2KRE0lZvEuY4wZmcJ-ZrKM5bM9OVwMeSdux9iQl6E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: 156
 ht-degree: 2%
 
 ---
@@ -32,26 +40,26 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> タグフィールドハンドル。 </td> 
+   <td colname="col3"> タグフィールドハンドル： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">タグフィールドのタイプと、値フィールドまたは valueArray フィールドが使用されているかどうかによって異なります。 
+   <td colname="col3">タグフィールドタイプと、値またはvalueArray フィールドが使用されるかどうかに応じて異なります。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">値 <span class="codeph"> が渡され </span> 場合、op<span class="codeph"> は文字列定数 </span> ある必要があります一致。 この条件は、タグ値に関連付けられているアセットすべてに一致します。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">valueArray<span class="codeph"> が渡され </span> 場合、単一値または複数値のタグフィールドの op フィールドは MatchesAny<span class="codeph"></span> 定数になります。 <span class="codeph"> MatchesAny</span> 条件は、valueArray<span class="codeph"> のタグ値の少なくとも 1 つに関連付けられているアセット </span> 一致します。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数値のタグフィールドの場合、op フィールドを <span class="codeph"> valueArray</span> フィールドと共に MatchesAll<span class="codeph"></span> 定数に設定できます。 この場合、条件が一致するのは、（他のタグ値に加えて） <span class="codeph"> valueArray</span> 内のすべてのタグ値に関連付けられているアセットのみです。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5"><span class="codeph">値</span>が渡された場合、<span class="codeph"> op</span>は文字列定数の一致である必要があります。 条件は、タグ値に関連付けられているアセットと一致します。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD"><span class="codeph"> valueArray</span>が渡された場合、op フィールドは、単一または複数値のタグフィールドの定数<span class="codeph"> MatchesAny</span>にすることができます。 <span class="codeph">は<span class="codeph"> valueArray</span>のタグ値の少なくとも1つに関連付けられているすべてのアセットに一致します。はAny</span>条件に一致します。 </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">複数値のタグフィールドの場合、op フィールドは<span class="codeph"> valueArray</span> フィールドを持つ定数<span class="codeph"> MatchesAll</span>に設定できます。 この場合、条件は、<span class="codeph"> valueArray</span>内のすべてのタグ値に関連付けられているアセットにのみ一致します（他のタグ値に加える可能性があります）。 </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 値 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">値</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 一致する値。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> 複数の一致する値。 </td> 
   </tr> 
  </tbody> 

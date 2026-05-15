@@ -1,24 +1,32 @@
 ---
 title: 使用方法
-description: このトピックでは、vntc の使用構文について説明します。
+description: このトピックでは、vntcの使用法の構文について説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b892fe86-1b7c-4a49-a1cd-473f51d04d10
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/uNh-n1OEJ5gxWBjLbBNutrNJ1Osae-PEOFBmaKNVf6c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: 161
 ht-degree: 1%
 
 ---
 
 # 使用方法{#usage}
 
-このトピックでは、vntc の使用構文について説明します。
+このトピックでは、vntcの使用法の構文について説明します。
 
 `vntc [ *[!DNL options]*] *[!DNL sourceFile]* [ *[!DNL destFile]*]`
 
-*[!DNL sourceFile]* は、処理するファイルのパスと名前です。 現在の作業ディレクトリに対する相対パスまたは絶対パスを指定できます。 有効なビネット、キャビネット スタイル、またはウィンドウ カバースタイル ファイルで、次のいずれかのサフィックスが付いている必要があります。
+*[!DNL sourceFile]*&#x200B;は、処理するファイルのパスと名前です。 現在の作業ディレクトリに対する相対パスまたは絶対パスを指定できます。 有効なビネット、キャビネットスタイル、またはウィンドウのカバーするスタイルファイルで、次のいずれかの接尾辞が付いている必要があります。
 
 * [!DNL .vnt]
 * [!DNL .vnc]
@@ -26,4 +34,4 @@ ht-degree: 1%
 
 必須。
 
-*[!DNL destFile]* は、出力ビネットファイルのパスと名前です。 指定しない場合、出力ファイルは `-destpath` で指定したフォルダーに配置されます。 このシナリオでは、入力ファイル名とサイズサフィックスから、`-separator` で指定した文字列で区切られたファイル名が自動的に生成されます。 ビネットの場合、サイズ サフィックスは、単一解像度の出力ビネットのピクセル幅、複数解像度の出力ビネットの最初のビューの幅、またはピラミッド型のビネットがある場合は「0」になります。 キャビネット形式のファイルの場合、出力解像度がファイルの接尾辞として使用されます。 *[!DNL destFile]* が指定されている場合、`-info` は無視されます。
+*[!DNL destFile]*&#x200B;は、出力ビネットファイルのパスと名前です。 指定しない場合、出力ファイルは`-destpath`で指定されたフォルダーに配置されます。 このシナリオでは、ファイル名は、入力ファイル名とサイズのサフィックスから自動的に生成され、`-separator`で指定された文字列で区切られます。 周辺光量補正の場合、サイズの接尾辞は、単一解像度の出力ビネットのピクセル幅、多解像度の出力ビネットの最初のビューの幅、またはピラミッドビネットがある場合は「0」になります。 キャビネットスタイルファイルの場合、出力解像度はファイルのサフィックスとして使用されます。 `-info`が指定されている場合、*[!DNL destFile]*&#x200B;は無視されます。

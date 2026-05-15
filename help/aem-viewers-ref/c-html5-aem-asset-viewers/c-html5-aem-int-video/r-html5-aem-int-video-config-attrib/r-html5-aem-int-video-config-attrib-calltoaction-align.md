@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/zMB6vYFDHiSJW1Q3O-L1204O7PkWg-a-txzamKbtZwQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 86
 ht-degree: 3%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの水平方向の内部配置（またはアンカー）を指定します。 </p> <p>call-to-actionでは、内部のサムネールコンテナのサイズが、整数のサムネールのみが表示されるように設定されます。 その結果、内部コンテナと外部コンポーネントの境界の間に何らかのパディングがあります。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向にどのように配置するかを指定します。 </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（またはアンカー）を指定します。 </p> <p>Call-to-actionでは、内部サムネールコンテナのサイズが調整され、サムネールが整数だけ表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

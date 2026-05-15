@@ -5,19 +5,27 @@ title: ダウンロード
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 661b19fb-5d18-46e9-8658-a5df567a3eff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/l-Pp7toRe9lbMtW03stj35hy1Bf9JSAJ39kSuIMqMT4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 77
 ht-degree: 3%
 
 ---
 
 # ダウンロード{#download}
 
-コントロールバーの「ダウンロード」ボタンを使用して、電子カタログをPDF ファイルとしてダウンロードできます。
+コントロールバーの「ダウンロード」ボタンを使用して、電子カタログをPDFファイルとしてダウンロードできます。
 
-次の問題が発生すると、ビューアのユーザーインターフェイスで「ダウンロード」ボタンが自動的に使用可能になります。
+次の場合、「ダウンロード」ボタンは、ビューアユーザーインターフェイスで自動的に使用できます。
 
-* 実際のPDF ファイルは、お客様の会社に存在します。
-* この名前は、ビューアに渡される電子カタログアセットの名前と一致し、`.pdf` の拡張子が含まれます。
-* PDF ファイルがDynamic Media Classicで公開されます。
+* お客様の会社に実際のPDF ファイルが存在します。
+* 名前は、ビューアに渡される電子カタログアセットの名前と一致し、`.pdf`拡張子が含まれています。
+* PDF ファイルはDynamic Media Classicで公開されます。

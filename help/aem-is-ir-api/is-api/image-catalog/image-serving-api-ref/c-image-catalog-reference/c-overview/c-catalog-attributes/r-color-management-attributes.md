@@ -5,9 +5,17 @@ title: カラーマネジメント属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/dxu36cBPHhZnL0TdsXs43dwvqN7MPuuftHv7Ar7SObk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: 74
 ht-degree: 0%
 
 ---
@@ -19,7 +27,7 @@ ht-degree: 0%
 <table id="simpletable_60EABACFB5B344D380B65891880BCB8B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0" type="reference" format="dita" scope="local"> IccProfileCmyk</a> </span> </p></td> 
-  <td class="stentry"> <p>デフォルトの CMYK 出力カラープロファイル。 </p></td> 
+  <td class="stentry"> <p>デフォルトのCMYK出力カラープロファイル。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> IccProfileGray</a> </span> </p></td> 
@@ -31,7 +39,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728" type="reference" format="dita" scope="local"> IccProfileSrcCmyk</a> </span> </p></td> 
-  <td class="stentry"> <p>デフォルトの CMYK 入力カラープロファイル。 </p></td> 
+  <td class="stentry"> <p>デフォルトのCMYK入力カラープロファイル。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9" type="reference" format="dita" scope="local"> IccProfileSrcGray</a> </span> </p></td> 

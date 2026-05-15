@@ -1,22 +1,32 @@
 ---
-description: ビネット公開形式を削除します。
+description: 周辺光量補正パブリッシュ形式を削除します。
 solution: Experience Manager
 title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/e1qIrpGHPuodTx79J1ke-7ULFptiCa6ZoIXyldJvSBY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 75
 ht-degree: 10%
 
 ---
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-ビネット公開形式を削除します。
+周辺光量補正パブリッシュ形式を削除します。
 
-## 許可されているユーザータイプ {#section-a127680d6b53462daaf2579d6f6fe5a8}
+## 承認済みユーザータイプ {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,16 +39,16 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | ビネットが属する会社のハンドル。 |
-| vignetteFormatHandle | `xsd:string` | はい | 削除するビネット公開形式へのハンドル。 |
+| companyHandle | `xsd:string` | はい | ビネットが属する会社へのハンドル。 |
+| vignetteFormatHandle | `xsd:string` | はい | 削除する周辺光量補正パブリッシュ形式のハンドル。 |
 
 **出力（deleteVignettePublishFormatParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-このコードサンプルでは、ハンドルで指定されたビネット公開形式を削除します。
+このコードのサンプルでは、ハンドルで指定された周辺光量補正パブリッシュ形式を削除します。
 
 **リクエスト**
 

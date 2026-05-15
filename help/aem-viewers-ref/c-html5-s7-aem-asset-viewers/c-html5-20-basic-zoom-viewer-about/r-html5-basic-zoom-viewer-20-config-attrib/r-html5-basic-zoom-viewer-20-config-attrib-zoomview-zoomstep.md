@@ -5,26 +5,34 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/hJGTnjDC-x9P3Q0vbq0mXuumwtZHAVfxcVWPXkemyoI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 82
 ht-degree: 3%
 
 ---
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *`step`*[, *`limit`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *` ステップ `*[, *`制限`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ステップ </span> </span> </p> </td> 
-   <td colname="col2"> <p> 解像度を 2 倍に増減させるために必要なズームインおよびズームアウトアクションの回数を設定します。 各ズームアクションの解像度の変化は、1 ステップあたり 2^1 です。 <span class="codeph"> 0</span> に設定すると、1 回のズームアクションで最大解像度にズームできます。 </p> </td> 
+   <td colname="col2"> <p> 解像度を2倍増減するために必要なズームインとズームアウトのアクションの数を設定します。 各ズームアクションの解像度の変更は、ステップごとに2^1です。 1回のズームアクションで完全な解像度にズームするには、<span class="codeph"> 0</span>に設定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> limit</span> </span> </p> </td> 
-   <td colname="col2"> <p> 最大解像度を指定します。最大解像度は、フル解像度の画像を基準にします。 デフォルトは <span class="codeph"> 1.0</span> で、フル解像度を超えてズームすることはできません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">制限</span> </span> </p> </td> 
+   <td colname="col2"> <p> フル解像度イメージに対する最大ズーム解像度を指定します。 デフォルトは<span class="codeph"> 1.0</span>で、完全な解像度を超えるズームは許可されていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

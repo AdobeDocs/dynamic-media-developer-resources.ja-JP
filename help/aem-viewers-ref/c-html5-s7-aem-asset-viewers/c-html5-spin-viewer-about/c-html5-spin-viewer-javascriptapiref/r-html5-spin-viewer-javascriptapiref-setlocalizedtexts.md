@@ -1,20 +1,28 @@
 ---
-title: setLocalizedTexts
-description: スピンビューアのJavaScript API リファレンスです。
+title: setLocalizedText
+description: Spin Viewer用JavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 840c7e13-8998-4479-b0fc-f96a615a0a58
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/PX0DbOvWvloKR24x6FWI-4rEmRLoilbQ4oxRa7Qrzww'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: 69
 ht-degree: 2%
 
 ---
 
-# setLocalizedTexts{#setlocalizedtexts}
+# setLocalizedText{#setlocalizedtexts}
 
-スピンビューアのJavaScript API リファレンスです。
+Spin Viewer用JavaScript API リファレンス。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,16 +30,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> ローカリゼーションデータを含む {<span class="codeph"> Object</span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーショ </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、<i> ビューアのSDKユーザーガイド </i> および例も参照してください。 </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON オブジェクトとローカライゼーションデータ。 </p> <p>詳しくは、「<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション </a>」を参照してください。 </p> <p>オブジェクトの内容について詳しくは、<i>Viewer SDK ユーザーガイド </i>および例も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1 つまたは複数のロケールの SYMBOL 値を設定します。 このパラメーターは、`init()` 前に呼び出す必要があります。
+1つ以上のロケールのローカライズシンボル値を設定します。 このパラメーターは`init()`の前に呼び出す必要があります。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae) も参照してください。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)も参照してください。
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

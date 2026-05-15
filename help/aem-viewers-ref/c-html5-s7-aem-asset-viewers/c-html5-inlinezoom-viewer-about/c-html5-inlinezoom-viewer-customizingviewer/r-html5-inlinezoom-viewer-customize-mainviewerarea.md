@@ -1,26 +1,34 @@
 ---
-title: メインビューア領域
-description: メイン ビュー領域は、フライアウト ビューとスウォッチが占める領域です。
+title: メインのビューアエリア
+description: メインビュー領域は、フライアウトビューとスウォッチが占める領域です。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/qKaLA2xIM3jTN7emyPXaJQTf5V3t7lBuFzqb2Fn8i-w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 95
 ht-degree: 1%
 
 ---
 
-# メインビューア領域{#main-viewer-area}
+# メインのビューアエリア{#main-viewer-area}
 
-メイン ビュー領域は、フライアウト ビューとスウォッチが占める領域です。
+メインビュー領域は、フライアウトビューとスウォッチが占める領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-表示領域の外観は、次の CSS クラスセレクターで制御します。
+表示領域の外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7flyoutviewer
@@ -35,21 +43,21 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ビューアの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ビューアの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 背景色（16 進数形式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 白い背景（`#FFFFFF`）のフライアウトビューアを設定して、サイズを 260 x 500 ピクセルにする
+例 – 白い背景（`#FFFFFF`）のフライアウトビューアを設定し、サイズを260 x 500 ピクセルにします。
 
 ```
 .s7flyoutviewer { 

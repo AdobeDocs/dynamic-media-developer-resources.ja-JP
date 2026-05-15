@@ -1,43 +1,51 @@
 ---
-description: Digimarc ユーザ情報 Digimarc 埋め込みのユーザー情報を指定します。
+description: Digimarc ユーザー情報。 Digimarc埋め込み用のユーザー情報を指定します。
 solution: Experience Manager
 title: DigimarcId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/2kkvN1RLEhbDEmN4cA6lE5nGe9d-T3qcdxgGqF7L3Ig'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 3%
+source-wordcount: 134
+ht-degree: 2%
 
 ---
 
 # DigimarcId{#digimarcid}
 
-Digimarc ユーザ情報 Digimarc 埋め込みのユーザー情報を指定します。
+Digimarc ユーザー情報。 Digimarc埋め込み用のユーザー情報を指定します。
 
 ## プロパティ {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
-5 ～ 6 個のコンマ区切りの整数。 3 番目と 4 番目の数値は使用されなくなりました。
+5または6つのコンマ区切りの整数。 3番目と4番目の数字は使用されなくなりました。
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-`creator-id` と `creator-pin` は、サービスの購入時に Digimarc によって提供されます。 未使用の値は空のままにする必要があります。
+`creator-id`と`creator-pin`は、サービスの購入時にDigimarcによって提供されます。 未使用の値は空のままにする必要があります。
 
-`durability` 埋め込み強度を指定します。 1、2、3、4 のいずれかです。1 は最も弱い耐久性を示し、4 は最も強い耐久性を示します。
+`durability`は、Digimarc透かしの埋め込み強度を指定します。 1、2、3、4のいずれかであり、1は最も弱く、4は最も強い耐久性を示す。
 
-`chroma` を 1 に設定すると、透かしを画像のクロミナンスデータにエンコードし、0 （デフォルト）を設定すると、ルミナンスにエンコードします。 グレースケール画像を出力する場合、この設定は無視されます。
+画像のクロミナンスデータに透かしをエンコードするには`chroma`を1に、輝度にエンコードするには0 （デフォルト）に設定します。 グレースケール画像を出力する場合、この設定は無視されます。
 
 ## 初期設定 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-定義されていない場合または空の場合は `default::DigimarcId` から継承します。
+定義されていない場合や空の場合は、`default::DigimarcId`から継承されます。
 
 ## 例 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
-耐久度を 4 に設定したテスト Digimarc Creator ID を指定します。
+耐久性が4に設定されたテスト Digimarc作成者IDを指定します。
 
 `DigimarcId= 404407,32,,,4`
 
 ## 関連項目 {#section-75d4d2afd1df4127b31b1a82f30079d8}
 
-[カタログ：:DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
+[catalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)

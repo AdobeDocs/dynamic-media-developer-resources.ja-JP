@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: b63818e2-8da0-4965-b7d6-5ecd7ab5cdca
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Cm3pgVjX5bs7SgZKgniuSxLD4AcEGgO8Iu6MNugZOvA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 120
 ht-degree: 2%
 
 ---
@@ -23,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーに表示される時間のパターンを設定します。<span class="codeph"> h</span> は時間、<span class="codeph"> m</span> は分、<span class="codeph"> s</span> は秒です。 </p> <p>時間単位ごとに使用される文字数によって、その単位に表示する桁数が決まります。 数値が指定の数字に収まらない場合は、対応する値が後続の単位で表示されます。 </p> <p>例えば、現在のムービーの時間が 67 分 5 秒の場合、タイムパターン <span class="codeph">m:ss</span> は 67:05 と表示されます。 指定した時間パターンが :07: h<span class="codeph">s:mm: の場合は、同じ時間が 1</span>5 と表示されます。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーに表示される時間のパターンを設定します。<span class="codeph"> h</span>は時間、<span class="codeph"> m</span>は分、<span class="codeph"> s</span>は秒です。 </p> <p>時間単位ごとに使用される文字数によって、単位に表示する桁数が決まります。 数値が指定された数字に収まらない場合、同等の値が後続の単位に表示されます。 </p> <p>例えば、現在のムービー時間が67分5秒の場合、時間パターン <span class="codeph"> m:ss</span>は67:05として表示されます。 指定された時間パターンが<span class="codeph"> h:mm:s</span>の場合、同じ時間は1:07:5として表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

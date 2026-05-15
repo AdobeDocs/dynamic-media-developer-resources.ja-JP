@@ -1,18 +1,26 @@
 ---
-title: その他のコマンド
+title: その他コマンド
 description: これらのコマンドも使用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/Z--mHOrm8Upcrgu7NSTxY3LCh04unICtb3wy9FwxMBY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: 30
 ht-degree: 0%
 
 ---
 
-# その他のコマンド{#miscellaneous-commands}
+# その他コマンド{#miscellaneous-commands}
 
 これらのコマンドも使用できます。
 
@@ -23,13 +31,13 @@ ht-degree: 0%
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> hide</a></span> </p></td> 
-  <td class="stentry"> <p>選択したオーバーラップ オブジェクトを非表示にします。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local">非表示</a></span> </p></td> 
+  <td class="stentry"> <p>選択した重なりオブジェクトを非表示にします。 </p></td> 
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
-  <td class="stentry"> <p>選択したオーバーラップ オブジェクトを表示します。 </p></td> 
+  <td class="stentry"> <p>選択した重なりオブジェクトを表示します。 </p></td> 
   <td class="stentry"></td> 
  </tr> 
 </table>

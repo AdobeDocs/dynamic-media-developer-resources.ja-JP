@@ -1,24 +1,32 @@
 ---
-description: PDF、EPS、SWFなどの画像形式を返します。
+description: PDF、EPS、SWFなどの画像フォーマットを返します。
 solution: Experience Manager
-title: getImageFormat
+title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/L8HQVUaxUxkNNkZU7f9Edmh4-t6iwys4c106YVEczD8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: 74
 ht-degree: 16%
 
 ---
 
-# getImageFormat{#getimageformats}
+# getImageFormats{#getimageformats}
 
-PDF、EPS、SWFなどの画像形式を返します。
+PDF、EPS、SWFなどの画像フォーマットを返します。
 
 構文
 
-## 許可されているユーザータイプ {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 承認済みユーザータイプ {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -40,7 +48,7 @@ PDF、EPS、SWFなどの画像形式を返します。
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| imageFormatArray | `types:ImageFormatArray` | はい | 画像形式の配列。 |
+| imageFormatArray | `types:ImageFormatArray` | はい | 画像形式配列。 |
 
 ## 例 {#section-73881e12839b4904bf3299b0920bdd0c}
 

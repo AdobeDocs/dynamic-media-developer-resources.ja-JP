@@ -1,26 +1,34 @@
 ---
-description: 特定の会社（ハンドルで識別）、メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
+description: 特定の会社（ハンドルで識別）、メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/5o2geLVIOZLg7tmKrHueWkzjf4EhXedAJ5qvWxTzjB0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: 145
 ht-degree: 11%
 
 ---
 
 # checkLogin{#checklogin}
 
-特定の会社（ハンドルで識別）、メールアドレスおよびパスワードを持つユーザーがログインできるかどうかを確認します。
+特定の会社（ハンドルで識別）、メールアドレス、パスワードを持つユーザーがログインできるかどうかを確認します。
 
 >[!NOTE]
 >
->会社ハンドルが省略された場合、このメソッドはデフォルトユーザーのログインをチェックします。
+>会社ハンドルが省略された場合、このメソッドはデフォルトのユーザーのログインを確認します。
 
-## 許可されているユーザータイプ {#section-df8b26b550854f899948276adaca083a}
+## 承認済みユーザータイプ {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,7 +47,7 @@ ht-degree: 11%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | いいえ | ユーザーを含む会社へのハンドル。 |
-| 電子メール | `xsd:string` | はい | ユーザーの E メールアドレス。 |
+| 電子メール | `xsd:string` | はい | ユーザーのメールアドレス。 |
 | パスワード | `xsd:string` | はい | ユーザーのパスワード。 |
 
 **出力（checkLoginParam）**
@@ -50,7 +58,7 @@ ht-degree: 11%
 
 ## 例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-このサンプルコードでは、会社のハンドルパラメーター、メールアドレスおよびパスワードを使用して、ユーザーが IPS にログインできるかどうかを判断します。 ユーザー *can* がログインすると、このメソッドは文字列 `ValidLogin` を返します。 ユーザー *ログインできない* 場合、このメソッドは文字列 `InvalidLogin` を返します。
+このサンプルコードでは、会社のハンドルパラメーター、電子メールアドレス、パスワードを使用して、ユーザーがIPSにログインできるかどうかを判断します。 ユーザー&#x200B;*can*&#x200B;がログインした場合、このメソッドは文字列`ValidLogin`を返します。 ユーザー&#x200B;*が*&#x200B;にログインできない場合、このメソッドは文字列`InvalidLogin`を返します。
 
 **リクエスト**
 

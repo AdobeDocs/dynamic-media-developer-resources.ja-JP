@@ -5,10 +5,18 @@ title: SearchPanel.align
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 772b2789-4152-4320-893d-efc39689424b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/r9UjI8-7kjLJt6fWDWIAXSxHyKwQScdXD60d-RncN5I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 76
+ht-degree: 3%
 
 ---
 
@@ -19,8 +27,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|中央|right,top|中央|bottom</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの水平方向の内部配置（アンカー）を指定します。 </p> <p>SearchPanel では、内部サムネールコンテナのサイズが調整されて、整数のサムネールのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間に何らかのパディングがあります。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向にどのように配置するかを指定します。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 </p> <p>SearchPanelでは、内部サムネールコンテナのサイズが調整され、サムネールの数が全体として表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

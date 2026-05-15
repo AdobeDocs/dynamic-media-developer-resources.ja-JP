@@ -1,24 +1,32 @@
 ---
-description: 会社ジョブ ログの詳細を取得します。
+description: 会社のジョブ ログの詳細を取得します。
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/iq-EUtUB4T8m7-t6qPy8PaF4An1Oc1fIaLK--hANPtE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 10%
+source-wordcount: 208
+ht-degree: 8%
 
 ---
 
 # getJobLogDetails{#getjoblogdetails}
 
-会社ジョブ ログの詳細を取得します。
+会社のジョブ ログの詳細を取得します。
 
-`logMessage` 応答フィールドは、`authHeader` `locale` 応答フィールドに基づいてローカライズされます。
+`logMessage`応答フィールドは、`authHeader` `locale` フィールドに基づいてローカライズされています。
 
-## 許可されているユーザータイプ {#section-6f720a7baad64eb3805868c88af9a960}
+## 承認済みユーザータイプ {#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,7 +55,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> ジョブ ログが属する会社のハンドル。 </td> 
+   <td colname="col4"> ジョブ・ログが属する会社へのハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -59,37 +67,37 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> ジョブ ログの元の名前です。 </td> 
+   <td colname="col4"> ジョブ ログの元の名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 1 つ以上のログタイプ定数。 存在する場合、指定したログタイプのみが返されます。 デフォルトでは、すべてのログタイプが返されます。 </td> 
+   <td colname="col4"> 1つ以上のログタイプ定数。 存在する場合は、指定したログタイプのみが返されます。 デフォルトでは、すべてのログタイプが返されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返される <span class="codeph"> detailArray</span> 項目の最大数。 最大値とデフォルト値は 1000 です。 </td> 
+   <td colname="col4">返すdetailArray</span>個のアイテムの最大数は<span class="codeph">です。 最大値とデフォルト値は1000です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">件の結果ページ </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4">返される <span class="codeph"> レコードのページ番号 </span>-results。 デフォルト値は 1 です。 </td> 
+   <td colname="col4">返される<span class="codeph"> recordsPerPage</span>-resultsのページ番号。 デフォルト値は1です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>ジョブ詳細ソート・フィールドの定数値（Date または LogType）。 デフォルト値は「日付」です。 </p> </td> 
+   <td colname="col4"> <p>Job Detail Sort Field定数値（DateまたはLogType）のいずれか。 デフォルト値は日付です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>並べ替え方向の文字列定数の 1 つです。 デフォルト値は昇順です。 </p> </td> 
+   <td colname="col4"> <p>並べ替え方向の文字列定数のいずれか。 デフォルト値は昇順です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +110,7 @@ ht-degree: 10%
 
 ## 例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-このコードサンプルは、特定の会社のすべてのジョブログ詳細を返します。 最初の配列には、標準のジョブログの詳細が含まれます。 埋め込み配列は、ジョブに関する追加情報を返します。
+このコードサンプルは、特定の会社のすべてのジョブログの詳細を返します。 最初の配列には、標準のジョブログの詳細が含まれます。 埋め込まれた配列は、ジョブに関する追加情報を返します。
 
 **リクエスト**
 

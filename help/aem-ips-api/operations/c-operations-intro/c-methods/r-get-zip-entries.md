@@ -5,9 +5,17 @@ title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/-fb25TjtmLMUiZe8gRLz7QmtajqVKASUwwc6TQfjN48'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: 70
 ht-degree: 18%
 
 ---
@@ -18,7 +26,7 @@ Zip ファイルデータを返します。
 
 構文
 
-## 許可されているユーザータイプ {#section-33a3f03ba8a14086922397619ce12ab8}
+## 承認済みユーザータイプ {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,7 +55,7 @@ Zip ファイルデータを返します。
 
 ## 例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-このコードサンプルでは、圧縮サイズと非圧縮サイズを含む Zip ファイル情報を返します。
+このコードサンプルは、圧縮サイズと非圧縮サイズを含むZip ファイル情報を返します。
 
 **リクエスト**
 

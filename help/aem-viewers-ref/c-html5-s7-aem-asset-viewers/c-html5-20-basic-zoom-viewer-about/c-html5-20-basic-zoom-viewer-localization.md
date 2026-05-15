@@ -1,28 +1,36 @@
 ---
-title: ユーザーインターフェイス要素のローカリゼーション
-description: 基本ズームビューアに表示される特定のコンテンツは、ローカライゼーション（ズームボタン、フルスクリーンボタンなど）の影響を受けます。
+title: ユーザーインターフェイス要素のローカライズ
+description: 基本ズームビューアに表示される特定のコンテンツは、ズームボタンや全画面ボタンなど、ローカライゼーションの対象となります。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/kQqcLx8CvI3cjqsmKLDYS9rFbAMQc-veMB43-cZY4hU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 310
 ht-degree: 0%
 
 ---
 
-# ユーザーインターフェイス要素のローカリゼーション{#localization-of-user-interface-elements}
+# ユーザーインターフェイス要素のローカライズ{#localization-of-user-interface-elements}
 
-基本ズームビューアに表示される特定のコンテンツは、ローカライゼーション（ズームボタン、フルスクリーンボタンなど）の影響を受けます。
+基本ズームビューアに表示される特定のコンテンツは、ズームボタンや全画面ボタンなど、ローカライゼーションの対象となります。
 
-ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOL と呼ばれる特別なビューアSDK識別子で表されます。 どの SYMBOL にも、すぐに使用できるビューアに用意されている英語ロケール（`"en"`）のデフォルトのテキスト値が関連付けられています。また、必要な数のロケールに対してユーザー定義の値を設定することもできます。
+ローカライズ可能なビューア内のすべてのテキストコンテンツは、SYMBOLと呼ばれる特別なビューアSDK IDで表されます。 任意のSYMBOLには、標準装備のビューアで指定された英語ロケール （`"en"`）のデフォルトに関連付けられたテキスト値が含まれており、必要に応じてユーザー定義の値が設定されている場合もあります。
 
-ビューアは起動時、現在のロケールを調べて、ロケールでサポートされる各記号にユーザー定義の値があるかどうかを確認します。 デフォルト値が存在する場合は、ユーザー定義の値が使用され、存在しない場合は、標準のデフォルトテキストにフォールバックします。
+ビューアが開始すると、現在のロケールをチェックして、ロケールでサポートされている各シンボルにユーザー定義の値があるかどうかを確認します。 存在する場合は、ユーザー定義の値を使用します。それ以外の場合は、デフォルトのデフォルトのテキストにフォールバックします。
 
-ユーザー定義のローカライゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされるロケール、各ロケールの SYMBOL テキスト値、デフォルトのロケールのリストが含まれます。
+ユーザー定義のローカライゼーションデータは、ローカライゼーション JSON オブジェクトとしてビューアに渡すことができます。 このようなオブジェクトには、サポートされているロケールのリスト、各ロケールのSYMBOL テキスト値、およびデフォルトのロケールが含まれます。
 
-このようなローカリゼーションオブジェクトの例を次に示します。
+そのようなローカライゼーションオブジェクトの例を以下に示します。
 
 ```
 { 
@@ -38,54 +46,54 @@ defaultLocale:"en"
 }
 ```
 
-上記の例では、localization オブジェクトは 2 つのロケール（`"en"` と `"fr"`）を定義し、各ロケールで 2 つのユーザーインターフェイス要素のローカライゼーションを提供します。
+上記の例では、ローカライゼーションオブジェクトは2つのロケール（`"en"`と`"fr"`）を定義し、各ロケールの2つのユーザーインターフェイス要素にローカライゼーションを提供します。
 
-Web ページのコードは、このようなローカリゼーションオブジェクトを、設定オブジェクトのフィールドの値としてビューアのコンストラクター `localizedTexts` 渡す必要があります。 別のオプションとして、メソッドを呼び出してローカリゼーションオブジェクト `setLocalizedTexts(localizationInfo)` 渡すこともできます。
+Web ページコードは、このようなローカライゼーションオブジェクトを設定オブジェクトの`localizedTexts` フィールドの値としてビューアコンストラクターに渡す必要があります。 別のオプションとして、`setLocalizedTexts(localizationInfo)` メソッドを呼び出してローカライゼーションオブジェクトを渡すこともできます。
 
-次の記号がサポートされています。
+次のシンボルがサポートされています。
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>記号 </p> </th> 
-   <th colname="col2" class="entry"> <p>...のツールチップ </p> </th> 
+   <th colname="col1" class="entry"> <p>シンボル </p> </th> 
+   <th colname="col2" class="entry"> <p>ツールヒント： </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>最上位のビューア要素の ARIA ラベル。 </p> </td> 
+   <td colname="col2"> <p>最上位ビューア要素のARIA ラベル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> ZoomView.ROLE_DESCRIPTION <span class="codeph"> を </span> きます。 </p> </td> 
-   <td colname="col2"> <p>メインビューコンポーネントの ARIA 役割の説明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col2"> <p>メインビューコンポーネントのARIA ロールの説明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>キーボードユーザー向けの ARIA 使用ヒント。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
+   <td colname="col2"> <p>キーボードユーザーのARIA使用ヒント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>「閉じる」ボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>「ズームイン」ボタン。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>ズームインボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>ズームアウトボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>ズームリセットボタン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>全画面表示ボタンが通常の状態。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p>フルスクリーンボタンを通常の状態で使用します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>フルスクリーン状態のフルスクリーンボタン。 </p> </td> 
   </tr> 
  </tbody> 

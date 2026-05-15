@@ -1,24 +1,32 @@
 ---
-description: 太字のフラグ。 このフォント マップ レコードによって参照されるフォント ファイルが、RTF boldface コマンド （b）によって要求されたときに使用される必要があるかどうかを指定します。
+description: 太字の旗。 このフォントマップレコードで参照されるフォントファイルを、RTF boldface コマンド（b）で要求されたときに使用するかどうかを指定します。
 solution: Experience Manager
 title: 太字
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/qrcoOa6usgy5U4fIHu1rst6F4kVWUKRbEPqKcikykdE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: 67
 ht-degree: 7%
 
 ---
 
 # 太字{#bold}
 
-太字のフラグ。 このフォント マップ レコードによって参照されるフォント ファイルが、RTF boldface コマンド （\b）によって要求されたときに使用される必要があるかどうかを指定します。
+太字の旗。 このフォントマップレコードで参照されるフォントファイルを、RTF boldface コマンド（\b）で要求されたときに使用するかどうかを指定します。
 
 ## プロパティ {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-フラグ。 フォントマップのセカンダリインデックスキー（オプション）。
+フラグ： フォントマップのオプションのセカンダリインデックスキー。
 
 ## 初期設定 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

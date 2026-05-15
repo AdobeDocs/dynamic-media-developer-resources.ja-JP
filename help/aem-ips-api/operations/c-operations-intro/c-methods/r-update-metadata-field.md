@@ -5,9 +5,19 @@ title: updateMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/KWv2pWCAN3eKZ5FLG2e62qGKSLpMt0eH5QBbQpSOTNM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: 147
 ht-degree: 11%
 
 ---
@@ -18,7 +28,7 @@ ht-degree: 11%
 
 構文
 
-## 許可されているユーザータイプ {#section-540e91823fee49a4920ca738f7bfeb99}
+## 承認済みユーザータイプ {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -42,16 +52,16 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社ハンドル。 </td> 
+   <td colname="col4"> 会社のハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> メタデータフィールドハンドル。 </td> 
+   <td colname="col4"> メタデータフィールドハンドル： </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> メタデータフィールド名。 </td> 
@@ -60,25 +70,25 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> メタデータフィールドの値。 </td> 
+   <td colname="col4"> メタデータフィールド値。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">は非表示</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> IPS システム固有のメタデータを表示または非表示にします。 </td> 
+   <td colname="col4"> IPS システム固有のメタデータを非表示または公開します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">は強制</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>値の設定時にメタデータフィールドを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata<span class="codeph"> /</span> batchSetAssetMetadata<span class="codeph"> に無効な値が設定されてい </span> とエラーが発生します。 </p> </td> 
+   <td colname="col4"> <p>値が設定されたときにメタデータフィールドが適用（検証）されるかどうかを示すブール値フラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>で不正な値が設定された場合、障害がスローされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 選択したタグが指し示すことができる一連の共有された列挙値を作成できます。 </td> 
+   <td colname="col4"> 選択したタグがポイントできる共有の列挙値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +97,11 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | はい | メタデータフィールドハンドル。 |
+| fieldHandle | `xsd:string` | はい | メタデータフィールドハンドル： |
 
 ## 例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-このコードサンプルのアップデートでは、新しい名前とデフォルト値がメタデータフィールドに割り当てられます。 応答は、更新されたフィールドへのハンドルを返します。
+このコード サンプルの更新では、メタデータフィールドに新しい名前とデフォルト値を割り当てます。 応答は、更新されたフィールドにハンドルを返します。
 
 **リクエスト**
 

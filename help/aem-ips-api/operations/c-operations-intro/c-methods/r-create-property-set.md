@@ -1,24 +1,32 @@
 ---
-description: プロパティ セットは、プロパティ セットの種類に応じて、さまざまな IPS オブジェクトにアタッチできる名前と値のペアのアプリケーション固有のセットです。 プロパティ セット タイプによって、オブジェクトに複数のセットをアタッチできない（PropertySetType/allowMultipleisfalse）状態で、オブジェクトに同じタイプのセットが既に関連付けられている場合は、新しいセットが既存のセットに置き換わります。
+description: プロパティセットは、プロパティセットタイプに応じて、さまざまなIPS オブジェクトにアタッチできるアプリケーション固有の名前と値のペアのセットです。 プロパティ セットの種類で、複数のセットをオブジェクトに添付することが許可されておらず（PropertySetType/allowMultipleisfalse）、オブジェクトに同じ種類の関連セットが既に含まれている場合、新しいセットが既存のセットに置き換えられます。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/kMRKY0OQPDLsPpPDtTQpxwTBiBu3dco37mSxR7khfgg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 7%
+source-wordcount: 217
+ht-degree: 6%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-プロパティ セットは、プロパティ セットの種類に応じて、さまざまな IPS オブジェクトにアタッチできる名前と値のペアのアプリケーション固有のセットです。 プロパティ セット タイプによって、オブジェクトに複数のセットをアタッチできない（PropertySetType/allowMultipleisfalse）状態で、オブジェクトに同じタイプのセットが既に関連付けられている場合は、新しいセットが既存のセットに置き換わります。
+プロパティセットは、プロパティセットタイプに応じて、さまざまなIPS オブジェクトにアタッチできるアプリケーション固有の名前と値のペアのセットです。 プロパティ セットの種類で、複数のセットをオブジェクトに添付することが許可されておらず（PropertySetType/allowMultipleisfalse）、オブジェクトに同じ種類の関連セットが既に含まれている場合、新しいセットが既存のセットに置き換えられます。
 
 構文
 
-## 許可されているユーザータイプ {#section-f9b6187ba636475787c997fc27bb192a}
+## 承認済みユーザータイプ {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,20 +40,20 @@ ht-degree: 7%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | typeHandle | `xsd:string` | はい | プロパティセットタイプへのハンドル。 |
-| primaryOwnerHandle | `xsd:string` | はい | プロパティ セットのプライマリ所有者へのハンドル。 |
-| secondaryOwnerHandle | `xsd:string` | いいえ | プロパティ セットのセカンダリ所有者へのハンドル。 |
+| primaryOwnerHandle | `xsd:string` | はい | プロパティセットのプライマリオーナーへのハンドル。 |
+| secondaryOwnerHandle | `xsd:string` | いいえ | プロパティセットのセカンダリオーナーへのハンドル。 |
 | propertyArray | `types:PropertyArray` | はい | プロパティの配列。 |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
 
-**Output （createPropertySetParam）**
+**出力（createPropertySetParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | はい | 新しいプロパティ セットへのハンドル。 |
+| setHandle | `xsd:string` | はい | 新しいプロパティセットへのハンドル。 |
 
 ## 例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-このコード例では、プロパティの名前と値を含むプロパティセットを作成します。 応答は、新しいプロパティセットへのハンドルを返します。
+このコード サンプルでは、プロパティの名前と値を含むプロパティ セットを作成します。 応答は、新しいプロパティセットへのハンドルを返します。
 
 **リクエスト**
 

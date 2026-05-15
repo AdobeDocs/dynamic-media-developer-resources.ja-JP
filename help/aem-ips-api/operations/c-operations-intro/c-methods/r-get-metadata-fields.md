@@ -1,24 +1,34 @@
 ---
-description: アセットに関連付けられたユーザー定義のメタデータフィールドを取得します。
+description: アセットに関連付けられたユーザー定義メタデータフィールドを取得します。
 solution: Experience Manager
 title: getMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/MA5Y2w4x49b36L6s4PICphm1iamWmVdj-BSMmOQxMdA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: 97
 ht-degree: 12%
 
 ---
 
 # getMetadataFields{#getmetadatafields}
 
-アセットに関連付けられたユーザー定義のメタデータフィールドを取得します。
+アセットに関連付けられたユーザー定義メタデータフィールドを取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 承認済みユーザータイプ {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,10 +44,10 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
+| companyHandle | `xsd:string` | はい | 企業のハンドル。 |
 | assetType | `xsd:string` | はい | メタデータの取得元となるアセットタイプ。 |
 
-**出力（getMetadataFieldsParam）**
+**Output （getMetadataFieldsParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -45,7 +55,7 @@ ht-degree: 12%
 
 ## 例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-このコードサンプルでは、指定したタイプおよび会社のメタデータアセットを返します。 応答には、メタデータフィールドの配列がフィールド配列に含まれています。 すべてのアセットに同じメタデータがあるわけではありません。 IPS ユーザーは、アセットのメタデータフィールドを定義します。
+このコードサンプルは、指定したタイプと会社のメタデータアセットを返します。 応答には、フィールド配列内のメタデータフィールドの配列が含まれます。 あらゆるアセットが同じメタデータを持つわけではありません。 IPS ユーザーは、アセットのメタデータフィールドを定義します。
 
 **リクエスト**
 

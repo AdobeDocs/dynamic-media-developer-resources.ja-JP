@@ -1,33 +1,41 @@
 ---
-description: 画像ポータルに関連するシステムプロパティの文字列値を取得します。
+description: Image Portalに関連するシステムプロパティの文字列値を取得します。
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/loaZvP3tI8neQ6ziLR-xKkkNqGGjD8Mq1jbeC8mJEQo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: 132
 ht-degree: 9%
 
 ---
 
 # getProperty{#getproperty}
 
-画像ポータルに関連するシステムプロパティの文字列値を取得します。
+Image Portalに関連するシステムプロパティの文字列値を取得します。
 
-次のシステムプロパティがサポートされています。
+サポートされるシステムプロパティには、次のものがあります。
 
 * `IpsVersion`: IPS バージョン番号。
-* `IpsImageServerUrl`:IPS 画像サーバーの完全な外部 URL プレフィックス。
+* `IpsImageServerUrl`: IPS Image Serverの完全な外部URL プレフィックス。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:SVG アセットをレンダリングするための URL プレフィックス。
-* `SvgRenderEnabled`:SVG アセットを `SvgRenderRootUrl` でレンダリングできる場合は true。
+* `SvgRenderRootUrl`: SVG アセットをレンダリングするためのURL プレフィックス。
+* `SvgRenderEnabled`: `SvgRenderRootUrl`がSVG アセットをレンダリングできる場合はTrueです。
 
-* `UploadPostMaxFileSize`：アップロードフ [!DNL POST] ールドで許可されるファイルデータの最大サイズ（バイト単位）。 上限を超えるファイルは拒否されます。
+* `UploadPostMaxFileSize`: アップロード [!DNL POST]で許可されるファイルデータの最大サイズ （バイト単位）。 システムは、上限を超えるファイルを拒否します。
 
-## 許可されているユーザータイプ {#section-2cd36bbd46ed414b8753569d5895530e}
+## 承認済みユーザータイプ {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -55,7 +63,7 @@ ht-degree: 9%
 
 ## 例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-このコード例では、IPS プロパティの文字列定数を使用して、特定の値を返します。 この例では、IPS プロパティは IPS サーバーのバージョンです。
+このコードのサンプルでは、IPS プロパティ文字列定数を使用して、特定の値を返します。 この例では、IPS プロパティはIPS サーバーのバージョンです。
 
 **リクエスト**
 

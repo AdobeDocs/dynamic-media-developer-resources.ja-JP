@@ -5,9 +5,19 @@ title: 操作パラメーター
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/60a3N3B3ZWMdGxLgtalfgG6mi6Ma5fSc1lwojqpF04E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: 162
 ht-degree: 0%
 
 ---
@@ -17,7 +27,7 @@ ht-degree: 0%
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [addGroupMembers](r-add-group-membership.md)
+* [addGroupMembership](r-add-group-membership.md)
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
@@ -61,7 +71,7 @@ ht-degree: 0%
 * [executeJob](r-execute-job.md)
 * [forceRepublishAssets](r-force-republish-assets.md)
 * [generatePassword](r-generate-password.md)
-* [getActiveJob](r-get-active-jobs.md)
+* [getActiveJobs](r-get-active-jobs.md)
 * [getActivePublishContext](r-get-active-publish-contexts.md)
 * [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
@@ -72,7 +82,7 @@ ht-degree: 0%
 * [getAssets](r-get-assets.md)
 * [getAssetsByName](r-get-assets-by-name.md)
 * [getAssociatedAssets](r-get-associated-assets.md)
-* [getAutoCropDirect](r-get-auto-crop-rect.md)
+* [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
 * [getCompanyMembership](r-get-company-membership.md)
@@ -83,13 +93,13 @@ ht-degree: 0%
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
-* [getGroupMembers](r-get-group-membership.md)
+* [getGroupMembership](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
-* [getImageFormat](r-get-image-formats.md)
+* [getImageFormats](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
 * [getImageServingPublishSettings](r-get-image-serving-publish-settings.md)
 * [getImageSetMembers](r-get-image-set-members.md)
-* [getJobLog](r-get-job-logs.md)
+* [getJobLogs](r-get-job-logs.md)
 * [getJobLogDetails](r-get-job-log-details.md)
 * [getMetadataFields](r-get-metadata-fields.md)
 * [getOriginalFilePaths](r-get-original-file-paths.md)
@@ -102,15 +112,15 @@ ht-degree: 0%
 * [getPropertySetTypes](r-get-property-set-types.md)
 * [getPublishContexts](r-get-publish-contexts.md)
 * [getScheduledJobs](r-get-scheduled-jobs.md)
-* [getSearchString](r-get-search-strings.md)
+* [getSearchStrings](r-get-search-strings.md)
 * [getSystemProperties](r-get-system-properties.md)
 * [getTagFieldValues](r-get-tag-field-values.md)
 * [getUniqueMetadataValues](r-get-unique-metadata-values.md)
-* [getUserChar](r-get-user-chars.md)
-* [getUserinfo](r-get-user-info.md)
+* [getUserChars](r-get-user-chars.md)
+* [getUserInfo](r-get-user-info.md)
 * [getUsers](r-get-users.md)
 * [getViewerConfigSettings](r-get-viewer-config-settings.md)
-* [getVistaPublishFormats](r-get-vignette-publish-formats.md)
+* [getVignettePublishFormats](r-get-vignette-publish-formats.md)
 * [getXMPPacket](r-get-xmp-packet.md)
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)
@@ -142,10 +152,10 @@ ht-degree: 0%
 * [setAssetPublishState](r-set-asset-publish-state.md)
 * [setAssetsPublishState](r-set-assets-publish-state.md)
 * [setAssetSetDefinition](r-set-asset-set-definition.md)
-* [setCompanyMembers](r-set-company-membership.md)
+* [setCompanyMembership](r-set-company-membership.md)
 * [setCompanySettings](r-set-company-settings.md)
 * [setFolderPermissions](r-set-folder-permissions.md)
-* [setGroupMember](r-set-group-members.md)
+* [setGroupMembers](r-set-group-members.md)
 * [setGroupMembership](r-set-group-membership.md)
 * [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)

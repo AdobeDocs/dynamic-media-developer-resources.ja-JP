@@ -5,9 +5,17 @@ title: InitialFrame
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/mOv0xdpEX6HFHvTkn09jtFwxAYwKJcFPv0O5iVu-PP8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 59
 ht-degree: 5%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> フレーム </span></span> </p> </td> 
-   <td colname="col2"> <p> ビューアの読み込み時に表示する、ゼロベースのスプレッド インデックスを指定します。 このインデックスは、横長モードでのスプレッドのインデックスと一致します。 ビューアを縦向きに回転すると、ビューアは frameIdx<span class="codeph"> が指すスプレッドの左端のページ </span> 表示します。 </p> </td> 
+   <td colname="col2"> <p> ビューアの読み込み時に表示するゼロ ベースのスプレッド インデックスを指定します。 このインデックスは、横モードのスプレッドのインデックスと一致します。 ビューアを縦向きに回転すると、<span class="codeph"> frameIdx</span>が指すスプレッドの一番左のページがビューアに表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +43,7 @@ ht-degree: 5%
 
 ## 例 {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-ビューアの URL で指定された場合。
+ビューア URLで指定した場合。
 
 ```
 [!DNL initialFrame=2

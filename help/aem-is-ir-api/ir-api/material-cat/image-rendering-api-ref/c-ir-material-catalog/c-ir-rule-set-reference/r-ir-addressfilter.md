@@ -1,20 +1,28 @@
 ---
-description: アドレスフィルター要素。 <rule> 要素内ではオプションです。 ルールが適用されると、属性 ClientAddressFilter を上書きします。
+description: アドレスフィルター要素。 <rule>要素ではオプションです。 ルールが適用されるときに、属性ClientAddressFilterを上書きします。
 solution: Experience Manager
 title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+TQID: 'https://experienceleague.adobe.com/583zFF80AMZnaF4C-RQpRQI684hRlPRCuwoMPHGJ6eg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 150
 ht-degree: 1%
 
 ---
 
 # addressfilter{#addressfilter}
 
-アドレスフィルター要素。 `<rule>` 要素ではオプションです。 ルールが適用されると、attribute::ClientAddressFilter を上書きします。
+アドレスフィルター要素。 `<rule>`要素ではオプションです。 ルールが適用されたときに属性：:ClientAddressFilterを上書きします。
 
 ## 属性 {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -22,18 +30,18 @@ ht-degree: 1%
 
 ## データ {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-IP アドレスのコンマ区切りリスト。 個々のアドレスには、IP アドレス範囲の指定を可能にするオプションのネットマスクサフィックスを含めることができます。 詳しくは、[attribute::ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) を参照してください。
+IP アドレスのコンマ区切りリスト。 個々のアドレスごとにオプションのネットマスクサフィックスを含めて、IP アドレス範囲を指定できます。 詳しくは、[attribute::ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md)を参照してください。
 
 ## 説明 {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-`<addressfilter>` 要素で指定することで、この画像カタログへのアクセスを 1 つ以上の特定の IP アドレスに制限できます。 クライアントの IP アドレスが一致しない場合は、「request refused」エラーがクライアントに返されます。
+この画像カタログへのアクセスは、`<addressfilter>`要素で指定することで、1つ以上の特定のIP アドレスに制限できます。 クライアントのIP アドレスが一致しない場合、「リクエスト拒否」エラーがクライアントに返されます。
 
-`<addressfilter>` が空であるか、指定されていない場合、アクセスは制限されません。
+`<addressfilter>`が空であるか指定されていない場合、アクセスは制限されません。
 
-`<expression>` 要素の `<rule>` が存在しないか空の場合、`<addressfilter>` はすべてのリクエストに適用されます。
+`<rule>`要素の`<expression>`が存在しないか空の場合、`<addressfilter>`はすべてのリクエストに適用されます。
 
-`localhost` は、明示的に指定されない場合でも、常に `ClientAddressFilter` 定義の暗黙的な一部となります。 `localhost` からのリクエストは、`ClientAddressFilter` の仕様に関係なく、拒否されません。
+`localhost`は、明示的に指定されていない場合でも、常に暗黙的に`ClientAddressFilter`定義の一部になります。 `ClientAddressFilter`の仕様に関係なく、`localhost`からのリクエストは拒否されません。
 
-## SeeAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
+## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 
 [attribute::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)

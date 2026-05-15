@@ -1,24 +1,32 @@
 ---
 description: グループの配列にユーザーを追加します。
 solution: Experience Manager
-title: addGroupMembers
+title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/E26D4T5xx58eE5G1APbIi46B-SL1BM9YqGibC1n4IVo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 92
 ht-degree: 9%
 
 ---
 
-# addGroupMembers{#addgroupmembership}
+# addGroupMembership{#addgroupmembership}
 
 グループの配列にユーザーを追加します。
 
 構文
 
-## 許可されているユーザータイプ {#section-fe950150718a474d8df30d0f4453c022}
+## 承認済みユーザータイプ {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -42,7 +50,7 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>グループメンバーシップを追加するユーザーのハンドル。 </p> </td> 
+   <td colname="col4"> <p>グループメンバーシップを追加するユーザーに対して処理を実行します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
@@ -55,11 +63,11 @@ ht-degree: 9%
 
 **出力（addGroupMembershipParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-この例では、groupHandleArray を持つ会社にグループを追加します。 この例では、1 つのグループのみを使用します。
+次の使用例は、groupHandleArrayを持つ会社にグループを追加します。 この例では、1つのグループのみを使用します。
 
 **リクエスト**
 

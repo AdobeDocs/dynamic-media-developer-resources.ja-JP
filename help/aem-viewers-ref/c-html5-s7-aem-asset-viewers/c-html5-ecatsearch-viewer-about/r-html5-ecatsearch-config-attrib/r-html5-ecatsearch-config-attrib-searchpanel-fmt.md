@@ -5,9 +5,17 @@ title: SearchPanel.fmt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a713b8f1-e834-457d-b038-eb30b25f905f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/OW-iPLYzqFNCYHrlUBZ25wBQX1ZjNd1ddE-d1y29-d4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: 67
 ht-degree: 4%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントが Image Server から画像を読み込むために使用する画像形式を指定します。 Image Server とクライアントブラウザーでサポートされている任意の形式を指定できます。 </p> <p>指定した形式が – alpha<span class="codeph"> で終わ </span> 場合、コンポーネントは画像を透明コンテンツとしてレンダリングします。 他のすべての画像形式では、コンポーネントは画像を不透明として扱います。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントがImage Serverから画像を読み込むときに使用する画像形式を指定します。 Image Serverとクライアントブラウザーでサポートされている任意の形式を指定できます。 </p> <p>指定された形式が<span class="codeph"> -alpha</span>で終わる場合、コンポーネントは画像を透明コンテンツとしてレンダリングします。 その他のすべての画像形式では、コンポーネントは画像を不透明として扱います。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

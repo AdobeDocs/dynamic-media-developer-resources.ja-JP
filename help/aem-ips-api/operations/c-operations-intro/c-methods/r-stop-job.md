@@ -1,24 +1,32 @@
 ---
-description: 実行中のジョブを停止します。
+description: 進行中のジョブを停止します。
 solution: Experience Manager
 title: stopJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/L72oxdH9gFQcXgjbWznsuVGV0-UCQXLShJm-DvbZd8Y'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 54
 ht-degree: 16%
 
 ---
 
 # stopJob{#stopjob}
 
-実行中のジョブを停止します。
+進行中のジョブを停止します。
 
 構文
 
-## 許可されているユーザータイプ {#section-b222f561143747f6ad089aadc0b274d8}
+## 承認済みユーザータイプ {#section-b222f561143747f6ad089aadc0b274d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,12 +43,12 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
-| jobHandle | `xsd:string` | はい | 停止するジョブへのハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
+| jobHandle | `xsd:string` | はい | 止めたい仕事に対応する。 |
 
 **出力（stopJobReturn0**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f7e07fa09ae24dc89685533f20ab3b81}
 

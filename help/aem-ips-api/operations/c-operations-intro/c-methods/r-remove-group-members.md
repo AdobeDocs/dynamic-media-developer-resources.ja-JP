@@ -1,27 +1,35 @@
 ---
-description: 会社のユーザーを特定のグループから削除します。
+description: 特定のグループから会社ユーザーを削除します。
 solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/dMEOhQgXQvFvZj2Kozsq6J7qJNiwYpknQQbNkADMsg0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 117
 ht-degree: 7%
 
 ---
 
 # removeGroupMembers{#removegroupmembers}
 
-会社のユーザーを特定のグループから削除します。
+特定のグループから会社ユーザーを削除します。
 
 **削除コマンドの違い**
 
 * `removeGroupMembers`: グループから複数のユーザーを削除します。
-* `removeGroupMembership`：グループの配列から個々のユーザーを削除します。
+* `removeGroupMembership`: グループの配列から個々のユーザーを削除します。
 
-## 許可されているユーザータイプ {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 承認済みユーザータイプ {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,17 +41,17 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 操作するユーザーを含む会社のハンドル。 |
-| groupHandle | `xsd:string` | はい | グループハンドル。 |
-| userHandleArray | `types:HandleArray` | はい | グループメンバーシップを削除するユーザーのハンドルの配列。 |
+| companyHandle | `xsd:string` | はい | 一緒に働きたいユーザーを持つ会社へのハンドル。 |
+| groupHandle | `xsd:string` | はい | グループハンドル： |
+| userHandleArray | `types:HandleArray` | はい | グループ メンバーシップを削除するユーザーのハンドルの配列。 |
 
 **出力（removeGroupMembersParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-このコードサンプルでは、指定した会社からユーザーを削除します。 ユーザーハンドル配列を持つグループから複数のユーザーを削除します。
+このコードサンプルは、指定した会社からユーザーを削除します。 ユーザーハンドル配列を持つグループから複数のユーザーを削除します。
 
 **リクエスト**
 

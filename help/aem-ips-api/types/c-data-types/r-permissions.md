@@ -5,9 +5,17 @@ title: 権限
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/BfB4MGiJFqPkJqL26YSmrhd52KfxhVX5TC-LHxEhevo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: 53
 ht-degree: 7%
 
 ---
@@ -22,8 +30,8 @@ ht-degree: 7%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| groupHandle | `xsd:string` | グループハンドル。 |
-| groupName | `xsd:string` | グループ名。 |
-| permissionType | `xsd:string` | 権限タイプを選択します。 |
-| isAllowed | `xsd:boolean` | 権限が許可されているかどうかを判断します。 |
-| isOverride | `xsd:boolean` | 権限が別の権限を上書きするかどうかを決定します。 |
+| groupHandle | `xsd:string` | グループハンドル： |
+| groupName | `xsd:string` | グループ名： |
+| permissionType | `xsd:string` | 権限タイプの選択。 |
+| isAllowed | `xsd:boolean` | 権限が許可されているかどうかを指定します。 |
+| isOverride | `xsd:boolean` | 権限が別の権限を上書きするかどうかを指定します。 |

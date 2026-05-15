@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 5fd3aa39-edb0-4434-aa5f-e511c84cf950
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Vf2-JtHlTsRIPhFUWVFm6NoeZnYgkc1LUcvx-r-JiPQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 2%
 
 ---
@@ -27,8 +35,8 @@ ht-degree: 2%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> ビデオをセキュア SSL 接続（HTTPS）と非セキュア接続（HTTP）のどちらで配信するかを制御します。 </p> <p>自動に設定 <span class="codeph"> ると </span> ビデオ配信プロトコルは、埋め込み web ページのプロトコルから継承されます。 Web ページが HTTPS で読み込まれる場合、ビデオも HTTPS で配信されます。逆も同様です。 Web ページが HTTP で送信されている場合、ビデオは HTTP 経由で配信されます。 </p> <p><span class="codeph"> on</span> に設定すると、ビデオ配信は、web ページのプロトコルに関係なく、常に安全な接続で行われます。 </p> <p>公開済みビデオ配信にのみ影響し、オーサーモードでのビデオプレビューでは無視されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自動|</span> </p> </td> 
+   <td colname="col2"> <p> ビデオが安全なSSL接続（HTTPS）または安全でない接続（HTTP）を介して配信されるかどうかを制御します。 </p> <p><span class="codeph"> auto</span>に設定すると、ビデオ配信プロトコルは埋め込みweb ページのプロトコルから継承されます。 web ページがHTTPS経由で読み込まれる場合、ビデオもHTTPS経由で配信され、逆に配信されます。 web ページがHTTP上にある場合、ビデオはHTTP経由で配信されます。 </p> <p></span>で<span class="codeph">に設定すると、ビデオ配信は常にWeb ページプロトコルに関係なく、安全な接続を通じて行われます。 </p> <p>公開済みのビデオ配信のみに影響し、作成者モードでのビデオプレビューでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,4 +57,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-[&#x200B; セキュアなビデオ配信 &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb) も参照してください。
+[&#x200B; セキュアビデオ配信](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb)も参照してください。

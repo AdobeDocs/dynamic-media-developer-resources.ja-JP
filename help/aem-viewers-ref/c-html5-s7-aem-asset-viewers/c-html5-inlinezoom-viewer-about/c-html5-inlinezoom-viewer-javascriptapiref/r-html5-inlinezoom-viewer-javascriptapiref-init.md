@@ -1,34 +1,42 @@
 ---
-title: 初期化
+title: init
 description: インラインズームビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: c4419728-1e1a-4e11-88fe-24eb0c968c5c
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/krg248XGzvARlbGu-LNhkBpmH0Zb2pf1EF4V8jevkjk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 1%
 
 ---
 
-# 初期化{#init}
+# init{#init}
 
 インラインズームビューアのJavaScript API リファレンス。
 
 `init()`
 
-ビューアの初期化を開始して、ビューアコードが ID で検索できるようにします。 この時点で、コンテナ DOM 要素を作成する必要があります。
+ビューアの初期化を開始して、ビューアコードがIDでビューアを見つけられるようにします。 この時点で、コンテナ DOM要素を作成する必要があります。
 
-コンテナ要素がまだ web ページレイアウトの一部でない場合（例えば、割り当てられたスタイルで非表示になってい `display:none` 場合など）、ビューアは初期化プロセスを中断します。 Web ページがコンテナ要素をレイアウトに戻す瞬間までこれを繰り返します。 このアクションが発生すると、ビューアの読み込みが自動的に再開されます。
+コンテナ要素がまだweb ページレイアウトの一部ではない場合（例えば、割り当てられた`display:none` スタイルを使用して非表示にできる場合など）、ビューアは初期化プロセスを一時停止します。 web ページがコンテナ要素をレイアウトに戻すまで行われます。 このアクションが発生すると、ビューアの読み込みが自動的に再開されます。
 
-このメソッドは、ビューアのライフサイクル中に 1 回だけ呼び出します。それ以降の呼び出しは無視されます。
+ビューアのライフサイクル中に、このメソッドを1回だけ呼び出します。以降の呼び出しは無視されます。
 
 ## パラメーター {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` ビューアインスタンスへの参照。
 

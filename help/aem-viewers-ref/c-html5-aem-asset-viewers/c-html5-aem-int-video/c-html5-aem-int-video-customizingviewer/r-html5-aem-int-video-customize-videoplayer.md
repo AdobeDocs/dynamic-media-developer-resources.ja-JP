@@ -1,47 +1,55 @@
 ---
 title: ビデオプレーヤー
-description: ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される長方形の領域です。
+description: ビデオプレーヤーは、ビデオコンテンツがビューア内に表示される長方形の領域です。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/QE1d7JlPXKNmPNlzSAKTAvBW3xd3m58ITbcIshaqLzQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 307
 ht-degree: 0%
 
 ---
 
 # ビデオプレーヤー{#video-player}
 
-ビデオプレーヤーは、ビューア内でビデオコンテンツが表示される長方形の領域です。
+ビデオプレーヤーは、ビデオコンテンツがビューア内に表示される長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-再生中のビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの長方形表示領域の中央に配置されます。
+再生されるビデオのサイズがビデオプレーヤーのサイズと一致しない場合、ビデオコンテンツはビデオプレーヤーの長方形表示領域内に配置されます。
 
-次の CSS クラスセレクターは、ビデオプレーヤーの外観を制御します。
+次のCSS クラスセレクターは、ビデオプレーヤーの外観を制御します。
 
 ```
 .s7interactivevideoviewer .s7videoplayer
 ```
 
-**ビデオプレーヤーの CSS プロパティ**
+ビデオプレーヤーの&#x200B;**CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>メインビューの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-システムでビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。
+システムがビデオを再生できない場合に表示されるエラーメッセージをローカライズできます。
 
-[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – ビデオプレーヤーのサイズが 512 x 288 ピクセルに設定されたビデオビューアを設定するには
+例 – ビデオプレーヤーのサイズを512 x 288 ピクセルに設定したビデオビューアを設定する。
 
 ```
 .s7interactivevideoviewer .s7videoplayer{ 
@@ -49,40 +57,40 @@ background-color: transparent;
 }
 ```
 
-クローズドキャプションは、ビデオプレーヤーの内部コンテナに配置されます。 そのコンテナの位置は、サポートされる WebVTT 位置決め演算子で制御されます。 キャプションテキスト自体はそのコンテナ内にあり、そのスタイルは次の CSS クラスセレクターで制御されます。
+クローズドキャプションは、ビデオプレーヤー内の内部コンテナに入れられます。 そのコンテナの位置は、サポートされているWebVTT ポジショニングオペレーターによって制御されます。 キャプションテキスト自体はそのコンテナ内にあり、そのスタイルは次のCSS クラスセレクターで制御されます。
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**クローズドキャプションの CSS プロパティ**
+クローズドキャプションの&#x200B;**CSS プロパティ**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>クローズドキャプションテキストの背景。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>字幕のテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p>キャプションテキストの色を閉じます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p> 字幕のフォントの太さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p> クローズドキャプションのフォントの太さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> クローズドキャプションのフォントサイズ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
+   <td colname="col2"> <p> クローズドキャプションのフォントサイズ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>字幕フォント。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>クローズドキャプションのフォント。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-クローズドキャプションのテキストを 14 ピクセル（薄いグレー、Arial®）で半透明の黒い背景に設定するには：
+クローズドキャプションテキストを、半透明の黒い背景に14 ピクセル（明るいグレー、Arial®）に設定するには：
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 
@@ -94,13 +102,13 @@ background-color: transparent;
 }
 ```
 
-バッファリングアニメーションの外観は、次の CSS クラスセレクターで制御します。
+バッファリングアニメーションの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon
 ```
 
-**待機アイコンの CSS プロパティ**
+待機アイコン **の** CSS プロパティ
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -111,12 +119,12 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p> アニメーションアイコンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p> アニメーション アイコンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
@@ -124,16 +132,16 @@ background-color: transparent;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p> アニメーション アイコン上余白（通常はアイコンの高さの半分を引いた値） </p> </td> 
+   <td colname="col2"> <p> アニメーションアイコンの上余白（通常はアイコンの高さの半分を差し引く）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> ノブ アートワーク。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p> ノブのアートワーク： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 幅 101 ピクセル、高さ 29 ピクセルのバッファリングアニメーションを設定するには：
+例 – バッファリングアニメーションを幅101 ピクセル、高さ29 ピクセルに設定するには、次の手順を実行します。
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7waiticon { 

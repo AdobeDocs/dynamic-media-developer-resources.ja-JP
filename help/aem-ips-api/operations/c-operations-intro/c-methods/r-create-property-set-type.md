@@ -1,24 +1,32 @@
 ---
-description: プロパティ セット タイプは、プロパティ セットの管理に役立つ各種の設定を指定します。
+description: プロパティセットタイプは、プロパティセットの管理に役立つ様々な設定を指定します。
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/JOAxK9j-P0v8inQRU65C2rVCM9-OnXTXCF6wtp6eksY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 10%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-プロパティ セット タイプは、プロパティ セットの管理に役立つ各種の設定を指定します。
+プロパティセットタイプは、プロパティセットの管理に役立つ様々な設定を指定します。
 
 構文
 
-## 許可されているユーザータイプ {#section-48e5f908276c4a549fd33a8828bad326}
+## 承認済みユーザータイプ {#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,12 +39,12 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | プロパティ セット タイプを所有する会社へのハンドル。 `companyHandle` が渡されず、呼び出し元が `IpsAdmin` の場合は、グローバルプロパティセットタイプが作成されます。 |
+| companyHandle | `xsd:string` | いいえ | プロパティ セット タイプを所有する会社へのハンドル。 `companyHandle`が渡されず、呼び出し元が`IpsAdmin`の場合、グローバル プロパティ セット タイプが作成されます。 |
 | name | `xsd:string` | はい | プロパティセットタイプの名前。 |
-| propertyType | `xsd:string` | はい | プロパティセットのタイプを選択します。 |
-| allowMultiple | `xsd:boolean` | はい | プログラムが複数のプロパティ セットを持つことができるかどうかを決定します。 |
+| propertyType | `xsd:string` | はい | プロパティセットタイプの選択。 |
+| allowMultiple | `xsd:boolean` | はい | プログラムに複数のプロパティセットを含めることができるかどうかを指定します。 |
 
-**Output （createPropertySetTypeReturn）**
+**出力（createPropertySetTypeReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -44,7 +52,7 @@ ht-degree: 10%
 
 ## 例 {#section-13396c9639a6475190e622eae3cdb534}
 
-このコード例では、`PropertySet Types` 定数で指定された名前と型を持つプロパティ セットを作成します。 プロパティ セット タイプを所有する会社へのハンドル。 companyHandle が渡されず、呼び出し元が IpsAdmin の場合、グローバルプロパティセットタイプが作成されます。
+このコードのサンプルでは、`PropertySet Types`定数で指定された名前と型を持つプロパティ セットを作成します。 プロパティ セット タイプを所有する会社へのハンドル。 companyHandleが渡されず、呼び出し元がIpsAdminの場合、グローバルプロパティセットタイプが作成されます。
 
 **リクエスト**
 

@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/DCWiYGpFpvrTCH6CnpIsSDOTA-oRYWyzOCtk7R-Li2k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 7%
+source-wordcount: 41
+ht-degree: 12%
 
 ---
 
@@ -22,7 +30,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> 読み込み時にビデオの再生を開始するかどうかを示します。 特定のモバイルデバイスなど、一部のシステムでは自動再生がサポートされていない場合があります。 </p> </td> 
+   <td colname="col2"> <p> ビューアがロード時にビデオの再生を開始するかどうかを示します。 一部のモバイルデバイスなどの一部のシステムでは、自動再生がサポートされていない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

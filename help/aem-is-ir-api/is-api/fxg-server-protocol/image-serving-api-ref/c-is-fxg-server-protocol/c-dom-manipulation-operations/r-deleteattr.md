@@ -1,24 +1,32 @@
 ---
-description: 特定の s7 要素 ID の属性を削除します。
+description: 特定のs7 エレメント IDの任意の属性を削除します。
 solution: Experience Manager
 title: deleteAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/dQN741iV4LtlEeq3R4tAnPcBHK-AHrzD-jv7AQ4a5ls'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: 48
 ht-degree: 2%
 
 ---
 
 # deleteAttr{#deleteattr}
 
-特定の s7:elementID の属性を削除します。
+特定のs7:elementIDの任意の属性を削除します。
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-FXG ノード要素に `s7:elementID` が定義されている場合、そのノードの属性は次のコマンドで削除できます。
+FXG ノード要素に`s7:elementID`が定義されている場合、このコマンドを使用してそのノードの属性を削除できます。
 
 ## 例 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +36,4 @@ FXG ノード要素に `s7:elementID` が定義されている場合、そのノ
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-次の例では、元の FXG ノードから *[!DNL x]*、*[!DNL y]*、および *[!DNL visible]* の属性を削除します。
+次の使用例は、元のFXG ノードから属性&#x200B;*[!DNL x]*、*[!DNL y]*&#x200B;および&#x200B;*[!DNL visible]*&#x200B;を削除します。

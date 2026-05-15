@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/L9gZx2DGIv6gDtuvwc5Q5-4PxH-K4oqw34qJH3kRrow'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: 52
 ht-degree: 7%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> バナー画像に適用される画像サービングコマンド文字列。 URL で指定されている場合、<span class="codeph"> &amp;</span> と <span class="codeph"> =</span> は、それぞれ <span class="codeph"> %26</span> と <span class="codeph"> %3D</span> として HTTP エンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p> バナー画像に適用される画像サービングコマンド文字列。 URLで指定した場合、<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>のすべての出現箇所は、それぞれ<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTP エンコードする必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +43,10 @@ ht-degree: 7%
 
 ## 例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-ビューアの URL で指定される場合：
+ビューア URLで指定した場合：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-設定データで指定された場合：
+設定データで指定した場合：
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

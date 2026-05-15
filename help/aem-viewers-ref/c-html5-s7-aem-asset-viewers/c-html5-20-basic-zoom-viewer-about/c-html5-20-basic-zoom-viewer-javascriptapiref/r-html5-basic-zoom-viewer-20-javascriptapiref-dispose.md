@@ -1,36 +1,44 @@
 ---
-title: 処分する
+title: 廃棄する
 description: 基本ズームビューアのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+TQID: 'https://experienceleague.adobe.com/20o8F4QQdTL6-H2Wpcem7UfWXq8w6zbpCuDmzMm6EuY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: 126
 ht-degree: 2%
 
 ---
 
-# 処分する{#dispose}
+# 廃棄する{#dispose}
 
 基本ズームビューアのJavaScript API リファレンス。
 
 `dispose()`
 
-このビューアインスタンスを破棄するには、ビューアロジックで使用されているすべてのリソースを解放し、ビューアによって実行時に作成されたすべての内部オブジェクトとコンポーネントを削除します。
+ビューアロジックで使用されるすべてのリソースを解放し、実行時にビューアで作成されたすべての内部オブジェクトとコンポーネントを削除することで、このビューアインスタンスを破棄します。
 
-Web ページのコードでは、ビューアインスタンス変数も削除して、web ブラウザーのメモリからビューアが完全に削除されるようにしてください。
+Web ページコードは、ビューアインスタンス変数も削除して、ビューアをWeb ブラウザーメモリから完全に削除する必要があります。
 
-Web ページコードが、ビューアが使用するビューア SDK コンポーネントにイベントリスナーを直接登録した場合、またはそのようなコンポーネントへの外部参照を保存した場合、リスナーの登録を Web ページコードで明示的に解除する必要があります。 また、このような外部コンポーネント参照は、`dispose()` を呼び出す前に削除する必要があります。
+Web ページコードが、ビューアで使用されるビューア SDK コンポーネントに直接イベントリスナーを登録している場合、またはそのようなコンポーネントへの外部参照を保存している場合、そのようなリスナーはWeb ページコードによって明示的に登録解除する必要があります。 また、このような外部コンポーネント参照は、`dispose()`を呼び出す前に削除する必要があります。
 
-`dispose()` が呼び出された後は、Viewer API にアクセスしないでください。
+`dispose()`が呼び出された後は、ビューア APIにアクセスしないでください。
 
 ## パラメーター {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 なし
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

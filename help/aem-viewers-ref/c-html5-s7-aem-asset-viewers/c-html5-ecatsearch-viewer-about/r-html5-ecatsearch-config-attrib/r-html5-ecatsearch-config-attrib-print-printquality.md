@@ -5,9 +5,17 @@ title: Print.printquality
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fa6f074a-f0c4-455a-88ab-593f8dc3c68b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/7za3ZyVWoylnbIBoapKw79bt4dmfvCO6AKYK0mnKSc0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '18'
+source-wordcount: 18
 ht-degree: 16%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> サイズ </span></span> </p> </td> 
-   <td colname="col2"> <p> 印刷するために送信する画像の最大サイズ。 </p> </td> 
+   <td colname="col2"> <p> 印刷に送信される画像の最大サイズです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

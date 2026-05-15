@@ -1,20 +1,28 @@
 ---
 title: AssetJobLog
-description: 特定のアセットに関連付けられたジョブログエントリの詳細。 getAssetJobLogs によって返されるデータ。
+description: 特定のアセットに関連付けられたジョブログエントリの詳細。 getAssetJobLogsによって返されるデータ。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/WUS-oaI47IowEv60EpzEMZnd-euKdN-YTVfCS3-DSvo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 89
 ht-degree: 4%
 
 ---
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-特定のアセットに関連付けられたジョブログエントリの詳細。 getAssetJobLogs によって返されるデータ。
+特定のアセットに関連付けられたジョブログエントリの詳細。 getAssetJobLogsによって返されるデータ。
 
 構文
 
@@ -32,17 +40,17 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ジョブハンドル。 </td> 
+   <td colname="col3"> ジョブハンドル： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> ジョブ名。 </td> 
+   <td colname="col3"> ジョブ名： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">ジョブ・ログ内のメッセージ。 <p>応答フィ <span class="codeph"> ルド [!DNL logMessage]</span>、authHeader<span class="codeph"> ロケールフィールド </span> 基づいてローカライズされます。 </p></td> 
+   <td colname="col3">ジョブのログにメッセージが表示されます。 <p><span class="codeph"> [!DNL logMessage]</span>応答フィールドは、<span class="codeph">個のauthHeader</span>個のロケールフィールドに基づいてローカライズされています。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
@@ -57,12 +65,12 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> ジョブの日付。 </td> 
+   <td colname="col3"> ジョブ日： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：JobLogDetailArray</span> </td> 
-   <td colname="col3"> 各ジョブ ログの補助ジョブ ログ メッセージの配列。 </td> 
+   <td colname="col2"> <span class="codeph">種類：JobLogDetailArray</span> </td> 
+   <td colname="col3"> 各ジョブ・ログの補助ジョブ・ログ・メッセージの配列。 </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,25 +1,33 @@
 ---
-description: カタログ データ ファイルのパス。 このカタログのマテリアル データを含むファイルを指定します。
+description: カタログデータファイルのパス。 このカタログのマテリアル データを含むファイルを指定します。
 solution: Experience Manager
 title: CatalogFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/itzIz7fpbheFJLeqdFr1gzUOhwFUc1vksCzz3TG60cc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 1%
 
 ---
 
 # CatalogFile{#catalogfile}
 
-カタログ データ ファイルのパス。 このカタログのマテリアル データを含むファイルを指定します。
+カタログデータファイルのパス。 このカタログのマテリアル データを含むファイルを指定します。
 
 ## プロパティ {#section-81eaf83ed4d3405f8ba95671bd303584}
 
-テキスト文字列値。 カタログフォルダーを基準とした絶対ファイルパスまたは相対パス。
+テキスト文字列値。 カタログフォルダーに対する絶対ファイルパスまたはパス。
 
 ## 初期設定 {#section-7a1f82b4188e41a3915a78744cada9fb}
 
-空：この材料カタログに材料データが含まれていないことを示します。
+空。このマテリアルカタログにマテリアルデータが含まれていないことを示します。

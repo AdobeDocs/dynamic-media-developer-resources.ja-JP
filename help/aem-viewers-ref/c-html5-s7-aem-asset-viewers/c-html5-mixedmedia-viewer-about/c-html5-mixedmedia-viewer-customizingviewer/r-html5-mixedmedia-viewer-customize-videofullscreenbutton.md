@@ -1,79 +1,87 @@
 ---
-title: ビデオの全画面表示ボタン
-description: ユーザーが全画面表示ボタンを選択すると、ビューアは全画面表示モードに入るか、全画面表示モードを終了します。 これは、ビューアがビデオを表示する際に使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
+title: ビデオフルスクリーンボタン
+description: フルスクリーンボタンは、ユーザーが選択した場合に、ビューアがフルスクリーンモードに入るか、終了するかを決定します。 ビューアがビデオを表示し、コントロールバーに配置されている場合に使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YsBTiqIGeGqoS1h1JDaZ37KLWPkEToKB4Pm7kHMC7gg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: 331
 ht-degree: 0%
 
 ---
 
-# ビデオの全画面表示ボタン{#video-full-screen-button}
+# ビデオフルスクリーンボタン{#video-full-screen-button}
 
-ユーザーが全画面表示ボタンを選択すると、ビューアは全画面表示モードに入るか、全画面表示モードを終了します。 これは、ビューアがビデオを表示する際に使用され、コントロールバーに配置されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
+フルスクリーンボタンは、ユーザーが選択した場合に、ビューアがフルスクリーンモードに入るか、終了するかを決定します。 ビューアがビデオを表示し、コントロールバーに配置されている場合に使用されます。 ビューアがポップアップモードで動作し、システムがネイティブのフルスクリーンをサポートしていない場合、このボタンは表示されません。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-フルスクリーンボタンのサイズ、スキンおよび位置は、CSS を使用して、そのボタンを含むコントロールバーを基準にして調整できます。
+フルスクリーンボタンを含むコントロールバーに対して、CSSでサイズ調整、スキン調整、位置を調整できます。
 
-フルスクリーンボタンの外観は、CSS クラスセレクターで制御します。
+フルスクリーンボタンのアピアランスは、CSS クラスセレクターで制御します。
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**フルスクリーンボタンの CSS プロパティ**
+フルスクリーンボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p> 上部のボーダーから配置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p> パディングを含む上部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含めて、右側のボーダーから配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p> パディングを含む右端からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p> パディングを含めて、左のボーダーから配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">さんが</span>を残しました </p> </td> 
+   <td colname="col2"> <p> パディングを含む左端からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>下罫線からパディングを含めて移動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む下部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p> フルスクリーンボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>フルスクリーンボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p> 特定のボタン状態の表示画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` は「フルスクリーン」状態に対応し、`selected='false'` は「通常」状態に対応します。
+>このボタンは、`state`と`selected`の両方の属性セレクターをサポートしており、異なるスキンを異なるボタンの状態に適用するために使用できます。 特に、`selected='true'`は「フルスクリーン」状態に対応し、`selected='false'`は「通常」状態に対応します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32 ピクセルの全画面表示ボタンを設定するには、コントロール バーの上端と右端から 6 ピクセルの位置に配置します。 また、選択または未選択の場合、4 つの異なるボタンの状態ごとに異なる画像を表示します。
+コントロールバーの上端と右端から6 ピクセルの位置に32×32 ピクセルのフルスクリーンボタンを設定する。 また、4つの異なるボタンの状態ごとに異なる画像を表示します。
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 

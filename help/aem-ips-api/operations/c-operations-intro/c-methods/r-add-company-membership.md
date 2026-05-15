@@ -1,24 +1,32 @@
 ---
-description: 1 つ以上の会社にユーザーを追加します。
+description: ユーザーを1つ以上の会社に追加します。
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/VNnc-lxt0VHsrYBfJHUVTfK7Hqb42u-P-DtxNdQvS8o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 10%
 
 ---
 
 # addCompanyMembership{#addcompanymembership}
 
-1 つ以上の会社にユーザーを追加します。
+ユーザーを1つ以上の会社に追加します。
 
 構文
 
-## 許可されているユーザータイプ {#section-ae926c7672984be79f6102748accab72}
+## 承認済みユーザータイプ {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +39,16 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | メンバーシップを追加するユーザーへのハンドル。 |
-| membershipArray | `types:CompanyMembershipUpdateArray` | はい | ユーザーを追加する会社の配列。 |
+| userHANDLE | `xsd:string` | いいえ | メンバーシップを追加するユーザーへのハンドル。 |
+| membershipArray | `types:CompanyMembershipUpdateArray` | はい | ユーザーを追加する企業の配列。 |
 
 **出力（addCompanyMembershipReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-5469f88bac7047cca131faa6b021e437}
 
-この例では、companyHandleArray を使用して、1 つの会社にユーザーを追加します。
+この例では、companyHandleArrayを使用して、ユーザーを1つの会社に追加します。
 
 **リクエスト**
 

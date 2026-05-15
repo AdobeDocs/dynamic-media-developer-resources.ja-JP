@@ -5,9 +5,17 @@ title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/J5X6PS7L7YCH6J9ClzAUo24O44fMWxNqPnILckRBbUI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 16%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 16%
 
 構文
 
-## 許可されているユーザータイプ {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 承認済みユーザータイプ {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,8 +41,8 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyName | `xsd:string` | はい | 会社ハンドル。 |
-| projectHandle | `xsd:string` | はい | プロジェクトハンドル。 |
+| companyName | `xsd:string` | はい | 会社のハンドル。 |
+| projectHandle | `xsd:string` | はい | プロジェクトハンドル： |
 | assetHandleArray | `types:HandleArray` | はい | プロジェクトに関連付けるアセットハンドルの配列。 |
 
 **出力（setProjectAssetsReturn）**
@@ -45,7 +53,7 @@ ht-degree: 16%
 
 ## 例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-このコードサンプルでは、アセットをプロジェクトに割り当てます。 このリクエストは、成功数を 1 つ返します。
+このコードサンプルでは、プロジェクトにアセットを割り当てます。 リクエストは、1の成功回数を返します。
 
 **リクエスト**
 

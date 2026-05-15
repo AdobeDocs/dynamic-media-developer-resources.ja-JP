@@ -5,9 +5,19 @@ title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/JXEADalEOeFlcIdwQF14ug1BvUIYGimwNI8wYDgO1yU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 54
 ht-degree: 18%
 
 ---
@@ -18,7 +28,7 @@ ht-degree: 18%
 
 構文
 
-## 許可されているユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
+## 承認済みユーザータイプ {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +40,13 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
-| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットのハンドル： |
 | updateArray | `types:PermissionUpdateArray` | はい | アセットに適用する権限。 |
 
-**Output （updateAssetPermissionsReturn）**
+**出力（updateAssetPermissionsReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

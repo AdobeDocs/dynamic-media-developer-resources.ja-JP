@@ -1,22 +1,30 @@
 ---
-description: 会社、グループ、ユーザーのロール ハンドルで指定されたユーザーの配列を取得します。 この操作を使用すると、返されたユーザーを並べ替え、文字別にフィルターできます。
+description: 会社、グループ、ユーザーの役割ハンドルで指定されたユーザーの配列を取得します。 この操作では、返されたユーザーを並べ替え、文字でフィルタリングできます。
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/17FQLNVfRg84FeVetVfuTWoLRMf8ugBwXBi2CpmLZfI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 209
 ht-degree: 9%
 
 ---
 
 # getUsers{#getusers}
 
-会社、グループ、ユーザーのロール ハンドルで指定されたユーザーの配列を取得します。 この操作を使用すると、返されたユーザーを並べ替え、文字別にフィルターできます。
+会社、グループ、ユーザーの役割ハンドルで指定されたユーザーの配列を取得します。 この操作では、返されたユーザーを並べ替え、文字でフィルタリングできます。
 
-## 許可されているユーザータイプ {#section-6a8f23cc6b22442d8776f701016971ed}
+## 承認済みユーザータイプ {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,16 +34,16 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | いいえ | 非アクティブユーザーを含めるか除外します。 IPS 以外の管理者ユーザーは、API 呼び出しを行う権限を付与される少なくとも 1 つの会社のアクティブメンバーである必要があります。 ユーザーにアクティブな会社のメンバーシップがない場合、認証エラーが返されます。 |
-| includeInvalid | `xsd:boolean` | いいえ | 無効なユーザーを含めたり除外したりできます。 |
-| companyHandleArray | `types:HandleArray` | いいえ | 結果を会社でフィルタリングします。 |
-| groupHandleArray | `types:HandleArray` | いいえ | 結果をグループでフィルタリングします。 |
-| userRoleArray | `types:StringArray` | いいえ | ユーザーロール別に結果をフィルターします。 |
-| charFilterField | `xsd:string` | いいえ | フィールドの文字列プレフィックスによる結果のフィルタリング（[!DNL Trash State).] を参照） |
+| includeInactive | `xsd:boolean` | いいえ | 非アクティブユーザーを含めるか除外します。 非IPS管理者ユーザーは、API呼び出しを行う権限を持つ少なくとも1つの企業のアクティブなメンバーである必要があります。 ユーザーにアクティブな会社メンバーシップがない場合、認証エラーが返されます。 |
+| includeInvalid | `xsd:boolean` | いいえ | 無効なユーザーを含める/除外できます。 |
+| companyHandleArray | `types:HandleArray` | いいえ | 企業ごとに結果をフィルタリング。 |
+| groupHandleArray | `types:HandleArray` | いいえ | グループ別に結果をフィルタリング。 |
+| userRoleArray | `types:StringArray` | いいえ | ユーザーの役割ごとに結果をフィルタリング。 |
+| charFilterField | `xsd:string` | いいえ | フィールドの文字列プレフィックスで結果をフィルタリングします（[!DNL Trash State).]を参照） |
 | charFilter | `xsd:string` | いいえ | 特定の文字で結果をフィルタリングします。 |
-| sortBy | `xsd:string` | いいえ | ユーザー並べ替えフィールドの選択。 |
-| recordsPerPage | `xsd:int` | いいえ | ページごとに指定されたレコード数を返します。 |
-| resultsPage | `xsd:int` | いいえ | 結果ページ。 |
+| sortBy | `xsd:string` | いいえ | ユーザーソートフィールドの選択。 |
+| recordsPerPage | `xsd:int` | いいえ | ページあたりの指定されたレコード数を返します。 |
+| resultsPage | `xsd:int` | いいえ | 結果ページ： |
 
 **出力（getUsersReturn）**
 
@@ -45,7 +53,7 @@ ht-degree: 9%
 
 ## 例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-このコードサンプルでは、複数のオプションパラメーターに対するユーザーの配列を返します。 ユーザーの役割、ユーザー文字フィルターフィールド、ユーザーの並べ替えフィールドは、特定の文字列定数を使用して決定されます。
+このコードサンプルは、オプションのパラメーターを指定して、ユーザーの配列を返します。 ユーザーロール、ユーザー文字フィルターフィールド、ユーザーソートフィールドは、特定の文字列定数を使用して決定されます。
 
 **リクエスト**
 

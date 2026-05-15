@@ -5,9 +5,17 @@ title: getDistinctMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: https://experienceleague.adobe.com/k5qqGZml4RAzJ2UCgtsIbI0dpxwYnl1561znBOgBrv8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0f5947b3f28ba40cd479df463c843f7e99155d5e
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: 65
 ht-degree: 20%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 20%
 
 構文
 
-## 許可されているユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 承認済みユーザータイプ {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +42,7 @@ ht-degree: 20%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | データを取得する会社へのハンドル。 |
+| companyHandle | `xsd:string` | はい | データを取得する会社のハンドル。 |
 | metadataKey | `xsd:string` | はい | ドット表記のメタデータキー。 |
 
 **出力（getDistinctMetadataValuesReturn）**

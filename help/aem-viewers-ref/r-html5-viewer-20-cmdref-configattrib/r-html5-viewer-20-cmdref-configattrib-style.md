@@ -5,16 +5,24 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/vkV2CfEEhJmPdQg64y0G-5Ep-T6SPd4tQX88CWbPryw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 97
 ht-degree: 7%
 
 ---
 
 # style{#style}
 
-次のコマンドは、URL クエリ文字列および設定の両方から適用できます。 URL クエリ文字列に適用されるコマンドは、常に config に存在する同じコマンドよりも優先されます。
+次のコマンドは、URL クエリ文字列と設定の両方から適用できます。 URL クエリ文字列に適用されるコマンドは、常にconfigに存在する同じコマンドよりも優先されます。
 
 `style= *`cssPath`*`
 
@@ -22,7 +30,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> CSS の相対位置または絶対位置。 </p> <p>カスタム CSS ファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span> が相対パスの場合は、ビューアのHTML ページの場所と、contentUrl=<span class="codeph"> パラメーターの値 </span> 対して解決されます。 </p> </td> 
+   <td colname="col2"> <p> 相対的または絶対CSSの場所。 </p> <p>カスタム CSS ファイルの場所を指定します。 <span class="codeph"><span class="varname"> cssPath</span></span>が相対パスである場合、ビューアのHTML ページの場所と<span class="codeph"> contentUrl=</span> パラメーターの値に対して解決されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

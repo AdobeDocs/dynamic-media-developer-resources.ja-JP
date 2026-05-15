@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+TQID: 'https://experienceleague.adobe.com/eT5WcM15Xw1nFYy5xY84DR1sQIWGlZR4esC3MNKjTfU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 11%
+source-wordcount: 26
+ht-degree: 19%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 1</span> に設定すると閉じるボタンの表示が有効になり、<span class="codeph"> 0</span> に設定すると閉じるボタンが非表示になります。 </p> </td> 
+   <td colname="col2"> <p> 閉じるボタンの表示を有効にするには<span class="codeph"> 1</span>に設定し、閉じるボタンを非表示にするには<span class="codeph"> 0</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

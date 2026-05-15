@@ -1,20 +1,28 @@
 ---
-title: sub
-description: サブ選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除できます。
+title: サブ
+description: サブ選択： 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/1vZwrwUBziB5UYudKf6n-eKQP2Weluqjo1iiVDMSUms'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 149
 ht-degree: 6%
 
 ---
 
-# sub{#sub}
+# サブ{#sub}
 
-サブ選択。 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除できます。
+サブ選択： 選択したオブジェクトまたはグループの異なる領域に異なるマテリアルを適用したり、以前に適用したマテリアルを削除したりできます。
 
 `sub=0|1|2|3|4|5`
 
@@ -33,25 +41,25 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>上部の壁境界領域を選択します。 </p> </td> 
+  <td class="stentry"> <p>上部の壁の境界線エリアを選択します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>中央の壁境界領域を選択します。 </p> </td> 
+  <td class="stentry"> <p>中央の壁の境界線エリアを選択します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>下の壁の境界領域を選択します。 </p> </td> 
+  <td class="stentry"> <p>下部の壁の境界線エリアを選択します。 </p> </td> 
  </tr> 
 </table>
 
-現在、壁オブジェクトでのみサポートされています。 直前の MSS を終了し、指定したサブ選択に適用されるマテリアルの新しい MSS を開始します。
+現在、壁オブジェクトでのみサポートされています。 前のMSSを終了し、指定された部分選択に適用されるマテリアルの新しいMSSを開始します。
 
-上または下の壁に指定されたマテリアルは、壁の残りの半分にも別のマテリアルが指定されていない限り、壁全体に適用されます。
+上壁または下壁のいずれかに指定されたマテリアルは、壁の残りの半分にも別のマテリアルが指定されていない限り、壁全体に適用されます。
 
 ## プロパティ {#section-b202139d6d0847cc8d520a154104ab9d}
 
-選択コマンド。MSS 区切り文字。
+選択コマンド、MSS区切り記号。
 
 ## 初期設定 {#section-5b45a167a17c451596e4c59b7d53c368}
 

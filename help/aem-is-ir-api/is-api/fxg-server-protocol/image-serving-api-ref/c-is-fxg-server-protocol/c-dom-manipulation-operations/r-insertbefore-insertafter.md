@@ -1,28 +1,36 @@
 ---
 title: insertBefore,insertAfter
-description: ノードの前または後に XML を設定します。
+description: ノードの前後にXMLを設定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/5WqGL0gctYUgKJ9yO-3y5siw4Ptbjq7HHx8kgCn-GYE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: 53
 ht-degree: 1%
 
 ---
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
-ノードの前または後に XML を設定します。
+ノードの前後にXMLを設定します。
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-FXG ノード要素に `s7:elementID` が定義されている場合、このコマンドを使用して、そのノードの前後に XML フラグメントを追加できます。
+FXG ノード要素に`s7:elementID`が定義されている場合は、このコマンドを使用して、そのノードの前後にXML フラグメントを追加できます。
 
 ## 例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-次のようなグループタグがある場合：
+グループタグを使用する場合：
 
 `<Group visible="true" s7:elementID="inner_shape">`
 

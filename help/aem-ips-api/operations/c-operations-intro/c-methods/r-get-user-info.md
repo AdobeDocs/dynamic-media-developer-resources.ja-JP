@@ -1,24 +1,32 @@
 ---
-description: ユーザーに関する情報を取得します。 リクエストを承認するための認証情報として、システムユーザーのメールアドレスとパスワードを使用します。 それ以外の場合、操作はデフォルトユーザーに関する情報を取得します。
+description: ユーザーに関する情報を取得します。 リクエストを承認するための資格情報として、システムユーザーのメールアドレスとパスワードを使用します。 それ以外の場合、操作はデフォルトユーザーに関する情報を取得します。
 solution: Experience Manager
-title: getUserinfo
+title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/4FEwXXgelDJ5CDf4FhaE11GS3vsnZi6wjY7HproyCIw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 10%
 
 ---
 
-# getUserinfo{#getuserinfo}
+# getUserInfo{#getuserinfo}
 
-ユーザーに関する情報を取得します。 リクエストを承認するための認証情報として、システムユーザーのメールアドレスとパスワードを使用します。 それ以外の場合、操作はデフォルトユーザーに関する情報を取得します。
+ユーザーに関する情報を取得します。 リクエストを承認するための資格情報として、システムユーザーのメールアドレスとパスワードを使用します。 それ以外の場合、操作はデフォルトユーザーに関する情報を取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-1c42d78e914a4b84a946b3480f29b36a}
+## 承認済みユーザータイプ {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +44,18 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | 戻す情報を持つユーザーを表すハンドル。 |
-| 電子メール | `xsd:string` | いいえ | ユーザーのメールアドレス。 |
+| userHANDLE | `xsd:string` | いいえ | 情報を返すユーザーに対して処理します。 |
+| 電子メール | `xsd:string` | いいえ | ユーザーのメールアドレス： |
 
 **出力（getUserInfoReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userInfo | `types:User` | はい | ユーザーの名、姓、メールアドレス、役割、およびユーザーが有効かどうか、ユーザーのパスワードの有効期限がいつ切れるか。 |
+| userInfo | `types:User` | はい | ユーザーの名前、姓、メールアドレス、役割、およびユーザーが有効かどうか、ユーザーのパスワードの有効期限はいつか。 |
 
 ## 例 {#section-98d77a2e360a438dbe240099bea26a65}
 
-このコードサンプルでは、デフォルトの IPS ユーザーの情報を返します。
+このコードサンプルは、デフォルトのIPS ユーザーの情報を返します。
 
 **リクエスト**
 

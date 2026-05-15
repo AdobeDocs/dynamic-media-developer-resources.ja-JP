@@ -1,24 +1,32 @@
 ---
-description: フォルダー権限を更新します。
+description: フォルダーの権限を更新します。
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/rZv5saDJ9TTY7IYvE6i6CZIHX9xqx9HFnIJTQxdbjPU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 73
 ht-degree: 15%
 
 ---
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-フォルダー権限を更新します。
+フォルダーの権限を更新します。
 
 構文
 
-## 許可されているユーザータイプ {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 承認済みユーザータイプ {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,14 +38,14 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
 | folderHandle | `xsd:string` | はい | フォルダーハンドル。 |
-| updateChildren | `xsd:boolean` | はい | 最上位フォルダーに設定された権限で子を更新するかどうかを決定します。 |
+| updateChildren | `xsd:boolean` | はい | 最上位フォルダーに設定された権限を持つ子を更新するかどうかを指定します。 |
 | updateArray | `types:PermissionUpdateArray` | はい | フォルダーに適用する権限の更新の配列。 |
 
 **出力（updateFolderPermissionsReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: c2aeb45f-879b-4a53-b571-744fc73d04fd
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/RfqbNYmvThXw8MBgcrGWUgvluLAT4ZCXMCrWcf9tWwg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: 128
+ht-degree: 3%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> 2D スピンセットがある場合に、スピン方向の変更を許可するかどうかを指定します。 </p> <p><span class="codeph"> 1</span> に設定すると、コンポーネントは、ジェスチャーの開始時に主要なドラッグまたはスワイプの方向（水平または垂直）を識別します。 その後、ジェスチャーが終了するまでその方向を維持します。 例えば、ユーザーが水平スピンを開始してから、垂直方向にドラッグジェスチャーを続行することにした場合、コンポーネントは垂直スピンを実行しません。 代わりに、マウスまたはスワイプの水平方向の動きのみを考慮します。 </p> <p>値を 0<span class="codeph"> すると、ユーザー </span> ジェスチャーの進行中にいつでもスピン方向を変更できます。 スピンセットが 1D の場合、この設定は無効です。 </p> </td> 
+   <td colname="col2"> <p> 2D スピンセットがある場合に、スピン方向の変更を許可するかどうかを指定します。 </p> <p><span class="codeph"> 1 </span>に設定すると、コンポーネントは、ジェスチャーの開始時に主要なドラッグまたはスワイプの方向（水平方向と垂直方向の比較）を特定します。 その後、ジェスチャーが終了するまでその方向を維持します。 例えば、ユーザーが水平方向のスピンを開始し、ドラッグのジェスチャーを垂直方向に継続することを決定した場合、コンポーネントは垂直方向のスピンを実行しません。 代わりに、マウスまたはスワイプの水平方向の動きのみを考慮します。 </p> <p>値<span class="codeph"> 0 </span>を指定すると、ユーザーはジェスチャーの進行中にいつでもスピン方向を変更できます。 スピンセットが1Dの場合、この設定は影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

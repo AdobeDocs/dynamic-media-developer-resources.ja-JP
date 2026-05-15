@@ -1,19 +1,27 @@
 ---
-title: Windows でのアンインストール
-description: Windows システムで画像レンダリングをアンインストールするには、次の手順に従います。
+title: Windowsでのアンインストール
+description: Windows システムでImage Renderingをアンインストールするには、次の手順に従います。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 50a3d0d4-acfe-4ed2-af9f-01f8c98d0c12
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/gBteAWrlJ9yi-6QSYdrflWd-XznXza97orZRyRP7uxU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: 44
 ht-degree: 0%
 
 ---
 
-# Windows でのアンインストール{#uninstalling-on-windows}
+# Windowsでのアンインストール{#uninstalling-on-windows}
 
-Windows システムで画像レンダリングをアンインストールするには、次の手順に従います。
+Windows システムでImage Renderingをアンインストールするには、次の手順に従います。
 
-1. ` *[!DNL install_folder]*\_uninst\uninstaller.exe` を実行してアンインストーラーを起動するか、スタート メニューで **[!UICONTROL プログラム]**/**[!UICONTROL Scene7]**/**[!UICONTROL イメージ レンダリング]**/**[!UICONTROL アンインストール]** を選択します。
+1. ` *[!DNL install_folder]*\_uninst\uninstaller.exe`を実行してアンインストーラーを起動するか、スタートメニューから「**[!UICONTROL プログラム]** > **[!UICONTROL シーン 7]** > **[!UICONTROL 画像レンダリング]** > **[!UICONTROL アンインストール]**」を選択します。

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: f34d6954-01c5-49e0-94d4-fd577c57956e
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/qKnLf2xkrrKsHuakGsY4V3hK6LwzuzvGRMSDE4RJKCc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 191
 ht-degree: 1%
 
 ---
@@ -21,8 +29,8 @@ ht-degree: 1%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|フィット – 垂直|フィット – 横 </span> </p> </td> 
-   <td colname="col2"> <p> ボタンコンテナのスライドアニメーションの方向を指定します。 <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、<span class="codeph"> right</span> に設定した場合、パネルは追加の境界チェックなしで指定した方向にロールアウトされ、パネルが外部コンテナによってクリップされる可能性があります。 </p> <p><span class="codeph"> fit-vertical</span> に設定した場合、コンポーネントはまず、基本パネルの位置を SocialShare の一番下に移動します。 次に、そのような基本位置から次のいずれかの方向にパネルを展開しようとします。 外側のコンテナがパネルをクリップしているかどうかをコンポーネントが毎回確認します。 すべての試行が失敗した場合、コンポーネントは基本パネルの位置を上に移動しようと試み、ロールアウトの試行を上、右、左の方向から繰り返します。 </p> <p><span class="codeph"> fit-lateral</span> に設定した場合、コンポーネントは同様のロジックを使用しますが、最初にベースを右に移動し、右、下、上のロールアウト方向を試します。 次に、ベースを左に移動し、ロールアウトの左、下、上の方向を試します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
+   <td colname="col2"> <p> ボタン コンテナのスライド アニメーションの方向を指定します。 <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、または<span class="codeph"> right</span>に設定すると、パネルは指定された方向にロールアウトされ、追加の境界チェックが行われず、その結果、パネルが外部コンテナによってクリッピングされる可能性があります。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは最初にベースパネルの位置をSocialShareの下部に移動します。 次に、そのようなベースの場所から次のいずれかの方向にパネルをロールアウトしようとします。下、右、左。 コンポーネントは、試行のたびに、パネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントはベースパネルの位置を上に移動し、上、右、左の方向からロールアウトを繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定すると、コンポーネントは同様のロジックを使用しますが、最初にベースを右にシフトし、右、下、上のロールアウト方向を試します。 次に、ベースを左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

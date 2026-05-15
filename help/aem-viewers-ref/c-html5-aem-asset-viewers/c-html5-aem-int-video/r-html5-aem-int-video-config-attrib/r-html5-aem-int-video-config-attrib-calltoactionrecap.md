@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a91c957f-5ad2-4022-afde-de129b060576
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/OpLY7zte7ome9bV9JFpZ-hD-5V8uKEOFWiyJLkH0Kec'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 8%
+source-wordcount: 36
+ht-degree: 13%
 
 ---
 
@@ -22,7 +30,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオ再生の最後に「call-to-action」パネルが表示されるかどうかを示します。 </p> </td> 
+   <td colname="col2"> <p> ビデオ再生の終了時にビューアに「call-to-action」パネルを表示するかどうかを示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

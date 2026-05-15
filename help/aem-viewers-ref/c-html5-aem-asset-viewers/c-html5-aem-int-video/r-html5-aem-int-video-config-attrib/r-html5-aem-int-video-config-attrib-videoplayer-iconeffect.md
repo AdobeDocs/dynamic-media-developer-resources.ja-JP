@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/s2UgvZ7USvFjvZ8NBUKa1MHrRe9HOh-ZE-g7jpNyeeg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 2%
+source-wordcount: 130
+ht-degree: 3%
 
 ---
 
@@ -16,25 +24,25 @@ ht-degree: 2%
 
 インタラクティブビデオビューアの設定属性。
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`count`*][, *` フェード `*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> ビデオが一時停止の状態にあるときに、ビデオの上に IconEffect を表示できるようにします。 一部のデバイスでは、ネイティブコントロールが使用されます。 このような場合、<span class="codeph"> iconeffect</span> 修飾子は無視されます。 </p> </td> 
+   <td colname="col2"> <p> ビデオが一時停止している場合に、IconEffectをビデオの上に表示できるようにします。 一部のデバイスでは、ネイティブコントロールが使用されています。 このような場合、<span class="codeph"> iconeffect</span>修飾子は無視されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数 </span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffect が表示および再表示される最大回数を指定します。 値 <span class="codeph">-1</span> は、アイコンが無限に再び表示されることを示します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> カウント </span></span> </p> </td> 
+   <td colname="col2"> <p> IconEffectが表示され、再表示される最大回数を指定します。 値<span class="codeph"> -1</span>は、アイコンが無期限に再表示されることを示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> フェード </span></span> </p> </td> 
-   <td colname="col2"> <p> アニメーションの表示または非表示の時間を秒単位で指定します。 </p> </td> 
+   <td colname="col2"> <p> アニメーションを表示または非表示にする時間を秒単位で指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffect が自動的に非表示になるまでに完全に表示される秒数を設定します。 つまり、フェードイン アニメーションが完了してからフェードアウト アニメーションが開始するまでの時間です。 <span class="codeph"> 0</span> に設定すると、自動非表示動作が無効になります。 </p> </td> 
+   <td colname="col2"> <p> IconEffectが自動的に非表示になる前に完全に表示される秒数を設定します。 つまり、フェードインアニメーションが完了してからフェードアウトアニメーションが開始されるまでの時間です。 自動非表示の動作を無効にするには、<span class="codeph"> 0</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

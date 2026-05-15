@@ -1,24 +1,35 @@
 ---
-description: サーバースーパーバイザーの構成設定が含まれます。
+description: サーバースーパーバイザーの設定値が含まれます。
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/qyUCxihoFJTI45NV-4jZbTkGDqGmwnhcLrqxPsE-j3M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 72
 ht-degree: 0%
 
 ---
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-サーバースーパーバイザーの構成設定が含まれます。
+サーバースーパーバイザーの設定値が含まれます。
 
-この XML ファイルを編集する場合は、有効な XML 構文を維持してください。そうしないと、Image Server の起動に失敗する可能性があります。
+このXML ファイルを編集する場合は、有効なXML構文を維持してください。そうしないと、Image Serverが起動しない可能性があります。
 
-このファイルを編集した後で画像サービングを再起動して、変更が確実に有効になるようにします。 以下でハイライト表示された要素/属性値のみが変更できます。 このファイルのその他のコンテンツはすべて、Dynamic Media テクニカルサポートから指示された場合にのみ編集してください。
+このファイルを編集した後、画像サービングを再起動して、変更が有効になるようにします。 以下に強調表示されているエレメント/属性値のみが変更でサポートされています。 Dynamic Media テクニカルサポートからアドバイスがあった場合にのみ、このファイルの他のすべてのコンテンツを編集します。
 
 ```
 <supervisor>

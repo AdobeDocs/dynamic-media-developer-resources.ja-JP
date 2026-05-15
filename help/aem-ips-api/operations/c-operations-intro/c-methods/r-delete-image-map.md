@@ -5,9 +5,17 @@ title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/6r-EiZLM0tRUpzoTJyTt3rAkyABfNH9DQvDJq-XsqPY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: 93
 ht-degree: 9%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 9%
 
 構文
 
-## 許可されているユーザータイプ {#section-41fd188af16a40d4b07923165bcf15d8}
+## 承認済みユーザータイプ {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,11 +50,11 @@ ht-degree: 9%
 
 **出力（deleteImageMapParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-このコードサンプルでは、会社から画像マップを削除します。 別の操作から画像マップハンドルを取得する必要があります。
+このコードサンプルは、企業から画像マップを削除します。 別の操作から画像マップハンドルを取得する必要があります。
 
 **リクエスト**
 

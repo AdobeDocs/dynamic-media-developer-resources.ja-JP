@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/l2YbveZEB1RshmOrhRvhlBe2YZFQqMnP13R4N0p16Ss'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 7%
+source-wordcount: 42
+ht-degree: 11%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> フレーム（イメージ）が変更されたときにビューポートをリセットします。 <span class="codeph"> 0</span> に設定すると、新しく設定した画像の縦横比を維持しながら、現在のビューポートが可能な限りフィットして保持されます。 </p> </td> 
+   <td colname="col2"> <p> フレーム（画像）が変更されたときにビューポートをリセットします。 <span class="codeph"> 0</span>に設定した場合、新しく設定した画像の縦横比を維持しながら、現在のビューポートを可能な限り最適なサイズで保持します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

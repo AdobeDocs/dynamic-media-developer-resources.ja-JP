@@ -1,24 +1,35 @@
 ---
-description: レスポンシブ画像ライブラリは、Dynamic Media から提供され、レスポンシブ web ページに埋め込まれる画像の品質を動的に調整するJavaScript モジュールです。 また、高密度画面を使用するデバイスの画質も向上します。 このライブラリは、スマート切り抜きとスマートスウォッチから結果をレスポンシブにレンダリングすることもできます。
+description: レスポンシブ画像ライブラリは、Dynamic Mediaから配信され、レスポンシブ web ページに埋め込まれる画像の画質を動的に調整するJavaScript モジュールです。 さらに、高密度スクリーンを備えたデバイスでは、画質が向上します。 また、ライブラリは、スマート切り抜きとスマートスウォッチから結果をレスポンシブにレンダリングすることもできます。
 solution: Experience Manager
 title: レスポンシブ画像ライブラリについて
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+autotag-review: '2026-05-13T20:34:09.471Z'
+TQID: 'https://experienceleague.adobe.com/JywTlBUHeKoE0YCexVkpvuMA1hcBS8HngaxyhzEAFZk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
 
 # レスポンシブ画像ライブラリについて{#about-responsive-image-library}
 
-レスポンシブ画像ライブラリは、Dynamic Media から提供され、レスポンシブ web ページに埋め込まれる画像の品質を動的に調整するJavaScript モジュールです。 また、高密度画面を使用するデバイスの画質も向上します。 このライブラリは、スマート切り抜きとスマートスウォッチから結果をレスポンシブにレンダリングすることもできます。
+レスポンシブ画像ライブラリは、Dynamic Mediaから配信され、レスポンシブ web ページに埋め込まれる画像の画質を動的に調整するJavaScript モジュールです。 さらに、高密度スクリーンを備えたデバイスでは、画質が向上します。 また、ライブラリは、スマート切り抜きとスマートスウォッチから結果をレスポンシブにレンダリングすることもできます。
 
 ## デモ URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-レスポンシブ画像ライブラリの最も簡単なユースケースは、画像の幅のブレークポイント値のリストを定義することです。 このリストにより、ブラウザーウィンドウのサイズを変更したユーザーやデバイスの向きを変更したユーザーの web ページのレイアウト変更が原因で画像のサイズが変更された場合、適切なレンディションが読み込まれて表示されるようになります。 ライブラリは画面上の画像サイズを継続的に監視し、新しいブレークポイントの幅に達するたびに Dynamic Media から新しい画像レンディションを取得します。
+レスポンシブ画像ライブラリの最も単純な使用例は、画像の幅に対するブレークポイント値のリストを定義することです。 このリストは、Web ページのレイアウトがブラウザーのウィンドウのサイズ変更やデバイスの向きの変更によって変更されたときに、画像のサイズが変更されたときに、適切なレンディションが読み込まれ、表示されることを保証します。 ライブラリは、画面上の画像サイズを継続的に監視し、新しいブレークポイントの幅に達するたびに、Dynamic Mediaから新しい画像レンディションを取得します。
 
 <!--
 
@@ -63,15 +74,15 @@ ht-degree: 0%
 
 ## 必要システム構成 {#section-35ea9e9c79cc43d7bcefdc240340fba4}
 
-**サーバのハードウェアとソフトウェア**
+**サーバーハードウェアとソフトウェア**
 
-* Dynamic Media 画像サービング 6.0.1 以降。
+* Dynamic Media Image Serving 6.0.1以降。
 
 **クライアントブラウザーの最小要件**
 
-* Microsoft® Windows® 7 以降、macOS X 10.8 以降。
-* Firefox 23、Safari 6、Chrome 29、IE 9 以降。
-* iOS 6 以降。
-* iPhone3GS 以降およびiPad2 以降（ネイティブブラウザーのみ）で認定済み。
-* Android™ OS 2.3 以降。
-* モバイル デバイスの Internet Explorer は現在サポートされていません。
+* Microsoft® Windows® 7以降、macOS X 10.8以降。
+* Firefox 23、Safari 6、Chrome 29、IE 9以降。
+* iOS 6以降。
+* IPhone3GS以降およびiPad2以降で認定（ネイティブブラウザーのみ）。
+* Android™ OS 2.3以降。
+* モバイルデバイス上のInternet Explorerは現在サポートされていません。

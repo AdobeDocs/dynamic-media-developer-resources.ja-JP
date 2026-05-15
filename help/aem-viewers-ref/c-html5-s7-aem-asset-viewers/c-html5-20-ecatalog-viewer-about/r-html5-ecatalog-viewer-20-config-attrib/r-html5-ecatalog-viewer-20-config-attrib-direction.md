@@ -1,13 +1,21 @@
 ---
 title: 方向
-description: メインビューとサムネールでページを表示する方法を指定します。 また、ユーザがカタログフレーム間を変更するためにビューアのユーザ インタフェースとどのようにやり取りするかについても指定します。
+description: メインビューとサムネールでのページの表示方法を指定します。 また、ユーザーがビューアのユーザーインターフェイスとやり取りして、カタログフレーム間で変更する方法も指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d7d3df37-3e8b-438f-8b24-035b6982dc14
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/uP4fUmV4KEFWLzfhN-68CZexuApogdpf2MxIPd12FNs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 232
 ht-degree: 2%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>メインビューとサムネールでページを表示する方法を指定します。 また、ユーザがカタログフレーム間を変更するためにビューアのユーザ インタフェースとどのようにやり取りするかについても指定します。 </p> <p>左 <span class="codeph"></span> 使用すると、最初のページに右揃えが設定され、最後のページに左揃えが設定されます。 ページの個々のサブ画像をステッチして、左から右にレンダリングする順序を設定します。 また、PageView.frametransition <span class="codeph"> がスライドに設定されている場合は、右から左にスライドするアニメーションを使用してカタログを進め </span> ようにメイン ビューを設定します。 最後に、サムネールは左から右への塗りつぶし順序に設定されます。 </p> <p>同様に、右 <span class="codeph"> ージ </span> 使用すると、最初のページには左揃えが設定され、最後のページには右揃えが設定されます。 右から左にレンダリングする順序で個々のページサブ画像をステッチします。 また、メイン ビューで左から右へのスライド アニメーションを使用してカタログを進めるように設定します（PageView.frametransition <span class="codeph"> がスライド </span> 設定されている場合）。 最後に、サムネールの順序を反転して、サムネール表示を右から左、上から下の方向に埋めます。 </p> <p><span class="codeph"> auto </span> が設定されていると、locale が <span class="codeph"> ja</span> 設定されているときに、ビューアは右 <span class="codeph"> モードを適用します。それ以外の場合は </span> 左 <span class="codeph"> モード </span> 使用します。 </p> </td> 
+   <td colname="col2"> <p>メインビューとサムネールでのページの表示方法を指定します。 また、ユーザーがビューアのユーザーインターフェイスとやり取りして、カタログフレーム間で変更する方法も指定します。 </p> <p><span class="codeph">が左</span>を使用すると、最初のページには右揃えが、最後のページには左揃えが設定されます。 個々のページサブイメージをつなぎ合わせて、左から右にレンダリングします。 また、カタログを進めるために右から左へのスライドアニメーションを使用するようにメインビューを設定します（<span class="codeph"> PageView.frametransition </span>がスライドに設定されている場合）。 最後に、サムネールを左から右への塗りつぶし順序に設定します。 </p> <p>同様に、<span class="codeph">の右</span>を使用すると、最初のページには左揃え、最後のページには右揃えが設定されます。 個々のページサブイメージをつなぎ合わせて、右から左にレンダリングする順序を設定できます。 また、カタログを進めるために左右のスライドアニメーションを使用するようにメインビューを設定します（<span class="codeph"> PageView.frametransition </span>がスライドに設定されている場合）。 最後に、サムネールの順序を逆にして、サムネールビューを右から左、上から下の方向に塗りつぶします。 </p> <p><span class="codeph">の自動</span>が設定されている場合、ビューアは、ロケールが<span class="codeph"> jaに設定されている場合は<span class="codeph">の右</span> モードを適用します。それ以外の場合は</span>を使用し、残りの<span class="codeph"> モードを使用します。</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,17 @@ title: renameProject
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/FjPL1Xn4QAYYCdyeYKA1MiQVay988g-sbuiHpazhcMM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: 71
 ht-degree: 19%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 19%
 
 構文
 
-## 許可されているユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
+## 承認済みユーザータイプ {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,9 +41,9 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyName | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社を処理します。 |
-| projectHandle | `xsd:string` | はい | プロジェクトへのハンドル。 |
-| projectName | `xsd:string` | はい | 新しいプロジェクト名。 |
+| companyName | `xsd:string` | はい | 名前を変更するプロジェクトを持つ会社に処理します。 |
+| projectHandle | `xsd:string` | はい | プロジェクトへの取り組み。 |
+| projectName | `xsd:string` | はい | 新規プロジェクト名。 |
 
 **出力（renameProjectParam）**
 
@@ -45,7 +53,7 @@ ht-degree: 19%
 
 ## 例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-このコードサンプルでは、プロジェクトの名前を変更し、プロジェクトハンドルを返します。
+このコードのサンプルでは、プロジェクトの名前を変更し、プロジェクト ハンドルを返します。
 
 **リクエスト**
 

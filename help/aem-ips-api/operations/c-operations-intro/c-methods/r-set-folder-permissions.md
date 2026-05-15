@@ -1,24 +1,32 @@
 ---
-description: フォルダー権限を設定します。
+description: フォルダーの権限を設定します。
 solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/r-WGRjE263vPSVKsBieklQ79SASbDQOx9hp5IzS0-O0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: 91
 ht-degree: 12%
 
 ---
 
 # setFolderPermissions{#setfolderpermissions}
 
-フォルダー権限を設定します。
+フォルダーの権限を設定します。
 
 構文
 
-## 許可されているユーザータイプ {#section-d3eb923fcf5741b99967634db809e09e}
+## 承認済みユーザータイプ {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,18 +38,18 @@ ht-degree: 12%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
 | folderHandle | `xsd:string` | はい | フォルダーハンドル。 |
-| setChildren | `xsd:boolean` | はい | フォルダーに属する子に権限を設定します。 |
-| permissionArray | `types:PermissionUpdateArray` | はい | 権限配列。 |
+| setChildren | `xsd:boolean` | はい | フォルダーに属する子に対する権限を設定します。 |
+| permissionArray | `types:PermissionUpdateArray` | はい | 権限の配列： |
 
-**出力（setFolderPermissionsReturn）**
+**Output （setFolderPermissionsReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-01730da4be874553ab44e3241cdf6357}
 
-このコードサンプルでは、フォルダーの詳細情報を使用して、会社ハンドル、フォルダーハンドル、権限配列を指定しています。 親フォルダーの子に同じ権限を適用します。
+このコードのサンプルでは、会社のハンドル、フォルダーハンドル、およびフォルダーに関する詳細情報を含む権限配列を指定します。 親フォルダーの子にも同じ権限が適用されます。
 
 **リクエスト**
 

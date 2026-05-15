@@ -1,22 +1,30 @@
 ---
-description: オーディオのビットレート。 ビデオアセットのオーディオビットレートを表す長整数型の値です。
+description: オーディオビットレート。 ビデオアセットのオーディオビットレートを表す長い値。
 solution: Experience Manager
-title: AudioBitrate
+title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/cBy7sESCiK7Ur4efWHzdjOQvA-U3v8Pod8jucVdD1Wc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: 63
 ht-degree: 6%
 
 ---
 
-# AudioBitrate{#audiobitrate}
+# AudioBitRate{#audiobitrate}
 
-オーディオのビットレート。 ビデオアセットのオーディオビットレートを表す長整数型の値です。
+オーディオビットレート。 ビデオアセットのオーディオビットレートを表す長い値。
 
-ビットレートデータを書き出すために `req=set` および `req=mbrSet` リクエストで使用されます。
+ビットレートデータを書き出すために`req=set`および`req=mbrSet`要求で使用されます。
 
 静的コンテンツカタログにのみ適用されます。
 

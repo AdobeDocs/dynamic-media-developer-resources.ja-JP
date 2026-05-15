@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/e5J8j5Skr3LZIG-kjfoTwb6-Iu1duI2Lhb6CoDqZ-E8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 58
 ht-degree: 5%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph">-1</span> に設定すると、コンポーネントが初期化されたときやアセットが変更されたときに、すべてのサムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span> に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span> に設定した場合は、表示可能な領域の周囲にある非表示の行の数を事前に読み込む必要があります。 </p> </td> 
+   <td colname="col2"> <p> コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントが初期化されたり、アセットが変更されたりすると、すべてのサムネールが同時に読み込まれます。 </p> <p><span class="codeph"> 0</span>に設定すると、表示されているサムネールのみが読み込まれます。 </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>に設定すると、表示領域の周囲の目に見えない行がプリロードされる数を指定できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,88 +1,96 @@
 ---
-description: HTTP プロトコルの基本的な構文は次のとおりです。
+description: HTTP プロトコルの基本構文は次のとおりです。
 solution: Experience Manager
-title: 画像サービス HTTP プロトコルの基本構文
+title: Image Serving HTTP プロトコルの基本構文
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
 
-# 画像サービス HTTP プロトコルの基本構文{#image-serving-http-protocol-basic-syntax}
+# Image Serving HTTP プロトコルの基本構文{#image-serving-http-protocol-basic-syntax}
 
-HTTP プロトコルの基本的な構文は次のとおりです。
+HTTP プロトコルの基本構文は次のとおりです。
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> リクエスト </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> 修飾子 </span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> 修飾子</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> server </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> サーバー</span> </span> </p></td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address</span>[:<span class="varname"> port</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> オブジェクト </span> </span> </p></td> 
-  <td class="stentry"> <p>Source オブジェクト指定子（画像パスまたは画像カタログエントリ）。 </p> </td> 
+  <td class="stentry"> <p>Source オブジェクト指定（画像パスまたは画像カタログエントリ）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 修飾子 </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 修飾子 </span>*[&amp;<span class="varname"> 修飾子 </span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">個の修飾子</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">修飾子</span>*[&amp;<span class="varname">修飾子</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 修飾子 </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">command|{$<span class="varname"> マクロ </span>$}|{.<span class="varname"> コメント </span>}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">修飾子</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">command|{$<span class="varname"> macro</span>$}|&lbrace;.<span class="varname"> コメント </span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> コマンド </span> </span> </p> </td> 
-  <td class="stentry"> <p><code>{</code><span class="varname">cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname"> 値 </span><code>]</code> </p></td> 
+  <td class="stentry"> <p><code>{</code><span class="varname"> cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname">値</span><code>]</code> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> マクロ </span> </span> </p> </td> 
   <td class="stentry"> <p>コマンド マクロの名前。</p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> comment</span> </span> </p></td> 
-  <td class="stentry"> <p>コメント文字列（サーバーでは無視されます）。</p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> コメント </span> </span> </p></td> 
+  <td class="stentry"> <p>コメント文字列（サーバーによって無視）。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>サポートされるコマンド名または属性名。</p></td> 
+  <td class="stentry"> <p>サポートされているコマンド名または属性名の1つ。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
   <td class="stentry"> <p>カスタム変数の名前。</p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 値 </span> </span> </p></td> 
-  <td class="stentry"> <p>コマンドまたは変数値。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">値</span> </span> </p></td> 
+  <td class="stentry"> <p>コマンドまたは変数の値。 </p></td> 
  </tr> 
 </table>
 
-*`server_address`*、*`cmdName`*、*`macro`*、*`var`* では、大文字と小文字が区別されません。 サーバーは、他のすべての文字列値の大文字と小文字を区別しません。
+*`server_address`*、*`cmdName`*、*`macro`*&#x200B;および&#x200B;*`var`*&#x200B;では、大文字と小文字が区別されません。 サーバーは、他のすべての文字列値の大文字と小文字を保持します。
 
-*`value`* はコマンド固有であり、コンマで区切られた 1 つ以上の値で構成できます。 詳しくは、個々のコマンドの説明を参照してください。
+*`value`*&#x200B;はコマンド固有であり、コンマで区切られた1つ以上の値で構成できます。 詳しくは、個々のコマンドの説明を参照してください。
 
 ## サーバー識別子 {#section-926ae55ddba14b8d952147a5fd701e14}
 
-画像サービングへのすべての HTTP リクエストに [!DNL /is/image] ルートコンテキストが必要です。
+画像サービングへのすべてのHTTP リクエストには、[!DNL /is/image] ルートコンテキストが必要です。
 
 ## HTTP デコード {#section-20922baccd804d2d986b44ce9a183a7d}
 
-画像サービングでは、まず受信リクエストから *`object`* と *`modifiers`* を抽出します。 次に、*`object`* をパス要素に分割し、各パス要素を個別に HTTP デコードします。 *`modifiers`* の文字列は *`command`*= *`value`* ペアに分割され、*`value`* の後、コマンド固有の処理の前に HTTP デコードされます。
+画像サービングは、受信リクエストから&#x200B;*`object`*&#x200B;と&#x200B;*`modifiers`*&#x200B;を最初に抽出します。 *`object`*&#x200B;は、個別にHTTP デコードされるパス要素に分けられます。 *`modifiers`*&#x200B;文字列は&#x200B;*`command`*= *`value`*&#x200B;組に分けられ、*`value`*&#x200B;はコマンド固有の処理の前にHTTP デコードされます。
 
 >[!NOTE]
 >
->ドキュメントで特に指定がない限り、安全でない文字はすべて、HTTP 標準に従ってエンコードする必要があります。 詳しくは、HTTP の仕様を参照してください。
+>ドキュメントに明記されていない限り、すべての安全でない文字はHTTP標準に従ってエンコードする必要があります。 詳しくは、HTTP仕様を参照してください。
 
 ## コメント {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-コメントは、任意の場所のリクエスト文字列に埋め込むことができ、コマンド区切り記号（&amp;）の直後のピリオド（.）で識別されます。 コメントは、（エンコードされていない）コマンド区切り記号が次に現れることによって終了します。 この機能を使用すると、画像サービング以外の情報（タイムスタンプ、データベース ID など）をリクエストに追加できます。
+コメントは、任意の場所でリクエスト文字列に埋め込むことができ、period （。）で識別されます。 separator （&amp;）コマンドを実行します。 コメントは、（エンコードされていない）コマンド区切り文字が次に発生することによって終了します。 この機能を使用すると、タイムスタンプやデータベース IDなど、画像サービング用ではない情報をリクエストに追加できます。
 
 ## 関連項目 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
-[&#x200B; データタイプ &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1 仕様 &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[&#x200B; データタイプ &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md#concept-49455c12df954bb5919cdd8d5ccc85fa)、[HTTP/1.1仕様](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

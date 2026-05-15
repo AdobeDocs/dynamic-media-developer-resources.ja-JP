@@ -1,21 +1,29 @@
 ---
 title: SmartCropVideoPlayer.preload
-description: 再生が開始される前に、ビューアがビデオコンテンツの読み込みを開始するかどうかを示します。
+description: 再生が開始する前に、ビューアがビデオコンテンツの読み込みを開始するかどうかを示します。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/9TANzGaa20Kq6XdLTQRQxtxUrym6Gr6VOqdwLNS3Gps'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: 121
+ht-degree: 4%
 
 ---
 
 # SmartCropVideoPlayer.preload{#smartcropvideoplayer-preload}
 
-再生が開始される前に、ビューアがビデオコンテンツの読み込みを開始するかどうかを示します。
+再生が開始する前に、ビューアがビデオコンテンツの読み込みを開始するかどうかを示します。
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]preload=0|1`
 
@@ -23,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"></span> 1 に設定すると、アセットを設定した直後にビデオのダウンロードが開始されます。設定しない場合は、エンドユーザーまたは API 呼び出しによって再生が開始された後でのみ、プリロードが開始されます。 </p> <p><span class="codeph"> 0 に設定すると </span> 再生が再開されるまで、特定の機能が機能しない場合があります。具体的には、シーク操作によってビデオフレームが更新されることはありません。 ポスター画像が無効になっている場合、ビューアには、最初のビデオフレームではなく空の領域が表示されます。 </p> <p>Internet Explorer 11 およびEdgeの特定のバージョンでは、ビデオのプリロードの無効化は無視される場合があります。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1 </span>に設定されている場合、アセットが設定された直後にビデオのダウンロードが開始されます。それ以外の場合は、エンドユーザーまたはAPI呼び出しによって再生が開始された後にのみプリロードが開始されます。 </p> <p><span class="codeph"> 0 </span>に設定した場合、再生が再開されるまで特定の機能が機能しない可能性があります。具体的には、シーク操作でビデオフレームが更新されません。 ポスター画像が無効になっている場合、ビューアは最初のビデオフレームではなく空の領域として表示されます。 </p> <p>Internet Explorer 11およびEdgeの一部のバージョンでは、ビデオプリロードを無効にできない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

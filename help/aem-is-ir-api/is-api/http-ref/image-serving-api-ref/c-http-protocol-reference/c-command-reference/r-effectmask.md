@@ -1,21 +1,29 @@
 ---
 title: effectMask
-description: リクエストの属性 ApplyEffectMask の値を上書きします。
+description: リクエストのApplyEffectMask属性の値を上書きします。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0a3aea53-e795-4965-a147-68e4b5bd3bbf
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/W7LfbOrG9bdD3TdlsPY-dxxbFd82gjNFVcIQOlM-QgQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 5%
+source-wordcount: 59
+ht-degree: 0%
 
 ---
 
 # effectMask{#effectmask}
 
-リクエストの attribute::ApplyEffectMask の値をオーバーライドします。
+リクエストのattribute::ApplyEffectMaskの値を上書きします。
 
-effectMask はグローバル モディファイヤです。 リクエスト内のすべてのエフェクトレイヤーに適用されます。
+effectMaskはグローバル修飾子です。 リクエスト内のすべてのエフェクトレイヤーに適用されます。
 
-有効な値は 0 と 1 です。 ゼロ（0）は、エフェクトマスクを適用しないことを意味します。 1 は、エフェクトマスクを適用する方法です。 初期設定は 1。
+有効な値は0と1です。 ゼロ（0）は、エフェクトマスクを適用しないことを意味します。 1つ（1）は、エフェクトマスクを適用することを意味します。 デフォルトは1です。

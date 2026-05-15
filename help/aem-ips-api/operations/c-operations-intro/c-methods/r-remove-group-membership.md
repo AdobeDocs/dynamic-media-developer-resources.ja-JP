@@ -5,9 +5,17 @@ title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/-RTuwtlTpQdiS-H-lf9BhQwbkp5McXo4tbxssF-0wzo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: 102
 ht-degree: 7%
 
 ---
@@ -19,9 +27,9 @@ ht-degree: 7%
 **削除コマンドの違い**
 
 * `removeGroupMembers`: グループから複数のユーザーを削除します。
-* `removeGroupMembership`：グループの配列から個々のユーザーを削除します。
+* `removeGroupMembership`: グループの配列から個々のユーザーを削除します。
 
-## 許可されているユーザータイプ {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## 承認済みユーザータイプ {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,16 +41,16 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | グループのメンバーシップを削除する会社へのハンドル。 |
+| userHANDLE | `xsd:string` | いいえ | グループ メンバーシップを削除する会社へのハンドル。 |
 | groupHandleArray | `types:HandleArray` | はい | 会社を削除するグループへのハンドルの配列。 |
 
 **出力（removeGroupMembershipReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-f8d4181170a243efb9faf5824ae96197}
 
-このコード例では、グループからユーザーを削除します。
+このコードサンプルは、グループからユーザーを削除します。
 
 **リクエスト**
 

@@ -5,9 +5,19 @@ title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/GnKkb-vTCdD5PwU111sxefzxR7FN74hk3i66c3gcH9I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: 99
 ht-degree: 8%
 
 ---
@@ -18,7 +28,7 @@ ht-degree: 8%
 
 構文
 
-## 許可されているユーザータイプ {#section-63e7d17f4b434995a872838bfff7f9ff}
+## 承認済みユーザータイプ {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,15 +41,15 @@ ht-degree: 8%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | 削除するメタデータフィールドを含む会社へのハンドル。 |
-| fieldHandle | `xsd:string` | はい | 削除するメタデータフィールドへのハンドル。 |
+| fieldHandle | `xsd:string` | はい | 削除するメタデータフィールドのハンドル。 |
 
 **出力（deleteMetadataFieldParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-このコードサンプルは、会社のメタデータフィールドを削除します。 このアクションを実行するには、IPS Web サービスサーバーに渡される `deleteMetadataFieldParam` のフィールドとして、会社ハンドルとメタデータハンドルを使用します。
+このコードサンプルは、会社のメタデータフィールドを削除します。 このアクションを実行するには、IPS Web サービス サーバーに渡される`deleteMetadataFieldParam`のフィールドとして、会社ハンドルとメタデータ ハンドルを使用します。
 
 **リクエスト**
 

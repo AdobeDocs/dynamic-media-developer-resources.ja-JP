@@ -1,62 +1,70 @@
 ---
 title: 共有を埋め込む
-description: 埋め込み共有ツールは、ソーシャル共有パネルに追加されたボタンと、ツールがアクティベートされたときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+description: 埋め込み共有ツールは、ソーシャル共有パネルに追加されたボタンと、ツールがアクティブ化されたときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tcVFYRTmobtTJo01ub86IgjoYzHvfIpbl9YN1-azHjE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: 2667
 ht-degree: 0%
 
 ---
 
 # 共有を埋め込む{#embed-share}
 
-埋め込み共有ツールは、ソーシャル共有パネルに追加されたボタンと、ツールがアクティベートされたときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
+埋め込み共有ツールは、ソーシャル共有パネルに追加されたボタンと、ツールがアクティブ化されたときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-埋め込み共有ボタンの外観は、次の CSS クラスセレクターで制御します。
+埋め込み共有ボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embedshare
 ```
 
-**埋め込み共有ツールの CSS プロパティ**
+埋め込み共有ツールの&#x200B;**CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-CSS クラスに CSS プロパティを設定することで、ソーシャル共有パネルからボタン `display:none` 削除することができます。
+ソーシャル共有パネルからボタンを削除するには、CSS クラスに`display:none` CSS プロパティを設定します。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
-例 – 28 x 28 ピクセルで、4 つの異なるボタン状態ごとに異なる画像を表示する埋め込み共有ボタンを設定するには：
+例 – 28 x 28 ピクセルの埋め込み共有ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示するには：
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -77,28 +85,28 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-ダイアログボックスがアクティブな場合に web ページを覆う背景のオーバーレイは、次の CSS クラスセレクターで制御します。
+ダイアログボックスがアクティブな場合にweb ページをカバーする背景オーバーレイは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay
 ```
 
-**背景オーバーレイの CSS プロパティ**
+背景オーバーレイの&#x200B;**CSS プロパティ**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p>背景オーバーレイの不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>背景のオーバーレイカラー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>背景オーバーレイの色： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 背景オーバーレイを 70% の不透明度でグレーに設定するには：
+例 – 背景オーバーレイを70%の不透明度でグレーに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay { 
@@ -107,36 +115,36 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-デフォルトでは、モーダルダイアログボックスはデスクトップシステムでは画面の中央に表示され、タッチデバイスでは web ページ領域全体を取ります。 どの場合でも、ダイアログボックスの位置とサイズはコンポーネントで管理されます。 このダイアログボックスは、次の CSS クラスセレクターで制御します。
+初期設定では、モーダルダイアログボックスはデスクトップシステムの画面の中央に表示され、タッチデバイスのweb ページ全体を表示します。 いずれの場合も、ダイアログボックスの位置とサイズはコンポーネントによって管理されます。 ダイアログボックスは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialog
 ```
 
-**ダイアログボックスの CSS プロパティ**
+ダイアログボックスの&#x200B;**CSS プロパティ**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスがブラウザー全体を取らない場合）。 </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスの境界線の半径（ダイアログボックスでブラウザー全体が使用されない場合）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>ダイアログボックスの背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>未設定または 100% に設定する必要があります。この場合、ダイアログボックスはブラウザーウィンドウ全体を取り込みます（タッチデバイスでは、このモードをお勧めします）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>設定を解除するか、100%に設定する必要があります。この場合、ダイアログボックスはブラウザーウィンドウ全体を使用します（このモードはタッチデバイスで推奨されます）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>未設定または 100% に設定する必要があります。この場合、ダイアログボックスはブラウザーウィンドウ全体を取り込みます（タッチデバイスでは、このモードをお勧めします）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>設定を解除するか、100%に設定する必要があります。この場合、ダイアログボックスはブラウザーウィンドウ全体を使用します（このモードはタッチデバイスで推奨されます）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – ブラウザーウィンドウ全体を使用し、タッチデバイスの背景が白くなるようにダイアログボックスを設定するには：
+例 – ダイアログボックスを設定して、ブラウザーウィンドウ全体を使用し、タッチデバイスの背景が白くなるようにするには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -146,19 +154,19 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスヘッダーは、アイコン、タイトルテキスト、閉じるボタンから構成されます。 ヘッダーコンテナは、
+ダイアログボックスヘッダーは、アイコン、タイトルテキスト、閉じるボタンで構成されます。 ヘッダーコンテナは
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader
 ```
 
-**ダイアログボックスヘッダーの CSS プロパティ**
+ダイアログボックスヘッダーの&#x200B;**CSS プロパティ**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテンツの内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテンツの内部パディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -169,123 +177,123 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**ダイアログラインの CSS プロパティ**
+ダイアログ行の&#x200B;**CSS プロパティ**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーアイコンとタイトルの内部パディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーアイコンとタイトルの内側のパディング </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーアイコンは、次の CSS クラスセレクターで制御します
+ヘッダーアイコンは、次のCSS クラスセレクターで制御されます
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**ダイアログボックスのヘッダーアイコンの CSS プロパティ**
+ダイアログボックスヘッダーアイコン **の** CSS プロパティ
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>アイコン画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p>アイコン画像： </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーのタイトルは、次の CSS クラスセレクターで制御します。
+ヘッダータイトルは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadertext
 ```
 
-**ダイアログボックスのヘッダーテキストの CSS プロパティ**
+ダイアログボックスのヘッダーテキストの&#x200B;**CSS プロパティ**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>フォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>フォントの太さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>フォントの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
+   <td colname="col2"> <p>フォントの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>フォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>フォントファミリー： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内部テキストのパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>内部テキストパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「閉じる」ボタンは、次の CSS クラスセレクターで制御します。
+「閉じる」ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7closebutton
 ```
 
-**閉じるボタンの**&#x200B;の CSS プロパティ
+**&#x200B; 閉じるボタン**&#x200B;のCSS プロパティ
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナに対する垂直方向のボタンの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナに対する垂直ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナに対する水平方向のボタンの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナに対する水平ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの内側パディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
-例 – パディング、24 x 14 ピクセルのアイコン、太字の 16 ポイントのタイトル、28 x 28 ピクセルの「閉じる」ボタンを含むダイアログボックスヘッダーを設定する 最後に、ダイアログボックスのコンテナの上から 2 ピクセル、右から 2 ピクセルの位置を指定します。
+例 – パディング、24 x 14 ピクセルのアイコン、太字の16 ポイントタイトル、28 x 28 ピクセルの「閉じる」ボタンを含むダイアログボックスヘッダーを設定する。 最後に、ダイアログボックスコンテナの上部から2 ピクセル、右側から2 ピクセルを配置します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -325,148 +333,148 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログフッターは、「キャンセル」ボタンで構成されています。 フッターコンテナは、次の CSS クラスセレクターで制御します。
+ダイアログフッターは「キャンセル」ボタンで構成されます。 フッターコンテナは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**ダイアログボックスのフッター**&#x200B;の CSS プロパティ
+**&#x200B; ダイアログボックスのフッター**&#x200B;のCSS プロパティ
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> フッターをダイアログボックスの他の部分と視覚的に区別する際に使用する境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p> フッターをダイアログボックスの他の部分から視覚的に分離するために使用できる境界線。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-フッターには、ボタンを保持する内部コンテナがあります。 次の CSS クラスセレクターで制御します。
+フッターには、ボタンを保持する内部コンテナがあります。 これは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**ダイアログボックスのボタンコンテナの CSS プロパティ**
+ダイアログボックスボタンコンテナの&#x200B;**CSS プロパティ**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> フッターとボタンの間の内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> フッターとボタン間の内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「すべてを選択」ボタンは、次の CSS クラスセレクターで制御されます。
+「すべてを選択」ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogactionbutton
 ```
 
-ボタンは、デスクトップシステムでのみ使用できます。
+このボタンは、デスクトップシステムでのみ使用できます。
 
-**「すべてを選択」ボタンの CSS プロパティ**
+**すべてを選択ボタンのCSS プロパティ**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->「すべてを選択」ボタンでは、`state` 属性セレクターがサポートされており、異なるボタン状態に異なるスキンを適用するために使用できます。
+>「すべてを選択」ボタンでは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-「キャンセル」ボタンは、次の CSS クラスセレクターで制御されます。
+キャンセル ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**ダイアログボックスのキャンセルボタンの CSS プロパティ**
+ダイアログボックスの&#x200B;**CSS プロパティのキャンセル ボタン**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->キャンセル ボタンでは、`state` 属性セレクターがサポートされており、これを使用して、ボタンの状態に応じて異なるスキンを適用できます。
+>キャンセルボタンでは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-さらに、両方のボタンは共通の CSS クラスを共有します。このクラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
+さらに、両方のボタンは共通のCSS クラスを共有します。このクラスには、他のダイアログボックスボタンと同じCSS設定を含めることができます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
 ```
 
-**ボタンの CSS プロパティ**
+ボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>ボタンのフォントの太さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>ボタンフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置揃えに影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">行の高さ</span> </p> </td> 
+   <td colname="col2"> <p> ボタン内のテキスト高さ。 垂直方向の整列に影響します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ボックスの影の </span> </p> </td> 
-   <td colname="col2"> <p>ドロップシャドウ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ボックス シャドウ </span> </p> </td> 
+   <td colname="col2"> <p>ドロップシャドウ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの右の余白。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右余白</span> </p> </td> 
+   <td colname="col2"> <p>右ボタンのマージン。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
-例 – 64 x 34 の「キャンセル」ボタンを持つダイアログボックスのフッターを設定し、ボタンの状態ごとにテキストカラーと背景色が異なるようにするには、次の手順に従います。
+例 – ボタンの状態ごとにテキストの色と背景色が異なる64 x 34 キャンセル ボタンを使用してダイアログボックスフッターを設定するには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter { 
@@ -526,32 +534,32 @@ background-color: #ffffff;
 }
 ```
 
-メインダイアログ領域は、ヘッダーとフッターの間に、スクロール可能なダイアログコンテンツと、右側のスクロールパネルを含んでいます。 いずれの場合も、コンポーネントはこの領域の幅を管理し、CSS で設定することはできません。 メインダイアログ領域は、次の CSS クラスセレクターで制御します。
+ヘッダーとフッターの間にあるメインダイアログエリアには、右側のスクロール可能なダイアログコンテンツとスクロールパネルが含まれています。 いずれの場合も、コンポーネントはこの領域の幅を管理しますが、CSSで設定することはできません。 メインダイアログ領域は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**ダイアログボックスの表示エリアの CSS プロパティ &#x200B;**
+**&#x200B; ダイアログボックスの表示領域のCSS プロパティ &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p> メイン ダイアログ ボックス領域の高さです。 このオプションは、ダイアログボックスがデスクトップモードで動作する場合にのみ指定してください。 ダイアログ ボックスのサイズがブラウザ ウィンドウ全体に表示される場合は、この設定は適用されません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p> メインダイアログボックス領域の高さ。 ダイアログボックスがデスクトップモードで動作する場合にのみ指定する必要があります。 ダイアログボックスのサイズがブラウザーウィンドウ全体を占める場合は適用されません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>メインのダイアログボックス領域の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>メインダイアログボックス領域の背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外側余白。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マージン </span> </p> </td> 
+   <td colname="col2"> <p>外側のマージン： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – メインダイアログボックス領域の高さを 300 ピクセルに設定し、余白を 10 ピクセルにして背景を白くするには：
+例 – メインダイアログボックス領域を300 ピクセルの高さに設定するには、10 ピクセルの余白を設定し、白い背景を使用します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea { 
@@ -561,26 +569,26 @@ background-color: #ffffff;
 }
 ```
 
-すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、で制御されるコンテナに格納されます
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、で制御されるコンテナ内にあります。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody
 ```
 
-このコンテナの高さがメインダイアログボックスの領域よりも大きく表示される場合、コンポーネントによって垂直スクロールが自動的に有効になります。
+このコンテナの高さがメインダイアログボックス領域よりも高いと思われる場合は、コンポーネントによって垂直スクロールが自動的に有効になります。
 
-**ダイアログボックスの本文の CSS プロパティ**
+**&#x200B; ダイアログボックスの本文**&#x200B;のCSS プロパティ
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – フォームコンテンツの 10 ピクセルのパディングを設定するには：
+例 – フォームコンテンツを10 ピクセルパディングに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -588,40 +596,40 @@ background-color: #ffffff;
 }
 ```
 
-ダイアログボックスのフォームのすべての静的ラベルは、次のコントロールで制御されます
+ダイアログボックスフォーム内のすべての静的ラベルは
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoglabel
 ```
 
-このクラスは、フォームユーザーインターフェイスの様々な場所でテキストに適用できるので、ラベルのサイズや位置の制御には適していません。
+このクラスは、フォームユーザーインターフェイスのさまざまな場所のテキストに適用できるため、ラベルのサイズや位置の制御には適していません。
 
-**ダイアログボックスのラベルの CSS プロパティ。 &#x200B;**
+**&#x200B; ダイアログボックスラベルのCSS プロパティ。 &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントの重さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントサイズ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントサイズ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>ラベルフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p>ラベルのテキストの色： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ダイアログ ボックス ラベルのツール ヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ダイアログボックスラベルツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
-例 – すべてのラベルを 9 ピクセルのフォントを使用してグレー、太字に設定するには：
+例 – すべてのラベルを9つのピクセルフォントを持つグレーで太字に設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoglabel { 
@@ -631,28 +639,28 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みコードの上に表示されるテキストコピーのサイズは、次の CSS クラスセレクターで制御されます。
+埋め込みコードの上に表示されるテキストコピーのサイズは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**ダイアログボックス入力全体フィールドの CSS プロパティ**
+ダイアログボックス入力全体フィールドの&#x200B;**CSS プロパティ**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>入力フィールドの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – テキストコピーの幅を 430 ピクセルに設定し、下部に 10 ピクセルのパディングを含める場合：
+例 – テキストのコピーを幅430 ピクセルで、下部に10 ピクセルのパディングを持つように設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide { 
@@ -661,32 +669,32 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みコードはコンテナにラップされ、次の CSS クラスセレクターで制御されます。
+埋め込みコードはコンテナにラップされ、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックス入力コンテナの CSS プロパティ**
+ダイアログボックス入力コンテナの&#x200B;**CSS プロパティ**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>埋め込みコードコンテナの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p>埋め込みコードコンテナを囲むボーダー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p>埋め込みコードコンテナの周囲の境界線。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 埋め込みコードテキストの周囲に 1 ピクセルグレーの境界線を設定する場合は、幅を 430 ピクセルにし、10 ピクセルのパディングにします。
+例 – 埋め込みコードテキストの周囲に1 ピクセルのグレーの境界線を設定するには、幅430 ピクセル、パディング 10 ピクセルにします。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -696,24 +704,24 @@ background-color: #ffffff;
 }
 ```
 
-実際の埋め込みコードテキストは、次の CSS クラスセレクターで制御されます。
+実際の埋め込みコードテキストは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックス入力コンテナの CSS プロパティ**
+ダイアログボックス入力コンテナの&#x200B;**CSS プロパティ**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ワードラップ </span> </p> </td> 
-   <td colname="col2"> <p>ワードラップのスタイル。 </p> </td> 
+   <td colname="col2"> <p>単語の折り返しスタイル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – ワードラッピングを使用するように埋め込みコードを設定する `break-word` は：
+例 – `break-word` ワードラッピングを使用するように埋め込みコードを設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -721,24 +729,24 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズのラベルとドロップダウンはダイアログボックスの下部にあり、次の CSS クラスセレクターで制御されるコンテナに配置します。
+埋め込みサイズラベルとドロップダウンは、ダイアログボックスの下部にあり、次のCSS クラスセレクターで制御されるコンテナに入れます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**ダイアログボックス埋め込みサイズパネルの CSS プロパティ**
+ダイアログボックス埋め込みサイズパネルの&#x200B;**CSS プロパティ**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 10 ピクセルのパディングを持つ埋め込みサイズパネルを設定するには：
+例 – 埋め込みサイズパネルを10 ピクセルのパディングに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -746,28 +754,28 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズラベルのサイズと配置は、次の CSS クラスセレクターで制御します。
+埋め込みサイズラベルのサイズと整列は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**ダイアログボックス埋め込みサイズパネルの CSS プロパティ**
+ダイアログボックス埋め込みサイズパネルの&#x200B;**CSS プロパティ**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 垂直方向の位置揃え </span> </p> </td> 
-   <td colname="col2"> <p>垂直方向のラベルの配置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">垂直整列</span> </p> </td> 
+   <td colname="col2"> <p>垂直方向のラベルの整列： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ラベルの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ラベルの幅： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 埋め込みサイズ ラベルを上揃えおよび幅 80 ピクセルに設定するには：
+例 – 埋め込みサイズラベルを上揃え、幅80 ピクセルに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -776,18 +784,18 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズ コンボボックスの幅は、次の CSS クラスセレクターで制御します。
+埋め込みサイズコンボボックスの幅は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox
 ```
 
-**コンボボックスの CSS プロパティ**
+コンボボックスの&#x200B;**CSS プロパティ**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>コンボボックスの幅。 </p> </td> 
   </tr> 
  </tbody> 
@@ -795,9 +803,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->コンボボックスでは、`expanded` および `true` の可能な値を持つ `false` 属性セレクターがサポートされています。 `true` の値は、コンボボックスに事前定義済みの埋め込みサイズのいずれかが表示される場合に使用されるので、使用可能なすべての幅を取る必要があります。 `false` の値は、コンボボックスで「カスタムサイズ」オプションが選択されている場合に使用されます。そのため、カスタムの幅および高さの入力フィールドを配置できるように、値を縮小する必要があります。
+>コンボボックスでは、`expanded`属性セレクターをサポートしています。使用可能な値は`true`と`false`です。 コンボボックスに事前定義済みの埋め込みサイズの1つが表示されている場合、`true`値が使用されるので、使用可能なすべての幅を使用する必要があります。 コンボボックスで「カスタムサイズ」オプションが選択されている場合は、`false`値が使用されるので、カスタム幅と高さの入力フィールドのスペースを許可するために縮小する必要があります。
 
-例 – 事前定義済みの項目を表示する場合に埋め込みサイズ コンボボックスの幅を 300 ピクセルに、カスタムサイズを表示する場合に幅 110 ピクセルに設定する：
+例 – 事前定義済みのアイテムを表示する場合は300 ピクセル、カスタムサイズを表示する場合は110 ピクセル幅に埋め込みサイズコンボボックスを設定するには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -808,24 +816,24 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックステキストの高さは、特別な内部要素によって定義され、次の CSS クラスセレクターで制御されます。
+コンボボボックスのテキストの高さは、特殊な内部要素によって定義され、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**コンボボックステキストの CSS プロパティ**
+コンボボボックステキストの&#x200B;**CSS プロパティ**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>コンボボックスのテキストの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>コンボボックスのテキストの高さ </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 埋め込みサイズ コンボボックスのテキストの高さを 40 ピクセルに設定するには：
+例 – 埋め込みサイズコンボボックスのテキストの高さを40 ピクセルに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -833,46 +841,46 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスの右側には「ドロップダウン」ボタンがあり、次の CSS クラスセレクターで制御されます。
+コンボボックスの右側には「ドロップダウン」ボタンがあり、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton
 ```
 
-**コンボボックスボタンの CSS プロパティ**
+コンボボボックスボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>コンボボックス内の垂直方向のボタンの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>コンボボックス内の縦方向ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p>コンボボックス内の水平ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-例 – 「ドロップダウン」ボタンを 28 x 28 ピクセルに設定し、状態ごとに別々の画像を持つ場合：
+例 – 「ドロップダウン」ボタンを28 x 28 ピクセルに設定し、各状態に個別の画像を設定するには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -893,26 +901,26 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスが開かれたときに表示される埋め込みサイズのリストを含むパネルは、次の CSS クラスセレクターで制御されます。
+コンボボックスを開いたときに表示される埋め込みサイズのリストを含むパネルは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
 ```
 
-パネルのサイズと位置は、コンポーネントによって制御されます。 CSS を使用して変更することはできません。
+パネルのサイズと位置は、コンポーネントによって制御されます。 CSSで変更することはできません。
 
-**コンボボックスドロップダウンの CSS プロパティ**
+コンボボボックスドロップダウンの&#x200B;**CSS プロパティ**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p>パネルの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p>パネルの境界線 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – コンボボックスパネルの境界線を 1 ピクセルのグレーに設定するには：
+例 – コンボボボックスパネルの境界線を1 ピクセルのグレーに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown { 
@@ -920,24 +928,24 @@ background-color: #ffffff;
 }
 ```
 
-ドロップダウンパネル内の 1 つの項目。次の CSS クラスセレクターで制御されます。
+次のCSS クラスセレクターで制御されるドロップダウンパネル内の1つの項目。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor
 ```
 
-**ドロップダウンアイテムアンカーの CSS プロパティ**
+ドロップダウン アイテム アンカーの&#x200B;**CSS プロパティ**
 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>項目の背景。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>アイテムの背景： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – コンボボックスのパネル項目の背景を白に設定するには：
+例 – コンボボボックスパネルの項目を白い背景に設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor { 
@@ -945,36 +953,36 @@ background-color: #ffffff;
 }
 ```
 
-コンボボックスパネル内で選択された項目の左側に表示されるチェックマーク。以下の CSS クラスセレクターで制御されます。
+次のCSS クラスセレクターで制御されるコンボボボックスパネル内の選択した項目の左側に表示されるチェックマーク。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7checkmark
 ```
 
-**チェックボックスの CSS プロパティ**
+チェックマークボックスの&#x200B;**CSS プロパティ**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>項目画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p>アイテム画像： </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – チェックマークアイコンを 25 x 25 ピクセルに設定するには：
+例 – チェックマークアイコンを25 x 25 ピクセルに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7checkmark { 
@@ -984,24 +992,24 @@ background-color: #ffffff;
 }
 ```
 
-埋め込みサイズ コンボボックスで「カスタムサイズ」オプションを選択すると、ダイアログボックスの右側に 2 つの追加入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できます。 これらのフィールドは、次の CSS クラスセレクターで制御されるコンテナにラップされます。
+「埋め込みサイズ」コンボボックスで「カスタムサイズ」オプションを選択すると、ダイアログボックスの右側に2つの追加の入力フィールドが表示され、ユーザーがカスタム埋め込みサイズを入力できるようになります。 これらのフィールドは、次のCSS クラスセレクターで制御されるコンテナにラップされます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**ダイアログボックスのカスタムサイズパネルの CSS プロパティ**
+ダイアログボックスのカスタムサイズパネルの&#x200B;**CSS プロパティ**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p> 「埋め込みサイズ」コンボボックスからの距離。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">さんが</span>を残しました </p> </td> 
+   <td colname="col2"> <p> 埋め込みサイズ コンボボックスからの距離。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – カスタムサイズの入力フィールドパネルをコンボボックスの右側の 20 ピクセルに設定するには：
+例 – カスタムサイズの入力フィールドパネルをコンボボックスの右側の20 ピクセルに設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1009,36 +1017,36 @@ background-color: #ffffff;
 }
 ```
 
-各カスタムサイズ入力フィールドは、境界線をレンダリングし、フィールド間の余白を設定するコンテナにラップされます。 次の CSS クラスセレクターで制御します。
+各カスタムサイズ入力フィールドは、境界線をレンダリングし、フィールド間の余白を設定するコンテナで囲まれます。 これは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**ダイアログボックスのカスタムサイズの CSS プロパティ**
+ダイアログボックスの&#x200B;**CSS プロパティのカスタムサイズ**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p>入力フィールドの周囲の境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p>入力フィールドの周囲にボーダーを設定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p> 入力フィールドの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> フィールドの余白を入力します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マージン </span> </p> </td> 
+   <td colname="col2"> <p> 入力フィールドマージン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> 入力フィールドのパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> 入力フィールドのパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – カスタムサイズの入力フィールドを 1 ピクセルのグレーの境界線、余白、パディングを持ち、幅が 70 ピクセルになるように設定するには：
+例 – カスタムサイズの入力フィールドに、1 ピクセルのグレーの境界線、余白、パディングを設定し、幅を70 ピクセルにするには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1050,24 +1058,24 @@ background-color: #ffffff;
 }
 ```
 
-垂直方向のスクロールが必要な場合、スクロールバーはダイアログボックスの右端の近くのパネルにレンダリングされます。このパネルは、次の CSS クラスセレクターで制御されます。
+垂直方向のスクロールが必要な場合、スクロールバーはダイアログボックスの右端に近いパネルに表示されます。このパネルは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel
 ```
 
-**ダイアログボックスのスクロールパネルの CSS プロパティ**
+ダイアログボックススクロールパネルの&#x200B;**CSS プロパティ**
 
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>パネル幅をスクロールします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>スクロールパネルの幅： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – スクロールパネルの幅を 44 ピクセルに設定する
+例 – スクロールパネルを幅44 ピクセルに設定する
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1075,36 +1083,36 @@ background-color: #ffffff;
 }
 ```
 
-スクロールバー領域の外観は、次の CSS クラスセレクターで制御します。
+スクロールバー領域の外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar
 ```
 
-**スクロールバーの CSS プロパティ**
+スクロールバーの&#x200B;**CSS プロパティ**
 
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>スクロール バーの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>スクロールバーの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p> スクロールパネルの上部からオフセットされた垂直スクロールバー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p> スクロールパネルの上部から垂直スクロールバーがオフセットされます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> スクロールパネルの下部からオフセットされた垂直スクロールバー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p> スクロールパネルの下部から垂直スクロールバーがオフセットされます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> 水平スクロールバーをスクロールパネルの右端からオフセットします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p> スクロールパネルの右端から水平スクロールバーがオフセットされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 幅 28 ピクセルで、スクロールパネルの上、右および下から 8 ピクセルのマージンを持つスクロールバーを設定するには、次のようにします。
+例 – 28 ピクセル幅のスクロールバーを設定し、スクロールパネルの上下から8 ピクセルの余白を持たせるには、次の手順を実行します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar { 
@@ -1115,28 +1123,28 @@ background-color: #ffffff;
 }
 ```
 
-スクロールバートラックは、上部と下部のスクロールボタンの間の領域です。 トラックの位置と高さが自動的に設定されます。 トラックは、次の CSS クラスセレクターで制御します
+スクロールバートラックは、上と下のスクロールボタンの間の領域です。 コンポーネントは、トラックの位置と高さを自動的に設定します。 トラックは、次のCSS クラスセレクターで制御されます
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**スクロールバートラックの CSS プロパティ**
+スクロールバートラックの&#x200B;**CSS プロパティ**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>トラックの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>トラック幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 背景色を追跡する。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 背景色をトラック： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 幅 28 ピクセルで背景がグレーのスクロールバーのトラックを設定するには：
+例 – 28 ピクセル幅で灰色の背景を持つスクロールバートラックを設定するには：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1145,44 +1153,44 @@ background-color: #B2B2B2;
 }
 ```
 
-スクロールバーの親指は、スクロールトラック領域内で垂直に移動します。 垂直方向の位置は、コンポーネントのロジックによって完全に制御されます。 ただし、コンテンツの量に応じて親指の高さが動的に変化することはありません。 親指の高さやその他の側面は、次の CSS クラスセレクターで設定できます。
+スクロールバーの親指は、スクロールトラック領域内で垂直方向に移動します。 垂直位置は、コンポーネントロジックによって完全に制御されます。 ただし、コンテンツの量によっては、親指の高さが動的に変化することはありません。 親指の高さやその他の要素は、次のCSS クラスセレクターで設定できます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**スクロールバーのサムネールの CSS プロパティ**
+スクロールバーの親指の&#x200B;**CSS プロパティ**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>親指の幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>親指の幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>親指の高さ </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>親指の高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディングトップ </span> </p> </td> 
    <td colname="col2"> <p>トラックの上部の間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング – 下</span> </p> </td> 
    <td colname="col2"> <p> トラックの下部の間の垂直方向のパディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 特定のサムネール状態で表示される画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p> 特定のサムステートに対して表示される画像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb は、`state`、`up`、`down`、`over` などの異なるサムステートに異なるスキンを適用するために使用できる `disabled` 属性セレクターをサポートしています。
+>Thumbは`state`属性セレクターをサポートしています。このセレクターを使用すると、異なる親指の状態（`up`、`down`、`over`、および`disabled`）に異なるスキンを適用できます。
 
-例 – 28 x 45 ピクセルのスクロールバーの親指を設定し、上下に 10 ピクセルのマージンがあり、状態ごとに異なるアートワークを持つ場合：
+例 – 28 x 45 ピクセルのスクロールバーの親指を設定するには、上下に10 ピクセルの余白があり、各状態に対して異なるアートワークを設定します。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1205,7 +1213,7 @@ background-color: #B2B2B2;
 }
 ```
 
-上部と下部のスクロールボタンの外観は、次の CSS クラスセレクターで制御します。
+上と下のスクロールボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton 
@@ -1215,36 +1223,36 @@ background-color: #B2B2B2;
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS の top、left、bottom、right プロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアロジックによって自動的に配置されます。
+CSSの上部、左、下部、右のプロパティを使用してスクロールボタンを配置することはできません。 代わりに、ビューアリジックによって自動的に配置されます。
 
-**上下のスクロールボタンの CSS プロパティ**
+**上下のスクロールボタンのCSS プロパティ**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->これらのボタンは、`state` 属性セレクターをサポートしています。このセレクターを使用して、ボタンの状態（`up`、`down`、`over`、`disabled`）に応じて異なるスキンを適用できます。
+>これらのボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態（`up`、`down`、`over`、および`disabled`）に適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 28 x 32 ピクセルで、状態ごとに異なるアートワークを持つスクロールボタンを設定するには：
 

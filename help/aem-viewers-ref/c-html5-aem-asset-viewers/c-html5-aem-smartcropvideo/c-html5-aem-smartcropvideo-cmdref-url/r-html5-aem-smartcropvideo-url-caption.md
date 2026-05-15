@@ -1,25 +1,33 @@
 ---
 title: caption
-description: スマート切り抜きビデオビューアの URL コマンド。
+description: スマート切り抜きビデオビューアのURL コマンド。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/yh1XHiqp8t6dB8AjQ769yMSBs0ew5x5dERv-8buuZ4k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 5%
+source-wordcount: 209
+ht-degree: 8%
 
 ---
 
 # caption{#caption}
 
-スマート切り抜きビデオビューアの URL コマンド。
+スマート切り抜きビデオビューアのURL コマンド。
 
 ` caption= *` ファイル `*[,0|1]`
 
-ビューアは、ホストされた WebVTT ファイルを使用したクローズドキャプションをサポートしています。 重なり合うキューと領域はサポートされていません。 次のキュー位置指定演算子がサポートされています。
+ビューアは、ホストされたWebVTT ファイルを使用したクローズドキャプションをサポートしています。 重なり合うキューとリージョンはサポートされていません。 サポートされるキューのポジショニングオペレーターには次のものがあります。
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -33,42 +41,42 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
-   <td colname="col2"> <p>テキストの整列 </p> </td> 
+   <td colname="col2"> <p>テキスト整列 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> テキストの配置を制御します。 </p> <p>デフォルトは中央 <span class="codeph"> す </span>。 </p> </td> 
+   <td colname="col4"> <p> テキストの整列を制御します。 </p> <p>デフォルトは<span class="codeph"> middle</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>テキストの位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> キャプションテキストの先頭の VideoPlayer コンポーネントへの挿入の割合。 </p> <p>デフォルトは 0% です。 </p> </td> 
+   <td colname="col4"> <p> キャプションテキストの先頭のVideoPlayer コンポーネントへのインセットの割合。 </p> <p>デフォルトは0%です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
-   <td colname="col2"> <p>ラインサイズ </p> </td> 
+   <td colname="col2"> <p>行サイズ </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> キャプションに使用されるビデオ幅の割合。 </p> <p>デフォルトは 100% です。 </p> </td> 
+   <td colname="col4"> <p> キャプションに使用されるビデオ幅の割合。 </p> <p>デフォルトは100%です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>行の位置 </p> </td> 
+   <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> ページ上の行の位置を指定します。 </p> <p>整数（パーセント記号なし）で表される場合は、テキストが表示される位置の上からの行数になります。 </p> <p>パーセンテージ（パーセント記号は最後の文字）の場合、キャプションテキストがそのパーセントで表示領域の下方に表示されます。 </p> <p>デフォルトは 100% です。 </p> </td> 
+   <td colname="col4"> <p> ページ上の行位置を指定します。 </p> <p>整数（パーセント記号なし）で表される場合は、テキストが表示される上からの行数です。 </p> <p>パーセント値（パーセント記号は最後の文字）の場合、キャプションテキストは表示領域のパーセント単位で表示されます。 </p> <p>デフォルトは100%です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTT ファイルに存在するその他の WebVTT 機能はサポートされていませんが、キャプションを中断しないでください。
+WebVTT ファイルに存在するその他のWebVTT機能はサポートされていませんが、キャプションを中断しないでください。
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> ファイル </span></span> </p> </td> 
-   <td colname="col2"> <p> WebVTT キャプションコンテンツの URL またはパスを指定します。 ImageServing で WebVTT ファイルを提供します。 </p> </td> 
+   <td colname="col2"> <p> WebVTT キャプションコンテンツのURLまたはパスを指定します。 ImageServingでWebVTT ファイルを提供します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> デフォルトのキャプションの状態を指定します（有効は <span class="codeph"> 1</span>）。 </p> </td> 
+   <td colname="col2"> <p> デフォルトのキャプション状態を指定します（有効なのは<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

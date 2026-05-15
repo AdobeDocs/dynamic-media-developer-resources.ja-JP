@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 25e3e7e9-0979-472c-a589-aaf0e221b885
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/HSShyhUx64vEYIAuInb1sRH5UAdknbAkQWFjYv4yvxo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 96
 ht-degree: 3%
 
 ---
@@ -17,13 +25,13 @@ ht-degree: 3%
 
 スマート切り抜きビデオビューアの設定属性。
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]progressivebitrate= *` 値 `*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]progressivebitrate= *`値`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 値 </span> </p> </td> 
-   <td colname="col2"> <p> 現在のシステムがアダプティブビデオ再生をサポートしていない場合に、アダプティブビデオセットから再生するビデオのビットレート（キロビット/秒または kbps）を指定します。 </p> <p>コンポーネントは、指定された値に可能な限り近い（ただし超えない）ビットレートでビデオストリームを取得します。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定した値よりも高い場合、ロジックは最低画質のビットレートを選択します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">値</span> </p> </td> 
+   <td colname="col2"> <p> 現在のシステムでアダプティブビデオの再生がサポートされていない場合に備えて、アダプティブビデオセットから再生する目的のビデオビットレート（KB/秒またはkbps）を指定します。 </p> <p>コンポーネントは、指定された値に最も近い（ただし、それを超えない）ビットレートでビデオストリームをピックアップします。 アダプティブビデオセット内のすべてのビデオストリームの画質が指定された値よりも高い場合、ロジックは最も低い画質のビットレートを選択します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

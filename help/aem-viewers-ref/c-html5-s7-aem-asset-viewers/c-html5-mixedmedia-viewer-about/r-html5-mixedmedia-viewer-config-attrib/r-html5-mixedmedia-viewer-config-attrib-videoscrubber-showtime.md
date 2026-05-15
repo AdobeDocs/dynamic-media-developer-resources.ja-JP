@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/lxM4Cz5ilQENGWrMr9rWW7H1KT4Qyh-zw9NokmvWIwg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 15%
+source-wordcount: 20
+ht-degree: 25%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> ノブの位置を調整する際にバブルを再生する時間を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> ノブの位置を調整する際に、時間再生バブルを有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

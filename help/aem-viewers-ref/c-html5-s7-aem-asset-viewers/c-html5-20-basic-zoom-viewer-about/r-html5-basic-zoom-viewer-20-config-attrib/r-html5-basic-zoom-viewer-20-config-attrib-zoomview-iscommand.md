@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: d1f54ef2-4ed4-4fb6-9913-98bf194f9afc
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/-ZvWDwC7i5fQbTzDKxdF3f5xu8r59TT-3P2suXlcjDg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 59
 ht-degree: 6%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> iscommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> ズーム画像に適用される画像サービングコマンド文字列。 URL で指定されている場合、<span class="codeph"> &amp;</span> と <span class="codeph"> =</span> は、それぞれ <span class="codeph"> %26</span> と <span class="codeph"> %3D</span> として HTTP エンコードする必要があります。 </p> <p> <p>メモ：画像サイズ変更操作コマンドはサポートされていません。 </p> </p> </td> 
+   <td colname="col2"> <p> ズーム画像に適用される画像サービング コマンド文字列。 URLで指定した場合、<span class="codeph"> &amp;</span>および<span class="codeph"> =</span>のすべての出現箇所は、それぞれ<span class="codeph"> %26</span>および<span class="codeph"> %3D</span>としてHTTP エンコードする必要があります。 </p> <p> <p>注意：画像サイズ変更の操作コマンドはサポートされていません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +43,10 @@ ht-degree: 6%
 
 ## 例 {#section-96e69b70365f461dae4399e49044ea2f}
 
-ビューアの URL で指定される場合：
+ビューア URLで指定した場合：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-設定データで指定された場合：
+設定データで指定した場合：
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

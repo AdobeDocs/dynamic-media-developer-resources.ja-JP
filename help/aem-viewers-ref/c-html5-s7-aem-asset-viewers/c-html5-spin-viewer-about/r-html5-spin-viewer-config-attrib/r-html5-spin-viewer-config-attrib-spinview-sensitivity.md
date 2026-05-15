@@ -5,22 +5,30 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/B19x2Bn3GNq8YFUo-0HiSbyBQ4qrMcONvRSN1tNqOg0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`x 感度 `*[, *`y 感度 `*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`xSensitivity`*[, *`ySensitivity`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> x 感度 </span>[, <span class="varname"> y 感度 </span>]</span> </p> </td> 
-   <td colname="col2"> <p> マウスのドラッグまたはスワイプによって実行される水平および垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> xSensitivity</span> ビューの片側から反対側にマウスを水平にドラッグした場合に、水平方向に回転する製品の数を設定します。 例えば、3 つとは、1 回の完全なドラッグ ジェスチャーに対して 3 つの完全なスピンが表示されることを意味します。 </p> <p>同様に、<span class="codeph"> ySensitivity</span> は垂直スピンの感度を制御します。 値が 1 の場合は、1 回の垂直ドラッグまたはスワイプによって、ビュー角度が最上部のスピン プレーンから最下部に変更されます（逆の場合も同様）。 </p> <p><span class="codeph"> ySensitivity</span> に負の値を設定すると、垂直スピンの方向が反転します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[, <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> マウスのドラッグまたはスワイプで実行する水平および垂直スピンの感度を制御します。 </p> <p> <span class="codeph"> xSensitivity</span>は、ユーザーがマウスをビューの一方の側から他方の側に水平にドラッグした場合に、水平方向の製品の完全な回転の回数を設定します。 例えば、3つとは、ユーザーが1回のフルドラッグジェスチャーに対して3回の完全なスピンを見ることを意味します。 </p> <p>同様に、<span class="codeph">感度</span>は垂直方向のスピンの感度を制御します。 値が1の場合は、1回の垂直方向のドラッグまたはスワイプで、最上位のスピンプレーンから最下位（または逆）にビュー角度が変更されます。 </p> <p><span class="codeph">感度</span>に負の値を設定すると、垂直方向のスピンの方向が反転します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

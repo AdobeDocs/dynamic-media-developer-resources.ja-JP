@@ -1,29 +1,37 @@
 ---
 title: HTTP プロトコルの構文と機能
-description: この節では、HTTP プロトコル構文と、Dynamic Media 画像レンダリングの機能について説明します。
+description: この節では、Dynamic Media Image RenderingのHTTP プロトコルの構文と機能について説明します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62707e37-0bf0-4e72-807c-8a68dfe0067e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/OWirurAcD6aml6BiZeaja4wa9rPl8VxlxIiwpEkuPBI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: 80
 ht-degree: 1%
 
 ---
 
 # HTTP プロトコルの構文と機能{#http-protocol-syntax-and-features}
 
-この節では、HTTP プロトコル構文と、Dynamic Media 画像レンダリングの機能について説明します。
+この節では、Dynamic Media Image RenderingのHTTP プロトコルの構文と機能について説明します。
 
-* [画像レンダリングの HTTP プロトコル基本構文](r-ir-basic-syntax.md)
-* [画像レンダリング HTTP プロトコルコマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
+* [画像レンダリング HTTP プロトコルの基本構文](r-ir-basic-syntax.md)
+* [イメージ レンダリング HTTP プロトコル コマンドの概要](c-ir-command-overview/c-ir-command-overview.md)
 * [ビネット](c-ir-vignettes/c-ir-vignettes.md)
 * [マテリアルの概要](c-ir-http-materials/c-ir-http-materials.md)
-* [高度なレンダリング エフェクト](c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
-* [ネストと埋め込みのリクエスト *](c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
-* [材料カタログ *](c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
-* [リクエストの前処理*](c-ir-request-pre-processing.md)
+* [高度なレンダーエフェクト](c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
+* [ネスト化と埋め込みをリクエスト *](c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
+* [マテリアルカタログ *](c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
+* [リクエストの事前処理*](c-ir-request-pre-processing.md)
 * [カスタム変数の概要](c-ir-custom-variables/c-ir-custom-variables.md)
 * [コマンドマクロ *](c-ir-command-macros.md)
 * [画像レンダリングのカラーマネジメント *](c-ir-color-management.md)

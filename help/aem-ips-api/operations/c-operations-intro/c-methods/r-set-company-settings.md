@@ -1,24 +1,34 @@
 ---
-description: 様々な会社固有の設定値を設定します。
+description: 会社ごとに様々な設定値を設定します。
 solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/df-NUZDApA-q0a-A3oxM6PUQUoVmGy8gqS4HU8lhfvc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: 154
 ht-degree: 10%
 
 ---
 
 # setCompanySettings{#setcompanysettings}
 
-様々な会社固有の設定値を設定します。
+会社ごとに様々な設定値を設定します。
 
 構文
 
-## 許可されているユーザータイプ {#section-41732fa7424b455cb458eec21a02259c}
+## 承認済みユーザータイプ {#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,19 +41,19 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
-| overwriteMode | `xsd:string` | いいえ | アセットの上書きモード。 |
-| retainPublishState | `xsd:boolean` | いいえ | アセットが再アップロードされたときに公開状態を保持する場合は、`true` に設定します。 |
-| defaultSourceProfileHandle | `xsd:string` | いいえ | デフォルトのソースカラープロファイルとして使用する IccProfile アセット。 |
-| defaultDisplayProfileHandle | `xsd:string` | いいえ | デフォルトの表示カラープロファイルとして使用する IccProfile アセット。 |
-| iptcExifMappingXsltHandle | `xsd:string` | いいえ | IPTCおよび EXIF メタデータの IPS メタデータフィールドへのマッピングに使用される XSL アセット。 |
-| xmpMappingXsltHandle | `xsd:string` | いいえ | XMP メタデータを IPS メタデータフィールドにマッピングするために使用される XSL アセット。 |
-| diskSpaceWarningMin | `xsd:int` | いいえ | 警告メッセージが送信される前に使用可能な最小空きディスク領域（KB 単位）。 |
-| emailTrashCleanupWarning | `xsd:boolean` | いいえ | `true` に設定すると、アセットがごみ箱から空になるたびに会社管理者に通知が送信されます。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
+| overwriteMode | `xsd:string` | いいえ | アセットの上書きモード： |
+| retainPublishState | `xsd:boolean` | いいえ | アセットが再アップロードされたときに公開状態を保持するには、`true`に設定します。 |
+| defaultSourceProfileHandle | `xsd:string` | いいえ | デフォルトのソースカラープロファイルとして使用するIccProfile アセット。 |
+| defaultDisplayProfileHandle | `xsd:string` | いいえ | デフォルトの表示カラープロファイルとして使用するIccProfile アセット。 |
+| iptcExifMappingXsltHandle | `xsd:string` | いいえ | IPTCおよびEXIF メタデータをIPS メタデータフィールドにマッピングするために使用されるXSL アセット。 |
+| xmpMappingXsltHandle | `xsd:string` | いいえ | XMP メタデータをIPS メタデータフィールドにマッピングするために使用されるXSL アセット。 |
+| diskSpaceWarningMin | `xsd:int` | いいえ | 警告メッセージを送信する前に使用可能な最小の空きディスク容量（KB単位）。 |
+| emailTrashCleanupWarning | `xsd:boolean` | いいえ | アセットがごみ箱から空になるたびに会社管理者に通知を送信するには、`true`に設定します。 |
 
-**出力（setCompanySettingsReturn）**
+**Output （setCompanySettingsReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 

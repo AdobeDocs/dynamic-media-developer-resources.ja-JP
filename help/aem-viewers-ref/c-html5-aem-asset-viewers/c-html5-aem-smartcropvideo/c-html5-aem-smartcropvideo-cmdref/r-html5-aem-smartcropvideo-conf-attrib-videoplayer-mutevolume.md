@@ -6,10 +6,18 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Km4jqmfEQyd6kvGfK3mgwwLrIqKDMKdX-yh-ITgzK90'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 5%
+source-wordcount: 60
+ht-degree: 8%
 
 ---
 
@@ -23,7 +31,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph">1 に設定すると音量はミュート </span>、設定しないとビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオの再生をミュートすると、ビデオが自動再生されることもあります。 </p> </td> 
+   <td colname="col2"> <p> 初回読み込み時のビデオ再生のミュートモードを設定します。 <span class="codeph"> 1 </span>に設定すると、ボリュームはミュートされます。それ以外の場合、ビデオはサウンドで再生されます。 特定のデバイスでは、読み込み時にビデオ再生をミュートすると、ビデオを自動再生することもできます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

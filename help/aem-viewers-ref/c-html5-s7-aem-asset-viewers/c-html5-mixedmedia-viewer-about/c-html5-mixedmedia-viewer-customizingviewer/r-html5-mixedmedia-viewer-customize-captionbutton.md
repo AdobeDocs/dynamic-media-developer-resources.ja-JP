@@ -1,26 +1,34 @@
 ---
-title: キャプションボタン
-description: クローズドキャプションの表示/非表示を切り替えます。 caption パラメーターが指定されていない場合は表示されません。 CSS を使用して、このボタンのサイズ、スキンおよび位置を、ボタンを含むコントロールバーを基準に指定できます。
+title: 「キャプション」ボタン
+description: クローズドキャプション表示のオンとオフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対してサイズ、スキン、位置を調整できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/nJuUS-aJP6AHLF7DkIkenko7IKATRMVL7799m-QWw5U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: 276
 ht-degree: 0%
 
 ---
 
-# キャプションボタン{#caption-button}
+# 「キャプション」ボタン{#caption-button}
 
-クローズドキャプションの表示/非表示を切り替えます。 caption パラメーターが指定されていない場合は表示されません。 CSS を使用して、このボタンのサイズ、スキンおよび位置を、ボタンを含むコントロールバーを基準に指定できます。
+クローズドキャプション表示のオンとオフを切り替えます。 キャプションパラメーターが指定されていない場合は表示されません。 CSSを使用して、このボタンを含むコントロールバーに対してサイズ、スキン、位置を調整できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-ボタンの外観は、次の CSS クラスセレクターで制御します。
+ボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton
@@ -35,47 +43,47 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む上部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含めて、右側のボーダーから配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む右端からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>パディングを含めて、左のボーダーから配置します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">さんが</span>を残しました </p> </td> 
+   <td colname="col2"> <p>パディングを含む左端からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p>下罫線からパディングを含めて移動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む下部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p>特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> ージ </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS スプライト </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンは、`state` 属性セレクターと選択属性セレクターをサポートしています。これらを使用して、異なるボタン状態に異なるスキンを適用できます。 特に、`selected='true'` はキャプションが表示される状態に対応し、`selected='false'` はキャプションが非表示の場合に使用されます。
+>このボタンは、`state`属性セレクターと選択した属性セレクターをサポートしています。この機能を使用すると、異なるスキンを異なるボタンの状態に適用できます。 特に、`selected='true'`はキャプションが表示されている状態に対応し、`selected='false'`はキャプションが非表示の状態に使用されます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
-例 – 28 x 28 ピクセルのクローズドキャプションボタンを設定するには、上部から 4 ピクセル、コントロールバーの右端から 68 ピクセルの位置に配置します。 最後に、は、選択または未選択の場合、4 つの異なるボタン状態ごとに異なる画像を表示します。
+例 – 28 x 28 ピクセルで、上部から4 ピクセル、コントロールバーの右端から68 ピクセルに配置されたクローズドキャプションボタンを設定します。 最後に、選択または選択されていない4つの異なるボタンの状態ごとに異なる画像が表示されます。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 

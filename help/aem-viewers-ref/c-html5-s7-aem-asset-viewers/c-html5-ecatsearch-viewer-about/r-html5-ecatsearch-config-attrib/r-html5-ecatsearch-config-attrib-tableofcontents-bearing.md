@@ -5,9 +5,17 @@ title: TableOfContents.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/LSZTGA6CTiPoNdKYO481BFXT-ApEDcF4QOf1nsh-8fo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: 164
 ht-degree: 1%
 
 ---
@@ -20,11 +28,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> ドロップダウンパネルの外観の方向を制御します。 </p> <p><span class="codeph"> fit-vertical</span> に設定すると、コンポーネントは最初に基本パネルの位置をボタンの下部に移動し、基本パネルの位置から右または左にパネルをロールアウトしようとします。 試行のたびに、コンポーネントはパネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントはベースパネルの位置を上に移動しようと試み、ロールアウトの試行を右方向と左方向に繰り返します。 </p> <p>「フィット – ラテラル <span class="codeph">」 </span> 設定した場合、コンポーネントは同様のロジックを使用しますが、最初にベースを右に移動し、ロールアウト方向を下に向けたり上に向けたりします。 次に、ベースを左に移動し、ロール アウト方向を上下に試します。 </p> </td> 
+   <td> <p> ドロップダウンパネルのアピアランスの方向を制御します。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは最初にベースパネルの位置をボタンの下部に移動し、ベースパネルの位置から右側または左側にロールアウトしようとします。 コンポーネントは、試行するたびに、パネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントはベースパネルの位置を上に移動し、左右の方向にロールアウトを繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定すると、コンポーネントは同様のロジックを使用しますが、最初にベースを右にシフトし、ロールアウト方向を上下させます。 次に、ベースを左に移動し、上下にロールアウトする方向を試します。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> ユーザーがアイドル状態のときにパネルを非表示にするドロップダウン自動非表示タイマーの遅延を秒単位で設定します。 </p> </td> 
+   <td> <p> ユーザーがアイドル状態のときにパネルを非表示にするドロップダウン自動非表示タイマーの遅延時間を秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

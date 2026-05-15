@@ -1,23 +1,33 @@
 ---
-title: 支援テクノロジーのサポート
-description: すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
+title: 技術サポート
+description: すべてのビューアーコンポーネントは、ARIA （Accessible Rich Internet Applications）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を向上させます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
 role: Developer,User
 exl-id: 39e64f35-543f-4977-a97a-0daa93786ff3
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/G19CyChLIW5c9aK-ZGnUBRQtSB31YY7nK0Ia90WwaDc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 204
 ht-degree: 0%
 
 ---
 
-# 支援テクノロジーのサポート{#assistive-technology-support}
+# 技術サポート{#assistive-technology-support}
 
-すべてのビューアコンポーネントでは、ARIA （アクセシブルリッチインターネットアプリケーション）の役割と属性をサポートして、スクリーンリーダーなどの支援テクノロジーとの統合を強化しています。
+すべてのビューアーコンポーネントは、ARIA （Accessible Rich Internet Applications）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を向上させます。
 
-最上位のビューア要素にはロール `region` があり、`aria-label` の属性はデフォルトでビューアの名前に設定されています。 `Container.LABEL` のローカリゼーションシンボルを使用してラベルを制御できます。
+最上位のビューア要素には、デフォルトでビューアの名前に設定されている役割`region`および`aria-label`属性があります。 ラベルは、`Container.LABEL` ローカライズ記号で制御できます。
 
-メインビューにはロール `application` があります。 メインビューの簡単な説明が `aria-roledescription` に提供され、対応するメインビューコンポーネントの `ROLE_DESCRIPTION` のローカリゼーションシンボルによって定義された値が提供されます。 キーボードユーザー向けのナビゲーションヒントは `aria-describedby` を使用して提供されます。使用ヒントのテキストは、`USAGE_HINT` のローカリゼーション記号から取得されます。 アセットの UserData フィールドにラベルが定義されている場合、`aria-label` 属性はそのラベルの値で設定されます。
+メイン ビューには役割`application`があります。 メインビューの簡単な説明は`aria-roledescription`で提供され、対応するメインビューコンポーネントの`ROLE_DESCRIPTION` ローカライゼーションシンボルで定義された値が示されます。 キーボードユーザーのナビゲーションヒントは`aria-describedby`を使用して提供され、使用ヒントのテキストは`USAGE_HINT` ローカライゼーションシンボルから取得されます。 アセットにUserData フィールドで定義されたラベルがある場合、`aria-label`属性にはそのようなラベルの値が設定されます。
 
-ホットスポット、地域および画像マップには、役割 `button` と、ホットスポットまたは画像マップのラベルの値を `aria-label` つ属性を持つ説明テキストが設定されています。 ユーザーがホットスポットまたは画像マップにフォーカスを置くと、`aria-describedby` を使用してキーボードユーザーに対するナビゲーションヒントが提供され、使用ヒントのテキストは `USAGE_HINT` のローカライズ記号から得られます。
+ホットスポット、地域、画像マップには、役割`button`と説明テキストが`aria-label`属性で設定され、ホットスポットまたは画像マップのラベルの値が設定されています。 ユーザーがホットスポットまたは画像マップに注目すると、キーボードユーザーのナビゲーションヒントが`aria-describedby`を使用して提供され、使用ヒントのテキストは`USAGE_HINT` ローカライゼーションシンボルから取得されます。

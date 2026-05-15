@@ -5,9 +5,17 @@ title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/j-wK2g-evSRY0YD3ZspgT--giCkKJl1VBYgPylixVz8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 96
 ht-degree: 10%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 10%
 
 構文
 
-## 許可されているユーザータイプ {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 承認済みユーザータイプ {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +38,13 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | グループメンバーシップを設定するユーザーのハンドル。 |
-| companyHandle | `xsd:string` | いいえ | 会社ハンドル。 |
+| userHANDLE | `xsd:string` | いいえ | グループメンバーシップを設定するユーザーへのハンドル。 |
+| companyHandle | `xsd:string` | いいえ | 会社のハンドル。 |
 | groupHandleArray | `types:HandleArray` | はい | ユーザーが属するグループへのハンドルの配列。 |
 
 **出力（setGroupMembershipReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-67b86d259df24938896fe19061845811}
 

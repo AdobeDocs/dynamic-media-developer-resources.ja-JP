@@ -5,10 +5,18 @@ title: EmbedShare.embedsizes
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 68103754-1cbb-4e8d-b2b5-2770a7658140
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Vgm2ABIPij6vSI3TPZhZAf4f2GlIhdEkctlpJEcdHZs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 9%
+source-wordcount: 29
+ht-degree: 17%
 
 ---
 
@@ -19,16 +27,16 @@ ht-degree: 9%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">幅</span> </span> </p> </td> 
    <td colname="col2"> <p>埋め込み幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 高さ </span></span> </p> </td> 
-   <td colname="col2"> <p>埋め込みの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">の高さ</span> </span> </p> </td> 
+   <td colname="col2"> <p>埋め込み高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> このリスト項目を最初にコンボ ボックスで事前に選択するかどうかを指定します。 </p> </td> 
+   <td colname="col2"> <p> このリスト項目を最初にコンボボックスで選択するかどうかを指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

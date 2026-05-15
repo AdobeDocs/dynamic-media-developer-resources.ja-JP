@@ -5,9 +5,17 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/Xq8CN-zcvF-whTHFUuW2q8Pr4ev6rW0z3c7uedFyZyM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: 53
 ht-degree: 7%
 
 ---
@@ -22,11 +30,11 @@ ht-degree: 7%
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| assetHandle | `xsd:string` | フォントアセットハンドル。 |
+| assetHandle | `xsd:string` | フォントアセットハンドル： |
 | fontName | `xsd:string` | フォント名。 |
 | postscriptName | `xsd:string` | PostScript フォント名。 |
 | rtfName | `xsd:string` | リッチテキストフォント名。 |
 | [!DNL fontFamily] | `xsd:string` | フォントファミリー名。 |
 | [!DNL style] | `xsd:string` | フォントスタイル（値についてはフォントスタイルを参照）。 |
 | typeName | `xsd:string` | フォントタイプ名。 |
-| [!DNL type] | `xsd:string` | フォントタイプ（値については、フォントタイプを参照してください）。 |
+| [!DNL type] | `xsd:string` | フォントタイプ（値についてはフォントタイプを参照）。 |

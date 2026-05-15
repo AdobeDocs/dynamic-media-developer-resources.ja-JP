@@ -1,21 +1,29 @@
 ---
-description: 画像サービングは、ISO-8859-1 および UTF-8 エンコーディングの画像カタログをサポートします。
+description: 画像サービングは、ISO-8859-1およびUTF-8 エンコーディングを使用した画像カタログをサポートしています。
 solution: Experience Manager
 title: 文字エンコーディング
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e6e50c2a-53d3-4776-a3f6-4a9d3407e562
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/tsIJu-zCT-NlV6SD1I1pPYQ0DfqNcu9jSCBVXCcQ9tE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: 104
 ht-degree: 0%
 
 ---
 
 # 文字エンコーディング{#character-encoding}
 
-画像サービングは、ISO-8859-1 および UTF-8 エンコーディングの画像カタログをサポートします。
+画像サービングは、ISO-8859-1およびUTF-8 エンコーディングを使用した画像カタログをサポートしています。
 
-各ファイルのエンコードを指定するには、バイト順マーク （BOM）を使用します。 UTF-8 の場合、BOM はバイト シーケンス `EF BB BF` です。 UTF-8 エンコーディングは、この文字シーケンスが各画像カタログファイルの先頭で検出された場合に想定されます。 その他のバイトシーケンスの場合、ファイルは ISO-8859-1 規格にエンコードされたものとして解釈されます。
+バイトオーダーマーク（BOM）を使用して、各ファイルのエンコーディングを指定します。 UTF-8の場合、BOMはバイト シーケンス `EF BB BF`です。 UTF-8 エンコーディングは、この文字シーケンスが各画像カタログファイルの先頭で検出された場合に想定されます。 他のバイト列では、ファイルはISO-8859-1規格にエンコードされていると解釈されます。
 
-最新のアプリケーションの多くは、UTF-8 で設定されている場合、自動的に BOM を挿入します。
+UTF-8用に設定されている多くの現代的なアプリケーションでは、BOMが自動的に挿入されます。

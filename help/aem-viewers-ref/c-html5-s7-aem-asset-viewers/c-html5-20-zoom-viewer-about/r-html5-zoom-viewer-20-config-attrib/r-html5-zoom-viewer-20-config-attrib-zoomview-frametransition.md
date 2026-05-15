@@ -5,30 +5,38 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/bnR4MQtKYsqMEDEyJN2iFpJNLMWcsc-s9mK4XQW5qpE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: 99
 ht-degree: 4%
 
 ---
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`duration`*[, *`spacing`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`期間`*[, *`間隔`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|フェード|スライド </span> </p> </td> 
-   <td colname="col2"> <p>フレーム変更時に適用する効果のタイプを指定します。 アトリビュート <span class="codeph">none はトランジション </span> ないことを表し、フレームの変更は即座に行われます。 フェード <span class="codeph"> のアトリビュート </span>、古いフレームと新しいフレームの間のクロス フェードのトランジションを意味します。 スライド <span class="codeph"> の属性 </span> は、古いフレームがビューからスライドし、新しいフレームがスライドするトランジションがアクティブになります。 </p> </td> 
+   <td colname="col2"> <p>フレーム変更に適用されるエフェクトのタイプを指定します。 属性<span class="codeph"> none </span>は遷移を表しません。フレームの変更は即座に行われます。 属性<span class="codeph"> フェード </span>は、古いフレームと新しいフレームの間のクロスフェード移行を意味します。 属性<span class="codeph"> スライド </span>は、古いフレームがビューからスライドし、新しいフレームがスライドするトランジションをアクティブにします。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
-   <td colname="col2"> <p>フェード <span class="codeph"> またはスライド切り替え効果 </span> デュレーション （秒） <span class="codeph"> 指定 </span> ます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">期間</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> フェード </span>または<span class="codeph"> スライド </span>のトランジション エフェクトのデュレーション （秒）を指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> spacing </span> </span> </p> </td> 
-   <td colname="col2"> <p>スライド <span class="codeph"> トランジション内の隣接 </span> るフレーム間の間隔は、0 <span class="codeph"> ～ </span> 1 <span class="codeph"> の範囲 </span> あり、コンポーネントの幅に対して相対的です。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">の間隔</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> スライド </span>のトランジションの隣接するフレーム間の間隔は、<span class="codeph"> 0 </span> ～ <span class="codeph"> 1 </span>の範囲で、コンポーネントの幅に対して相対的です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

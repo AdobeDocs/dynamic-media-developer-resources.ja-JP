@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/0TPdelyo72hyAafiQceq4PVcvELkkvydaBaaRpwb7zQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: 35
 ht-degree: 11%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->このコマンドはビデオ画像ビューアには適用されません。
+>このコマンドは、ビデオ画像ビューアには適用されません。
 
 ` config2= *`companypreset`*`
 
@@ -26,7 +34,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span> 設定プリセットの名前。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>設定プリセットの名前。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

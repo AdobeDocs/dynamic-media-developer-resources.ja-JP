@@ -5,9 +5,17 @@ title: updateImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/b4eYUJJMox5hAC-vQAtOh189M1bP25VcDchnlvAYoHA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: 78
 ht-degree: 16%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 16%
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | 変更する画像セットを含む会社へのハンドル。 |
 | assetHandle | `xsd:string` | Ys | 変更する画像セットへのハンドル。 |
-| memberArray | `types:ImageSetMemberUpdateArray` | いいえ | 画像セットのメンバーをリセットします。 |
+| memberArray | `types:ImageSetMemberUpdateArray` | いいえ | 画像セットメンバーをリセットします。 |
 | thumbAssetHandle | `xsd:string` | いいえ | 画像セットのサムネールとして機能するアセットのハンドル。 |
 
 **出力（updateImageSetReturn）**

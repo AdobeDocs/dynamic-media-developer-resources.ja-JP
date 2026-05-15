@@ -1,20 +1,28 @@
 ---
-title: setLocalizedTexts
-description: ビデオビューア用のJavaScript API リファレンス。
+title: setLocalizedText
+description: ビデオビューア用JavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 89d6231d-8063-435f-864e-c352287e4764
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/OJjn6tUAaZKTe-QsNFIDerhO1QUSIfS4Ri6PILMVjlc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: 69
 ht-degree: 2%
 
 ---
 
-# setLocalizedTexts{#setlocalizedtexts}
+# setLocalizedText{#setlocalizedtexts}
 
-ビデオビューア用のJavaScript API リファレンス。
+ビデオビューア用JavaScript API リファレンス。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,16 +30,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> ローカリゼーションデータを含む {<span class="codeph"> Object</span>} JSON オブジェクト。 </p> <p>詳 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> くは、ユーザーインターフェイス要素のローカライゼーショ </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは、<i> ビューアのSDKユーザーガイド </i> および例も参照してください。 </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Object</span>} JSON オブジェクトとローカライゼーションデータ。 </p> <p>詳しくは、「<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> ユーザーインターフェイス要素のローカライゼーション </a>」を参照してください。 </p> <p>オブジェクトの内容について詳しくは、<i>Viewer SDK ユーザーガイド </i>および例も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1 つまたは複数のロケールの SYMBOL 値を設定します。 このパラメーターは、`init()` 前に呼び出す必要があります。
+1つ以上のロケールのローカライズシンボル値を設定します。 このパラメーターは`init()`の前に呼び出す必要があります。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

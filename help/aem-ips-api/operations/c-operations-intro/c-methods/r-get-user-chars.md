@@ -1,24 +1,32 @@
 ---
-description: 特定のフィールドで使用されている文字のリストを取得します。
+description: 特定のフィールドで使用される文字のリストを取得します。
 solution: Experience Manager
-title: getUserChar
+title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/ojFrVXletWbKwGTjfJIfRI9M9BBJT7zj4AGrvVMP6T8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 176
 ht-degree: 10%
 
 ---
 
-# getUserChar{#getuserchars}
+# getUserChars{#getuserchars}
 
-特定のフィールドで使用されている文字のリストを取得します。
+特定のフィールドで使用される文字のリストを取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-7023871be4d2442daf51ff060ca06d9a}
+## 承認済みユーザータイプ {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,29 +39,29 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| charField | `xsd:string` | はい | 検索するごみ箱の状態を決定します。 |
-| includeInactive | `xsd:boolean` | はい | 非アクティブユーザーを含めるか除外します。 IPS 以外の管理者ユーザーは、API 呼び出しを行う権限を付与される少なくとも 1 つの会社のアクティブメンバーである必要があります。 ユーザーにアクティブな会社のメンバーシップがない場合、認証エラーが返されます。 |
+| charField | `xsd:string` | はい | 検索するゴミ箱の状態を指定します。 |
+| includeInactive | `xsd:boolean` | はい | 非アクティブユーザーを含めるか除外します。 非IPS管理者ユーザーは、API呼び出しを行う権限を持つ少なくとも1つの企業のアクティブなメンバーである必要があります。 ユーザーにアクティブな会社メンバーシップがない場合、認証エラーが返されます。 |
 | includInvalid | `xsd:boolean` | いいえ | 無効なユーザーを含めるか除外します。 |
-| companyHandleArray | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルターします。 |
+| companyHandleArray | `types:HandleArray` | いいえ | 会社に基づいて結果をフィルタリングします。 |
 | groupHandleArray | `types:HandleArray` | いいえ | グループに基づいて結果をフィルタリングします。 |
-| userRoleArray | `types:StringArray` | いいえ | ユーザーロールに基づいて結果をフィルターします。 |
-| numChars | `xsd:int` | いいえ | >1 文字を有効にします。 |
+| userRoleArray | `types:StringArray` | いいえ | ユーザーの役割に基づいて結果をフィルタリングします。 |
+| numChars | `xsd:int` | いいえ | 1文字を超える文字を有効にします。 |
 
 **出力（getUserCharsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userCharsArray | `types:StringArray` | はい | 文字プレフィックスの配列。 |
+| userCharsArray | `types:StringArray` | はい | 文字接頭辞の配列。 |
 
 ## 例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
-このコードサンプルでは、次の情報が返されます。
+このコードサンプルでは、次の内容が返されます。
 
-* 特定の会社のユーザーの姓の先頭文字。
-* グループのセット。
-* ユーザーの役割のセット。
+* 特定の会社のユーザーの姓の最初の文字。
+* 一連のグループ。
+* 一連のユーザー役割。
 
-ユーザー文字フィルターフィールドの文字列定数は、返されるユーザー文字の種類を決定します。
+User Char Filter Fields文字列定数は、返されるユーザー文字の種類を決定します。
 
 **リクエスト**
 

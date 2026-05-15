@@ -1,22 +1,30 @@
 ---
-description: マルチビットレートデータ。
+description: マルチビットレートデータ：
 solution: Experience Manager
 title: mbrSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/j8HXFZEv-TJINp20XNewqo82k-Yy39Aey4FU4Tm8AVc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 253
 ht-degree: 0%
 
 ---
 
 # mbrSet{#mbrset}
 
-マルチビットレートデータ。
+マルチビットレートデータ：
 
-`req=mbrSet[,text|xml[, *`encoding`*]][&fmt= *`fmtType`*]`
+`req=mbrSet[,text|xml[, *` エンコーディング `*]][&fmt= *`fmtType`*]`
 
 <table id="simpletable_D2B8704E09B34337870A257CD7CB5C56"> 
  <tr class="strow"> 
@@ -29,16 +37,16 @@ ht-degree: 0%
  </tr> 
 </table>
 
-ネットパス ID に関連付けられたビデオセット内の有効なビデオエントリに対応する URL （および対応するビットレート）のリストを含む、テキストまたは xml 応答を返します。
+ネットパス IDに関連付けられたビデオセット内の有効なビデオエントリに対応するURL （および対応するビットレート）のリストを含むテキストまたはxml応答を返します。
 
-有効なビデオエントリに `catalog::VideoBitRate` の値が含まれているという以前の要件が緩和されました。 エントリには `catalog::VideoBitRate`*or*`catalog::AudioBitRate`*or* `catalog::TotalStreamBitRate` の値を含めることができます。 ビデオエントリを有効にするには、これらのうち 1 つだけを定義する必要があります。 `catalog::Path` と有効なビデオファイル拡張子の要件は変更されていません。
+有効なビデオエントリに`catalog::VideoBitRate`の値が含まれているという以前の要件が緩和されました。 エントリには、`catalog::VideoBitRate`*または* `catalog::AudioBitRate`*または* `catalog::TotalStreamBitRate`の値を含めることができます。 ビデオエントリを有効にするには、これらのいずれかを定義する必要があります。 `catalog::Path`と有効なビデオファイル拡張子の要件は変更されていないことに注意してください。
 
-応答は、Appleおよび Flash ストリーミングサーバーでの使用を目的としているので、これらの仕様に構造的に準拠しています。 URL は、プレフィックス `attribute::HttpAppleStreamingContext` および `attribute::HttpFlashStreamingContext` を使用して生成されます。
+応答は、AppleおよびFlash ストリーミングサーバーによる使用を目的としているため、これらの仕様に構造的に準拠しています。 URLは、接頭辞`attribute::HttpAppleStreamingContext`と`attribute::HttpFlashStreamingContext`を使用して生成されます。
 
-m3u8 の応答には、ビデオセットに mp4 ファイルが存在する場合にのみ mp4 ファイルが含まれます。 mp4 ファイルが存在しない場合、これらの応答には f4v ファイルのみが含まれます。 mp4 ファイルも f4v ファイルも存在しない場合、応答は空になります。
+m3u8応答には、ビデオセットに存在するmp4 ファイルのみが含まれます。 mp4 ファイルが存在しない場合、これらの応答にはf4v ファイルのみが含まれます。 mp4 ファイルもf4v ファイルも存在しない場合、応答は空になります。
 
-f4m 応答には、ビデオセットに f4v ファイルが存在する場合のみ含まれます。 f4v ファイルが存在しない場合、これらの応答には mp4 ファイルのみが含まれます。 f4v ファイルも mp4 ファイルも存在しない場合、応答は空になります。
+f4m応答には、ビデオセットにf4v ファイルが存在する場合にのみ含まれます。 f4v ファイルが存在しない場合、これらの応答にはmp4 ファイルのみが含まれます。 f4v ファイルもmp4 ファイルも存在しない場合、応答は空になります。
 
-f4m/m3u8 応答に表示されるビットレートは、`catalog::TotalStreamBitRate` の値（適切な単位に変換されたもの）に対応しています。 `catalog::TotalStreamBitRate` が定義されていない場合、`catalog::VideoBitRate` と `catalog::AudioBitRate` の合計が使用されます。
+f4m/m3u8応答に表示されるビットレートは、`catalog::TotalStreamBitRate`の値（適切な単位に変換）に対応します。 `catalog::TotalStreamBitRate`が定義されていない場合、`catalog::VideoBitRate`と`catalog::AudioBitRate`の合計が使用されます。
 
-HTTP 応答は、`catalog::NonImgExpiration` に基づく TTL でキャッシュ可能です。
+HTTP応答は、`catalog::NonImgExpiration`に基づくTTLでキャッシュできます。

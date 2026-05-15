@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/D95dvILCIpQtQ6D1TcPwj-xfgjXb6AvyMmm5vDlemWw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: 85
 ht-degree: 3%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>カスタム CSS ファイル、クローズドキャプションコンテンツ、ナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスの先頭に/<span class="filepath"> という </span> がない場合は、ビューアのHTML ページの場所に対する相対パスになります。 パスの先頭 <span class="filepath">/</span> の場合は、同じサーバー上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、デフォルトの CSS ファイルの読み込みには影響しません。 </p> </td> 
+   <td colname="col2"> <p>カスタム CSS ファイル、クローズドキャプションコンテンツ、またはナビゲーションコンテンツへのベースパスを指定します。 </p> <p>パスに先頭の<span class="filepath"> /</span>がない場合は、ビューアのHTML ページの場所を基準としています。 パスの先頭に<span class="filepath"> /</span>がある場合は、同じサーバー上の絶対パスを指定します。 </p> <p> スタイルコマンドを指定しない場合、デフォルトのCSS ファイルの読み込みに影響しません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

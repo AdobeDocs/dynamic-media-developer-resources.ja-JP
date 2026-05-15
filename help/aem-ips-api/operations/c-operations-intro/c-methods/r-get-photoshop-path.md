@@ -1,24 +1,32 @@
 ---
-description: 指定されたPhotoshop パスを含む四辺形の座標を返します。
+description: 指定されたPhotoshop パスを囲む四角形の座標を返します。
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/oYuZ7LC10b-3r3VvI-Kg4tlD7rMtshcswi3hctp6aUM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: 86
 ht-degree: 16%
 
 ---
 
 # getPhotoshopPath{#getphotoshoppath}
 
-指定されたPhotoshop パスを含む四辺形の座標を返します。
+指定されたPhotoshop パスを囲む四角形の座標を返します。
 
 構文
 
-## 許可されているユーザータイプ {#section-c417a287612847cb98dd0aa9c67fd78a}
+## 承認済みユーザータイプ {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +35,7 @@ ht-degree: 16%
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* “
+* &quot;
 
 ## パラメーター {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -35,7 +43,7 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 操作する画像を持つ会社にハンドルします。 |
+| companyHandle | `xsd:string` | はい | 取り扱う画像を持つ会社に処理します。 |
 | assetHandle | `xsd:string` | はい | 画像アセットへのハンドル。 |
 | pathName | `xsd:string` | はい | 返すPhotoshop パスの名前。 |
 
@@ -43,7 +51,7 @@ ht-degree: 16%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| perspectiveQuad | `types:PerspectiveQuad` | はい | パスに基づいて画像座標を返します。 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204) を参照してください。 |
+| perspectiveQuad | `types:PerspectiveQuad` | はい | パスに基づいて画像座標を返します。 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)を参照してください。 |
 
 ## 例 {#section-1f0461cbdc184c8d8925336d5279db47}
 

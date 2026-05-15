@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 75ac93b4-fd76-4a2c-ba6a-c99baefaecec
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/ximrML17BTIRKpNHLaR9u2CSS6aO-Vvpu2i50jA8q1w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 9%
+source-wordcount: 31
+ht-degree: 22%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 読み込み時にビデオの再生を開始するかどうかを示します。 一部のシステム（特定のモバイルデバイスなど）では、オートプレイがサポートされません。 </p> </td> 
+   <td colname="col2"> <p> ビューアがロード時にビデオの再生を開始するかどうかを示します。 一部のモバイルデバイスなどの一部のシステムでは、自動再生がサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

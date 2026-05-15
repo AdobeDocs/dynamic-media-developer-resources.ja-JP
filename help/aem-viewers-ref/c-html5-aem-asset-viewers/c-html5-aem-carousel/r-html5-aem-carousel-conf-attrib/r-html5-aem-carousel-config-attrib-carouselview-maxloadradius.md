@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/4Y80Zk6LM5VWBWmMA8-EpIlecj8cfgt2eMdDX1g-ViM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: 66
 ht-degree: 4%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1 に設定すると </span> アイドル状態の場合に、コンポーネントがすべてのカルーセルフレームをプリロードします。 </p> <p><span class="codeph"> 0 に設定すると </span> 現在表示されているフレーム、前のフレーム、次のフレームのみがコンポーネントによって読み込まれます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> アイドル状態のときに、現在表示されているフレームの周囲の非表示フレームをいくつプリロードするかを定義します。 </p> </td> 
+   <td> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントは、アイドル状態にあるときにすべてのカルーセルフレームをプリロードします。 </p> <p><span class="codeph"> 0</span>に設定すると、コンポーネントは現在表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>は、アイドル状態のときに、現在表示されているフレームの周囲にある目に見えないフレームの数をプリロードするかを定義します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

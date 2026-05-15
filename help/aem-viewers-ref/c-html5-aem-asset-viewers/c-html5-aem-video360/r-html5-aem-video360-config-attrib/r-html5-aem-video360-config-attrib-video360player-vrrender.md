@@ -1,20 +1,28 @@
 ---
 title: Video360Player.vrrender
-description: Video360 ビューアの設定属性
+description: Video360 Viewerの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/nLKdOlxSKs9s8kU84pqGAtsfAinOzUtyZShTaOWCOUY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 10%
+source-wordcount: 30
+ht-degree: 16%
 
 ---
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Video360 ビューアの設定属性
+Video360 Viewerの設定属性。
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
@@ -22,7 +30,7 @@ Video360 ビューアの設定属性
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>バーチャルリアリティレンダリングモードを有効にするかどうかを指定します。 VR ヘッドセットでは無視されます。 </p> </td> 
+   <td colname="col2"> <p>仮想現実レンダリングモードが有効かどうかを指定します。 VR ヘッドセットでは無視されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

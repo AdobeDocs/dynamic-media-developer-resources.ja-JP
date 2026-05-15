@@ -1,24 +1,32 @@
 ---
-description: ユーザーのメンバーシップを会社配列で取得します。
+description: ユーザーのメンバーシップを企業配列で取得します。
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/h-fjzt4o5zdyVkWh9pkWDLs6KXTF3--s4koIQv77Zno'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 14%
 
 ---
 
 # getCompanyMembership{#getcompanymembership}
 
-ユーザーのメンバーシップを会社配列で取得します。
+ユーザーのメンバーシップを企業配列で取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-f8bba547e1f648648be99dc48fd72b5d}
+## 承認済みユーザータイプ {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,17 +45,17 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | いいえ | メンバーシップを取得するユーザーへのハンドル。 |
+| userHANDLE | `xsd:string` | いいえ | メンバーシップを取得するユーザーへのハンドル。 |
 
 **出力（getCompanyMembershipReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | はい | 会社のメンバーシップの配列。 |
+| membershipArray | `types:CompanyMembershipArray` | はい | 企業のメンバーシップの配列。 |
 
 ## 例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-このコードサンプルでは、ユーザーハンドルを取得し、配列でユーザーのすべての会社メンバーシップを取得します。 簡潔にするために、応答は切り捨てられました。
+このコードサンプルは、ユーザーハンドルを取り出し、ユーザーのすべての会社メンバーシップを配列で取得します。 応答は簡潔にするために省略されています。
 
 **リクエスト**
 

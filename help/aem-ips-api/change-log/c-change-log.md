@@ -1,18 +1,27 @@
 ---
-description: 変更ログ
+description: ログを変更
 solution: Experience Manager
-title: 変更ログ
+title: ログを変更
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 15228b48-90a8-4d45-ade3-d5c6962549eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+autotag-review: '2026-05-13T21:02:55.747Z'
+TQID: 'https://experienceleague.adobe.com/01U2Yvnah2t1BBC1IobKe44fGM4-7Gi70iO-rPpy-q4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 70%
+source-wordcount: 20
+ht-degree: 0%
 
 ---
 
-# 変更ログ{#change-log}
+# ログを変更{#change-log}
 
 * [バージョン 6.0](c-change-log/c-6/c-6.md)
 * [バージョン 4.5](c-change-log/c-4-5/c-4-5.md)

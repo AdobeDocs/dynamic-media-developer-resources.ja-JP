@@ -1,24 +1,32 @@
 ---
-description: 選択した会社の指定したジョブ ログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+description: 選択した会社の指定されたジョブ ログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
 solution: Experience Manager
-title: getJobLog
+title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/lerbQ3ibPCI3zqkrmgPrwTAYp1w6dWxIWYRt2Ij51oA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: 184
 ht-degree: 9%
 
 ---
 
-# getJobLog{#getjoblogs}
+# getJobLogs{#getjoblogs}
 
-選択した会社の指定したジョブ ログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
+選択した会社の指定されたジョブ ログを取得します。 文字、方向、開始日と終了日、行数で並べ替えることができます。
 
 構文
 
-## 許可されているユーザータイプ {#section-9df82972265d44c9ad91504a17c3ffa6}
+## 承認済みユーザータイプ {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,13 +44,13 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | 会社のハンドル。 |
-| userHandle | `xsd:string` | いいえ | 特定のユーザーによって送信されたジョブのログを取得します。 |
-| sortBy | `xsd:string` | いいえ | ソートフィールドを選択できます。 |
-| sortDirection | `xsd:string` | いいえ | 並べ替え順（昇順または降順）。 |
-| startDate | `xsd:dateTime` | いいえ | ジョブ ログが開始された日時。 このフィールドに対するリクエストのタイムゾーンを指定します。 |
-| endDate | `xsd:dateTime` | いいえ | ジョブ ログが終了した日時。 このフィールドに対するリクエストのタイムゾーンを指定します。 |
-| numRows | `xsd:int` | いいえ | 返される行の最大数。 |
+| companyHandle | `xsd:string` | いいえ | 企業のハンドル。 |
+| userHANDLE | `xsd:string` | いいえ | 特定のユーザーによって送信されたジョブのログを取得します。 |
+| sortBy | `xsd:string` | いいえ | 並べ替えフィールドを選択できます。 |
+| sortDirection | `xsd:string` | いいえ | 並べ替え順序（昇順または降順）。 |
+| startDate | `xsd:dateTime` | いいえ | ジョブ・ログの開始日時。 このフィールドのリクエストをタイムゾーンに指定します。 |
+| endDate | `xsd:dateTime` | いいえ | ジョブのログが終了した日時。 このフィールドのリクエストをタイムゾーンに指定します。 |
+| numRows | `xsd:int` | いいえ | 返される最大行数。 |
 
 **出力（getJobLogsReturn）**
 
@@ -52,7 +60,7 @@ ht-degree: 9%
 
 ## 例 {#section-35871c94b4a44559912577efddbc46a6}
 
-このコードのサンプルでは、特定の会社の IPS ジョブログを返します。 また、特定のユーザー、会社およびユーザーのジョブログを返すためにも使用できます。
+このコードサンプルは、特定の会社のIPS ジョブログを返します。 また、特定のユーザーや企業、ユーザーのジョブログを返すために使用することもできます。
 
 **リクエスト**
 

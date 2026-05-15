@@ -1,47 +1,55 @@
 ---
-title: 「すべてのお気に入りを表示」ボタン
-description: ボタンの位置は、「お気に入り」メニューで完全に管理されます。
+title: 「View All Favorites」ボタン
+description: ボタンの位置は、お気に入りメニューで完全に管理されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e07da96d-e6ad-4257-afdb-f6967fb83f52
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/2hxomb1D0ERK8J-MAXy-YwL4fG0kqsw69FDteMVPHFU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 197
 ht-degree: 0%
 
 ---
 
-# 「すべてのお気に入りを表示」ボタン{#view-all-favorites-button}
+# 「View All Favorites」ボタン{#view-all-favorites-button}
 
-ボタンの位置は、「お気に入り」メニューで完全に管理されます。
+ボタンの位置は、お気に入りメニューで完全に管理されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-「すべてのお気に入りを表示」ボタンの表示は、次の CSS クラスセレクターで制御されます。
+「すべて見る」お気に入りボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7viewallfavoritebutton
 ```
 
-**「お気に入りを削除」ボタンの CSS プロパティ**
+お気に入りを削除ボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
  </tbody> 
@@ -49,11 +57,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このボタンは、`state` 属性セレクターと `selected` 属性セレクターの両方をサポートしており、異なるボタン状態に異なるスキンを適用するために使用できます。 特に、`selected='true'` れは、ユーザーがクリックまたはタップして新しいお気に入りアイコンを追加できる状態に対応します。 属性 `selected='false'` は、ユーザーがページのズーム、パン、スワップを行える場合の通常操作モードに対応します。
+>このボタンは、`state`と`selected`の両方の属性セレクターをサポートしており、異なるスキンを異なるボタンの状態に適用するために使用できます。 特に、`selected='true'`は、ユーザーがクリックまたはタップして新しいお気に入りアイコンを追加できる状態に対応しています。 属性`selected='false'`は、ユーザーがページをズーム、パン、スワップできる通常の操作モードに対応しています。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – 28 x 28 ピクセルの「すべてのお気に入りを表示」ボタンを設定し、選択または未選択の場合に 4 つの異なるボタン状態ごとに異なる画像を表示します。
+例 – 28 x 28 ピクセルの「すべて表示」のお気に入りボタンを設定し、選択または選択されていない場合に、4つの異なるボタンの状態ごとに異なる画像を表示する。
 
 ```
 .s7ecatalogviewer .s7viewallfavoritebutton { 

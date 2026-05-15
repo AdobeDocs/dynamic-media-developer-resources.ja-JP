@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/mTLUrXKC7m8pIC5Sqoor0M-N-vmwlZzM9WxnvwzlqD8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 2%
 
 ---
@@ -22,14 +30,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|フェード </span> </p> </td> 
-   <td colname="col2"> <p> コントロール バーとその内容の表示/非表示を切り替えるために使用する効果の種類を指定します。 </p> <p><span class="codeph"> なし」に設定すると </span> 表示/非表示を即座に切り替えることができます。 </p> <p>徐々にフェードイン/フェードアウトする効果を得るには <span class="codeph"> フェードを </span> に設定します。 Internet Explorer 8 ではサポートされていません。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示に使用するエフェクトタイプを指定します。 </p> <p>インスタント表示/非表示を切り替えるには、<span class="codeph"> none</span>に設定します。 </p> <p>段階的なフェードイン/フェードアウト効果を提供するために、<span class="codeph"> フェード </span>に設定します。 Internet Explorer 8ではサポートされていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> コントロールバーによって登録された最後のマウスまたはタッチイベントからタイムコントロールバーが非表示になるまでの時間（秒）を指定します。 <span class="codeph">-1 に設定すると </span> コンポーネントは自動的に隠す効果をトリガーしないので、常に画面に表示されたままになります。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーによって登録された最後のマウス/タッチイベントとタイムコントロールバーが非表示になるまでの時間を秒単位で指定します。 <span class="codeph"> -1</span>に設定した場合、コンポーネントは自動非表示エフェクトをトリガーしないため、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">期間</span></span> </p> </td> 
    <td colname="col2"> <p> フェードイン/フェードアウトアニメーションのデュレーションを秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
