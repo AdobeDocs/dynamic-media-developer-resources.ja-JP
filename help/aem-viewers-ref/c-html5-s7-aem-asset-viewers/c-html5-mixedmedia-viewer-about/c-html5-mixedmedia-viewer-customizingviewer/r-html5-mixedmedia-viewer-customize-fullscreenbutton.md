@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
 TQID: 'https://experienceleague.adobe.com/yW-fBfI-ZNLd3XuOyD93QjKfS7U-7u1FHqmrNajIDvg'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 317
@@ -77,7 +81,7 @@ ht-degree: 0%
 >
 >このボタンは、`state`と`selected`の両方の属性セレクターをサポートしており、異なるスキンを異なるボタンの状態に適用するために使用できます。 特に、`selected='true'`は「フルスクリーン」状態に対応し、`selected='false'`は「通常」状態に対応します。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 – 32 x 32 ピクセルで、ビューアの上端と右端から6 ピクセル配置されたフルスクリーンボタンを設定する場合。 最後に、選択または選択されていない4つの異なるボタンの状態ごとに異なる画像が表示されます。
 

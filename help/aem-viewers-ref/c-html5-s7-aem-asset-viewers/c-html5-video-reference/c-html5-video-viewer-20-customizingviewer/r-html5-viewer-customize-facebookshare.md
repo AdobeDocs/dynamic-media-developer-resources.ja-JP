@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
 TQID: 'https://experienceleague.adobe.com/vR0YUr40ckLJZ-QZnfZ6Lw9dNp1cSYcca98Ld35UriU'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 233
@@ -57,7 +61,7 @@ Facebook共有ツールの&#x200B;**CSS プロパティ**
 
 ソーシャル共有パネルからボタンを削除するには、CSS クラスに`display:none` CSS プロパティを設定します。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 28 x 28 ピクセルのFacebook共有ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示するには：
 

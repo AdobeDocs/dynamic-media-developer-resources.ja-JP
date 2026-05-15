@@ -7,10 +7,15 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
 TQID: 'https://experienceleague.adobe.com/mNYX-6RCjCIAAsK7Srog3i7VRyz-zZ3AD3OJ0lewg14'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 2153
@@ -42,7 +47,7 @@ Spin Viewerは、IS-Viewersを備えた実稼動対応のHTML ページを使用
 
 設定とスキニングは、他のビューアと同様です。 すべてのスキニングは、カスタム CSSを使用して実行できます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## Spin Viewerの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -81,7 +86,7 @@ Spin Viewerは、他のモバイルアプリケーションで一般的な次の
 
 このビューアにはキーボードから完全にアクセス可能です。
 
-[ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
+[&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
 ## スピンビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -168,7 +173,7 @@ target="_blank">Open popup viewer</a>
 
    CSSでは、HTML ページに直接サイズを設定するか、カスタムビューア CSS ファイルにサイズを設定できます。 その後、Dynamic Media Classicのビューアプリセットレコードに割り当てられるか、スタイルコマンドを使用して明示的に渡されます。
 
-   CSSを使用したビューアのスタイル設定について詳しくは、[ スピンビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)を参照してください。
+   CSSを使用したビューアのスタイル設定について詳しくは、[&#x200B; スピンビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)を参照してください。
 
    次に、HTML ページの静的ビューアサイズを定義する例を示します。
 

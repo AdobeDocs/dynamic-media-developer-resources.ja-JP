@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f9651405-ebc6-4b1f-8fb6-031d0b295083
 TQID: 'https://experienceleague.adobe.com/yfs-LkBjvAQEOmqnAZI1duikRWM-Nq2GpqgNh2fCF-c'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 202
@@ -40,7 +44,7 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
 
 -->
 
-「[ （URLをWeb アプリケーションにリンクする](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)」も参照してください。
+「[&#x200B; （URLをWeb アプリケーションにリンクする](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)」も参照してください。
 
 * 埋め込みコードを含むDynamic Media ビデオを公開する場合は、埋め込みコードスニペット内の他のビューア設定パラメーターのリストに`VideoPlayer.ssl`を追加します。
 
@@ -74,4 +78,4 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
 
 -->
 
-「[ （Web ページへのビデオの埋め込み](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)」も参照してください。
+「[&#x200B; （Web ページへのビデオの埋め込み](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)」も参照してください。

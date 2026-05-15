@@ -8,8 +8,10 @@ role: Developer,User
 exl-id: 90775d4a-386b-4b56-b75e-8afafe749645
 autotag-review: '2026-05-13T22:11:14.006Z'
 TQID: 'https://experienceleague.adobe.com/BVnqG7dsjPf9ldhfOwTnByGvC6XyB-ASuvL--fNJEkE'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
 source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
 source-wordcount: 89

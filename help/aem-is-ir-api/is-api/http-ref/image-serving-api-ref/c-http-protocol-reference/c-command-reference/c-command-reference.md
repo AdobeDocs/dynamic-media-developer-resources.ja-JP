@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 TQID: 'https://experienceleague.adobe.com/NURaQ7eznu6tyM5IhrlLMxaZ1L38L7t9lHb826jSyfs'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 324
@@ -30,7 +35,7 @@ ht-degree: 3%
 >* ネットワーク帯域幅
 >* DPR （デバイスピクセルレシオ）
 >
->スナップショットを簡単に使用する方法を説明するには、[ スナップショットトレーニングビデオ ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)を再生します（3分17秒）。
+>スナップショットを簡単に使用する方法を説明するには、[&#x200B; スナップショットトレーニングビデオ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)を再生します（3分17秒）。
 
 
 **Adobe Experience ManagerのDynamic Mediaの場合のみ** - ユーザーインターフェイスで使用できる基本的な画像設定を超えて、AEM （[!DNL Adobe Experience Manager]）の[!DNL Dynamic Media]では、**画像修飾子** フィールドで指定できる多数の高度な画像変更がサポートされています。 これらのパラメーターは以下で定義されます。 ただし、次の機能は、AEMのDynamic Mediaではサポートされていないことに注意してください。
@@ -47,7 +52,7 @@ ht-degree: 3%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 ドキュメントのDynamic Media [画像プリセットオプション ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)も参照してください。
+AEM 6.5 ドキュメントのDynamic Media [画像プリセットオプション &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)も参照してください。
 
 * [整列](r-align.md)
 * [アンカー](r-anchor.md)

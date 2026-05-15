@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
 TQID: 'https://experienceleague.adobe.com/h2bcjdutPEZID471oI-MWfxG4trg87bIeyAxvoMyKEA'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 166
@@ -47,7 +51,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* `IS`と`STATIC``AllowDirectAccess=exclude:IS,STATIC`を除くすべてのオブジェクトタイプに直接アクセスを許可する
+* `IS`と`STATIC` `AllowDirectAccess=exclude:IS,STATIC`を除くすべてのオブジェクトタイプに直接アクセスを許可する
 
 * *no* オブジェクトタイプに対する直接アクセスを許可します（つまり、なし）
 

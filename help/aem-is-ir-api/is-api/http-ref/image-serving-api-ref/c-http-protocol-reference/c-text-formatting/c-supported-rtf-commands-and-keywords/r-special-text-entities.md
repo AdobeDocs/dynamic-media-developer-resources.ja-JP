@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 TQID: 'https://experienceleague.adobe.com/WkEyXKu8K2l9NFlwZWsXE-NC8xJRNPEUdKijo58bagE'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 67
@@ -45,12 +49,12 @@ ht-degree: 2%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;brace; </span> </td> 
+   <td> <span class="codeph"> &brace; </span> </td> 
    <td> <p>中括弧を開きます。 </p> </td> 
    <td> <p>中括弧はHTTP エンコードする必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &rbrace; </span> </td> 
    <td> <p>中括弧を閉じます。 </p> </td> 
    <td> <p>中括弧はHTTP エンコードする必要があります。 </p> </td> 
   </tr> 

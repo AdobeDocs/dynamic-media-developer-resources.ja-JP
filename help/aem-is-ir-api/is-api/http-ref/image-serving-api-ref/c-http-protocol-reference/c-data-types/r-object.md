@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
 TQID: 'https://experienceleague.adobe.com/UL5jAeFV4IyldSWQDddhTNVUzS3Gt-qN2PyXky6cHrM'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 490
@@ -41,7 +45,7 @@ Source オブジェクト指定子。 Image、SVG、およびICC プロファイ
  </tr> 
 </table>
 
-*`rootId`*&#x200B;は画像カタログを識別します。 （詳しくは、[画像カタログ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照してください）。 URL パスに&#x200B;*`rootId`*&#x200B;が指定されている場合、そのカタログはこのリクエストの&#x200B;*メイン カタログ*&#x200B;になります。 そうでない場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
+*`rootId`*&#x200B;は画像カタログを識別します。 （詳しくは、[画像カタログ &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)を参照してください）。 URL パスに&#x200B;*`rootId`*&#x200B;が指定されている場合、そのカタログはこのリクエストの&#x200B;*メイン カタログ*&#x200B;になります。 そうでない場合は、デフォルトのカタログがメインカタログとして使用されます。 同じリクエストで複数の異なる画像カタログを使用できます。
 
 サーバーは最初、`src=`、`mask=`、および`icc=` コマンドで&#x200B;*`rootId`*&#x200B;が省略されていることを前提とし、メインカタログ内のカタログエントリを検索しようとします。 実際、サーバーは&#x200B;*`object`*&#x200B;文字列全体を&#x200B;*`objId.`*&#x200B;として使用しようとしています
 

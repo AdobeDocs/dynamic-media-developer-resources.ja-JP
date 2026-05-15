@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 TQID: 'https://experienceleague.adobe.com/Yo1xl9U8Ld3nzbeHm6pQxAncRKQIXEWimijQM4FjLtc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 588
@@ -31,7 +36,7 @@ Basic Zoom、eCatalog、eCatalog Search、Flyout、Inline Zoom、Mixed Media、S
 
 オペレーティングシステムとweb ブラウザーの設定に応じて、入力フォーカスを持つユーザーインターフェイス要素は視覚的なフォーカス表示を受け取ります。 例えば、ビジュアルインジケーターは、ユーザーインターフェイス要素の周囲に表示される細い境界線です。
 
-ビューア CSSでは、このようなフォーカスのハイライトを無効にしたり、カスタマイズしたりできます。 このヘルプシステムの目次で、特定のビューア名（基本ズームやインタラクティブビデオなど）の下で、**ビューアの&#x200B;*名前のカスタマイズ*** >** フォーカスハイライト **をクリックします。
+ビューア CSSでは、このようなフォーカスのハイライトを無効にしたり、カスタマイズしたりできます。 このヘルプシステムの目次で、特定のビューア名（基本ズームやインタラクティブビデオなど）の下で、**ビューアの&#x200B;*名前のカスタマイズ*** >**&#x200B; フォーカスハイライト &#x200B;** をクリックします。
 
 個々のビューアのユーザーインターフェイス要素でサポートされているキーストロークは、ほとんどの場合、わかりやすく、見つけやすいものです。
 

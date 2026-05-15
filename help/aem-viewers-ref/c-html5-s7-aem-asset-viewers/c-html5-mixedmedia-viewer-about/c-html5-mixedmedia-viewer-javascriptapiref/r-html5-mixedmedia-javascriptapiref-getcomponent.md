@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
 TQID: 'https://experienceleague.adobe.com/buSV2cmOQIytAc-N8Cd-FjAH-d-zwK-y4-Vfmf-24bI'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 210
@@ -127,7 +131,7 @@ Mixed Media Viewer用JavaScript API リファレンス
  </tbody> 
 </table>
 
-SDK APIを使用する場合は、[ ユーザーインターフェイス要素のローカライズ ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)で説明されているように、正しく完全修飾されたSDK名前空間を使用することが重要です。
+SDK APIを使用する場合は、[&#x200B; ユーザーインターフェイス要素のローカライズ &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)で説明されているように、正しく完全修飾されたSDK名前空間を使用することが重要です。
 
 特定のコンポーネントについて詳しくは、Viewer SDK API ドキュメントを参照してください。
 

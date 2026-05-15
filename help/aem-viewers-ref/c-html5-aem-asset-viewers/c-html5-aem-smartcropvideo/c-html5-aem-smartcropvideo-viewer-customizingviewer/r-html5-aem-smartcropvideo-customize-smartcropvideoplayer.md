@@ -7,8 +7,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 autotag-review: '2026-05-13T22:20:27.128Z'
 TQID: 'https://experienceleague.adobe.com/rIAk03o-xH-YQkln2YFJfSKqxoTK0ziIXG86NgrlJnM'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
 source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
 source-wordcount: 328
@@ -41,7 +43,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-システムがビデオを再生できない場合に表示されるエラーメッセージは、ローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+システムがビデオを再生できない場合に表示されるエラーメッセージは、ローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – スマート切り抜きビデオプレーヤーのサイズが512 x 288 ピクセルに設定されたスマート切り抜きビデオビューアを設定する場合。
 

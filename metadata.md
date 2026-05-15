@@ -9,9 +9,12 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
 index: true
 recommendations: noDisplay
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 autotag-review: '2026-05-13T21:05:27.428Z'
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt

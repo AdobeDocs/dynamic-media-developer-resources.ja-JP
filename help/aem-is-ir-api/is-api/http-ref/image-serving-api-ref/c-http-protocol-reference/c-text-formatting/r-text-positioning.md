@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
 TQID: 'https://experienceleague.adobe.com/7I2AvTFME7oJArnXGqgFmm1pqEDGq5syGguLHlkdvfg'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 312
@@ -32,38 +36,38 @@ ht-degree: 0%
 
 次の例は、事前サイズのテキスト用です。 セルフサイズのテキストの動作が異なります。
 
-** `Text=`は常に上に狭い余白を提供します：**
+**&#x200B; `Text=`は常に上に狭い余白を提供します：**
 
-![ テキストの配置の例1つの画像](assets/tp01.png)
+![&#x200B; テキストの配置の例1つの画像](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=`は、テキストボックスの上部にテキストを密接に整列させてレンダリングします。これにより、Arial®:**などの一般的なフォントでも、一部がクリッピングされます
+**&#x200B; `textPs=`は、テキストボックスの上部にテキストを密接に整列させてレンダリングします。これにより、Arial®:**&#x200B;などの一般的なフォントでも、一部がクリッピングされます
 
-![ テキストの配置の例2つの画像](assets/tp02.png)
+![&#x200B; テキストの配置の例2つの画像](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=`は、クリッピングを避けるために、レンダリングされたテキストを自動的に下に移動します：**
+**&#x200B; `text=`は、クリッピングを避けるために、レンダリングされたテキストを自動的に下に移動します：**
 
-![ テキスト配置の例3つの画像](assets/tp03.png)
+![&#x200B; テキスト配置の例3つの画像](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=`は、隆起した部分を含むテキストを移動しないため、テキストがレイヤー0:**にある場合、大幅にクリッピングされます
+**&#x200B; `textPs=`は、隆起した部分を含むテキストを移動しないため、テキストがレイヤー0:**&#x200B;にある場合、大幅にクリッピングされます
 
-![ テキスト配置の例4つの画像](assets/tp04.png)
+![&#x200B; テキスト配置の例4つの画像](assets/tp04.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
 **上部の10 pt （200 twips）の余白は、このテキストをクリッピングせずにレンダリングします：**
 
-![ テキスト配置の例5つの画像](assets/tp05.png)
+![&#x200B; テキスト配置の例5つの画像](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
 **特定のスクリプトフォントのレンダリングされた字形が、テキストボックスの外側に大きく広がる場合があります：**
 
-![ テキストの配置の例6つの画像](assets/tp06.png)
+![&#x200B; テキストの配置の例6つの画像](assets/tp06.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs={\fonttbl{\f1\fcharset0%20FluffyFont;}}\f1\fs88%20fluffy%20font%20problems`

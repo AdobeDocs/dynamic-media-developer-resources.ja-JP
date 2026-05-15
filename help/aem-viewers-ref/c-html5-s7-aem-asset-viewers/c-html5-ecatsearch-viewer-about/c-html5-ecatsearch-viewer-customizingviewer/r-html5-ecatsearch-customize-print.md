@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
 TQID: 'https://experienceleague.adobe.com/K6---N-n2HEfIOrD-tD8qndgz94GaNSi94PDfk5K4KM'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 1519
@@ -63,7 +67,7 @@ ht-degree: 0%
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 – 28 x 28 ピクセルの印刷ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示する場合。
 
@@ -245,7 +249,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-** 閉じるボタン**のCSS プロパティ
+**&#x200B; 閉じるボタン**&#x200B;のCSS プロパティ
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -284,7 +288,7 @@ background-color: #dddddd;
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 – パディング、22 x 22 ピクセルのアイコン、太字の16 ポイントタイトルを含むダイアログヘッダーを設定する。 最後に、28 x 28 ピクセルの「閉じる」ボタンを使用して、ダイアログボックスコンテナの上部から2 ピクセル、右側から2 ピクセルの位置に配置します。
 
@@ -332,7 +336,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-** ダイアログボックスのフッター**のCSS プロパティ
+**&#x200B; ダイアログボックスのフッター**&#x200B;のCSS プロパティ
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -463,7 +467,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 – 64 x 34 キャンセル ボタンと96 x 34 プリントに送信ボタンを持つダイアログボックスフッターを設定するには、ボタンの状態ごとにテキストの色と背景色が異なります。
 
@@ -531,7 +535,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-** ダイアログボックスの表示領域のCSS プロパティ **
+**&#x200B; ダイアログボックスの表示領域のCSS プロパティ &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +570,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-** ダイアログボックスの本文**のCSS プロパティ
+**&#x200B; ダイアログボックスの本文**&#x200B;のCSS プロパティ
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -648,7 +652,7 @@ background-color: #dddddd;
 
 このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるため、ラベルのサイズや位置の制御には適していません。
 
-** ダイアログボックスラベルのCSS プロパティ。 **
+**&#x200B; ダイアログボックスラベルのCSS プロパティ。 &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -671,7 +675,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-ダイアログボックスラベルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
+ダイアログボックスラベルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
 例 – すべてのラベルを9つのピクセルフォントを含むグレー、太字に設定するには：
 

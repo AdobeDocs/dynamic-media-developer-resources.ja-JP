@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
 TQID: 'https://experienceleague.adobe.com/jreocUOYeYBrId4tPQljML7YhWzxf10tefkkuXONlf4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 741
@@ -28,7 +32,7 @@ ht-degree: 0%
 
 **関連項目**
 
-[国際カラーコンソーシアム ](https://www.color.org/index.xalter)、[`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)、[`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)、`attribute::IccProfile*`、`attribute::IccProfileSrc*`、`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`、`attribute::IccDither`、ICC プロファイルマップ
+[国際カラーコンソーシアム &#x200B;](https://www.color.org/index.xalter)、[`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)、[`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)、`attribute::IccProfile*`、`attribute::IccProfileSrc*`、`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`、`attribute::IccDither`、ICC プロファイルマップ
 
 ## デフォルトのカラースペース {#section-8ce27edf42e746febe4654f8f19b9c0c}
 

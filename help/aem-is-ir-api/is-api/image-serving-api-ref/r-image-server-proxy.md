@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
 TQID: 'https://experienceleague.adobe.com/wJ6wQsus1QmfFbZ4FCM1nAmPdWacySEWaV9vfAA1fyg'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 240
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 ## URL の形式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS プロキシのURL形式は、通常のIS リクエストと非常によく似ています。 プロキシに渡されたIS修飾子はすべて、Image Serverに渡されます。 IS修飾子に関する情報は、[HTTP プロトコルリファレンス ](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)で確認できます。
+IS プロキシのURL形式は、通常のIS リクエストと非常によく似ています。 プロキシに渡されたIS修飾子はすべて、Image Serverに渡されます。 IS修飾子に関する情報は、[HTTP プロトコルリファレンス &#x200B;](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)で確認できます。
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 

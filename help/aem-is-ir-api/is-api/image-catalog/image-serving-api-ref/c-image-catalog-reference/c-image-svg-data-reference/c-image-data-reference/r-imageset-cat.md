@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
 TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 681
@@ -121,7 +125,7 @@ ht-degree: 1%
 
 テキスト文字列。 `catalog::Id`の値、絶対Image Server ファイル パス、または`attribute::RootPath`に対する相対ファイルパスをカンマで区切ったリスト。 同じ画像がセット内で複数回参照される場合があります。 定義されたカタログレコードは、任意の場所でセットに表示される場合があります。
 
-このフィールドは、テキスト文字列のローカライズに参加します。 *`label`*&#x200B;個の文字列（*`solidColorSpecifier`*&#x200B;の一部）に加えて、区切られたフィールドはすべて、1つ以上の&#39; `^loc=…^`&#39;ローカライズトークンが含まれている場合にローカライズされます。 詳しくは、*HTTP プロトコルリファレンス*&#x200B;の[ テキスト文字列のローカライゼーション ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)を参照してください。
+このフィールドは、テキスト文字列のローカライズに参加します。 *`label`*&#x200B;個の文字列（*`solidColorSpecifier`*&#x200B;の一部）に加えて、区切られたフィールドはすべて、1つ以上の&#39; `^loc=…^`&#39;ローカライズトークンが含まれている場合にローカライズされます。 詳しくは、*HTTP プロトコルリファレンス*&#x200B;の[&#x200B; テキスト文字列のローカライゼーション &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)を参照してください。
 
 ## 初期設定 {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +133,4 @@ ht-degree: 1%
 
 ## 関連トピック {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)、[属性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)、[ オブジェクト Id翻訳](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)、[ テキスト文字列のローカライゼーション ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)、画像サービングビューアのドキュメント
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)、[属性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)、[&#x200B; オブジェクト Id翻訳](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)、[&#x200B; テキスト文字列のローカライゼーション &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)、画像サービングビューアのドキュメント

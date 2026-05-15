@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 TQID: 'https://experienceleague.adobe.com/k6y17vYV0grmUUgiKK4insDO2GVJCgPQDuDZ-wEZXgQ'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 1428
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 ソーシャル共有パネルからボタンを削除するには、CSS クラスに`display:none` CSS プロパティを設定します。
 
-ボタンツールのヒントはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンツールのヒントはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 例 – 28 x 28 ピクセルのリンク共有ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示するには：
 
@@ -286,7 +290,7 @@ background-color: #ffffff;
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 **例** - パディング、22 x 12 ピクセルのアイコン、太字の16 ポイントのタイトルを含むダイアログボックスヘッダーを設定します。 最後に、ダイアログボックスコンテナの上部から2 ピクセル、右側から2 ピクセルに配置された28 x 28 ピクセルの「閉じる」ボタンを使用します。
 
@@ -467,7 +471,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ボタンツールのヒントはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ボタンツールのヒントはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 **例** - 64 x 34 キャンセル ボタンを持つダイアログボックスフッターを設定するには、ボタンの状態ごとにテキストの色と背景色が異なります。
 
@@ -620,7 +624,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ダイアログボックスラベルはローカライズできます。 [ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
+ダイアログボックスラベルはローカライズできます。 [&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)を参照してください。
 
 **例** – すべてのラベルを9つのピクセルフォントを含むグレーで太字に設定するには：
 

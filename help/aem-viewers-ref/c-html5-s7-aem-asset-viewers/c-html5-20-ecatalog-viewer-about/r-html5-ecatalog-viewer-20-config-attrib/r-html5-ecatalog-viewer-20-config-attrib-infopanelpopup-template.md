@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 20618017-2f73-4951-baa9-2063a0f4efcb
 TQID: 'https://experienceleague.adobe.com/e-j3Y9zymMOwlwNcz6Ouh0Asn1m5u-lx5zoRfUORN2U'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 196
@@ -24,14 +28,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> テンプレート </span></span> </p> </td> 
-   <td> <p>情報サーバーから返されたデータが結合されるコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、このDTDに続くXMLです。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>情報サーバーから返されたデータが結合されるコンテンツテンプレート。 </p> <p>コンテンツテンプレートは、このDTDに続くXMLです。 </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      ]&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
+      &rbrack;&gt;</code> </p> <p>コンテンツテンプレートの実際の構文は次のとおりです。 </p> <p> <code>&lt;info&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&rbrack;&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
       &lt;/info&gt;</code> </p> <p>つまり、テンプレートは、オプションのデフォルト <span class="codeph"> &lt;var&gt;</span>要素を含む<span class="codeph"> &lt;info&gt;</span>要素で開始する必要があります。 テンプレートコンテンツ自体、<span class="codeph"> TEMPLATE_CONTENT</span>はHTML テキストです。 さらに、コンテンツテンプレートには、<span class="codeph"> $</span>文字で囲まれた変数名が含まれている場合があります。これらの変数名は、info サーバーが返す変数値またはデフォルトの変数値に置き換えられます。 </p> <p>テンプレートで定義されるデフォルト変数は、グローバル変数（ロールオーバー属性が設定されていない場合）または特定のロールオーバーキーに固有の変数（ロールオーバー属性が存在する場合）です。 </p> <p>テンプレート処理中に、キーのロールオーバーに固有の変数がグローバル変数よりも優先されます。 </p> </td> 
   </tr> 

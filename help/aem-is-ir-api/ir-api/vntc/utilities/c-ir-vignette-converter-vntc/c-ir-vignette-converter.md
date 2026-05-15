@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 TQID: 'https://experienceleague.adobe.com/NZsbUGCd25rHyvrmt-Rh3XN0p3pHqEtGZrXLp-7JBsc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 337
@@ -22,7 +26,7 @@ Vignette Converter （vntc）は、画像レンダリングを使用してデプ
 
 [!DNL vntc]は[!DNL *[!DNL install_root]*\ImageServing\bin]にあります。 次の機能があります。
 
-* プライマリビネットを単解像度、多解像度、またはピラミッドの実稼動ビネットに変換します（[ ビネットの拡大・縮小](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)を参照）。
+* プライマリビネットを単解像度、多解像度、またはピラミッドの実稼動ビネットに変換します（[&#x200B; ビネットの拡大・縮小](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)を参照）。
 * 実稼動キャビネットとウィンドウのカバーするスタイルファイルを作成します（`-resolution`および`-jpegquality`を参照）。
 
 * ビネット、キャビネット、およびウィンドウ カバリングの様々なファイル バージョンを作成して、古いバージョンの画像レンダリングで使用するスタイル ファイルを作成します。

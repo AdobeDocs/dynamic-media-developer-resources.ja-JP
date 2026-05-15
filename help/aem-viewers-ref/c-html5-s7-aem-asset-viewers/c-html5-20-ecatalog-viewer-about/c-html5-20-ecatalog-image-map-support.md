@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 7a2a58f9-852e-4205-96bc-08332507b6cd
 TQID: 'https://experienceleague.adobe.com/x03fPe1hVRb3rIX7IaILspHHB0flCJ-iilhJs6TBL-k'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 304
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 eCatalog Viewerでは、メインビューの上にある画像マップアイコンのレンダリングがサポートされています。
 
-マップアイコンの表示は、[画像マップエフェクト ](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289)で説明されているように、CSSを使用して制御されます。
+マップアイコンの表示は、[画像マップエフェクト &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289)で説明されているように、CSSを使用して制御されます。
 
 画像マップでは、外部web ページへのリダイレクト、情報パネルポップアップアクティベーション、内部ハイパーリンクの3つのアクションのいずれかを実行します。
 

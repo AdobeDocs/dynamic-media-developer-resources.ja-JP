@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 TQID: 'https://experienceleague.adobe.com/vQIQQhMGQZWbIeWUgnpqCtZj5Rx3Nl-1xUMatQwzeIU'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 231
@@ -62,12 +66,12 @@ ht-degree: 16%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
+   <td colname="col1"> <p>&lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
+   <td colname="col1"> <p>&rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -92,17 +96,17 @@ ht-degree: 16%
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
+   <td colname="col1"> <p>&lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
+   <td colname="col1"> <p>&rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;grave; </p> </td> 
+   <td colname="col1"> <p>&grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -187,4 +191,4 @@ ht-degree: 16%
 
 ## 関連項目 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[難読化の要求](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、[HTTP/1.1仕様（RFC 2616） ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[難読化の要求](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、[HTTP/1.1仕様（RFC 2616） &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
