@@ -25,4 +25,4 @@ ht-degree: 0%
 テクニカルサポートへのお問い合わせは、以下をご利用ください。
 
 * **電話** - 800-898-9743 （06:00から18:00）、米国太平洋標準時（月曜日から金曜日、祝日を除く）。
-* **サポートケースを作成** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **サポートケースを作成** - [https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

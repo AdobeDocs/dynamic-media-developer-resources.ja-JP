@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **レスポンシブ画像ライブラリを使用するには**
 
-1. Dynamic Media Classicでは、[&#x200B; プリセットでレスポンシブ画像ライブラリを使用する予定がある場合に備えて、画像プリセット &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)を作成します。
+1. Dynamic Media Classicでは、[&#x200B; プリセットでレスポンシブ画像ライブラリを使用する予定がある場合に備えて、画像プリセット &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ja#image-sizing)を作成します。
 
    レスポンシブ画像ライブラリで使用する画像プリセットを定義する場合は、`wid=`、`hei=`、`scl=`など、画像サイズに影響を与える設定は使用しないでください。 画像プリセットでは、サイズフィールドを指定しないでください。 代わりに、空白の値のままにします。
 1. ライブラリのJavaScript ファイルをweb ページに追加します。

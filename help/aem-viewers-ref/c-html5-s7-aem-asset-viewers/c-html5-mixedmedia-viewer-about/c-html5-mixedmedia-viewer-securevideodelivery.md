@@ -44,7 +44,7 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
 
 -->
 
-「[&#x200B; （URLをWeb アプリケーションにリンクする](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)」も参照してください。
+「[&#x200B; （URLをWeb アプリケーションにリンクする](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic)」も参照してください。
 
 * 埋め込みコードを含むDynamic Media ビデオを公開する場合は、埋め込みコードスニペット内の他のビューア設定パラメーターのリストに`VideoPlayer.ssl`を追加します。
 
@@ -78,4 +78,4 @@ Adobe Experience Managerで使用するDynamic Media ビデオの公開方法に
 
 -->
 
-「[&#x200B; （Web ページへのビデオの埋め込み](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)」も参照してください。
+「[&#x200B; （Web ページへのビデオの埋め込み](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ja#dynamic)」も参照してください。

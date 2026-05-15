@@ -44,14 +44,14 @@ ht-degree: 3%
 | triggerState | `xsd:int` | ジョブトリガーの状態を選択します。 |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 画像サービング公開ジョブのジョブの詳細。 |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 画像レンダリングジョブのジョブ詳細。 |
-| videoPublishJob | `types:VideoPublishJob` | ビデオ公開ジョブのジョブ詳細。 [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)を参照してください。 |
+| videoPublishJob | `types:VideoPublishJob` | ビデオ公開ジョブのジョブ詳細。 [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ja)を参照してください。 |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | サーバーディレクトリ公開ジョブのジョブ詳細。 |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | アップロードディレクトリジョブのジョブ詳細。 |
 | uploadUrlsJob | `types:UploadUrlsJob` | アップロード URL ジョブのジョブ詳細。 |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 以前アップロードしたファイルの許可された書き出しを許可します。 [&#x200B; ジョブのエクスポート &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)を参照してください。 |
+| exportJob | `types:ExportJob` | 以前アップロードしたファイルの許可された書き出しを許可します。 [&#x200B; ジョブのエクスポート &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ja)を参照してください。 |
 
 ## 説明 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
