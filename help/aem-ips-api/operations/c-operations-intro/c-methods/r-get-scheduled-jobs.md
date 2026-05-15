@@ -5,9 +5,13 @@ title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/DNUaAhcCeO8MvLH5YF5-WTA74fCyRKLxvXBKu0ltngk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 75
 ht-degree: 18%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 18%
 
 構文
 
-## 許可されているユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 承認済みユーザータイプ {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +39,19 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
-| jobHandle | `xsd:string` | いいえ | ジョブハンドル。 |
-| originalName | `xsd:string` | いいえ | `submitJob` で指定された名前。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドルです。 |
+| jobHandle | `xsd:string` | いいえ | ジョブハンドル： |
+| originalName | `xsd:string` | いいえ | `submitJob`で指定された名前。 |
 
 **出力（getScheduledJobsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| jobArray | `types:ScheduledJobArray` | はい | スケジュールされたジョブの配列 |
+| jobArray | `types:ScheduledJobArray` | はい | スケジュールされたジョブの配列。 |
 
 ## 例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-このコードサンプルでは、スケジュールされたすべてのジョブをジョブ配列内に返します。 配列自体には、ジョブに関する詳細情報が含まれています。
+このコードのサンプルでは、ジョブ配列内のすべてのスケジュール済みジョブを返します。 配列自体には、ジョブに関する詳細情報が含まれています。
 
 **リクエスト**
 

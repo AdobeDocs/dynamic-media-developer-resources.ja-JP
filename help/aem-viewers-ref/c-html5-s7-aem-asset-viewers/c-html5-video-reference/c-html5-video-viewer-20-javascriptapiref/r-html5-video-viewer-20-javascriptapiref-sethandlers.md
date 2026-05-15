@@ -1,37 +1,41 @@
 ---
 title: setHandlers
-description: ビデオビューア用のJavaScript API リファレンス。
+description: ビデオビューア用JavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 37d14494-cdb2-45f7-96e2-d7a9e90edad3
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+TQID: 'https://experienceleague.adobe.com/fnAD3ipq7oKDAN-MIhBv69-7do9UJ-ZOrgXtYvfkCC4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: 87
 ht-degree: 3%
 
 ---
 
 # setHandlers{#sethandlers}
 
-ビデオビューア用のJavaScript API リファレンス。
+ビデオビューア用JavaScript API リファレンス。
 
 `setHandlers(handlers)`
 
-0 個以上のコールバックハンドラーを指定します。 このメソッドを呼び出すと、そのビューアインスタンスに以前に割り当てられていたイベントハンドラーが完全に上書きされます。 `init()` 前に呼び出す必要があります。
+0個以上のコールバックハンドラーを指定します。 このメソッドの呼び出しは、以前にそのビューアーインスタンスに割り当てられたイベントハンドラーを完全に上書きします。 `init()`の前に呼び出す必要があります。
 
 ## パラメータ {#section-0cc9961784d04eb3b7d50011309b0119}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> は、ビューアイベント {Object} コールバックを持つ JSON オブジェクトを </span> します。プロパティ名は、サポートされているビューアイベントの名前で、プロパティ値は、適切なコールバックへのJavaScript関数参照です。 </p> <p>ビューアイベントについて詳しくは、<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> Event callbacks </a> を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ハンドラー</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> ビューアイベントコールバックを持つJSON オブジェクト。プロパティ名はサポートされているビューアイベントの名前で、プロパティ値は適切なコールバックへのJavaScript関数参照です。 </p> <p>ビューアイベントの詳細については、<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> イベントコールバック </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

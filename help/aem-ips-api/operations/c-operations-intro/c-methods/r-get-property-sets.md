@@ -1,24 +1,28 @@
 ---
-description: 型ハンドルに関連付けられたプロパティ セットを取得します。
+description: タイプ ハンドルに関連付けられているプロパティ セットを取得します。
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/D2kvkjhVic4Rz-cQPsQoIigz3or1cupYwzOD7rKTGNg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 15%
 
 ---
 
 # getPropertySets{#getpropertysets}
 
-型ハンドルに関連付けられたプロパティ セットを取得します。
+タイプ ハンドルに関連付けられているプロパティ セットを取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-da858360b72941bfa8d9558b4da7d4da}
+## 承認済みユーザータイプ {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,10 +41,10 @@ ht-degree: 15%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | typeHandle | `xsd:string` | はい | プロパティセットタイプへのハンドル。 |
-| primaryOwnerHandle | `xsd:string` | はい | データベース オブジェクトにバインドされたデータのプライマリ所有者です。 |
+| primaryOwnerHandle | `xsd:string` | はい | データベースオブジェクトにバインドされたデータのプライマリ所有者。 |
 | secondaryOwnerHandle | `xsd:string` | いいえ | データのオプションのセカンダリ所有者。 |
 
-**Output （getPropertySetsReturn）**
+**出力（getPropertySetsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
@@ -48,7 +52,7 @@ ht-degree: 15%
 
 ## 例 {#section-1358af974eab4259864910337a6f0bd2}
 
-このコード例では、型ハンドルで指定されたプライマリ所有者のプロパティ セットを返します。
+このコードのサンプルでは、タイプ ハンドルで指定されたプライマリ所有者のプロパティ セットを返します。
 
 **リクエスト**
 

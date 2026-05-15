@@ -1,31 +1,35 @@
 ---
 title: コマンドリファレンス – 設定属性
-description: Flyout ビューアの設定属性に関するドキュメント
+description: フライアウトビューアの設定属性に関するドキュメント
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 15e7881f-ec4f-4e44-9833-1cf965800760
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/-SDMo-YVHg3J9yAlQWa3kd5oXJZj9IQXJjpsyOrrXpg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: 143
 ht-degree: 0%
 
 ---
 
 # コマンドリファレンス – 設定属性{#command-reference-configuration-attributes}
 
-Flyout ビューアの設定属性に関するドキュメント
+フライアウトビューアの設定属性に関するドキュメント
 
-URL で任意の設定コマンドを設定できます。 または、`setParam()`、`setParams()`、またはその両方の API メソッドを使用できます。 サーバーサイド設定レコードで任意の設定属性を指定することもできます。
+URLで任意の設定コマンドを設定できます。 または、`setParam()`、`setParams()`、またはその両方のAPI メソッドを使用できます。 また、サーバーサイド設定レコードで任意の設定属性を指定することもできます。
 
-一部の設定コマンドには、対応するビューア SDK コンポーネントのクラス名またはインスタンス名のプレフィックスが付きます。 コンポーネントのインスタンス名は動的であり、API メソッドに渡されるビューアコンテナ DOM 要素の ID`setContainerId()` 依存します。 ドキュメントには、このようなコマンドのオプションのプレフィックスが含まれています。 例えば、`zoomfactor` コマンドは次のように記述されています。
+一部の設定コマンドには、対応するViewer SDK コンポーネントのクラス名またはインスタンス名が先頭に付きます。 コンポーネントのインスタンス名は動的であり、`setContainerId()` API メソッドに渡されるビューアコンテナ DOM要素のIDによって異なります。 ドキュメントには、このようなコマンドのオプションのプレフィックスが含まれています。 例えば、`zoomfactor` コマンドは次のように文書化されています。
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 
-コマンドは次のように使用します。
+コマンドは次のように使用されます。
 
 * `zoomfactor` （短い構文）
 * `FlyoutZoomView.zoomfactor` （コンポーネントクラス名で修飾）
-* `cont_flyout.zoomfactor` （コンポーネント ID で修飾。`cont` はコンテナ要素の ID と仮定）
+* `cont_flyout.zoomfactor` （`cont`がコンテナ要素のIDであると仮定すると、コンポーネント IDで修飾されます）
 
-[&#x200B; すべてのビューアに共通のコマンドリファレンス – 設定属性 &#x200B;](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) も参照してください。
+すべてのビューアに共通の[ コマンド参照 – 設定属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください

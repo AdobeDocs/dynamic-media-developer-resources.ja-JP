@@ -1,20 +1,24 @@
 ---
-description: ビデオのサムネイル画像を生成します。
+description: ビデオのサムネール画像を生成します。
 solution: Experience Manager
 title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/iQIXgFgGM6FBg9657kCd0a7FKGWkSQgLAlXn9Vaici0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 121
 ht-degree: 4%
 
 ---
 
 # [!DNL MediaOptions]{#mediaoptions}
 
-ビデオのサムネイル画像を生成します。
+ビデオのサムネール画像を生成します。
 
 構文
 
@@ -31,18 +35,18 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：HandleArray</span> </td> 
-   <td colname="col3">PropertySet の配列は <span class="codeph"> ビデオ </span> トランスコードするためのビデオエンコーディングプリセットの参照を処理します。 </td> 
+   <td colname="col2"> <span class="codeph">種類：HandleArray</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>の配列は、トランスコード ビデオ用のビデオ エンコーディング プリセットの参照を処理します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> true の場合、ビデオの最初のフレームが抽出され、サムネール画像として使用されます。 </td> 
+   <td colname="col3"> trueの場合、ビデオの最初のフレームが抽出され、サムネール画像として使用されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> タイプ：ThumbnailOptions</span> </td> 
-   <td colname="col3">オプション。 サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネール画像を指定するには、使用するフレームの時間（ビデオ開始からのミリ秒単位）を渡します。 値の範囲は、0 ～ ビデオの最後です。 <p>メモ：時間を誤って指定した場合、generateThumbnail<span class="codeph"></span> デフォルトで true に設定されます。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a> を参照してください。 </p></td> 
+   <td colname="col2"> <span class="codeph">種類：ThumbnailOptions</span> </td> 
+   <td colname="col3">オプション。 サムネール画像として使用する特定のビデオフレームを選択できます。 <p>サムネイル画像を指定するには、使用するフレームの時間（ビデオの開始からミリ秒単位）を渡します。 値の範囲は、ビデオの末尾まで0です。 <p>注意：時間を誤って指定した場合、<span class="codeph"> generateThumbnail</span>はデフォルトでtrueになります。 </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>を参照してください。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,7 @@ ht-degree: 4%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-`mediaOptions` のタイプは、次のユーザーが使用します。
+`mediaOptions` タイプは次のユーザーによって使用されます：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

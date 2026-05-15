@@ -1,21 +1,25 @@
 ---
-title: 材料の着色
+title: マテリアルの色付け
 description: ほとんどのマテリアルは動的にカラー化できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95b13a57-f10b-4ff2-90fd-507e69cb2b04
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/MGmuOj214tFPKeSGwz33pGn2m0B0fme1Cq-umlxG9v0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 76
 ht-degree: 0%
 
 ---
 
-# 材料の着色{#colorizing-materials}
+# マテリアルの色付け{#colorizing-materials}
 
 ほとんどのマテリアルは動的にカラー化できます。
 
-色付けアルゴリズムは単純で、色相範囲が限られたマテリアル イメージに最適です。 マテリアルに色を付けるには、レンダラーは単に `bgc=` 値を減算し、`color=` 値を各ピクセル値に加算します。
+カラーアルゴリズムは単純で、色相の範囲が限られているマテリアル画像に最適です。 マテリアルにカラーを適用するには、レンダラーは単に`bgc=`値を減算し、各ピクセル値に`color=`値を追加します。
 
-`color=` が指定されていない場合、色付けは無効になります。 キャビネット マテリアルでは `bgc=` 属性は無視されます。代わりに、[!DNL vnc] ファイルに埋め込まれた基本色の値が使用されます。
+`color=`が指定されていない場合、色付けは無効になります。 `bgc=`属性はキャビネット マテリアルでは無視されます。代わりに、[!DNL vnc] ファイルに埋め込まれた基本色の値が使用されます。

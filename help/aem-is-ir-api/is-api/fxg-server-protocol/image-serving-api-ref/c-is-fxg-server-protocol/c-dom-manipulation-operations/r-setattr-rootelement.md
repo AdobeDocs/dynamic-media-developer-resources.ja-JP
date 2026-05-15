@@ -1,24 +1,28 @@
 ---
 title: setAttr.rootElement
-description: FXG ルート要素に属性を設定します。
+description: 属性をFXG ルート要素に設定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/bx5ix9VcuynEb-Y8VJdFuMKmBMSBgTSa2L-sYAw9Do0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: 48
 ht-degree: 2%
 
 ---
 
 # setAttr.rootElement{#setattr-rootelement}
 
-FXG ルート要素に属性を設定します。
+属性をFXG ルート要素に設定します。
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
-このコマンドでは、ルート要素の属性を操作できます。
+このコマンドは、ルート要素の属性を操作できます。
 
 ## 例 {#section-2758a6e316c34b99b13b02147e5973bb}
 
@@ -26,7 +30,7 @@ FXG ルート要素に属性を設定します。
 
 `<Graphic version="1.0" viewHeight="692" viewWidth="792" s7:appVersion="1.0.0.11" ai:appVersion="14.0.0.367" d:id="1" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:s7="http://ns.adobe.com/S7FXG/2008">`
 
-次のコマンドの適用後：
+次のコマンドを適用した後：
 
 `setAttr.rootElement={viewHeight=300%26viewWidth=200}`
 

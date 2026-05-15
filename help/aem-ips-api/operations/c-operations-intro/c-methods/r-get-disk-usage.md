@@ -1,22 +1,26 @@
 ---
-description: 会社の構造に関する情報（ファイル数など）を返します。
+description: 会社の構造（ファイル数など）に関する情報を返します。
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/mF0YHIw8BZhBRK240EmiiaHoyBbTdaW-ajl7veY1ywk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: 102
 ht-degree: 10%
 
 ---
 
 # getDiskUsage{#getdiskusage}
 
-会社の構造に関する情報（ファイル数など）を返します。
+会社の構造（ファイル数など）に関する情報を返します。
 
-## 許可されているユーザータイプ {#authorized-user-types}
+## 承認済みユーザータイプ {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +33,17 @@ ht-degree: 10%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 取得するディスク使用量の会社に対するハンドル。 |
+| companyHandle | `xsd:string` | はい | ディスク使用量を取得する会社へのハンドル。 |
 
 **出力（getDiskUsageReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | はい | 会社のディスク使用の配列。 |
+| diskUsageArray | `types:DiskUsageArray` | はい | 会社のディスク使用率の配列。 |
 
 ## 例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-このリクエストの名前は誤解を招きます。 企業が使用しているディスク容量を反映するスカラー値を返すだけでなく、企業の構造に関する他の情報も取得します。
+この要求の名前は誤解を招くおそれがあります。 企業が使用しているディスク容量を反映したスカラー値のみを返すのではなく、企業の構造に関する他の情報も取得します。
 
 **リクエスト**
 

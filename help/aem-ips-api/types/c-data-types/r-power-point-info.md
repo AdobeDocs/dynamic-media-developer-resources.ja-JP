@@ -1,20 +1,24 @@
 ---
-description: PowerPoint ファイルのオプション。
+description: PowerPoint ファイルオプション。
 solution: Experience Manager
 title: PowerPointInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/mjUAg9LYPzaknzPMm6ycgpVIHYzWltwNs-jseEa3KeM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: 21
 ht-degree: 19%
 
 ---
 
 # [!DNL PowerPointInfo]{#powerpointinfo}
 
-PowerPoint ファイルのオプション。
+PowerPoint ファイルオプション。
 
 構文
 
@@ -22,6 +26,6 @@ PowerPoint ファイルのオプション。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| originalPath | `xsd:string` | ファイルパス。 |
+| originalPath | `xsd:string` | ファイルパス： |
 | originalFile | `xsd:string` | ファイル名。 |
-| fileSize | `xsd:int` | ファイルサイズ。 |
+| fileSize | `xsd:int` | ファイルサイズ： |

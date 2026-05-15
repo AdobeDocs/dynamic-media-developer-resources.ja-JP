@@ -5,9 +5,14 @@ title: portraitFrames
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/mrCkCNNwYx-JXkXayrSqzvJud8r6kVApJw-I7yl0yd8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: 48
 ht-degree: 6%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> split に設定すると </span> モバイルデバイスで縦向きに使用されたときにビューアに二重ページが個別のページとして表示されます。 <span class="codeph"> solid に設定すると </span> デバイスの向きに関係なく、常に二重ページのスプレッドをソリッド画像として表示します。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> split</span>に設定すると、モバイルデバイスで縦方向に使用する場合に、ビューアにダブルページのスプレッドを別のページとして表示できます。 デバイスの向きに関係なく、2 ページの見開きを常にソリッド画像として表示するには、<span class="codeph"> solid</span>に設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

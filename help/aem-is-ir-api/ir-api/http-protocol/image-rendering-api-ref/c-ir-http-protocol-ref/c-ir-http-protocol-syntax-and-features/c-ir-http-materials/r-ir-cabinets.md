@@ -1,22 +1,26 @@
 ---
 title: キャビネット
-description: キャビネット マテリアルは、キャビネット スタイル ファイル（.vnc ファイル拡張子）を指定します。このファイルには、キャビネットの写真表現、パラメトリック レイアウト定義、およびキャビネットの前面をレンダリングするために必要なその他の情報が含まれています。
+description: キャビネットのマテリアルは、キャビネットのスタイル ファイル（.vnc ファイル拡張子）を指定します。キャビネットの写真表現と、パラメトリック レイアウト定義およびその他のキャビネット フロントのレンダリングに必要な情報を含む特殊なデータ ファイルです。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/SzkFcvt2K-pHseOvk42kwWVaIl2-BnQK8aSEwSTB9zA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: 159
 ht-degree: 3%
 
 ---
 
 # キャビネット{#cabinets}
 
-キャビネット マテリアルは、キャビネット スタイル ファイル（.vnc ファイル拡張子）を指定します。このファイルには、キャビネットの写真表現、パラメトリック レイアウト定義、およびキャビネットの前面をレンダリングするために必要なその他の情報が含まれています。
+キャビネットのマテリアルは、キャビネットのスタイル ファイル（.vnc ファイル拡張子）を指定します。キャビネットの写真表現と、パラメトリック レイアウト定義およびその他のキャビネット フロントのレンダリングに必要な情報を含む特殊なデータ ファイルです。
 
-[!DNL vnc] ファイルには、繰り返し可能な木目テクスチャを含めるか、テクスチャを `src=` の 2 番目の引数を介して外部に提供できます。 特定の [!DNL vnc] ファイルでは、キャビネットの前面の選択した領域をカラーまたはテクスチャリングできます（通常、ラミネート キャビネット スタイルに使用されます）。
+[!DNL vnc] ファイルには、繰り返し可能な木目のテクスチャを含めるか、または`src=`への2番目の引数を使用して外部からテクスチャを提供できます。 特定の[!DNL vnc] ファイルでは、キャビネット フロントの選択した領域にカラーを適用したり、テクスチャを適用したりできます（通常はラミネート キャビネット スタイルに使用されます）。
 
 キャビネット マテリアルは、キャビネット オブジェクトにのみ適用できます。
 
@@ -31,32 +35,32 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>キャビネット スタイル ファイル。必須です。 </p> </td> 
+   <td colname="col2"> <p>キャビネットスタイルファイル。必須。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>オプションのテクスチャ イメージ ファイル（src= <span class="codeph"> の </span>2 番目の値）。 </p> </td> 
+   <td colname="col2"> <p>オプションのテクスチャ画像ファイル （<span class="codeph"> src= </span>の2番目の値）。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>オプションのテクスチャ解像度。 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 属性：:Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph">属性：：解像度</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
-   <td colname="col2"> <p>キャビネットやテクスチャを色付けします。 </p> </td> 
+   <td colname="col2"> <p>キャビネットやテクスチャをカラー化します。 </p> </td> 
    <td colname="col3"> <p>なし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </p> </td> 
-   <td colname="col2"> <p>シャープニング。 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> シャープ= </span> </a> </p> </td> 
+   <td colname="col2"> <p>シャープ化： </p> </td> 
    <td colname="col3"> <p>0 （シャープなし） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> flags= </span> </a> </p> </td> 
-   <td colname="col2"> <p>特別なレンダリングフラグ。 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> フラグ= </span> </a> </p> </td> 
+   <td colname="col2"> <p>特殊レンダリングフラグ。 </p> </td> 
    <td colname="col3"> <p>0 （フラグなし） </p> </td> 
   </tr> 
  </tbody> 

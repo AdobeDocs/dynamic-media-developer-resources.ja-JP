@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/eiQujFJFBcZ5zd0tOLP8wekg3f8j9ssSCNx05tGoW-A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 3%
+source-wordcount: 88
+ht-degree: 5%
 
 ---
 
@@ -22,11 +26,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> ユーザーがマウスまたはタッチ ジェスチャを使用してサムネイルをスクロールする機能を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> ユーザーがマウスまたはタッチジェスチャーを使用してサムネールをスクロールできるようにする機能を有効または無効にします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> は <span class="codeph"> 0-1 </span> の範囲にあり、実際の速度の誤った方向への移動のパーセント値です。 </p> <p><span class="codeph">1</span> に設定すると、マウスと一緒に移動します。 </p> <p><span class="codeph"> 0 </span> に設定すると、間違った方向に移動できません。 </p> </td> 
+   <td colname="col2"> <p> は<span class="codeph"> 0 ～ 1 </span>の範囲にあり、実際の速度の間違った方向への移動のパーセント値です。 </p> <p><span class="codeph"> 1 </span>に設定すると、マウスと共に移動します。 </p> <p><span class="codeph"> 0 </span>に設定すると、間違った方向に移動できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

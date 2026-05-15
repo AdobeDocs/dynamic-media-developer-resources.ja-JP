@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: d9db34f3-66df-45c2-9727-bdcdf09773db
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/LaoHRSSsqx96mbORs-AILzbHMv2lRh5QjDbqziovAGg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 80
 ht-degree: 3%
 
 ---
@@ -16,17 +21,17 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-コンポーネント領域内のスウォッチコンテナの内部位置合わせ（アンカー）を指定します。 スウォッチでは、内部のサムネールコンテナのサイズが調整されて、整数のスウォッチのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間に何らかのパディングがあります。 このコマンドは、コンポーネント内での内部スウォッチコンテナの配置方法を指定します。
+コンポーネント領域内のスウォッチコンテナの内部整列（アンカー）を指定します。 スウォッチでは、内部サムネールコンテナのサイズが調整され、全体のスウォッチ数のみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 このコマンドは、内部スウォッチコンテナをコンポーネント内でどのように配置するかを指定します。
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> 水平方向のスウォッチの配置を設定します。 </p> </td> 
+   <td colname="col2"> <p> 水平スウォッチの整列を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> 垂直方向のスウォッチの位置揃えを設定します。 </p> </td> 
+   <td colname="col2"> <p> 垂直スウォッチの整列を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

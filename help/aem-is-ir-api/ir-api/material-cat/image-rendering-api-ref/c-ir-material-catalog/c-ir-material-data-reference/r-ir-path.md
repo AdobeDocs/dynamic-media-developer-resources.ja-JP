@@ -1,36 +1,40 @@
 ---
-description: 画像ファイルのパス。 テクスチャまたはデカル イメージ ファイルの相対パスと名前。
+description: 画像ファイルのパス テクスチャまたはデカール画像ファイルの相対パスと名前。
 solution: Experience Manager
 title: パス *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ndDZ1MOPM1GHqOKFkwwMnJoZHVjaCeVVEHudb-5fPk0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 208
 ht-degree: 1%
 
 ---
 
 # パス *{#path}
 
-画像ファイルのパス。 テクスチャまたはデカル イメージ ファイルの相対パスと名前。
+画像ファイルのパス テクスチャまたはデカール画像ファイルの相対パスと名前。
 
-サーバーはこの値を `attribute::RootPath` と組み合わせて、実際の画像ファイルパスを作成します。 絶対パスにすることもできます。
+サーバーは、この値と`attribute::RootPath`を組み合わせて、実際の画像ファイルのパスを構築します。 絶対パスにもできます。
 
-テクスチャ、キャビネット、および窓覆いマテリアルのテクスチャ イメージ ファイルと、デカルおよび壁の境界マテリアルのRGBまたは RGBA イメージ ファイルを指定するために使用します。 すべてのキャビネットと窓の覆い材に、繰り返し可能な個別のテクスチャ イメージが必要なわけではありません。
+テクスチャ、キャビネット、窓カバーのマテリアルのテクスチャ画像ファイル、デカールや壁の境界線のマテリアルのRGBまたはRGBA画像ファイルを指定するために使用します。 すべてのキャビネットと窓のカバー材料が別々の繰り返し可能なテクスチャ画像を必要とするわけではありません。
 
 ## プロパティ {#section-8c12ea24f21d4472be677581893e6681}
 
-テキスト文字列 テクスチャおよびデカールのマテリアルに必要です。キャビネットおよび窓カバーのマテリアルにはオプションです。 指定する場合は、有効な相対ファイルパスまたは絶対ファイルパスにする必要があります。 単色マテリアルの場合は空にする必要があります。
+テキスト文字列。 テクスチャやデカール素材に必要で、キャビネットや窓のカバー素材にはオプションです。 指定する場合は、有効な相対または絶対ファイルパスである必要があります。 単色マテリアルの場合は空にする必要があります。
 
-## サポートされているファイル形式 {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
+## サポートされるファイル形式 {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-画像レンダリングは、Dynamic Media 画像サービングと同じソース画像形式をサポートします。
+画像レンダリングでは、Dynamic Media Image Servingと同じソース画像形式をサポートしています。
 
-複数の異なる解像度の画像データを必要とするアプリケーションは、Dynamic Media Pyramid TIFF（PTIFF）の多解像度形式を使用する場合に最も高いパフォーマンスを発揮します。 画像サービングには、サポートされている任意の形式から PTIFF 画像を作成する画像コンバーター（IC）ユーティリティが含まれています。
+Dynamic MediaのピラミッドTIFF（PTIFF）の多解像度フォーマットを使用する場合、複数の異なる解像度の画像データを必要とするアプリケーションが最も効果的に機能します。 Image Servingには、サポートされている任意の形式からPTIFF画像を作成するImage Converter （IC）ユーティリティが含まれています。
 
-サポートされるファイル形式の完全なリストについては、画像サービングドキュメントの IC ユーティリティの説明を参照してください。
+サポートされているファイル形式の完全なリストについては、「画像サービング」ドキュメントのIC ユーティリティの説明を参照してください。
 
 ## 初期設定 {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
@@ -38,4 +42,4 @@ ht-degree: 1%
 
 ## 関連項目 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC ユーティリティ &#x200B;](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)、[attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)、[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC ユーティリティ ](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)、[属性：:RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)、[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

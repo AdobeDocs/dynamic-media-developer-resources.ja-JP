@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/YehjMoK88ylklqHA9ZpjPgW8xoMwhLQqR-2e73ayWRM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 82
 ht-degree: 3%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> ビュー内でのサムネイルの埋め込み方法を指定します。 </p> <p>左 <span class="codeph"> に設定 </span> ると、左から右への塗り潰し順序を設定できます。 </p> <p>[ 右 <span class="codeph"> 設定 ] を選択すると </span> ビューが右から左、上から下の方向に埋められるように順序が逆になります。 </p> <p>ロケール <span class="codeph"> 「ja」 </span> ードに設定されている場合にコンポーネントが右モードを適用する <span class="codeph"> は、自動 </span> ードに設定します。それ以外の場合は、左 <span class="codeph"> ード </span> 使用されます。 </p> </td> 
+   <td colname="col2"> <p> サムネールをビューに配置する方法を指定します。 </p> <p>左から右への入力順序を設定するには、<span class="codeph">を左から</span>に設定します。 </p> <p><span class="codeph">に設定すると、ビューが右から左、上から下の方向に塗りつぶされるように、順序が逆になります。</span> </p> <p>ロケールが<span class="codeph"> "ja" </span>に設定されている場合にコンポーネントが正しいモードを適用するように、<span class="codeph">に自動</span>を設定します。それ以外の場合は、<span class="codeph">左</span>が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

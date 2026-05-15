@@ -1,29 +1,34 @@
 ---
-title: ホットスポットのサポート
-description: ホットスポットのサポート
+title: Hotspot サポート
+description: Hotspot サポート
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/kvYBwi70uYXIK8D6MeNgZN74h3X6jBfmOLj1SjlKEzs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: 183
 ht-degree: 0%
 
 ---
 
-# ホットスポットのサポート{#hotspot-support}
+# Hotspot サポート{#hotspot-support}
 
-ビューアは、メインビューの上部にあるホットスポットアイコンのレンダリングをサポートしています。 ホットスポットアイコンの外観は、ホットスポットの節で説明しているように CSS で制御します。
+ビューアは、メインビューの上にホットスポットアイコンをレンダリングすることをサポートしています。 ホットスポットアイコンの外観は、ホットスポット セクションで説明されているように、CSSによって制御されます。
 
-[&#x200B; ホットスポット &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74) を参照してください。
+[ ホットスポット ](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74)を参照してください。
 
-ホットスポットは、JavaScript コールバックをトリガーしてホスティング web ページ上でクイックビュー機能をアクティブ化するか、外部 web ページにユーザーをリダイレクトすることができます。
+ホットスポットは、JavaScript コールバックをトリガーしてホスティング web ページのクイックビュー機能をアクティブにするか、ユーザーを外部web ページにリダイレクトできます。
 
 ## クイックビューホットスポット {#section-cda48fc9730142d0bb3326bac7df3271}
 
-これらのタイプのホットスポットは、Dynamic Media、Adobe Experience Manager Assets - オンデマンドの「クイックビュー」アクションタイプを使用して作成する必要があります。 ユーザーがそのようなホットスポットをアクティブ化すると、ビューアは `quickViewActivate` JavaScript コールバックを実行し、ホットスポットデータをコールバックに渡します。 埋め込まれる web ページは、このコールバックをリッスンすることが想定されます。 ページをトリガーすると、独自のクイックビュー実装が開きます。
+これらの種類のホットスポットは、Adobe Experience Manager Assets オンデマンドのDynamic Mediaの「クイックビュー」アクションタイプを使用して作成する必要があります。 ユーザーがそのようなホットスポットをアクティベートすると、ビューアは`quickViewActivate` JavaScript コールバックを実行し、ホットスポットデータをそのコールバックに渡します。 埋め込みweb ページがこのコールバックをリッスンすることが期待されます。 ページをトリガーすると、独自のクイックビュー実装が開きます。
 
-## 外部 Web ページにリダイレクト {#section-ef820c71251e4215800bb99c0c9ebe16}
+## 外部web ページへのリダイレクト {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Experience Manager Assets - オンデマンドの Dynamic Media でアクションタイプ「クイックビュー」用に作成されたホットスポットは、ユーザーを外部 URL にリダイレクトします。 オーサリング時に行った設定に応じて、URL は新しいブラウザータブ、同じウィンドウ、または名前付きブラウザウィンドウで開きます。
+Experience Manager AssetsのDynamic Mediaで「クイックビュー」というアクションタイプ用に作成されたホットスポット – オンデマンドでは、ユーザーを外部URLにリダイレクトします。 オーサリング中に行った設定に応じて、URLは新しいブラウザータブ、同じウィンドウ、または名前付きブラウザウィンドウで開きます。

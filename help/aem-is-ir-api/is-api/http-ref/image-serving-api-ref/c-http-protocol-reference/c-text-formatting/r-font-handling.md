@@ -1,26 +1,30 @@
 ---
-title: フォントの処理
-description: RTF 文字列で参照されるすべてのフォントは、デフォルトのカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
+title: フォント処理
+description: RTF文字列内で参照されるすべてのフォントは、デフォルトカタログまたは現在の画像カタログのフォントマップファイルで使用可能である必要があります。そうでない場合は、エラーが返されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/KMD5vdWHM8HYsCO6UtJpPpTBfg9VJufhvsFsfOJiHv8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: 134
 ht-degree: 1%
 
 ---
 
-# フォントの処理{#font-handling}
+# フォント処理{#font-handling}
 
-RTF 文字列で参照されるすべてのフォントは、デフォルトのカタログまたは現在の画像カタログのフォントマップファイルで使用できる必要があります。使用できない場合は、エラーが返されます。
+RTF文字列内で参照されるすべてのフォントは、デフォルトカタログまたは現在の画像カタログのフォントマップファイルで使用可能である必要があります。そうでない場合は、エラーが返されます。
 
-斜体や太字のテキストの最高品質は、対応するフォントファイルを登録することによって達成されます。 使用できない場合、サーバーは標準の書体から太字や斜体の書体を合成できます。 （[attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md) を参照。
+斜体や太字のテキストに最適な品質は、対応するフォントファイルを登録することで実現します。 使用できない場合は、標準の面から太字や斜体のフォント面を合成できます。 （[attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md)を参照してください。
 
-`attribute::DefaultFont` で指定されたフォントフェイスは、RTF 文字列で指定されていない場合に使用されます。
+`attribute::DefaultFont`で指定されたフォント面は、RTF文字列で明示的に指定されていない場合に使用されます。
 
-画像サービングは、TrueType、OpenType®、Adobe Type 1 （Windows のみ）フォントをサポートしています。
+Image Servingは、TrueType、OpenType®、Adobe Type 1 （Windowsのみ）フォントをサポートしています。
 
 <!--
  THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
@@ -40,4 +44,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## 関連項目 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[&#x200B; フォントマップ参照 &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)、[attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)、[attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[ フォントマップ参照](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d)、[属性：:SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15)、[属性：:DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

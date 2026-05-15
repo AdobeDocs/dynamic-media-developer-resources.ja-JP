@@ -1,87 +1,92 @@
 ---
 title: Dynamic Media HTML5 ビューアの必要システム構成
-description: Dynamic Media HTML5 ビューアの必要システム構成です。
+description: Dynamic Media HTML5 ビューアの必要システム構成。
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tPpOrJ26zb4wztdD5XE6ErLB-6D1IZPO4MSaumdUevY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: 360
+ht-degree: 0%
 
 ---
 
 # Dynamic Media HTML5 ビューアの必要システム構成{#system-requirements}
 
-Dynamic Media HTML5 ビューアの必要システム構成です。
+Dynamic Media HTML5 ビューアの必要システム構成。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## サーバのハードウェアとソフトウェア {#section-05099146f1f0418988c196635110bee6}
+## サーバーハードウェアとソフトウェア {#section-05099146f1f0418988c196635110bee6}
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media 画像サービング 6.7.1 以降。
-* HTML5 ビューアを使用するには、SDK JavaScript サーバーサイドライブラリ 3.11.5 以降が必要です。
-* *友達にメールを送信* ソーシャル機能には、s7ondemand 5.0.9 以降が必要です。
-* eCatalog ビューア - [&#x200B; 情報パネルポップアップ &#x200B;](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) のサポートには、情報サーバー 2.1.8 以降が必要です。
-* 検索機能コンポーネントには s7search 2.3.0 以降が必要です。
+* Adobe Dynamic Media Image Serving 6.7.1以降。
+* HTML 5 ビューアには、SDK JavaScript サーバーサイドライブラリ 3.11.5以降が必要です。
+* *友達にメール*&#x200B;のソーシャル機能を利用するには、s7ondemand 5.0.9以降が必要です。
+* eCatalog Viewer - [情報パネル ポップアップ ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)のサポートには、情報サーバー2.1.8以降が必要です。
+* 検索機能コンポーネントには、s7search 2.3.0以降が必要です。
 
 ## ビューアの必要システム構成 {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**コンポーネントビューア用のクライアントブラウザーの最小要件：**
+**コンポーネント ビューアのクライアント ブラウザーの最小要件：**
 
-* 次のバージョン以降のオペレーティングシステムでサポートされています。
+* 次のオペレーティングシステムのバージョン以降でサポートされています。
    * Microsoft® Windows® 7
    * macOS X 10.12
-* 次のブラウザー/プラットフォームバージョン以降でサポート：
+* 次のブラウザー/プラットフォームのバージョン以降でサポートされています。
    * Android™ OS 4.x
-   * ネイティブブラウザーの BlackBerry® 10。 ビデオの再生のみがサポートされています。
-   * Chrome82
+   * ネイティブブラウザー上のBlackBerry® 10。 ビデオ再生のみがサポートされています。
+   * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS
-   * iPad 2 （Safari およびChrome ブラウザーのみ）
+   * IOS6
+   * iPad 2 （SafariおよびChrome ブラウザーのみ）
    * iPhone 3GS
    * Safari 11
-* モバイルデバイスでの Internet Explorer はサポートされていません。
-* *PanoramicViewer* は、次のブラウザー/プラットフォームバージョン以降でサポートされています。
-   * Android™ 4.4 （電話デバイスのみ）
-   * Chrome82
+* モバイルデバイス上のInternet Explorerはサポートされていません。
+* *PanoramicViewer*&#x200B;は、次のブラウザー/プラットフォームのバージョン以降でサポートされています。
+   * Android™ 4.4 （携帯端末のみ）
+   * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS10
+   * iOS 10
    * Safari 11
-* *Video360Viewer* および *DimensionalViewer* は、次のブラウザー/プラットフォームバージョン以降でサポートされています。
-   * Android™ 5 （スマートフォンのみ）
-   * Chrome82
+* *Video360Viewer*&#x200B;および&#x200B;*DimensionalViewer*&#x200B;は、次のブラウザー/プラットフォームのバージョン以降でサポートされています。
+   * Android™ 5 （携帯端末のみ）
+   * Chrome 82
    * Edge
    * Firefox 77
-   * iOS12
+   * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* は、次のバージョン以降のブラウザー/プラットフォームでサポートされています。
+* *ZoomVerticalViewer*&#x200B;は、次のブラウザー/プラットフォーム バージョン以降でサポートされています。
    * Android™ 4.x
-   * Chrome82
+   * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS10
+   * iOS 10
    * Safari 11
 
-## TLS 1.0 および 1.1 のサポート終了 {#tls}
+## TLS 1.0および1.1のサポート終了 {#tls}
 
 <!-- CQDOC-19433 -->
 
-2022 年 9 月 30 日（PT）をもって、Adobe Dynamic Media ビューアは以下のサポートを終了しました。
+2022年9月30日（PT）より、Adobe Dynamic Media Viewersでは、次のサポートを終了しました。
 
-* TLS （Transport Layer Security） 1.0 および 1.1
-* TLS 1.2 での以下の脆弱な暗号：
+* TLS （Transport Layer Security） 1.0および1.1
+* TLS 1.2の以下の脆弱な暗号：
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
    * TLS_RSA_WITH_AES_256_GCM_SHA384
@@ -97,21 +102,21 @@ Dynamic Media HTML5 ビューアの必要システム構成です。
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Dynamic Media ビューアでサポートしていない web ブラウザーとオペレーティングシステムの組み合わせ {#browser-os-support}
+## Dynamic Media ビューアでサポートされていないWeb ブラウザーとオペレーティングシステムの組み合わせ {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media ビューアでは、次の web ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
+Adobe Dynamic Media ビューアは、次のweb ブラウザーとオペレーティングシステムの組み合わせをサポートしていません。
 
-* Internet Explorer 11 と Windows 7
-* Internet Explorer 11 と Windows 8.1
-* Internet Explorer 11 と Windows Phone 8.1
-* Internet Explorer 11 と Windows Phone 8.1 Update
-* Safari 6 とiOS 6.0.1
-* Safari 7 とiOS 7.1
-* Safari 7 と OS X 10.9 Mavericks
-* Safari 8 とiOS 8.4
-* Safari 8 と OS X 10.10 Yosemite
+* Internet Explorer 11 + Windows 7
+* Internet Explorer 11 + Windows 8.1
+* Internet Explorer 11 + Windows Phone 8.1
+* Internet Explorer 11 + Windows Phone 8.1 アップデート
+* Safari 6 + iOS 6.0.1
+* Safari 7 + iOS 7.1
+* Safari 7 + OS X 10.9 Mavericks
+* Safari 8 + iOS 8.4
+* Safari 8 + OS X 10.10 Yosemite
 
 <!-- CQDOC-19433 -->
 

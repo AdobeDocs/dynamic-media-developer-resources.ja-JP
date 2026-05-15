@@ -1,24 +1,28 @@
 ---
-description: 新規プロジェクトを作成します。
+description: 新しいプロジェクトを作成します。
 solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/GKNImvhmX1bOepsV0-6QzgZr5jskJQlaqXCMIT5ue5M'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 76
 ht-degree: 17%
 
 ---
 
 # createProject{#createproject}
 
-新規プロジェクトを作成します。
+新しいプロジェクトを作成します。
 
 構文
 
-## 許可されているユーザータイプ {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 承認済みユーザータイプ {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +38,7 @@ ht-degree: 17%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | 新しいプロジェクトに関連付けられている会社のハンドル。 |
-| projectName | `xsd:string` | はい | 新しいプロジェクト名。 |
+| projectName | `xsd:string` | はい | 新規プロジェクト名。 |
 
 **出力（createProjectParam）**
 
@@ -44,7 +48,7 @@ ht-degree: 17%
 
 ## 例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-このコードサンプルでは、ハンドルで指定された会社に `ApiTestProject` というプロジェクトを作成します。 応答は、プロジェクトへのハンドルを返します。
+このコード サンプルは、ハンドルで指定された会社に`ApiTestProject`という名前のプロジェクトを作成します。 応答は、プロジェクトにハンドルを返します。
 
 **リクエスト**
 

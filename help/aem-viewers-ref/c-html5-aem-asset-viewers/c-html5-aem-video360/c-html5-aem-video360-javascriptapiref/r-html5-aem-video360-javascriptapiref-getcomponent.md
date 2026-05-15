@@ -1,34 +1,38 @@
 ---
 title: getComponent
-description: Video360 ビューア用のJavaScript API リファレンス。
+description: Video360 ViewerのJavaScript API リファレンス。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/aMJ73kVcGom3yqh71uGTQh9dih9g0JO1GAnQASVgS4o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 194
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-Video360 ビューア用のJavaScript API リファレンス。
+Video360 ViewerのJavaScript API リファレンス。
 
 `getComponent(componentId)`
 
-ビューアによって使用されるビューアSDKコンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは `initComplete` ビューアコールバックが実行された後にのみ呼び出します。それ以外の場合、コンポーネントはビューアロジックによってまだ作成されていない可能性があります。
+ビューアで使用されるビューア SDK コンポーネントへの参照を返します。 Web ページでは、このメソッドを使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete` ビューア コールバックが実行された後にのみ呼び出します。そうしないと、ビューア ロジックによってまだコンポーネントが作成されない可能性があります。
 
 ## パラメーター {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - ビューアが使用するビューア SDK コンポーネントの ID を `{String}` します。 このビューアは、次のコンポーネント ID をサポートしています。
+`*`componentID`*` - `{String}`は、ビューアで使用されるビューア SDK コンポーネントのIDです。 このビューアは、次のコンポーネント IDをサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>コンポーネント ID </p> </th> 
-   <th colname="col2" class="entry"> <p>ビューア SDK コンポーネントのクラス名 </p> </th> 
+   <th colname="col2" class="entry"> <p>Viewer SDK コンポーネントクラス名 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,7 +41,7 @@ Video360 ビューア用のJavaScript API リファレンス。
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +73,7 @@ Video360 ビューア用のJavaScript API リファレンス。
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">は</span>を制御します </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -95,13 +99,13 @@ Video360 ビューア用のJavaScript API リファレンス。
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[&#x200B; ビューア SDK名前空間 &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621) に記載されているように、正しい完全修飾SDK名前空間を使用することが重要です。
+SDK APIを使用する場合は、[Viewer SDK名前空間](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)で説明されているように、正しい完全修飾SDK名前空間を使用することが重要です。
 
-特定のコンポーネントについて詳しくは、*HTML5 Viewer SDK API* ドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、*HTML5 Viewer SDK API*&#x200B;のドキュメントを参照してください。
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` は、ビューアのSDK コンポーネントへの参照です。 `null` がサポートされているビューアコンポーネントでない場合や、コンポーネントがまだビューアロジックで作成されていない場合、メソッドは `componentId` を返します。
+`{Object}`はViewer SDK コンポーネントへの参照です。 このメソッドは、`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアロジックによってコンポーネントがまだ作成されていない場合、`null`を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

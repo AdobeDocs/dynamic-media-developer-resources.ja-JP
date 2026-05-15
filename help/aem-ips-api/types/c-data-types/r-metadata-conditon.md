@@ -1,20 +1,25 @@
 ---
-description: searchAssets で使用する検索語句を追加します。
+description: searchAssetsで使用する検索語を追加します。
 solution: Experience Manager
 title: MetadataCondition
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/JcDip5MGpF6iPa1UqHZSe95h4G8lTjQycdBRaIny4N8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 171
 ht-degree: 2%
 
 ---
 
 # [!DNL MetadataCondition]{#metadatacondition}
 
-searchAssets で使用する検索語句を追加します。
+searchAssetsで使用する検索語を追加します。
 
 構文
 
@@ -32,7 +37,7 @@ searchAssets で使用する検索語句を追加します。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> フィールドハンドル。 </td> 
+   <td colname="col3"> フィールドハンドル： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
@@ -40,64 +45,64 @@ searchAssets で使用する検索語句を追加します。
    <td colname="col3"> 文字列比較演算子の選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 値 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">値</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> テストする値。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> ブール比較値（ブール型フィールドのみ） </td> 
+   <td colname="col3"> ブール値の比較値（ブール値を入力したフィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 長い比較値（整数型フィールドのみ）。 </td> 
+   <td colname="col3"> 長い比較値（int型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">分</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 範囲比較での long 型の最小値（整数型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲の比較における最小値（int型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 範囲比較での最大 long 値（整数型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最大長値（整数型フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 二重比較値（float 型フィールドのみ）。 </td> 
+   <td colname="col3"> 二重比較値（浮動小数点型フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">分ダブル </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 範囲比較での最小二重値（float 型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲の比較における最小double値（浮動小数点入力フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 範囲比較での最大二重値（float 型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲の比較における最大double値（浮動小数点入力フィールドの場合のみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 日付比較値（日付型フィールドのみ）。 </td> 
+   <td colname="col3"> 日付比較値（日付入力フィールドのみ）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">分日付</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 範囲比較での日付値の最小値（日付型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最小日付値（日付入力フィールドのみ）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 範囲比較での日付の最大値（日付型フィールドのみ）。 </td> 
+   <td colname="col3"> 範囲比較の最大日付値（日付入力フィールドのみ）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 大文字と小文字を区別 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">大文字と小文字を区別</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Metadata Server の大文字と小文字の区別を設定します。 <span class="codeph"> searchAssetsByMetadata</span> 呼び出しで使用されます。 </p> <p>searchAssetsByMetadata<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"></a> 参照してください。 </p> </td> 
+   <td colname="col3"> <p> メタデータサーバーの大文字と小文字を区別します。 <span class="codeph"> searchAssetsByMetadata</span>呼び出しで使用されます。 </p> <p><a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local">のsearchAssetsByMetadata</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

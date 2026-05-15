@@ -1,22 +1,26 @@
 ---
-description: 画像カタログのユーザーデータ。 URL パスで指定された画像カタログエントリのユーザーデータを返します。
+description: 画像カタログからのユーザーデータ。 url パスで指定された画像カタログエントリのユーザーデータを返します。
 solution: Experience Manager
 title: userdata
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/cLVsaN--jydZTkV6GA92jN1PO8VOFAEZxhSg7F2S9dk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
 
 # userdata{#userdata}
 
-画像カタログのユーザーデータ。 URL パスで指定された画像カタログエントリのユーザーデータを返します。
+画像カタログからのユーザーデータ。 url パスで指定された画像カタログエントリのユーザーデータを返します。
 
-`req=userdata[,text|{xml[, *` エンコード `*]}|json]`
+`req=userdata[,text|{xml[, *` エンコーディング `*]}|json]`
 
 <table id="simpletable_F9D94C83865F4216BCF7987C32FACC46"> 
  <tr class="strow"> 
@@ -25,18 +29,18 @@ ht-degree: 0%
  </tr> 
 </table>
 
-`catalog::UserData` のコンテンツが返されます。 「text」フォーマットを指定すると、`??` 内の `catalog::UserData` のすべてのインスタンスが行終端文字に置き換えられ、単一行終端文字（CR/LF）が末尾に追加されます。 URL パスが有効なカタログエントリに解決されない場合、応答は 1 行のターミネータのみで構成されます。 「xml」または「json」形式がリクエストされた場合、適切なフォーマットが適用されます。
+`catalog::UserData`の内容が返されます。 「テキスト」形式を指定すると、`catalog::UserData`内の`??`のすべてのインスタンスが行ターミネータに置き換えられ、最後に単行終端（CR/LF）が追加されます。 URL パスが有効なカタログ エントリに解決されない場合、応答は1行のターミネータのみで構成されます。 「xml」または「json」形式が要求された場合、適切な形式が適用されます。
 
 リクエスト文字列内のその他のコマンドは無視されます。
 
-HTTP 応答は、`catalog::Expiration` に基づく TTL でキャッシュ可能です。
+HTTP応答は、`catalog::Expiration`に基づくTTLでキャッシュできます。
 
 >[!NOTE]
 >
->userdata プロパティのキー名にコロン文字は使用できません。
+>userdata プロパティキー名では、コロン文字は使用できません。
 
-JSONP 応答形式をサポートするリクエストでは、パラメーターの拡張構文を使用して JS コールバックハンドラーの名前 `req=` 指定できます。
+JSONP応答形式をサポートするリクエストでは、`req=` パラメーターの拡張構文を使用してJS コールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみを使用できます。 オプション。 デフォルトは `s7jsonResponse` です。
+`<reqHandler>`は、JSONP応答に存在するJS ハンドラーの名前です。 a ～ z、A ～ Z、および0 ～ 9文字のみ使用できます。 オプション。 デフォルトは`s7jsonResponse`です。

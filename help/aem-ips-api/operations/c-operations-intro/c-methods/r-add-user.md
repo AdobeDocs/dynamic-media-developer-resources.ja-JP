@@ -1,24 +1,28 @@
 ---
-description: ユーザーアカウントを作成し、そのアカウントを 1 つ以上の会社に追加します。
+description: ユーザーアカウントを作成し、そのアカウントを1つ以上の企業に追加します。
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/dR1bVB3TeSd9qnnVPrp0YIg3-kS51rPHnVWVVrhZt8s'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 177
 ht-degree: 11%
 
 ---
 
 # addUser{#adduser}
 
-ユーザーアカウントを作成し、そのアカウントを 1 つ以上の会社に追加します。
+ユーザーアカウントを作成し、そのアカウントを1つ以上の企業に追加します。
 
-1 人のユーザーを複数の会社に追加する場合は、`companyHandleArray` で会社が処理する会社を指定します。 この操作は、先ほど追加したユーザーにハンドルを返します。
+ユーザーを複数の会社に追加する場合は、それらの会社を`companyHandleArray`の会社ハンドルで指定します。 この操作は、追加したユーザーにハンドルを返します。
 
-## 許可されているユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 承認済みユーザータイプ {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,24 +35,24 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| firstName | `xsd:string` | はい | ユーザーの名。 |
+| firstName | `xsd:string` | はい | ユーザーの名前。 |
 | lastName | `xsd:string` | はい | ユーザーの姓。 |
-| 電子メール | `xsd:string` | はい | ユーザーの E メールアドレス。 |
-| defaultRole | `xsd:string` | はい | ユーザーが属する各会社のユーザーの役割を設定します。 ただし、`IpsAdmin` の役割は、会社ごとのその他の設定を上書きします。 |
+| 電子メール | `xsd:string` | はい | ユーザーのメールアドレス。 |
+| defaultRole | `xsd:string` | はい | ユーザーが属する各会社におけるユーザーの役割を設定します。 ただし、`IpsAdmin`の役割は、会社ごとの他の設定よりも優先されます。 |
 | パスワード | `xsd:string` | はい | ユーザーのパスワードを設定します |
-| passwordExpires | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際にタイムゾーンを指定します。 タイムゾーンは中部標準時に調整されます。 |
+| passwordExpires | `xsd:dateTime` | いいえ | パスワードの有効期限を設定します。 リクエストを渡す際にタイムゾーンを指定します。 タイムゾーンは中央の時間に調整されます。 |
 | isValid | `xsd:boolean` | はい | ユーザーが有効かどうかを判断します。 |
-| membershipArray | `xsd:CompanyMembershipUpdateArray` | はい | 会社ハンドルの配列。 |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | はい | 企業が処理する一連の処理です。 |
 
 **出力（addUserParam）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | はい | ユーザーへのハンドル。 |
+| userHANDLE | `xsd:string` | はい | ユーザーへのハンドル。 |
 
 ## 例 {#section-2547cef622734b71919eef849960b5cb}
 
-IPS API は、新しいユーザーを指定するユーザーハンドル要素を返します。
+IPS APIは、新しいユーザーを指定するユーザーハンドル要素を返します。
 
 **リクエスト**
 

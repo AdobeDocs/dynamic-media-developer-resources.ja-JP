@@ -1,24 +1,28 @@
 ---
-description: ズームターゲットの作成または編集。
+description: ズームターゲットを作成または編集します。
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/rw-joRwkyumLI261ifPiWTeIgy4mvx-4MpgmaKcX5-E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 125
 ht-degree: 18%
 
 ---
 
 # saveZoomTarget{#savezoomtarget}
 
-ズームターゲットの作成または編集。
+ズームターゲットを作成または編集します。
 
 構文
 
-## 許可されているユーザータイプ {#section-823cd9f0557045bca51da66768b5ba74}
+## 承認済みユーザータイプ {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,25 +37,25 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | ズームターゲットを保存する会社へのハンドル。 |
-| assetHandle | `xsd:string` | はい | ズームターゲットのハンドル。 |
-| zoom ターゲット ハンドル | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
+| companyHandle | `xsd:string` | はい | 保存するズームターゲットを持つ会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | ズームターゲットへのハンドル。 |
+| zoomTargetHandle | `xsd:string` | いいえ | ズームターゲットを編集または作成します。 |
 | name | `xsd:string` | はい | ズームターゲット名。 |
-| x 位置 | `xsd:int` | はい | 左ピクセルの位置。 |
-| yPosition | `xsd:int` | はい | 上位のピクセルの場所。 |
-| 幅 | `xsd:int` | はい | ズームターゲットの幅。 |
-| 高さ | `xsd:int` | はい | ズームターゲットの高さ。 |
-| userData | `xsd:string` | はい | お客様固有の情報 任意のタイプのデータを含めることができます。 |
+| xPosition | `xsd:int` | はい | 左ピクセルの位置。 |
+| yPosition | `xsd:int` | はい | 最上位のピクセルの場所： |
+| 幅 | `xsd:int` | はい | ターゲット幅をズームします。 |
+| 高さ | `xsd:int` | はい | ターゲットの高さをズームします。 |
+| userData | `xsd:string` | はい | 固有の情報を受け取ることができます。 任意のタイプのデータを含めることができます。 |
 
 **出力（saveZoomTargetReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| zoom ターゲット ハンドル | `xsd:string` | はい | 新しく作成されたズームターゲットへのハンドル。 |
+| zoomTargetHandle | `xsd:string` | はい | 新しく作成したズームターゲットに対するハンドル。 |
 
 ## 例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-このコードサンプルでは、ズームターゲットを保存します。 応答は、ズームターゲットハンドルを返します。
+このコードサンプルは、ズームターゲットを保存します。 応答は、ズームターゲットハンドルを返します。
 
 **リクエスト**
 

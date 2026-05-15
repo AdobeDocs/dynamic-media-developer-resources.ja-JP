@@ -1,28 +1,32 @@
 ---
-description: ボタンコンテナのスライドアニメーションの方向を指定します。
+description: ボタン コンテナのスライド アニメーションの方向を指定します。
 solution: Experience Manager
-title: FavoritesMenu.bearing
+title: お気に入りメニュー.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2466a288-59c2-4a5e-b0bd-ff5b42dcacdb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Pe9frhI8cmIorx5zE-cdC-frEP77UOksMwyM9PvUCdo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 189
 ht-degree: 1%
 
 ---
 
-# FavoritesMenu.bearing{#favoritesmenu-bearing}
+# お気に入りメニュー.bearing{#favoritesmenu-bearing}
 
-ボタンコンテナのスライドアニメーションの方向を指定します。
+ボタン コンテナのスライド アニメーションの方向を指定します。
 
 [!DNL `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 上|下|左|右|フィット – 垂直|フィット – 横 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、または <span class="codeph"> right</span> に設定すると、追加の境界チェックなしでパネルが指定した方向にロールアウトされ、外部コンテナによってパネルがクリップされます。 </p> <p><span class="codeph"> fit-vertical</span> に設定した場合、コンポーネントはまず基本パネルの位置を「お気に入り」メニューの下部に移動し、その基本の位置（下、右、左）から次のいずれかの方向にパネルをロールアウトしようとします。 試行のたびに、コンポーネントはパネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントはベースパネルの位置を上に移動し、ロールアウトの試行を上、右、左から繰り返そうとします。 </p> <p>fit-lateral<span class="codeph"> に設定 </span> ると、コンポーネントは同様のロジックを使用します。 ベースは最初に右に移動し、右、下、上のロールアウト方向を試します。 次に、ベースを左に移動し、左、下、上のロールアウト方向を試します。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>、または<span class="codeph"> right</span>に設定すると、パネルが指定された方向にロールアウトされ、追加の境界チェックが行われず、外部コンテナによってパネルがクリッピングされます。 </p> <p><span class="codeph"> fit-vertical</span>に設定すると、コンポーネントは最初にお気に入りメニューの下部にベースパネルの位置を移動し、そのベースの位置から次のいずれかの方向にパネルをロールアウトしようとします。下、右、左。 コンポーネントは、試行するたびに、パネルが外部コンテナによってクリップされているかどうかを確認します。 すべての試行が失敗した場合、コンポーネントはベースパネルの位置を上に移動し、上、右、左の方向からロールアウトを繰り返します。 </p> <p><span class="codeph"> fit-lateral</span>に設定すると、コンポーネントは同様のロジックを使用します。 ベースは最初に右にシフトされ、右、下、そして上方向に向かって進みます。 次に、ベースを左に移動し、左、下、上の方向にロールアウトします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

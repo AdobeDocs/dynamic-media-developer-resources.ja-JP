@@ -1,33 +1,38 @@
 ---
-description: これらのサーバー設定をキャッシュ クラスタリングに使用します。
+description: キャッシュクラスタリングには、これらのサーバー設定を使用します。
 solution: Experience Manager
 title: キャッシュクラスタリング
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/4SJmK1ILgnCBqYjjQcEnz0SVRzQfsY9mD05Xpd1ssnw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: 200
 ht-degree: 0%
 
 ---
 
 # キャッシュクラスタリング{#cache-clustering}
 
-これらのサーバー設定をキャッシュ クラスタリングに使用します。
+キャッシュクラスタリングには、これらのサーバー設定を使用します。
 
-## PS::cacheCluster.hosts - ホスト {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
+## PS::cacheCluster.hosts - Hosts {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-セミコロンで区切られた IP アドレスのリスト。 このホストがキャッシュデータを取得する必要があるすべてのピアサーバーの IP アドレスを含めます。 便宜上、ローカルホストの IP アドレスを含めることができます。これにより、クラスター内のすべてのサーバーで同じ設定が可能になります。
+セミコロンで区切られたIP アドレスのリスト。 このホストがキャッシュデータを取得する必要があるすべてのピアサーバーのIP アドレスを含めます。 ローカルホストのIP アドレスは、便宜のために含めることができます。これにより、クラスター内のすべてのサーバーで同じ設定設定が可能になります。
 
-## PS::cacheCluster.updateLocalCache - ローカルキャッシュを更新する {#section-154c2c0af4544200a3499232bb130dde}
+## PS::cacheCluster.updateLocalCache - ローカルキャッシュの更新 {#section-154c2c0af4544200a3499232bb130dde}
 
-ピアサーバーによって提供されたキャッシュエントリをローカル応答キャッシュにコピーする必要がある場合は、「はい」に設定します。
+ピアサーバーが提供するキャッシュエントリをローカル応答キャッシュにコピーする必要がある場合は、「はい」に設定します。
 
 ## PS::cacheCluster.queryTimeout - クエリタイムアウト {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-ピア サーバーからキャッシュ エントリを要求する場合、サーバーは 1 つのサーバーがこの特定のデータ アイテムを持っていることを応答するまで、またはすべてのピア サーバーがデータ アイテムを持っていないことを応答するまで、またはこの設定で指定された時間（ミリ秒）が経過するまで待機します。
+ピアサーバーからキャッシュエントリを要求する場合、サーバーは、1つのサーバーがこの特定のデータ項目を持っていると応答するか、すべてのピアサーバーがデータ項目を持っていないと応答するか、この設定で指定された時間（ミリ秒）が経過するまで待機します。
 
 ## PS::cacheCluster.fetchTimeout - Fetch Timeout {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-ピア サーバーから実際のキャッシュ データが配信されるまで、サーバーが待機する最大時間（ミリ秒）を指定します。 タイムアウトの期限が切れる前に完全なデータが配信されなかった場合、サーバはピアが使用不可になったと見なします。 次に、キャッシュエントリがローカルに生成されます。
+ピア サーバーから実際のキャッシュ データが配信されるのをサーバーが待機する最大ミリ秒数を指定します。 タイムアウトが終了する前に完全なデータが配信されていない場合、サーバーはピアが利用できないと仮定します。 その後、キャッシュエントリはローカルで生成されます。

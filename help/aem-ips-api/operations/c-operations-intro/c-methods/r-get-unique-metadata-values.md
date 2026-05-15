@@ -5,9 +5,14 @@ title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/iDDSEPmoOHPlfCBx2wN9AEM4xlwC-s6SAPKVDUd6iEk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: 57
 ht-degree: 22%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 22%
 
 構文
 
-## 許可されているユーザータイプ {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 承認済みユーザータイプ {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +39,7 @@ ht-degree: 22%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に渡す。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
 | fieldHandle | `xsd:string` | いいえ | メタデータフィールドへのハンドル。 |
 
 **出力（getUniqueMetadataValuesReturn）**

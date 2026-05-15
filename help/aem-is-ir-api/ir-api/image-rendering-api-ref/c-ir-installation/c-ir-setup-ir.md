@@ -1,21 +1,25 @@
 ---
-title: 画像レンダリングのセットアップと設定
-description: 画像レンダリングは、fileinstall_folder/conf/ImageRendering.confで設定します。
+title: 画像レンダリングの設定と設定
+description: 画像レンダリングは、fileinstall_folder/conf/ImageRendering.confで設定されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 126833bf-16db-40f1-8179-7775e9063081
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/uEGeCbCdGPwpF-5fnmHxj2csMB-3WtYGU6149tH3j00'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 0%
 
 ---
 
-# 画像レンダリングのセットアップと設定{#setup-and-configure-image-rendering}
+# 画像レンダリングの設定と設定{#setup-and-configure-image-rendering}
 
-画像レンダリングは `fileinstall_folder/conf/ImageRendering.conf` で設定します。
+画像レンダリングは`fileinstall_folder/conf/ImageRendering.conf`で構成されています。
 
-詳しくは、ドキュメントの設定の節を参照してください。 Windows の場合のみ、このファイルはスタート メニューからもアクセスできます。**[!UICONTROL スタート メニュー]** > **[!UICONTROL プログラム]** > **[!UICONTROL Scene7]** > **[!UICONTROL イメージ レンダリング設定ファイルの編集]**。
+詳しくは、ドキュメントの「設定」セクションを参照してください。 Windowsのみの場合、このファイルにはスタートメニューからアクセスすることもできます：**[!UICONTROL スタートメニュー]** > **[!UICONTROL プログラム]** > **[!UICONTROL Scene7]** > **[!UICONTROL 画像レンダリング設定ファイルを編集]**。
 
-画像レンダリングを停止して開始するには、画像サービングのドキュメントを参照してください。 画像レンダリングを画像サービングとは別に停止または開始することはできません。
+画像レンダリングを停止して開始するには、画像サービングのドキュメントを参照してください。 画像レンダリングを個別に停止したり、画像サービングから開始したりすることはできません。

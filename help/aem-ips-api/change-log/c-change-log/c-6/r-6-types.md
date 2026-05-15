@@ -1,20 +1,25 @@
 ---
-description: IPS API バージョン 6 の新しいタイプと変更されたタイプについて説明します。
+description: IPS API バージョン 6の新しいタイプと変更されたタイプについて説明します。
 solution: Experience Manager
-title: 新規および変更済みのデータタイプ
+title: 新規および変更されたデータタイプ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/LI8xzlS2eACzYqcV3krzThLm77-z6imYLohPRCTHIYs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: 71
 ht-degree: 1%
 
 ---
 
-# データタイプ：新規および変更済み{#data-types-new-and-modified}
+# データタイプ：新規および変更{#data-types-new-and-modified}
 
-IPS API バージョン 6 の新しいタイプと変更されたタイプについて説明します。
+IPS API バージョン 6の新しいタイプと変更されたタイプについて説明します。
 
 構文
 
@@ -40,24 +45,24 @@ IPS API バージョン 6 の新しいタイプと変更されたタイプにつ
 
 **追加**
 
-* `numUrls` を `UploadUrlsJob` に追加しました。
+* `numUrls`を`UploadUrlsJob`に追加しました。
 
-* が `fileName` を `Asset.` に追加しました
+* `fileName`を`Asset.`に追加しました
 
-* `isHidden` を `MetadataField` に追加しました。
+* `isHidden`を`MetadataField`に追加しました。
 
-* `taskState` を `TaskProgress` に追加しました。
+* `taskState`を`TaskProgress`に追加しました。
 
-* `exportJob` と `ActiveJob` に `ScheduledJob` を追加しました。
+* `exportJob`を`ActiveJob`と`ScheduledJob`に追加しました。
 
-* `optmizedPath` と `optimizedFile` を `PsdInfo` に追加しました。
+* `optmizedPath`と`optimizedFile`を`PsdInfo`に追加しました。
 
-* `contextHandle` が次に追加されました：
+* に`contextHandle`を追加しました：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* `Asset` に次のパラメーターを追加しました。
+* 次のパラメーターを`Asset`に追加しました：
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -66,8 +71,8 @@ IPS API バージョン 6 の新しいタイプと変更されたタイプにつ
 
 **変更**
 
-* `User` で、が `role` を `defaultRole` に変更しました。
+* `User`で、`role`を`defaultRole`に変更しました。
 
-* `Folder` で、が `permissions` を `permissionsSetHandle` に変更しました。
+* `Folder`で、`permissions`を`permissionsSetHandle`に変更しました。
 
-* `AssetSummary` では、`type` と `name` がオプションになりました。
+* `AssetSummary`では、`type`と`name`はオプションになりました。

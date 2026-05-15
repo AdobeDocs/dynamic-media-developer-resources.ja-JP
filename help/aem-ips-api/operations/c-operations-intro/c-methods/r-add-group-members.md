@@ -1,24 +1,28 @@
 ---
-description: 特定の会社から特定のグループにユーザーを追加します。
+description: 特定の企業のユーザーを特定のグループに追加します。
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/iwy99zQOP-peI6mJgDE8bp7NGN6bjH1g5MBN53gIkJw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 9%
 
 ---
 
 # addGroupMembers{#addgroupmembers}
 
-特定の会社から特定のグループにユーザーを追加します。
+特定の企業のユーザーを特定のグループに追加します。
 
 構文
 
-## 許可されているユーザータイプ {#section-b4406c54ed7c4827be4c1acc957e0057}
+## 承認済みユーザータイプ {#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +34,17 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
-| groupHandle | `xsd:string` | はい | グループハンドル。 |
-| userHandleArray | `types:HandleArray` | はい | グループに追加するユーザーへのハンドルの配列。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドルです。 |
+| groupHandle | `xsd:string` | はい | グループハンドルです。 |
+| userHandleArray | `types:HandleArray` | はい | グループに追加するユーザーに対するハンドルの配列。 |
 
 **出力（addGroupMembersParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-この例では、addGroupMembersParam を使用して、1 つの会社に 1 人のユーザーを追加します。 IPS API は、この操作に対して応答を返しません。
+この例では、addGroupMembersParamを使用して、ユーザーを1つの会社に追加します。 IPS APIは、この操作に対する応答を返しません。
 
 **リクエスト**
 

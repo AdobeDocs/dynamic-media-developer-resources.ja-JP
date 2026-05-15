@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b31bdbb-3c2c-4f7f-ba95-d3e710270be0
-source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
+TQID: 'https://experienceleague.adobe.com/la3dpm1US1LePnjyA1jbTG8aSNDrovP-GPFeJMwrYxI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: 55
 ht-degree: 1%
 
 ---
@@ -20,14 +24,14 @@ ht-degree: 1%
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>送信時に取得されたジョブ ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ジョブ ID </span> </p> </td> 
+  <td class="stentry"> <p>送信時に取得したジョブ ID。 </p> </td> 
  </tr> 
 </table>
 
-戻り値：
+返品：
 
-ジョブの簡単なステータス（XML 形式）。ジョブ ID が無効な場合、またはジョブが削除された場合にエラーが発生します。
+XML形式のジョブの簡単なステータス。ジョブ IDが無効であるか、ジョブが削除された場合にエラーが発生します。
 
 ## 例 {#section-806460949bb043438ad4dd4e7ab74145}
 

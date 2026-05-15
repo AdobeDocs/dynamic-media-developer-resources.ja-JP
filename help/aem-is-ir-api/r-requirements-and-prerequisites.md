@@ -1,60 +1,64 @@
 ---
-title: システム要件および前提条件
-description: Dynamic Media 画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
+title: 必要システム構成と前提条件
+description: Dynamic Media画像サービングを使用する前に、システムが必要システム構成を満たしていることを確認してください。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/SKAe9OsVsSkTRR5E3s5lBcPct4CgG1h1uIh7ayIpINA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: 390
 ht-degree: 0%
 
 ---
 
-# システム要件および前提条件{#system-requirements-and-prerequisites}
+# 必要システム構成と前提条件{#system-requirements-and-prerequisites}
 
-Dynamic Media 画像サービングを使用する前に、お使いのシステムがシステム要件を満たしていることを確認してください。
+Dynamic Media画像サービングを使用する前に、システムが必要システム構成を満たしていることを確認してください。
 
-## サーバハードウェア {#section-f3c14a7bc1b745118602659628df779f}
+## サーバーハードウェア {#section-f3c14a7bc1b745118602659628df779f}
 
-サーバーは次のハードウェア要件を満たしている必要があります。
+サーバーは、次のハードウェア要件を満たしている必要があります。
 
 >[!NOTE]
 >
->AMD64 および Intel® EM64T を搭載したプロセッサを搭載したシステムは、通常、NUMA （Non-Uniform Memory Architecture）プラットフォームとして設定されます。 つまり、カーネルは、単一のメモリノードを構築するのではなく、ブート時に複数のメモリノードを構築します。 複数のノード構成体を使用すると、他のノードが消費される前に、1 つ以上のノードでメモリが枯渇する可能性があります。 メモリ不足が発生すると、使用可能なメモリがあるにもかかわらず、カーネルはプロセス（Image Server や [!DNL Platform Server] など）を強制終了する可能性があります。 そのため、Adobeでは、このようなシステムを実行する場合は、NUMA をオフにすることをお勧めします。 `numa=off` start オプションを使用して、カーネルがこれらのプロセスを停止するのを避けます。
+>AMD64とインテル® EM64Tを搭載したプロセッサー搭載システムは、通常、NUMA （Non-Uniform Memory Architecture）プラットフォームとして構成されます。 これは、カーネルが単一のメモリノードを構築するのではなく、起動時に複数のメモリノードを構築することを意味します。 複数ノード構成体は、他のノードが消耗する前に、1つ以上のノードのメモリ消耗を引き起こす可能性がある。 メモリ不足が発生すると、使用可能なメモリがあるにもかかわらず、カーネルはプロセス （Image Serverや[!DNL Platform Server]など）を強制終了できます。 したがって、Adobeでは、そのようなシステムを実行している場合はNUMAをオフにすることをお勧めします。 カーネルがこれらのプロセスを停止しないようにするには、`numa=off`開始オプションを使用します。
 
 **Windows**
 
-* 4 コア以上の Intel Xeon® または AMD® Opteron CPU
-* 1 GB 以上の RAM
-* スワップ領域は、物理メモリ（RAM）の少なくとも 2 倍の量に等しくなります。
-* インストールと基本操作に 2 GB のハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、マニフェストファイル用に、さらにディスク容量が必要です。
-* ファースト イーサネット ネットワーク インターフェイス カード。
+* Intel Xeon®またはAMD® Opteron CPU（少なくとも4 コア）。
+* 1 GB以上のRAM。
+* スワップ領域は、物理メモリ（RAM）の少なくとも2倍に相当します。
+* インストールと基本操作のために2 GBのハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、およびマニフェストファイルには、追加のディスク空き容量が必要です。
+* 高速イーサネットネットワークインターフェイスカード。
 
 **Linux®**
 
-* 4 コア以上の Intel Xeon® または AMD® Opteron CPU
-* 16 GB 以上の RAM。
-* スワップが無効です（推奨）。
-* インストールと基本操作に 2 GB のハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、マニフェストファイル用に、さらにディスク容量が必要です。
-* ファースト イーサネット ネットワーク インターフェイス カード。
+* Intel Xeon®またはAMD® Opteron CPU（少なくとも4 コア）。
+* 16 GB以上のRAM。
+* スワップは無効（推奨）です。
+* インストールと基本操作のために2 GBのハードディスク空き容量が必要です。ソースイメージ、ログ、データキャッシュ、およびマニフェストファイルには、追加のディスク空き容量が必要です。
+* 高速イーサネットネットワークインターフェイスカード。
 
-**注意（Linux®）:** SELinux がオンの場合、画像サービングは機能しません。 このオプションはデフォルトで有効になっています。 SELinux を無効にするには、[!DNL /etc/selinux/config] ファイルを編集し、SELinux 値を次の値から変更します。
+**メモ （Linux®）:**&#x200B;画像サービングは、SELinuxをオンにすると機能しません。 このオプションはデフォルトで有効になっています。 SELinuxを無効にするには、[!DNL /etc/selinux/config] ファイルを編集し、SELinux値を次のように変更します。
 
 `SELINUX=enforcing`
 
-終了
+へ
 
 `SELINUX=disabled`
 
-**注意（Linux®）:** サーバーのホスト名が IP アドレスに解決できることを確認してください。 解決できない場合は、次の例のように、完全修飾ホスト名と IP アドレスを [!DNL /etc/hosts] に追加してください。
+**メモ （Linux®）:** サーバーのホスト名がIP アドレスに解決可能であることを確認します。 それが不可能な場合は、次の例のように、完全修飾ホスト名とIP アドレスを[!DNL /etc/hosts]に追加します。
 
 `<ip address> <fully qualified hostname>`
 
 ## サーバーソフトウェア {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Dynamic Media 画像サービングには、次のサーバーソフトウェアが必要です。
+Dynamic Media Image Servingには、次のサーバーソフトウェアが必要です。
 
 **Windows**
 
@@ -63,7 +67,7 @@ Dynamic Media 画像サービングには、次のサーバーソフトウェア
 
 **Linux®**
 
-* 最新の修正パッチが適用された Red Hat® Enterprise 5 または CentOS 5.5 以降。
+* Red Hat® Enterprise 5またはCentOS 5.5以降（最新の修正パッチ付き）。
 * 64 ビットオペレーティングシステム。
 
-**注意：** Windows で画像サービングを使用するには、Microsoft® Visual Studio 2010 をインストールする必要があります。
+**メモ：** WindowsでImage Servingを使用するには、Microsoft® Visual Studio 2010をインストールする必要があります。

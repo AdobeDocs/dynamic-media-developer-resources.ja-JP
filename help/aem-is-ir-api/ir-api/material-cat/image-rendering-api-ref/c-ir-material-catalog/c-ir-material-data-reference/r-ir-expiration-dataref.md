@@ -1,37 +1,41 @@
 ---
 title: 有効期限
-description: クライアントキャッシュの有効期限。 有効期限までの時間数。 クライアントおよびプロキシサーバーのキャッシュを管理するために使用します。
+description: クライアントキャッシュの稼働時間： 有効期限までの時間数。 クライアントおよびプロキシ サーバーのキャッシュの管理に使用します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/dFnSsD8mmC0aPefS3Z0GujF1A-p1nCQyiNpzMXxOBEQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 325
 ht-degree: 1%
 
 ---
 
 # 有効期限{#expiration}
 
-クライアントキャッシュの有効期限。 有効期限までの時間数。 クライアントおよびプロキシサーバーのキャッシュを管理するために使用します。
+クライアントキャッシュの稼働時間： 有効期限までの時間数。 クライアントおよびプロキシ サーバーのキャッシュの管理に使用します。
 
-サーバは、この値を送信日時に加算することにより、NTTP 応答データの有効期限日時を算出する。
+サーバは、この値を送信日時に付加することにより、NTTP応答データの有効期限を算出する。
 
-ブラウザーは、ファイルの有効期限を使用してキャッシュを管理します。 リクエストをサーバーに渡す前に、ブラウザーはキャッシュをチェックして、ファイルが既にダウンロードされているかどうかを確認します。 その場合、およびファイルの有効期限がまだ切れていない場合、ブラウザーは通常のGET リクエストではなく、条件付きGET リクエストを送信します（例：If-Modified-Since HTTP リクエストヘッダーを使用）。 サーバーには、画像を送信せずに「304」ステータスで応答するオプションがあります。 その後、ブラウザーは単にキャッシュからファイルを読み込みます。 これにより、頻繁にアクセスされるデータの全体的なパフォーマンスが大幅に向上する可能性があります。
+ブラウザーは、ファイルの有効期限を使用してキャッシュを管理します。 リクエストをサーバーに渡す前に、ブラウザーはキャッシュをチェックして、ファイルが既にダウンロードされているかどうかを確認します。 その場合、ファイルがまだ期限切れになっていない場合、ブラウザーは通常のGET リクエストではなく、条件付きGET リクエスト（例えば、If-Modified-Since HTTP リクエストヘッダー）を送信します。 サーバーには、「304」ステータスで応答し、画像を送信しないオプションがあります。 ブラウザーはキャッシュからファイルを読み込むだけです。 これにより、頻繁にアクセスされるデータの全体的なパフォーマンスが大幅に向上する可能性があります。
 
-サーバーは、expires HTTP 応答ヘッダーを、現在の日時に最小のビネット：:Expiration とすべてのカタログ：:Expiration の値を加えた値に設定します。ビネットと、レンダリング操作に関連するすべてのマテリアルの値です。
+サーバーは、有効期限HTTP応答ヘッダーを、現在の日時に、周辺光量補正：：有効期限の最小値を加え、周辺光量補正とすべてのカタログ：：有効期限の値を、レンダリング操作に関連するすべてのマテリアルに設定します。
 
-有効期限は主に画像データの応答に対して設定されます。 特定のタイプの応答は、すべてのエラー応答やプロパティ応答を含め、常に即時の有効期限がマークされます（または、キャッシュ不可としてタグ付けされます）。
+有効期限は、主に画像データの応答に設定されます。 特定のタイプの応答は、すべてのエラー応答やプロパティ応答を含め、即時の有効期限（またはキャッシュ不可としてタグ付け）が常にマークされます。
 
 ## プロパティ {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
--2、-1、0 以上の実数。 応答画像が生成されてから有効期限が切れるまでの時間数。 常にレスポンスイメージの有効期限が直ちに切れるように 0 に設定すると、クライアントキャッシュが効果的に無効になります。 -1 に設定すると、`never expire` としてマークされます。 この場合、サーバーは、条件付き `GET` リクエストに応答して、ファイルが実際に変更されたかどうかを確認せずに、常に 304 ステータス（未変更）を返します。 `attribute::Expiration` が提供するデフォルトを使用するには、-2 に設定します。
+実数、-2、-1、0以上。 応答イメージが生成されてから有効期限が切れるまでの時間数。 0に設定すると、応答イメージが即座に期限切れになり、クライアントのキャッシュが効果的に無効になります。 `never expire`としてマークするには–1に設定します。 この場合、サーバーは、条件付き`GET`要求に応答して常に304 ステータス（未変更）を返します。ファイルが実際に変更されたかどうかを確認する必要はありません。 `attribute::Expiration`が提供するデフォルトを使用するには、-2に設定します。
 
 ## 初期設定 {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` は、フィールドが存在しない場合、値が–2 の場合、またはフィールドが空の場合に使用されます。
+`attribute::Expiration`は、フィールドが存在しない場合、値が–2の場合、またはフィールドが空の場合に使用されます。
 
 ## 関連項目 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [vignette::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[属性：：有効期限](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996)、[ ビネット：：有効期限](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)、[req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

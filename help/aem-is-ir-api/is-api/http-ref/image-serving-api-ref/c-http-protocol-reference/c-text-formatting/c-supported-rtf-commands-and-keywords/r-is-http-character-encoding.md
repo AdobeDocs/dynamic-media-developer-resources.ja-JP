@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/rptRmm7xxUUF2l5WTYXjvbaifW2z5XKeCQIqa5XLFh4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 94
 ht-degree: 2%
 
 ---
@@ -27,32 +31,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
-   <td> <p>単一の 8 ビット文字。 </p> </td> 
-   <td> <p><span class="varname"> HH</span> は 2 桁の 16 進数値である必要があります。 </p> </td> 
+   <td> <p>8 ビットの単一文字。 </p> </td> 
+   <td> <p><span class="varname"> HH</span>は2桁の16進値である必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
-   <td> <p>単一の Unicode 文字。 </p> </td> 
-   <td> <p><span class="varname"> N</span> は符号付き 2 バイトの整数なので、32767 より大きい Unicode 値は負の数として表す必要があります。 </p> </td> 
+   <td> <p>単一のUnicode文字。 </p> </td> 
+   <td> <p><span class="varname"> N</span>は符号付き2 バイト整数であるため、32767より大きいUnicode値は負の数値で表現する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
-   <td> <p>Unicode 文字サイズ。 </p> </td> 
-   <td> <p>指定された Unicode 文字に対応するバイト数。 </p> </td> 
+   <td> <p>Unicode文字サイズ。 </p> </td> 
+   <td> <p>指定されたUnicode文字に対応するバイト数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>低 ANSI 領域からの文字。 </p> </td> 
+   <td> <p>低ANSI領域の文字。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich </span> </td> 
-   <td> <p>高 ANSI 領域からの文字。 </p> </td> 
+   <td> <p>高ANSI領域の文字。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch </span> </td> 
-   <td> <p>2 バイト文字が後に続きます。 </p> </td> 
+   <td> <p>2 バイト文字が続きます。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 

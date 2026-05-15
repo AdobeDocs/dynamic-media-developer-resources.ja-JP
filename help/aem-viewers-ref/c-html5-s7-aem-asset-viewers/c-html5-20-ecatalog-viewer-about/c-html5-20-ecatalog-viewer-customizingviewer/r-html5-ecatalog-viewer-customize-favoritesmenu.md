@@ -1,30 +1,34 @@
 ---
 title: お気に入りメニュー
-description: コントロール バーに [ お気に入り ] メニュードロップダウン リストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップすると展開するパネルで構成されています。 パネルには、個々のお気に入りツールが含まれています。
+description: お気に入りメニュードロップダウンリストがコントロールバーに表示されます。 ボタンと、オーディエンスがボタンをクリックまたはタップすると展開されるパネルで構成されています。 パネルには、個々のお気に入りツールが含まれています。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3c90320-b6fc-4a43-b75f-d39234b1e73c
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/faqlE98AkQ1uZIujNNnFKsxe6NauUAmVPh4lFFdKZsw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: 335
 ht-degree: 0%
 
 ---
 
 # お気に入りメニュー{#favorites-menu}
 
-コントロール バーに [ お気に入り ] メニュードロップダウン リストが表示されます。 ボタンと、ユーザーがボタンをクリックまたはタップすると展開するパネルで構成されています。 パネルには、個々のお気に入りツールが含まれています。
+お気に入りメニュードロップダウンリストがコントロールバーに表示されます。 ボタンと、オーディエンスがボタンをクリックまたはタップすると展開されるパネルで構成されています。 パネルには、個々のお気に入りツールが含まれています。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-ビューアユーザーインターフェイスのお気に入りメニューの位置とサイズは、次の CSS クラスセレクターで制御されます。
+ビューアユーザーインターフェイスの「お気に入り」メニューの位置とサイズは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7favoritesmenu
 ```
 
-**お気に入りメニューボタンの CSS プロパティ**
+**お気に入りメニューボタンのCSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -34,20 +38,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまでの距離。行の最初のボタンの場合はコントロール バーの左側。 </p> </td> 
+   <td colname="col2"> <p> 左の次のボタン、または行の最初のボタンの場合はコントロールバーの左側までの距離。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – コントロールバーの上部から 4 ピクセル、最も近いボタンから左側に 10 ピクセル配置され、サイズが 28 x 28 ピクセルのお気に入りメニューを設定するには：
+例 – コントロールバーの上部から4 ピクセル、最も近いボタンから左に10 ピクセル、サイズが28 x 28 ピクセルの「お気に入り」メニューを設定するには、次の手順を実行します。
 
 ```
 .s7ecatalogviewer .s7favoritesmenu { 
@@ -58,34 +62,34 @@ margin-left: 10px;
 }
 ```
 
-「お気に入り」メニューボタンの外観は、次の CSS クラスセレクターで制御します。
+お気に入りメニューボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**お気に入りボタンの CSS プロパティ**
+**お気に入りボタンのCSS プロパティ**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – 4 つの異なるボタンの状態ごとに異なる画像を表示するお気に入りメニューボタンを設定するには：
+例 – 4つの異なるボタンの状態ごとに異なる画像を表示するお気に入りメニューボタンを設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -102,24 +106,24 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 }
 ```
 
-個々のお気に入りアイコンを含むパネルの外観は、次の CSS クラスセレクターで制御されます。
+個々のお気に入りアイコンを含むパネルの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesmenupanel
 ```
 
-**お気に入りメニューパネルの CSS プロパティ**
+お気に入りメニューパネルの&#x200B;**CSS プロパティ**
 
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>パネルの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – パネルを透明色に設定するには：
+例 – パネルを透明な色に設定するには：
 
 ```
 .s7ecatalogviewer .s7favoritesmenu .s7favoritesmenupanel { 

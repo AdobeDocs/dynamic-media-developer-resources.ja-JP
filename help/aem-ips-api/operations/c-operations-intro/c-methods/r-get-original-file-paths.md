@@ -5,9 +5,13 @@ title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/D8lKzaqYSHdG-CXVAmlv5cuAuuEXEWlFSnqpiX8RkFI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: 99
 ht-degree: 13%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 13%
 
 構文
 
-## 許可されているユーザータイプ {#section-da8d8561e9174e938f3595a5d6e50089}
+## 承認済みユーザータイプ {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +34,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->アセットへの読み取りアクセス権が必要です。
+>アセットへの読み取りアクセスが必要です。
 
 ## パラメーター {#section-a6b394daba6e49a8882cf3051035d9d1}
 
@@ -38,8 +42,8 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
-| assetHandleArray | `types:HandleArray` | はい | 元のファイルパスを取得したいアセットへのハンドルの配列。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドルです。 |
+| assetHandleArray | `types:HandleArray` | はい | 元のファイルパスを取得するアセットへのハンドルの配列。 |
 
 **出力（getOriginalFilePathsReturn）**
 
@@ -49,7 +53,7 @@ ht-degree: 13%
 
 ## 例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-このコード例では、アセットハンドル配列内の一意のアセットハンドルで指定されたアセットのファイルパスを返します。
+このコードサンプルは、アセットハンドル配列内の一意のアセットハンドルで指定されたアセットのファイルパスを返します。
 
 **リクエスト**
 

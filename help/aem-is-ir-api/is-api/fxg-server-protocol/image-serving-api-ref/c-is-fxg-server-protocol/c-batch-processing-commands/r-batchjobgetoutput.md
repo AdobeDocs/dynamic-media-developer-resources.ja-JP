@@ -5,9 +5,13 @@ title: batchjobgetoutput
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3fb48c39-b15a-45b7-9aca-ed33f9c46c93
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NxpHJlKxPQZT5YilheQ-MR0YfYO685pscRk76T1aU0A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 56
 ht-degree: 1%
 
 ---
@@ -20,14 +24,14 @@ ht-degree: 1%
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>送信時に取得されたジョブ ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ジョブ ID </span> </p> </td> 
+  <td class="stentry"> <p>送信時に取得したジョブ ID。 </p> </td> 
  </tr> 
 </table>
 
-戻り値：
+返品：
 
-ジョブのPDF出力は、それに応じてストリーミングされます。`jobid` が無効な場合、またはジョブが削除された場合はエラーになります。
+ジョブのPDF出力が応答でストリーミングされます。`jobid`が無効であるか、ジョブが削除された場合にエラーが発生します。
 
 ## 例 {#section-0319e615fa254132a9dab59351b4c252}
 

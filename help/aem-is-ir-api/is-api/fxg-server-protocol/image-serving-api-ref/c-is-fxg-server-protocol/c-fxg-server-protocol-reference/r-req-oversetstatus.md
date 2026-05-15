@@ -1,20 +1,24 @@
 ---
-title: 要
-description: リクエストタイプ。 リクエストのタイプを指定します。
+title: req
+description: リクエストタイプ： リクエストのタイプを指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/uj4dkcoE66sj68VxVb92ncvX9FTQAy99TMUOW-rLc-A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 0%
 
 ---
 
-# 要{#req}
+# req{#req}
 
-リクエストタイプ。 リクエストのタイプを指定します。
+リクエストタイプ： リクエストのタイプを指定します。
 
 `req={validate|contents|oversetstatus|exists}`
 
@@ -27,20 +31,20 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 検証 <span class="codeph"> る </span> </p> </td> 
-   <td colname="col2"> <p> 指定された URL 修飾子で fxg をレンダリングした際にエラーが発生した場合は、それを返します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">検証</span> </p> </td> 
+   <td colname="col2"> <p> 指定されたurl修飾子を使用してfxgをレンダリングする際のエラーを返します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の内容 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7:element</span> 属性値を持つすべての要素の xml リストと、fxg ドキュメント内のすべてのページのリストを返します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">件のコンテンツ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7:element</span>属性値とfxg ドキュメント内のすべてのページのリストを持つすべての要素のxml リストを返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>&lt;RichText/&gt;<span class="codeph"> 要素がオーバーセットされ </span>XML リストを返します。 </p> <p>クライアント側で処理 <span class="+ topic/ph pr-d/codeph codeph"> るためにオーバーセットされた &lt;RichText/&gt;</span> 要素の xml リストを返します。 オーバーセッ <span class="+ topic/ph pr-d/codeph codeph"> されている &lt;RichText/&gt;</span> 要素のみが返されます。 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> は、req=oversetstatus<span class="+ topic/ph pr-d/codeph codeph"> を使用する場合 </span> 必須の <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> 属性です。 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span><span class="+ topic/ph pr-d/codeph codeph"> ない &lt;RichText/&gt;</span> 要素のオーバーセットはリストされません。 リストの各 <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> 要素には、<span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>、<span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>、およびオーバーセットテキストフレームのバウンディングボックスがあります。 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> 属性は、ストーリー内のテキストインデックスを示します。テキストは、フレーム内に収まるまでストーリー内のテキストインデックスを示します。 <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> は、リクエストされた FXG の <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> 要素にのみ適用されます。 埋め込まれた FXG の <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> 要素はリストされません。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> &lt;RichText/&gt;</span>要素がオーバーセットされているXML リストを返します。 </p> <p>クライアント側で処理するためにオーバーセットされている<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素のxml リストを返します。 オーバーセットされた<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素のみが返されます。 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>は、<span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>を使用する場合、<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>属性として必須です。 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>を持たない<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素はリストに含まれません。 リスト内の各<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素には、<span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>、<span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>およびオーバーセットテキストフレームのバウンディングボックスがあります。 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>属性は、ストーリー内のテキストインデックスが、どのテキストがフレームに収まることができたかを示します。 <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span>は、要求されたFXG内の<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素にのみ適用されます。 埋め込まれたFXGの<span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>要素はリストされません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> が存在する </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>reqId の一意のリクエスト識別子 </p> <p>catalogRecord.exists という名前の 1 つのプロパティを返します。 指定したカタログエントリが画像またはデフォルトのカタログに存在する場合、プロパティ値は「1」に設定されます。存在しない場合は、「0」に設定されます。 req=exists、/is/content context に対するリクエストは、静的コンテンツカタログ内の指定されたレコードの有無を示します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">が存在します</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>reqId一意のリクエスト ID </p> <p>catalogRecord.existsという名前の単一のプロパティを返します。 指定したカタログエントリが画像またはデフォルトカタログに存在する場合、プロパティ値は「1」に設定されます。それ以外の場合は「0」に設定されます。 /is/content コンテキストに対するreq=exists リクエストは、静的コンテンツカタログ内の指定されたレコードの有無を示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

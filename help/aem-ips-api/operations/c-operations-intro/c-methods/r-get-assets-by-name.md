@@ -5,10 +5,14 @@ title: getAssetsByName
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/hJVemfdh3AVxYKwN-4-c60ZH7wOL-njnclcIlmM-Q-A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 9%
+source-wordcount: 202
+ht-degree: 10%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 9%
 
 構文
 
-## 許可されているユーザータイプ {#section-754790841ea242d5ae8bedd587d7730e}
+## 承認済みユーザータイプ {#section-754790841ea242d5ae8bedd587d7730e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -51,7 +55,7 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 会社へのハンドル。 </td> 
+   <td colname="col4"> 会社のハンドルです。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
@@ -67,25 +71,25 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 取得するアセット名の配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 取得したアセットに許可されるアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 取得したアセットから除外されたアセットタイプの配列。 </td> 
+   <td colname="col4"> 取得したアセットに対して除外されるアセットタイプの配列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 取得したアセットに許可されるアセットサブタイプの配列。 </td> 
   </tr> 
@@ -93,17 +97,17 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> <p>true<span class="codeph"></span>assetSubTypeArray<span class="codeph"> が空でない場合 </span>、サブタイプが assetSubTypeArray<span class="codeph"> にあるアセットのみ </span> 返されます。 </p> <p><span class="codeph"> が false の場合 </span> サブタイプが定義されていないアセットが含まれます。 </p> <p>デフォルト値は <span class="codeph"> false</span> です。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> true</span>と<span class="codeph"> assetSubTypeArray</span>が空でない場合、<span class="codeph"> assetSubTypeArray</span>のサブタイプを持つアセットのみが返されます。 </p> <p><span class="codeph"> false</span>の場合、定義されたサブタイプのないアセットが含まれます。 </p> <p>デフォルト値は<span class="codeph"> false</span>です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 応答に含まれるフィールドとサブフィールドのリストが含まれます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> タイプ：StringArray</span> </td> 
    <td colname="col3"> いいえ </td> 
    <td colname="col4"> 応答から除外されたフィールドとサブフィールドのリストが含まれます。 </td> 
   </tr> 
@@ -118,7 +122,7 @@ ht-degree: 9%
 
 ## 例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-このコード例では、2 つの画像タイプアセットを返します。
+このコードサンプルは、2つの画像タイプアセットを返します。
 
 **リクエスト**
 

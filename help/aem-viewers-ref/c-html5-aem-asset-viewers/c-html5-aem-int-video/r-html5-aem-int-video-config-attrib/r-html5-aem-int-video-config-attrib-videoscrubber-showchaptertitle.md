@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a687a025-37cc-42cf-8cf7-893179d399ac
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/Gz1mSXO8UeKLKSSKz3aZiDy-Sn6qhB3KZ4R0LN-le68'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 7%
+source-wordcount: 42
+ht-degree: 11%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> チャプターラベルのタイトルバーを有効または無効にします。 タイトルバーが無効の場合、チャプターの開始時間は表示されません。 </p> </td> 
+   <td colname="col2"> <p> 章ラベルのタイトルバーを有効/無効にします。 タイトルバーが無効になっている場合、章の開始時間は表示されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/Rl1O2CZOwu8Fp9kNIrHIGV2Ef09ssznrrrRV5J3-Gfc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 4%
+source-wordcount: 80
+ht-degree: 3%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> スウォッチがビューに表示される方法を指定します。 </p> <p>左 <span class="codeph"> に設定 </span> ると、左から右への塗り潰し順序を設定できます。 </p> <p>[ 右 <span class="codeph"> 設定 ] を選択すると </span> ビューが右から左、上から下の方向に埋められるように順序が逆になります。 </p> <p>自動 <span class="codeph"> が設定され </span> いる場合、ロケールが「<span class="codeph"> ja </span>」に設定されているとコンポーネントは右モードを適用し、それ以外の場合は左 <span class="codeph"> ード </span> 使用します。 </p> </td> 
+   <td colname="col2"> <p> スウォッチがビュー内で塗りつぶされる方法を指定します。 </p> <p>左から右への入力順序を設定するには、<span class="codeph">を左から</span>に設定します。 </p> <p><span class="codeph">に設定すると、ビューが右から左、上から下の方向に塗りつぶされるように、順序が逆になります。</span> </p> <p><span class="codeph">自動</span>が設定されている場合、ロケールが「<span class="codeph"> ja </span>」に設定されている場合、コンポーネントは右モードを適用します。それ以外の場合は、<span class="codeph">左</span>が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

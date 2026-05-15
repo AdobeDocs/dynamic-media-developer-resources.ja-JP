@@ -1,20 +1,24 @@
 ---
-description: Word ファイルのプロパティです。
+description: Word ファイルのプロパティ。
 solution: Experience Manager
 title: WordInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/oNZFv5ctd8CG84TYEi1ErIkYInyky-hZbvmC5-znpFU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: 25
 ht-degree: 16%
 
 ---
 
 # [!DNL WordInfo]{#wordinfo}
 
-Word ファイルのプロパティです。
+Word ファイルのプロパティ。
 
 構文
 
@@ -22,6 +26,6 @@ Word ファイルのプロパティです。
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| originalPath | `xsd:string` | ファイルパス。 |
+| originalPath | `xsd:string` | ファイルパス： |
 | originalFile | `xsd:string` | ファイル名。 |
-| fileSize | `xsd:int` | ファイルサイズ。 |
+| fileSize | `xsd:int` | ファイルサイズ： |

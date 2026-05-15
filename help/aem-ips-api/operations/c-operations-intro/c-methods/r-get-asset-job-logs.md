@@ -1,24 +1,28 @@
 ---
-description: アセットのジョブのログを取得します。 配列で返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage 応答フィールドは、authHeader フィールドに基づいてローカライズされます。
+description: アセットのジョブログを取得します。 配列で返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、authHeader フィールドに基づいてローカライズされます。
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/P8JrN-sCYIQmvFBJrNxiPdmp1Au8-8Tjdpd7DwpRS2I'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 8%
 
 ---
 
 # getAssetJobLogs{#getassetjoblogs}
 
-アセットのジョブのログを取得します。 配列で返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage 応答フィールドは、authHeader フィールドに基づいてローカライズされます。
+アセットのジョブログを取得します。 配列で返される項目には、そのアセットのジョブログの各エントリに関する詳細情報が含まれます。 logMessage応答フィールドは、authHeader フィールドに基づいてローカライズされます。
 
 構文
 
-## 許可されているユーザータイプ {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## 承認済みユーザータイプ {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +40,18 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | アセットが属する会社のハンドル。 |
+| companyHandle | `xsd:string` | はい | アセットが属する会社へのハンドル。 |
 | assetHandle | `xsd:string` | はい | 取得するジョブログを含むアセットへのハンドル。 |
 
 **出力（getAssetJobLogsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| jobLogArray | `types:AssetJobLogArray` | はい | ジョブログ配列。 |
+| jobLogArray | `types:AssetJobLogArray` | はい | ジョブログの配列。 |
 
 ## 例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-このコード例では、特定のアセットのジョブログを取得します。 この応答は、アセットが使用されたすべてのジョブに関する詳細情報を含むジョブログ配列を返します。
+このコードサンプルは、特定のアセットのジョブログを取得します。 応答は、アセットが使用されたすべてのジョブに関する詳細情報を含むジョブログ配列を返します。
 
 **リクエスト**
 

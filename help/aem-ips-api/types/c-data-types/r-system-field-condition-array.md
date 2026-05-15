@@ -1,20 +1,24 @@
 ---
 title: SystemFieldConditionArray
-description: システムフィールドの条件配列。
+description: システムフィールド条件配列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/toz-j9rvbeSdctBBUj76AcSLO81Kz2M-YYEuj59m2hg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: 23
 ht-degree: 21%
 
 ---
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-システムフィールドの条件配列。
+システムフィールド条件配列。
 
 構文
 

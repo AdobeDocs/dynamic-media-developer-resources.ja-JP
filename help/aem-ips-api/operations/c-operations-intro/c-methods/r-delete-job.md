@@ -5,9 +5,14 @@ title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/rcnHChrY2u5J1-ipPlJ7JilCfbsTHDNDHhqJlLZuWIQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 10%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 10%
 
 構文
 
-## 許可されているユーザータイプ {#section-1b959679dc8147c291126ddf7e061742}
+## 承認済みユーザータイプ {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,15 +41,15 @@ ht-degree: 10%
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | はい | ジョブが属する会社のハンドル。 |
-| jobHandle | `xsd:string` | はい | 削除するジョブへのハンドル。 |
+| jobHandle | `xsd:string` | はい | 削除するジョブのハンドル。 |
 
 **出力**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-このコード例では、実行中または IPS で実行するようにスケジュールされているジョブを削除します。 別の操作から取得する必要があるジョブハンドルが必要です。
+このコードのサンプルでは、実行中のジョブ、またはIPSで実行するようにスケジュールされているジョブを削除します。 ジョブハンドルが必要です。他の操作から取得する必要があります。
 
 **リクエスト**
 

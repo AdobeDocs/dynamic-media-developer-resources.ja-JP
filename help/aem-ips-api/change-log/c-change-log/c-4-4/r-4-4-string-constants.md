@@ -1,20 +1,24 @@
 ---
-description: IPS API バージョン 4.4 の新しいデータ型と変更されたデータ型について説明します。
+description: IPS API バージョン 4.4の新しいデータ型と変更されたデータ型について説明します。
 solution: Experience Manager
-title: 文字列定数：新規および変更済み
+title: 文字列定数の新規および変更
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/OklyJYTkd6zQoeR3VOCraB64qLw8Z-5YVYFvfnkaLWw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: 37
 ht-degree: 2%
 
 ---
 
 # 文字列定数：新規および変更{#string-constants-new-and-modified}
 
-IPS API バージョン 4.4 の新しいデータ型と変更されたデータ型について説明します。
+IPS API バージョン 4.4の新しいデータ型と変更されたデータ型について説明します。
 
 構文
 

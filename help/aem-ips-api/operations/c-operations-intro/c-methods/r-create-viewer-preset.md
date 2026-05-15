@@ -1,24 +1,28 @@
 ---
-description: ユーザーに表示される内容を決定するプリセットビューを作成します。 ビューアには、IPS で使用可能な任意のタイプを使用できます。 プリセット表示は、アセットの公開時に適用されます。
+description: ユーザーに表示される内容を決定するプリセットビューを作成します。 ビューアは、IPSで使用可能な任意のタイプにすることができます。 アセットが公開されると、プリセットビューが適用されます。
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/0RlldrqgWyv0YeP-QqtiVqlDpWtGk60mOWf-w9ageYA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 158
 ht-degree: 11%
 
 ---
 
 # createViewerPreset{#createviewerpreset}
 
-ユーザーに表示される内容を決定するプリセットビューを作成します。 ビューアには、IPS で使用可能な任意のタイプを使用できます。 プリセット表示は、アセットの公開時に適用されます。
+ユーザーに表示される内容を決定するプリセットビューを作成します。 ビューアは、IPSで使用可能な任意のタイプにすることができます。 アセットが公開されると、プリセットビューが適用されます。
 
 構文
 
-## 許可されているユーザータイプ {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 承認済みユーザータイプ {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,21 +35,21 @@ ht-degree: 11%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | ビューアプリセットとアセットを格納する会社のハンドル。 |
+| companyHandle | `xsd:string` | はい | ビューアプリセットとアセットを含む会社のハンドル。 |
 | folderHandle | `xsd:string` | はい | アセットを含むフォルダーのハンドル。 |
-| name | `xsd:string` | はい | ビューア名。 |
-| タイプ | `xsd:string` | はい | ビューアのタイプ |
+| name | `xsd:string` | はい | ビューアー名： |
+| タイプ | `xsd:string` | はい | ビューアータイプ： |
 | configSettingArray | `types:ConfigSettingArray` | いいえ | プリセットを適用する画像の名前、値、ハンドルを含む配列。 |
 
 **出力（createViewerPresetReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | はい | ビューアに対するプリセットのハンドル。 |
+| viewerPresetHandle | `xsd:string` | はい | ビューアへのプリセットのハンドル。 |
 
 ## 例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-このコードのサンプルでは、ビデオプレーヤープリセットを作成します。 応答は、プリセットにハンドルを返します。
+このコードサンプルでは、ビデオプレーヤープリセットを作成します。 応答は、プリセットへのハンドルを返します。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

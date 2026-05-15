@@ -5,9 +5,13 @@ title: getGroups
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/QyPdrXDIqo4P081BxGGFD-a53PcviQlNumVqwvEsNc8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: 61
 ht-degree: 19%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 19%
 
 構文
 
-## 許可されているユーザータイプ {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 承認済みユーザータイプ {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,7 +34,7 @@ ht-degree: 19%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社へのハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドルです。 |
 
 **出力（getGroupsReturn）**
 

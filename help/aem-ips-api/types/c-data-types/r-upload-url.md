@@ -1,20 +1,24 @@
 ---
-description: URL 経由でアセットをアップロードする場合。
+description: URL経由でアセットをアップロードする場合。
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/3LU4lnQx-7geOnDmenb1JF1xqQPbYixIi223u-3T0lQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: 44
 ht-degree: 9%
 
 ---
 
 # [!DNL UploadUrl]{#uploadurl}
 
-URL 経由でアセットをアップロードする場合。
+URL経由でアセットをアップロードする場合。
 
 構文
 
@@ -23,4 +27,4 @@ URL 経由でアセットをアップロードする場合。
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | sourceUrl | `xsd:string` | アセットのアップロード元のソース URL。 |
-| destPath | `xsd:string` | アップロード先の IPS ファイルパスとファイルの名前。 |
+| destPath | `xsd:string` | アップロード先のIPS ファイルのパスと名前。 |

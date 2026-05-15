@@ -1,24 +1,28 @@
 ---
-description: 画像セットに関連付けられたアセットのリストを設定します。
+description: 画像セットに関連付けられているアセットのリストを設定します。
 solution: Experience Manager
 title: setImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/nacym3xe-m5gu-Hi2Gqkz-O03-CbqB9B-uCDRVkhrvc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 121
 ht-degree: 7%
 
 ---
 
 # setImageSetMembers{#setimagesetmembers}
 
-画像セットに関連付けられたアセットのリストを設定します。
+画像セットに関連付けられているアセットのリストを設定します。
 
-この操作は、`pageReset` と `ImageSets` の `SpinSets` パラメーターを無視し、値を強制的に true にします。
+この操作は、`ImageSets`および`SpinSets`の`pageReset` パラメーターを無視し、値を強制的にtrueにします。
 
-## 許可されているユーザータイプ {#section-8968d6a39a344cfc8521020d92ae8916}
+## 承認済みユーザータイプ {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +33,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->ユーザーには、画像セットアセットへの読み取りおよび書き込みアクセス権、および各メンバーアセットへの読み取りアクセス権が必要です。
+>ユーザーには、画像セットアセットへの読み取りおよび書き込みアクセス権と、各メンバーアセットへの読み取りアクセス権が必要です。
 
 ## パラメーター {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -49,7 +53,7 @@ ht-degree: 7%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>会社ハンドル。 </p> </td> 
+   <td colname="col4"> <p>会社のハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -59,7 +63,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph">種類：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 画像セットに属するアセットメンバーの配列。 </td> 
   </tr> 
@@ -68,11 +72,11 @@ ht-degree: 7%
 
 **出力（setImageSetMembersReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-7b87219034464aa98524178ccee27738}
 
-このコード例では、メンバー配列を使用して画像セットのメンバーを設定します
+このコードのサンプルでは、メンバー配列を使用して画像セットのメンバーを設定します。
 
 **リクエスト**
 

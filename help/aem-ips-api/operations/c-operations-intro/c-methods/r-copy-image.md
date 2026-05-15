@@ -1,24 +1,29 @@
 ---
-description: 既存の画像アセットのコピーを作成します 指定した Image Server プロトコルコマンドが適用されて、新しいコピーが生成されます
+description: 既存の画像アセットのコピーを作成します。 指定したImage Server プロトコルコマンドが適用され、新しいコピーが生成されます
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/n1pyG2rTqvmf2gb-wBl6NdtikTrlGXF277RNdJyZz9s'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 11%
+source-wordcount: 133
+ht-degree: 12%
 
 ---
 
 # copyImage{#copyimage}
 
-既存の画像アセットのコピーを作成します 指定した Image Server プロトコルコマンドが適用されて、新しいコピーが生成されます
+既存の画像アセットのコピーを作成します。 指定したImage Server プロトコルコマンドが適用され、新しいコピーが生成されます
 
 構文
 
-## 許可されているユーザータイプ {#section-c9fe7abb550e495f832234f845db7d6e}
+## 承認済みユーザータイプ {#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -60,10 +65,10 @@ ht-degree: 11%
    <td colname="col4"> <p>画像をコピーするフォルダーへのハンドル。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> の名前 </span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">名</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>新しい画像の名前 </p> </td> 
+   <td colname="col4"> <p>新しい画像の名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
@@ -90,7 +95,7 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>コピーされた画像へのハンドル。 </p> </td> 
+   <td colname="col4"> <p>コピーした画像へのハンドル。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

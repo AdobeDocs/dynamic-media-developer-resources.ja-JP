@@ -5,10 +5,14 @@ title: deleteAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/AlgJYUdRI2-5TZkpj3YS3-QZ0jdvo5c2mgMHlQjUuyw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: 169
+ht-degree: 10%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 9%
 
 構文
 
-## 許可されているユーザータイプ {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 許可されたユーザータイプ {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -45,11 +49,11 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>アセットが属する会社へのハンドル。 </p> </td> 
+   <td colname="col4"> <p>アセットが属する会社のハンドル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型：HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">種類：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>削除するアセットの配列。 </p> </td> 
   </tr> 
@@ -75,35 +79,35 @@ ht-degree: 9%
    <td colname="col4"> <p>正常に削除されたアセットの数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">個のwarningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>操作で削除しようとしたときに警告が発生したアセット。 </p> </td> 
+   <td colname="col4"> <p>操作が削除しようとしたときに警告を生成したアセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>操作で削除しようとしたときにエラーが発生したアセット。 </p> </td> 
+   <td colname="col4"> <p>操作が削除しようとしたときにエラーが発生したアセット。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">種類：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>操作によってアセットを削除しようとしたときに警告が生成された、アセットに関連付けられた詳細の配列。 </p> </td> 
+   <td colname="col4"> <p>操作が削除しようとしたときに警告を生成したアセットに関連付けられている詳細の配列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">種類：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>操作によってアセットを削除しようとしたときにエラーが発生したアセットに関連付けられた詳細の配列。 </p> </td> 
+   <td colname="col4"> <p>操作がアセットを削除しようとしたときにエラーが発生したアセットに関連付けられている詳細の配列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-このコード例では、会社にハンドルを送信し、web サービスサーバーへの `deleteAssetsParam` リクエストでアセットハンドルの配列を送信します。 `deleteAssetsReturn` は、両方のアセットが削除されたことを示す、成功数 2 を返します。
+このコードサンプルは、企業にハンドルを送信し、Web サービスサーバーに`deleteAssetsParam` リクエストでアセットハンドルの配列を送信します。 `deleteAssetsReturn`は、両方のアセットが削除されたことを示す2の成功回数を返します。
 
 **リクエスト**
 

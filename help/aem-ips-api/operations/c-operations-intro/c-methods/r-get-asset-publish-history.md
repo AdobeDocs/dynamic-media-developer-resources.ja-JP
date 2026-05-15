@@ -5,9 +5,13 @@ title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/fXYa2SsttVpR9a1bebJ1oouyK8peSZ5GdgldPqU9s1g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 14%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 14%
 
 構文
 
-## 許可されているユーザータイプ {#section-3b9d6a129093458fa8890139a2718912}
+## 承認済みユーザータイプ {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +40,8 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | アセット公開履歴を含む会社へのハンドル。 |
-| assetHandle | `xsd:string` | はい | 公開履歴を調査するアセット。 |
+| companyHandle | `xsd:string` | はい | アセットの公開履歴を持つ会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | 確認したい公開履歴が含まれているアセット。 |
 
 **出力（getAssetPublishHistoryReturn）**
 
@@ -47,7 +51,7 @@ ht-degree: 14%
 
 ## 例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-このコードサンプルでは、アセットの公開履歴を返します。 サーバーが空の配列を返した場合、アセットが公開されたことはありません。
+このコードサンプルは、アセットの公開履歴を返します。 サーバーが空の配列を返した場合、アセットが公開されたことはありません。
 
 **リクエスト**
 

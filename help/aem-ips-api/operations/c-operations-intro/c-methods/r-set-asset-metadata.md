@@ -1,24 +1,29 @@
 ---
-description: アセットのメタデータ値を設定します。 メタデータ更新の配列を操作して、値をバッチで設定します。
+description: アセットのメタデータ値を設定します。 メタデータ更新の配列を使用して、値をバッチで設定できます。
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/b8E8BK8pyJQiYlR2yNMbYPWcLVNfmAvI5WaOBuaBz1E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 123
 ht-degree: 8%
 
 ---
 
 # setAssetMetadata{#setassetmetadata}
 
-アセットのメタデータ値を設定します。 メタデータ更新の配列を操作して、値をバッチで設定します。
+アセットのメタデータ値を設定します。 メタデータ更新の配列を使用して、値をバッチで設定できます。
 
 構文
 
-## 許可されているユーザータイプ {#section-9dcacb0c924044648f8324bfed183dca}
+## 承認済みユーザータイプ {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +34,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ユーザーには、アセットへの読み取りアクセス権が必要です。
+>ユーザーはアセットへの読み取りアクセス権を持っている必要があります。
 
 ## パラメーター {#section-bcdcff30905e444388811e897b2824bd}
 
@@ -37,13 +42,13 @@ ht-degree: 8%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 更新するアセットを持つ会社のハンドル。 |
-| assetHandle | `xsd:string` | はい | アセットへのハンドル。 |
-| updateArray | `types:MetadataUpdateArray` | はい | メタデータ更新配列の更新。 |
+| companyHandle | `xsd:string` | はい | 更新するアセットを持つ会社へのハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットのハンドルです。 |
+| updateArray | `types:MetadataUpdateArray` | はい | メタデータの更新配列を更新します。 |
 
 **出力（setAssetMetadataReturn）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 

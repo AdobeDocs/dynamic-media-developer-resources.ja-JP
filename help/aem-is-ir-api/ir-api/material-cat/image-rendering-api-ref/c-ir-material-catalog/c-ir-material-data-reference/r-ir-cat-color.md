@@ -1,24 +1,28 @@
 ---
-description: マテリアルカラー： 単色のマテリアルの主色と、色付けされたテクスチャ マテリアルの追加色。
+description: マテリアルカラー： 単色マテリアルのプリンシパルカラーと、カラー化されたテクスチャマテリアルの添加色。
 solution: Experience Manager
 title: カラー
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/BVqUwQm3sJeu8gawRXsGvsZ54T8pWjAFOFThQNixSyg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 7%
 
 ---
 
 # カラー{#color}
 
-マテリアルカラー： 単色のマテリアルの主色と、色付けされたテクスチャ マテリアルの追加色。
+マテリアルカラー： 単色マテリアルのプリンシパルカラーと、カラー化されたテクスチャマテリアルの添加色。
 
 ## プロパティ {#section-073772b43b264b37bd96d1fb7404d10b}
 
-カラー。 単色マテリアルの場合は必須です。 繰り返し可能なテクスチャ、キャビネット、および窓の覆い材の場合はオプションで、色付けの色を指定します。 繰り返し可能なテクスチャまたはキャビネットのマテリアルの色を変更しない場合は、このフィールドを空のままにする必要があります。
+カラー： 単色マテリアルに必要です。 繰り返し可能なテクスチャ、キャビネット、およびウィンドウのカバー材料の場合はオプションで、色付けの色を指定できます。 繰り返し可能なテクスチャやキャビネットのマテリアルの色を変更しない場合、このフィールドは空のままにする必要があります。
 
 ## 初期設定 {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

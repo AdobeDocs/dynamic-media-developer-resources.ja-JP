@@ -1,33 +1,38 @@
 ---
-description: すべてのログ ファイルは、TC ディレクトリで指定された同じログ フォルダに書き込まれます。
+description: すべてのログファイルは、TC ディレクトリで指定された同じログフォルダーに書き込まれます。
 solution: Experience Manager
 title: サーバーログ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/9I1gAXWb1Rpuml9WCCVPVC7FrpVazWN79Sk0-bb-tDc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 170
 ht-degree: 1%
 
 ---
 
 # サーバーログ{#server-logging}
 
-すべてのログファイルは、TC::directory で指定した同じログフォルダに書き込まれます。
+すべてのログファイルは、TC::directoryで指定された同じログフォルダーに書き込まれます。
 
-通常、ログファイルは毎日作成およびローテーションされます。 ログフォルダー内の古いログファイルは、指定した日数（`TC::maxDays`）が経過すると自動的に削除されます。
+ログファイルは通常、毎日作成およびローテーションされます。 ログフォルダー内の古いログファイルは、指定された日数（`TC::maxDays`）が経過すると自動的に削除されます。
 
-重要：ディスク領域が不足しないように、ログファイル用に十分なディスク領域を予約する必要があります。 頻繁に使用されるサーバーとデフォルトのログ設定では、1～2 GB/日が必要になる場合があります。
+重要ディスク容量が不足しないように、ログファイル用に十分な量のディスク容量を確保する必要があります。 頻繁に使用されるサーバーとデフォルトのログ設定には、1～2 GB/日が必要になる場合があります。
 
-[!DNL Platform Server] と Image Server は、以下に説明する 3 種類のログファイルを作成します。
+[!DNL Platform Server]とImage Serverは、以下に説明する3種類のログファイルを作成します。
 
-他の画像サービングコンポーネントや、Dynamic Media ビューアなどの他の特定の Dynamic Media パッケージでも、同じフォルダーにログファイルを作成する場合があります。 これらのログファイルは Dynamic Media の内部使用のためのものであり、トラブルシューティング目的で Dynamic Media テクニカルサポートから要求される場合があります。
+その他の画像サービングコンポーネントや、Dynamic Media ビューアなどの特定のDynamic Media パッケージも、同じフォルダーにログファイルを作成できます。 これらのログファイルはDynamic Mediaの内部使用を目的としたもので、Dynamic Media テクニカルサポートからトラブルシューティング用にリクエストされることがあります。
 
 * [アクセスログ](c-access-log.md)
-* [トレース ログ](c-trace-log.md)
+* [トレースログ](c-trace-log.md)
 * [Image Server ログ](c-image-server-log.md)
 
 ## 関連項目 {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[&#x200B; アクセス ログ &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)、[&#x200B; デバッグ/トレース ログ &#x200B;](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[ アクセス ログ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)、[ デバッグ/トレース ログ ](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

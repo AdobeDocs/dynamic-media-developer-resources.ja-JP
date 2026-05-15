@@ -1,24 +1,28 @@
 ---
-description: フォルダーの名前を変更します。
+description: フォルダー名を変更します。
 solution: Experience Manager
 title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/8joB9mgnIpAn2IuXk97bztqa-IbskzuDcWUoMtJ5Sjk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 75
 ht-degree: 18%
 
 ---
 
 # renameFolder{#renamefolder}
 
-フォルダーの名前を変更します。
+フォルダー名を変更します。
 
 構文
 
-## 許可されているユーザータイプ {#section-5a252b00937d4befbec76fa23fbae9df}
+## 承認済みユーザータイプ {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,9 +41,9 @@ ht-degree: 18%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 名前を変更するフォルダーがある会社にハンドルします。 |
+| companyHandle | `xsd:string` | はい | 名前を変更するフォルダーがある会社に対して処理します。 |
 | folderHandle | `xsd:string` | はい | フォルダーへのハンドル。 |
-| folderName | `xsd:string` | はい | 新しいフォルダー名。 |
+| folderName | `xsd:string` | はい | 新規フォルダー名。 |
 
 **出力（renameFolderReturn）**
 

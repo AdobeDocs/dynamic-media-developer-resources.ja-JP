@@ -1,20 +1,25 @@
 ---
-description: メディアセット情報。
+description: メディアセット情報：
 solution: Experience Manager
 title: セット
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/nfNdFeRk7TDhSYHdy05x6fxNKMBhTF7f11xoji13VP4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 1%
+source-wordcount: 144
+ht-degree: 2%
 
 ---
 
 # セット{#set}
 
-メディアセット情報。
+メディアセット情報：
 
 req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
@@ -25,20 +30,20 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>一意のリクエスト識別子 </p></td> 
+  <td class="stentry"> <p>一意のリクエスト ID </p></td> 
  </tr> 
 </table>
 
-URL パスで指定された画像カタログエントリの catalog::ImageSet に関連付けられた画像、ビデオ、スウォッチ、および様々なメタデータに関する情報を返します。 この応答は、提供されたセットのタイプによって決定される階層構造です。 「xml」または「json」形式がリクエストされた場合、適切なフォーマットが適用されます。
+URL パスで指定された画像カタログエントリのcatalog::ImageSetに関連する画像、ビデオ、スウォッチ、および様々なメタデータに関する情報を返します。 この応答は、提供されるセットのタイプによって決定される階層構造です。 「xml」または「json」形式が要求された場合、適切な形式が適用されます。
 
-HTTP 応答は、`catalog::NonImgExpiration` に基づく TTL でキャッシュ可能です。
+HTTP応答は、`catalog::NonImgExpiration`に基づくTTLでキャッシュできます。
 
 >[!NOTE]
 >
->req=set リクエストではコロン文字は使用できません。
+>req=set リクエストでは、コロン文字は使用できません。
 
-JSON 応答形式をサポートするリクエストでは、パラメーターの拡張構文を使用して JS コールバックハンドラーの名前 `req=` 指定できます。
+JSON応答形式をサポートするリクエストでは、`req=` パラメーターの拡張構文を使用してJS コールバックハンドラーの名前を指定できます。
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` は、JSONP 応答に存在する JS ハンドラーの名前です。 a ～ z、A ～ Z、0 ～ 9 文字のみを使用できます。 オプション。 デフォルトは `s7jsonResponse` です。
+`<reqHandler>`は、JSONP応答に存在するJS ハンドラーの名前です。 a ～ z、A ～ Z、および0 ～ 9文字のみ使用できます。 オプション。 デフォルトは`s7jsonResponse`です。

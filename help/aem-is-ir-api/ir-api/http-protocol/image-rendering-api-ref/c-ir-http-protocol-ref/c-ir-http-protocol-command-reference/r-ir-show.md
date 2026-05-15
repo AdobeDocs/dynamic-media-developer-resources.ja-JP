@@ -1,20 +1,24 @@
 ---
 title: 表示
-description: オーバーラップ オブジェクトを表示します。 現在の選択範囲内で、以前に非表示になっているすべてのオーバーラップ オブジェクト（窓の覆いのフレーム オブジェクトを含む）を表示します。
+description: 重複オブジェクトを表示します。 現在の選択範囲で、以前に非表示にされていたオーバーラップオブジェクト（ウィンドウのカバー枠オブジェクトを含む）をすべて表示します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/OATU1D6m0KRALVpcjXYTlFFtLRnMvudTZWK4WZdr2-o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: 73
 ht-degree: 6%
 
 ---
 
 # 表示{#show}
 
-オーバーラップ オブジェクトを表示します。 現在の選択範囲内で、以前に非表示になっているすべてのオーバーラップ オブジェクト（窓の覆いのフレーム オブジェクトを含む）を表示します。
+重複オブジェクトを表示します。 現在の選択範囲で、以前に非表示にされていたオーバーラップオブジェクト（ウィンドウのカバー枠オブジェクトを含む）をすべて表示します。
 
 `Show[= *`val`*]`
 
@@ -27,11 +31,11 @@ ht-degree: 6%
 
 ## プロパティ {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-オーバーラップ オブジェクトが選択されていない場合、またはオーバーラップ オブジェクトが非表示になっていない場合は無視されます。
+現在の選択範囲に重複オブジェクトが含まれていない場合、または重複オブジェクトが非表示になっていない場合は無視されます。
 
 ## 初期設定 {#section-04972797d24d4b9f93790a31dfaa4743}
 
-[ なし ]: オブジェクトの表示設定を変更しません。
+なし（オブジェクトの表示に変更はありません）。
 
 ## 関連項目 {#section-2a1a37a35dfb41758897164e14f0105f}
 

@@ -1,57 +1,61 @@
 ---
 title: コントロールバー
-description: コントロールバーは、再生/一時停止ボタンや音量コントロールなど、ビデオビューアで使用できるすべての UI コントロールの背後にある、を含む長方形領域です。
+description: コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、ビデオビューアで使用できるすべてのUI コントロールを含み、その背後にある長方形の領域です。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/Fs7M-xjsUtfjOL1Tyf-BDelZG9TPn1q119SLL81206g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: 168
 ht-degree: 0%
 
 ---
 
 # コントロールバー{#control-bar}
 
-コントロールバーは、再生/一時停止ボタンや音量コントロールなど、ビデオビューアで使用できるすべての UI コントロールの背後にある、を含む長方形領域です。
+コントロールバーは、再生/一時停止ボタンやボリュームコントロールなど、ビデオビューアで使用できるすべてのUI コントロールを含み、その背後にある長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-コントロールバーは常に、使用可能なビューアの幅全体を取ります。 色、高さ、垂直方向の位置を、ビデオビューアコンテナに対して CSS で変更できます。
+コントロールバーは、常に使用可能なビューア全体の幅を使用します。 ビデオビューアコンテナに対して、CSSで色、高さ、垂直位置を変更できます。
 
-次の CSS クラスセレクターで、コントロールバーの外観を制御します。
+次のCSS クラスセレクターは、コントロールバーの外観を制御します。
 
 ```
 .s7videoviewer .s7controlbar
 ```
 
-## コントロールバーの CSS プロパティ {#css-properties-of-the-control-bar}
+## コントロールバーのCSS プロパティ {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む上部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> 下罫線からパディングを含めて移動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p> パディングを含む下部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>コントロールバーの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>コントロールバーの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-ビデオビューアコンテナの上部に配置された、高さが 30 ピクセルのグレーのコントロールバーを持つビデオビューアをセットアップします。
+高さ30 ピクセルのビデオビューアコンテナの上部に位置するグレーのコントロールバーを備えたビデオビューアを設定する。
 
 ```
 .s7videoviewer .s7controlbar {  

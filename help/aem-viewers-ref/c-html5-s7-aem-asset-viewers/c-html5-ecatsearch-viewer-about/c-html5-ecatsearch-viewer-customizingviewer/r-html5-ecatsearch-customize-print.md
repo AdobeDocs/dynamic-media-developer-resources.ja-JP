@@ -1,30 +1,34 @@
 ---
 title: 印刷
-description: 印刷ツールは、コントロール バーに追加されたボタンと、ツールがアクティブになったときに表示されるモーダル ダイアログ ボックスで構成されます。
+description: プリントツールは、コントロールバーに追加されたボタンと、ツールがアクティブ化されたときに表示されるモーダルダイアログボックスで構成されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/K6---N-n2HEfIOrD-tD8qndgz94GaNSi94PDfk5K4KM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: 1519
 ht-degree: 0%
 
 ---
 
 # 印刷{#print}
 
-印刷ツールは、コントロール バーに追加されたボタンと、ツールがアクティブになったときに表示されるモーダル ダイアログ ボックスで構成されます。
+プリントツールは、コントロールバーに追加されたボタンと、ツールがアクティブ化されたときに表示されるモーダルダイアログボックスで構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-印刷ボタンの外観は、次の CSS クラスセレクターで制御します。
+プリントボタンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7print
 ```
 
-**印刷ボタンの CSS プロパティ**
+印刷ボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -34,34 +38,34 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
-   <td colname="col2"> <p> 左側の次のボタンまでの距離。このボタンが行内の最初のボタンの場合は、コントロール バーの左側。 </p> </td> 
+   <td colname="col2"> <p> 左の次のボタンまでの距離、またはこのボタンが行の最初のボタンの場合はコントロールバーの左側までの距離。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ボタンの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p> 特定のボタン状態に対して表示される画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – 28 x 28 ピクセルの印刷ボタンを設定し、4 つの異なるボタン状態ごとに異なる画像を表示します。
+例 – 28 x 28 ピクセルの印刷ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示する場合。
 
 ```
 .s7ecatalogsearchviewer .s7print { 
@@ -84,28 +88,28 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-ダイアログボックスがアクティブな場合に web ページをカバーする背景のオーバーレイは、次の CSS クラスセレクターで制御します。
+ダイアログボックスがアクティブな場合にweb ページをカバーする背景オーバーレイは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
 ```
 
-**バックオーバーレイの CSS プロパティ**
+バックオーバーレイの&#x200B;**CSS プロパティ**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacity </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p> 背景オーバーレイの不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>背景のオーバーレイカラー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>背景オーバーレイの色： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 背景オーバーレイを 70% の不透明度でグレーに設定するには：
+例 – 背景オーバーレイを70%の不透明度でグレーに設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay { 
@@ -114,28 +118,28 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-デフォルトでは、モーダルダイアログはデスクトップシステムの画面の中央に表示されます。 ダイアログボックスの配置とサイズ設定は、コンポーネントで管理されます。 ダイアログは、次の CSS クラスセレクターで制御されます。
+デフォルトでは、モーダルダイアログは、デスクトップシステムの画面の中央に表示されます。 ダイアログボックスの位置とサイズは、コンポーネントによって管理されます。 ダイアログは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
 ```
 
-**ダイアログボックスの CSS プロパティ**
+ダイアログボックスの&#x200B;**CSS プロパティ**
 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> ダイアログボックスの境界線の半径。 </p> </td> 
+   <td colname="col2"> <p> ダイアログボックスの境界線の半径 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> ダイアログボックスの背景色 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – ダイアログボックスの背景をグレーに設定するには：
+例 – ダイアログボックスの背景をグレーに設定するには、次の手順を実行します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -143,19 +147,19 @@ background-color: #dddddd;
 }
 ```
 
-ダイアログボックスヘッダーは、アイコン、タイトルテキスト、閉じるボタンで構成されます。 ヘッダーコンテナは、次の CSS クラスセレクターで制御します。
+ダイアログボックスヘッダーは、アイコン、タイトルテキスト、閉じるボタンで構成されます。 ヘッダーコンテナは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
 ```
 
-**ダイアログボックスヘッダーの CSS プロパティ**
+ダイアログボックスヘッダーの&#x200B;**CSS プロパティ**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテンツの内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテンツの内部パディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,123 +170,123 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
 ```
 
-**ダイアログラインの CSS プロパティ**
+ダイアログ行の&#x200B;**CSS プロパティ**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーアイコンとタイトルの内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーアイコンとタイトルのインナーパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーアイコンは、次の CSS クラスセレクターで制御します。
+ヘッダーアイコンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
 ```
 
-**ダイアログボックスのヘッダーアイコンの CSS プロパティ**
+ダイアログボックスヘッダーアイコン **の** CSS プロパティ
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>アイコンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>アイコンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>アイコン画像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p>アイコン画像： </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ヘッダーのタイトルは、次の CSS クラスセレクターで制御します。
+ヘッダータイトルは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**ダイアログボックスのヘッダーテキストの CSS プロパティ**
+ダイアログボックスのヘッダーテキストの&#x200B;**CSS プロパティ**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>フォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>フォントの太さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>フォントの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
+   <td colname="col2"> <p>フォントの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>フォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>フォントファミリー： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内部テキストのパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>内部テキストパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「閉じる」ボタンは、次の CSS クラスセレクターで制御します。
+「閉じる」ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-**閉じるボタンの**&#x200B;の CSS プロパティ
+** 閉じるボタン**のCSS プロパティ
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナに対する垂直方向のボタンの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナに対する垂直ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> ヘッダーコンテナに対する水平方向のボタンの位置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p> ヘッダーコンテナに対する水平ボタンの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>ボタンの内側パディング。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
    <td colname="col2"> <p>各状態のボタン画像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルは、ローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – パディング、22 x 22 ピクセルのアイコン、太字の 16 ポイントのタイトルを使用してダイアログヘッダーを設定する 最後に、28 x 28 ピクセルの「閉じる」ボタンで、ダイアログボックスのコンテナの上から 2 ピクセル、右から 2 ピクセルの位置が決まりました。
+例 – パディング、22 x 22 ピクセルのアイコン、太字の16 ポイントタイトルを含むダイアログヘッダーを設定する。 最後に、28 x 28 ピクセルの「閉じる」ボタンを使用して、ダイアログボックスコンテナの上部から2 ピクセル、右側から2 ピクセルの位置に配置します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -322,146 +326,146 @@ background-color: #dddddd;
 }
 ```
 
-ダイアログ ボックスのフッターは、[ キャンセル ] ボタンと [ 印刷に送信 ] ボタンで構成されます。 フッターコンテナは、次の CSS クラスセレクターで制御します。
+ダイアログボックスフッターは、「キャンセル」ボタンと「プリントに送信」ボタンで構成されます。 フッターコンテナは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**ダイアログボックスのフッター**&#x200B;の CSS プロパティ
+** ダイアログボックスのフッター**のCSS プロパティ
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> フッターをダイアログボックスの他の部分と視覚的に区別する際に使用する境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p> フッターをダイアログボックスの他の部分から視覚的に分離するために使用できる境界線。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-フッターには、両方のボタンを保持する内部コンテナがあります。 次の CSS クラスセレクターで制御します。
+フッターには、両方のボタンを保持するインナーコンテナがあります。 これは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**ダイアログボックスのボタンコンテナの CSS プロパティ**
+ダイアログボックスボタンコンテナの&#x200B;**CSS プロパティ**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p> フッターとボタンの間の内側のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p> フッターとボタン間の内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「キャンセル」ボタンは、次の CSS クラスセレクターで制御されます。
+キャンセル ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**ダイアログボックスのキャンセルボタンの CSS プロパティ**
+ダイアログボックスの&#x200B;**CSS プロパティのキャンセル ボタン**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-「印刷に送信」ボタンは、次の CSS クラスセレクターで制御されます。
+「印刷に送信」ボタンは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogactionbutton
 ```
 
-**ダイアログボックスのアクションボタンの CSS プロパティ**
+ダイアログボックスアクションボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの幅 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>ボタンの高さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンのテキストカラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 各状態のボタンの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 各状態のボタンの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->このボタンでは、ボタンの状態に応じて異なるスキンを適用するために使用できる `state` 属性セレクターをサポートしています。
+>このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-さらに、両方のボタンは共通の CSS クラスを共有します。このクラスには、他のダイアログボックスのボタンと同じ CSS 設定を含めることができます。
+さらに、両方のボタンは共通のCSS クラスを共有します。このクラスには、他のダイアログボックスボタンと同じCSS設定を含めることができます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
 ```
 
-**ボタンの CSS プロパティ**
+ボタンの&#x200B;**CSS プロパティ**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>ボタンのフォントの太さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
    <td colname="col2"> <p>ボタンのフォントサイズ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>ボタンのフォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>ボタンフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p> ボタン内のテキストの高さ。 垂直方向の位置揃えに影響します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">行の高さ</span> </p> </td> 
+   <td colname="col2"> <p> ボタン内のテキスト高さ。 垂直方向の整列に影響します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ボックスの影の </span> </p> </td> 
-   <td colname="col2"> <p>ドロップシャドウ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ボックス シャドウ </span> </p> </td> 
+   <td colname="col2"> <p>ドロップシャドウ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>ボタンの右の余白。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右余白</span> </p> </td> 
+   <td colname="col2"> <p>右ボタンのマージン。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ボタンのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – 64 x 34 キャンセルボタンと 96 x 34 プリントに送信ボタンを使用し、テキストカラーと背景色がボタンの状態ごとに異なるダイアログボックスのフッターを設定するには：
+例 – 64 x 34 キャンセル ボタンと96 x 34 プリントに送信ボタンを持つダイアログボックスフッターを設定するには、ボタンの状態ごとにテキストの色と背景色が異なります。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -521,32 +525,32 @@ background-color: #dddddd;
 }
 ```
 
-メインダイアログ領域には、ヘッダーとフッターの間にダイアログコンテンツが含まれています。 いずれの場合も、コンポーネントはこの領域の幅を管理し、CSS で設定することはできません。 メインダイアログ領域は、次の CSS クラスセレクターで制御します。
+ヘッダーとフッターの間のメインダイアログ領域には、ダイアログコンテンツが含まれます。 いずれの場合も、コンポーネントはこの領域の幅を管理しますが、CSSで設定することはできません。 メインダイアログ領域は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**ダイアログボックスの表示エリアの CSS プロパティ &#x200B;**
+** ダイアログボックスの表示領域のCSS プロパティ **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p> メイン ダイアログ ボックス領域の高さです。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p> メインダイアログボックス領域の高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>メインのダイアログボックス領域の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>メインダイアログボックス領域の背景色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外側余白。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マージン </span> </p> </td> 
+   <td colname="col2"> <p>外側のマージン： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – メインダイアログ領域の高さが自動的に計算され、10 ピクセルの余白があり、背景が白くなるように設定するには：
+例 – メインダイアログ領域の高さを自動的に計算するように設定するには、10 ピクセルのマージンを設定し、白い背景を使用します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -556,24 +560,24 @@ background-color: #dddddd;
 }
 ```
 
-すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、次の CSS クラスセレクターで制御されるコンテナ内に存在します。
+すべてのフォームコンテンツ（ラベルや入力フィールドなど）は、次のCSS クラスセレクターで制御されるコンテナ内にあります。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**ダイアログボックスの本文の CSS プロパティ**
+** ダイアログボックスの本文**のCSS プロパティ
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – フォームコンテンツの 10 ピクセルのパディングを設定するには：
+例 – フォームコンテンツを10 ピクセルパディングに設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -581,24 +585,24 @@ background-color: #dddddd;
 }
 ```
 
-ダイアログボックスのフォームは、1 行ごとに入力されます。各行には、フォームコンテンツの一部（ラベルやテキスト入力フィールドなど）が含まれます。 単一のフォーム行は、次の CSS クラスセレクターで制御します。
+ダイアログボックスフォームは行ごとに入力されます。各行には、フォームコンテンツの一部（ラベルやテキスト入力フィールドなど）が含まれます。 単一のフォーム行は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**ダイアログボックスのラインの CSS プロパティ**
+ダイアログボックス行の&#x200B;**CSS プロパティ**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側の行のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>行の内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 各行に 10 ピクセルのパディングを含むようにダイアログボックスフォームを設定するには：
+例 – ダイアログボックスフォームを設定して、各行に10個のピクセルパディングを設定するには、次の手順を実行します。
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -606,28 +610,28 @@ background-color: #dddddd;
 }
 ```
 
-ダイアログコンテンツのブロックのサイズは、次の CSS クラスセレクターで制御されます。
+ダイアログコンテンツのブロックのサイズは、次のCSS クラスセレクターで制御されます。
 
 ```
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
 ```
 
-**ダイアログ入力の幅の CSS プロパティ**
+ダイアログ入力幅の&#x200B;**CSS プロパティ**
 
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ブロック幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>ブロック幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側の行のパディング。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>行の内側のパディング。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 幅 430 ピクセルで、下部に 10 ピクセルのパディングを含むコンテンツブロックを設定するには：
+例 – コンテンツブロックを幅430 ピクセル、下に10 ピクセルのパディングを持つように設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide { 
@@ -636,40 +640,40 @@ background-color: #dddddd;
 }
 ```
 
-ダイアログボックスのフォーム内のすべての静的ラベルは、次の CSS クラスセレクターで制御されます。
+ダイアログボックスフォームのすべての静的ラベルは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel
 ```
 
-このクラスは、フォームユーザーインターフェイスの様々な場所でテキストに適用できるので、ラベルのサイズや位置の制御には適していません。
+このクラスは、フォームユーザーインターフェイスの様々な場所のテキストに適用できるため、ラベルのサイズや位置の制御には適していません。
 
-**ダイアログボックスのラベルの CSS プロパティ。 &#x200B;**
+** ダイアログボックスラベルのCSS プロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントの太さの </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントの線幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントの重み</span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントの重さ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントサイズ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントサイズ </span> </p> </td> 
+   <td colname="col2"> <p>ラベルのフォントサイズ： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> フォントファミリーの </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのフォントファミリー。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> フォントファミリー</span> </p> </td> 
+   <td colname="col2"> <p>ラベルフォントファミリー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>ラベルのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p>ラベルのテキストの色： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ダイアログ ボックスのラベルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) を参照してください。
+ダイアログボックスラベルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)を参照してください。
 
-例 – すべてのラベルを 9 ピクセルのフォントを使用してグレー、太字に設定するには、次のようにします。
+例 – すべてのラベルを9つのピクセルフォントを含むグレー、太字に設定するには：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel { 
@@ -679,24 +683,24 @@ background-color: #dddddd;
 }
 ```
 
-入力コントロールはコンテナにラップされ、次の CSS クラスセレクターで制御されます。
+入力コントロールはコンテナにラップされ、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**ダイアログボックス入力コンテナの CSS プロパティ**
+ダイアログボックス入力コンテナの&#x200B;**CSS プロパティ**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング左</span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – ダイアログボックスの左端から 30 ピクセルのパディングを設定します。
+例 – ダイアログボックスの左端から30 ピクセルのパディングを設定します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer { 
@@ -704,66 +708,66 @@ background-color: #dddddd;
 }
 ```
 
-ラジオボタンとそのキャプションテキストは、次の CSS クラスセレクターで制御します。
+ラジオボタンとそのキャプションテキストは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption
 ```
 
-**ダイアログボックスのオプションの CSS プロパティ**
+ダイアログボックスオプションの&#x200B;**CSS プロパティ**
 
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p> キャプション付きのラジオボタンの合計幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p> キャプション付きのラジオボタンの幅の合計。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>キャプションのテキストの色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラー</span> </p> </td> 
+   <td colname="col2"> <p>キャプションテキストの色： </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ラジオボタンとそのキャプションの間の間隔は、次の CSS クラスセレクターで制御します。
+ラジオボタンとそのキャプションの間の間隔は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
 ```
 
-**ダイアログボックスのオプション入力の CSS プロパティ**
+ダイアログボックスオプション入力&#x200B;**の** CSS プロパティ
 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p> ラジオボタンとそのキャプションの間の間隔。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右余白</span> </p> </td> 
+   <td colname="col2"> <p> ラジオボタンとキャプションの間の間隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-印刷範囲選択の数値ピッカーは、次の CSS クラスセレクターで制御します
+印刷範囲を選択するための数値ピッカーは、次のCSS クラスセレクターで制御されます
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**ダイアログボックスの印刷範囲の CSS プロパティ**
+ダイアログボックスの印刷範囲&#x200B;**CSS プロパティ**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p> 数値ピッカーの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マージン </span> </p> </td> 
    <td colname="col2"> <p> 数値ピッカーの周囲の間隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – すべてのラジオボタンの幅を 150 ピクセル、幅が 10 ピクセル、幅が 42 ピクセルの数値ピッカーで設定するには：
+例 – すべてのラジオボタンを、黒いテキスト、10 ピクセルの間隔、42 ピクセルの幅の数値ピッカーで150 ピクセル幅に設定するには、次の手順を実行します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -780,37 +784,37 @@ background-color: #dddddd;
 }
 ```
 
-ページ範囲の選択セクションと印刷レイアウトセクションの間の水平方向の区切り文字は、次の CSS クラスセレクターで制御します。
+ページ範囲の選択と印刷レイアウトセクションの間の水平方向の区切り線は、次のCSS クラスセレクターで制御されます。
 
 ```
  .s7ecatalogsearchviewer 
 .s7printdialog .s7horizontaldivider
 ```
 
-**水平分割線の CSS プロパティ**
+**水平分割線のCSS プロパティ**
 
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> ディバイダーの周りの境界線。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p> 区切り線を囲む。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
-   <td colname="col2"> <p>内側のパディング </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> パディング </span> </p> </td> 
+   <td colname="col2"> <p>インナーパディング： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>ディバイダーの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>区切り線の幅： </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外側余白 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> マージン </span> </p> </td> 
+   <td colname="col2"> <p>外側の余白 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 両側に 10 ピクセルの垂直方向の余白を持ち、上部に 10 ピクセルの余白を持つ 430 ピクセル幅のグレーの区切り文字を設定するには：
+例 – 両側に10 ピクセルの垂直パディングを持ち、上部に10 ピクセルのマージンを持つ430 ピクセル幅のグレーディバイダを設定するには、次の手順を実行します。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 

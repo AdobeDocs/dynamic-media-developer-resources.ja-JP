@@ -1,14 +1,18 @@
 ---
 title: ControlBar.transition
-description: コントロール バーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。
+description: コントロールバーとそのコンテンツの表示/非表示に使用するエフェクトタイプを指定します。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: abe8affb-cbcd-4072-b2ed-91a398b1d678
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x94JmgoSMd-qMO6jWpiIpgvbecaNljMEcgq2jXKYnf4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 1%
+source-wordcount: 139
+ht-degree: 2%
 
 ---
 
@@ -20,22 +24,22 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|フェード </span> </p> </td> 
-   <td colname="col2"> <p> コントロール バーとそのコンテンツの表示/非表示を切り替えるために使用する効果の種類を指定します。 「なし」 <span class="codeph"> を使用 </span> ると、表示と非表示を瞬時に切り替えることができます。<span class="codeph"> のフェードイン </span> フェードアウト効果により、フェードインとフェードアウトが徐々に変化します（Internet Explorer 8 ではサポートされていません）。 </p> </td> 
+   <td colname="col2"> <p> コントロールバーとそのコンテンツの表示/非表示に使用するエフェクトタイプを指定します。 <span class="codeph"> none </span>を使用してインスタントショーと非表示を切り替えます。<span class="codeph"> フェード </span>は、徐々にフェードインとフェードアウト効果を提供します（Internet Explorer 8ではサポートされていません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span> </span> </p> </td> 
-   <td colname="col2"> <p> コントロール バーが登録する最後のマウスまたはタッチ イベントからタイム コントロール バーが非表示になるまでの時間（秒）を指定します。 </p> <p> <span class="codeph">-1 </span> に設定すると、コンポーネントは自動的に非表示になる効果をトリガーせず、常に画面に表示されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">さんが</span> </span>を非表示にするのを遅らせる </p> </td> 
+   <td colname="col2"> <p> コントロールバーが登録した最後のマウス/タッチイベントからタイムコントロールバーが非表示になるまでの時間を秒単位で指定します。 </p> <p> <span class="codeph"> -1 </span>に設定した場合、コンポーネントは自動非表示エフェクトをトリガーせず、常に画面に表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration </span> </span> </p> </td> 
-   <td colname="col2"> <p> フェードインおよびフェードアウト アニメーションのデュレーションを秒単位で設定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">期間</span> </span> </p> </td> 
+   <td colname="col2"> <p> フェードインとフェードアウトのアニメーションのデュレーションを秒単位で設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-オプション。 このコマンドは、コントロールバーの自動非表示が無効になっているタッチデバイスでは無視されます。
+オプション。 コントロールバーの自動非表示が無効になっているタッチデバイスでは、このコマンドは無視されます。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

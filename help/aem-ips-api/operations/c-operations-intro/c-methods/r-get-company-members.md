@@ -5,9 +5,14 @@ title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/QMJGqj7IEplTMdFFwVP3UReZAJsi25tHaaMewM30MSU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 14%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 14%
 
 構文
 
-## 許可されているユーザータイプ {#section-b2bc2fa0cc944cea8be82524838307cc}
+## 承認済みユーザータイプ {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +36,7 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | メンバーを取得する会社へのハンドル。 |
+| companyHandle | `xsd:string` | はい | 取得するメンバーの会社へのハンドル。 |
 | includeInvalid | `xsd:boolean` | はい | 無効な会社を含めます。 |
 
 **出力（getCompanyMembersReturn）**
@@ -42,7 +47,7 @@ ht-degree: 14%
 
 ## 例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-このコードサンプルでは、ユーザー配列内の会社のすべてのメンバーを返します。 簡潔にするために、応答は切り捨てられました。
+このコードのサンプルは、会社のすべてのメンバーをユーザー配列内に返します。 応答は簡潔にするために省略されています。
 
 **リクエスト**
 

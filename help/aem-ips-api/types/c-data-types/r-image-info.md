@@ -5,9 +5,13 @@ title: ImageInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/EJ-PG1ULUzEvRvHcNDffHoPDT4EJd6fnyPUN50ds9Zk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 150
 ht-degree: 2%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>元のファイルの相対パス。 </p> </td> 
+   <td colname="col3"> <p>元のファイルへの相対パス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL originalFile]</span> </span> </td> 
@@ -42,12 +46,12 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL optimizedPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS に最適化された画像ファイルへのパス。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化イメージ ファイルへのパス。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL optimizedFile]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS に最適化された画像ファイル。 </p> </td> 
+   <td colname="col3"> <p>IPS最適化された画像ファイル。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskPath]</span> </span> </td> 
@@ -57,7 +61,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskFile]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>マスクのファイル名。 </p> </td> 
+   <td colname="col3"> <p>マスクのファイル名 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL width]</span> </span> </td> 
@@ -72,32 +76,32 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileSize]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>画像のサイズ（バイト単位）。 </p> </td> 
+   <td colname="col3"> <p>画像サイズ （バイト単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>ピクセル/インチ。 </p> </td> 
+   <td colname="col3"> <p>インチ当たりのピクセル数 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>商品 ID。 </p> </td> 
+   <td colname="col3"> <p>製品ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL description]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>画像の説明。 </p> </td> 
+   <td colname="col3"> <p>画像の説明： </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL comments]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>コメント （非推奨）。 </p> </td> 
+   <td colname="col3"> <p>コメント（非推奨）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL userData]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>画像に関連付けられたユーザー情報（非推奨）。 </p> </td> 
+   <td colname="col3"> <p>画像に関連付けられているユーザー情報（非推奨）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorX]</span> </span> </td> 
@@ -107,31 +111,31 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorY]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>ピクセルの垂直方向のアンカーポイント。 </p> </td> 
+   <td colname="col3"> <p>縦組みアンカーポイントです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Image Server の URL パラメーター。 </p> </td> 
+   <td colname="col3"> <p>画像サーバーのURL パラメーター。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p><span class="codeph"> urlModifier</span> の末尾に連結されたパラメーター。 Image Server に対するコマンドであるパラメーターのクエリ文字列形式リスト。 値については、『 image server プロトコルガイド』を参照してください。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> urlModifier</span>の末尾に連結されたパラメーター。 クエリ文字列形式イメージサーバーへのコマンドであるパラメーターのリスト。 値は、image server protocol guideに記載されています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>ズームターゲットの配列（最大 5 個）。 </p> </td> 
+   <td colname="col2"> <span class="codeph">種類：ZoomTargetArray</span> </td> 
+   <td colname="col3"> <p>ズームターゲットの配列（最大5つ）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：MaskArray</span> </td> 
+   <td colname="col2"> <span class="codeph">種類：MaskArray</span> </td> 
    <td colname="col3"> <p>マスク配列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型：ImageMapsArray</span> </td> 
+   <td colname="col2"> <span class="codeph">種類：ImageMapsArray</span> </td> 
    <td colname="col3"> <p>画像マップ配列。 </p> </td> 
   </tr> 
  </tbody> 

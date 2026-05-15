@@ -1,23 +1,28 @@
 ---
-title: Adobe Dynamic Media 開発者向けリソース
-description: Adobe Dynamic Media 開発者向けリソース
+title: Adobe Dynamic Mediaの開発者向けリソース
+description: Adobe Dynamic Mediaの開発者向けリソース
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+autotag-review: '2026-05-13T22:12:49.882Z'
+TQID: 'https://experienceleague.adobe.com/9Bnz7h6NsdXLne1R2SOIoQqexAmqFk28-MWSwNR23fY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: 132
 ht-degree: 0%
 
 ---
 
-# [!DNL Dynamic Media] 開発者向けリソース{#dynamic-media-developer-resource}
+# [!DNL Dynamic Media]の開発者向けリソース{#dynamic-media-developer-resource}
 
-* [&#x200B; ビューアリファレンスガイド &#x200B;](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) -->
-デスクトップデバイスとタッチスクリーンデバイスで使用するために [!DNL Dynamic Media] ビューアをカスタマイズします。 使用できるメディアタイプには、インタラクティブ画像とビデオ、360 度ビデオ、カルーセル、画像ズーム、ビデオ、eCatalog、フライアウト、混在メディア、スピンセットなどがあります。
-* [&#x200B; 画像サービング/画像レンダリング API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ja) -->
-IS （画像サービング） API と IR （画像レンダリング） API、および関連テクノロジーに関するドキュメント。 Adobe Experience Managerと [!DNL Dynamic Media] Classic 統合を行う場合は、API の IS の部分を参照してください。
+* [ ビューアリファレンスガイド](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
+デスクトップおよびタッチスクリーンデバイスで使用する[!DNL Dynamic Media] ビューアをカスタマイズします。 操作できるメディアの種類には、インタラクティブな画像やビデオ、360度動画、カルーセル、画像ズーム、ビデオ、ecatalogs、フライアウト、混在メディア、スピンセットなどがあります。
+* [画像サービング/画像レンダリング API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
+IS （画像サービング）およびIR （画像レンダリング） API、および関連テクノロジーに関するドキュメント。 Adobe Experience Managerとの[!DNL Dynamic Media] Classic統合に取り組む場合は、APIのIS部分を参照する必要があります。
 * [Image Production System API](/help/aem-ips-api/c-overview.md)
-IPS （Image Production System） web サービス API を使用すると、外部のアプリケーションやサードパーティの開発者が、IPS のアセットや機能にプログラムでアクセスできます。
-* [[!DNL Dynamic Media] Classic リリースノート &#x200B;](/help/s7-release-notes/s7rn2017.md)
-Adobeの最新のリリースノート [!DNL Dynamic Media]、[!DNL Adobe Experience Manager] の [!DNL Adobe Experience Cloud] ソリューションの Classic の一部です。
+IPS （Image Production System） Web Service APIを使用すると、外部アプリケーションやサードパーティの開発者は、IPS アセットと機能にプログラムでアクセスできます。
+* [[!DNL Dynamic Media] Classic リリースノート](/help/s7-release-notes/s7rn2017.md)
+[!DNL Adobe Experience Cloud]の[!DNL Adobe Experience Manager] ソリューションのAdobe [!DNL Dynamic Media] Classic-partの最新のリリースノート。

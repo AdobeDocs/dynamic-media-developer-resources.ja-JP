@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 906541bc-46dd-4a7c-8ee9-eb45ec3bd340
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/3SW53AEy1Gg8y3r9h9-TpuXaXgSh1MA5T0rxn1ziEU0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 5%
+source-wordcount: 63
+ht-degree: 4%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> スウォッチがビューに表示される方法を指定します。 </p> <p> <span class="codeph"> left </span> は、左から右への塗りつぶし順序を設定します。 </p> <p> 右 <span class="codeph"> を </span> リックすると、ビューが右から左に、上から下に埋められるように順序が逆になります。 </p> <p>自動 <span class="codeph"> が設定され </span> いる場合、ロケールが ja<span class="codeph"> に設定されてい </span> ときにコンポーネントは右 <span class="codeph"> モード </span> 適用します。それ以外の場合は、左が使用されます。 </p> </td> 
+   <td> <p> スウォッチがビュー内で塗りつぶされる方法を指定します。 </p> <p> <span class="codeph">は</span>を左に設定し、左から右への入力順序を設定します。 </p> <p> <span class="codeph">右</span>は、ビューが右から左、上から下に入力されるように順序を反転します。 </p> <p><span class="codeph">自動</span>が設定されている場合、コンポーネントは、ロケールが<span class="codeph"> ja </span>に設定されている場合は<span class="codeph">右</span> モードを適用します。それ以外の場合は、左が使用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

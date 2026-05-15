@@ -1,20 +1,24 @@
 ---
-description: キャッシュコントロール。 クライアント側のキャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と内部キャッシュのキャッシュを選択的に無効にするこ  [!DNL Platform Server]  ができます。
+description: キャッシュ制御： クライアントサイドのキャッシュ （ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）および内部 [!DNL Platform Server]  キャッシュのキャッシュを選択的に無効にできます。
 solution: Experience Manager
 title: キャッシュ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/X6q0OKRjjjpgNxl8XDuzkNBzrzTBS4E5BtXQGuJWgmk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 97
 ht-degree: 0%
 
 ---
 
 # キャッシュ{#cache}
 
-キャッシュコントロール。 クライアント側キャッシュ（ブラウザー、プロキシサーバー、ネットワークキャッシュシステム）と内部 [!DNL Platform Server] キャッシュのキャッシュを選択的に無効にできます。
+キャッシュ制御： クライアント側のキャッシュ （ブラウザー、プロキシ サーバー、ネットワーク キャッシュ システム）および内部[!DNL Platform Server] キャッシュのキャッシュを選択的に無効にできます。
 
 `&cache= *`cacheControl`*`
 
@@ -35,8 +39,8 @@ ht-degree: 0%
  </tr> 
 </table>
 
-*`cacheControl`* 値を 1 つだけ指定した場合は、クライアントとサーバーの両方のキャッシュに適用されます。
+1つの&#x200B;*`cacheControl`*&#x200B;値のみを指定した場合、クライアントとサーバーの両方のキャッシュに適用されます。
 
-リクエスト属性。 リクエストが返信画像を返さない場合は無視されます。 画像カタログでクライアントサイドのキャッシュが無効になっている場合（*`clientControl`* の値が負の場合）、`catalog::Expiration` は無視されます。
+リクエスト属性： リクエストが返信画像を返さない場合は無視されます。 画像カタログによってクライアント側のキャッシュが無効になっている場合、*`clientControl`*&#x200B;は無視されます（`catalog::Expiration`に負の値がある場合）。
 
-デフォルトは `cache=on,on` です。
+デフォルトは`cache=on,on`です。

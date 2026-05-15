@@ -1,24 +1,29 @@
 ---
-description: アセットのメタデータ値を削除します。 メタデータ削除の配列を操作して、値をバッチで設定します。
+description: アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチで設定できます。
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/Zw0f8pUYdTe5cRNHQjbC0z1g7tU5JruxdKqju1mdoQc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
+source-wordcount: 122
+ht-degree: 8%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-アセットのメタデータ値を削除します。 メタデータ削除の配列を操作して、値をバッチで設定します。
+アセットのメタデータ値を削除します。 メタデータ削除の配列を使用して、値をバッチで設定できます。
 
 構文
 
-## 許可されているユーザータイプ {#section-e913be43b684491daf02bc73211e4290}
+## 許可されたユーザータイプ {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +34,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->ユーザーには、アセットに対する読み取りおよび削除のアクセス権が必要です。
+>ユーザーには、アセットへの読み取りおよび削除アクセス権が必要です。
 
 ## パラメーター {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -65,7 +70,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> タイプ：MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">種類：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
    <td colname="col4"> <p>アセットから削除するメタデータの配列。 </p> </td> 
   </tr> 
@@ -74,7 +79,7 @@ ht-degree: 7%
 
 **出力（deleteAssetMetadataParam）**
 
-IPS API は、この操作に対して応答を返しません。
+IPS APIは、この操作に対する応答を返しません。
 
 ## 例 {#section-d5657289f5234bb0a613dcf691507958}
 

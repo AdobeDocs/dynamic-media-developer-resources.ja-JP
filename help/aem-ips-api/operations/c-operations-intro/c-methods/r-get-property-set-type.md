@@ -1,24 +1,28 @@
 ---
-description: 会社へのハンドルとプロパティ セット タイプの名前を使用して、プロパティ セット タイプを取得します。 型のハンドルを持つ型構造とプロパティ型を取得します。
+description: 会社へのハンドルとプロパティセットタイプの名前を使用して、プロパティセットタイプを取得します。 型とプロパティタイプのハンドルを持つ型構造を取得します。
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/E29wMANMzGAGzRtpw5GuV5dPYNHb0eSxOU4IBhiLYWQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: 152
 ht-degree: 9%
 
 ---
 
 # getPropertySetType{#getpropertysettype}
 
-会社へのハンドルとプロパティ セット タイプの名前を使用して、プロパティ セット タイプを取得します。 型のハンドルを持つ型構造とプロパティ型を取得します。
+会社へのハンドルとプロパティセットタイプの名前を使用して、プロパティセットタイプを取得します。 型とプロパティタイプのハンドルを持つ型構造を取得します。
 
 構文
 
-## 許可されているユーザータイプ {#section-2b291d32f95b4a3d854429124cbae24c}
+## 承認済みユーザータイプ {#section-2b291d32f95b4a3d854429124cbae24c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,10 +40,10 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | いいえ | 会社へのハンドル。 プロパティ セット タイプは複数の会社に属する可能性があるため、省略可能です。 |
-| name | `xsd:string` | はい | プロパティセットのタイプ名。 |
+| companyHandle | `xsd:string` | いいえ | 会社のハンドルです。 プロパティセットタイプは複数の会社に属することができるため、オプションです。 |
+| name | `xsd:string` | はい | プロパティセットタイプ名。 |
 
-**Output （getPropertySetTypeReturn）**
+**出力（getPropertySetTypeReturn）**
 
 <table id="table_F2724F6B706C4F658AED99290E29F3E6"> 
  <thead> 
@@ -55,12 +59,12 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> タイプ：PropertySetType</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4">以下を含むタイプ構造。 
+   <td colname="col4">を含むタイプ構造： 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
-     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">ハンドル。 </li> 
+     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">ハンドル名： </li> 
      <li id="li_6004406A0D1341648A714FF3C61E4004">名前を入力します。 </li> 
-     <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">プロパティタイプ。 </li> 
-     <li id="li_A2354354541A4F1AB7234F65F2B61A40">タイプが複数のプロパティタイプを許可するかどうかを示す値。 </li> 
+     <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">プロパティタイプ： </li> 
+     <li id="li_A2354354541A4F1AB7234F65F2B61A40">型が複数のプロパティ型を許可するかどうかを示す値。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +72,7 @@ ht-degree: 9%
 
 ## 例 {#section-1b57199415e34a8fa449f864f8895b14}
 
-このコード例では、名前でプロパティセットのタイプを返します。
+このコードサンプルは、名前でプロパティセットタイプを返します。
 
 **リクエスト**
 

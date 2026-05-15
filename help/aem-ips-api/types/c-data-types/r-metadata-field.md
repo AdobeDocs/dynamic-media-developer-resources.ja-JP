@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/8BYmsgczpTi43XrDRYL8lEkaKfKvrLbAteGG8euPweE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: 139
 ht-degree: 2%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 2%
 
 特定のアセットに対するユーザー定義のフィールド定義。
 
-`getMetadataFields` または `getAssetMetadataField` の操作を持つタグフィールド定義を取得します。
+`getMetadataFields`または`getAssetMetadataField`操作を使用してタグフィールド定義を取得します。
 
 ## パラメーター {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,17 +37,17 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> メタデータフィールドハンドル。 </td> 
+   <td colname="col3"> メタデータフィールドハンドル： </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> メタデータフィールド名。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> メタデータフィールドタイプ。 </td> 
+   <td colname="col3"> メタデータフィールドタイプ： </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -50,29 +55,29 @@ ht-degree: 2%
    <td colname="col3"> メタデータフィールドのデフォルト値。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">は必須</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 必須ステータスを設定します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">はユーザー定義</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> メタデータフィールドがユーザーによって定義されているかどうかを判断します。 </td> 
+   <td colname="col3"> メタデータフィールドがユーザーによって定義されているかどうかを指定します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname">は非表示</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">IPS システム固有のメタデータを表示または非表示にします。 getMetadataFields<a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> お </a> び getAssetMetadataFields<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> から返さ </a> ます。 </td> 
+   <td colname="col3">IPS システム固有のメタデータを非表示または公開します。 <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local">件のgetMetadataFields</a>および<a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local">件のgetAssetMetadataFields</a>から返されました。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">は強制</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>値の設定時にメタデータフィールドタイプを適用（検証）するかどうかを示すブール値フラグ。 </p> <p>true に設定した場合、setAssetMetadata<span class="codeph"> /</span> batchSetAssetMetadata<span class="codeph"> に無効な値が設定されてい </span> とエラーが発生します。 </p> </td> 
+   <td colname="col3"> <p>値が設定されたときにメタデータフィールドタイプが適用（検証済み）されるかどうかを示すブール型フラグ。 </p> <p>trueに設定すると、<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>で不正な値が設定された場合、障害がスローされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 指定した値のセットを共有して、選択したタグが指し示せるようにすることができます。 </td> 
+   <td colname="col3"> 選択したタグが指す共有指定された値のセットを作成できます。 </td> 
   </tr> 
  </tbody> 
 </table>

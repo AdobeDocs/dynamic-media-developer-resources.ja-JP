@@ -1,34 +1,38 @@
 ---
 title: getComponent
-description: 混在メディアビューア用のJavaScript API リファレンス
+description: Mixed Media Viewer用JavaScript API リファレンス
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/buSV2cmOQIytAc-N8Cd-FjAH-d-zwK-y4-Vfmf-24bI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 210
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-混在メディアビューア用のJavaScript API リファレンス
+Mixed Media Viewer用JavaScript API リファレンス
 
 `getComponent(componentId)`
 
-ビューアによって使用されるビューアSDKコンポーネントへの参照を返します。 Web ページでは、この方法を使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは `initComplete` ビューアコールバックが実行された後にのみ呼び出します。それ以外の場合、コンポーネントはビューアロジックによってまだ作成されていない可能性があります。
+ビューアで使用されるビューア SDK コンポーネントへの参照を返します。 Web ページでは、このメソッドを使用して、標準ビューアの動作を拡張またはカスタマイズできます。 このメソッドは、`initComplete` ビューア コールバックが実行された後にのみ呼び出します。そうしないと、ビューア ロジックによってまだコンポーネントが作成されない可能性があります。
 
 ## パラメーター {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - ビューアが使用するビューア SDK コンポーネントの ID を `{String}` します。 このビューアは、次のコンポーネント ID をサポートしています。
+`*`componentID`*` - `{String}`は、ビューアで使用されるビューア SDK コンポーネントのIDです。 このビューアは、次のコンポーネント IDをサポートしています。
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>コンポーネント ID </p> </th> 
-   <th colname="col2" class="entry"> <p>ビューア SDK コンポーネントのクラス名 </p> </th> 
+   <th colname="col2" class="entry"> <p>Viewer SDK コンポーネントクラス名 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,7 +41,7 @@ ht-degree: 0%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> コンテナ </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +65,7 @@ ht-degree: 0%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">は</span>を制御します </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -73,15 +77,15 @@ ht-degree: 0%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">件のclosedCaptionButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> swatches </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">個のスウォッチ </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colorSwatches </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> カラースウォッチ </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
@@ -123,13 +127,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API を使用する場合は、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) に記載されているように、正しい完全修飾のSDK名前空間を使用することが重要です。
+SDK APIを使用する場合は、[ ユーザーインターフェイス要素のローカライズ ](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)で説明されているように、正しく完全修飾されたSDK名前空間を使用することが重要です。
 
-特定のコンポーネントについて詳しくは、ビューアのSDK API ドキュメントを参照してください。
+特定のコンポーネントについて詳しくは、Viewer SDK API ドキュメントを参照してください。
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` ビューアのSDK コンポーネントへの参照。 `null` がサポートされているビューアコンポーネントでない場合や、コンポーネントがまだビューアロジックで作成されていない場合、メソッドは `componentId` を返します。
+`{Object}` Viewer SDK コンポーネントへの参照。 このメソッドは、`componentId`がサポートされているビューアコンポーネントでない場合、またはビューアロジックによってコンポーネントがまだ作成されていない場合、`null`を返します。
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

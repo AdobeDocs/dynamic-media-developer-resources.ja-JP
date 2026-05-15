@@ -1,92 +1,96 @@
 ---
-description: このドキュメントでは、Dynamic Media 画像レンダリングの資料カタログについて説明します。
+description: このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログについて説明します。
 solution: Experience Manager
 title: はじめに
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/VGAiUARHzSeBN5fVSP-Gi752ZTWxS9LBzqXWoL8mKOM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: 331
 ht-degree: 0%
 
 ---
 
 # はじめに{#introduction}
 
-このドキュメントでは、Dynamic Media 画像レンダリングの資料カタログについて説明します。
+このドキュメントでは、Dynamic Media画像レンダリングのマテリアルカタログについて説明します。
 
 **対象オーディエンス**
 
-このドキュメントは、Web サイトやカスタムアプリケーションに Dynamic Media 画像レンダリングを活用する、経験豊富なプログラマーや Web サイト開発者を対象としています。
+このドキュメントは、Web サイトまたはカスタムアプリケーションにDynamic Media画像レンダリングを活用したい経験豊富なプログラマーやWeb サイト開発者を対象としています。
 
-Dynamic Media の画像オーサリングと画像レンダリング、一般的な HTTP プロトコルの標準と規則、基本的な画像用語について、読者が熟知していることを前提としています。
+読者は、Dynamic Mediaの画像オーサリングと画像レンダリング、一般的なHTTP プロトコルの標準と規則、基本的な画像用語に精通していることを前提としています。
 
 **ドキュメント規則**
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>リテラル </p> </td> 
-  <td class="stentry"> <p>構文セクションでは、斜体でないテキストはリテラルです。これは、空白および記号 [ ] { } には適用されません | *. </p> </td> 
+  <td class="stentry"> <p>構文セクションでは、イタリック以外のテキストはリテラルです。これは、空白および記号[ ] { } | *には適用されません。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'リテラル' </p> </td> 
-  <td class="stentry"> <p>説明セクションでは、一重引用符で囲まれた斜体でないテキストはリテラルです。 </p> </td> 
+  <td class="stentry"> <p>記述的なセクションでは、単引用符の非イタリックのテキストはリテラルです。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> パラメーター </span> </p> </td> 
-  <td class="stentry"> <p>斜体は、実際の値に置き換える変数またはパラメーターを示します。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> パラメーター</span> </p> </td> 
+  <td class="stentry"> <p>斜体は、実際の値で置き換える変数またはパラメーターを示します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 属性：:Item </span> </p> </td> 
-  <td class="stentry"> <p>先頭に「attribute::」が付く名前は、画像カタログ属性を参照します。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">属性：：項目</span> </p> </td> 
+  <td class="stentry"> <p>「attribute::」が付いた名前は、画像カタログ属性を表します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalog::Item </span> </td> 
-  <td class="stentry"> <p>先頭に「catalog::」が付いた名前は、材料カタログデータフィールドを指します。 </p> </td> 
+  <td class="stentry"> <span class="codeph"> カタログ：：項目</span> </td> 
+  <td class="stentry"> <p>「catalog::」が付いた名前は、マテリアルカタログデータフィールドを指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
-  <td class="stentry"> <p>先頭に「icc::」が付いた名前は、ICC カラープロファイルマップのフィールドを参照します。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc:：項目</span> </p> </td> 
+  <td class="stentry"> <p>「icc:::」というプレフィックスが付いた名前は、ICC カラープロファイルマップのフィールドを指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> マクロ：：項目</span> </p> </td> 
   <td class="stentry"> <p>「macro::」というプレフィックスが付いた名前は、マクロ定義テーブルのフィールドを指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ルールセット：:Item </span> </p> </td> 
-  <td class="stentry"> <p>プレフィックス「ruleset::」が付いた名前は、URL 内の要素を前処理ルールセットとして参照します。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ルールセット：：項目</span> </p> </td> 
+  <td class="stentry"> <p>「ruleset:::」というプレフィックスが付いた名前は、URL前処理ルールセット内の要素を指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
-  <td class="stentry"> <p>先頭に「default::」が付く名前は、デフォルトの画像カタログの属性を参照します。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">の既定値：：項目</span> </p> </td> 
+  <td class="stentry"> <p>「default::」というプレフィックスが付いた名前は、デフォルトの画像カタログの属性を指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> vignette::Item </span> </p> </td> 
-  <td class="stentry"> <p>先頭に「vignette::」が付く名前は、ビネットマップ内のフィールドを参照します。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ビネット：：項目</span> </p> </td> 
+  <td class="stentry"> <p>「周辺光量補正：:」というプレフィックスが付いた名前は、周辺光量補正マップ内のフィールドを指します。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>[ <span class="varname"> オプション </span> ] </p> </td> 
-  <td class="stentry"> <p>オプションの構文要素は角括弧で囲みます。 </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> optional </span> ] </p> </td> 
+  <td class="stentry"> <p>オプションの構文エレメントは、角括弧で囲まれます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*[ <span class="varname"> オプション </span> ] </p> </td> 
-  <td class="stentry"> <p>オプションの構文要素は、まったく繰り返すことも、それ以上繰り返すこともできます。 </p> </td> 
+  <td class="stentry"> <p>*[<span class="varname"> オプション </span> ] </p> </td> 
+  <td class="stentry"> <p>オプションの構文エレメントは、何度も繰り返すことはできません。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
-  <td class="stentry"> <p>縦棒は、左側に単一構文のアイテム、または右側に単一構文のアイテムが使用可能であることを示します。 選択する項目は 1 つだけです。 </p> </td> 
+  <td class="stentry"> <p>縦棒グラフは、左側の単一の構文項目または右側の項目のいずれかを使用できることを示します。 1つの項目を選択してください。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>{ <span class="varname"> group </span> } </p> </td> 
-  <td class="stentry"> <p>中括弧は、構文要素をグループ化するために使用されます。 </p> </td> 
+  <td class="stentry"> <p>{ <span class="varname"> グループ </span> } </p> </td> 
+  <td class="stentry"> <p>中括弧は、構文エレメントをグループ化するために使用されます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*{ <span class="varname"> group </span> } </p> </td> 
-  <td class="stentry"> <p>グループ内の構文要素は、1 回以上繰り返すことができます。 </p> </td> 
+  <td class="stentry"> <p>*{ <span class="varname"> グループ </span> } </p> </td> 
+  <td class="stentry"> <p>グループ内の構文要素は、1回以上繰り返すことができます。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>空白。 </p> </td> 
-  <td class="stentry"> <p>HTTP リクエストでは、空白（スペースまたはタブ）は使用できません。 このドキュメントでは、分かりやすくするために、構文要素の間に空白を使用する場合があります。 </p> </td> 
+  <td class="stentry"> <p>ホワイトスペース： </p> </td> 
+  <td class="stentry"> <p>HTTP リクエストでは、空白（スペースまたはタブ）は使用できません。 このドキュメントでは、構文要素の間に空白が表示されることがあります。 </p> </td> 
  </tr> 
 </table>

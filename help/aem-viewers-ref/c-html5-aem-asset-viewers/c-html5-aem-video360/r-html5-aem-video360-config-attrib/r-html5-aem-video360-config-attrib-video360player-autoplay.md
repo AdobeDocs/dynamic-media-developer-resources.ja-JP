@@ -1,20 +1,24 @@
 ---
 title: Video360Player.autoplay
-description: Video360 ビューアの設定属性
+description: Video360 Viewerの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/J89RvvvFxeop7nFptaQUQJgdQFMNVxK7PtDU-m7ZL68'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 7%
+source-wordcount: 39
+ht-degree: 12%
 
 ---
 
 # Video360Player.autoplay{#video-player-autoplay}
 
-Video360 ビューアの設定属性
+Video360 Viewerの設定属性。
 
 `[Video360Player.|<containerId>_video360Player.]autoplay=0|1`
 
@@ -22,7 +26,7 @@ Video360 ビューアの設定属性
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> 読み込み時にビデオの再生を開始するかどうかを示します。 特定のモバイルデバイスなど、一部のシステムでは自動再生がサポートされていない場合があります。 </p> </td> 
+   <td colname="col2"> <p> ビューアがロード時にビデオの再生を開始するかどうかを示します。 一部のモバイルデバイスなどの一部のシステムでは、自動再生がサポートされていない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

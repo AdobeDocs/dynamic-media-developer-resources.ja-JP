@@ -1,44 +1,48 @@
 ---
 title: SmartCropVideoViewer
-description: スマート切り抜きビデオビューア用のJavaScript API リファレンス。
+description: スマート切り抜きビデオビューアのJavaScript API リファレンス。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 55885e57-4a21-43bb-86b0-9ac34bd29bd0
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/IVCDrNsefHzLd7dkDXlfuRWTEFT5px0gMr-gD0oyPxA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 208
 ht-degree: 3%
 
 ---
 
 # SmartCropVideoViewer{#smartcropvideoviewer}
 
-スマート切り抜きビデオビューア用のJavaScript API リファレンス。
+スマート切り抜きビデオビューアのJavaScript API リファレンス。
 
 `SmartCropVideoViewer([config])`
 
-コンストラクター。Smart Crop Video Viewer インスタンスを作成します。
+コンストラクター。スマート切り抜きビデオビューアーインスタンスを作成します。
 
 ## パラメーター {#section-8bc3d1424c8444f193716fc8d9975765}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> オプション <span class="codeph">JSON 設定オブジェクト {Object}</span>、すべてのビューア設定をコンストラクターに渡し、個々の setter メソッドを呼び出さないようにします。 次のプロパティが含まれます。 </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">設定</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> オプションのJSON設定オブジェクト。すべてのビューア設定をコンストラクターに渡し、個々のセッターメソッドの呼び出しを回避できます。 次のプロパティが含まれます。 </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ビューア </span> 挿入する DOM コンテナの ID （通常は <span class="codeph"> DIV </span>）。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、init （） <span class="codeph"> が実行される場合 </span> コンテナが存在する必要があります。 必須。 </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} ビューア設定パラメーターを持つ JSON オブジェクトを </span> します。プロパティ名はビューア固有の設定オプションまたはSDK修飾子で、そのプロパティの値は対応する settings 値です。 必須。 </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> handlers </span> - <span class="codeph"> {Object} ビューアイベントコールバックを持つ JSON オブジェクトを </span> します。プロパティ名はサポートされているビューアイベントの名前で、プロパティ値は適切なコールバックへのJavaScript関数参照です。 オプション。 <p>ビューアイベントについて詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> Event callbacks </a> を参照してください。 </p> </li> 
-      <li id="li_D344288C9B584E569F7BF92D960F9DF8"> <p> <span class="codeph"> localizedTexts </span> - ローカリゼーションデータを含む { <span class="codeph"> Object </span>} JSON オブジェクト。 オプション。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> ビューアのSDK名前空間 </a> を参照してください。 </p> <p>オブジェクトのコンテンツについて詳しくは <i></i> ビューアのSDKユーザーガイド」と例を参照してください。 オプション。 </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ビューアが挿入されているDOM コンテナ （通常は<span class="codeph"> DIV </span>）のID。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、<span class="codeph"> init （） </span>が実行されている場合は、コンテナが存在する必要があります。 必須。 </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> パラメーター</span> - <span class="codeph"> {Object} </span> JSON オブジェクトで、プロパティ名がビューア固有の設定オプションまたはSDK修飾子のいずれかであり、そのプロパティの値が対応する設定値であるビューア設定パラメーターを持ちます。 必須。 </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> ハンドラー</span> - <span class="codeph"> {Object} </span> ビューア イベント コールバックを持つJSON オブジェクト。プロパティ名はサポートされているビューア イベントの名前で、プロパティ値は適切なコールバックへのJavaScript関数参照です。 オプション。 <p>ビューアイベントの詳細については、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md#concept-ebe5a4c1853d4912a919d86df35c1f6d" format="dita" scope="local"> イベントコールバック </a>を参照してください。 </p> </li> 
+      <li id="li_D344288C9B584E569F7BF92D960F9DF8"> <p> ローカライゼーションデータを含む<span class="codeph"> localizedText </span> - { <span class="codeph"> Object </span> JSON オブジェクト。 オプション。 </p> <p>詳しくは、<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK名前空間</a>を参照してください。 </p> <p>オブジェクトの内容について詳しくは、<i>Viewer SDK ユーザーガイド </i>および例を参照してください。 オプション。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

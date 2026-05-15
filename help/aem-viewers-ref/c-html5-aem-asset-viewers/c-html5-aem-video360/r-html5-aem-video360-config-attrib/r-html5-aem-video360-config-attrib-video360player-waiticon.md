@@ -1,20 +1,24 @@
 ---
 title: Video360Player.waiticon
-description: Video360 ビューアの設定属性
+description: Video360 Viewerの設定属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/3CpSKAsllsBXloh-Cbo0xaIsLixXkT6i-H-uS8KavMU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 11%
+source-wordcount: 26
+ht-degree: 19%
 
 ---
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Video360 ビューアの設定属性
+Video360 Viewerの設定属性。
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +26,7 @@ Video360 ビューアの設定属性
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）の表示を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）表示を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

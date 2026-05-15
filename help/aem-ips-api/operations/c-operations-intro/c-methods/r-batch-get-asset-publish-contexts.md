@@ -5,9 +5,13 @@ title: batchGetAssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/ei78NEtlPaqhT6Vf-jreBAxzfGcwGbxMLSsOfSb-Ym4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 96
 ht-degree: 13%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 13%
 
 構文
 
-## 許可されているユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 承認済みユーザータイプ {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +37,7 @@ ht-degree: 13%
 >[!NOTE]
 >
 >* アセットを返すには、ユーザーに読み取りアクセス権が必要です。
->* すべてのユーザーは、共有会社にアクセスできます。
+>* すべてのユーザーは共有会社にアクセスできます。
 >
 
 ## パラメーター {#section-1742fcb196224545b270eb8241f757a8}
@@ -42,14 +46,14 @@ ht-degree: 13%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に渡す。 |
-| assetHandleArray | ` `types:HandleArray&quot; | はい | アクティブな（公開用にマークされた）コンテキストに対してクエリするアセットのリスト。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| assetHandleArray | ` `types:HandleArray&quot; | はい | アクティブな（パブリッシュ用にマークされた）コンテキスト用にクエリするアセットのリスト。 |
 
 **出力（batchGetAssetPublishContextsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされるパブリッシュコンテキストの配列。 |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | はい | 各アセットが公開用にマークされた公開コンテキストの配列。 |
 
 ## 例 {#section-457f6809ccfa425b9a0976313d613f4e}
 

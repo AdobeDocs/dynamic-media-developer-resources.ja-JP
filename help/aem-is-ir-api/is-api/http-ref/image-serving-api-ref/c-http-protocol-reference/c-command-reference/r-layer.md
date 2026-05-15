@@ -1,78 +1,82 @@
 ---
 title: レイヤー
-description: 「レイヤー」を選択します。 画層を選択し、コマンド シーケンスで新しい画層定義セグメントを開始します。
+description: レイヤーを選択します。 レイヤーを選択し、コマンドシーケンスで新しいレイヤー定義セグメントを開始します。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/7RMSQNrhGOufvbqHQFB6ow-PA1z-RoLtuolmUoAlGoA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 0%
 
 ---
 
 # レイヤー{#layer}
 
-「レイヤー」を選択します。 画層を選択し、コマンド シーケンスで新しい画層定義セグメントを開始します。
+レイヤーを選択します。 レイヤーを選択し、コマンドシーケンスで新しいレイヤー定義セグメントを開始します。
 
-`layer= *`n`*|comp[, *`name`*]`
+`layer= *`n`*|comp[, *`の名前`*]`
 
 `layer= *`name`*`
 
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p></td> 
-  <td class="stentry"> <p>選択するレイヤーの数（0 以上）。 </p></td> 
+  <td class="stentry"> <p>選択するレイヤーの数（0以上）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> comp</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> コンポジション </span> </p></td> 
   <td class="stentry"> <p>合成画像を選択します。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> の名前 </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">名</span></span> </p></td> 
   <td class="stentry"> <p>レイヤー名。 </p></td> 
  </tr> 
 </table>
 
-画層セグメント内のすべてのコマンドは、指定した画層に適用されます。 画層セグメントは、次の `layer=` または `effect=` コマンド、または要求の終了によって終了します。
+レイヤーセグメント内のすべてのコマンドは、指定したレイヤーに適用されます。 レイヤーセグメントは、次の`layer=`または`effect=` コマンドまたはリクエストの最後で終了します。
 
-合成イメージ（または一部のコマンドではビュー）を選択する `layer=comp` を指定します。
+`layer=comp`を指定して、コンポジット画像（または一部のコマンドのビュー）を選択します。
 
-レイヤ番号は、レイヤの Z オーダーを効果的に指定します。 番号の大きいレイヤーは、番号の小さいレイヤーの上に配置されます。
+レイヤー番号は、レイヤーのZ次を効果的に指定します。 番号の高いレイヤーは、番号の低いレイヤーの上に配置されます。
 
-レイヤ番号は連続している必要はありません。 レイヤ 0 が必要です。
+レイヤー番号は連続する必要はありません。 レイヤー0が必要です。
 
-`layer= *`n`*, *`name`*` コマンド バリアントを使用して、画層に名前を割り当てることができます。 名前の付いたレイヤを定義すると、レイヤ番号を知らなくても、そのレイヤを ` layer= *`name`*` で参照できます。 複数の `layer= *`n`*, *`name`*` コマンドを使用して、同じレイヤーに複数の名前を割り当てることができます。
+名前は、`layer= *`n`*, *`name`*` コマンド バリアントを持つレイヤーに割り当てることができます。 名前付きレイヤーを定義すると、レイヤー番号を知らなくても` layer= *`name`*`で参照できます。 複数の`layer= *`n`*, *`name`*` コマンドを使用して、同じレイヤーに複数の名前を割り当てることができます。
 
 >[!NOTE]
 >
->レイヤ 0 は、合成キャンバスの全体のサイズを決定します。 合成が作成されると、レイヤ 0 の境界の外側にあるレイヤのすべての部分が切り抜かれます。
+>レイヤー0は、合成キャンバスの全体的なサイズを決定します。 コンポジットを構築すると、レイヤー0の境界の外側にあるレイヤーのすべての部分が切り抜かれます。
 
 ## プロパティ {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-[ 画層 ] コマンド： 代替変数参照は `layer=` ではサポートされていません。
+Layer コマンド。 `layer=`では、置換変数の参照はサポートされていません。
 
-`comp` は *`name`* 文字列として許可されていません。 同じ *`name`* が複数の画層に割り当てられている場合、または以前に定義されていない *`name`* によって画層が参照されている場合は、エラーが返されます。
+`comp`は&#x200B;*`name`*&#x200B;文字列として許可されていません。 同じ&#x200B;*`name`*&#x200B;が複数のレイヤーに割り当てられている場合、またはレイヤーが以前に定義されていない&#x200B;*`name`*&#x200B;によって参照されている場合は、エラーが返されます。
 
 ## 初期設定 {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`。 多くのコマンドと属性は、レイヤ 0 に適用されます（`layer=comp` の場合）。
+`layer=comp`. `layer=comp`の場合、レイヤー0には多くのコマンドと属性が適用されます。
 
 ## 特殊ケース {#section-e087cb2e3562473e8d391abfa3b9489f}
 
 * 同じ名前が複数のレイヤーにマッピングされている場合（例：`layer=1,image&layer=2,image`）、エラーが発生します。
-* 同じ名前が 1 つのレイヤーに複数回マッピングされる場合（例：`layer=1,image&layer=1,image`）、範囲はエラーなしで通常どおりに設定されます。
-* 同じレイヤーに複数の名前を付けることができます。
+* 同じ名前が単一のレイヤーに複数回マッピングされている場合（例：`layer=1,image&layer=1,image`）、スコープはエラーなしで通常どおりに設定されます。
+* 同じレイヤーの複数の名前がサポートされています。
 
-  どちらの名前を使用しても、レイヤーを参照できます（例：`layer=1,image&layer=1,picture`）。
-* 参照名がレイヤ番号にマッピングされていない場合（例：`layer=1,image&layer=picture`）、エラーが発生します。
-* レイヤー修飾子では、代替変数はサポートされていません（例：`layer=$image$`）。
+  どちらの名前でもレイヤーを参照できます（例：`layer=1,image&layer=1,picture`）。
+* 参照名がレイヤー番号にマッピングされない場合（例：`layer=1,image&layer=picture`）、エラーが発生します。
+* 置換変数は、レイヤー修飾子ではサポートされていません（例：`layer=$image$`）。
 
-  これは、レイヤ名だけでなく、一般的なレイヤ モディファイヤにも適用されます。
+  これは、レイヤー名だけでなく、一般的にレイヤー修飾子に対するすべての置換に適用されます。
 
-* すべての結合ルールと上書きルールは、同じレイヤーが複数のソース（リクエスト、修飾子カタログレコードの前または後、マクロなど）で参照される場合と同じように機能します。
+* すべての結合ルールとオーバーライドルールは、同じレイヤーが複数のソース（リクエスト、修飾子の前後のカタログレコード、マクロなど）で参照されている場合と同じように機能する必要があります。
 
 ## 例 {#section-cc40de6a0a754178aa752601539c815b}
 
-[&#x200B; テンプレート &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) の例を参照してください。
+[ テンプレート ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)の例を参照してください。

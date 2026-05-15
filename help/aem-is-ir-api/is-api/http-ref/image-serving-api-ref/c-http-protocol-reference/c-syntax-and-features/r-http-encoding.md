@@ -1,29 +1,33 @@
 ---
-description: コマンド値は、%xx エスケープ シーケンスを使用して HTTP エンコードする必要があります。値の文字列に予約文字'='、'&'、および'%'が含まれないようにする必要があります。
+description: コマンド値は、%xx エスケープシーケンスを使用してhttp エンコードする必要があります。これにより、値の文字列に予約文字'='、'&'および'%'が含まれなくなります。
 solution: Experience Manager
 title: 画像サービング HTTP エンコーディング
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/vQIQQhMGQZWbIeWUgnpqCtZj5Rx3Nl-1xUMatQwzeIU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 231
 ht-degree: 16%
 
 ---
 
 # 画像サービング HTTP エンコーディング{#image-serving-http-encoding}
 
-コマンド値は、%xx エスケープ シーケンスを使用して HTTP エンコードする必要があります。値の文字列に予約文字&#39;=&#39;、&#39;&amp;&#39;、および&#39;%&#39;が含まれないようにする必要があります。
+コマンド値は、%xx エスケープシーケンスを使用してhttp エンコードする必要があります。これにより、値の文字列に予約文字&#39;=&#39;、&#39;&amp;&#39;および&#39;%&#39;が含まれなくなります。
 
-それ以外の場合は、標準の HTTP エンコーディングルールが適用されます。 HTTP の仕様では、安全でない文字のエンコードと、制御文字（`<return>` や `<tab>` など）のエンコードが必要です。 文字の URL エンコーディングは、「%」記号と、その文字の ISO ラテン コードポイントの 2 桁の 16 進数表現（大文字と小文字を区別しない）で構成されます。 安全でない文字とコードポイントは次のとおりです。
+それ以外の場合は、標準のHTTP エンコーディングルールが適用されます。 HTTP仕様では、安全でない文字だけでなく、`<return>`や`<tab>`などの制御文字もエンコードする必要があります。 文字のURL エンコーディングは、「%」記号と、その文字のISO-Latin コードポイントの2桁の16進数表現（大文字と小文字を区別しない）で構成されます。 安全でない文字とコードポイントは次のとおりです。
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 危険な文字 </th> 
-   <th colname="col2" class="entry"> コードポイント（16 進数） </th> 
-   <th colname="col3" class="entry"> コードポイント（12） </th> 
+   <th colname="col1" class="entry"> 安全でない文字 </th> 
+   <th colname="col2" class="entry"> コードポイント（16進数） </th> 
+   <th colname="col3" class="entry"> コードポイント（12月） </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -43,7 +47,7 @@ ht-degree: 16%
    <td colname="col3"> <p>62 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>“ </p> </td> 
+   <td colname="col1"> <p>" </p> </td> 
    <td colname="col2"> <p>22 </p> </td> 
    <td colname="col3"> <p>34 </p> </td> 
   </tr> 
@@ -58,18 +62,18 @@ ht-degree: 16%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lbrace; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&rbrace; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>| </p> </td> 
-   <td colname="col2"> <p>7 度 </p> </td> 
+   <td colname="col2"> <p>7C </p> </td> 
    <td colname="col3"> <p>124 </p> </td> 
   </tr> 
   <tr> 
@@ -83,36 +87,36 @@ ht-degree: 16%
    <td colname="col3"> <p>94 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>～ </p> </td> 
+   <td colname="col1"> <p>~ </p> </td> 
    <td colname="col2"> <p>7E </p> </td> 
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lbrack; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&rbrack; </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&grave; </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-予約文字もエンコードする必要があります。
+予約済みの文字もエンコードする必要があります。
 
 <table id="table_A6C808A05EA6420F8125186D3D5C9E33"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 予約文字 </th> 
-   <th colname="col2" class="entry"> コードポイント（16 進数） </th> 
-   <th colname="col3" class="entry"> コードポイント（Dec） </th> 
+   <th colname="col1" class="entry"> 予約済み文字 </th> 
+   <th colname="col2" class="entry"> コードポイント（16進数） </th> 
+   <th colname="col3" class="entry"> コードポイント（12月） </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -142,7 +146,7 @@ ht-degree: 16%
    <td colname="col3"> <p>47 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>。 </p> </td> 
+   <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
@@ -173,14 +177,14 @@ ht-degree: 16%
 
 `…&$text=rate&weight=85% 27#&…`
 
-不明化が適用されない場合、上記のリクエストフラグメントは次のようにエンコードする必要があります。
+難読化が適用されない場合、上記のリクエストフラグメントは次のようにエンコードする必要があります。
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-不明化が適用されている場合、エンコーディングを制限して、「=」、「&amp;」、「%」の文字を削除できます。
+難読化が適用される場合、エンコーディングを制限して&#39;=&#39;、&#39;&amp;&#39;、&#39;%&#39;文字を削除できます。
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 関連項目 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[&#x200B; リクエストの不明化 &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、[HTTP/1.1 仕様（RFC 2616） &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[難読化の要求](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)、[HTTP/1.1仕様（RFC 2616） ](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

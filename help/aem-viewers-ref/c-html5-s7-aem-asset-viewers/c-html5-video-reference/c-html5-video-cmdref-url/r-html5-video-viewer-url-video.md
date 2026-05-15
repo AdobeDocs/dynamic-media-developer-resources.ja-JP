@@ -1,20 +1,24 @@
 ---
 title: ビデオ
-description: ビデオビューアの URL コマンド。
+description: ビデオビューアのURL コマンド。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7UGoWBAbmlWMCixqk61mASU3zfQlU6DRn5htz3KE7Is'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: 34
+ht-degree: 17%
 
 ---
 
 # ビデオ{#video}
 
-ビデオビューアの URL コマンド。
+ビデオビューアのURL コマンド。
 
 ` video= *`videoURL`*`
 
@@ -22,14 +26,14 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部ビデオの絶対 URL。 </p> </td> 
+   <td colname="col2"> <p> 外部ビデオへの絶対URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。 （パラメーター `asset` 使用していない場合）。 [&#x200B; 外部ビデオのサポート &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)）を参照してください。
+必須。 （`asset` パラメーターが使用されていない限り。 [外部ビデオサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)を参照してください）。
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}
 

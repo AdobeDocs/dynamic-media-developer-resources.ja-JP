@@ -5,10 +5,14 @@ title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/ZSA0CvygWjE-RgySjcXudpqzrfaYZ2LUqeqbnlRLWbc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 7%
+source-wordcount: 244
+ht-degree: 8%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 7%
 
 構文
 
-## 許可されているユーザータイプ {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## 承認済みユーザータイプ {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,7 +53,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 保存する画像マップを含む会社へのハンドル。 </td> 
+   <td colname="col4"> 保存する画像マップを持つ会社へのハンドル。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
@@ -61,10 +65,10 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 画像マップへのハンドル。 NULL の場合は画像マップを作成します。 </td> 
+   <td colname="col4"> 画像マップへのハンドル。 NULLの場合は画像マップを作成します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> 作成または保存される画像マップの名前。 </td> 
@@ -73,29 +77,29 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 領域形状の選択。 </td> 
+   <td colname="col4"> 地域の形の選択。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">地域</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 領域を定義する点のカンマ区切りのリスト。 </td> 
+   <td colname="col4"> 領域を定義するポイントのコンマ区切りリスト。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> アクション </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>IPS インターフェイスで指定された、画像マップに関連付けられた <span class="codeph"> href </span> 値。 </p> <p><span class="codeph"> href </span> 値を取得するには、IPS インターフェイス内の画像をクリックし、URL をコピーしてこの要素に貼り付け、IPS URL を適切な URL としてフォーマットします。 例えば、<span class="codeph"> &amp; </span> は&amp; <span class="codeph"></span> なります。 </p> </td> 
+   <td colname="col4"> <p>IPS インターフェイスで指定されたとおりに、画像マップに関連付けられた<span class="codeph"> href </span>値。 </p> <p><span class="codeph"> href </span>値を取得するには、IPS インターフェイスで画像をクリックし、URLをこの要素にコピー&amp;ペーストしてから、IPS URLを適切なURLとしてフォーマットします。 例えば、<span class="codeph"> &amp; </span>は<span class="codeph"> &amp; </span>になります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">位置</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 画像マップのリストの順序（Z 軸）。 </td> 
+   <td colname="col4"> 画像マップのリスト（Z軸）の順序。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">が</span> </span>を有効にしました </td> 
+   <td colname="col2"> <span class="codeph"> xsd：ブール値</span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -110,7 +114,7 @@ ht-degree: 7%
 
 ## 例 {#section-fdac488b640f427c8aa3d549c5032851}
 
-このコードサンプルでは、アセットの新しい画像マップを作成します。 領域シェイプ文字列定数によって決定されるシェイプ タイプを使用し、新しいイメージ マップにハンドルを返します。
+このコードサンプルは、アセット用に新しい画像マップを作成します。 領域のシェイプ文字列定数によって決定されるシェイプタイプを使用し、新しい画像マップにハンドルを返します。
 
 **リクエスト**
 

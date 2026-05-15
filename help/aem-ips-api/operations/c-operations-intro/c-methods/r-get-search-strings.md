@@ -1,24 +1,28 @@
 ---
-description: アセットに関する検索文字列、キーワード、その他の情報を取得します。 応答には、アセットに関する追加情報が含まれています。
+description: アセットに関する検索文字列、キーワード、その他の情報を取得します。 応答には、アセットに関する追加情報が含まれます。
 solution: Experience Manager
-title: getSearchString
+title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/5w3SvwJWT7831IVQKCbpy7Tc-zULMfiva8UBuglcX-g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: 95
 ht-degree: 14%
 
 ---
 
-# getSearchString{#getsearchstrings}
+# getSearchStrings{#getsearchstrings}
 
-アセットに関する検索文字列、キーワード、その他の情報を取得します。 応答には、アセットに関する追加情報が含まれています。
+アセットに関する検索文字列、キーワード、その他の情報を取得します。 応答には、アセットに関する追加情報が含まれます。
 
 構文
 
-## 許可されているユーザータイプ {#section-b09c817a59f949a28e1c029e431f5698}
+## 承認済みユーザータイプ {#section-b09c817a59f949a28e1c029e431f5698}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,8 +35,8 @@ ht-degree: 14%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に渡す。 |
-| assetHandle | `xsd:string` | はい | アセットへのハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| assetHandle | `xsd:string` | はい | アセットを処理します。 |
 
 **出力（getSearchStringsReturn）**
 
@@ -42,7 +46,7 @@ ht-degree: 14%
 
 ## 例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-このコードサンプルでは、アセット固有の検索文字列を返します。 応答は、空の配列を返します。
+このコードサンプルは、アセット固有の検索文字列を返します。 応答は空の配列を返します。
 
 **リクエスト**
 

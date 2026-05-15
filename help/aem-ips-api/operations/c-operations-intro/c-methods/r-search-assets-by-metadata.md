@@ -1,22 +1,27 @@
 ---
-description: 指定された検索用語について、メタデータインデックスリポジトリを検索します。 searchAssets メソッドのようなアセットデータを返します。
+description: 指定された検索語のメタデータインデックスリポジトリを検索します。 searchAssets メソッドのようなアセットデータを返します。
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/3Ak0AiifRbFxbKF8uUq5RQd2Y2dhbQigDmK5RJmbddQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: 328
+ht-degree: 5%
 
 ---
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-指定された検索用語について、メタデータインデックスリポジトリを検索します。 searchAssets メソッドのようなアセットデータを返します。
+指定された検索語のメタデータインデックスリポジトリを検索します。 searchAssets メソッドのようなアセットデータを返します。
 
-`searchAssetsByMetadata` では、ユーザー定義のメタデータフィールドを検索できますが、これらのフィールドが `responseMetadataArray` で指定されている場合は返されません。 この点を説明するために、次のコード例を示します。
+`searchAssetsByMetadata`では、ユーザー定義のメタデータフィールドを検索できますが、`responseMetadataArray`で指定されている場合、これらのフィールドは返されません。 この点を示すために、次のコード例を示します。
 
 ```java
 <ns:responseMetadataArray>
@@ -24,7 +29,7 @@ ht-degree: 7%
 </ns:responseMetadataArray>
 ```
 
-が null 値を返します。
+null値を返します。
 
 ```java
 <items>
@@ -33,7 +38,7 @@ ht-degree: 7%
 </items>
 ```
 
-この問題を回避するには、検索から返されるアセットの `fieldHandles` を使用して `getAssets` を実行します（[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca) も参照）。 このメソッドは、対象のアセットのユーザー定義フィールド値を取得します。 ユーザー定義のメタデータフィールドを検索するには、次の構文例を使用します。
+この問題を回避するには、検索から返されたアセットの`fieldHandles`を使用して`getAssets`を実行します（[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)も参照）。 このメソッドは、該当するアセットのユーザー定義フィールド値を取得します。 次の構文の例を使用して、ユーザー定義のメタデータフィールドを検索します。
 
 ```java
 <ns:metadataConditionArray>
@@ -45,7 +50,7 @@ ht-degree: 7%
 </ns:metadataConditionArray>
 ```
 
-## 許可されているユーザータイプ {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
+## 承認済みユーザータイプ {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -73,23 +78,23 @@ ht-degree: 7%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>はい </p> </td> 
-   <td colname="col4"> <p>会社へのハンドル。 </p> </td> 
+   <td colname="col4"> <p>会社のハンドルです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> フィルター </span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> フィルター</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>検索条件の定義に役立つフィルター。 </p> <p><a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a> を参照してください。 </p> </td> 
+   <td colname="col4"> <p>検索条件の定義に役立つフィルター。 </p> <p><a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> タイプ：MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>検索条件を定義する条件。 詳しくは、以下を参照してください。 </p> </td> 
+   <td colname="col4"> <p>検索条件を定義する条件。 詳細については、以下を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> タイプ：StringArray</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
    <td colname="col4"> <p>アセットの概要の応答に入力する追加フィールド。 フィールドは、正規化された形式で指定する必要があります。 </p> </td> 
   </tr> 
@@ -97,25 +102,25 @@ ht-degree: 7%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>応答によって返されるアセットの数。 デフォルト値は 1000 です。 </p> </td> 
+   <td colname="col4"> <p>応答によって返されるアセットの数。 デフォルト値は1000です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">件の結果ページ </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>recordsPerPage<span class="codeph"> ページのサイズに基づいて、返す結果 </span> ページを指定します。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> recordsPerPage</span> ページサイズに基づいて、返す結果のページを指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>選択したアセットフィールドで並べ替えます。 </p> </td> 
+   <td colname="col4"> <p>選択したアセットフィールドで並べ替え。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>いいえ </p> </td> 
-   <td colname="col4"> <p>並べ替え方向の選択。 デフォルトは昇順です。 </p> </td> 
+   <td colname="col4"> <p>ソート方向の選択。 昇順がデフォルトです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,14 +129,14 @@ ht-degree: 7%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| totalRows | `xsd:int` | いいえ | 一致する数。 |
+| totalRows | `xsd:int` | いいえ | マッチの数。 |
 | assetArray | `types:AssetArray` | いいえ | 検索によって返されるアセットの配列。 |
 
-## metadataConditionArray の詳細 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## metadataConditionArray詳細 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
-**アイテム構造**
+**項目構造**
 
-構造 `metadataConditionArray` 次のとおりです。
+`metadataConditionArray`の構造は次のとおりです。
 
 ```java
 <ns1:items>
@@ -143,9 +148,9 @@ ht-degree: 7%
 
 **値**
 
-`field_handle` はメタデータ検索キーです。 ドット表記を含めることができます。 使用可能な値は次のとおりです。
+`field_handle`はメタデータ検索キーです。 ドット表記法を含めることができます。 次の値を使用できます。
 
-* `asset_id` （プレフィックスなし）
+* `asset_id` （接頭辞なし）
 * `name`
 * `folder_path`
 * `type`
@@ -156,13 +161,13 @@ ht-degree: 7%
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` （`modified_at` と同じ（記載日：2014 年 7 月 25 日金 22:13:45 GMT-0500 （CDT））
+* `created_at` （`modified_at`と同じ（フォームの日付：2014年7月25日（金） 22:13:45 GMT-0500 （CDT）））
 
 * `created_by`
 
-**許可される演算子**
+**許可された演算子**
 
-[!DNL operator] では、値の比較方法と以下を定義します。
+[!DNL operator]は、値を比較する方法を定義し、次を含みます。
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +176,15 @@ ht-degree: 7%
 * `StartsWith`
 * `EndsWith`
 
-`comparison_value` は検索する用語です。
+`comparison_value`は検索する用語です。
 
 ## 例 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
-このコードサンプルでは、次のメタデータ条件で検索を実行します。
+このコードサンプルでは、次のメタデータ条件を使用して検索を実行します。
 
-* フィ `name` ルドに `1000801` が含まれています。
+* `name` フィールドに`1000801`が含まれています。
 
-* `dc.rights` フィールドは `Per Jessen Schmidt` と等しくなります。
+* `dc.rights` フィールドが`Per Jessen Schmidt`に等しい。
 
 **リクエスト**
 

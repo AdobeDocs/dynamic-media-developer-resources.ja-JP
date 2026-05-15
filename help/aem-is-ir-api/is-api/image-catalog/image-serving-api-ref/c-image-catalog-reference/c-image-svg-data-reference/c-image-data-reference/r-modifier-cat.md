@@ -1,30 +1,34 @@
 ---
-description: プリフィックス リクエスト修飾子の文字列。 「&」文字で区切られた画像サービングコマンドがない、または複数の画像サービングコマンドがない。
+description: 接頭辞リクエスト修飾子文字列。 「&」文字で区切られた画像サービングコマンドはありません。
 solution: Experience Manager
 title: 修飾子
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/b1j5WmY-PNOt1zW9qglJob5W8csmI3TidhDwoHK3kCM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: 100
 ht-degree: 7%
 
 ---
 
 # 修飾子{#modifier}
 
-プリフィックス リクエスト修飾子の文字列。 「&amp;」文字で区切られた画像サービングコマンドがない、または複数の画像サービングコマンドがない。
+接頭辞リクエスト修飾子文字列。 「&amp;」文字で区切られた画像サービングコマンドはありません。
 
 画像を永続的に変更し、テンプレートの本文を保存するために使用します。
 
-このフィールドのコマンドは、このレコードが参照されるリクエストまたはテンプレートの同じコマンドおよび `catalog::PostModifier` のコマンドによって上書きされます
+このフィールドのコマンドは、このレコードが参照されるリクエストまたはテンプレート内の同じコマンドと、`catalog::PostModifier`内のコマンドによって上書きされます
 
-マクロは、同じカタログまたはデフォルトのカタログで定義されている限り、`catalog::Modifier` で使用できます。 カスタム変数も使用できます。
+マクロは、同じカタログまたはデフォルトのカタログで定義されている限り、`catalog::Modifier`で許可されます。 カスタム変数も使用できます。
 
 ## プロパティ {#section-6674388f77d644469371a17e8809c45f}
 
-テキスト文字列 オプション。
+テキスト文字列。 オプション。
 
 ## 初期設定 {#section-f4ffe8b75792435c8b1040e75c5fb8a1}
 

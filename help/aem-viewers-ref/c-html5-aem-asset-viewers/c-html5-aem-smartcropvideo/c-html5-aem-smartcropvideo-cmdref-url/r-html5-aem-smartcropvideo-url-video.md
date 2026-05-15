@@ -1,21 +1,25 @@
 ---
 title: ビデオ
-description: スマート切り抜きビデオビューアの URL コマンド。
+description: スマート切り抜きビデオビューアのURL コマンド。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/xw2nKcFzwA-mQRPY1KusazT0vC5pr-hLH1N5dyGKgys'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: 57
+ht-degree: 10%
 
 ---
 
 # ビデオ{#video}
 
-スマート切り抜きビデオビューアの URL コマンド。
+スマート切り抜きビデオビューアのURL コマンド。
 
 ` video= *`videoURL`*`
 
@@ -23,14 +27,14 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部ビデオの絶対 URL。 </p> </td> 
+   <td colname="col2"> <p> 外部ビデオへの絶対URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#section-f42369774e2740dcb399626a0e4e930e}
 
-必須。 （パラメーター `asset` 使用していない場合）。 [ 外部ビデオのサポート ] を参照してください。
+必須。 （`asset` パラメーターが使用されていない限り。 [外部ビデオ サポートを参照してください]
 （../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3）。）
 
 ## 初期設定 {#section-d016470e92a74f98a18c4ab3489410a5}

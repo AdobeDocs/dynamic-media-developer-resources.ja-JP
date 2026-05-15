@@ -1,26 +1,30 @@
 ---
-description: ビネットの新しい公開形式を作成します。
+description: 周辺光量補正の新しい公開形式を作成します。
 solution: Experience Manager
 title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/7oPPVCLGAntgI4uJXmpUJjKiOIDIKGiVRjdIvXWxVDo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 520
 ht-degree: 4%
 
 ---
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
-ビネットの新しい公開形式を作成します。
+周辺光量補正の新しい公開形式を作成します。
 
-ビネット形式は、公開するビネットとそのサムネールのサイズ、ズームレベル、シャープニングパラメーター、IPS から画像レンダリングサーバーに公開したプライマリビネットから生成されるビネットのファイルフォーマットバージョンを指定します。
+周辺光量補正フォーマットは、公開された周辺光量補正とそのサムネールのサイズ、ズームレベル、シャープニングパラメーター、およびIPSから画像レンダリングサーバーに公開された主要な周辺光量補正から生成された周辺光量補正のファイルフォーマットバージョンを指定します。
 
-新しいバージョンの Image Rendering Server では、ピラミッド ビネットをサポートできるため、公開用に特定のビネット形式サイズを定義する必要がなくなります。
+新しいバージョンの画像レンダリング サーバーでは、ピラミッドビネットをサポートできるため、公開用に特定のビネット形式サイズを定義する必要がありません。
 
-## 許可されているユーザータイプ {#section-f5c563e3695c4dba8df41e2a965aace7}
+## 承認済みユーザータイプ {#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -45,73 +49,73 @@ ht-degree: 4%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> ビネットが所属する会社のハンドル。 </td> 
+   <td colname="col4"> ビネットが属する会社に対応します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> の名前 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
    <td colname="col4"> ビネット公開形式を識別する名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> <p>生成されるビネットビューのターゲット幅をピクセル単位で指定します。 </p> <p>出力ビネットがプライマリ ビネットと同じサイズになるように、ゼロを使用します。 </p> </td> 
+   <td colname="col4"> <p>結果の周辺光量補正ビューのターゲット幅をピクセル単位で指定します。 </p> <p>出力ビネットがプライマリビネットと同じサイズになるように、ゼロを使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> イメージ レンダリング サーバでズーム用に最適化されたピラミッド ビネットを作成します。 [ ターゲット ビネット サイズ ] フィールドで設定した最大サイズから始めて、1 つのビネット出力ファイルに複数のサイズ ビューを作成します。 その後の各表示サイズは、幅と高さが 128 x 128 ピクセル以内になるまで半分になります。 </td> 
+   <td colname="col4"> 画像レンダリングサーバーでのズーム用に最適化されたピラミッドの周辺光量補正を作成します。 「ターゲット周辺光量補正サイズ」フィールドで設定された最大サイズから開始すると、単一の周辺光量出力ファイルに複数のサイズ表示が作成されます。 後続の各ビューサイズは、幅と高さが128 x 128 ピクセル以内になるまで半分になります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 生成される各サムネールの幅をピクセル単位で指定します。 この設定はオプションです。 サムネールファイルがない場合は 0 のままにします。 </td> 
+   <td colname="col4"> 作成される各サムネールの幅をピクセル単位で指定します。 この設定はオプションです。 サムネールファイルがない場合は0のままにします。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 公開するビネットのファイル形式を指定します。 新しいバージョンの画像オーサリングと古いバージョンの画像レンダリングサーバーを指定する場合、ImageRendering サーバーが読み取れるビネットバージョンを指定する必要があります。 新しいバージョンを指定すると、イメージ レンダリング サーバは公開されたビネットを読み取ることができません。 最新バージョンでビネットを公開するには、ゼロに設定します。 </td> 
+   <td colname="col4"> パブリッシュしたビネットのファイル形式を指定します。 新しいバージョンの画像オーサリングと古いバージョンの画像レンダリングサーバーでは、ImageRendering Serverが読み取れる周辺光量補正バージョンを指定する必要があります。 より高いバージョンを指定した場合、画像レンダリングサーバーは公開されたビネットを読み取ることができません。 最新バージョンでビネットを公開するには、0に設定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> ビネット名と、その幅を示すサフィックスを区切る文字を指定します。 </td> 
+   <td colname="col4"> ビネット名とその幅を示す接尾辞を区切る文字を指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> ビネット名と、その幅を示すサフィックスを区切る文字を指定します。 </td> 
+   <td colname="col4"> ビネット名とその幅を示す接尾辞を区切る文字を指定します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sharpen</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> シャープ </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> いいえ </td> 
-   <td colname="col4"> 各パブリッシュビネットサイズのメインビュー画像にシャープニングを適用しますシャープニングは、ビネットサイズの拡大時のぼかしを補うことができます。 </td> 
+   <td colname="col4"> 明るいビネットサイズごとにメインビュー画像にシャープを適用します。シャープを適用すると、ビネッタが拡大・縮小されたときにぼやけを補正できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> デジタルアンシャープマスクは、特にスキャンされた画像のシャープネスを高める柔軟かつ強力な方法です。 これは、各オーバーシュートの大きさ（エッジの境界が暗くなり、明るくなるほど）を制御します。 </td> 
+   <td colname="col4"> デジタルアンシャープマスクは、特にスキャンした画像でシャープを増やすための柔軟で強力な方法です。 これにより、各オーバーシュートの大きさ（エッジの境界線がどれだけ暗く、明るくなるか）が制御されます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> 拡張するエッジのサイズやエッジのリムの幅に影響を与えるため、ラジウムを小さくすると、スケールの小さいディテールが強調されます。 半径の値を大きくすると、エッジにハローが発生する場合があります。 細かいディテールには、同じサイズの小さなディテールが失われたり、半径よりも小さなディテールが失われたりするため、半径を小さくする必要があります。 </td> 
+   <td colname="col4"> 強化するエッジのサイズやエッジ リムの幅に影響を与えるため、小さいラジウムは小さいスケールのディテールを強調します。 半径の値を大きくすると、エッジでハローが発生する可能性があります。 同じサイズの小さいディテールや、半径よりも小さいディテールが失われるので、細かいディテールには半径を小さくする必要があります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> のコードフレーズ </span> </td> 
+   <td colname="col2"> <span class="codeph"> コードフレーズ </span> </td> 
    <td colname="col3"> はい </td> 
-   <td colname="col4"> シャープにする輝度の変化の最小値や、隣接する階調値の間隔を、フィルターが機能する前に制御します。 この設定を使用すると、より繊細なエッジを残しながら、より多くの発音されたエッジをシャープにすることができます。 しきい値の許容範囲は 0 ～ 255 です。 </td> 
+   <td colname="col4"> シャープにする最小の明るさの変化や、フィルターを使用する前に隣接する階調値をどの程度離す必要があるかを制御します。 この設定を使用すると、より繊細なエッジを残したまま、より目立つエッジをシャープにすることができます。 しきい値の許容範囲は0 ～ 255です。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,7 +124,7 @@ ht-degree: 4%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| vignetteFormatHandle | `xsd:string` | はい | 作成されたビネット形式へのハンドル。 |
+| vignetteFormatHandle | `xsd:string` | はい | 作成したビネット形式へのハンドル。 |
 
 ## 例 {#section-0564752d439642b9bb8de2903db6de1e}
 

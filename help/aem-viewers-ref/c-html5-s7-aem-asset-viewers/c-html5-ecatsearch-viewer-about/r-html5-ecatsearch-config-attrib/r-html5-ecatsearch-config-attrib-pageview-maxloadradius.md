@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/sknjvd6z4eMeDsDiUTdPT8KjOBdYEWEahgp9bbyq8V4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: 71
 ht-degree: 4%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph">-1 に設定すると </span> コンポーネントはアイドル状態であるときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0 に設定すると </span> コンポーネントは表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> を設定して、現在表示されているフレームの周囲の非表示フレームのうち、アイドル状態でプリロードされるフレームの数を定義します。 </p> </td> 
+   <td colname="col2"> <p>コンポーネントのプリロード動作を指定します。 </p> <p><span class="codeph"> -1</span>に設定すると、コンポーネントは、アイドル状態にあるときにすべてのカタログフレームをプリロードします。 </p> <p> <span class="codeph"> 0</span>に設定すると、コンポーネントは、表示されているフレーム、前のフレーム、次のフレームのみを読み込みます。 </p> <p>現在表示されているフレームの周囲にある非表示フレームがアイドル状態でプリロードされる数を定義するには、<span class="codeph"><span class="varname"> preloadnbr</span></span>を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

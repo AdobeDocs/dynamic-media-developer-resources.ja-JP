@@ -6,10 +6,14 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 8c86d721-e1c9-4114-9896-e2dd134fb625
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/jVCp-AvCZPMSCN3-O4X8qANmgPhMilOWmOy5RTTFel4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 10%
+source-wordcount: 30
+ht-degree: 16%
 
 ---
 
@@ -23,7 +27,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）の表示を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）表示を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,26 +1,30 @@
 ---
-title: メインビューア領域
-description: メイン表示領域は、カルーセルバナー画像が占める領域です。 サイズが指定されていない場合、使用可能なデバイス画面に合わせて設定されます。
+title: メインのビューアエリア
+description: メインビュー領域は、カルーセルバナー画像が占める領域です。 サイズが指定されていない場合は、使用可能なデバイス画面に合わせて設定されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/8YpKf5bnuUNv0YBo-3CkbHozBRlKFRij5qsCHl-FNLU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: 121
 ht-degree: 0%
 
 ---
 
-# メインビューア領域{#main-viewer-area}
+# メインのビューアエリア{#main-viewer-area}
 
-メイン表示領域は、カルーセルバナー画像が占める領域です。 サイズが指定されていない場合、使用可能なデバイス画面に合わせて設定されます。
+メインビュー領域は、カルーセルバナー画像が占める領域です。 サイズが指定されていない場合は、使用可能なデバイス画面に合わせて設定されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-表示領域の外観は、次の CSS クラスセレクターで制御します。
+表示領域の外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7carouselviewer
@@ -35,21 +39,21 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>ビューアの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>ビューアの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 背景色（16 進数形式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – 白い背景（`#FFFFFF`）を持つビューアを設定し、そのサイズを 1174 x 500 ピクセルにする
+例 – 白い背景（`#FFFFFF`）のビューアを設定し、そのサイズを1174 x 500 ピクセルにします。
 
 ```
 .s7carouselviewer { 

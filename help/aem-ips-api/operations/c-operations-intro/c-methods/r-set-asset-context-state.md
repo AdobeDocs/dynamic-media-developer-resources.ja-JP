@@ -1,22 +1,26 @@
 ---
-description: 1 つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
+description: 1つ以上のアセットの公開状態を設定または更新します。 企業内の公開コンテキストごとに個別の公開状態を設定できます。
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/LsDeZJcp7GgHps7vk92dwewGYGhmYcajANe4mq3rVLw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 158
 ht-degree: 9%
 
 ---
 
 # setAssetsContextState{#setassetscontextstate}
 
-1 つ以上のアセットの公開状態を設定または更新します。 会社内の公開コンテキストごとに個別の公開状態を設定できます。
+1つ以上のアセットの公開状態を設定または更新します。 企業内の公開コンテキストごとに個別の公開状態を設定できます。
 
-## 許可されているユーザータイプ {#section-815eb031f85143278c1560c18c5e3431}
+## 承認済みユーザータイプ {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,21 +42,21 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社に渡す。 |
-| assetsContextHandle | `types:AssetsContextStateUpdateArray` | はい | アセットとその新しい公開状態の配列。 |
+| companyHandle | `xsd:string` | はい | 会社への取り扱い。 |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | はい | アセットの配列と新しい公開状態。 |
 
 **出力（setAssetsContexStateReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| successCount | `xsd:int` | はい | アセット数が正常に変更されました。 |
-| warningCount | `xsd:int` | はい | 操作でアセットを変更しようとしたときに生成された警告の数。 |
-| errorCount | `xsd:int` | はい | 操作でアセットを変更しようとしたときに生成されたエラーの数。 |
+| successCount | `xsd:int` | はい | 正常に変更されたアセットの数。 |
+| warningCount | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成された警告の数です。 |
+| errorCount | `xsd:int` | はい | 操作がアセットを変更しようとしたときに生成されたエラーの数。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | いいえ | 操作がアセットを変更しようとしたときにアセットによって生成されたエラーの配列。 |
 
 ## 例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-次のコードのサンプルでは、`NotMarkedForPublish` を使用してアセットの公開状態を設定します。
+このコードサンプルでは、`NotMarkedForPublish`を使用してアセットの公開状態を設定します。
 
 **リクエスト**
 

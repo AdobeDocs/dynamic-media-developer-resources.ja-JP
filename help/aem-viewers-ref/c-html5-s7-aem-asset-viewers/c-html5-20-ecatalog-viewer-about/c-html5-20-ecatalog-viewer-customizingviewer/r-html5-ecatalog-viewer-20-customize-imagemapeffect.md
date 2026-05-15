@@ -1,26 +1,30 @@
 ---
 title: 画像マップエフェクト
-description: mode パラメーターの値に応じて、ビューアは画像マップアイコンをDynamic Media Classicでマップが最初に作成された場所のメインビューに表示します。 または、元の画像マップの形状に一致する正確な領域をレンダリングします。
+description: モードパラメーターの値に応じて、ビューアは、Dynamic Media Classicでマップが最初に作成された場所に、メインビュー上に画像マップアイコンを表示します。 または、元の画像マップの形状に一致する正確な領域をレンダリングします。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+TQID: 'https://experienceleague.adobe.com/22IBldFsXMEvCAZqbxHyK7yj9txKoiqzewsJ3fB0NoM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
 
 # 画像マップエフェクト{#image-map-effect}
 
-mode パラメーターの値に応じて、ビューアは画像マップアイコンをDynamic Media Classicでマップが最初に作成された場所のメインビューに表示します。 または、元の画像マップの形状に一致する正確な領域をレンダリングします。
+モードパラメーターの値に応じて、ビューアは、Dynamic Media Classicでマップが最初に作成された場所に、メインビュー上に画像マップアイコンを表示します。 または、元の画像マップの形状に一致する正確な領域をレンダリングします。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-画像マップアイコンの外観は、次の CSS クラスセレクターで制御します。
+画像マップアイコンの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon
@@ -28,7 +32,7 @@ mode パラメーターの値に応じて、ビューアは画像マップアイ
 
 >[!NOTE]
 >
->過去に画像マップアイコンのスタイル設定に使用されていた `s7mapoverlay` CSS クラスは非推奨（廃止予定）になりました。代わりに `s7icon` を使用します。
+>過去に画像マップアイコンのスタイル設定に使用されていた`s7mapoverlay` CSS クラスは現在では非推奨です。代わりに`s7icon`を使用してください。
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,29 +43,29 @@ mode パラメーターの値に応じて、ビューアは画像マップアイ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>画像マップ アイコン アートワーク。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景画像</span> </p> </td> 
+   <td colname="col2"> <p>画像マップアイコンアートワーク。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS スプライトを使用する場合、アートワークスプライト内に配置します。 </p> <p>CSS スプライト <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> ール </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p> CSS スプライトを使用する場合は、アートワークスプライト内に配置します。 </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS スプライト </a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
    <td colname="col2"> <p>画像マップアイコンの幅（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>画像マップアイコンの高さ（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>画像マップ アイコンの高さ（ピクセル単位）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->画像マップアイコンは、`state` 属性セレクターをサポートしています。このセレクターを使用して、`default` と `active` のアイコン状態に異なるスキンを適用できます。
+>画像マップアイコンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、様々なスキンを`default`と`active`のアイコン状態に適用できます。
 
-例 – 28 x 28 ピクセルの画像マップアイコンを設定します。このアイコンは、2 つの異なるアイコン状態のそれぞれに異なる画像を表示します。
+例 – 28 x 28 ピクセルの画像マップアイコンを設定し、2つの異なるアイコンの状態ごとに異なる画像を表示します。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon { 
@@ -77,9 +81,9 @@ opacity: 1;
 }
 ```
 
-[&#x200B; 画像マップのサポート &#x200B;](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a) も参照してください。
+[画像マップのサポート ](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a)も参照してください。
 
-画像マップ領域の外観は、次の CSS クラスセレクターで制御します。
+画像マップ領域のアピアランスは、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region
@@ -94,21 +98,21 @@ opacity: 1;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）形式で指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしカラー。 </p> <p>#RRGGBB、RGB（R,G,B）またはRGBA （R,G,B,A）フォーマットで指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の塗りつぶしの色。 </p> <p>#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）形式で指定します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の塗りつぶしカラー。 </p> <p>#RRGGBB、RGB（R,G,B）またはRGBA （R,G,B,A）フォーマットで指定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 境界線 </span> </p> </td> 
-   <td colname="col2"> <p> 画像マップ領域の境界線のスタイル。 </p> <p><span class="codeph"> <span class="varname"> 幅 </span> 単色 <span class="varname"> 色 </span></span> と指定します。<span class="codeph"> <span class="varname"> 幅 </span></span> はピクセル単位で表され、<span class="codeph"> <span class="varname"> 色 </span></span> は#RRGGBB、RGB（R,G,B）または RGBA （R,G,B,A）に設定されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">境界線</span> </p> </td> 
+   <td colname="col2"> <p> 画像マップ領域の境界線スタイル。 </p> <p><span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span>として指定されます。ここで、<span class="codeph"> <span class="varname"> width </span> </span>はピクセルで表され、<span class="codeph"> <span class="varname"> color </span> </span>は#RRGGBB、RGB（R,G,B）またはRGBA （R,G,B,A）として設定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – ピクセルの黒い境界線を持つ透明画像マップ領域 `1` 設定する
+例 – `1` ピクセルの黒い境界線を持つ透明な画像マップ領域を設定します。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 

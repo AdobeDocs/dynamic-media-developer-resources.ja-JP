@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 0495aaa5-7c5e-4f56-a96c-80ebc5de3aec
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/w2yyOgDQjM9cdWOn7v38QYsab-nQqAeMkxRXQAp7rvg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 10%
+source-wordcount: 28
+ht-degree: 17%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）の表示を有効または無効にします。 </p> </td> 
+   <td colname="col2"> <p> バッファリングアニメーション（待機アイコン）表示を有効または無効にします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

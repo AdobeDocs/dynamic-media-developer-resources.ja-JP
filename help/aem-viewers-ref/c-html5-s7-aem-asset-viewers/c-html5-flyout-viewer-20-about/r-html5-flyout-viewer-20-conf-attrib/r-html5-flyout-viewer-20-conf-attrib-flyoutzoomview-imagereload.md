@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 483fa64b-5196-4477-8ea6-0f32c6557f72
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/nkYQwtTb1AUBLBbnN2HwMZLIjyolj5l-6CxEy-yEo3k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: 120
+ht-degree: 4%
 
 ---
 
@@ -20,11 +24,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> サイズ変更時にコンポーネントがメインおよびフライアウトビュー用の新しい画像を取得する方法を設定します。 </p> <p><span class="codeph"> 0 </span> に設定すると、コンポーネントはサイズ変更時に新しい画像を読み込みません。フライアウトビューの画像の解像度は変更されません。 </p> <p><span class="codeph"> 1 </span> に設定すると、メインビューに読み込む画像の幅のブレークポイントを 1 つ以上指定できます。 </p> </td> 
+   <td colname="col2"> <p> サイズ変更時に、コンポーネントがメインビューとフライアウトビューの新しい画像を取得する方法を設定します。 </p> <p><span class="codeph"> 0 </span>に設定した場合、コンポーネントはサイズ変更時に新しい画像を読み込みません。フライアウトビューの画像解像度は変更されません。 </p> <p><span class="codeph"> 1 </span>に設定すると、メインビューに読み込まれる画像の1つ以上の幅ブレークポイントを指定できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ブレークポイント、<span class="varname"> 幅 </span>[; <span class="varname"> 幅 </span>] </span> </p> </td> 
-   <td colname="col2"> <p> メインビューに読み込まれる画像の幅のブレークポイント。 このコンポーネントは、初期負荷に最適なサイズを常に使用します。 サイズ変更後、メインビューの画像は常に最も近い大きいブレークポイントに等しい幅でダウンロードされ、クライアント上で縮小されます。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ブレークポイント、<span class="varname">幅</span>[; <span class="varname">幅</span>] </span> </p> </td> 
+   <td colname="col2"> <p> メインビューに読み込まれる画像の幅ブレークポイント。 コンポーネントは常に初期負荷に最適なサイズを使用します。 サイズ変更後は、メインビュー内の画像が、最も大きなブレークポイントに等しい幅で常にダウンロードされ、クライアント上でダウンスケールされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

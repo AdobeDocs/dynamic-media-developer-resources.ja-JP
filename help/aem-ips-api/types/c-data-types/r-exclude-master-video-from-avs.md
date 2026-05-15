@@ -1,12 +1,16 @@
 ---
 title: ExcludeMasterVideoFromAVS
-description: プライマリビデオをアダプティブビデオセットから除外します。
+description: アダプティブビデオセットからプライマリビデオを除外します。
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+autotag-review: '2026-05-13T22:20:01.998Z'
+TQID: 'https://experienceleague.adobe.com/PbBix9CqLIU1x1aN1OgSEc6uy0d7p6n5YadU3XkweIE'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 55
 ht-degree: 7%
 
 ---
@@ -15,9 +19,9 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Adobeは、`ExcludeMasterVideoFromAVS` パラメーターのサポートを 2022 年 9 月 1 日（PT）に終了します。 [&#x200B; 非推奨の呼び出し &#x200B;](/help/aem-ips-api/c-deprecated-calls.md) も参照してください。
+>Adobeでは、`ExcludeMasterVideoFromAVS` パラメーターのサポートを2022年9月1日（PT）に終了します。 [非推奨の呼び出し](/help/aem-ips-api/c-deprecated-calls.md)も参照してください。
 
-プライマリビデオをアダプティブビデオセットから除外します。
+アダプティブビデオセットからプライマリビデオを除外します。
 
 <!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
@@ -37,7 +41,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>プライマリビデオファイルをアダプティブビデオセットから除外します。 </p> <p>デフォルトは true です。 </p> </td> 
+   <td colname="col3"> <p>アダプティブビデオセットからプライマリビデオファイルを除外します。 </p> <p>デフォルトはtrueです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

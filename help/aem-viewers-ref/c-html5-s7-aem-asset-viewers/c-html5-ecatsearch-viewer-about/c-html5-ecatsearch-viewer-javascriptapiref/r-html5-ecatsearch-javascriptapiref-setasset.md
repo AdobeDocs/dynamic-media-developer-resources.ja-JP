@@ -1,61 +1,65 @@
 ---
-description: ビデオビューア用のJavaScript API リファレンス。
+description: ビデオビューア用JavaScript API リファレンス。
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/lwSvqbGdXYM1txYvK2of-67envHzyEs4UMsnVmkPKj8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 117
 ht-degree: 1%
 
 ---
 
 # setAsset{#setasset}
 
-ビデオビューア用のJavaScript API リファレンス。
+ビデオビューア用JavaScript API リファレンス。
 
-[!DNL ` setAsset( *`asset`*)`]
+[!DNL ` setAsset( *` アセット `*)`]
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} 新しいアセット ID またはオプションの画像サービング修飾子が <span class="codeph">？の後に追加された明示的な画像セット</span>。 </p> <p> IR （画像レンダリング）または UGC （ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> アセット </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>}新しいアセット IDまたはオプションの画像サービング修飾子が<span class="codeph">の後に追加された明示的な画像セット？</span>. </p> <p> IR （画像レンダリング）またはUGC （ユーザー生成コンテンツ）を使用する画像は、このビューアではサポートされていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-新しいアセットを設定します。 このパラメーターは、[!DNL `init()`] の前または後であればいつでも呼び出すことができます。 [!DNL `init()`] 後に呼び出された場合、ビューアは実行時にアセットをスワップします。
+新しいアセットを設定します。 このパラメーターは、[!DNL `init()`]の前または後に、いつでも呼び出すことができます。 [!DNL `init()`]の後に呼び出された場合、ビューアは実行時にアセットを入れ替えます。
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b) も参照してください。
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)も参照してください。
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 
 ## 例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-カタログで定義される画像セットへの単一の参照：
+カタログで定義されている画像セットへの単一参照：
 
 ```
  <instance>.setAsset("Viewers/Pluralist")
 ```
 
-事前組み合わせページを使用した明示的画像セット：
+明示的な画像セット、事前組み合わせページ：
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-個々のページ画像を含む明示的画像セット：
+個々のページ画像を含む明示的な画像セット：
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")
 ```
 
-セット内のすべての画像に追加されたシャープニング修飾子：
+シャープ修飾子がセット内のすべての画像に追加されました。
 
 ```
  <instance>.setAsset("Viewers/Pluralist?op_sharpen=1")

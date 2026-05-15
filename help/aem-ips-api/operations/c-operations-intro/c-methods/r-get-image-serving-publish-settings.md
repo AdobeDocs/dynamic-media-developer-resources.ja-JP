@@ -1,24 +1,28 @@
 ---
-description: 内部のみで使用します。 ユーザーは、画像サービング画像カタログの参照 – 属性の参照の節を参照してください。
+description: 内部使用のみ。 ユーザーは、「画像サービング画像カタログ参照 – 属性参照」セクションを参照する必要があります。
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/-VBxIs4EWFDesksSnU-DpN2pg-LJUN60OPhqjQVqAr8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 80
 ht-degree: 15%
 
 ---
 
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-内部のみで使用します。 ユーザーは、画像サービング画像カタログの参照 – 属性の参照の節を参照してください。
+内部使用のみ。 ユーザーは、「画像サービング画像カタログ参照 – 属性参照」セクションを参照する必要があります。
 
 構文
 
-## 許可されているユーザータイプ {#section-49b7b277ba1748499121a0e90996458c}
+## 承認済みユーザータイプ {#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,11 +35,11 @@ ht-degree: 15%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 画像サービング公開設定を含む会社へのハンドル。 |
-| contextHandle | `xsd:string` | はい | 公開コンテキストへのハンドル。 |
+| companyHandle | `xsd:string` | はい | 画像サービングのパブリッシュ設定を持つ会社へのハンドル。 |
+| contextHandle | `xsd:string` | はい | 公開コンテキストに対応します。 |
 
 **出力**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| publishSettingArray | `xsd:string` | はい | image server 公開設定の配列。 |
+| publishSettingArray | `xsd:string` | はい | イメージサーバーのパブリッシュ設定の配列。 |

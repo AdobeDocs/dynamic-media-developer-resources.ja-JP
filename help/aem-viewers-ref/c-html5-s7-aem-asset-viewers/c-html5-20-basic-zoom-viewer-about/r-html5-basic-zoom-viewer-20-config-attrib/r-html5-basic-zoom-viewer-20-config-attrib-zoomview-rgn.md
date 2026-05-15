@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+TQID: 'https://experienceleague.adobe.com/K6JD4gj-B0XFZ0-xbaCpDURX--brDSRMtu-gqp-59oM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: 35
 ht-degree: 11%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> ピクセル座標の対象となる初期領域。 これらの値が指定されていない場合、イメージ全体が初期ビューポート内にフィットします。 </p> </td> 
+   <td colname="col2"> <p> ピクセル座標の初期関心領域。 これらの値を指定しない場合、画像全体が初期ビューポート内に収まります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

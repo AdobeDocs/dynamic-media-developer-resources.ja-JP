@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 47fbfd39-a1f4-4deb-b064-306ca9fd3ae7
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/pmk-zfeQG8dg3WHd8Co1sWnSAsMOehEUnuLj5T1foo8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 3%
 
 ---
@@ -18,9 +22,9 @@ ht-degree: 3%
 
 ` setContainerId( *`containerId`*)`
 
-ビューアが挿入される DOM コンテナの ID （通常は DIV）を設定します。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、`init()` を実行する場合は、コンテナが存在している必要があります。 `init()` る前に呼び出す必要があります。
+ビューアが挿入されるDOM コンテナ（通常はDIV）のIDを設定します。 このメソッドが呼び出されるまでにコンテナ要素を作成する必要はありません。 ただし、`init()`の実行時には、コンテナが存在する必要があります。 `init()`の前に呼び出す必要があります。
 
-ビューア設定情報が `config` の JSON オブジェクトと共にコンストラクターに渡される場合、このメソッドはオプションです。
+ビューア設定情報が`config` JSON オブジェクトとともにコンストラクターに渡される場合、このメソッドはオプションです。
 
 ## パラメータ {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -28,12 +32,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} コンテナ </span>ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> コンテナ ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 戻り値 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返品 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 なし
 

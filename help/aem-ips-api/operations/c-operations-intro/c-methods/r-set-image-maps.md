@@ -5,9 +5,13 @@ title: setImageMaps
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/sOGDO0ruTEK1DS5Sc-4nhLfViddEKCLDLJlpC-8H3g0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: 134
 ht-degree: 9%
 
 ---
@@ -16,9 +20,9 @@ ht-degree: 9%
 
 アセットの画像マップを設定します。
 
-画像マップは作成済みである必要があります。 画像マップは、配列から取得する順に適用されます。 つまり、2 番目の画像マップが 1 番目の画像マップをオーバーレイし、3 番目の画像マップが 2 番目の画像マップをオーバーレイします。
+画像マップは作成済みである必要があります。 画像マップは、配列から取得する順序で適用されます。 これは、2番目の画像マップが1番目の画像をオーバーレイし、3番目の画像が2番目の画像をオーバーレイすることを意味します。
 
-## 許可されているユーザータイプ {#section-adb21c5b679249939dd83816e4a0ee97}
+## 承認済みユーザータイプ {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +37,19 @@ ht-degree: 9%
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | はい | 会社ハンドル。 |
-| assetHandle | `xsd:string` | はい | アセットハンドル。 |
+| companyHandle | `xsd:string` | はい | 会社のハンドル。 |
+| assetHandle | `xsd:string` | はい | アセットのハンドル： |
 | imageMapArray | `types:ImageMapDefinitionArray` | はい | 定義済みの画像マップの配列。 |
 
 **出力（setImageMapsReturn）**
 
 | 名前 | 種類 | 必須 | 説明 |
 |---|---|---|---|
-| imageMapHandleArray | `types:HandleArray` | はい | アセットに適用された画像マップハンドルを含む配列。 |
+| imageMapHandleArray | `types:HandleArray` | はい | 画像マップハンドルがアセットに適用された配列。 |
 
 ## 例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-このコードサンプルでは、画像アセットに対して 2 つの画像マップを設定します。 コードは、イメージ マップが呼び出されたときに実行されるシェイプ タイプ、領域、およびアクションを指定します。 応答には、画像マップへのハンドルを含む配列が含まれています。
+このコードサンプルでは、画像アセットに2つの画像マップを設定します。 このコードは、画像マップの呼び出し時に実行されるシェイプタイプ、領域、およびアクションを指定します。 応答には、画像マップへのハンドルを含む配列が含まれます。
 
 **リクエスト**
 

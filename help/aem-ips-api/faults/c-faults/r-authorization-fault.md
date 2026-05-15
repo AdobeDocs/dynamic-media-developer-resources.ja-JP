@@ -1,20 +1,24 @@
 ---
-description: 認証済みユーザーにタスクを実行するための十分な権限がない場合にスローされます。
+description: 認証済みユーザーがタスクを実行するのに十分な権限を持っていない場合にスローされます。
 solution: Experience Manager
 title: authorizationFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76965735-92d8-46be-b589-67cad3b987dc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/oDM8k3LLSl2AD8i2vtLirkHl9J5pz8PxzgMjKLCl7do'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 54
 ht-degree: 27%
 
 ---
 
 # authorizationFault{#authorizationfault}
 
-認証済みユーザーにタスクを実行するための十分な権限がない場合にスローされます。
+認証済みユーザーがタスクを実行するのに十分な権限を持っていない場合にスローされます。
 
 構文
 
@@ -33,9 +37,9 @@ ht-degree: 27%
 | 20008 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
 | 20009 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
 
-## 障害フィールド {#section-4e3e41f41fea402a9ae314bfd05f663e}
+## フォールトフィールド {#section-4e3e41f41fea402a9ae314bfd05f663e}
 
 | 名前 | 種類 | 説明 |
 |---|---|---|
-| `code` | `xsd:int` | 障害 ID |
-| `reason` | `xsd:string` | エラーを説明する情報メッセージ。 |
+| `code` | `xsd:int` | 障害ID |
+| `reason` | `xsd:string` | 障害を説明する有益なメッセージ。 |

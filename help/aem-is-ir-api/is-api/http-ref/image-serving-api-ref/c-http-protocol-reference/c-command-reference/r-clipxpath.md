@@ -1,20 +1,24 @@
 ---
 title: clipXPath
-description: 反転したレイヤークリップパス。 現在のレイヤの除外クリップ パスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分は、すべて透明にレンダリングされます。
+description: レイヤークリップパスを反転しました。 現在のレイヤーの除外クリップパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの任意の部分が透明になります。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/G8pumLDbSj2TX80gqSTw-Bu4HxlRn92gyFpETIImBWw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 116
 ht-degree: 3%
 
 ---
 
 # clipXPath{#clipxpath}
 
-反転したレイヤークリップパス。 現在のレイヤの除外クリップ パスを指定します。 clipXPath=で定義された領域内にあるレイヤーの部分は、すべて透明にレンダリングされます。
+レイヤークリップパスを反転しました。 現在のレイヤーの除外クリップパスを指定します。 clipXPath=で定義された領域内にあるレイヤーの任意の部分が透明になります。
 
 `clipXPath= *`pathDefinition`*`
 
@@ -23,19 +27,19 @@ ht-degree: 3%
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
-  <td class="stentry"> <p>パスデータ。 </p></td> 
+  <td class="stentry"> <p>パスデータ： </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCII のみ）。 </p></td> 
+  <td class="stentry"> <p>レイヤーソース画像に埋め込まれたパスの名前（ASCIIのみ）。 </p></td> 
  </tr> 
 </table>
 
-[pathName](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) および `*`pathDefinition`*` の説明など、追加情報については、`*`clipPath`*` を参照してください。
+`*`pathName`*`と`*`pathDefinition`*`の説明など、追加情報については、[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)を参照してください。
 
 ## プロパティ {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-レイヤー属性。 現在のレイヤーまたは合成イメージ（`layer=comp` の場合）に適用されます。 `clipPath=` が指定されていない場合、無視されます。 エフェクトレイヤーで無視されます。
+レイヤー属性。 現在のレイヤーまたは`layer=comp`の場合はコンポジット画像に適用されます。 `clipPath=`が指定されていない場合は無視されます。 エフェクトレイヤーでは無視されます。
 
 ## 初期設定 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

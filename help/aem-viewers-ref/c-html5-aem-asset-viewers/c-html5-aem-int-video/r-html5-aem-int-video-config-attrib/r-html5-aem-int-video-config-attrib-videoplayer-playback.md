@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/VnLfO1MI9EIpeoP4fpwMufyy-J2g615LOosZ4hLZlt8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: 110
 ht-degree: 2%
 
 ---
@@ -21,8 +25,8 @@ ht-degree: 2%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> ビューアが使用する再生のタイプを設定します。 </p> <p><span class="codeph"> auto</span> が設定されていると、ほとんどのデスクトップブラウザーとすべてのiOS デバイスで、ビューアはHLS形式のHTML5 ストリーミングビデオを使用します。 また、古い Internet Explorer やAndroid™ などの特定のシステムでは、HTML5 のプログレッシブ再生にフォールバックします。 </p> <p><span class="codeph"> プログレッシブ </span> が設定されている場合、ビューアは、ブラウザーでネイティブにサポートされているHTML5 の再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p>自動モードおよび <span class="codeph"> プログレッシブ </span> ネイティブモードでの再生 <span class="codeph"> 選択範囲について詳しくは </span> HTML5 ビューアのSDK ユーザーガイドを参照してください。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自動|プログレッシブ </span> </p> </td> 
+   <td colname="col2"> <p> ビューアで使用される再生のタイプを設定します。 </p> <p><span class="codeph">自動</span>が設定されている場合、ほとんどのデスクトップブラウザーとすべてのiOS デバイスで、ビューアはHTML5 ストリーミングビデオをHLS形式で使用します。 また、古いInternet ExplorerやAndroid™などの特定のシステムでは、HTML 5のプログレッシブ再生に戻されます。 </p> <p><span class="codeph"> プログレッシブ </span>が設定されている場合、ビューアはブラウザーでネイティブにサポートされているHTML 5の再生のみに依存し、すべてのシステムでビデオをプログレッシブに再生します。 </p> <p><span class="codeph"> auto</span>および<span class="codeph"> progressive</span> ネイティブモードでの再生選択について詳しくは、HTML5 ビューア SDK ユーザーガイドを参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

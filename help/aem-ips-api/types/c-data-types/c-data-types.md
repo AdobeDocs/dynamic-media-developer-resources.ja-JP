@@ -5,9 +5,15 @@ title: データタイプ
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
-source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
+autotag-review: '2026-05-13T21:03:23.689Z'
+TQID: 'https://experienceleague.adobe.com/0pMr5C9eNe2w7EMh4fGUkf-wIvUHFWwljBRy3Ntknkk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 2%
 
 ---
@@ -32,7 +38,7 @@ ht-degree: 2%
 + [AssetMoveArray](r-asset-move-array.md)
 + [AssetOperationFault](r-asset-operation-fault.md)
 + [AssetOperationFaultArray](r-asset-operation-fault-array.md)
-+ [AssetPublishContext](r-asset-publish-context.md)
++ [AssetPublishContexts](r-asset-publish-context.md)
 + [AssetPublishContextArray](r-asset-publish-context-array.md)
 + [AssetSetInfo](r-asset-set-info.md)
 + [AssetSummary](r-asset-summary.md)
@@ -50,21 +56,21 @@ ht-degree: 2%
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
-+ [会社のメンバーシップ](r-company-membership.md)
++ [会社メンバーシップ](r-company-membership.md)
 + [CompanyMembershipArray](r-company-membership-array.md)
 + [CompanyMembershipUpdate](r-company-membership-update.md)
 + [CompanyMembershipUpdateArray](r-company-membership-update-array.md)
 + [CompanyMetadataInfo](r-company-metadata-info.md)
 + [CompanyMetadataInfoArray](r-company-metadata-info-array.md)
 + [CompanySettings](r-company-settings.md)
-+ [ConfigSettings](r-config-setting.md)
++ [ConfigSetting](r-config-setting.md)
 + [ConfigSettingArray](r-config-settings-array.md)
 + [ContextStateUpdate](r-context-state-update.md)
 + [ContextStateUpdateArray](r-context-state-update-array.md)
 + [CreateVideoSitemapJob](r-create-video-sitemap-job.md)
 + [CssInfo](r-cssinfo.md)
 + [CuePointInfo](r-cue-point-info.md)
-+ [ディスク使用量](r-disk-usage.md)
++ [DiskUsage](r-disk-usage.md)
 + [DiskUsageArray](r-disk-usage-array.md)
 + [EmailConfirmation](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
@@ -177,7 +183,7 @@ ht-degree: 2%
 + [ScheduledJob](r-scheduled-job.md)
 + [ScheduledJobArray](r-scheduled-job-array.md)
 + [SearchFilter](r-search-filter.md)
-+ [SearchString](r-search-strings.md)
++ [SearchStrings](r-search-strings.md)
 + [SearchStringsArray](r-search-strings-array.md)
 + [ServerDirectoryPublishJob](r-server-directory-publish-job.md)
 + [SetMetadataFault](r-set-metadata-fault.md)
@@ -199,13 +205,13 @@ ht-degree: 2%
 + [TaskItemProgress](r-task-item-progress.md)
 + [TaskItemProgressArray](r-task-item-progress-array.md)
 + [TaskProgress](r-task-progress.md)
-+ [タスク進行状況配列](r-task-progress-array.md)
++ [TaskProgressArray](r-task-progress-array.md)
 + [TemplateInfo](r-template-info.md)
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [ThumbnailOptions](r-thumbnail-options.md)
 + [UnCompressOptions](r-uncompress-options.md)
-+ [アンシャープマスクオプション](r-unsharp-mask-options.md)
++ [UnsharpMaskOptions](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
 + [UploadPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
@@ -226,7 +232,7 @@ ht-degree: 2%
 + [XmlInfo](r-xml-info.md)
 + [XmpKeywords](r-xmp-keywords.md)
 + [XslInfo](r-xsl-info.md)
-+ [郵便番号](r-zip-entry.md)
++ [ZipEntry](r-zip-entry.md)
 + [ZipEntryArray](r-zip-entry-array.md)
 + [ZipInfo](r-zip-info.md)
 + [ZoomTarget](r-zoom-target.md)

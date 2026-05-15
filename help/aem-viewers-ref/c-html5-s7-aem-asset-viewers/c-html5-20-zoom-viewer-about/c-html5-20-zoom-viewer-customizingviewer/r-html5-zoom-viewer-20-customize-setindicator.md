@@ -1,26 +1,30 @@
 ---
 title: インジケーターを設定
-description: セットインジケーターは、タッチデバイスでビューアを使用したときに、スウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンが使用できない場合に、ユーザーがサムネールのページ間を移動するのに役立ちます。
+description: セットインジケーターは、タッチデバイスでビューアを使用する際に、スウォッチの上に表示される一連のドットです。 スクロール ボタンが使用できない場合は、ドットを使用してサムネールのページ内を移動できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/y4QBgUjYMAh5-FlbA32Zgg0Peve1FcO-qhDxc0Ypv4M'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
 # インジケーターを設定{#set-indicator}
 
-セットインジケーターは、タッチデバイスでビューアを使用したときに、スウォッチの上にレンダリングされる一連のドットです。 ドットは、スクロールボタンが使用できない場合に、ユーザーがサムネールのページ間を移動するのに役立ちます。
+セットインジケーターは、タッチデバイスでビューアを使用する際に、スウォッチの上に表示される一連のドットです。 スクロール ボタンが使用できない場合は、ドットを使用してサムネールのページ内を移動できます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**セットインジケーターの CSS プロパティ**
+セット インジケーターの&#x200B;**CSS プロパティ**
 
-セットインジケーターコンテナの外観は、次の CSS クラスセレクターで制御します。
+Set インジケーターコンテナの外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7zoomviewer .s7setindicator
@@ -35,8 +39,8 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>設定されたインジケーターの 16 進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>セットインジケーターの16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +53,7 @@ ht-degree: 0%
 }
 ```
 
-個々のセットインジケータードットの外観は、CSS クラスセレクターで制御します。
+個々のセットインジケーターのドットの表示は、CSS クラスセレクターで制御されます。
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -62,12 +66,12 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幅 </span> </p> </td> 
-   <td colname="col2"> <p>設定されたインジケータードットの幅。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">幅</span> </p> </td> 
+   <td colname="col2"> <p>セットインジケーターのドットの幅。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
-   <td colname="col2"> <p>設定されたインジケータードットの高さ。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
+   <td colname="col2"> <p>セットインジケーターのドットの高さ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
@@ -75,11 +79,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
-   <td colname="col2"> <p>上マージン （ピクセル単位）。 </p> </td> 
+   <td colname="col2"> <p>上余白（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
-   <td colname="col2"> <p>右余白（ピクセル単位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右余白</span> </p> </td> 
+   <td colname="col2"> <p>右マージン（ピクセル単位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
@@ -87,20 +91,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>境界線の半径（ピクセル単位）。 </p> </td> 
+   <td colname="col2"> <p>境界線の半径（ピクセル単位） </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>背景色（16 進数形式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->セットインジケータードットは、`state` 属性セレクターをサポートしており、異なるサムネール状態に異なるスキンを適用するために使用できます。 特に、`state="selected"` は現在のサムネールのページに対応 `state="unselected"`、デフォルトのドット状態に対応します。
+>Set indicator dotは`state`属性セレクターをサポートしており、異なるサムネール状態に異なるスキンを適用するために使用できます。 特に、`state="selected"`はサムネールの現在のページに対応し、`state="unselected"`はデフォルトのドット状態に対応します。
 
-例 – セットインジケーターのドットを 15 x 15 ピクセルに設定し、水平方向の余白 2 ピクセル、上部の余白 5 ピクセル、下部の余白 1 ピクセル、半径 12 ピクセル、デフォルトの色#D5D3D3 アクティブな色#939393 使用するには：
+例 – 2 ピクセルの水平余白、5 ピクセルの上余白、1 ピクセルの下余白、12 ピクセルの半径、デフォルトのカラー、およびアクティブなカラーを使用して、15 x 15 ピクセル#D5D3D3設定するインジケータードット#939393作成します。
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

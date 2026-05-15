@@ -1,17 +1,21 @@
 ---
 title: プロパティ
-description: 複数の高度なレンダリング効果を使用できます。
+description: いくつかの高度なレンダリングエフェクトを利用できます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5beec3e4-3923-4192-9b3b-6ba55314ea3c
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/vBV5hTUGUOhclV69E9DvTmuId54do0NJXZ7TBUac3qM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '16'
+source-wordcount: 16
 ht-degree: 0%
 
 ---
 
-# 高度なレンダリング エフェクト{#advanced-render-effects}
+# 高度なレンダーエフェクト{#advanced-render-effects}
 
-複数の高度なレンダリング効果を使用できます。
+いくつかの高度なレンダリングエフェクトを利用できます。

@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/V5KPk6tOhMcCUtL7iraaeBNt4xp81Uo7FTpT-1Z44ks'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 3%
+source-wordcount: 87
+ht-degree: 5%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>情報パネルを表示するタイミングを指定します。 </p> <p><span class="codeph">1</span> に設定すると、マウスが画像マップ領域に入ったときに情報パネルが表示されます（画像マップに空でない <span class="codeph"> の rollover_key</span> 属性がある場合）。 </p> <p><span class="codeph"> 0</span> に設定した場合、画像マップが選択されると（画像マップに空でない <span class="codeph"> rollover_key</span> と空の <span class="codeph"> href</span> 属性が含まれる場合）、情報パネルがトリガーされます。 </p> <p> タッチ操作対応デスクトップシステムを含むタッチデバイスでは無視され、自動的に <span class="codeph"> 0</span> に設定されます。 </p> </td> 
+   <td colname="col2"> <p>情報パネルの表示時間を指定します。 </p> <p><span class="codeph"> 1</span>に設定すると、マウスが画像マップ領域に入ると、情報パネルが表示されます（画像マップに空でない場合は、<span class="codeph"> rollover_key</span>属性）。 </p> <p><span class="codeph"> 0</span>に設定すると、画像マップが選択されたときに情報パネルがトリガーされます（画像マップに空でない<span class="codeph"> rollover_key</span>と空の<span class="codeph"> href</span>属性がある場合）。 </p> <p> タッチ対応デスクトップシステムを含むタッチデバイスでは無視され、自動的に<span class="codeph"> 0</span>に設定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,24 @@
 ---
 title: カタログ属性
-description: 次の属性は、カタログ属性ファイルで認識されます。
+description: カタログ属性ファイルでは、次の属性が認識されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/P9BzsjyNdKRnbyGUFIy-ALtM7nDPl97G7DSnhgOhIYo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 292
 ht-degree: 1%
 
 ---
 
 # カタログ属性{#catalog-attributes}
 
-次の属性は、カタログ属性ファイルで認識されます。
+カタログ属性ファイルでは、次の属性が認識されます。
 
 <table id="simpletable_B838784803D34B0293D7F7C6131045D3"> 
  <thead class="sthead"> 
@@ -27,14 +31,14 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> VignetteMapFile</a> </p> </td> 
-  <td class="stentry"> <p>関連付けられたビネットマップファイルのパスまたは名前。 </p></td> 
+  <td class="stentry"> <p>関連するビネットマップファイルのパスまたは名前。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>IccProfileMapFile を <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> 定する </a> </p></td> 
-  <td class="stentry"> <p>関連付けられた ICC プロファイルマップファイルのパスまたは名前。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </p></td> 
+  <td class="stentry"> <p>関連するICC プロファイルマップファイルのパスまたは名前。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> MacroFile </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> マクロ ファイル </a> </p> </td> 
   <td class="stentry"> <p>関連するマクロ定義ファイルのパスまたは名前。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,15 +47,15 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a" type="reference" format="dita" scope="local"> RootId </a> </p></td> 
-  <td class="stentry"> <p>カタログ識別子。 </p></td> 
+  <td class="stentry"> <p>カタログ ID: </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3" type="reference" format="dita" scope="local"> RootPath </a> </p></td> 
-  <td class="stentry"> <p>すべてのソース データ ファイル（ビネット、マテリアル、およびプロファイル）のルート パス。 </p></td> 
+  <td class="stentry"> <p>すべてのソースデータファイル（ビネット、マテリアル、プロファイル）のルートパス。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181" type="reference" format="dita" scope="local"> TimeStamp </a> </p></td> 
-  <td class="stentry"> <p>デフォルトの変更タイムスタンプ。 </p></td> 
+  <td class="stentry"> <p>デフォルトの修正タイムスタンプ。 </p></td> 
  </tr> 
 </table>
 
@@ -61,58 +65,58 @@ ht-degree: 1%
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ShowOverlapObjs <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> を </a> します </p></td> 
-  <td class="stentry"> <p>オーバーラップ オブジェクトの初期表示/非表示状態。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> ShowOverlapObjs </a> </p></td> 
+  <td class="stentry"> <p>重なり合うオブジェクトの初期表示/非表示の状態。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
-  <td class="stentry"> <p>src=<span class="codeph"> URL</span> 絶対パスを許可します。 </p></td> 
+  <td class="stentry"> <p>絶対<span class="codeph"> src=</span> URLを許可します。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
-  <td class="stentry"> <p>src=<span class="codeph"> の相対 URL</span> ルート URL。 </p></td> 
+  <td class="stentry"> <p>相対<span class="codeph"> src=</span> URLのルート URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
-  <td class="stentry"> <p>obj=<span class="codeph"> が失敗 </span> た場合の動作。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> obj=</span>が失敗した場合の動作。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513" type="reference" format="dita" scope="local"> OnFailSel </a> </p></td> 
-  <td class="stentry"> <p>sel=<span class="codeph"> が失敗 </span> た場合の動作。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sel=</span>が失敗した場合の動作。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> ErrorImage </a> </p></td> 
-  <td class="stentry"> <p>エラーの画像またはテンプレート。 </p></td> 
+  <td class="stentry"> <p>エラー画像またはテンプレート。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b" type="reference" format="dita" scope="local"> ErrorDetail </a> </p></td> 
   <td class="stentry"> <p>エラーメッセージの詳細。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>CacheValidationPolicy<a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4" type="reference" format="dita" scope="local"> 定 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4" type="reference" format="dita" scope="local"> CacheValidationPolicy </a> </p></td> 
   <td class="stentry"> <p>サーバーキャッシュ検証ポリシー。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> Expiration </a> </p></td> 
-  <td class="stentry"> <p>デフォルトのクライアントキャッシュの有効期限。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local">有効期限</a> </p></td> 
+  <td class="stentry"> <p>デフォルトのクライアントキャッシュの有効期間。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified </a> </p></td> 
-  <td class="stentry"> <p>Last-Modified HTTP 応答ヘッダーを有効にします。 </p></td> 
+  <td class="stentry"> <p>Last-Modified HTTP レスポンスヘッダーを有効にします。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
-  <td class="stentry"> <p>swf<span class="filepath"> 応答画像へのアクセス </span> 許可された web ドメイン。 </p></td> 
+  <td class="stentry"> <p>Web ドメインは、<span class="filepath"> swf</span>の応答画像へのアクセスを許可されています。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> </a> </p></td> 
-  <td class="stentry"> <p>クライアントの IP アドレスフィルター。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter </a> </p></td> 
+  <td class="stentry"> <p>クライアント IP アドレス フィルター。 </p></td> 
  </tr> 
 </table>
 
 <table id="simpletable_44FF24C05791420F9B5EDA481D49EF87"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>デフォルトの材料属性 </p></td> 
+  <td class="stentry"> <p>デフォルトのマテリアル属性 </p></td> 
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
@@ -120,11 +124,11 @@ ht-degree: 1%
   <td class="stentry"> <p>デフォルトの詳細レンダリング設定。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> Resolution </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local">解決</a> </p></td> 
   <td class="stentry"> <p>デフォルトのテクスチャ/デカール解像度。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> 鋭 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> シャープ </a> </p></td> 
   <td class="stentry"> <p>デフォルトのテクスチャ/デカールのシャープニング。 </p></td> 
  </tr> 
 </table>
@@ -144,23 +148,23 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-resmode.md#reference-fdca7eb6d5104fdeae9d6ac42251db82" type="reference" format="dita" scope="local"> ResMode </a> </p></td> 
-  <td class="stentry"> <p>返信画像の拡大縮小の再サンプリングモード。 </p></td> 
+  <td class="stentry"> <p>返信画像の拡大縮小のための再サンプリングモード。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> Sharpen </a> </p></td> 
-  <td class="stentry"> <p>返信画像のデフォルトのシャープ。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> </a>をシャープにする </p></td> 
+  <td class="stentry"> <p>返信画像のデフォルトのシャープ処理。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> 形式 </a> </p></td> 
-  <td class="stentry"> <p>返信画像のデフォルトの形式。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local">形式</a> </p></td> 
+  <td class="stentry"> <p>返信画像のデフォルト形式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50" type="reference" format="dita" scope="local"> JpegQuality </a> </p></td> 
-  <td class="stentry"> <p>デフォルトの jpeg 画質。 </p></td> 
+  <td class="stentry"> <p>デフォルトのjpeg品質。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
-  <td class="stentry"> <p>TIFFのエンコーディング形式。 </p></td> 
+  <td class="stentry"> <p>TIFFのエンコーディングフォーマット： </p></td> 
  </tr> 
 </table>
 
@@ -170,20 +174,20 @@ ht-degree: 1%
   <td class="stentry"> <p>説明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb </a> </p></td> 
   <td class="stentry"> デフォルトのRGB出力カラープロファイル。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
-  <td class="stentry"> デフォルトの CMYK 出力カラープロファイル。</td> 
+  <td class="stentry"> デフォルトのCMYK出力カラープロファイル。</td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> IccProfileGray </a> </p></td> 
   <td class="stentry"> デフォルトのグレースケール出力カラープロファイル。</td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrccmyk.md#reference-0256cae955404ebc92d5d0d1fa095ea2" type="reference" format="dita" scope="local"> </a> </p></td> 
-  <td class="stentry"> デフォルトの CMYK 入力カラープロファイル。</td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrccmyk.md#reference-0256cae955404ebc92d5d0d1fa095ea2" type="reference" format="dita" scope="local"> IccProfileSrcCmyk </a> </p></td> 
+  <td class="stentry"> デフォルトのCMYK入力カラープロファイル。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcgray.md#reference-a2abcd4aa5864738bbea8f55706deaf2" type="reference" format="dita" scope="local"> IccProfileSrcGray </a> </p></td> 
@@ -194,7 +198,7 @@ ht-degree: 1%
   <td class="stentry"> デフォルトのRGB入力カラープロファイル。</td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent </a> </p> </td> 
   <td class="stentry"> デフォルトのレンダリングインテント。</td> 
  </tr> 
  <tr class="strow"> 

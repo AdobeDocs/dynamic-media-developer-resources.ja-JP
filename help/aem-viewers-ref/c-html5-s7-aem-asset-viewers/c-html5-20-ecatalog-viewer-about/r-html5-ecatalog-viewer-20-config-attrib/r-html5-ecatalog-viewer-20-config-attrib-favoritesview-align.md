@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/tTcUr9D-NdiI0UARSTowBc-R3pgJgoPh3OmvXaQ9KK0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 76
+ht-degree: 3%
 
 ---
 
@@ -19,8 +23,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|中央|right,top|中央|bottom</span> </p> </td> 
-   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの水平方向の内部配置（アンカー）を指定します。 </p> <p>FavoritesView では、内部のサムネールコンテナのサイズが調整されて、整数のサムネールのみが表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間に何らかのパディングがあります。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向にどのように配置するかを指定します。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
+   <td colname="col2"> <p> コンポーネント領域内のサムネールコンテナの内部水平方向の整列（アンカー）を指定します。 </p> <p>お気に入りビューでは、内部のサムネールコンテナのサイズが調整され、サムネールが整数だけ表示されます。 その結果、内部コンテナと外部コンポーネントの境界の間にパディングが生じます。 </p> <p>この修飾子は、内部サムネールコンテナをコンポーネント内で水平方向に配置する方法を指定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

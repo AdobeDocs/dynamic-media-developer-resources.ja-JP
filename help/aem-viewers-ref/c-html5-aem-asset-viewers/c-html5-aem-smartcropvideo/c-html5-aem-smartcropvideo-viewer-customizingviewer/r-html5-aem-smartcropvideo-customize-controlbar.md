@@ -1,58 +1,62 @@
 ---
 title: コントロールバー
-description: コントロールバーは、再生/一時停止ボタンや音量コントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールの背後にある、を含む長方形領域です。
+description: コントロールバーは、スマート切り抜きビデオビューアで使用できるすべてのUI コントロール（再生/一時停止ボタンやボリュームコントロールなど）の背後にある長方形の領域です。
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/OYPgQ9LBIb-uYwT0WRexIchENJ-0PoH6lWOkkWilIiU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 178
 ht-degree: 0%
 
 ---
 
 # コントロールバー{#control-bar}
 
-コントロールバーは、再生/一時停止ボタンや音量コントロールなど、スマート切り抜きビデオビューアで使用できるすべての UI コントロールの背後にある、を含む長方形領域です。
+コントロールバーは、スマート切り抜きビデオビューアで使用できるすべてのUI コントロール（再生/一時停止ボタンやボリュームコントロールなど）の背後にある長方形の領域です。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-コントロールバーは常に、使用可能なビューアの幅全体を取ります。 CSS を使用して、スマート切り抜きビデオビューアコンテナに対する色、高さ、垂直方向の位置を変更できます。
+コントロールバーは、常に使用可能なビューア全体の幅を使用します。 スマート切り抜きビデオビューアコンテナに対して、CSSで色、高さ、垂直位置を変更できます。
 
-次の CSS クラスセレクターで、コントロールバーの外観を制御します。
+次のCSS クラスセレクターは、コントロールバーの外観を制御します。
 
 ```
 .s7smartcropvideoviewer .s7controlbar
 ```
 
-## コントロールバーの CSS プロパティ {#css-properties-of-the-control-bar}
+## コントロールバーのCSS プロパティ {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 天 </span> </p> </td> 
-   <td colname="col2"> <p>上部のボーダーから配置（パディングを含む）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上位</span> </p> </td> 
+   <td colname="col2"> <p>パディングを含む上部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下 </span> </p> </td> 
-   <td colname="col2"> <p> 下罫線からパディングを含めて移動します。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下</span> </p> </td> 
+   <td colname="col2"> <p> パディングを含む下部境界線からの位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高さ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">の高さ</span> </p> </td> 
    <td colname="col2"> <p>コントロールバーの高さ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p>コントロールバーの背景色 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>コントロールバーの背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-高さが 30 ピクセルで、スマート切り抜きビデオビューアコンテナの上部に配置されたグレーのコントロールバーを使用してスマート切り抜きビデオビューアを設定します。
+高さ30 ピクセルのグレーのコントロールバーを備えたスマート切り抜きビデオビューアを設定するには、スマート切り抜きビデオビューアコンテナの上部に配置します。
 
 ```
 .s7smartcropvideoviewer .s7controlbar {  

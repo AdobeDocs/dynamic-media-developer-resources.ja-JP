@@ -1,26 +1,30 @@
 ---
 title: ズームビュー
-description: メインビューは静的画像で構成されています。
+description: メインビューは静止画像で構成されます。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/udgNJ6m1EffqVOmFwnWqMYoRDP22isq2zKvgDK4KNLo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: 60
 ht-degree: 1%
 
 ---
 
 # ズームビュー{#zoom-view}
 
-メインビューは静的画像で構成されています。
+メインビューは静止画像で構成されます。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**メインビューア領域の CSS プロパティ**
+メイン ビューア領域の&#x200B;**CSS プロパティ**
 
-表示領域の外観は、次の CSS クラスセレクターで制御します。
+表示領域の外観は、次のCSS クラスセレクターで制御されます。
 
 ```
 .s7interactiveimage .s7zoomview
@@ -35,13 +39,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> の背景色の </span> </p> </td> 
-   <td colname="col2"> <p> メインビューの 16 進数形式の背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> メインビューの16進数形式の背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例 – メインビューを透明にする。
+例 – メインビューを透明にします。
 
 ```
 .s7interactiveimage .s7zoomview { 
