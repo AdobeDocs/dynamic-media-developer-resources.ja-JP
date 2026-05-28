@@ -6,10 +6,16 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
 TQID: 'https://experienceleague.adobe.com/H3e7HZb3M8vz338CV6xNjROxITz0HLLHz1B5fIiDfWo'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 2224
@@ -46,7 +52,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
 設定とスキニングは、このガイドで説明する他のビューアと同様です。 すべてのスキニングは、カスタム（CSS）カスケーディングスタイルシートを使用して実行されます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## インタラクティブビデオビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -62,7 +68,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
 ビューアは、様々なソーシャルメディア共有ツールもサポートしています。 ユーザーインターフェイスの単一のボタンとして使用でき、ユーザーが共有ツールバーをクリックまたはタップすると、共有ツールバーに展開されます。 共有ツールバーには、Facebook、Twitter、メール共有、埋め込みコード共有、リンク共有など、サポートされている共有チャネルのタイプごとにアイコンが含まれています。 メール共有、埋め込み共有またはリンク共有ツールがアクティブ化されると、対応するデータ入力フォームを含むモーダルダイアログボックスがビューアに表示されます。 FacebookまたはTwitterが呼び出されると、ビューアはソーシャルメディアサービスから標準の共有ダイアログボックスにユーザーをリダイレクトします。 また、共有ツールが有効になっている場合、ビデオの再生は自動的に一時停止されます。 Web ブラウザーのセキュリティ制限により、共有ツールはフルスクリーンモードでは利用できません。
 
-ビューアは完全にキーボードアクセス可能です。 [ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
+ビューアは完全にキーボードアクセス可能です。 [&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
 ## インタラクティブビデオビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -134,7 +140,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
    CSSで直接HTML ページにサイズを設定できます。 または、カスタムのビューア CSS ファイルに配置して、後でAdobe Experience Manager Assets オンデマンドのビューアプリセットレコードに割り当てるか、`style` コマンドを使用して明示的に渡すことができます。
 
-   CSSを使用したビューアのスタイル設定について詳しくは、[ インタラクティブビデオビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
+   CSSを使用したビューアのスタイル設定について詳しくは、[&#x200B; インタラクティブビデオビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
 
    次に、HTML ページで静的ビューアサイズを定義する例を示します。
 
