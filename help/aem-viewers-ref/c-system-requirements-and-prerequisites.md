@@ -7,16 +7,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 TQID: 'https://experienceleague.adobe.com/tPpOrJ26zb4wztdD5XE6ErLB-6D1IZPO4MSaumdUevY'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 360
@@ -39,7 +33,7 @@ Dynamic Media HTML5 ビューアの必要システム構成。
 * Adobe Dynamic Media Image Serving 6.7.1以降。
 * HTML 5 ビューアには、SDK JavaScript サーバーサイドライブラリ 3.11.5以降が必要です。
 * *友達にメール*&#x200B;のソーシャル機能を利用するには、s7ondemand 5.0.9以降が必要です。
-* eCatalog Viewer - [情報パネル ポップアップ &#x200B;](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)のサポートには、情報サーバー2.1.8以降が必要です。
+* eCatalog Viewer - [情報パネル ポップアップ ](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)のサポートには、情報サーバー2.1.8以降が必要です。
 * 検索機能コンポーネントには、s7search 2.3.0以降が必要です。
 
 ## ビューアの必要システム構成 {#section-cc72b1e209524d038b4d5b92b35e998e}
