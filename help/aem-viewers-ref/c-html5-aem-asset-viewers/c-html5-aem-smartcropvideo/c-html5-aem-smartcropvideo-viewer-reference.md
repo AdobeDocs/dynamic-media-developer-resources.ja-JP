@@ -309,7 +309,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
 
 -->
 
