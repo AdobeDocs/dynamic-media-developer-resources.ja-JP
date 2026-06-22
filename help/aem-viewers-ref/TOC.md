@@ -19,9 +19,9 @@ ht-degree: 1%
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバーに複数のビューアをインストールする](t-installing-the-viewers.md)
 + Viewers リリースノート {#viewers-release-notes}
-   + {hide-from-toc}[ ビューアのリリースノート （5.16.5） ](c-release-notes/c-rn-03-02-22.md)
+   + {hide-from-toc}[&#x200B; ビューアのリリースノート （5.16.5） &#x200B;](c-release-notes/c-rn-03-02-22.md)
    + アーカイブ {#archive}
-      + {hide-from-toc}[ ビューアのリリースノート （5.16.1） ](c-release-notes/c-archive/c-rn-04-06-21.md)
+      + {hide-from-toc}[&#x200B; ビューアのリリースノート （5.16.1） &#x200B;](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Viewers リリースノート （5.15.3）](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Viewers リリースノート （5.14.1）](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Viewers リリースノート （5.13.1）](c-release-notes/c-archive/c-rn-07-08-19.md)
