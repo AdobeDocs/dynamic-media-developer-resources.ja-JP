@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
 TQID: 'https://experienceleague.adobe.com/I21iWFmYP0Vwunf3evtnLAr3tslHOsTOB0sGWG6l-bc'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 387
 ht-degree: 0%
@@ -103,6 +99,7 @@ ht-degree: 0%
 
 **一般的な用語**
 
-**&#x200B; *`MSS`* &#x200B;** Material Specification Segment: リクエスト内の2つの選択コマンド間のマテリアル属性のセット。
+** *`MSS`* ** Material Specification Segment: リクエスト内の2つの選択コマンド間のマテリアル属性のセット。
 
-**&#x200B; *`vignette`* &#x200B;** Dynamic Mediaの画像オーサリングで、画像レンダリングで使用するために準備された画像。
+** *`vignette`* ** Dynamic Mediaの画像オーサリングで、画像レンダリングで使用するために準備された画像。
+
