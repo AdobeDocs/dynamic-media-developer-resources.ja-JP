@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media ビューアリファレンスガイド
 feature-set: Experience Manager Assets
 user-guide-description: デスクトップおよびタッチスクリーンデバイスで使用するDynamic Media ビューアをカスタマイズします。 インタラクティブな画像やビデオ、カルーセル、スピンセットなどを利用できます。
 nudge: true
-source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 1%
@@ -19,9 +19,9 @@ ht-degree: 1%
 + [必要システム構成](c-system-requirements-and-prerequisites.md)
 + [同じサーバーに複数のビューアをインストールする](t-installing-the-viewers.md)
 + Viewers リリースノート {#viewers-release-notes}
-   + {hide-from-toc}[&#x200B; ビューアのリリースノート （5.16.5） &#x200B;](c-release-notes/c-rn-03-02-22.md)
+   + {hide-from-toc}[ ビューアのリリースノート （5.16.5） ](c-release-notes/c-rn-03-02-22.md)
    + アーカイブ {#archive}
-      + {hide-from-toc}[&#x200B; ビューアのリリースノート （5.16.1） &#x200B;](c-release-notes/c-archive/c-rn-04-06-21.md)
+      + {hide-from-toc}[ ビューアのリリースノート （5.16.1） ](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Viewers リリースノート （5.15.3）](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Viewers リリースノート （5.14.1）](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Viewers リリースノート （5.13.1）](c-release-notes/c-archive/c-rn-07-08-19.md)
@@ -1013,4 +1013,4 @@ ht-degree: 1%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
-<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) -->
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

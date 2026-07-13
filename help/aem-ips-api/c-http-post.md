@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 1%
@@ -78,12 +74,12 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST フォームパーツ   |  uploadPostParams要素名   |  種類   |  説明   |
 |---|---|---|---|
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント）   |   `companyHandle`  |  `xsd:string`  | 必須。 ファイルのアップロード先の会社に対するハンドル。  |
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `jobName`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 アップロードジョブの名前。  |
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `jobHandle`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 前のリクエストで開始されたアップロードジョブへのハンドル。  |
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `locale`  |  `xsd:string`  | オプション。 ローカライゼーション用の言語と国コード。  |
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `description`  |  `xsd:string`  | オプション。 ジョブの説明。  |
-| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `destFolder`  |  `xsd:string`  | オプション。 特に、ファイル名のフルパスをサポートしていないブラウザーやその他のクライアントの場合は、ファイル名プロパティのプレフィックスのターゲットフォルダーパスです。  |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント）   |   `companyHandle`  |  `xsd:string`  | 必須。 ファイルのアップロード先の会社に対するハンドル。 |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `jobName`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 アップロードジョブの名前。 |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `jobHandle`  |  `xsd:string`  | `jobName`または`jobHandle`が必要です。 前のリクエストで開始されたアップロードジョブへのハンドル。 |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `locale`  |  `xsd:string`  | オプション。 ローカライゼーション用の言語と国コード。 |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `description`  |  `xsd:string`  | オプション。 ジョブの説明。 |
+| `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `destFolder`  |  `xsd:string`  | オプション。 特に、ファイル名のフルパスをサポートしていないブラウザーやその他のクライアントの場合は、ファイル名プロパティのプレフィックスのターゲットフォルダーパスです。 |
 | `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `fileName`  |  `xsd:string`  | オプション。 ターゲットファイルの名前。 ファイル名プロパティを上書きします。 |
 | `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `endJob`  |  `xsd:boolean`  | オプション。 初期設定は false。 |
 | `uploadParams` （必須）。 アップロードパラメーターを指定するXML `uploadParams` ドキュメント） | `uploadParams`  |  `types:UploadPostJob`  | 既存のアクティブなジョブに対する後続のリクエストの場合は、オプションです。 既存のジョブがある場合、`uploadParams`は無視され、既存のジョブアップロードパラメーターが使用されます。 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)を参照 |
@@ -212,3 +208,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+
