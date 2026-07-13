@@ -6,16 +6,11 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
 TQID: 'https://experienceleague.adobe.com/HxgWcboIyA2RYuXbHMKaUiRQFL8IDNKegdOqMgz2plE'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 642
 ht-degree: 0%
@@ -125,3 +120,4 @@ ht-degree: 0%
 ## 関連項目 {#section-cdaacf84f92c4bffbb4b76197b4e531a}
 
 [パッケージ java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+
