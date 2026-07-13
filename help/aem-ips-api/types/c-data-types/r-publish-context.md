@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
 TQID: 'https://experienceleague.adobe.com/BrMmLNSGcve-w8clATFAiVSVNI8CTQGXYA6ydnIDUzg'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 64
@@ -60,5 +64,5 @@ Assetsでは、パブリッシュステートとコンテキストごとに個�
 
 >[!MORELIKETHIS]
 >
->* [公開コンテキスト ](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [公開コンテキスト &#x200B;](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
 
