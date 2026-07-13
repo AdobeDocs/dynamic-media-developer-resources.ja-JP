@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e291597a-b863-42dd-88dc-13398b734410
 TQID: 'https://experienceleague.adobe.com/cDQ-P-vZGfOyPASRMfemIKnphk5GavTU85m4vJq83bc'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 152
 ht-degree: 13%
@@ -49,7 +45,7 @@ ht-degree: 13%
 | companyHandle | `xsd:string` | はい | 取り扱うアセットを持つ会社へのハンドル。 |
 | assetHandle | `xsd:string` | はい | 操作するアセットへのハンドル。 |
 | autoColorCropOptions | `types:AutoColorCropOptions` | いいえ | カラーに基づいてクロップ長方形を計算します。 [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)を参照してください。 |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | いいえ | 透明に基づいて切り抜き長方形を計算します。 [自動透明クロップオプション &#x200B;](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)を参照してください。 |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | いいえ | 透明に基づいて切り抜き長方形を計算します。 [自動透明クロップオプション ](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)を参照してください。 |
 
 **出力（getAutoCropRectReturn）**
 
@@ -90,3 +86,4 @@ ht-degree: 13%
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+
