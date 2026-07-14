@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
 TQID: 'https://experienceleague.adobe.com/Wy81FlPqNNF3ufFkoQUE-fJMPufuDM8fScWklRReQkE'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 22
