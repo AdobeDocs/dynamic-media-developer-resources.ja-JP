@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 3%
@@ -38,3 +38,4 @@ ht-degree: 3%
 | [!DNL position] | `xsd:string` | HTML `<area>`要素の[!DNL coords]属性の書式の位置。 例：`coords ="0,0,84,128"`。 |
 | [!DNL enabled] | `xsd:boolean` | 画像マップが有効な場合はTrueです。 |
 | lastModified | `xsd:dateTime` | 画像マップが最後に変更された日時。 |
+

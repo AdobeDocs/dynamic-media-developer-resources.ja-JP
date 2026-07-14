@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 16
 ht-degree: 12%
@@ -41,3 +41,4 @@ ScheduledJob/triggerStateで使用されます。
 * [!DNL `MetadataUpload`]
 * [!DNL `ImageOptimization`]
 * [!DNL `Cleanup`]
+
