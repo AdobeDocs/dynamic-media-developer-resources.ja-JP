@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
 TQID: 'https://experienceleague.adobe.com/rBi3yjuxVx1RgdlVU1A--I4ZSQp9XTfeDX2SZfBFwBY'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 119
 ht-degree: 2%
@@ -66,3 +62,4 @@ ht-degree: 2%
 ## 例 {#section-bb97b2aac37a43eba11d263ce7049363}
 
 `pageturnstyle=20,FF0000,1,1,00FF00,0000FF`
+
