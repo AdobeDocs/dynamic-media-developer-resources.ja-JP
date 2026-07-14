@@ -23,9 +23,9 @@ ht-degree: 0%
 
 # [!DNL Dynamic Media]の開発者向けリソース{#dynamic-media-developer-resource}
 
-* [&#x200B; ビューアリファレンスガイド](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
+* [&#x200B; ビューアリファレンスガイド](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ja) -->
 デスクトップおよびタッチスクリーンデバイスで使用する[!DNL Dynamic Media] ビューアをカスタマイズします。 操作できるメディアの種類には、インタラクティブな画像やビデオ、360度動画、カルーセル、画像ズーム、ビデオ、ecatalogs、フライアウト、混在メディア、スピンセットなどがあります。
-* [画像サービング/画像レンダリング API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
+* [画像サービング/画像レンダリング API](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ja) -->
 IS （画像サービング）およびIR （画像レンダリング） API、および関連テクノロジーに関するドキュメント。 Adobe Experience Managerとの[!DNL Dynamic Media] Classic統合に取り組む場合は、APIのIS部分を参照する必要があります。
 * [Image Production System API](/help/aem-ips-api/c-overview.md)
 IPS （Image Production System） Web Service APIを使用すると、外部アプリケーションやサードパーティの開発者は、IPS アセットと機能にプログラムでアクセスできます。
