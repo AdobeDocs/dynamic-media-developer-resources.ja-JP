@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 66
 ht-degree: 4%
@@ -35,3 +35,4 @@ ht-degree: 4%
 ## 関連項目 {#section-22638a9ff5e9493ea93222e5f49febde}
 
 [マクロ定義](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md#concept-477b77fa187147bfa55fa67134d4a453)
+

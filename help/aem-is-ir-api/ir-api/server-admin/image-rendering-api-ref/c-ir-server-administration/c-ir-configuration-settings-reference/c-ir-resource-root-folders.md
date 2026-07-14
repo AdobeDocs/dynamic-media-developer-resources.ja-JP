@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 セミコロンで区切られたパスのリストは、相対ファイルパスを持つすべてのデータファイルのルートとして機能します。
 
 *[!DNL install_folder]*&#x200B;に対する絶対パスまたは相対パスを指定できます。 複数のパスが指定されている場合、サーバーはファイルが見つかるまで、指定された順序で各ルートを試行します。 デフォルトは[!DNL ./resources]です。デフォルトのルートパスは[!DNL install_folder/resources]です。
+

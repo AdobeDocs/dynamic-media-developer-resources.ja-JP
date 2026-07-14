@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 8%
@@ -37,3 +37,4 @@ ht-degree: 8%
 | defaultRole | `xsd:string` | ユーザーが属する各会社におけるユーザーの役割を設定します。 ただし、ユーザーの役割`IpsAmin`は他のユーザーの役割を上書きします。 |
 | isValid | `xsd:boolean` | ユーザーが有効かどうかを判断します。 |
 | passwordExpires | `xsd:dateTime` | パスワードの有効期限を設定します。 |
+

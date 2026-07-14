@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -42,3 +42,4 @@ ht-degree: 0%
 ソースデータファイルの物理的な場所は、通常、[ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2)で指定します。 ソースデータファイルを複数のファイルシステムに分散できるように、複数の値を指定できます。 レンダーサーバーは、データファイルが見つかるまで、指定された順序で各パスを試行します。
 
 サーバーを停止することなく、いつでも任意の種類の新しいデータファイルを追加できます。
+

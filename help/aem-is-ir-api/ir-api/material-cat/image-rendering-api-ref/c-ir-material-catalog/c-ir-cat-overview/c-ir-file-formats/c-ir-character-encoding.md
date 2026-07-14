@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 104
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 バイトオーダーマーク（BOM）を使用して、各ファイルのエンコーディングを指定します。 UTF-8の場合、BOMはバイト シーケンス `EF BB BF`です。 UTF-8 エンコーディングは、この文字シーケンスが各マテリアルカタログファイルの最初の部分で検出された場合に想定されます。 その他のバイトシーケンスでは、ファイルがISO-8859-1規格にエンコードされていると解釈されます。
 
 多くの現代的なアプリケーションは、UTF-8用に設定されている場合、BOMを自動的に挿入します。
+

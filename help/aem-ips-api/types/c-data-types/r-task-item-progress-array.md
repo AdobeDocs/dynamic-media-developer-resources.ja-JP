@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 34
 ht-degree: 14%
@@ -31,3 +31,4 @@ ht-degree: 14%
 | 名前 | 種類 | 説明 |
 |---|---|---|
 | 商品 | `types:TaskItemProgress` | タスク項目の進捗状況配列。 最小発生回数は0です。 最大値は無制限です。 |
+

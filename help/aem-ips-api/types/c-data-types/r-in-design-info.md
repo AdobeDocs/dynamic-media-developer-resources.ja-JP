@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 21
 ht-degree: 19%
@@ -35,3 +35,4 @@ InDesignのファイルプロパティ：
 | originalPath | `xsd:string` | ファイルパス： |
 | originalFile | `xsd:string` | ファイル名。 |
 | fileSize | `xsd:int` | ファイルサイズ： |
+

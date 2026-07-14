@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 64
 ht-degree: 0%
@@ -29,3 +29,4 @@ Windowsでは&#x200B;*[!DNL install_root]*&#x200B;が既定の`C:\Program Files\
 この文書では、*[!DNL install_folder]*&#x200B;は&#39;[!DNL ./]&#39;で表すことができます。
 
 すべてのファイルパスでは、UNIXでは大文字と小文字が区別され®Windowsでは大文字と小文字が区別されません。
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 4%
@@ -46,3 +46,4 @@ ht-degree: 4%
 ## 初期設定 {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
 `flags=0` ガラスのドアがない場合
+

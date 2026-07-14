@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 187
 ht-degree: 2%
@@ -52,3 +52,4 @@ ht-degree: 2%
 | fatalError | `xsd:boolean` | ジョブで致命的なエラーが発生したかどうかを確認します。 |
 | detailTotalRows | `xsd:int` | クエリに一致する行の合計数。ページサイズの制限により、`detailArray`のサイズよりも大きい可能性があります。 |
 | detailArray | `types:JobLogDetailArray` | ログに記録されたジョブに関する詳細の配列。 |
+

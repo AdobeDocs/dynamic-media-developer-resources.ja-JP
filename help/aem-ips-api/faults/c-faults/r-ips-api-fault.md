@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 25
 ht-degree: 36%
@@ -39,3 +39,4 @@ ht-degree: 36%
 |---|---|---|
 | `code` | `xsd:int` | 障害ID |
 | `reason` | `xsd:string` | 障害を説明する有益なメッセージ。 |
+

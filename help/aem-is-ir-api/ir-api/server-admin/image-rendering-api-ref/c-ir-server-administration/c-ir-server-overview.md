@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +39,4 @@ ht-degree: 0%
 画像レンダリングのインストールフォルダー（*[!DNL install_folder]*）は[!DNL *[!DNL install_root]*/ImageRendering]です。 Windowsでは、デフォルトの&#x200B;*[!DNL install_root]*&#x200B;は`C:\Program Files\Scene7`です。 インストール時に別のフォルダーを指定できます。 Linuxでは、*[!DNL install_root]*&#x200B;は常に[!DNL /usr/local/scene7]である必要があります。 シンボリックリンクを使用できます。
 
 すべてのファイルパスは、UNIXでは大文字と小文字を区別し、Windowsでは大文字と小文字を区別しません。
+

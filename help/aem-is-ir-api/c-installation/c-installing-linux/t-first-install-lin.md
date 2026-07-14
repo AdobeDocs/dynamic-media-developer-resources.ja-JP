@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 383
 ht-degree: 0%
@@ -82,3 +82,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Image Servingをインストールした後にライセンスをインストールする場合は、使用する前にImage Serverを手動で起動する必要があります。
+

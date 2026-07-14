@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 251
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 カスタム変数はネストできません。 `[!DNL string]`内の`$ [!DNL name]$`の出現箇所は置換されません。 例えば、リクエストフラグメント `$var2=apple&$var1=my$var2$tree&text=$var1$`は`text=my$var2$tree`に解決されます。
 
 `$`は予約済みの文字ではありません。リクエストで他の文字が発生する可能性があります。 例えば、`src=my$texture$file.tif`は有効なコマンドです（`[!DNL my$texture$file.tif]`という名前のマテリアルカタログエントリまたはテクスチャファイルが存在すると仮定します）。一方、`wid=$number$`はそうではありません。`wid=`には数値引数が必要です。
+

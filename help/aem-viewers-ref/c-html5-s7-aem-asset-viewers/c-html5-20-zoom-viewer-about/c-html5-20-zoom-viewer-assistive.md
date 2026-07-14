@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 226
 ht-degree: 0%
@@ -33,3 +33,4 @@ ht-degree: 0%
 メイン ビューには役割`application`があります。 メインビューの簡単な説明は`aria-roledescription`で提供され、対応するメインビューコンポーネントの`ROLE_DESCRIPTION` ローカライゼーションシンボルで定義された値が示されます。 キーボードユーザーのナビゲーションヒントは`aria-describedby`を使用して提供され、使用ヒントのテキストは`USAGE_HINT` ローカライゼーションシンボルから取得されます。 アセットにUserData フィールドで定義されたラベルがある場合、`aria-label`属性にはそのようなラベルの値が設定されます。
 
 スウォッチを表示するコンポーネントでは、そのコンポーネントの`LABEL` ローカライゼーションシンボルの値に`aria-label`属性が設定された役割`listbox`が設定されています。 個々のスウォッチには、`aria-setsize`属性と`aria-posinset`属性を持つ役割`option`があり、セット内のスウォッチの位置を表します。 スウォッチを選択すると、`aria-selected`属性が`true`に設定されます。
+

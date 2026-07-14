@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 0%
@@ -30,3 +30,4 @@ ht-degree: 0%
 プラットフォームサーバー設定ファイルは[!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]にあります。 このファイルはJAVA プロパティファイルです。 適切な規則に従うように注意を払う必要があります。そうしないと、[!DNL Platform Server]を開始できない可能性があります。 Windows ファイルパスでは、単純なバックスラッシュ （\）ではなく、ダブルバックスラッシュ （`\\`）または1つのフォワードスラッシュ （/）を使用する必要があります。これは、バックスラッシュがこのタイプのファイルではエスケープ文字として使用されるためです。 このファイルには、内部サーバーで使用する文書化されていないプロパティが含まれており、変更することはできません。
 
 すべての画像レンダリング設定の一覧については、[構成設定リファレンス &#x200B;](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81)を参照してください。
+

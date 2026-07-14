@@ -14,7 +14,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 1414
 ht-degree: 0%
@@ -229,3 +229,4 @@ background-position: -0px -560px;
 * [ズームインボタン](r-html5-ecatsearch-customize-zoominbutton.md)
 * [ズームアウトボタン](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [ズームリセットボタン](r-html5-ecatsearch-customize-zoomresetbutton.md)
+

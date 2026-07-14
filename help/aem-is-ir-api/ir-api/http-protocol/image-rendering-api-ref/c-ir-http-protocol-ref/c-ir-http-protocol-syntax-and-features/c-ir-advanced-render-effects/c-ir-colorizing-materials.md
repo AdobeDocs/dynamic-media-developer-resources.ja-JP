@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 76
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 カラーアルゴリズムは単純で、色相の範囲が限られているマテリアル画像に最適です。 マテリアルにカラーを適用するには、レンダラーは単に`bgc=`値を減算し、各ピクセル値に`color=`値を追加します。
 
 `color=`が指定されていない場合、色付けは無効になります。 `bgc=`属性はキャビネット マテリアルでは無視されます。代わりに、[!DNL vnc] ファイルに埋め込まれた基本色の値が使用されます。
+

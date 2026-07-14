@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 151
 ht-degree: 3%
@@ -53,3 +53,4 @@ ht-degree: 3%
 ## 関連項目 {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 
 [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+

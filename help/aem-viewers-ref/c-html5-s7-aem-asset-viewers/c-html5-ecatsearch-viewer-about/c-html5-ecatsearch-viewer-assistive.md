@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ ht-degree: 0%
 検索ユーザーインターフェイスは、役割`search`を持つ要素にグループ化されています。 検索入力フィールドには役割`searchbox`があり、`SearchPanel.INFO_PROMPT`のローカライゼーションシンボルによって制御される情報ラベルを`aria-describedby`属性で参照します。
 
 モーダルダイアログボックスの役割は`dialog`です。 ダイアログボックスのヘッダー要素は、`aria-labelledby`属性で参照されています。
+

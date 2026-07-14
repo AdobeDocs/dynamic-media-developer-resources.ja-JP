@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 166
 ht-degree: 0%
@@ -33,3 +33,4 @@ ht-degree: 0%
 **`illum=`**&#x200B;を使用した明示的な選択 – `illum=`が指定され、`0`、`1`または`2`に設定されている場合、レンダラーは対応する照明マップを使用します。`gloss=`は照明マップの選択に無視されます。
 
 周辺光量補正に照明マップが1つしか含まれていない場合、レンダラーはそのマップを使用し、`illum=`および`gloss=` コマンドを無視します。
+

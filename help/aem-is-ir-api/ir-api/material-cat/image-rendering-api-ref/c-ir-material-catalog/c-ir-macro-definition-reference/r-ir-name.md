@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 50
 ht-degree: 10%
@@ -31,3 +31,4 @@ ht-degree: 10%
 ## 初期設定 {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 
 なし
+

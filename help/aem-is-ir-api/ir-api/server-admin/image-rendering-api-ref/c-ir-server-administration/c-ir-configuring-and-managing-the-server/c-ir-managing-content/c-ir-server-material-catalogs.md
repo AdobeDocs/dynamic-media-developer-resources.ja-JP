@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 108
 ht-degree: 0%
@@ -31,3 +31,4 @@ ht-degree: 0%
 マテリアルカタログ リクエストで使用されるビネットとマテリアル IDを実際のファイルパスにマッピングし、マテリアルに関連するすべてのメタデータを保存し、テンプレート用のコンテナを提供できます。 彼らはICC プロファイルとコマンドマクロを追跡します。
 
 マテリアルカタログには、画像レンダリングのJava コンポーネント（[!DNL Platform Server]と同じ場所）によってのみアクセスできます。 カタログ属性ファイルには[!DNL .ini]のサフィックスを付け、登録されたカタログフォルダー（[ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7)）に配置する必要があります。 既定のマテリアル カタログ（[!DNL default.ini]）は常に存在する必要があり、画像サービングを正しく機能させるためにすべての属性を入力する必要があります。
+

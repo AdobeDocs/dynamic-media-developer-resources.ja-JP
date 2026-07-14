@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 37
 ht-degree: 2%
@@ -38,3 +38,4 @@ IPS API バージョン 4.4の新しいデータ型と変更されたデータ�
 <!--
 Note: Can't tell from original docs if these are new or changes. Calling 'em new by default.
 -->
+
