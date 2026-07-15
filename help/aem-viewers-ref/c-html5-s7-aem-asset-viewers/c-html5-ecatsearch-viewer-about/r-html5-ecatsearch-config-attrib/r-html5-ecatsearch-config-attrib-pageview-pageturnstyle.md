@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 119
 ht-degree: 2%
@@ -68,3 +68,4 @@ ht-degree: 2%
 ## 例 {#section-bb97b2aac37a43eba11d263ce7049363}
 
 [!DNL `pageturnstyle=20,FF0000,1,1,00FF00,0000FF`]
+
