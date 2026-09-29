@@ -56,7 +56,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
 設定とスキニングは、このガイドで説明する他のビューアと同様です。 すべてのスキニングは、カスタム（CSS）カスケーディングスタイルシートを使用して実行されます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## インタラクティブビデオビューアの操作 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -72,7 +72,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
 ビューアは、様々なソーシャルメディア共有ツールもサポートしています。 ユーザーインターフェイスの単一のボタンとして使用でき、ユーザーが共有ツールバーをクリックまたはタップすると、共有ツールバーに展開されます。 共有ツールバーには、Facebook、Twitter、メール共有、埋め込みコード共有、リンク共有など、サポートされている共有チャネルのタイプごとにアイコンが含まれています。 メール共有、埋め込み共有またはリンク共有ツールがアクティブ化されると、対応するデータ入力フォームを含むモーダルダイアログボックスがビューアに表示されます。 FacebookまたはTwitterが呼び出されると、ビューアはソーシャルメディアサービスから標準の共有ダイアログボックスにユーザーをリダイレクトします。 また、共有ツールが有効になっている場合、ビデオの再生は自動的に一時停止されます。 Web ブラウザーのセキュリティ制限により、共有ツールはフルスクリーンモードでは利用できません。
 
-ビューアは完全にキーボードアクセス可能です。 [ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
+ビューアは完全にキーボードアクセス可能です。 [&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
 ## インタラクティブビデオビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -144,7 +144,7 @@ Interactive Video Viewerは、H.264形式でエンコードされたストリー
 
    CSSで直接HTML ページにサイズを設定できます。 または、カスタムのビューア CSS ファイルに配置して、後でAdobe Experience Manager Assets オンデマンドのビューアプリセットレコードに割り当てるか、`style` コマンドを使用して明示的に渡すことができます。
 
-   CSSを使用したビューアのスタイル設定について詳しくは、[ インタラクティブビデオビューアのカスタマイズ ](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
+   CSSを使用したビューアのスタイル設定について詳しくは、[&#x200B; インタラクティブビデオビューアのカスタマイズ &#x200B;](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)を参照してください。
 
    次に、HTML ページで静的ビューアサイズを定義する例を示します。
 

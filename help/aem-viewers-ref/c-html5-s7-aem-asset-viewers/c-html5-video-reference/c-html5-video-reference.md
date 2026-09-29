@@ -52,7 +52,7 @@ IS-Viewersが提供する実稼動対応のHTML ページを使用して、ビ�
 
 ビューアの設定とスキン処理の作業は、他のビューアと同様です。 すべてのスキニングは、カスタム CSSを使用して実行できます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## Video Viewerの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -68,7 +68,7 @@ Video Viewerは、再生/一時停止ボタン、ビデオスクラバーのビ�
 
 このビューアにはキーボードから完全にアクセス可能です。
 
-[ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
+[&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
 ## Video Viewerによるソーシャルメディア共有ツール {#section-907d316fe1da4b87abb9775f02464704}
 
@@ -166,7 +166,7 @@ web ページごとに、閲覧者の行動に対するニーズは異なりま�
 
    HTML ページのCSSまたはカスタムビューア CSS ファイルにサイズを設定できます。 その後、Dynamic Media Classicのビューアプリセットレコードに割り当てられるか、スタイルコマンドを使用して明示的に渡されます。
 
-   CSSを使用したビューアのスタイル設定について詳しくは、[ ビデオビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)を参照してください。
+   CSSを使用したビューアのスタイル設定について詳しくは、[&#x200B; ビデオビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)を参照してください。
 
    次に、HTML ページで静的ビューアサイズを定義する例を示します。
 

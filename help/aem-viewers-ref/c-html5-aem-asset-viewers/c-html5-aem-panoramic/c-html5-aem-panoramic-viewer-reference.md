@@ -56,7 +56,7 @@ HTML5 Panoramic Viewerは、メインのJavaScript ファイルと、実行時�
 HTML5 Panoramic Viewerは、IS-Viewersを備えた実稼動対応のHTML ページを使用してポップアップモードで使用するか、ドキュメント化されたAPIを使用してターゲット web ページに統合する組み込みモードで使用できます。
 設定とスキニングは、他のHTML 5 ビューアと同様です。 すべてのスキニングは、カスタム CSSを使用して実行できます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## HTML5 Panoramic Viewerの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 

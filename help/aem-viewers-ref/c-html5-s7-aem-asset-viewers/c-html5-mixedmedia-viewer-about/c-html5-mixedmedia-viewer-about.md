@@ -54,7 +54,7 @@ IS-Viewersで提供される実稼動対応のHTML ページを使用して、Mi
 
 ビューアの設定とスキン処理の作業は、他のビューアと同様です。 すべてのスキニングは、カスタム CSSを使用して実行できます。
 
-すべてのビューアに共通する[ コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
+すべてのビューアに共通する[&#x200B; コマンド参照 – 構成属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)および[すべてのビューアに共通するコマンド参照 – URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)を参照してください
 
 ## Mixed Media Viewerの操作 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -99,7 +99,7 @@ Mixed Media Viewerは、他のモバイルアプリケーションで一般的�
 
 このビューアにはキーボードから完全にアクセス可能です。
 
-[ キーボードのアクセシビリティとナビゲーション ](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
+[&#x200B; キーボードのアクセシビリティとナビゲーション &#x200B;](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)を参照してください。
 
 ## 混在メディアビューアの埋め込み {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -187,7 +187,7 @@ web ページごとに、閲覧者の行動に対するニーズは異なりま�
 
    外部ビューアの境界を維持するには、`.s7mixedmediaviewer` トップレベル CSS クラスのサイズを絶対単位で定義します。 CSSでのサイズ変更は、HTML ページまたはカスタムビューア CSS ファイルに配置し、後でDynamic Media Classicのビューアプリセットレコードに割り当てるか、スタイルコマンドを使用して明示的に渡すことができます。
 
-   CSSを使用したビューアのスタイル設定について詳しくは、[混在メディアビューアのカスタマイズ ](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)を参照してください。
+   CSSを使用したビューアのスタイル設定について詳しくは、[混在メディアビューアのカスタマイズ &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)を参照してください。
 
    次に、HTML ページの静的外部ビューアサイズを定義する例を示します。
 
