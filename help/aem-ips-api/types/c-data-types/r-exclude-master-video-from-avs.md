@@ -8,16 +8,22 @@ autotag-review: '2026-05-13T22:20:01.998Z'
 TQID: 'https://experienceleague.adobe.com/PbBix9CqLIU1x1aN1OgSEc6uy0d7p6n5YadU3XkweIE'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 55
+source-wordcount: '55'
 ht-degree: 7%
-
 ---
-
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
 >[!IMPORTANT]
