@@ -10,21 +10,42 @@ exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
 TQID: 'https://experienceleague.adobe.com/GqkOR2872dgwk3CxxGctC3axCktGC0-iYkh8przgBjo'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
-source-wordcount: 2427
+source-wordcount: '2427'
 ht-degree: 0%
-
 ---
-
 # スマート切り抜きビデオ{#smart-crop-video}
 
 スマート切り抜きビデオビューアは、スマート切り抜きサポートの追加により、H.264形式でエンコードされたストリーミングおよびプログレッシブビデオを再生します。 Dynamic Media機能を備えたDynamic Media ClassicまたはExperience Managerから配信されます。
@@ -137,22 +158,22 @@ web ページごとに、閲覧者の行動に対するニーズは異なりま�
 
    ビューアを作成するには、HTML ヘッドにスクリプトタグを追加する必要があります。 ビューアーAPIを使用する前に、[!DNL SmartCropVideoViewer.js]を含めることを確認してください。 [!DNL SmartCropVideoViewer.js] ファイルは、標準のIS-Viewers デプロイメントの[!DNL html5/js/] サブフォルダーにあります。
 
-[!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
+   [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
-ビューアがAdobe Dynamic Media Classic サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-ViewersがインストールされているAdobe Dynamic Media Classic サーバーの1つにフルパスを指定します。
+   ビューアがAdobe Dynamic Media Classic サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-ViewersがインストールされているAdobe Dynamic Media Classic サーバーの1つにフルパスを指定します。
 
-相対パスは次のようになります。
+   相対パスは次のようになります。
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->ページ上のメイン ビューア JavaScript `include` ファイルのみを参照してください。 実行時にビューアのロジックによってダウンロードされる可能性があるweb ページコード内の他のJavaScript ファイルを参照しないでください。 特に、`/s7viewers` コンテキストパス（いわゆる統合SDK `include`）からビューアによって読み込まれたHTML5 SDK `Utils.js` ライブラリを直接参照しないでください。 その理由は、`Utils.js`または類似のランタイムビューアーライブラリの場所が、ビューアーのロジックによって完全に管理され、ビューアーリリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes`をサーバー上に保持しません。
->
->
->その結果、ビューアがページ上で使用するセカンダリ JavaScript `include`を直接参照すると、新しい製品バージョンがデプロイされる際に、将来的にビューア機能が破損します。
+   >[!NOTE]
+   >
+   >ページ上のメイン ビューア JavaScript `include` ファイルのみを参照してください。 実行時にビューアのロジックによってダウンロードされる可能性があるweb ページコード内の他のJavaScript ファイルを参照しないでください。 特に、`/s7viewers` コンテキストパス（いわゆる統合SDK `include`）からビューアによって読み込まれたHTML5 SDK `Utils.js` ライブラリを直接参照しないでください。 その理由は、`Utils.js`または類似のランタイムビューアーライブラリの場所が、ビューアーのロジックによって完全に管理され、ビューアーリリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes`をサーバー上に保持しません。
+   >
+   >
+   >その結果、ビューアがページ上で使用するセカンダリ JavaScript `include`を直接参照すると、新しい製品バージョンがデプロイされる際に、将来的にビューア機能が破損します。
 
 1. コンテナ DIVの定義。
 
@@ -309,7 +330,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ja)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

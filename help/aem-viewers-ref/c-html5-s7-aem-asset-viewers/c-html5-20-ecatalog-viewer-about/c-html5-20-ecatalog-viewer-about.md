@@ -9,21 +9,25 @@ exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
 TQID: 'https://experienceleague.adobe.com/5GsrFdmaPBW7cSQgxSUOHE-LPoasGx7TOX3dUpF0DEg'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 0%
-
 ---
-
 # eCatalog{#ecatalog}
 
 eCatalog Viewerは、電子パンフレットをスプレッド別またはページ別に表示するカタログビューアです。 eCatalogでは、追加のユーザーインターフェイス要素または専用のサムネールモードを使用して、カタログ内を移動できます。 利用者は、各ページをズームインして詳細を確認することもできます。
@@ -150,22 +154,22 @@ web ページごとに、閲覧者の行動に対するニーズは異なりま�
 
    ビューアを作成するには、HTML ヘッドにスクリプトタグを追加する必要があります。 ビューアーAPIを使用する前に、[!DNL eCatalogViewer.js]を含めることを確認してください。 [!DNL eCatalogViewer.js] ファイルは、標準のIS-Viewers デプロイメントの[!DNL html5/js/] サブフォルダーにあります。
 
-[!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
+   [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
-ビューアがAdobe Dynamic Media Classic サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-ViewersがインストールされているAdobe Dynamic Media Classic サーバーの1つにフルパスを指定します。
+   ビューアがAdobe Dynamic Media Classic サーバーのいずれかにデプロイされ、同じドメインから提供される場合は、相対パスを使用できます。 そうでない場合は、IS-ViewersがインストールされているAdobe Dynamic Media Classic サーバーの1つにフルパスを指定します。
 
-相対パスは次のようになります。
+   相対パスは次のようになります。
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
+   ```
 
->[!NOTE]
->
->ページ上のメイン ビューア JavaScript `include` ファイルのみを参照してください。 実行時にビューアのロジックによってダウンロードされる可能性があるweb ページコード内の他のJavaScript ファイルを参照しないでください。 特に、`/s7viewers` コンテキストパス（いわゆる統合SDK `include`）からビューアによって読み込まれたHTML5 SDK `Utils.js` ライブラリを直接参照しないでください。 その理由は、`Utils.js`または類似のランタイムビューアーライブラリの場所が、ビューアーのロジックによって完全に管理され、ビューアーリリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes`をサーバー上に保持しません。
->
->
->その結果、ビューアがページ上で使用するセカンダリ JavaScript `include`を直接参照すると、新しい製品バージョンがデプロイされる際に、将来的にビューア機能が破損します。
+   >[!NOTE]
+   >
+   >ページ上のメイン ビューア JavaScript `include` ファイルのみを参照してください。 実行時にビューアのロジックによってダウンロードされる可能性があるweb ページコード内の他のJavaScript ファイルを参照しないでください。 特に、`/s7viewers` コンテキストパス（いわゆる統合SDK `include`）からビューアによって読み込まれたHTML5 SDK `Utils.js` ライブラリを直接参照しないでください。 その理由は、`Utils.js`または類似のランタイムビューアーライブラリの場所が、ビューアーのロジックによって完全に管理され、ビューアーリリース間で場所が変更されるためです。 Adobeは、古いバージョンのセカンダリビューア `includes`をサーバー上に保持しません。
+   >
+   >
+   >その結果、ビューアがページ上で使用するセカンダリ JavaScript `include`を直接参照すると、新しい製品バージョンがデプロイされる際に、将来的にビューア機能が破損します。
 
 1. コンテナ DIVの定義。
 
