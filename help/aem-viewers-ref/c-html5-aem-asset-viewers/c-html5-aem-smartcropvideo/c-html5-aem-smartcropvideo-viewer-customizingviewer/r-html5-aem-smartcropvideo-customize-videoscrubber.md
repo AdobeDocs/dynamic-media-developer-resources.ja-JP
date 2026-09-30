@@ -184,7 +184,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-ビデオスクラバーのツールチップはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ビデオスクラバーのツールチップはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 **例** – 高さ10 ピクセルのカスタムトラックカラーを持つビデオスクラバーを使用してビデオビューアを設定する。 最後に、コントロールバーの上端と左端から10 ピクセルと35 ピクセルに配置します。
 

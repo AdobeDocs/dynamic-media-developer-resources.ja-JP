@@ -58,6 +58,6 @@ URLに任意の設定コマンドを設定できます。 または、API メソ
 * `SmartCropVideoPlayer.playback` （コンポーネントクラス名で修飾）
 * `cont_smartCropVideoPlayer.playback` （`cont`がコンテナ要素のIDであると仮定すると、コンポーネント IDで修飾）
 
-すべてのビューアに共通の[ コマンド参照 – コンフィギュレーション属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
+すべてのビューアに共通の[&#x200B; コマンド参照 – コンフィギュレーション属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)も参照してください。
 
-すべてのビューアに共通の[ コマンド参照 – URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)も参照してください。
+すべてのビューアに共通の[&#x200B; コマンド参照 – URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)も参照してください。

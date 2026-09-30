@@ -57,7 +57,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> アセット </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">文字列</span>}の新しいアセット ID。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph">文字列</span>&rbrace;の新しいアセット ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> データ </span> </p> </td> 
