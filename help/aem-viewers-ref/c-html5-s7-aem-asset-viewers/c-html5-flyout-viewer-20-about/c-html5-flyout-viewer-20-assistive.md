@@ -8,20 +8,28 @@ exl-id: 0f96939b-0ecc-4d4d-a084-60b023b2a5f2
 TQID: 'https://experienceleague.adobe.com/mlxoPYLJcGr5KIt6-v6sWOLqov7wOKGs5wjBEm3ol80'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: e0d8c871-755b-4042-bb9e-9b9a2648e9fe
+    internal-label: Accessibility
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Accessibility
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # 技術サポート{#assistive-technology-support}
 
 すべてのビューアーコンポーネントは、ARIA （Accessible Rich Internet Applications）の役割と属性をサポートし、スクリーンリーダーなどの支援テクノロジーとの統合を向上させます。

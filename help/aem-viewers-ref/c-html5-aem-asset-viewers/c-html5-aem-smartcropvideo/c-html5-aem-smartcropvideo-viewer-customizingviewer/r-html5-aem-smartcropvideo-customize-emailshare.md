@@ -9,18 +9,37 @@ exl-id: f2685d59-6b92-49cf-9359-dda602af4297
 TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Developer
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 3093
+source-wordcount: '3093'
 ht-degree: 0%
-
 ---
-
 # メール共有{#email-share}
 
 メール共有ツールは、ソーシャル共有パネルに追加されたボタンと、ツールがアクティブ化されたときに表示されるモーダルダイアログボックスで構成されます。 ボタンの位置は、ソーシャル共有ツールで完全に管理されます。
@@ -60,7 +79,7 @@ ht-degree: 0%
 
 ソーシャル共有パネルからボタンを削除するには、CSS クラスに`display:none` CSS プロパティを設定します。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 28 x 28 ピクセルのメール共有ボタンを設定し、4つの異なるボタンの状態ごとに異なる画像を表示する。
 
@@ -250,7 +269,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**&#x200B; 閉じるボタン**&#x200B;のCSS プロパティ
+** 閉じるボタン**のCSS プロパティ
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -289,7 +308,7 @@ background-color: #ffffff;
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+閉じるボタンのツールヒントとダイアログボックスのタイトルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – パディング、24 x 17 ピクセルのアイコン、太字の16 pt タイトルを含むダイアログヘッダーを設定する。 最後に、28 x 28 ピクセルの「閉じる」ボタンを使用して、ダイアログコンテナの上部から2 ピクセル、右側から2 ピクセルを配置します。
 
@@ -337,7 +356,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**&#x200B; ダイアログボックスのフッター**&#x200B;のCSS プロパティ
+** ダイアログボックスのフッター**のCSS プロパティ
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -468,7 +487,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 64 x 34 キャンセル ボタンと82 x 34 メール送信ボタンを含むダイアログボックスフッターを設定する場合。 最後に、テキストの色と背景色はボタンの状態ごとに異なります。
 
@@ -536,7 +555,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**&#x200B; ダイアログボックスの表示領域のCSS プロパティ &#x200B;**
+** ダイアログボックスの表示領域のCSS プロパティ **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -580,7 +599,7 @@ background-color: #ffffff;
 
 このコンテナの高さがメインダイアログボックス領域よりも高いと思われる場合は、コンポーネントによって垂直スクロールが自動的に有効になります。
 
-**&#x200B; ダイアログボックスの本文**&#x200B;のCSS プロパティ
+** ダイアログボックスの本文**のCSS プロパティ
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -632,7 +651,7 @@ background-color: #ffffff;
 
 このクラスは、フォームユーザーインターフェイスのさまざまな場所のテキストに適用できるため、ラベルのサイズや位置の制御には適していません。
 
-**&#x200B; ダイアログボックスラベルのCSS プロパティ。 &#x200B;**
+** ダイアログボックスラベルのCSS プロパティ。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -655,7 +674,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-ダイアログボックスラベルはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ダイアログボックスラベルはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – すべてのラベルを9つのピクセルフォントを持つグレーで太字に設定するには：
 
@@ -873,7 +892,7 @@ background-color: #ffffff;
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 「別の電子メールアドレスを追加」ボタンを25 ピクセルの高さに設定するには、右揃えの12 ポイントの太字フォントと、各状態に異なるテキストカラーと画像を使用します。
 
@@ -939,7 +958,7 @@ background-color: #ffffff;
 >
 >このボタンは、`state`属性セレクターをサポートしています。このセレクターを使用すると、異なるスキンを異なるボタンの状態に適用できます。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 「削除」ボタンを25 x 25 ピクセルに設定し、状態ごとに異なる画像を使用するには、次の手順を実行します。
 
@@ -968,7 +987,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**&#x200B; ダイアログボックスのコンテンツ**&#x200B;ージのCSS プロパティ
+** ダイアログボックスのコンテンツ**ージのCSS プロパティ
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1103,7 +1122,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**&#x200B; ダイアログボックスのコンテンツオリジン**&#x200B;のCSS プロパティ
+** ダイアログボックスのコンテンツオリジン**のCSS プロパティ
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
@@ -1221,7 +1240,7 @@ background-color: #ffffff;
 >
 >このメッセージは、次の値を持つ`state`属性セレクターをサポートしています：`verifyerror`、`senderror`、および`sendsuccess`。 値`verifyerror`は、インライン入力検証エラーが原因でメッセージが表示される場合に設定されます。 値`senderror`は、バックエンド電子メールサービスでエラーが報告されたときに設定されます。 電子メールが正常に送信されたときに`sendsuccess`値が設定されます。 これにより、ダイアログボックスの状態に応じてメッセージのスタイルを変更できます。
 
-エラーメッセージはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+エラーメッセージはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 10 ポイントの太字フォントを使用するようにメッセージを設定するには、左に25 ピクセルの行高と20 ピクセルのパディングがあります。 また、感嘆符アイコン、エラーがある場合は赤いテキスト、成功した場合はアイコンと緑のテキストを使用します。
 
@@ -1383,7 +1402,7 @@ background-color: #B2B2B2;
 >
 >Thumbは`state`属性セレクターをサポートしています。このセレクターを使用すると、異なる親指の状態（`up`、`down`、`over`、および`disabled`）に異なるスキンを適用できます。
 
-ボタンツールのヒントはローカライズできます。 詳しくは、[&#x200B; ユーザーインターフェイス要素のローカライゼーション &#x200B;](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
+ボタンツールのヒントはローカライズできます。 詳しくは、[ ユーザーインターフェイス要素のローカライゼーション ](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)を参照してください。
 
 例 – 28 x 45 ピクセルのスクロールバーの親指を設定するには、上部と下部に10 ピクセルの余白があり、各状態に対して異なるアートワークを設定します。
 

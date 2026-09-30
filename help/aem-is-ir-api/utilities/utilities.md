@@ -8,18 +8,22 @@ autotag-review: '2026-05-13T22:03:15.800Z'
 TQID: 'https://experienceleague.adobe.com/RV4oS2LLAAhNS7mYAEd0ebScd-U3KWG96uBPWxuqlhw'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+    internal-label: Developer
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 28
+source-wordcount: '28'
 ht-degree: 0%
-
 ---
-
 # ユーティリティ{#utilities}
 
 画像サービングユーティリティとビネットコンバータのヘルプを参照してください。

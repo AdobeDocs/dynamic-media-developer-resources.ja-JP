@@ -10,15 +10,31 @@ autotag-review: '2026-05-13T22:16:34.426Z'
 TQID: 'https://experienceleague.adobe.com/PVs-3zvwoKgc-rq6cssqCRnWH-SyyghZ5L-JguyZUl4'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # Viewer SDK名前空間{#viewer-sdk-namespace}
 
 ビューアは、多くのViewer SDK コンポーネントで構築されています。 通常、web ページはSDK コンポーネント APIと直接やり取りする必要はありません。一般的なニーズはすべてビューア API自体でカバーされています。
