@@ -30,7 +30,7 @@ Dynamic Media開発者向けリソースドキュメントAdobeへの投稿に�
 
 >[!NOTE]
 >
->お客様が提出する投稿は、 [Adobeの利用条件。](https://www.adobe.com/legal/terms.html)
+>お客様が提出する投稿は、 [Adobeの利用条件。](https://www.adobe.com/jp/legal/terms.html)
 
 ### イシューの作成 {#create-an-issue}
 

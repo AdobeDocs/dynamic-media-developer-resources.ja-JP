@@ -34,11 +34,11 @@ eCatalog Search Viewerでは、メインビューの上にある画像マップ�
 
 シンプルなURL リダイレクトの例を次に示します。
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/jp`
 
 この例では、同じURLが`loadProduct()`関数でラップされています。
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/jp");void(0);`
 
 JavaScript コードを画像マップの`HREF`属性に追加すると、そのコードがクライアントのコンピューターで実行されることに注意してください。 したがって、JavaScript コードが安全であることを確認してください。
 
